@@ -106,6 +106,21 @@ class FeatureGenerator(object):
         """
         features = []
         # Add the first token from the top-1st span on stack
+        if self.stackspan1 is not None:
+            features.append( ('Begin-Word-Stack1', self.stackspan1.text.split()[0]) )
+
+        # POS at beginning and end of EDU
+
+        # Head word set from each EDU
+
+        # Length of EDU in tokens
+
+        # Distance between EDUs
+
+        # Distance from the EDU to the beginning of the document
+
+        # Distance from the EDU to the end of the document
+
 
         for feat in features:
             yield feat
