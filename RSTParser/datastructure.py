@@ -31,6 +31,10 @@ class SpanNode(object):
         self.nodelist = []
         # Relation form: NN, NS, SN
         self.form = None
+        #POS Tags List of EDU's
+        self.posTags=[]
+        #HeadWords of EDU
+        self.headWord=None
         
 
 class ParseError(Exception):
