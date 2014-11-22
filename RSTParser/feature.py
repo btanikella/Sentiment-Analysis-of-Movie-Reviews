@@ -107,7 +107,24 @@ class FeatureGenerator(object):
         features = []
         # Add the first token from the top-1st span on stack
         if self.stackspan1 is not None:
-            features.append( ('Begin-Word-Stack1', self.stackspan1.text.split()[0]) )
+            features.append( ('Begin-Word-StackSpan1', self.stackspan1.text.split()[0]) )
+            features.append( ('End-Word-StackSpan1', self.stackspan1.text.split()[-1]))
+        if self.stackspan2 is not None:
+            features.append( ('Begin-Word-StackSpan2', self.stackspan2.text.split()[0]) )
+            features.append( ('End-Word-StackSpan2', self.stackspan2.text.split()[-1]) )
+        if self.queuespan1 is not None:
+            features.append( ('Begin-Word-QueueSpan1', self.queuespan1.text.split()[0]) )
+            features.append( ('End-Word-QueueSpan1', self.queuespan1.text.split()[-1]) )
+        if self.stackspan1 is not None and self.stackspan2 is not None:
+            features.append( ('Begin-Word-StackSpan1-StackSpan2', self.stackspan1.text.split()[0], self.stackspan2.text.split()[0]) )
+            features.append( ('End-Word-StackSpan1-StackSpan2', self.stackspan1.text.split()[-1], self.stackspan2.text.split()[-1]) )
+        if self.stackspan1 is not None and self.queuespan1 is not None:
+            features.append( ('Begin-Word-StackSpan1-QueueSpan1', self.stackspan1.text.split()[0], self.queuespan1.text.split()[0]) )
+            features.append( ('End-Word-StackSpan1-QueueSpan1', self.stackspan1.text.split()[-1], self.queuespan1.text.split()[-1]) )
+        if self.stackspan2 is not None and self.queuespan1 is not None:
+            features.append( ('Begin-Word-StackSpan2-QueueSpan1', self.stackspan2.text.split()[0], self.queuespan1.text.split()[0]) )
+            features.append( ('End-Word-StackSpan2-QueueSpan1', self.stackspan2.text.split()[-1], self.queuespan1.text.split()[-1]) )
+
 
         # POS at beginning and end of EDU
 
@@ -137,6 +154,13 @@ class FeatureGenerator(object):
             features.append('DIST-FROM-START-QueueSpan1', self.queuespan1.eduspan[0])
 
         # Distance from the EDU to the end of the document
+        if self.doclen is not None:
+            if self.stackspan1 is not None:
+                features.append( ('Dist-End-StackSpan1', self.doclen - self.stackspan1.eduspan[1]) )
+            if self.stackspan2 is not None:
+                features.append( ('Dist-End-StackSpan2', self.doclen - self.stackspan2.eduspan[1]) )
+            if self.queuespan1 is not None:
+                features.append( ('Dist-End-QueueSpan1', self.doclen - self.queuespan1.eduspan[1]) )
 
 
         for feat in features:
