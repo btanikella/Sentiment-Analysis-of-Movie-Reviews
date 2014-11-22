@@ -137,6 +137,13 @@ class FeatureGenerator(object):
         # Distance from the EDU to the beginning of the document
 
         # Distance from the EDU to the end of the document
+        if self.doclen is not None:
+            if self.stackspan1 is not None:
+                features.append( ('Dist-End-StackSpan1', self.doclen - self.stackspan1.eduspan[1]) )
+            if self.stackspan2 is not None:
+                features.append( ('Dist-End-StackSpan2', self.doclen - self.stackspan2.eduspan[1]) )
+            if self.queuespan1 is not None:
+                features.append( ('Dist-End-QueueSpan1', self.doclen - self.queuespan1.eduspan[1]) )
 
 
         for feat in features:
