@@ -13,6 +13,8 @@
 
 from datastructure import *
 from util import *
+from textblob import TextBlob
+from textblob_aptagger import PerceptronTagger
 
 class SRParser:
     """ It shouldn't be a sub-class of 'object',
@@ -27,6 +29,7 @@ class SRParser:
         """
         self.Stack = stack
         self.Queue = queue
+        self.pTagger = PerceptronTagger()
 
 
     def init(self, texts):
@@ -39,6 +42,8 @@ class SRParser:
             n = idx + 1
             node = SpanNode(prop=None)
             node.text = text
+            blob = TextBlob(node.text, pos_tagger=self.pTagger)
+            node.posTags = [t[1] for t in blob.tags]
             node.eduspan, node.nucspan = (n, n), (n, n)
             node.nucedu = n
             self.Queue.append(node)
@@ -75,6 +80,8 @@ class SRParser:
             node.lnode.pnode, node.rnode.pnode = node, node
             # Node text
             node.text = lnode.text + " " + rnode.text
+            # Node POS tags
+            node.posTags = lnode.posTags + rnode.posTags
             # EDU span
             node.eduspan = (lnode.eduspan[0],rnode.eduspan[1])
             # Nuc span / Nuc EDU
