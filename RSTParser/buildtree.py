@@ -5,11 +5,6 @@
 
 from datastructure import *
 from util import extractrelation
-from textblob import TextBlob
-from textblob_aptagger import PerceptronTagger
-
-pTagger = PerceptronTagger()
-print "created PerceptronTagger ..."
 
 def BFT(tree):
     """ Breadth-first treavsal on general RST tree
@@ -134,8 +129,6 @@ def createnode(node, content):
             node.nucedu = c[1]
         elif c[0] == 'text':
             node.text = c[1]
-            blob = TextBlob(node.text, pos_tagger=pTagger)
-            node.posTags = [t[1] for t in blob.tags]
         else:
             raise ValueError("Unrecognized property: {}".format(c[0]))
     return node
@@ -261,7 +254,6 @@ def backprop(tree):
             # Non-leaf node
             node.eduspan = __getspaninfo(node.lnode, node.rnode)
             node.text = __gettextinfo(node.lnode, node.rnode)
-            node.posTags = node.lnode.posTags + node.rnode.posTags
             if node.relation is None:
                 # If it is a new node
                 if node.prop == 'Root':

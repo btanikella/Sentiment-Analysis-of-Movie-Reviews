@@ -109,11 +109,9 @@ class FeatureGenerator(object):
         if self.stackspan1 is not None:
             features.append( ('Begin-Word-StackSpan1', self.stackspan1.text.split()[0]) )
             features.append( ('End-Word-StackSpan1', self.stackspan1.text.split()[-1]))
-            # print self.stackspan1.posTags
         if self.stackspan2 is not None:
             features.append( ('Begin-Word-StackSpan2', self.stackspan2.text.split()[0]) )
             features.append( ('End-Word-StackSpan2', self.stackspan2.text.split()[-1]) )
-            # print self.stackspan2.posTags
         if self.queuespan1 is not None:
             features.append( ('Begin-Word-QueueSpan1', self.queuespan1.text.split()[0]) )
             features.append( ('End-Word-QueueSpan1', self.queuespan1.text.split()[-1]) )
