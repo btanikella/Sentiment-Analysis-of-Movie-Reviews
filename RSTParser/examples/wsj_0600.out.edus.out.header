@@ -1,0 +1,47 @@
+Sentence #1 (22 tokens):
+Spencer J. Volk, president and chief operating officer of this consumer and industrial products company, was elected a director.
+[Text=Spencer CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=NNP] [Text=J. CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=Volk CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=,] [Text=president CharacterOffsetBegin=21 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=CC] [Text=chief CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NN] [Text=operating CharacterOffsetBegin=41 CharacterOffsetEnd=50 PartOfSpeech=VBG] [Text=officer CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=DT] [Text=consumer CharacterOffsetBegin=67 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=CC] [Text=industrial CharacterOffsetBegin=80 CharacterOffsetEnd=90 PartOfSpeech=JJ] [Text=products CharacterOffsetBegin=91 CharacterOffsetEnd=99 PartOfSpeech=NNS] [Text=company CharacterOffsetBegin=100 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=,] [Text=was CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=VBD] [Text=elected CharacterOffsetBegin=113 CharacterOffsetEnd=120 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=123 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=.] 
+root(ROOT-0, elected-19)
+nn(Volk-3, Spencer-1)
+nn(Volk-3, J.-2)
+nsubjpass(elected-19, Volk-3)
+punct(Volk-3, ,-4)
+appos(Volk-3, president-5)
+cc(president-5, and-6)
+nn(officer-9, chief-7)
+amod(officer-9, operating-8)
+conj(president-5, officer-9)
+prep(president-5, of-10)
+det(consumer-12, this-11)
+pobj(of-10, consumer-12)
+cc(consumer-12, and-13)
+amod(company-16, industrial-14)
+nn(company-16, products-15)
+conj(consumer-12, company-16)
+punct(Volk-3, ,-17)
+auxpass(elected-19, was-18)
+det(director-21, a-20)
+xcomp(elected-19, director-21)
+punct(elected-19, .-22)
+
+Sentence #2 (16 tokens):
+Mr. Volk, 55 years old, succeeds Duncan Dwight, 
+    who retired in September.
+[Text=Mr. CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=NNP] [Text=Volk CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=,] [Text=55 CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=NNS] [Text=old CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=,] [Text=succeeds CharacterOffsetBegin=162 CharacterOffsetEnd=170 PartOfSpeech=VBZ] [Text=Duncan CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=NNP] [Text=Dwight CharacterOffsetBegin=178 CharacterOffsetEnd=184 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=,] [Text=who CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=WP] [Text=retired CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=September CharacterOffsetBegin=206 CharacterOffsetEnd=215 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=.] 
+root(ROOT-0, succeeds-8)
+nn(Volk-2, Mr.-1)
+nsubj(succeeds-8, Volk-2)
+punct(Volk-2, ,-3)
+num(years-5, 55-4)
+npadvmod(old-6, years-5)
+amod(Volk-2, old-6)
+punct(Volk-2, ,-7)
+nn(Dwight-10, Duncan-9)
+dobj(succeeds-8, Dwight-10)
+punct(Dwight-10, ,-11)
+nsubj(retired-13, who-12)
+rcmod(Dwight-10, retired-13)
+prep(retired-13, in-14)
+pobj(in-14, September-15)
+punct(succeeds-8, .-16)
+
