@@ -36,7 +36,7 @@ class RSTTree(object):
         """ Build BINARY RST tree
         """
         text = open(self.fname).read()
-        self.tree = buildtree(text)
+        self.tree = buildtree(text, self.fname)
         self.tree = binarizetree(self.tree)
         self.tree = backprop(self.tree)
 
