@@ -144,10 +144,6 @@ def buildtree(text, fname=None):
     tokens = text.strip().replace('//TT_ERR','').replace('\n','').replace('(', ' ( ').replace(')', ' ) ').split()
     # print 'tokens = {}'.format(tokens)
     pos = open(fname.replace('dis', 'pos'), 'r').readlines()
-    # if '600' in fname:
-    #     print text
-    #     print fname
-    #     print pos
     queue = processtext(tokens)
     # print 'queue = {}'.format(queue)
     stack = []
@@ -198,6 +194,8 @@ def buildtree(text, fname=None):
                 # Merge
                 txt = createtext(content)
                 pos_tags = pos.pop(0).rstrip().split()
+                if not len(pos_tags):
+                    print txt
                 stack.append(( 'text', txt, pos_tags ))
             else:
                 raise ValueError("Unrecognized parsing label: {} \n\twith content = {}\n\tstack={}\n\tqueue={}".format(label, content, stack, queue))

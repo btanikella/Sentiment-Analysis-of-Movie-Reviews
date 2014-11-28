@@ -32,7 +32,7 @@ class SpanNode(object):
         # Relation form: NN, NS, SN
         self.form = None
         #POS Tags List of EDU's
-        self.posTags=[]
+        self.posTags=None
         #HeadWords of EDU
         self.headWord=None
         
