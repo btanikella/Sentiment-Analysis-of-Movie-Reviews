@@ -127,15 +127,15 @@ class FeatureGenerator(object):
 
 
         # POS at beginning and end of EDU
-        if self.stackspan1 is not None:
-            features.append( ('Begin-POS-StackSpan1', self.stackspan1.posTags[0]) )
-            features.append( ('End-POS-StackSpan1', self.stackspan1.posTags[-1]) )
-        if  self.stackspan2 is not None:
-            features.append( ('Begin-POS-StackSpan2', self.stackspan2.posTags[0]) )
-            features.append( ('End-POS-StackSpan2', self.stackspan2.posTags[-1]) )
-        if self.queuespan1 is not None:
-            features.append( ('Begin-POS-QueueSpan1', self.queuespan1.posTags[0]) )
-            features.append( ('End-POS-QueueSpan1', self.queuespan1.posTags[-1]) )
+        # if self.stackspan1 is not None:
+        #     features.append( ('Begin-POS-StackSpan1', self.stackspan1.posTags[0]) )
+        #     features.append( ('End-POS-StackSpan1', self.stackspan1.posTags[-1]) )
+        # if  self.stackspan2 is not None:
+        #     features.append( ('Begin-POS-StackSpan2', self.stackspan2.posTags[0]) )
+        #     features.append( ('End-POS-StackSpan2', self.stackspan2.posTags[-1]) )
+        # if self.queuespan1 is not None:
+        #     features.append( ('Begin-POS-QueueSpan1', self.queuespan1.posTags[0]) )
+        #     features.append( ('End-POS-QueueSpan1', self.queuespan1.posTags[-1]) )
 
         # Head word set from each EDU
 
