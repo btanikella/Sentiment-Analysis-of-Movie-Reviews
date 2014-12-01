@@ -5,7 +5,7 @@ from textblob_aptagger import PerceptronTagger
 import re
 import pdb
 
-path = './examples'
+path = './train_data'
 files = [os.path.join(path, fname) for fname in os.listdir(path) if fname.endswith('.edus')]
 tagger = PerceptronTagger()
 

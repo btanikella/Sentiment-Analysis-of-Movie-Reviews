@@ -52,7 +52,7 @@ if __name__ == '__main__':
     trainmodel()
     # Evaluate on dev/test documents
     print 'Evaluating the parsing performance ...'
-    evalparser(path='./examples', report=True)
+    evalparser(path='./test_data', report=True)
     
 
     
