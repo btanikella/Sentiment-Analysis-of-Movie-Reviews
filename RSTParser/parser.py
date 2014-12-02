@@ -29,7 +29,7 @@ class SRParser:
         self.Queue = queue
 
 
-    def init(self, texts, pos):
+    def init(self, texts):
         """ Using text to initialize Queue
 
         :type texts: list of string
