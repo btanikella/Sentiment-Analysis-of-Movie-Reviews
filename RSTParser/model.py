@@ -88,7 +88,7 @@ class ParsingModel(object):
         print 'Load model from file: {}'.format(fname)
 
 
-    def sr_parse(self, texts, pos):
+    def sr_parse(self, texts, pos=None):
         """ Shift-reduce RST parsing based on model prediction
 
         :type texts: list of string
@@ -96,7 +96,7 @@ class ParsingModel(object):
         """
         # Initialize parser
         srparser = SRParser([],[])
-        srparser.init(texts, pos)
+        srparser.init(texts)
         # Parsing
         while not srparser.endparsing():
             # Generate features

@@ -16,13 +16,13 @@ def parse(pm, fedus):
     :type fedus: string
     :param fedus: file name of an document (with segmented EDUs) 
     """
-    pos_file = open(fedus.replace('edus', 'pos'), 'r')
+    # pos_file = open(fedus.replace('edus', 'pos'), 'r')
     with open(fedus) as fin:
         edus = fin.read().split('\n')
-        pos = pos_file.read().split('\n')
+        # pos = pos_file.read().split('\n')
         if len(edus[-1]) == 0:
             edus.pop()
-    pred_rst = pm.sr_parse(edus, pos)
+    pred_rst = pm.sr_parse(edus)
     return pred_rst
 
 
