@@ -10,7 +10,7 @@ def generate_train_sample():
 	random.shuffle(data_files['pos'])
 	random.shuffle(data_files['neg'])
 	train_sample = data_files['pos'][:10] + data_files['neg'][:10]
-	test_sample = data_files['neg'][:10] + data_files['pos'][:10]
+	test_sample = data_files['neg'][100:110] + data_files['pos'][100:110]
 	for filename in (train_sample):
 		label = 'pos' if 'pos' in filename else 'neg'
 		f = open(filename, 'r')
