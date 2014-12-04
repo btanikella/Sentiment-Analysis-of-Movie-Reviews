@@ -2,6 +2,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 import os
 from pprint import pprint
 import re
+import string
 
 path = './RSTParser/train_data'
 files = [os.path.join(path, fname) for fname in os.listdir(path) if fname.endswith('.out')]
@@ -66,7 +67,7 @@ for fname in files[:1]:
 	pos_tags = []
 	head_words = []
 
-	for i,sent_edus in enumerate(sentences[:2]):
+	for i,sent_edus in enumerate(sentences[:1]):
 		# sent_edus [edu, edu, edu]
 		
 		processed_edus = [ [] for e in sent_edus ]
@@ -97,23 +98,37 @@ for fname in files[:1]:
 		# pprint(parsesD[i])
 		def get_range(idx, ranges):
 			for r in ranges:
-				if idx > r[0] and r < ranges[1]:
+				# print idx, r[0], 'greater?',idx > r[0]
+				# print idx, r[1], 'less?', idx < r[1]
+				if idx >= r[0] and idx <= r[1] + 1:
 					return r
+					# print "returning ", r, 'for index', idx
+				# elif idx > max([x[1] for x in ranges]):
+				# 	print '\nreturning ', max([x[1] for x in ranges]), idx
+				# 	return get_range(max([x[1] for x in ranges]), ranges)
+			print 'failing for ', idx, ranges
 			return 'fail'
 
-		# for p in parsesD[i]: #parsesD[i] is the parse of the sentence
-		# 	parse = p[p.find("(")+1:p.find(")")]
-		# 	parent, word = parse.split(', ')
-		# 	parent, parent_index = parent.split('-')
-		# 	word, word_index = word.split('-')
-		# 	if parent == 'ROOT' or get_range(word_index, range_to_edu.keys()) != get_range(parent_index, range_to_edu.keys()):
-		# 		print get_range(word_index, range_to_edu.keys()), get_range(parent_index, range_to_edu.keys())
-		# 		print word, parent
-		# 		heads[ range_to_edu[get_range(word_index, range_to_edu.keys())] ].append(word)
-		# pprint(heads)
-		# head_words.append(heads)
+		pprint(sent_edus)
+		for p in parsesD[i]: #parsesD[i] is the parse of the sentence
+			parse = p[p.find("(")+1:p.find(")")]
+			a, b = parse.split(', ')
+			parent, parent_index = a.split('-')[0], int(a.split('-')[1])
+			word, word_index = b.split('-')[0], int(b.split('-')[1])
+			# print parent, range_to_edu[get_range(parent_index, range_to_edu.keys())], word, range_to_edu[get_range(word_index, range_to_edu.keys())]
+
+			if parent == 'ROOT' or get_range(word_index, range_to_edu.keys()) != get_range(parent_index, range_to_edu.keys()):
+				if not( word in set(string.punctuation) or parent in set(string.punctuation) ):
+					print 'adding ...', word, parent
+					heads[ range_to_edu[get_range(word_index, range_to_edu.keys())] ].append(word)
+			
+		pprint(heads)
+		head_words.append(heads)
 
 
+
+	# Write data to files
+	
 
 
 
