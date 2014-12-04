@@ -34,7 +34,7 @@ class SpanNode(object):
         #POS Tags List of EDU's
         self.posTags=None
         #HeadWords of EDU
-        self.headWord=None
+        self.headwords=None
         
 
 class ParseError(Exception):

@@ -3,6 +3,7 @@ import os
 from pprint import pprint
 import re
 import string
+import nltk
 
 path = './RSTParser/examples'
 files = [os.path.join(path, fname) for fname in os.listdir(path) if fname.endswith('.out')]
@@ -133,7 +134,12 @@ for fname in files:
 		if len(p) == 0:
 			posfile.write(' \n')
 		for pe in p:
-			posfile.write(' '.join(pe).replace('.', '').replace(',', '').strip()+'\n')
+			posfile.write(' '.join(pe)
+				.replace('.', '')
+				.replace(',', '')
+				.replace('``', '')
+				.replace("''", '')
+				.strip()+'\n')
 	posfile.close()
 
 	headfile = open(fname.replace('.edus.out', '.headwords'), 'w')
@@ -141,6 +147,16 @@ for fname in files:
 		for he in h:
 			headfile.write(' '.join(he).strip()+'\n')
 	headfile.close()
+
+	# posfile = open(fname.replace('.edus.out', '.pos2'), 'w')
+	# for s in sentences:
+	# 	for edu in s:
+	# 		print edu
+	# 		print nltk.pos_tag(edu)
+	# 		pos = [t[1] for t in nltk.pos_tag(edu)]
+	# 		# print pos
+	# 		posfile.write(' '.join(pos)+'\n')
+	# posfile.close()
 
 
 

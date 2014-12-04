@@ -29,7 +29,7 @@ class SRParser:
         self.Queue = queue
 
 
-    def init(self, texts):
+    def init(self, texts, pos, headwords):
         """ Using text to initialize Queue
 
         :type texts: list of string
@@ -39,7 +39,8 @@ class SRParser:
             n = idx + 1
             node = SpanNode(prop=None)
             node.text = text
-            # node.posTags = pos[idx].split()
+            node.posTags = pos[idx].split()
+            node.headwords = headwords[idx].split()
             node.eduspan, node.nucspan = (n, n), (n, n)
             node.nucedu = n
             self.Queue.append(node)
@@ -77,7 +78,9 @@ class SRParser:
             # Node text
             node.text = lnode.text + " " + rnode.text
             # Node POS
-            # node.posTags = lnode.posTags + rnode.posTags
+            node.posTags = lnode.posTags + rnode.posTags
+            #Node Headwords
+            node.headwords = lnode.headwords + rnode.headwords
             # EDU span
             node.eduspan = (lnode.eduspan[0],rnode.eduspan[1])
             # Nuc span / Nuc EDU

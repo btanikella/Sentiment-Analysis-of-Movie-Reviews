@@ -5,6 +5,7 @@
 
 from datastructure import *
 from util import extractrelation
+import nltk
 
 def BFT(tree):
     """ Breadth-first treavsal on general RST tree
@@ -129,7 +130,10 @@ def createnode(node, content):
             node.nucedu = c[1]
         elif c[0] == 'text':
             node.text = c[1]
-            # node.posTags = c[2]
+            if len(c[2]) == 0:
+                print ".....", node.text
+            node.posTags = c[2]
+            node.headwords = c[3]
         else:
             raise ValueError("Unrecognized property: {}".format(c[0]))
     return node
@@ -141,9 +145,16 @@ def buildtree(text, fname=None):
     :type text: string
     :param text: RST tree read from a *.dis file
     """
+    print fname
     tokens = text.strip().replace('//TT_ERR','').replace('\n','').replace('(', ' ( ').replace(')', ' ) ').split()
     # print 'tokens = {}'.format(tokens)
-    # pos = open(fname.replace('dis', 'pos'), 'r').readlines()
+    posfile = open(fname.replace('dis', 'pos'), 'r')
+    pos = posfile.readlines()
+    posfile.close()
+    headsfile = open(fname.replace('dis', 'headwords'), 'r')
+    headwords = headsfile.readlines()
+    headsfile.close()
+
     queue = processtext(tokens)
     # print 'queue = {}'.format(queue)
     stack = []
@@ -193,10 +204,14 @@ def buildtree(text, fname=None):
             elif label == 'text':
                 # Merge
                 txt = createtext(content)
-                # pos_tags = pos.pop(0).rstrip().split()
-                # if not len(pos_tags):
-                    # print txt
-                stack.append(( 'text', txt ))
+                pos_tags = pos.pop(0).split()
+                heads = headwords.pop(0).split()
+
+                if not len(pos_tags):
+                    print '----->', txt
+                    pos_tags = ['NN', 'VB']
+
+                stack.append(( 'text', txt, pos_tags, heads ))
             else:
                 raise ValueError("Unrecognized parsing label: {} \n\twith content = {}\n\tstack={}\n\tqueue={}".format(label, content, stack, queue))
         else:
@@ -259,7 +274,8 @@ def backprop(tree):
             # Non-leaf node
             node.eduspan = __getspaninfo(node.lnode, node.rnode)
             node.text = __gettextinfo(node.lnode, node.rnode)
-            # node.posTags = node.lnode.posTags + node.rnode.posTags
+            node.posTags = node.lnode.posTags + node.rnode.posTags
+            node.headwords = node.lnode.headwords + node.rnode.headwords
             if node.relation is None:
                 # If it is a new node
                 if node.prop == 'Root':
