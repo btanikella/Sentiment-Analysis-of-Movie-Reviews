@@ -85,7 +85,7 @@ class ParsingModel(object):
         self.clf = D['clf']
         self.vocab = D['vocab']
         self.labelmap = D['idxlabelmap']
-        print 'Load model from file: {}'.format(fname)
+        # print 'Load model from file: {}'.format(fname)
 
 
     def sr_parse(self, texts, pos=None):

@@ -4,7 +4,7 @@ from pprint import pprint
 import re
 import string
 
-path = './RSTParser/train_data'
+path = './RSTParser/examples'
 files = [os.path.join(path, fname) for fname in os.listdir(path) if fname.endswith('.out')]
 
 for fname in files:
@@ -128,7 +128,7 @@ for fname in files:
 
 	# Write data to files
 	print "Writing POS and headwords for", fname
-	posfile = open(fname.replace('out', 'pos'), 'w')
+	posfile = open(fname.replace('.edus.out', '.pos'), 'w')
 	for p in pos_tags:
 		if len(p) == 0:
 			posfile.write(' \n')
@@ -136,7 +136,7 @@ for fname in files:
 			posfile.write(' '.join(pe).replace('.', '').replace(',', '').strip()+'\n')
 	posfile.close()
 
-	headfile = open(fname.replace('out', 'headwords'), 'w')
+	headfile = open(fname.replace('.edus.out', '.headwords'), 'w')
 	for h in head_words:
 		for he in h:
 			headfile.write(' '.join(he).strip()+'\n')
