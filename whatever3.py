@@ -61,17 +61,60 @@ for fname in files[:1]:
 			tokensD.append( processed_toks )
 	# pprint(tokensD)
 
-	# for i in range(len(tokensD)):
-	# 	print len( tokensD[i]), len(word_tokenize(' '.join(sentences[i])) ) 
-	print word_tokenize('This is (U.S.A.).')
 	
-	for sent_edus in sentences:
-		range_to_edu = { }
-		i = 0
-		for edu in sent_edus:
-			pass
+	edu_tokens = [] # list of sentences where each sentence is a list of edus broken into tokens
+	pos_tags = []
+	head_words = []
 
-		head_words = { i:[] for i in range(len(sent_edus) ) }
+	for i,sent_edus in enumerate(sentences[:2]):
+		# sent_edus [edu, edu, edu]
+		
+		processed_edus = [ [] for e in sent_edus ]
+		range_to_edu = {}
+		x = 0
+		for j,edu in enumerate(sent_edus):
+			r = ( x, min( x + len(word_tokenize(edu)), len(tokensD[i]) ) - 1 )
+			x += len(word_tokenize(edu))
+			range_to_edu[r] = j
+		for r in range_to_edu:
+			# pprint( sent_edus[range_to_edu[r]] )
+			# pprint( tokensD[i][r[0]:r[1]] )
+			processed_edus[range_to_edu[r]] = tokensD[i][r[0]:r[1]+1]
+		edu_tokens.append(processed_edus)
+		
+		# find pos tags for sentence and chunk it into edus
+		pos = []
+		for edu in processed_edus:
+			pos.append([ e['PartOfSpeech'] for e in edu ])
+		pos_tags.append(pos)
+
+		# pprint(processed_edus)
+		# pprint(pos)
+
+		# Find headwords in each edu
+		heads = [ [] for e in sent_edus ]
+
+		# pprint(parsesD[i])
+		def get_range(idx, ranges):
+			for r in ranges:
+				if idx > r[0] and r < ranges[1]:
+					return r
+			return 'fail'
+
+		# for p in parsesD[i]: #parsesD[i] is the parse of the sentence
+		# 	parse = p[p.find("(")+1:p.find(")")]
+		# 	parent, word = parse.split(', ')
+		# 	parent, parent_index = parent.split('-')
+		# 	word, word_index = word.split('-')
+		# 	if parent == 'ROOT' or get_range(word_index, range_to_edu.keys()) != get_range(parent_index, range_to_edu.keys()):
+		# 		print get_range(word_index, range_to_edu.keys()), get_range(parent_index, range_to_edu.keys())
+		# 		print word, parent
+		# 		heads[ range_to_edu[get_range(word_index, range_to_edu.keys())] ].append(word)
+		# pprint(heads)
+		# head_words.append(heads)
+
+
+
 
 
 
