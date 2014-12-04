@@ -130,8 +130,6 @@ def createnode(node, content):
             node.nucedu = c[1]
         elif c[0] == 'text':
             node.text = c[1]
-            if len(c[2]) == 0:
-                print ".....", node.text
             node.posTags = c[2]
             node.headwords = c[3]
         else:
@@ -149,7 +147,7 @@ def buildtree(text, fname=None):
     tokens = text.strip().replace('//TT_ERR','').replace('\n','').replace('(', ' ( ').replace(')', ' ) ').split()
     # print 'tokens = {}'.format(tokens)
     posfile = open(fname.replace('dis', 'pos'), 'r')
-    pos = posfile.readlines()
+    pos = posfile.read().rstrip().split('\n')
     posfile.close()
     headsfile = open(fname.replace('dis', 'headwords'), 'r')
     headwords = headsfile.readlines()
@@ -204,12 +202,16 @@ def buildtree(text, fname=None):
             elif label == 'text':
                 # Merge
                 txt = createtext(content)
-                pos_tags = pos.pop(0).split()
-                heads = headwords.pop(0).split()
+                # print txt, pos
+                if len(pos):
+                    pos_tags = pos.pop(0).split()
+                else:
+                    pos_tags = []
+                heads = set( headwords.pop(0).split() )
+                # print heads
 
                 if not len(pos_tags):
                     print '----->', txt
-                    pos_tags = ['NN', 'VB']
 
                 stack.append(( 'text', txt, pos_tags, heads ))
             else:
@@ -275,7 +277,7 @@ def backprop(tree):
             node.eduspan = __getspaninfo(node.lnode, node.rnode)
             node.text = __gettextinfo(node.lnode, node.rnode)
             node.posTags = node.lnode.posTags + node.rnode.posTags
-            node.headwords = node.lnode.headwords + node.rnode.headwords
+            node.headwords = node.lnode.headwords.union( node.rnode.headwords )
             if node.relation is None:
                 # If it is a new node
                 if node.prop == 'Root':

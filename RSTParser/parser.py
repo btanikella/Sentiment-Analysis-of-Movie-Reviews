@@ -40,7 +40,7 @@ class SRParser:
             node = SpanNode(prop=None)
             node.text = text
             node.posTags = pos[idx].split()
-            node.headwords = headwords[idx].split()
+            node.headwords = set( headwords[idx].split() )
             node.eduspan, node.nucspan = (n, n), (n, n)
             node.nucedu = n
             self.Queue.append(node)
@@ -80,7 +80,7 @@ class SRParser:
             # Node POS
             node.posTags = lnode.posTags + rnode.posTags
             #Node Headwords
-            node.headwords = lnode.headwords + rnode.headwords
+            node.headwords = lnode.headwords.union( rnode.headwords )
             # EDU span
             node.eduspan = (lnode.eduspan[0],rnode.eduspan[1])
             # Nuc span / Nuc EDU

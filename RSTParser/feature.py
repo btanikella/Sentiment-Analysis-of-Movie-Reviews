@@ -109,33 +109,33 @@ class FeatureGenerator(object):
         if self.stackspan1 is not None:
             features.append( ('Begin-Word-StackSpan1', self.stackspan1.text.split()[0]) )
             features.append( ('End-Word-StackSpan1', self.stackspan1.text.split()[-1]))
-        if self.stackspan2 is not None:
-            features.append( ('Begin-Word-StackSpan2', self.stackspan2.text.split()[0]) )
-            features.append( ('End-Word-StackSpan2', self.stackspan2.text.split()[-1]) )
-        if self.queuespan1 is not None:
-            features.append( ('Begin-Word-QueueSpan1', self.queuespan1.text.split()[0]) )
-            features.append( ('End-Word-QueueSpan1', self.queuespan1.text.split()[-1]) )
-        if self.stackspan1 is not None and self.stackspan2 is not None:
-            features.append( ('Begin-Word-StackSpan1-StackSpan2', self.stackspan1.text.split()[0], self.stackspan2.text.split()[0]) )
-            features.append( ('End-Word-StackSpan1-StackSpan2', self.stackspan1.text.split()[-1], self.stackspan2.text.split()[-1]) )
+        # if self.stackspan2 is not None:
+        #     features.append( ('Begin-Word-StackSpan2', self.stackspan2.text.split()[0]) )
+        #     features.append( ('End-Word-StackSpan2', self.stackspan2.text.split()[-1]) )
+        # if self.queuespan1 is not None:
+        #     features.append( ('Begin-Word-QueueSpan1', self.queuespan1.text.split()[0]) )
+        #     features.append( ('End-Word-QueueSpan1', self.queuespan1.text.split()[-1]) )
+        # if self.stackspan1 is not None and self.stackspan2 is not None:
+        #     features.append( ('Begin-Word-StackSpan1-StackSpan2', self.stackspan1.text.split()[0], self.stackspan2.text.split()[0]) )
+        #     features.append( ('End-Word-StackSpan1-StackSpan2', self.stackspan1.text.split()[-1], self.stackspan2.text.split()[-1]) )
         if self.stackspan1 is not None and self.queuespan1 is not None:
             features.append( ('Begin-Word-StackSpan1-QueueSpan1', self.stackspan1.text.split()[0], self.queuespan1.text.split()[0]) )
             features.append( ('End-Word-StackSpan1-QueueSpan1', self.stackspan1.text.split()[-1], self.queuespan1.text.split()[-1]) )
-        if self.stackspan2 is not None and self.queuespan1 is not None:
-            features.append( ('Begin-Word-StackSpan2-QueueSpan1', self.stackspan2.text.split()[0], self.queuespan1.text.split()[0]) )
-            features.append( ('End-Word-StackSpan2-QueueSpan1', self.stackspan2.text.split()[-1], self.queuespan1.text.split()[-1]) )
+        # if self.stackspan2 is not None and self.queuespan1 is not None:
+        #     features.append( ('Begin-Word-StackSpan2-QueueSpan1', self.stackspan2.text.split()[0], self.queuespan1.text.split()[0]) )
+        #     features.append( ('End-Word-StackSpan2-QueueSpan1', self.stackspan2.text.split()[-1], self.queuespan1.text.split()[-1]) )
 
 
         # POS at beginning and end of EDU
-        if self.stackspan1 is not None:
+        if self.stackspan1 is not None and len(self.stackspan1.posTags):
             features.append( ('Begin-POS-StackSpan1', self.stackspan1.posTags[0]) )
             features.append( ('End-POS-StackSpan1', self.stackspan1.posTags[-1]) )
-        if  self.stackspan2 is not None:
-            features.append( ('Begin-POS-StackSpan2', self.stackspan2.posTags[0]) )
-            features.append( ('End-POS-StackSpan2', self.stackspan2.posTags[-1]) )
-        if self.queuespan1 is not None:
-            features.append( ('Begin-POS-QueueSpan1', self.queuespan1.posTags[0]) )
-            features.append( ('End-POS-QueueSpan1', self.queuespan1.posTags[-1]) )
+        # if  self.stackspan2 is not None:
+        #     features.append( ('Begin-POS-StackSpan2', self.stackspan2.posTags[0]) )
+        #     features.append( ('End-POS-StackSpan2', self.stackspan2.posTags[-1]) )
+        if self.stackspan1 is not None and len(self.stackspan1.posTags) and self.queuespan1 is not None and len(self.queuespan1.posTags):
+            features.append( ('Begin-POS-StackSpan1-QueueSpan1', self.stackspan1.posTags[0], self.queuespan1.posTags[0]) )
+            features.append( ('End-POS-StackSpan1-QueueSpan1', self.stackspan1.posTags[-1], self.queuespan1.posTags[-1]) )
             
 
         # Head word set from each EDU
