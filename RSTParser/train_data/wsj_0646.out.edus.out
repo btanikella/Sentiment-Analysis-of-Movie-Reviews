@@ -1,0 +1,87 @@
+Sentence #1 (17 tokens):
+MEDICINE SHOPPE INTERNATIONAL Inc. declared a 3-for-2 stock split, 
+    and substantially boosted the dividend payout.
+[Text=MEDICINE CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNP] [Text=SHOPPE CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=INTERNATIONAL CharacterOffsetBegin=20 CharacterOffsetEnd=33 PartOfSpeech=NNP] [Text=Inc. CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NNP] [Text=declared CharacterOffsetBegin=39 CharacterOffsetEnd=47 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=DT] [Text=3-for-2 CharacterOffsetBegin=50 CharacterOffsetEnd=57 PartOfSpeech=JJ] [Text=stock CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text=split CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=,] [Text=and CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=CC] [Text=substantially CharacterOffsetBegin=80 CharacterOffsetEnd=93 PartOfSpeech=RB] [Text=boosted CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=dividend CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text=payout CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.] 
+root(ROOT-0, declared-5)
+nn(Inc.-4, MEDICINE-1)
+nn(Inc.-4, SHOPPE-2)
+nn(Inc.-4, INTERNATIONAL-3)
+nsubj(declared-5, Inc.-4)
+det(split-9, a-6)
+amod(split-9, 3-for-2-7)
+nn(split-9, stock-8)
+dobj(declared-5, split-9)
+punct(declared-5, ,-10)
+cc(declared-5, and-11)
+advmod(boosted-13, substantially-12)
+conj(declared-5, boosted-13)
+det(payout-16, the-14)
+nn(payout-16, dividend-15)
+dobj(boosted-13, payout-16)
+punct(declared-5, .-17)
+
+Sentence #2 (20 tokens):
+The franchiser of pharmacies said 
+    the added shares will be distributed Dec. 4 to stock of record Nov. 13.
+[Text=The CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=franchiser CharacterOffsetBegin=132 CharacterOffsetEnd=142 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN] [Text=pharmacies CharacterOffsetBegin=146 CharacterOffsetEnd=156 PartOfSpeech=NNS] [Text=said CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=added CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=VBN] [Text=shares CharacterOffsetBegin=177 CharacterOffsetEnd=183 PartOfSpeech=NNS] [Text=will CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=VB] [Text=distributed CharacterOffsetBegin=192 CharacterOffsetEnd=203 PartOfSpeech=VBN] [Text=Dec. CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=NNP] [Text=4 CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=CD] [Text=to CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=TO] [Text=stock CharacterOffsetBegin=214 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=IN] [Text=record CharacterOffsetBegin=223 CharacterOffsetEnd=229 PartOfSpeech=NN] [Text=Nov. CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NNP] [Text=13 CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=.] 
+root(ROOT-0, said-5)
+det(franchiser-2, The-1)
+nsubj(said-5, franchiser-2)
+prep(franchiser-2, of-3)
+pobj(of-3, pharmacies-4)
+det(shares-8, the-6)
+amod(shares-8, added-7)
+nsubjpass(distributed-11, shares-8)
+aux(distributed-11, will-9)
+auxpass(distributed-11, be-10)
+ccomp(said-5, distributed-11)
+tmod(distributed-11, Dec.-12)
+num(Dec.-12, 4-13)
+prep(distributed-11, to-14)
+pobj(to-14, stock-15)
+prep(stock-15, of-16)
+pobj(of-16, record-17)
+tmod(stock-15, Nov.-18)
+num(Nov.-18, 13-19)
+punct(said-5, .-20)
+
+Sentence #3 (33 tokens):
+The company also changed its dividend policy, 
+    under which holders had received an annual 10 cents-a-share payment, 
+    by declaring a four-cents-a-share dividend, 
+    to be paid quarterly on post-split shares.
+[Text=The CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=company CharacterOffsetBegin=248 CharacterOffsetEnd=255 PartOfSpeech=NN] [Text=also CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=RB] [Text=changed CharacterOffsetBegin=261 CharacterOffsetEnd=268 PartOfSpeech=VBD] [Text=its CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=PRP$] [Text=dividend CharacterOffsetBegin=273 CharacterOffsetEnd=281 PartOfSpeech=NN] [Text=policy CharacterOffsetBegin=282 CharacterOffsetEnd=288 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=,] [Text=under CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=IN] [Text=which CharacterOffsetBegin=301 CharacterOffsetEnd=306 PartOfSpeech=WDT] [Text=holders CharacterOffsetBegin=307 CharacterOffsetEnd=314 PartOfSpeech=NNS] [Text=had CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=VBD] [Text=received CharacterOffsetBegin=319 CharacterOffsetEnd=327 PartOfSpeech=VBN] [Text=an CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=DT] [Text=annual CharacterOffsetBegin=331 CharacterOffsetEnd=337 PartOfSpeech=JJ] [Text=10 CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=CD] [Text=cents-a-share CharacterOffsetBegin=341 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=payment CharacterOffsetBegin=355 CharacterOffsetEnd=362 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=,] [Text=by CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=IN] [Text=declaring CharacterOffsetBegin=372 CharacterOffsetEnd=381 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=DT] [Text=four-cents-a-share CharacterOffsetBegin=384 CharacterOffsetEnd=402 PartOfSpeech=JJ] [Text=dividend CharacterOffsetBegin=403 CharacterOffsetEnd=411 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=,] [Text=to CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=VB] [Text=paid CharacterOffsetBegin=424 CharacterOffsetEnd=428 PartOfSpeech=VBN] [Text=quarterly CharacterOffsetBegin=429 CharacterOffsetEnd=438 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=post-split CharacterOffsetBegin=442 CharacterOffsetEnd=452 PartOfSpeech=JJ] [Text=shares CharacterOffsetBegin=453 CharacterOffsetEnd=459 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=.] 
+root(ROOT-0, changed-4)
+det(company-2, The-1)
+nsubj(changed-4, company-2)
+advmod(changed-4, also-3)
+poss(policy-7, its-5)
+nn(policy-7, dividend-6)
+dobj(changed-4, policy-7)
+punct(policy-7, ,-8)
+prep(received-13, under-9)
+pobj(under-9, which-10)
+nsubj(received-13, holders-11)
+aux(received-13, had-12)
+rcmod(policy-7, received-13)
+det(payment-18, an-14)
+amod(payment-18, annual-15)
+num(payment-18, 10-16)
+amod(payment-18, cents-a-share-17)
+dobj(received-13, payment-18)
+punct(changed-4, ,-19)
+prep(changed-4, by-20)
+pcomp(by-20, declaring-21)
+det(dividend-24, a-22)
+amod(dividend-24, four-cents-a-share-23)
+dobj(declaring-21, dividend-24)
+punct(dividend-24, ,-25)
+aux(paid-28, to-26)
+auxpass(paid-28, be-27)
+infmod(dividend-24, paid-28)
+advmod(paid-28, quarterly-29)
+prep(paid-28, on-30)
+amod(shares-32, post-split-31)
+pobj(on-30, shares-32)
+punct(changed-4, .-33)
+

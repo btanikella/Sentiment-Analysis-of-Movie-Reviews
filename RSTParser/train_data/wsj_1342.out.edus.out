@@ -1,0 +1,59 @@
+Sentence #1 (21 tokens):
+Annualized interest rates on certain investments 
+    as reported by the Federal Reserve Board on a weekly-average basis: 
+    a-Discounted rate.
+[Text=Annualized CharacterOffsetBegin=4 CharacterOffsetEnd=14 PartOfSpeech=JJ] [Text=interest CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=rates CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN] [Text=certain CharacterOffsetBegin=33 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=investments CharacterOffsetBegin=41 CharacterOffsetEnd=52 PartOfSpeech=NNS] [Text=as CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=IN] [Text=reported CharacterOffsetBegin=61 CharacterOffsetEnd=69 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text=Federal CharacterOffsetBegin=77 CharacterOffsetEnd=84 PartOfSpeech=NNP] [Text=Reserve CharacterOffsetBegin=85 CharacterOffsetEnd=92 PartOfSpeech=NNP] [Text=Board CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NNP] [Text=on CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=weekly-average CharacterOffsetBegin=104 CharacterOffsetEnd=118 PartOfSpeech=JJ] [Text=basis CharacterOffsetBegin=119 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=:] [Text=a-Discounted CharacterOffsetBegin=131 CharacterOffsetEnd=143 PartOfSpeech=JJ] [Text=rate CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=.] 
+root(ROOT-0, rates-3)
+amod(rates-3, Annualized-1)
+nn(rates-3, interest-2)
+prep(rates-3, on-4)
+amod(investments-6, certain-5)
+pobj(on-4, investments-6)
+mark(reported-8, as-7)
+dep(rates-3, reported-8)
+prep(reported-8, by-9)
+det(Board-13, the-10)
+nn(Board-13, Federal-11)
+nn(Board-13, Reserve-12)
+pobj(by-9, Board-13)
+prep(reported-8, on-14)
+det(basis-17, a-15)
+amod(basis-17, weekly-average-16)
+pobj(on-14, basis-17)
+punct(rates-3, :-18)
+amod(rate-20, a-Discounted-19)
+dep(rates-3, rate-20)
+punct(rates-3, .-21)
+
+Sentence #2 (15 tokens):
+b-Week 
+    ended Wednesday, October 18, 1989 and Wednesday October 11, 1989.
+[Text=b-Week CharacterOffsetBegin=155 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=ended CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=VBD] [Text=Wednesday CharacterOffsetBegin=173 CharacterOffsetEnd=182 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=,] [Text=October CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=NNP] [Text=18 CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=,] [Text=1989 CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=CD] [Text=and CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=CC] [Text=Wednesday CharacterOffsetBegin=205 CharacterOffsetEnd=214 PartOfSpeech=NNP] [Text=October CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=NNP] [Text=11 CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=,] [Text=1989 CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, ended-2)
+nsubj(ended-2, b-Week-1)
+tmod(ended-2, Wednesday-3)
+punct(ended-2, ,-4)
+tmod(ended-2, October-5)
+num(October-5, 18-6)
+punct(October-5, ,-7)
+num(October-5, 1989-8)
+cc(October-5, and-9)
+nn(October-11, Wednesday-10)
+conj(October-5, October-11)
+num(October-11, 11-12)
+punct(October-11, ,-13)
+num(October-11, 1989-14)
+punct(ended-2, .-15)
+
+Sentence #3 (7 tokens):
+c-Yields, 
+    adjusted for constant maturity.
+[Text=c-Yields CharacterOffsetBegin=238 CharacterOffsetEnd=246 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=,] [Text=adjusted CharacterOffsetBegin=253 CharacterOffsetEnd=261 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=constant CharacterOffsetBegin=266 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=maturity CharacterOffsetBegin=275 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=.] 
+root(ROOT-0, c-Yields-1)
+punct(c-Yields-1, ,-2)
+partmod(c-Yields-1, adjusted-3)
+prep(adjusted-3, for-4)
+amod(maturity-6, constant-5)
+pobj(for-4, maturity-6)
+punct(c-Yields-1, .-7)
+

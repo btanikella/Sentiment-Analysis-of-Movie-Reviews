@@ -1,0 +1,112 @@
+Sentence #1 (20 tokens):
+Harsco Corp. said 
+    it obtained a $33.1 million export order for armored recovery vehicles and related support equipment.
+[Text=Harsco CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP] [Text=obtained CharacterOffsetBegin=30 CharacterOffsetEnd=38 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=DT] [Text=$ CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=$] [Text=33.1 CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=47 CharacterOffsetEnd=54 PartOfSpeech=CD] [Text=export CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=order CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=armored CharacterOffsetBegin=72 CharacterOffsetEnd=79 PartOfSpeech=JJ] [Text=recovery CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=vehicles CharacterOffsetBegin=89 CharacterOffsetEnd=97 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=CC] [Text=related CharacterOffsetBegin=102 CharacterOffsetEnd=109 PartOfSpeech=JJ] [Text=support CharacterOffsetBegin=110 CharacterOffsetEnd=117 PartOfSpeech=NN] [Text=equipment CharacterOffsetBegin=118 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.] 
+root(ROOT-0, said-3)
+nn(Corp.-2, Harsco-1)
+nsubj(said-3, Corp.-2)
+nsubj(obtained-5, it-4)
+ccomp(said-3, obtained-5)
+det(order-11, a-6)
+amod(order-11, $-7)
+number(million-9, 33.1-8)
+num($-7, million-9)
+nn(order-11, export-10)
+dobj(obtained-5, order-11)
+prep(order-11, for-12)
+amod(vehicles-15, armored-13)
+nn(vehicles-15, recovery-14)
+pobj(for-12, vehicles-15)
+cc(vehicles-15, and-16)
+amod(equipment-19, related-17)
+nn(equipment-19, support-18)
+conj(vehicles-15, equipment-19)
+punct(said-3, .-20)
+
+Sentence #2 (10 tokens):
+Harsco declined to say 
+    what country placed the order.
+[Text=Harsco CharacterOffsetBegin=134 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=declined CharacterOffsetBegin=141 CharacterOffsetEnd=149 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=WP] [Text=country CharacterOffsetBegin=167 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=placed CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=order CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=.] 
+root(ROOT-0, declined-2)
+nsubj(declined-2, Harsco-1)
+aux(say-4, to-3)
+xcomp(declined-2, say-4)
+det(country-6, what-5)
+nsubj(placed-7, country-6)
+ccomp(say-4, placed-7)
+det(order-9, the-8)
+dobj(placed-7, order-9)
+punct(declined-2, .-10)
+
+Sentence #3 (35 tokens):
+The company said 
+    it received an order for 23 of the vehicles, 
+    which retrieve tanks and other heavy-tracked vehicles 
+    when they break down or are damaged, 
+    and an option for 16 more.
+[Text=The CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=company CharacterOffsetBegin=202 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=said CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=PRP] [Text=received CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=DT] [Text=order CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=23 CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT] [Text=vehicles CharacterOffsetBegin=255 CharacterOffsetEnd=263 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=,] [Text=which CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=WDT] [Text=retrieve CharacterOffsetBegin=276 CharacterOffsetEnd=284 PartOfSpeech=VBP] [Text=tanks CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=CC] [Text=other CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=JJ] [Text=heavy-tracked CharacterOffsetBegin=301 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=vehicles CharacterOffsetBegin=315 CharacterOffsetEnd=323 PartOfSpeech=NNS] [Text=when CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=PRP] [Text=break CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=VBP] [Text=down CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=RP] [Text=or CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=CC] [Text=are CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=VBP] [Text=damaged CharacterOffsetBegin=357 CharacterOffsetEnd=364 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=,] [Text=and CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=CC] [Text=an CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=DT] [Text=option CharacterOffsetBegin=378 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=16 CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=CD] [Text=more CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=.] 
+root(ROOT-0, said-3)
+det(company-2, The-1)
+nsubj(said-3, company-2)
+nsubj(received-5, it-4)
+ccomp(said-3, received-5)
+det(order-7, an-6)
+dobj(received-5, order-7)
+prep(order-7, for-8)
+pobj(for-8, 23-9)
+prep(23-9, of-10)
+det(vehicles-12, the-11)
+pobj(of-10, vehicles-12)
+punct(vehicles-12, ,-13)
+nsubj(retrieve-15, which-14)
+rcmod(vehicles-12, retrieve-15)
+dobj(retrieve-15, tanks-16)
+cc(tanks-16, and-17)
+amod(vehicles-20, other-18)
+amod(vehicles-20, heavy-tracked-19)
+conj(tanks-16, vehicles-20)
+advmod(break-23, when-21)
+nsubj(break-23, they-22)
+advcl(retrieve-15, break-23)
+prt(break-23, down-24)
+cc(break-23, or-25)
+auxpass(damaged-27, are-26)
+conj(break-23, damaged-27)
+punct(received-5, ,-28)
+cc(received-5, and-29)
+det(option-31, an-30)
+conj(received-5, option-31)
+prep(option-31, for-32)
+num(more-34, 16-33)
+pobj(for-32, more-34)
+punct(said-3, .-35)
+
+Sentence #4 (8 tokens):
+Delivery is to begin in early 1991.
+[Text=Delivery CharacterOffsetBegin=403 CharacterOffsetEnd=411 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=TO] [Text=begin CharacterOffsetBegin=418 CharacterOffsetEnd=423 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=IN] [Text=early CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=JJ] [Text=1991 CharacterOffsetBegin=433 CharacterOffsetEnd=437 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, Delivery-1)
+aux(begin-4, to-3)
+xcomp(is-2, begin-4)
+prep(begin-4, in-5)
+amod(1991-7, early-6)
+pobj(in-5, 1991-7)
+punct(is-2, .-8)
+
+Sentence #5 (13 tokens):
+Harsco produces products for defense, industrial, commercial and construction markets.
+[Text=Harsco CharacterOffsetBegin=444 CharacterOffsetEnd=450 PartOfSpeech=NNP] [Text=produces CharacterOffsetBegin=451 CharacterOffsetEnd=459 PartOfSpeech=VBZ] [Text=products CharacterOffsetBegin=460 CharacterOffsetEnd=468 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=IN] [Text=defense CharacterOffsetBegin=473 CharacterOffsetEnd=480 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=,] [Text=industrial CharacterOffsetBegin=482 CharacterOffsetEnd=492 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=,] [Text=commercial CharacterOffsetBegin=494 CharacterOffsetEnd=504 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=CC] [Text=construction CharacterOffsetBegin=509 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=markets CharacterOffsetBegin=522 CharacterOffsetEnd=529 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=.] 
+root(ROOT-0, produces-2)
+nsubj(produces-2, Harsco-1)
+dobj(produces-2, products-3)
+prep(products-3, for-4)
+nn(markets-12, defense-5)
+punct(defense-5, ,-6)
+conj(defense-5, industrial-7)
+punct(defense-5, ,-8)
+conj(defense-5, commercial-9)
+cc(defense-5, and-10)
+conj(defense-5, construction-11)
+pobj(for-4, markets-12)
+punct(produces-2, .-13)
+

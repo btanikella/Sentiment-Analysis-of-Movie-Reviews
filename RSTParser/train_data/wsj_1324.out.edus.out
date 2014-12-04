@@ -1,0 +1,150 @@
+Sentence #1 (20 tokens):
+AEG AG and Siemens AG said 
+    they will launch their previously announced joint venture for power semiconductors in January.
+[Text=AEG CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NNP] [Text=AG CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=CC] [Text=Siemens CharacterOffsetBegin=15 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=AG CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=MD] [Text=launch CharacterOffsetBegin=46 CharacterOffsetEnd=52 PartOfSpeech=VB] [Text=their CharacterOffsetBegin=53 CharacterOffsetEnd=58 PartOfSpeech=PRP$] [Text=previously CharacterOffsetBegin=59 CharacterOffsetEnd=69 PartOfSpeech=RB] [Text=announced CharacterOffsetBegin=70 CharacterOffsetEnd=79 PartOfSpeech=VBN] [Text=joint CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=JJ] [Text=venture CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=IN] [Text=power CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=semiconductors CharacterOffsetBegin=104 CharacterOffsetEnd=118 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=IN] [Text=January CharacterOffsetBegin=122 CharacterOffsetEnd=129 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=.] 
+root(ROOT-0, said-6)
+nn(AG-2, AEG-1)
+nsubj(said-6, AG-2)
+cc(AG-2, and-3)
+nn(AG-5, Siemens-4)
+conj(AG-2, AG-5)
+nsubj(launch-9, they-7)
+aux(launch-9, will-8)
+ccomp(said-6, launch-9)
+poss(venture-14, their-10)
+advmod(announced-12, previously-11)
+amod(venture-14, announced-12)
+amod(venture-14, joint-13)
+dobj(launch-9, venture-14)
+prep(venture-14, for-15)
+nn(semiconductors-17, power-16)
+pobj(for-15, semiconductors-17)
+prep(launch-9, in-18)
+pobj(in-18, January-19)
+punct(said-6, .-20)
+
+Sentence #2 (16 tokens):
+The two West German electronics concerns said 
+    they have set up European Power Semiconductor Co.
+[Text=The CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=two CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=CD] [Text=West CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=JJ] [Text=German CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=JJ] [Text=electronics CharacterOffsetBegin=156 CharacterOffsetEnd=167 PartOfSpeech=NNS] [Text=concerns CharacterOffsetBegin=168 CharacterOffsetEnd=176 PartOfSpeech=NNS] [Text=said CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=VBP] [Text=set CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=VBN] [Text=up CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=RP] [Text=European CharacterOffsetBegin=204 CharacterOffsetEnd=212 PartOfSpeech=NNP] [Text=Power CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NNP] [Text=Semiconductor CharacterOffsetBegin=219 CharacterOffsetEnd=232 PartOfSpeech=NNP] [Text=Co. CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=.] 
+root(ROOT-0, said-7)
+det(concerns-6, The-1)
+num(concerns-6, two-2)
+amod(German-4, West-3)
+amod(concerns-6, German-4)
+nn(concerns-6, electronics-5)
+nsubj(said-7, concerns-6)
+nsubj(set-10, they-8)
+aux(set-10, have-9)
+ccomp(said-7, set-10)
+prt(set-10, up-11)
+nn(Co.-15, European-12)
+nn(Co.-15, Power-13)
+nn(Co.-15, Semiconductor-14)
+dobj(set-10, Co.-15)
+punct(said-7, .-16)
+
+Sentence #3 (8 tokens):
+to merge their activities in the field.
+[Text=to CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=TO] [Text=merge CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=VB] [Text=their CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=PRP$] [Text=activities CharacterOffsetBegin=257 CharacterOffsetEnd=267 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=DT] [Text=field CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=.] 
+root(ROOT-0, merge-2)
+aux(merge-2, to-1)
+poss(activities-4, their-3)
+dobj(merge-2, activities-4)
+prep(activities-4, in-5)
+det(field-7, the-6)
+pobj(in-5, field-7)
+punct(merge-2, .-8)
+
+Sentence #4 (14 tokens):
+AEG and Siemens each will hold a 50% stake in the venture.
+[Text=AEG CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=CC] [Text=Siemens CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=NNP] [Text=each CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=DT] [Text=will CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=MD] [Text=hold CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=DT] [Text=50 CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=NN] [Text=stake CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=DT] [Text=venture CharacterOffsetBegin=337 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=.] 
+root(ROOT-0, hold-6)
+dep(hold-6, AEG-1)
+cc(AEG-1, and-2)
+conj(AEG-1, Siemens-3)
+nsubj(hold-6, each-4)
+aux(hold-6, will-5)
+det(stake-10, a-7)
+number(%-9, 50-8)
+amod(stake-10, %-9)
+dobj(hold-6, stake-10)
+prep(stake-10, in-11)
+det(venture-13, the-12)
+pobj(in-11, venture-13)
+punct(hold-6, .-14)
+
+Sentence #5 (20 tokens):
+The joint venture will have nominal capital of 50 million marks 
+    ($26.9 million) 
+    and 700 employees.
+[Text=The CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=DT] [Text=joint CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=JJ] [Text=venture CharacterOffsetBegin=361 CharacterOffsetEnd=368 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=VB] [Text=nominal CharacterOffsetBegin=379 CharacterOffsetEnd=386 PartOfSpeech=JJ] [Text=capital CharacterOffsetBegin=387 CharacterOffsetEnd=394 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=IN] [Text=50 CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=401 CharacterOffsetEnd=408 PartOfSpeech=CD] [Text=marks CharacterOffsetBegin=409 CharacterOffsetEnd=414 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=-LRB-] [Text=$ CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=$] [Text=26.9 CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=427 CharacterOffsetEnd=434 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=CC] [Text=700 CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=CD] [Text=employees CharacterOffsetBegin=449 CharacterOffsetEnd=458 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=.] 
+root(ROOT-0, have-5)
+det(venture-3, The-1)
+amod(venture-3, joint-2)
+nsubj(have-5, venture-3)
+aux(have-5, will-4)
+amod(capital-7, nominal-6)
+dobj(have-5, capital-7)
+prep(capital-7, of-8)
+number(million-10, 50-9)
+num(marks-11, million-10)
+pobj(of-8, marks-11)
+punct($-13, -LRB--12)
+dep(marks-11, $-13)
+number(million-15, 26.9-14)
+num($-13, million-15)
+punct($-13, -RRB--16)
+cc(capital-7, and-17)
+num(employees-19, 700-18)
+conj(capital-7, employees-19)
+punct(have-5, .-20)
+
+Sentence #6 (11 tokens):
+It will develop, produce and market high-performance electronic parts.
+[Text=It CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=MD] [Text=develop CharacterOffsetBegin=473 CharacterOffsetEnd=480 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=,] [Text=produce CharacterOffsetBegin=482 CharacterOffsetEnd=489 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=CC] [Text=market CharacterOffsetBegin=494 CharacterOffsetEnd=500 PartOfSpeech=VB] [Text=high-performance CharacterOffsetBegin=501 CharacterOffsetEnd=517 PartOfSpeech=JJ] [Text=electronic CharacterOffsetBegin=518 CharacterOffsetEnd=528 PartOfSpeech=JJ] [Text=parts CharacterOffsetBegin=529 CharacterOffsetEnd=534 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=534 CharacterOffsetEnd=535 PartOfSpeech=.] 
+root(ROOT-0, develop-3)
+nsubj(develop-3, It-1)
+aux(develop-3, will-2)
+punct(develop-3, ,-4)
+conj(develop-3, produce-5)
+cc(develop-3, and-6)
+conj(develop-3, market-7)
+amod(parts-10, high-performance-8)
+amod(parts-10, electronic-9)
+dobj(market-7, parts-10)
+punct(develop-3, .-11)
+
+Sentence #7 (9 tokens):
+Siemens is West Germany's largest electronics group.
+[Text=Siemens CharacterOffsetBegin=541 CharacterOffsetEnd=548 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=549 CharacterOffsetEnd=551 PartOfSpeech=VBZ] [Text=West CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=NNP] [Text=Germany CharacterOffsetBegin=557 CharacterOffsetEnd=564 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=564 CharacterOffsetEnd=566 PartOfSpeech=POS] [Text=largest CharacterOffsetBegin=567 CharacterOffsetEnd=574 PartOfSpeech=JJS] [Text=electronics CharacterOffsetBegin=575 CharacterOffsetEnd=586 PartOfSpeech=NNS] [Text=group CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=.] 
+root(ROOT-0, group-8)
+nsubj(group-8, Siemens-1)
+cop(group-8, is-2)
+nn(Germany-4, West-3)
+poss(group-8, Germany-4)
+possessive(Germany-4, 's-5)
+amod(group-8, largest-6)
+nn(group-8, electronics-7)
+punct(group-8, .-9)
+
+Sentence #8 (16 tokens):
+AEG is 80% owned by Daimler-Benz AG, the country's biggest industrial concern.
+[Text=AEG CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=VBZ] [Text=80 CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=NN] [Text=owned CharacterOffsetBegin=610 CharacterOffsetEnd=615 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=616 CharacterOffsetEnd=618 PartOfSpeech=IN] [Text=Daimler-Benz CharacterOffsetBegin=619 CharacterOffsetEnd=631 PartOfSpeech=NNP] [Text=AG CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=,] [Text=the CharacterOffsetBegin=636 CharacterOffsetEnd=639 PartOfSpeech=DT] [Text=country CharacterOffsetBegin=640 CharacterOffsetEnd=647 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=647 CharacterOffsetEnd=649 PartOfSpeech=POS] [Text=biggest CharacterOffsetBegin=650 CharacterOffsetEnd=657 PartOfSpeech=JJS] [Text=industrial CharacterOffsetBegin=658 CharacterOffsetEnd=668 PartOfSpeech=JJ] [Text=concern CharacterOffsetBegin=669 CharacterOffsetEnd=676 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=.] 
+root(ROOT-0, AEG-1)
+dep(AEG-1, is-2)
+num(%-4, 80-3)
+nsubj(is-2, %-4)
+partmod(%-4, owned-5)
+prep(owned-5, by-6)
+nn(AG-8, Daimler-Benz-7)
+pobj(by-6, AG-8)
+punct(AG-8, ,-9)
+det(country-11, the-10)
+poss(concern-15, country-11)
+possessive(country-11, 's-12)
+amod(concern-15, biggest-13)
+amod(concern-15, industrial-14)
+appos(AG-8, concern-15)
+punct(AEG-1, .-16)
+

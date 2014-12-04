@@ -1,0 +1,129 @@
+Sentence #1 (4 tokens):
+BRISTOL-MYERS SQUIBB Co.
+[Text=BRISTOL-MYERS CharacterOffsetBegin=4 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=SQUIBB CharacterOffsetBegin=18 CharacterOffsetEnd=24 PartOfSpeech=NNP] [Text=Co. CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=.] 
+root(ROOT-0, Co.-3)
+nn(Co.-3, BRISTOL-MYERS-1)
+nn(Co.-3, SQUIBB-2)
+punct(Co.-3, .-4)
+
+Sentence #2 (27 tokens):
+(New York) -- 
+    Gerald C. Beddall, 47 years old, was named president of the Clairol division of this pharmaceuticals and health-care company.
+[Text=-LRB- CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=-LRB-] [Text=New CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=NNP] [Text=York CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=-RRB-] [Text=-- CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=:] [Text=Gerald CharacterOffsetBegin=53 CharacterOffsetEnd=59 PartOfSpeech=NNP] [Text=C. CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=NNP] [Text=Beddall CharacterOffsetBegin=63 CharacterOffsetEnd=70 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=,] [Text=47 CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=NNS] [Text=old CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=,] [Text=was CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=VBD] [Text=named CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=VBN] [Text=president CharacterOffsetBegin=96 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=DT] [Text=Clairol CharacterOffsetBegin=113 CharacterOffsetEnd=120 PartOfSpeech=NNP] [Text=division CharacterOffsetBegin=121 CharacterOffsetEnd=129 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=DT] [Text=pharmaceuticals CharacterOffsetBegin=138 CharacterOffsetEnd=153 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=CC] [Text=health-care CharacterOffsetBegin=158 CharacterOffsetEnd=169 PartOfSpeech=JJ] [Text=company CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=.] 
+root(ROOT-0, named-15)
+punct(York-3, -LRB--1)
+nn(York-3, New-2)
+dep(named-15, York-3)
+punct(York-3, -RRB--4)
+punct(Beddall-8, ---5)
+nn(Beddall-8, Gerald-6)
+nn(Beddall-8, C.-7)
+nsubjpass(named-15, Beddall-8)
+punct(Beddall-8, ,-9)
+num(years-11, 47-10)
+npadvmod(old-12, years-11)
+amod(Beddall-8, old-12)
+punct(Beddall-8, ,-13)
+auxpass(named-15, was-14)
+xcomp(named-15, president-16)
+prep(president-16, of-17)
+det(division-20, the-18)
+nn(division-20, Clairol-19)
+pobj(of-17, division-20)
+prep(division-20, of-21)
+det(pharmaceuticals-23, this-22)
+pobj(of-21, pharmaceuticals-23)
+cc(pharmaceuticals-23, and-24)
+amod(company-26, health-care-25)
+conj(pharmaceuticals-23, company-26)
+punct(named-15, .-27)
+
+Sentence #3 (13 tokens):
+He succeeds C. Benjamin Brooks Jr., 
+    who will retire Nov. 1.
+[Text=He CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=PRP] [Text=succeeds CharacterOffsetBegin=187 CharacterOffsetEnd=195 PartOfSpeech=VBZ] [Text=C. CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=NNP] [Text=Benjamin CharacterOffsetBegin=199 CharacterOffsetEnd=207 PartOfSpeech=NNP] [Text=Brooks CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NNP] [Text=Jr. CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=,] [Text=who CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=WP] [Text=will CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=MD] [Text=retire CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=VB] [Text=Nov. CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=NNP] [Text=1 CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=.] 
+root(ROOT-0, succeeds-2)
+nsubj(succeeds-2, He-1)
+nn(Jr.-6, C.-3)
+nn(Jr.-6, Benjamin-4)
+nn(Jr.-6, Brooks-5)
+dobj(succeeds-2, Jr.-6)
+punct(Jr.-6, ,-7)
+nsubj(retire-10, who-8)
+aux(retire-10, will-9)
+rcmod(Jr.-6, retire-10)
+tmod(retire-10, Nov.-11)
+num(Nov.-11, 1-12)
+punct(succeeds-2, .-13)
+
+Sentence #4 (18 tokens):
+Mr. Brooks declined to give his age, 
+    but he said 
+    his leaving is a normal retirement.
+[Text=Mr. CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=NNP] [Text=Brooks CharacterOffsetBegin=258 CharacterOffsetEnd=264 PartOfSpeech=NNP] [Text=declined CharacterOffsetBegin=265 CharacterOffsetEnd=273 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=TO] [Text=give CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=PRP$] [Text=age CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=,] [Text=but CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=PRP] [Text=said CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=PRP$] [Text=leaving CharacterOffsetBegin=317 CharacterOffsetEnd=324 PartOfSpeech=VBG] [Text=is CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=normal CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=JJ] [Text=retirement CharacterOffsetBegin=337 CharacterOffsetEnd=347 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=.] 
+root(ROOT-0, declined-3)
+nn(Brooks-2, Mr.-1)
+nsubj(declined-3, Brooks-2)
+aux(give-5, to-4)
+xcomp(declined-3, give-5)
+poss(age-7, his-6)
+dobj(give-5, age-7)
+punct(declined-3, ,-8)
+cc(declined-3, but-9)
+nsubj(said-11, he-10)
+conj(declined-3, said-11)
+poss(leaving-13, his-12)
+nsubj(retirement-17, leaving-13)
+cop(retirement-17, is-14)
+det(retirement-17, a-15)
+amod(retirement-17, normal-16)
+ccomp(said-11, retirement-17)
+punct(declined-3, .-18)
+
+Sentence #5 (13 tokens):
+Mr. Beddall had been executive vice president of the division since April.
+[Text=Mr. CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=NNP] [Text=Beddall CharacterOffsetBegin=358 CharacterOffsetEnd=365 PartOfSpeech=NNP] [Text=had CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=VBD] [Text=been CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=VBN] [Text=executive CharacterOffsetBegin=375 CharacterOffsetEnd=384 PartOfSpeech=JJ] [Text=vice CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=NN] [Text=president CharacterOffsetBegin=390 CharacterOffsetEnd=399 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=DT] [Text=division CharacterOffsetBegin=407 CharacterOffsetEnd=415 PartOfSpeech=NN] [Text=since CharacterOffsetBegin=416 CharacterOffsetEnd=421 PartOfSpeech=IN] [Text=April CharacterOffsetBegin=422 CharacterOffsetEnd=427 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=.] 
+root(ROOT-0, president-7)
+nn(Beddall-2, Mr.-1)
+nsubj(president-7, Beddall-2)
+aux(president-7, had-3)
+cop(president-7, been-4)
+amod(president-7, executive-5)
+nn(president-7, vice-6)
+prep(president-7, of-8)
+det(division-10, the-9)
+pobj(of-8, division-10)
+prep(president-7, since-11)
+pobj(since-11, April-12)
+punct(president-7, .-13)
+
+Sentence #6 (24 tokens):
+Clairol, 
+    which makes hair and skin products, 
+    was a division of Bristol-Myers Co. before that company's merger with Squibb Corp.
+[Text=Clairol CharacterOffsetBegin=434 CharacterOffsetEnd=441 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=,] [Text=which CharacterOffsetBegin=448 CharacterOffsetEnd=453 PartOfSpeech=WDT] [Text=makes CharacterOffsetBegin=454 CharacterOffsetEnd=459 PartOfSpeech=VBZ] [Text=hair CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=CC] [Text=skin CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=NN] [Text=products CharacterOffsetBegin=474 CharacterOffsetEnd=482 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=482 CharacterOffsetEnd=483 PartOfSpeech=,] [Text=was CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=DT] [Text=division CharacterOffsetBegin=495 CharacterOffsetEnd=503 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=504 CharacterOffsetEnd=506 PartOfSpeech=IN] [Text=Bristol-Myers CharacterOffsetBegin=507 CharacterOffsetEnd=520 PartOfSpeech=NNP] [Text=Co. CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=NNP] [Text=before CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=DT] [Text=company CharacterOffsetBegin=537 CharacterOffsetEnd=544 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=544 CharacterOffsetEnd=546 PartOfSpeech=POS] [Text=merger CharacterOffsetBegin=547 CharacterOffsetEnd=553 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=IN] [Text=Squibb CharacterOffsetBegin=559 CharacterOffsetEnd=565 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=.] 
+root(ROOT-0, division-12)
+nsubj(division-12, Clairol-1)
+punct(Clairol-1, ,-2)
+nsubj(makes-4, which-3)
+rcmod(Clairol-1, makes-4)
+nn(products-8, hair-5)
+cc(hair-5, and-6)
+conj(hair-5, skin-7)
+dobj(makes-4, products-8)
+punct(Clairol-1, ,-9)
+cop(division-12, was-10)
+det(division-12, a-11)
+prep(division-12, of-13)
+nn(Co.-15, Bristol-Myers-14)
+pobj(of-13, Co.-15)
+prep(division-12, before-16)
+det(company-18, that-17)
+poss(merger-20, company-18)
+possessive(company-18, 's-19)
+pobj(before-16, merger-20)
+prep(merger-20, with-21)
+nn(Corp.-23, Squibb-22)
+pobj(with-21, Corp.-23)
+punct(division-12, .-24)
+

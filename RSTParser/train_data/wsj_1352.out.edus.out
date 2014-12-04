@@ -1,0 +1,97 @@
+Sentence #1 (20 tokens):
+LDI Corp., Cleveland, said 
+    it will offer $50 million in commercial paper 
+    backed by lease-rental receivables.
+[Text=LDI CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=,] [Text=Cleveland CharacterOffsetBegin=15 CharacterOffsetEnd=24 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=,] [Text=said CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=MD] [Text=offer CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=VB] [Text=$ CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=$] [Text=50 CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=54 CharacterOffsetEnd=61 PartOfSpeech=CD] [Text=in CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=IN] [Text=commercial CharacterOffsetBegin=65 CharacterOffsetEnd=75 PartOfSpeech=JJ] [Text=paper CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=backed CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=lease-rental CharacterOffsetBegin=97 CharacterOffsetEnd=109 PartOfSpeech=JJ] [Text=receivables CharacterOffsetBegin=110 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.] 
+root(ROOT-0, said-6)
+nn(Corp.-2, LDI-1)
+nsubj(said-6, Corp.-2)
+punct(Corp.-2, ,-3)
+appos(Corp.-2, Cleveland-4)
+punct(Corp.-2, ,-5)
+nsubj(offer-9, it-7)
+aux(offer-9, will-8)
+ccomp(said-6, offer-9)
+dobj(offer-9, $-10)
+number(million-12, 50-11)
+num($-10, million-12)
+prep($-10, in-13)
+amod(paper-15, commercial-14)
+pobj(in-13, paper-15)
+partmod(paper-15, backed-16)
+prep(backed-16, by-17)
+amod(receivables-19, lease-rental-18)
+pobj(by-17, receivables-19)
+punct(said-6, .-20)
+
+Sentence #2 (18 tokens):
+The program matches funds 
+    raised from the sale of the commercial paper with small to medium-sized leases.
+[Text=The CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=program CharacterOffsetBegin=132 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=matches CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=VBZ] [Text=funds CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NNS] [Text=raised CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT] [Text=sale CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=commercial CharacterOffsetBegin=187 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=paper CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=IN] [Text=small CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=TO] [Text=medium-sized CharacterOffsetBegin=218 CharacterOffsetEnd=230 PartOfSpeech=JJ] [Text=leases CharacterOffsetBegin=231 CharacterOffsetEnd=237 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=.] 
+root(ROOT-0, matches-3)
+det(program-2, The-1)
+nsubj(matches-3, program-2)
+dobj(matches-3, funds-4)
+partmod(funds-4, raised-5)
+prep(raised-5, from-6)
+det(sale-8, the-7)
+pobj(from-6, sale-8)
+prep(sale-8, of-9)
+det(paper-12, the-10)
+amod(paper-12, commercial-11)
+pobj(of-9, paper-12)
+prep(sale-8, with-13)
+pobj(with-13, small-14)
+prep(small-14, to-15)
+amod(leases-17, medium-sized-16)
+pobj(to-15, leases-17)
+punct(matches-3, .-18)
+
+Sentence #3 (27 tokens):
+LDI termed the paper "non-recourse financing," 
+    meaning that investors would be repaid from the lease receivables, rather than directly by LDI Corp.
+[Text=LDI CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=NNP] [Text=termed CharacterOffsetBegin=248 CharacterOffsetEnd=254 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=paper CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=``] [Text=non-recourse CharacterOffsetBegin=266 CharacterOffsetEnd=278 PartOfSpeech=JJ] [Text=financing CharacterOffsetBegin=279 CharacterOffsetEnd=288 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=,] [Text='' CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=''] [Text=meaning CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=VBG] [Text=that CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=investors CharacterOffsetBegin=309 CharacterOffsetEnd=318 PartOfSpeech=NNS] [Text=would CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=VB] [Text=repaid CharacterOffsetBegin=328 CharacterOffsetEnd=334 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=DT] [Text=lease CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=NN] [Text=receivables CharacterOffsetBegin=350 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=,] [Text=rather CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=than CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=IN] [Text=directly CharacterOffsetBegin=375 CharacterOffsetEnd=383 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=IN] [Text=LDI CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=.] 
+root(ROOT-0, termed-2)
+nsubj(termed-2, LDI-1)
+det(paper-4, the-3)
+dep(financing-7, paper-4)
+punct(financing-7, ``-5)
+amod(financing-7, non-recourse-6)
+dep(termed-2, financing-7)
+punct(termed-2, ,-8)
+punct(termed-2, ''-9)
+xcomp(termed-2, meaning-10)
+mark(repaid-15, that-11)
+nsubjpass(repaid-15, investors-12)
+aux(repaid-15, would-13)
+auxpass(repaid-15, be-14)
+ccomp(meaning-10, repaid-15)
+prep(repaid-15, from-16)
+det(receivables-19, the-17)
+nn(receivables-19, lease-18)
+pobj(from-16, receivables-19)
+punct(repaid-15, ,-20)
+advmod(than-22, rather-21)
+prep(repaid-15, than-22)
+advmod(by-24, directly-23)
+pcomp(than-22, by-24)
+nn(Corp.-26, LDI-25)
+pobj(by-24, Corp.-26)
+punct(termed-2, .-27)
+
+Sentence #4 (12 tokens):
+LDI leases and sells data-processing, telecommunications and other high-tech equipment.
+[Text=LDI CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=NNP] [Text=leases CharacterOffsetBegin=406 CharacterOffsetEnd=412 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=CC] [Text=sells CharacterOffsetBegin=417 CharacterOffsetEnd=422 PartOfSpeech=VBZ] [Text=data-processing CharacterOffsetBegin=423 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=,] [Text=telecommunications CharacterOffsetBegin=440 CharacterOffsetEnd=458 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=CC] [Text=other CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=JJ] [Text=high-tech CharacterOffsetBegin=469 CharacterOffsetEnd=478 PartOfSpeech=JJ] [Text=equipment CharacterOffsetBegin=479 CharacterOffsetEnd=488 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=488 CharacterOffsetEnd=489 PartOfSpeech=.] 
+root(ROOT-0, leases-2)
+nn(leases-2, LDI-1)
+cc(leases-2, and-3)
+conj(leases-2, sells-4)
+dobj(sells-4, data-processing-5)
+punct(data-processing-5, ,-6)
+conj(data-processing-5, telecommunications-7)
+cc(data-processing-5, and-8)
+amod(equipment-11, other-9)
+amod(equipment-11, high-tech-10)
+conj(data-processing-5, equipment-11)
+punct(leases-2, .-12)
+

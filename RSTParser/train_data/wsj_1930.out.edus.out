@@ -1,0 +1,744 @@
+Sentence #1 (14 tokens):
+INSURERS ARE FACING billions of dollars in damage claims from the California quake.
+[Text=INSURERS CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNS] [Text=ARE CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=VBP] [Text=FACING CharacterOffsetBegin=17 CharacterOffsetEnd=23 PartOfSpeech=VBG] [Text=billions CharacterOffsetBegin=24 CharacterOffsetEnd=32 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=dollars CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=IN] [Text=damage CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=claims CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=California CharacterOffsetBegin=70 CharacterOffsetEnd=80 PartOfSpeech=NNP] [Text=quake CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=.] 
+root(ROOT-0, INSURERS-1)
+dep(INSURERS-1, ARE-2)
+partmod(ARE-2, FACING-3)
+dobj(FACING-3, billions-4)
+prep(billions-4, of-5)
+pobj(of-5, dollars-6)
+prep(billions-4, in-7)
+nn(claims-9, damage-8)
+pobj(in-7, claims-9)
+prep(claims-9, from-10)
+det(quake-13, the-11)
+nn(quake-13, California-12)
+pobj(from-10, quake-13)
+punct(INSURERS-1, .-14)
+
+Sentence #2 (17 tokens):
+But most businesses in the Bay area, 
+    including Silicon Valley, 
+    weren't greatly affected.
+[Text=But CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=CC] [Text=most CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=JJS] [Text=businesses CharacterOffsetBegin=102 CharacterOffsetEnd=112 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=Bay CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=NNP] [Text=area CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=,] [Text=including CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=VBG] [Text=Silicon CharacterOffsetBegin=145 CharacterOffsetEnd=152 PartOfSpeech=NNP] [Text=Valley CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=,] [Text=were CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=RB] [Text=greatly CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=affected CharacterOffsetBegin=182 CharacterOffsetEnd=190 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=.] 
+root(ROOT-0, affected-16)
+cc(affected-16, But-1)
+amod(businesses-3, most-2)
+nsubjpass(affected-16, businesses-3)
+prep(businesses-3, in-4)
+det(area-7, the-5)
+nn(area-7, Bay-6)
+pobj(in-4, area-7)
+punct(businesses-3, ,-8)
+prep(businesses-3, including-9)
+nn(Valley-11, Silicon-10)
+pobj(including-9, Valley-11)
+punct(businesses-3, ,-12)
+auxpass(affected-16, were-13)
+neg(affected-16, n't-14)
+advmod(affected-16, greatly-15)
+punct(affected-16, .-17)
+
+Sentence #3 (16 tokens):
+Computer and software companies in the region are expecting virtually no long-term disruption in shipments.
+[Text=Computer CharacterOffsetBegin=197 CharacterOffsetEnd=205 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=CC] [Text=software CharacterOffsetBegin=210 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=companies CharacterOffsetBegin=219 CharacterOffsetEnd=228 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=region CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=VBP] [Text=expecting CharacterOffsetBegin=247 CharacterOffsetEnd=256 PartOfSpeech=VBG] [Text=virtually CharacterOffsetBegin=257 CharacterOffsetEnd=266 PartOfSpeech=RB] [Text=no CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=long-term CharacterOffsetBegin=270 CharacterOffsetEnd=279 PartOfSpeech=JJ] [Text=disruption CharacterOffsetBegin=280 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=shipments CharacterOffsetBegin=294 CharacterOffsetEnd=303 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=.] 
+root(ROOT-0, expecting-9)
+nn(companies-4, Computer-1)
+cc(Computer-1, and-2)
+conj(Computer-1, software-3)
+nsubj(expecting-9, companies-4)
+prep(companies-4, in-5)
+det(region-7, the-6)
+pobj(in-5, region-7)
+aux(expecting-9, are-8)
+advmod(no-11, virtually-10)
+amod(disruption-13, no-11)
+amod(disruption-13, long-term-12)
+dobj(expecting-9, disruption-13)
+prep(disruption-13, in-14)
+pobj(in-14, shipments-15)
+punct(expecting-9, .-16)
+
+Sentence #4 (18 tokens):
+Also, investors quickly singled out stocks of companies 
+    expected to profit or suffer from the disaster.
+[Text=Also CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=,] [Text=investors CharacterOffsetBegin=316 CharacterOffsetEnd=325 PartOfSpeech=NNS] [Text=quickly CharacterOffsetBegin=326 CharacterOffsetEnd=333 PartOfSpeech=RB] [Text=singled CharacterOffsetBegin=334 CharacterOffsetEnd=341 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=RP] [Text=stocks CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=IN] [Text=companies CharacterOffsetBegin=356 CharacterOffsetEnd=365 PartOfSpeech=NNS] [Text=expected CharacterOffsetBegin=371 CharacterOffsetEnd=379 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=TO] [Text=profit CharacterOffsetBegin=383 CharacterOffsetEnd=389 PartOfSpeech=VB] [Text=or CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=CC] [Text=suffer CharacterOffsetBegin=393 CharacterOffsetEnd=399 PartOfSpeech=VB] [Text=from CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=DT] [Text=disaster CharacterOffsetBegin=409 CharacterOffsetEnd=417 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=.] 
+root(ROOT-0, singled-5)
+advmod(singled-5, Also-1)
+punct(singled-5, ,-2)
+nsubj(singled-5, investors-3)
+advmod(singled-5, quickly-4)
+prt(singled-5, out-6)
+dobj(singled-5, stocks-7)
+prep(stocks-7, of-8)
+pobj(of-8, companies-9)
+partmod(companies-9, expected-10)
+aux(profit-12, to-11)
+xcomp(expected-10, profit-12)
+cc(profit-12, or-13)
+conj(profit-12, suffer-14)
+prep(profit-12, from-15)
+det(disaster-17, the-16)
+pobj(from-15, disaster-17)
+punct(singled-5, .-18)
+
+Sentence #5 (13 tokens):
+Leveraged buy-outs may be curbed by two rules in pending congressional legislation.
+[Text=Leveraged CharacterOffsetBegin=425 CharacterOffsetEnd=434 PartOfSpeech=JJ] [Text=buy-outs CharacterOffsetBegin=435 CharacterOffsetEnd=443 PartOfSpeech=NNS] [Text=may CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=448 CharacterOffsetEnd=450 PartOfSpeech=VB] [Text=curbed CharacterOffsetBegin=451 CharacterOffsetEnd=457 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=458 CharacterOffsetEnd=460 PartOfSpeech=IN] [Text=two CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=CD] [Text=rules CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=IN] [Text=pending CharacterOffsetBegin=474 CharacterOffsetEnd=481 PartOfSpeech=VBG] [Text=congressional CharacterOffsetBegin=482 CharacterOffsetEnd=495 PartOfSpeech=JJ] [Text=legislation CharacterOffsetBegin=496 CharacterOffsetEnd=507 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=.] 
+root(ROOT-0, curbed-5)
+amod(buy-outs-2, Leveraged-1)
+nsubjpass(curbed-5, buy-outs-2)
+aux(curbed-5, may-3)
+auxpass(curbed-5, be-4)
+prep(curbed-5, by-6)
+num(rules-8, two-7)
+pobj(by-6, rules-8)
+prep(curbed-5, in-9)
+amod(legislation-12, pending-10)
+amod(legislation-12, congressional-11)
+pobj(in-9, legislation-12)
+punct(curbed-5, .-13)
+
+Sentence #6 (33 tokens):
+The provisions, in deficit-reduction bills 
+    recently passed by the House and Senate, 
+    could raise the price tags of such deals by up to 10% 
+    and cool the takeover boom.
+[Text=The CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=provisions CharacterOffsetBegin=518 CharacterOffsetEnd=528 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=,] [Text=in CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=IN] [Text=deficit-reduction CharacterOffsetBegin=533 CharacterOffsetEnd=550 PartOfSpeech=NN] [Text=bills CharacterOffsetBegin=551 CharacterOffsetEnd=556 PartOfSpeech=NNS] [Text=recently CharacterOffsetBegin=562 CharacterOffsetEnd=570 PartOfSpeech=RB] [Text=passed CharacterOffsetBegin=571 CharacterOffsetEnd=577 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=DT] [Text=House CharacterOffsetBegin=585 CharacterOffsetEnd=590 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=CC] [Text=Senate CharacterOffsetBegin=595 CharacterOffsetEnd=601 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=,] [Text=could CharacterOffsetBegin=608 CharacterOffsetEnd=613 PartOfSpeech=MD] [Text=raise CharacterOffsetBegin=614 CharacterOffsetEnd=619 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=DT] [Text=price CharacterOffsetBegin=624 CharacterOffsetEnd=629 PartOfSpeech=NN] [Text=tags CharacterOffsetBegin=630 CharacterOffsetEnd=634 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=635 CharacterOffsetEnd=637 PartOfSpeech=IN] [Text=such CharacterOffsetBegin=638 CharacterOffsetEnd=642 PartOfSpeech=JJ] [Text=deals CharacterOffsetBegin=643 CharacterOffsetEnd=648 PartOfSpeech=NNS] [Text=by CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=IN] [Text=up CharacterOffsetBegin=652 CharacterOffsetEnd=654 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=TO] [Text=10 CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=CC] [Text=cool CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=DT] [Text=takeover CharacterOffsetBegin=680 CharacterOffsetEnd=688 PartOfSpeech=NN] [Text=boom CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=693 CharacterOffsetEnd=694 PartOfSpeech=.] 
+root(ROOT-0, raise-16)
+det(provisions-2, The-1)
+nsubj(raise-16, provisions-2)
+punct(provisions-2, ,-3)
+prep(provisions-2, in-4)
+nn(bills-6, deficit-reduction-5)
+pobj(in-4, bills-6)
+advmod(passed-8, recently-7)
+partmod(bills-6, passed-8)
+prep(passed-8, by-9)
+det(House-11, the-10)
+pobj(by-9, House-11)
+cc(House-11, and-12)
+conj(House-11, Senate-13)
+punct(provisions-2, ,-14)
+aux(raise-16, could-15)
+det(tags-19, the-17)
+nn(tags-19, price-18)
+dobj(raise-16, tags-19)
+prep(tags-19, of-20)
+amod(deals-22, such-21)
+pobj(of-20, deals-22)
+prep(raise-16, by-23)
+quantmod(10-26, up-24)
+dep(10-26, to-25)
+num(%-27, 10-26)
+pobj(by-23, %-27)
+cc(raise-16, and-28)
+conj(raise-16, cool-29)
+det(boom-32, the-30)
+nn(boom-32, takeover-31)
+dobj(cool-29, boom-32)
+punct(raise-16, .-33)
+
+Sentence #7 (18 tokens):
+A bill 
+    giving the Transportation Department the power 
+    to block airline leveraged buy-outs 
+    cleared a House panel.
+[Text=A CharacterOffsetBegin=701 CharacterOffsetEnd=702 PartOfSpeech=DT] [Text=bill CharacterOffsetBegin=703 CharacterOffsetEnd=707 PartOfSpeech=NN] [Text=giving CharacterOffsetBegin=713 CharacterOffsetEnd=719 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=DT] [Text=Transportation CharacterOffsetBegin=724 CharacterOffsetEnd=738 PartOfSpeech=NNP] [Text=Department CharacterOffsetBegin=739 CharacterOffsetEnd=749 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=DT] [Text=power CharacterOffsetBegin=754 CharacterOffsetEnd=759 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=765 CharacterOffsetEnd=767 PartOfSpeech=TO] [Text=block CharacterOffsetBegin=768 CharacterOffsetEnd=773 PartOfSpeech=VB] [Text=airline CharacterOffsetBegin=774 CharacterOffsetEnd=781 PartOfSpeech=NN] [Text=leveraged CharacterOffsetBegin=782 CharacterOffsetEnd=791 PartOfSpeech=JJ] [Text=buy-outs CharacterOffsetBegin=792 CharacterOffsetEnd=800 PartOfSpeech=NNS] [Text=cleared CharacterOffsetBegin=806 CharacterOffsetEnd=813 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=814 CharacterOffsetEnd=815 PartOfSpeech=DT] [Text=House CharacterOffsetBegin=816 CharacterOffsetEnd=821 PartOfSpeech=NNP] [Text=panel CharacterOffsetBegin=822 CharacterOffsetEnd=827 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=.] 
+root(ROOT-0, cleared-14)
+det(bill-2, A-1)
+nsubj(cleared-14, bill-2)
+partmod(bill-2, giving-3)
+det(Department-6, the-4)
+nn(Department-6, Transportation-5)
+iobj(giving-3, Department-6)
+det(power-8, the-7)
+dobj(giving-3, power-8)
+aux(block-10, to-9)
+infmod(power-8, block-10)
+nn(buy-outs-13, airline-11)
+amod(buy-outs-13, leveraged-12)
+dobj(block-10, buy-outs-13)
+det(panel-17, a-15)
+nn(panel-17, House-16)
+dobj(cleared-14, panel-17)
+punct(cleared-14, .-18)
+
+Sentence #8 (13 tokens):
+But Secretary Skinner said 
+    he would urge Bush to veto the bill.
+[Text=But CharacterOffsetBegin=834 CharacterOffsetEnd=837 PartOfSpeech=CC] [Text=Secretary CharacterOffsetBegin=838 CharacterOffsetEnd=847 PartOfSpeech=NNP] [Text=Skinner CharacterOffsetBegin=848 CharacterOffsetEnd=855 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=856 CharacterOffsetEnd=860 PartOfSpeech=VBD] [Text=he CharacterOffsetBegin=866 CharacterOffsetEnd=868 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=869 CharacterOffsetEnd=874 PartOfSpeech=MD] [Text=urge CharacterOffsetBegin=875 CharacterOffsetEnd=879 PartOfSpeech=VB] [Text=Bush CharacterOffsetBegin=880 CharacterOffsetEnd=884 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=885 CharacterOffsetEnd=887 PartOfSpeech=TO] [Text=veto CharacterOffsetBegin=888 CharacterOffsetEnd=892 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=893 CharacterOffsetEnd=896 PartOfSpeech=DT] [Text=bill CharacterOffsetBegin=897 CharacterOffsetEnd=901 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=901 CharacterOffsetEnd=902 PartOfSpeech=.] 
+root(ROOT-0, said-4)
+cc(said-4, But-1)
+nn(Skinner-3, Secretary-2)
+nsubj(said-4, Skinner-3)
+nsubj(urge-7, he-5)
+aux(urge-7, would-6)
+ccomp(said-4, urge-7)
+dobj(urge-7, Bush-8)
+aux(veto-10, to-9)
+xcomp(urge-7, veto-10)
+det(bill-12, the-11)
+dobj(veto-10, bill-12)
+punct(said-4, .-13)
+
+Sentence #9 (12 tokens):
+Housing starts sank 5.2% in September to a seven-year low.
+[Text=Housing CharacterOffsetBegin=909 CharacterOffsetEnd=916 PartOfSpeech=NN] [Text=starts CharacterOffsetBegin=917 CharacterOffsetEnd=923 PartOfSpeech=VBZ] [Text=sank CharacterOffsetBegin=924 CharacterOffsetEnd=928 PartOfSpeech=VBD] [Text=5.2 CharacterOffsetBegin=929 CharacterOffsetEnd=932 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=932 CharacterOffsetEnd=933 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=934 CharacterOffsetEnd=936 PartOfSpeech=IN] [Text=September CharacterOffsetBegin=937 CharacterOffsetEnd=946 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=947 CharacterOffsetEnd=949 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=950 CharacterOffsetEnd=951 PartOfSpeech=DT] [Text=seven-year CharacterOffsetBegin=952 CharacterOffsetEnd=962 PartOfSpeech=JJ] [Text=low CharacterOffsetBegin=963 CharacterOffsetEnd=966 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=966 CharacterOffsetEnd=967 PartOfSpeech=.] 
+root(ROOT-0, sank-3)
+nn(starts-2, Housing-1)
+nsubj(sank-3, starts-2)
+num(%-5, 5.2-4)
+dobj(sank-3, %-5)
+prep(sank-3, in-6)
+pobj(in-6, September-7)
+prep(sank-3, to-8)
+det(low-11, a-9)
+amod(low-11, seven-year-10)
+pobj(to-8, low-11)
+punct(sank-3, .-12)
+
+Sentence #10 (25 tokens):
+The drop, 
+    following a 6.2% decline in August, 
+    indicates 
+    the industry is still being hurt by the Fed's anti-inflation battle.
+[Text=The CharacterOffsetBegin=973 CharacterOffsetEnd=976 PartOfSpeech=DT] [Text=drop CharacterOffsetBegin=977 CharacterOffsetEnd=981 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=981 CharacterOffsetEnd=982 PartOfSpeech=,] [Text=following CharacterOffsetBegin=988 CharacterOffsetEnd=997 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=998 CharacterOffsetEnd=999 PartOfSpeech=DT] [Text=6.2 CharacterOffsetBegin=1000 CharacterOffsetEnd=1003 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=1003 CharacterOffsetEnd=1004 PartOfSpeech=NN] [Text=decline CharacterOffsetBegin=1005 CharacterOffsetEnd=1012 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=1013 CharacterOffsetEnd=1015 PartOfSpeech=IN] [Text=August CharacterOffsetBegin=1016 CharacterOffsetEnd=1022 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=1022 CharacterOffsetEnd=1023 PartOfSpeech=,] [Text=indicates CharacterOffsetBegin=1029 CharacterOffsetEnd=1038 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=1044 CharacterOffsetEnd=1047 PartOfSpeech=DT] [Text=industry CharacterOffsetBegin=1048 CharacterOffsetEnd=1056 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=1057 CharacterOffsetEnd=1059 PartOfSpeech=VBZ] [Text=still CharacterOffsetBegin=1060 CharacterOffsetEnd=1065 PartOfSpeech=RB] [Text=being CharacterOffsetBegin=1066 CharacterOffsetEnd=1071 PartOfSpeech=VBG] [Text=hurt CharacterOffsetBegin=1072 CharacterOffsetEnd=1076 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=1077 CharacterOffsetEnd=1079 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1080 CharacterOffsetEnd=1083 PartOfSpeech=DT] [Text=Fed CharacterOffsetBegin=1084 CharacterOffsetEnd=1087 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=1087 CharacterOffsetEnd=1089 PartOfSpeech=POS] [Text=anti-inflation CharacterOffsetBegin=1090 CharacterOffsetEnd=1104 PartOfSpeech=JJ] [Text=battle CharacterOffsetBegin=1105 CharacterOffsetEnd=1111 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1111 CharacterOffsetEnd=1112 PartOfSpeech=.] 
+root(ROOT-0, indicates-12)
+det(drop-2, The-1)
+nsubj(indicates-12, drop-2)
+punct(drop-2, ,-3)
+prep(drop-2, following-4)
+det(decline-8, a-5)
+number(%-7, 6.2-6)
+amod(decline-8, %-7)
+pobj(following-4, decline-8)
+prep(decline-8, in-9)
+pobj(in-9, August-10)
+punct(drop-2, ,-11)
+det(industry-14, the-13)
+nsubjpass(hurt-18, industry-14)
+aux(hurt-18, is-15)
+advmod(hurt-18, still-16)
+auxpass(hurt-18, being-17)
+ccomp(indicates-12, hurt-18)
+prep(hurt-18, by-19)
+det(Fed-21, the-20)
+poss(battle-24, Fed-21)
+possessive(Fed-21, 's-22)
+amod(battle-24, anti-inflation-23)
+pobj(by-19, battle-24)
+punct(indicates-12, .-25)
+
+Sentence #11 (25 tokens):
+IBM plans to buy back $1 billion of its common shares, a move 
+    likely to help the computer giant's battered stock.
+[Text=IBM CharacterOffsetBegin=1119 CharacterOffsetEnd=1122 PartOfSpeech=NNP] [Text=plans CharacterOffsetBegin=1123 CharacterOffsetEnd=1128 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=1129 CharacterOffsetEnd=1131 PartOfSpeech=TO] [Text=buy CharacterOffsetBegin=1132 CharacterOffsetEnd=1135 PartOfSpeech=VB] [Text=back CharacterOffsetBegin=1136 CharacterOffsetEnd=1140 PartOfSpeech=RB] [Text=$ CharacterOffsetBegin=1141 CharacterOffsetEnd=1142 PartOfSpeech=$] [Text=1 CharacterOffsetBegin=1142 CharacterOffsetEnd=1143 PartOfSpeech=CD] [Text=billion CharacterOffsetBegin=1144 CharacterOffsetEnd=1151 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=1152 CharacterOffsetEnd=1154 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=1155 CharacterOffsetEnd=1158 PartOfSpeech=PRP$] [Text=common CharacterOffsetBegin=1159 CharacterOffsetEnd=1165 PartOfSpeech=JJ] [Text=shares CharacterOffsetBegin=1166 CharacterOffsetEnd=1172 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=1172 CharacterOffsetEnd=1173 PartOfSpeech=,] [Text=a CharacterOffsetBegin=1174 CharacterOffsetEnd=1175 PartOfSpeech=DT] [Text=move CharacterOffsetBegin=1176 CharacterOffsetEnd=1180 PartOfSpeech=NN] [Text=likely CharacterOffsetBegin=1186 CharacterOffsetEnd=1192 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=1193 CharacterOffsetEnd=1195 PartOfSpeech=TO] [Text=help CharacterOffsetBegin=1196 CharacterOffsetEnd=1200 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=1201 CharacterOffsetEnd=1204 PartOfSpeech=DT] [Text=computer CharacterOffsetBegin=1205 CharacterOffsetEnd=1213 PartOfSpeech=NN] [Text=giant CharacterOffsetBegin=1214 CharacterOffsetEnd=1219 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=1219 CharacterOffsetEnd=1221 PartOfSpeech=POS] [Text=battered CharacterOffsetBegin=1222 CharacterOffsetEnd=1230 PartOfSpeech=JJ] [Text=stock CharacterOffsetBegin=1231 CharacterOffsetEnd=1236 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1236 CharacterOffsetEnd=1237 PartOfSpeech=.] 
+root(ROOT-0, plans-2)
+nsubj(plans-2, IBM-1)
+aux(buy-4, to-3)
+xcomp(plans-2, buy-4)
+prt(buy-4, back-5)
+dobj(buy-4, $-6)
+number(billion-8, 1-7)
+num($-6, billion-8)
+prep($-6, of-9)
+poss(shares-12, its-10)
+amod(shares-12, common-11)
+pobj(of-9, shares-12)
+punct(buy-4, ,-13)
+det(move-15, a-14)
+npadvmod(buy-4, move-15)
+amod(move-15, likely-16)
+aux(help-18, to-17)
+xcomp(likely-16, help-18)
+det(giant-21, the-19)
+nn(giant-21, computer-20)
+poss(stock-24, giant-21)
+possessive(giant-21, 's-22)
+amod(stock-24, battered-23)
+dobj(help-18, stock-24)
+punct(plans-2, .-25)
+
+Sentence #12 (19 tokens):
+The buy-back, 
+    which wasn't a complete surprise, 
+    was announced 
+    after the stock market had closed.
+[Text=The CharacterOffsetBegin=1243 CharacterOffsetEnd=1246 PartOfSpeech=DT] [Text=buy-back CharacterOffsetBegin=1247 CharacterOffsetEnd=1255 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1255 CharacterOffsetEnd=1256 PartOfSpeech=,] [Text=which CharacterOffsetBegin=1262 CharacterOffsetEnd=1267 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=1268 CharacterOffsetEnd=1271 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=1271 CharacterOffsetEnd=1274 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=1275 CharacterOffsetEnd=1276 PartOfSpeech=DT] [Text=complete CharacterOffsetBegin=1277 CharacterOffsetEnd=1285 PartOfSpeech=JJ] [Text=surprise CharacterOffsetBegin=1286 CharacterOffsetEnd=1294 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1294 CharacterOffsetEnd=1295 PartOfSpeech=,] [Text=was CharacterOffsetBegin=1301 CharacterOffsetEnd=1304 PartOfSpeech=VBD] [Text=announced CharacterOffsetBegin=1305 CharacterOffsetEnd=1314 PartOfSpeech=VBN] [Text=after CharacterOffsetBegin=1320 CharacterOffsetEnd=1325 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1326 CharacterOffsetEnd=1329 PartOfSpeech=DT] [Text=stock CharacterOffsetBegin=1330 CharacterOffsetEnd=1335 PartOfSpeech=NN] [Text=market CharacterOffsetBegin=1336 CharacterOffsetEnd=1342 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=1343 CharacterOffsetEnd=1346 PartOfSpeech=VBD] [Text=closed CharacterOffsetBegin=1347 CharacterOffsetEnd=1353 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=1353 CharacterOffsetEnd=1354 PartOfSpeech=.] 
+root(ROOT-0, announced-12)
+det(buy-back-2, The-1)
+nsubjpass(announced-12, buy-back-2)
+punct(buy-back-2, ,-3)
+nsubj(surprise-9, which-4)
+cop(surprise-9, was-5)
+neg(surprise-9, n't-6)
+det(surprise-9, a-7)
+amod(surprise-9, complete-8)
+rcmod(buy-back-2, surprise-9)
+punct(buy-back-2, ,-10)
+auxpass(announced-12, was-11)
+mark(closed-18, after-13)
+det(market-16, the-14)
+nn(market-16, stock-15)
+nsubj(closed-18, market-16)
+aux(closed-18, had-17)
+advcl(announced-12, closed-18)
+punct(announced-12, .-19)
+
+Sentence #13 (13 tokens):
+A capital-gains tax cut plan has been worked out by Senate Republicans.
+[Text=A CharacterOffsetBegin=1361 CharacterOffsetEnd=1362 PartOfSpeech=DT] [Text=capital-gains CharacterOffsetBegin=1363 CharacterOffsetEnd=1376 PartOfSpeech=NNS] [Text=tax CharacterOffsetBegin=1377 CharacterOffsetEnd=1380 PartOfSpeech=NN] [Text=cut CharacterOffsetBegin=1381 CharacterOffsetEnd=1384 PartOfSpeech=NN] [Text=plan CharacterOffsetBegin=1385 CharacterOffsetEnd=1389 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=1390 CharacterOffsetEnd=1393 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=1394 CharacterOffsetEnd=1398 PartOfSpeech=VBN] [Text=worked CharacterOffsetBegin=1399 CharacterOffsetEnd=1405 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=1406 CharacterOffsetEnd=1409 PartOfSpeech=RP] [Text=by CharacterOffsetBegin=1410 CharacterOffsetEnd=1412 PartOfSpeech=IN] [Text=Senate CharacterOffsetBegin=1413 CharacterOffsetEnd=1419 PartOfSpeech=NNP] [Text=Republicans CharacterOffsetBegin=1420 CharacterOffsetEnd=1431 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=1431 CharacterOffsetEnd=1432 PartOfSpeech=.] 
+root(ROOT-0, worked-8)
+det(plan-5, A-1)
+nn(plan-5, capital-gains-2)
+nn(plan-5, tax-3)
+nn(plan-5, cut-4)
+nsubjpass(worked-8, plan-5)
+aux(worked-8, has-6)
+auxpass(worked-8, been-7)
+prt(worked-8, out-9)
+prep(worked-8, by-10)
+nn(Republicans-12, Senate-11)
+pobj(by-10, Republicans-12)
+punct(worked-8, .-13)
+
+Sentence #14 (11 tokens):
+A similar proposal may be introduced soon by Senate Democrats.
+[Text=A CharacterOffsetBegin=1438 CharacterOffsetEnd=1439 PartOfSpeech=DT] [Text=similar CharacterOffsetBegin=1440 CharacterOffsetEnd=1447 PartOfSpeech=JJ] [Text=proposal CharacterOffsetBegin=1448 CharacterOffsetEnd=1456 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=1457 CharacterOffsetEnd=1460 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=1461 CharacterOffsetEnd=1463 PartOfSpeech=VB] [Text=introduced CharacterOffsetBegin=1464 CharacterOffsetEnd=1474 PartOfSpeech=VBN] [Text=soon CharacterOffsetBegin=1475 CharacterOffsetEnd=1479 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=1480 CharacterOffsetEnd=1482 PartOfSpeech=IN] [Text=Senate CharacterOffsetBegin=1483 CharacterOffsetEnd=1489 PartOfSpeech=NNP] [Text=Democrats CharacterOffsetBegin=1490 CharacterOffsetEnd=1499 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=1499 CharacterOffsetEnd=1500 PartOfSpeech=.] 
+root(ROOT-0, introduced-6)
+det(proposal-3, A-1)
+amod(proposal-3, similar-2)
+nsubjpass(introduced-6, proposal-3)
+aux(introduced-6, may-4)
+auxpass(introduced-6, be-5)
+advmod(introduced-6, soon-7)
+prep(introduced-6, by-8)
+nn(Democrats-10, Senate-9)
+pobj(by-8, Democrats-10)
+punct(introduced-6, .-11)
+
+Sentence #15 (23 tokens):
+British Airways said 
+    it is seeking improved terms and a sharply lower price in any revised bid for United Air's parent.
+[Text=British CharacterOffsetBegin=1507 CharacterOffsetEnd=1514 PartOfSpeech=NNP] [Text=Airways CharacterOffsetBegin=1515 CharacterOffsetEnd=1522 PartOfSpeech=NNPS] [Text=said CharacterOffsetBegin=1523 CharacterOffsetEnd=1527 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=1533 CharacterOffsetEnd=1535 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1536 CharacterOffsetEnd=1538 PartOfSpeech=VBZ] [Text=seeking CharacterOffsetBegin=1539 CharacterOffsetEnd=1546 PartOfSpeech=VBG] [Text=improved CharacterOffsetBegin=1547 CharacterOffsetEnd=1555 PartOfSpeech=VBN] [Text=terms CharacterOffsetBegin=1556 CharacterOffsetEnd=1561 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=1562 CharacterOffsetEnd=1565 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=1566 CharacterOffsetEnd=1567 PartOfSpeech=DT] [Text=sharply CharacterOffsetBegin=1568 CharacterOffsetEnd=1575 PartOfSpeech=RB] [Text=lower CharacterOffsetBegin=1576 CharacterOffsetEnd=1581 PartOfSpeech=JJR] [Text=price CharacterOffsetBegin=1582 CharacterOffsetEnd=1587 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=1588 CharacterOffsetEnd=1590 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=1591 CharacterOffsetEnd=1594 PartOfSpeech=DT] [Text=revised CharacterOffsetBegin=1595 CharacterOffsetEnd=1602 PartOfSpeech=VBN] [Text=bid CharacterOffsetBegin=1603 CharacterOffsetEnd=1606 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=1607 CharacterOffsetEnd=1610 PartOfSpeech=IN] [Text=United CharacterOffsetBegin=1611 CharacterOffsetEnd=1617 PartOfSpeech=NNP] [Text=Air CharacterOffsetBegin=1618 CharacterOffsetEnd=1621 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=1621 CharacterOffsetEnd=1623 PartOfSpeech=POS] [Text=parent CharacterOffsetBegin=1624 CharacterOffsetEnd=1630 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1630 CharacterOffsetEnd=1631 PartOfSpeech=.] 
+root(ROOT-0, said-3)
+nn(Airways-2, British-1)
+nsubj(said-3, Airways-2)
+nsubj(seeking-6, it-4)
+aux(seeking-6, is-5)
+ccomp(said-3, seeking-6)
+amod(terms-8, improved-7)
+dobj(seeking-6, terms-8)
+cc(terms-8, and-9)
+det(price-13, a-10)
+advmod(lower-12, sharply-11)
+amod(price-13, lower-12)
+conj(terms-8, price-13)
+prep(price-13, in-14)
+det(bid-17, any-15)
+amod(bid-17, revised-16)
+pobj(in-14, bid-17)
+prep(bid-17, for-18)
+nn(Air-20, United-19)
+poss(parent-22, Air-20)
+possessive(Air-20, 's-21)
+pobj(for-18, parent-22)
+punct(said-3, .-23)
+
+Sentence #16 (17 tokens):
+The British carrier also confirmed 
+    it isn't committed to going forward with any new bid.
+[Text=The CharacterOffsetBegin=1637 CharacterOffsetEnd=1640 PartOfSpeech=DT] [Text=British CharacterOffsetBegin=1641 CharacterOffsetEnd=1648 PartOfSpeech=JJ] [Text=carrier CharacterOffsetBegin=1649 CharacterOffsetEnd=1656 PartOfSpeech=NN] [Text=also CharacterOffsetBegin=1657 CharacterOffsetEnd=1661 PartOfSpeech=RB] [Text=confirmed CharacterOffsetBegin=1662 CharacterOffsetEnd=1671 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=1677 CharacterOffsetEnd=1679 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1680 CharacterOffsetEnd=1682 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=1682 CharacterOffsetEnd=1685 PartOfSpeech=RB] [Text=committed CharacterOffsetBegin=1686 CharacterOffsetEnd=1695 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=1696 CharacterOffsetEnd=1698 PartOfSpeech=TO] [Text=going CharacterOffsetBegin=1699 CharacterOffsetEnd=1704 PartOfSpeech=VBG] [Text=forward CharacterOffsetBegin=1705 CharacterOffsetEnd=1712 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=1713 CharacterOffsetEnd=1717 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=1718 CharacterOffsetEnd=1721 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=1722 CharacterOffsetEnd=1725 PartOfSpeech=JJ] [Text=bid CharacterOffsetBegin=1726 CharacterOffsetEnd=1729 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1729 CharacterOffsetEnd=1730 PartOfSpeech=.] 
+root(ROOT-0, confirmed-5)
+det(carrier-3, The-1)
+amod(carrier-3, British-2)
+nsubj(confirmed-5, carrier-3)
+advmod(confirmed-5, also-4)
+nsubjpass(committed-9, it-6)
+auxpass(committed-9, is-7)
+neg(committed-9, n't-8)
+ccomp(confirmed-5, committed-9)
+prep(committed-9, to-10)
+pcomp(to-10, going-11)
+advmod(going-11, forward-12)
+prep(going-11, with-13)
+det(bid-16, any-14)
+amod(bid-16, new-15)
+pobj(with-13, bid-16)
+punct(confirmed-5, .-17)
+
+Sentence #17 (11 tokens):
+UAL's stock fell $6.25, to $191.75.
+[Text=UAL CharacterOffsetBegin=1736 CharacterOffsetEnd=1739 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=1739 CharacterOffsetEnd=1741 PartOfSpeech=POS] [Text=stock CharacterOffsetBegin=1742 CharacterOffsetEnd=1747 PartOfSpeech=NN] [Text=fell CharacterOffsetBegin=1748 CharacterOffsetEnd=1752 PartOfSpeech=VBD] [Text=$ CharacterOffsetBegin=1753 CharacterOffsetEnd=1754 PartOfSpeech=$] [Text=6.25 CharacterOffsetBegin=1754 CharacterOffsetEnd=1758 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=1758 CharacterOffsetEnd=1759 PartOfSpeech=,] [Text=to CharacterOffsetBegin=1760 CharacterOffsetEnd=1762 PartOfSpeech=TO] [Text=$ CharacterOffsetBegin=1763 CharacterOffsetEnd=1764 PartOfSpeech=$] [Text=191.75 CharacterOffsetBegin=1764 CharacterOffsetEnd=1770 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=1770 CharacterOffsetEnd=1771 PartOfSpeech=.] 
+root(ROOT-0, fell-4)
+poss(stock-3, UAL-1)
+possessive(UAL-1, 's-2)
+nsubj(fell-4, stock-3)
+dobj(fell-4, $-5)
+num($-5, 6.25-6)
+punct(fell-4, ,-7)
+prep(fell-4, to-8)
+pobj(to-8, $-9)
+num($-9, 191.75-10)
+punct(fell-4, .-11)
+
+Sentence #18 (18 tokens):
+Stock prices rose slightly 
+    as trading slowed, 
+    while bonds ended little changed 
+    despite a slumping dollar.
+[Text=Stock CharacterOffsetBegin=1778 CharacterOffsetEnd=1783 PartOfSpeech=NN] [Text=prices CharacterOffsetBegin=1784 CharacterOffsetEnd=1790 PartOfSpeech=NNS] [Text=rose CharacterOffsetBegin=1791 CharacterOffsetEnd=1795 PartOfSpeech=VBD] [Text=slightly CharacterOffsetBegin=1796 CharacterOffsetEnd=1804 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=1810 CharacterOffsetEnd=1812 PartOfSpeech=IN] [Text=trading CharacterOffsetBegin=1813 CharacterOffsetEnd=1820 PartOfSpeech=NN] [Text=slowed CharacterOffsetBegin=1821 CharacterOffsetEnd=1827 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=1827 CharacterOffsetEnd=1828 PartOfSpeech=,] [Text=while CharacterOffsetBegin=1834 CharacterOffsetEnd=1839 PartOfSpeech=IN] [Text=bonds CharacterOffsetBegin=1840 CharacterOffsetEnd=1845 PartOfSpeech=NNS] [Text=ended CharacterOffsetBegin=1846 CharacterOffsetEnd=1851 PartOfSpeech=VBD] [Text=little CharacterOffsetBegin=1852 CharacterOffsetEnd=1858 PartOfSpeech=RB] [Text=changed CharacterOffsetBegin=1859 CharacterOffsetEnd=1866 PartOfSpeech=JJ] [Text=despite CharacterOffsetBegin=1872 CharacterOffsetEnd=1879 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1880 CharacterOffsetEnd=1881 PartOfSpeech=DT] [Text=slumping CharacterOffsetBegin=1882 CharacterOffsetEnd=1890 PartOfSpeech=JJ] [Text=dollar CharacterOffsetBegin=1891 CharacterOffsetEnd=1897 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1897 CharacterOffsetEnd=1898 PartOfSpeech=.] 
+root(ROOT-0, rose-3)
+nn(prices-2, Stock-1)
+nsubj(rose-3, prices-2)
+advmod(rose-3, slightly-4)
+mark(slowed-7, as-5)
+nsubj(slowed-7, trading-6)
+advcl(rose-3, slowed-7)
+punct(rose-3, ,-8)
+mark(ended-11, while-9)
+nsubj(ended-11, bonds-10)
+advcl(rose-3, ended-11)
+advmod(changed-13, little-12)
+acomp(ended-11, changed-13)
+prep(changed-13, despite-14)
+det(dollar-17, a-15)
+amod(dollar-17, slumping-16)
+pobj(despite-14, dollar-17)
+punct(rose-3, .-18)
+
+Sentence #19 (10 tokens):
+The Dow Jones industrials gained 4.92, to 2643.65.
+[Text=The CharacterOffsetBegin=1904 CharacterOffsetEnd=1907 PartOfSpeech=DT] [Text=Dow CharacterOffsetBegin=1908 CharacterOffsetEnd=1911 PartOfSpeech=NNP] [Text=Jones CharacterOffsetBegin=1912 CharacterOffsetEnd=1917 PartOfSpeech=NNP] [Text=industrials CharacterOffsetBegin=1918 CharacterOffsetEnd=1929 PartOfSpeech=NNS] [Text=gained CharacterOffsetBegin=1930 CharacterOffsetEnd=1936 PartOfSpeech=VBD] [Text=4.92 CharacterOffsetBegin=1937 CharacterOffsetEnd=1941 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=1941 CharacterOffsetEnd=1942 PartOfSpeech=,] [Text=to CharacterOffsetBegin=1943 CharacterOffsetEnd=1945 PartOfSpeech=TO] [Text=2643.65 CharacterOffsetBegin=1946 CharacterOffsetEnd=1953 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=1953 CharacterOffsetEnd=1954 PartOfSpeech=.] 
+root(ROOT-0, gained-5)
+det(industrials-4, The-1)
+nn(industrials-4, Dow-2)
+nn(industrials-4, Jones-3)
+nsubj(gained-5, industrials-4)
+dobj(gained-5, 4.92-6)
+punct(gained-5, ,-7)
+prep(gained-5, to-8)
+pobj(to-8, 2643.65-9)
+punct(gained-5, .-10)
+
+Sentence #20 (16 tokens):
+But investors remain wary about stocks, 
+    partly because of turmoil in the junk-bond market.
+[Text=But CharacterOffsetBegin=1960 CharacterOffsetEnd=1963 PartOfSpeech=CC] [Text=investors CharacterOffsetBegin=1964 CharacterOffsetEnd=1973 PartOfSpeech=NNS] [Text=remain CharacterOffsetBegin=1974 CharacterOffsetEnd=1980 PartOfSpeech=VBP] [Text=wary CharacterOffsetBegin=1981 CharacterOffsetEnd=1985 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=1986 CharacterOffsetEnd=1991 PartOfSpeech=IN] [Text=stocks CharacterOffsetBegin=1992 CharacterOffsetEnd=1998 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=1998 CharacterOffsetEnd=1999 PartOfSpeech=,] [Text=partly CharacterOffsetBegin=2005 CharacterOffsetEnd=2011 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=2012 CharacterOffsetEnd=2019 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=2020 CharacterOffsetEnd=2022 PartOfSpeech=IN] [Text=turmoil CharacterOffsetBegin=2023 CharacterOffsetEnd=2030 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=2031 CharacterOffsetEnd=2033 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2034 CharacterOffsetEnd=2037 PartOfSpeech=DT] [Text=junk-bond CharacterOffsetBegin=2038 CharacterOffsetEnd=2047 PartOfSpeech=NN] [Text=market CharacterOffsetBegin=2048 CharacterOffsetEnd=2054 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2054 CharacterOffsetEnd=2055 PartOfSpeech=.] 
+root(ROOT-0, wary-4)
+cc(wary-4, But-1)
+nsubj(wary-4, investors-2)
+cop(wary-4, remain-3)
+prep(wary-4, about-5)
+pobj(about-5, stocks-6)
+punct(wary-4, ,-7)
+advmod(of-10, partly-8)
+mwe(of-10, because-9)
+prep(wary-4, of-10)
+pobj(of-10, turmoil-11)
+prep(turmoil-11, in-12)
+det(market-15, the-13)
+nn(market-15, junk-bond-14)
+pobj(in-12, market-15)
+punct(wary-4, .-16)
+
+Sentence #21 (24 tokens):
+B.A.T Industries may delay part of its defensive restructuring plan, 
+    including the sale of its Saks Fifth Avenue and Marshall Field units.
+[Text=B.A.T CharacterOffsetBegin=2062 CharacterOffsetEnd=2067 PartOfSpeech=NNP] [Text=Industries CharacterOffsetBegin=2068 CharacterOffsetEnd=2078 PartOfSpeech=NNPS] [Text=may CharacterOffsetBegin=2079 CharacterOffsetEnd=2082 PartOfSpeech=MD] [Text=delay CharacterOffsetBegin=2083 CharacterOffsetEnd=2088 PartOfSpeech=VB] [Text=part CharacterOffsetBegin=2089 CharacterOffsetEnd=2093 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=2094 CharacterOffsetEnd=2096 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=2097 CharacterOffsetEnd=2100 PartOfSpeech=PRP$] [Text=defensive CharacterOffsetBegin=2101 CharacterOffsetEnd=2110 PartOfSpeech=JJ] [Text=restructuring CharacterOffsetBegin=2111 CharacterOffsetEnd=2124 PartOfSpeech=NN] [Text=plan CharacterOffsetBegin=2125 CharacterOffsetEnd=2129 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=2129 CharacterOffsetEnd=2130 PartOfSpeech=,] [Text=including CharacterOffsetBegin=2136 CharacterOffsetEnd=2145 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=2146 CharacterOffsetEnd=2149 PartOfSpeech=DT] [Text=sale CharacterOffsetBegin=2150 CharacterOffsetEnd=2154 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=2155 CharacterOffsetEnd=2157 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=2158 CharacterOffsetEnd=2161 PartOfSpeech=PRP$] [Text=Saks CharacterOffsetBegin=2162 CharacterOffsetEnd=2166 PartOfSpeech=NNP] [Text=Fifth CharacterOffsetBegin=2167 CharacterOffsetEnd=2172 PartOfSpeech=NNP] [Text=Avenue CharacterOffsetBegin=2173 CharacterOffsetEnd=2179 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=2180 CharacterOffsetEnd=2183 PartOfSpeech=CC] [Text=Marshall CharacterOffsetBegin=2184 CharacterOffsetEnd=2192 PartOfSpeech=NNP] [Text=Field CharacterOffsetBegin=2193 CharacterOffsetEnd=2198 PartOfSpeech=NNP] [Text=units CharacterOffsetBegin=2199 CharacterOffsetEnd=2204 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2204 CharacterOffsetEnd=2205 PartOfSpeech=.] 
+root(ROOT-0, delay-4)
+nn(Industries-2, B.A.T-1)
+nsubj(delay-4, Industries-2)
+aux(delay-4, may-3)
+dobj(delay-4, part-5)
+prep(part-5, of-6)
+poss(plan-10, its-7)
+amod(plan-10, defensive-8)
+nn(plan-10, restructuring-9)
+pobj(of-6, plan-10)
+punct(part-5, ,-11)
+prep(part-5, including-12)
+det(sale-14, the-13)
+pobj(including-12, sale-14)
+prep(sale-14, of-15)
+poss(Avenue-19, its-16)
+nn(Avenue-19, Saks-17)
+nn(Avenue-19, Fifth-18)
+pobj(of-15, Avenue-19)
+cc(Avenue-19, and-20)
+nn(units-23, Marshall-21)
+nn(units-23, Field-22)
+conj(Avenue-19, units-23)
+punct(delay-4, .-24)
+
+Sentence #22 (11 tokens):
+The British conglomerate cited the recent turmoil in financial markets.
+[Text=The CharacterOffsetBegin=2211 CharacterOffsetEnd=2214 PartOfSpeech=DT] [Text=British CharacterOffsetBegin=2215 CharacterOffsetEnd=2222 PartOfSpeech=JJ] [Text=conglomerate CharacterOffsetBegin=2223 CharacterOffsetEnd=2235 PartOfSpeech=NN] [Text=cited CharacterOffsetBegin=2236 CharacterOffsetEnd=2241 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=2242 CharacterOffsetEnd=2245 PartOfSpeech=DT] [Text=recent CharacterOffsetBegin=2246 CharacterOffsetEnd=2252 PartOfSpeech=JJ] [Text=turmoil CharacterOffsetBegin=2253 CharacterOffsetEnd=2260 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=2261 CharacterOffsetEnd=2263 PartOfSpeech=IN] [Text=financial CharacterOffsetBegin=2264 CharacterOffsetEnd=2273 PartOfSpeech=JJ] [Text=markets CharacterOffsetBegin=2274 CharacterOffsetEnd=2281 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2281 CharacterOffsetEnd=2282 PartOfSpeech=.] 
+root(ROOT-0, cited-4)
+det(conglomerate-3, The-1)
+amod(conglomerate-3, British-2)
+nsubj(cited-4, conglomerate-3)
+det(turmoil-7, the-5)
+amod(turmoil-7, recent-6)
+dobj(cited-4, turmoil-7)
+prep(turmoil-7, in-8)
+amod(markets-10, financial-9)
+pobj(in-8, markets-10)
+punct(cited-4, .-11)
+
+Sentence #23 (15 tokens):
+WCRS Group announced a major restructuring 
+    that largely removes it from the advertising business.
+[Text=WCRS CharacterOffsetBegin=2289 CharacterOffsetEnd=2293 PartOfSpeech=NNP] [Text=Group CharacterOffsetBegin=2294 CharacterOffsetEnd=2299 PartOfSpeech=NNP] [Text=announced CharacterOffsetBegin=2300 CharacterOffsetEnd=2309 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=2310 CharacterOffsetEnd=2311 PartOfSpeech=DT] [Text=major CharacterOffsetBegin=2312 CharacterOffsetEnd=2317 PartOfSpeech=JJ] [Text=restructuring CharacterOffsetBegin=2318 CharacterOffsetEnd=2331 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=2337 CharacterOffsetEnd=2341 PartOfSpeech=WDT] [Text=largely CharacterOffsetBegin=2342 CharacterOffsetEnd=2349 PartOfSpeech=RB] [Text=removes CharacterOffsetBegin=2350 CharacterOffsetEnd=2357 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=2358 CharacterOffsetEnd=2360 PartOfSpeech=PRP] [Text=from CharacterOffsetBegin=2361 CharacterOffsetEnd=2365 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2366 CharacterOffsetEnd=2369 PartOfSpeech=DT] [Text=advertising CharacterOffsetBegin=2370 CharacterOffsetEnd=2381 PartOfSpeech=NN] [Text=business CharacterOffsetBegin=2382 CharacterOffsetEnd=2390 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2390 CharacterOffsetEnd=2391 PartOfSpeech=.] 
+root(ROOT-0, announced-3)
+nn(Group-2, WCRS-1)
+nsubj(announced-3, Group-2)
+det(restructuring-6, a-4)
+amod(restructuring-6, major-5)
+dobj(announced-3, restructuring-6)
+nsubj(removes-9, that-7)
+advmod(removes-9, largely-8)
+rcmod(restructuring-6, removes-9)
+dobj(removes-9, it-10)
+prep(removes-9, from-11)
+det(business-14, the-12)
+nn(business-14, advertising-13)
+pobj(from-11, business-14)
+punct(announced-3, .-15)
+
+Sentence #24 (15 tokens):
+The London-based concern will sell most of its ad unit to France's Eurocom.
+[Text=The CharacterOffsetBegin=2397 CharacterOffsetEnd=2400 PartOfSpeech=DT] [Text=London-based CharacterOffsetBegin=2401 CharacterOffsetEnd=2413 PartOfSpeech=JJ] [Text=concern CharacterOffsetBegin=2414 CharacterOffsetEnd=2421 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=2422 CharacterOffsetEnd=2426 PartOfSpeech=MD] [Text=sell CharacterOffsetBegin=2427 CharacterOffsetEnd=2431 PartOfSpeech=VB] [Text=most CharacterOffsetBegin=2432 CharacterOffsetEnd=2436 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=2437 CharacterOffsetEnd=2439 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=2440 CharacterOffsetEnd=2443 PartOfSpeech=PRP$] [Text=ad CharacterOffsetBegin=2444 CharacterOffsetEnd=2446 PartOfSpeech=NN] [Text=unit CharacterOffsetBegin=2447 CharacterOffsetEnd=2451 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=2452 CharacterOffsetEnd=2454 PartOfSpeech=TO] [Text=France CharacterOffsetBegin=2455 CharacterOffsetEnd=2461 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=2461 CharacterOffsetEnd=2463 PartOfSpeech=POS] [Text=Eurocom CharacterOffsetBegin=2464 CharacterOffsetEnd=2471 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=2471 CharacterOffsetEnd=2472 PartOfSpeech=.] 
+root(ROOT-0, sell-5)
+det(concern-3, The-1)
+amod(concern-3, London-based-2)
+nsubj(sell-5, concern-3)
+aux(sell-5, will-4)
+dobj(sell-5, most-6)
+prep(most-6, of-7)
+poss(unit-10, its-8)
+nn(unit-10, ad-9)
+pobj(of-7, unit-10)
+prep(sell-5, to-11)
+poss(Eurocom-14, France-12)
+possessive(France-12, 's-13)
+pobj(to-11, Eurocom-14)
+punct(sell-5, .-15)
+
+Sentence #25 (20 tokens):
+Commodore International expects to post its second consecutive quarterly loss 
+    because of weak personal computer sales in some markets.
+[Text=Commodore CharacterOffsetBegin=2479 CharacterOffsetEnd=2488 PartOfSpeech=NNP] [Text=International CharacterOffsetBegin=2489 CharacterOffsetEnd=2502 PartOfSpeech=NNP] [Text=expects CharacterOffsetBegin=2503 CharacterOffsetEnd=2510 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=2511 CharacterOffsetEnd=2513 PartOfSpeech=TO] [Text=post CharacterOffsetBegin=2514 CharacterOffsetEnd=2518 PartOfSpeech=VB] [Text=its CharacterOffsetBegin=2519 CharacterOffsetEnd=2522 PartOfSpeech=PRP$] [Text=second CharacterOffsetBegin=2523 CharacterOffsetEnd=2529 PartOfSpeech=JJ] [Text=consecutive CharacterOffsetBegin=2530 CharacterOffsetEnd=2541 PartOfSpeech=JJ] [Text=quarterly CharacterOffsetBegin=2542 CharacterOffsetEnd=2551 PartOfSpeech=JJ] [Text=loss CharacterOffsetBegin=2552 CharacterOffsetEnd=2556 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=2562 CharacterOffsetEnd=2569 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=2570 CharacterOffsetEnd=2572 PartOfSpeech=IN] [Text=weak CharacterOffsetBegin=2573 CharacterOffsetEnd=2577 PartOfSpeech=JJ] [Text=personal CharacterOffsetBegin=2578 CharacterOffsetEnd=2586 PartOfSpeech=JJ] [Text=computer CharacterOffsetBegin=2587 CharacterOffsetEnd=2595 PartOfSpeech=NN] [Text=sales CharacterOffsetBegin=2596 CharacterOffsetEnd=2601 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=2602 CharacterOffsetEnd=2604 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=2605 CharacterOffsetEnd=2609 PartOfSpeech=DT] [Text=markets CharacterOffsetBegin=2610 CharacterOffsetEnd=2617 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2617 CharacterOffsetEnd=2618 PartOfSpeech=.] 
+root(ROOT-0, expects-3)
+nn(International-2, Commodore-1)
+nsubj(expects-3, International-2)
+aux(post-5, to-4)
+xcomp(expects-3, post-5)
+poss(loss-10, its-6)
+amod(loss-10, second-7)
+amod(loss-10, consecutive-8)
+amod(loss-10, quarterly-9)
+dobj(post-5, loss-10)
+mwe(of-12, because-11)
+prep(expects-3, of-12)
+amod(sales-16, weak-13)
+amod(sales-16, personal-14)
+nn(sales-16, computer-15)
+pobj(of-12, sales-16)
+prep(sales-16, in-17)
+det(markets-19, some-18)
+pobj(in-17, markets-19)
+punct(expects-3, .-20)
+
+Sentence #26 (22 tokens):
+Jaguar hopes to reach a friendly accord with General Motors within a month 
+    that may involve producing a cheaper executive model.
+[Text=Jaguar CharacterOffsetBegin=2625 CharacterOffsetEnd=2631 PartOfSpeech=NNP] [Text=hopes CharacterOffsetBegin=2632 CharacterOffsetEnd=2637 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=2638 CharacterOffsetEnd=2640 PartOfSpeech=TO] [Text=reach CharacterOffsetBegin=2641 CharacterOffsetEnd=2646 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=2647 CharacterOffsetEnd=2648 PartOfSpeech=DT] [Text=friendly CharacterOffsetBegin=2649 CharacterOffsetEnd=2657 PartOfSpeech=JJ] [Text=accord CharacterOffsetBegin=2658 CharacterOffsetEnd=2664 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=2665 CharacterOffsetEnd=2669 PartOfSpeech=IN] [Text=General CharacterOffsetBegin=2670 CharacterOffsetEnd=2677 PartOfSpeech=NNP] [Text=Motors CharacterOffsetBegin=2678 CharacterOffsetEnd=2684 PartOfSpeech=NNPS] [Text=within CharacterOffsetBegin=2685 CharacterOffsetEnd=2691 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=2692 CharacterOffsetEnd=2693 PartOfSpeech=DT] [Text=month CharacterOffsetBegin=2694 CharacterOffsetEnd=2699 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=2705 CharacterOffsetEnd=2709 PartOfSpeech=WDT] [Text=may CharacterOffsetBegin=2710 CharacterOffsetEnd=2713 PartOfSpeech=MD] [Text=involve CharacterOffsetBegin=2714 CharacterOffsetEnd=2721 PartOfSpeech=VB] [Text=producing CharacterOffsetBegin=2722 CharacterOffsetEnd=2731 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=2732 CharacterOffsetEnd=2733 PartOfSpeech=DT] [Text=cheaper CharacterOffsetBegin=2734 CharacterOffsetEnd=2741 PartOfSpeech=JJR] [Text=executive CharacterOffsetBegin=2742 CharacterOffsetEnd=2751 PartOfSpeech=NN] [Text=model CharacterOffsetBegin=2752 CharacterOffsetEnd=2757 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2757 CharacterOffsetEnd=2758 PartOfSpeech=.] 
+root(ROOT-0, hopes-2)
+nsubj(hopes-2, Jaguar-1)
+aux(reach-4, to-3)
+xcomp(hopes-2, reach-4)
+det(accord-7, a-5)
+amod(accord-7, friendly-6)
+dobj(reach-4, accord-7)
+prep(accord-7, with-8)
+nn(Motors-10, General-9)
+pobj(with-8, Motors-10)
+prep(reach-4, within-11)
+det(month-13, a-12)
+pobj(within-11, month-13)
+nsubj(involve-16, that-14)
+aux(involve-16, may-15)
+dep(reach-4, involve-16)
+xcomp(involve-16, producing-17)
+det(model-21, a-18)
+amod(model-21, cheaper-19)
+nn(model-21, executive-20)
+dobj(producing-17, model-21)
+punct(hopes-2, .-22)
+
+Sentence #27 (18 tokens):
+Sears is negotiating to refinance its Sears Tower for close to $850 million, 
+    sources said.
+[Text=Sears CharacterOffsetBegin=2765 CharacterOffsetEnd=2770 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=2771 CharacterOffsetEnd=2773 PartOfSpeech=VBZ] [Text=negotiating CharacterOffsetBegin=2774 CharacterOffsetEnd=2785 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=2786 CharacterOffsetEnd=2788 PartOfSpeech=TO] [Text=refinance CharacterOffsetBegin=2789 CharacterOffsetEnd=2798 PartOfSpeech=VB] [Text=its CharacterOffsetBegin=2799 CharacterOffsetEnd=2802 PartOfSpeech=PRP$] [Text=Sears CharacterOffsetBegin=2803 CharacterOffsetEnd=2808 PartOfSpeech=NNP] [Text=Tower CharacterOffsetBegin=2809 CharacterOffsetEnd=2814 PartOfSpeech=NNP] [Text=for CharacterOffsetBegin=2815 CharacterOffsetEnd=2818 PartOfSpeech=IN] [Text=close CharacterOffsetBegin=2819 CharacterOffsetEnd=2824 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=2825 CharacterOffsetEnd=2827 PartOfSpeech=TO] [Text=$ CharacterOffsetBegin=2828 CharacterOffsetEnd=2829 PartOfSpeech=$] [Text=850 CharacterOffsetBegin=2829 CharacterOffsetEnd=2832 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=2833 CharacterOffsetEnd=2840 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=2840 CharacterOffsetEnd=2841 PartOfSpeech=,] [Text=sources CharacterOffsetBegin=2847 CharacterOffsetEnd=2854 PartOfSpeech=NNS] [Text=said CharacterOffsetBegin=2855 CharacterOffsetEnd=2859 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=2859 CharacterOffsetEnd=2860 PartOfSpeech=.] 
+root(ROOT-0, said-17)
+nsubj(negotiating-3, Sears-1)
+aux(negotiating-3, is-2)
+ccomp(said-17, negotiating-3)
+aux(refinance-5, to-4)
+xcomp(negotiating-3, refinance-5)
+poss(Tower-8, its-6)
+nn(Tower-8, Sears-7)
+dobj(refinance-5, Tower-8)
+prep(refinance-5, for-9)
+pobj(for-9, close-10)
+prep(close-10, to-11)
+pobj(to-11, $-12)
+number(million-14, 850-13)
+num($-12, million-14)
+punct(said-17, ,-15)
+nsubj(said-17, sources-16)
+punct(said-17, .-18)
+
+Sentence #28 (12 tokens):
+The retailer was unable to find a buyer for the building.
+[Text=The CharacterOffsetBegin=2866 CharacterOffsetEnd=2869 PartOfSpeech=DT] [Text=retailer CharacterOffsetBegin=2870 CharacterOffsetEnd=2878 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=2879 CharacterOffsetEnd=2882 PartOfSpeech=VBD] [Text=unable CharacterOffsetBegin=2883 CharacterOffsetEnd=2889 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=2890 CharacterOffsetEnd=2892 PartOfSpeech=TO] [Text=find CharacterOffsetBegin=2893 CharacterOffsetEnd=2897 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=2898 CharacterOffsetEnd=2899 PartOfSpeech=DT] [Text=buyer CharacterOffsetBegin=2900 CharacterOffsetEnd=2905 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=2906 CharacterOffsetEnd=2909 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2910 CharacterOffsetEnd=2913 PartOfSpeech=DT] [Text=building CharacterOffsetBegin=2914 CharacterOffsetEnd=2922 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2922 CharacterOffsetEnd=2923 PartOfSpeech=.] 
+root(ROOT-0, unable-4)
+det(retailer-2, The-1)
+nsubj(unable-4, retailer-2)
+cop(unable-4, was-3)
+aux(find-6, to-5)
+xcomp(unable-4, find-6)
+det(buyer-8, a-7)
+dobj(find-6, buyer-8)
+prep(buyer-8, for-9)
+det(building-11, the-10)
+pobj(for-9, building-11)
+punct(unable-4, .-12)
+
+Sentence #29 (18 tokens):
+Whitbread of Britain put its spirits division up for sale, 
+    setting off a scramble among distillers.
+[Text=Whitbread CharacterOffsetBegin=2930 CharacterOffsetEnd=2939 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=2940 CharacterOffsetEnd=2942 PartOfSpeech=IN] [Text=Britain CharacterOffsetBegin=2943 CharacterOffsetEnd=2950 PartOfSpeech=NNP] [Text=put CharacterOffsetBegin=2951 CharacterOffsetEnd=2954 PartOfSpeech=VBD] [Text=its CharacterOffsetBegin=2955 CharacterOffsetEnd=2958 PartOfSpeech=PRP$] [Text=spirits CharacterOffsetBegin=2959 CharacterOffsetEnd=2966 PartOfSpeech=NNS] [Text=division CharacterOffsetBegin=2967 CharacterOffsetEnd=2975 PartOfSpeech=NN] [Text=up CharacterOffsetBegin=2976 CharacterOffsetEnd=2978 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=2979 CharacterOffsetEnd=2982 PartOfSpeech=IN] [Text=sale CharacterOffsetBegin=2983 CharacterOffsetEnd=2987 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=2987 CharacterOffsetEnd=2988 PartOfSpeech=,] [Text=setting CharacterOffsetBegin=2994 CharacterOffsetEnd=3001 PartOfSpeech=VBG] [Text=off CharacterOffsetBegin=3002 CharacterOffsetEnd=3005 PartOfSpeech=RP] [Text=a CharacterOffsetBegin=3006 CharacterOffsetEnd=3007 PartOfSpeech=DT] [Text=scramble CharacterOffsetBegin=3008 CharacterOffsetEnd=3016 PartOfSpeech=NN] [Text=among CharacterOffsetBegin=3017 CharacterOffsetEnd=3022 PartOfSpeech=IN] [Text=distillers CharacterOffsetBegin=3023 CharacterOffsetEnd=3033 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=3033 CharacterOffsetEnd=3034 PartOfSpeech=.] 
+root(ROOT-0, put-4)
+nsubj(put-4, Whitbread-1)
+prep(Whitbread-1, of-2)
+pobj(of-2, Britain-3)
+poss(division-7, its-5)
+nn(division-7, spirits-6)
+dobj(put-4, division-7)
+prt(put-4, up-8)
+prep(put-4, for-9)
+pobj(for-9, sale-10)
+punct(put-4, ,-11)
+partmod(put-4, setting-12)
+prt(setting-12, off-13)
+det(scramble-15, a-14)
+dobj(setting-12, scramble-15)
+prep(scramble-15, among-16)
+pobj(among-16, distillers-17)
+punct(put-4, .-18)
+
+Sentence #30 (6 tokens):
+The business includes Beefeater gin.
+[Text=The CharacterOffsetBegin=3040 CharacterOffsetEnd=3043 PartOfSpeech=DT] [Text=business CharacterOffsetBegin=3044 CharacterOffsetEnd=3052 PartOfSpeech=NN] [Text=includes CharacterOffsetBegin=3053 CharacterOffsetEnd=3061 PartOfSpeech=VBZ] [Text=Beefeater CharacterOffsetBegin=3062 CharacterOffsetEnd=3071 PartOfSpeech=NNP] [Text=gin CharacterOffsetBegin=3072 CharacterOffsetEnd=3075 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=3075 CharacterOffsetEnd=3076 PartOfSpeech=.] 
+root(ROOT-0, includes-3)
+det(business-2, The-1)
+nsubj(includes-3, business-2)
+nn(gin-5, Beefeater-4)
+dobj(includes-3, gin-5)
+punct(includes-3, .-6)
+
+Sentence #31 (8 tokens):
+Markets --  
+    Stocks: 
+    Volume 166,900,000 shares.
+[Text=Markets CharacterOffsetBegin=3083 CharacterOffsetEnd=3090 PartOfSpeech=NNS] [Text=-- CharacterOffsetBegin=3091 CharacterOffsetEnd=3093 PartOfSpeech=:] [Text=Stocks CharacterOffsetBegin=3100 CharacterOffsetEnd=3106 PartOfSpeech=NNS] [Text=: CharacterOffsetBegin=3106 CharacterOffsetEnd=3107 PartOfSpeech=:] [Text=Volume CharacterOffsetBegin=3113 CharacterOffsetEnd=3119 PartOfSpeech=NN] [Text=166,900,000 CharacterOffsetBegin=3120 CharacterOffsetEnd=3131 PartOfSpeech=CD] [Text=shares CharacterOffsetBegin=3132 CharacterOffsetEnd=3138 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=3138 CharacterOffsetEnd=3139 PartOfSpeech=.] 
+root(ROOT-0, Markets-1)
+punct(Stocks-3, ---2)
+dep(Markets-1, Stocks-3)
+punct(Stocks-3, :-4)
+dep(Stocks-3, Volume-5)
+num(shares-7, 166,900,000-6)
+dep(Volume-5, shares-7)
+punct(Markets-1, .-8)
+
+Sentence #32 (20 tokens):
+Dow Jones industrials 2643.65, up 4.92; transportation 1247.87, off 6.40; utilities 213.97, off 0.57.
+[Text=Dow CharacterOffsetBegin=3145 CharacterOffsetEnd=3148 PartOfSpeech=NNP] [Text=Jones CharacterOffsetBegin=3149 CharacterOffsetEnd=3154 PartOfSpeech=NNP] [Text=industrials CharacterOffsetBegin=3155 CharacterOffsetEnd=3166 PartOfSpeech=NNS] [Text=2643.65 CharacterOffsetBegin=3167 CharacterOffsetEnd=3174 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=3174 CharacterOffsetEnd=3175 PartOfSpeech=,] [Text=up CharacterOffsetBegin=3176 CharacterOffsetEnd=3178 PartOfSpeech=RB] [Text=4.92 CharacterOffsetBegin=3179 CharacterOffsetEnd=3183 PartOfSpeech=CD] [Text=; CharacterOffsetBegin=3183 CharacterOffsetEnd=3184 PartOfSpeech=:] [Text=transportation CharacterOffsetBegin=3185 CharacterOffsetEnd=3199 PartOfSpeech=NN] [Text=1247.87 CharacterOffsetBegin=3200 CharacterOffsetEnd=3207 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=3207 CharacterOffsetEnd=3208 PartOfSpeech=,] [Text=off CharacterOffsetBegin=3209 CharacterOffsetEnd=3212 PartOfSpeech=RB] [Text=6.40 CharacterOffsetBegin=3213 CharacterOffsetEnd=3217 PartOfSpeech=CD] [Text=; CharacterOffsetBegin=3217 CharacterOffsetEnd=3218 PartOfSpeech=:] [Text=utilities CharacterOffsetBegin=3219 CharacterOffsetEnd=3228 PartOfSpeech=NNS] [Text=213.97 CharacterOffsetBegin=3229 CharacterOffsetEnd=3235 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=3235 CharacterOffsetEnd=3236 PartOfSpeech=,] [Text=off CharacterOffsetBegin=3237 CharacterOffsetEnd=3240 PartOfSpeech=RB] [Text=0.57 CharacterOffsetBegin=3241 CharacterOffsetEnd=3245 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=3245 CharacterOffsetEnd=3246 PartOfSpeech=.] 
+root(ROOT-0, industrials-3)
+nn(industrials-3, Dow-1)
+nn(industrials-3, Jones-2)
+dep(industrials-3, 2643.65-4)
+punct(industrials-3, ,-5)
+advmod(industrials-3, up-6)
+pobj(up-6, 4.92-7)
+punct(industrials-3, ;-8)
+dep(industrials-3, transportation-9)
+dep(transportation-9, 1247.87-10)
+punct(transportation-9, ,-11)
+advmod(transportation-9, off-12)
+pobj(off-12, 6.40-13)
+punct(industrials-3, ;-14)
+dep(industrials-3, utilities-15)
+dep(utilities-15, 213.97-16)
+punct(213.97-16, ,-17)
+advmod(213.97-16, off-18)
+pobj(off-18, 0.57-19)
+punct(industrials-3, .-20)
+
+Sentence #33 (28 tokens):
+Bonds: 
+    Shearson Lehman Hutton Treasury index 3371.36, off  
+    Commodities: 
+    Dow Jones futures index 129.90, up 0.18; spot index 130.36, up 0.39.
+[Text=Bonds CharacterOffsetBegin=3253 CharacterOffsetEnd=3258 PartOfSpeech=NNS] [Text=: CharacterOffsetBegin=3258 CharacterOffsetEnd=3259 PartOfSpeech=:] [Text=Shearson CharacterOffsetBegin=3265 CharacterOffsetEnd=3273 PartOfSpeech=NNP] [Text=Lehman CharacterOffsetBegin=3274 CharacterOffsetEnd=3280 PartOfSpeech=NNP] [Text=Hutton CharacterOffsetBegin=3281 CharacterOffsetEnd=3287 PartOfSpeech=NNP] [Text=Treasury CharacterOffsetBegin=3288 CharacterOffsetEnd=3296 PartOfSpeech=NNP] [Text=index CharacterOffsetBegin=3297 CharacterOffsetEnd=3302 PartOfSpeech=NN] [Text=3371.36 CharacterOffsetBegin=3303 CharacterOffsetEnd=3310 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=3310 CharacterOffsetEnd=3311 PartOfSpeech=,] [Text=off CharacterOffsetBegin=3312 CharacterOffsetEnd=3315 PartOfSpeech=IN] [Text=Commodities CharacterOffsetBegin=3322 CharacterOffsetEnd=3333 PartOfSpeech=NNS] [Text=: CharacterOffsetBegin=3333 CharacterOffsetEnd=3334 PartOfSpeech=:] [Text=Dow CharacterOffsetBegin=3340 CharacterOffsetEnd=3343 PartOfSpeech=NNP] [Text=Jones CharacterOffsetBegin=3344 CharacterOffsetEnd=3349 PartOfSpeech=NNP] [Text=futures CharacterOffsetBegin=3350 CharacterOffsetEnd=3357 PartOfSpeech=NNS] [Text=index CharacterOffsetBegin=3358 CharacterOffsetEnd=3363 PartOfSpeech=NN] [Text=129.90 CharacterOffsetBegin=3364 CharacterOffsetEnd=3370 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=3370 CharacterOffsetEnd=3371 PartOfSpeech=,] [Text=up CharacterOffsetBegin=3372 CharacterOffsetEnd=3374 PartOfSpeech=RB] [Text=0.18 CharacterOffsetBegin=3375 CharacterOffsetEnd=3379 PartOfSpeech=CD] [Text=; CharacterOffsetBegin=3379 CharacterOffsetEnd=3380 PartOfSpeech=:] [Text=spot CharacterOffsetBegin=3381 CharacterOffsetEnd=3385 PartOfSpeech=NN] [Text=index CharacterOffsetBegin=3386 CharacterOffsetEnd=3391 PartOfSpeech=NN] [Text=130.36 CharacterOffsetBegin=3392 CharacterOffsetEnd=3398 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=3398 CharacterOffsetEnd=3399 PartOfSpeech=,] [Text=up CharacterOffsetBegin=3400 CharacterOffsetEnd=3402 PartOfSpeech=RB] [Text=0.39 CharacterOffsetBegin=3403 CharacterOffsetEnd=3407 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=3407 CharacterOffsetEnd=3408 PartOfSpeech=.] 
+root(ROOT-0, Bonds-1)
+punct(Bonds-1, :-2)
+nn(index-7, Shearson-3)
+nn(index-7, Lehman-4)
+nn(index-7, Hutton-5)
+nn(index-7, Treasury-6)
+dep(Bonds-1, index-7)
+dep(index-7, 3371.36-8)
+punct(index-7, ,-9)
+prep(index-7, off-10)
+pobj(off-10, Commodities-11)
+punct(index-7, :-12)
+nn(index-16, Dow-13)
+nn(index-16, Jones-14)
+nn(index-16, futures-15)
+dep(index-7, index-16)
+dep(index-16, 129.90-17)
+punct(index-16, ,-18)
+advmod(index-16, up-19)
+pobj(up-19, 0.18-20)
+punct(index-16, ;-21)
+nn(index-23, spot-22)
+dep(index-16, index-23)
+dep(index-23, 130.36-24)
+punct(index-23, ,-25)
+advmod(index-23, up-26)
+pobj(up-26, 0.39-27)
+punct(Bonds-1, .-28)
+
+Sentence #34 (14 tokens):
+Dollar: 
+    141.45 yen, off 1.30; 1.8485 marks, off 0.0182.
+[Text=Dollar CharacterOffsetBegin=3415 CharacterOffsetEnd=3421 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=3421 CharacterOffsetEnd=3422 PartOfSpeech=:] [Text=141.45 CharacterOffsetBegin=3428 CharacterOffsetEnd=3434 PartOfSpeech=CD] [Text=yen CharacterOffsetBegin=3435 CharacterOffsetEnd=3438 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=3438 CharacterOffsetEnd=3439 PartOfSpeech=,] [Text=off CharacterOffsetBegin=3440 CharacterOffsetEnd=3443 PartOfSpeech=IN] [Text=1.30 CharacterOffsetBegin=3444 CharacterOffsetEnd=3448 PartOfSpeech=CD] [Text=; CharacterOffsetBegin=3448 CharacterOffsetEnd=3449 PartOfSpeech=:] [Text=1.8485 CharacterOffsetBegin=3450 CharacterOffsetEnd=3456 PartOfSpeech=CD] [Text=marks CharacterOffsetBegin=3457 CharacterOffsetEnd=3462 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=3462 CharacterOffsetEnd=3463 PartOfSpeech=,] [Text=off CharacterOffsetBegin=3464 CharacterOffsetEnd=3467 PartOfSpeech=IN] [Text=0.0182 CharacterOffsetBegin=3468 CharacterOffsetEnd=3474 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=3474 CharacterOffsetEnd=3475 PartOfSpeech=.] 
+root(ROOT-0, Dollar-1)
+punct(Dollar-1, :-2)
+num(yen-4, 141.45-3)
+dep(Dollar-1, yen-4)
+punct(yen-4, ,-5)
+advmod(yen-4, off-6)
+pobj(off-6, 1.30-7)
+punct(yen-4, ;-8)
+num(marks-10, 1.8485-9)
+dep(yen-4, marks-10)
+punct(marks-10, ,-11)
+advmod(marks-10, off-12)
+pobj(off-12, 0.0182-13)
+punct(Dollar-1, .-14)
+

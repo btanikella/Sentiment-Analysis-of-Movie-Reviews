@@ -1,0 +1,86 @@
+Sentence #1 (19 tokens):
+QUANTUM CHEMICAL Corp. 's plant in Morris, Ill., is expected to resume production in early 1990.
+[Text=QUANTUM CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=NNP] [Text=CHEMICAL CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=POS] [Text=plant CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=IN] [Text=Morris CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=,] [Text=Ill. CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=,] [Text=is CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=VBZ] [Text=expected CharacterOffsetBegin=56 CharacterOffsetEnd=64 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=TO] [Text=resume CharacterOffsetBegin=68 CharacterOffsetEnd=74 PartOfSpeech=VB] [Text=production CharacterOffsetBegin=75 CharacterOffsetEnd=85 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=IN] [Text=early CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=JJ] [Text=1990 CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=.] 
+root(ROOT-0, expected-12)
+nn(Corp.-3, QUANTUM-1)
+nn(Corp.-3, CHEMICAL-2)
+poss(plant-5, Corp.-3)
+possessive(Corp.-3, 's-4)
+nsubjpass(expected-12, plant-5)
+prep(plant-5, in-6)
+pobj(in-6, Morris-7)
+punct(Morris-7, ,-8)
+appos(Morris-7, Ill.-9)
+punct(Morris-7, ,-10)
+auxpass(expected-12, is-11)
+aux(resume-14, to-13)
+xcomp(expected-12, resume-14)
+dobj(resume-14, production-15)
+prep(resume-14, in-16)
+amod(1990-18, early-17)
+pobj(in-16, 1990-18)
+punct(expected-12, .-19)
+
+Sentence #2 (9 tokens):
+The year was misstated in Friday's editions.
+[Text=The CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=DT] [Text=year CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=VBD] [Text=misstated CharacterOffsetBegin=119 CharacterOffsetEnd=128 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=IN] [Text=Friday CharacterOffsetBegin=132 CharacterOffsetEnd=138 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=POS] [Text=editions CharacterOffsetBegin=141 CharacterOffsetEnd=149 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=.] 
+root(ROOT-0, misstated-4)
+det(year-2, The-1)
+nsubjpass(misstated-4, year-2)
+auxpass(misstated-4, was-3)
+prep(misstated-4, in-5)
+poss(editions-8, Friday-6)
+possessive(Friday-6, 's-7)
+pobj(in-5, editions-8)
+punct(misstated-4, .-9)
+
+Sentence #3 (14 tokens):
+(See: 
+    "Dividend News: 
+    Payout Stalled at Quantum Chemical Corp.
+[Text=-LRB- CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=-LRB-] [Text=See CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=VB] [Text=: CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=:] [Text=`` CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=``] [Text=Dividend CharacterOffsetBegin=168 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=News CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=:] [Text=Payout CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=Stalled CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=Quantum CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=NNP] [Text=Chemical CharacterOffsetBegin=214 CharacterOffsetEnd=222 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=.] 
+root(ROOT-0, See-2)
+punct(See-2, -LRB--1)
+punct(See-2, :-3)
+punct(See-2, ``-4)
+nn(News-6, Dividend-5)
+dep(See-2, News-6)
+punct(News-6, :-7)
+nn(Stalled-9, Payout-8)
+dep(News-6, Stalled-9)
+prep(Stalled-9, at-10)
+nn(Corp.-13, Quantum-11)
+nn(Corp.-13, Chemical-12)
+pobj(at-10, Corp.-13)
+punct(See-2, .-14)
+
+Sentence #4 (23 tokens):
+--- Firm Posts Quarterly Loss, 
+    Plans a Stock Dividend 
+    to Take Place of Cash" 
+    -- WSJ Oct. 27, 1989)
+[Text=-- CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=:] [Text=Firm CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=NN] [Text=Posts CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=NNS] [Text=Quarterly CharacterOffsetBegin=249 CharacterOffsetEnd=258 PartOfSpeech=JJ] [Text=Loss CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=,] [Text=Plans CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=NNS] [Text=a CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=Stock CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=Dividend CharacterOffsetBegin=284 CharacterOffsetEnd=292 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=TO] [Text=Take CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=VB] [Text=Place CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=IN] [Text=Cash CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=319 CharacterOffsetEnd=320 PartOfSpeech=''] [Text=-- CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=:] [Text=WSJ CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=NNP] [Text=Oct. CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NNP] [Text=27 CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=,] [Text=1989 CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=-RRB-] 
+root(ROOT-0, Loss-5)
+punct(Loss-5, ---1)
+nn(Loss-5, Firm-2)
+nn(Loss-5, Posts-3)
+amod(Loss-5, Quarterly-4)
+punct(Loss-5, ,-6)
+appos(Loss-5, Plans-7)
+det(Dividend-10, a-8)
+nn(Dividend-10, Stock-9)
+appos(Plans-7, Dividend-10)
+aux(Take-12, to-11)
+infmod(Dividend-10, Take-12)
+dobj(Take-12, Place-13)
+prep(Place-13, of-14)
+pobj(of-14, Cash-15)
+punct(Take-12, ''-16)
+punct(Dividend-10, ---17)
+dep(Dividend-10, WSJ-18)
+tmod(WSJ-18, Oct.-19)
+num(Oct.-19, 27-20)
+punct(Oct.-19, ,-21)
+num(Oct.-19, 1989-22)
+punct(Dividend-10, -RRB--23)
+

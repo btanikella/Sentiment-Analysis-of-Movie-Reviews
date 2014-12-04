@@ -1,0 +1,75 @@
+Sentence #1 (18 tokens):
+USX Corp. said 
+    it delayed the proposed initial public offering of common stock of RMI Titanium Co.
+[Text=USX CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=PRP] [Text=delayed CharacterOffsetBegin=27 CharacterOffsetEnd=34 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT] [Text=proposed CharacterOffsetBegin=39 CharacterOffsetEnd=47 PartOfSpeech=VBN] [Text=initial CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=public CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=offering CharacterOffsetBegin=63 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN] [Text=common CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=stock CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=IN] [Text=RMI CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=NNP] [Text=Titanium CharacterOffsetBegin=95 CharacterOffsetEnd=103 PartOfSpeech=NNP] [Text=Co. CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.] 
+root(ROOT-0, said-3)
+nn(Corp.-2, USX-1)
+nsubj(said-3, Corp.-2)
+nsubj(delayed-5, it-4)
+ccomp(said-3, delayed-5)
+det(offering-10, the-6)
+amod(offering-10, proposed-7)
+amod(offering-10, initial-8)
+amod(offering-10, public-9)
+dobj(delayed-5, offering-10)
+prep(offering-10, of-11)
+amod(stock-13, common-12)
+pobj(of-11, stock-13)
+prep(stock-13, of-14)
+nn(Co.-17, RMI-15)
+nn(Co.-17, Titanium-16)
+pobj(of-14, Co.-17)
+punct(said-3, .-18)
+
+Sentence #2 (5 tokens):
+because of market conditions.
+[Text=because CharacterOffsetBegin=113 CharacterOffsetEnd=120 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=IN] [Text=market CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=conditions CharacterOffsetBegin=131 CharacterOffsetEnd=141 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=.] 
+root(ROOT-0, of-2)
+mwe(of-2, because-1)
+nn(conditions-4, market-3)
+pobj(of-2, conditions-4)
+punct(of-2, .-5)
+
+Sentence #3 (12 tokens):
+RMI Titanium is owned jointly by USX and Quantum Chemical Corp.
+[Text=RMI CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=NNP] [Text=Titanium CharacterOffsetBegin=152 CharacterOffsetEnd=160 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=VBZ] [Text=owned CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=VBN] [Text=jointly CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN] [Text=USX CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=CC] [Text=Quantum CharacterOffsetBegin=189 CharacterOffsetEnd=196 PartOfSpeech=NNP] [Text=Chemical CharacterOffsetBegin=197 CharacterOffsetEnd=205 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=.] 
+root(ROOT-0, owned-4)
+nn(Titanium-2, RMI-1)
+nsubjpass(owned-4, Titanium-2)
+auxpass(owned-4, is-3)
+advmod(owned-4, jointly-5)
+prep(owned-4, by-6)
+pobj(by-6, USX-7)
+cc(USX-7, and-8)
+nn(Corp.-11, Quantum-9)
+nn(Corp.-11, Chemical-10)
+conj(USX-7, Corp.-11)
+punct(owned-4, .-12)
+
+Sentence #4 (21 tokens):
+USX, 
+    which hadn't set a date for the offering, 
+    didn't disclose any timetable for the offering.
+[Text=USX CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=,] [Text=which CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=WDT] [Text=had CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=RB] [Text=set CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=date CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=offering CharacterOffsetBegin=259 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=,] [Text=did CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=RB] [Text=disclose CharacterOffsetBegin=281 CharacterOffsetEnd=289 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=DT] [Text=timetable CharacterOffsetBegin=294 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=DT] [Text=offering CharacterOffsetBegin=312 CharacterOffsetEnd=320 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=.] 
+root(ROOT-0, disclose-15)
+nsubj(disclose-15, USX-1)
+punct(USX-1, ,-2)
+nsubj(set-6, which-3)
+aux(set-6, had-4)
+neg(set-6, n't-5)
+rcmod(USX-1, set-6)
+det(date-8, a-7)
+dobj(set-6, date-8)
+prep(date-8, for-9)
+det(offering-11, the-10)
+pobj(for-9, offering-11)
+punct(USX-1, ,-12)
+aux(disclose-15, did-13)
+neg(disclose-15, n't-14)
+det(timetable-17, any-16)
+dobj(disclose-15, timetable-17)
+prep(timetable-17, for-18)
+det(offering-20, the-19)
+pobj(for-18, offering-20)
+punct(disclose-15, .-21)
+

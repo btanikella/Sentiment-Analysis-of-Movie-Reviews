@@ -1,0 +1,290 @@
+Sentence #1 (2 tokens):
+Plunge?
+[Text=Plunge CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=.] 
+root(ROOT-0, Plunge-1)
+punct(Plunge-1, ?-2)
+
+Sentence #2 (3 tokens):
+What plunge?
+[Text=What CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=WDT] [Text=plunge CharacterOffsetBegin=22 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=.] 
+root(ROOT-0, plunge-2)
+det(plunge-2, What-1)
+punct(plunge-2, ?-3)
+
+Sentence #3 (24 tokens):
+Twenty-four New York Stock Exchange issues hit 52-week highs during Friday's trading, 
+    despite the Dow Jones Industrial Average's 190.58-point plunge.
+[Text=Twenty-four CharacterOffsetBegin=35 CharacterOffsetEnd=46 PartOfSpeech=CD] [Text=New CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=NNP] [Text=York CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NNP] [Text=Stock CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NNP] [Text=Exchange CharacterOffsetBegin=62 CharacterOffsetEnd=70 PartOfSpeech=NNP] [Text=issues CharacterOffsetBegin=71 CharacterOffsetEnd=77 PartOfSpeech=NNS] [Text=hit CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=VBD] [Text=52-week CharacterOffsetBegin=82 CharacterOffsetEnd=89 PartOfSpeech=JJ] [Text=highs CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NNS] [Text=during CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=IN] [Text=Friday CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=POS] [Text=trading CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=,] [Text=despite CharacterOffsetBegin=126 CharacterOffsetEnd=133 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=DT] [Text=Dow CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=NNP] [Text=Jones CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NNP] [Text=Industrial CharacterOffsetBegin=148 CharacterOffsetEnd=158 PartOfSpeech=NNP] [Text=Average CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=POS] [Text=190.58-point CharacterOffsetBegin=169 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=plunge CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=.] 
+root(ROOT-0, hit-7)
+num(issues-6, Twenty-four-1)
+nn(issues-6, New-2)
+nn(issues-6, York-3)
+nn(issues-6, Stock-4)
+nn(issues-6, Exchange-5)
+nsubj(hit-7, issues-6)
+amod(highs-9, 52-week-8)
+dobj(hit-7, highs-9)
+prep(hit-7, during-10)
+poss(trading-13, Friday-11)
+possessive(Friday-11, 's-12)
+pobj(during-10, trading-13)
+punct(hit-7, ,-14)
+prep(hit-7, despite-15)
+det(Average-20, the-16)
+nn(Average-20, Dow-17)
+nn(Average-20, Jones-18)
+nn(Average-20, Industrial-19)
+poss(plunge-23, Average-20)
+possessive(Average-20, 's-21)
+amod(plunge-23, 190.58-point-22)
+pobj(despite-15, plunge-23)
+punct(hit-7, .-24)
+
+Sentence #4 (15 tokens):
+Stocks of utilities held up relatively better than other market sectors during the sell-off.
+[Text=Stocks CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=IN] [Text=utilities CharacterOffsetBegin=205 CharacterOffsetEnd=214 PartOfSpeech=NNS] [Text=held CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=RP] [Text=relatively CharacterOffsetBegin=223 CharacterOffsetEnd=233 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=JJ] [Text=market CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=sectors CharacterOffsetBegin=259 CharacterOffsetEnd=266 PartOfSpeech=NNS] [Text=during CharacterOffsetBegin=267 CharacterOffsetEnd=273 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=sell-off CharacterOffsetBegin=278 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, held-4)
+nsubj(held-4, Stocks-1)
+prep(Stocks-1, of-2)
+pobj(of-2, utilities-3)
+prt(held-4, up-5)
+advmod(better-7, relatively-6)
+advmod(held-4, better-7)
+prep(better-7, than-8)
+amod(sectors-11, other-9)
+nn(sectors-11, market-10)
+pobj(than-8, sectors-11)
+prep(held-4, during-12)
+det(sell-off-14, the-13)
+pobj(during-12, sell-off-14)
+punct(held-4, .-15)
+
+Sentence #5 (17 tokens):
+And among the issues 
+    hitting new highs 
+    were Detroit Edison Co. and Niagara Mohawk Power Corp.
+[Text=And CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=CC] [Text=among CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=DT] [Text=issues CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=NNS] [Text=hitting CharacterOffsetBegin=319 CharacterOffsetEnd=326 PartOfSpeech=VBG] [Text=new CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=JJ] [Text=highs CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=VBD] [Text=Detroit CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=NNP] [Text=Edison CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=NNP] [Text=Co. CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=CC] [Text=Niagara CharacterOffsetBegin=370 CharacterOffsetEnd=377 PartOfSpeech=NNP] [Text=Mohawk CharacterOffsetBegin=378 CharacterOffsetEnd=384 PartOfSpeech=NNP] [Text=Power CharacterOffsetBegin=385 CharacterOffsetEnd=390 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=.] 
+root(ROOT-0, were-8)
+cc(were-8, And-1)
+prep(were-8, among-2)
+det(issues-4, the-3)
+pobj(among-2, issues-4)
+partmod(issues-4, hitting-5)
+amod(highs-7, new-6)
+dobj(hitting-5, highs-7)
+nn(Co.-11, Detroit-9)
+nn(Co.-11, Edison-10)
+nsubj(were-8, Co.-11)
+cc(Co.-11, and-12)
+nn(Corp.-16, Niagara-13)
+nn(Corp.-16, Mohawk-14)
+nn(Corp.-16, Power-15)
+conj(Co.-11, Corp.-16)
+punct(were-8, .-17)
+
+Sentence #6 (26 tokens):
+Other major issues 
+    hitting highs 
+    included American Telephone & Telegraph Co., Westinghouse Electric Corp., Exxon Corp. and Cigna Corp., the big insurer.
+[Text=Other CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=JJ] [Text=major CharacterOffsetBegin=408 CharacterOffsetEnd=413 PartOfSpeech=JJ] [Text=issues CharacterOffsetBegin=414 CharacterOffsetEnd=420 PartOfSpeech=NNS] [Text=hitting CharacterOffsetBegin=426 CharacterOffsetEnd=433 PartOfSpeech=VBG] [Text=highs CharacterOffsetBegin=434 CharacterOffsetEnd=439 PartOfSpeech=NNS] [Text=included CharacterOffsetBegin=445 CharacterOffsetEnd=453 PartOfSpeech=VBD] [Text=American CharacterOffsetBegin=454 CharacterOffsetEnd=462 PartOfSpeech=NNP] [Text=Telephone CharacterOffsetBegin=463 CharacterOffsetEnd=472 PartOfSpeech=NNP] [Text=& CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=CC] [Text=Telegraph CharacterOffsetBegin=475 CharacterOffsetEnd=484 PartOfSpeech=NNP] [Text=Co. CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=488 CharacterOffsetEnd=489 PartOfSpeech=,] [Text=Westinghouse CharacterOffsetBegin=490 CharacterOffsetEnd=502 PartOfSpeech=NNP] [Text=Electric CharacterOffsetBegin=503 CharacterOffsetEnd=511 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=512 CharacterOffsetEnd=517 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=,] [Text=Exxon CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=525 CharacterOffsetEnd=530 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=CC] [Text=Cigna CharacterOffsetBegin=535 CharacterOffsetEnd=540 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=541 CharacterOffsetEnd=546 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=,] [Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT] [Text=big CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=JJ] [Text=insurer CharacterOffsetBegin=556 CharacterOffsetEnd=563 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=.] 
+root(ROOT-0, included-6)
+amod(issues-3, Other-1)
+amod(issues-3, major-2)
+nsubj(included-6, issues-3)
+partmod(issues-3, hitting-4)
+dobj(hitting-4, highs-5)
+nn(Telephone-8, American-7)
+dobj(included-6, Telephone-8)
+cc(Telephone-8, &-9)
+nn(Co.-11, Telegraph-10)
+conj(Telephone-8, Co.-11)
+punct(Telephone-8, ,-12)
+nn(Corp.-15, Westinghouse-13)
+nn(Corp.-15, Electric-14)
+conj(Telephone-8, Corp.-15)
+punct(Telephone-8, ,-16)
+nn(Corp.-18, Exxon-17)
+conj(Telephone-8, Corp.-18)
+cc(Telephone-8, and-19)
+nn(Corp.-21, Cigna-20)
+conj(Telephone-8, Corp.-21)
+punct(Telephone-8, ,-22)
+det(insurer-25, the-23)
+amod(insurer-25, big-24)
+appos(Telephone-8, insurer-25)
+punct(included-6, .-26)
+
+Sentence #7 (13 tokens):
+Of course, many more issues 
+    -- 93 -- 
+    hit new lows.
+[Text=Of CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=573 CharacterOffsetEnd=579 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=,] [Text=many CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=JJ] [Text=more CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=JJR] [Text=issues CharacterOffsetBegin=591 CharacterOffsetEnd=597 PartOfSpeech=NNS] [Text=-- CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=:] [Text=93 CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=CD] [Text=-- CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=:] [Text=hit CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=VBD] [Text=new CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=JJ] [Text=lows CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=.] 
+root(ROOT-0, hit-10)
+prep(hit-10, Of-1)
+pobj(Of-1, course-2)
+punct(hit-10, ,-3)
+amod(issues-6, many-4)
+amod(issues-6, more-5)
+nsubj(hit-10, issues-6)
+punct(93-8, ---7)
+dep(issues-6, 93-8)
+punct(93-8, ---9)
+amod(lows-12, new-11)
+dobj(hit-10, lows-12)
+punct(hit-10, .-13)
+
+Sentence #8 (26 tokens):
+These included International Business Machines Corp., 
+    which during Friday's session traded below $100 a share for the first time since June 1984.
+[Text=These CharacterOffsetBegin=636 CharacterOffsetEnd=641 PartOfSpeech=DT] [Text=included CharacterOffsetBegin=642 CharacterOffsetEnd=650 PartOfSpeech=VBD] [Text=International CharacterOffsetBegin=651 CharacterOffsetEnd=664 PartOfSpeech=NNP] [Text=Business CharacterOffsetBegin=665 CharacterOffsetEnd=673 PartOfSpeech=NNP] [Text=Machines CharacterOffsetBegin=674 CharacterOffsetEnd=682 PartOfSpeech=NNPS] [Text=Corp. CharacterOffsetBegin=683 CharacterOffsetEnd=688 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=,] [Text=which CharacterOffsetBegin=695 CharacterOffsetEnd=700 PartOfSpeech=WDT] [Text=during CharacterOffsetBegin=701 CharacterOffsetEnd=707 PartOfSpeech=IN] [Text=Friday CharacterOffsetBegin=708 CharacterOffsetEnd=714 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=714 CharacterOffsetEnd=716 PartOfSpeech=POS] [Text=session CharacterOffsetBegin=717 CharacterOffsetEnd=724 PartOfSpeech=NN] [Text=traded CharacterOffsetBegin=725 CharacterOffsetEnd=731 PartOfSpeech=VBD] [Text=below CharacterOffsetBegin=732 CharacterOffsetEnd=737 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=738 CharacterOffsetEnd=739 PartOfSpeech=$] [Text=100 CharacterOffsetBegin=739 CharacterOffsetEnd=742 PartOfSpeech=CD] [Text=a CharacterOffsetBegin=743 CharacterOffsetEnd=744 PartOfSpeech=DT] [Text=share CharacterOffsetBegin=745 CharacterOffsetEnd=750 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=755 CharacterOffsetEnd=758 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=759 CharacterOffsetEnd=764 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=765 CharacterOffsetEnd=769 PartOfSpeech=NN] [Text=since CharacterOffsetBegin=770 CharacterOffsetEnd=775 PartOfSpeech=IN] [Text=June CharacterOffsetBegin=776 CharacterOffsetEnd=780 PartOfSpeech=NNP] [Text=1984 CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=785 CharacterOffsetEnd=786 PartOfSpeech=.] 
+root(ROOT-0, included-2)
+nsubj(included-2, These-1)
+nn(Corp.-6, International-3)
+nn(Corp.-6, Business-4)
+nn(Corp.-6, Machines-5)
+dobj(included-2, Corp.-6)
+punct(Corp.-6, ,-7)
+nsubj(traded-13, which-8)
+prep(traded-13, during-9)
+poss(session-12, Friday-10)
+possessive(Friday-10, 's-11)
+pobj(during-9, session-12)
+rcmod(Corp.-6, traded-13)
+prep(traded-13, below-14)
+pobj(below-14, $-15)
+num($-15, 100-16)
+det(share-18, a-17)
+npadvmod($-15, share-18)
+prep(traded-13, for-19)
+det(time-22, the-20)
+amod(time-22, first-21)
+pobj(for-19, time-22)
+prep(time-22, since-23)
+pobj(since-23, June-24)
+num(June-24, 1984-25)
+punct(included-2, .-26)
+
+Sentence #9 (10 tokens):
+IBM closed at $102, down $5.625.
+[Text=IBM CharacterOffsetBegin=792 CharacterOffsetEnd=795 PartOfSpeech=NNP] [Text=closed CharacterOffsetBegin=796 CharacterOffsetEnd=802 PartOfSpeech=VBD] [Text=at CharacterOffsetBegin=803 CharacterOffsetEnd=805 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=806 CharacterOffsetEnd=807 PartOfSpeech=$] [Text=102 CharacterOffsetBegin=807 CharacterOffsetEnd=810 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=810 CharacterOffsetEnd=811 PartOfSpeech=,] [Text=down CharacterOffsetBegin=812 CharacterOffsetEnd=816 PartOfSpeech=RB] [Text=$ CharacterOffsetBegin=817 CharacterOffsetEnd=818 PartOfSpeech=$] [Text=5.625 CharacterOffsetBegin=818 CharacterOffsetEnd=823 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=823 CharacterOffsetEnd=824 PartOfSpeech=.] 
+root(ROOT-0, closed-2)
+nsubj(closed-2, IBM-1)
+prep(closed-2, at-3)
+pobj(at-3, $-4)
+num($-4, 102-5)
+punct(closed-2, ,-6)
+advmod(closed-2, down-7)
+pobj(down-7, $-8)
+num($-8, 5.625-9)
+punct(closed-2, .-10)
+
+Sentence #10 (26 tokens):
+Other new lows included Navistar International Corp., Union Carbide Corp. and Bethlehem Steel Corp., 
+    all of which are included in the industrial average.
+[Text=Other CharacterOffsetBegin=830 CharacterOffsetEnd=835 PartOfSpeech=JJ] [Text=new CharacterOffsetBegin=836 CharacterOffsetEnd=839 PartOfSpeech=JJ] [Text=lows CharacterOffsetBegin=840 CharacterOffsetEnd=844 PartOfSpeech=NNS] [Text=included CharacterOffsetBegin=845 CharacterOffsetEnd=853 PartOfSpeech=VBD] [Text=Navistar CharacterOffsetBegin=854 CharacterOffsetEnd=862 PartOfSpeech=NNP] [Text=International CharacterOffsetBegin=863 CharacterOffsetEnd=876 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=877 CharacterOffsetEnd=882 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=882 CharacterOffsetEnd=883 PartOfSpeech=,] [Text=Union CharacterOffsetBegin=884 CharacterOffsetEnd=889 PartOfSpeech=NNP] [Text=Carbide CharacterOffsetBegin=890 CharacterOffsetEnd=897 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=898 CharacterOffsetEnd=903 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=904 CharacterOffsetEnd=907 PartOfSpeech=CC] [Text=Bethlehem CharacterOffsetBegin=908 CharacterOffsetEnd=917 PartOfSpeech=NNP] [Text=Steel CharacterOffsetBegin=918 CharacterOffsetEnd=923 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=924 CharacterOffsetEnd=929 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=929 CharacterOffsetEnd=930 PartOfSpeech=,] [Text=all CharacterOffsetBegin=936 CharacterOffsetEnd=939 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=940 CharacterOffsetEnd=942 PartOfSpeech=IN] [Text=which CharacterOffsetBegin=943 CharacterOffsetEnd=948 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=949 CharacterOffsetEnd=952 PartOfSpeech=VBP] [Text=included CharacterOffsetBegin=953 CharacterOffsetEnd=961 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=965 CharacterOffsetEnd=968 PartOfSpeech=DT] [Text=industrial CharacterOffsetBegin=969 CharacterOffsetEnd=979 PartOfSpeech=JJ] [Text=average CharacterOffsetBegin=980 CharacterOffsetEnd=987 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=987 CharacterOffsetEnd=988 PartOfSpeech=.] 
+root(ROOT-0, included-4)
+amod(lows-3, Other-1)
+amod(lows-3, new-2)
+nsubj(included-4, lows-3)
+nn(Corp.-7, Navistar-5)
+nn(Corp.-7, International-6)
+dobj(included-4, Corp.-7)
+punct(Corp.-7, ,-8)
+nn(Corp.-11, Union-9)
+nn(Corp.-11, Carbide-10)
+conj(Corp.-7, Corp.-11)
+cc(Corp.-7, and-12)
+nn(Corp.-15, Bethlehem-13)
+nn(Corp.-15, Steel-14)
+conj(Corp.-7, Corp.-15)
+punct(Corp.-7, ,-16)
+nsubjpass(included-21, all-17)
+prep(all-17, of-18)
+pobj(of-18, which-19)
+auxpass(included-21, are-20)
+rcmod(Corp.-7, included-21)
+prep(included-21, in-22)
+det(average-25, the-23)
+amod(average-25, industrial-24)
+pobj(in-22, average-25)
+punct(included-4, .-26)
+
+Sentence #11 (20 tokens):
+Meanwhile, two initial public offerings braved the cascading market in their maiden day of national over-the-counter trading Friday.
+[Text=Meanwhile CharacterOffsetBegin=994 CharacterOffsetEnd=1003 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=1003 CharacterOffsetEnd=1004 PartOfSpeech=,] [Text=two CharacterOffsetBegin=1005 CharacterOffsetEnd=1008 PartOfSpeech=CD] [Text=initial CharacterOffsetBegin=1009 CharacterOffsetEnd=1016 PartOfSpeech=JJ] [Text=public CharacterOffsetBegin=1017 CharacterOffsetEnd=1023 PartOfSpeech=JJ] [Text=offerings CharacterOffsetBegin=1024 CharacterOffsetEnd=1033 PartOfSpeech=NNS] [Text=braved CharacterOffsetBegin=1034 CharacterOffsetEnd=1040 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=1041 CharacterOffsetEnd=1044 PartOfSpeech=DT] [Text=cascading CharacterOffsetBegin=1045 CharacterOffsetEnd=1054 PartOfSpeech=VBG] [Text=market CharacterOffsetBegin=1055 CharacterOffsetEnd=1061 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=1062 CharacterOffsetEnd=1064 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=1065 CharacterOffsetEnd=1070 PartOfSpeech=PRP$] [Text=maiden CharacterOffsetBegin=1071 CharacterOffsetEnd=1077 PartOfSpeech=JJ] [Text=day CharacterOffsetBegin=1078 CharacterOffsetEnd=1081 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1082 CharacterOffsetEnd=1084 PartOfSpeech=IN] [Text=national CharacterOffsetBegin=1085 CharacterOffsetEnd=1093 PartOfSpeech=JJ] [Text=over-the-counter CharacterOffsetBegin=1094 CharacterOffsetEnd=1110 PartOfSpeech=JJ] [Text=trading CharacterOffsetBegin=1111 CharacterOffsetEnd=1118 PartOfSpeech=NN] [Text=Friday CharacterOffsetBegin=1119 CharacterOffsetEnd=1125 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1125 CharacterOffsetEnd=1126 PartOfSpeech=.] 
+root(ROOT-0, braved-7)
+advmod(braved-7, Meanwhile-1)
+punct(braved-7, ,-2)
+num(offerings-6, two-3)
+amod(offerings-6, initial-4)
+amod(offerings-6, public-5)
+nsubj(braved-7, offerings-6)
+det(market-10, the-8)
+nn(market-10, cascading-9)
+dobj(braved-7, market-10)
+prep(braved-7, in-11)
+poss(day-14, their-12)
+amod(day-14, maiden-13)
+pobj(in-11, day-14)
+prep(day-14, of-15)
+amod(trading-18, national-16)
+amod(trading-18, over-the-counter-17)
+pobj(of-15, trading-18)
+tmod(braved-7, Friday-19)
+punct(braved-7, .-20)
+
+Sentence #12 (50 tokens):
+Shares of Rally's Inc., an operator of fast-food restaurants, closed at $17 each, up from its $15 offering price 
+    and shares of Employee Benefit Plans Inc., a health-care consultant, closed at $14.125, up from its $12 offering price.
+[Text=Shares CharacterOffsetBegin=1132 CharacterOffsetEnd=1138 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=1139 CharacterOffsetEnd=1141 PartOfSpeech=IN] [Text=Rally CharacterOffsetBegin=1142 CharacterOffsetEnd=1147 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=1147 CharacterOffsetEnd=1149 PartOfSpeech=POS] [Text=Inc. CharacterOffsetBegin=1150 CharacterOffsetEnd=1154 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=1154 CharacterOffsetEnd=1155 PartOfSpeech=,] [Text=an CharacterOffsetBegin=1156 CharacterOffsetEnd=1158 PartOfSpeech=DT] [Text=operator CharacterOffsetBegin=1159 CharacterOffsetEnd=1167 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1168 CharacterOffsetEnd=1170 PartOfSpeech=IN] [Text=fast-food CharacterOffsetBegin=1171 CharacterOffsetEnd=1180 PartOfSpeech=NN] [Text=restaurants CharacterOffsetBegin=1181 CharacterOffsetEnd=1192 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=1192 CharacterOffsetEnd=1193 PartOfSpeech=,] [Text=closed CharacterOffsetBegin=1194 CharacterOffsetEnd=1200 PartOfSpeech=VBD] [Text=at CharacterOffsetBegin=1201 CharacterOffsetEnd=1203 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=1204 CharacterOffsetEnd=1205 PartOfSpeech=$] [Text=17 CharacterOffsetBegin=1205 CharacterOffsetEnd=1207 PartOfSpeech=CD] [Text=each CharacterOffsetBegin=1208 CharacterOffsetEnd=1212 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=1212 CharacterOffsetEnd=1213 PartOfSpeech=,] [Text=up CharacterOffsetBegin=1214 CharacterOffsetEnd=1216 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=1217 CharacterOffsetEnd=1221 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=1222 CharacterOffsetEnd=1225 PartOfSpeech=PRP$] [Text=$ CharacterOffsetBegin=1226 CharacterOffsetEnd=1227 PartOfSpeech=$] [Text=15 CharacterOffsetBegin=1227 CharacterOffsetEnd=1229 PartOfSpeech=CD] [Text=offering CharacterOffsetBegin=1230 CharacterOffsetEnd=1238 PartOfSpeech=NN] [Text=price CharacterOffsetBegin=1239 CharacterOffsetEnd=1244 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1250 CharacterOffsetEnd=1253 PartOfSpeech=CC] [Text=shares CharacterOffsetBegin=1254 CharacterOffsetEnd=1260 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=1261 CharacterOffsetEnd=1263 PartOfSpeech=IN] [Text=Employee CharacterOffsetBegin=1264 CharacterOffsetEnd=1272 PartOfSpeech=NNP] [Text=Benefit CharacterOffsetBegin=1273 CharacterOffsetEnd=1280 PartOfSpeech=NNP] [Text=Plans CharacterOffsetBegin=1281 CharacterOffsetEnd=1286 PartOfSpeech=NNP] [Text=Inc. CharacterOffsetBegin=1287 CharacterOffsetEnd=1291 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=1291 CharacterOffsetEnd=1292 PartOfSpeech=,] [Text=a CharacterOffsetBegin=1293 CharacterOffsetEnd=1294 PartOfSpeech=DT] [Text=health-care CharacterOffsetBegin=1295 CharacterOffsetEnd=1306 PartOfSpeech=NN] [Text=consultant CharacterOffsetBegin=1307 CharacterOffsetEnd=1317 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1317 CharacterOffsetEnd=1318 PartOfSpeech=,] [Text=closed CharacterOffsetBegin=1319 CharacterOffsetEnd=1325 PartOfSpeech=VBD] [Text=at CharacterOffsetBegin=1326 CharacterOffsetEnd=1328 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=1329 CharacterOffsetEnd=1330 PartOfSpeech=$] [Text=14.125 CharacterOffsetBegin=1330 CharacterOffsetEnd=1336 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=1336 CharacterOffsetEnd=1337 PartOfSpeech=,] [Text=up CharacterOffsetBegin=1338 CharacterOffsetEnd=1340 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=1341 CharacterOffsetEnd=1345 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=1346 CharacterOffsetEnd=1349 PartOfSpeech=PRP$] [Text=$ CharacterOffsetBegin=1350 CharacterOffsetEnd=1351 PartOfSpeech=$] [Text=12 CharacterOffsetBegin=1351 CharacterOffsetEnd=1353 PartOfSpeech=CD] [Text=offering CharacterOffsetBegin=1354 CharacterOffsetEnd=1362 PartOfSpeech=NN] [Text=price CharacterOffsetBegin=1363 CharacterOffsetEnd=1368 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1368 CharacterOffsetEnd=1369 PartOfSpeech=.] 
+root(ROOT-0, closed-13)
+nsubj(closed-13, Shares-1)
+prep(Shares-1, of-2)
+poss(Inc.-5, Rally-3)
+possessive(Rally-3, 's-4)
+pobj(of-2, Inc.-5)
+punct(Inc.-5, ,-6)
+det(operator-8, an-7)
+appos(Inc.-5, operator-8)
+prep(operator-8, of-9)
+nn(restaurants-11, fast-food-10)
+pobj(of-9, restaurants-11)
+punct(Inc.-5, ,-12)
+prep(closed-13, at-14)
+pobj(at-14, $-15)
+num($-15, 17-16)
+npadvmod($-15, each-17)
+punct(closed-13, ,-18)
+advmod(closed-13, up-19)
+prep(up-19, from-20)
+poss(price-25, its-21)
+amod(price-25, $-22)
+number($-22, 15-23)
+nn(price-25, offering-24)
+pobj(from-20, price-25)
+cc(price-25, and-26)
+conj(price-25, shares-27)
+prep(shares-27, of-28)
+nn(Inc.-32, Employee-29)
+nn(Inc.-32, Benefit-30)
+nn(Inc.-32, Plans-31)
+pobj(of-28, Inc.-32)
+punct(Inc.-32, ,-33)
+det(consultant-36, a-34)
+nn(consultant-36, health-care-35)
+appos(Inc.-32, consultant-36)
+punct(Inc.-32, ,-37)
+dep(closed-13, closed-38)
+prep(closed-38, at-39)
+pobj(at-39, $-40)
+num($-40, 14.125-41)
+punct(closed-38, ,-42)
+advmod(closed-38, up-43)
+prep(up-43, from-44)
+poss(price-49, its-45)
+amod(price-49, $-46)
+number($-46, 12-47)
+nn(price-49, offering-48)
+pobj(from-44, price-49)
+punct(closed-13, .-50)
+

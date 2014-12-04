@@ -1,0 +1,38 @@
+Sentence #1 (32 tokens):
+Consumer spending in Britain rose 0.1% in the third quarter from the second quarter 
+    and was up 3.8% from a year ago, 
+    the Central Statistical Office estimated Friday.
+[Text=Consumer CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NN] [Text=spending CharacterOffsetBegin=13 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=IN] [Text=Britain CharacterOffsetBegin=25 CharacterOffsetEnd=32 PartOfSpeech=NNP] [Text=rose CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=VBD] [Text=0.1 CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT] [Text=third CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=quarter CharacterOffsetBegin=56 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=second CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=JJ] [Text=quarter CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=RB] [Text=3.8 CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=year CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=ago CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=,] [Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=Central CharacterOffsetBegin=135 CharacterOffsetEnd=142 PartOfSpeech=NNP] [Text=Statistical CharacterOffsetBegin=143 CharacterOffsetEnd=154 PartOfSpeech=NNP] [Text=Office CharacterOffsetBegin=155 CharacterOffsetEnd=161 PartOfSpeech=NNP] [Text=estimated CharacterOffsetBegin=162 CharacterOffsetEnd=171 PartOfSpeech=VBD] [Text=Friday CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=.] 
+root(ROOT-0, estimated-30)
+nn(spending-2, Consumer-1)
+nsubj(rose-5, spending-2)
+prep(spending-2, in-3)
+pobj(in-3, Britain-4)
+ccomp(estimated-30, rose-5)
+num(%-7, 0.1-6)
+dobj(rose-5, %-7)
+prep(rose-5, in-8)
+det(quarter-11, the-9)
+amod(quarter-11, third-10)
+pobj(in-8, quarter-11)
+prep(rose-5, from-12)
+det(quarter-15, the-13)
+amod(quarter-15, second-14)
+pobj(from-12, quarter-15)
+cc(rose-5, and-16)
+conj(rose-5, was-17)
+advmod(was-17, up-18)
+num(%-20, 3.8-19)
+pobj(up-18, %-20)
+prep(up-18, from-21)
+det(year-23, a-22)
+npadvmod(ago-24, year-23)
+pcomp(from-21, ago-24)
+punct(estimated-30, ,-25)
+det(Office-29, the-26)
+nn(Office-29, Central-27)
+nn(Office-29, Statistical-28)
+nsubj(estimated-30, Office-29)
+tmod(estimated-30, Friday-31)
+punct(estimated-30, .-32)
+

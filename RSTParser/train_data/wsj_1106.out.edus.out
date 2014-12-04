@@ -1,0 +1,167 @@
+Sentence #1 (28 tokens):
+Oil imports to Japan rose 12% in September from year-earlier levels, 
+    according to statistics 
+    released by the government's Ministry of International Trade and Industry.
+[Text=Oil CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NN] [Text=imports CharacterOffsetBegin=8 CharacterOffsetEnd=15 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=TO] [Text=Japan CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNP] [Text=rose CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=VBD] [Text=12 CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=IN] [Text=September CharacterOffsetBegin=37 CharacterOffsetEnd=46 PartOfSpeech=NNP] [Text=from CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=IN] [Text=year-earlier CharacterOffsetBegin=52 CharacterOffsetEnd=64 PartOfSpeech=JJ] [Text=levels CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=,] [Text=according CharacterOffsetBegin=78 CharacterOffsetEnd=87 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=TO] [Text=statistics CharacterOffsetBegin=91 CharacterOffsetEnd=101 PartOfSpeech=NNS] [Text=released CharacterOffsetBegin=107 CharacterOffsetEnd=115 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=DT] [Text=government CharacterOffsetBegin=123 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=POS] [Text=Ministry CharacterOffsetBegin=136 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=International CharacterOffsetBegin=148 CharacterOffsetEnd=161 PartOfSpeech=NNP] [Text=Trade CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=CC] [Text=Industry CharacterOffsetBegin=172 CharacterOffsetEnd=180 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=.] 
+root(ROOT-0, rose-5)
+nn(imports-2, Oil-1)
+nsubj(rose-5, imports-2)
+prep(imports-2, to-3)
+pobj(to-3, Japan-4)
+num(%-7, 12-6)
+dobj(rose-5, %-7)
+prep(rose-5, in-8)
+pobj(in-8, September-9)
+prep(rose-5, from-10)
+amod(levels-12, year-earlier-11)
+pobj(from-10, levels-12)
+punct(rose-5, ,-13)
+prep(rose-5, according-14)
+pcomp(according-14, to-15)
+pobj(to-15, statistics-16)
+partmod(statistics-16, released-17)
+prep(released-17, by-18)
+det(government-20, the-19)
+poss(Ministry-22, government-20)
+possessive(government-20, 's-21)
+pobj(by-18, Ministry-22)
+prep(Ministry-22, of-23)
+nn(Trade-25, International-24)
+pobj(of-23, Trade-25)
+cc(Trade-25, and-26)
+conj(Trade-25, Industry-27)
+punct(rose-5, .-28)
+
+Sentence #2 (16 tokens):
+The imports, 
+    totaling 98.5 million barrels, 
+    were 11% lower than August levels.
+[Text=The CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=imports CharacterOffsetBegin=191 CharacterOffsetEnd=198 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=,] [Text=totaling CharacterOffsetBegin=205 CharacterOffsetEnd=213 PartOfSpeech=VBG] [Text=98.5 CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=CD] [Text=barrels CharacterOffsetBegin=227 CharacterOffsetEnd=234 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=,] [Text=were CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=VBD] [Text=11 CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=lower CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=IN] [Text=August CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=NNP] [Text=levels CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=.] 
+root(ROOT-0, lower-12)
+det(imports-2, The-1)
+nsubj(lower-12, imports-2)
+punct(imports-2, ,-3)
+partmod(imports-2, totaling-4)
+number(million-6, 98.5-5)
+num(barrels-7, million-6)
+dobj(totaling-4, barrels-7)
+punct(imports-2, ,-8)
+cop(lower-12, were-9)
+num(%-11, 11-10)
+npadvmod(lower-12, %-11)
+prep(lower-12, than-13)
+nn(levels-15, August-14)
+pobj(than-13, levels-15)
+punct(lower-12, .-16)
+
+Sentence #3 (33 tokens):
+The year-on-year rise was partly because of higher demand for petroleum products, 
+    and partly because of tax changes in 1988 
+    that left oil companies with high inventories in the late-summer/early-FALL PERIOD.
+[Text=The CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=year-on-year CharacterOffsetBegin=285 CharacterOffsetEnd=297 PartOfSpeech=JJ] [Text=rise CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=VBD] [Text=partly CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=314 CharacterOffsetEnd=321 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=IN] [Text=higher CharacterOffsetBegin=325 CharacterOffsetEnd=331 PartOfSpeech=JJR] [Text=demand CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=IN] [Text=petroleum CharacterOffsetBegin=343 CharacterOffsetEnd=352 PartOfSpeech=NN] [Text=products CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=,] [Text=and CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=CC] [Text=partly CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=379 CharacterOffsetEnd=386 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=IN] [Text=tax CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=NN] [Text=changes CharacterOffsetBegin=394 CharacterOffsetEnd=401 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=IN] [Text=1988 CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=CD] [Text=that CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=WDT] [Text=left CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=VBD] [Text=oil CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=NN] [Text=companies CharacterOffsetBegin=429 CharacterOffsetEnd=438 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=IN] [Text=high CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=JJ] [Text=inventories CharacterOffsetBegin=449 CharacterOffsetEnd=460 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=DT] [Text=late-summer/early-FALL CharacterOffsetBegin=468 CharacterOffsetEnd=490 PartOfSpeech=JJ] [Text=PERIOD CharacterOffsetBegin=491 CharacterOffsetEnd=497 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=497 CharacterOffsetEnd=498 PartOfSpeech=.] 
+root(ROOT-0, was-4)
+det(rise-3, The-1)
+amod(rise-3, year-on-year-2)
+nsubj(was-4, rise-3)
+advmod(of-7, partly-5)
+mwe(of-7, because-6)
+prep(was-4, of-7)
+amod(demand-9, higher-8)
+pobj(of-7, demand-9)
+prep(demand-9, for-10)
+nn(products-12, petroleum-11)
+pobj(for-10, products-12)
+punct(was-4, ,-13)
+cc(was-4, and-14)
+advmod(of-17, partly-15)
+mwe(of-17, because-16)
+conj(was-4, of-17)
+nn(changes-19, tax-18)
+pobj(of-17, changes-19)
+prep(changes-19, in-20)
+pobj(in-20, 1988-21)
+nsubj(left-23, that-22)
+rcmod(changes-19, left-23)
+nn(companies-25, oil-24)
+dobj(left-23, companies-25)
+prep(left-23, with-26)
+amod(inventories-28, high-27)
+pobj(with-26, inventories-28)
+prep(inventories-28, in-29)
+det(PERIOD-32, the-30)
+amod(PERIOD-32, late-summer/early-FALL-31)
+pobj(in-29, PERIOD-32)
+punct(was-4, .-33)
+
+Sentence #4 (23 tokens):
+Imports of crude from the Middle East grew 17% from year-earlier levels, 
+    and Southeast Asian crude imports grew 43%.
+[Text=Imports CharacterOffsetBegin=504 CharacterOffsetEnd=511 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=512 CharacterOffsetEnd=514 PartOfSpeech=IN] [Text=crude CharacterOffsetBegin=515 CharacterOffsetEnd=520 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=DT] [Text=Middle CharacterOffsetBegin=530 CharacterOffsetEnd=536 PartOfSpeech=NNP] [Text=East CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=NNP] [Text=grew CharacterOffsetBegin=542 CharacterOffsetEnd=546 PartOfSpeech=VBD] [Text=17 CharacterOffsetBegin=547 CharacterOffsetEnd=549 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=549 CharacterOffsetEnd=550 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=IN] [Text=year-earlier CharacterOffsetBegin=556 CharacterOffsetEnd=568 PartOfSpeech=JJ] [Text=levels CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=,] [Text=and CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=CC] [Text=Southeast CharacterOffsetBegin=586 CharacterOffsetEnd=595 PartOfSpeech=JJ] [Text=Asian CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=JJ] [Text=crude CharacterOffsetBegin=602 CharacterOffsetEnd=607 PartOfSpeech=NN] [Text=imports CharacterOffsetBegin=608 CharacterOffsetEnd=615 PartOfSpeech=NNS] [Text=grew CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=VBD] [Text=43 CharacterOffsetBegin=621 CharacterOffsetEnd=623 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=.] 
+root(ROOT-0, grew-8)
+nsubj(grew-8, Imports-1)
+prep(Imports-1, of-2)
+pobj(of-2, crude-3)
+prep(Imports-1, from-4)
+det(East-7, the-5)
+nn(East-7, Middle-6)
+pobj(from-4, East-7)
+num(%-10, 17-9)
+dobj(grew-8, %-10)
+prep(grew-8, from-11)
+amod(levels-13, year-earlier-12)
+pobj(from-11, levels-13)
+punct(grew-8, ,-14)
+cc(grew-8, and-15)
+amod(imports-19, Southeast-16)
+amod(imports-19, Asian-17)
+nn(imports-19, crude-18)
+nsubj(grew-20, imports-19)
+conj(grew-8, grew-20)
+num(%-22, 43-21)
+dobj(grew-20, %-22)
+punct(grew-8, .-23)
+
+Sentence #5 (20 tokens):
+While Mideast crude imports were higher 
+    compared with year-earlier levels, 
+    they fell 18% compared with August imports.
+[Text=While CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=IN] [Text=Mideast CharacterOffsetBegin=637 CharacterOffsetEnd=644 PartOfSpeech=JJ] [Text=crude CharacterOffsetBegin=645 CharacterOffsetEnd=650 PartOfSpeech=NN] [Text=imports CharacterOffsetBegin=651 CharacterOffsetEnd=658 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=VBD] [Text=higher CharacterOffsetBegin=664 CharacterOffsetEnd=670 PartOfSpeech=JJR] [Text=compared CharacterOffsetBegin=676 CharacterOffsetEnd=684 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=IN] [Text=year-earlier CharacterOffsetBegin=690 CharacterOffsetEnd=702 PartOfSpeech=JJ] [Text=levels CharacterOffsetBegin=703 CharacterOffsetEnd=709 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=,] [Text=they CharacterOffsetBegin=716 CharacterOffsetEnd=720 PartOfSpeech=PRP] [Text=fell CharacterOffsetBegin=721 CharacterOffsetEnd=725 PartOfSpeech=VBD] [Text=18 CharacterOffsetBegin=726 CharacterOffsetEnd=728 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=728 CharacterOffsetEnd=729 PartOfSpeech=NN] [Text=compared CharacterOffsetBegin=730 CharacterOffsetEnd=738 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=739 CharacterOffsetEnd=743 PartOfSpeech=IN] [Text=August CharacterOffsetBegin=744 CharacterOffsetEnd=750 PartOfSpeech=NNP] [Text=imports CharacterOffsetBegin=751 CharacterOffsetEnd=758 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=758 CharacterOffsetEnd=759 PartOfSpeech=.] 
+root(ROOT-0, fell-13)
+mark(higher-6, While-1)
+amod(imports-4, Mideast-2)
+nn(imports-4, crude-3)
+nsubj(higher-6, imports-4)
+cop(higher-6, were-5)
+advcl(fell-13, higher-6)
+prep(higher-6, compared-7)
+pcomp(compared-7, with-8)
+amod(levels-10, year-earlier-9)
+pobj(with-8, levels-10)
+punct(fell-13, ,-11)
+nsubj(fell-13, they-12)
+num(%-15, 18-14)
+dobj(fell-13, %-15)
+prep(fell-13, compared-16)
+pcomp(compared-16, with-17)
+nn(imports-19, August-18)
+pobj(with-17, imports-19)
+punct(fell-13, .-20)
+
+Sentence #6 (14 tokens):
+Southeast Asian crude imports, however, were 3.6% higher than August.
+[Text=Southeast CharacterOffsetBegin=765 CharacterOffsetEnd=774 PartOfSpeech=JJ] [Text=Asian CharacterOffsetBegin=775 CharacterOffsetEnd=780 PartOfSpeech=JJ] [Text=crude CharacterOffsetBegin=781 CharacterOffsetEnd=786 PartOfSpeech=NN] [Text=imports CharacterOffsetBegin=787 CharacterOffsetEnd=794 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=794 CharacterOffsetEnd=795 PartOfSpeech=,] [Text=however CharacterOffsetBegin=796 CharacterOffsetEnd=803 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=803 CharacterOffsetEnd=804 PartOfSpeech=,] [Text=were CharacterOffsetBegin=805 CharacterOffsetEnd=809 PartOfSpeech=VBD] [Text=3.6 CharacterOffsetBegin=810 CharacterOffsetEnd=813 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=813 CharacterOffsetEnd=814 PartOfSpeech=NN] [Text=higher CharacterOffsetBegin=815 CharacterOffsetEnd=821 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=822 CharacterOffsetEnd=826 PartOfSpeech=IN] [Text=August CharacterOffsetBegin=827 CharacterOffsetEnd=833 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=833 CharacterOffsetEnd=834 PartOfSpeech=.] 
+root(ROOT-0, higher-11)
+amod(imports-4, Southeast-1)
+amod(imports-4, Asian-2)
+nn(imports-4, crude-3)
+nsubj(higher-11, imports-4)
+punct(higher-11, ,-5)
+advmod(higher-11, however-6)
+punct(higher-11, ,-7)
+cop(higher-11, were-8)
+num(%-10, 3.6-9)
+npadvmod(higher-11, %-10)
+prep(higher-11, than-12)
+pobj(than-12, August-13)
+punct(higher-11, .-14)
+

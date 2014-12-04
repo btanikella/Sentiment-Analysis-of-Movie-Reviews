@@ -1,0 +1,73 @@
+Sentence #1 (25 tokens):
+PARKER HANNIFIN Corp., 
+    which is selling three automotive replacement parts divisions, 
+    said 
+    it will retain its Automotive Connectors and Cliff Impact divisions.
+[Text=PARKER CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=HANNIFIN CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=,] [Text=which CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=VBZ] [Text=selling CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=VBG] [Text=three CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=CD] [Text=automotive CharacterOffsetBegin=55 CharacterOffsetEnd=65 PartOfSpeech=JJ] [Text=replacement CharacterOffsetBegin=66 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=parts CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=NNS] [Text=divisions CharacterOffsetBegin=84 CharacterOffsetEnd=93 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=,] [Text=said CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=MD] [Text=retain CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=VB] [Text=its CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=PRP$] [Text=Automotive CharacterOffsetBegin=129 CharacterOffsetEnd=139 PartOfSpeech=NNP] [Text=Connectors CharacterOffsetBegin=140 CharacterOffsetEnd=150 PartOfSpeech=NNPS] [Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=Cliff CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=NNP] [Text=Impact CharacterOffsetBegin=161 CharacterOffsetEnd=167 PartOfSpeech=NNP] [Text=divisions CharacterOffsetBegin=168 CharacterOffsetEnd=177 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=.] 
+root(ROOT-0, said-14)
+nn(Corp.-3, PARKER-1)
+nn(Corp.-3, HANNIFIN-2)
+nsubj(said-14, Corp.-3)
+punct(Corp.-3, ,-4)
+nsubj(selling-7, which-5)
+aux(selling-7, is-6)
+rcmod(Corp.-3, selling-7)
+num(divisions-12, three-8)
+amod(divisions-12, automotive-9)
+nn(divisions-12, replacement-10)
+nn(divisions-12, parts-11)
+dobj(selling-7, divisions-12)
+punct(Corp.-3, ,-13)
+nsubj(retain-17, it-15)
+aux(retain-17, will-16)
+ccomp(said-14, retain-17)
+poss(Connectors-20, its-18)
+nn(Connectors-20, Automotive-19)
+dobj(retain-17, Connectors-20)
+cc(Connectors-20, and-21)
+nn(divisions-24, Cliff-22)
+nn(divisions-24, Impact-23)
+conj(Connectors-20, divisions-24)
+punct(said-14, .-25)
+
+Sentence #2 (15 tokens):
+The divisions 
+    that Parker Hannifin is retaining 
+    weren't mentioned in Thursday's edition.
+[Text=The CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=divisions CharacterOffsetBegin=188 CharacterOffsetEnd=197 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=WDT] [Text=Parker CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NNP] [Text=Hannifin CharacterOffsetBegin=215 CharacterOffsetEnd=223 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=VBZ] [Text=retaining CharacterOffsetBegin=227 CharacterOffsetEnd=236 PartOfSpeech=VBG] [Text=were CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=RB] [Text=mentioned CharacterOffsetBegin=250 CharacterOffsetEnd=259 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=IN] [Text=Thursday CharacterOffsetBegin=263 CharacterOffsetEnd=271 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=POS] [Text=edition CharacterOffsetBegin=274 CharacterOffsetEnd=281 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=.] 
+root(ROOT-0, mentioned-10)
+det(divisions-2, The-1)
+nsubjpass(mentioned-10, divisions-2)
+dobj(retaining-7, that-3)
+nn(Hannifin-5, Parker-4)
+nsubj(retaining-7, Hannifin-5)
+aux(retaining-7, is-6)
+rcmod(divisions-2, retaining-7)
+auxpass(mentioned-10, were-8)
+neg(mentioned-10, n't-9)
+prep(mentioned-10, in-11)
+poss(edition-14, Thursday-12)
+possessive(Thursday-12, 's-13)
+pobj(in-11, edition-14)
+punct(mentioned-10, .-15)
+
+Sentence #3 (15 tokens):
+(See: "Parker Hannifin Sale" 
+    -- WSJ Oct. 26, 1989)
+[Text=-LRB- CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=-LRB-] [Text=See CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=VB] [Text=: CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=:] [Text=`` CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=``] [Text=Parker CharacterOffsetBegin=295 CharacterOffsetEnd=301 PartOfSpeech=NNP] [Text=Hannifin CharacterOffsetBegin=302 CharacterOffsetEnd=310 PartOfSpeech=NNP] [Text=Sale CharacterOffsetBegin=311 CharacterOffsetEnd=315 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=''] [Text=-- CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=:] [Text=WSJ CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=NNP] [Text=Oct. CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=NNP] [Text=26 CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=,] [Text=1989 CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=-RRB-] 
+root(ROOT-0, See-2)
+punct(See-2, -LRB--1)
+punct(See-2, :-3)
+punct(See-2, ``-4)
+nn(Sale-7, Parker-5)
+nn(Sale-7, Hannifin-6)
+dep(See-2, Sale-7)
+punct(Sale-7, ''-8)
+punct(Sale-7, ---9)
+dep(Sale-7, WSJ-10)
+dep(WSJ-10, Oct.-11)
+num(Oct.-11, 26-12)
+punct(Oct.-11, ,-13)
+num(Oct.-11, 1989-14)
+punct(See-2, -RRB--15)
+

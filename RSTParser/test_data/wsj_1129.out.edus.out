@@ -1,0 +1,56 @@
+Sentence #1 (29 tokens):
+Brush Wellman Inc. said 
+    its board increased the number of shares of common stock 
+    to be purchased under a previously authorized program 
+    to 3.9 million from 2.9 million.
+[Text=Brush CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=Wellman CharacterOffsetBegin=10 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=Inc. CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=VBD] [Text=its CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=PRP$] [Text=board CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=increased CharacterOffsetBegin=43 CharacterOffsetEnd=52 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=DT] [Text=number CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=IN] [Text=shares CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=IN] [Text=common CharacterOffsetBegin=77 CharacterOffsetEnd=83 PartOfSpeech=JJ] [Text=stock CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=VB] [Text=purchased CharacterOffsetBegin=101 CharacterOffsetEnd=110 PartOfSpeech=VBN] [Text=under CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=DT] [Text=previously CharacterOffsetBegin=119 CharacterOffsetEnd=129 PartOfSpeech=RB] [Text=authorized CharacterOffsetBegin=130 CharacterOffsetEnd=140 PartOfSpeech=VBN] [Text=program CharacterOffsetBegin=141 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=TO] [Text=3.9 CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=CD] [Text=from CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=IN] [Text=2.9 CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=178 CharacterOffsetEnd=185 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=.] 
+root(ROOT-0, said-4)
+nn(Inc.-3, Brush-1)
+nn(Inc.-3, Wellman-2)
+nsubj(said-4, Inc.-3)
+poss(board-6, its-5)
+nsubj(increased-7, board-6)
+ccomp(said-4, increased-7)
+det(number-9, the-8)
+dobj(increased-7, number-9)
+prep(number-9, of-10)
+pobj(of-10, shares-11)
+prep(shares-11, of-12)
+amod(stock-14, common-13)
+pobj(of-12, stock-14)
+aux(purchased-17, to-15)
+auxpass(purchased-17, be-16)
+xcomp(increased-7, purchased-17)
+prep(purchased-17, under-18)
+det(program-22, a-19)
+advmod(authorized-21, previously-20)
+amod(program-22, authorized-21)
+pobj(under-18, program-22)
+prep(purchased-17, to-23)
+number(million-25, 3.9-24)
+pobj(to-23, million-25)
+prep(purchased-17, from-26)
+number(million-28, 2.9-27)
+pobj(from-26, million-28)
+punct(said-4, .-29)
+
+Sentence #2 (16 tokens):
+The maker of engineered materials has acquired more than 2.7 million shares under the program.
+[Text=The CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=DT] [Text=maker CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=IN] [Text=engineered CharacterOffsetBegin=205 CharacterOffsetEnd=215 PartOfSpeech=VBN] [Text=materials CharacterOffsetBegin=216 CharacterOffsetEnd=225 PartOfSpeech=NNS] [Text=has CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=VBZ] [Text=acquired CharacterOffsetBegin=230 CharacterOffsetEnd=238 PartOfSpeech=VBN] [Text=more CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=IN] [Text=2.7 CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=253 CharacterOffsetEnd=260 PartOfSpeech=CD] [Text=shares CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=NNS] [Text=under CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=program CharacterOffsetBegin=278 CharacterOffsetEnd=285 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.] 
+root(ROOT-0, acquired-7)
+det(maker-2, The-1)
+nsubj(acquired-7, maker-2)
+prep(maker-2, of-3)
+amod(materials-5, engineered-4)
+pobj(of-3, materials-5)
+aux(acquired-7, has-6)
+mwe(than-9, more-8)
+quantmod(million-11, than-9)
+number(million-11, 2.7-10)
+num(shares-12, million-11)
+dobj(acquired-7, shares-12)
+prep(acquired-7, under-13)
+det(program-15, the-14)
+pobj(under-13, program-15)
+punct(acquired-7, .-16)
+

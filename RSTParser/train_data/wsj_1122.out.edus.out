@@ -1,0 +1,1298 @@
+Sentence #1 (13 tokens):
+DISASTER STATES aren't jumping to raise taxes for relief and recovery.
+[Text=DISASTER CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NN] [Text=STATES CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=RB] [Text=jumping CharacterOffsetBegin=27 CharacterOffsetEnd=34 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=TO] [Text=raise CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=VB] [Text=taxes CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=IN] [Text=relief CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=CC] [Text=recovery CharacterOffsetBegin=65 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=.] 
+root(ROOT-0, jumping-5)
+nn(STATES-2, DISASTER-1)
+nsubj(jumping-5, STATES-2)
+aux(jumping-5, are-3)
+neg(jumping-5, n't-4)
+aux(raise-7, to-6)
+xcomp(jumping-5, raise-7)
+dobj(raise-7, taxes-8)
+prep(taxes-8, for-9)
+pobj(for-9, relief-10)
+cc(relief-10, and-11)
+conj(relief-10, recovery-12)
+punct(jumping-5, .-13)
+
+Sentence #2 (5 tokens):
+Not yet, anyway.
+[Text=Not CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=RB] [Text=yet CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=,] [Text=anyway CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=.] 
+root(ROOT-0, yet-2)
+neg(yet-2, Not-1)
+punct(yet-2, ,-3)
+advmod(yet-2, anyway-4)
+punct(yet-2, .-5)
+
+Sentence #3 (26 tokens):
+Just after Hurricane Hugo battered South Carolina, 
+    some officials talked of perhaps adding a penny to the state gasoline tax or raising property taxes.
+[Text=Just CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=RB] [Text=after CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=IN] [Text=Hurricane CharacterOffsetBegin=113 CharacterOffsetEnd=122 PartOfSpeech=NNP] [Text=Hugo CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=NNP] [Text=battered CharacterOffsetBegin=128 CharacterOffsetEnd=136 PartOfSpeech=VBD] [Text=South CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=NNP] [Text=Carolina CharacterOffsetBegin=143 CharacterOffsetEnd=151 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=,] [Text=some CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=officials CharacterOffsetBegin=163 CharacterOffsetEnd=172 PartOfSpeech=NNS] [Text=talked CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=VBD] [Text=of CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=perhaps CharacterOffsetBegin=183 CharacterOffsetEnd=190 PartOfSpeech=RB] [Text=adding CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=DT] [Text=penny CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=DT] [Text=state CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=gasoline CharacterOffsetBegin=219 CharacterOffsetEnd=227 PartOfSpeech=NN] [Text=tax CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=CC] [Text=raising CharacterOffsetBegin=235 CharacterOffsetEnd=242 PartOfSpeech=VBG] [Text=property CharacterOffsetBegin=243 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=taxes CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=.] 
+root(ROOT-0, talked-11)
+advmod(after-2, Just-1)
+mark(battered-5, after-2)
+nn(Hugo-4, Hurricane-3)
+nsubj(battered-5, Hugo-4)
+advcl(talked-11, battered-5)
+nn(Carolina-7, South-6)
+dobj(battered-5, Carolina-7)
+punct(talked-11, ,-8)
+det(officials-10, some-9)
+nsubj(talked-11, officials-10)
+prep(talked-11, of-12)
+advmod(adding-14, perhaps-13)
+pcomp(of-12, adding-14)
+det(penny-16, a-15)
+dobj(adding-14, penny-16)
+prep(adding-14, to-17)
+det(tax-21, the-18)
+nn(tax-21, state-19)
+nn(tax-21, gasoline-20)
+pobj(to-17, tax-21)
+cc(adding-14, or-22)
+conj(adding-14, raising-23)
+nn(taxes-25, property-24)
+dobj(raising-23, taxes-25)
+punct(talked-11, .-26)
+
+Sentence #4 (20 tokens):
+Gov. Campbell responded, 
+    "They're mentioning rope 
+    when there's been a hanging in the family."
+[Text=Gov. CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=NNP] [Text=Campbell CharacterOffsetBegin=269 CharacterOffsetEnd=277 PartOfSpeech=NNP] [Text=responded CharacterOffsetBegin=278 CharacterOffsetEnd=287 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=``] [Text=They CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=VBP] [Text=mentioning CharacterOffsetBegin=303 CharacterOffsetEnd=313 PartOfSpeech=VBG] [Text=rope CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=WRB] [Text=there CharacterOffsetBegin=329 CharacterOffsetEnd=334 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=DT] [Text=hanging CharacterOffsetBegin=344 CharacterOffsetEnd=351 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=DT] [Text=family CharacterOffsetBegin=359 CharacterOffsetEnd=365 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=.] [Text='' CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=''] 
+root(ROOT-0, responded-3)
+nn(Campbell-2, Gov.-1)
+nsubj(responded-3, Campbell-2)
+punct(responded-3, ,-4)
+punct(responded-3, ``-5)
+nsubj(mentioning-8, They-6)
+aux(mentioning-8, 're-7)
+ccomp(responded-3, mentioning-8)
+dobj(mentioning-8, rope-9)
+advmod(hanging-15, when-10)
+expl(hanging-15, there-11)
+auxpass(hanging-15, 's-12)
+cop(hanging-15, been-13)
+det(hanging-15, a-14)
+advcl(mentioning-8, hanging-15)
+prep(hanging-15, in-16)
+det(family-18, the-17)
+pobj(in-16, family-18)
+punct(responded-3, .-19)
+punct(responded-3, ''-20)
+
+Sentence #5 (22 tokens):
+A spokesman says 
+    the governor believes 
+    he can avoid increases 
+    by relying on federal aid 
+    and shifting funds in state programs.
+[Text=A CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=DT] [Text=spokesman CharacterOffsetBegin=375 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=says CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=DT] [Text=governor CharacterOffsetBegin=399 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=believes CharacterOffsetBegin=408 CharacterOffsetEnd=416 PartOfSpeech=VBZ] [Text=he CharacterOffsetBegin=422 CharacterOffsetEnd=424 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=MD] [Text=avoid CharacterOffsetBegin=429 CharacterOffsetEnd=434 PartOfSpeech=VB] [Text=increases CharacterOffsetBegin=435 CharacterOffsetEnd=444 PartOfSpeech=NNS] [Text=by CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=IN] [Text=relying CharacterOffsetBegin=453 CharacterOffsetEnd=460 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=IN] [Text=federal CharacterOffsetBegin=464 CharacterOffsetEnd=471 PartOfSpeech=JJ] [Text=aid CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=CC] [Text=shifting CharacterOffsetBegin=485 CharacterOffsetEnd=493 PartOfSpeech=VBG] [Text=funds CharacterOffsetBegin=494 CharacterOffsetEnd=499 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=IN] [Text=state CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=NN] [Text=programs CharacterOffsetBegin=509 CharacterOffsetEnd=517 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=.] 
+root(ROOT-0, says-3)
+det(spokesman-2, A-1)
+nsubj(says-3, spokesman-2)
+det(governor-5, the-4)
+nsubj(believes-6, governor-5)
+ccomp(says-3, believes-6)
+nsubj(avoid-9, he-7)
+aux(avoid-9, can-8)
+ccomp(believes-6, avoid-9)
+dobj(avoid-9, increases-10)
+prep(increases-10, by-11)
+pcomp(by-11, relying-12)
+prep(relying-12, on-13)
+amod(aid-15, federal-14)
+pobj(on-13, aid-15)
+cc(aid-15, and-16)
+conj(aid-15, shifting-17)
+dobj(shifting-17, funds-18)
+prep(shifting-17, in-19)
+nn(programs-21, state-20)
+pobj(in-19, programs-21)
+punct(says-3, .-22)
+
+Sentence #6 (19 tokens):
+Still, Hugo's impact may revive unsuccessful proposals 
+    to give local governments authority 
+    to levy sales taxes.
+[Text=Still CharacterOffsetBegin=524 CharacterOffsetEnd=529 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=,] [Text=Hugo CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=535 CharacterOffsetEnd=537 PartOfSpeech=POS] [Text=impact CharacterOffsetBegin=538 CharacterOffsetEnd=544 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=MD] [Text=revive CharacterOffsetBegin=549 CharacterOffsetEnd=555 PartOfSpeech=VB] [Text=unsuccessful CharacterOffsetBegin=556 CharacterOffsetEnd=568 PartOfSpeech=JJ] [Text=proposals CharacterOffsetBegin=569 CharacterOffsetEnd=578 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=TO] [Text=give CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=VB] [Text=local CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=JJ] [Text=governments CharacterOffsetBegin=598 CharacterOffsetEnd=609 PartOfSpeech=NNS] [Text=authority CharacterOffsetBegin=610 CharacterOffsetEnd=619 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=TO] [Text=levy CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=VB] [Text=sales CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=NNS] [Text=taxes CharacterOffsetBegin=639 CharacterOffsetEnd=644 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=.] 
+root(ROOT-0, revive-7)
+advmod(revive-7, Still-1)
+punct(revive-7, ,-2)
+poss(impact-5, Hugo-3)
+possessive(Hugo-3, 's-4)
+nsubj(revive-7, impact-5)
+aux(revive-7, may-6)
+amod(proposals-9, unsuccessful-8)
+dobj(revive-7, proposals-9)
+aux(give-11, to-10)
+infmod(proposals-9, give-11)
+amod(authority-14, local-12)
+nn(authority-14, governments-13)
+dobj(give-11, authority-14)
+aux(levy-16, to-15)
+xcomp(give-11, levy-16)
+nn(taxes-18, sales-17)
+dobj(levy-16, taxes-18)
+punct(revive-7, .-19)
+
+Sentence #7 (19 tokens):
+A spokesman for North Carolina Gov. Martin says 
+    Hugo hasn't prompted proposals for state or local increases.
+[Text=A CharacterOffsetBegin=651 CharacterOffsetEnd=652 PartOfSpeech=DT] [Text=spokesman CharacterOffsetBegin=653 CharacterOffsetEnd=662 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=IN] [Text=North CharacterOffsetBegin=667 CharacterOffsetEnd=672 PartOfSpeech=NNP] [Text=Carolina CharacterOffsetBegin=673 CharacterOffsetEnd=681 PartOfSpeech=NNP] [Text=Gov. CharacterOffsetBegin=682 CharacterOffsetEnd=686 PartOfSpeech=NNP] [Text=Martin CharacterOffsetBegin=687 CharacterOffsetEnd=693 PartOfSpeech=NNP] [Text=says CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=VBZ] [Text=Hugo CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=709 CharacterOffsetEnd=712 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=712 CharacterOffsetEnd=715 PartOfSpeech=RB] [Text=prompted CharacterOffsetBegin=716 CharacterOffsetEnd=724 PartOfSpeech=VBD] [Text=proposals CharacterOffsetBegin=725 CharacterOffsetEnd=734 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=IN] [Text=state CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=745 CharacterOffsetEnd=747 PartOfSpeech=CC] [Text=local CharacterOffsetBegin=748 CharacterOffsetEnd=753 PartOfSpeech=JJ] [Text=increases CharacterOffsetBegin=754 CharacterOffsetEnd=763 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=763 CharacterOffsetEnd=764 PartOfSpeech=.] 
+root(ROOT-0, says-8)
+det(spokesman-2, A-1)
+nsubj(says-8, spokesman-2)
+prep(spokesman-2, for-3)
+nn(Martin-7, North-4)
+nn(Martin-7, Carolina-5)
+nn(Martin-7, Gov.-6)
+pobj(for-3, Martin-7)
+nsubj(prompted-12, Hugo-9)
+aux(prompted-12, has-10)
+neg(prompted-12, n't-11)
+ccomp(says-8, prompted-12)
+dobj(prompted-12, proposals-13)
+prep(proposals-13, for-14)
+nn(increases-18, state-15)
+cc(state-15, or-16)
+conj(state-15, local-17)
+pobj(for-14, increases-18)
+punct(says-8, .-19)
+
+Sentence #8 (17 tokens):
+California, 
+    where earthquake damage may top $5 billion, 
+    plans a special legislative session.
+[Text=California CharacterOffsetBegin=770 CharacterOffsetEnd=780 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=780 CharacterOffsetEnd=781 PartOfSpeech=,] [Text=where CharacterOffsetBegin=787 CharacterOffsetEnd=792 PartOfSpeech=WRB] [Text=earthquake CharacterOffsetBegin=793 CharacterOffsetEnd=803 PartOfSpeech=NN] [Text=damage CharacterOffsetBegin=804 CharacterOffsetEnd=810 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=811 CharacterOffsetEnd=814 PartOfSpeech=MD] [Text=top CharacterOffsetBegin=815 CharacterOffsetEnd=818 PartOfSpeech=VB] [Text=$ CharacterOffsetBegin=819 CharacterOffsetEnd=820 PartOfSpeech=$] [Text=5 CharacterOffsetBegin=820 CharacterOffsetEnd=821 PartOfSpeech=CD] [Text=billion CharacterOffsetBegin=822 CharacterOffsetEnd=829 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=829 CharacterOffsetEnd=830 PartOfSpeech=,] [Text=plans CharacterOffsetBegin=836 CharacterOffsetEnd=841 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=842 CharacterOffsetEnd=843 PartOfSpeech=DT] [Text=special CharacterOffsetBegin=844 CharacterOffsetEnd=851 PartOfSpeech=JJ] [Text=legislative CharacterOffsetBegin=852 CharacterOffsetEnd=863 PartOfSpeech=JJ] [Text=session CharacterOffsetBegin=864 CharacterOffsetEnd=871 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=871 CharacterOffsetEnd=872 PartOfSpeech=.] 
+root(ROOT-0, plans-12)
+nsubj(plans-12, California-1)
+punct(California-1, ,-2)
+advmod(top-7, where-3)
+nn(damage-5, earthquake-4)
+nsubj(top-7, damage-5)
+aux(top-7, may-6)
+rcmod(California-1, top-7)
+dobj(top-7, $-8)
+number(billion-10, 5-9)
+num($-8, billion-10)
+punct(California-1, ,-11)
+det(session-16, a-13)
+amod(session-16, special-14)
+amod(session-16, legislative-15)
+dobj(plans-12, session-16)
+punct(plans-12, .-17)
+
+Sentence #9 (5 tokens):
+Property-tax relief is likely.
+[Text=Property-tax CharacterOffsetBegin=878 CharacterOffsetEnd=890 PartOfSpeech=JJ] [Text=relief CharacterOffsetBegin=891 CharacterOffsetEnd=897 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=898 CharacterOffsetEnd=900 PartOfSpeech=VBZ] [Text=likely CharacterOffsetBegin=901 CharacterOffsetEnd=907 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=907 CharacterOffsetEnd=908 PartOfSpeech=.] 
+root(ROOT-0, likely-4)
+amod(relief-2, Property-tax-1)
+nsubj(likely-4, relief-2)
+cop(likely-4, is-3)
+punct(likely-4, .-5)
+
+Sentence #10 (23 tokens):
+Legislators are talking about temporary rises in sales or gasoline taxes, 
+    although Gov. Deukmejian says 
+    they should be a last resort.
+[Text=Legislators CharacterOffsetBegin=914 CharacterOffsetEnd=925 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=926 CharacterOffsetEnd=929 PartOfSpeech=VBP] [Text=talking CharacterOffsetBegin=930 CharacterOffsetEnd=937 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=938 CharacterOffsetEnd=943 PartOfSpeech=IN] [Text=temporary CharacterOffsetBegin=944 CharacterOffsetEnd=953 PartOfSpeech=JJ] [Text=rises CharacterOffsetBegin=954 CharacterOffsetEnd=959 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=960 CharacterOffsetEnd=962 PartOfSpeech=IN] [Text=sales CharacterOffsetBegin=963 CharacterOffsetEnd=968 PartOfSpeech=NNS] [Text=or CharacterOffsetBegin=969 CharacterOffsetEnd=971 PartOfSpeech=CC] [Text=gasoline CharacterOffsetBegin=972 CharacterOffsetEnd=980 PartOfSpeech=NN] [Text=taxes CharacterOffsetBegin=981 CharacterOffsetEnd=986 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=986 CharacterOffsetEnd=987 PartOfSpeech=,] [Text=although CharacterOffsetBegin=993 CharacterOffsetEnd=1001 PartOfSpeech=IN] [Text=Gov. CharacterOffsetBegin=1002 CharacterOffsetEnd=1006 PartOfSpeech=NNP] [Text=Deukmejian CharacterOffsetBegin=1007 CharacterOffsetEnd=1017 PartOfSpeech=NNP] [Text=says CharacterOffsetBegin=1018 CharacterOffsetEnd=1022 PartOfSpeech=VBZ] [Text=they CharacterOffsetBegin=1028 CharacterOffsetEnd=1032 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=1033 CharacterOffsetEnd=1039 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=1040 CharacterOffsetEnd=1042 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1043 CharacterOffsetEnd=1044 PartOfSpeech=DT] [Text=last CharacterOffsetBegin=1045 CharacterOffsetEnd=1049 PartOfSpeech=JJ] [Text=resort CharacterOffsetBegin=1050 CharacterOffsetEnd=1056 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1056 CharacterOffsetEnd=1057 PartOfSpeech=.] 
+root(ROOT-0, talking-3)
+nsubj(talking-3, Legislators-1)
+aux(talking-3, are-2)
+prep(talking-3, about-4)
+amod(rises-6, temporary-5)
+pobj(about-4, rises-6)
+prep(rises-6, in-7)
+pobj(in-7, sales-8)
+cc(sales-8, or-9)
+nn(taxes-11, gasoline-10)
+conj(sales-8, taxes-11)
+punct(talking-3, ,-12)
+mark(says-16, although-13)
+nn(Deukmejian-15, Gov.-14)
+nsubj(says-16, Deukmejian-15)
+advcl(talking-3, says-16)
+nsubj(resort-22, they-17)
+aux(resort-22, should-18)
+cop(resort-22, be-19)
+det(resort-22, a-20)
+amod(resort-22, last-21)
+ccomp(says-16, resort-22)
+punct(talking-3, .-23)
+
+Sentence #11 (17 tokens):
+Needs aren't clear, 
+    and the state constitution makes increasing taxes and spending very difficult.
+[Text=Needs CharacterOffsetBegin=1063 CharacterOffsetEnd=1068 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=1069 CharacterOffsetEnd=1072 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=1072 CharacterOffsetEnd=1075 PartOfSpeech=RB] [Text=clear CharacterOffsetBegin=1076 CharacterOffsetEnd=1081 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=1081 CharacterOffsetEnd=1082 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1088 CharacterOffsetEnd=1091 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=1092 CharacterOffsetEnd=1095 PartOfSpeech=DT] [Text=state CharacterOffsetBegin=1096 CharacterOffsetEnd=1101 PartOfSpeech=NN] [Text=constitution CharacterOffsetBegin=1102 CharacterOffsetEnd=1114 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=1115 CharacterOffsetEnd=1120 PartOfSpeech=VBZ] [Text=increasing CharacterOffsetBegin=1121 CharacterOffsetEnd=1131 PartOfSpeech=VBG] [Text=taxes CharacterOffsetBegin=1132 CharacterOffsetEnd=1137 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=1138 CharacterOffsetEnd=1141 PartOfSpeech=CC] [Text=spending CharacterOffsetBegin=1142 CharacterOffsetEnd=1150 PartOfSpeech=VBG] [Text=very CharacterOffsetBegin=1151 CharacterOffsetEnd=1155 PartOfSpeech=RB] [Text=difficult CharacterOffsetBegin=1156 CharacterOffsetEnd=1165 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1165 CharacterOffsetEnd=1166 PartOfSpeech=.] 
+root(ROOT-0, clear-4)
+nsubj(clear-4, Needs-1)
+cop(clear-4, are-2)
+neg(clear-4, n't-3)
+punct(clear-4, ,-5)
+cc(clear-4, and-6)
+det(constitution-9, the-7)
+nn(constitution-9, state-8)
+nsubj(makes-10, constitution-9)
+conj(clear-4, makes-10)
+amod(taxes-12, increasing-11)
+nsubj(difficult-16, taxes-12)
+cc(taxes-12, and-13)
+conj(taxes-12, spending-14)
+advmod(difficult-16, very-15)
+xcomp(makes-10, difficult-16)
+punct(clear-4, .-17)
+
+Sentence #12 (14 tokens):
+But some legislators think 
+    the time may be ripe 
+    to revise the constitution.
+[Text=But CharacterOffsetBegin=1172 CharacterOffsetEnd=1175 PartOfSpeech=CC] [Text=some CharacterOffsetBegin=1176 CharacterOffsetEnd=1180 PartOfSpeech=DT] [Text=legislators CharacterOffsetBegin=1181 CharacterOffsetEnd=1192 PartOfSpeech=NNS] [Text=think CharacterOffsetBegin=1193 CharacterOffsetEnd=1198 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=1204 CharacterOffsetEnd=1207 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=1208 CharacterOffsetEnd=1212 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=1213 CharacterOffsetEnd=1216 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=1217 CharacterOffsetEnd=1219 PartOfSpeech=VB] [Text=ripe CharacterOffsetBegin=1220 CharacterOffsetEnd=1224 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=1230 CharacterOffsetEnd=1232 PartOfSpeech=TO] [Text=revise CharacterOffsetBegin=1233 CharacterOffsetEnd=1239 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=1240 CharacterOffsetEnd=1243 PartOfSpeech=DT] [Text=constitution CharacterOffsetBegin=1244 CharacterOffsetEnd=1256 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1256 CharacterOffsetEnd=1257 PartOfSpeech=.] 
+root(ROOT-0, think-4)
+cc(think-4, But-1)
+det(legislators-3, some-2)
+nsubj(think-4, legislators-3)
+det(time-6, the-5)
+nsubj(ripe-9, time-6)
+aux(ripe-9, may-7)
+cop(ripe-9, be-8)
+ccomp(think-4, ripe-9)
+aux(revise-11, to-10)
+xcomp(ripe-9, revise-11)
+det(constitution-13, the-12)
+dobj(revise-11, constitution-13)
+punct(think-4, .-14)
+
+Sentence #13 (13 tokens):
+THE IRS WILL PAY 
+    if its error burdens you with bank charges.
+[Text=THE CharacterOffsetBegin=1263 CharacterOffsetEnd=1266 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=1267 CharacterOffsetEnd=1270 PartOfSpeech=NNP] [Text=WILL CharacterOffsetBegin=1271 CharacterOffsetEnd=1275 PartOfSpeech=MD] [Text=PAY CharacterOffsetBegin=1276 CharacterOffsetEnd=1279 PartOfSpeech=VB] [Text=if CharacterOffsetBegin=1285 CharacterOffsetEnd=1287 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=1288 CharacterOffsetEnd=1291 PartOfSpeech=PRP$] [Text=error CharacterOffsetBegin=1292 CharacterOffsetEnd=1297 PartOfSpeech=NN] [Text=burdens CharacterOffsetBegin=1298 CharacterOffsetEnd=1305 PartOfSpeech=NNS] [Text=you CharacterOffsetBegin=1306 CharacterOffsetEnd=1309 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=1310 CharacterOffsetEnd=1314 PartOfSpeech=IN] [Text=bank CharacterOffsetBegin=1315 CharacterOffsetEnd=1319 PartOfSpeech=NN] [Text=charges CharacterOffsetBegin=1320 CharacterOffsetEnd=1327 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1327 CharacterOffsetEnd=1328 PartOfSpeech=.] 
+root(ROOT-0, PAY-4)
+det(IRS-2, THE-1)
+nsubj(PAY-4, IRS-2)
+aux(PAY-4, WILL-3)
+mark(burdens-8, if-5)
+poss(error-7, its-6)
+nsubj(burdens-8, error-7)
+advcl(PAY-4, burdens-8)
+dobj(burdens-8, you-9)
+prep(burdens-8, with-10)
+nn(charges-12, bank-11)
+pobj(with-10, charges-12)
+punct(PAY-4, .-13)
+
+Sentence #14 (7 tokens):
+Policy statement P-5-39 sets out terms.
+[Text=Policy CharacterOffsetBegin=1334 CharacterOffsetEnd=1340 PartOfSpeech=NNP] [Text=statement CharacterOffsetBegin=1341 CharacterOffsetEnd=1350 PartOfSpeech=NN] [Text=P-5-39 CharacterOffsetBegin=1351 CharacterOffsetEnd=1357 PartOfSpeech=NNP] [Text=sets CharacterOffsetBegin=1358 CharacterOffsetEnd=1362 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=1363 CharacterOffsetEnd=1366 PartOfSpeech=RP] [Text=terms CharacterOffsetBegin=1367 CharacterOffsetEnd=1372 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1372 CharacterOffsetEnd=1373 PartOfSpeech=.] 
+root(ROOT-0, statement-2)
+nn(statement-2, Policy-1)
+nsubj(sets-4, P-5-39-3)
+rcmod(statement-2, sets-4)
+prt(sets-4, out-5)
+dobj(sets-4, terms-6)
+punct(statement-2, .-7)
+
+Sentence #15 (22 tokens):
+As a result of an erroneous IRS levy on a bank account, 
+    a taxpayer may incur administrative and overdraft charges.
+[Text=As CharacterOffsetBegin=1379 CharacterOffsetEnd=1381 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1382 CharacterOffsetEnd=1383 PartOfSpeech=DT] [Text=result CharacterOffsetBegin=1384 CharacterOffsetEnd=1390 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1391 CharacterOffsetEnd=1393 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=1394 CharacterOffsetEnd=1396 PartOfSpeech=DT] [Text=erroneous CharacterOffsetBegin=1397 CharacterOffsetEnd=1406 PartOfSpeech=JJ] [Text=IRS CharacterOffsetBegin=1407 CharacterOffsetEnd=1410 PartOfSpeech=NNP] [Text=levy CharacterOffsetBegin=1411 CharacterOffsetEnd=1415 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=1416 CharacterOffsetEnd=1418 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1419 CharacterOffsetEnd=1420 PartOfSpeech=DT] [Text=bank CharacterOffsetBegin=1421 CharacterOffsetEnd=1425 PartOfSpeech=NN] [Text=account CharacterOffsetBegin=1426 CharacterOffsetEnd=1433 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1433 CharacterOffsetEnd=1434 PartOfSpeech=,] [Text=a CharacterOffsetBegin=1440 CharacterOffsetEnd=1441 PartOfSpeech=DT] [Text=taxpayer CharacterOffsetBegin=1442 CharacterOffsetEnd=1450 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=1451 CharacterOffsetEnd=1454 PartOfSpeech=MD] [Text=incur CharacterOffsetBegin=1455 CharacterOffsetEnd=1460 PartOfSpeech=VB] [Text=administrative CharacterOffsetBegin=1461 CharacterOffsetEnd=1475 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=1476 CharacterOffsetEnd=1479 PartOfSpeech=CC] [Text=overdraft CharacterOffsetBegin=1480 CharacterOffsetEnd=1489 PartOfSpeech=NN] [Text=charges CharacterOffsetBegin=1490 CharacterOffsetEnd=1497 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1497 CharacterOffsetEnd=1498 PartOfSpeech=.] 
+root(ROOT-0, incur-17)
+prep(incur-17, As-1)
+det(result-3, a-2)
+pobj(As-1, result-3)
+prep(result-3, of-4)
+det(levy-8, an-5)
+amod(levy-8, erroneous-6)
+nn(levy-8, IRS-7)
+pobj(of-4, levy-8)
+prep(levy-8, on-9)
+det(account-12, a-10)
+nn(account-12, bank-11)
+pobj(on-9, account-12)
+punct(incur-17, ,-13)
+det(taxpayer-15, a-14)
+nsubj(incur-17, taxpayer-15)
+aux(incur-17, may-16)
+amod(charges-21, administrative-18)
+cc(administrative-18, and-19)
+conj(administrative-18, overdraft-20)
+dobj(incur-17, charges-21)
+punct(incur-17, .-22)
+
+Sentence #16 (40 tokens):
+If the IRS admits its error 
+    and the charges have been paid, 
+    it will reimburse a taxpayer 
+    who hasn't refused to give timely answers to IRS inquiries 
+    or hasn't contributed to continuing or compounding the error.
+[Text=If CharacterOffsetBegin=1504 CharacterOffsetEnd=1506 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1507 CharacterOffsetEnd=1510 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=1511 CharacterOffsetEnd=1514 PartOfSpeech=NNP] [Text=admits CharacterOffsetBegin=1515 CharacterOffsetEnd=1521 PartOfSpeech=VBZ] [Text=its CharacterOffsetBegin=1522 CharacterOffsetEnd=1525 PartOfSpeech=PRP$] [Text=error CharacterOffsetBegin=1526 CharacterOffsetEnd=1531 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1537 CharacterOffsetEnd=1540 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=1541 CharacterOffsetEnd=1544 PartOfSpeech=DT] [Text=charges CharacterOffsetBegin=1545 CharacterOffsetEnd=1552 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=1553 CharacterOffsetEnd=1557 PartOfSpeech=VBP] [Text=been CharacterOffsetBegin=1558 CharacterOffsetEnd=1562 PartOfSpeech=VBN] [Text=paid CharacterOffsetBegin=1563 CharacterOffsetEnd=1567 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=1567 CharacterOffsetEnd=1568 PartOfSpeech=,] [Text=it CharacterOffsetBegin=1574 CharacterOffsetEnd=1576 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=1577 CharacterOffsetEnd=1581 PartOfSpeech=MD] [Text=reimburse CharacterOffsetBegin=1582 CharacterOffsetEnd=1591 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1592 CharacterOffsetEnd=1593 PartOfSpeech=DT] [Text=taxpayer CharacterOffsetBegin=1594 CharacterOffsetEnd=1602 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=1608 CharacterOffsetEnd=1611 PartOfSpeech=WP] [Text=has CharacterOffsetBegin=1612 CharacterOffsetEnd=1615 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=1615 CharacterOffsetEnd=1618 PartOfSpeech=RB] [Text=refused CharacterOffsetBegin=1619 CharacterOffsetEnd=1626 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=1627 CharacterOffsetEnd=1629 PartOfSpeech=TO] [Text=give CharacterOffsetBegin=1630 CharacterOffsetEnd=1634 PartOfSpeech=VB] [Text=timely CharacterOffsetBegin=1635 CharacterOffsetEnd=1641 PartOfSpeech=JJ] [Text=answers CharacterOffsetBegin=1642 CharacterOffsetEnd=1649 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=1650 CharacterOffsetEnd=1652 PartOfSpeech=TO] [Text=IRS CharacterOffsetBegin=1653 CharacterOffsetEnd=1656 PartOfSpeech=NNP] [Text=inquiries CharacterOffsetBegin=1657 CharacterOffsetEnd=1666 PartOfSpeech=NNS] [Text=or CharacterOffsetBegin=1672 CharacterOffsetEnd=1674 PartOfSpeech=CC] [Text=has CharacterOffsetBegin=1675 CharacterOffsetEnd=1678 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=1678 CharacterOffsetEnd=1681 PartOfSpeech=RB] [Text=contributed CharacterOffsetBegin=1682 CharacterOffsetEnd=1693 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=1694 CharacterOffsetEnd=1696 PartOfSpeech=TO] [Text=continuing CharacterOffsetBegin=1697 CharacterOffsetEnd=1707 PartOfSpeech=VBG] [Text=or CharacterOffsetBegin=1708 CharacterOffsetEnd=1710 PartOfSpeech=CC] [Text=compounding CharacterOffsetBegin=1711 CharacterOffsetEnd=1722 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=1723 CharacterOffsetEnd=1726 PartOfSpeech=DT] [Text=error CharacterOffsetBegin=1727 CharacterOffsetEnd=1732 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1732 CharacterOffsetEnd=1733 PartOfSpeech=.] 
+root(ROOT-0, reimburse-16)
+mark(admits-4, If-1)
+det(IRS-3, the-2)
+nsubj(admits-4, IRS-3)
+advcl(reimburse-16, admits-4)
+poss(error-6, its-5)
+dobj(admits-4, error-6)
+cc(admits-4, and-7)
+det(charges-9, the-8)
+nsubjpass(paid-12, charges-9)
+aux(paid-12, have-10)
+auxpass(paid-12, been-11)
+conj(admits-4, paid-12)
+punct(reimburse-16, ,-13)
+nsubj(reimburse-16, it-14)
+aux(reimburse-16, will-15)
+det(taxpayer-18, a-17)
+dobj(reimburse-16, taxpayer-18)
+nsubj(refused-22, who-19)
+aux(refused-22, has-20)
+neg(refused-22, n't-21)
+rcmod(taxpayer-18, refused-22)
+aux(give-24, to-23)
+xcomp(refused-22, give-24)
+amod(answers-26, timely-25)
+dobj(give-24, answers-26)
+prep(give-24, to-27)
+nn(inquiries-29, IRS-28)
+pobj(to-27, inquiries-29)
+cc(refused-22, or-30)
+aux(contributed-33, has-31)
+neg(contributed-33, n't-32)
+conj(refused-22, contributed-33)
+prep(contributed-33, to-34)
+pcomp(to-34, continuing-35)
+cc(continuing-35, or-36)
+conj(continuing-35, compounding-37)
+det(error-39, the-38)
+dobj(continuing-35, error-39)
+punct(reimburse-16, .-40)
+
+Sentence #17 (17 tokens):
+The IRS recently amended the policy 
+    to cover stop-payment charges for checks 
+    lost by the IRS.
+[Text=The CharacterOffsetBegin=1739 CharacterOffsetEnd=1742 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=1743 CharacterOffsetEnd=1746 PartOfSpeech=NNP] [Text=recently CharacterOffsetBegin=1747 CharacterOffsetEnd=1755 PartOfSpeech=RB] [Text=amended CharacterOffsetBegin=1756 CharacterOffsetEnd=1763 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=1764 CharacterOffsetEnd=1767 PartOfSpeech=DT] [Text=policy CharacterOffsetBegin=1768 CharacterOffsetEnd=1774 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=1780 CharacterOffsetEnd=1782 PartOfSpeech=TO] [Text=cover CharacterOffsetBegin=1783 CharacterOffsetEnd=1788 PartOfSpeech=VB] [Text=stop-payment CharacterOffsetBegin=1789 CharacterOffsetEnd=1801 PartOfSpeech=NN] [Text=charges CharacterOffsetBegin=1802 CharacterOffsetEnd=1809 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=1810 CharacterOffsetEnd=1813 PartOfSpeech=IN] [Text=checks CharacterOffsetBegin=1814 CharacterOffsetEnd=1820 PartOfSpeech=NNS] [Text=lost CharacterOffsetBegin=1826 CharacterOffsetEnd=1830 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=1831 CharacterOffsetEnd=1833 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1834 CharacterOffsetEnd=1837 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=1838 CharacterOffsetEnd=1841 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1841 CharacterOffsetEnd=1842 PartOfSpeech=.] 
+root(ROOT-0, amended-4)
+det(IRS-2, The-1)
+nsubj(amended-4, IRS-2)
+advmod(amended-4, recently-3)
+det(policy-6, the-5)
+dobj(amended-4, policy-6)
+aux(cover-8, to-7)
+xcomp(amended-4, cover-8)
+nn(charges-10, stop-payment-9)
+dobj(cover-8, charges-10)
+prep(charges-10, for-11)
+pobj(for-11, checks-12)
+partmod(checks-12, lost-13)
+prep(lost-13, by-14)
+det(IRS-16, the-15)
+pobj(by-14, IRS-16)
+punct(amended-4, .-17)
+
+Sentence #18 (33 tokens):
+If the IRS asks for and gets a replacement for a check 
+    that it concedes 
+    it lost in processing, 
+    it will reimburse the taxpayer for the stop-payment charge on the original.
+[Text=If CharacterOffsetBegin=1848 CharacterOffsetEnd=1850 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1851 CharacterOffsetEnd=1854 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=1855 CharacterOffsetEnd=1858 PartOfSpeech=NNP] [Text=asks CharacterOffsetBegin=1859 CharacterOffsetEnd=1863 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=1864 CharacterOffsetEnd=1867 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=1868 CharacterOffsetEnd=1871 PartOfSpeech=CC] [Text=gets CharacterOffsetBegin=1872 CharacterOffsetEnd=1876 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1877 CharacterOffsetEnd=1878 PartOfSpeech=DT] [Text=replacement CharacterOffsetBegin=1879 CharacterOffsetEnd=1890 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=1891 CharacterOffsetEnd=1894 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1895 CharacterOffsetEnd=1896 PartOfSpeech=DT] [Text=check CharacterOffsetBegin=1897 CharacterOffsetEnd=1902 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=1908 CharacterOffsetEnd=1912 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=1913 CharacterOffsetEnd=1915 PartOfSpeech=PRP] [Text=concedes CharacterOffsetBegin=1916 CharacterOffsetEnd=1924 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=1930 CharacterOffsetEnd=1932 PartOfSpeech=PRP] [Text=lost CharacterOffsetBegin=1933 CharacterOffsetEnd=1937 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=1938 CharacterOffsetEnd=1940 PartOfSpeech=IN] [Text=processing CharacterOffsetBegin=1941 CharacterOffsetEnd=1951 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1951 CharacterOffsetEnd=1952 PartOfSpeech=,] [Text=it CharacterOffsetBegin=1958 CharacterOffsetEnd=1960 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=1961 CharacterOffsetEnd=1965 PartOfSpeech=MD] [Text=reimburse CharacterOffsetBegin=1966 CharacterOffsetEnd=1975 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=1976 CharacterOffsetEnd=1979 PartOfSpeech=DT] [Text=taxpayer CharacterOffsetBegin=1980 CharacterOffsetEnd=1988 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=1989 CharacterOffsetEnd=1992 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1993 CharacterOffsetEnd=1996 PartOfSpeech=DT] [Text=stop-payment CharacterOffsetBegin=1997 CharacterOffsetEnd=2009 PartOfSpeech=NN] [Text=charge CharacterOffsetBegin=2010 CharacterOffsetEnd=2016 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=2017 CharacterOffsetEnd=2019 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2020 CharacterOffsetEnd=2023 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=2024 CharacterOffsetEnd=2032 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=2032 CharacterOffsetEnd=2033 PartOfSpeech=.] 
+root(ROOT-0, reimburse-23)
+mark(asks-4, If-1)
+det(IRS-3, the-2)
+nsubj(asks-4, IRS-3)
+advcl(reimburse-23, asks-4)
+prep(asks-4, for-5)
+cc(asks-4, and-6)
+conj(asks-4, gets-7)
+det(replacement-9, a-8)
+dobj(gets-7, replacement-9)
+prep(replacement-9, for-10)
+det(check-12, a-11)
+pobj(for-10, check-12)
+mark(concedes-15, that-13)
+nsubj(concedes-15, it-14)
+ccomp(check-12, concedes-15)
+nsubj(lost-17, it-16)
+ccomp(concedes-15, lost-17)
+prep(lost-17, in-18)
+pobj(in-18, processing-19)
+punct(reimburse-23, ,-20)
+nsubj(reimburse-23, it-21)
+aux(reimburse-23, will-22)
+det(taxpayer-25, the-24)
+dobj(reimburse-23, taxpayer-25)
+prep(reimburse-23, for-26)
+det(charge-29, the-27)
+nn(charge-29, stop-payment-28)
+pobj(for-26, charge-29)
+prep(charge-29, on-30)
+det(original-32, the-31)
+pobj(on-30, original-32)
+punct(reimburse-23, .-33)
+
+Sentence #19 (20 tokens):
+Reimbursement claims must be filed with the IRS district or service-center director 
+    within a year after the expense accrues.
+[Text=Reimbursement CharacterOffsetBegin=2039 CharacterOffsetEnd=2052 PartOfSpeech=NN] [Text=claims CharacterOffsetBegin=2053 CharacterOffsetEnd=2059 PartOfSpeech=NNS] [Text=must CharacterOffsetBegin=2060 CharacterOffsetEnd=2064 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=2065 CharacterOffsetEnd=2067 PartOfSpeech=VB] [Text=filed CharacterOffsetBegin=2068 CharacterOffsetEnd=2073 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=2074 CharacterOffsetEnd=2078 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2079 CharacterOffsetEnd=2082 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=2083 CharacterOffsetEnd=2086 PartOfSpeech=NNP] [Text=district CharacterOffsetBegin=2087 CharacterOffsetEnd=2095 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=2096 CharacterOffsetEnd=2098 PartOfSpeech=CC] [Text=service-center CharacterOffsetBegin=2099 CharacterOffsetEnd=2113 PartOfSpeech=NN] [Text=director CharacterOffsetBegin=2114 CharacterOffsetEnd=2122 PartOfSpeech=NN] [Text=within CharacterOffsetBegin=2128 CharacterOffsetEnd=2134 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=2135 CharacterOffsetEnd=2136 PartOfSpeech=DT] [Text=year CharacterOffsetBegin=2137 CharacterOffsetEnd=2141 PartOfSpeech=NN] [Text=after CharacterOffsetBegin=2142 CharacterOffsetEnd=2147 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2148 CharacterOffsetEnd=2151 PartOfSpeech=DT] [Text=expense CharacterOffsetBegin=2152 CharacterOffsetEnd=2159 PartOfSpeech=NN] [Text=accrues CharacterOffsetBegin=2160 CharacterOffsetEnd=2167 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=2167 CharacterOffsetEnd=2168 PartOfSpeech=.] 
+root(ROOT-0, filed-5)
+nn(claims-2, Reimbursement-1)
+nsubjpass(filed-5, claims-2)
+aux(filed-5, must-3)
+auxpass(filed-5, be-4)
+prep(filed-5, with-6)
+det(district-9, the-7)
+nn(district-9, IRS-8)
+pobj(with-6, district-9)
+cc(district-9, or-10)
+nn(director-12, service-center-11)
+conj(district-9, director-12)
+prep(filed-5, within-13)
+det(year-15, a-14)
+pobj(within-13, year-15)
+mark(accrues-19, after-16)
+det(expense-18, the-17)
+nsubj(accrues-19, expense-18)
+advcl(filed-5, accrues-19)
+punct(filed-5, .-20)
+
+Sentence #20 (23 tokens):
+If the IRS seeks late-payment interest 
+    because of the lost check, 
+    you should request interest abatement, 
+    publisher Prentice Hall notes.
+[Text=If CharacterOffsetBegin=2174 CharacterOffsetEnd=2176 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2177 CharacterOffsetEnd=2180 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=2181 CharacterOffsetEnd=2184 PartOfSpeech=NNP] [Text=seeks CharacterOffsetBegin=2185 CharacterOffsetEnd=2190 PartOfSpeech=VBZ] [Text=late-payment CharacterOffsetBegin=2191 CharacterOffsetEnd=2203 PartOfSpeech=NN] [Text=interest CharacterOffsetBegin=2204 CharacterOffsetEnd=2212 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=2218 CharacterOffsetEnd=2225 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=2226 CharacterOffsetEnd=2228 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2229 CharacterOffsetEnd=2232 PartOfSpeech=DT] [Text=lost CharacterOffsetBegin=2233 CharacterOffsetEnd=2237 PartOfSpeech=VBN] [Text=check CharacterOffsetBegin=2238 CharacterOffsetEnd=2243 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=2243 CharacterOffsetEnd=2244 PartOfSpeech=,] [Text=you CharacterOffsetBegin=2250 CharacterOffsetEnd=2253 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=2254 CharacterOffsetEnd=2260 PartOfSpeech=MD] [Text=request CharacterOffsetBegin=2261 CharacterOffsetEnd=2268 PartOfSpeech=VB] [Text=interest CharacterOffsetBegin=2269 CharacterOffsetEnd=2277 PartOfSpeech=NN] [Text=abatement CharacterOffsetBegin=2278 CharacterOffsetEnd=2287 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=2287 CharacterOffsetEnd=2288 PartOfSpeech=,] [Text=publisher CharacterOffsetBegin=2294 CharacterOffsetEnd=2303 PartOfSpeech=NN] [Text=Prentice CharacterOffsetBegin=2304 CharacterOffsetEnd=2312 PartOfSpeech=NNP] [Text=Hall CharacterOffsetBegin=2313 CharacterOffsetEnd=2317 PartOfSpeech=NNP] [Text=notes CharacterOffsetBegin=2318 CharacterOffsetEnd=2323 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2323 CharacterOffsetEnd=2324 PartOfSpeech=.] 
+root(ROOT-0, request-15)
+mark(seeks-4, If-1)
+det(IRS-3, the-2)
+nsubj(seeks-4, IRS-3)
+advcl(request-15, seeks-4)
+nn(interest-6, late-payment-5)
+dobj(seeks-4, interest-6)
+mwe(of-8, because-7)
+prep(seeks-4, of-8)
+det(check-11, the-9)
+amod(check-11, lost-10)
+pobj(of-8, check-11)
+punct(request-15, ,-12)
+nsubj(request-15, you-13)
+aux(request-15, should-14)
+nn(abatement-17, interest-16)
+dobj(request-15, abatement-17)
+punct(request-15, ,-18)
+nn(Hall-21, publisher-19)
+nn(Hall-21, Prentice-20)
+nsubj(notes-22, Hall-21)
+dep(request-15, notes-22)
+punct(request-15, .-23)
+
+Sentence #21 (17 tokens):
+JUST FIVE ACRES MORE are all 
+    we need 
+    to feel really at home, 
+    they say.
+[Text=JUST CharacterOffsetBegin=2330 CharacterOffsetEnd=2334 PartOfSpeech=RB] [Text=FIVE CharacterOffsetBegin=2335 CharacterOffsetEnd=2339 PartOfSpeech=CD] [Text=ACRES CharacterOffsetBegin=2340 CharacterOffsetEnd=2345 PartOfSpeech=NNP] [Text=MORE CharacterOffsetBegin=2346 CharacterOffsetEnd=2350 PartOfSpeech=JJR] [Text=are CharacterOffsetBegin=2351 CharacterOffsetEnd=2354 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=2355 CharacterOffsetEnd=2358 PartOfSpeech=DT] [Text=we CharacterOffsetBegin=2364 CharacterOffsetEnd=2366 PartOfSpeech=PRP] [Text=need CharacterOffsetBegin=2367 CharacterOffsetEnd=2371 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=2377 CharacterOffsetEnd=2379 PartOfSpeech=TO] [Text=feel CharacterOffsetBegin=2380 CharacterOffsetEnd=2384 PartOfSpeech=VB] [Text=really CharacterOffsetBegin=2385 CharacterOffsetEnd=2391 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=2392 CharacterOffsetEnd=2394 PartOfSpeech=IN] [Text=home CharacterOffsetBegin=2395 CharacterOffsetEnd=2399 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=2399 CharacterOffsetEnd=2400 PartOfSpeech=,] [Text=they CharacterOffsetBegin=2406 CharacterOffsetEnd=2410 PartOfSpeech=PRP] [Text=say CharacterOffsetBegin=2411 CharacterOffsetEnd=2414 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=2414 CharacterOffsetEnd=2415 PartOfSpeech=.] 
+root(ROOT-0, say-16)
+advmod(MORE-4, JUST-1)
+num(MORE-4, FIVE-2)
+nn(MORE-4, ACRES-3)
+nsubj(all-6, MORE-4)
+cop(all-6, are-5)
+ccomp(say-16, all-6)
+nsubj(need-8, we-7)
+rcmod(all-6, need-8)
+aux(feel-10, to-9)
+xcomp(need-8, feel-10)
+advmod(feel-10, really-11)
+prep(feel-10, at-12)
+pobj(at-12, home-13)
+punct(say-16, ,-14)
+nsubj(say-16, they-15)
+punct(say-16, .-17)
+
+Sentence #22 (34 tokens):
+A couple 
+    we'll call the Blandings 
+    spent nearly $800,000 on a 15-acre plot and main home 
+    and have an old $175,000 mortgage exempt from the new limit on mortgage-interest deductions.
+[Text=A CharacterOffsetBegin=2421 CharacterOffsetEnd=2422 PartOfSpeech=DT] [Text=couple CharacterOffsetBegin=2423 CharacterOffsetEnd=2429 PartOfSpeech=NN] [Text=we CharacterOffsetBegin=2435 CharacterOffsetEnd=2437 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=2437 CharacterOffsetEnd=2440 PartOfSpeech=MD] [Text=call CharacterOffsetBegin=2441 CharacterOffsetEnd=2445 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=2446 CharacterOffsetEnd=2449 PartOfSpeech=DT] [Text=Blandings CharacterOffsetBegin=2450 CharacterOffsetEnd=2459 PartOfSpeech=NNPS] [Text=spent CharacterOffsetBegin=2465 CharacterOffsetEnd=2470 PartOfSpeech=VBD] [Text=nearly CharacterOffsetBegin=2471 CharacterOffsetEnd=2477 PartOfSpeech=RB] [Text=$ CharacterOffsetBegin=2478 CharacterOffsetEnd=2479 PartOfSpeech=$] [Text=800,000 CharacterOffsetBegin=2479 CharacterOffsetEnd=2486 PartOfSpeech=CD] [Text=on CharacterOffsetBegin=2487 CharacterOffsetEnd=2489 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=2490 CharacterOffsetEnd=2491 PartOfSpeech=DT] [Text=15-acre CharacterOffsetBegin=2492 CharacterOffsetEnd=2499 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=2500 CharacterOffsetEnd=2504 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=2505 CharacterOffsetEnd=2508 PartOfSpeech=CC] [Text=main CharacterOffsetBegin=2509 CharacterOffsetEnd=2513 PartOfSpeech=JJ] [Text=home CharacterOffsetBegin=2514 CharacterOffsetEnd=2518 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=2524 CharacterOffsetEnd=2527 PartOfSpeech=CC] [Text=have CharacterOffsetBegin=2528 CharacterOffsetEnd=2532 PartOfSpeech=VBP] [Text=an CharacterOffsetBegin=2533 CharacterOffsetEnd=2535 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=2536 CharacterOffsetEnd=2539 PartOfSpeech=JJ] [Text=$ CharacterOffsetBegin=2540 CharacterOffsetEnd=2541 PartOfSpeech=$] [Text=175,000 CharacterOffsetBegin=2541 CharacterOffsetEnd=2548 PartOfSpeech=CD] [Text=mortgage CharacterOffsetBegin=2549 CharacterOffsetEnd=2557 PartOfSpeech=NN] [Text=exempt CharacterOffsetBegin=2558 CharacterOffsetEnd=2564 PartOfSpeech=JJ] [Text=from CharacterOffsetBegin=2565 CharacterOffsetEnd=2569 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2570 CharacterOffsetEnd=2573 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=2574 CharacterOffsetEnd=2577 PartOfSpeech=JJ] [Text=limit CharacterOffsetBegin=2578 CharacterOffsetEnd=2583 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=2584 CharacterOffsetEnd=2586 PartOfSpeech=IN] [Text=mortgage-interest CharacterOffsetBegin=2587 CharacterOffsetEnd=2604 PartOfSpeech=JJ] [Text=deductions CharacterOffsetBegin=2605 CharacterOffsetEnd=2615 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2615 CharacterOffsetEnd=2616 PartOfSpeech=.] 
+root(ROOT-0, couple-2)
+det(couple-2, A-1)
+nsubj(call-5, we-3)
+aux(call-5, 'll-4)
+rcmod(couple-2, call-5)
+det(Blandings-7, the-6)
+nsubj(spent-8, Blandings-7)
+ccomp(call-5, spent-8)
+quantmod($-10, nearly-9)
+dobj(spent-8, $-10)
+number($-10, 800,000-11)
+prep(spent-8, on-12)
+det(plot-15, a-13)
+amod(plot-15, 15-acre-14)
+pobj(on-12, plot-15)
+cc(plot-15, and-16)
+amod(home-18, main-17)
+conj(plot-15, home-18)
+cc(spent-8, and-19)
+conj(spent-8, have-20)
+det(mortgage-25, an-21)
+amod(mortgage-25, old-22)
+amod(mortgage-25, $-23)
+number($-23, 175,000-24)
+dobj(have-20, mortgage-25)
+amod(mortgage-25, exempt-26)
+prep(exempt-26, from-27)
+det(limit-30, the-28)
+amod(limit-30, new-29)
+pobj(from-27, limit-30)
+prep(limit-30, on-31)
+amod(deductions-33, mortgage-interest-32)
+pobj(on-31, deductions-33)
+punct(couple-2, .-34)
+
+Sentence #23 (33 tokens):
+They plan to expand the home site 
+    by buying five adjoining acres for $200,000, 
+    borrowed against a first mortgage on the five acres 
+    and also collateralized by the 15 acres.
+[Text=They CharacterOffsetBegin=2622 CharacterOffsetEnd=2626 PartOfSpeech=PRP] [Text=plan CharacterOffsetBegin=2627 CharacterOffsetEnd=2631 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=2632 CharacterOffsetEnd=2634 PartOfSpeech=TO] [Text=expand CharacterOffsetBegin=2635 CharacterOffsetEnd=2641 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=2642 CharacterOffsetEnd=2645 PartOfSpeech=DT] [Text=home CharacterOffsetBegin=2646 CharacterOffsetEnd=2650 PartOfSpeech=NN] [Text=site CharacterOffsetBegin=2651 CharacterOffsetEnd=2655 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=2661 CharacterOffsetEnd=2663 PartOfSpeech=IN] [Text=buying CharacterOffsetBegin=2664 CharacterOffsetEnd=2670 PartOfSpeech=VBG] [Text=five CharacterOffsetBegin=2671 CharacterOffsetEnd=2675 PartOfSpeech=CD] [Text=adjoining CharacterOffsetBegin=2676 CharacterOffsetEnd=2685 PartOfSpeech=JJ] [Text=acres CharacterOffsetBegin=2686 CharacterOffsetEnd=2691 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=2692 CharacterOffsetEnd=2695 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=2696 CharacterOffsetEnd=2697 PartOfSpeech=$] [Text=200,000 CharacterOffsetBegin=2697 CharacterOffsetEnd=2704 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=2704 CharacterOffsetEnd=2705 PartOfSpeech=,] [Text=borrowed CharacterOffsetBegin=2711 CharacterOffsetEnd=2719 PartOfSpeech=VBN] [Text=against CharacterOffsetBegin=2720 CharacterOffsetEnd=2727 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=2728 CharacterOffsetEnd=2729 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=2730 CharacterOffsetEnd=2735 PartOfSpeech=JJ] [Text=mortgage CharacterOffsetBegin=2736 CharacterOffsetEnd=2744 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=2745 CharacterOffsetEnd=2747 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2748 CharacterOffsetEnd=2751 PartOfSpeech=DT] [Text=five CharacterOffsetBegin=2752 CharacterOffsetEnd=2756 PartOfSpeech=CD] [Text=acres CharacterOffsetBegin=2757 CharacterOffsetEnd=2762 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=2768 CharacterOffsetEnd=2771 PartOfSpeech=CC] [Text=also CharacterOffsetBegin=2772 CharacterOffsetEnd=2776 PartOfSpeech=RB] [Text=collateralized CharacterOffsetBegin=2777 CharacterOffsetEnd=2791 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=2792 CharacterOffsetEnd=2794 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2795 CharacterOffsetEnd=2798 PartOfSpeech=DT] [Text=15 CharacterOffsetBegin=2799 CharacterOffsetEnd=2801 PartOfSpeech=CD] [Text=acres CharacterOffsetBegin=2802 CharacterOffsetEnd=2807 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2807 CharacterOffsetEnd=2808 PartOfSpeech=.] 
+root(ROOT-0, plan-2)
+nsubj(plan-2, They-1)
+aux(expand-4, to-3)
+xcomp(plan-2, expand-4)
+det(site-7, the-5)
+nn(site-7, home-6)
+dobj(expand-4, site-7)
+prep(expand-4, by-8)
+pcomp(by-8, buying-9)
+num(acres-12, five-10)
+amod(acres-12, adjoining-11)
+dobj(buying-9, acres-12)
+prep(buying-9, for-13)
+pobj(for-13, $-14)
+num($-14, 200,000-15)
+punct(buying-9, ,-16)
+conj(buying-9, borrowed-17)
+prep(borrowed-17, against-18)
+det(mortgage-21, a-19)
+amod(mortgage-21, first-20)
+pobj(against-18, mortgage-21)
+prep(mortgage-21, on-22)
+det(acres-25, the-23)
+num(acres-25, five-24)
+pobj(on-22, acres-25)
+cc(buying-9, and-26)
+advmod(collateralized-28, also-27)
+conj(buying-9, collateralized-28)
+prep(collateralized-28, by-29)
+det(acres-32, the-30)
+num(acres-32, 15-31)
+pobj(by-29, acres-32)
+punct(plan-2, .-33)
+
+Sentence #24 (30 tokens):
+Their debt will be well under the $1 million limit 
+    -- on borrowing 
+    to acquire, build, or improve a home -- 
+    that qualifies for mortgage-interest deductions.
+[Text=Their CharacterOffsetBegin=2814 CharacterOffsetEnd=2819 PartOfSpeech=PRP$] [Text=debt CharacterOffsetBegin=2820 CharacterOffsetEnd=2824 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=2825 CharacterOffsetEnd=2829 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=2830 CharacterOffsetEnd=2832 PartOfSpeech=VB] [Text=well CharacterOffsetBegin=2833 CharacterOffsetEnd=2837 PartOfSpeech=RB] [Text=under CharacterOffsetBegin=2838 CharacterOffsetEnd=2843 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2844 CharacterOffsetEnd=2847 PartOfSpeech=DT] [Text=$ CharacterOffsetBegin=2848 CharacterOffsetEnd=2849 PartOfSpeech=$] [Text=1 CharacterOffsetBegin=2849 CharacterOffsetEnd=2850 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=2851 CharacterOffsetEnd=2858 PartOfSpeech=CD] [Text=limit CharacterOffsetBegin=2859 CharacterOffsetEnd=2864 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=2870 CharacterOffsetEnd=2872 PartOfSpeech=:] [Text=on CharacterOffsetBegin=2873 CharacterOffsetEnd=2875 PartOfSpeech=IN] [Text=borrowing CharacterOffsetBegin=2876 CharacterOffsetEnd=2885 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=2891 CharacterOffsetEnd=2893 PartOfSpeech=TO] [Text=acquire CharacterOffsetBegin=2894 CharacterOffsetEnd=2901 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=2901 CharacterOffsetEnd=2902 PartOfSpeech=,] [Text=build CharacterOffsetBegin=2903 CharacterOffsetEnd=2908 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=2908 CharacterOffsetEnd=2909 PartOfSpeech=,] [Text=or CharacterOffsetBegin=2910 CharacterOffsetEnd=2912 PartOfSpeech=CC] [Text=improve CharacterOffsetBegin=2913 CharacterOffsetEnd=2920 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=2921 CharacterOffsetEnd=2922 PartOfSpeech=DT] [Text=home CharacterOffsetBegin=2923 CharacterOffsetEnd=2927 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=2928 CharacterOffsetEnd=2930 PartOfSpeech=:] [Text=that CharacterOffsetBegin=2936 CharacterOffsetEnd=2940 PartOfSpeech=IN] [Text=qualifies CharacterOffsetBegin=2941 CharacterOffsetEnd=2950 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=2951 CharacterOffsetEnd=2954 PartOfSpeech=IN] [Text=mortgage-interest CharacterOffsetBegin=2955 CharacterOffsetEnd=2972 PartOfSpeech=JJ] [Text=deductions CharacterOffsetBegin=2973 CharacterOffsetEnd=2983 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2983 CharacterOffsetEnd=2984 PartOfSpeech=.] 
+root(ROOT-0, be-4)
+poss(debt-2, Their-1)
+nsubj(be-4, debt-2)
+aux(be-4, will-3)
+advmod(under-6, well-5)
+prep(be-4, under-6)
+det(limit-11, the-7)
+amod(limit-11, $-8)
+number(million-10, 1-9)
+num($-8, million-10)
+pobj(under-6, limit-11)
+punct(be-4, ---12)
+prep(be-4, on-13)
+pcomp(on-13, borrowing-14)
+aux(acquire-16, to-15)
+xcomp(borrowing-14, acquire-16)
+punct(acquire-16, ,-17)
+conj(acquire-16, build-18)
+punct(acquire-16, ,-19)
+cc(acquire-16, or-20)
+conj(acquire-16, improve-21)
+det(home-23, a-22)
+dobj(improve-21, home-23)
+punct(be-4, ---24)
+nsubj(qualifies-26, that-25)
+ccomp(be-4, qualifies-26)
+prep(qualifies-26, for-27)
+amod(deductions-29, mortgage-interest-28)
+pobj(for-27, deductions-29)
+punct(be-4, .-30)
+
+Sentence #25 (18 tokens):
+As you can guess, 
+    the Blandings want to deduct home-mortgage interest on the $200,000 loan.
+[Text=As CharacterOffsetBegin=2990 CharacterOffsetEnd=2992 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=2993 CharacterOffsetEnd=2996 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=2997 CharacterOffsetEnd=3000 PartOfSpeech=MD] [Text=guess CharacterOffsetBegin=3001 CharacterOffsetEnd=3006 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=3006 CharacterOffsetEnd=3007 PartOfSpeech=,] [Text=the CharacterOffsetBegin=3013 CharacterOffsetEnd=3016 PartOfSpeech=DT] [Text=Blandings CharacterOffsetBegin=3017 CharacterOffsetEnd=3026 PartOfSpeech=NNP] [Text=want CharacterOffsetBegin=3027 CharacterOffsetEnd=3031 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=3032 CharacterOffsetEnd=3034 PartOfSpeech=TO] [Text=deduct CharacterOffsetBegin=3035 CharacterOffsetEnd=3041 PartOfSpeech=VB] [Text=home-mortgage CharacterOffsetBegin=3042 CharacterOffsetEnd=3055 PartOfSpeech=JJ] [Text=interest CharacterOffsetBegin=3056 CharacterOffsetEnd=3064 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=3065 CharacterOffsetEnd=3067 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=3068 CharacterOffsetEnd=3071 PartOfSpeech=DT] [Text=$ CharacterOffsetBegin=3072 CharacterOffsetEnd=3073 PartOfSpeech=$] [Text=200,000 CharacterOffsetBegin=3073 CharacterOffsetEnd=3080 PartOfSpeech=CD] [Text=loan CharacterOffsetBegin=3081 CharacterOffsetEnd=3085 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=3085 CharacterOffsetEnd=3086 PartOfSpeech=.] 
+root(ROOT-0, want-8)
+mark(guess-4, As-1)
+nsubj(guess-4, you-2)
+aux(guess-4, can-3)
+advcl(want-8, guess-4)
+punct(want-8, ,-5)
+det(Blandings-7, the-6)
+nsubj(want-8, Blandings-7)
+aux(deduct-10, to-9)
+xcomp(want-8, deduct-10)
+amod(interest-12, home-mortgage-11)
+dobj(deduct-10, interest-12)
+prep(interest-12, on-13)
+det(loan-17, the-14)
+amod(loan-17, $-15)
+number($-15, 200,000-16)
+pobj(on-13, loan-17)
+punct(want-8, .-18)
+
+Sentence #26 (26 tokens):
+But, 
+    IRS private ruling 8940061 notes, 
+    no rule or court case bears directly on the issue 
+    of adding land to a principal residence.
+[Text=But CharacterOffsetBegin=3092 CharacterOffsetEnd=3095 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=3095 CharacterOffsetEnd=3096 PartOfSpeech=,] [Text=IRS CharacterOffsetBegin=3102 CharacterOffsetEnd=3105 PartOfSpeech=NNP] [Text=private CharacterOffsetBegin=3106 CharacterOffsetEnd=3113 PartOfSpeech=JJ] [Text=ruling CharacterOffsetBegin=3114 CharacterOffsetEnd=3120 PartOfSpeech=NN] [Text=8940061 CharacterOffsetBegin=3121 CharacterOffsetEnd=3128 PartOfSpeech=CD] [Text=notes CharacterOffsetBegin=3129 CharacterOffsetEnd=3134 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=3134 CharacterOffsetEnd=3135 PartOfSpeech=,] [Text=no CharacterOffsetBegin=3141 CharacterOffsetEnd=3143 PartOfSpeech=DT] [Text=rule CharacterOffsetBegin=3144 CharacterOffsetEnd=3148 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=3149 CharacterOffsetEnd=3151 PartOfSpeech=CC] [Text=court CharacterOffsetBegin=3152 CharacterOffsetEnd=3157 PartOfSpeech=NN] [Text=case CharacterOffsetBegin=3158 CharacterOffsetEnd=3162 PartOfSpeech=NN] [Text=bears CharacterOffsetBegin=3163 CharacterOffsetEnd=3168 PartOfSpeech=VBZ] [Text=directly CharacterOffsetBegin=3169 CharacterOffsetEnd=3177 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=3178 CharacterOffsetEnd=3180 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=3181 CharacterOffsetEnd=3184 PartOfSpeech=DT] [Text=issue CharacterOffsetBegin=3185 CharacterOffsetEnd=3190 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=3196 CharacterOffsetEnd=3198 PartOfSpeech=IN] [Text=adding CharacterOffsetBegin=3199 CharacterOffsetEnd=3205 PartOfSpeech=VBG] [Text=land CharacterOffsetBegin=3206 CharacterOffsetEnd=3210 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=3211 CharacterOffsetEnd=3213 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=3214 CharacterOffsetEnd=3215 PartOfSpeech=DT] [Text=principal CharacterOffsetBegin=3216 CharacterOffsetEnd=3225 PartOfSpeech=JJ] [Text=residence CharacterOffsetBegin=3226 CharacterOffsetEnd=3235 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=3235 CharacterOffsetEnd=3236 PartOfSpeech=.] 
+root(ROOT-0, notes-7)
+cc(notes-7, But-1)
+punct(notes-7, ,-2)
+nn(ruling-5, IRS-3)
+amod(ruling-5, private-4)
+dep(notes-7, ruling-5)
+num(notes-7, 8940061-6)
+punct(notes-7, ,-8)
+det(rule-10, no-9)
+nsubj(bears-14, rule-10)
+cc(rule-10, or-11)
+nn(case-13, court-12)
+conj(rule-10, case-13)
+ccomp(notes-7, bears-14)
+advmod(bears-14, directly-15)
+prep(bears-14, on-16)
+det(issue-18, the-17)
+pobj(on-16, issue-18)
+prep(issue-18, of-19)
+pcomp(of-19, adding-20)
+dobj(adding-20, land-21)
+prep(adding-20, to-22)
+det(residence-25, a-23)
+amod(residence-25, principal-24)
+pobj(to-22, residence-25)
+punct(notes-7, .-26)
+
+Sentence #27 (45 tokens):
+So the IRS has drawn a rationale from the sale of a home site 
+    split in two 
+    and sold in different years to the same buyer; 
+    a court let the seller in that old case treat this as the sale of one residence.
+[Text=So CharacterOffsetBegin=3242 CharacterOffsetEnd=3244 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=3245 CharacterOffsetEnd=3248 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=3249 CharacterOffsetEnd=3252 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=3253 CharacterOffsetEnd=3256 PartOfSpeech=VBZ] [Text=drawn CharacterOffsetBegin=3257 CharacterOffsetEnd=3262 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=3263 CharacterOffsetEnd=3264 PartOfSpeech=DT] [Text=rationale CharacterOffsetBegin=3265 CharacterOffsetEnd=3274 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=3275 CharacterOffsetEnd=3279 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=3280 CharacterOffsetEnd=3283 PartOfSpeech=DT] [Text=sale CharacterOffsetBegin=3284 CharacterOffsetEnd=3288 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=3289 CharacterOffsetEnd=3291 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=3292 CharacterOffsetEnd=3293 PartOfSpeech=DT] [Text=home CharacterOffsetBegin=3294 CharacterOffsetEnd=3298 PartOfSpeech=NN] [Text=site CharacterOffsetBegin=3299 CharacterOffsetEnd=3303 PartOfSpeech=NN] [Text=split CharacterOffsetBegin=3309 CharacterOffsetEnd=3314 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=3315 CharacterOffsetEnd=3317 PartOfSpeech=IN] [Text=two CharacterOffsetBegin=3318 CharacterOffsetEnd=3321 PartOfSpeech=CD] [Text=and CharacterOffsetBegin=3327 CharacterOffsetEnd=3330 PartOfSpeech=CC] [Text=sold CharacterOffsetBegin=3331 CharacterOffsetEnd=3335 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=3336 CharacterOffsetEnd=3338 PartOfSpeech=IN] [Text=different CharacterOffsetBegin=3339 CharacterOffsetEnd=3348 PartOfSpeech=JJ] [Text=years CharacterOffsetBegin=3349 CharacterOffsetEnd=3354 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=3355 CharacterOffsetEnd=3357 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=3358 CharacterOffsetEnd=3361 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=3362 CharacterOffsetEnd=3366 PartOfSpeech=JJ] [Text=buyer CharacterOffsetBegin=3367 CharacterOffsetEnd=3372 PartOfSpeech=NN] [Text=; CharacterOffsetBegin=3372 CharacterOffsetEnd=3373 PartOfSpeech=:] [Text=a CharacterOffsetBegin=3379 CharacterOffsetEnd=3380 PartOfSpeech=DT] [Text=court CharacterOffsetBegin=3381 CharacterOffsetEnd=3386 PartOfSpeech=NN] [Text=let CharacterOffsetBegin=3387 CharacterOffsetEnd=3390 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=3391 CharacterOffsetEnd=3394 PartOfSpeech=DT] [Text=seller CharacterOffsetBegin=3395 CharacterOffsetEnd=3401 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=3402 CharacterOffsetEnd=3404 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=3405 CharacterOffsetEnd=3409 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=3410 CharacterOffsetEnd=3413 PartOfSpeech=JJ] [Text=case CharacterOffsetBegin=3414 CharacterOffsetEnd=3418 PartOfSpeech=NN] [Text=treat CharacterOffsetBegin=3419 CharacterOffsetEnd=3424 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=3425 CharacterOffsetEnd=3429 PartOfSpeech=DT] [Text=as CharacterOffsetBegin=3430 CharacterOffsetEnd=3432 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=3433 CharacterOffsetEnd=3436 PartOfSpeech=DT] [Text=sale CharacterOffsetBegin=3437 CharacterOffsetEnd=3441 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=3442 CharacterOffsetEnd=3444 PartOfSpeech=IN] [Text=one CharacterOffsetBegin=3445 CharacterOffsetEnd=3448 PartOfSpeech=CD] [Text=residence CharacterOffsetBegin=3449 CharacterOffsetEnd=3458 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=3458 CharacterOffsetEnd=3459 PartOfSpeech=.] 
+root(ROOT-0, drawn-5)
+advmod(drawn-5, So-1)
+det(IRS-3, the-2)
+nsubj(drawn-5, IRS-3)
+aux(drawn-5, has-4)
+det(rationale-7, a-6)
+dobj(drawn-5, rationale-7)
+prep(drawn-5, from-8)
+det(sale-10, the-9)
+pobj(from-8, sale-10)
+prep(sale-10, of-11)
+det(site-14, a-12)
+nn(site-14, home-13)
+pobj(of-11, site-14)
+amod(site-14, split-15)
+prep(split-15, in-16)
+pobj(in-16, two-17)
+cc(two-17, and-18)
+conj(two-17, sold-19)
+prep(split-15, in-20)
+amod(years-22, different-21)
+pobj(in-20, years-22)
+prep(split-15, to-23)
+det(buyer-26, the-24)
+amod(buyer-26, same-25)
+pobj(to-23, buyer-26)
+punct(drawn-5, ;-27)
+det(court-29, a-28)
+nsubj(let-30, court-29)
+parataxis(drawn-5, let-30)
+det(seller-32, the-31)
+nsubj(treat-37, seller-32)
+prep(seller-32, in-33)
+det(case-36, that-34)
+amod(case-36, old-35)
+pobj(in-33, case-36)
+ccomp(let-30, treat-37)
+dobj(treat-37, this-38)
+prep(treat-37, as-39)
+det(sale-41, the-40)
+pobj(as-39, sale-41)
+prep(sale-41, of-42)
+num(residence-44, one-43)
+pobj(of-42, residence-44)
+punct(drawn-5, .-45)
+
+Sentence #28 (24 tokens):
+Thus, 
+    the IRS says, 
+    the Blandings' $200,000 loan is home-acquisition debt, 
+    and interest on it is fully deductible.
+[Text=Thus CharacterOffsetBegin=3465 CharacterOffsetEnd=3469 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=3469 CharacterOffsetEnd=3470 PartOfSpeech=,] [Text=the CharacterOffsetBegin=3476 CharacterOffsetEnd=3479 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=3480 CharacterOffsetEnd=3483 PartOfSpeech=NNP] [Text=says CharacterOffsetBegin=3484 CharacterOffsetEnd=3488 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=3488 CharacterOffsetEnd=3489 PartOfSpeech=,] [Text=the CharacterOffsetBegin=3495 CharacterOffsetEnd=3498 PartOfSpeech=DT] [Text=Blandings CharacterOffsetBegin=3499 CharacterOffsetEnd=3508 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=3508 CharacterOffsetEnd=3509 PartOfSpeech=POS] [Text=$ CharacterOffsetBegin=3510 CharacterOffsetEnd=3511 PartOfSpeech=$] [Text=200,000 CharacterOffsetBegin=3511 CharacterOffsetEnd=3518 PartOfSpeech=CD] [Text=loan CharacterOffsetBegin=3519 CharacterOffsetEnd=3523 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=3524 CharacterOffsetEnd=3526 PartOfSpeech=VBZ] [Text=home-acquisition CharacterOffsetBegin=3527 CharacterOffsetEnd=3543 PartOfSpeech=JJ] [Text=debt CharacterOffsetBegin=3544 CharacterOffsetEnd=3548 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=3548 CharacterOffsetEnd=3549 PartOfSpeech=,] [Text=and CharacterOffsetBegin=3555 CharacterOffsetEnd=3558 PartOfSpeech=CC] [Text=interest CharacterOffsetBegin=3559 CharacterOffsetEnd=3567 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=3568 CharacterOffsetEnd=3570 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=3571 CharacterOffsetEnd=3573 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=3574 CharacterOffsetEnd=3576 PartOfSpeech=VBZ] [Text=fully CharacterOffsetBegin=3577 CharacterOffsetEnd=3582 PartOfSpeech=RB] [Text=deductible CharacterOffsetBegin=3583 CharacterOffsetEnd=3593 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=3593 CharacterOffsetEnd=3594 PartOfSpeech=.] 
+root(ROOT-0, deductible-23)
+advmod(debt-15, Thus-1)
+punct(says-5, ,-2)
+det(IRS-4, the-3)
+nsubj(says-5, IRS-4)
+parataxis(debt-15, says-5)
+punct(says-5, ,-6)
+det(Blandings-8, the-7)
+poss(loan-12, Blandings-8)
+possessive(Blandings-8, '-9)
+amod(loan-12, $-10)
+number($-10, 200,000-11)
+nsubj(debt-15, loan-12)
+cop(debt-15, is-13)
+amod(debt-15, home-acquisition-14)
+nsubj(deductible-23, debt-15)
+punct(debt-15, ,-16)
+cc(debt-15, and-17)
+conj(debt-15, interest-18)
+prep(interest-18, on-19)
+pobj(on-19, it-20)
+cop(deductible-23, is-21)
+advmod(deductible-23, fully-22)
+punct(deductible-23, .-24)
+
+Sentence #29 (28 tokens):
+EARTHQUAKE VICTIMS 
+    facing imminent filing and payment deadlines 
+    will get extensions and penalty waivers like those 
+    provided for Hugo's victims; 
+    IRS Notice 89108 has details.
+[Text=EARTHQUAKE CharacterOffsetBegin=3600 CharacterOffsetEnd=3610 PartOfSpeech=NN] [Text=VICTIMS CharacterOffsetBegin=3611 CharacterOffsetEnd=3618 PartOfSpeech=NNS] [Text=facing CharacterOffsetBegin=3624 CharacterOffsetEnd=3630 PartOfSpeech=VBG] [Text=imminent CharacterOffsetBegin=3631 CharacterOffsetEnd=3639 PartOfSpeech=JJ] [Text=filing CharacterOffsetBegin=3640 CharacterOffsetEnd=3646 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=3647 CharacterOffsetEnd=3650 PartOfSpeech=CC] [Text=payment CharacterOffsetBegin=3651 CharacterOffsetEnd=3658 PartOfSpeech=NN] [Text=deadlines CharacterOffsetBegin=3659 CharacterOffsetEnd=3668 PartOfSpeech=NNS] [Text=will CharacterOffsetBegin=3674 CharacterOffsetEnd=3678 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=3679 CharacterOffsetEnd=3682 PartOfSpeech=VB] [Text=extensions CharacterOffsetBegin=3683 CharacterOffsetEnd=3693 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=3694 CharacterOffsetEnd=3697 PartOfSpeech=CC] [Text=penalty CharacterOffsetBegin=3698 CharacterOffsetEnd=3705 PartOfSpeech=NN] [Text=waivers CharacterOffsetBegin=3706 CharacterOffsetEnd=3713 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=3714 CharacterOffsetEnd=3718 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=3719 CharacterOffsetEnd=3724 PartOfSpeech=DT] [Text=provided CharacterOffsetBegin=3730 CharacterOffsetEnd=3738 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=3739 CharacterOffsetEnd=3742 PartOfSpeech=IN] [Text=Hugo CharacterOffsetBegin=3743 CharacterOffsetEnd=3747 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=3747 CharacterOffsetEnd=3749 PartOfSpeech=POS] [Text=victims CharacterOffsetBegin=3750 CharacterOffsetEnd=3757 PartOfSpeech=NNS] [Text=; CharacterOffsetBegin=3757 CharacterOffsetEnd=3758 PartOfSpeech=:] [Text=IRS CharacterOffsetBegin=3764 CharacterOffsetEnd=3767 PartOfSpeech=NNP] [Text=Notice CharacterOffsetBegin=3768 CharacterOffsetEnd=3774 PartOfSpeech=NNP] [Text=89108 CharacterOffsetBegin=3775 CharacterOffsetEnd=3780 PartOfSpeech=CD] [Text=has CharacterOffsetBegin=3781 CharacterOffsetEnd=3784 PartOfSpeech=VBZ] [Text=details CharacterOffsetBegin=3785 CharacterOffsetEnd=3792 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=3792 CharacterOffsetEnd=3793 PartOfSpeech=.] 
+root(ROOT-0, get-10)
+nn(VICTIMS-2, EARTHQUAKE-1)
+nsubj(get-10, VICTIMS-2)
+partmod(VICTIMS-2, facing-3)
+amod(filing-5, imminent-4)
+dobj(facing-3, filing-5)
+cc(filing-5, and-6)
+nn(deadlines-8, payment-7)
+conj(filing-5, deadlines-8)
+aux(get-10, will-9)
+nn(waivers-14, extensions-11)
+cc(extensions-11, and-12)
+conj(extensions-11, penalty-13)
+dobj(get-10, waivers-14)
+prep(waivers-14, like-15)
+pobj(like-15, those-16)
+partmod(those-16, provided-17)
+prep(provided-17, for-18)
+poss(victims-21, Hugo-19)
+possessive(Hugo-19, 's-20)
+pobj(for-18, victims-21)
+punct(get-10, ;-22)
+nn(Notice-24, IRS-23)
+nsubj(has-26, Notice-24)
+num(Notice-24, 89108-25)
+parataxis(get-10, has-26)
+dobj(has-26, details-27)
+punct(get-10, .-28)
+
+Sentence #30 (16 tokens):
+Notice 89-107 offers added relief for hurricane-hit concerns 
+    that must file pension and benefit-plan returns.
+[Text=Notice CharacterOffsetBegin=3799 CharacterOffsetEnd=3805 PartOfSpeech=NNP] [Text=89-107 CharacterOffsetBegin=3806 CharacterOffsetEnd=3812 PartOfSpeech=CD] [Text=offers CharacterOffsetBegin=3813 CharacterOffsetEnd=3819 PartOfSpeech=NNS] [Text=added CharacterOffsetBegin=3820 CharacterOffsetEnd=3825 PartOfSpeech=VBD] [Text=relief CharacterOffsetBegin=3826 CharacterOffsetEnd=3832 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=3833 CharacterOffsetEnd=3836 PartOfSpeech=IN] [Text=hurricane-hit CharacterOffsetBegin=3837 CharacterOffsetEnd=3850 PartOfSpeech=JJ] [Text=concerns CharacterOffsetBegin=3851 CharacterOffsetEnd=3859 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=3865 CharacterOffsetEnd=3869 PartOfSpeech=WDT] [Text=must CharacterOffsetBegin=3870 CharacterOffsetEnd=3874 PartOfSpeech=MD] [Text=file CharacterOffsetBegin=3875 CharacterOffsetEnd=3879 PartOfSpeech=VB] [Text=pension CharacterOffsetBegin=3880 CharacterOffsetEnd=3887 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=3888 CharacterOffsetEnd=3891 PartOfSpeech=CC] [Text=benefit-plan CharacterOffsetBegin=3892 CharacterOffsetEnd=3904 PartOfSpeech=JJ] [Text=returns CharacterOffsetBegin=3905 CharacterOffsetEnd=3912 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=3912 CharacterOffsetEnd=3913 PartOfSpeech=.] 
+root(ROOT-0, added-4)
+nn(offers-3, Notice-1)
+num(offers-3, 89-107-2)
+nsubj(added-4, offers-3)
+dobj(added-4, relief-5)
+prep(added-4, for-6)
+amod(concerns-8, hurricane-hit-7)
+pobj(for-6, concerns-8)
+nsubj(file-11, that-9)
+aux(file-11, must-10)
+rcmod(concerns-8, file-11)
+nn(returns-15, pension-12)
+cc(pension-12, and-13)
+conj(pension-12, benefit-plan-14)
+dobj(file-11, returns-15)
+punct(added-4, .-16)
+
+Sentence #31 (29 tokens):
+REPORTS OF PAYMENTS to independent contractors for services must be filed by businesses, 
+    but don't bet that contractors' unreported income will be detected that way.
+[Text=REPORTS CharacterOffsetBegin=3919 CharacterOffsetEnd=3926 PartOfSpeech=NNS] [Text=OF CharacterOffsetBegin=3927 CharacterOffsetEnd=3929 PartOfSpeech=IN] [Text=PAYMENTS CharacterOffsetBegin=3930 CharacterOffsetEnd=3938 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=3939 CharacterOffsetEnd=3941 PartOfSpeech=TO] [Text=independent CharacterOffsetBegin=3942 CharacterOffsetEnd=3953 PartOfSpeech=JJ] [Text=contractors CharacterOffsetBegin=3954 CharacterOffsetEnd=3965 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=3966 CharacterOffsetEnd=3969 PartOfSpeech=IN] [Text=services CharacterOffsetBegin=3970 CharacterOffsetEnd=3978 PartOfSpeech=NNS] [Text=must CharacterOffsetBegin=3979 CharacterOffsetEnd=3983 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=3984 CharacterOffsetEnd=3986 PartOfSpeech=VB] [Text=filed CharacterOffsetBegin=3987 CharacterOffsetEnd=3992 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=3993 CharacterOffsetEnd=3995 PartOfSpeech=IN] [Text=businesses CharacterOffsetBegin=3996 CharacterOffsetEnd=4006 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=4006 CharacterOffsetEnd=4007 PartOfSpeech=,] [Text=but CharacterOffsetBegin=4013 CharacterOffsetEnd=4016 PartOfSpeech=CC] [Text=do CharacterOffsetBegin=4017 CharacterOffsetEnd=4019 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=4019 CharacterOffsetEnd=4022 PartOfSpeech=RB] [Text=bet CharacterOffsetBegin=4023 CharacterOffsetEnd=4026 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=4027 CharacterOffsetEnd=4031 PartOfSpeech=IN] [Text=contractors CharacterOffsetBegin=4032 CharacterOffsetEnd=4043 PartOfSpeech=NNS] [Text=' CharacterOffsetBegin=4043 CharacterOffsetEnd=4044 PartOfSpeech=POS] [Text=unreported CharacterOffsetBegin=4045 CharacterOffsetEnd=4055 PartOfSpeech=JJ] [Text=income CharacterOffsetBegin=4056 CharacterOffsetEnd=4062 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=4063 CharacterOffsetEnd=4067 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=4068 CharacterOffsetEnd=4070 PartOfSpeech=VB] [Text=detected CharacterOffsetBegin=4071 CharacterOffsetEnd=4079 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=4080 CharacterOffsetEnd=4084 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=4085 CharacterOffsetEnd=4088 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=4088 CharacterOffsetEnd=4089 PartOfSpeech=.] 
+root(ROOT-0, filed-11)
+nsubjpass(filed-11, REPORTS-1)
+prep(REPORTS-1, OF-2)
+pobj(OF-2, PAYMENTS-3)
+prep(PAYMENTS-3, to-4)
+amod(contractors-6, independent-5)
+pobj(to-4, contractors-6)
+prep(PAYMENTS-3, for-7)
+pobj(for-7, services-8)
+aux(filed-11, must-9)
+auxpass(filed-11, be-10)
+prep(filed-11, by-12)
+pobj(by-12, businesses-13)
+punct(filed-11, ,-14)
+cc(filed-11, but-15)
+aux(bet-18, do-16)
+neg(bet-18, n't-17)
+conj(filed-11, bet-18)
+mark(detected-26, that-19)
+poss(income-23, contractors-20)
+possessive(contractors-20, '-21)
+amod(income-23, unreported-22)
+nsubjpass(detected-26, income-23)
+aux(detected-26, will-24)
+auxpass(detected-26, be-25)
+ccomp(bet-18, detected-26)
+det(way-28, that-27)
+dobj(detected-26, way-28)
+punct(filed-11, .-29)
+
+Sentence #32 (22 tokens):
+The General Accounting Office estimates 
+    that 50% of IRS audits don't spot companies 
+    that fail to file the reports.
+[Text=The CharacterOffsetBegin=4095 CharacterOffsetEnd=4098 PartOfSpeech=DT] [Text=General CharacterOffsetBegin=4099 CharacterOffsetEnd=4106 PartOfSpeech=NNP] [Text=Accounting CharacterOffsetBegin=4107 CharacterOffsetEnd=4117 PartOfSpeech=NNP] [Text=Office CharacterOffsetBegin=4118 CharacterOffsetEnd=4124 PartOfSpeech=NNP] [Text=estimates CharacterOffsetBegin=4125 CharacterOffsetEnd=4134 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=4140 CharacterOffsetEnd=4144 PartOfSpeech=IN] [Text=50 CharacterOffsetBegin=4145 CharacterOffsetEnd=4147 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=4147 CharacterOffsetEnd=4148 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=4149 CharacterOffsetEnd=4151 PartOfSpeech=IN] [Text=IRS CharacterOffsetBegin=4152 CharacterOffsetEnd=4155 PartOfSpeech=NNP] [Text=audits CharacterOffsetBegin=4156 CharacterOffsetEnd=4162 PartOfSpeech=NN] [Text=do CharacterOffsetBegin=4163 CharacterOffsetEnd=4165 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=4165 CharacterOffsetEnd=4168 PartOfSpeech=RB] [Text=spot CharacterOffsetBegin=4169 CharacterOffsetEnd=4173 PartOfSpeech=VB] [Text=companies CharacterOffsetBegin=4174 CharacterOffsetEnd=4183 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=4189 CharacterOffsetEnd=4193 PartOfSpeech=WDT] [Text=fail CharacterOffsetBegin=4194 CharacterOffsetEnd=4198 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=4199 CharacterOffsetEnd=4201 PartOfSpeech=TO] [Text=file CharacterOffsetBegin=4202 CharacterOffsetEnd=4206 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=4207 CharacterOffsetEnd=4210 PartOfSpeech=DT] [Text=reports CharacterOffsetBegin=4211 CharacterOffsetEnd=4218 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=4218 CharacterOffsetEnd=4219 PartOfSpeech=.] 
+root(ROOT-0, estimates-5)
+det(Office-4, The-1)
+nn(Office-4, General-2)
+nn(Office-4, Accounting-3)
+nsubj(estimates-5, Office-4)
+mark(spot-14, that-6)
+num(%-8, 50-7)
+nsubj(spot-14, %-8)
+prep(%-8, of-9)
+nn(audits-11, IRS-10)
+pobj(of-9, audits-11)
+aux(spot-14, do-12)
+neg(spot-14, n't-13)
+ccomp(estimates-5, spot-14)
+dobj(spot-14, companies-15)
+nsubj(fail-17, that-16)
+rcmod(companies-15, fail-17)
+aux(file-19, to-18)
+xcomp(fail-17, file-19)
+det(reports-21, the-20)
+dobj(file-19, reports-21)
+punct(estimates-5, .-22)
+
+Sentence #33 (43 tokens):
+UH HUH: 
+    A claim by Peter Testa of New York 
+    that a stranger paid him $500 
+    to go into a bank 
+    and change $44,400 in small bills into large bills 
+    "is unconvincing," 
+    the Tax Court found.
+[Text=UH CharacterOffsetBegin=4225 CharacterOffsetEnd=4227 PartOfSpeech=NNP] [Text=HUH CharacterOffsetBegin=4228 CharacterOffsetEnd=4231 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=4231 CharacterOffsetEnd=4232 PartOfSpeech=:] [Text=A CharacterOffsetBegin=4238 CharacterOffsetEnd=4239 PartOfSpeech=NNP] [Text=claim CharacterOffsetBegin=4240 CharacterOffsetEnd=4245 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=4246 CharacterOffsetEnd=4248 PartOfSpeech=IN] [Text=Peter CharacterOffsetBegin=4249 CharacterOffsetEnd=4254 PartOfSpeech=NNP] [Text=Testa CharacterOffsetBegin=4255 CharacterOffsetEnd=4260 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=4261 CharacterOffsetEnd=4263 PartOfSpeech=IN] [Text=New CharacterOffsetBegin=4264 CharacterOffsetEnd=4267 PartOfSpeech=NNP] [Text=York CharacterOffsetBegin=4268 CharacterOffsetEnd=4272 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=4278 CharacterOffsetEnd=4282 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=4283 CharacterOffsetEnd=4284 PartOfSpeech=DT] [Text=stranger CharacterOffsetBegin=4285 CharacterOffsetEnd=4293 PartOfSpeech=NN] [Text=paid CharacterOffsetBegin=4294 CharacterOffsetEnd=4298 PartOfSpeech=VBD] [Text=him CharacterOffsetBegin=4299 CharacterOffsetEnd=4302 PartOfSpeech=PRP] [Text=$ CharacterOffsetBegin=4303 CharacterOffsetEnd=4304 PartOfSpeech=$] [Text=500 CharacterOffsetBegin=4304 CharacterOffsetEnd=4307 PartOfSpeech=CD] [Text=to CharacterOffsetBegin=4313 CharacterOffsetEnd=4315 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=4316 CharacterOffsetEnd=4318 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=4319 CharacterOffsetEnd=4323 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=4324 CharacterOffsetEnd=4325 PartOfSpeech=DT] [Text=bank CharacterOffsetBegin=4326 CharacterOffsetEnd=4330 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=4336 CharacterOffsetEnd=4339 PartOfSpeech=CC] [Text=change CharacterOffsetBegin=4340 CharacterOffsetEnd=4346 PartOfSpeech=VB] [Text=$ CharacterOffsetBegin=4347 CharacterOffsetEnd=4348 PartOfSpeech=$] [Text=44,400 CharacterOffsetBegin=4348 CharacterOffsetEnd=4354 PartOfSpeech=CD] [Text=in CharacterOffsetBegin=4355 CharacterOffsetEnd=4357 PartOfSpeech=IN] [Text=small CharacterOffsetBegin=4358 CharacterOffsetEnd=4363 PartOfSpeech=JJ] [Text=bills CharacterOffsetBegin=4364 CharacterOffsetEnd=4369 PartOfSpeech=NNS] [Text=into CharacterOffsetBegin=4370 CharacterOffsetEnd=4374 PartOfSpeech=IN] [Text=large CharacterOffsetBegin=4375 CharacterOffsetEnd=4380 PartOfSpeech=JJ] [Text=bills CharacterOffsetBegin=4381 CharacterOffsetEnd=4386 PartOfSpeech=NNS] [Text=`` CharacterOffsetBegin=4392 CharacterOffsetEnd=4393 PartOfSpeech=``] [Text=is CharacterOffsetBegin=4393 CharacterOffsetEnd=4395 PartOfSpeech=VBZ] [Text=unconvincing CharacterOffsetBegin=4396 CharacterOffsetEnd=4408 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=4408 CharacterOffsetEnd=4409 PartOfSpeech=,] [Text='' CharacterOffsetBegin=4409 CharacterOffsetEnd=4410 PartOfSpeech=''] [Text=the CharacterOffsetBegin=4416 CharacterOffsetEnd=4419 PartOfSpeech=DT] [Text=Tax CharacterOffsetBegin=4420 CharacterOffsetEnd=4423 PartOfSpeech=NNP] [Text=Court CharacterOffsetBegin=4424 CharacterOffsetEnd=4429 PartOfSpeech=NNP] [Text=found CharacterOffsetBegin=4430 CharacterOffsetEnd=4435 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=4435 CharacterOffsetEnd=4436 PartOfSpeech=.] 
+root(ROOT-0, found-42)
+nn(HUH-2, UH-1)
+dobj(found-42, HUH-2)
+punct(HUH-2, :-3)
+nn(claim-5, A-4)
+dep(HUH-2, claim-5)
+prep(claim-5, by-6)
+nn(Testa-8, Peter-7)
+pobj(by-6, Testa-8)
+prep(Testa-8, of-9)
+nn(York-11, New-10)
+pobj(of-9, York-11)
+mark(paid-15, that-12)
+det(stranger-14, a-13)
+nsubj(paid-15, stranger-14)
+ccomp(claim-5, paid-15)
+iobj(paid-15, him-16)
+dobj(paid-15, $-17)
+num($-17, 500-18)
+aux(go-20, to-19)
+xcomp(paid-15, go-20)
+prep(go-20, into-21)
+det(bank-23, a-22)
+pobj(into-21, bank-23)
+cc(go-20, and-24)
+conj(go-20, change-25)
+dobj(change-25, $-26)
+num($-26, 44,400-27)
+prep($-26, in-28)
+amod(bills-30, small-29)
+pobj(in-28, bills-30)
+prep(change-25, into-31)
+amod(bills-33, large-32)
+pobj(into-31, bills-33)
+punct(paid-15, ``-34)
+cop(unconvincing-36, is-35)
+dep(paid-15, unconvincing-36)
+punct(HUH-2, ,-37)
+punct(HUH-2, ''-38)
+det(Court-41, the-39)
+nn(Court-41, Tax-40)
+nsubj(found-42, Court-41)
+punct(found-42, .-43)
+
+Sentence #34 (13 tokens):
+It held 
+    that Testa is taxable on $44,400 of unreported income.
+[Text=It CharacterOffsetBegin=4442 CharacterOffsetEnd=4444 PartOfSpeech=PRP] [Text=held CharacterOffsetBegin=4445 CharacterOffsetEnd=4449 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=4455 CharacterOffsetEnd=4459 PartOfSpeech=IN] [Text=Testa CharacterOffsetBegin=4460 CharacterOffsetEnd=4465 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=4466 CharacterOffsetEnd=4468 PartOfSpeech=VBZ] [Text=taxable CharacterOffsetBegin=4469 CharacterOffsetEnd=4476 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=4477 CharacterOffsetEnd=4479 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=4480 CharacterOffsetEnd=4481 PartOfSpeech=$] [Text=44,400 CharacterOffsetBegin=4481 CharacterOffsetEnd=4487 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=4488 CharacterOffsetEnd=4490 PartOfSpeech=IN] [Text=unreported CharacterOffsetBegin=4491 CharacterOffsetEnd=4501 PartOfSpeech=JJ] [Text=income CharacterOffsetBegin=4502 CharacterOffsetEnd=4508 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=4508 CharacterOffsetEnd=4509 PartOfSpeech=.] 
+root(ROOT-0, held-2)
+nsubj(held-2, It-1)
+mark(taxable-6, that-3)
+nsubj(taxable-6, Testa-4)
+cop(taxable-6, is-5)
+ccomp(held-2, taxable-6)
+prep(taxable-6, on-7)
+pobj(on-7, $-8)
+num($-8, 44,400-9)
+prep($-8, of-10)
+amod(income-12, unreported-11)
+pobj(of-10, income-12)
+punct(held-2, .-13)
+
+Sentence #35 (8 tokens):
+WHY BE A MIDDLEMAN for charitable gifts?
+[Text=WHY CharacterOffsetBegin=4515 CharacterOffsetEnd=4518 PartOfSpeech=WRB] [Text=BE CharacterOffsetBegin=4519 CharacterOffsetEnd=4521 PartOfSpeech=VB] [Text=A CharacterOffsetBegin=4522 CharacterOffsetEnd=4523 PartOfSpeech=DT] [Text=MIDDLEMAN CharacterOffsetBegin=4524 CharacterOffsetEnd=4533 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=4534 CharacterOffsetEnd=4537 PartOfSpeech=IN] [Text=charitable CharacterOffsetBegin=4538 CharacterOffsetEnd=4548 PartOfSpeech=JJ] [Text=gifts CharacterOffsetBegin=4549 CharacterOffsetEnd=4554 PartOfSpeech=NNS] [Text=? CharacterOffsetBegin=4554 CharacterOffsetEnd=4555 PartOfSpeech=.] 
+root(ROOT-0, WHY-1)
+dep(WHY-1, BE-2)
+det(MIDDLEMAN-4, A-3)
+dobj(BE-2, MIDDLEMAN-4)
+prep(MIDDLEMAN-4, for-5)
+amod(gifts-7, charitable-6)
+pobj(for-5, gifts-7)
+punct(WHY-1, ?-8)
+
+Sentence #36 (4 tokens):
+a retiree asks.
+[Text=a CharacterOffsetBegin=4561 CharacterOffsetEnd=4562 PartOfSpeech=DT] [Text=retiree CharacterOffsetBegin=4563 CharacterOffsetEnd=4570 PartOfSpeech=NN] [Text=asks CharacterOffsetBegin=4571 CharacterOffsetEnd=4575 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=4575 CharacterOffsetEnd=4576 PartOfSpeech=.] 
+root(ROOT-0, asks-3)
+det(retiree-2, a-1)
+nsubj(asks-3, retiree-2)
+punct(asks-3, .-4)
+
+Sentence #37 (30 tokens):
+A retired electrical engineer 
+    we'll call Ben 
+    works part-time as a consultant, 
+    but he doesn't want to earn so much 
+    that Social Security reduces his benefits.
+[Text=A CharacterOffsetBegin=4582 CharacterOffsetEnd=4583 PartOfSpeech=DT] [Text=retired CharacterOffsetBegin=4584 CharacterOffsetEnd=4591 PartOfSpeech=JJ] [Text=electrical CharacterOffsetBegin=4592 CharacterOffsetEnd=4602 PartOfSpeech=JJ] [Text=engineer CharacterOffsetBegin=4603 CharacterOffsetEnd=4611 PartOfSpeech=NN] [Text=we CharacterOffsetBegin=4617 CharacterOffsetEnd=4619 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=4619 CharacterOffsetEnd=4622 PartOfSpeech=MD] [Text=call CharacterOffsetBegin=4623 CharacterOffsetEnd=4627 PartOfSpeech=VB] [Text=Ben CharacterOffsetBegin=4628 CharacterOffsetEnd=4631 PartOfSpeech=NNP] [Text=works CharacterOffsetBegin=4637 CharacterOffsetEnd=4642 PartOfSpeech=VBZ] [Text=part-time CharacterOffsetBegin=4643 CharacterOffsetEnd=4652 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=4653 CharacterOffsetEnd=4655 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=4656 CharacterOffsetEnd=4657 PartOfSpeech=DT] [Text=consultant CharacterOffsetBegin=4658 CharacterOffsetEnd=4668 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=4668 CharacterOffsetEnd=4669 PartOfSpeech=,] [Text=but CharacterOffsetBegin=4675 CharacterOffsetEnd=4678 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=4679 CharacterOffsetEnd=4681 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=4682 CharacterOffsetEnd=4686 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=4686 CharacterOffsetEnd=4689 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=4690 CharacterOffsetEnd=4694 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=4695 CharacterOffsetEnd=4697 PartOfSpeech=TO] [Text=earn CharacterOffsetBegin=4698 CharacterOffsetEnd=4702 PartOfSpeech=VB] [Text=so CharacterOffsetBegin=4703 CharacterOffsetEnd=4705 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=4706 CharacterOffsetEnd=4710 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=4716 CharacterOffsetEnd=4720 PartOfSpeech=IN] [Text=Social CharacterOffsetBegin=4721 CharacterOffsetEnd=4727 PartOfSpeech=NNP] [Text=Security CharacterOffsetBegin=4728 CharacterOffsetEnd=4736 PartOfSpeech=NNP] [Text=reduces CharacterOffsetBegin=4737 CharacterOffsetEnd=4744 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=4745 CharacterOffsetEnd=4748 PartOfSpeech=PRP$] [Text=benefits CharacterOffsetBegin=4749 CharacterOffsetEnd=4757 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=4757 CharacterOffsetEnd=4758 PartOfSpeech=.] 
+root(ROOT-0, engineer-4)
+det(engineer-4, A-1)
+amod(engineer-4, retired-2)
+amod(engineer-4, electrical-3)
+nsubj(call-7, we-5)
+aux(call-7, 'll-6)
+rcmod(engineer-4, call-7)
+nsubj(works-9, Ben-8)
+xcomp(call-7, works-9)
+advmod(works-9, part-time-10)
+prep(works-9, as-11)
+det(consultant-13, a-12)
+pobj(as-11, consultant-13)
+punct(engineer-4, ,-14)
+cc(engineer-4, but-15)
+nsubj(want-19, he-16)
+aux(want-19, does-17)
+neg(want-19, n't-18)
+conj(engineer-4, want-19)
+aux(earn-21, to-20)
+xcomp(want-19, earn-21)
+advmod(much-23, so-22)
+dobj(earn-21, much-23)
+mark(reduces-27, that-24)
+nn(Security-26, Social-25)
+nsubj(reduces-27, Security-26)
+ccomp(much-23, reduces-27)
+poss(benefits-29, his-28)
+dobj(reduces-27, benefits-29)
+punct(engineer-4, .-30)
+
+Sentence #38 (19 tokens):
+So he has arranged for a university foundation to set up a scholarship fund for undergraduate engineering students.
+[Text=So CharacterOffsetBegin=4764 CharacterOffsetEnd=4766 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=4767 CharacterOffsetEnd=4769 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=4770 CharacterOffsetEnd=4773 PartOfSpeech=VBZ] [Text=arranged CharacterOffsetBegin=4774 CharacterOffsetEnd=4782 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=4783 CharacterOffsetEnd=4786 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=4787 CharacterOffsetEnd=4788 PartOfSpeech=DT] [Text=university CharacterOffsetBegin=4789 CharacterOffsetEnd=4799 PartOfSpeech=NN] [Text=foundation CharacterOffsetBegin=4800 CharacterOffsetEnd=4810 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=4811 CharacterOffsetEnd=4813 PartOfSpeech=TO] [Text=set CharacterOffsetBegin=4814 CharacterOffsetEnd=4817 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=4818 CharacterOffsetEnd=4820 PartOfSpeech=RP] [Text=a CharacterOffsetBegin=4821 CharacterOffsetEnd=4822 PartOfSpeech=DT] [Text=scholarship CharacterOffsetBegin=4823 CharacterOffsetEnd=4834 PartOfSpeech=NN] [Text=fund CharacterOffsetBegin=4835 CharacterOffsetEnd=4839 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=4840 CharacterOffsetEnd=4843 PartOfSpeech=IN] [Text=undergraduate CharacterOffsetBegin=4844 CharacterOffsetEnd=4857 PartOfSpeech=JJ] [Text=engineering CharacterOffsetBegin=4858 CharacterOffsetEnd=4869 PartOfSpeech=NN] [Text=students CharacterOffsetBegin=4870 CharacterOffsetEnd=4878 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=4878 CharacterOffsetEnd=4879 PartOfSpeech=.] 
+root(ROOT-0, arranged-4)
+advmod(arranged-4, So-1)
+nsubj(arranged-4, he-2)
+aux(arranged-4, has-3)
+prep(arranged-4, for-5)
+det(foundation-8, a-6)
+nn(foundation-8, university-7)
+pobj(for-5, foundation-8)
+aux(set-10, to-9)
+infmod(foundation-8, set-10)
+prt(set-10, up-11)
+det(fund-14, a-12)
+nn(fund-14, scholarship-13)
+dobj(set-10, fund-14)
+prep(fund-14, for-15)
+amod(students-18, undergraduate-16)
+nn(students-18, engineering-17)
+pobj(for-15, students-18)
+punct(arranged-4, .-19)
+
+Sentence #39 (30 tokens):
+He plans to tell clients to pay certain fees directly to the foundation instead of to him; 
+    he would omit those fees from income 
+    reported on his return.
+[Text=He CharacterOffsetBegin=4885 CharacterOffsetEnd=4887 PartOfSpeech=PRP] [Text=plans CharacterOffsetBegin=4888 CharacterOffsetEnd=4893 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=4894 CharacterOffsetEnd=4896 PartOfSpeech=TO] [Text=tell CharacterOffsetBegin=4897 CharacterOffsetEnd=4901 PartOfSpeech=VB] [Text=clients CharacterOffsetBegin=4902 CharacterOffsetEnd=4909 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=4910 CharacterOffsetEnd=4912 PartOfSpeech=TO] [Text=pay CharacterOffsetBegin=4913 CharacterOffsetEnd=4916 PartOfSpeech=VB] [Text=certain CharacterOffsetBegin=4917 CharacterOffsetEnd=4924 PartOfSpeech=JJ] [Text=fees CharacterOffsetBegin=4925 CharacterOffsetEnd=4929 PartOfSpeech=NNS] [Text=directly CharacterOffsetBegin=4930 CharacterOffsetEnd=4938 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=4939 CharacterOffsetEnd=4941 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=4942 CharacterOffsetEnd=4945 PartOfSpeech=DT] [Text=foundation CharacterOffsetBegin=4946 CharacterOffsetEnd=4956 PartOfSpeech=NN] [Text=instead CharacterOffsetBegin=4957 CharacterOffsetEnd=4964 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=4965 CharacterOffsetEnd=4967 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=4968 CharacterOffsetEnd=4970 PartOfSpeech=TO] [Text=him CharacterOffsetBegin=4971 CharacterOffsetEnd=4974 PartOfSpeech=PRP] [Text=; CharacterOffsetBegin=4974 CharacterOffsetEnd=4975 PartOfSpeech=:] [Text=he CharacterOffsetBegin=4981 CharacterOffsetEnd=4983 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=4984 CharacterOffsetEnd=4989 PartOfSpeech=MD] [Text=omit CharacterOffsetBegin=4990 CharacterOffsetEnd=4994 PartOfSpeech=VB] [Text=those CharacterOffsetBegin=4995 CharacterOffsetEnd=5000 PartOfSpeech=DT] [Text=fees CharacterOffsetBegin=5001 CharacterOffsetEnd=5005 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=5006 CharacterOffsetEnd=5010 PartOfSpeech=IN] [Text=income CharacterOffsetBegin=5011 CharacterOffsetEnd=5017 PartOfSpeech=NN] [Text=reported CharacterOffsetBegin=5023 CharacterOffsetEnd=5031 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=5032 CharacterOffsetEnd=5034 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=5035 CharacterOffsetEnd=5038 PartOfSpeech=PRP$] [Text=return CharacterOffsetBegin=5039 CharacterOffsetEnd=5045 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=5045 CharacterOffsetEnd=5046 PartOfSpeech=.] 
+root(ROOT-0, plans-2)
+nsubj(plans-2, He-1)
+aux(tell-4, to-3)
+xcomp(plans-2, tell-4)
+dobj(tell-4, clients-5)
+aux(pay-7, to-6)
+xcomp(tell-4, pay-7)
+amod(fees-9, certain-8)
+dobj(pay-7, fees-9)
+advmod(pay-7, directly-10)
+prep(pay-7, to-11)
+det(foundation-13, the-12)
+pobj(to-11, foundation-13)
+advmod(of-15, instead-14)
+prep(pay-7, of-15)
+pcomp(of-15, to-16)
+pobj(to-16, him-17)
+punct(plans-2, ;-18)
+nsubj(omit-21, he-19)
+aux(omit-21, would-20)
+parataxis(plans-2, omit-21)
+det(fees-23, those-22)
+dobj(omit-21, fees-23)
+prep(omit-21, from-24)
+pobj(from-24, income-25)
+partmod(income-25, reported-26)
+prep(reported-26, on-27)
+poss(return-29, his-28)
+pobj(on-27, return-29)
+punct(plans-2, .-30)
+
+Sentence #40 (11 tokens):
+So he asked the IRS 
+    if the plan would work.
+[Text=So CharacterOffsetBegin=5052 CharacterOffsetEnd=5054 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=5055 CharacterOffsetEnd=5057 PartOfSpeech=PRP] [Text=asked CharacterOffsetBegin=5058 CharacterOffsetEnd=5063 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=5064 CharacterOffsetEnd=5067 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=5068 CharacterOffsetEnd=5071 PartOfSpeech=NNP] [Text=if CharacterOffsetBegin=5077 CharacterOffsetEnd=5079 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=5080 CharacterOffsetEnd=5083 PartOfSpeech=DT] [Text=plan CharacterOffsetBegin=5084 CharacterOffsetEnd=5088 PartOfSpeech=NN] [Text=would CharacterOffsetBegin=5089 CharacterOffsetEnd=5094 PartOfSpeech=MD] [Text=work CharacterOffsetBegin=5095 CharacterOffsetEnd=5099 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=5099 CharacterOffsetEnd=5100 PartOfSpeech=.] 
+root(ROOT-0, asked-3)
+dep(asked-3, So-1)
+nsubj(asked-3, he-2)
+det(IRS-5, the-4)
+dobj(asked-3, IRS-5)
+mark(work-10, if-6)
+det(plan-8, the-7)
+nsubj(work-10, plan-8)
+aux(work-10, would-9)
+advcl(asked-3, work-10)
+punct(asked-3, .-11)
+
+Sentence #41 (24 tokens):
+Well, 
+    notes IRS private ruling 8934014, 
+    "a fundamental principle" is that income must be taxed to whoever earns it.
+[Text=Well CharacterOffsetBegin=5106 CharacterOffsetEnd=5110 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=5110 CharacterOffsetEnd=5111 PartOfSpeech=,] [Text=notes CharacterOffsetBegin=5117 CharacterOffsetEnd=5122 PartOfSpeech=NNS] [Text=IRS CharacterOffsetBegin=5123 CharacterOffsetEnd=5126 PartOfSpeech=NNP] [Text=private CharacterOffsetBegin=5127 CharacterOffsetEnd=5134 PartOfSpeech=JJ] [Text=ruling CharacterOffsetBegin=5135 CharacterOffsetEnd=5141 PartOfSpeech=NN] [Text=8934014 CharacterOffsetBegin=5142 CharacterOffsetEnd=5149 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=5149 CharacterOffsetEnd=5150 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=5156 CharacterOffsetEnd=5157 PartOfSpeech=``] [Text=a CharacterOffsetBegin=5157 CharacterOffsetEnd=5158 PartOfSpeech=DT] [Text=fundamental CharacterOffsetBegin=5159 CharacterOffsetEnd=5170 PartOfSpeech=JJ] [Text=principle CharacterOffsetBegin=5171 CharacterOffsetEnd=5180 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=5180 CharacterOffsetEnd=5181 PartOfSpeech=''] [Text=is CharacterOffsetBegin=5182 CharacterOffsetEnd=5184 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=5185 CharacterOffsetEnd=5189 PartOfSpeech=DT] [Text=income CharacterOffsetBegin=5190 CharacterOffsetEnd=5196 PartOfSpeech=NN] [Text=must CharacterOffsetBegin=5197 CharacterOffsetEnd=5201 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=5202 CharacterOffsetEnd=5204 PartOfSpeech=VB] [Text=taxed CharacterOffsetBegin=5205 CharacterOffsetEnd=5210 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=5211 CharacterOffsetEnd=5213 PartOfSpeech=TO] [Text=whoever CharacterOffsetBegin=5214 CharacterOffsetEnd=5221 PartOfSpeech=WP] [Text=earns CharacterOffsetBegin=5222 CharacterOffsetEnd=5227 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=5228 CharacterOffsetEnd=5230 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=5230 CharacterOffsetEnd=5231 PartOfSpeech=.] 
+root(ROOT-0, Well-1)
+punct(Well-1, ,-2)
+dep(,-2, notes-3)
+nn(ruling-6, IRS-4)
+amod(ruling-6, private-5)
+partmod(notes-3, ruling-6)
+num(ruling-6, 8934014-7)
+punct(ruling-6, ,-8)
+punct(ruling-6, ``-9)
+det(principle-12, a-10)
+amod(principle-12, fundamental-11)
+dep(ruling-6, principle-12)
+punct(ruling-6, ''-13)
+dep(notes-3, is-14)
+mark(taxed-19, that-15)
+nsubjpass(taxed-19, income-16)
+aux(taxed-19, must-17)
+auxpass(taxed-19, be-18)
+ccomp(is-14, taxed-19)
+prep(taxed-19, to-20)
+nsubj(earns-22, whoever-21)
+pcomp(to-20, earns-22)
+dobj(earns-22, it-23)
+punct(notes-3, .-24)
+
+Sentence #42 (23 tokens):
+The rule goes back at least as far as a 1930 Supreme Court decision, 
+    Robert Willens of Shearson Lehman Hutton says.
+[Text=The CharacterOffsetBegin=5237 CharacterOffsetEnd=5240 PartOfSpeech=DT] [Text=rule CharacterOffsetBegin=5241 CharacterOffsetEnd=5245 PartOfSpeech=NN] [Text=goes CharacterOffsetBegin=5246 CharacterOffsetEnd=5250 PartOfSpeech=VBZ] [Text=back CharacterOffsetBegin=5251 CharacterOffsetEnd=5255 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=5256 CharacterOffsetEnd=5258 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=5259 CharacterOffsetEnd=5264 PartOfSpeech=JJS] [Text=as CharacterOffsetBegin=5265 CharacterOffsetEnd=5267 PartOfSpeech=RB] [Text=far CharacterOffsetBegin=5268 CharacterOffsetEnd=5271 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=5272 CharacterOffsetEnd=5274 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=5275 CharacterOffsetEnd=5276 PartOfSpeech=DT] [Text=1930 CharacterOffsetBegin=5277 CharacterOffsetEnd=5281 PartOfSpeech=CD] [Text=Supreme CharacterOffsetBegin=5282 CharacterOffsetEnd=5289 PartOfSpeech=NNP] [Text=Court CharacterOffsetBegin=5290 CharacterOffsetEnd=5295 PartOfSpeech=NNP] [Text=decision CharacterOffsetBegin=5296 CharacterOffsetEnd=5304 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=5304 CharacterOffsetEnd=5305 PartOfSpeech=,] [Text=Robert CharacterOffsetBegin=5311 CharacterOffsetEnd=5317 PartOfSpeech=NNP] [Text=Willens CharacterOffsetBegin=5318 CharacterOffsetEnd=5325 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=5326 CharacterOffsetEnd=5328 PartOfSpeech=IN] [Text=Shearson CharacterOffsetBegin=5329 CharacterOffsetEnd=5337 PartOfSpeech=NNP] [Text=Lehman CharacterOffsetBegin=5338 CharacterOffsetEnd=5344 PartOfSpeech=NNP] [Text=Hutton CharacterOffsetBegin=5345 CharacterOffsetEnd=5351 PartOfSpeech=NNP] [Text=says CharacterOffsetBegin=5352 CharacterOffsetEnd=5356 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=5356 CharacterOffsetEnd=5357 PartOfSpeech=.] 
+root(ROOT-0, says-22)
+det(rule-2, The-1)
+nsubj(goes-3, rule-2)
+ccomp(says-22, goes-3)
+advmod(goes-3, back-4)
+advmod(far-8, at-5)
+pobj(at-5, least-6)
+advmod(far-8, as-7)
+advmod(goes-3, far-8)
+prep(far-8, as-9)
+det(decision-14, a-10)
+num(decision-14, 1930-11)
+nn(decision-14, Supreme-12)
+nn(decision-14, Court-13)
+pobj(as-9, decision-14)
+punct(says-22, ,-15)
+nn(Willens-17, Robert-16)
+nsubj(says-22, Willens-17)
+prep(Willens-17, of-18)
+nn(Hutton-21, Shearson-19)
+nn(Hutton-21, Lehman-20)
+pobj(of-18, Hutton-21)
+punct(says-22, .-23)
+
+Sentence #43 (26 tokens):
+If you assign your income to another, 
+    you still have controlled its disposition 
+    and enjoyed the fruits of your labor, even if indirectly.
+[Text=If CharacterOffsetBegin=5363 CharacterOffsetEnd=5365 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=5366 CharacterOffsetEnd=5369 PartOfSpeech=PRP] [Text=assign CharacterOffsetBegin=5370 CharacterOffsetEnd=5376 PartOfSpeech=VBP] [Text=your CharacterOffsetBegin=5377 CharacterOffsetEnd=5381 PartOfSpeech=PRP$] [Text=income CharacterOffsetBegin=5382 CharacterOffsetEnd=5388 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=5389 CharacterOffsetEnd=5391 PartOfSpeech=TO] [Text=another CharacterOffsetBegin=5392 CharacterOffsetEnd=5399 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=5399 CharacterOffsetEnd=5400 PartOfSpeech=,] [Text=you CharacterOffsetBegin=5406 CharacterOffsetEnd=5409 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=5410 CharacterOffsetEnd=5415 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=5416 CharacterOffsetEnd=5420 PartOfSpeech=VBP] [Text=controlled CharacterOffsetBegin=5421 CharacterOffsetEnd=5431 PartOfSpeech=VBN] [Text=its CharacterOffsetBegin=5432 CharacterOffsetEnd=5435 PartOfSpeech=PRP$] [Text=disposition CharacterOffsetBegin=5436 CharacterOffsetEnd=5447 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=5453 CharacterOffsetEnd=5456 PartOfSpeech=CC] [Text=enjoyed CharacterOffsetBegin=5457 CharacterOffsetEnd=5464 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=5465 CharacterOffsetEnd=5468 PartOfSpeech=DT] [Text=fruits CharacterOffsetBegin=5469 CharacterOffsetEnd=5475 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=5476 CharacterOffsetEnd=5478 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=5479 CharacterOffsetEnd=5483 PartOfSpeech=PRP$] [Text=labor CharacterOffsetBegin=5484 CharacterOffsetEnd=5489 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=5489 CharacterOffsetEnd=5490 PartOfSpeech=,] [Text=even CharacterOffsetBegin=5491 CharacterOffsetEnd=5495 PartOfSpeech=RB] [Text=if CharacterOffsetBegin=5496 CharacterOffsetEnd=5498 PartOfSpeech=IN] [Text=indirectly CharacterOffsetBegin=5499 CharacterOffsetEnd=5509 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=5509 CharacterOffsetEnd=5510 PartOfSpeech=.] 
+root(ROOT-0, controlled-12)
+mark(assign-3, If-1)
+nsubj(assign-3, you-2)
+advcl(controlled-12, assign-3)
+poss(income-5, your-4)
+dobj(assign-3, income-5)
+prep(assign-3, to-6)
+pobj(to-6, another-7)
+punct(controlled-12, ,-8)
+nsubj(controlled-12, you-9)
+advmod(controlled-12, still-10)
+aux(controlled-12, have-11)
+poss(disposition-14, its-13)
+dobj(controlled-12, disposition-14)
+cc(controlled-12, and-15)
+conj(controlled-12, enjoyed-16)
+det(fruits-18, the-17)
+dobj(enjoyed-16, fruits-18)
+prep(fruits-18, of-19)
+poss(labor-21, your-20)
+pobj(of-19, labor-21)
+punct(controlled-12, ,-22)
+advmod(indirectly-25, even-23)
+mark(indirectly-25, if-24)
+advcl(controlled-12, indirectly-25)
+punct(controlled-12, .-26)
+
+Sentence #44 (31 tokens):
+Ben earns any fees 
+    sent directly to charity 
+    and is taxable on them, 
+    the IRS says; 
+    of course, he also may take a charitable deduction for them.
+[Text=Ben CharacterOffsetBegin=5516 CharacterOffsetEnd=5519 PartOfSpeech=NNP] [Text=earns CharacterOffsetBegin=5520 CharacterOffsetEnd=5525 PartOfSpeech=VBZ] [Text=any CharacterOffsetBegin=5526 CharacterOffsetEnd=5529 PartOfSpeech=DT] [Text=fees CharacterOffsetBegin=5530 CharacterOffsetEnd=5534 PartOfSpeech=NNS] [Text=sent CharacterOffsetBegin=5540 CharacterOffsetEnd=5544 PartOfSpeech=VBN] [Text=directly CharacterOffsetBegin=5545 CharacterOffsetEnd=5553 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=5554 CharacterOffsetEnd=5556 PartOfSpeech=TO] [Text=charity CharacterOffsetBegin=5557 CharacterOffsetEnd=5564 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=5570 CharacterOffsetEnd=5573 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=5574 CharacterOffsetEnd=5576 PartOfSpeech=VBZ] [Text=taxable CharacterOffsetBegin=5577 CharacterOffsetEnd=5584 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=5585 CharacterOffsetEnd=5587 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=5588 CharacterOffsetEnd=5592 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=5592 CharacterOffsetEnd=5593 PartOfSpeech=,] [Text=the CharacterOffsetBegin=5599 CharacterOffsetEnd=5602 PartOfSpeech=DT] [Text=IRS CharacterOffsetBegin=5603 CharacterOffsetEnd=5606 PartOfSpeech=NNP] [Text=says CharacterOffsetBegin=5607 CharacterOffsetEnd=5611 PartOfSpeech=VBZ] [Text=; CharacterOffsetBegin=5611 CharacterOffsetEnd=5612 PartOfSpeech=:] [Text=of CharacterOffsetBegin=5618 CharacterOffsetEnd=5620 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=5621 CharacterOffsetEnd=5627 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=5627 CharacterOffsetEnd=5628 PartOfSpeech=,] [Text=he CharacterOffsetBegin=5629 CharacterOffsetEnd=5631 PartOfSpeech=PRP] [Text=also CharacterOffsetBegin=5632 CharacterOffsetEnd=5636 PartOfSpeech=RB] [Text=may CharacterOffsetBegin=5637 CharacterOffsetEnd=5640 PartOfSpeech=MD] [Text=take CharacterOffsetBegin=5641 CharacterOffsetEnd=5645 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=5646 CharacterOffsetEnd=5647 PartOfSpeech=DT] [Text=charitable CharacterOffsetBegin=5648 CharacterOffsetEnd=5658 PartOfSpeech=JJ] [Text=deduction CharacterOffsetBegin=5659 CharacterOffsetEnd=5668 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=5669 CharacterOffsetEnd=5672 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=5673 CharacterOffsetEnd=5677 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=5677 CharacterOffsetEnd=5678 PartOfSpeech=.] 
+root(ROOT-0, says-17)
+nsubj(earns-2, Ben-1)
+ccomp(says-17, earns-2)
+det(fees-4, any-3)
+dobj(earns-2, fees-4)
+partmod(fees-4, sent-5)
+advmod(sent-5, directly-6)
+prep(sent-5, to-7)
+pobj(to-7, charity-8)
+cc(earns-2, and-9)
+cop(taxable-11, is-10)
+conj(earns-2, taxable-11)
+prep(taxable-11, on-12)
+pobj(on-12, them-13)
+punct(says-17, ,-14)
+det(IRS-16, the-15)
+nsubj(says-17, IRS-16)
+punct(says-17, ;-18)
+prep(take-25, of-19)
+pobj(of-19, course-20)
+punct(take-25, ,-21)
+nsubj(take-25, he-22)
+advmod(take-25, also-23)
+aux(take-25, may-24)
+parataxis(says-17, take-25)
+det(deduction-28, a-26)
+amod(deduction-28, charitable-27)
+dobj(take-25, deduction-28)
+prep(take-25, for-29)
+pobj(for-29, them-30)
+punct(says-17, .-31)
+
+Sentence #45 (64 tokens):
+BRIEFS: 
+    Ways and Means veteran Gephardt 
+    (D., Mo.) 
+    moves to the House Budget Committee; 
+    Rep. Cardin 
+    (D., Md.) 
+    replaces him. . . . 
+    Seattle's license fees for adult peep shows vary from those for other coin-operated amusements 
+    without serving a substantial government interest 
+    and are unconstitutional, 
+    the ninth-circuit appeals court holds for Acorn Investments Inc.
+[Text=BRIEFS CharacterOffsetBegin=5684 CharacterOffsetEnd=5690 PartOfSpeech=NNS] [Text=: CharacterOffsetBegin=5690 CharacterOffsetEnd=5691 PartOfSpeech=:] [Text=Ways CharacterOffsetBegin=5697 CharacterOffsetEnd=5701 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=5702 CharacterOffsetEnd=5705 PartOfSpeech=CC] [Text=Means CharacterOffsetBegin=5706 CharacterOffsetEnd=5711 PartOfSpeech=NNP] [Text=veteran CharacterOffsetBegin=5712 CharacterOffsetEnd=5719 PartOfSpeech=NN] [Text=Gephardt CharacterOffsetBegin=5720 CharacterOffsetEnd=5728 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=5734 CharacterOffsetEnd=5735 PartOfSpeech=-LRB-] [Text=D. CharacterOffsetBegin=5735 CharacterOffsetEnd=5737 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=5737 CharacterOffsetEnd=5738 PartOfSpeech=,] [Text=Mo. CharacterOffsetBegin=5739 CharacterOffsetEnd=5742 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=5742 CharacterOffsetEnd=5743 PartOfSpeech=-RRB-] [Text=moves CharacterOffsetBegin=5749 CharacterOffsetEnd=5754 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=5755 CharacterOffsetEnd=5757 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=5758 CharacterOffsetEnd=5761 PartOfSpeech=DT] [Text=House CharacterOffsetBegin=5762 CharacterOffsetEnd=5767 PartOfSpeech=NNP] [Text=Budget CharacterOffsetBegin=5768 CharacterOffsetEnd=5774 PartOfSpeech=NNP] [Text=Committee CharacterOffsetBegin=5775 CharacterOffsetEnd=5784 PartOfSpeech=NNP] [Text=; CharacterOffsetBegin=5784 CharacterOffsetEnd=5785 PartOfSpeech=:] [Text=Rep. CharacterOffsetBegin=5791 CharacterOffsetEnd=5795 PartOfSpeech=NNP] [Text=Cardin CharacterOffsetBegin=5796 CharacterOffsetEnd=5802 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=5808 CharacterOffsetEnd=5809 PartOfSpeech=-LRB-] [Text=D. CharacterOffsetBegin=5809 CharacterOffsetEnd=5811 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=5811 CharacterOffsetEnd=5812 PartOfSpeech=,] [Text=Md. CharacterOffsetBegin=5813 CharacterOffsetEnd=5816 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=5816 CharacterOffsetEnd=5817 PartOfSpeech=-RRB-] [Text=replaces CharacterOffsetBegin=5823 CharacterOffsetEnd=5831 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=5832 CharacterOffsetEnd=5835 PartOfSpeech=PRP] [Text=... CharacterOffsetBegin=5835 CharacterOffsetEnd=5842 PartOfSpeech=:] [Text=Seattle CharacterOffsetBegin=5848 CharacterOffsetEnd=5855 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=5855 CharacterOffsetEnd=5857 PartOfSpeech=POS] [Text=license CharacterOffsetBegin=5858 CharacterOffsetEnd=5865 PartOfSpeech=NN] [Text=fees CharacterOffsetBegin=5866 CharacterOffsetEnd=5870 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=5871 CharacterOffsetEnd=5874 PartOfSpeech=IN] [Text=adult CharacterOffsetBegin=5875 CharacterOffsetEnd=5880 PartOfSpeech=JJ] [Text=peep CharacterOffsetBegin=5881 CharacterOffsetEnd=5885 PartOfSpeech=NN] [Text=shows CharacterOffsetBegin=5886 CharacterOffsetEnd=5891 PartOfSpeech=NNS] [Text=vary CharacterOffsetBegin=5892 CharacterOffsetEnd=5896 PartOfSpeech=VBP] [Text=from CharacterOffsetBegin=5897 CharacterOffsetEnd=5901 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=5902 CharacterOffsetEnd=5907 PartOfSpeech=DT] [Text=for CharacterOffsetBegin=5908 CharacterOffsetEnd=5911 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=5912 CharacterOffsetEnd=5917 PartOfSpeech=JJ] [Text=coin-operated CharacterOffsetBegin=5918 CharacterOffsetEnd=5931 PartOfSpeech=JJ] [Text=amusements CharacterOffsetBegin=5932 CharacterOffsetEnd=5942 PartOfSpeech=NNS] [Text=without CharacterOffsetBegin=5948 CharacterOffsetEnd=5955 PartOfSpeech=IN] [Text=serving CharacterOffsetBegin=5956 CharacterOffsetEnd=5963 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=5964 CharacterOffsetEnd=5965 PartOfSpeech=DT] [Text=substantial CharacterOffsetBegin=5966 CharacterOffsetEnd=5977 PartOfSpeech=JJ] [Text=government CharacterOffsetBegin=5978 CharacterOffsetEnd=5988 PartOfSpeech=NN] [Text=interest CharacterOffsetBegin=5989 CharacterOffsetEnd=5997 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=6003 CharacterOffsetEnd=6006 PartOfSpeech=CC] [Text=are CharacterOffsetBegin=6007 CharacterOffsetEnd=6010 PartOfSpeech=VBP] [Text=unconstitutional CharacterOffsetBegin=6011 CharacterOffsetEnd=6027 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=6027 CharacterOffsetEnd=6028 PartOfSpeech=,] [Text=the CharacterOffsetBegin=6034 CharacterOffsetEnd=6037 PartOfSpeech=DT] [Text=ninth-circuit CharacterOffsetBegin=6038 CharacterOffsetEnd=6051 PartOfSpeech=JJ] [Text=appeals CharacterOffsetBegin=6052 CharacterOffsetEnd=6059 PartOfSpeech=NNS] [Text=court CharacterOffsetBegin=6060 CharacterOffsetEnd=6065 PartOfSpeech=NN] [Text=holds CharacterOffsetBegin=6066 CharacterOffsetEnd=6071 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=6072 CharacterOffsetEnd=6075 PartOfSpeech=IN] [Text=Acorn CharacterOffsetBegin=6076 CharacterOffsetEnd=6081 PartOfSpeech=NNP] [Text=Investments CharacterOffsetBegin=6082 CharacterOffsetEnd=6093 PartOfSpeech=NNP] [Text=Inc. CharacterOffsetBegin=6094 CharacterOffsetEnd=6097 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=6097 CharacterOffsetEnd=6098 PartOfSpeech=.] 
+root(ROOT-0, BRIEFS-1)
+punct(BRIEFS-1, :-2)
+dep(BRIEFS-1, Ways-3)
+cc(Ways-3, and-4)
+conj(Ways-3, Means-5)
+dep(Means-5, veteran-6)
+nsubj(moves-13, Gephardt-7)
+punct(D.-9, -LRB--8)
+dep(Gephardt-7, D.-9)
+punct(D.-9, ,-10)
+appos(D.-9, Mo.-11)
+punct(D.-9, -RRB--12)
+rcmod(veteran-6, moves-13)
+prep(moves-13, to-14)
+det(Committee-18, the-15)
+nn(Committee-18, House-16)
+nn(Committee-18, Budget-17)
+pobj(to-14, Committee-18)
+punct(Ways-3, ;-19)
+nn(Cardin-21, Rep.-20)
+nsubj(replaces-27, Cardin-21)
+punct(D.-23, -LRB--22)
+dep(Cardin-21, D.-23)
+punct(D.-23, ,-24)
+appos(D.-23, Md.-25)
+punct(D.-23, -RRB--26)
+dep(Ways-3, replaces-27)
+dobj(replaces-27, him-28)
+punct(Ways-3, ...-29)
+poss(fees-33, Seattle-30)
+possessive(Seattle-30, 's-31)
+nn(fees-33, license-32)
+nsubj(vary-38, fees-33)
+prep(fees-33, for-34)
+amod(shows-37, adult-35)
+nn(shows-37, peep-36)
+pobj(for-34, shows-37)
+dep(Ways-3, vary-38)
+prep(vary-38, from-39)
+pobj(from-39, those-40)
+prep(those-40, for-41)
+amod(amusements-44, other-42)
+amod(amusements-44, coin-operated-43)
+pobj(for-41, amusements-44)
+prep(vary-38, without-45)
+pcomp(without-45, serving-46)
+det(interest-50, a-47)
+amod(interest-50, substantial-48)
+nn(interest-50, government-49)
+dobj(serving-46, interest-50)
+cc(vary-38, and-51)
+cop(unconstitutional-53, are-52)
+conj(vary-38, unconstitutional-53)
+punct(Ways-3, ,-54)
+det(court-58, the-55)
+amod(court-58, ninth-circuit-56)
+nn(court-58, appeals-57)
+nsubj(holds-59, court-58)
+rcmod(Ways-3, holds-59)
+prep(holds-59, for-60)
+nn(Inc.-63, Acorn-61)
+nn(Inc.-63, Investments-62)
+pobj(for-60, Inc.-63)
+punct(BRIEFS-1, .-64)
+

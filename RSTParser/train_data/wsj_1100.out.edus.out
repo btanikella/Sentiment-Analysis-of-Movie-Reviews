@@ -1,0 +1,51 @@
+Sentence #1 (10 tokens):
+Westinghouse Electric Corp. said 
+    it will buy Shaw-Walker Co.
+[Text=Westinghouse CharacterOffsetBegin=4 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=Electric CharacterOffsetBegin=17 CharacterOffsetEnd=25 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=MD] [Text=buy CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=VB] [Text=Shaw-Walker CharacterOffsetBegin=54 CharacterOffsetEnd=65 PartOfSpeech=NNP] [Text=Co. CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=.] 
+root(ROOT-0, said-4)
+nn(Corp.-3, Westinghouse-1)
+nn(Corp.-3, Electric-2)
+nsubj(said-4, Corp.-3)
+nsubj(buy-7, it-5)
+aux(buy-7, will-6)
+ccomp(said-4, buy-7)
+nn(Co.-9, Shaw-Walker-8)
+dobj(buy-7, Co.-9)
+punct(said-4, .-10)
+
+Sentence #2 (5 tokens):
+Terms weren't disclosed.
+[Text=Terms CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=RB] [Text=disclosed CharacterOffsetBegin=89 CharacterOffsetEnd=98 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=.] 
+root(ROOT-0, disclosed-4)
+nsubjpass(disclosed-4, Terms-1)
+auxpass(disclosed-4, were-2)
+neg(disclosed-4, n't-3)
+punct(disclosed-4, .-5)
+
+Sentence #3 (21 tokens):
+Shaw-Walker, 
+    based in Muskegon, Mich., 
+    makes metal files and desks, and seating and office systems furniture.
+[Text=Shaw-Walker CharacterOffsetBegin=105 CharacterOffsetEnd=116 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=,] [Text=based CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=IN] [Text=Muskegon CharacterOffsetBegin=132 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=,] [Text=Mich. CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=,] [Text=makes CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=VBZ] [Text=metal CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NN] [Text=files CharacterOffsetBegin=166 CharacterOffsetEnd=171 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=CC] [Text=desks CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=,] [Text=and CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=CC] [Text=seating CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=CC] [Text=office CharacterOffsetBegin=199 CharacterOffsetEnd=205 PartOfSpeech=NN] [Text=systems CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=NNS] [Text=furniture CharacterOffsetBegin=214 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, makes-9)
+nsubj(makes-9, Shaw-Walker-1)
+punct(Shaw-Walker-1, ,-2)
+partmod(Shaw-Walker-1, based-3)
+prep(based-3, in-4)
+pobj(in-4, Muskegon-5)
+punct(Muskegon-5, ,-6)
+appos(Muskegon-5, Mich.-7)
+punct(Muskegon-5, ,-8)
+nn(files-11, metal-10)
+dobj(makes-9, files-11)
+cc(files-11, and-12)
+conj(files-11, desks-13)
+punct(makes-9, ,-14)
+cc(makes-9, and-15)
+nn(furniture-20, seating-16)
+cc(seating-16, and-17)
+conj(seating-16, office-18)
+nn(furniture-20, systems-19)
+conj(makes-9, furniture-20)
+punct(makes-9, .-21)
+

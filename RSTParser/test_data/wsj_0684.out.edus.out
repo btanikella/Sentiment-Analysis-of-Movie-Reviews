@@ -1,0 +1,98 @@
+Sentence #1 (26 tokens):
+Telxon Corp. said 
+    its vice president for manufacturing resigned 
+    and its Houston work force has been trimmed by 40 people, or about 15%.
+[Text=Telxon CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=VBD] [Text=its CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=PRP$] [Text=vice CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=president CharacterOffsetBegin=36 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=IN] [Text=manufacturing CharacterOffsetBegin=50 CharacterOffsetEnd=63 PartOfSpeech=VBG] [Text=resigned CharacterOffsetBegin=64 CharacterOffsetEnd=72 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=CC] [Text=its CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=PRP$] [Text=Houston CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=NNP] [Text=work CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=force CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=VBN] [Text=trimmed CharacterOffsetBegin=114 CharacterOffsetEnd=121 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=40 CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=CD] [Text=people CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=,] [Text=or CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=CC] [Text=about CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=RB] [Text=15 CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=.] 
+root(ROOT-0, said-3)
+nn(Corp.-2, Telxon-1)
+nsubj(said-3, Corp.-2)
+poss(president-6, its-4)
+nn(president-6, vice-5)
+ccomp(said-3, president-6)
+prep(president-6, for-7)
+pcomp(for-7, manufacturing-8)
+nsubjpass(trimmed-17, resigned-9)
+cc(resigned-9, and-10)
+poss(force-14, its-11)
+nn(force-14, Houston-12)
+nn(force-14, work-13)
+conj(resigned-9, force-14)
+aux(trimmed-17, has-15)
+auxpass(trimmed-17, been-16)
+ccomp(manufacturing-8, trimmed-17)
+prep(trimmed-17, by-18)
+num(people-20, 40-19)
+pobj(by-18, people-20)
+punct(people-20, ,-21)
+cc(people-20, or-22)
+quantmod(15-24, about-23)
+num(%-25, 15-24)
+conj(people-20, %-25)
+punct(said-3, .-26)
+
+Sentence #2 (23 tokens):
+The maker of hand-held computers and computer systems said 
+    the personnel changes were needed 
+    to improve the efficiency of its manufacturing operation.
+[Text=The CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=maker CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=IN] [Text=hand-held CharacterOffsetBegin=168 CharacterOffsetEnd=177 PartOfSpeech=JJ] [Text=computers CharacterOffsetBegin=178 CharacterOffsetEnd=187 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=CC] [Text=computer CharacterOffsetBegin=192 CharacterOffsetEnd=200 PartOfSpeech=NN] [Text=systems CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=said CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=DT] [Text=personnel CharacterOffsetBegin=223 CharacterOffsetEnd=232 PartOfSpeech=NNS] [Text=changes CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=VBD] [Text=needed CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=TO] [Text=improve CharacterOffsetBegin=261 CharacterOffsetEnd=268 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=DT] [Text=efficiency CharacterOffsetBegin=273 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=PRP$] [Text=manufacturing CharacterOffsetBegin=291 CharacterOffsetEnd=304 PartOfSpeech=NN] [Text=operation CharacterOffsetBegin=305 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=.] 
+root(ROOT-0, said-9)
+det(maker-2, The-1)
+nsubj(said-9, maker-2)
+prep(maker-2, of-3)
+amod(computers-5, hand-held-4)
+pobj(of-3, computers-5)
+cc(computers-5, and-6)
+nn(systems-8, computer-7)
+conj(computers-5, systems-8)
+det(changes-12, the-10)
+nn(changes-12, personnel-11)
+nsubjpass(needed-14, changes-12)
+auxpass(needed-14, were-13)
+ccomp(said-9, needed-14)
+aux(improve-16, to-15)
+xcomp(needed-14, improve-16)
+det(efficiency-18, the-17)
+dobj(improve-16, efficiency-18)
+prep(efficiency-18, of-19)
+poss(operation-22, its-20)
+nn(operation-22, manufacturing-21)
+pobj(of-19, operation-22)
+punct(said-9, .-23)
+
+Sentence #3 (19 tokens):
+The company said 
+    it hasn't named a successor to Ronald Bufton, the vice president 
+    who resigned.
+[Text=The CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=DT] [Text=company CharacterOffsetBegin=325 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text=said CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=RB] [Text=named CharacterOffsetBegin=353 CharacterOffsetEnd=358 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=DT] [Text=successor CharacterOffsetBegin=361 CharacterOffsetEnd=370 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=TO] [Text=Ronald CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=NNP] [Text=Bufton CharacterOffsetBegin=381 CharacterOffsetEnd=387 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=,] [Text=the CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=DT] [Text=vice CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=president CharacterOffsetBegin=398 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=WP] [Text=resigned CharacterOffsetBegin=417 CharacterOffsetEnd=425 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=.] 
+root(ROOT-0, said-3)
+det(company-2, The-1)
+nsubj(said-3, company-2)
+nsubj(named-7, it-4)
+aux(named-7, has-5)
+neg(named-7, n't-6)
+ccomp(said-3, named-7)
+det(successor-9, a-8)
+dobj(named-7, successor-9)
+prep(successor-9, to-10)
+nn(Bufton-12, Ronald-11)
+pobj(to-10, Bufton-12)
+punct(Bufton-12, ,-13)
+det(president-16, the-14)
+nn(president-16, vice-15)
+appos(Bufton-12, president-16)
+nsubj(resigned-18, who-17)
+rcmod(president-16, resigned-18)
+punct(said-3, .-19)
+
+Sentence #4 (8 tokens):
+Its Houston work force now totals 230.
+[Text=Its CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=PRP$] [Text=Houston CharacterOffsetBegin=436 CharacterOffsetEnd=443 PartOfSpeech=NNP] [Text=work CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=NN] [Text=force CharacterOffsetBegin=449 CharacterOffsetEnd=454 PartOfSpeech=NN] [Text=now CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=RB] [Text=totals CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=VBZ] [Text=230 CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=.] 
+root(ROOT-0, totals-6)
+poss(force-4, Its-1)
+nn(force-4, Houston-2)
+nn(force-4, work-3)
+nsubj(totals-6, force-4)
+advmod(totals-6, now-5)
+dobj(totals-6, 230-7)
+punct(totals-6, .-8)
+

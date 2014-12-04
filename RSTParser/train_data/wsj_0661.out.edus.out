@@ -1,0 +1,320 @@
+Sentence #1 (45 tokens):
+A unit of DPC Acquisition Partners launched a $10-a-share tender offer for the shares outstanding of Dataproducts Corp., 
+    and said 
+    it would seek to liquidate the computer-printer maker "as soon as possible," 
+    even if a merger isn't consummated.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=unit CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=IN] [Text=DPC CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=Acquisition CharacterOffsetBegin=18 CharacterOffsetEnd=29 PartOfSpeech=NNP] [Text=Partners CharacterOffsetBegin=30 CharacterOffsetEnd=38 PartOfSpeech=NNPS] [Text=launched CharacterOffsetBegin=39 CharacterOffsetEnd=47 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=DT] [Text=$ CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=$] [Text=10-a-share CharacterOffsetBegin=51 CharacterOffsetEnd=61 PartOfSpeech=JJ] [Text=tender CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=NN] [Text=offer CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=shares CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=NNS] [Text=outstanding CharacterOffsetBegin=90 CharacterOffsetEnd=101 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=IN] [Text=Dataproducts CharacterOffsetBegin=105 CharacterOffsetEnd=117 PartOfSpeech=NNPS] [Text=Corp. CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=,] [Text=and CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=CC] [Text=said CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=MD] [Text=seek CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=TO] [Text=liquidate CharacterOffsetBegin=161 CharacterOffsetEnd=170 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT] [Text=computer-printer CharacterOffsetBegin=175 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text=maker CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=``] [Text=as CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=RB] [Text=soon CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=IN] [Text=possible CharacterOffsetBegin=210 CharacterOffsetEnd=218 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=,] [Text='' CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=''] [Text=even CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=RB] [Text=if CharacterOffsetBegin=231 CharacterOffsetEnd=233 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=merger CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=RB] [Text=consummated CharacterOffsetBegin=249 CharacterOffsetEnd=260 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=.] 
+root(ROOT-0, launched-7)
+det(unit-2, A-1)
+nsubj(launched-7, unit-2)
+prep(unit-2, of-3)
+nn(Partners-6, DPC-4)
+nn(Partners-6, Acquisition-5)
+pobj(of-3, Partners-6)
+det(offer-12, a-8)
+amod(offer-12, $-9)
+dep($-9, 10-a-share-10)
+nn(offer-12, tender-11)
+dobj(launched-7, offer-12)
+prep(offer-12, for-13)
+det(shares-15, the-14)
+pobj(for-13, shares-15)
+amod(shares-15, outstanding-16)
+prep(shares-15, of-17)
+nn(Corp.-19, Dataproducts-18)
+pobj(of-17, Corp.-19)
+punct(launched-7, ,-20)
+cc(launched-7, and-21)
+conj(launched-7, said-22)
+nsubj(seek-25, it-23)
+aux(seek-25, would-24)
+ccomp(said-22, seek-25)
+aux(liquidate-27, to-26)
+xcomp(seek-25, liquidate-27)
+det(maker-30, the-28)
+nn(maker-30, computer-printer-29)
+dobj(liquidate-27, maker-30)
+punct(liquidate-27, ``-31)
+advmod(soon-33, as-32)
+advmod(liquidate-27, soon-33)
+prep(soon-33, as-34)
+pobj(as-34, possible-35)
+punct(launched-7, ,-36)
+punct(launched-7, ''-37)
+advmod(consummated-44, even-38)
+mark(consummated-44, if-39)
+det(merger-41, a-40)
+nsubjpass(consummated-44, merger-41)
+auxpass(consummated-44, is-42)
+neg(consummated-44, n't-43)
+advcl(launched-7, consummated-44)
+punct(launched-7, .-45)
+
+Sentence #2 (19 tokens):
+DPC Acquisition is controlled by Crescott Investment Associates, Wilson Investment Group, Kernel Corp. and Catalyst Partners.
+[Text=DPC CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=NNP] [Text=Acquisition CharacterOffsetBegin=271 CharacterOffsetEnd=282 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=VBZ] [Text=controlled CharacterOffsetBegin=286 CharacterOffsetEnd=296 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=IN] [Text=Crescott CharacterOffsetBegin=300 CharacterOffsetEnd=308 PartOfSpeech=NNP] [Text=Investment CharacterOffsetBegin=309 CharacterOffsetEnd=319 PartOfSpeech=NNP] [Text=Associates CharacterOffsetBegin=320 CharacterOffsetEnd=330 PartOfSpeech=NNPS] [Text=, CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=,] [Text=Wilson CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=NNP] [Text=Investment CharacterOffsetBegin=339 CharacterOffsetEnd=349 PartOfSpeech=NNP] [Text=Group CharacterOffsetBegin=350 CharacterOffsetEnd=355 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=355 CharacterOffsetEnd=356 PartOfSpeech=,] [Text=Kernel CharacterOffsetBegin=357 CharacterOffsetEnd=363 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=CC] [Text=Catalyst CharacterOffsetBegin=374 CharacterOffsetEnd=382 PartOfSpeech=NNP] [Text=Partners CharacterOffsetBegin=383 CharacterOffsetEnd=391 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=.] 
+root(ROOT-0, controlled-4)
+nn(Acquisition-2, DPC-1)
+nsubjpass(controlled-4, Acquisition-2)
+auxpass(controlled-4, is-3)
+prep(controlled-4, by-5)
+nn(Associates-8, Crescott-6)
+nn(Associates-8, Investment-7)
+pobj(by-5, Associates-8)
+punct(Associates-8, ,-9)
+nn(Group-12, Wilson-10)
+nn(Group-12, Investment-11)
+conj(Associates-8, Group-12)
+punct(Associates-8, ,-13)
+nn(Corp.-15, Kernel-14)
+conj(Associates-8, Corp.-15)
+cc(Associates-8, and-16)
+nn(Partners-18, Catalyst-17)
+conj(Associates-8, Partners-18)
+punct(controlled-4, .-19)
+
+Sentence #3 (15 tokens):
+The investor group owns 1,534,600 Dataproducts common shares, or a 7.6% stake.
+[Text=The CharacterOffsetBegin=398 CharacterOffsetEnd=401 PartOfSpeech=DT] [Text=investor CharacterOffsetBegin=402 CharacterOffsetEnd=410 PartOfSpeech=NN] [Text=group CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=NN] [Text=owns CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=VBZ] [Text=1,534,600 CharacterOffsetBegin=422 CharacterOffsetEnd=431 PartOfSpeech=CD] [Text=Dataproducts CharacterOffsetBegin=432 CharacterOffsetEnd=444 PartOfSpeech=NNPS] [Text=common CharacterOffsetBegin=445 CharacterOffsetEnd=451 PartOfSpeech=JJ] [Text=shares CharacterOffsetBegin=452 CharacterOffsetEnd=458 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=,] [Text=or CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=DT] [Text=7.6 CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=468 CharacterOffsetEnd=469 PartOfSpeech=NN] [Text=stake CharacterOffsetBegin=470 CharacterOffsetEnd=475 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=475 CharacterOffsetEnd=476 PartOfSpeech=.] 
+root(ROOT-0, owns-4)
+det(group-3, The-1)
+nn(group-3, investor-2)
+nsubj(owns-4, group-3)
+num(shares-8, 1,534,600-5)
+nn(shares-8, Dataproducts-6)
+amod(shares-8, common-7)
+dobj(owns-4, shares-8)
+punct(shares-8, ,-9)
+cc(shares-8, or-10)
+det(stake-14, a-11)
+number(%-13, 7.6-12)
+amod(stake-14, %-13)
+conj(shares-8, stake-14)
+punct(owns-4, .-15)
+
+Sentence #4 (12 tokens):
+The offer is based on several conditions, 
+    including obtaining financing.
+[Text=The CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=DT] [Text=offer CharacterOffsetBegin=486 CharacterOffsetEnd=491 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=492 CharacterOffsetEnd=494 PartOfSpeech=VBZ] [Text=based CharacterOffsetBegin=495 CharacterOffsetEnd=500 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=IN] [Text=several CharacterOffsetBegin=504 CharacterOffsetEnd=511 PartOfSpeech=JJ] [Text=conditions CharacterOffsetBegin=512 CharacterOffsetEnd=522 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=522 CharacterOffsetEnd=523 PartOfSpeech=,] [Text=including CharacterOffsetBegin=529 CharacterOffsetEnd=538 PartOfSpeech=VBG] [Text=obtaining CharacterOffsetBegin=539 CharacterOffsetEnd=548 PartOfSpeech=VBG] [Text=financing CharacterOffsetBegin=549 CharacterOffsetEnd=558 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=.] 
+root(ROOT-0, based-4)
+det(offer-2, The-1)
+nsubjpass(based-4, offer-2)
+auxpass(based-4, is-3)
+prep(based-4, on-5)
+amod(conditions-7, several-6)
+pobj(on-5, conditions-7)
+punct(conditions-7, ,-8)
+prep(conditions-7, including-9)
+pcomp(including-9, obtaining-10)
+dobj(obtaining-10, financing-11)
+punct(based-4, .-12)
+
+Sentence #5 (21 tokens):
+DPC Acquisition said 
+    it had received the reasonable assurance of Chase Manhattan Bank N.A. 
+    that the financing can be obtained.
+[Text=DPC CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=NNP] [Text=Acquisition CharacterOffsetBegin=569 CharacterOffsetEnd=580 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=591 CharacterOffsetEnd=593 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=594 CharacterOffsetEnd=597 PartOfSpeech=VBD] [Text=received CharacterOffsetBegin=598 CharacterOffsetEnd=606 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=607 CharacterOffsetEnd=610 PartOfSpeech=DT] [Text=reasonable CharacterOffsetBegin=611 CharacterOffsetEnd=621 PartOfSpeech=JJ] [Text=assurance CharacterOffsetBegin=622 CharacterOffsetEnd=631 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=IN] [Text=Chase CharacterOffsetBegin=635 CharacterOffsetEnd=640 PartOfSpeech=NNP] [Text=Manhattan CharacterOffsetBegin=641 CharacterOffsetEnd=650 PartOfSpeech=NNP] [Text=Bank CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=NNP] [Text=N.A. CharacterOffsetBegin=656 CharacterOffsetEnd=660 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=666 CharacterOffsetEnd=670 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=671 CharacterOffsetEnd=674 PartOfSpeech=DT] [Text=financing CharacterOffsetBegin=675 CharacterOffsetEnd=684 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=685 CharacterOffsetEnd=688 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=VB] [Text=obtained CharacterOffsetBegin=692 CharacterOffsetEnd=700 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=700 CharacterOffsetEnd=701 PartOfSpeech=.] 
+root(ROOT-0, said-3)
+nn(Acquisition-2, DPC-1)
+nsubj(said-3, Acquisition-2)
+nsubj(received-6, it-4)
+aux(received-6, had-5)
+ccomp(said-3, received-6)
+det(assurance-9, the-7)
+amod(assurance-9, reasonable-8)
+dobj(received-6, assurance-9)
+prep(assurance-9, of-10)
+nn(N.A.-14, Chase-11)
+nn(N.A.-14, Manhattan-12)
+nn(N.A.-14, Bank-13)
+pobj(of-10, N.A.-14)
+mark(obtained-20, that-15)
+det(financing-17, the-16)
+nsubjpass(obtained-20, financing-17)
+aux(obtained-20, can-18)
+auxpass(obtained-20, be-19)
+dep(assurance-9, obtained-20)
+punct(said-3, .-21)
+
+Sentence #6 (33 tokens):
+In a filing with the Securities and Exchange Commission, DPC Acquisition said 
+    it expects 
+    it will need about $215 million 
+    to buy the shares 
+    and pay related fees and expenses.
+[Text=In CharacterOffsetBegin=707 CharacterOffsetEnd=709 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=710 CharacterOffsetEnd=711 PartOfSpeech=DT] [Text=filing CharacterOffsetBegin=712 CharacterOffsetEnd=718 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=719 CharacterOffsetEnd=723 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=DT] [Text=Securities CharacterOffsetBegin=728 CharacterOffsetEnd=738 PartOfSpeech=NNPS] [Text=and CharacterOffsetBegin=739 CharacterOffsetEnd=742 PartOfSpeech=CC] [Text=Exchange CharacterOffsetBegin=743 CharacterOffsetEnd=751 PartOfSpeech=NNP] [Text=Commission CharacterOffsetBegin=752 CharacterOffsetEnd=762 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=762 CharacterOffsetEnd=763 PartOfSpeech=,] [Text=DPC CharacterOffsetBegin=764 CharacterOffsetEnd=767 PartOfSpeech=NNP] [Text=Acquisition CharacterOffsetBegin=768 CharacterOffsetEnd=779 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=780 CharacterOffsetEnd=784 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=PRP] [Text=expects CharacterOffsetBegin=793 CharacterOffsetEnd=800 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=806 CharacterOffsetEnd=808 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=809 CharacterOffsetEnd=813 PartOfSpeech=MD] [Text=need CharacterOffsetBegin=814 CharacterOffsetEnd=818 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=819 CharacterOffsetEnd=824 PartOfSpeech=RB] [Text=$ CharacterOffsetBegin=825 CharacterOffsetEnd=826 PartOfSpeech=$] [Text=215 CharacterOffsetBegin=826 CharacterOffsetEnd=829 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=830 CharacterOffsetEnd=837 PartOfSpeech=CD] [Text=to CharacterOffsetBegin=843 CharacterOffsetEnd=845 PartOfSpeech=TO] [Text=buy CharacterOffsetBegin=846 CharacterOffsetEnd=849 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=850 CharacterOffsetEnd=853 PartOfSpeech=DT] [Text=shares CharacterOffsetBegin=854 CharacterOffsetEnd=860 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=866 CharacterOffsetEnd=869 PartOfSpeech=CC] [Text=pay CharacterOffsetBegin=870 CharacterOffsetEnd=873 PartOfSpeech=VB] [Text=related CharacterOffsetBegin=874 CharacterOffsetEnd=881 PartOfSpeech=JJ] [Text=fees CharacterOffsetBegin=882 CharacterOffsetEnd=886 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=887 CharacterOffsetEnd=890 PartOfSpeech=CC] [Text=expenses CharacterOffsetBegin=891 CharacterOffsetEnd=899 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=899 CharacterOffsetEnd=900 PartOfSpeech=.] 
+root(ROOT-0, said-13)
+prep(said-13, In-1)
+det(filing-3, a-2)
+pobj(In-1, filing-3)
+prep(filing-3, with-4)
+det(Commission-9, the-5)
+nn(Commission-9, Securities-6)
+cc(Securities-6, and-7)
+conj(Securities-6, Exchange-8)
+pobj(with-4, Commission-9)
+punct(said-13, ,-10)
+nn(Acquisition-12, DPC-11)
+nsubj(said-13, Acquisition-12)
+nsubj(expects-15, it-14)
+ccomp(said-13, expects-15)
+nsubj(need-18, it-16)
+aux(need-18, will-17)
+ccomp(expects-15, need-18)
+quantmod($-20, about-19)
+dobj(need-18, $-20)
+number($-20, 215-21)
+number($-20, million-22)
+aux(buy-24, to-23)
+xcomp(need-18, buy-24)
+det(shares-26, the-25)
+dobj(buy-24, shares-26)
+cc(buy-24, and-27)
+conj(buy-24, pay-28)
+amod(fees-30, related-29)
+dobj(pay-28, fees-30)
+cc(fees-30, and-31)
+conj(fees-30, expenses-32)
+punct(said-13, .-33)
+
+Sentence #7 (28 tokens):
+DPC Acquisition added 
+    that it has not begun discussions with financing sources, 
+    and said 
+    it expected to repay the amounts 
+    borrowed through proceeds of the liquidation.
+[Text=DPC CharacterOffsetBegin=906 CharacterOffsetEnd=909 PartOfSpeech=NNP] [Text=Acquisition CharacterOffsetBegin=910 CharacterOffsetEnd=921 PartOfSpeech=NNP] [Text=added CharacterOffsetBegin=922 CharacterOffsetEnd=927 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=933 CharacterOffsetEnd=937 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=938 CharacterOffsetEnd=940 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=941 CharacterOffsetEnd=944 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=945 CharacterOffsetEnd=948 PartOfSpeech=RB] [Text=begun CharacterOffsetBegin=949 CharacterOffsetEnd=954 PartOfSpeech=VBN] [Text=discussions CharacterOffsetBegin=955 CharacterOffsetEnd=966 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=967 CharacterOffsetEnd=971 PartOfSpeech=IN] [Text=financing CharacterOffsetBegin=972 CharacterOffsetEnd=981 PartOfSpeech=NN] [Text=sources CharacterOffsetBegin=982 CharacterOffsetEnd=989 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=989 CharacterOffsetEnd=990 PartOfSpeech=,] [Text=and CharacterOffsetBegin=996 CharacterOffsetEnd=999 PartOfSpeech=CC] [Text=said CharacterOffsetBegin=1000 CharacterOffsetEnd=1004 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=1010 CharacterOffsetEnd=1012 PartOfSpeech=PRP] [Text=expected CharacterOffsetBegin=1013 CharacterOffsetEnd=1021 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=1022 CharacterOffsetEnd=1024 PartOfSpeech=TO] [Text=repay CharacterOffsetBegin=1025 CharacterOffsetEnd=1030 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=1031 CharacterOffsetEnd=1034 PartOfSpeech=DT] [Text=amounts CharacterOffsetBegin=1035 CharacterOffsetEnd=1042 PartOfSpeech=NNS] [Text=borrowed CharacterOffsetBegin=1048 CharacterOffsetEnd=1056 PartOfSpeech=VBN] [Text=through CharacterOffsetBegin=1057 CharacterOffsetEnd=1064 PartOfSpeech=IN] [Text=proceeds CharacterOffsetBegin=1065 CharacterOffsetEnd=1073 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=1074 CharacterOffsetEnd=1076 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1077 CharacterOffsetEnd=1080 PartOfSpeech=DT] [Text=liquidation CharacterOffsetBegin=1081 CharacterOffsetEnd=1092 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1092 CharacterOffsetEnd=1093 PartOfSpeech=.] 
+root(ROOT-0, added-3)
+nn(Acquisition-2, DPC-1)
+nsubj(added-3, Acquisition-2)
+mark(begun-8, that-4)
+nsubj(begun-8, it-5)
+aux(begun-8, has-6)
+neg(begun-8, not-7)
+ccomp(added-3, begun-8)
+dobj(begun-8, discussions-9)
+prep(discussions-9, with-10)
+nn(sources-12, financing-11)
+pobj(with-10, sources-12)
+punct(added-3, ,-13)
+cc(added-3, and-14)
+conj(added-3, said-15)
+nsubj(expected-17, it-16)
+ccomp(said-15, expected-17)
+aux(repay-19, to-18)
+xcomp(expected-17, repay-19)
+det(amounts-21, the-20)
+dobj(repay-19, amounts-21)
+partmod(amounts-21, borrowed-22)
+prep(borrowed-22, through-23)
+pobj(through-23, proceeds-24)
+prep(proceeds-24, of-25)
+det(liquidation-27, the-26)
+pobj(of-25, liquidation-27)
+punct(added-3, .-28)
+
+Sentence #8 (35 tokens):
+Dataproducts officials declined to comment, 
+    and said 
+    they had not yet seen a suit 
+    filed in federal court by DPC Acquisition 
+    that seeks to nullify a standstill agreement between DPC Acquisition and Dataproducts.
+[Text=Dataproducts CharacterOffsetBegin=1099 CharacterOffsetEnd=1111 PartOfSpeech=NNP] [Text=officials CharacterOffsetBegin=1112 CharacterOffsetEnd=1121 PartOfSpeech=NNS] [Text=declined CharacterOffsetBegin=1122 CharacterOffsetEnd=1130 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=1131 CharacterOffsetEnd=1133 PartOfSpeech=TO] [Text=comment CharacterOffsetBegin=1134 CharacterOffsetEnd=1141 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=1141 CharacterOffsetEnd=1142 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1148 CharacterOffsetEnd=1151 PartOfSpeech=CC] [Text=said CharacterOffsetBegin=1152 CharacterOffsetEnd=1156 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=1162 CharacterOffsetEnd=1166 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=1167 CharacterOffsetEnd=1170 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=1171 CharacterOffsetEnd=1174 PartOfSpeech=RB] [Text=yet CharacterOffsetBegin=1175 CharacterOffsetEnd=1178 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=1179 CharacterOffsetEnd=1183 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=1184 CharacterOffsetEnd=1185 PartOfSpeech=DT] [Text=suit CharacterOffsetBegin=1186 CharacterOffsetEnd=1190 PartOfSpeech=NN] [Text=filed CharacterOffsetBegin=1196 CharacterOffsetEnd=1201 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=1202 CharacterOffsetEnd=1204 PartOfSpeech=IN] [Text=federal CharacterOffsetBegin=1205 CharacterOffsetEnd=1212 PartOfSpeech=JJ] [Text=court CharacterOffsetBegin=1213 CharacterOffsetEnd=1218 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=1219 CharacterOffsetEnd=1221 PartOfSpeech=IN] [Text=DPC CharacterOffsetBegin=1222 CharacterOffsetEnd=1225 PartOfSpeech=NNP] [Text=Acquisition CharacterOffsetBegin=1226 CharacterOffsetEnd=1237 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=1243 CharacterOffsetEnd=1247 PartOfSpeech=WDT] [Text=seeks CharacterOffsetBegin=1248 CharacterOffsetEnd=1253 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=1254 CharacterOffsetEnd=1256 PartOfSpeech=TO] [Text=nullify CharacterOffsetBegin=1257 CharacterOffsetEnd=1264 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1265 CharacterOffsetEnd=1266 PartOfSpeech=DT] [Text=standstill CharacterOffsetBegin=1267 CharacterOffsetEnd=1277 PartOfSpeech=JJ] [Text=agreement CharacterOffsetBegin=1278 CharacterOffsetEnd=1287 PartOfSpeech=NN] [Text=between CharacterOffsetBegin=1288 CharacterOffsetEnd=1295 PartOfSpeech=IN] [Text=DPC CharacterOffsetBegin=1296 CharacterOffsetEnd=1299 PartOfSpeech=NNP] [Text=Acquisition CharacterOffsetBegin=1300 CharacterOffsetEnd=1311 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=1312 CharacterOffsetEnd=1315 PartOfSpeech=CC] [Text=Dataproducts CharacterOffsetBegin=1316 CharacterOffsetEnd=1328 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=1328 CharacterOffsetEnd=1329 PartOfSpeech=.] 
+root(ROOT-0, declined-3)
+nn(officials-2, Dataproducts-1)
+nsubj(declined-3, officials-2)
+aux(comment-5, to-4)
+xcomp(declined-3, comment-5)
+punct(declined-3, ,-6)
+cc(declined-3, and-7)
+conj(declined-3, said-8)
+nsubj(seen-13, they-9)
+aux(seen-13, had-10)
+neg(seen-13, not-11)
+advmod(seen-13, yet-12)
+ccomp(said-8, seen-13)
+det(suit-15, a-14)
+dobj(seen-13, suit-15)
+partmod(suit-15, filed-16)
+prep(filed-16, in-17)
+amod(court-19, federal-18)
+pobj(in-17, court-19)
+prep(filed-16, by-20)
+nn(Acquisition-22, DPC-21)
+pobj(by-20, Acquisition-22)
+nsubj(seeks-24, that-23)
+rcmod(Acquisition-22, seeks-24)
+aux(nullify-26, to-25)
+xcomp(seeks-24, nullify-26)
+det(agreement-29, a-27)
+amod(agreement-29, standstill-28)
+dobj(nullify-26, agreement-29)
+prep(agreement-29, between-30)
+nn(Acquisition-32, DPC-31)
+pobj(between-30, Acquisition-32)
+cc(Acquisition-32, and-33)
+conj(Acquisition-32, Dataproducts-34)
+punct(declined-3, .-35)
+
+Sentence #9 (32 tokens):
+Earlier this year, DPC Acquisition made a $15-a-share offer for Dataproducts, 
+    which 
+    the Dataproducts board said 
+    it rejected 
+    because the $283.7 million offer was not fully financed.
+[Text=Earlier CharacterOffsetBegin=1335 CharacterOffsetEnd=1342 PartOfSpeech=RBR] [Text=this CharacterOffsetBegin=1343 CharacterOffsetEnd=1347 PartOfSpeech=DT] [Text=year CharacterOffsetBegin=1348 CharacterOffsetEnd=1352 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1352 CharacterOffsetEnd=1353 PartOfSpeech=,] [Text=DPC CharacterOffsetBegin=1354 CharacterOffsetEnd=1357 PartOfSpeech=NNP] [Text=Acquisition CharacterOffsetBegin=1358 CharacterOffsetEnd=1369 PartOfSpeech=NNP] [Text=made CharacterOffsetBegin=1370 CharacterOffsetEnd=1374 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=1375 CharacterOffsetEnd=1376 PartOfSpeech=DT] [Text=$ CharacterOffsetBegin=1377 CharacterOffsetEnd=1378 PartOfSpeech=$] [Text=15-a-share CharacterOffsetBegin=1378 CharacterOffsetEnd=1388 PartOfSpeech=JJ] [Text=offer CharacterOffsetBegin=1389 CharacterOffsetEnd=1394 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=1395 CharacterOffsetEnd=1398 PartOfSpeech=IN] [Text=Dataproducts CharacterOffsetBegin=1399 CharacterOffsetEnd=1411 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=1411 CharacterOffsetEnd=1412 PartOfSpeech=,] [Text=which CharacterOffsetBegin=1418 CharacterOffsetEnd=1423 PartOfSpeech=WDT] [Text=the CharacterOffsetBegin=1429 CharacterOffsetEnd=1432 PartOfSpeech=DT] [Text=Dataproducts CharacterOffsetBegin=1433 CharacterOffsetEnd=1445 PartOfSpeech=NNPS] [Text=board CharacterOffsetBegin=1446 CharacterOffsetEnd=1451 PartOfSpeech=NN] [Text=said CharacterOffsetBegin=1452 CharacterOffsetEnd=1456 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=1462 CharacterOffsetEnd=1464 PartOfSpeech=PRP] [Text=rejected CharacterOffsetBegin=1465 CharacterOffsetEnd=1473 PartOfSpeech=VBD] [Text=because CharacterOffsetBegin=1479 CharacterOffsetEnd=1486 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1487 CharacterOffsetEnd=1490 PartOfSpeech=DT] [Text=$ CharacterOffsetBegin=1491 CharacterOffsetEnd=1492 PartOfSpeech=$] [Text=283.7 CharacterOffsetBegin=1492 CharacterOffsetEnd=1497 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=1498 CharacterOffsetEnd=1505 PartOfSpeech=CD] [Text=offer CharacterOffsetBegin=1506 CharacterOffsetEnd=1511 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=1512 CharacterOffsetEnd=1515 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=1516 CharacterOffsetEnd=1519 PartOfSpeech=RB] [Text=fully CharacterOffsetBegin=1520 CharacterOffsetEnd=1525 PartOfSpeech=RB] [Text=financed CharacterOffsetBegin=1526 CharacterOffsetEnd=1534 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=1534 CharacterOffsetEnd=1535 PartOfSpeech=.] 
+root(ROOT-0, made-7)
+advmod(year-3, Earlier-1)
+det(year-3, this-2)
+tmod(made-7, year-3)
+punct(made-7, ,-4)
+nn(Acquisition-6, DPC-5)
+nsubj(made-7, Acquisition-6)
+det(offer-11, a-8)
+amod(offer-11, $-9)
+dep($-9, 15-a-share-10)
+dobj(made-7, offer-11)
+prep(offer-11, for-12)
+pobj(for-12, Dataproducts-13)
+punct(Dataproducts-13, ,-14)
+dobj(said-19, which-15)
+det(board-18, the-16)
+nn(board-18, Dataproducts-17)
+nsubj(said-19, board-18)
+rcmod(Dataproducts-13, said-19)
+nsubj(rejected-21, it-20)
+ccomp(said-19, rejected-21)
+mark(financed-31, because-22)
+det(offer-27, the-23)
+amod(offer-27, $-24)
+number(million-26, 283.7-25)
+num($-24, million-26)
+nsubjpass(financed-31, offer-27)
+auxpass(financed-31, was-28)
+neg(financed-31, not-29)
+advmod(financed-31, fully-30)
+advcl(rejected-21, financed-31)
+punct(made-7, .-32)
+
+Sentence #10 (16 tokens):
+Dataproducts has since started a restructuring, 
+    and has said 
+    it is not for sale.
+[Text=Dataproducts CharacterOffsetBegin=1541 CharacterOffsetEnd=1553 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=1554 CharacterOffsetEnd=1557 PartOfSpeech=VBZ] [Text=since CharacterOffsetBegin=1558 CharacterOffsetEnd=1563 PartOfSpeech=IN] [Text=started CharacterOffsetBegin=1564 CharacterOffsetEnd=1571 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=1572 CharacterOffsetEnd=1573 PartOfSpeech=DT] [Text=restructuring CharacterOffsetBegin=1574 CharacterOffsetEnd=1587 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1587 CharacterOffsetEnd=1588 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1594 CharacterOffsetEnd=1597 PartOfSpeech=CC] [Text=has CharacterOffsetBegin=1598 CharacterOffsetEnd=1601 PartOfSpeech=VBZ] [Text=said CharacterOffsetBegin=1602 CharacterOffsetEnd=1606 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=1612 CharacterOffsetEnd=1614 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1615 CharacterOffsetEnd=1617 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=1618 CharacterOffsetEnd=1621 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=1622 CharacterOffsetEnd=1625 PartOfSpeech=IN] [Text=sale CharacterOffsetBegin=1626 CharacterOffsetEnd=1630 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1630 CharacterOffsetEnd=1631 PartOfSpeech=.] 
+root(ROOT-0, started-4)
+nsubj(started-4, Dataproducts-1)
+aux(started-4, has-2)
+advmod(started-4, since-3)
+det(restructuring-6, a-5)
+dobj(started-4, restructuring-6)
+punct(started-4, ,-7)
+cc(started-4, and-8)
+aux(said-10, has-9)
+conj(started-4, said-10)
+nsubj(is-12, it-11)
+ccomp(said-10, is-12)
+neg(is-12, not-13)
+prep(is-12, for-14)
+pobj(for-14, sale-15)
+punct(started-4, .-16)
+

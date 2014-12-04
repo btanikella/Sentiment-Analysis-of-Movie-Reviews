@@ -1,0 +1,149 @@
+Sentence #1 (27 tokens):
+American Telephone & Telegraph Co. said 
+    it will spend $20 million 
+    to build a factory in Guadalajara, Mexico, 
+    to make telephone answering machines.
+[Text=American CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNP] [Text=Telephone CharacterOffsetBegin=13 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=& CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=CC] [Text=Telegraph CharacterOffsetBegin=25 CharacterOffsetEnd=34 PartOfSpeech=NNP] [Text=Co. CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=MD] [Text=spend CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=VB] [Text=$ CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=$] [Text=20 CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=CD] [Text=to CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=TO] [Text=build CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=DT] [Text=factory CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=Guadalajara CharacterOffsetBegin=102 CharacterOffsetEnd=113 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=,] [Text=Mexico CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=,] [Text=to CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=VB] [Text=telephone CharacterOffsetBegin=136 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=answering CharacterOffsetBegin=146 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=machines CharacterOffsetBegin=156 CharacterOffsetEnd=164 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=.] 
+root(ROOT-0, said-6)
+nn(Telephone-2, American-1)
+nsubj(said-6, Telephone-2)
+cc(Telephone-2, &-3)
+nn(Co.-5, Telegraph-4)
+conj(Telephone-2, Co.-5)
+nsubj(spend-9, it-7)
+aux(spend-9, will-8)
+ccomp(said-6, spend-9)
+dobj(spend-9, $-10)
+number(million-12, 20-11)
+num($-10, million-12)
+aux(build-14, to-13)
+xcomp(spend-9, build-14)
+det(factory-16, a-15)
+dobj(build-14, factory-16)
+prep(build-14, in-17)
+pobj(in-17, Guadalajara-18)
+punct(Guadalajara-18, ,-19)
+appos(Guadalajara-18, Mexico-20)
+punct(Guadalajara-18, ,-21)
+aux(make-23, to-22)
+xcomp(build-14, make-23)
+nn(machines-26, telephone-24)
+nn(machines-26, answering-25)
+dobj(make-23, machines-26)
+punct(said-6, .-27)
+
+Sentence #2 (19 tokens):
+Construction of the 265,000-square-foot facility will begin next year, with production 
+    expected to start in late 1991.
+[Text=Construction CharacterOffsetBegin=171 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=265,000-square-foot CharacterOffsetBegin=191 CharacterOffsetEnd=210 PartOfSpeech=JJ] [Text=facility CharacterOffsetBegin=211 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=MD] [Text=begin CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=VB] [Text=next CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=JJ] [Text=year CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=,] [Text=with CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=IN] [Text=production CharacterOffsetBegin=247 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=expected CharacterOffsetBegin=263 CharacterOffsetEnd=271 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=TO] [Text=start CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=late CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=JJ] [Text=1991 CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=.] 
+root(ROOT-0, begin-7)
+nsubj(begin-7, Construction-1)
+prep(Construction-1, of-2)
+det(facility-5, the-3)
+amod(facility-5, 265,000-square-foot-4)
+pobj(of-2, facility-5)
+aux(begin-7, will-6)
+amod(year-9, next-8)
+tmod(begin-7, year-9)
+punct(begin-7, ,-10)
+prep(begin-7, with-11)
+pobj(with-11, production-12)
+partmod(production-12, expected-13)
+aux(start-15, to-14)
+xcomp(expected-13, start-15)
+prep(start-15, in-16)
+amod(1991-18, late-17)
+pobj(in-16, 1991-18)
+punct(begin-7, .-19)
+
+Sentence #3 (26 tokens):
+When fully operational, the Guadalajara factory will employ about 1,500 workers 
+    and have annual operating expenses of $5 million to $6 million.
+[Text=When CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=WRB] [Text=fully CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=RB] [Text=operational CharacterOffsetBegin=311 CharacterOffsetEnd=322 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=,] [Text=the CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=DT] [Text=Guadalajara CharacterOffsetBegin=328 CharacterOffsetEnd=339 PartOfSpeech=NNP] [Text=factory CharacterOffsetBegin=340 CharacterOffsetEnd=347 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=MD] [Text=employ CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=IN] [Text=1,500 CharacterOffsetBegin=366 CharacterOffsetEnd=371 PartOfSpeech=CD] [Text=workers CharacterOffsetBegin=372 CharacterOffsetEnd=379 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=CC] [Text=have CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=VBP] [Text=annual CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=JJ] [Text=operating CharacterOffsetBegin=401 CharacterOffsetEnd=410 PartOfSpeech=NN] [Text=expenses CharacterOffsetBegin=411 CharacterOffsetEnd=419 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=$] [Text=5 CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=426 CharacterOffsetEnd=433 PartOfSpeech=CD] [Text=to CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=TO] [Text=$ CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=$] [Text=6 CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=.] 
+root(ROOT-0, employ-9)
+advmod(operational-3, When-1)
+advmod(operational-3, fully-2)
+advcl(employ-9, operational-3)
+punct(employ-9, ,-4)
+det(factory-7, the-5)
+nn(factory-7, Guadalajara-6)
+nsubj(employ-9, factory-7)
+aux(employ-9, will-8)
+quantmod(1,500-11, about-10)
+num(workers-12, 1,500-11)
+dobj(employ-9, workers-12)
+cc(employ-9, and-13)
+conj(employ-9, have-14)
+amod(expenses-17, annual-15)
+nn(expenses-17, operating-16)
+dobj(have-14, expenses-17)
+prep(expenses-17, of-18)
+dep($-23, $-19)
+number($-23, 5-20)
+number($-23, million-21)
+dep($-23, to-22)
+pobj(of-18, $-23)
+number($-23, 6-24)
+number($-23, million-25)
+punct(employ-9, .-26)
+
+Sentence #4 (17 tokens):
+An AT&T representative said 
+    that the Guadalajara factory will make a full line of answering machines.
+[Text=An CharacterOffsetBegin=454 CharacterOffsetEnd=456 PartOfSpeech=DT] [Text=AT&T CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=NNP] [Text=representative CharacterOffsetBegin=462 CharacterOffsetEnd=476 PartOfSpeech=NN] [Text=said CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=DT] [Text=Guadalajara CharacterOffsetBegin=496 CharacterOffsetEnd=507 PartOfSpeech=NNP] [Text=factory CharacterOffsetBegin=508 CharacterOffsetEnd=515 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=516 CharacterOffsetEnd=520 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=DT] [Text=full CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=JJ] [Text=line CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=IN] [Text=answering CharacterOffsetBegin=541 CharacterOffsetEnd=550 PartOfSpeech=VBG] [Text=machines CharacterOffsetBegin=551 CharacterOffsetEnd=559 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=.] 
+root(ROOT-0, said-4)
+det(representative-3, An-1)
+nn(representative-3, AT&T-2)
+nsubj(said-4, representative-3)
+mark(make-10, that-5)
+det(factory-8, the-6)
+nn(factory-8, Guadalajara-7)
+nsubj(make-10, factory-8)
+aux(make-10, will-9)
+ccomp(said-4, make-10)
+det(line-13, a-11)
+amod(line-13, full-12)
+dobj(make-10, line-13)
+prep(line-13, of-14)
+amod(machines-16, answering-15)
+pobj(of-14, machines-16)
+punct(said-4, .-17)
+
+Sentence #5 (15 tokens):
+AT&T already has a factory in Matamoros, Mexico, 
+    to make electrical devices.
+[Text=AT&T CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=NNP] [Text=already CharacterOffsetBegin=571 CharacterOffsetEnd=578 PartOfSpeech=RB] [Text=has CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=583 CharacterOffsetEnd=584 PartOfSpeech=DT] [Text=factory CharacterOffsetBegin=585 CharacterOffsetEnd=592 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=IN] [Text=Matamoros CharacterOffsetBegin=596 CharacterOffsetEnd=605 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=605 CharacterOffsetEnd=606 PartOfSpeech=,] [Text=Mexico CharacterOffsetBegin=607 CharacterOffsetEnd=613 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=,] [Text=to CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=VB] [Text=electrical CharacterOffsetBegin=628 CharacterOffsetEnd=638 PartOfSpeech=JJ] [Text=devices CharacterOffsetBegin=639 CharacterOffsetEnd=646 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+nsubj(has-3, AT&T-1)
+advmod(has-3, already-2)
+det(factory-5, a-4)
+dobj(has-3, factory-5)
+prep(factory-5, in-6)
+pobj(in-6, Matamoros-7)
+punct(Matamoros-7, ,-8)
+appos(Matamoros-7, Mexico-9)
+punct(Matamoros-7, ,-10)
+aux(make-12, to-11)
+infmod(factory-5, make-12)
+amod(devices-14, electrical-13)
+dobj(make-12, devices-14)
+punct(has-3, .-15)
+
+Sentence #6 (13 tokens):
+It also purchases data systems products from a manufacturer 
+    based in Monterrey.
+[Text=It CharacterOffsetBegin=653 CharacterOffsetEnd=655 PartOfSpeech=PRP] [Text=also CharacterOffsetBegin=656 CharacterOffsetEnd=660 PartOfSpeech=RB] [Text=purchases CharacterOffsetBegin=661 CharacterOffsetEnd=670 PartOfSpeech=NNS] [Text=data CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=NNS] [Text=systems CharacterOffsetBegin=676 CharacterOffsetEnd=683 PartOfSpeech=NNS] [Text=products CharacterOffsetBegin=684 CharacterOffsetEnd=692 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=DT] [Text=manufacturer CharacterOffsetBegin=700 CharacterOffsetEnd=712 PartOfSpeech=NN] [Text=based CharacterOffsetBegin=718 CharacterOffsetEnd=723 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=724 CharacterOffsetEnd=726 PartOfSpeech=IN] [Text=Monterrey CharacterOffsetBegin=727 CharacterOffsetEnd=736 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=736 CharacterOffsetEnd=737 PartOfSpeech=.] 
+root(ROOT-0, purchases-3)
+nsubj(purchases-3, It-1)
+advmod(purchases-3, also-2)
+nn(products-6, data-4)
+nn(products-6, systems-5)
+dobj(purchases-3, products-6)
+prep(purchases-3, from-7)
+det(manufacturer-9, a-8)
+pobj(from-7, manufacturer-9)
+partmod(manufacturer-9, based-10)
+prep(based-10, in-11)
+pobj(in-11, Monterrey-12)
+punct(purchases-3, .-13)
+

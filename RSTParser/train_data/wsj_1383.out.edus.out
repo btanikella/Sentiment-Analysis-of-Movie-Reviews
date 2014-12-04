@@ -1,0 +1,69 @@
+Sentence #1 (26 tokens):
+Rhone-Poulenc S.A., Paris, said 
+    it completed the purchase of the specialty chemicals operation of RTZ Corp., a British mining and industrial group.
+[Text=Rhone-Poulenc CharacterOffsetBegin=4 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=S.A. CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=,] [Text=Paris CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=,] [Text=said CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=PRP] [Text=completed CharacterOffsetBegin=44 CharacterOffsetEnd=53 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=purchase CharacterOffsetBegin=58 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=DT] [Text=specialty CharacterOffsetBegin=74 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=chemicals CharacterOffsetBegin=84 CharacterOffsetEnd=93 PartOfSpeech=NNS] [Text=operation CharacterOffsetBegin=94 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN] [Text=RTZ CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=NNP] [Text=Corp. CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=,] [Text=a CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=British CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=JJ] [Text=mining CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=CC] [Text=industrial CharacterOffsetBegin=139 CharacterOffsetEnd=149 PartOfSpeech=JJ] [Text=group CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=.] 
+root(ROOT-0, said-6)
+nn(S.A.-2, Rhone-Poulenc-1)
+nsubj(said-6, S.A.-2)
+punct(S.A.-2, ,-3)
+appos(S.A.-2, Paris-4)
+punct(S.A.-2, ,-5)
+nsubj(completed-8, it-7)
+ccomp(said-6, completed-8)
+det(purchase-10, the-9)
+dobj(completed-8, purchase-10)
+prep(purchase-10, of-11)
+det(operation-15, the-12)
+nn(operation-15, specialty-13)
+nn(operation-15, chemicals-14)
+pobj(of-11, operation-15)
+prep(operation-15, of-16)
+nn(Corp.-18, RTZ-17)
+pobj(of-16, Corp.-18)
+punct(Corp.-18, ,-19)
+det(group-25, a-20)
+amod(group-25, British-21)
+nn(group-25, mining-22)
+cc(mining-22, and-23)
+conj(mining-22, industrial-24)
+appos(Corp.-18, group-25)
+punct(said-6, .-26)
+
+Sentence #2 (20 tokens):
+Rhone-Poulenc, a chemical and pharmaceutical company, said 
+    RTZ Chemicals has annual sales of about $900 million.
+[Text=Rhone-Poulenc CharacterOffsetBegin=162 CharacterOffsetEnd=175 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=,] [Text=a CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=chemical CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=CC] [Text=pharmaceutical CharacterOffsetBegin=192 CharacterOffsetEnd=206 PartOfSpeech=JJ] [Text=company CharacterOffsetBegin=207 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=,] [Text=said CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=VBD] [Text=RTZ CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=NNP] [Text=Chemicals CharacterOffsetBegin=230 CharacterOffsetEnd=239 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=VBZ] [Text=annual CharacterOffsetBegin=244 CharacterOffsetEnd=250 PartOfSpeech=JJ] [Text=sales CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=IN] [Text=about CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=RB] [Text=$ CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=$] [Text=900 CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=.] 
+root(ROOT-0, said-9)
+nsubj(said-9, Rhone-Poulenc-1)
+punct(Rhone-Poulenc-1, ,-2)
+det(company-7, a-3)
+nn(company-7, chemical-4)
+cc(chemical-4, and-5)
+conj(chemical-4, pharmaceutical-6)
+appos(Rhone-Poulenc-1, company-7)
+punct(Rhone-Poulenc-1, ,-8)
+nn(Chemicals-11, RTZ-10)
+nsubj(has-12, Chemicals-11)
+ccomp(said-9, has-12)
+amod(sales-14, annual-13)
+dobj(has-12, sales-14)
+prep(sales-14, of-15)
+quantmod($-17, about-16)
+pobj(of-15, $-17)
+number($-17, 900-18)
+number($-17, million-19)
+punct(said-9, .-20)
+
+Sentence #3 (9 tokens):
+It didn't release terms of the transaction.
+[Text=It CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=RB] [Text=release CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=VB] [Text=terms CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=DT] [Text=transaction CharacterOffsetBegin=316 CharacterOffsetEnd=327 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=.] 
+root(ROOT-0, release-4)
+nsubj(release-4, It-1)
+aux(release-4, did-2)
+neg(release-4, n't-3)
+dobj(release-4, terms-5)
+prep(terms-5, of-6)
+det(transaction-8, the-7)
+pobj(of-6, transaction-8)
+punct(release-4, .-9)
+
