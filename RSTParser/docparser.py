@@ -8,7 +8,7 @@ import buildtree
 pm = ParsingModel()
 pm.loadmodel("parsing-model.pickle.gz")
 
-def parse(pm, textedus):
+def parse(pm, textedus, pos_tags, headwords):
     """ Parse one document using the given parsing model
 
     :type pm: ParsingModel
@@ -19,13 +19,15 @@ def parse(pm, textedus):
     """
     
     edus = textedus.split('\n')
+    pos_tags = pos_tags.split('\n')
+    heads = headwords.split('\n')
     if len(edus[-1]) == 0:
         edus.pop()
-    pred_rst = pm.sr_parse(edus)
+    pred_rst = pm.sr_parse(edus, pos_tags, headwords)
     return pred_rst
 
-def getParseTree(document):
-	pred_rst = parse(pm, document)
+def getParseTree(document, pos_tags, headwords):
+	pred_rst = parse(pm, document, pos_tags, headwords)
 	nodelist = buildtree.postorder_DFT(pred_rst.gettree(),[])
 	return pred_rst, nodelist
 
