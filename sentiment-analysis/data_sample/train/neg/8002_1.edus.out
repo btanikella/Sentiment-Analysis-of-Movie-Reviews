@@ -1,0 +1,208 @@
+Sentence #1 (5 tokens):
+What a terrible movie.
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.] 
+root(ROOT-0, movie-4)
+dep(movie-4, What-1)
+det(movie-4, a-2)
+amod(movie-4, terrible-3)
+punct(movie-4, .-5)
+
+Sentence #2 (10 tokens):
+Rotten tomatoes had a good rating for this too.
+[Text=Rotten CharacterOffsetBegin=31 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=tomatoes CharacterOffsetBegin=38 CharacterOffsetEnd=46 PartOfSpeech=NNS] [Text=had CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=JJ] [Text=rating CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=DT] [Text=too CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=.] 
+root(ROOT-0, had-3)
+amod(tomatoes-2, Rotten-1)
+nsubj(had-3, tomatoes-2)
+det(rating-6, a-4)
+amod(rating-6, good-5)
+dobj(had-3, rating-6)
+prep(rating-6, for-7)
+pobj(for-7, this-8)
+advmod(this-8, too-9)
+punct(had-3, .-10)
+
+Sentence #3 (14 tokens):
+don't be fooled by the positive comments; It wasn't scary.
+[Text=do CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=VB] [Text=fooled CharacterOffsetBegin=92 CharacterOffsetEnd=98 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=positive CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=JJ] [Text=comments CharacterOffsetBegin=115 CharacterOffsetEnd=123 PartOfSpeech=NNS] [Text=; CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=:] [Text=It CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=RB] [Text=scary CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, fooled-4)
+aux(fooled-4, do-1)
+neg(fooled-4, n't-2)
+auxpass(fooled-4, be-3)
+prep(fooled-4, by-5)
+det(comments-8, the-6)
+amod(comments-8, positive-7)
+pobj(by-5, comments-8)
+punct(fooled-4, ;-9)
+nsubj(scary-13, It-10)
+cop(scary-13, was-11)
+neg(scary-13, n't-12)
+parataxis(fooled-4, scary-13)
+punct(fooled-4, .-14)
+
+Sentence #4 (5 tokens):
+It wasn't funny.
+[Text=It CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=.] 
+root(ROOT-0, funny-4)
+nsubj(funny-4, It-1)
+cop(funny-4, was-2)
+neg(funny-4, n't-3)
+punct(funny-4, .-5)
+
+Sentence #5 (5 tokens):
+It wasn't clever.
+[Text=It CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=RB] [Text=clever CharacterOffsetBegin=177 CharacterOffsetEnd=183 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=.] 
+root(ROOT-0, clever-4)
+nsubj(clever-4, It-1)
+cop(clever-4, was-2)
+neg(clever-4, n't-3)
+punct(clever-4, .-5)
+
+Sentence #6 (8 tokens):
+It won't even hold your attention.
+[Text=It CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=RB] [Text=hold CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=PRP$] [Text=attention CharacterOffsetBegin=213 CharacterOffsetEnd=222 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=.] 
+root(ROOT-0, hold-5)
+nsubj(hold-5, It-1)
+aux(hold-5, wo-2)
+neg(hold-5, n't-3)
+advmod(hold-5, even-4)
+poss(attention-7, your-6)
+dobj(hold-5, attention-7)
+punct(hold-5, .-8)
+
+Sentence #7 (12 tokens):
+I just wasted 2 hours of my life viewing this crap-fest.
+[Text=I CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=RB] [Text=wasted CharacterOffsetBegin=235 CharacterOffsetEnd=241 PartOfSpeech=VBD] [Text=2 CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=CD] [Text=hours CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=NN] [Text=viewing CharacterOffsetBegin=261 CharacterOffsetEnd=268 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=crap-fest CharacterOffsetBegin=274 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=.] 
+root(ROOT-0, wasted-3)
+nsubj(wasted-3, I-1)
+advmod(wasted-3, just-2)
+num(hours-5, 2-4)
+dobj(wasted-3, hours-5)
+prep(hours-5, of-6)
+poss(life-8, my-7)
+pobj(of-6, life-8)
+partmod(hours-5, viewing-9)
+det(crap-fest-11, this-10)
+dobj(viewing-9, crap-fest-11)
+punct(wasted-3, .-12)
+
+Sentence #8 (13 tokens):
+the computer generated monster was interesting to see the first couple times.
+[Text=the CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=computer CharacterOffsetBegin=293 CharacterOffsetEnd=301 PartOfSpeech=NN] [Text=generated CharacterOffsetBegin=302 CharacterOffsetEnd=311 PartOfSpeech=VBD] [Text=monster CharacterOffsetBegin=312 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=VBD] [Text=interesting CharacterOffsetBegin=324 CharacterOffsetEnd=335 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=JJ] [Text=couple CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=NN] [Text=times CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=.] 
+root(ROOT-0, interesting-6)
+det(computer-2, the-1)
+nsubj(generated-3, computer-2)
+csubj(interesting-6, generated-3)
+dobj(generated-3, monster-4)
+cop(interesting-6, was-5)
+aux(see-8, to-7)
+xcomp(interesting-6, see-8)
+det(couple-11, the-9)
+amod(couple-11, first-10)
+nsubj(times-12, couple-11)
+ccomp(see-8, times-12)
+punct(interesting-6, .-13)
+
+Sentence #9 (9 tokens):
+after about 15 minutes it no longer entertained.
+[Text=after CharacterOffsetBegin=371 CharacterOffsetEnd=376 PartOfSpeech=IN] [Text=about CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=RB] [Text=15 CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=386 CharacterOffsetEnd=393 PartOfSpeech=NNS] [Text=it CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=PRP] [Text=no CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=RB] [Text=longer CharacterOffsetBegin=400 CharacterOffsetEnd=406 PartOfSpeech=RBR] [Text=entertained CharacterOffsetBegin=407 CharacterOffsetEnd=418 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=.] 
+root(ROOT-0, entertained-8)
+prep(entertained-8, after-1)
+quantmod(15-3, about-2)
+num(minutes-4, 15-3)
+pobj(after-1, minutes-4)
+nsubj(entertained-8, it-5)
+advmod(longer-7, no-6)
+advmod(entertained-8, longer-7)
+punct(entertained-8, .-9)
+
+Sentence #10 (11 tokens):
+the dialogue was terrible, must be a translation thing.
+[Text=the CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=DT] [Text=dialogue CharacterOffsetBegin=428 CharacterOffsetEnd=436 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=VBD] [Text=terrible CharacterOffsetBegin=441 CharacterOffsetEnd=449 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=,] [Text=must CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=DT] [Text=translation CharacterOffsetBegin=461 CharacterOffsetEnd=472 PartOfSpeech=NN] [Text=thing CharacterOffsetBegin=473 CharacterOffsetEnd=478 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=478 CharacterOffsetEnd=479 PartOfSpeech=.] 
+root(ROOT-0, terrible-4)
+det(dialogue-2, the-1)
+nsubj(terrible-4, dialogue-2)
+cop(terrible-4, was-3)
+punct(terrible-4, ,-5)
+aux(thing-10, must-6)
+cop(thing-10, be-7)
+det(thing-10, a-8)
+nn(thing-10, translation-9)
+ccomp(terrible-4, thing-10)
+punct(terrible-4, .-11)
+
+Sentence #11 (10 tokens):
+another negative that stood out was the idiot Americans.
+[Text=another CharacterOffsetBegin=484 CharacterOffsetEnd=491 PartOfSpeech=DT] [Text=negative CharacterOffsetBegin=492 CharacterOffsetEnd=500 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=IN] [Text=stood CharacterOffsetBegin=506 CharacterOffsetEnd=511 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=RP] [Text=was CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=DT] [Text=idiot CharacterOffsetBegin=524 CharacterOffsetEnd=529 PartOfSpeech=NN] [Text=Americans CharacterOffsetBegin=530 CharacterOffsetEnd=539 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=.] 
+root(ROOT-0, negative-2)
+det(negative-2, another-1)
+nsubj(stood-4, that-3)
+rcmod(negative-2, stood-4)
+prt(stood-4, out-5)
+cop(Americans-9, was-6)
+det(Americans-9, the-7)
+nn(Americans-9, idiot-8)
+ccomp(stood-4, Americans-9)
+punct(negative-2, .-10)
+
+Sentence #12 (14 tokens):
+3 were portrayed and they were all lacking character, intelligence and judgment.
+[Text=3 CharacterOffsetBegin=545 CharacterOffsetEnd=546 PartOfSpeech=CD] [Text=were CharacterOffsetBegin=547 CharacterOffsetEnd=551 PartOfSpeech=VBD] [Text=portrayed CharacterOffsetBegin=552 CharacterOffsetEnd=561 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=571 CharacterOffsetEnd=575 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=DT] [Text=lacking CharacterOffsetBegin=580 CharacterOffsetEnd=587 PartOfSpeech=VBG] [Text=character CharacterOffsetBegin=588 CharacterOffsetEnd=597 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=597 CharacterOffsetEnd=598 PartOfSpeech=,] [Text=intelligence CharacterOffsetBegin=599 CharacterOffsetEnd=611 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=CC] [Text=judgment CharacterOffsetBegin=616 CharacterOffsetEnd=624 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=.] 
+root(ROOT-0, portrayed-3)
+nsubjpass(portrayed-3, 3-1)
+auxpass(portrayed-3, were-2)
+cc(portrayed-3, and-4)
+conj(portrayed-3, they-5)
+dep(they-5, were-6)
+dep(were-6, all-7)
+partmod(all-7, lacking-8)
+dobj(lacking-8, character-9)
+punct(character-9, ,-10)
+conj(character-9, intelligence-11)
+cc(character-9, and-12)
+conj(character-9, judgment-13)
+punct(portrayed-3, .-14)
+
+Sentence #13 (18 tokens):
+Now I will write a couple of lines to pad this since we have to have 10.
+[Text=Now CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=MD] [Text=write CharacterOffsetBegin=641 CharacterOffsetEnd=646 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=DT] [Text=couple CharacterOffsetBegin=649 CharacterOffsetEnd=655 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=656 CharacterOffsetEnd=658 PartOfSpeech=IN] [Text=lines CharacterOffsetBegin=659 CharacterOffsetEnd=664 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=665 CharacterOffsetEnd=667 PartOfSpeech=TO] [Text=pad CharacterOffsetBegin=668 CharacterOffsetEnd=671 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=672 CharacterOffsetEnd=676 PartOfSpeech=DT] [Text=since CharacterOffsetBegin=677 CharacterOffsetEnd=682 PartOfSpeech=IN] [Text=we CharacterOffsetBegin=683 CharacterOffsetEnd=685 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=686 CharacterOffsetEnd=690 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=691 CharacterOffsetEnd=693 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=VB] [Text=10 CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=701 CharacterOffsetEnd=702 PartOfSpeech=.] 
+root(ROOT-0, write-4)
+advmod(write-4, Now-1)
+nsubj(write-4, I-2)
+aux(write-4, will-3)
+det(couple-6, a-5)
+dobj(write-4, couple-6)
+prep(couple-6, of-7)
+pobj(of-7, lines-8)
+prep(write-4, to-9)
+pobj(to-9, pad-10)
+dobj(write-4, this-11)
+mark(have-14, since-12)
+nsubj(have-14, we-13)
+dep(this-11, have-14)
+aux(have-16, to-15)
+xcomp(have-14, have-16)
+dobj(have-16, 10-17)
+punct(write-4, .-18)
+
+Sentence #14 (18 tokens):
+The employees at the video store should have slapped me for bringing this title to the counter.
+[Text=The CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=DT] [Text=employees CharacterOffsetBegin=711 CharacterOffsetEnd=720 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=721 CharacterOffsetEnd=723 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=DT] [Text=video CharacterOffsetBegin=728 CharacterOffsetEnd=733 PartOfSpeech=NN] [Text=store CharacterOffsetBegin=734 CharacterOffsetEnd=739 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=740 CharacterOffsetEnd=746 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=VB] [Text=slapped CharacterOffsetBegin=752 CharacterOffsetEnd=759 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=760 CharacterOffsetEnd=762 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=IN] [Text=bringing CharacterOffsetBegin=767 CharacterOffsetEnd=775 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=776 CharacterOffsetEnd=780 PartOfSpeech=DT] [Text=title CharacterOffsetBegin=781 CharacterOffsetEnd=786 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=787 CharacterOffsetEnd=789 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=790 CharacterOffsetEnd=793 PartOfSpeech=DT] [Text=counter CharacterOffsetBegin=794 CharacterOffsetEnd=801 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=801 CharacterOffsetEnd=802 PartOfSpeech=.] 
+root(ROOT-0, have-8)
+det(employees-2, The-1)
+nsubj(have-8, employees-2)
+prep(employees-2, at-3)
+det(store-6, the-4)
+nn(store-6, video-5)
+pobj(at-3, store-6)
+aux(have-8, should-7)
+xcomp(have-8, slapped-9)
+dobj(slapped-9, me-10)
+prep(slapped-9, for-11)
+pcomp(for-11, bringing-12)
+det(title-14, this-13)
+dobj(bringing-12, title-14)
+prep(bringing-12, to-15)
+det(counter-17, the-16)
+pobj(to-15, counter-17)
+punct(have-8, .-18)
+

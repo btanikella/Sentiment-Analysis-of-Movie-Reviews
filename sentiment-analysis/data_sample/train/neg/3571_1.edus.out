@@ -1,0 +1,256 @@
+Sentence #1 (26 tokens):
+The super sexy B movie actress has another bit part as future "Goodfellas" star Ray Liotta's girlfriend in this box office bomb.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=super CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=sexy CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=JJ] [Text=B CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=actress CharacterOffsetBegin=27 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=VBZ] [Text=another CharacterOffsetBegin=39 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=part CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN] [Text=future CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=``] [Text=Goodfellas CharacterOffsetBegin=67 CharacterOffsetEnd=77 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=''] [Text=star CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=Ray CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=NNP] [Text=Liotta CharacterOffsetBegin=88 CharacterOffsetEnd=94 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=POS] [Text=girlfriend CharacterOffsetBegin=97 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=box CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=NN] [Text=office CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=bomb CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=.] 
+root(ROOT-0, has-7)
+det(actress-6, The-1)
+amod(actress-6, super-2)
+amod(actress-6, sexy-3)
+nn(actress-6, B-4)
+nn(actress-6, movie-5)
+nsubj(has-7, actress-6)
+det(part-10, another-8)
+nn(part-10, bit-9)
+dobj(has-7, part-10)
+prep(part-10, as-11)
+amod(girlfriend-20, future-12)
+punct(girlfriend-20, ``-13)
+nn(girlfriend-20, Goodfellas-14)
+punct(girlfriend-20, ''-15)
+nn(Liotta-18, star-16)
+nn(Liotta-18, Ray-17)
+poss(girlfriend-20, Liotta-18)
+possessive(Liotta-18, 's-19)
+pobj(as-11, girlfriend-20)
+prep(girlfriend-20, in-21)
+det(bomb-25, this-22)
+nn(bomb-25, box-23)
+nn(bomb-25, office-24)
+pobj(in-21, bomb-25)
+punct(has-7, .-26)
+
+Sentence #2 (19 tokens):
+She plays Marion, has only one line of dialog, well, one WORD of dialog actually.
+[Text=She CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text=plays CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=VBZ] [Text=Marion CharacterOffsetBegin=147 CharacterOffsetEnd=153 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=,] [Text=has CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=VBZ] [Text=only CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=CD] [Text=line CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=IN] [Text=dialog CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=,] [Text=well CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=,] [Text=one CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=CD] [Text=WORD CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=dialog CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=actually CharacterOffsetBegin=209 CharacterOffsetEnd=217 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=.] 
+root(ROOT-0, plays-2)
+nsubj(plays-2, She-1)
+dobj(plays-2, Marion-3)
+punct(plays-2, ,-4)
+conj(plays-2, has-5)
+quantmod(one-7, only-6)
+num(line-8, one-7)
+dobj(has-5, line-8)
+prep(line-8, of-9)
+pobj(of-9, dialog-10)
+punct(dialog-10, ,-11)
+advmod(dialog-10, well-12)
+punct(dialog-10, ,-13)
+num(WORD-15, one-14)
+appos(dialog-10, WORD-15)
+prep(WORD-15, of-16)
+pobj(of-16, dialog-17)
+advmod(WORD-15, actually-18)
+punct(plays-2, .-19)
+
+Sentence #3 (7 tokens):
+She shouts out "Joe!"
+[Text=She CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=PRP] [Text=shouts CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=RP] [Text=`` CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=``] [Text=Joe CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=.] [Text='' CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=''] 
+root(ROOT-0, shouts-2)
+nsubj(shouts-2, She-1)
+prt(shouts-2, out-3)
+punct(shouts-2, ``-4)
+dobj(shouts-2, Joe-5)
+punct(shouts-2, !-6)
+punct(shouts-2, ''-7)
+
+Sentence #4 (16 tokens):
+as Ray's character is violating poor Pia Zadora with a plastic garden hose sprinkler.
+[Text=as CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=IN] [Text=Ray CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=POS] [Text=character CharacterOffsetBegin=258 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=VBZ] [Text=violating CharacterOffsetBegin=271 CharacterOffsetEnd=280 PartOfSpeech=VBG] [Text=poor CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=JJ] [Text=Pia CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=NNP] [Text=Zadora CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=NNP] [Text=with CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=DT] [Text=plastic CharacterOffsetBegin=304 CharacterOffsetEnd=311 PartOfSpeech=JJ] [Text=garden CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=NN] [Text=hose CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=NN] [Text=sprinkler CharacterOffsetBegin=324 CharacterOffsetEnd=333 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=.] 
+root(ROOT-0, violating-6)
+prep(violating-6, as-1)
+poss(character-4, Ray-2)
+possessive(Ray-2, 's-3)
+pobj(as-1, character-4)
+aux(violating-6, is-5)
+amod(Zadora-9, poor-7)
+nn(Zadora-9, Pia-8)
+dobj(violating-6, Zadora-9)
+prep(violating-6, with-10)
+det(sprinkler-15, a-11)
+amod(sprinkler-15, plastic-12)
+nn(sprinkler-15, garden-13)
+nn(sprinkler-15, hose-14)
+pobj(with-10, sprinkler-15)
+punct(violating-6, .-16)
+
+Sentence #5 (14 tokens):
+This movie is so bad though it becomes funny, hilarious at times.
+[Text=This CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=JJ] [Text=though CharacterOffsetBegin=360 CharacterOffsetEnd=366 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=PRP] [Text=becomes CharacterOffsetBegin=370 CharacterOffsetEnd=377 PartOfSpeech=VBZ] [Text=funny CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=,] [Text=hilarious CharacterOffsetBegin=385 CharacterOffsetEnd=394 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=IN] [Text=times CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=.] 
+root(ROOT-0, bad-5)
+det(movie-2, This-1)
+nsubj(bad-5, movie-2)
+cop(bad-5, is-3)
+advmod(bad-5, so-4)
+mark(funny-9, though-6)
+nsubj(funny-9, it-7)
+cop(funny-9, becomes-8)
+advcl(bad-5, funny-9)
+punct(funny-9, ,-10)
+dep(funny-9, hilarious-11)
+prep(hilarious-11, at-12)
+pobj(at-12, times-13)
+punct(bad-5, .-14)
+
+Sentence #6 (11 tokens):
+The guys at Mystery Science Theater 3000 would love this!
+[Text=The CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=DT] [Text=guys CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=IN] [Text=Mystery CharacterOffsetBegin=421 CharacterOffsetEnd=428 PartOfSpeech=NNP] [Text=Science CharacterOffsetBegin=429 CharacterOffsetEnd=436 PartOfSpeech=NNP] [Text=Theater CharacterOffsetBegin=437 CharacterOffsetEnd=444 PartOfSpeech=NNP] [Text=3000 CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=CD] [Text=would CharacterOffsetBegin=450 CharacterOffsetEnd=455 PartOfSpeech=MD] [Text=love CharacterOffsetBegin=456 CharacterOffsetEnd=460 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=DT] [Text=! CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=.] 
+root(ROOT-0, love-9)
+det(guys-2, The-1)
+nsubj(love-9, guys-2)
+prep(guys-2, at-3)
+nn(Theater-6, Mystery-4)
+nn(Theater-6, Science-5)
+pobj(at-3, Theater-6)
+num(Theater-6, 3000-7)
+aux(love-9, would-8)
+dobj(love-9, this-10)
+punct(love-9, !-11)
+
+Sentence #7 (36 tokens):
+Check out the hysterical scene at the end where Pia has a nervous breakdown and all the cheesy editing and effects they do to try and show how badly Pia's character is freaking out.
+[Text=Check CharacterOffsetBegin=471 CharacterOffsetEnd=476 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=DT] [Text=hysterical CharacterOffsetBegin=485 CharacterOffsetEnd=495 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=496 CharacterOffsetEnd=501 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=513 CharacterOffsetEnd=518 PartOfSpeech=WRB] [Text=Pia CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=523 CharacterOffsetEnd=526 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=527 CharacterOffsetEnd=528 PartOfSpeech=DT] [Text=nervous CharacterOffsetBegin=529 CharacterOffsetEnd=536 PartOfSpeech=JJ] [Text=breakdown CharacterOffsetBegin=537 CharacterOffsetEnd=546 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=CC] [Text=all CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT] [Text=cheesy CharacterOffsetBegin=559 CharacterOffsetEnd=565 PartOfSpeech=JJ] [Text=editing CharacterOffsetBegin=566 CharacterOffsetEnd=573 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=CC] [Text=effects CharacterOffsetBegin=578 CharacterOffsetEnd=585 PartOfSpeech=NNS] [Text=they CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=591 CharacterOffsetEnd=593 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=TO] [Text=try CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=601 CharacterOffsetEnd=604 PartOfSpeech=CC] [Text=show CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=VB] [Text=how CharacterOffsetBegin=610 CharacterOffsetEnd=613 PartOfSpeech=WRB] [Text=badly CharacterOffsetBegin=614 CharacterOffsetEnd=619 PartOfSpeech=RB] [Text=Pia CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=POS] [Text=character CharacterOffsetBegin=626 CharacterOffsetEnd=635 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=VBZ] [Text=freaking CharacterOffsetBegin=639 CharacterOffsetEnd=647 PartOfSpeech=VBG] [Text=out CharacterOffsetBegin=648 CharacterOffsetEnd=651 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=651 CharacterOffsetEnd=652 PartOfSpeech=.] 
+root(ROOT-0, Check-1)
+prt(Check-1, out-2)
+det(scene-5, the-3)
+amod(scene-5, hysterical-4)
+dobj(Check-1, scene-5)
+prep(Check-1, at-6)
+det(end-8, the-7)
+pobj(at-6, end-8)
+advmod(has-11, where-9)
+nsubj(has-11, Pia-10)
+rcmod(end-8, has-11)
+det(breakdown-14, a-12)
+amod(breakdown-14, nervous-13)
+dobj(has-11, breakdown-14)
+cc(has-11, and-15)
+predet(editing-19, all-16)
+det(editing-19, the-17)
+amod(editing-19, cheesy-18)
+conj(has-11, editing-19)
+cc(editing-19, and-20)
+conj(editing-19, effects-21)
+nsubj(do-23, they-22)
+rcmod(editing-19, do-23)
+aux(try-25, to-24)
+xcomp(do-23, try-25)
+cc(try-25, and-26)
+conj(try-25, show-27)
+advmod(badly-29, how-28)
+advmod(freaking-34, badly-29)
+poss(character-32, Pia-30)
+possessive(Pia-30, 's-31)
+nsubj(freaking-34, character-32)
+aux(freaking-34, is-33)
+ccomp(show-27, freaking-34)
+prt(freaking-34, out-35)
+punct(Check-1, .-36)
+
+Sentence #8 (9 tokens):
+Pia plays an aspiring Hollywood screenwriter in this.
+[Text=Pia CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=NNP] [Text=plays CharacterOffsetBegin=661 CharacterOffsetEnd=666 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=DT] [Text=aspiring CharacterOffsetBegin=670 CharacterOffsetEnd=678 PartOfSpeech=JJ] [Text=Hollywood CharacterOffsetBegin=679 CharacterOffsetEnd=688 PartOfSpeech=NNP] [Text=screenwriter CharacterOffsetBegin=689 CharacterOffsetEnd=701 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=702 CharacterOffsetEnd=704 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=705 CharacterOffsetEnd=709 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=.] 
+root(ROOT-0, plays-2)
+nsubj(plays-2, Pia-1)
+det(screenwriter-6, an-3)
+amod(screenwriter-6, aspiring-4)
+nn(screenwriter-6, Hollywood-5)
+dobj(plays-2, screenwriter-6)
+prep(plays-2, in-7)
+pobj(in-7, this-8)
+punct(plays-2, .-9)
+
+Sentence #9 (6 tokens):
+Pia Zadora as a screenwriter?
+[Text=Pia CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=NNP] [Text=Zadora CharacterOffsetBegin=719 CharacterOffsetEnd=725 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=726 CharacterOffsetEnd=728 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=DT] [Text=screenwriter CharacterOffsetBegin=731 CharacterOffsetEnd=743 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=743 CharacterOffsetEnd=744 PartOfSpeech=.] 
+root(ROOT-0, Zadora-2)
+nn(Zadora-2, Pia-1)
+prep(Zadora-2, as-3)
+det(screenwriter-5, a-4)
+pobj(as-3, screenwriter-5)
+punct(Zadora-2, ?-6)
+
+Sentence #10 (4 tokens):
+Yeah, right.
+[Text=Yeah CharacterOffsetBegin=749 CharacterOffsetEnd=753 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=753 CharacterOffsetEnd=754 PartOfSpeech=,] [Text=right CharacterOffsetBegin=755 CharacterOffsetEnd=760 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=760 CharacterOffsetEnd=761 PartOfSpeech=.] 
+root(ROOT-0, Yeah-1)
+punct(Yeah-1, ,-2)
+dep(Yeah-1, right-3)
+punct(Yeah-1, .-4)
+
+Sentence #11 (9 tokens):
+Pia can barely talk, let alone write!
+[Text=Pia CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=NNP] [Text=can CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=MD] [Text=barely CharacterOffsetBegin=774 CharacterOffsetEnd=780 PartOfSpeech=RB] [Text=talk CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=785 CharacterOffsetEnd=786 PartOfSpeech=,] [Text=let CharacterOffsetBegin=787 CharacterOffsetEnd=790 PartOfSpeech=VB] [Text=alone CharacterOffsetBegin=791 CharacterOffsetEnd=796 PartOfSpeech=RB] [Text=write CharacterOffsetBegin=797 CharacterOffsetEnd=802 PartOfSpeech=VB] [Text=! CharacterOffsetBegin=802 CharacterOffsetEnd=803 PartOfSpeech=.] 
+root(ROOT-0, talk-4)
+nsubj(talk-4, Pia-1)
+aux(talk-4, can-2)
+advmod(talk-4, barely-3)
+punct(talk-4, ,-5)
+ccomp(talk-4, let-6)
+advmod(let-6, alone-7)
+dep(let-6, write-8)
+punct(talk-4, !-9)
+
+Sentence #12 (11 tokens):
+Pia is utterly and absolutely miscast in this dumb role.
+[Text=Pia CharacterOffsetBegin=808 CharacterOffsetEnd=811 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=812 CharacterOffsetEnd=814 PartOfSpeech=VBZ] [Text=utterly CharacterOffsetBegin=815 CharacterOffsetEnd=822 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=CC] [Text=absolutely CharacterOffsetBegin=827 CharacterOffsetEnd=837 PartOfSpeech=RB] [Text=miscast CharacterOffsetBegin=838 CharacterOffsetEnd=845 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=846 CharacterOffsetEnd=848 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=849 CharacterOffsetEnd=853 PartOfSpeech=DT] [Text=dumb CharacterOffsetBegin=854 CharacterOffsetEnd=858 PartOfSpeech=JJ] [Text=role CharacterOffsetBegin=859 CharacterOffsetEnd=863 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=863 CharacterOffsetEnd=864 PartOfSpeech=.] 
+root(ROOT-0, utterly-3)
+nsubj(utterly-3, Pia-1)
+cop(utterly-3, is-2)
+cc(utterly-3, and-4)
+advmod(miscast-6, absolutely-5)
+conj(utterly-3, miscast-6)
+prep(utterly-3, in-7)
+det(role-10, this-8)
+amod(role-10, dumb-9)
+pobj(in-7, role-10)
+punct(utterly-3, .-11)
+
+Sentence #13 (4 tokens):
+But who cares?
+[Text=But CharacterOffsetBegin=869 CharacterOffsetEnd=872 PartOfSpeech=CC] [Text=who CharacterOffsetBegin=873 CharacterOffsetEnd=876 PartOfSpeech=WP] [Text=cares CharacterOffsetBegin=877 CharacterOffsetEnd=882 PartOfSpeech=VBZ] [Text=? CharacterOffsetBegin=882 CharacterOffsetEnd=883 PartOfSpeech=.] 
+root(ROOT-0, cares-3)
+cc(cares-3, But-1)
+nsubj(cares-3, who-2)
+punct(cares-3, ?-4)
+
+Sentence #14 (20 tokens):
+The real star is the hot and fresh Glory Annen in her bit part in this cat's opinion!
+[Text=The CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=JJ] [Text=star CharacterOffsetBegin=897 CharacterOffsetEnd=901 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=902 CharacterOffsetEnd=904 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=905 CharacterOffsetEnd=908 PartOfSpeech=DT] [Text=hot CharacterOffsetBegin=909 CharacterOffsetEnd=912 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=913 CharacterOffsetEnd=916 PartOfSpeech=CC] [Text=fresh CharacterOffsetBegin=917 CharacterOffsetEnd=922 PartOfSpeech=JJ] [Text=Glory CharacterOffsetBegin=923 CharacterOffsetEnd=928 PartOfSpeech=NN] [Text=Annen CharacterOffsetBegin=929 CharacterOffsetEnd=934 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=935 CharacterOffsetEnd=937 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=938 CharacterOffsetEnd=941 PartOfSpeech=PRP$] [Text=bit CharacterOffsetBegin=942 CharacterOffsetEnd=945 PartOfSpeech=NN] [Text=part CharacterOffsetBegin=946 CharacterOffsetEnd=950 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=951 CharacterOffsetEnd=953 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=954 CharacterOffsetEnd=958 PartOfSpeech=DT] [Text=cat CharacterOffsetBegin=959 CharacterOffsetEnd=962 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=POS] [Text=opinion CharacterOffsetBegin=965 CharacterOffsetEnd=972 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=972 CharacterOffsetEnd=973 PartOfSpeech=.] 
+root(ROOT-0, Annen-10)
+det(star-3, The-1)
+amod(star-3, real-2)
+nsubj(Annen-10, star-3)
+cop(Annen-10, is-4)
+det(Annen-10, the-5)
+amod(Annen-10, hot-6)
+cc(hot-6, and-7)
+conj(hot-6, fresh-8)
+nn(Annen-10, Glory-9)
+prep(Annen-10, in-11)
+poss(part-14, her-12)
+nn(part-14, bit-13)
+pobj(in-11, part-14)
+prep(Annen-10, in-15)
+det(cat-17, this-16)
+poss(opinion-19, cat-17)
+possessive(cat-17, 's-18)
+pobj(in-15, opinion-19)
+punct(Annen-10, !-20)
+
+Sentence #15 (4 tokens):
+Rock on Glory!
+[Text=Rock CharacterOffsetBegin=978 CharacterOffsetEnd=982 PartOfSpeech=NNP] [Text=on CharacterOffsetBegin=983 CharacterOffsetEnd=985 PartOfSpeech=IN] [Text=Glory CharacterOffsetBegin=986 CharacterOffsetEnd=991 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=991 CharacterOffsetEnd=992 PartOfSpeech=.] 
+root(ROOT-0, Rock-1)
+prep(Rock-1, on-2)
+pobj(on-2, Glory-3)
+punct(Rock-1, !-4)
+

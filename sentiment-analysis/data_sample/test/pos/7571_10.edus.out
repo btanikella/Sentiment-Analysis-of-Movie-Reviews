@@ -1,0 +1,196 @@
+Sentence #1 (10 tokens):
+I love Sarah Plain and Tall:Winters End.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=Sarah CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=Plain CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=CC] [Text=Tall CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=:] [Text=Winters CharacterOffsetBegin=32 CharacterOffsetEnd=39 PartOfSpeech=NNP] [Text=End CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+nn(Plain-4, Sarah-3)
+dobj(love-2, Plain-4)
+cc(Plain-4, and-5)
+conj(Plain-4, Tall-6)
+punct(love-2, :-7)
+nn(End-9, Winters-8)
+parataxis(love-2, End-9)
+punct(love-2, .-10)
+
+Sentence #2 (6 tokens):
+Its such a good movie.
+[Text=Its CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=PRP$] [Text=such CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=PDT] [Text=a CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=65 CharacterOffsetEnd=70 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+poss(movie-5, Its-1)
+predet(movie-5, such-2)
+det(movie-5, a-3)
+amod(movie-5, good-4)
+punct(movie-5, .-6)
+
+Sentence #3 (29 tokens):
+It tells of the hardships of living on a farm.I live on a farm so I know what its like to have hardships.I love the setting in Kansas.
+[Text=It CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=PRP] [Text=tells CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=VBZ] [Text=of CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=DT] [Text=hardships CharacterOffsetBegin=92 CharacterOffsetEnd=101 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=IN] [Text=living CharacterOffsetBegin=105 CharacterOffsetEnd=111 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=DT] [Text=farm.I CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=live CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=farm CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=VBP] [Text=what CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=WP] [Text=its CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=PRP$] [Text=like CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=VB] [Text=hardships.I CharacterOffsetBegin=171 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=love CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=setting CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=IN] [Text=Kansas CharacterOffsetBegin=203 CharacterOffsetEnd=209 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, tells-2)
+nsubj(tells-2, It-1)
+prep(tells-2, of-3)
+det(hardships-5, the-4)
+pobj(of-3, hardships-5)
+prep(hardships-5, of-6)
+pcomp(of-6, living-7)
+prep(living-7, on-8)
+det(farm.I-10, a-9)
+pobj(on-8, farm.I-10)
+xcomp(tells-2, live-11)
+prep(live-11, on-12)
+det(farm-14, a-13)
+pobj(on-12, farm-14)
+mark(know-17, so-15)
+nsubj(know-17, I-16)
+advcl(live-11, know-17)
+dep(know-17, what-18)
+dep(what-18, its-19)
+prep(its-19, like-20)
+aux(have-22, to-21)
+pcomp(like-20, have-22)
+nsubj(love-24, hardships.I-23)
+ccomp(have-22, love-24)
+det(setting-26, the-25)
+dobj(love-24, setting-26)
+prep(setting-26, in-27)
+pobj(in-27, Kansas-28)
+punct(tells-2, .-29)
+
+Sentence #4 (6 tokens):
+Its such a beautiful place.
+[Text=Its CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=PRP$] [Text=such CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=PDT] [Text=a CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=DT] [Text=beautiful CharacterOffsetBegin=226 CharacterOffsetEnd=235 PartOfSpeech=JJ] [Text=place CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=.] 
+root(ROOT-0, place-5)
+poss(place-5, Its-1)
+predet(place-5, such-2)
+det(place-5, a-3)
+amod(place-5, beautiful-4)
+punct(place-5, .-6)
+
+Sentence #5 (8 tokens):
+My favorite country star is from Kansas.
+[Text=My CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=250 CharacterOffsetEnd=258 PartOfSpeech=JJ] [Text=country CharacterOffsetBegin=259 CharacterOffsetEnd=266 PartOfSpeech=NN] [Text=star CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=VBZ] [Text=from CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=IN] [Text=Kansas CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, is-5)
+poss(star-4, My-1)
+amod(star-4, favorite-2)
+nn(star-4, country-3)
+nsubj(is-5, star-4)
+prep(is-5, from-6)
+pobj(from-6, Kansas-7)
+punct(is-5, .-8)
+
+Sentence #6 (11 tokens):
+I love the country in Kansas its just so beautiful.
+[Text=I CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=DT] [Text=country CharacterOffsetBegin=303 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=IN] [Text=Kansas CharacterOffsetBegin=314 CharacterOffsetEnd=320 PartOfSpeech=NNP] [Text=its CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=PRP$] [Text=just CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=RB] [Text=so CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=RB] [Text=beautiful CharacterOffsetBegin=333 CharacterOffsetEnd=342 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+det(country-4, the-3)
+dobj(love-2, country-4)
+prep(love-2, in-5)
+pobj(in-5, Kansas-6)
+poss(beautiful-10, its-7)
+advmod(beautiful-10, just-8)
+advmod(beautiful-10, so-9)
+dep(love-2, beautiful-10)
+punct(love-2, .-11)
+
+Sentence #7 (20 tokens):
+I would love to live in Kansas.Sarah Plain and Tall:Winters End I think is a love story.
+[Text=I CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=350 CharacterOffsetEnd=355 PartOfSpeech=MD] [Text=love CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=TO] [Text=live CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=IN] [Text=Kansas.Sarah CharacterOffsetBegin=372 CharacterOffsetEnd=384 PartOfSpeech=NNP] [Text=Plain CharacterOffsetBegin=385 CharacterOffsetEnd=390 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=CC] [Text=Tall CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=:] [Text=Winters CharacterOffsetBegin=400 CharacterOffsetEnd=407 PartOfSpeech=NNP] [Text=End CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=NNP] [Text=I CharacterOffsetBegin=412 CharacterOffsetEnd=413 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=414 CharacterOffsetEnd=419 PartOfSpeech=VBP] [Text=is CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=DT] [Text=love CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=story CharacterOffsetBegin=430 CharacterOffsetEnd=435 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=435 CharacterOffsetEnd=436 PartOfSpeech=.] 
+root(ROOT-0, love-3)
+nsubj(love-3, I-1)
+aux(love-3, would-2)
+aux(live-5, to-4)
+xcomp(love-3, live-5)
+prep(live-5, in-6)
+nn(Plain-8, Kansas.Sarah-7)
+pobj(in-6, Plain-8)
+cc(Plain-8, and-9)
+conj(Plain-8, Tall-10)
+punct(love-3, :-11)
+nn(End-13, Winters-12)
+nsubj(story-19, End-13)
+nsubj(think-15, I-14)
+rcmod(End-13, think-15)
+cop(story-19, is-16)
+det(story-19, a-17)
+nn(story-19, love-18)
+parataxis(love-3, story-19)
+punct(love-3, .-20)
+
+Sentence #8 (11 tokens):
+I love love stories they are so fun to watch.
+[Text=I CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=VBP] [Text=love CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=NN] [Text=stories CharacterOffsetBegin=453 CharacterOffsetEnd=460 PartOfSpeech=NNS] [Text=they CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=VBP] [Text=so CharacterOffsetBegin=470 CharacterOffsetEnd=472 PartOfSpeech=RB] [Text=fun CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=480 CharacterOffsetEnd=485 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+nn(stories-4, love-3)
+dobj(love-2, stories-4)
+nsubj(fun-8, they-5)
+cop(fun-8, are-6)
+advmod(fun-8, so-7)
+rcmod(stories-4, fun-8)
+aux(watch-10, to-9)
+xcomp(fun-8, watch-10)
+punct(love-2, .-11)
+
+Sentence #9 (16 tokens):
+I like to watch them because it is nice to watch people fall in love.
+[Text=I CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=498 CharacterOffsetEnd=500 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=501 CharacterOffsetEnd=506 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=PRP] [Text=because CharacterOffsetBegin=512 CharacterOffsetEnd=519 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=VBZ] [Text=nice CharacterOffsetBegin=526 CharacterOffsetEnd=530 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=531 CharacterOffsetEnd=533 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=534 CharacterOffsetEnd=539 PartOfSpeech=VB] [Text=people CharacterOffsetBegin=540 CharacterOffsetEnd=546 PartOfSpeech=NNS] [Text=fall CharacterOffsetBegin=547 CharacterOffsetEnd=551 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=552 CharacterOffsetEnd=554 PartOfSpeech=IN] [Text=love CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=.] 
+root(ROOT-0, like-2)
+nsubj(like-2, I-1)
+aux(watch-4, to-3)
+xcomp(like-2, watch-4)
+dobj(watch-4, them-5)
+mark(nice-9, because-6)
+nsubj(nice-9, it-7)
+cop(nice-9, is-8)
+advcl(like-2, nice-9)
+aux(watch-11, to-10)
+xcomp(nice-9, watch-11)
+nsubj(fall-13, people-12)
+ccomp(watch-11, fall-13)
+prep(fall-13, in-14)
+pobj(in-14, love-15)
+punct(like-2, .-16)
+
+Sentence #10 (12 tokens):
+Falling in love is not as hard as most people think.
+[Text=Falling CharacterOffsetBegin=565 CharacterOffsetEnd=572 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=IN] [Text=love CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=RB] [Text=hard CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=IN] [Text=most CharacterOffsetBegin=599 CharacterOffsetEnd=603 PartOfSpeech=JJS] [Text=people CharacterOffsetBegin=604 CharacterOffsetEnd=610 PartOfSpeech=NNS] [Text=think CharacterOffsetBegin=611 CharacterOffsetEnd=616 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=616 CharacterOffsetEnd=617 PartOfSpeech=.] 
+root(ROOT-0, hard-7)
+csubj(hard-7, Falling-1)
+prep(Falling-1, in-2)
+pobj(in-2, love-3)
+cop(hard-7, is-4)
+neg(hard-7, not-5)
+advmod(hard-7, as-6)
+mark(think-11, as-8)
+amod(people-10, most-9)
+nsubj(think-11, people-10)
+ccomp(hard-7, think-11)
+punct(hard-7, .-12)
+
+Sentence #11 (7 tokens):
+I've fallen in love once.
+[Text=I CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=VBP] [Text=fallen CharacterOffsetBegin=627 CharacterOffsetEnd=633 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=IN] [Text=love CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=NN] [Text=once CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=.] 
+root(ROOT-0, fallen-3)
+nsubj(fallen-3, I-1)
+aux(fallen-3, 've-2)
+prep(fallen-3, in-4)
+pobj(in-4, love-5)
+advmod(fallen-3, once-6)
+punct(fallen-3, .-7)
+
+Sentence #12 (12 tokens):
+Sarah Plain and Tall: Winters End is my favorite love story
+[Text=Sarah CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=NNP] [Text=Plain CharacterOffsetBegin=658 CharacterOffsetEnd=663 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=CC] [Text=Tall CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=:] [Text=Winters CharacterOffsetBegin=674 CharacterOffsetEnd=681 PartOfSpeech=NNP] [Text=End CharacterOffsetBegin=682 CharacterOffsetEnd=685 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=686 CharacterOffsetEnd=688 PartOfSpeech=VBZ] [Text=my CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=692 CharacterOffsetEnd=700 PartOfSpeech=JJ] [Text=love CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=NN] [Text=story CharacterOffsetBegin=706 CharacterOffsetEnd=711 PartOfSpeech=NN] 
+root(ROOT-0, Plain-2)
+nn(Plain-2, Sarah-1)
+cc(Plain-2, and-3)
+conj(Plain-2, Tall-4)
+punct(Plain-2, :-5)
+nn(End-7, Winters-6)
+nsubj(story-12, End-7)
+cop(story-12, is-8)
+poss(story-12, my-9)
+amod(story-12, favorite-10)
+nn(story-12, love-11)
+dep(Plain-2, story-12)
+

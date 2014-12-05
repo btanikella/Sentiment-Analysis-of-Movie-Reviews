@@ -1,0 +1,72 @@
+Sentence #1 (5 tokens):
+What an amazing film.
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WDT] [Text=an CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=DT] [Text=amazing CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=.] 
+root(ROOT-0, film-4)
+dep(film-4, What-1)
+det(film-4, an-2)
+amod(film-4, amazing-3)
+punct(film-4, .-5)
+
+Sentence #2 (16 tokens):
+With very little dialogue, the whole story is told with glances and body language.
+[Text=With CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=IN] [Text=very CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=RB] [Text=little CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=JJ] [Text=dialogue CharacterOffsetBegin=47 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=,] [Text=the CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=VBZ] [Text=told CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=glances CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=CC] [Text=body CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=NN] [Text=language CharacterOffsetBegin=103 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.] 
+root(ROOT-0, told-10)
+prep(told-10, With-1)
+advmod(little-3, very-2)
+amod(dialogue-4, little-3)
+pobj(With-1, dialogue-4)
+punct(told-10, ,-5)
+det(story-8, the-6)
+amod(story-8, whole-7)
+nsubjpass(told-10, story-8)
+auxpass(told-10, is-9)
+prep(told-10, with-11)
+pobj(with-11, glances-12)
+cc(glances-12, and-13)
+nn(language-15, body-14)
+conj(glances-12, language-15)
+punct(told-10, .-16)
+
+Sentence #3 (5 tokens):
+Very involving almost voyeuristic.
+[Text=Very CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=RB] [Text=involving CharacterOffsetBegin=122 CharacterOffsetEnd=131 PartOfSpeech=VBG] [Text=almost CharacterOffsetBegin=132 CharacterOffsetEnd=138 PartOfSpeech=RB] [Text=voyeuristic CharacterOffsetBegin=139 CharacterOffsetEnd=150 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.] 
+root(ROOT-0, involving-2)
+advmod(involving-2, Very-1)
+advmod(voyeuristic-4, almost-3)
+dobj(involving-2, voyeuristic-4)
+punct(involving-2, .-5)
+
+Sentence #4 (22 tokens):
+My only gripe is that it has not been released on video in Australia and is therefore only available on TV.
+[Text=My CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=PRP$] [Text=only CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=JJ] [Text=gripe CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=been CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=VBN] [Text=released CharacterOffsetBegin=194 CharacterOffsetEnd=202 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=video CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=IN] [Text=Australia CharacterOffsetBegin=215 CharacterOffsetEnd=224 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=VBZ] [Text=therefore CharacterOffsetBegin=232 CharacterOffsetEnd=241 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=RB] [Text=available CharacterOffsetBegin=247 CharacterOffsetEnd=256 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=.] 
+root(ROOT-0, is-4)
+poss(gripe-3, My-1)
+amod(gripe-3, only-2)
+nsubj(is-4, gripe-3)
+mark(released-10, that-5)
+nsubj(released-10, it-6)
+aux(released-10, has-7)
+neg(released-10, not-8)
+auxpass(released-10, been-9)
+ccomp(is-4, released-10)
+prep(released-10, on-11)
+pobj(on-11, video-12)
+prep(video-12, in-13)
+pobj(in-13, Australia-14)
+cc(released-10, and-15)
+cop(available-19, is-16)
+advmod(available-19, therefore-17)
+advmod(available-19, only-18)
+conj(released-10, available-19)
+prep(available-19, on-20)
+pobj(on-20, TV-21)
+punct(is-4, .-22)
+
+Sentence #5 (4 tokens):
+What a waste.
+[Text=What CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=DT] [Text=waste CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=.] 
+root(ROOT-0, waste-3)
+dep(waste-3, What-1)
+det(waste-3, a-2)
+punct(waste-3, .-4)
+

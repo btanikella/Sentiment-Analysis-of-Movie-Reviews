@@ -1,0 +1,56 @@
+Sentence #1 (8 tokens):
+The movie was a big Car Commercial.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=DT] [Text=big CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=Car CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=Commercial CharacterOffsetBegin=28 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.] 
+root(ROOT-0, Commercial-7)
+det(movie-2, The-1)
+nsubj(Commercial-7, movie-2)
+cop(Commercial-7, was-3)
+det(Commercial-7, a-4)
+amod(Commercial-7, big-5)
+nn(Commercial-7, Car-6)
+punct(Commercial-7, .-8)
+
+Sentence #2 (7 tokens):
+:-)But who cares?
+[Text=: CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=:] [Text=- CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=:] [Text=-RRB- CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=-RRB-] [Text=But CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=CC] [Text=who CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=WP] [Text=cares CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=VBZ] [Text=? CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, cares-6)
+punct(But-4, :-1)
+punct(But-4, --2)
+punct(But-4, -RRB--3)
+cc(cares-6, But-4)
+nsubj(cares-6, who-5)
+punct(cares-6, ?-7)
+
+Sentence #3 (22 tokens):
+I went to the theater to view the Shelby Cobra, Angelina & Cage.So I guess it was a good movie.
+[Text=I CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=went CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=theater CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=TO] [Text=view CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=DT] [Text=Shelby CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=NNP] [Text=Cobra CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=,] [Text=Angelina CharacterOffsetBegin=114 CharacterOffsetEnd=122 PartOfSpeech=NNP] [Text=& CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=CC] [Text=Cage.So CharacterOffsetBegin=125 CharacterOffsetEnd=132 PartOfSpeech=NNP] [Text=I CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=.] 
+root(ROOT-0, went-2)
+nsubj(went-2, I-1)
+prep(went-2, to-3)
+det(theater-5, the-4)
+pobj(to-3, theater-5)
+aux(view-7, to-6)
+xcomp(went-2, view-7)
+det(Cobra-10, the-8)
+nn(Cobra-10, Shelby-9)
+dobj(view-7, Cobra-10)
+punct(Cobra-10, ,-11)
+conj(Cobra-10, Angelina-12)
+cc(Cobra-10, &-13)
+conj(Cobra-10, Cage.So-14)
+nsubj(guess-16, I-15)
+rcmod(Cobra-10, guess-16)
+nsubj(movie-21, it-17)
+cop(movie-21, was-18)
+det(movie-21, a-19)
+amod(movie-21, good-20)
+ccomp(guess-16, movie-21)
+punct(went-2, .-22)
+
+Sentence #4 (3 tokens):
+*bg*
+[Text=* CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=SYM] [Text=bg CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=NN] [Text=* CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=SYM] 
+root(ROOT-0, bg-2)
+dep(bg-2, *-1)
+dep(bg-2, *-3)
+

@@ -1,0 +1,52 @@
+Sentence #1 (9 tokens):
+I thought this was a quiet good movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=DT] [Text=quiet CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=good CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+nsubj(movie-8, this-3)
+cop(movie-8, was-4)
+det(movie-8, a-5)
+amod(movie-8, quiet-6)
+amod(movie-8, good-7)
+ccomp(thought-2, movie-8)
+punct(thought-2, .-9)
+
+Sentence #2 (7 tokens):
+It was fun to watch it.
+[Text=It CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=VBD] [Text=fun CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=.] 
+root(ROOT-0, fun-3)
+nsubj(fun-3, It-1)
+cop(fun-3, was-2)
+aux(watch-5, to-4)
+xcomp(fun-3, watch-5)
+dobj(watch-5, it-6)
+punct(fun-3, .-7)
+
+Sentence #3 (16 tokens):
+What I liked best where the 'Outtakes' at the end of the movie.
+[Text=What CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=PRP] [Text=liked CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=VBD] [Text=best CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=JJS] [Text=where CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=``] [Text=Outtakes CharacterOffsetBegin=104 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=''] [Text=at CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=.] 
+root(ROOT-0, liked-3)
+dobj(liked-3, What-1)
+nsubj(liked-3, I-2)
+advmod(liked-3, best-4)
+dep(best-4, where-5)
+det(Outtakes-8, the-6)
+punct(Outtakes-8, `-7)
+dep(where-5, Outtakes-8)
+punct(Outtakes-8, '-9)
+prep(Outtakes-8, at-10)
+det(end-12, the-11)
+pobj(at-10, end-12)
+prep(end-12, of-13)
+det(movie-15, the-14)
+pobj(of-13, movie-15)
+punct(liked-3, .-16)
+
+Sentence #4 (4 tokens):
+They were GREAT.
+[Text=They CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=VBD] [Text=GREAT CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=.] 
+root(ROOT-0, GREAT-3)
+nsubj(GREAT-3, They-1)
+cop(GREAT-3, were-2)
+punct(GREAT-3, .-4)
+

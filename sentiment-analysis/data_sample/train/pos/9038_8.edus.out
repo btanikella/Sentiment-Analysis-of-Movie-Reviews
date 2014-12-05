@@ -1,0 +1,177 @@
+Sentence #1 (5 tokens):
+I loved October Sky.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=October CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=Sky CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=.] 
+root(ROOT-0, loved-2)
+nsubj(loved-2, I-1)
+nn(Sky-4, October-3)
+dobj(loved-2, Sky-4)
+punct(loved-2, .-5)
+
+Sentence #2 (11 tokens):
+The thing I loved most had to be the music.
+[Text=The CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=VBD] [Text=most CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=RBS] [Text=had CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=.] 
+root(ROOT-0, thing-2)
+det(thing-2, The-1)
+nsubj(loved-4, I-3)
+rcmod(thing-2, loved-4)
+advmod(had-6, most-5)
+ccomp(loved-4, had-6)
+aux(music-10, to-7)
+cop(music-10, be-8)
+det(music-10, the-9)
+xcomp(had-6, music-10)
+punct(thing-2, .-11)
+
+Sentence #3 (20 tokens):
+It worked two ways: in the first hour of the film, it gives the viewer a time-frame.
+[Text=It CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=PRP] [Text=worked CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=VBD] [Text=two CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=CD] [Text=ways CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=NNS] [Text=: CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=:] [Text=in CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=JJ] [Text=hour CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=,] [Text=it CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=PRP] [Text=gives CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=DT] [Text=viewer CharacterOffsetBegin=141 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=DT] [Text=time-frame CharacterOffsetBegin=150 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=.] 
+root(ROOT-0, worked-2)
+nsubj(worked-2, It-1)
+num(ways-4, two-3)
+dobj(worked-2, ways-4)
+punct(worked-2, :-5)
+prep(gives-15, in-6)
+det(hour-9, the-7)
+amod(hour-9, first-8)
+pobj(in-6, hour-9)
+prep(hour-9, of-10)
+det(film-12, the-11)
+pobj(of-10, film-12)
+punct(gives-15, ,-13)
+nsubj(gives-15, it-14)
+parataxis(worked-2, gives-15)
+det(viewer-17, the-16)
+iobj(gives-15, viewer-17)
+det(time-frame-19, a-18)
+dobj(gives-15, time-frame-19)
+punct(worked-2, .-20)
+
+Sentence #4 (11 tokens):
+This is done by playing songs from the late Fifties.
+[Text=This CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=VBZ] [Text=done CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=IN] [Text=playing CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=VBG] [Text=songs CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=late CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=Fifties CharacterOffsetBegin=210 CharacterOffsetEnd=217 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=.] 
+root(ROOT-0, done-3)
+nsubjpass(done-3, This-1)
+auxpass(done-3, is-2)
+prep(done-3, by-4)
+pcomp(by-4, playing-5)
+dobj(playing-5, songs-6)
+prep(playing-5, from-7)
+det(Fifties-10, the-8)
+amod(Fifties-10, late-9)
+pobj(from-7, Fifties-10)
+punct(done-3, .-11)
+
+Sentence #5 (11 tokens):
+In the second hour, an instrumental score takes over.
+[Text=In CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=DT] [Text=second CharacterOffsetBegin=230 CharacterOffsetEnd=236 PartOfSpeech=JJ] [Text=hour CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=,] [Text=an CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=instrumental CharacterOffsetBegin=246 CharacterOffsetEnd=258 PartOfSpeech=JJ] [Text=score CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=takes CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=VBZ] [Text=over CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=275 CharacterOffsetEnd=276 PartOfSpeech=.] 
+root(ROOT-0, takes-9)
+prep(takes-9, In-1)
+det(hour-4, the-2)
+amod(hour-4, second-3)
+pobj(In-1, hour-4)
+punct(takes-9, ,-5)
+det(score-8, an-6)
+amod(score-8, instrumental-7)
+nsubj(takes-9, score-8)
+prt(takes-9, over-10)
+punct(takes-9, .-11)
+
+Sentence #6 (24 tokens):
+The music now fits the mood of the film perfectly.I did not only enjoy the music, I also quite enjoyed the cast.
+[Text=The CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=now CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=RB] [Text=fits CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=DT] [Text=mood CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=NN] [Text=perfectly.I CharacterOffsetBegin=321 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=RB] [Text=enjoy CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=,] [Text=I CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=PRP] [Text=also CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=quite CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=RB] [Text=enjoyed CharacterOffsetBegin=376 CharacterOffsetEnd=383 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=.] 
+root(ROOT-0, fits-4)
+det(music-2, The-1)
+nsubj(fits-4, music-2)
+advmod(fits-4, now-3)
+det(mood-6, the-5)
+dobj(fits-4, mood-6)
+prep(mood-6, of-7)
+det(perfectly.I-10, the-8)
+nn(perfectly.I-10, film-9)
+pobj(of-7, perfectly.I-10)
+aux(enjoy-14, did-11)
+neg(enjoy-14, not-12)
+advmod(enjoy-14, only-13)
+xcomp(fits-4, enjoy-14)
+det(music-16, the-15)
+dobj(enjoy-14, music-16)
+punct(enjoy-14, ,-17)
+nsubj(enjoyed-21, I-18)
+advmod(enjoyed-21, also-19)
+advmod(enjoyed-21, quite-20)
+ccomp(enjoy-14, enjoyed-21)
+det(cast-23, the-22)
+dobj(enjoyed-21, cast-23)
+punct(fits-4, .-24)
+
+Sentence #7 (12 tokens):
+Jake Gyllenhaal as Homer Hickam was especially a surprise for me.
+[Text=Jake CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=NNP] [Text=Gyllenhaal CharacterOffsetBegin=403 CharacterOffsetEnd=413 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=IN] [Text=Homer CharacterOffsetBegin=417 CharacterOffsetEnd=422 PartOfSpeech=NNP] [Text=Hickam CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=VBD] [Text=especially CharacterOffsetBegin=434 CharacterOffsetEnd=444 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=445 CharacterOffsetEnd=446 PartOfSpeech=DT] [Text=surprise CharacterOffsetBegin=447 CharacterOffsetEnd=455 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=.] 
+root(ROOT-0, surprise-9)
+nn(Gyllenhaal-2, Jake-1)
+nsubj(surprise-9, Gyllenhaal-2)
+prep(Gyllenhaal-2, as-3)
+nn(Hickam-5, Homer-4)
+pobj(as-3, Hickam-5)
+cop(surprise-9, was-6)
+advmod(surprise-9, especially-7)
+det(surprise-9, a-8)
+prep(surprise-9, for-10)
+pobj(for-10, me-11)
+punct(surprise-9, .-12)
+
+Sentence #8 (22 tokens):
+He gave off a first-class performance, as did Chris Owen (Quentin) and Chris Cooper (John Hickam).
+[Text=He CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=PRP] [Text=gave CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=VBD] [Text=off CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=RP] [Text=a CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=DT] [Text=first-class CharacterOffsetBegin=482 CharacterOffsetEnd=493 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=494 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=,] [Text=as CharacterOffsetBegin=507 CharacterOffsetEnd=509 PartOfSpeech=IN] [Text=did CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=VBD] [Text=Chris CharacterOffsetBegin=514 CharacterOffsetEnd=519 PartOfSpeech=NNP] [Text=Owen CharacterOffsetBegin=520 CharacterOffsetEnd=524 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=525 CharacterOffsetEnd=526 PartOfSpeech=-LRB-] [Text=Quentin CharacterOffsetBegin=526 CharacterOffsetEnd=533 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=CC] [Text=Chris CharacterOffsetBegin=539 CharacterOffsetEnd=544 PartOfSpeech=NNP] [Text=Cooper CharacterOffsetBegin=545 CharacterOffsetEnd=551 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=552 CharacterOffsetEnd=553 PartOfSpeech=-LRB-] [Text=John CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=NNP] [Text=Hickam CharacterOffsetBegin=558 CharacterOffsetEnd=564 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=.] 
+root(ROOT-0, gave-2)
+nsubj(gave-2, He-1)
+prt(gave-2, off-3)
+det(performance-6, a-4)
+amod(performance-6, first-class-5)
+dobj(gave-2, performance-6)
+punct(gave-2, ,-7)
+mark(did-9, as-8)
+advcl(gave-2, did-9)
+dep(did-9, Chris-10)
+dep(Chris-10, Owen-11)
+punct(Quentin-13, -LRB--12)
+dep(Owen-11, Quentin-13)
+punct(Quentin-13, -RRB--14)
+cc(Owen-11, and-15)
+conj(Owen-11, Chris-16)
+dep(Chris-16, Cooper-17)
+punct(Hickam-20, -LRB--18)
+nn(Hickam-20, John-19)
+appos(Cooper-17, Hickam-20)
+punct(Hickam-20, -RRB--21)
+punct(gave-2, .-22)
+
+Sentence #9 (25 tokens):
+I've seen this movie about escaping the life already laid out for you twice now, and both times I thoroughly enjoyed myself.
+[Text=I CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=567 CharacterOffsetEnd=570 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=571 CharacterOffsetEnd=575 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=581 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=IN] [Text=escaping CharacterOffsetBegin=593 CharacterOffsetEnd=601 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=DT] [Text=life CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=NN] [Text=already CharacterOffsetBegin=611 CharacterOffsetEnd=618 PartOfSpeech=RB] [Text=laid CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=PRP] [Text=twice CharacterOffsetBegin=636 CharacterOffsetEnd=641 PartOfSpeech=RB] [Text=now CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=,] [Text=and CharacterOffsetBegin=647 CharacterOffsetEnd=650 PartOfSpeech=CC] [Text=both CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=DT] [Text=times CharacterOffsetBegin=656 CharacterOffsetEnd=661 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=662 CharacterOffsetEnd=663 PartOfSpeech=PRP] [Text=thoroughly CharacterOffsetBegin=664 CharacterOffsetEnd=674 PartOfSpeech=RB] [Text=enjoyed CharacterOffsetBegin=675 CharacterOffsetEnd=682 PartOfSpeech=VBD] [Text=myself CharacterOffsetBegin=683 CharacterOffsetEnd=689 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=689 CharacterOffsetEnd=690 PartOfSpeech=.] 
+root(ROOT-0, seen-3)
+nsubj(seen-3, I-1)
+aux(seen-3, 've-2)
+det(movie-5, this-4)
+dobj(seen-3, movie-5)
+prep(movie-5, about-6)
+pcomp(about-6, escaping-7)
+det(life-9, the-8)
+dobj(escaping-7, life-9)
+advmod(laid-11, already-10)
+partmod(life-9, laid-11)
+prt(laid-11, out-12)
+mark(times-20, for-13)
+nsubj(times-20, you-14)
+advmod(now-16, twice-15)
+advmod(times-20, now-16)
+punct(times-20, ,-17)
+cc(times-20, and-18)
+conj(times-20, both-19)
+advcl(laid-11, times-20)
+nsubj(enjoyed-23, I-21)
+advmod(enjoyed-23, thoroughly-22)
+rcmod(times-20, enjoyed-23)
+dobj(enjoyed-23, myself-24)
+punct(seen-3, .-25)
+

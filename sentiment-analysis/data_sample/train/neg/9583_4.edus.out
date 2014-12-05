@@ -1,0 +1,68 @@
+Sentence #1 (21 tokens):
+"Proximity" tells of a convict (Lowe) who thinks the prison staff is out to kill him.
+[Text=`` CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=``] [Text=Proximity CharacterOffsetBegin=5 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=''] [Text=tells CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=VBZ] [Text=of CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=DT] [Text=convict CharacterOffsetBegin=27 CharacterOffsetEnd=34 PartOfSpeech=VB] [Text=-LRB- CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=-LRB-] [Text=Lowe CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=-RRB-] [Text=who CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=WP] [Text=thinks CharacterOffsetBegin=46 CharacterOffsetEnd=52 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=DT] [Text=prison CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text=staff CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=TO] [Text=kill CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=.] 
+root(ROOT-0, tells-4)
+punct(Proximity-2, ``-1)
+nsubj(tells-4, Proximity-2)
+punct(Proximity-2, ''-3)
+prep(tells-4, of-5)
+pobj(of-5, a-6)
+dep(a-6, convict-7)
+punct(Lowe-9, -LRB--8)
+dep(convict-7, Lowe-9)
+punct(Lowe-9, -RRB--10)
+nsubj(thinks-12, who-11)
+dep(convict-7, thinks-12)
+det(staff-15, the-13)
+nn(staff-15, prison-14)
+nsubj(is-16, staff-15)
+ccomp(thinks-12, is-16)
+advmod(is-16, out-17)
+aux(kill-19, to-18)
+infmod(out-17, kill-19)
+dobj(kill-19, him-20)
+punct(tells-4, .-21)
+
+Sentence #2 (26 tokens):
+This very ordinary film is an action/drama with a weak plot; stereotypical, poorly developed characters; and a one dimensional performance by Lowe.
+[Text=This CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=RB] [Text=ordinary CharacterOffsetBegin=104 CharacterOffsetEnd=112 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=action/drama CharacterOffsetBegin=124 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=DT] [Text=weak CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=NN] [Text=; CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=:] [Text=stereotypical CharacterOffsetBegin=155 CharacterOffsetEnd=168 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=,] [Text=poorly CharacterOffsetBegin=170 CharacterOffsetEnd=176 PartOfSpeech=RB] [Text=developed CharacterOffsetBegin=177 CharacterOffsetEnd=186 PartOfSpeech=VBN] [Text=characters CharacterOffsetBegin=187 CharacterOffsetEnd=197 PartOfSpeech=NNS] [Text=; CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=:] [Text=and CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=CD] [Text=dimensional CharacterOffsetBegin=209 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=221 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=Lowe CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=.] 
+root(ROOT-0, action/drama-7)
+det(film-4, This-1)
+advmod(ordinary-3, very-2)
+amod(film-4, ordinary-3)
+nsubj(action/drama-7, film-4)
+cop(action/drama-7, is-5)
+det(action/drama-7, an-6)
+prep(action/drama-7, with-8)
+det(plot-11, a-9)
+amod(plot-11, weak-10)
+pobj(with-8, plot-11)
+punct(action/drama-7, ;-12)
+amod(characters-17, stereotypical-13)
+punct(characters-17, ,-14)
+advmod(characters-17, poorly-15)
+amod(characters-17, developed-16)
+conj(action/drama-7, characters-17)
+punct(action/drama-7, ;-18)
+cc(action/drama-7, and-19)
+det(performance-23, a-20)
+num(performance-23, one-21)
+amod(performance-23, dimensional-22)
+conj(action/drama-7, performance-23)
+prep(performance-23, by-24)
+pobj(by-24, Lowe-25)
+punct(action/drama-7, .-26)
+
+Sentence #3 (9 tokens):
+A forgettable film not worthy of further commentary.
+[Text=A CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=forgettable CharacterOffsetBegin=248 CharacterOffsetEnd=259 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=not CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=RB] [Text=worthy CharacterOffsetBegin=269 CharacterOffsetEnd=275 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=IN] [Text=further CharacterOffsetBegin=279 CharacterOffsetEnd=286 PartOfSpeech=JJ] [Text=commentary CharacterOffsetBegin=287 CharacterOffsetEnd=297 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=.] 
+root(ROOT-0, film-3)
+det(film-3, A-1)
+amod(film-3, forgettable-2)
+neg(worthy-5, not-4)
+amod(film-3, worthy-5)
+prep(worthy-5, of-6)
+amod(commentary-8, further-7)
+pobj(of-6, commentary-8)
+punct(film-3, .-9)
+

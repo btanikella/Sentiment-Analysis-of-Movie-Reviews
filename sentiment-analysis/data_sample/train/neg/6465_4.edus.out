@@ -1,0 +1,86 @@
+Sentence #1 (13 tokens):
+This Charles outing is decent but this is a pretty low-key performance.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=Charles CharacterOffsetBegin=9 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=outing CharacterOffsetBegin=17 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=VBZ] [Text=decent CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=pretty CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=RB] [Text=low-key CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=63 CharacterOffsetEnd=74 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=.] 
+root(ROOT-0, decent-5)
+det(outing-3, This-1)
+nn(outing-3, Charles-2)
+nsubj(decent-5, outing-3)
+cop(decent-5, is-4)
+cc(decent-5, but-6)
+nsubj(performance-12, this-7)
+cop(performance-12, is-8)
+det(performance-12, a-9)
+advmod(low-key-11, pretty-10)
+amod(performance-12, low-key-11)
+conj(decent-5, performance-12)
+punct(decent-5, .-13)
+
+Sentence #2 (5 tokens):
+Marlon Brando stands out.
+[Text=Marlon CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=NNP] [Text=Brando CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=NNP] [Text=stands CharacterOffsetBegin=94 CharacterOffsetEnd=100 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, stands-3)
+nn(Brando-2, Marlon-1)
+nsubj(stands-3, Brando-2)
+prt(stands-3, out-4)
+punct(stands-3, .-5)
+
+Sentence #3 (22 tokens):
+There's a subplot with Mira Sorvino and Donald Sutherland that forgets to develop and it hurts the film a little.
+[Text=There CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=subplot CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=Mira CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=NNP] [Text=Sorvino CharacterOffsetBegin=138 CharacterOffsetEnd=145 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=CC] [Text=Donald CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=NNP] [Text=Sutherland CharacterOffsetBegin=157 CharacterOffsetEnd=167 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=IN] [Text=forgets CharacterOffsetBegin=173 CharacterOffsetEnd=180 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=TO] [Text=develop CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=PRP] [Text=hurts CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+det(subplot-4, a-3)
+nsubj('s-2, subplot-4)
+prep(subplot-4, with-5)
+nn(Sorvino-7, Mira-6)
+pobj(with-5, Sorvino-7)
+cc(Sorvino-7, and-8)
+nn(Sutherland-10, Donald-9)
+conj(Sorvino-7, Sutherland-10)
+dep(subplot-4, that-11)
+ccomp(that-11, forgets-12)
+aux(develop-14, to-13)
+xcomp(forgets-12, develop-14)
+cc(develop-14, and-15)
+nsubj(hurts-17, it-16)
+conj(develop-14, hurts-17)
+det(film-19, the-18)
+nsubj(little-21, film-19)
+det(little-21, a-20)
+xcomp(hurts-17, little-21)
+punct('s-2, .-22)
+
+Sentence #4 (15 tokens):
+I'm still trying to figure out why Charlie want to change his name.
+[Text=I CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=VBP] [Text=still CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=RB] [Text=trying CharacterOffsetBegin=238 CharacterOffsetEnd=244 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=TO] [Text=figure CharacterOffsetBegin=248 CharacterOffsetEnd=254 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=RP] [Text=why CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=WRB] [Text=Charlie CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=NNP] [Text=want CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=TO] [Text=change CharacterOffsetBegin=279 CharacterOffsetEnd=285 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=PRP$] [Text=name CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=.] 
+root(ROOT-0, trying-4)
+nsubj(trying-4, I-1)
+aux(trying-4, 'm-2)
+advmod(trying-4, still-3)
+aux(figure-6, to-5)
+xcomp(trying-4, figure-6)
+prt(figure-6, out-7)
+advmod(want-10, why-8)
+nsubj(want-10, Charlie-9)
+advcl(figure-6, want-10)
+aux(change-12, to-11)
+xcomp(want-10, change-12)
+poss(name-14, his-13)
+dobj(change-12, name-14)
+punct(trying-4, .-15)
+
+Sentence #5 (11 tokens):
+Every movie with "Charles" has been pretty bad.
+[Text=Every CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=``] [Text=Charles CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=''] [Text=has CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=VBN] [Text=pretty CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=.] 
+root(ROOT-0, movie-2)
+det(movie-2, Every-1)
+prep(movie-2, with-3)
+punct(bad-10, ``-4)
+nsubj(bad-10, Charles-5)
+punct(bad-10, ''-6)
+aux(bad-10, has-7)
+cop(bad-10, been-8)
+advmod(bad-10, pretty-9)
+pobj(with-3, bad-10)
+punct(movie-2, .-11)
+

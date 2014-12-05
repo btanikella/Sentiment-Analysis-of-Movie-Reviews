@@ -1,0 +1,230 @@
+Sentence #1 (5 tokens):
+Holy freaking God all-freaking-mighty.
+[Text=Holy CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=JJ] [Text=freaking CharacterOffsetBegin=9 CharacterOffsetEnd=17 PartOfSpeech=VBG] [Text=God CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NNP] [Text=all-freaking-mighty CharacterOffsetBegin=22 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.] 
+root(ROOT-0, all-freaking-mighty-4)
+amod(all-freaking-mighty-4, Holy-1)
+nn(all-freaking-mighty-4, freaking-2)
+nn(all-freaking-mighty-4, God-3)
+punct(all-freaking-mighty-4, .-5)
+
+Sentence #2 (13 tokens):
+This movie was so bad, I thought I was on drugs.
+[Text=This CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=,] [Text=I CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=72 CharacterOffsetEnd=79 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=IN] [Text=drugs CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.] 
+root(ROOT-0, bad-5)
+det(movie-2, This-1)
+nsubj(bad-5, movie-2)
+cop(bad-5, was-3)
+advmod(bad-5, so-4)
+punct(bad-5, ,-6)
+nsubj(thought-8, I-7)
+dep(bad-5, thought-8)
+nsubj(was-10, I-9)
+ccomp(thought-8, was-10)
+prep(was-10, on-11)
+pobj(on-11, drugs-12)
+punct(bad-5, .-13)
+
+Sentence #3 (20 tokens):
+In a bad way...
+    The character acting is the poorest thing I've seen in quite some time.
+[Text=In CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=:] [Text=The CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=124 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=acting CharacterOffsetBegin=134 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=DT] [Text=poorest CharacterOffsetBegin=148 CharacterOffsetEnd=155 PartOfSpeech=JJS] [Text=thing CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=IN] [Text=quite CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=RB] [Text=some CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=.] 
+root(ROOT-0, thing-12)
+prep(thing-12, In-1)
+det(way-4, a-2)
+amod(way-4, bad-3)
+pobj(In-1, way-4)
+punct(thing-12, ...-5)
+det(acting-8, The-6)
+nn(acting-8, character-7)
+nsubj(thing-12, acting-8)
+cop(thing-12, is-9)
+det(thing-12, the-10)
+amod(thing-12, poorest-11)
+nsubj(seen-15, I-13)
+aux(seen-15, 've-14)
+rcmod(thing-12, seen-15)
+prep(seen-15, in-16)
+advmod(time-19, quite-17)
+det(time-19, some-18)
+pobj(in-16, time-19)
+punct(thing-12, .-20)
+
+Sentence #4 (20 tokens):
+This movie was more akin to Lord of the G-Strings, IMHO(it's a real movie).
+[Text=This CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=VBD] [Text=more CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=RBR] [Text=akin CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=TO] [Text=Lord CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=G-Strings CharacterOffsetBegin=236 CharacterOffsetEnd=245 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=,] [Text=IMHO CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=-LRB-] [Text=it CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, akin-5)
+det(movie-2, This-1)
+nsubj(akin-5, movie-2)
+cop(akin-5, was-3)
+advmod(akin-5, more-4)
+prep(akin-5, to-6)
+pobj(to-6, Lord-7)
+prep(Lord-7, of-8)
+pobj(of-8, the-9)
+dep(the-9, G-Strings-10)
+punct(G-Strings-10, ,-11)
+dep(G-Strings-10, IMHO-12)
+punct(movie-18, -LRB--13)
+nsubj(movie-18, it-14)
+cop(movie-18, 's-15)
+det(movie-18, a-16)
+amod(movie-18, real-17)
+dep(IMHO-12, movie-18)
+punct(movie-18, -RRB--19)
+punct(akin-5, .-20)
+
+Sentence #5 (14 tokens):
+Most of the movie appeared to be done on a horrible green screen.
+[Text=Most CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=appeared CharacterOffsetBegin=294 CharacterOffsetEnd=302 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=VB] [Text=done CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=DT] [Text=horrible CharacterOffsetBegin=319 CharacterOffsetEnd=327 PartOfSpeech=JJ] [Text=green CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=JJ] [Text=screen CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=.] 
+root(ROOT-0, appeared-5)
+nsubj(appeared-5, Most-1)
+prep(Most-1, of-2)
+det(movie-4, the-3)
+pobj(of-2, movie-4)
+aux(done-8, to-6)
+auxpass(done-8, be-7)
+xcomp(appeared-5, done-8)
+prep(done-8, on-9)
+det(screen-13, a-10)
+amod(screen-13, horrible-11)
+amod(screen-13, green-12)
+pobj(on-9, screen-13)
+punct(appeared-5, .-14)
+
+Sentence #6 (20 tokens):
+My favorite part was when they are in the carriage, and you can tell there's no horse.
+[Text=My CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=349 CharacterOffsetEnd=357 PartOfSpeech=JJ] [Text=part CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=VBD] [Text=when CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=VBP] [Text=in CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=DT] [Text=carriage CharacterOffsetBegin=388 CharacterOffsetEnd=396 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=,] [Text=and CharacterOffsetBegin=398 CharacterOffsetEnd=401 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=MD] [Text=tell CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=VB] [Text=there CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=423 CharacterOffsetEnd=425 PartOfSpeech=DT] [Text=horse CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=.] 
+root(ROOT-0, was-4)
+poss(part-3, My-1)
+amod(part-3, favorite-2)
+nsubj(was-4, part-3)
+advmod(are-7, when-5)
+nsubj(are-7, they-6)
+advcl(was-4, are-7)
+prep(are-7, in-8)
+det(carriage-10, the-9)
+pobj(in-8, carriage-10)
+punct(was-4, ,-11)
+cc(was-4, and-12)
+nsubj(tell-15, you-13)
+aux(tell-15, can-14)
+conj(was-4, tell-15)
+expl('s-17, there-16)
+ccomp(tell-15, 's-17)
+det(horse-19, no-18)
+nsubj('s-17, horse-19)
+punct(was-4, .-20)
+
+Sentence #7 (18 tokens):
+They're fleeing from alien monsters, and going about the same speed as a swift jog.
+[Text=They CharacterOffsetBegin=437 CharacterOffsetEnd=441 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=VBP] [Text=fleeing CharacterOffsetBegin=445 CharacterOffsetEnd=452 PartOfSpeech=VBG] [Text=from CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=IN] [Text=alien CharacterOffsetBegin=458 CharacterOffsetEnd=463 PartOfSpeech=JJ] [Text=monsters CharacterOffsetBegin=464 CharacterOffsetEnd=472 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=,] [Text=and CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=CC] [Text=going CharacterOffsetBegin=478 CharacterOffsetEnd=483 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=JJ] [Text=speed CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=505 CharacterOffsetEnd=507 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=DT] [Text=swift CharacterOffsetBegin=510 CharacterOffsetEnd=515 PartOfSpeech=JJ] [Text=jog CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=.] 
+root(ROOT-0, fleeing-3)
+nsubj(fleeing-3, They-1)
+aux(fleeing-3, 're-2)
+prep(fleeing-3, from-4)
+amod(monsters-6, alien-5)
+pobj(from-4, monsters-6)
+punct(fleeing-3, ,-7)
+cc(fleeing-3, and-8)
+conj(fleeing-3, going-9)
+prep(going-9, about-10)
+det(speed-13, the-11)
+amod(speed-13, same-12)
+pobj(about-10, speed-13)
+prep(going-9, as-14)
+det(jog-17, a-15)
+amod(jog-17, swift-16)
+pobj(as-14, jog-17)
+punct(fleeing-3, .-18)
+
+Sentence #8 (12 tokens):
+Then it switches to a far-shot with a ridiculous CG horse.
+[Text=Then CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=PRP] [Text=switches CharacterOffsetBegin=533 CharacterOffsetEnd=541 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=545 CharacterOffsetEnd=546 PartOfSpeech=DT] [Text=far-shot CharacterOffsetBegin=547 CharacterOffsetEnd=555 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=561 CharacterOffsetEnd=562 PartOfSpeech=DT] [Text=ridiculous CharacterOffsetBegin=563 CharacterOffsetEnd=573 PartOfSpeech=JJ] [Text=CG CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=NN] [Text=horse CharacterOffsetBegin=577 CharacterOffsetEnd=582 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=582 CharacterOffsetEnd=583 PartOfSpeech=.] 
+root(ROOT-0, switches-3)
+advmod(switches-3, Then-1)
+nsubj(switches-3, it-2)
+prep(switches-3, to-4)
+det(far-shot-6, a-5)
+pobj(to-4, far-shot-6)
+prep(switches-3, with-7)
+det(horse-11, a-8)
+amod(horse-11, ridiculous-9)
+nn(horse-11, CG-10)
+pobj(with-7, horse-11)
+punct(switches-3, .-12)
+
+Sentence #9 (18 tokens):
+And the CG in general seems to be sub-par to 1992's Beyond the Mind's Eye.
+[Text=And CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=DT] [Text=CG CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=599 CharacterOffsetEnd=601 PartOfSpeech=IN] [Text=general CharacterOffsetBegin=602 CharacterOffsetEnd=609 PartOfSpeech=JJ] [Text=seems CharacterOffsetBegin=610 CharacterOffsetEnd=615 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=616 CharacterOffsetEnd=618 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=VB] [Text=sub-par CharacterOffsetBegin=622 CharacterOffsetEnd=629 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=TO] [Text=1992 CharacterOffsetBegin=633 CharacterOffsetEnd=637 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=POS] [Text=Beyond CharacterOffsetBegin=640 CharacterOffsetEnd=646 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=647 CharacterOffsetEnd=650 PartOfSpeech=DT] [Text=Mind CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=POS] [Text=Eye CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=.] 
+root(ROOT-0, seems-6)
+cc(seems-6, And-1)
+det(CG-3, the-2)
+nsubj(seems-6, CG-3)
+prep(CG-3, in-4)
+pobj(in-4, general-5)
+aux(sub-par-9, to-7)
+cop(sub-par-9, be-8)
+xcomp(seems-6, sub-par-9)
+prep(sub-par-9, to-10)
+pobj(to-10, 1992-11)
+possessive(1992-11, 's-12)
+prep(1992-11, Beyond-13)
+det(Mind-15, the-14)
+poss(Eye-17, Mind-15)
+possessive(Mind-15, 's-16)
+pobj(Beyond-13, Eye-17)
+punct(seems-6, .-18)
+
+Sentence #10 (8 tokens):
+I mean, Come on, really.
+[Text=I CharacterOffsetBegin=667 CharacterOffsetEnd=668 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=673 CharacterOffsetEnd=674 PartOfSpeech=,] [Text=Come CharacterOffsetBegin=675 CharacterOffsetEnd=679 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=682 CharacterOffsetEnd=683 PartOfSpeech=,] [Text=really CharacterOffsetBegin=684 CharacterOffsetEnd=690 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=690 CharacterOffsetEnd=691 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+punct(mean-2, ,-3)
+conj(mean-2, Come-4)
+prep(Come-4, on-5)
+punct(really-7, ,-6)
+dep(on-5, really-7)
+punct(mean-2, .-8)
+
+Sentence #11 (19 tokens):
+It felt like a horrible episode of Hercules, only without Kevin Sorbo there to save the day.
+[Text=It CharacterOffsetBegin=696 CharacterOffsetEnd=698 PartOfSpeech=PRP] [Text=felt CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=DT] [Text=horrible CharacterOffsetBegin=711 CharacterOffsetEnd=719 PartOfSpeech=JJ] [Text=episode CharacterOffsetBegin=720 CharacterOffsetEnd=727 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=728 CharacterOffsetEnd=730 PartOfSpeech=IN] [Text=Hercules CharacterOffsetBegin=731 CharacterOffsetEnd=739 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=739 CharacterOffsetEnd=740 PartOfSpeech=,] [Text=only CharacterOffsetBegin=741 CharacterOffsetEnd=745 PartOfSpeech=RB] [Text=without CharacterOffsetBegin=746 CharacterOffsetEnd=753 PartOfSpeech=IN] [Text=Kevin CharacterOffsetBegin=754 CharacterOffsetEnd=759 PartOfSpeech=NNP] [Text=Sorbo CharacterOffsetBegin=760 CharacterOffsetEnd=765 PartOfSpeech=NNP] [Text=there CharacterOffsetBegin=766 CharacterOffsetEnd=771 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=772 CharacterOffsetEnd=774 PartOfSpeech=TO] [Text=save CharacterOffsetBegin=775 CharacterOffsetEnd=779 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=780 CharacterOffsetEnd=783 PartOfSpeech=DT] [Text=day CharacterOffsetBegin=784 CharacterOffsetEnd=787 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=787 CharacterOffsetEnd=788 PartOfSpeech=.] 
+root(ROOT-0, felt-2)
+nsubj(felt-2, It-1)
+prep(felt-2, like-3)
+det(episode-6, a-4)
+amod(episode-6, horrible-5)
+pobj(like-3, episode-6)
+prep(episode-6, of-7)
+pobj(of-7, Hercules-8)
+punct(felt-2, ,-9)
+advmod(without-11, only-10)
+prep(felt-2, without-11)
+nn(Sorbo-13, Kevin-12)
+pobj(without-11, Sorbo-13)
+advmod(Sorbo-13, there-14)
+aux(save-16, to-15)
+xcomp(without-11, save-16)
+det(day-18, the-17)
+tmod(save-16, day-18)
+punct(felt-2, .-19)
+
+Sentence #12 (2 tokens):
+Worst.
+[Text=Worst CharacterOffsetBegin=793 CharacterOffsetEnd=798 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=798 CharacterOffsetEnd=799 PartOfSpeech=.] 
+root(ROOT-0, Worst-1)
+punct(Worst-1, .-2)
+
+Sentence #13 (2 tokens):
+Movie.
+[Text=Movie CharacterOffsetBegin=804 CharacterOffsetEnd=809 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=809 CharacterOffsetEnd=810 PartOfSpeech=.] 
+root(ROOT-0, Movie-1)
+punct(Movie-1, .-2)
+
+Sentence #14 (2 tokens):
+Ever.
+[Text=Ever CharacterOffsetBegin=815 CharacterOffsetEnd=819 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=819 CharacterOffsetEnd=820 PartOfSpeech=.] 
+root(ROOT-0, Ever-1)
+punct(Ever-1, .-2)
+

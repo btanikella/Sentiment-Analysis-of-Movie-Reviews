@@ -1,0 +1,80 @@
+Sentence #1 (15 tokens):
+John Candy's Performance in Once Upon A Crime is possibly his best ever.
+[Text=John CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text=Candy CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=POS] [Text=Performance CharacterOffsetBegin=17 CharacterOffsetEnd=28 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=Once CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=RB] [Text=Upon CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=IN] [Text=A CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=DT] [Text=Crime CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=VBZ] [Text=possibly CharacterOffsetBegin=53 CharacterOffsetEnd=61 PartOfSpeech=RB] [Text=his CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=PRP$] [Text=best CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=JJS] [Text=ever CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=.] 
+root(ROOT-0, Performance-4)
+nn(Candy-2, John-1)
+poss(Performance-4, Candy-2)
+possessive(Candy-2, 's-3)
+prep(Performance-4, in-5)
+advmod(best-13, Once-6)
+prep(best-13, Upon-7)
+det(Crime-9, A-8)
+pobj(Upon-7, Crime-9)
+cop(best-13, is-10)
+advmod(best-13, possibly-11)
+poss(best-13, his-12)
+pobj(in-5, best-13)
+advmod(best-13, ever-14)
+punct(Performance-4, .-15)
+
+Sentence #2 (11 tokens):
+It's been My Favourite Movie since it came out.
+[Text=It CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=VBN] [Text=My CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=PRP$] [Text=Favourite CharacterOffsetBegin=94 CharacterOffsetEnd=103 PartOfSpeech=NNP] [Text=Movie CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=since CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=PRP] [Text=came CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.] 
+root(ROOT-0, Movie-6)
+nsubjpass(Movie-6, It-1)
+auxpass(Movie-6, 's-2)
+cop(Movie-6, been-3)
+poss(Movie-6, My-4)
+nn(Movie-6, Favourite-5)
+mark(came-9, since-7)
+nsubj(came-9, it-8)
+advcl(Movie-6, came-9)
+prt(came-9, out-10)
+punct(Movie-6, .-11)
+
+Sentence #3 (8 tokens):
+I Spent 5 Years searching for it.
+[Text=I CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=PRP] [Text=Spent CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=VBD] [Text=5 CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=CD] [Text=Years CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=NNS] [Text=searching CharacterOffsetBegin=149 CharacterOffsetEnd=158 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=.] 
+root(ROOT-0, Spent-2)
+nsubj(Spent-2, I-1)
+num(Years-4, 5-3)
+dobj(Spent-2, Years-4)
+partmod(Years-4, searching-5)
+prep(searching-5, for-6)
+pobj(for-6, it-7)
+punct(Spent-2, .-8)
+
+Sentence #4 (7 tokens):
+That's How Good It Is.
+[Text=That CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=VBZ] [Text=How CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=WRB] [Text=Good CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=JJ] [Text=It CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=PRP] [Text=Is CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+nsubj('s-2, That-1)
+advmod(Good-4, How-3)
+dep(Is-6, Good-4)
+nsubj(Is-6, It-5)
+ccomp('s-2, Is-6)
+punct('s-2, .-7)
+
+Sentence #5 (11 tokens):
+If You Disagree, well, that's your opinion.
+[Text=If CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=IN] [Text=You CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=PRP] [Text=Disagree CharacterOffsetBegin=205 CharacterOffsetEnd=213 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=,] [Text=well CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=,] [Text=that CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=VBZ] [Text=your CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=PRP$] [Text=opinion CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=.] 
+root(ROOT-0, Disagree-3)
+mark(Disagree-3, If-1)
+nsubj(Disagree-3, You-2)
+punct(Disagree-3, ,-4)
+advmod(Disagree-3, well-5)
+punct(Disagree-3, ,-6)
+nsubj(opinion-10, that-7)
+cop(opinion-10, 's-8)
+poss(opinion-10, your-9)
+ccomp(Disagree-3, opinion-10)
+punct(Disagree-3, .-11)
+
+Sentence #6 (4 tokens):
+Enjoy The Movie.
+[Text=Enjoy CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=VB] [Text=The CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=Movie CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=.] 
+root(ROOT-0, Enjoy-1)
+det(Movie-3, The-2)
+dobj(Enjoy-1, Movie-3)
+punct(Enjoy-1, .-4)
+

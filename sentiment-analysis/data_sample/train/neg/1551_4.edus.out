@@ -1,0 +1,211 @@
+Sentence #1 (8 tokens):
+The Ladies Man is a funny movie.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=Ladies CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=Man CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=funny CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+det(Man-3, The-1)
+nn(Man-3, Ladies-2)
+nsubj(movie-7, Man-3)
+cop(movie-7, is-4)
+det(movie-7, a-5)
+amod(movie-7, funny-6)
+punct(movie-7, .-8)
+
+Sentence #2 (18 tokens):
+There's not much thought behind it, but what do you expect from an SNL movie?
+[Text=There CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=JJ] [Text=thought CharacterOffsetBegin=58 CharacterOffsetEnd=65 PartOfSpeech=NN] [Text=behind CharacterOffsetBegin=66 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=,] [Text=but CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=CC] [Text=what CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=WP] [Text=do CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=PRP] [Text=expect CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=VB] [Text=from CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=DT] [Text=SNL CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+neg('s-2, not-3)
+advmod(thought-5, much-4)
+nsubj('s-2, thought-5)
+prep(thought-5, behind-6)
+pobj(behind-6, it-7)
+punct('s-2, ,-8)
+cc('s-2, but-9)
+dobj(expect-13, what-10)
+aux(expect-13, do-11)
+nsubj(expect-13, you-12)
+conj('s-2, expect-13)
+prep(expect-13, from-14)
+det(movie-17, an-15)
+nn(movie-17, SNL-16)
+pobj(from-14, movie-17)
+punct('s-2, ?-18)
+
+Sentence #3 (28 tokens):
+It's actually better than most SNL movies (i.e.
+    Superstar or A Night At The Roxbury) Tim Meadows and Will Ferrell were both very funny.
+[Text=It CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=VBZ] [Text=actually CharacterOffsetBegin=128 CharacterOffsetEnd=136 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=IN] [Text=most CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=JJS] [Text=SNL CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=-LRB-] [Text=i.e. CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=FW] [Text=Superstar CharacterOffsetBegin=175 CharacterOffsetEnd=184 PartOfSpeech=FW] [Text=or CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=CC] [Text=A CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=DT] [Text=Night CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=At CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=DT] [Text=Roxbury CharacterOffsetBegin=203 CharacterOffsetEnd=210 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=-RRB-] [Text=Tim CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=NNP] [Text=Meadows CharacterOffsetBegin=216 CharacterOffsetEnd=223 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=CC] [Text=Will CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=NNP] [Text=Ferrell CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=VBD] [Text=both CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=.] 
+root(ROOT-0, better-4)
+nsubj(better-4, It-1)
+cop(better-4, 's-2)
+advmod(better-4, actually-3)
+prep(better-4, than-5)
+amod(movies-8, most-6)
+nn(movies-8, SNL-7)
+pobj(than-5, movies-8)
+punct(Night-14, -LRB--9)
+nn(Night-14, i.e.-10)
+nn(Night-14, Superstar-11)
+cc(Superstar-11, or-12)
+conj(Superstar-11, A-13)
+dep(Meadows-20, Night-14)
+prep(Night-14, At-15)
+det(Roxbury-17, The-16)
+pobj(At-15, Roxbury-17)
+punct(Night-14, -RRB--18)
+nn(Meadows-20, Tim-19)
+nsubj(funny-27, Meadows-20)
+cc(Meadows-20, and-21)
+nn(Ferrell-23, Will-22)
+conj(Meadows-20, Ferrell-23)
+cop(funny-27, were-24)
+advmod(funny-27, both-25)
+advmod(funny-27, very-26)
+rcmod(movies-8, funny-27)
+punct(better-4, .-28)
+
+Sentence #4 (20 tokens):
+Chris Parnell was also funny in his short scene (one of the funnier ones in the movie).
+[Text=Chris CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NNP] [Text=Parnell CharacterOffsetBegin=273 CharacterOffsetEnd=280 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=VBD] [Text=also CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=PRP$] [Text=short CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=-LRB-] [Text=one CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=DT] [Text=funnier CharacterOffsetBegin=327 CharacterOffsetEnd=334 PartOfSpeech=JJR] [Text=ones CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=.] 
+root(ROOT-0, funny-5)
+nn(Parnell-2, Chris-1)
+nsubj(funny-5, Parnell-2)
+cop(funny-5, was-3)
+advmod(funny-5, also-4)
+prep(funny-5, in-6)
+poss(scene-9, his-7)
+amod(scene-9, short-8)
+pobj(in-6, scene-9)
+punct(one-11, -LRB--10)
+dep(funny-5, one-11)
+prep(one-11, of-12)
+det(ones-15, the-13)
+amod(ones-15, funnier-14)
+pobj(of-12, ones-15)
+prep(ones-15, in-16)
+det(movie-18, the-17)
+pobj(in-16, movie-18)
+punct(one-11, -RRB--19)
+punct(funny-5, .-20)
+
+Sentence #5 (19 tokens):
+Other than that, the rest of the cast is average and is just there to support Meadows.
+[Text=Other CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=,] [Text=the CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=VBZ] [Text=average CharacterOffsetBegin=400 CharacterOffsetEnd=407 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=RB] [Text=there CharacterOffsetBegin=420 CharacterOffsetEnd=425 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=TO] [Text=support CharacterOffsetBegin=429 CharacterOffsetEnd=436 PartOfSpeech=VB] [Text=Meadows CharacterOffsetBegin=437 CharacterOffsetEnd=444 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=.] 
+root(ROOT-0, average-11)
+dep(average-11, Other-1)
+prep(Other-1, than-2)
+pobj(than-2, that-3)
+punct(average-11, ,-4)
+det(rest-6, the-5)
+nsubj(average-11, rest-6)
+prep(rest-6, of-7)
+det(cast-9, the-8)
+pobj(of-7, cast-9)
+cop(average-11, is-10)
+cc(average-11, and-12)
+conj(average-11, is-13)
+advmod(there-15, just-14)
+advmod(average-11, there-15)
+aux(support-17, to-16)
+xcomp(average-11, support-17)
+dobj(support-17, Meadows-18)
+punct(average-11, .-19)
+
+Sentence #6 (15 tokens):
+I've definitely seen funnier movies, but I've seen dumber ones too.
+[Text=I CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=VBP] [Text=definitely CharacterOffsetBegin=455 CharacterOffsetEnd=465 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=VBN] [Text=funnier CharacterOffsetBegin=471 CharacterOffsetEnd=478 PartOfSpeech=JJR] [Text=movies CharacterOffsetBegin=479 CharacterOffsetEnd=485 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=,] [Text=but CharacterOffsetBegin=487 CharacterOffsetEnd=490 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=VBN] [Text=dumber CharacterOffsetBegin=501 CharacterOffsetEnd=507 PartOfSpeech=JJR] [Text=ones CharacterOffsetBegin=508 CharacterOffsetEnd=512 PartOfSpeech=NNS] [Text=too CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=516 CharacterOffsetEnd=517 PartOfSpeech=.] 
+root(ROOT-0, seen-4)
+nsubj(seen-4, I-1)
+aux(seen-4, 've-2)
+advmod(seen-4, definitely-3)
+amod(movies-6, funnier-5)
+dobj(seen-4, movies-6)
+punct(seen-4, ,-7)
+cc(seen-4, but-8)
+nsubj(seen-11, I-9)
+aux(seen-11, 've-10)
+conj(seen-4, seen-11)
+amod(ones-13, dumber-12)
+dobj(seen-11, ones-13)
+advmod(seen-11, too-14)
+punct(seen-4, .-15)
+
+Sentence #7 (19 tokens):
+Again, it's not exactly a deep movie, but it's good for a few laughs.
+[Text=Again CharacterOffsetBegin=522 CharacterOffsetEnd=527 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=527 CharacterOffsetEnd=528 PartOfSpeech=,] [Text=it CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=531 CharacterOffsetEnd=533 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=RB] [Text=exactly CharacterOffsetBegin=538 CharacterOffsetEnd=545 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=DT] [Text=deep CharacterOffsetBegin=548 CharacterOffsetEnd=552 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=,] [Text=but CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=564 CharacterOffsetEnd=566 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=569 CharacterOffsetEnd=573 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=JJ] [Text=laughs CharacterOffsetBegin=584 CharacterOffsetEnd=590 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=.] 
+root(ROOT-0, movie-9)
+advmod(movie-9, Again-1)
+punct(movie-9, ,-2)
+nsubj(movie-9, it-3)
+cop(movie-9, 's-4)
+neg(movie-9, not-5)
+advmod(movie-9, exactly-6)
+det(movie-9, a-7)
+amod(movie-9, deep-8)
+punct(movie-9, ,-10)
+cc(movie-9, but-11)
+nsubj(good-14, it-12)
+cop(good-14, 's-13)
+conj(movie-9, good-14)
+prep(good-14, for-15)
+det(laughs-18, a-16)
+amod(laughs-18, few-17)
+pobj(for-15, laughs-18)
+punct(movie-9, .-19)
+
+Sentence #8 (8 tokens):
+It was funnier as a skit though.
+[Text=It CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=VBD] [Text=funnier CharacterOffsetBegin=603 CharacterOffsetEnd=610 PartOfSpeech=JJR] [Text=as CharacterOffsetBegin=611 CharacterOffsetEnd=613 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=614 CharacterOffsetEnd=615 PartOfSpeech=DT] [Text=skit CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=NN] [Text=though CharacterOffsetBegin=621 CharacterOffsetEnd=627 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=.] 
+root(ROOT-0, funnier-3)
+nsubj(funnier-3, It-1)
+cop(funnier-3, was-2)
+prep(funnier-3, as-4)
+det(skit-6, a-5)
+pobj(as-4, skit-6)
+dep(funnier-3, though-7)
+punct(funnier-3, .-8)
+
+Sentence #9 (19 tokens):
+But still, if you're looking for a pretty funny movie, I'd recommend this one.
+[Text=But CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=CC] [Text=still CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=,] [Text=if CharacterOffsetBegin=644 CharacterOffsetEnd=646 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=647 CharacterOffsetEnd=650 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=650 CharacterOffsetEnd=653 PartOfSpeech=VBP] [Text=looking CharacterOffsetBegin=654 CharacterOffsetEnd=661 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=666 CharacterOffsetEnd=667 PartOfSpeech=DT] [Text=pretty CharacterOffsetBegin=668 CharacterOffsetEnd=674 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=675 CharacterOffsetEnd=680 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=686 CharacterOffsetEnd=687 PartOfSpeech=,] [Text=I CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=PRP] [Text='d CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=MD] [Text=recommend CharacterOffsetBegin=692 CharacterOffsetEnd=701 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=710 CharacterOffsetEnd=711 PartOfSpeech=.] 
+root(ROOT-0, recommend-16)
+cc(recommend-16, But-1)
+advmod(recommend-16, still-2)
+punct(recommend-16, ,-3)
+mark(looking-7, if-4)
+nsubj(looking-7, you-5)
+aux(looking-7, 're-6)
+advcl(recommend-16, looking-7)
+prep(looking-7, for-8)
+det(movie-12, a-9)
+advmod(funny-11, pretty-10)
+amod(movie-12, funny-11)
+pobj(for-8, movie-12)
+punct(recommend-16, ,-13)
+nsubj(recommend-16, I-14)
+aux(recommend-16, 'd-15)
+det(one-18, this-17)
+dobj(recommend-16, one-18)
+punct(recommend-16, .-19)
+
+Sentence #10 (16 tokens):
+Just don't think about it too much, or you'll hate it.Rating: 6/10
+[Text=Just CharacterOffsetBegin=716 CharacterOffsetEnd=720 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=721 CharacterOffsetEnd=723 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=723 CharacterOffsetEnd=726 PartOfSpeech=RB] [Text=think CharacterOffsetBegin=727 CharacterOffsetEnd=732 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=733 CharacterOffsetEnd=738 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=739 CharacterOffsetEnd=741 PartOfSpeech=PRP] [Text=too CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=746 CharacterOffsetEnd=750 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=750 CharacterOffsetEnd=751 PartOfSpeech=,] [Text=or CharacterOffsetBegin=752 CharacterOffsetEnd=754 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=755 CharacterOffsetEnd=758 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=MD] [Text=hate CharacterOffsetBegin=762 CharacterOffsetEnd=766 PartOfSpeech=VB] [Text=it.Rating CharacterOffsetBegin=767 CharacterOffsetEnd=776 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=776 CharacterOffsetEnd=777 PartOfSpeech=:] [Text=6/10 CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=CD] 
+root(ROOT-0, think-4)
+advmod(think-4, Just-1)
+aux(think-4, do-2)
+neg(think-4, n't-3)
+prep(think-4, about-5)
+pobj(about-5, it-6)
+advmod(much-8, too-7)
+advmod(think-4, much-8)
+punct(think-4, ,-9)
+cc(think-4, or-10)
+nsubj(hate-13, you-11)
+aux(hate-13, 'll-12)
+conj(think-4, hate-13)
+dobj(hate-13, it.Rating-14)
+punct(think-4, :-15)
+dep(think-4, 6/10-16)
+

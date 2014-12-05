@@ -1,0 +1,105 @@
+Sentence #1 (4 tokens):
+Kalifornia is disturbing.
+[Text=Kalifornia CharacterOffsetBegin=4 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=disturbing CharacterOffsetBegin=18 CharacterOffsetEnd=28 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=.] 
+root(ROOT-0, disturbing-3)
+nsubj(disturbing-3, Kalifornia-1)
+cop(disturbing-3, is-2)
+punct(disturbing-3, .-4)
+
+Sentence #2 (13 tokens):
+I believe there is no reason for this story to be told.
+[Text=I CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=PRP] [Text=believe CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=VBP] [Text=there CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=VB] [Text=told CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=.] 
+root(ROOT-0, believe-2)
+nsubj(believe-2, I-1)
+expl(is-4, there-3)
+ccomp(believe-2, is-4)
+det(reason-6, no-5)
+nsubj(is-4, reason-6)
+prep(reason-6, for-7)
+det(story-9, this-8)
+pobj(for-7, story-9)
+aux(told-12, to-10)
+auxpass(told-12, be-11)
+infmod(reason-6, told-12)
+punct(believe-2, .-13)
+
+Sentence #3 (11 tokens):
+It is neither entertaining nor does it have social value.
+[Text=It CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=VBZ] [Text=neither CharacterOffsetBegin=100 CharacterOffsetEnd=107 PartOfSpeech=DT] [Text=entertaining CharacterOffsetBegin=108 CharacterOffsetEnd=120 PartOfSpeech=JJ] [Text=nor CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=CC] [Text=does CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=VB] [Text=social CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=value CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.] 
+root(ROOT-0, entertaining-4)
+nsubj(entertaining-4, It-1)
+cop(entertaining-4, is-2)
+preconj(entertaining-4, neither-3)
+cc(entertaining-4, nor-5)
+aux(have-8, does-6)
+nsubj(have-8, it-7)
+conj(entertaining-4, have-8)
+amod(value-10, social-9)
+dobj(have-8, value-10)
+punct(entertaining-4, .-11)
+
+Sentence #4 (18 tokens):
+Technically, the movie is very well make, the performances are top rate and first class.
+[Text=Technically CharacterOffsetBegin=156 CharacterOffsetEnd=167 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=,] [Text=the CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=,] [Text=the CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=performances CharacterOffsetBegin=202 CharacterOffsetEnd=214 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=VBP] [Text=top CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=rate CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=CC] [Text=first CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=JJ] [Text=class CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=.] 
+root(ROOT-0, make-8)
+nsubj(make-8, Technically-1)
+punct(Technically-1, ,-2)
+det(movie-4, the-3)
+appos(Technically-1, movie-4)
+aux(make-8, is-5)
+advmod(well-7, very-6)
+advmod(make-8, well-7)
+punct(make-8, ,-9)
+det(performances-11, the-10)
+nsubj(rate-14, performances-11)
+cop(rate-14, are-12)
+amod(rate-14, top-13)
+ccomp(make-8, rate-14)
+cc(rate-14, and-15)
+amod(class-17, first-16)
+conj(rate-14, class-17)
+punct(make-8, .-18)
+
+Sentence #5 (11 tokens):
+The story develops in an intriguing way that holds interest.
+[Text=The CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=develops CharacterOffsetBegin=259 CharacterOffsetEnd=267 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=intriguing CharacterOffsetBegin=274 CharacterOffsetEnd=284 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=holds CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=VBZ] [Text=interest CharacterOffsetBegin=300 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=.] 
+root(ROOT-0, develops-3)
+det(story-2, The-1)
+nsubj(develops-3, story-2)
+prep(develops-3, in-4)
+det(way-7, an-5)
+amod(way-7, intriguing-6)
+pobj(in-4, way-7)
+nsubj(holds-9, that-8)
+rcmod(way-7, holds-9)
+dobj(holds-9, interest-10)
+punct(develops-3, .-11)
+
+Sentence #6 (13 tokens):
+But at the end this movie sickens and is abhorrent to decency.
+[Text=But CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=CC] [Text=at CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=NN] [Text=sickens CharacterOffsetBegin=340 CharacterOffsetEnd=347 PartOfSpeech=VBZ] [Text=and CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=VBZ] [Text=abhorrent CharacterOffsetBegin=355 CharacterOffsetEnd=364 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=TO] [Text=decency CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=.] 
+root(ROOT-0, sickens-7)
+cc(sickens-7, But-1)
+prep(sickens-7, at-2)
+det(end-4, the-3)
+pobj(at-2, end-4)
+det(movie-6, this-5)
+nsubj(sickens-7, movie-6)
+cc(sickens-7, and-8)
+cop(abhorrent-10, is-9)
+conj(sickens-7, abhorrent-10)
+prep(abhorrent-10, to-11)
+pobj(to-11, decency-12)
+punct(sickens-7, .-13)
+
+Sentence #7 (7 tokens):
+I recommend Kalifornia to no one.
+[Text=I CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=PRP] [Text=recommend CharacterOffsetBegin=383 CharacterOffsetEnd=392 PartOfSpeech=VBP] [Text=Kalifornia CharacterOffsetBegin=393 CharacterOffsetEnd=403 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=404 CharacterOffsetEnd=406 PartOfSpeech=TO] [Text=no CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=.] 
+root(ROOT-0, recommend-2)
+nsubj(recommend-2, I-1)
+dobj(recommend-2, Kalifornia-3)
+prep(recommend-2, to-4)
+det(one-6, no-5)
+pobj(to-4, one-6)
+punct(recommend-2, .-7)
+

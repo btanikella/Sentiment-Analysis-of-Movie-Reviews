@@ -1,0 +1,217 @@
+Sentence #1 (9 tokens):
+Adam Jones has a brilliant sense of humor.
+[Text=Adam CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text=Jones CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=DT] [Text=brilliant CharacterOffsetBegin=21 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=sense CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=IN] [Text=humor CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+nn(Jones-2, Adam-1)
+nsubj(has-3, Jones-2)
+det(sense-6, a-4)
+amod(sense-6, brilliant-5)
+dobj(has-3, sense-6)
+prep(sense-6, of-7)
+pobj(of-7, humor-8)
+punct(has-3, .-9)
+
+Sentence #2 (11 tokens):
+There is nothing i didn't like about this film.
+[Text=There CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=60 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=i CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=FW] [Text=did CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+nsubj(is-2, nothing-3)
+nsubj(like-7, i-4)
+aux(like-7, did-5)
+neg(like-7, n't-6)
+rcmod(nothing-3, like-7)
+prep(like-7, about-8)
+det(film-10, this-9)
+pobj(about-8, film-10)
+punct(is-2, .-11)
+
+Sentence #3 (6 tokens):
+Cross Eyed was beautifully shot.
+[Text=Cross CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NNP] [Text=Eyed CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=VBD] [Text=beautifully CharacterOffsetBegin=118 CharacterOffsetEnd=129 PartOfSpeech=RB] [Text=shot CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=.] 
+root(ROOT-0, shot-5)
+nn(Eyed-2, Cross-1)
+nsubjpass(shot-5, Eyed-2)
+auxpass(shot-5, was-3)
+advmod(shot-5, beautifully-4)
+punct(shot-5, .-6)
+
+Sentence #4 (20 tokens):
+Adam does a great job of, not only developing the main characters, but also the minor characters.
+[Text=Adam CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text=does CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=,] [Text=not CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=RB] [Text=developing CharacterOffsetBegin=175 CharacterOffsetEnd=185 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=DT] [Text=main CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=195 CharacterOffsetEnd=205 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=,] [Text=but CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=CC] [Text=also CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=DT] [Text=minor CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=226 CharacterOffsetEnd=236 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.] 
+root(ROOT-0, Adam-1)
+dep(Adam-1, does-2)
+det(job-5, a-3)
+amod(job-5, great-4)
+dobj(does-2, job-5)
+prep(job-5, of-6)
+punct(of-6, ,-7)
+neg(of-6, not-8)
+advmod(developing-10, only-9)
+dep(of-6, developing-10)
+det(characters-13, the-11)
+amod(characters-13, main-12)
+dobj(developing-10, characters-13)
+punct(developing-10, ,-14)
+cc(developing-10, but-15)
+advmod(developing-10, also-16)
+det(characters-19, the-17)
+amod(characters-19, minor-18)
+conj(developing-10, characters-19)
+punct(Adam-1, .-20)
+
+Sentence #5 (12 tokens):
+Cross Eyed gives hope to every low budget film out there.
+[Text=Cross CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=NNP] [Text=Eyed CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=NNP] [Text=gives CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=VBZ] [Text=hope CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=TO] [Text=every CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=DT] [Text=low CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=JJ] [Text=budget CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=.] 
+root(ROOT-0, gives-3)
+nn(Eyed-2, Cross-1)
+nsubj(gives-3, Eyed-2)
+dobj(gives-3, hope-4)
+prep(gives-3, to-5)
+det(film-9, every-6)
+amod(film-9, low-7)
+nn(film-9, budget-8)
+pobj(to-5, film-9)
+prep(film-9, out-10)
+pobj(out-10, there-11)
+punct(gives-3, .-12)
+
+Sentence #6 (15 tokens):
+That you don't have to spend a lot to create something worth watching.
+[Text=That CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=DT] [Text=you CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=TO] [Text=spend CharacterOffsetBegin=327 CharacterOffsetEnd=332 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=TO] [Text=create CharacterOffsetBegin=342 CharacterOffsetEnd=348 PartOfSpeech=VB] [Text=something CharacterOffsetBegin=349 CharacterOffsetEnd=358 PartOfSpeech=NN] [Text=worth CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=365 CharacterOffsetEnd=373 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=.] 
+root(ROOT-0, have-5)
+dobj(have-5, That-1)
+nsubj(have-5, you-2)
+aux(have-5, do-3)
+neg(have-5, n't-4)
+aux(spend-7, to-6)
+xcomp(have-5, spend-7)
+det(lot-9, a-8)
+dobj(spend-7, lot-9)
+aux(create-11, to-10)
+xcomp(spend-7, create-11)
+dobj(create-11, something-12)
+prep(something-12, worth-13)
+dep(worth-13, watching-14)
+punct(have-5, .-15)
+
+Sentence #7 (8 tokens):
+There is something to like for everyone.
+[Text=There CharacterOffsetBegin=379 CharacterOffsetEnd=384 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=VBZ] [Text=something CharacterOffsetBegin=388 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=TO] [Text=like CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=IN] [Text=everyone CharacterOffsetBegin=410 CharacterOffsetEnd=418 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+nsubj(is-2, something-3)
+aux(like-5, to-4)
+infmod(something-3, like-5)
+prep(like-5, for-6)
+pobj(for-6, everyone-7)
+punct(is-2, .-8)
+
+Sentence #8 (8 tokens):
+If you've had a terrible roommate.
+[Text=If CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=VBP] [Text=had CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=440 CharacterOffsetEnd=448 PartOfSpeech=JJ] [Text=roommate CharacterOffsetBegin=449 CharacterOffsetEnd=457 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=.] 
+root(ROOT-0, had-4)
+mark(had-4, If-1)
+nsubj(had-4, you-2)
+aux(had-4, 've-3)
+det(roommate-7, a-5)
+amod(roommate-7, terrible-6)
+dobj(had-4, roommate-7)
+punct(had-4, .-8)
+
+Sentence #9 (12 tokens):
+if you've ever picked on a dork in high school.
+[Text=if CharacterOffsetBegin=463 CharacterOffsetEnd=465 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=RB] [Text=picked CharacterOffsetBegin=478 CharacterOffsetEnd=484 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=488 CharacterOffsetEnd=489 PartOfSpeech=DT] [Text=dork CharacterOffsetBegin=490 CharacterOffsetEnd=494 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=495 CharacterOffsetEnd=497 PartOfSpeech=IN] [Text=high CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=JJ] [Text=school CharacterOffsetBegin=503 CharacterOffsetEnd=509 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=.] 
+root(ROOT-0, picked-5)
+mark(picked-5, if-1)
+nsubj(picked-5, you-2)
+aux(picked-5, 've-3)
+advmod(picked-5, ever-4)
+prep(picked-5, on-6)
+det(dork-8, a-7)
+pobj(on-6, dork-8)
+prep(dork-8, in-9)
+amod(school-11, high-10)
+pobj(in-9, school-11)
+punct(picked-5, .-12)
+
+Sentence #10 (10 tokens):
+if you've ever parked anywhere in the city.
+[Text=if CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=RB] [Text=parked CharacterOffsetBegin=530 CharacterOffsetEnd=536 PartOfSpeech=VBN] [Text=anywhere CharacterOffsetBegin=537 CharacterOffsetEnd=545 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=546 CharacterOffsetEnd=548 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=DT] [Text=city CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=.] 
+root(ROOT-0, parked-5)
+mark(parked-5, if-1)
+nsubj(parked-5, you-2)
+aux(parked-5, 've-3)
+advmod(parked-5, ever-4)
+advmod(parked-5, anywhere-6)
+prep(parked-5, in-7)
+det(city-9, the-8)
+pobj(in-7, city-9)
+punct(parked-5, .-10)
+
+Sentence #11 (17 tokens):
+if you have any type of sense of humor at all you will love this film.
+[Text=if CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=VBP] [Text=any CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=DT] [Text=type CharacterOffsetBegin=579 CharacterOffsetEnd=583 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=IN] [Text=sense CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=IN] [Text=humor CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=DT] [Text=you CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=MD] [Text=love CharacterOffsetBegin=618 CharacterOffsetEnd=622 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+mark(have-3, if-1)
+nsubj(have-3, you-2)
+det(type-5, any-4)
+dobj(have-3, type-5)
+prep(type-5, of-6)
+pobj(of-6, sense-7)
+prep(sense-7, of-8)
+pobj(of-8, humor-9)
+advmod(have-3, at-10)
+pobj(at-10, all-11)
+nsubj(love-14, you-12)
+aux(love-14, will-13)
+rcmod(all-11, love-14)
+det(film-16, this-15)
+dobj(love-14, film-16)
+punct(have-3, .-17)
+
+Sentence #12 (28 tokens):
+This is the type of film that will be around for a long time and ends up resurfacing again once Adam makes a bigger name for himself.
+[Text=This CharacterOffsetBegin=638 CharacterOffsetEnd=642 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=646 CharacterOffsetEnd=649 PartOfSpeech=DT] [Text=type CharacterOffsetBegin=650 CharacterOffsetEnd=654 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=IN] [Text=film CharacterOffsetBegin=658 CharacterOffsetEnd=662 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=663 CharacterOffsetEnd=667 PartOfSpeech=WDT] [Text=will CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=VB] [Text=around CharacterOffsetBegin=676 CharacterOffsetEnd=682 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=683 CharacterOffsetEnd=686 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=DT] [Text=long CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=699 CharacterOffsetEnd=702 PartOfSpeech=CC] [Text=ends CharacterOffsetBegin=703 CharacterOffsetEnd=707 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=708 CharacterOffsetEnd=710 PartOfSpeech=RP] [Text=resurfacing CharacterOffsetBegin=711 CharacterOffsetEnd=722 PartOfSpeech=VBG] [Text=again CharacterOffsetBegin=723 CharacterOffsetEnd=728 PartOfSpeech=RB] [Text=once CharacterOffsetBegin=729 CharacterOffsetEnd=733 PartOfSpeech=RB] [Text=Adam CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=NNP] [Text=makes CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=745 CharacterOffsetEnd=746 PartOfSpeech=DT] [Text=bigger CharacterOffsetBegin=747 CharacterOffsetEnd=753 PartOfSpeech=JJR] [Text=name CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=759 CharacterOffsetEnd=762 PartOfSpeech=IN] [Text=himself CharacterOffsetBegin=763 CharacterOffsetEnd=770 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=770 CharacterOffsetEnd=771 PartOfSpeech=.] 
+root(ROOT-0, type-4)
+nsubj(type-4, This-1)
+cop(type-4, is-2)
+det(type-4, the-3)
+prep(type-4, of-5)
+pobj(of-5, film-6)
+nsubj(be-9, that-7)
+aux(be-9, will-8)
+rcmod(type-4, be-9)
+prep(be-9, around-10)
+pcomp(around-10, for-11)
+det(time-14, a-12)
+amod(time-14, long-13)
+pobj(for-11, time-14)
+cc(be-9, and-15)
+conj(be-9, ends-16)
+prt(ends-16, up-17)
+xcomp(ends-16, resurfacing-18)
+advmod(resurfacing-18, again-19)
+advmod(makes-22, once-20)
+nsubj(makes-22, Adam-21)
+ccomp(resurfacing-18, makes-22)
+det(name-25, a-23)
+amod(name-25, bigger-24)
+dobj(makes-22, name-25)
+prep(makes-22, for-26)
+pobj(for-26, himself-27)
+punct(type-4, .-28)
+
+Sentence #13 (9 tokens):
+I look forward to Adam's future projects.
+[Text=I CharacterOffsetBegin=776 CharacterOffsetEnd=777 PartOfSpeech=PRP] [Text=look CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=VBP] [Text=forward CharacterOffsetBegin=783 CharacterOffsetEnd=790 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=791 CharacterOffsetEnd=793 PartOfSpeech=TO] [Text=Adam CharacterOffsetBegin=794 CharacterOffsetEnd=798 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=798 CharacterOffsetEnd=800 PartOfSpeech=POS] [Text=future CharacterOffsetBegin=801 CharacterOffsetEnd=807 PartOfSpeech=JJ] [Text=projects CharacterOffsetBegin=808 CharacterOffsetEnd=816 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=816 CharacterOffsetEnd=817 PartOfSpeech=.] 
+root(ROOT-0, look-2)
+nsubj(look-2, I-1)
+advmod(look-2, forward-3)
+prep(look-2, to-4)
+poss(projects-8, Adam-5)
+possessive(Adam-5, 's-6)
+amod(projects-8, future-7)
+pobj(to-4, projects-8)
+punct(look-2, .-9)
+

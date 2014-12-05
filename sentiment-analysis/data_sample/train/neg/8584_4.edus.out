@@ -1,0 +1,58 @@
+Sentence #1 (10 tokens):
+Movie didn't have much plot and was uninteresting.
+[Text=Movie CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=VB] [Text=much CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=VBD] [Text=uninteresting CharacterOffsetBegin=40 CharacterOffsetEnd=53 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=.] 
+root(ROOT-0, have-4)
+nsubj(have-4, Movie-1)
+aux(have-4, did-2)
+neg(have-4, n't-3)
+amod(plot-6, much-5)
+dobj(have-4, plot-6)
+cc(have-4, and-7)
+cop(uninteresting-9, was-8)
+conj(have-4, uninteresting-9)
+punct(have-4, .-10)
+
+Sentence #2 (11 tokens):
+Basically you spend a lot of time watching people paint.
+[Text=Basically CharacterOffsetBegin=59 CharacterOffsetEnd=68 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=PRP] [Text=spend CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=watching CharacterOffsetBegin=93 CharacterOffsetEnd=101 PartOfSpeech=VBG] [Text=people CharacterOffsetBegin=102 CharacterOffsetEnd=108 PartOfSpeech=NNS] [Text=paint CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=.] 
+root(ROOT-0, spend-3)
+advmod(spend-3, Basically-1)
+nsubj(spend-3, you-2)
+det(lot-5, a-4)
+dobj(spend-3, lot-5)
+prep(lot-5, of-6)
+pobj(of-6, time-7)
+xcomp(spend-3, watching-8)
+nsubj(paint-10, people-9)
+ccomp(watching-8, paint-10)
+punct(spend-3, .-11)
+
+Sentence #3 (25 tokens):
+Also it's very difficult to hear or understand the dialogue -- partially because of the accents, but also because words are mumbled.
+[Text=Also CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=RB] [Text=difficult CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=TO] [Text=hear CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=VB] [Text=or CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=CC] [Text=understand CharacterOffsetBegin=156 CharacterOffsetEnd=166 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=dialogue CharacterOffsetBegin=171 CharacterOffsetEnd=179 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=:] [Text=partially CharacterOffsetBegin=183 CharacterOffsetEnd=192 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=193 CharacterOffsetEnd=200 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=DT] [Text=accents CharacterOffsetBegin=208 CharacterOffsetEnd=215 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=,] [Text=but CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=CC] [Text=also CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=IN] [Text=words CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=VBP] [Text=mumbled CharacterOffsetBegin=244 CharacterOffsetEnd=251 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.] 
+root(ROOT-0, difficult-5)
+advmod(difficult-5, Also-1)
+nsubj(difficult-5, it-2)
+cop(difficult-5, 's-3)
+advmod(difficult-5, very-4)
+aux(hear-7, to-6)
+xcomp(difficult-5, hear-7)
+cc(hear-7, or-8)
+conj(hear-7, understand-9)
+det(dialogue-11, the-10)
+dobj(hear-7, dialogue-11)
+punct(difficult-5, ---12)
+parataxis(difficult-5, partially-13)
+mwe(of-15, because-14)
+prep(partially-13, of-15)
+det(accents-17, the-16)
+pobj(of-15, accents-17)
+punct(partially-13, ,-18)
+cc(partially-13, but-19)
+advmod(mumbled-24, also-20)
+mark(mumbled-24, because-21)
+nsubj(mumbled-24, words-22)
+cop(mumbled-24, are-23)
+conj(partially-13, mumbled-24)
+punct(difficult-5, .-25)
+

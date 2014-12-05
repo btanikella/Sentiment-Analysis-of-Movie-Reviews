@@ -1,0 +1,75 @@
+Sentence #1 (8 tokens):
+I and a friend rented this movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=DT] [Text=friend CharacterOffsetBegin=12 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=rented CharacterOffsetBegin=19 CharacterOffsetEnd=25 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=.] 
+root(ROOT-0, rented-5)
+nsubj(rented-5, I-1)
+cc(I-1, and-2)
+det(friend-4, a-3)
+conj(I-1, friend-4)
+det(movie-7, this-6)
+dobj(rented-5, movie-7)
+punct(rented-5, .-8)
+
+Sentence #2 (13 tokens):
+We both found the movie soundtrack and production techniques to be lagging.
+[Text=We CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP] [Text=both CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=DT] [Text=found CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NN] [Text=soundtrack CharacterOffsetBegin=66 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=CC] [Text=production CharacterOffsetBegin=81 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=techniques CharacterOffsetBegin=92 CharacterOffsetEnd=102 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=VB] [Text=lagging CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=.] 
+root(ROOT-0, found-3)
+nsubj(found-3, We-1)
+dep(found-3, both-2)
+det(soundtrack-6, the-4)
+nn(soundtrack-6, movie-5)
+dobj(found-3, soundtrack-6)
+cc(soundtrack-6, and-7)
+nn(techniques-9, production-8)
+conj(soundtrack-6, techniques-9)
+aux(lagging-12, to-10)
+aux(lagging-12, be-11)
+infmod(soundtrack-6, lagging-12)
+punct(found-3, .-13)
+
+Sentence #3 (16 tokens):
+The movie's plot appeared to drag on throughout with little surprise in the ending.
+[Text=The CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=POS] [Text=plot CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=appeared CharacterOffsetBegin=139 CharacterOffsetEnd=147 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=TO] [Text=drag CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=RP] [Text=throughout CharacterOffsetBegin=159 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=IN] [Text=little CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=surprise CharacterOffsetBegin=182 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=198 CharacterOffsetEnd=204 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=.] 
+root(ROOT-0, appeared-5)
+det(movie-2, The-1)
+poss(plot-4, movie-2)
+possessive(movie-2, 's-3)
+nsubj(appeared-5, plot-4)
+aux(drag-7, to-6)
+xcomp(appeared-5, drag-7)
+prt(drag-7, on-8)
+prep(drag-7, throughout-9)
+pcomp(throughout-9, with-10)
+amod(surprise-12, little-11)
+pobj(with-10, surprise-12)
+prep(surprise-12, in-13)
+det(ending-15, the-14)
+pobj(in-13, ending-15)
+punct(appeared-5, .-16)
+
+Sentence #4 (22 tokens):
+We both agreed that the movie could have been compressed into roughly an hour giving it more suspense and moving plot.
+[Text=We CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=PRP] [Text=both CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=DT] [Text=agreed CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=could CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=VBN] [Text=compressed CharacterOffsetBegin=256 CharacterOffsetEnd=266 PartOfSpeech=VBN] [Text=into CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=IN] [Text=roughly CharacterOffsetBegin=272 CharacterOffsetEnd=279 PartOfSpeech=RB] [Text=an CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=DT] [Text=hour CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=giving CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=PRP] [Text=more CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=RBR] [Text=suspense CharacterOffsetBegin=303 CharacterOffsetEnd=311 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=CC] [Text=moving CharacterOffsetBegin=316 CharacterOffsetEnd=322 PartOfSpeech=VBG] [Text=plot CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=.] 
+root(ROOT-0, agreed-3)
+nsubj(agreed-3, We-1)
+dep(agreed-3, both-2)
+mark(compressed-10, that-4)
+det(movie-6, the-5)
+nsubj(compressed-10, movie-6)
+aux(compressed-10, could-7)
+aux(compressed-10, have-8)
+auxpass(compressed-10, been-9)
+ccomp(agreed-3, compressed-10)
+prep(compressed-10, into-11)
+advmod(hour-14, roughly-12)
+det(hour-14, an-13)
+pobj(into-11, hour-14)
+xcomp(compressed-10, giving-15)
+dobj(giving-15, it-16)
+advmod(suspense-18, more-17)
+dep(giving-15, suspense-18)
+cc(suspense-18, and-19)
+amod(plot-21, moving-20)
+conj(suspense-18, plot-21)
+punct(agreed-3, .-22)
+

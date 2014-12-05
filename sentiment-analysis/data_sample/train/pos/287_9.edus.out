@@ -1,0 +1,233 @@
+Sentence #1 (5 tokens):
+We loved the movie.
+[Text=We CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=.] 
+root(ROOT-0, loved-2)
+nsubj(loved-2, We-1)
+det(movie-4, the-3)
+dobj(loved-2, movie-4)
+punct(loved-2, .-5)
+
+Sentence #2 (9 tokens):
+I am a mother to two little men.
+[Text=I CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=mother CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=TO] [Text=two CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=CD] [Text=little CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=men CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=.] 
+root(ROOT-0, mother-4)
+nsubj(mother-4, I-1)
+cop(mother-4, am-2)
+det(mother-4, a-3)
+prep(mother-4, to-5)
+num(men-8, two-6)
+amod(men-8, little-7)
+pobj(to-5, men-8)
+punct(mother-4, .-9)
+
+Sentence #3 (17 tokens):
+I love having a movie I can watch with them where men have integrity and character.
+[Text=I CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VBP] [Text=having CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=MD] [Text=watch CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=PRP] [Text=where CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=WRB] [Text=men CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=VBP] [Text=integrity CharacterOffsetBegin=124 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=CC] [Text=character CharacterOffsetBegin=138 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+xcomp(love-2, having-3)
+det(movie-5, a-4)
+dobj(having-3, movie-5)
+nsubj(watch-8, I-6)
+aux(watch-8, can-7)
+rcmod(movie-5, watch-8)
+prep(watch-8, with-9)
+pobj(with-9, them-10)
+advmod(have-13, where-11)
+nsubj(have-13, men-12)
+rcmod(them-10, have-13)
+dobj(have-13, integrity-14)
+cc(integrity-14, and-15)
+conj(integrity-14, character-16)
+punct(love-2, .-17)
+
+Sentence #4 (10 tokens):
+Moveis where money is not the most important thing.
+[Text=Moveis CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=NNP] [Text=where CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=WRB] [Text=money CharacterOffsetBegin=166 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=RBS] [Text=important CharacterOffsetBegin=188 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=.] 
+root(ROOT-0, Moveis-1)
+advmod(thing-9, where-2)
+nsubj(thing-9, money-3)
+cop(thing-9, is-4)
+neg(thing-9, not-5)
+det(thing-9, the-6)
+advmod(important-8, most-7)
+amod(thing-9, important-8)
+rcmod(Moveis-1, thing-9)
+punct(Moveis-1, .-10)
+
+Sentence #5 (12 tokens):
+And family's are forever and love means more then words.
+[Text=And CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=CC] [Text=family CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=POS] [Text=are CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=VBP] [Text=forever CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=CC] [Text=love CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=VBP] [Text=means CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=JJR] [Text=then CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=RB] [Text=words CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=.] 
+root(ROOT-0, means-8)
+cc(means-8, And-1)
+poss(are-4, family-2)
+possessive(family-2, 's-3)
+nsubj(means-8, are-4)
+advmod(are-4, forever-5)
+cc(are-4, and-6)
+conj(are-4, love-7)
+amod(words-11, more-9)
+advmod(words-11, then-10)
+dobj(means-8, words-11)
+punct(means-8, .-12)
+
+Sentence #6 (11 tokens):
+I do wish we saw more of the Davis family.
+[Text=I CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=VBP] [Text=wish CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=VB] [Text=we CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=VBD] [Text=more CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=JJR] [Text=of CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=DT] [Text=Davis CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=NNP] [Text=family CharacterOffsetBegin=305 CharacterOffsetEnd=311 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=.] 
+root(ROOT-0, wish-3)
+nsubj(wish-3, I-1)
+aux(wish-3, do-2)
+nsubj(saw-5, we-4)
+ccomp(wish-3, saw-5)
+dobj(saw-5, more-6)
+prep(more-6, of-7)
+det(family-10, the-8)
+nn(family-10, Davis-9)
+pobj(of-7, family-10)
+punct(wish-3, .-11)
+
+Sentence #7 (23 tokens):
+But over all I loved it left me with the same feeling the others did "please don't be over".
+[Text=But CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=CC] [Text=over CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=I CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=PRP] [Text=left CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=JJ] [Text=feeling CharacterOffsetBegin=363 CharacterOffsetEnd=370 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=DT] [Text=others CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NNS] [Text=did CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=VBD] [Text=`` CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=``] [Text=please CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=VB] [Text=do CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=VB] [Text=over CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=RB] [Text='' CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=''] [Text=. CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=.] 
+root(ROOT-0, loved-5)
+cc(loved-5, But-1)
+prep(loved-5, over-2)
+pobj(over-2, all-3)
+nsubj(loved-5, I-4)
+nsubj(left-7, it-6)
+ccomp(loved-5, left-7)
+dobj(left-7, me-8)
+prep(left-7, with-9)
+det(feeling-12, the-10)
+amod(feeling-12, same-11)
+pcomp(with-9, feeling-12)
+det(others-14, the-13)
+nsubj(be-20, others-14)
+aux(be-20, did-15)
+punct(be-20, ``-16)
+nsubj(be-20, please-17)
+aux(be-20, do-18)
+neg(be-20, n't-19)
+ccomp(feeling-12, be-20)
+advmod(be-20, over-21)
+punct(be-20, ''-22)
+punct(loved-5, .-23)
+
+Sentence #8 (22 tokens):
+We both wish actors would not change.The new actors were good replacement tho.My 9 year old son loved this movie too.
+[Text=We CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=PRP] [Text=both CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=DT] [Text=wish CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=NN] [Text=actors CharacterOffsetBegin=427 CharacterOffsetEnd=433 PartOfSpeech=NNS] [Text=would CharacterOffsetBegin=434 CharacterOffsetEnd=439 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=RB] [Text=change.The CharacterOffsetBegin=444 CharacterOffsetEnd=454 PartOfSpeech=VB] [Text=new CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=VBD] [Text=good CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=JJ] [Text=replacement CharacterOffsetBegin=476 CharacterOffsetEnd=487 PartOfSpeech=NN] [Text=tho.My CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=NN] [Text=9 CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=CD] [Text=year CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=NN] [Text=old CharacterOffsetBegin=502 CharacterOffsetEnd=505 PartOfSpeech=JJ] [Text=son CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=NN] [Text=loved CharacterOffsetBegin=510 CharacterOffsetEnd=515 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=516 CharacterOffsetEnd=520 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=521 CharacterOffsetEnd=526 PartOfSpeech=NN] [Text=too CharacterOffsetBegin=527 CharacterOffsetEnd=530 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=.] 
+root(ROOT-0, loved-18)
+nsubj(wish-3, We-1)
+dep(wish-3, both-2)
+csubj(son-17, wish-3)
+nsubj(change.The-7, actors-4)
+aux(change.The-7, would-5)
+neg(change.The-7, not-6)
+ccomp(wish-3, change.The-7)
+amod(actors-9, new-8)
+dobj(change.The-7, actors-9)
+cop(son-17, were-10)
+amod(son-17, good-11)
+nn(son-17, replacement-12)
+nn(son-17, tho.My-13)
+num(year-15, 9-14)
+nn(son-17, year-15)
+amod(son-17, old-16)
+nsubj(loved-18, son-17)
+det(movie-20, this-19)
+dobj(loved-18, movie-20)
+advmod(loved-18, too-21)
+punct(loved-18, .-22)
+
+Sentence #9 (8 tokens):
+asked me to go buy them all.
+[Text=asked CharacterOffsetBegin=536 CharacterOffsetEnd=541 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=VB] [Text=buy CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=.] 
+root(ROOT-0, asked-1)
+dobj(asked-1, me-2)
+aux(go-4, to-3)
+xcomp(asked-1, go-4)
+acomp(go-4, buy-5)
+dobj(buy-5, them-6)
+dep(buy-5, all-7)
+punct(asked-1, .-8)
+
+Sentence #10 (15 tokens):
+He is a movie critic so for him to say this tells me something.
+[Text=He CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=577 CharacterOffsetEnd=582 PartOfSpeech=NN] [Text=critic CharacterOffsetBegin=583 CharacterOffsetEnd=589 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=590 CharacterOffsetEnd=592 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=608 CharacterOffsetEnd=612 PartOfSpeech=DT] [Text=tells CharacterOffsetBegin=613 CharacterOffsetEnd=618 PartOfSpeech=VBZ] [Text=me CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=PRP] [Text=something CharacterOffsetBegin=622 CharacterOffsetEnd=631 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=.] 
+root(ROOT-0, critic-5)
+nsubj(critic-5, He-1)
+cop(critic-5, is-2)
+det(critic-5, a-3)
+nn(critic-5, movie-4)
+advmod(for-7, so-6)
+prep(critic-5, for-7)
+nsubj(say-10, him-8)
+aux(say-10, to-9)
+pcomp(for-7, say-10)
+nsubj(tells-12, this-11)
+ccomp(say-10, tells-12)
+iobj(tells-12, me-13)
+dobj(tells-12, something-14)
+punct(critic-5, .-15)
+
+Sentence #11 (11 tokens):
+Family should all see this move buy it for friends .
+[Text=Family CharacterOffsetBegin=637 CharacterOffsetEnd=643 PartOfSpeech=NNP] [Text=should CharacterOffsetBegin=644 CharacterOffsetEnd=650 PartOfSpeech=MD] [Text=all CharacterOffsetBegin=651 CharacterOffsetEnd=654 PartOfSpeech=DT] [Text=see CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=DT] [Text=move CharacterOffsetBegin=664 CharacterOffsetEnd=668 PartOfSpeech=NN] [Text=buy CharacterOffsetBegin=669 CharacterOffsetEnd=672 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=IN] [Text=friends CharacterOffsetBegin=680 CharacterOffsetEnd=687 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=.] 
+root(ROOT-0, see-4)
+nsubj(see-4, Family-1)
+aux(see-4, should-2)
+nsubj(see-4, all-3)
+det(move-6, this-5)
+nsubj(buy-7, move-6)
+ccomp(see-4, buy-7)
+dobj(buy-7, it-8)
+prep(buy-7, for-9)
+pobj(for-9, friends-10)
+punct(see-4, .-11)
+
+Sentence #12 (8 tokens):
+Help bring back a time of values.
+[Text=Help CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=VB] [Text=bring CharacterOffsetBegin=699 CharacterOffsetEnd=704 PartOfSpeech=VB] [Text=back CharacterOffsetBegin=705 CharacterOffsetEnd=709 PartOfSpeech=RP] [Text=a CharacterOffsetBegin=710 CharacterOffsetEnd=711 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=712 CharacterOffsetEnd=716 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=717 CharacterOffsetEnd=719 PartOfSpeech=IN] [Text=values CharacterOffsetBegin=720 CharacterOffsetEnd=726 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=726 CharacterOffsetEnd=727 PartOfSpeech=.] 
+root(ROOT-0, bring-2)
+nsubj(bring-2, Help-1)
+prt(bring-2, back-3)
+det(time-5, a-4)
+dobj(bring-2, time-5)
+prep(time-5, of-6)
+pobj(of-6, values-7)
+punct(bring-2, .-8)
+
+Sentence #13 (12 tokens):
+We will be Reading the books now that we are hooked.
+[Text=We CharacterOffsetBegin=732 CharacterOffsetEnd=734 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=735 CharacterOffsetEnd=739 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=740 CharacterOffsetEnd=742 PartOfSpeech=VB] [Text=Reading CharacterOffsetBegin=743 CharacterOffsetEnd=750 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=DT] [Text=books CharacterOffsetBegin=755 CharacterOffsetEnd=760 PartOfSpeech=NNS] [Text=now CharacterOffsetBegin=761 CharacterOffsetEnd=764 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=765 CharacterOffsetEnd=769 PartOfSpeech=IN] [Text=we CharacterOffsetBegin=770 CharacterOffsetEnd=772 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=VBP] [Text=hooked CharacterOffsetBegin=777 CharacterOffsetEnd=783 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=783 CharacterOffsetEnd=784 PartOfSpeech=.] 
+root(ROOT-0, Reading-4)
+nsubj(Reading-4, We-1)
+aux(Reading-4, will-2)
+aux(Reading-4, be-3)
+det(books-6, the-5)
+dobj(Reading-4, books-6)
+advmod(Reading-4, now-7)
+mark(hooked-11, that-8)
+nsubj(hooked-11, we-9)
+cop(hooked-11, are-10)
+ccomp(Reading-4, hooked-11)
+punct(Reading-4, .-12)
+
+Sentence #14 (6 tokens):
+really hope to see more.
+[Text=really CharacterOffsetBegin=789 CharacterOffsetEnd=795 PartOfSpeech=RB] [Text=hope CharacterOffsetBegin=796 CharacterOffsetEnd=800 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=801 CharacterOffsetEnd=803 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=804 CharacterOffsetEnd=807 PartOfSpeech=VB] [Text=more CharacterOffsetBegin=808 CharacterOffsetEnd=812 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=812 CharacterOffsetEnd=813 PartOfSpeech=.] 
+root(ROOT-0, hope-2)
+advmod(hope-2, really-1)
+aux(see-4, to-3)
+xcomp(hope-2, see-4)
+dobj(see-4, more-5)
+punct(hope-2, .-6)
+
+Sentence #15 (4 tokens):
+Be Blessed happy moving
+[Text=Be CharacterOffsetBegin=818 CharacterOffsetEnd=820 PartOfSpeech=VB] [Text=Blessed CharacterOffsetBegin=821 CharacterOffsetEnd=828 PartOfSpeech=JJ] [Text=happy CharacterOffsetBegin=829 CharacterOffsetEnd=834 PartOfSpeech=JJ] [Text=moving CharacterOffsetBegin=835 CharacterOffsetEnd=841 PartOfSpeech=NN] 
+root(ROOT-0, Be-1)
+amod(moving-4, Blessed-2)
+amod(moving-4, happy-3)
+dep(Be-1, moving-4)
+

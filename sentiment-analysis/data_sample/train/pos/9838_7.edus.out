@@ -1,0 +1,193 @@
+Sentence #1 (10 tokens):
+Born Again is a okay episode of Season 1.
+[Text=Born CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text=Again CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=DT] [Text=okay CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=episode CharacterOffsetBegin=25 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=Season CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=1 CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.] 
+root(ROOT-0, episode-6)
+nn(Again-2, Born-1)
+nsubj(episode-6, Again-2)
+cop(episode-6, is-3)
+det(episode-6, a-4)
+amod(episode-6, okay-5)
+prep(episode-6, of-7)
+pobj(of-7, Season-8)
+num(Season-8, 1-9)
+punct(episode-6, .-10)
+
+Sentence #2 (11 tokens):
+The reincarnation bit, in my opinion, is cool.
+[Text=The CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=DT] [Text=reincarnation CharacterOffsetBegin=54 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=bit CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=,] [Text=in CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=PRP$] [Text=opinion CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=,] [Text=is CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=VBZ] [Text=cool CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=.] 
+root(ROOT-0, cool-10)
+det(bit-3, The-1)
+nn(bit-3, reincarnation-2)
+nsubj(cool-10, bit-3)
+punct(cool-10, ,-4)
+prep(cool-10, in-5)
+poss(opinion-7, my-6)
+pobj(in-5, opinion-7)
+punct(cool-10, ,-8)
+cop(cool-10, is-9)
+punct(cool-10, .-11)
+
+Sentence #3 (25 tokens):
+The more I watch it, the more I like it, yet it will never rise above 'Very Good' for me.
+[Text=The CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=JJR] [Text=I CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text=watch CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=,] [Text=the CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=RBR] [Text=I CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=,] [Text=yet CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=RB] [Text=rise CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=VB] [Text=above CharacterOffsetBegin=165 CharacterOffsetEnd=170 PartOfSpeech=IN] [Text=` CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=``] [Text=Very CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=RB] [Text=Good CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=''] [Text=for CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=.] 
+root(ROOT-0, like-10)
+det(more-2, The-1)
+dep(watch-4, more-2)
+nsubj(watch-4, I-3)
+advcl(like-10, watch-4)
+dobj(watch-4, it-5)
+punct(like-10, ,-6)
+det(more-8, the-7)
+dep(like-10, more-8)
+nsubj(like-10, I-9)
+dobj(like-10, it-11)
+punct(like-10, ,-12)
+advmod(rise-17, yet-13)
+nsubj(rise-17, it-14)
+aux(rise-17, will-15)
+neg(rise-17, never-16)
+dep(like-10, rise-17)
+prep(rise-17, above-18)
+punct(above-18, `-19)
+pobj(above-18, Very-20)
+amod(Very-20, Good-21)
+punct(Good-21, '-22)
+prep(Very-20, for-23)
+pobj(for-23, me-24)
+punct(like-10, .-25)
+
+Sentence #4 (18 tokens):
+Even though it is not very memorable, i'll always remember it as the reincarnation episode.
+[Text=Even CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=RB] [Text=memorable CharacterOffsetBegin=222 CharacterOffsetEnd=231 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=,] [Text=i CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=FW] [Text='ll CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=MD] [Text=always CharacterOffsetBegin=238 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=remember CharacterOffsetBegin=245 CharacterOffsetEnd=253 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=PRP] [Text=as CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=DT] [Text=reincarnation CharacterOffsetBegin=264 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=episode CharacterOffsetBegin=278 CharacterOffsetEnd=285 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.] 
+root(ROOT-0, remember-12)
+advmod(memorable-7, Even-1)
+mark(memorable-7, though-2)
+nsubj(memorable-7, it-3)
+cop(memorable-7, is-4)
+neg(memorable-7, not-5)
+advmod(memorable-7, very-6)
+advcl(remember-12, memorable-7)
+punct(remember-12, ,-8)
+nsubj(remember-12, i-9)
+aux(remember-12, 'll-10)
+advmod(remember-12, always-11)
+dobj(remember-12, it-13)
+prep(remember-12, as-14)
+det(episode-17, the-15)
+nn(episode-17, reincarnation-16)
+pobj(as-14, episode-17)
+punct(remember-12, .-18)
+
+Sentence #5 (20 tokens):
+Anyway, now I will say what is good and bad about this episode,The Good: Oragami.
+[Text=Anyway CharacterOffsetBegin=291 CharacterOffsetEnd=297 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=,] [Text=now CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=MD] [Text=say CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=CC] [Text=bad CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=DT] [Text=episode CharacterOffsetBegin=346 CharacterOffsetEnd=353 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=,] [Text=The CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=Good CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=JJ] [Text=: CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=:] [Text=Oragami CharacterOffsetBegin=364 CharacterOffsetEnd=371 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=.] 
+root(ROOT-0, say-6)
+advmod(say-6, Anyway-1)
+punct(say-6, ,-2)
+advmod(say-6, now-3)
+nsubj(say-6, I-4)
+aux(say-6, will-5)
+nsubj(good-9, what-7)
+cop(good-9, is-8)
+ccomp(say-6, good-9)
+cc(good-9, and-10)
+conj(good-9, bad-11)
+prep(good-9, about-12)
+det(episode-14, this-13)
+pobj(about-12, episode-14)
+punct(say-6, ,-15)
+det(Good-17, The-16)
+dep(say-6, Good-17)
+punct(Good-17, :-18)
+dep(Good-17, Oragami-19)
+punct(say-6, .-20)
+
+Sentence #6 (7 tokens):
+Oh Yeah!That Fish tank was nice.
+[Text=Oh CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=UH] [Text=Yeah!That CharacterOffsetBegin=380 CharacterOffsetEnd=389 PartOfSpeech=NNP] [Text=Fish CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=NN] [Text=tank CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=VBD] [Text=nice CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=.] 
+root(ROOT-0, nice-6)
+nn(tank-4, Oh-1)
+nn(tank-4, Yeah!That-2)
+nn(tank-4, Fish-3)
+nsubj(nice-6, tank-4)
+cop(nice-6, was-5)
+punct(nice-6, .-7)
+
+Sentence #7 (8 tokens):
+=]Thrown out of a window.
+[Text== CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=JJ] [Text=-RSB- CharacterOffsetBegin=415 CharacterOffsetEnd=416 PartOfSpeech=-RRB-] [Text=Thrown CharacterOffsetBegin=416 CharacterOffsetEnd=422 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=DT] [Text=window CharacterOffsetBegin=432 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=.] 
+root(ROOT-0, Thrown-3)
+amod(Thrown-3, =-1)
+punct(Thrown-3, -RSB--2)
+prep(Thrown-3, out-4)
+pcomp(out-4, of-5)
+det(window-7, a-6)
+pobj(of-5, window-7)
+punct(Thrown-3, .-8)
+
+Sentence #8 (3 tokens):
+Very classy.
+[Text=Very CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=RB] [Text=classy CharacterOffsetBegin=449 CharacterOffsetEnd=455 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=.] 
+root(ROOT-0, classy-2)
+advmod(classy-2, Very-1)
+punct(classy-2, .-3)
+
+Sentence #9 (12 tokens):
+x]The Bad: Marry your Best Friend's wife!?
+[Text=x CharacterOffsetBegin=461 CharacterOffsetEnd=462 PartOfSpeech=NN] [Text=-RSB- CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=-RRB-] [Text=The CharacterOffsetBegin=463 CharacterOffsetEnd=466 PartOfSpeech=DT] [Text=Bad CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=:] [Text=Marry CharacterOffsetBegin=472 CharacterOffsetEnd=477 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=PRP$] [Text=Best CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=JJS] [Text=Friend CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=POS] [Text=wife CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=NN] [Text=!? CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=NN] 
+root(ROOT-0, Bad-4)
+nn(Bad-4, x-1)
+punct(Bad-4, -RSB--2)
+det(Bad-4, The-3)
+punct(Bad-4, :-5)
+dep(Bad-4, Marry-6)
+poss(Friend-9, your-7)
+amod(Friend-9, Best-8)
+poss(wife-11, Friend-9)
+possessive(Friend-9, 's-10)
+dobj(Marry-6, wife-11)
+dep(wife-11, !?-12)
+
+Sentence #10 (34 tokens):
+O_OWhat a random pick to reincarnate.Why didn't the guy who died by having his scarf tangled up, try to take his scarf off instead?Conclusion: Okay episode, not very memorable.
+[Text=O_OWhat CharacterOffsetBegin=508 CharacterOffsetEnd=515 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=516 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=random CharacterOffsetBegin=518 CharacterOffsetEnd=524 PartOfSpeech=JJ] [Text=pick CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=TO] [Text=reincarnate.Why CharacterOffsetBegin=533 CharacterOffsetEnd=548 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=564 CharacterOffsetEnd=567 PartOfSpeech=WP] [Text=died CharacterOffsetBegin=568 CharacterOffsetEnd=572 PartOfSpeech=VBD] [Text=by CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=IN] [Text=having CharacterOffsetBegin=576 CharacterOffsetEnd=582 PartOfSpeech=VBG] [Text=his CharacterOffsetBegin=583 CharacterOffsetEnd=586 PartOfSpeech=PRP$] [Text=scarf CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=NN] [Text=tangled CharacterOffsetBegin=593 CharacterOffsetEnd=600 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=RP] [Text=, CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=,] [Text=try CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=TO] [Text=take CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=PRP$] [Text=scarf CharacterOffsetBegin=621 CharacterOffsetEnd=626 PartOfSpeech=NN] [Text=off CharacterOffsetBegin=627 CharacterOffsetEnd=630 PartOfSpeech=IN] [Text=instead?Conclusion CharacterOffsetBegin=631 CharacterOffsetEnd=649 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=649 CharacterOffsetEnd=650 PartOfSpeech=:] [Text=Okay CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=UH] [Text=episode CharacterOffsetBegin=656 CharacterOffsetEnd=663 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=663 CharacterOffsetEnd=664 PartOfSpeech=,] [Text=not CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=RB] [Text=memorable CharacterOffsetBegin=674 CharacterOffsetEnd=683 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=683 CharacterOffsetEnd=684 PartOfSpeech=.] 
+root(ROOT-0, guy-10)
+dep(guy-10, O_OWhat-1)
+det(pick-4, a-2)
+amod(pick-4, random-3)
+nsubj(guy-10, pick-4)
+prep(pick-4, to-5)
+pobj(to-5, reincarnate.Why-6)
+aux(guy-10, did-7)
+neg(guy-10, n't-8)
+det(guy-10, the-9)
+nsubj(died-12, who-11)
+rcmod(guy-10, died-12)
+prep(died-12, by-13)
+pcomp(by-13, having-14)
+poss(scarf-16, his-15)
+nsubj(tangled-17, scarf-16)
+ccomp(having-14, tangled-17)
+prt(tangled-17, up-18)
+punct(guy-10, ,-19)
+appos(guy-10, try-20)
+aux(take-22, to-21)
+xcomp(try-20, take-22)
+poss(scarf-24, his-23)
+dobj(take-22, scarf-24)
+prep(take-22, off-25)
+pobj(off-25, instead?Conclusion-26)
+punct(guy-10, :-27)
+nn(episode-29, Okay-28)
+dobj(guy-10, episode-29)
+punct(episode-29, ,-30)
+neg(episode-29, not-31)
+advmod(memorable-33, very-32)
+amod(episode-29, memorable-33)
+punct(guy-10, .-34)
+
+Sentence #11 (1 tokens):
+7/10
+[Text=7/10 CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=CD] 
+root(ROOT-0, 7/10-1)
+

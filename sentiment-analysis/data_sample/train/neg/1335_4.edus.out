@@ -1,0 +1,120 @@
+Sentence #1 (5 tokens):
+This movie was awesome!!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=awesome CharacterOffsetBegin=19 CharacterOffsetEnd=26 PartOfSpeech=JJ] [Text=!! CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=NN] 
+root(ROOT-0, awesome-4)
+det(movie-2, This-1)
+nsubj(awesome-4, movie-2)
+cop(awesome-4, was-3)
+dep(awesome-4, !!-5)
+
+Sentence #2 (16 tokens):
+(Not quite as good as the Leif Garrett masterpiece Longshot) but still awesome!!
+[Text=-LRB- CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=-LRB-] [Text=Not CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=RB] [Text=quite CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=DT] [Text=Leif CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=NNP] [Text=Garrett CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=NNP] [Text=masterpiece CharacterOffsetBegin=72 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=Longshot CharacterOffsetBegin=84 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=-RRB-] [Text=but CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=CC] [Text=still CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=RB] [Text=awesome CharacterOffsetBegin=104 CharacterOffsetEnd=111 PartOfSpeech=JJ] [Text=!! CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=IN] 
+root(ROOT-0, good-5)
+punct(good-5, -LRB--1)
+neg(good-5, Not-2)
+advmod(good-5, quite-3)
+advmod(good-5, as-4)
+prep(good-5, as-6)
+det(Longshot-11, the-7)
+nn(Longshot-11, Leif-8)
+nn(Longshot-11, Garrett-9)
+nn(Longshot-11, masterpiece-10)
+pobj(as-6, Longshot-11)
+punct(good-5, -RRB--12)
+cc(good-5, but-13)
+advmod(awesome-15, still-14)
+conj(good-5, awesome-15)
+dep(good-5, !!-16)
+
+Sentence #3 (14 tokens):
+I thought Ashley looked freakin' huge compared to Mary-Kate in this film.
+[Text=I CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=VBD] [Text=Ashley CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=NNP] [Text=looked CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=VBD] [Text=freakin CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=VBG] [Text=' CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=''] [Text=huge CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=JJ] [Text=compared CharacterOffsetBegin=156 CharacterOffsetEnd=164 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=TO] [Text=Mary-Kate CharacterOffsetBegin=168 CharacterOffsetEnd=177 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+nsubj(looked-4, Ashley-3)
+ccomp(thought-2, looked-4)
+xcomp(looked-4, freakin-5)
+punct(freakin-5, '-6)
+amod(freakin-5, huge-7)
+prep(huge-7, compared-8)
+pcomp(compared-8, to-9)
+pobj(to-9, Mary-Kate-10)
+prep(Mary-Kate-10, in-11)
+det(film-13, this-12)
+pobj(in-11, film-13)
+punct(thought-2, .-14)
+
+Sentence #4 (4 tokens):
+I wonder why.
+[Text=I CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=PRP] [Text=wonder CharacterOffsetBegin=198 CharacterOffsetEnd=204 PartOfSpeech=VBP] [Text=why CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=WRB] [Text=. CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=.] 
+root(ROOT-0, wonder-2)
+nsubj(wonder-2, I-1)
+dep(wonder-2, why-3)
+punct(wonder-2, .-4)
+
+Sentence #5 (16 tokens):
+Who woulda thought they could swith places like that and almost get away with it.
+[Text=Who CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=WP] [Text=woulda CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=RB] [Text=thought CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=MD] [Text=swith CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=VB] [Text=places CharacterOffsetBegin=250 CharacterOffsetEnd=256 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=DT] [Text=and CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=CC] [Text=almost CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=VB] [Text=away CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=.] 
+root(ROOT-0, thought-3)
+nsubj(thought-3, Who-1)
+advmod(thought-3, woulda-2)
+nsubj(swith-6, they-4)
+aux(swith-6, could-5)
+ccomp(thought-3, swith-6)
+dobj(swith-6, places-7)
+prep(places-7, like-8)
+pobj(like-8, that-9)
+cc(thought-3, and-10)
+advmod(get-12, almost-11)
+conj(thought-3, get-12)
+advmod(get-12, away-13)
+prep(get-12, with-14)
+pobj(with-14, it-15)
+punct(thought-3, .-16)
+
+Sentence #6 (17 tokens):
+Dad was kinda a jerk though and Mom was a little too chummy with Helmit Head.
+[Text=Dad CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=VBD] [Text=kinda CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=DT] [Text=jerk CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=NN] [Text=though CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=CC] [Text=Mom CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=342 CharacterOffsetEnd=348 PartOfSpeech=JJ] [Text=too CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=RB] [Text=chummy CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=IN] [Text=Helmit CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=NNP] [Text=Head CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=376 CharacterOffsetEnd=377 PartOfSpeech=.] 
+root(ROOT-0, kinda-3)
+nsubjpass(kinda-3, Dad-1)
+auxpass(kinda-3, was-2)
+det(jerk-5, a-4)
+dobj(kinda-3, jerk-5)
+mark(little-11, though-6)
+cc(though-6, and-7)
+conj(though-6, Mom-8)
+cop(little-11, was-9)
+det(little-11, a-10)
+advcl(kinda-3, little-11)
+advmod(chummy-13, too-12)
+amod(little-11, chummy-13)
+prep(chummy-13, with-14)
+nn(Head-16, Helmit-15)
+pobj(with-14, Head-16)
+punct(kinda-3, .-17)
+
+Sentence #7 (5 tokens):
+I give it 4.
+[Text=I CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=PRP] [Text=give CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=PRP] [Text=4 CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=LS] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.] 
+root(ROOT-0, give-2)
+nsubj(give-2, I-1)
+dobj(give-2, it-3)
+dep(give-2, 4-4)
+punct(give-2, .-5)
+
+Sentence #8 (11 tokens):
+Any one who likes this movie shoudl check out Longshot.
+[Text=Any CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=CD] [Text=who CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=WP] [Text=likes CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=422 CharacterOffsetEnd=427 PartOfSpeech=NN] [Text=shoudl CharacterOffsetBegin=428 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=check CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=RP] [Text=Longshot CharacterOffsetBegin=445 CharacterOffsetEnd=453 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=.] 
+root(ROOT-0, one-2)
+det(one-2, Any-1)
+nsubj(likes-4, who-3)
+rcmod(one-2, likes-4)
+det(shoudl-7, this-5)
+nn(shoudl-7, movie-6)
+nsubj(check-8, shoudl-7)
+xcomp(likes-4, check-8)
+prt(check-8, out-9)
+dobj(check-8, Longshot-10)
+punct(one-2, .-11)
+

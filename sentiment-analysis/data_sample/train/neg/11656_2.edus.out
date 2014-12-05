@@ -1,0 +1,222 @@
+Sentence #1 (8 tokens):
+Scary Movie 2 was a grave disappointment.
+[Text=Scary CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=JJ] [Text=Movie CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=NN] [Text=2 CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=CD] [Text=was CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=grave CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=JJ] [Text=disappointment CharacterOffsetBegin=30 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.] 
+root(ROOT-0, disappointment-7)
+dep(disappointment-7, Scary-1)
+nsubj(disappointment-7, Movie-2)
+num(Movie-2, 2-3)
+cop(disappointment-7, was-4)
+det(disappointment-7, a-5)
+amod(disappointment-7, grave-6)
+punct(disappointment-7, .-8)
+
+Sentence #2 (14 tokens):
+Simply referencing movies, like Mission Impossible 2 does not lead to comedy.
+[Text=Simply CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=RB] [Text=referencing CharacterOffsetBegin=57 CharacterOffsetEnd=68 PartOfSpeech=VBG] [Text=movies CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=,] [Text=like CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=Mission CharacterOffsetBegin=82 CharacterOffsetEnd=89 PartOfSpeech=NNP] [Text=Impossible CharacterOffsetBegin=90 CharacterOffsetEnd=100 PartOfSpeech=JJ] [Text=2 CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=CD] [Text=does CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=RB] [Text=lead CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=TO] [Text=comedy CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=.] 
+root(ROOT-0, movies-3)
+amod(movies-3, Simply-1)
+nn(movies-3, referencing-2)
+punct(movies-3, ,-4)
+prep(movies-3, like-5)
+pobj(like-5, Mission-6)
+nsubj(lead-11, Impossible-7)
+num(Impossible-7, 2-8)
+aux(lead-11, does-9)
+neg(lead-11, not-10)
+rcmod(Mission-6, lead-11)
+prep(lead-11, to-12)
+pobj(to-12, comedy-13)
+punct(movies-3, .-14)
+
+Sentence #3 (23 tokens):
+The movie opens well enough with a funny white people rapping scene and an excellent use of James Woods ands Andy Richter.
+[Text=The CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=NN] [Text=opens CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=VBZ] [Text=well CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=DT] [Text=funny CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=JJ] [Text=white CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NNS] [Text=rapping CharacterOffsetBegin=186 CharacterOffsetEnd=193 PartOfSpeech=VBG] [Text=scene CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=CC] [Text=an CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=excellent CharacterOffsetBegin=207 CharacterOffsetEnd=216 PartOfSpeech=JJ] [Text=use CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=IN] [Text=James CharacterOffsetBegin=224 CharacterOffsetEnd=229 PartOfSpeech=NNP] [Text=Woods CharacterOffsetBegin=230 CharacterOffsetEnd=235 PartOfSpeech=NNP] [Text=ands CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=VBZ] [Text=Andy CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=NNP] [Text=Richter CharacterOffsetBegin=246 CharacterOffsetEnd=253 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=.] 
+root(ROOT-0, opens-3)
+det(movie-2, The-1)
+nsubj(opens-3, movie-2)
+advmod(enough-5, well-4)
+advmod(opens-3, enough-5)
+prep(opens-3, with-6)
+det(people-10, a-7)
+amod(people-10, funny-8)
+amod(people-10, white-9)
+nsubj(scene-12, people-10)
+nn(scene-12, rapping-11)
+pobj(with-6, scene-12)
+cc(scene-12, and-13)
+det(use-16, an-14)
+amod(use-16, excellent-15)
+conj(scene-12, use-16)
+prep(use-16, of-17)
+nn(Woods-19, James-18)
+nn(Richter-22, Woods-19)
+nn(Richter-22, ands-20)
+nn(Richter-22, Andy-21)
+pobj(of-17, Richter-22)
+punct(opens-3, .-23)
+
+Sentence #4 (7 tokens):
+The movie plummets from there unfortunately.
+[Text=The CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=plummets CharacterOffsetBegin=269 CharacterOffsetEnd=277 PartOfSpeech=VBZ] [Text=from CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=283 CharacterOffsetEnd=288 PartOfSpeech=EX] [Text=unfortunately CharacterOffsetBegin=289 CharacterOffsetEnd=302 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=.] 
+root(ROOT-0, plummets-3)
+det(movie-2, The-1)
+nsubj(plummets-3, movie-2)
+prep(plummets-3, from-4)
+expl(unfortunately-6, there-5)
+pcomp(from-4, unfortunately-6)
+punct(plummets-3, .-7)
+
+Sentence #5 (5 tokens):
+The acting is awful.
+[Text=The CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=VBZ] [Text=awful CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=.] 
+root(ROOT-0, awful-4)
+det(acting-2, The-1)
+nsubj(awful-4, acting-2)
+cop(awful-4, is-3)
+punct(awful-4, .-5)
+
+Sentence #6 (10 tokens):
+Tori Spelling looks and acts completely out of place.
+[Text=Tori CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NNP] [Text=Spelling CharacterOffsetBegin=338 CharacterOffsetEnd=346 PartOfSpeech=NNP] [Text=looks CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=VBZ] [Text=and CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=CC] [Text=acts CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=VBZ] [Text=completely CharacterOffsetBegin=362 CharacterOffsetEnd=372 PartOfSpeech=RB] [Text=out CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=place CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=.] 
+root(ROOT-0, looks-3)
+nn(Spelling-2, Tori-1)
+nsubj(looks-3, Spelling-2)
+cc(looks-3, and-4)
+conj(looks-3, acts-5)
+advmod(acts-5, completely-6)
+prep(acts-5, out-7)
+pcomp(out-7, of-8)
+pobj(of-8, place-9)
+punct(looks-3, .-10)
+
+Sentence #7 (11 tokens):
+The movie looks hacked together and is surprisingly slow paced.
+[Text=The CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=looks CharacterOffsetBegin=401 CharacterOffsetEnd=406 PartOfSpeech=VBZ] [Text=hacked CharacterOffsetBegin=407 CharacterOffsetEnd=413 PartOfSpeech=VBN] [Text=together CharacterOffsetBegin=414 CharacterOffsetEnd=422 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=VBZ] [Text=surprisingly CharacterOffsetBegin=430 CharacterOffsetEnd=442 PartOfSpeech=RB] [Text=slow CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=JJ] [Text=paced CharacterOffsetBegin=448 CharacterOffsetEnd=453 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=.] 
+root(ROOT-0, looks-3)
+det(movie-2, The-1)
+nsubj(looks-3, movie-2)
+dep(looks-3, hacked-4)
+advmod(hacked-4, together-5)
+cc(hacked-4, and-6)
+cop(slow-9, is-7)
+advmod(slow-9, surprisingly-8)
+conj(hacked-4, slow-9)
+dep(slow-9, paced-10)
+punct(looks-3, .-11)
+
+Sentence #8 (29 tokens):
+Some of the longer gags in this snail paced movie, involving joints and a previously mentioned Tom Cruise movie, werent funny to anyone in my theater.
+[Text=Some CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=464 CharacterOffsetEnd=466 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=DT] [Text=longer CharacterOffsetBegin=471 CharacterOffsetEnd=477 PartOfSpeech=JJR] [Text=gags CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=486 CharacterOffsetEnd=490 PartOfSpeech=DT] [Text=snail CharacterOffsetBegin=491 CharacterOffsetEnd=496 PartOfSpeech=NN] [Text=paced CharacterOffsetBegin=497 CharacterOffsetEnd=502 PartOfSpeech=VBD] [Text=movie CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=,] [Text=involving CharacterOffsetBegin=510 CharacterOffsetEnd=519 PartOfSpeech=VBG] [Text=joints CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=527 CharacterOffsetEnd=530 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=DT] [Text=previously CharacterOffsetBegin=533 CharacterOffsetEnd=543 PartOfSpeech=RB] [Text=mentioned CharacterOffsetBegin=544 CharacterOffsetEnd=553 PartOfSpeech=VBN] [Text=Tom CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=NNP] [Text=Cruise CharacterOffsetBegin=558 CharacterOffsetEnd=564 PartOfSpeech=NNP] [Text=movie CharacterOffsetBegin=565 CharacterOffsetEnd=570 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=,] [Text=werent CharacterOffsetBegin=572 CharacterOffsetEnd=578 PartOfSpeech=JJ] [Text=funny CharacterOffsetBegin=579 CharacterOffsetEnd=584 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=TO] [Text=anyone CharacterOffsetBegin=588 CharacterOffsetEnd=594 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=595 CharacterOffsetEnd=597 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=598 CharacterOffsetEnd=600 PartOfSpeech=PRP$] [Text=theater CharacterOffsetBegin=601 CharacterOffsetEnd=608 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=.] 
+root(ROOT-0, Some-1)
+prep(Some-1, of-2)
+det(gags-5, the-3)
+amod(gags-5, longer-4)
+pobj(of-2, gags-5)
+prep(gags-5, in-6)
+det(movie-10, this-7)
+nn(movie-10, snail-8)
+nn(movie-10, paced-9)
+pobj(in-6, movie-10)
+punct(Some-1, ,-11)
+partmod(Some-1, involving-12)
+dobj(involving-12, joints-13)
+cc(joints-13, and-14)
+det(movie-20, a-15)
+advmod(mentioned-17, previously-16)
+amod(movie-20, mentioned-17)
+nn(movie-20, Tom-18)
+nn(movie-20, Cruise-19)
+conj(joints-13, movie-20)
+punct(joints-13, ,-21)
+amod(funny-23, werent-22)
+conj(joints-13, funny-23)
+prep(funny-23, to-24)
+pobj(to-24, anyone-25)
+prep(anyone-25, in-26)
+poss(theater-28, my-27)
+pobj(in-26, theater-28)
+punct(Some-1, .-29)
+
+Sentence #9 (19 tokens):
+The movie, thankfully, comes screeching to a halt at 83 minutes in a shockingly unfunny ending.
+[Text=The CharacterOffsetBegin=614 CharacterOffsetEnd=617 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=618 CharacterOffsetEnd=623 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=,] [Text=thankfully CharacterOffsetBegin=625 CharacterOffsetEnd=635 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=635 CharacterOffsetEnd=636 PartOfSpeech=,] [Text=comes CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=VBZ] [Text=screeching CharacterOffsetBegin=643 CharacterOffsetEnd=653 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=DT] [Text=halt CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=664 CharacterOffsetEnd=666 PartOfSpeech=IN] [Text=83 CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=670 CharacterOffsetEnd=677 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=678 CharacterOffsetEnd=680 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=681 CharacterOffsetEnd=682 PartOfSpeech=DT] [Text=shockingly CharacterOffsetBegin=683 CharacterOffsetEnd=693 PartOfSpeech=RB] [Text=unfunny CharacterOffsetBegin=694 CharacterOffsetEnd=701 PartOfSpeech=JJ] [Text=ending CharacterOffsetBegin=702 CharacterOffsetEnd=708 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=.] 
+root(ROOT-0, screeching-7)
+det(movie-2, The-1)
+nsubj(screeching-7, movie-2)
+punct(movie-2, ,-3)
+advmod(movie-2, thankfully-4)
+punct(movie-2, ,-5)
+aux(screeching-7, comes-6)
+prep(screeching-7, to-8)
+det(halt-10, a-9)
+pobj(to-8, halt-10)
+prep(screeching-7, at-11)
+num(minutes-13, 83-12)
+pobj(at-11, minutes-13)
+prep(screeching-7, in-14)
+det(ending-18, a-15)
+advmod(unfunny-17, shockingly-16)
+amod(ending-18, unfunny-17)
+pobj(in-14, ending-18)
+punct(screeching-7, .-19)
+
+Sentence #10 (44 tokens):
+(I say shocking because the ending does not even attempt to end with humor) I dont know what else to say except that is a sloppy rushed sequel done to make Miramax some more cash on the backs of dumb teenagers.
+[Text=-LRB- CharacterOffsetBegin=714 CharacterOffsetEnd=715 PartOfSpeech=-LRB-] [Text=I CharacterOffsetBegin=715 CharacterOffsetEnd=716 PartOfSpeech=PRP] [Text=say CharacterOffsetBegin=717 CharacterOffsetEnd=720 PartOfSpeech=VBP] [Text=shocking CharacterOffsetBegin=721 CharacterOffsetEnd=729 PartOfSpeech=JJ] [Text=because CharacterOffsetBegin=730 CharacterOffsetEnd=737 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=742 CharacterOffsetEnd=748 PartOfSpeech=VBG] [Text=does CharacterOffsetBegin=749 CharacterOffsetEnd=753 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=754 CharacterOffsetEnd=757 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=758 CharacterOffsetEnd=762 PartOfSpeech=RB] [Text=attempt CharacterOffsetBegin=763 CharacterOffsetEnd=770 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=771 CharacterOffsetEnd=773 PartOfSpeech=TO] [Text=end CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=IN] [Text=humor CharacterOffsetBegin=783 CharacterOffsetEnd=788 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=788 CharacterOffsetEnd=789 PartOfSpeech=-RRB-] [Text=I CharacterOffsetBegin=790 CharacterOffsetEnd=791 PartOfSpeech=PRP] [Text=dont CharacterOffsetBegin=792 CharacterOffsetEnd=796 PartOfSpeech=VBP] [Text=know CharacterOffsetBegin=797 CharacterOffsetEnd=801 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=802 CharacterOffsetEnd=806 PartOfSpeech=WP] [Text=else CharacterOffsetBegin=807 CharacterOffsetEnd=811 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=812 CharacterOffsetEnd=814 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=815 CharacterOffsetEnd=818 PartOfSpeech=VB] [Text=except CharacterOffsetBegin=819 CharacterOffsetEnd=825 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=826 CharacterOffsetEnd=830 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=831 CharacterOffsetEnd=833 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=834 CharacterOffsetEnd=835 PartOfSpeech=DT] [Text=sloppy CharacterOffsetBegin=836 CharacterOffsetEnd=842 PartOfSpeech=JJ] [Text=rushed CharacterOffsetBegin=843 CharacterOffsetEnd=849 PartOfSpeech=VBD] [Text=sequel CharacterOffsetBegin=850 CharacterOffsetEnd=856 PartOfSpeech=NN] [Text=done CharacterOffsetBegin=857 CharacterOffsetEnd=861 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=862 CharacterOffsetEnd=864 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=865 CharacterOffsetEnd=869 PartOfSpeech=VB] [Text=Miramax CharacterOffsetBegin=870 CharacterOffsetEnd=877 PartOfSpeech=NNP] [Text=some CharacterOffsetBegin=878 CharacterOffsetEnd=882 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=883 CharacterOffsetEnd=887 PartOfSpeech=JJR] [Text=cash CharacterOffsetBegin=888 CharacterOffsetEnd=892 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=893 CharacterOffsetEnd=895 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=896 CharacterOffsetEnd=899 PartOfSpeech=DT] [Text=backs CharacterOffsetBegin=900 CharacterOffsetEnd=905 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=IN] [Text=dumb CharacterOffsetBegin=909 CharacterOffsetEnd=913 PartOfSpeech=JJ] [Text=teenagers CharacterOffsetBegin=914 CharacterOffsetEnd=923 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=923 CharacterOffsetEnd=924 PartOfSpeech=.] 
+root(ROOT-0, say-3)
+punct(say-3, -LRB--1)
+nsubj(say-3, I-2)
+dobj(say-3, shocking-4)
+mark(attempt-11, because-5)
+det(ending-7, the-6)
+nsubj(attempt-11, ending-7)
+aux(attempt-11, does-8)
+neg(attempt-11, not-9)
+advmod(attempt-11, even-10)
+advcl(dont-18, attempt-11)
+aux(end-13, to-12)
+xcomp(attempt-11, end-13)
+prep(end-13, with-14)
+pobj(with-14, humor-15)
+punct(dont-18, -RRB--16)
+nsubj(dont-18, I-17)
+ccomp(say-3, dont-18)
+dep(dont-18, know-19)
+dep(know-19, what-20)
+advmod(what-20, else-21)
+aux(say-23, to-22)
+xcomp(else-21, say-23)
+mark(sequel-30, except-24)
+nsubj(sequel-30, that-25)
+cop(sequel-30, is-26)
+det(sequel-30, a-27)
+amod(sequel-30, sloppy-28)
+amod(sequel-30, rushed-29)
+advcl(say-23, sequel-30)
+partmod(sequel-30, done-31)
+aux(make-33, to-32)
+xcomp(done-31, make-33)
+xcomp(make-33, Miramax-34)
+det(cash-37, some-35)
+amod(cash-37, more-36)
+dobj(Miramax-34, cash-37)
+prep(cash-37, on-38)
+det(backs-40, the-39)
+pobj(on-38, backs-40)
+prep(backs-40, of-41)
+amod(teenagers-43, dumb-42)
+pobj(of-41, teenagers-43)
+punct(say-3, .-44)
+
+Sentence #11 (8 tokens):
+Overall, a very poorly done movie.
+[Text=Overall CharacterOffsetBegin=929 CharacterOffsetEnd=936 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=936 CharacterOffsetEnd=937 PartOfSpeech=,] [Text=a CharacterOffsetBegin=938 CharacterOffsetEnd=939 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=940 CharacterOffsetEnd=944 PartOfSpeech=RB] [Text=poorly CharacterOffsetBegin=945 CharacterOffsetEnd=951 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=952 CharacterOffsetEnd=956 PartOfSpeech=VBN] [Text=movie CharacterOffsetBegin=957 CharacterOffsetEnd=962 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=962 CharacterOffsetEnd=963 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+amod(movie-7, Overall-1)
+punct(movie-7, ,-2)
+det(movie-7, a-3)
+advmod(poorly-5, very-4)
+advmod(done-6, poorly-5)
+amod(movie-7, done-6)
+punct(movie-7, .-8)
+

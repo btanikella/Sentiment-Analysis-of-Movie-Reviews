@@ -1,0 +1,408 @@
+Sentence #1 (12 tokens):
+Says Andy: "Nobody gets hurt, everybody wins."
+[Text=Says CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=VBZ] [Text=Andy CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=:] [Text=`` CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=``] [Text=Nobody CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=gets CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=VBZ] [Text=hurt CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=,] [Text=everybody CharacterOffsetBegin=34 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=wins CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=.] [Text='' CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=''] 
+root(ROOT-0, Says-1)
+nsubj(Says-1, Andy-2)
+punct(Says-1, :-3)
+punct(Says-1, ``-4)
+nsubj(hurt-7, Nobody-5)
+aux(hurt-7, gets-6)
+ccomp(Says-1, hurt-7)
+punct(hurt-7, ,-8)
+nsubj(wins-10, everybody-9)
+ccomp(hurt-7, wins-10)
+punct(Says-1, .-11)
+punct(Says-1, ''-12)
+
+Sentence #2 (19 tokens):
+Before he says it, we know the opposite is true: Everybody gets hurt, nobody wins.
+[Text=Before CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=PRP] [Text=says CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=,] [Text=we CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=opposite CharacterOffsetBegin=86 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=VBZ] [Text=true CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=JJ] [Text=: CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=:] [Text=Everybody CharacterOffsetBegin=104 CharacterOffsetEnd=113 PartOfSpeech=NN] [Text=gets CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=VBZ] [Text=hurt CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=,] [Text=nobody CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=wins CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=.] 
+root(ROOT-0, know-7)
+mark(says-3, Before-1)
+nsubj(says-3, he-2)
+advcl(know-7, says-3)
+dobj(says-3, it-4)
+punct(know-7, ,-5)
+nsubj(know-7, we-6)
+det(opposite-9, the-8)
+nsubj(true-11, opposite-9)
+cop(true-11, is-10)
+ccomp(know-7, true-11)
+punct(know-7, :-12)
+nsubj(hurt-15, Everybody-13)
+aux(hurt-15, gets-14)
+parataxis(know-7, hurt-15)
+punct(hurt-15, ,-16)
+nsubj(wins-18, nobody-17)
+dep(hurt-15, wins-18)
+punct(know-7, .-19)
+
+Sentence #3 (20 tokens):
+This is a new strand in American movies, or perhaps an old strand brought back at long last.
+[Text=This CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=JJ] [Text=strand CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=American CharacterOffsetBegin=166 CharacterOffsetEnd=174 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=,] [Text=or CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=CC] [Text=perhaps CharacterOffsetBegin=186 CharacterOffsetEnd=193 PartOfSpeech=RB] [Text=an CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=JJ] [Text=strand CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=NN] [Text=brought CharacterOffsetBegin=208 CharacterOffsetEnd=215 PartOfSpeech=VBD] [Text=back CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=IN] [Text=long CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=RB] [Text=last CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, strand-5)
+nsubj(strand-5, This-1)
+cop(strand-5, is-2)
+det(strand-5, a-3)
+amod(strand-5, new-4)
+prep(strand-5, in-6)
+amod(movies-8, American-7)
+pobj(in-6, movies-8)
+punct(strand-5, ,-9)
+cc(strand-5, or-10)
+advmod(strand-5, perhaps-11)
+det(strand-14, an-12)
+amod(strand-14, old-13)
+nsubj(brought-15, strand-14)
+conj(strand-5, brought-15)
+advmod(brought-15, back-16)
+prep(brought-15, at-17)
+advmod(last-19, long-18)
+pobj(at-17, last-19)
+punct(strand-5, .-20)
+
+Sentence #4 (21 tokens):
+Think "Eastern Promises", "There Will Be Blood", "No Country for Old Men".
+[Text=Think CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=VB] [Text=`` CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=``] [Text=Eastern CharacterOffsetBegin=246 CharacterOffsetEnd=253 PartOfSpeech=NNP] [Text=Promises CharacterOffsetBegin=254 CharacterOffsetEnd=262 PartOfSpeech=VBZ] [Text='' CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=''] [Text=, CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=``] [Text=There CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=EX] [Text=Will CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=MD] [Text=Be CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=VB] [Text=Blood CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=''] [Text=, CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=``] [Text=No CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=DT] [Text=Country CharacterOffsetBegin=292 CharacterOffsetEnd=299 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=IN] [Text=Old CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=JJ] [Text=Men CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=''] [Text=. CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=.] 
+root(ROOT-0, Think-1)
+punct(Promises-4, ``-2)
+nsubj(Promises-4, Eastern-3)
+ccomp(Think-1, Promises-4)
+punct(Promises-4, ''-5)
+punct(Think-1, ,-6)
+punct(Think-1, ``-7)
+expl(Be-10, There-8)
+aux(Be-10, Will-9)
+ccomp(Think-1, Be-10)
+dep(Be-10, Blood-11)
+punct(Blood-11, ''-12)
+punct(Be-10, ,-13)
+punct(Be-10, ``-14)
+det(Country-16, No-15)
+dep(Be-10, Country-16)
+prep(Country-16, for-17)
+amod(Men-19, Old-18)
+pobj(for-17, Men-19)
+punct(Country-16, ''-20)
+punct(Think-1, .-21)
+
+Sentence #5 (19 tokens):
+These movies are dark, serious, extremely well made, and don't care about happy endings.
+[Text=These CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=DT] [Text=movies CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=VBP] [Text=dark CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=,] [Text=serious CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=,] [Text=extremely CharacterOffsetBegin=350 CharacterOffsetEnd=359 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=,] [Text=and CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=CC] [Text=do CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=RB] [Text=care CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=386 CharacterOffsetEnd=391 PartOfSpeech=IN] [Text=happy CharacterOffsetBegin=392 CharacterOffsetEnd=397 PartOfSpeech=JJ] [Text=endings CharacterOffsetBegin=398 CharacterOffsetEnd=405 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=.] 
+root(ROOT-0, dark-4)
+det(movies-2, These-1)
+nsubj(dark-4, movies-2)
+cop(dark-4, are-3)
+punct(dark-4, ,-5)
+conj(dark-4, serious-6)
+punct(dark-4, ,-7)
+advmod(well-9, extremely-8)
+advmod(made-10, well-9)
+conj(dark-4, made-10)
+punct(dark-4, ,-11)
+cc(dark-4, and-12)
+aux(care-15, do-13)
+neg(care-15, n't-14)
+conj(dark-4, care-15)
+prep(care-15, about-16)
+amod(endings-18, happy-17)
+pobj(about-16, endings-18)
+punct(dark-4, .-19)
+
+Sentence #6 (4 tokens):
+I love them.
+[Text=I CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=VBP] [Text=them CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+dobj(love-2, them-3)
+punct(love-2, .-4)
+
+Sentence #7 (22 tokens):
+"Before the Devil Knows You're Dead" fits the general description, but creates an atmosphere all its own.
+[Text=`` CharacterOffsetBegin=428 CharacterOffsetEnd=429 PartOfSpeech=``] [Text=Before CharacterOffsetBegin=429 CharacterOffsetEnd=435 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=DT] [Text=Devil CharacterOffsetBegin=440 CharacterOffsetEnd=445 PartOfSpeech=NNP] [Text=Knows CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=NNP] [Text=You CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=VBP] [Text=Dead CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=''] [Text=fits CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=DT] [Text=general CharacterOffsetBegin=474 CharacterOffsetEnd=481 PartOfSpeech=JJ] [Text=description CharacterOffsetBegin=482 CharacterOffsetEnd=493 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=,] [Text=but CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=CC] [Text=creates CharacterOffsetBegin=499 CharacterOffsetEnd=506 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=507 CharacterOffsetEnd=509 PartOfSpeech=DT] [Text=atmosphere CharacterOffsetBegin=510 CharacterOffsetEnd=520 PartOfSpeech=NN] [Text=all CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=DT] [Text=its CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=529 CharacterOffsetEnd=532 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=.] 
+root(ROOT-0, fits-10)
+punct(fits-10, ``-1)
+mark(fits-10, Before-2)
+det(Knows-5, the-3)
+nn(Knows-5, Devil-4)
+nsubj(fits-10, Knows-5)
+nsubj(Dead-8, You-6)
+cop(Dead-8, 're-7)
+rcmod(Knows-5, Dead-8)
+punct(Dead-8, ''-9)
+det(description-13, the-11)
+amod(description-13, general-12)
+dobj(fits-10, description-13)
+punct(fits-10, ,-14)
+cc(fits-10, but-15)
+conj(fits-10, creates-16)
+det(atmosphere-18, an-17)
+nsubj(own-21, atmosphere-18)
+dep(own-21, all-19)
+poss(own-21, its-20)
+xcomp(creates-16, own-21)
+punct(fits-10, .-22)
+
+Sentence #8 (20 tokens):
+Kelly Masterson's debut script is as close as a Hollywood movie will ever get to a Greek tragedy.
+[Text=Kelly CharacterOffsetBegin=538 CharacterOffsetEnd=543 PartOfSpeech=NNP] [Text=Masterson CharacterOffsetBegin=544 CharacterOffsetEnd=553 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=POS] [Text=debut CharacterOffsetBegin=556 CharacterOffsetEnd=561 PartOfSpeech=NN] [Text=script CharacterOffsetBegin=562 CharacterOffsetEnd=568 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=VBZ] [Text=as CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=IN] [Text=close CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=584 CharacterOffsetEnd=585 PartOfSpeech=DT] [Text=Hollywood CharacterOffsetBegin=586 CharacterOffsetEnd=595 PartOfSpeech=NNP] [Text=movie CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=MD] [Text=ever CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=616 CharacterOffsetEnd=618 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=619 CharacterOffsetEnd=620 PartOfSpeech=DT] [Text=Greek CharacterOffsetBegin=621 CharacterOffsetEnd=626 PartOfSpeech=JJ] [Text=tragedy CharacterOffsetBegin=627 CharacterOffsetEnd=634 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=.] 
+root(ROOT-0, get-15)
+nn(Masterson-2, Kelly-1)
+poss(script-5, Masterson-2)
+possessive(Masterson-2, 's-3)
+nn(script-5, debut-4)
+nsubj(close-8, script-5)
+cop(close-8, is-6)
+advmod(close-8, as-7)
+nsubj(get-15, close-8)
+prep(close-8, as-9)
+det(movie-12, a-10)
+nn(movie-12, Hollywood-11)
+pobj(as-9, movie-12)
+aux(get-15, will-13)
+advmod(get-15, ever-14)
+prep(get-15, to-16)
+det(tragedy-19, a-17)
+amod(tragedy-19, Greek-18)
+pobj(to-16, tragedy-19)
+punct(get-15, .-20)
+
+Sentence #9 (27 tokens):
+Paying tribute to fellow veteran director Stanley Donen, Sidney Lumet expertly and soberly turns the sombre story into an outstanding, old school character drama.
+[Text=Paying CharacterOffsetBegin=640 CharacterOffsetEnd=646 PartOfSpeech=VBG] [Text=tribute CharacterOffsetBegin=647 CharacterOffsetEnd=654 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=TO] [Text=fellow CharacterOffsetBegin=658 CharacterOffsetEnd=664 PartOfSpeech=JJ] [Text=veteran CharacterOffsetBegin=665 CharacterOffsetEnd=672 PartOfSpeech=NN] [Text=director CharacterOffsetBegin=673 CharacterOffsetEnd=681 PartOfSpeech=NN] [Text=Stanley CharacterOffsetBegin=682 CharacterOffsetEnd=689 PartOfSpeech=NNP] [Text=Donen CharacterOffsetBegin=690 CharacterOffsetEnd=695 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=695 CharacterOffsetEnd=696 PartOfSpeech=,] [Text=Sidney CharacterOffsetBegin=697 CharacterOffsetEnd=703 PartOfSpeech=NNP] [Text=Lumet CharacterOffsetBegin=704 CharacterOffsetEnd=709 PartOfSpeech=NNP] [Text=expertly CharacterOffsetBegin=710 CharacterOffsetEnd=718 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=719 CharacterOffsetEnd=722 PartOfSpeech=CC] [Text=soberly CharacterOffsetBegin=723 CharacterOffsetEnd=730 PartOfSpeech=RB] [Text=turns CharacterOffsetBegin=731 CharacterOffsetEnd=736 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=DT] [Text=sombre CharacterOffsetBegin=741 CharacterOffsetEnd=747 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=748 CharacterOffsetEnd=753 PartOfSpeech=NN] [Text=into CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=759 CharacterOffsetEnd=761 PartOfSpeech=DT] [Text=outstanding CharacterOffsetBegin=762 CharacterOffsetEnd=773 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=,] [Text=old CharacterOffsetBegin=775 CharacterOffsetEnd=778 PartOfSpeech=JJ] [Text=school CharacterOffsetBegin=779 CharacterOffsetEnd=785 PartOfSpeech=NN] [Text=character CharacterOffsetBegin=786 CharacterOffsetEnd=795 PartOfSpeech=NN] [Text=drama CharacterOffsetBegin=796 CharacterOffsetEnd=801 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=801 CharacterOffsetEnd=802 PartOfSpeech=.] 
+root(ROOT-0, Paying-1)
+dobj(Paying-1, tribute-2)
+prep(tribute-2, to-3)
+amod(Donen-8, fellow-4)
+nn(Donen-8, veteran-5)
+nn(Donen-8, director-6)
+nn(Donen-8, Stanley-7)
+pobj(to-3, Donen-8)
+punct(Donen-8, ,-9)
+nn(expertly-12, Sidney-10)
+nn(expertly-12, Lumet-11)
+conj(Donen-8, expertly-12)
+cc(Donen-8, and-13)
+advmod(turns-15, soberly-14)
+conj(Donen-8, turns-15)
+det(story-18, the-16)
+amod(story-18, sombre-17)
+dobj(turns-15, story-18)
+prep(turns-15, into-19)
+det(drama-26, an-20)
+amod(drama-26, outstanding-21)
+punct(drama-26, ,-22)
+amod(drama-26, old-23)
+nn(drama-26, school-24)
+nn(drama-26, character-25)
+pobj(into-19, drama-26)
+punct(Paying-1, .-27)
+
+Sentence #10 (26 tokens):
+The opening shots, although of an obese accountant doggy-styling his trophy wife, have the look and feel of a Dutch master's painting.
+[Text=The CharacterOffsetBegin=807 CharacterOffsetEnd=810 PartOfSpeech=DT] [Text=opening CharacterOffsetBegin=811 CharacterOffsetEnd=818 PartOfSpeech=NN] [Text=shots CharacterOffsetBegin=819 CharacterOffsetEnd=824 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=824 CharacterOffsetEnd=825 PartOfSpeech=,] [Text=although CharacterOffsetBegin=826 CharacterOffsetEnd=834 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=835 CharacterOffsetEnd=837 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=838 CharacterOffsetEnd=840 PartOfSpeech=DT] [Text=obese CharacterOffsetBegin=841 CharacterOffsetEnd=846 PartOfSpeech=JJ] [Text=accountant CharacterOffsetBegin=847 CharacterOffsetEnd=857 PartOfSpeech=NN] [Text=doggy-styling CharacterOffsetBegin=858 CharacterOffsetEnd=871 PartOfSpeech=JJ] [Text=his CharacterOffsetBegin=872 CharacterOffsetEnd=875 PartOfSpeech=PRP$] [Text=trophy CharacterOffsetBegin=876 CharacterOffsetEnd=882 PartOfSpeech=NN] [Text=wife CharacterOffsetBegin=883 CharacterOffsetEnd=887 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=887 CharacterOffsetEnd=888 PartOfSpeech=,] [Text=have CharacterOffsetBegin=889 CharacterOffsetEnd=893 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=894 CharacterOffsetEnd=897 PartOfSpeech=DT] [Text=look CharacterOffsetBegin=898 CharacterOffsetEnd=902 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=903 CharacterOffsetEnd=906 PartOfSpeech=CC] [Text=feel CharacterOffsetBegin=907 CharacterOffsetEnd=911 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=912 CharacterOffsetEnd=914 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=915 CharacterOffsetEnd=916 PartOfSpeech=DT] [Text=Dutch CharacterOffsetBegin=917 CharacterOffsetEnd=922 PartOfSpeech=JJ] [Text=master CharacterOffsetBegin=923 CharacterOffsetEnd=929 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=929 CharacterOffsetEnd=931 PartOfSpeech=POS] [Text=painting CharacterOffsetBegin=932 CharacterOffsetEnd=940 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=940 CharacterOffsetEnd=941 PartOfSpeech=.] 
+root(ROOT-0, have-15)
+det(shots-3, The-1)
+nn(shots-3, opening-2)
+nsubj(have-15, shots-3)
+punct(shots-3, ,-4)
+mwe(of-6, although-5)
+prep(shots-3, of-6)
+det(wife-13, an-7)
+amod(wife-13, obese-8)
+nn(wife-13, accountant-9)
+amod(wife-13, doggy-styling-10)
+poss(wife-13, his-11)
+nn(wife-13, trophy-12)
+pobj(of-6, wife-13)
+punct(shots-3, ,-14)
+det(look-17, the-16)
+dobj(have-15, look-17)
+cc(look-17, and-18)
+conj(look-17, feel-19)
+prep(feel-19, of-20)
+det(master-23, a-21)
+amod(master-23, Dutch-22)
+poss(painting-25, master-23)
+possessive(master-23, 's-24)
+pobj(of-20, painting-25)
+punct(have-15, .-26)
+
+Sentence #11 (16 tokens):
+By contrast, the drug dealer's condo looks more like a string of Mondrians.
+[Text=By CharacterOffsetBegin=946 CharacterOffsetEnd=948 PartOfSpeech=IN] [Text=contrast CharacterOffsetBegin=949 CharacterOffsetEnd=957 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=957 CharacterOffsetEnd=958 PartOfSpeech=,] [Text=the CharacterOffsetBegin=959 CharacterOffsetEnd=962 PartOfSpeech=DT] [Text=drug CharacterOffsetBegin=963 CharacterOffsetEnd=967 PartOfSpeech=NN] [Text=dealer CharacterOffsetBegin=968 CharacterOffsetEnd=974 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=974 CharacterOffsetEnd=976 PartOfSpeech=POS] [Text=condo CharacterOffsetBegin=977 CharacterOffsetEnd=982 PartOfSpeech=NN] [Text=looks CharacterOffsetBegin=983 CharacterOffsetEnd=988 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=989 CharacterOffsetEnd=993 PartOfSpeech=JJR] [Text=like CharacterOffsetBegin=994 CharacterOffsetEnd=998 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=999 CharacterOffsetEnd=1000 PartOfSpeech=DT] [Text=string CharacterOffsetBegin=1001 CharacterOffsetEnd=1007 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1008 CharacterOffsetEnd=1010 PartOfSpeech=IN] [Text=Mondrians CharacterOffsetBegin=1011 CharacterOffsetEnd=1020 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=1020 CharacterOffsetEnd=1021 PartOfSpeech=.] 
+root(ROOT-0, looks-9)
+prep(looks-9, By-1)
+pobj(By-1, contrast-2)
+punct(looks-9, ,-3)
+det(dealer-6, the-4)
+nn(dealer-6, drug-5)
+poss(condo-8, dealer-6)
+possessive(dealer-6, 's-7)
+nsubj(looks-9, condo-8)
+advmod(like-11, more-10)
+prep(looks-9, like-11)
+det(string-13, a-12)
+pobj(like-11, string-13)
+prep(string-13, of-14)
+pobj(of-14, Mondrians-15)
+punct(looks-9, .-16)
+
+Sentence #12 (5 tokens):
+Great performances all around.
+[Text=Great CharacterOffsetBegin=1026 CharacterOffsetEnd=1031 PartOfSpeech=JJ] [Text=performances CharacterOffsetBegin=1032 CharacterOffsetEnd=1044 PartOfSpeech=NNS] [Text=all CharacterOffsetBegin=1045 CharacterOffsetEnd=1048 PartOfSpeech=DT] [Text=around CharacterOffsetBegin=1049 CharacterOffsetEnd=1055 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1055 CharacterOffsetEnd=1056 PartOfSpeech=.] 
+root(ROOT-0, performances-2)
+amod(performances-2, Great-1)
+dep(performances-2, all-3)
+advmod(all-3, around-4)
+punct(performances-2, .-5)
+
+Sentence #13 (21 tokens):
+Only Albert Finney's character Charles feels a little over-acted, eyes wide and mouth agape almost all the time.
+[Text=Only CharacterOffsetBegin=1061 CharacterOffsetEnd=1065 PartOfSpeech=RB] [Text=Albert CharacterOffsetBegin=1066 CharacterOffsetEnd=1072 PartOfSpeech=NNP] [Text=Finney CharacterOffsetBegin=1073 CharacterOffsetEnd=1079 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=1079 CharacterOffsetEnd=1081 PartOfSpeech=POS] [Text=character CharacterOffsetBegin=1082 CharacterOffsetEnd=1091 PartOfSpeech=NN] [Text=Charles CharacterOffsetBegin=1092 CharacterOffsetEnd=1099 PartOfSpeech=NNP] [Text=feels CharacterOffsetBegin=1100 CharacterOffsetEnd=1105 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1106 CharacterOffsetEnd=1107 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=1108 CharacterOffsetEnd=1114 PartOfSpeech=JJ] [Text=over-acted CharacterOffsetBegin=1115 CharacterOffsetEnd=1125 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=1125 CharacterOffsetEnd=1126 PartOfSpeech=,] [Text=eyes CharacterOffsetBegin=1127 CharacterOffsetEnd=1131 PartOfSpeech=NNS] [Text=wide CharacterOffsetBegin=1132 CharacterOffsetEnd=1136 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=1137 CharacterOffsetEnd=1140 PartOfSpeech=CC] [Text=mouth CharacterOffsetBegin=1141 CharacterOffsetEnd=1146 PartOfSpeech=NN] [Text=agape CharacterOffsetBegin=1147 CharacterOffsetEnd=1152 PartOfSpeech=RB] [Text=almost CharacterOffsetBegin=1153 CharacterOffsetEnd=1159 PartOfSpeech=RB] [Text=all CharacterOffsetBegin=1160 CharacterOffsetEnd=1163 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=1164 CharacterOffsetEnd=1167 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=1168 CharacterOffsetEnd=1172 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1172 CharacterOffsetEnd=1173 PartOfSpeech=.] 
+root(ROOT-0, feels-7)
+advmod(Finney-3, Only-1)
+nn(Finney-3, Albert-2)
+poss(Charles-6, Finney-3)
+possessive(Finney-3, 's-4)
+nn(Charles-6, character-5)
+nsubj(feels-7, Charles-6)
+det(time-20, a-8)
+amod(over-acted-10, little-9)
+amod(wide-13, over-acted-10)
+punct(wide-13, ,-11)
+dep(wide-13, eyes-12)
+amod(time-20, wide-13)
+cc(wide-13, and-14)
+conj(wide-13, mouth-15)
+advmod(time-20, agape-16)
+quantmod(all-18, almost-17)
+num(time-20, all-18)
+det(time-20, the-19)
+dobj(feels-7, time-20)
+punct(feels-7, .-21)
+
+Sentence #14 (21 tokens):
+But then he is in trouble deep, deeper than any of the troubles most of us will ever know.
+[Text=But CharacterOffsetBegin=1178 CharacterOffsetEnd=1181 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=1182 CharacterOffsetEnd=1186 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=1187 CharacterOffsetEnd=1189 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1190 CharacterOffsetEnd=1192 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=1193 CharacterOffsetEnd=1195 PartOfSpeech=IN] [Text=trouble CharacterOffsetBegin=1196 CharacterOffsetEnd=1203 PartOfSpeech=NN] [Text=deep CharacterOffsetBegin=1204 CharacterOffsetEnd=1208 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=1208 CharacterOffsetEnd=1209 PartOfSpeech=,] [Text=deeper CharacterOffsetBegin=1210 CharacterOffsetEnd=1216 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=1217 CharacterOffsetEnd=1221 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=1222 CharacterOffsetEnd=1225 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=1226 CharacterOffsetEnd=1228 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1229 CharacterOffsetEnd=1232 PartOfSpeech=DT] [Text=troubles CharacterOffsetBegin=1233 CharacterOffsetEnd=1241 PartOfSpeech=NNS] [Text=most CharacterOffsetBegin=1242 CharacterOffsetEnd=1246 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=1247 CharacterOffsetEnd=1249 PartOfSpeech=IN] [Text=us CharacterOffsetBegin=1250 CharacterOffsetEnd=1252 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=1253 CharacterOffsetEnd=1257 PartOfSpeech=MD] [Text=ever CharacterOffsetBegin=1258 CharacterOffsetEnd=1262 PartOfSpeech=RB] [Text=know CharacterOffsetBegin=1263 CharacterOffsetEnd=1267 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=1267 CharacterOffsetEnd=1268 PartOfSpeech=.] 
+root(ROOT-0, is-4)
+cc(is-4, But-1)
+advmod(is-4, then-2)
+nsubj(is-4, he-3)
+prep(is-4, in-5)
+pobj(in-5, trouble-6)
+advmod(is-4, deep-7)
+punct(is-4, ,-8)
+advmod(is-4, deeper-9)
+prep(deeper-9, than-10)
+pobj(than-10, any-11)
+prep(any-11, of-12)
+det(troubles-14, the-13)
+pobj(of-12, troubles-14)
+nsubj(know-20, most-15)
+prep(most-15, of-16)
+pobj(of-16, us-17)
+aux(know-20, will-18)
+advmod(know-20, ever-19)
+rcmod(troubles-14, know-20)
+punct(is-4, .-21)
+
+Sentence #15 (9 tokens):
+For compensation, Marisa Tomei is super hot.
+[Text=For CharacterOffsetBegin=1273 CharacterOffsetEnd=1276 PartOfSpeech=IN] [Text=compensation CharacterOffsetBegin=1277 CharacterOffsetEnd=1289 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1289 CharacterOffsetEnd=1290 PartOfSpeech=,] [Text=Marisa CharacterOffsetBegin=1291 CharacterOffsetEnd=1297 PartOfSpeech=NNP] [Text=Tomei CharacterOffsetBegin=1298 CharacterOffsetEnd=1303 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=1304 CharacterOffsetEnd=1306 PartOfSpeech=VBZ] [Text=super CharacterOffsetBegin=1307 CharacterOffsetEnd=1312 PartOfSpeech=JJ] [Text=hot CharacterOffsetBegin=1313 CharacterOffsetEnd=1316 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1316 CharacterOffsetEnd=1317 PartOfSpeech=.] 
+root(ROOT-0, hot-8)
+prep(hot-8, For-1)
+pobj(For-1, compensation-2)
+punct(hot-8, ,-3)
+nn(Tomei-5, Marisa-4)
+nsubj(hot-8, Tomei-5)
+cop(hot-8, is-6)
+amod(hot-8, super-7)
+punct(hot-8, .-9)
+
+Sentence #16 (13 tokens):
+But of course you don't need me to tell you that.
+[Text=But CharacterOffsetBegin=1322 CharacterOffsetEnd=1325 PartOfSpeech=CC] [Text=of CharacterOffsetBegin=1326 CharacterOffsetEnd=1328 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=1329 CharacterOffsetEnd=1335 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=1336 CharacterOffsetEnd=1339 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=1340 CharacterOffsetEnd=1342 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=1342 CharacterOffsetEnd=1345 PartOfSpeech=RB] [Text=need CharacterOffsetBegin=1346 CharacterOffsetEnd=1350 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=1351 CharacterOffsetEnd=1353 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=1354 CharacterOffsetEnd=1356 PartOfSpeech=TO] [Text=tell CharacterOffsetBegin=1357 CharacterOffsetEnd=1361 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=1362 CharacterOffsetEnd=1365 PartOfSpeech=PRP] [Text=that CharacterOffsetBegin=1366 CharacterOffsetEnd=1370 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=1370 CharacterOffsetEnd=1371 PartOfSpeech=.] 
+root(ROOT-0, need-7)
+cc(need-7, But-1)
+prep(need-7, of-2)
+pobj(of-2, course-3)
+nsubj(need-7, you-4)
+aux(need-7, do-5)
+neg(need-7, n't-6)
+dobj(need-7, me-8)
+aux(tell-10, to-9)
+xcomp(need-7, tell-10)
+dobj(tell-10, you-11)
+dobj(tell-10, that-12)
+punct(need-7, .-13)
+
+Sentence #17 (24 tokens):
+Why her character Gina would want to be with a guy like Andy, we're never told, but that's okay.
+[Text=Why CharacterOffsetBegin=1376 CharacterOffsetEnd=1379 PartOfSpeech=WRB] [Text=her CharacterOffsetBegin=1380 CharacterOffsetEnd=1383 PartOfSpeech=PRP$] [Text=character CharacterOffsetBegin=1384 CharacterOffsetEnd=1393 PartOfSpeech=NN] [Text=Gina CharacterOffsetBegin=1394 CharacterOffsetEnd=1398 PartOfSpeech=NNP] [Text=would CharacterOffsetBegin=1399 CharacterOffsetEnd=1404 PartOfSpeech=MD] [Text=want CharacterOffsetBegin=1405 CharacterOffsetEnd=1409 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=1410 CharacterOffsetEnd=1412 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=1413 CharacterOffsetEnd=1415 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=1416 CharacterOffsetEnd=1420 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1421 CharacterOffsetEnd=1422 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=1423 CharacterOffsetEnd=1426 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=1427 CharacterOffsetEnd=1431 PartOfSpeech=IN] [Text=Andy CharacterOffsetBegin=1432 CharacterOffsetEnd=1436 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=1436 CharacterOffsetEnd=1437 PartOfSpeech=,] [Text=we CharacterOffsetBegin=1438 CharacterOffsetEnd=1440 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=1440 CharacterOffsetEnd=1443 PartOfSpeech=VBP] [Text=never CharacterOffsetBegin=1444 CharacterOffsetEnd=1449 PartOfSpeech=RB] [Text=told CharacterOffsetBegin=1450 CharacterOffsetEnd=1454 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=1454 CharacterOffsetEnd=1455 PartOfSpeech=,] [Text=but CharacterOffsetBegin=1456 CharacterOffsetEnd=1459 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=1460 CharacterOffsetEnd=1464 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=1464 CharacterOffsetEnd=1466 PartOfSpeech=VBZ] [Text=okay CharacterOffsetBegin=1467 CharacterOffsetEnd=1471 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1471 CharacterOffsetEnd=1472 PartOfSpeech=.] 
+root(ROOT-0, told-18)
+advmod(want-6, Why-1)
+poss(Gina-4, her-2)
+nn(Gina-4, character-3)
+nsubj(want-6, Gina-4)
+aux(want-6, would-5)
+dep(told-18, want-6)
+aux(be-8, to-7)
+xcomp(want-6, be-8)
+prep(be-8, with-9)
+det(guy-11, a-10)
+pobj(with-9, guy-11)
+prep(guy-11, like-12)
+pobj(like-12, Andy-13)
+punct(told-18, ,-14)
+nsubjpass(told-18, we-15)
+auxpass(told-18, 're-16)
+neg(told-18, never-17)
+punct(told-18, ,-19)
+cc(told-18, but-20)
+nsubj(okay-23, that-21)
+cop(okay-23, 's-22)
+conj(told-18, okay-23)
+punct(told-18, .-24)
+
+Sentence #18 (7 tokens):
+Action is character, after all.
+[Text=Action CharacterOffsetBegin=1477 CharacterOffsetEnd=1483 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=1484 CharacterOffsetEnd=1486 PartOfSpeech=VBZ] [Text=character CharacterOffsetBegin=1487 CharacterOffsetEnd=1496 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1496 CharacterOffsetEnd=1497 PartOfSpeech=,] [Text=after CharacterOffsetBegin=1498 CharacterOffsetEnd=1503 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=1504 CharacterOffsetEnd=1507 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=1507 CharacterOffsetEnd=1508 PartOfSpeech=.] 
+root(ROOT-0, character-3)
+nsubj(character-3, Action-1)
+cop(character-3, is-2)
+punct(character-3, ,-4)
+prep(character-3, after-5)
+pobj(after-5, all-6)
+punct(character-3, .-7)
+
+Sentence #19 (17 tokens):
+The unique and magic touch of Carter Burwell's music makes this fine movie a masterpiece.
+[Text=The CharacterOffsetBegin=1513 CharacterOffsetEnd=1516 PartOfSpeech=DT] [Text=unique CharacterOffsetBegin=1517 CharacterOffsetEnd=1523 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=1524 CharacterOffsetEnd=1527 PartOfSpeech=CC] [Text=magic CharacterOffsetBegin=1528 CharacterOffsetEnd=1533 PartOfSpeech=JJ] [Text=touch CharacterOffsetBegin=1534 CharacterOffsetEnd=1539 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1540 CharacterOffsetEnd=1542 PartOfSpeech=IN] [Text=Carter CharacterOffsetBegin=1543 CharacterOffsetEnd=1549 PartOfSpeech=NNP] [Text=Burwell CharacterOffsetBegin=1550 CharacterOffsetEnd=1557 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=1557 CharacterOffsetEnd=1559 PartOfSpeech=POS] [Text=music CharacterOffsetBegin=1560 CharacterOffsetEnd=1565 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=1566 CharacterOffsetEnd=1571 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=1572 CharacterOffsetEnd=1576 PartOfSpeech=DT] [Text=fine CharacterOffsetBegin=1577 CharacterOffsetEnd=1581 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=1582 CharacterOffsetEnd=1587 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=1588 CharacterOffsetEnd=1589 PartOfSpeech=DT] [Text=masterpiece CharacterOffsetBegin=1590 CharacterOffsetEnd=1601 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1601 CharacterOffsetEnd=1602 PartOfSpeech=.] 
+root(ROOT-0, makes-11)
+det(touch-5, The-1)
+amod(touch-5, unique-2)
+cc(unique-2, and-3)
+conj(unique-2, magic-4)
+nsubj(makes-11, touch-5)
+prep(touch-5, of-6)
+nn(Burwell-8, Carter-7)
+poss(music-10, Burwell-8)
+possessive(Burwell-8, 's-9)
+pobj(of-6, music-10)
+det(movie-14, this-12)
+amod(movie-14, fine-13)
+nsubj(masterpiece-16, movie-14)
+det(masterpiece-16, a-15)
+xcomp(makes-11, masterpiece-16)
+punct(makes-11, .-17)
+
+Sentence #20 (5 tokens):
+Don't miss it.
+[Text=Do CharacterOffsetBegin=1607 CharacterOffsetEnd=1609 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=1609 CharacterOffsetEnd=1612 PartOfSpeech=RB] [Text=miss CharacterOffsetBegin=1613 CharacterOffsetEnd=1617 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=1618 CharacterOffsetEnd=1620 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=1620 CharacterOffsetEnd=1621 PartOfSpeech=.] 
+root(ROOT-0, miss-3)
+aux(miss-3, Do-1)
+neg(miss-3, n't-2)
+dobj(miss-3, it-4)
+punct(miss-3, .-5)
+

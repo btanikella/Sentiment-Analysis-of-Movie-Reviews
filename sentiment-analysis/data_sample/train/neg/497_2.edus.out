@@ -1,0 +1,227 @@
+Sentence #1 (7 tokens):
+This is a really dumb movie.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=really CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=RB] [Text=dumb CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, This-1)
+cop(movie-6, is-2)
+det(movie-6, a-3)
+advmod(dumb-5, really-4)
+amod(movie-6, dumb-5)
+punct(movie-6, .-7)
+
+Sentence #2 (20 tokens):
+It could be fun with the cool looking aliens and the country setting, but it just isn't.
+[Text=It CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=VB] [Text=fun CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=cool CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=JJ] [Text=looking CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=VBG] [Text=aliens CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=country CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=setting CharacterOffsetBegin=98 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=,] [Text=but CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=.] 
+root(ROOT-0, fun-4)
+nsubj(fun-4, It-1)
+aux(fun-4, could-2)
+cop(fun-4, be-3)
+prep(fun-4, with-5)
+pobj(with-5, the-6)
+dep(the-6, cool-7)
+xcomp(cool-7, looking-8)
+nn(setting-13, aliens-9)
+cc(aliens-9, and-10)
+det(country-12, the-11)
+conj(aliens-9, country-12)
+dobj(looking-8, setting-13)
+punct(cool-7, ,-14)
+cc(cool-7, but-15)
+nsubj(is-18, it-16)
+advmod(is-18, just-17)
+conj(cool-7, is-18)
+neg(is-18, n't-19)
+punct(fun-4, .-20)
+
+Sentence #3 (21 tokens):
+Some aliens hear the broadcast of War of the Worlds when a small country radio station plays it on Halloween.
+[Text=Some CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=aliens CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NNS] [Text=hear CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=DT] [Text=broadcast CharacterOffsetBegin=146 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=War CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=Worlds CharacterOffsetBegin=170 CharacterOffsetEnd=176 PartOfSpeech=NNS] [Text=when CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=WRB] [Text=a CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=DT] [Text=small CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=JJ] [Text=country CharacterOffsetBegin=190 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=radio CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text=station CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=NN] [Text=plays CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=IN] [Text=Halloween CharacterOffsetBegin=224 CharacterOffsetEnd=233 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, hear-3)
+det(aliens-2, Some-1)
+nsubj(hear-3, aliens-2)
+det(broadcast-5, the-4)
+dobj(hear-3, broadcast-5)
+prep(broadcast-5, of-6)
+pobj(of-6, War-7)
+prep(War-7, of-8)
+det(Worlds-10, the-9)
+pobj(of-8, Worlds-10)
+advmod(plays-17, when-11)
+det(station-16, a-12)
+amod(station-16, small-13)
+nn(station-16, country-14)
+nn(station-16, radio-15)
+nsubj(plays-17, station-16)
+rcmod(broadcast-5, plays-17)
+dobj(plays-17, it-18)
+prep(plays-17, on-19)
+pobj(on-19, Halloween-20)
+punct(hear-3, .-21)
+
+Sentence #4 (22 tokens):
+They come to Earth to kill humans, but instead of killing, they make people their slaves and act goofy.
+[Text=They CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=PRP] [Text=come CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=TO] [Text=Earth CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=TO] [Text=kill CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=VB] [Text=humans CharacterOffsetBegin=266 CharacterOffsetEnd=272 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=,] [Text=but CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=CC] [Text=instead CharacterOffsetBegin=278 CharacterOffsetEnd=285 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=IN] [Text=killing CharacterOffsetBegin=289 CharacterOffsetEnd=296 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=,] [Text=they CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=PRP] [Text=make CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VBP] [Text=people CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=NNS] [Text=their CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=PRP$] [Text=slaves CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=CC] [Text=act CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=VBP] [Text=goofy CharacterOffsetBegin=336 CharacterOffsetEnd=341 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=.] 
+root(ROOT-0, come-2)
+nsubj(come-2, They-1)
+prep(come-2, to-3)
+pobj(to-3, Earth-4)
+aux(kill-6, to-5)
+xcomp(come-2, kill-6)
+dobj(kill-6, humans-7)
+punct(come-2, ,-8)
+cc(come-2, but-9)
+advmod(of-11, instead-10)
+prep(make-15, of-11)
+pobj(of-11, killing-12)
+punct(make-15, ,-13)
+nsubj(make-15, they-14)
+conj(come-2, make-15)
+dobj(make-15, people-16)
+poss(slaves-18, their-17)
+dep(people-16, slaves-18)
+cc(slaves-18, and-19)
+nn(goofy-21, act-20)
+conj(slaves-18, goofy-21)
+punct(come-2, .-22)
+
+Sentence #5 (20 tokens):
+The front cover of the film shows these aliens riding surfboards in space...not really what they do.
+[Text=The CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=DT] [Text=front CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=JJ] [Text=cover CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=NN] [Text=shows CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=VBZ] [Text=these CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=DT] [Text=aliens CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=NNS] [Text=riding CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=VBG] [Text=surfboards CharacterOffsetBegin=401 CharacterOffsetEnd=411 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=IN] [Text=space CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=:] [Text=not CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=427 CharacterOffsetEnd=433 PartOfSpeech=RB] [Text=what CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=WP] [Text=they CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=.] 
+root(ROOT-0, shows-7)
+det(cover-3, The-1)
+amod(cover-3, front-2)
+nsubj(shows-7, cover-3)
+prep(cover-3, of-4)
+det(film-6, the-5)
+pobj(of-4, film-6)
+dobj(shows-7, these-8)
+amod(these-8, aliens-9)
+partmod(aliens-9, riding-10)
+dobj(riding-10, surfboards-11)
+prep(riding-10, in-12)
+pobj(in-12, space-13)
+punct(aliens-9, ...-14)
+neg(really-16, not-15)
+advmod(aliens-9, really-16)
+dobj(do-19, what-17)
+nsubj(do-19, they-18)
+ccomp(really-16, do-19)
+punct(shows-7, .-20)
+
+Sentence #6 (18 tokens):
+These aren't party aliens, they are stupid cartoonish idiots with annoying high pitched modulated voices.
+[Text=These CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=DT] [Text=are CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=RB] [Text=party CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=NN] [Text=aliens CharacterOffsetBegin=471 CharacterOffsetEnd=477 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=477 CharacterOffsetEnd=478 PartOfSpeech=,] [Text=they CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=VBP] [Text=stupid CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=JJ] [Text=cartoonish CharacterOffsetBegin=495 CharacterOffsetEnd=505 PartOfSpeech=JJ] [Text=idiots CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=IN] [Text=annoying CharacterOffsetBegin=518 CharacterOffsetEnd=526 PartOfSpeech=JJ] [Text=high CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=JJ] [Text=pitched CharacterOffsetBegin=532 CharacterOffsetEnd=539 PartOfSpeech=JJ] [Text=modulated CharacterOffsetBegin=540 CharacterOffsetEnd=549 PartOfSpeech=VBN] [Text=voices CharacterOffsetBegin=550 CharacterOffsetEnd=556 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=.] 
+root(ROOT-0, party-4)
+nsubj(party-4, These-1)
+cop(party-4, are-2)
+neg(party-4, n't-3)
+dep(party-4, aliens-5)
+punct(idiots-11, ,-6)
+nsubj(idiots-11, they-7)
+cop(idiots-11, are-8)
+amod(idiots-11, stupid-9)
+amod(idiots-11, cartoonish-10)
+dep(aliens-5, idiots-11)
+prep(idiots-11, with-12)
+amod(voices-17, annoying-13)
+amod(voices-17, high-14)
+amod(voices-17, pitched-15)
+amod(voices-17, modulated-16)
+pobj(with-12, voices-17)
+punct(party-4, .-18)
+
+Sentence #7 (22 tokens):
+The alien with the most tolerable voice also happens to be the Jack Nicholson rip-off alien who always wears his sunglasses.
+[Text=The CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=DT] [Text=alien CharacterOffsetBegin=566 CharacterOffsetEnd=571 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=RBS] [Text=tolerable CharacterOffsetBegin=586 CharacterOffsetEnd=595 PartOfSpeech=JJ] [Text=voice CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=NN] [Text=also CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=RB] [Text=happens CharacterOffsetBegin=607 CharacterOffsetEnd=614 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=618 CharacterOffsetEnd=620 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=DT] [Text=Jack CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=NNP] [Text=Nicholson CharacterOffsetBegin=630 CharacterOffsetEnd=639 PartOfSpeech=NNP] [Text=rip-off CharacterOffsetBegin=640 CharacterOffsetEnd=647 PartOfSpeech=JJ] [Text=alien CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=WP] [Text=always CharacterOffsetBegin=658 CharacterOffsetEnd=664 PartOfSpeech=RB] [Text=wears CharacterOffsetBegin=665 CharacterOffsetEnd=670 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=671 CharacterOffsetEnd=674 PartOfSpeech=PRP$] [Text=sunglasses CharacterOffsetBegin=675 CharacterOffsetEnd=685 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=685 CharacterOffsetEnd=686 PartOfSpeech=.] 
+root(ROOT-0, happens-9)
+det(alien-2, The-1)
+nsubj(happens-9, alien-2)
+prep(alien-2, with-3)
+det(voice-7, the-4)
+advmod(tolerable-6, most-5)
+amod(voice-7, tolerable-6)
+pobj(with-3, voice-7)
+advmod(happens-9, also-8)
+aux(alien-16, to-10)
+cop(alien-16, be-11)
+det(alien-16, the-12)
+nn(alien-16, Jack-13)
+nn(alien-16, Nicholson-14)
+amod(alien-16, rip-off-15)
+xcomp(happens-9, alien-16)
+nsubj(wears-19, who-17)
+advmod(wears-19, always-18)
+rcmod(alien-16, wears-19)
+poss(sunglasses-21, his-20)
+dobj(wears-19, sunglasses-21)
+punct(happens-9, .-22)
+
+Sentence #8 (10 tokens):
+Other than the aliens, the acting is terrible.
+[Text=Other CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=DT] [Text=aliens CharacterOffsetBegin=706 CharacterOffsetEnd=712 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=712 CharacterOffsetEnd=713 PartOfSpeech=,] [Text=the CharacterOffsetBegin=714 CharacterOffsetEnd=717 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=718 CharacterOffsetEnd=724 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=725 CharacterOffsetEnd=727 PartOfSpeech=VBZ] [Text=terrible CharacterOffsetBegin=728 CharacterOffsetEnd=736 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=736 CharacterOffsetEnd=737 PartOfSpeech=.] 
+root(ROOT-0, terrible-9)
+dep(terrible-9, Other-1)
+prep(Other-1, than-2)
+det(aliens-4, the-3)
+pobj(than-2, aliens-4)
+punct(terrible-9, ,-5)
+det(acting-7, the-6)
+nsubj(terrible-9, acting-7)
+cop(terrible-9, is-8)
+punct(terrible-9, .-10)
+
+Sentence #9 (35 tokens):
+The writing is obviously meant for children, because every character is written like a kid.This is a dumb movie, that only children will appreciate, maybe.My rating: 1/2 out of ****.
+[Text=The CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=DT] [Text=writing CharacterOffsetBegin=746 CharacterOffsetEnd=753 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=754 CharacterOffsetEnd=756 PartOfSpeech=VBZ] [Text=obviously CharacterOffsetBegin=757 CharacterOffsetEnd=766 PartOfSpeech=RB] [Text=meant CharacterOffsetBegin=767 CharacterOffsetEnd=772 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=IN] [Text=children CharacterOffsetBegin=777 CharacterOffsetEnd=785 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=785 CharacterOffsetEnd=786 PartOfSpeech=,] [Text=because CharacterOffsetBegin=787 CharacterOffsetEnd=794 PartOfSpeech=IN] [Text=every CharacterOffsetBegin=795 CharacterOffsetEnd=800 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=801 CharacterOffsetEnd=810 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=811 CharacterOffsetEnd=813 PartOfSpeech=VBZ] [Text=written CharacterOffsetBegin=814 CharacterOffsetEnd=821 PartOfSpeech=VBN] [Text=like CharacterOffsetBegin=822 CharacterOffsetEnd=826 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=DT] [Text=kid.This CharacterOffsetBegin=829 CharacterOffsetEnd=837 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=838 CharacterOffsetEnd=840 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=841 CharacterOffsetEnd=842 PartOfSpeech=DT] [Text=dumb CharacterOffsetBegin=843 CharacterOffsetEnd=847 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=848 CharacterOffsetEnd=853 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=853 CharacterOffsetEnd=854 PartOfSpeech=,] [Text=that CharacterOffsetBegin=855 CharacterOffsetEnd=859 PartOfSpeech=IN] [Text=only CharacterOffsetBegin=860 CharacterOffsetEnd=864 PartOfSpeech=JJ] [Text=children CharacterOffsetBegin=865 CharacterOffsetEnd=873 PartOfSpeech=NNS] [Text=will CharacterOffsetBegin=874 CharacterOffsetEnd=878 PartOfSpeech=MD] [Text=appreciate CharacterOffsetBegin=879 CharacterOffsetEnd=889 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=889 CharacterOffsetEnd=890 PartOfSpeech=,] [Text=maybe.My CharacterOffsetBegin=891 CharacterOffsetEnd=899 PartOfSpeech=NNP] [Text=rating CharacterOffsetBegin=900 CharacterOffsetEnd=906 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=906 CharacterOffsetEnd=907 PartOfSpeech=:] [Text=1/2 CharacterOffsetBegin=908 CharacterOffsetEnd=911 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=912 CharacterOffsetEnd=915 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=916 CharacterOffsetEnd=918 PartOfSpeech=IN] [Text=**** CharacterOffsetBegin=919 CharacterOffsetEnd=923 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=923 CharacterOffsetEnd=924 PartOfSpeech=.] 
+root(ROOT-0, meant-5)
+det(writing-2, The-1)
+nsubjpass(meant-5, writing-2)
+auxpass(meant-5, is-3)
+advmod(meant-5, obviously-4)
+prep(meant-5, for-6)
+pobj(for-6, children-7)
+punct(meant-5, ,-8)
+mark(written-13, because-9)
+det(character-11, every-10)
+nsubjpass(written-13, character-11)
+auxpass(written-13, is-12)
+csubj(movie-20, written-13)
+prep(written-13, like-14)
+det(kid.This-16, a-15)
+pobj(like-14, kid.This-16)
+cop(movie-20, is-17)
+det(movie-20, a-18)
+amod(movie-20, dumb-19)
+ccomp(meant-5, movie-20)
+punct(meant-5, ,-21)
+mark(appreciate-26, that-22)
+amod(children-24, only-23)
+nsubj(appreciate-26, children-24)
+aux(appreciate-26, will-25)
+ccomp(meant-5, appreciate-26)
+punct(meant-5, ,-27)
+nn(rating-29, maybe.My-28)
+dep(meant-5, rating-29)
+punct(rating-29, :-30)
+dep(rating-29, 1/2-31)
+prep(1/2-31, out-32)
+pcomp(out-32, of-33)
+pobj(of-33, ****-34)
+punct(meant-5, .-35)
+
+Sentence #10 (3 tokens):
+100 mins.
+[Text=100 CharacterOffsetBegin=929 CharacterOffsetEnd=932 PartOfSpeech=CD] [Text=mins CharacterOffsetBegin=933 CharacterOffsetEnd=937 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=937 CharacterOffsetEnd=938 PartOfSpeech=.] 
+root(ROOT-0, mins-2)
+num(mins-2, 100-1)
+punct(mins-2, .-3)
+
+Sentence #11 (5 tokens):
+PG for mild language.
+[Text=PG CharacterOffsetBegin=943 CharacterOffsetEnd=945 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=946 CharacterOffsetEnd=949 PartOfSpeech=IN] [Text=mild CharacterOffsetBegin=950 CharacterOffsetEnd=954 PartOfSpeech=JJ] [Text=language CharacterOffsetBegin=955 CharacterOffsetEnd=963 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=963 CharacterOffsetEnd=964 PartOfSpeech=.] 
+root(ROOT-0, PG-1)
+prep(PG-1, for-2)
+amod(language-4, mild-3)
+pobj(for-2, language-4)
+punct(PG-1, .-5)
+

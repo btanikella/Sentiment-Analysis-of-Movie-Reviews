@@ -1,0 +1,189 @@
+Sentence #1 (3 tokens):
+Terrible movie.
+[Text=Terrible CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=.] 
+root(ROOT-0, movie-2)
+amod(movie-2, Terrible-1)
+punct(movie-2, .-3)
+
+Sentence #2 (18 tokens):
+If there is one Turkish film you should avoid seeing in 2006, that should be Banyo.
+[Text=If CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=CD] [Text=Turkish CharacterOffsetBegin=40 CharacterOffsetEnd=47 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=MD] [Text=avoid CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=VB] [Text=seeing CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=IN] [Text=2006 CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=,] [Text=that CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=DT] [Text=should CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=VB] [Text=Banyo CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.] 
+root(ROOT-0, Banyo-17)
+mark(is-3, If-1)
+expl(is-3, there-2)
+advcl(Banyo-17, is-3)
+num(film-6, one-4)
+amod(film-6, Turkish-5)
+nsubj(is-3, film-6)
+nsubj(avoid-9, you-7)
+aux(avoid-9, should-8)
+rcmod(film-6, avoid-9)
+xcomp(avoid-9, seeing-10)
+prep(seeing-10, in-11)
+pobj(in-11, 2006-12)
+punct(Banyo-17, ,-13)
+nsubj(Banyo-17, that-14)
+aux(Banyo-17, should-15)
+cop(Banyo-17, be-16)
+punct(Banyo-17, .-18)
+
+Sentence #3 (6 tokens):
+What a waste of time.
+[Text=What CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=DT] [Text=waste CharacterOffsetBegin=119 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=.] 
+root(ROOT-0, waste-3)
+dep(waste-3, What-1)
+det(waste-3, a-2)
+prep(waste-3, of-4)
+pobj(of-4, time-5)
+punct(waste-3, .-6)
+
+Sentence #4 (17 tokens):
+Other than couple of cheap laughs this movie achieves nothing, nada, zilch, nil.
+[Text=Other CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=IN] [Text=couple CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=cheap CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=JJ] [Text=laughs CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=NNS] [Text=this CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=177 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=achieves CharacterOffsetBegin=183 CharacterOffsetEnd=191 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=,] [Text=nada CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=,] [Text=zilch CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=,] [Text=nil CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=.] 
+root(ROOT-0, achieves-9)
+dep(movie-8, Other-1)
+prep(Other-1, than-2)
+pobj(than-2, couple-3)
+prep(couple-3, of-4)
+amod(laughs-6, cheap-5)
+pobj(of-4, laughs-6)
+det(movie-8, this-7)
+nsubj(achieves-9, movie-8)
+dobj(achieves-9, nothing-10)
+punct(nothing-10, ,-11)
+conj(nothing-10, nada-12)
+punct(nothing-10, ,-13)
+conj(nothing-10, zilch-14)
+punct(nothing-10, ,-15)
+appos(nothing-10, nil-16)
+punct(achieves-9, .-17)
+
+Sentence #5 (13 tokens):
+The dialog is cheap, and sexual clichs are all over it.
+[Text=The CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=dialog CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=VBZ] [Text=cheap CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=,] [Text=and CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=CC] [Text=sexual CharacterOffsetBegin=248 CharacterOffsetEnd=254 PartOfSpeech=JJ] [Text=clichs CharacterOffsetBegin=255 CharacterOffsetEnd=261 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=over CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=.] 
+root(ROOT-0, cheap-4)
+det(dialog-2, The-1)
+nsubj(cheap-4, dialog-2)
+cop(cheap-4, is-3)
+punct(cheap-4, ,-5)
+cc(cheap-4, and-6)
+amod(clichs-8, sexual-7)
+nsubj(all-10, clichs-8)
+cop(all-10, are-9)
+conj(cheap-4, all-10)
+prep(all-10, over-11)
+pobj(over-11, it-12)
+punct(cheap-4, .-13)
+
+Sentence #6 (14 tokens):
+The director needs to watch more films before attempting to direct his own.
+[Text=The CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=287 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=needs CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=VB] [Text=more CharacterOffsetBegin=311 CharacterOffsetEnd=315 PartOfSpeech=JJR] [Text=films CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=NNS] [Text=before CharacterOffsetBegin=322 CharacterOffsetEnd=328 PartOfSpeech=IN] [Text=attempting CharacterOffsetBegin=329 CharacterOffsetEnd=339 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=TO] [Text=direct CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=.] 
+root(ROOT-0, needs-3)
+det(director-2, The-1)
+nsubj(needs-3, director-2)
+aux(watch-5, to-4)
+xcomp(needs-3, watch-5)
+amod(films-7, more-6)
+dobj(watch-5, films-7)
+prep(watch-5, before-8)
+pcomp(before-8, attempting-9)
+aux(direct-11, to-10)
+xcomp(attempting-9, direct-11)
+poss(own-13, his-12)
+dobj(direct-11, own-13)
+punct(needs-3, .-14)
+
+Sentence #7 (14 tokens):
+The red headed women displays examples of what an actress should not do.
+[Text=The CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=DT] [Text=red CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=JJ] [Text=headed CharacterOffsetBegin=371 CharacterOffsetEnd=377 PartOfSpeech=VBN] [Text=women CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=NNS] [Text=displays CharacterOffsetBegin=384 CharacterOffsetEnd=392 PartOfSpeech=VBZ] [Text=examples CharacterOffsetBegin=393 CharacterOffsetEnd=401 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=WP] [Text=an CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=DT] [Text=actress CharacterOffsetBegin=413 CharacterOffsetEnd=420 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=421 CharacterOffsetEnd=427 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=.] 
+root(ROOT-0, displays-5)
+det(women-4, The-1)
+amod(women-4, red-2)
+amod(women-4, headed-3)
+nsubj(displays-5, women-4)
+dobj(displays-5, examples-6)
+prep(examples-6, of-7)
+dobj(do-13, what-8)
+det(actress-10, an-9)
+nsubj(do-13, actress-10)
+aux(do-13, should-11)
+neg(do-13, not-12)
+pcomp(of-7, do-13)
+punct(displays-5, .-14)
+
+Sentence #8 (19 tokens):
+If you are interested in learning how not to act this is a perfect example of bad acting.
+[Text=If CharacterOffsetBegin=440 CharacterOffsetEnd=442 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=VBP] [Text=interested CharacterOffsetBegin=451 CharacterOffsetEnd=461 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=462 CharacterOffsetEnd=464 PartOfSpeech=IN] [Text=learning CharacterOffsetBegin=465 CharacterOffsetEnd=473 PartOfSpeech=VBG] [Text=how CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=WRB] [Text=not CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=TO] [Text=act CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=497 CharacterOffsetEnd=498 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=499 CharacterOffsetEnd=506 PartOfSpeech=JJ] [Text=example CharacterOffsetBegin=507 CharacterOffsetEnd=514 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=IN] [Text=bad CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=522 CharacterOffsetEnd=528 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=.] 
+root(ROOT-0, interested-4)
+mark(interested-4, If-1)
+nsubj(interested-4, you-2)
+cop(interested-4, are-3)
+prep(interested-4, in-5)
+pcomp(in-5, learning-6)
+advmod(not-8, how-7)
+neg(act-10, not-8)
+aux(act-10, to-9)
+xcomp(learning-6, act-10)
+nsubj(example-15, this-11)
+cop(example-15, is-12)
+det(example-15, a-13)
+amod(example-15, perfect-14)
+ccomp(act-10, example-15)
+prep(example-15, of-16)
+amod(acting-18, bad-17)
+pobj(of-16, acting-18)
+punct(interested-4, .-19)
+
+Sentence #9 (26 tokens):
+The only good thing I can say about the movie is, wait, wait, there is nothing good I can say about it.
+[Text=The CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=548 CharacterOffsetEnd=553 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=554 CharacterOffsetEnd=555 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=MD] [Text=say CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=564 CharacterOffsetEnd=569 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=580 CharacterOffsetEnd=582 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=582 CharacterOffsetEnd=583 PartOfSpeech=,] [Text=wait CharacterOffsetBegin=584 CharacterOffsetEnd=588 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=,] [Text=wait CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=594 CharacterOffsetEnd=595 PartOfSpeech=,] [Text=there CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=605 CharacterOffsetEnd=612 PartOfSpeech=NN] [Text=good CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=MD] [Text=say CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=628 CharacterOffsetEnd=633 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=636 CharacterOffsetEnd=637 PartOfSpeech=.] 
+root(ROOT-0, is-11)
+det(thing-4, The-1)
+advmod(good-3, only-2)
+amod(thing-4, good-3)
+nsubj(is-11, thing-4)
+nsubj(say-7, I-5)
+aux(say-7, can-6)
+rcmod(thing-4, say-7)
+prep(say-7, about-8)
+det(movie-10, the-9)
+pobj(about-8, movie-10)
+punct(is-11, ,-12)
+conj(is-11, wait-13)
+punct(is-11, ,-14)
+conj(is-11, wait-15)
+punct(is-11, ,-16)
+expl(is-18, there-17)
+ccomp(is-11, is-18)
+dep(say-23, nothing-19)
+dep(say-23, good-20)
+nsubj(say-23, I-21)
+aux(say-23, can-22)
+nsubj(is-18, say-23)
+prep(say-23, about-24)
+pobj(about-24, it-25)
+punct(is-11, .-26)
+
+Sentence #10 (13 tokens):
+I must have really disliked it to write about it this much.
+[Text=I CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=PRP] [Text=must CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=VB] [Text=really CharacterOffsetBegin=654 CharacterOffsetEnd=660 PartOfSpeech=RB] [Text=disliked CharacterOffsetBegin=661 CharacterOffsetEnd=669 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=670 CharacterOffsetEnd=672 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=TO] [Text=write CharacterOffsetBegin=676 CharacterOffsetEnd=681 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=688 CharacterOffsetEnd=690 PartOfSpeech=PRP] [Text=this CharacterOffsetBegin=691 CharacterOffsetEnd=695 PartOfSpeech=DT] [Text=much CharacterOffsetBegin=696 CharacterOffsetEnd=700 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=700 CharacterOffsetEnd=701 PartOfSpeech=.] 
+root(ROOT-0, disliked-5)
+nsubj(disliked-5, I-1)
+aux(disliked-5, must-2)
+aux(disliked-5, have-3)
+advmod(disliked-5, really-4)
+dobj(disliked-5, it-6)
+aux(write-8, to-7)
+xcomp(disliked-5, write-8)
+prep(write-8, about-9)
+pobj(about-9, it-10)
+det(much-12, this-11)
+dobj(write-8, much-12)
+punct(disliked-5, .-13)
+
+Sentence #11 (2 tokens):
+Jeez!
+[Text=Jeez CharacterOffsetBegin=706 CharacterOffsetEnd=710 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=710 CharacterOffsetEnd=711 PartOfSpeech=.] 
+root(ROOT-0, Jeez-1)
+punct(Jeez-1, !-2)
+

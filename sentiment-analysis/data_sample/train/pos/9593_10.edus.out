@@ -1,0 +1,191 @@
+Sentence #1 (12 tokens):
+First of all I am a butch, straight white male.
+[Text=First CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=I CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=butch CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=,] [Text=straight CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=white CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=JJ] [Text=male CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=.] 
+root(ROOT-0, First-1)
+prep(First-1, of-2)
+pobj(of-2, all-3)
+nsubj(butch-7, I-4)
+cop(butch-7, am-5)
+det(butch-7, a-6)
+rcmod(all-3, butch-7)
+punct(butch-7, ,-8)
+amod(male-11, straight-9)
+amod(male-11, white-10)
+appos(butch-7, male-11)
+punct(First-1, .-12)
+
+Sentence #2 (10 tokens):
+But even with that handicap I love this movie.
+[Text=But CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=CC] [Text=even CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=handicap CharacterOffsetBegin=75 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=.] 
+root(ROOT-0, But-1)
+advmod(with-3, even-2)
+prep(But-1, with-3)
+pobj(with-3, that-4)
+dep(that-4, handicap-5)
+nsubj(love-7, I-6)
+rcmod(handicap-5, love-7)
+det(movie-9, this-8)
+dobj(love-7, movie-9)
+punct(But-1, .-10)
+
+Sentence #3 (6 tokens):
+It's about real people.
+[Text=It CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=RB] [Text=real CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=.] 
+root(ROOT-0, people-5)
+nsubj(people-5, It-1)
+cop(people-5, 's-2)
+amod(people-5, about-3)
+amod(people-5, real-4)
+punct(people-5, .-6)
+
+Sentence #4 (6 tokens):
+A real time and place.
+[Text=A CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=CC] [Text=place CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=.] 
+root(ROOT-0, time-3)
+det(time-3, A-1)
+amod(time-3, real-2)
+cc(time-3, and-4)
+conj(time-3, place-5)
+punct(time-3, .-6)
+
+Sentence #5 (11 tokens):
+And of course New York City in the 80's.
+[Text=And CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=CC] [Text=of CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=New CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=NNP] [Text=York CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=NNP] [Text=City CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=80 CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=POS] [Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+prep(And-1, of-2)
+pobj(of-2, course-3)
+nn(City-6, New-4)
+nn(City-6, York-5)
+dep(of-2, City-6)
+prep(City-6, in-7)
+det(80-9, the-8)
+pobj(in-7, 80-9)
+possessive(80-9, 's-10)
+punct(And-1, .-11)
+
+Sentence #6 (37 tokens):
+I had many gay friends growing up in New York in the eighties and the one thing about them i always admired was their courage to live their lives the way they wanted to live them.
+[Text=I CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=VBD] [Text=many CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=JJ] [Text=gay CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=JJ] [Text=friends CharacterOffsetBegin=222 CharacterOffsetEnd=229 PartOfSpeech=NNS] [Text=growing CharacterOffsetBegin=230 CharacterOffsetEnd=237 PartOfSpeech=VBG] [Text=up CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=IN] [Text=New CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=NNP] [Text=York CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=DT] [Text=eighties CharacterOffsetBegin=260 CharacterOffsetEnd=268 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=CD] [Text=thing CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=287 CharacterOffsetEnd=292 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=PRP] [Text=i CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=FW] [Text=always CharacterOffsetBegin=300 CharacterOffsetEnd=306 PartOfSpeech=RB] [Text=admired CharacterOffsetBegin=307 CharacterOffsetEnd=314 PartOfSpeech=VBN] [Text=was CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=VBD] [Text=their CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=PRP$] [Text=courage CharacterOffsetBegin=325 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=TO] [Text=live CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=VB] [Text=their CharacterOffsetBegin=341 CharacterOffsetEnd=346 PartOfSpeech=PRP$] [Text=lives CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=NNS] [Text=the CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=NN] [Text=they CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=PRP] [Text=wanted CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=TO] [Text=live CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, I-1)
+amod(friends-5, many-3)
+amod(friends-5, gay-4)
+nsubj(growing-6, friends-5)
+ccomp(had-2, growing-6)
+prt(growing-6, up-7)
+prep(growing-6, in-8)
+nn(York-10, New-9)
+pobj(in-8, York-10)
+prep(growing-6, in-11)
+det(eighties-13, the-12)
+pobj(in-11, eighties-13)
+cc(growing-6, and-14)
+det(thing-17, the-15)
+num(thing-17, one-16)
+nsubj(courage-25, thing-17)
+prep(thing-17, about-18)
+pobj(about-18, them-19)
+dep(thing-17, i-20)
+advmod(admired-22, always-21)
+partmod(i-20, admired-22)
+cop(courage-25, was-23)
+poss(courage-25, their-24)
+conj(growing-6, courage-25)
+aux(live-27, to-26)
+infmod(courage-25, live-27)
+poss(lives-29, their-28)
+dobj(live-27, lives-29)
+det(way-31, the-30)
+dep(lives-29, way-31)
+nsubj(wanted-33, they-32)
+rcmod(way-31, wanted-33)
+aux(live-35, to-34)
+xcomp(wanted-33, live-35)
+dobj(live-35, them-36)
+punct(had-2, .-37)
+
+Sentence #7 (6 tokens):
+No matter what the consequences.
+[Text=No CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=DT] [Text=matter CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=what CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=DT] [Text=consequences CharacterOffsetBegin=410 CharacterOffsetEnd=422 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=.] 
+root(ROOT-0, consequences-5)
+det(matter-2, No-1)
+dep(consequences-5, matter-2)
+dep(consequences-5, what-3)
+det(consequences-5, the-4)
+punct(consequences-5, .-6)
+
+Sentence #8 (4 tokens):
+That's courageous.
+[Text=That CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=VBZ] [Text=courageous CharacterOffsetBegin=435 CharacterOffsetEnd=445 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=445 CharacterOffsetEnd=446 PartOfSpeech=.] 
+root(ROOT-0, courageous-3)
+nsubj(courageous-3, That-1)
+cop(courageous-3, 's-2)
+punct(courageous-3, .-4)
+
+Sentence #9 (6 tokens):
+You have to admire that.
+[Text=You CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=TO] [Text=admire CharacterOffsetBegin=463 CharacterOffsetEnd=469 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=470 CharacterOffsetEnd=474 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, You-1)
+aux(admire-4, to-3)
+xcomp(have-2, admire-4)
+dobj(admire-4, that-5)
+punct(have-2, .-6)
+
+Sentence #10 (33 tokens):
+This is a great film, watch it and take in what it was like to be a flamboyant African American or Hispanic Gay man in the New York of the eighties.
+[Text=This CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=488 CharacterOffsetEnd=489 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=490 CharacterOffsetEnd=495 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=,] [Text=watch CharacterOffsetBegin=502 CharacterOffsetEnd=507 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=511 CharacterOffsetEnd=514 PartOfSpeech=CC] [Text=take CharacterOffsetBegin=515 CharacterOffsetEnd=519 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=RP] [Text=what CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=528 CharacterOffsetEnd=530 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=DT] [Text=flamboyant CharacterOffsetBegin=548 CharacterOffsetEnd=558 PartOfSpeech=JJ] [Text=African CharacterOffsetBegin=559 CharacterOffsetEnd=566 PartOfSpeech=JJ] [Text=American CharacterOffsetBegin=567 CharacterOffsetEnd=575 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=CC] [Text=Hispanic CharacterOffsetBegin=579 CharacterOffsetEnd=587 PartOfSpeech=JJ] [Text=Gay CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=NNS] [Text=man CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=DT] [Text=New CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=NNP] [Text=York CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=DT] [Text=eighties CharacterOffsetBegin=619 CharacterOffsetEnd=627 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=.] 
+root(ROOT-0, film-5)
+nsubj(film-5, This-1)
+cop(film-5, is-2)
+det(film-5, a-3)
+amod(film-5, great-4)
+punct(film-5, ,-6)
+conj(film-5, watch-7)
+dobj(watch-7, it-8)
+cc(film-5, and-9)
+conj(film-5, take-10)
+prt(take-10, in-11)
+dobj(was-14, what-12)
+nsubj(was-14, it-13)
+ccomp(take-10, was-14)
+prep(was-14, like-15)
+aux(American-21, to-16)
+cop(American-21, be-17)
+det(American-21, a-18)
+amod(American-21, flamboyant-19)
+amod(American-21, African-20)
+amod(man-25, American-21)
+cc(American-21, or-22)
+conj(American-21, Hispanic-23)
+nn(man-25, Gay-24)
+pobj(like-15, man-25)
+prep(man-25, in-26)
+det(York-29, the-27)
+nn(York-29, New-28)
+pobj(in-26, York-29)
+prep(York-29, of-30)
+det(eighties-32, the-31)
+pobj(of-30, eighties-32)
+punct(film-5, .-33)
+
+Sentence #11 (5 tokens):
+It's real life.
+[Text=It CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=635 CharacterOffsetEnd=637 PartOfSpeech=POS] [Text=real CharacterOffsetBegin=638 CharacterOffsetEnd=642 PartOfSpeech=JJ] [Text=life CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=.] 
+root(ROOT-0, life-4)
+poss(life-4, It-1)
+possessive(It-1, 's-2)
+amod(life-4, real-3)
+punct(life-4, .-5)
+
+Sentence #12 (7 tokens):
+Bottom line it's real life.
+[Text=Bottom CharacterOffsetBegin=653 CharacterOffsetEnd=659 PartOfSpeech=NN] [Text=line CharacterOffsetBegin=660 CharacterOffsetEnd=664 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=665 CharacterOffsetEnd=667 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=VBZ] [Text=real CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=JJ] [Text=life CharacterOffsetBegin=675 CharacterOffsetEnd=679 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=.] 
+root(ROOT-0, line-2)
+nn(line-2, Bottom-1)
+nsubj(life-6, it-3)
+cop(life-6, 's-4)
+amod(life-6, real-5)
+rcmod(line-2, life-6)
+punct(line-2, .-7)
+

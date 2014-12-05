@@ -1,0 +1,85 @@
+Sentence #1 (9 tokens):
+The movie itself was ok for the kids.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=itself CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=VBD] [Text=ok CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=DT] [Text=kids CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.] 
+root(ROOT-0, ok-5)
+det(movie-2, The-1)
+nsubj(ok-5, movie-2)
+dep(movie-2, itself-3)
+cop(ok-5, was-4)
+prep(ok-5, for-6)
+det(kids-8, the-7)
+pobj(for-6, kids-8)
+punct(ok-5, .-9)
+
+Sentence #2 (22 tokens):
+But I gotta tell ya that Scratch, the little squirrel, was the funniest character I've ever seen.
+[Text=But CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=VBD] [Text=ta CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=tell CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=VBP] [Text=ya CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=PRP] [Text=that CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN] [Text=Scratch CharacterOffsetBegin=71 CharacterOffsetEnd=78 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=,] [Text=the CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=84 CharacterOffsetEnd=90 PartOfSpeech=JJ] [Text=squirrel CharacterOffsetBegin=91 CharacterOffsetEnd=99 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=,] [Text=was CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=DT] [Text=funniest CharacterOffsetBegin=109 CharacterOffsetEnd=117 PartOfSpeech=JJS] [Text=character CharacterOffsetBegin=118 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=.] 
+root(ROOT-0, got-3)
+cc(got-3, But-1)
+nsubj(got-3, I-2)
+nsubj(tell-5, ta-4)
+ccomp(got-3, tell-5)
+dobj(tell-5, ya-6)
+mark(character-17, that-7)
+advcl(character-17, Scratch-8)
+punct(character-17, ,-9)
+det(squirrel-12, the-10)
+amod(squirrel-12, little-11)
+nsubj(character-17, squirrel-12)
+punct(squirrel-12, ,-13)
+cop(character-17, was-14)
+det(character-17, the-15)
+amod(character-17, funniest-16)
+ccomp(tell-5, character-17)
+nsubj(seen-21, I-18)
+aux(seen-21, 've-19)
+advmod(seen-21, ever-20)
+rcmod(character-17, seen-21)
+punct(got-3, .-22)
+
+Sentence #3 (8 tokens):
+He makes the movie all by himself.
+[Text=He CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRP] [Text=makes CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=all CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=by CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=IN] [Text=himself CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=.] 
+root(ROOT-0, makes-2)
+nsubj(makes-2, He-1)
+det(movie-4, the-3)
+dobj(makes-2, movie-4)
+dep(movie-4, all-5)
+prep(all-5, by-6)
+pobj(by-6, himself-7)
+punct(makes-2, .-8)
+
+Sentence #4 (11 tokens):
+He's the reason I've just love this movie.
+[Text=He CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=VBP] [Text=just CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=RB] [Text=love CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, reason-4)
+nsubj(reason-4, He-1)
+cop(reason-4, 's-2)
+det(reason-4, the-3)
+nsubj(love-8, I-5)
+aux(love-8, 've-6)
+advmod(love-8, just-7)
+rcmod(reason-4, love-8)
+det(movie-10, this-9)
+dobj(love-8, movie-10)
+punct(reason-4, .-11)
+
+Sentence #5 (15 tokens):
+Congradulations to the crew, it made me laugh out loud and always will!
+[Text=Congradulations CharacterOffsetBegin=234 CharacterOffsetEnd=249 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=crew CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=,] [Text=it CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=PRP] [Text=laugh CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=loud CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=CC] [Text=always CharacterOffsetBegin=293 CharacterOffsetEnd=299 PartOfSpeech=RB] [Text=will CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=MD] [Text=! CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=.] 
+root(ROOT-0, made-7)
+partmod(made-7, Congradulations-1)
+prep(Congradulations-1, to-2)
+det(crew-4, the-3)
+pobj(to-2, crew-4)
+punct(made-7, ,-5)
+nsubj(made-7, it-6)
+nsubj(laugh-9, me-8)
+xcomp(made-7, laugh-9)
+prt(laugh-9, out-10)
+acomp(laugh-9, loud-11)
+cc(made-7, and-12)
+advmod(will-14, always-13)
+conj(made-7, will-14)
+punct(made-7, !-15)
+

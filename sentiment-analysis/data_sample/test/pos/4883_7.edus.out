@@ -1,0 +1,197 @@
+Sentence #1 (8 tokens):
+OK, why complain about this movie?
+[Text=OK CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=,] [Text=why CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=WRB] [Text=complain CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=VBP] [Text=about CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, complain-4)
+discourse(complain-4, OK-1)
+punct(complain-4, ,-2)
+advmod(complain-4, why-3)
+prep(complain-4, about-5)
+det(movie-7, this-6)
+pobj(about-5, movie-7)
+punct(complain-4, ?-8)
+
+Sentence #2 (4 tokens):
+It's fiction.
+[Text=It CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=VBZ] [Text=fiction CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, fiction-3)
+nsubj(fiction-3, It-1)
+cop(fiction-3, 's-2)
+punct(fiction-3, .-4)
+
+Sentence #3 (4 tokens):
+Deal with it.
+[Text=Deal CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NNP] [Text=with CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=.] 
+root(ROOT-0, Deal-1)
+prep(Deal-1, with-2)
+pobj(with-2, it-3)
+punct(Deal-1, .-4)
+
+Sentence #4 (12 tokens):
+If you want to see the biography, go watch it.
+[Text=If CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=DT] [Text=biography CharacterOffsetBegin=102 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=,] [Text=go CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=VB] [Text=watch CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=.] 
+root(ROOT-0, go-9)
+mark(want-3, If-1)
+nsubj(want-3, you-2)
+advcl(go-9, want-3)
+aux(see-5, to-4)
+xcomp(want-3, see-5)
+det(biography-7, the-6)
+dobj(see-5, biography-7)
+punct(go-9, ,-8)
+ccomp(go-9, watch-10)
+dobj(watch-10, it-11)
+punct(go-9, .-12)
+
+Sentence #5 (13 tokens):
+This is an original, fictionalized version of what happened in Wisconsin.
+[Text=This CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=141 CharacterOffsetEnd=149 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=,] [Text=fictionalized CharacterOffsetBegin=151 CharacterOffsetEnd=164 PartOfSpeech=JJ] [Text=version CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=WP] [Text=happened CharacterOffsetBegin=181 CharacterOffsetEnd=189 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=Wisconsin CharacterOffsetBegin=193 CharacterOffsetEnd=202 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, version-7)
+nsubj(version-7, This-1)
+cop(version-7, is-2)
+det(version-7, an-3)
+amod(version-7, original-4)
+punct(version-7, ,-5)
+amod(version-7, fictionalized-6)
+prep(version-7, of-8)
+nsubj(happened-10, what-9)
+pcomp(of-8, happened-10)
+prep(happened-10, in-11)
+pobj(in-11, Wisconsin-12)
+punct(version-7, .-13)
+
+Sentence #6 (19 tokens):
+People who are obsessed will complain about this, as they do every other deviation of the facts.
+[Text=People CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=WP] [Text=are CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=VBP] [Text=obsessed CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=VBN] [Text=will CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=MD] [Text=complain CharacterOffsetBegin=237 CharacterOffsetEnd=245 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=,] [Text=as CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=VBP] [Text=every CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=JJ] [Text=deviation CharacterOffsetBegin=281 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=facts CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=.] 
+root(ROOT-0, complain-6)
+nsubj(complain-6, People-1)
+nsubj(obsessed-4, who-2)
+cop(obsessed-4, are-3)
+rcmod(People-1, obsessed-4)
+aux(complain-6, will-5)
+prep(complain-6, about-7)
+pobj(about-7, this-8)
+punct(complain-6, ,-9)
+mark(do-12, as-10)
+nsubj(do-12, they-11)
+advcl(complain-6, do-12)
+det(deviation-15, every-13)
+amod(deviation-15, other-14)
+dobj(do-12, deviation-15)
+prep(deviation-15, of-16)
+det(facts-18, the-17)
+pobj(of-16, facts-18)
+punct(complain-6, .-19)
+
+Sentence #7 (4 tokens):
+Sad but true.
+[Text=Sad CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=CC] [Text=true CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=.] 
+root(ROOT-0, Sad-1)
+cc(Sad-1, but-2)
+conj(Sad-1, true-3)
+punct(Sad-1, .-4)
+
+Sentence #8 (19 tokens):
+I think making Kane Hodder the man in which the film is named after was a great idea.
+[Text=I CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=329 CharacterOffsetEnd=334 PartOfSpeech=VBP] [Text=making CharacterOffsetBegin=335 CharacterOffsetEnd=341 PartOfSpeech=VBG] [Text=Kane CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=NNP] [Text=Hodder CharacterOffsetBegin=347 CharacterOffsetEnd=353 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=man CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=IN] [Text=which CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=WDT] [Text=the CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=VBZ] [Text=named CharacterOffsetBegin=383 CharacterOffsetEnd=388 PartOfSpeech=VBN] [Text=after CharacterOffsetBegin=389 CharacterOffsetEnd=394 PartOfSpeech=IN] [Text=was CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=401 CharacterOffsetEnd=406 PartOfSpeech=JJ] [Text=idea CharacterOffsetBegin=407 CharacterOffsetEnd=411 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+ccomp(think-2, making-3)
+nn(Hodder-5, Kane-4)
+nsubj(man-7, Hodder-5)
+det(man-7, the-6)
+xcomp(making-3, man-7)
+prep(named-13, in-8)
+pobj(in-8, which-9)
+det(film-11, the-10)
+nsubjpass(named-13, film-11)
+auxpass(named-13, is-12)
+rcmod(man-7, named-13)
+nsubj(idea-18, after-14)
+cop(idea-18, was-15)
+det(idea-18, a-16)
+amod(idea-18, great-17)
+dep(named-13, idea-18)
+punct(think-2, .-19)
+
+Sentence #9 (15 tokens):
+I thought it wasn't so good at first, I'll be honest.
+[Text=I CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=419 CharacterOffsetEnd=426 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=RB] [Text=so CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=IN] [Text=first CharacterOffsetBegin=448 CharacterOffsetEnd=453 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=,] [Text=I CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=VB] [Text=honest CharacterOffsetBegin=463 CharacterOffsetEnd=469 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+nsubj(good-7, it-3)
+cop(good-7, was-4)
+neg(good-7, n't-5)
+advmod(good-7, so-6)
+ccomp(thought-2, good-7)
+prep(good-7, at-8)
+pobj(at-8, first-9)
+punct(thought-2, ,-10)
+nsubj(honest-14, I-11)
+aux(honest-14, 'll-12)
+cop(honest-14, be-13)
+ccomp(thought-2, honest-14)
+punct(thought-2, .-15)
+
+Sentence #10 (8 tokens):
+But that just made it even scarier.
+[Text=But CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=DT] [Text=just CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=PRP] [Text=even CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=RB] [Text=scarier CharacterOffsetBegin=502 CharacterOffsetEnd=509 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=.] 
+root(ROOT-0, made-4)
+cc(made-4, But-1)
+nsubj(made-4, that-2)
+advmod(made-4, just-3)
+dobj(made-4, it-5)
+advmod(scarier-7, even-6)
+advmod(made-4, scarier-7)
+punct(made-4, .-8)
+
+Sentence #11 (23 tokens):
+If you like Kane Hodder, Ed Gein or movies based on real events, I think this is a good movie.
+[Text=If CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=IN] [Text=Kane CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=NNP] [Text=Hodder CharacterOffsetBegin=532 CharacterOffsetEnd=538 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=538 CharacterOffsetEnd=539 PartOfSpeech=,] [Text=Ed CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=NNP] [Text=Gein CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=NNP] [Text=or CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=CC] [Text=movies CharacterOffsetBegin=551 CharacterOffsetEnd=557 PartOfSpeech=NNS] [Text=based CharacterOffsetBegin=558 CharacterOffsetEnd=563 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=564 CharacterOffsetEnd=566 PartOfSpeech=IN] [Text=real CharacterOffsetBegin=567 CharacterOffsetEnd=571 PartOfSpeech=JJ] [Text=events CharacterOffsetBegin=572 CharacterOffsetEnd=578 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=,] [Text=I CharacterOffsetBegin=580 CharacterOffsetEnd=581 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=596 CharacterOffsetEnd=597 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=603 CharacterOffsetEnd=608 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=.] 
+root(ROOT-0, think-17)
+mark(think-17, If-1)
+nsubj(think-17, you-2)
+prep(think-17, like-3)
+nn(Hodder-5, Kane-4)
+pobj(like-3, Hodder-5)
+punct(Hodder-5, ,-6)
+nn(Gein-8, Ed-7)
+appos(Hodder-5, Gein-8)
+cc(Gein-8, or-9)
+conj(Gein-8, movies-10)
+partmod(Gein-8, based-11)
+prep(based-11, on-12)
+amod(events-14, real-13)
+pobj(on-12, events-14)
+punct(Hodder-5, ,-15)
+nsubj(think-17, I-16)
+nsubj(movie-22, this-18)
+cop(movie-22, is-19)
+det(movie-22, a-20)
+amod(movie-22, good-21)
+ccomp(think-17, movie-22)
+punct(think-17, .-23)
+
+Sentence #12 (20 tokens):
+But if you're obsessed (like some other people) stay away from this movie and all others.
+[Text=But CharacterOffsetBegin=614 CharacterOffsetEnd=617 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=618 CharacterOffsetEnd=620 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=VBP] [Text=obsessed CharacterOffsetBegin=628 CharacterOffsetEnd=636 PartOfSpeech=VBN] [Text=-LRB- CharacterOffsetBegin=637 CharacterOffsetEnd=638 PartOfSpeech=-LRB-] [Text=like CharacterOffsetBegin=638 CharacterOffsetEnd=642 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=654 CharacterOffsetEnd=660 PartOfSpeech=NNS] [Text=-RRB- CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=-RRB-] [Text=stay CharacterOffsetBegin=662 CharacterOffsetEnd=666 PartOfSpeech=VBP] [Text=away CharacterOffsetBegin=667 CharacterOffsetEnd=671 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=672 CharacterOffsetEnd=676 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=677 CharacterOffsetEnd=681 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=CC] [Text=all CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=DT] [Text=others CharacterOffsetBegin=696 CharacterOffsetEnd=702 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=702 CharacterOffsetEnd=703 PartOfSpeech=.] 
+root(ROOT-0, stay-12)
+cc(stay-12, But-1)
+mark(obsessed-5, if-2)
+nsubjpass(obsessed-5, you-3)
+auxpass(obsessed-5, 're-4)
+advcl(stay-12, obsessed-5)
+punct(like-7, -LRB--6)
+prep(obsessed-5, like-7)
+det(people-10, some-8)
+amod(people-10, other-9)
+pobj(like-7, people-10)
+punct(stay-12, -RRB--11)
+advmod(stay-12, away-13)
+prep(away-13, from-14)
+det(movie-16, this-15)
+pobj(from-14, movie-16)
+cc(stay-12, and-17)
+det(others-19, all-18)
+conj(stay-12, others-19)
+punct(stay-12, .-20)
+

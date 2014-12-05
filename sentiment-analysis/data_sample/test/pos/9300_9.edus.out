@@ -1,0 +1,58 @@
+Sentence #1 (14 tokens):
+I saw this again today for the first time in about 6 years.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=again CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=RB] [Text=today CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=IN] [Text=about CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=IN] [Text=6 CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+dobj(saw-2, this-3)
+advmod(saw-2, again-4)
+tmod(saw-2, today-5)
+prep(saw-2, for-6)
+det(time-9, the-7)
+amod(time-9, first-8)
+pobj(for-6, time-9)
+prep(time-9, in-10)
+quantmod(6-12, about-11)
+num(years-13, 6-12)
+pobj(in-10, years-13)
+punct(saw-2, .-14)
+
+Sentence #2 (10 tokens):
+I had forgotten how well acted this movie is.
+[Text=I CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=VBD] [Text=forgotten CharacterOffsetBegin=74 CharacterOffsetEnd=83 PartOfSpeech=VBN] [Text=how CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=WRB] [Text=well CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=RB] [Text=acted CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=.] 
+root(ROOT-0, forgotten-3)
+nsubj(forgotten-3, I-1)
+aux(forgotten-3, had-2)
+advmod(acted-6, how-4)
+advmod(acted-6, well-5)
+dep(is-9, acted-6)
+det(movie-8, this-7)
+nsubj(is-9, movie-8)
+ccomp(forgotten-3, is-9)
+punct(forgotten-3, .-10)
+
+Sentence #3 (22 tokens):
+Paul Newman gets the billing, but Dwight Schultz holds his own and shows how good an actor he really is.
+[Text=Paul CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=NNP] [Text=Newman CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=NNP] [Text=gets CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=DT] [Text=billing CharacterOffsetBegin=139 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=,] [Text=but CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=CC] [Text=Dwight CharacterOffsetBegin=152 CharacterOffsetEnd=158 PartOfSpeech=NNP] [Text=Schultz CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=NNP] [Text=holds CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=CC] [Text=shows CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=VBZ] [Text=how CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=WRB] [Text=good CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=JJ] [Text=an CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=DT] [Text=actor CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=.] 
+root(ROOT-0, gets-3)
+nn(Newman-2, Paul-1)
+nsubj(gets-3, Newman-2)
+det(billing-5, the-4)
+dobj(gets-3, billing-5)
+punct(gets-3, ,-6)
+cc(gets-3, but-7)
+nn(Schultz-9, Dwight-8)
+nsubj(holds-10, Schultz-9)
+conj(gets-3, holds-10)
+poss(own-12, his-11)
+dobj(holds-10, own-12)
+cc(gets-3, and-13)
+conj(gets-3, shows-14)
+advmod(good-16, how-15)
+ccomp(shows-14, good-16)
+det(actor-18, an-17)
+dep(good-16, actor-18)
+nsubj(is-21, he-19)
+advmod(is-21, really-20)
+rcmod(actor-18, is-21)
+punct(gets-3, .-22)
+

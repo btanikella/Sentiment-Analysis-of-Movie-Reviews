@@ -1,0 +1,41 @@
+Sentence #1 (11 tokens):
+Without a doubt, one of Tobe Hoppor's best!
+[Text=Without CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=doubt CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=,] [Text=one CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=IN] [Text=Tobe CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=NNP] [Text=Hoppor CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=POS] [Text=best CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=JJS] [Text=! CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, Without-1)
+det(doubt-3, a-2)
+pobj(Without-1, doubt-3)
+punct(Without-1, ,-4)
+dep(,-4, one-5)
+prep(one-5, of-6)
+nn(Hoppor-8, Tobe-7)
+poss(best-10, Hoppor-8)
+possessive(Hoppor-8, 's-9)
+pobj(of-6, best-10)
+punct(one-5, !-11)
+
+Sentence #2 (16 tokens):
+Epic storytellng, great special effects, and The Spacegirl (vamp me baby!
+    )
+[Text=Epic CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=NN] [Text=storytellng CharacterOffsetBegin=57 CharacterOffsetEnd=68 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=,] [Text=great CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=JJ] [Text=special CharacterOffsetBegin=76 CharacterOffsetEnd=83 PartOfSpeech=JJ] [Text=effects CharacterOffsetBegin=84 CharacterOffsetEnd=91 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=,] [Text=and CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=CC] [Text=The CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=DT] [Text=Spacegirl CharacterOffsetBegin=101 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=-LRB-] [Text=vamp CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=me CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=PRP] [Text=baby CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=-RRB-] 
+root(ROOT-0, storytellng-2)
+nn(storytellng-2, Epic-1)
+punct(storytellng-2, ,-3)
+amod(effects-6, great-4)
+amod(effects-6, special-5)
+conj(storytellng-2, effects-6)
+punct(storytellng-2, ,-7)
+cc(storytellng-2, and-8)
+det(Spacegirl-10, The-9)
+conj(storytellng-2, Spacegirl-10)
+punct(vamp-12, -LRB--11)
+dep(Spacegirl-10, vamp-12)
+nsubj(baby-14, me-13)
+dep(vamp-12, baby-14)
+punct(vamp-12, !-15)
+punct(Spacegirl-10, -RRB--16)
+
+Sentence #3 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+

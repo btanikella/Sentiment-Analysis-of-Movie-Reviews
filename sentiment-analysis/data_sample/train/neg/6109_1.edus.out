@@ -1,0 +1,94 @@
+Sentence #1 (8 tokens):
+I wanted to vote zero or lower.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=wanted CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=TO] [Text=vote CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=VB] [Text=zero CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=CD] [Text=or CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=CC] [Text=lower CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=.] 
+root(ROOT-0, wanted-2)
+nsubj(wanted-2, I-1)
+aux(vote-4, to-3)
+xcomp(wanted-2, vote-4)
+dobj(vote-4, zero-5)
+cc(zero-5, or-6)
+conj(zero-5, lower-7)
+punct(wanted-2, .-8)
+
+Sentence #2 (5 tokens):
+I loved the commentary.
+[Text=I CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=DT] [Text=commentary CharacterOffsetBegin=52 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=.] 
+root(ROOT-0, loved-2)
+nsubj(loved-2, I-1)
+det(commentary-4, the-3)
+dobj(loved-2, commentary-4)
+punct(loved-2, .-5)
+
+Sentence #3 (29 tokens):
+It IS the worst movie ever made and 'unendurable' is the perfect word for it, unless there is something worse that Roget never thought of.
+[Text=It CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=PRP] [Text=IS CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=CC] [Text=` CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=``] [Text=unendurable CharacterOffsetBegin=105 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=''] [Text=is CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=125 CharacterOffsetEnd=132 PartOfSpeech=JJ] [Text=word CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=,] [Text=unless CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=VBZ] [Text=something CharacterOffsetBegin=162 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=worse CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=JJR] [Text=that CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=Roget CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=NNP] [Text=never CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=RB] [Text=thought CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=VBD] [Text=of CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=.] 
+root(ROOT-0, IS-2)
+nsubj(IS-2, It-1)
+det(movie-5, the-3)
+amod(movie-5, worst-4)
+dobj(IS-2, movie-5)
+advmod(made-7, ever-6)
+partmod(movie-5, made-7)
+cc(made-7, and-8)
+punct(is-12, `-9)
+dep(is-12, unendurable-10)
+punct(is-12, '-11)
+conj(made-7, is-12)
+det(word-15, the-13)
+amod(word-15, perfect-14)
+nsubj(is-12, word-15)
+prep(is-12, for-16)
+pobj(for-16, it-17)
+punct(IS-2, ,-18)
+mark(is-21, unless-19)
+expl(is-21, there-20)
+advcl(IS-2, is-21)
+npadvmod(worse-23, something-22)
+nsubj(is-21, worse-23)
+mark(thought-27, that-24)
+nsubj(thought-27, Roget-25)
+neg(thought-27, never-26)
+ccomp(worse-23, thought-27)
+prep(thought-27, of-28)
+punct(IS-2, .-29)
+
+Sentence #4 (18 tokens):
+I am also at a loss to think of anything negative enough to accurately describe Bo Derek.
+[Text=I CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=VBP] [Text=also CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=DT] [Text=loss CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=231 CharacterOffsetEnd=233 PartOfSpeech=TO] [Text=think CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=VB] [Text=of CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=IN] [Text=anything CharacterOffsetBegin=243 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=negative CharacterOffsetBegin=252 CharacterOffsetEnd=260 PartOfSpeech=JJ] [Text=enough CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=TO] [Text=accurately CharacterOffsetBegin=271 CharacterOffsetEnd=281 PartOfSpeech=RB] [Text=describe CharacterOffsetBegin=282 CharacterOffsetEnd=290 PartOfSpeech=VB] [Text=Bo CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=NNP] [Text=Derek CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=.] 
+root(ROOT-0, at-4)
+nsubj(at-4, I-1)
+aux(at-4, am-2)
+advmod(at-4, also-3)
+det(loss-6, a-5)
+pobj(at-4, loss-6)
+aux(think-8, to-7)
+infmod(loss-6, think-8)
+prep(think-8, of-9)
+pobj(of-9, anything-10)
+amod(enough-12, negative-11)
+dep(anything-10, enough-12)
+aux(describe-15, to-13)
+advmod(describe-15, accurately-14)
+infmod(enough-12, describe-15)
+nn(Derek-17, Bo-16)
+dobj(describe-15, Derek-17)
+punct(at-4, .-18)
+
+Sentence #5 (14 tokens):
+The best that could be said of her is, she's consistent.
+[Text=The CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=JJS] [Text=that CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=WDT] [Text=could CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=VB] [Text=said CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=PRP$] [Text=is CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=,] [Text=she CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=VBZ] [Text=consistent CharacterOffsetBegin=350 CharacterOffsetEnd=360 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=.] 
+root(ROOT-0, consistent-13)
+det(best-2, The-1)
+nsubj(is-9, best-2)
+nsubjpass(said-6, that-3)
+aux(said-6, could-4)
+auxpass(said-6, be-5)
+rcmod(best-2, said-6)
+prep(said-6, of-7)
+pobj(of-7, her-8)
+dep(consistent-13, is-9)
+punct(consistent-13, ,-10)
+nsubj(consistent-13, she-11)
+cop(consistent-13, 's-12)
+punct(consistent-13, .-14)
+

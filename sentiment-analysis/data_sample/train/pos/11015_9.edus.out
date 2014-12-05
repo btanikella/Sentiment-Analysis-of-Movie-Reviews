@@ -1,0 +1,197 @@
+Sentence #1 (11 tokens):
+This movie is directed by Renny Harlin the finnish miracle.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=directed CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=IN] [Text=Renny CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=NNP] [Text=Harlin CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=finnish CharacterOffsetBegin=47 CharacterOffsetEnd=54 PartOfSpeech=JJ] [Text=miracle CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=.] 
+root(ROOT-0, directed-4)
+det(movie-2, This-1)
+nsubjpass(directed-4, movie-2)
+auxpass(directed-4, is-3)
+prep(directed-4, by-5)
+nn(miracle-10, Renny-6)
+nn(miracle-10, Harlin-7)
+det(miracle-10, the-8)
+amod(miracle-10, finnish-9)
+pobj(by-5, miracle-10)
+punct(directed-4, .-11)
+
+Sentence #2 (5 tokens):
+Stallone is Gabe Walker.
+[Text=Stallone CharacterOffsetBegin=68 CharacterOffsetEnd=76 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=VBZ] [Text=Gabe CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=NNP] [Text=Walker CharacterOffsetBegin=85 CharacterOffsetEnd=91 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=.] 
+root(ROOT-0, Walker-4)
+nsubj(Walker-4, Stallone-1)
+cop(Walker-4, is-2)
+nn(Walker-4, Gabe-3)
+punct(Walker-4, .-5)
+
+Sentence #3 (10 tokens):
+Cat and Mouse on the mountains with ruthless terrorists.
+[Text=Cat CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=CC] [Text=Mouse CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=DT] [Text=mountains CharacterOffsetBegin=118 CharacterOffsetEnd=127 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=ruthless CharacterOffsetBegin=133 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=terrorists CharacterOffsetBegin=142 CharacterOffsetEnd=152 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=.] 
+root(ROOT-0, Cat-1)
+cc(Cat-1, and-2)
+conj(Cat-1, Mouse-3)
+prep(Cat-1, on-4)
+det(mountains-6, the-5)
+pobj(on-4, mountains-6)
+prep(mountains-6, with-7)
+amod(terrorists-9, ruthless-8)
+pobj(with-7, terrorists-9)
+punct(Cat-1, .-10)
+
+Sentence #4 (8 tokens):
+Renny Harlin knows how to direct actionmovie.
+[Text=Renny CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NNP] [Text=Harlin CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=NNP] [Text=knows CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=VBZ] [Text=how CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=TO] [Text=direct CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=VB] [Text=actionmovie CharacterOffsetBegin=191 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, knows-3)
+nn(Harlin-2, Renny-1)
+nsubj(knows-3, Harlin-2)
+advmod(direct-6, how-4)
+aux(direct-6, to-5)
+ccomp(knows-3, direct-6)
+dobj(direct-6, actionmovie-7)
+punct(knows-3, .-8)
+
+Sentence #5 (10 tokens):
+Stallone needed this role to get back on track.
+[Text=Stallone CharacterOffsetBegin=208 CharacterOffsetEnd=216 PartOfSpeech=NNP] [Text=needed CharacterOffsetBegin=217 CharacterOffsetEnd=223 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=role CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=VB] [Text=back CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN] [Text=track CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=.] 
+root(ROOT-0, needed-2)
+nsubj(needed-2, Stallone-1)
+det(role-4, this-3)
+dobj(needed-2, role-4)
+aux(get-6, to-5)
+infmod(role-4, get-6)
+advmod(get-6, back-7)
+prep(get-6, on-8)
+pobj(on-8, track-9)
+punct(needed-2, .-10)
+
+Sentence #6 (30 tokens):
+Snowy mountain is very good place for action movie and who is better to direct movie where is snow, ice, cold and bad weather than finnish man.
+[Text=Snowy CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=JJ] [Text=mountain CharacterOffsetBegin=266 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=JJ] [Text=place CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=IN] [Text=action CharacterOffsetBegin=298 CharacterOffsetEnd=304 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=CC] [Text=who CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=VBZ] [Text=better CharacterOffsetBegin=322 CharacterOffsetEnd=328 PartOfSpeech=JJR] [Text=to CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=TO] [Text=direct CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=VB] [Text=movie CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=WRB] [Text=is CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=VBZ] [Text=snow CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=,] [Text=ice CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=,] [Text=cold CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=CC] [Text=bad CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=JJ] [Text=weather CharacterOffsetBegin=378 CharacterOffsetEnd=385 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=IN] [Text=finnish CharacterOffsetBegin=391 CharacterOffsetEnd=398 PartOfSpeech=JJ] [Text=man CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=402 CharacterOffsetEnd=403 PartOfSpeech=.] 
+root(ROOT-0, place-6)
+amod(mountain-2, Snowy-1)
+nsubj(place-6, mountain-2)
+cop(place-6, is-3)
+advmod(good-5, very-4)
+amod(place-6, good-5)
+prep(place-6, for-7)
+nn(movie-9, action-8)
+pobj(for-7, movie-9)
+cc(movie-9, and-10)
+nsubj(better-13, who-11)
+cop(better-13, is-12)
+conj(movie-9, better-13)
+prep(better-13, to-14)
+amod(movie-16, direct-15)
+pobj(to-14, movie-16)
+advmod(snow-19, where-17)
+cop(snow-19, is-18)
+rcmod(movie-16, snow-19)
+punct(snow-19, ,-20)
+conj(snow-19, ice-21)
+punct(snow-19, ,-22)
+conj(snow-19, cold-23)
+cc(snow-19, and-24)
+amod(weather-26, bad-25)
+conj(snow-19, weather-26)
+prep(movie-16, than-27)
+amod(man-29, finnish-28)
+pobj(than-27, man-29)
+punct(place-6, .-30)
+
+Sentence #7 (4 tokens):
+Action is good!
+[Text=Action CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=.] 
+root(ROOT-0, good-3)
+nsubj(good-3, Action-1)
+cop(good-3, is-2)
+punct(good-3, !-4)
+
+Sentence #8 (7 tokens):
+Music in the film is spectacular.
+[Text=Music CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=441 CharacterOffsetEnd=445 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=446 CharacterOffsetEnd=448 PartOfSpeech=VBZ] [Text=spectacular CharacterOffsetBegin=449 CharacterOffsetEnd=460 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=.] 
+root(ROOT-0, spectacular-6)
+nsubj(spectacular-6, Music-1)
+prep(Music-1, in-2)
+det(film-4, the-3)
+pobj(in-2, film-4)
+cop(spectacular-6, is-5)
+punct(spectacular-6, .-7)
+
+Sentence #9 (25 tokens):
+The bad guy is John Litghow, other stars Micheal Rooker ( The portrait of serialkiller), Janine Turner ( Strong Medicine).
+[Text=The CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=VBZ] [Text=John CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=NNP] [Text=Litghow CharacterOffsetBegin=486 CharacterOffsetEnd=493 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=,] [Text=other CharacterOffsetBegin=495 CharacterOffsetEnd=500 PartOfSpeech=JJ] [Text=stars CharacterOffsetBegin=501 CharacterOffsetEnd=506 PartOfSpeech=NNS] [Text=Micheal CharacterOffsetBegin=507 CharacterOffsetEnd=514 PartOfSpeech=NNP] [Text=Rooker CharacterOffsetBegin=515 CharacterOffsetEnd=521 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=522 CharacterOffsetEnd=523 PartOfSpeech=-LRB-] [Text=The CharacterOffsetBegin=524 CharacterOffsetEnd=527 PartOfSpeech=DT] [Text=portrait CharacterOffsetBegin=528 CharacterOffsetEnd=536 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=IN] [Text=serialkiller CharacterOffsetBegin=540 CharacterOffsetEnd=552 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=552 CharacterOffsetEnd=553 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=,] [Text=Janine CharacterOffsetBegin=555 CharacterOffsetEnd=561 PartOfSpeech=NNP] [Text=Turner CharacterOffsetBegin=562 CharacterOffsetEnd=568 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=569 CharacterOffsetEnd=570 PartOfSpeech=-LRB-] [Text=Strong CharacterOffsetBegin=571 CharacterOffsetEnd=577 PartOfSpeech=JJ] [Text=Medicine CharacterOffsetBegin=578 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=586 CharacterOffsetEnd=587 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=.] 
+root(ROOT-0, Litghow-6)
+det(guy-3, The-1)
+amod(guy-3, bad-2)
+nsubj(Litghow-6, guy-3)
+cop(Litghow-6, is-4)
+nn(Litghow-6, John-5)
+punct(Litghow-6, ,-7)
+amod(Litghow-6, other-8)
+dep(other-8, stars-9)
+dep(stars-9, Micheal-10)
+dep(Micheal-10, Rooker-11)
+punct(portrait-14, -LRB--12)
+det(portrait-14, The-13)
+appos(Rooker-11, portrait-14)
+prep(portrait-14, of-15)
+pobj(of-15, serialkiller-16)
+punct(portrait-14, -RRB--17)
+punct(Rooker-11, ,-18)
+nn(Medicine-23, Janine-19)
+nn(Medicine-23, Turner-20)
+punct(Medicine-23, -LRB--21)
+amod(Medicine-23, Strong-22)
+appos(Rooker-11, Medicine-23)
+punct(Rooker-11, -RRB--24)
+punct(Litghow-6, .-25)
+
+Sentence #10 (13 tokens):
+The is placed in beautiful place and it is very exciting movie.
+[Text=The CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=597 CharacterOffsetEnd=599 PartOfSpeech=VBZ] [Text=placed CharacterOffsetBegin=600 CharacterOffsetEnd=606 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=IN] [Text=beautiful CharacterOffsetBegin=610 CharacterOffsetEnd=619 PartOfSpeech=JJ] [Text=place CharacterOffsetBegin=620 CharacterOffsetEnd=625 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=RB] [Text=exciting CharacterOffsetBegin=641 CharacterOffsetEnd=649 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=650 CharacterOffsetEnd=655 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=.] 
+root(ROOT-0, placed-3)
+nsubjpass(placed-3, The-1)
+auxpass(placed-3, is-2)
+prep(placed-3, in-4)
+amod(place-6, beautiful-5)
+pobj(in-4, place-6)
+cc(placed-3, and-7)
+nsubj(movie-12, it-8)
+cop(movie-12, is-9)
+advmod(exciting-11, very-10)
+amod(movie-12, exciting-11)
+conj(placed-3, movie-12)
+punct(placed-3, .-13)
+
+Sentence #11 (18 tokens):
+Overall good movie ****/*****Remember Extreme lit: special collectors edition, with good extras.
+[Text=Overall CharacterOffsetBegin=661 CharacterOffsetEnd=668 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=674 CharacterOffsetEnd=679 PartOfSpeech=NN] [Text=**** CharacterOffsetBegin=680 CharacterOffsetEnd=684 PartOfSpeech=CD] [Text=/ CharacterOffsetBegin=684 CharacterOffsetEnd=685 PartOfSpeech=:] [Text=***** CharacterOffsetBegin=685 CharacterOffsetEnd=690 PartOfSpeech=CD] [Text=Remember CharacterOffsetBegin=690 CharacterOffsetEnd=698 PartOfSpeech=VB] [Text=Extreme CharacterOffsetBegin=699 CharacterOffsetEnd=706 PartOfSpeech=NNP] [Text=lit CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=VBD] [Text=: CharacterOffsetBegin=710 CharacterOffsetEnd=711 PartOfSpeech=:] [Text=special CharacterOffsetBegin=712 CharacterOffsetEnd=719 PartOfSpeech=JJ] [Text=collectors CharacterOffsetBegin=720 CharacterOffsetEnd=730 PartOfSpeech=NNS] [Text=edition CharacterOffsetBegin=731 CharacterOffsetEnd=738 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=738 CharacterOffsetEnd=739 PartOfSpeech=,] [Text=with CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=745 CharacterOffsetEnd=749 PartOfSpeech=JJ] [Text=extras CharacterOffsetBegin=750 CharacterOffsetEnd=756 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=756 CharacterOffsetEnd=757 PartOfSpeech=.] 
+root(ROOT-0, movie-3)
+amod(movie-3, Overall-1)
+amod(movie-3, good-2)
+num(movie-3, ****-4)
+punct(Remember-7, /-5)
+nsubj(Remember-7, *****-6)
+dep(****-4, Remember-7)
+nsubj(lit-9, Extreme-8)
+dep(Remember-7, lit-9)
+punct(lit-9, :-10)
+amod(edition-13, special-11)
+nn(edition-13, collectors-12)
+dep(lit-9, edition-13)
+punct(edition-13, ,-14)
+prep(edition-13, with-15)
+amod(extras-17, good-16)
+pobj(with-15, extras-17)
+punct(movie-3, .-18)
+
+Sentence #12 (8 tokens):
+Comig soon in Finland straight to video.
+[Text=Comig CharacterOffsetBegin=762 CharacterOffsetEnd=767 PartOfSpeech=RB] [Text=soon CharacterOffsetBegin=768 CharacterOffsetEnd=772 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=773 CharacterOffsetEnd=775 PartOfSpeech=IN] [Text=Finland CharacterOffsetBegin=776 CharacterOffsetEnd=783 PartOfSpeech=NNP] [Text=straight CharacterOffsetBegin=784 CharacterOffsetEnd=792 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=793 CharacterOffsetEnd=795 PartOfSpeech=TO] [Text=video CharacterOffsetBegin=796 CharacterOffsetEnd=801 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=801 CharacterOffsetEnd=802 PartOfSpeech=.] 
+root(ROOT-0, soon-2)
+advmod(soon-2, Comig-1)
+prep(soon-2, in-3)
+pobj(in-3, Finland-4)
+advmod(in-3, straight-5)
+prep(straight-5, to-6)
+pobj(to-6, video-7)
+punct(soon-2, .-8)
+

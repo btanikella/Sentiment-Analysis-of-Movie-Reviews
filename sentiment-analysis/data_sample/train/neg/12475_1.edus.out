@@ -1,0 +1,124 @@
+Sentence #1 (14 tokens):
+I don't recall walking out of a movie theater except this once.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=RB] [Text=recall CharacterOffsetBegin=12 CharacterOffsetEnd=18 PartOfSpeech=VB] [Text=walking CharacterOffsetBegin=19 CharacterOffsetEnd=26 PartOfSpeech=VBG] [Text=out CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=theater CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=except CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=once CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=.] 
+root(ROOT-0, recall-4)
+nsubj(recall-4, I-1)
+aux(recall-4, do-2)
+neg(recall-4, n't-3)
+xcomp(recall-4, walking-5)
+prep(walking-5, out-6)
+pcomp(out-6, of-7)
+det(theater-10, a-8)
+nn(theater-10, movie-9)
+pobj(of-7, theater-10)
+prep(walking-5, except-11)
+pobj(except-11, this-12)
+advmod(this-12, once-13)
+punct(recall-4, .-14)
+
+Sentence #2 (18 tokens):
+Not only that, but I was with 7 friends, and we all wanted to go.
+[Text=Not CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=,] [Text=but CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=VBD] [Text=with CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=7 CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=CD] [Text=friends CharacterOffsetBegin=104 CharacterOffsetEnd=111 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=,] [Text=and CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=CC] [Text=we CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=wanted CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=.] 
+root(ROOT-0, was-7)
+neg(only-2, Not-1)
+preconj(that-3, only-2)
+dep(was-7, that-3)
+punct(was-7, ,-4)
+cc(was-7, but-5)
+nsubj(was-7, I-6)
+prep(was-7, with-8)
+num(friends-10, 7-9)
+pobj(with-8, friends-10)
+punct(was-7, ,-11)
+cc(was-7, and-12)
+nsubj(wanted-15, we-13)
+det(we-13, all-14)
+conj(was-7, wanted-15)
+aux(go-17, to-16)
+xcomp(wanted-15, go-17)
+punct(was-7, .-18)
+
+Sentence #3 (14 tokens):
+An uninteresting plot, characters made of clay, violence with no point.
+[Text=An CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=DT] [Text=uninteresting CharacterOffsetBegin=145 CharacterOffsetEnd=158 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=,] [Text=characters CharacterOffsetBegin=165 CharacterOffsetEnd=175 PartOfSpeech=NNS] [Text=made CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=clay CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=,] [Text=violence CharacterOffsetBegin=190 CharacterOffsetEnd=198 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=point CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=.] 
+root(ROOT-0, plot-3)
+det(plot-3, An-1)
+amod(plot-3, uninteresting-2)
+punct(plot-3, ,-4)
+appos(plot-3, characters-5)
+partmod(characters-5, made-6)
+prep(made-6, of-7)
+pobj(of-7, clay-8)
+punct(clay-8, ,-9)
+appos(clay-8, violence-10)
+prep(violence-10, with-11)
+det(point-13, no-12)
+pobj(with-11, point-13)
+punct(plot-3, .-14)
+
+Sentence #4 (21 tokens):
+I didn't care when the good guys died; I didn't care when the bad guys got it.
+[Text=I CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=RB] [Text=care CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=VB] [Text=when CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=NNS] [Text=died CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=VBD] [Text=; CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=:] [Text=I CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=RB] [Text=care CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=VB] [Text=when CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=NNS] [Text=got CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=.] 
+root(ROOT-0, care-4)
+nsubj(care-4, I-1)
+aux(care-4, did-2)
+neg(care-4, n't-3)
+advmod(died-9, when-5)
+det(guys-8, the-6)
+amod(guys-8, good-7)
+nsubj(died-9, guys-8)
+advcl(care-4, died-9)
+punct(care-4, ;-10)
+nsubj(care-14, I-11)
+aux(care-14, did-12)
+neg(care-14, n't-13)
+parataxis(care-4, care-14)
+advmod(got-19, when-15)
+det(guys-18, the-16)
+amod(guys-18, bad-17)
+nsubj(got-19, guys-18)
+advcl(care-14, got-19)
+dobj(got-19, it-20)
+punct(care-4, .-21)
+
+Sentence #5 (17 tokens):
+The fantasy and magic was laid on thick as liver pudding and there was no coherency.
+[Text=The CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=DT] [Text=fantasy CharacterOffsetBegin=305 CharacterOffsetEnd=312 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=CC] [Text=magic CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=VBD] [Text=laid CharacterOffsetBegin=327 CharacterOffsetEnd=331 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=IN] [Text=thick CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=IN] [Text=liver CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=NN] [Text=pudding CharacterOffsetBegin=350 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=DT] [Text=coherency CharacterOffsetBegin=375 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=.] 
+root(ROOT-0, laid-6)
+det(fantasy-2, The-1)
+nsubjpass(laid-6, fantasy-2)
+cc(fantasy-2, and-3)
+conj(fantasy-2, magic-4)
+auxpass(laid-6, was-5)
+prep(laid-6, on-7)
+pobj(on-7, thick-8)
+prep(thick-8, as-9)
+nn(pudding-11, liver-10)
+pobj(as-9, pudding-11)
+cc(laid-6, and-12)
+expl(was-14, there-13)
+conj(laid-6, was-14)
+det(coherency-16, no-15)
+nsubj(was-14, coherency-16)
+punct(laid-6, .-17)
+
+Sentence #6 (16 tokens):
+In short, fine entertainment if you happen to be spending an eternity in Hell.
+[Text=In CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=IN] [Text=short CharacterOffsetBegin=393 CharacterOffsetEnd=398 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=,] [Text=fine CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=JJ] [Text=entertainment CharacterOffsetBegin=405 CharacterOffsetEnd=418 PartOfSpeech=NN] [Text=if CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=PRP] [Text=happen CharacterOffsetBegin=426 CharacterOffsetEnd=432 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=VB] [Text=spending CharacterOffsetBegin=439 CharacterOffsetEnd=447 PartOfSpeech=VBG] [Text=an CharacterOffsetBegin=448 CharacterOffsetEnd=450 PartOfSpeech=DT] [Text=eternity CharacterOffsetBegin=451 CharacterOffsetEnd=459 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=IN] [Text=Hell CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=.] 
+root(ROOT-0, In-1)
+amod(entertainment-5, short-2)
+punct(entertainment-5, ,-3)
+amod(entertainment-5, fine-4)
+pobj(In-1, entertainment-5)
+mark(happen-8, if-6)
+nsubj(happen-8, you-7)
+dep(In-1, happen-8)
+aux(spending-11, to-9)
+aux(spending-11, be-10)
+xcomp(happen-8, spending-11)
+det(eternity-13, an-12)
+dobj(spending-11, eternity-13)
+prep(spending-11, in-14)
+pobj(in-14, Hell-15)
+punct(In-1, .-16)
+

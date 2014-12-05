@@ -1,0 +1,92 @@
+Sentence #1 (16 tokens):
+Now let me tell you about this movie, this movie is MY FAVORITE MOVIE!!!
+[Text=Now CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=RB] [Text=let CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=PRP] [Text=tell CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=PRP] [Text=about CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=,] [Text=this CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=VBZ] [Text=MY CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=NNP] [Text=FAVORITE CharacterOffsetBegin=59 CharacterOffsetEnd=67 PartOfSpeech=NNP] [Text=MOVIE CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NNP] [Text=!!! CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=IN] 
+root(ROOT-0, let-2)
+advmod(let-2, Now-1)
+nsubj(tell-4, me-3)
+ccomp(let-2, tell-4)
+dobj(tell-4, you-5)
+prep(tell-4, about-6)
+det(movie-8, this-7)
+pobj(about-6, movie-8)
+punct(let-2, ,-9)
+det(movie-11, this-10)
+nsubj(MOVIE-15, movie-11)
+cop(MOVIE-15, is-12)
+nn(MOVIE-15, MY-13)
+nn(MOVIE-15, FAVORITE-14)
+ccomp(let-2, MOVIE-15)
+dep(MOVIE-15, !!!-16)
+
+Sentence #2 (7 tokens):
+This movie has excellent combat fighting.
+[Text=This CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=VBZ] [Text=excellent CharacterOffsetBegin=96 CharacterOffsetEnd=105 PartOfSpeech=JJ] [Text=combat CharacterOffsetBegin=106 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=fighting CharacterOffsetBegin=113 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(movie-2, This-1)
+nsubj(has-3, movie-2)
+amod(fighting-6, excellent-4)
+nn(fighting-6, combat-5)
+dobj(has-3, fighting-6)
+punct(has-3, .-7)
+
+Sentence #3 (24 tokens):
+This movie does sound like a silly story line about how Jet Li plays a super hero, like Spider-Man, or etc.
+[Text=This CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=VBZ] [Text=sound CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=VB] [Text=like CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=DT] [Text=silly CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=line CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=WRB] [Text=Jet CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=NNP] [Text=Li CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=NNP] [Text=plays CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=DT] [Text=super CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=JJ] [Text=hero CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=,] [Text=like CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=IN] [Text=Spider-Man CharacterOffsetBegin=215 CharacterOffsetEnd=225 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=,] [Text=or CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=CC] [Text=etc. CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=FW] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, sound-4)
+det(movie-2, This-1)
+nsubj(sound-4, movie-2)
+aux(sound-4, does-3)
+prep(sound-4, like-5)
+det(line-9, a-6)
+amod(line-9, silly-7)
+nn(line-9, story-8)
+pobj(like-5, line-9)
+prep(line-9, about-10)
+advmod(plays-14, how-11)
+nn(Li-13, Jet-12)
+nsubj(plays-14, Li-13)
+pcomp(about-10, plays-14)
+det(hero-17, a-15)
+amod(hero-17, super-16)
+dobj(plays-14, hero-17)
+punct(plays-14, ,-18)
+prep(plays-14, like-19)
+pobj(like-19, Spider-Man-20)
+punct(Spider-Man-20, ,-21)
+cc(Spider-Man-20, or-22)
+conj(Spider-Man-20, etc.-23)
+punct(sound-4, .-24)
+
+Sentence #4 (19 tokens):
+But once you've seen this movie, you would probably want to see it again and again.
+[Text=But CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=CC] [Text=once CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=,] [Text=you CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=MD] [Text=probably CharacterOffsetBegin=282 CharacterOffsetEnd=290 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=PRP] [Text=again CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=CC] [Text=again CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=.] 
+root(ROOT-0, want-12)
+cc(want-12, But-1)
+advmod(seen-5, once-2)
+nsubj(seen-5, you-3)
+aux(seen-5, 've-4)
+advcl(want-12, seen-5)
+det(movie-7, this-6)
+dobj(seen-5, movie-7)
+punct(want-12, ,-8)
+nsubj(want-12, you-9)
+aux(want-12, would-10)
+advmod(want-12, probably-11)
+aux(see-14, to-13)
+xcomp(want-12, see-14)
+dobj(see-14, it-15)
+advmod(see-14, again-16)
+cc(see-14, and-17)
+advmod(see-14, again-18)
+punct(want-12, .-19)
+
+Sentence #5 (6 tokens):
+I rate this movie 10/10.
+[Text=I CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=PRP] [Text=rate CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=10/10 CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=.] 
+root(ROOT-0, rate-2)
+nsubj(rate-2, I-1)
+det(movie-4, this-3)
+dobj(rate-2, movie-4)
+num(movie-4, 10/10-5)
+punct(rate-2, .-6)
+

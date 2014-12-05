@@ -1,0 +1,197 @@
+Sentence #1 (18 tokens):
+Dreck about three beautiful women in California who go to cover some festival (or something).
+[Text=Dreck CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=IN] [Text=three CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=CD] [Text=beautiful CharacterOffsetBegin=22 CharacterOffsetEnd=31 PartOfSpeech=JJ] [Text=women CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=IN] [Text=California CharacterOffsetBegin=41 CharacterOffsetEnd=51 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=WP] [Text=go CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=TO] [Text=cover CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=VB] [Text=some CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=festival CharacterOffsetBegin=73 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=-LRB-] [Text=or CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=CC] [Text=something CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=.] 
+root(ROOT-0, Dreck-1)
+quantmod(three-3, about-2)
+num(women-5, three-3)
+amod(women-5, beautiful-4)
+dobj(Dreck-1, women-5)
+prep(women-5, in-6)
+pobj(in-6, California-7)
+nsubj(go-9, who-8)
+rcmod(women-5, go-9)
+aux(cover-11, to-10)
+xcomp(go-9, cover-11)
+det(festival-13, some-12)
+dobj(cover-11, festival-13)
+punct(something-16, -LRB--14)
+cc(something-16, or-15)
+dep(festival-13, something-16)
+punct(something-16, -RRB--17)
+punct(Dreck-1, .-18)
+
+Sentence #2 (18 tokens):
+All the hotels are booked so they have to spend the night in a creepy old house.
+[Text=All CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=DT] [Text=hotels CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=VBP] [Text=booked CharacterOffsetBegin=121 CharacterOffsetEnd=127 PartOfSpeech=VBN] [Text=so CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=TO] [Text=spend CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=night CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=DT] [Text=creepy CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=JJ] [Text=old CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=JJ] [Text=house CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=.] 
+root(ROOT-0, booked-5)
+predet(hotels-3, All-1)
+det(hotels-3, the-2)
+nsubjpass(booked-5, hotels-3)
+auxpass(booked-5, are-4)
+mark(have-8, so-6)
+nsubj(have-8, they-7)
+advcl(booked-5, have-8)
+aux(spend-10, to-9)
+xcomp(have-8, spend-10)
+det(night-12, the-11)
+dobj(spend-10, night-12)
+prep(spend-10, in-13)
+det(house-17, a-14)
+amod(house-17, creepy-15)
+amod(house-17, old-16)
+pobj(in-13, house-17)
+punct(booked-5, .-18)
+
+Sentence #3 (20 tokens):
+What they don't know is that there is a creepy inhabitant there who likes to kill...Yawn.
+[Text=What CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=WP] [Text=they CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=RB] [Text=know CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=VB] [Text=is CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=creepy CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=JJ] [Text=inhabitant CharacterOffsetBegin=234 CharacterOffsetEnd=244 PartOfSpeech=NN] [Text=there CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=EX] [Text=who CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=WP] [Text=likes CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=TO] [Text=kill CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VB] [Text=... CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=:] [Text=Yawn CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=275 CharacterOffsetEnd=276 PartOfSpeech=.] 
+root(ROOT-0, is-6)
+dobj(know-5, What-1)
+nsubj(know-5, they-2)
+aux(know-5, do-3)
+neg(know-5, n't-4)
+csubj(is-6, know-5)
+mark(is-9, that-7)
+expl(is-9, there-8)
+ccomp(is-6, is-9)
+det(inhabitant-12, a-10)
+amod(inhabitant-12, creepy-11)
+nsubj(is-9, inhabitant-12)
+advmod(inhabitant-12, there-13)
+nsubj(likes-15, who-14)
+rcmod(there-13, likes-15)
+aux(kill-17, to-16)
+xcomp(likes-15, kill-17)
+punct(likes-15, ...-18)
+dep(likes-15, Yawn-19)
+punct(is-6, .-20)
+
+Sentence #4 (11 tokens):
+Boring, pointless, utterly stupid "horror" film.
+[Text=Boring CharacterOffsetBegin=281 CharacterOffsetEnd=287 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=,] [Text=pointless CharacterOffsetBegin=289 CharacterOffsetEnd=298 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=,] [Text=utterly CharacterOffsetBegin=300 CharacterOffsetEnd=307 PartOfSpeech=RB] [Text=stupid CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=``] [Text=horror CharacterOffsetBegin=316 CharacterOffsetEnd=322 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=''] [Text=film CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=.] 
+root(ROOT-0, film-10)
+amod(pointless-3, Boring-1)
+punct(pointless-3, ,-2)
+amod(film-10, pointless-3)
+punct(pointless-3, ,-4)
+nn(film-10, utterly-5)
+amod(film-10, stupid-6)
+punct(film-10, ``-7)
+nn(film-10, horror-8)
+punct(film-10, ''-9)
+punct(film-10, .-11)
+
+Sentence #5 (17 tokens):
+Bach and her two buddies are certainly beautiful but the movie itself is dull dull DULL!
+[Text=Bach CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=CC] [Text=her CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=PRP$] [Text=two CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=CD] [Text=buddies CharacterOffsetBegin=351 CharacterOffsetEnd=358 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=VBP] [Text=certainly CharacterOffsetBegin=363 CharacterOffsetEnd=372 PartOfSpeech=RB] [Text=beautiful CharacterOffsetBegin=373 CharacterOffsetEnd=382 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=391 CharacterOffsetEnd=396 PartOfSpeech=NN] [Text=itself CharacterOffsetBegin=397 CharacterOffsetEnd=403 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=404 CharacterOffsetEnd=406 PartOfSpeech=VBZ] [Text=dull CharacterOffsetBegin=407 CharacterOffsetEnd=411 PartOfSpeech=JJ] [Text=dull CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=JJ] [Text=DULL CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.] 
+root(ROOT-0, beautiful-8)
+nsubj(beautiful-8, Bach-1)
+cc(Bach-1, and-2)
+poss(buddies-5, her-3)
+num(buddies-5, two-4)
+conj(Bach-1, buddies-5)
+cop(beautiful-8, are-6)
+advmod(beautiful-8, certainly-7)
+cc(beautiful-8, but-9)
+det(movie-11, the-10)
+nsubj(DULL-16, movie-11)
+dep(movie-11, itself-12)
+cop(DULL-16, is-13)
+amod(DULL-16, dull-14)
+amod(DULL-16, dull-15)
+conj(beautiful-8, DULL-16)
+punct(beautiful-8, !-17)
+
+Sentence #6 (17 tokens):
+Bach and her friends are no actresses--their faces are blank all the way through.
+[Text=Bach CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=CC] [Text=her CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=PRP$] [Text=friends CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=VBP] [Text=no CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=DT] [Text=actresses CharacterOffsetBegin=455 CharacterOffsetEnd=464 PartOfSpeech=NNS] [Text=-- CharacterOffsetBegin=464 CharacterOffsetEnd=466 PartOfSpeech=:] [Text=their CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=PRP$] [Text=faces CharacterOffsetBegin=472 CharacterOffsetEnd=477 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=VBP] [Text=blank CharacterOffsetBegin=482 CharacterOffsetEnd=487 PartOfSpeech=JJ] [Text=all CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=496 CharacterOffsetEnd=499 PartOfSpeech=NN] [Text=through CharacterOffsetBegin=500 CharacterOffsetEnd=507 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=.] 
+root(ROOT-0, actresses-7)
+nsubj(actresses-7, Bach-1)
+cc(Bach-1, and-2)
+poss(friends-4, her-3)
+conj(Bach-1, friends-4)
+cop(actresses-7, are-5)
+det(actresses-7, no-6)
+punct(actresses-7, ---8)
+poss(faces-10, their-9)
+nsubj(blank-12, faces-10)
+cop(blank-12, are-11)
+dep(actresses-7, blank-12)
+predet(way-15, all-13)
+det(way-15, the-14)
+dobj(blank-12, way-15)
+prep(way-15, through-16)
+punct(actresses-7, .-17)
+
+Sentence #7 (23 tokens):
+The final "revelation" is laughably predictable and there's no blood or gore to keep you interested along the way.
+[Text=The CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=DT] [Text=final CharacterOffsetBegin=517 CharacterOffsetEnd=522 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=``] [Text=revelation CharacterOffsetBegin=524 CharacterOffsetEnd=534 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=534 CharacterOffsetEnd=535 PartOfSpeech=''] [Text=is CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=VBZ] [Text=laughably CharacterOffsetBegin=539 CharacterOffsetEnd=548 PartOfSpeech=RB] [Text=predictable CharacterOffsetBegin=549 CharacterOffsetEnd=560 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=561 CharacterOffsetEnd=564 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=565 CharacterOffsetEnd=570 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=DT] [Text=blood CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=582 CharacterOffsetEnd=584 PartOfSpeech=CC] [Text=gore CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=590 CharacterOffsetEnd=592 PartOfSpeech=TO] [Text=keep CharacterOffsetBegin=593 CharacterOffsetEnd=597 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=PRP] [Text=interested CharacterOffsetBegin=602 CharacterOffsetEnd=612 PartOfSpeech=JJ] [Text=along CharacterOffsetBegin=613 CharacterOffsetEnd=618 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=619 CharacterOffsetEnd=622 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=.] 
+root(ROOT-0, predictable-8)
+det(revelation-4, The-1)
+amod(revelation-4, final-2)
+punct(revelation-4, ``-3)
+nsubj(predictable-8, revelation-4)
+punct(revelation-4, ''-5)
+cop(predictable-8, is-6)
+advmod(predictable-8, laughably-7)
+cc(predictable-8, and-9)
+expl('s-11, there-10)
+conj(predictable-8, 's-11)
+det(blood-13, no-12)
+nsubj('s-11, blood-13)
+cc(blood-13, or-14)
+conj(blood-13, gore-15)
+aux(keep-17, to-16)
+infmod(blood-13, keep-17)
+nsubj(interested-19, you-18)
+xcomp(keep-17, interested-19)
+prep(interested-19, along-20)
+det(way-22, the-21)
+pobj(along-20, way-22)
+punct(predictable-8, .-23)
+
+Sentence #8 (16 tokens):
+There is some expected gratuitous female nudity but that's not enough to save this.
+[Text=There CharacterOffsetBegin=632 CharacterOffsetEnd=637 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=638 CharacterOffsetEnd=640 PartOfSpeech=VBZ] [Text=some CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=DT] [Text=expected CharacterOffsetBegin=646 CharacterOffsetEnd=654 PartOfSpeech=VBN] [Text=gratuitous CharacterOffsetBegin=655 CharacterOffsetEnd=665 PartOfSpeech=JJ] [Text=female CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=JJ] [Text=nudity CharacterOffsetBegin=673 CharacterOffsetEnd=679 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=684 CharacterOffsetEnd=688 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=688 CharacterOffsetEnd=690 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=691 CharacterOffsetEnd=694 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=695 CharacterOffsetEnd=701 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=702 CharacterOffsetEnd=704 PartOfSpeech=TO] [Text=save CharacterOffsetBegin=705 CharacterOffsetEnd=709 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=714 CharacterOffsetEnd=715 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(nudity-7, some-3)
+amod(nudity-7, expected-4)
+amod(nudity-7, gratuitous-5)
+amod(nudity-7, female-6)
+nsubj(is-2, nudity-7)
+cc(is-2, but-8)
+nsubj(enough-12, that-9)
+cop(enough-12, 's-10)
+neg(enough-12, not-11)
+conj(is-2, enough-12)
+aux(save-14, to-13)
+xcomp(enough-12, save-14)
+dobj(save-14, this-15)
+punct(is-2, .-16)
+
+Sentence #9 (11 tokens):
+Boring, pointless and unknown (for good reason).
+[Text=Boring CharacterOffsetBegin=720 CharacterOffsetEnd=726 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=726 CharacterOffsetEnd=727 PartOfSpeech=,] [Text=pointless CharacterOffsetBegin=728 CharacterOffsetEnd=737 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=CC] [Text=unknown CharacterOffsetBegin=742 CharacterOffsetEnd=749 PartOfSpeech=JJ] [Text=-LRB- CharacterOffsetBegin=750 CharacterOffsetEnd=751 PartOfSpeech=-LRB-] [Text=for CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=755 CharacterOffsetEnd=759 PartOfSpeech=JJ] [Text=reason CharacterOffsetBegin=760 CharacterOffsetEnd=766 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=766 CharacterOffsetEnd=767 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=767 CharacterOffsetEnd=768 PartOfSpeech=.] 
+root(ROOT-0, Boring-1)
+punct(Boring-1, ,-2)
+conj(Boring-1, pointless-3)
+cc(Boring-1, and-4)
+conj(Boring-1, unknown-5)
+punct(Boring-1, -LRB--6)
+prep(-LRB--6, for-7)
+amod(reason-9, good-8)
+pobj(for-7, reason-9)
+punct(for-7, -RRB--10)
+punct(Boring-1, .-11)
+
+Sentence #10 (6 tokens):
+A 1 all the way.
+[Text=A CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=DT] [Text=1 CharacterOffsetBegin=775 CharacterOffsetEnd=776 PartOfSpeech=CD] [Text=all CharacterOffsetBegin=777 CharacterOffsetEnd=780 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=781 CharacterOffsetEnd=784 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=785 CharacterOffsetEnd=788 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=788 CharacterOffsetEnd=789 PartOfSpeech=.] 
+root(ROOT-0, way-5)
+det(way-5, A-1)
+num(way-5, 1-2)
+predet(way-5, all-3)
+det(way-5, the-4)
+punct(way-5, .-6)
+

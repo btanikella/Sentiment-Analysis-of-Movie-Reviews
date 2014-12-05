@@ -1,0 +1,105 @@
+Sentence #1 (9 tokens):
+Everyone is either loving or hating this film.
+[Text=Everyone CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=VBZ] [Text=either CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=CC] [Text=loving CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=CC] [Text=hating CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, Everyone-1)
+preconj(loving-4, either-3)
+acomp(is-2, loving-4)
+cc(loving-4, or-5)
+conj(loving-4, hating-6)
+det(film-8, this-7)
+dobj(loving-4, film-8)
+punct(is-2, .-9)
+
+Sentence #2 (6 tokens):
+I am going with loving.
+[Text=I CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=VBP] [Text=going CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=VBG] [Text=with CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN] [Text=loving CharacterOffsetBegin=71 CharacterOffsetEnd=77 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=.] 
+root(ROOT-0, going-3)
+nsubj(going-3, I-1)
+aux(going-3, am-2)
+prep(going-3, with-4)
+pobj(with-4, loving-5)
+punct(going-3, .-6)
+
+Sentence #3 (10 tokens):
+It is so well shot and so well acted.
+[Text=It CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=RB] [Text=shot CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=CC] [Text=so CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=RB] [Text=acted CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=.] 
+root(ROOT-0, shot-5)
+nsubjpass(shot-5, It-1)
+auxpass(shot-5, is-2)
+advmod(well-4, so-3)
+advmod(shot-5, well-4)
+cc(shot-5, and-6)
+advmod(well-8, so-7)
+advmod(shot-5, well-8)
+conj(shot-5, acted-9)
+punct(shot-5, .-10)
+
+Sentence #4 (2 tokens):
+Beautiful.
+[Text=Beautiful CharacterOffsetBegin=125 CharacterOffsetEnd=134 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=.] 
+root(ROOT-0, Beautiful-1)
+punct(Beautiful-1, .-2)
+
+Sentence #5 (12 tokens):
+This film is for people who appreciate well crafted film making.
+[Text=This CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=157 CharacterOffsetEnd=163 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=WP] [Text=appreciate CharacterOffsetBegin=168 CharacterOffsetEnd=178 PartOfSpeech=VBP] [Text=well CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=RB] [Text=crafted CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=VBN] [Text=film CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=NN] [Text=making CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+det(film-2, This-1)
+nsubj(is-3, film-2)
+prep(is-3, for-4)
+pobj(for-4, people-5)
+nsubj(appreciate-7, who-6)
+rcmod(people-5, appreciate-7)
+advmod(crafted-9, well-8)
+amod(making-11, crafted-9)
+nn(making-11, film-10)
+dobj(appreciate-7, making-11)
+punct(is-3, .-12)
+
+Sentence #6 (17 tokens):
+If you are not a fan of well done films of course you would hate this.
+[Text=If CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=DT] [Text=fan CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=IN] [Text=well CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=VBN] [Text=films CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=MD] [Text=hate CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=.] 
+root(ROOT-0, fan-6)
+mark(fan-6, If-1)
+nsubj(fan-6, you-2)
+cop(fan-6, are-3)
+neg(fan-6, not-4)
+det(fan-6, a-5)
+prep(fan-6, of-7)
+advmod(done-9, well-8)
+amod(films-10, done-9)
+pobj(of-7, films-10)
+prep(films-10, of-11)
+pobj(of-11, course-12)
+nsubj(hate-15, you-13)
+aux(hate-15, would-14)
+ccomp(fan-6, hate-15)
+dobj(hate-15, this-16)
+punct(fan-6, .-17)
+
+Sentence #7 (21 tokens):
+But if you like the tops of acting, photography, story and development, look no further then here.
+[Text=But CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=DT] [Text=tops CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=acting CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=,] [Text=photography CharacterOffsetBegin=320 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=,] [Text=story CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=CC] [Text=development CharacterOffsetBegin=343 CharacterOffsetEnd=354 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=,] [Text=look CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=VB] [Text=no CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=DT] [Text=further CharacterOffsetBegin=364 CharacterOffsetEnd=371 PartOfSpeech=JJ] [Text=then CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=RB] [Text=here CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=.] 
+root(ROOT-0, look-16)
+cc(look-16, But-1)
+mark(like-4, if-2)
+nsubj(like-4, you-3)
+advcl(look-16, like-4)
+det(tops-6, the-5)
+pobj(like-4, tops-6)
+prep(tops-6, of-7)
+pobj(of-7, acting-8)
+punct(acting-8, ,-9)
+conj(acting-8, photography-10)
+punct(acting-8, ,-11)
+conj(acting-8, story-12)
+cc(acting-8, and-13)
+conj(acting-8, development-14)
+punct(look-16, ,-15)
+det(further-18, no-17)
+acomp(look-16, further-18)
+advmod(further-18, then-19)
+dep(further-18, here-20)
+punct(look-16, .-21)
+

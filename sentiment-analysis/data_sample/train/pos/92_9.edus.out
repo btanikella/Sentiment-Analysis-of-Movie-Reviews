@@ -1,0 +1,156 @@
+Sentence #1 (11 tokens):
+This is no art-house film, it's mainstream entertainment.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=art-house CharacterOffsetBegin=15 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=,] [Text=it CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=VBZ] [Text=mainstream CharacterOffsetBegin=36 CharacterOffsetEnd=46 PartOfSpeech=JJ] [Text=entertainment CharacterOffsetBegin=47 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, film-5)
+nsubj(film-5, This-1)
+cop(film-5, is-2)
+det(film-5, no-3)
+nn(film-5, art-house-4)
+punct(film-5, ,-6)
+nsubj(entertainment-10, it-7)
+cop(entertainment-10, 's-8)
+amod(entertainment-10, mainstream-9)
+rcmod(film-5, entertainment-10)
+punct(film-5, .-11)
+
+Sentence #2 (13 tokens):
+Lot's of beautiful people, t&a, and action.
+[Text=Lot CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=POS] [Text=of CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN] [Text=beautiful CharacterOffsetBegin=75 CharacterOffsetEnd=84 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=85 CharacterOffsetEnd=91 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=,] [Text=t CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=& CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=,] [Text=and CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=CC] [Text=action CharacterOffsetBegin=102 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=.] 
+root(ROOT-0, Lot-1)
+possessive(Lot-1, 's-2)
+prep(Lot-1, of-3)
+amod(people-5, beautiful-4)
+pobj(of-3, people-5)
+punct(people-5, ,-6)
+conj(people-5, t-7)
+cc(t-7, &-8)
+conj(t-7, a-9)
+punct(people-5, ,-10)
+cc(people-5, and-11)
+conj(people-5, action-12)
+punct(Lot-1, .-13)
+
+Sentence #3 (6 tokens):
+I found it very entertaining.
+[Text=I CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=PRP] [Text=found CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=PRP] [Text=very CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=RB] [Text=entertaining CharacterOffsetBegin=130 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=.] 
+root(ROOT-0, found-2)
+nsubj(found-2, I-1)
+nsubj(entertaining-5, it-3)
+advmod(entertaining-5, very-4)
+xcomp(found-2, entertaining-5)
+punct(found-2, .-6)
+
+Sentence #4 (17 tokens):
+It's not supposed to be intellectually stimulating, it's a fun film to watch!
+[Text=It CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=RB] [Text=supposed CharacterOffsetBegin=157 CharacterOffsetEnd=165 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=VB] [Text=intellectually CharacterOffsetBegin=172 CharacterOffsetEnd=186 PartOfSpeech=RB] [Text=stimulating CharacterOffsetBegin=187 CharacterOffsetEnd=198 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=,] [Text=it CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=fun CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=VB] [Text=! CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, supposed-4)
+nsubjpass(supposed-4, It-1)
+auxpass(supposed-4, 's-2)
+neg(supposed-4, not-3)
+aux(stimulating-8, to-5)
+aux(stimulating-8, be-6)
+advmod(stimulating-8, intellectually-7)
+xcomp(supposed-4, stimulating-8)
+punct(supposed-4, ,-9)
+nsubj(film-14, it-10)
+cop(film-14, 's-11)
+det(film-14, a-12)
+nn(film-14, fun-13)
+ccomp(supposed-4, film-14)
+aux(watch-16, to-15)
+infmod(film-14, watch-16)
+punct(supposed-4, !-17)
+
+Sentence #5 (12 tokens):
+Jesse and Chace are funny too, which is just gravy.
+[Text=Jesse CharacterOffsetBegin=230 CharacterOffsetEnd=235 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=CC] [Text=Chace CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=NNP] [Text=are CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=VBP] [Text=funny CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=too CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=,] [Text=which CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=RB] [Text=gravy CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=.] 
+root(ROOT-0, funny-5)
+nsubj(funny-5, Jesse-1)
+cc(Jesse-1, and-2)
+conj(Jesse-1, Chace-3)
+cop(funny-5, are-4)
+advmod(gravy-11, too-6)
+punct(gravy-11, ,-7)
+nsubj(gravy-11, which-8)
+cop(gravy-11, is-9)
+advmod(gravy-11, just-10)
+dobj(funny-5, gravy-11)
+punct(funny-5, .-12)
+
+Sentence #6 (39 tokens):
+Definitely worth a rental.So in summary, I'd recommend checking it out for a little Friday night entertainment with the boys or even your girl (if she likes to see other girls get it on!
+    )
+[Text=Definitely CharacterOffsetBegin=286 CharacterOffsetEnd=296 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=DT] [Text=rental.So CharacterOffsetBegin=305 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=IN] [Text=summary CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=,] [Text=I CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=PRP] [Text='d CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=MD] [Text=recommend CharacterOffsetBegin=331 CharacterOffsetEnd=340 PartOfSpeech=VB] [Text=checking CharacterOffsetBegin=341 CharacterOffsetEnd=349 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=PRP] [Text=out CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=JJ] [Text=Friday CharacterOffsetBegin=370 CharacterOffsetEnd=376 PartOfSpeech=NNP] [Text=night CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=NN] [Text=entertainment CharacterOffsetBegin=383 CharacterOffsetEnd=396 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=DT] [Text=boys CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=NNS] [Text=or CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=CC] [Text=even CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=RB] [Text=your CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=PRP$] [Text=girl CharacterOffsetBegin=424 CharacterOffsetEnd=428 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=-LRB-] [Text=if CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=PRP] [Text=likes CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=VB] [Text=other CharacterOffsetBegin=450 CharacterOffsetEnd=455 PartOfSpeech=JJ] [Text=girls CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=NNS] [Text=get CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=IN] [Text=! CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=477 CharacterOffsetEnd=478 PartOfSpeech=-RRB-] 
+root(ROOT-0, worth-2)
+advmod(worth-2, Definitely-1)
+det(rental.So-4, a-3)
+dep(worth-2, rental.So-4)
+prep(rental.So-4, in-5)
+pobj(in-5, summary-6)
+punct(worth-2, ,-7)
+nsubj(recommend-10, I-8)
+aux(recommend-10, 'd-9)
+dep(worth-2, recommend-10)
+xcomp(recommend-10, checking-11)
+dobj(checking-11, it-12)
+prt(checking-11, out-13)
+prep(checking-11, for-14)
+det(entertainment-19, a-15)
+amod(entertainment-19, little-16)
+nn(entertainment-19, Friday-17)
+nn(entertainment-19, night-18)
+pobj(for-14, entertainment-19)
+prep(entertainment-19, with-20)
+det(boys-22, the-21)
+pobj(with-20, boys-22)
+cc(checking-11, or-23)
+conj(checking-11, even-24)
+poss(girl-26, your-25)
+dep(even-24, girl-26)
+punct(likes-30, -LRB--27)
+mark(likes-30, if-28)
+nsubj(likes-30, she-29)
+dep(girl-26, likes-30)
+aux(see-32, to-31)
+xcomp(likes-30, see-32)
+amod(girls-34, other-33)
+nsubj(get-35, girls-34)
+ccomp(see-32, get-35)
+dobj(get-35, it-36)
+prt(get-35, on-37)
+punct(likes-30, !-38)
+punct(likes-30, -RRB--39)
+
+Sentence #7 (6 tokens):
+The villains are good too.
+[Text=The CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=DT] [Text=villains CharacterOffsetBegin=482 CharacterOffsetEnd=490 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=VBP] [Text=good CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=JJ] [Text=too CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=503 CharacterOffsetEnd=504 PartOfSpeech=.] 
+root(ROOT-0, good-4)
+det(villains-2, The-1)
+nsubj(good-4, villains-2)
+cop(good-4, are-3)
+advmod(good-4, too-5)
+punct(good-4, .-6)
+
+Sentence #8 (11 tokens):
+Vinnie, Corey Large, the hatian guy from Heroes.
+[Text=Vinnie CharacterOffsetBegin=509 CharacterOffsetEnd=515 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=515 CharacterOffsetEnd=516 PartOfSpeech=,] [Text=Corey CharacterOffsetBegin=517 CharacterOffsetEnd=522 PartOfSpeech=NNP] [Text=Large CharacterOffsetBegin=523 CharacterOffsetEnd=528 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=,] [Text=the CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=DT] [Text=hatian CharacterOffsetBegin=534 CharacterOffsetEnd=540 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=IN] [Text=Heroes CharacterOffsetBegin=550 CharacterOffsetEnd=556 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=.] 
+root(ROOT-0, Vinnie-1)
+punct(Vinnie-1, ,-2)
+nn(Large-4, Corey-3)
+conj(Vinnie-1, Large-4)
+punct(Vinnie-1, ,-5)
+det(guy-8, the-6)
+amod(guy-8, hatian-7)
+appos(Vinnie-1, guy-8)
+prep(guy-8, from-9)
+pobj(from-9, Heroes-10)
+punct(Vinnie-1, .-11)
+
+Sentence #9 (4 tokens):
+Very nasty villains.
+[Text=Very CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=RB] [Text=nasty CharacterOffsetBegin=567 CharacterOffsetEnd=572 PartOfSpeech=JJ] [Text=villains CharacterOffsetBegin=573 CharacterOffsetEnd=581 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=.] 
+root(ROOT-0, villains-3)
+advmod(villains-3, Very-1)
+amod(villains-3, nasty-2)
+punct(villains-3, .-4)
+

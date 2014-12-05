@@ -1,0 +1,117 @@
+Sentence #1 (20 tokens):
+We don't have to lose this movie, this is one of the greatest I have ever seen.
+[Text=We CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=TO] [Text=lose CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=,] [Text=this CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=DT] [Text=greatest CharacterOffsetBegin=57 CharacterOffsetEnd=65 PartOfSpeech=JJS] [Text=I CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=.] 
+root(ROOT-0, have-4)
+nsubj(have-4, We-1)
+aux(have-4, do-2)
+neg(have-4, n't-3)
+aux(lose-6, to-5)
+xcomp(have-4, lose-6)
+det(movie-8, this-7)
+dobj(lose-6, movie-8)
+punct(have-4, ,-9)
+nsubj(one-12, this-10)
+cop(one-12, is-11)
+ccomp(have-4, one-12)
+prep(one-12, of-13)
+det(greatest-15, the-14)
+pobj(of-13, greatest-15)
+nsubj(seen-19, I-16)
+aux(seen-19, have-17)
+advmod(seen-19, ever-18)
+rcmod(greatest-15, seen-19)
+punct(have-4, .-20)
+
+Sentence #2 (24 tokens):
+Jean Pierre Leaud is amazing (more than usual) and the movie is one of the most unforgettable of the nouvelle vogue.
+[Text=Jean CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=NNP] [Text=Pierre CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=NNP] [Text=Leaud CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=VBZ] [Text=amazing CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=-LRB- CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=-LRB-] [Text=more CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=IN] [Text=usual CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=JJ] [Text=-RRB- CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=RBS] [Text=unforgettable CharacterOffsetBegin=168 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=DT] [Text=nouvelle CharacterOffsetBegin=189 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=vogue CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=.] 
+root(ROOT-0, amazing-5)
+nn(Leaud-3, Jean-1)
+nn(Leaud-3, Pierre-2)
+nsubj(amazing-5, Leaud-3)
+cop(amazing-5, is-4)
+punct(more-7, -LRB--6)
+dep(amazing-5, more-7)
+prep(more-7, than-8)
+pobj(than-8, usual-9)
+punct(more-7, -RRB--10)
+cc(more-7, and-11)
+det(movie-13, the-12)
+nsubj(one-15, movie-13)
+cop(one-15, is-14)
+conj(more-7, one-15)
+prep(one-15, of-16)
+det(unforgettable-19, the-17)
+advmod(unforgettable-19, most-18)
+pobj(of-16, unforgettable-19)
+prep(unforgettable-19, of-20)
+det(vogue-23, the-21)
+amod(vogue-23, nouvelle-22)
+pobj(of-20, vogue-23)
+punct(amazing-5, .-24)
+
+Sentence #3 (29 tokens):
+Jean Eustache is no more on this earth, we just have this black and white images to remember one of the greatest and most subvalued french directors.
+[Text=Jean CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=NNP] [Text=Eustache CharacterOffsetBegin=214 CharacterOffsetEnd=222 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=RBR] [Text=on CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=earth CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=,] [Text=we CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=DT] [Text=black CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC] [Text=white CharacterOffsetBegin=277 CharacterOffsetEnd=282 PartOfSpeech=JJ] [Text=images CharacterOffsetBegin=283 CharacterOffsetEnd=289 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=TO] [Text=remember CharacterOffsetBegin=293 CharacterOffsetEnd=301 PartOfSpeech=VB] [Text=one CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=DT] [Text=greatest CharacterOffsetBegin=313 CharacterOffsetEnd=321 PartOfSpeech=JJS] [Text=and CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=CC] [Text=most CharacterOffsetBegin=326 CharacterOffsetEnd=330 PartOfSpeech=RBS] [Text=subvalued CharacterOffsetBegin=331 CharacterOffsetEnd=340 PartOfSpeech=JJ] [Text=french CharacterOffsetBegin=341 CharacterOffsetEnd=347 PartOfSpeech=JJ] [Text=directors CharacterOffsetBegin=348 CharacterOffsetEnd=357 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=.] 
+root(ROOT-0, more-5)
+nn(Eustache-2, Jean-1)
+nsubj(more-5, Eustache-2)
+cop(more-5, is-3)
+advmod(more-5, no-4)
+prep(more-5, on-6)
+det(earth-8, this-7)
+pobj(on-6, earth-8)
+punct(more-5, ,-9)
+nsubj(have-12, we-10)
+advmod(have-12, just-11)
+ccomp(more-5, have-12)
+det(images-17, this-13)
+amod(images-17, black-14)
+cc(black-14, and-15)
+conj(black-14, white-16)
+dobj(have-12, images-17)
+aux(remember-19, to-18)
+xcomp(have-12, remember-19)
+dobj(remember-19, one-20)
+prep(one-20, of-21)
+det(directors-28, the-22)
+amod(directors-28, greatest-23)
+cc(greatest-23, and-24)
+advmod(subvalued-26, most-25)
+conj(greatest-23, subvalued-26)
+amod(directors-28, french-27)
+pobj(of-21, directors-28)
+punct(more-5, .-29)
+
+Sentence #4 (8 tokens):
+You just have to love this masterpiece.
+[Text=You CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=TO] [Text=love CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=DT] [Text=masterpiece CharacterOffsetBegin=390 CharacterOffsetEnd=401 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+nsubj(have-3, You-1)
+advmod(have-3, just-2)
+aux(love-5, to-4)
+xcomp(have-3, love-5)
+det(masterpiece-7, this-6)
+dobj(love-5, masterpiece-7)
+punct(have-3, .-8)
+
+Sentence #5 (6 tokens):
+I'll never forget it.P.S.
+[Text=I CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=RB] [Text=forget CharacterOffsetBegin=418 CharacterOffsetEnd=424 PartOfSpeech=VB] [Text=it.P.S CharacterOffsetBegin=425 CharacterOffsetEnd=431 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=.] 
+root(ROOT-0, forget-4)
+nsubj(forget-4, I-1)
+aux(forget-4, 'll-2)
+neg(forget-4, never-3)
+dobj(forget-4, it.P.S-5)
+punct(forget-4, .-6)
+
+Sentence #6 (6 tokens):
+: sorry for the english...
+[Text=: CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=:] [Text=sorry CharacterOffsetBegin=439 CharacterOffsetEnd=444 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=DT] [Text=english CharacterOffsetBegin=453 CharacterOffsetEnd=460 PartOfSpeech=JJ] [Text=... CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=:] 
+root(ROOT-0, sorry-2)
+punct(sorry-2, :-1)
+prep(sorry-2, for-3)
+det(english-5, the-4)
+pobj(for-3, english-5)
+punct(sorry-2, ...-6)
+

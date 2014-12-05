@@ -1,0 +1,93 @@
+Sentence #1 (20 tokens):
+Since I had loved the Inspector Gadget cartoon in the 80's, I went to see this movie.
+[Text=Since CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=VBD] [Text=loved CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=DT] [Text=Inspector CharacterOffsetBegin=26 CharacterOffsetEnd=35 PartOfSpeech=NNP] [Text=Gadget CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NNP] [Text=cartoon CharacterOffsetBegin=43 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=80 CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=POS] [Text=, CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=,] [Text=I CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=PRP] [Text=went CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=.] 
+root(ROOT-0, went-15)
+mark(loved-4, Since-1)
+nsubj(loved-4, I-2)
+aux(loved-4, had-3)
+advcl(went-15, loved-4)
+det(cartoon-8, the-5)
+nn(cartoon-8, Inspector-6)
+nn(cartoon-8, Gadget-7)
+dobj(loved-4, cartoon-8)
+prep(loved-4, in-9)
+det(80-11, the-10)
+pobj(in-9, 80-11)
+possessive(80-11, 's-12)
+punct(went-15, ,-13)
+nsubj(went-15, I-14)
+aux(see-17, to-16)
+xcomp(went-15, see-17)
+det(movie-19, this-18)
+dobj(see-17, movie-19)
+punct(went-15, .-20)
+
+Sentence #2 (5 tokens):
+I wasted my money.
+[Text=I CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=PRP] [Text=wasted CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=PRP$] [Text=money CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.] 
+root(ROOT-0, wasted-2)
+nsubj(wasted-2, I-1)
+poss(money-4, my-3)
+dobj(wasted-2, money-4)
+punct(wasted-2, .-5)
+
+Sentence #3 (6 tokens):
+The plot was very thin.
+[Text=The CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=RB] [Text=thin CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=.] 
+root(ROOT-0, thin-5)
+det(plot-2, The-1)
+nsubj(thin-5, plot-2)
+cop(thin-5, was-3)
+advmod(thin-5, very-4)
+punct(thin-5, .-6)
+
+Sentence #4 (12 tokens):
+Also, the movie could not keep me interested for long.
+[Text=Also CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=,] [Text=the CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=could CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=RB] [Text=keep CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=PRP] [Text=interested CharacterOffsetBegin=179 CharacterOffsetEnd=189 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=long CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=.] 
+root(ROOT-0, keep-7)
+advmod(keep-7, Also-1)
+punct(keep-7, ,-2)
+det(movie-4, the-3)
+nsubj(keep-7, movie-4)
+aux(keep-7, could-5)
+neg(keep-7, not-6)
+nsubj(interested-9, me-8)
+xcomp(keep-7, interested-9)
+prep(interested-9, for-10)
+pcomp(for-10, long-11)
+punct(keep-7, .-12)
+
+Sentence #5 (18 tokens):
+I was glad it was over.If you want to see Inspector Gadget, watch the cartoon instead.
+[Text=I CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=VBD] [Text=glad CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=VBD] [Text=over.If CharacterOffsetBegin=222 CharacterOffsetEnd=229 PartOfSpeech=NNP] [Text=you CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=VB] [Text=Inspector CharacterOffsetBegin=246 CharacterOffsetEnd=255 PartOfSpeech=NNP] [Text=Gadget CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=,] [Text=watch CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=cartoon CharacterOffsetBegin=274 CharacterOffsetEnd=281 PartOfSpeech=NN] [Text=instead CharacterOffsetBegin=282 CharacterOffsetEnd=289 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=.] 
+root(ROOT-0, glad-3)
+nsubj(glad-3, I-1)
+cop(glad-3, was-2)
+nsubj(over.If-6, it-4)
+cop(over.If-6, was-5)
+ccomp(glad-3, over.If-6)
+nsubj(want-8, you-7)
+rcmod(over.If-6, want-8)
+aux(see-10, to-9)
+xcomp(want-8, see-10)
+nn(Gadget-12, Inspector-11)
+dobj(see-10, Gadget-12)
+punct(glad-3, ,-13)
+dep(glad-3, watch-14)
+det(cartoon-16, the-15)
+dobj(watch-14, cartoon-16)
+advmod(watch-14, instead-17)
+punct(glad-3, .-18)
+
+Sentence #6 (8 tokens):
+It was much better than the movie.
+[Text=It CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=VBD] [Text=much CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=.] 
+root(ROOT-0, better-4)
+nsubj(better-4, It-1)
+cop(better-4, was-2)
+advmod(better-4, much-3)
+prep(better-4, than-5)
+det(movie-7, the-6)
+pobj(than-5, movie-7)
+punct(better-4, .-8)
+

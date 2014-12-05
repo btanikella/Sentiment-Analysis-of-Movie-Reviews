@@ -1,0 +1,81 @@
+Sentence #1 (11 tokens):
+The first hour of the movie was boring as hell.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=hour CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=VBD] [Text=boring CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN] [Text=hell CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=.] 
+root(ROOT-0, boring-8)
+det(hour-3, The-1)
+amod(hour-3, first-2)
+nsubj(boring-8, hour-3)
+prep(hour-3, of-4)
+det(movie-6, the-5)
+pobj(of-4, movie-6)
+cop(boring-8, was-7)
+prep(boring-8, as-9)
+pobj(as-9, hell-10)
+punct(boring-8, .-11)
+
+Sentence #2 (13 tokens):
+There is no suspense, no action, not even a plot.
+[Text=There CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=suspense CharacterOffsetBegin=68 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=,] [Text=no CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=DT] [Text=action CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=,] [Text=not CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(suspense-4, no-3)
+nsubj(is-2, suspense-4)
+punct(is-2, ,-5)
+det(action-7, no-6)
+nsubj(is-2, action-7)
+punct(action-7, ,-8)
+neg(plot-12, not-9)
+advmod(plot-12, even-10)
+det(plot-12, a-11)
+appos(action-7, plot-12)
+punct(is-2, .-13)
+
+Sentence #3 (6 tokens):
+The movie went no where.
+[Text=The CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=NN] [Text=went CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=DT] [Text=where CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=WRB] [Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=.] 
+root(ROOT-0, went-3)
+det(movie-2, The-1)
+nsubj(went-3, movie-2)
+dobj(went-3, no-4)
+dep(no-4, where-5)
+punct(went-3, .-6)
+
+Sentence #4 (14 tokens):
+I mean they could have made the movie in 15 min short film.
+[Text=I CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=VB] [Text=made CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=IN] [Text=15 CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=CD] [Text=min CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=NN] [Text=short CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+nsubj(made-6, they-3)
+aux(made-6, could-4)
+aux(made-6, have-5)
+ccomp(mean-2, made-6)
+det(movie-8, the-7)
+dobj(made-6, movie-8)
+prep(made-6, in-9)
+num(film-13, 15-10)
+nn(film-13, min-11)
+amod(film-13, short-12)
+pobj(in-9, film-13)
+punct(mean-2, .-14)
+
+Sentence #5 (17 tokens):
+Overall, the movie wasn't good at all, and I don't recommend it.
+[Text=Overall CharacterOffsetBegin=203 CharacterOffsetEnd=210 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=,] [Text=the CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=,] [Text=and CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=RB] [Text=recommend CharacterOffsetBegin=254 CharacterOffsetEnd=263 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=.] 
+root(ROOT-0, good-7)
+advmod(good-7, Overall-1)
+punct(good-7, ,-2)
+det(movie-4, the-3)
+nsubj(good-7, movie-4)
+cop(good-7, was-5)
+neg(good-7, n't-6)
+advmod(good-7, at-8)
+pobj(at-8, all-9)
+punct(good-7, ,-10)
+cc(good-7, and-11)
+nsubj(recommend-15, I-12)
+aux(recommend-15, do-13)
+neg(recommend-15, n't-14)
+conj(good-7, recommend-15)
+dobj(recommend-15, it-16)
+punct(good-7, .-17)
+

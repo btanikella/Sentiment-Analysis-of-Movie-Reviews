@@ -1,0 +1,96 @@
+Sentence #1 (12 tokens):
+this is the only movie i have ever walked out on.
+[Text=this CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=i CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=FW] [Text=have CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=RB] [Text=walked CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=RP] [Text=on CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=.] 
+root(ROOT-0, walked-9)
+nsubj(i-6, this-1)
+cop(i-6, is-2)
+det(i-6, the-3)
+amod(i-6, only-4)
+nn(i-6, movie-5)
+nsubj(walked-9, i-6)
+aux(walked-9, have-7)
+advmod(walked-9, ever-8)
+prt(walked-9, out-10)
+prep(walked-9, on-11)
+punct(walked-9, .-12)
+
+Sentence #2 (34 tokens):
+bad acting-- bad plot-- bad casting-- bad directing-- bad cinematography-- if they had set out to make a bad picture they couldn't have done a better job.
+[Text=bad CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=:] [Text=bad CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=:] [Text=bad CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=JJ] [Text=casting CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=:] [Text=bad CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=JJ] [Text=directing CharacterOffsetBegin=100 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=:] [Text=bad CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=JJ] [Text=cinematography CharacterOffsetBegin=116 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=:] [Text=if CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=VBD] [Text=set CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=JJ] [Text=picture CharacterOffsetBegin=167 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=they CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=180 CharacterOffsetEnd=185 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=VB] [Text=done CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=DT] [Text=better CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=JJR] [Text=job CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=.] 
+root(ROOT-0, casting-8)
+amod(acting-2, bad-1)
+amod(casting-8, acting-2)
+punct(plot-5, ---3)
+amod(plot-5, bad-4)
+dep(acting-2, plot-5)
+punct(plot-5, ---6)
+amod(casting-8, bad-7)
+punct(casting-8, ---9)
+amod(directing-11, bad-10)
+dep(casting-8, directing-11)
+punct(cinematography-14, ---12)
+amod(cinematography-14, bad-13)
+dep(directing-11, cinematography-14)
+punct(cinematography-14, ---15)
+mark(set-19, if-16)
+nsubj(set-19, they-17)
+aux(set-19, had-18)
+advcl(casting-8, set-19)
+prt(set-19, out-20)
+aux(make-22, to-21)
+xcomp(set-19, make-22)
+det(picture-25, a-23)
+amod(picture-25, bad-24)
+dobj(make-22, picture-25)
+nsubj(done-30, they-26)
+aux(done-30, could-27)
+neg(done-30, n't-28)
+aux(done-30, have-29)
+rcmod(picture-25, done-30)
+det(job-33, a-31)
+amod(job-33, better-32)
+dobj(done-30, job-33)
+punct(casting-8, .-34)
+
+Sentence #3 (9 tokens):
+i hope they are proud of his turkey.
+[Text=i CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=LS] [Text=hope CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=they CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=VBP] [Text=proud CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=PRP$] [Text=turkey CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=.] 
+root(ROOT-0, hope-2)
+nsubj(hope-2, i-1)
+nsubj(proud-5, they-3)
+cop(proud-5, are-4)
+ccomp(hope-2, proud-5)
+prep(proud-5, of-6)
+poss(turkey-8, his-7)
+pobj(of-6, turkey-8)
+punct(hope-2, .-9)
+
+Sentence #4 (15 tokens):
+i'm surprised anyone associated with this film was ever hired again in hollywood.
+[Text=i CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=LS] [Text='m CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=VBP] [Text=surprised CharacterOffsetBegin=262 CharacterOffsetEnd=271 PartOfSpeech=JJ] [Text=anyone CharacterOffsetBegin=272 CharacterOffsetEnd=278 PartOfSpeech=NN] [Text=associated CharacterOffsetBegin=279 CharacterOffsetEnd=289 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=VBD] [Text=ever CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=RB] [Text=hired CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=VBN] [Text=again CharacterOffsetBegin=320 CharacterOffsetEnd=325 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=IN] [Text=hollywood CharacterOffsetBegin=329 CharacterOffsetEnd=338 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=.] 
+root(ROOT-0, surprised-3)
+nsubj(surprised-3, i-1)
+cop(surprised-3, 'm-2)
+dobj(surprised-3, anyone-4)
+partmod(anyone-4, associated-5)
+prep(associated-5, with-6)
+det(film-8, this-7)
+pobj(with-6, film-8)
+auxpass(hired-11, was-9)
+advmod(hired-11, ever-10)
+advcl(surprised-3, hired-11)
+advmod(hired-11, again-12)
+prep(hired-11, in-13)
+pobj(in-13, hollywood-14)
+punct(surprised-3, .-15)
+
+Sentence #5 (6 tokens):
+don't waste your time!
+[Text=do CharacterOffsetBegin=344 CharacterOffsetEnd=346 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=RB] [Text=waste CharacterOffsetBegin=350 CharacterOffsetEnd=355 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=.] 
+root(ROOT-0, waste-3)
+aux(waste-3, do-1)
+neg(waste-3, n't-2)
+poss(time-5, your-4)
+dobj(waste-3, time-5)
+punct(waste-3, !-6)
+

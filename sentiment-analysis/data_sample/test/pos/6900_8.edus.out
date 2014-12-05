@@ -1,0 +1,301 @@
+Sentence #1 (2 tokens):
+OK.
+[Text=OK CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=UH] [Text=. CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=.] 
+root(ROOT-0, OK-1)
+punct(OK-1, .-2)
+
+Sentence #2 (10 tokens):
+Finally, a horror film that's done well.
+[Text=Finally CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=,] [Text=a CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=DT] [Text=horror CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=WDT] [Text='s CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=VBZ] [Text=done CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=VBN] [Text=well CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=.] 
+root(ROOT-0, Finally-1)
+punct(Finally-1, ,-2)
+det(film-5, a-3)
+nn(film-5, horror-4)
+nsubj(,-2, film-5)
+nsubjpass(done-8, that-6)
+auxpass(done-8, 's-7)
+rcmod(film-5, done-8)
+advmod(done-8, well-9)
+punct(film-5, .-10)
+
+Sentence #3 (31 tokens):
+As soon as I heard the music, I knew that some effort had been made in creating what I consider to be an almost masterpiece of good ol'horror.
+[Text=As CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=RB] [Text=soon CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=PRP] [Text=heard CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=,] [Text=I CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=knew CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=effort CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=VBD] [Text=been CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=VBN] [Text=made CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=IN] [Text=creating CharacterOffsetBegin=128 CharacterOffsetEnd=136 PartOfSpeech=VBG] [Text=what CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=PRP] [Text=consider CharacterOffsetBegin=144 CharacterOffsetEnd=152 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=VB] [Text=an CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=DT] [Text=almost CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=RB] [Text=masterpiece CharacterOffsetBegin=169 CharacterOffsetEnd=180 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=JJ] [Text=ol' CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=horror CharacterOffsetBegin=192 CharacterOffsetEnd=198 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=.] 
+root(ROOT-0, knew-10)
+advmod(soon-2, As-1)
+advmod(knew-10, soon-2)
+mark(heard-5, as-3)
+nsubj(heard-5, I-4)
+ccomp(soon-2, heard-5)
+det(music-7, the-6)
+dobj(heard-5, music-7)
+punct(knew-10, ,-8)
+nsubj(knew-10, I-9)
+mark(made-16, that-11)
+det(effort-13, some-12)
+nsubjpass(made-16, effort-13)
+aux(made-16, had-14)
+auxpass(made-16, been-15)
+ccomp(knew-10, made-16)
+prep(made-16, in-17)
+pcomp(in-17, creating-18)
+dobj(consider-21, what-19)
+nsubj(consider-21, I-20)
+ccomp(creating-18, consider-21)
+aux(masterpiece-26, to-22)
+cop(masterpiece-26, be-23)
+det(masterpiece-26, an-24)
+advmod(masterpiece-26, almost-25)
+xcomp(consider-21, masterpiece-26)
+prep(masterpiece-26, of-27)
+amod(horror-30, good-28)
+amod(horror-30, ol'-29)
+pobj(of-27, horror-30)
+punct(knew-10, .-31)
+
+Sentence #4 (13 tokens):
+Zombies, whores, booze, grave snatching and a lot more.
+[Text=Zombies CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=,] [Text=whores CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=,] [Text=booze CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=,] [Text=grave CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=JJ] [Text=snatching CharacterOffsetBegin=234 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=RBR] [Text=. CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=.] 
+root(ROOT-0, Zombies-1)
+punct(Zombies-1, ,-2)
+conj(Zombies-1, whores-3)
+punct(Zombies-1, ,-4)
+conj(Zombies-1, booze-5)
+punct(Zombies-1, ,-6)
+amod(snatching-8, grave-7)
+conj(Zombies-1, snatching-8)
+cc(Zombies-1, and-9)
+det(lot-11, a-10)
+npadvmod(more-12, lot-11)
+conj(Zombies-1, more-12)
+punct(Zombies-1, .-13)
+
+Sentence #5 (19 tokens):
+A great cast, well acted, well directed, well written---there was hardly a flaw.
+[Text=A CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=JJ] [Text=cast CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=,] [Text=well CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=RB] [Text=acted CharacterOffsetBegin=283 CharacterOffsetEnd=288 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=,] [Text=well CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=RB] [Text=directed CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=,] [Text=well CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=RB] [Text=written CharacterOffsetBegin=310 CharacterOffsetEnd=317 PartOfSpeech=VBN] [Text=-- CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=:] [Text=there CharacterOffsetBegin=320 CharacterOffsetEnd=325 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=VBD] [Text=hardly CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=flaw CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=.] 
+root(ROOT-0, directed-9)
+det(cast-3, A-1)
+amod(cast-3, great-2)
+nsubj(directed-9, cast-3)
+punct(cast-3, ,-4)
+advmod(acted-6, well-5)
+dep(cast-3, acted-6)
+punct(cast-3, ,-7)
+advmod(directed-9, well-8)
+punct(directed-9, ,-10)
+advmod(written-12, well-11)
+dep(directed-9, written-12)
+punct(directed-9, ---13)
+expl(was-15, there-14)
+parataxis(directed-9, was-15)
+advmod(was-15, hardly-16)
+det(flaw-18, a-17)
+nsubj(was-15, flaw-18)
+punct(directed-9, .-19)
+
+Sentence #6 (12 tokens):
+Even the American actors with Irish/English accents really pulled it off.
+[Text=Even CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=American CharacterOffsetBegin=358 CharacterOffsetEnd=366 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=IN] [Text=Irish/English CharacterOffsetBegin=379 CharacterOffsetEnd=392 PartOfSpeech=JJ] [Text=accents CharacterOffsetBegin=393 CharacterOffsetEnd=400 PartOfSpeech=NNS] [Text=really CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=RB] [Text=pulled CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=PRP] [Text=off CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.] 
+root(ROOT-0, pulled-9)
+advmod(actors-4, Even-1)
+det(actors-4, the-2)
+amod(actors-4, American-3)
+nsubj(pulled-9, actors-4)
+prep(actors-4, with-5)
+amod(accents-7, Irish/English-6)
+pobj(with-5, accents-7)
+advmod(pulled-9, really-8)
+dobj(pulled-9, it-10)
+prt(pulled-9, off-11)
+punct(pulled-9, .-12)
+
+Sentence #7 (12 tokens):
+I thought that the actor Larry Fessenden looked familiar to me.
+[Text=I CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=429 CharacterOffsetEnd=436 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=437 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=DT] [Text=actor CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=NN] [Text=Larry CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=NNP] [Text=Fessenden CharacterOffsetBegin=458 CharacterOffsetEnd=467 PartOfSpeech=NNP] [Text=looked CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=VBD] [Text=familiar CharacterOffsetBegin=475 CharacterOffsetEnd=483 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+mark(looked-8, that-3)
+det(Fessenden-7, the-4)
+nn(Fessenden-7, actor-5)
+nn(Fessenden-7, Larry-6)
+nsubj(looked-8, Fessenden-7)
+ccomp(thought-2, looked-8)
+acomp(looked-8, familiar-9)
+prep(familiar-9, to-10)
+pobj(to-10, me-11)
+punct(thought-2, .-12)
+
+Sentence #8 (6 tokens):
+It was that missing tooth.
+[Text=It CharacterOffsetBegin=495 CharacterOffsetEnd=497 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=IN] [Text=missing CharacterOffsetBegin=507 CharacterOffsetEnd=514 PartOfSpeech=VBG] [Text=tooth CharacterOffsetBegin=515 CharacterOffsetEnd=520 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=.] 
+root(ROOT-0, was-2)
+nsubj(was-2, It-1)
+mark(tooth-5, that-3)
+amod(tooth-5, missing-4)
+ccomp(was-2, tooth-5)
+punct(was-2, .-6)
+
+Sentence #9 (20 tokens):
+Finally I realized that this guy was the lead in "Habit" a film about vampires in NYC.
+[Text=Finally CharacterOffsetBegin=526 CharacterOffsetEnd=533 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=534 CharacterOffsetEnd=535 PartOfSpeech=PRP] [Text=realized CharacterOffsetBegin=536 CharacterOffsetEnd=544 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=563 CharacterOffsetEnd=566 PartOfSpeech=DT] [Text=lead CharacterOffsetBegin=567 CharacterOffsetEnd=571 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=``] [Text=Habit CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=''] [Text=a CharacterOffsetBegin=583 CharacterOffsetEnd=584 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=590 CharacterOffsetEnd=595 PartOfSpeech=IN] [Text=vampires CharacterOffsetBegin=596 CharacterOffsetEnd=604 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=IN] [Text=NYC CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=611 CharacterOffsetEnd=612 PartOfSpeech=.] 
+root(ROOT-0, realized-3)
+advmod(realized-3, Finally-1)
+nsubj(realized-3, I-2)
+mark(lead-9, that-4)
+det(guy-6, this-5)
+nsubj(lead-9, guy-6)
+cop(lead-9, was-7)
+det(lead-9, the-8)
+ccomp(realized-3, lead-9)
+prep(lead-9, in-10)
+punct(film-15, ``-11)
+nn(film-15, Habit-12)
+punct(film-15, ''-13)
+det(film-15, a-14)
+pobj(in-10, film-15)
+prep(film-15, about-16)
+pobj(about-16, vampires-17)
+prep(vampires-17, in-18)
+pobj(in-18, NYC-19)
+punct(realized-3, .-20)
+
+Sentence #10 (9 tokens):
+I thought he was excellent in that role.
+[Text=I CharacterOffsetBegin=617 CharacterOffsetEnd=618 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=619 CharacterOffsetEnd=626 PartOfSpeech=VBD] [Text=he CharacterOffsetBegin=627 CharacterOffsetEnd=629 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=VBD] [Text=excellent CharacterOffsetBegin=634 CharacterOffsetEnd=643 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=644 CharacterOffsetEnd=646 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=647 CharacterOffsetEnd=651 PartOfSpeech=DT] [Text=role CharacterOffsetBegin=652 CharacterOffsetEnd=656 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+nsubj(excellent-5, he-3)
+cop(excellent-5, was-4)
+ccomp(thought-2, excellent-5)
+prep(excellent-5, in-6)
+det(role-8, that-7)
+pobj(in-6, role-8)
+punct(thought-2, .-9)
+
+Sentence #11 (12 tokens):
+Now I'm wondering if he's an American or not.
+[Text=Now CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=666 CharacterOffsetEnd=667 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=VBP] [Text=wondering CharacterOffsetBegin=670 CharacterOffsetEnd=679 PartOfSpeech=VBG] [Text=if CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=683 CharacterOffsetEnd=685 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=685 CharacterOffsetEnd=687 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=688 CharacterOffsetEnd=690 PartOfSpeech=DT] [Text=American CharacterOffsetBegin=691 CharacterOffsetEnd=699 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=703 CharacterOffsetEnd=706 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=706 CharacterOffsetEnd=707 PartOfSpeech=.] 
+root(ROOT-0, wondering-4)
+advmod(wondering-4, Now-1)
+nsubj(wondering-4, I-2)
+aux(wondering-4, 'm-3)
+mark(American-9, if-5)
+nsubj(American-9, he-6)
+cop(American-9, 's-7)
+det(American-9, an-8)
+advcl(wondering-4, American-9)
+cc(American-9, or-10)
+conj(American-9, not-11)
+punct(wondering-4, .-12)
+
+Sentence #12 (30 tokens):
+His accent was so convincing in "I Sell," that I thought he had to have grown up in the emerald isle, not in the US.
+[Text=His CharacterOffsetBegin=712 CharacterOffsetEnd=715 PartOfSpeech=PRP$] [Text=accent CharacterOffsetBegin=716 CharacterOffsetEnd=722 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=723 CharacterOffsetEnd=726 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=727 CharacterOffsetEnd=729 PartOfSpeech=RB] [Text=convincing CharacterOffsetBegin=730 CharacterOffsetEnd=740 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=741 CharacterOffsetEnd=743 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=744 CharacterOffsetEnd=745 PartOfSpeech=``] [Text=I CharacterOffsetBegin=745 CharacterOffsetEnd=746 PartOfSpeech=PRP] [Text=Sell CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=751 CharacterOffsetEnd=752 PartOfSpeech=,] [Text='' CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=''] [Text=that CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=759 CharacterOffsetEnd=760 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=761 CharacterOffsetEnd=768 PartOfSpeech=VBD] [Text=he CharacterOffsetBegin=769 CharacterOffsetEnd=771 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=772 CharacterOffsetEnd=775 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=776 CharacterOffsetEnd=778 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=779 CharacterOffsetEnd=783 PartOfSpeech=VB] [Text=grown CharacterOffsetBegin=784 CharacterOffsetEnd=789 PartOfSpeech=VBN] [Text=up CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=793 CharacterOffsetEnd=795 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=796 CharacterOffsetEnd=799 PartOfSpeech=DT] [Text=emerald CharacterOffsetBegin=800 CharacterOffsetEnd=807 PartOfSpeech=JJ] [Text=isle CharacterOffsetBegin=808 CharacterOffsetEnd=812 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=812 CharacterOffsetEnd=813 PartOfSpeech=,] [Text=not CharacterOffsetBegin=814 CharacterOffsetEnd=817 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=818 CharacterOffsetEnd=820 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=821 CharacterOffsetEnd=824 PartOfSpeech=DT] [Text=US CharacterOffsetBegin=825 CharacterOffsetEnd=827 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=.] 
+root(ROOT-0, convincing-5)
+poss(accent-2, His-1)
+nsubj(convincing-5, accent-2)
+cop(convincing-5, was-3)
+advmod(convincing-5, so-4)
+prep(convincing-5, in-6)
+punct(Sell-9, ``-7)
+nsubj(Sell-9, I-8)
+pcomp(in-6, Sell-9)
+punct(Sell-9, ,-10)
+punct(Sell-9, ''-11)
+mark(thought-14, that-12)
+nsubj(thought-14, I-13)
+ccomp(Sell-9, thought-14)
+nsubj(had-16, he-15)
+ccomp(thought-14, had-16)
+aux(grown-19, to-17)
+aux(grown-19, have-18)
+xcomp(had-16, grown-19)
+advmod(grown-19, up-20)
+prep(grown-19, in-21)
+det(isle-24, the-22)
+amod(isle-24, emerald-23)
+pobj(in-21, isle-24)
+punct(grown-19, ,-25)
+neg(in-27, not-26)
+prep(grown-19, in-27)
+det(US-29, the-28)
+pobj(in-27, US-29)
+punct(convincing-5, .-30)
+
+Sentence #13 (11 tokens):
+Well apparently he's a born and raised New Yorker.
+[Text=Well CharacterOffsetBegin=833 CharacterOffsetEnd=837 PartOfSpeech=UH] [Text=apparently CharacterOffsetBegin=838 CharacterOffsetEnd=848 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=849 CharacterOffsetEnd=851 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=851 CharacterOffsetEnd=853 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=854 CharacterOffsetEnd=855 PartOfSpeech=DT] [Text=born CharacterOffsetBegin=856 CharacterOffsetEnd=860 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=861 CharacterOffsetEnd=864 PartOfSpeech=CC] [Text=raised CharacterOffsetBegin=865 CharacterOffsetEnd=871 PartOfSpeech=VBN] [Text=New CharacterOffsetBegin=872 CharacterOffsetEnd=875 PartOfSpeech=NNP] [Text=Yorker CharacterOffsetBegin=876 CharacterOffsetEnd=882 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=882 CharacterOffsetEnd=883 PartOfSpeech=.] 
+root(ROOT-0, Yorker-10)
+advmod(Yorker-10, Well-1)
+advmod(Yorker-10, apparently-2)
+nsubj(Yorker-10, he-3)
+cop(Yorker-10, 's-4)
+det(Yorker-10, a-5)
+amod(Yorker-10, born-6)
+cc(born-6, and-7)
+conj(born-6, raised-8)
+nn(Yorker-10, New-9)
+punct(Yorker-10, .-11)
+
+Sentence #14 (14 tokens):
+A great actor--really made the role his own in this movie.
+[Text=A CharacterOffsetBegin=888 CharacterOffsetEnd=889 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=890 CharacterOffsetEnd=895 PartOfSpeech=JJ] [Text=actor CharacterOffsetBegin=896 CharacterOffsetEnd=901 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=901 CharacterOffsetEnd=903 PartOfSpeech=:] [Text=really CharacterOffsetBegin=903 CharacterOffsetEnd=909 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=910 CharacterOffsetEnd=914 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=915 CharacterOffsetEnd=918 PartOfSpeech=DT] [Text=role CharacterOffsetBegin=919 CharacterOffsetEnd=923 PartOfSpeech=NN] [Text=his CharacterOffsetBegin=924 CharacterOffsetEnd=927 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=928 CharacterOffsetEnd=931 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=932 CharacterOffsetEnd=934 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=935 CharacterOffsetEnd=939 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=940 CharacterOffsetEnd=945 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=945 CharacterOffsetEnd=946 PartOfSpeech=.] 
+root(ROOT-0, actor-3)
+det(actor-3, A-1)
+amod(actor-3, great-2)
+punct(made-6, ---4)
+advmod(made-6, really-5)
+dep(actor-3, made-6)
+det(role-8, the-7)
+dobj(made-6, role-8)
+poss(own-10, his-9)
+dep(role-8, own-10)
+prep(own-10, in-11)
+det(movie-13, this-12)
+pobj(in-11, movie-13)
+punct(actor-3, .-14)
+
+Sentence #15 (19 tokens):
+Nothing beats a horror flick set in early 19th century Europe (like the old Hammer flicks.)
+[Text=Nothing CharacterOffsetBegin=951 CharacterOffsetEnd=958 PartOfSpeech=NN] [Text=beats CharacterOffsetBegin=959 CharacterOffsetEnd=964 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=965 CharacterOffsetEnd=966 PartOfSpeech=DT] [Text=horror CharacterOffsetBegin=967 CharacterOffsetEnd=973 PartOfSpeech=NN] [Text=flick CharacterOffsetBegin=974 CharacterOffsetEnd=979 PartOfSpeech=NN] [Text=set CharacterOffsetBegin=980 CharacterOffsetEnd=983 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=984 CharacterOffsetEnd=986 PartOfSpeech=IN] [Text=early CharacterOffsetBegin=987 CharacterOffsetEnd=992 PartOfSpeech=JJ] [Text=19th CharacterOffsetBegin=993 CharacterOffsetEnd=997 PartOfSpeech=JJ] [Text=century CharacterOffsetBegin=998 CharacterOffsetEnd=1005 PartOfSpeech=NN] [Text=Europe CharacterOffsetBegin=1006 CharacterOffsetEnd=1012 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=1013 CharacterOffsetEnd=1014 PartOfSpeech=-LRB-] [Text=like CharacterOffsetBegin=1014 CharacterOffsetEnd=1018 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1019 CharacterOffsetEnd=1022 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=1023 CharacterOffsetEnd=1026 PartOfSpeech=JJ] [Text=Hammer CharacterOffsetBegin=1027 CharacterOffsetEnd=1033 PartOfSpeech=NNP] [Text=flicks CharacterOffsetBegin=1034 CharacterOffsetEnd=1040 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1040 CharacterOffsetEnd=1041 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=1041 CharacterOffsetEnd=1042 PartOfSpeech=-RRB-] 
+root(ROOT-0, beats-2)
+nsubj(beats-2, Nothing-1)
+det(flick-5, a-3)
+nn(flick-5, horror-4)
+dobj(beats-2, flick-5)
+partmod(flick-5, set-6)
+prep(set-6, in-7)
+amod(Europe-11, early-8)
+amod(Europe-11, 19th-9)
+nn(Europe-11, century-10)
+pobj(in-7, Europe-11)
+punct(like-13, -LRB--12)
+dep(set-6, like-13)
+det(flicks-17, the-14)
+amod(flicks-17, old-15)
+nn(flicks-17, Hammer-16)
+pobj(like-13, flicks-17)
+punct(like-13, .-18)
+punct(like-13, -RRB--19)
+
+Sentence #16 (17 tokens):
+I encourage anyone that wants to have a great time to watch this well crafted movie.
+[Text=I CharacterOffsetBegin=1047 CharacterOffsetEnd=1048 PartOfSpeech=PRP] [Text=encourage CharacterOffsetBegin=1049 CharacterOffsetEnd=1058 PartOfSpeech=VBP] [Text=anyone CharacterOffsetBegin=1059 CharacterOffsetEnd=1065 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=1066 CharacterOffsetEnd=1070 PartOfSpeech=WDT] [Text=wants CharacterOffsetBegin=1071 CharacterOffsetEnd=1076 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=1077 CharacterOffsetEnd=1079 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=1080 CharacterOffsetEnd=1084 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1085 CharacterOffsetEnd=1086 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=1087 CharacterOffsetEnd=1092 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=1093 CharacterOffsetEnd=1097 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=1098 CharacterOffsetEnd=1100 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=1101 CharacterOffsetEnd=1106 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=1107 CharacterOffsetEnd=1111 PartOfSpeech=DT] [Text=well CharacterOffsetBegin=1112 CharacterOffsetEnd=1116 PartOfSpeech=RB] [Text=crafted CharacterOffsetBegin=1117 CharacterOffsetEnd=1124 PartOfSpeech=VBN] [Text=movie CharacterOffsetBegin=1125 CharacterOffsetEnd=1130 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1130 CharacterOffsetEnd=1131 PartOfSpeech=.] 
+root(ROOT-0, encourage-2)
+nsubj(encourage-2, I-1)
+dobj(encourage-2, anyone-3)
+nsubj(wants-5, that-4)
+rcmod(anyone-3, wants-5)
+aux(have-7, to-6)
+xcomp(wants-5, have-7)
+det(time-10, a-8)
+amod(time-10, great-9)
+dobj(have-7, time-10)
+aux(watch-12, to-11)
+infmod(time-10, watch-12)
+det(movie-16, this-13)
+advmod(crafted-15, well-14)
+amod(movie-16, crafted-15)
+dobj(watch-12, movie-16)
+punct(encourage-2, .-17)
+

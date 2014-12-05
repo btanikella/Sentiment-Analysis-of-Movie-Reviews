@@ -1,0 +1,55 @@
+Sentence #1 (10 tokens):
+It was tough watching Harrison Ford obsessing over nothing.
+[Text=It CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=VBD] [Text=tough CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=17 CharacterOffsetEnd=25 PartOfSpeech=VBG] [Text=Harrison CharacterOffsetBegin=26 CharacterOffsetEnd=34 PartOfSpeech=NNP] [Text=Ford CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=NNP] [Text=obsessing CharacterOffsetBegin=40 CharacterOffsetEnd=49 PartOfSpeech=VBG] [Text=over CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=IN] [Text=nothing CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=.] 
+root(ROOT-0, tough-3)
+nsubj(tough-3, It-1)
+cop(tough-3, was-2)
+xcomp(tough-3, watching-4)
+nn(Ford-6, Harrison-5)
+nsubj(obsessing-7, Ford-6)
+dep(watching-4, obsessing-7)
+prep(obsessing-7, over-8)
+pobj(over-8, nothing-9)
+punct(tough-3, .-10)
+
+Sentence #2 (17 tokens):
+Kristin Scott-Thomas should have slapped this guy and told him to take a hike.Save your money.
+[Text=Kristin CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=NNP] [Text=Scott-Thomas CharacterOffsetBegin=76 CharacterOffsetEnd=88 PartOfSpeech=NNP] [Text=should CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=VB] [Text=slapped CharacterOffsetBegin=101 CharacterOffsetEnd=108 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=CC] [Text=told CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=VBD] [Text=him CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=TO] [Text=take CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=DT] [Text=hike.Save CharacterOffsetBegin=141 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=your CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=PRP$] [Text=money CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=.] 
+root(ROOT-0, slapped-5)
+nn(Scott-Thomas-2, Kristin-1)
+nsubj(slapped-5, Scott-Thomas-2)
+aux(slapped-5, should-3)
+aux(slapped-5, have-4)
+det(guy-7, this-6)
+dobj(slapped-5, guy-7)
+cc(slapped-5, and-8)
+conj(slapped-5, told-9)
+dobj(told-9, him-10)
+aux(take-12, to-11)
+xcomp(told-9, take-12)
+det(hike.Save-14, a-13)
+dobj(take-12, hike.Save-14)
+poss(money-16, your-15)
+dep(hike.Save-14, money-16)
+punct(slapped-5, .-17)
+
+Sentence #3 (16 tokens):
+Don't even bother with a rental fee, unless you need a good nap.
+[Text=Do CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=RB] [Text=bother CharacterOffsetBegin=178 CharacterOffsetEnd=184 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=rental CharacterOffsetBegin=192 CharacterOffsetEnd=198 PartOfSpeech=JJ] [Text=fee CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=,] [Text=unless CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=PRP] [Text=need CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=JJ] [Text=nap CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=.] 
+root(ROOT-0, bother-4)
+aux(bother-4, Do-1)
+neg(bother-4, n't-2)
+advmod(bother-4, even-3)
+prep(bother-4, with-5)
+det(fee-8, a-6)
+amod(fee-8, rental-7)
+pobj(with-5, fee-8)
+punct(bother-4, ,-9)
+mark(need-12, unless-10)
+nsubj(need-12, you-11)
+advcl(bother-4, need-12)
+det(nap-15, a-13)
+amod(nap-15, good-14)
+dobj(need-12, nap-15)
+punct(bother-4, .-16)
+

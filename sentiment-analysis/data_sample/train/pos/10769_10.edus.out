@@ -1,0 +1,195 @@
+Sentence #1 (10 tokens):
+I love Monte Carlo and thoroughly enjoyed this movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=Monte CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=Carlo CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=CC] [Text=thoroughly CharacterOffsetBegin=27 CharacterOffsetEnd=37 PartOfSpeech=RB] [Text=enjoyed CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+nn(Carlo-4, Monte-3)
+dobj(love-2, Carlo-4)
+cc(Carlo-4, and-5)
+advmod(enjoyed-7, thoroughly-6)
+conj(Carlo-4, enjoyed-7)
+det(movie-9, this-8)
+dobj(enjoyed-7, movie-9)
+punct(love-2, .-10)
+
+Sentence #2 (7 tokens):
+I thought everyone was very good.
+[Text=I CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=VBD] [Text=everyone CharacterOffsetBegin=72 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+nsubj(good-6, everyone-3)
+cop(good-6, was-4)
+advmod(good-6, very-5)
+ccomp(thought-2, good-6)
+punct(thought-2, .-7)
+
+Sentence #3 (25 tokens):
+I was not familiar with Richard Lewis, I thought he made his character (Julian Peters) very personable, funny and attractive.
+[Text=I CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=RB] [Text=familiar CharacterOffsetBegin=110 CharacterOffsetEnd=118 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=IN] [Text=Richard CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=NNP] [Text=Lewis CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=,] [Text=I CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=141 CharacterOffsetEnd=148 PartOfSpeech=VBD] [Text=he CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=PRP$] [Text=character CharacterOffsetBegin=161 CharacterOffsetEnd=170 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=-LRB-] [Text=Julian CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=NNP] [Text=Peters CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=-RRB-] [Text=very CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=RB] [Text=personable CharacterOffsetBegin=192 CharacterOffsetEnd=202 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=,] [Text=funny CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=CC] [Text=attractive CharacterOffsetBegin=214 CharacterOffsetEnd=224 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, familiar-4)
+nsubj(familiar-4, I-1)
+cop(familiar-4, was-2)
+neg(familiar-4, not-3)
+prep(familiar-4, with-5)
+nn(Lewis-7, Richard-6)
+pobj(with-5, Lewis-7)
+punct(familiar-4, ,-8)
+nsubj(thought-10, I-9)
+parataxis(familiar-4, thought-10)
+nsubj(made-12, he-11)
+ccomp(thought-10, made-12)
+poss(character-14, his-13)
+dobj(made-12, character-14)
+punct(Peters-17, -LRB--15)
+nn(Peters-17, Julian-16)
+appos(character-14, Peters-17)
+punct(Peters-17, -RRB--18)
+advmod(personable-20, very-19)
+acomp(made-12, personable-20)
+punct(personable-20, ,-21)
+conj(personable-20, funny-22)
+cc(personable-20, and-23)
+conj(personable-20, attractive-24)
+punct(familiar-4, .-25)
+
+Sentence #4 (16 tokens):
+Sean Young was very good as the befuddled rejected girl with a heart of gold.
+[Text=Sean CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NNP] [Text=Young CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=DT] [Text=befuddled CharacterOffsetBegin=262 CharacterOffsetEnd=271 PartOfSpeech=VBN] [Text=rejected CharacterOffsetBegin=272 CharacterOffsetEnd=280 PartOfSpeech=VBD] [Text=girl CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=heart CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=IN] [Text=gold CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=.] 
+root(ROOT-0, good-5)
+nn(Young-2, Sean-1)
+nsubj(good-5, Young-2)
+cop(good-5, was-3)
+advmod(good-5, very-4)
+mark(rejected-9, as-6)
+det(befuddled-8, the-7)
+nsubj(rejected-9, befuddled-8)
+advcl(good-5, rejected-9)
+dobj(rejected-9, girl-10)
+prep(rejected-9, with-11)
+det(heart-13, a-12)
+pobj(with-11, heart-13)
+prep(heart-13, of-14)
+pobj(of-14, gold-15)
+punct(good-5, .-16)
+
+Sentence #5 (10 tokens):
+George Hamilton was charming and the perfect Italian gigolo.
+[Text=George CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=NNP] [Text=Hamilton CharacterOffsetBegin=319 CharacterOffsetEnd=327 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=VBD] [Text=charming CharacterOffsetBegin=332 CharacterOffsetEnd=340 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=349 CharacterOffsetEnd=356 PartOfSpeech=JJ] [Text=Italian CharacterOffsetBegin=357 CharacterOffsetEnd=364 PartOfSpeech=JJ] [Text=gigolo CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=.] 
+root(ROOT-0, charming-4)
+nn(Hamilton-2, George-1)
+nsubj(charming-4, Hamilton-2)
+cop(charming-4, was-3)
+cc(charming-4, and-5)
+det(gigolo-9, the-6)
+amod(gigolo-9, perfect-7)
+amod(gigolo-9, Italian-8)
+conj(charming-4, gigolo-9)
+punct(charming-4, .-10)
+
+Sentence #6 (11 tokens):
+John Candy has a field day as the bon vivant.
+[Text=John CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=NNP] [Text=Candy CharacterOffsetBegin=382 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=DT] [Text=field CharacterOffsetBegin=394 CharacterOffsetEnd=399 PartOfSpeech=NN] [Text=day CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=404 CharacterOffsetEnd=406 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=DT] [Text=bon CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=FW] [Text=vivant CharacterOffsetBegin=415 CharacterOffsetEnd=421 PartOfSpeech=FW] [Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+nn(Candy-2, John-1)
+nsubj(has-3, Candy-2)
+det(day-6, a-4)
+nn(day-6, field-5)
+dobj(has-3, day-6)
+prep(has-3, as-7)
+det(vivant-10, the-8)
+nn(vivant-10, bon-9)
+pobj(as-7, vivant-10)
+punct(has-3, .-11)
+
+Sentence #7 (9 tokens):
+James Belushi is hysterical as a total jerk.
+[Text=James CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=NNP] [Text=Belushi CharacterOffsetBegin=433 CharacterOffsetEnd=440 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=VBZ] [Text=hysterical CharacterOffsetBegin=444 CharacterOffsetEnd=454 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=DT] [Text=total CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=JJ] [Text=jerk CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=.] 
+root(ROOT-0, hysterical-4)
+nn(Belushi-2, James-1)
+nsubj(hysterical-4, Belushi-2)
+cop(hysterical-4, is-3)
+prep(hysterical-4, as-5)
+det(jerk-8, a-6)
+amod(jerk-8, total-7)
+pobj(as-5, jerk-8)
+punct(hysterical-4, .-9)
+
+Sentence #8 (14 tokens):
+Cybill Shepard gave a very sweet performance as a nice vulnerable ignored housewife.
+[Text=Cybill CharacterOffsetBegin=476 CharacterOffsetEnd=482 PartOfSpeech=NNP] [Text=Shepard CharacterOffsetBegin=483 CharacterOffsetEnd=490 PartOfSpeech=NNP] [Text=gave CharacterOffsetBegin=491 CharacterOffsetEnd=495 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=496 CharacterOffsetEnd=497 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=RB] [Text=sweet CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=509 CharacterOffsetEnd=520 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=526 CharacterOffsetEnd=530 PartOfSpeech=JJ] [Text=vulnerable CharacterOffsetBegin=531 CharacterOffsetEnd=541 PartOfSpeech=JJ] [Text=ignored CharacterOffsetBegin=542 CharacterOffsetEnd=549 PartOfSpeech=VBN] [Text=housewife CharacterOffsetBegin=550 CharacterOffsetEnd=559 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=.] 
+root(ROOT-0, gave-3)
+nn(Shepard-2, Cybill-1)
+nsubj(gave-3, Shepard-2)
+det(performance-7, a-4)
+advmod(sweet-6, very-5)
+amod(performance-7, sweet-6)
+dobj(gave-3, performance-7)
+prep(gave-3, as-8)
+det(vulnerable-11, a-9)
+amod(vulnerable-11, nice-10)
+dep(housewife-13, vulnerable-11)
+amod(housewife-13, ignored-12)
+pobj(as-8, housewife-13)
+punct(gave-3, .-14)
+
+Sentence #9 (4 tokens):
+Delightful ensemble cast.
+[Text=Delightful CharacterOffsetBegin=565 CharacterOffsetEnd=575 PartOfSpeech=JJ] [Text=ensemble CharacterOffsetBegin=576 CharacterOffsetEnd=584 PartOfSpeech=NN] [Text=cast CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=.] 
+root(ROOT-0, cast-3)
+amod(cast-3, Delightful-1)
+nn(cast-3, ensemble-2)
+punct(cast-3, .-4)
+
+Sentence #10 (14 tokens):
+Lots of talent, clever script, lots going on and beautiful locations.
+[Text=Lots CharacterOffsetBegin=595 CharacterOffsetEnd=599 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=600 CharacterOffsetEnd=602 PartOfSpeech=IN] [Text=talent CharacterOffsetBegin=603 CharacterOffsetEnd=609 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=,] [Text=clever CharacterOffsetBegin=611 CharacterOffsetEnd=617 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=618 CharacterOffsetEnd=624 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=,] [Text=lots CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=NNS] [Text=going CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=640 CharacterOffsetEnd=643 PartOfSpeech=CC] [Text=beautiful CharacterOffsetBegin=644 CharacterOffsetEnd=653 PartOfSpeech=JJ] [Text=locations CharacterOffsetBegin=654 CharacterOffsetEnd=663 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=663 CharacterOffsetEnd=664 PartOfSpeech=.] 
+root(ROOT-0, Lots-1)
+prep(Lots-1, of-2)
+pobj(of-2, talent-3)
+punct(Lots-1, ,-4)
+amod(script-6, clever-5)
+conj(Lots-1, script-6)
+punct(Lots-1, ,-7)
+appos(Lots-1, lots-8)
+partmod(lots-8, going-9)
+prep(going-9, on-10)
+cc(on-10, and-11)
+conj(on-10, beautiful-12)
+pobj(on-10, locations-13)
+punct(Lots-1, .-14)
+
+Sentence #11 (11 tokens):
+Just a nice pick me up for a dreary day.
+[Text=Just CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=674 CharacterOffsetEnd=675 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=JJ] [Text=pick CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=NN] [Text=me CharacterOffsetBegin=686 CharacterOffsetEnd=688 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=696 CharacterOffsetEnd=697 PartOfSpeech=DT] [Text=dreary CharacterOffsetBegin=698 CharacterOffsetEnd=704 PartOfSpeech=JJ] [Text=day CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=.] 
+root(ROOT-0, pick-4)
+advmod(pick-4, Just-1)
+det(pick-4, a-2)
+amod(pick-4, nice-3)
+dobj(pick-4, me-5)
+prt(pick-4, up-6)
+prep(pick-4, for-7)
+det(day-10, a-8)
+amod(day-10, dreary-9)
+pobj(for-7, day-10)
+punct(pick-4, .-11)
+
+Sentence #12 (16 tokens):
+Especially in the winter when a trip to Europe is not anywhere on your horizon.
+[Text=Especially CharacterOffsetBegin=714 CharacterOffsetEnd=724 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=725 CharacterOffsetEnd=727 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=728 CharacterOffsetEnd=731 PartOfSpeech=DT] [Text=winter CharacterOffsetBegin=732 CharacterOffsetEnd=738 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=739 CharacterOffsetEnd=743 PartOfSpeech=WRB] [Text=a CharacterOffsetBegin=744 CharacterOffsetEnd=745 PartOfSpeech=DT] [Text=trip CharacterOffsetBegin=746 CharacterOffsetEnd=750 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=751 CharacterOffsetEnd=753 PartOfSpeech=TO] [Text=Europe CharacterOffsetBegin=754 CharacterOffsetEnd=760 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=761 CharacterOffsetEnd=763 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=764 CharacterOffsetEnd=767 PartOfSpeech=RB] [Text=anywhere CharacterOffsetBegin=768 CharacterOffsetEnd=776 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=777 CharacterOffsetEnd=779 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=780 CharacterOffsetEnd=784 PartOfSpeech=PRP$] [Text=horizon CharacterOffsetBegin=785 CharacterOffsetEnd=792 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=792 CharacterOffsetEnd=793 PartOfSpeech=.] 
+root(ROOT-0, Especially-1)
+prep(Especially-1, in-2)
+det(winter-4, the-3)
+pobj(in-2, winter-4)
+advmod(anywhere-12, when-5)
+det(trip-7, a-6)
+nsubj(anywhere-12, trip-7)
+prep(trip-7, to-8)
+pobj(to-8, Europe-9)
+cop(anywhere-12, is-10)
+neg(anywhere-12, not-11)
+dep(Especially-1, anywhere-12)
+prep(anywhere-12, on-13)
+poss(horizon-15, your-14)
+pobj(on-13, horizon-15)
+punct(Especially-1, .-16)
+

@@ -1,0 +1,102 @@
+Sentence #1 (5 tokens):
+I like animated shows.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=animated CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=shows CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.] 
+root(ROOT-0, like-2)
+nsubj(like-2, I-1)
+amod(shows-4, animated-3)
+dobj(like-2, shows-4)
+punct(like-2, .-5)
+
+Sentence #2 (13 tokens):
+I enjoy the Nick fare pretty much, including Hey, Arnold.
+[Text=I CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=PRP] [Text=enjoy CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=DT] [Text=Nick CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=NNP] [Text=fare CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=pretty CharacterOffsetBegin=53 CharacterOffsetEnd=59 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=,] [Text=including CharacterOffsetBegin=66 CharacterOffsetEnd=75 PartOfSpeech=VBG] [Text=Hey CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=,] [Text=Arnold CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=.] 
+root(ROOT-0, enjoy-2)
+nsubj(enjoy-2, I-1)
+det(fare-5, the-3)
+nn(fare-5, Nick-4)
+dobj(enjoy-2, fare-5)
+advmod(much-7, pretty-6)
+advmod(fare-5, much-7)
+punct(fare-5, ,-8)
+prep(fare-5, including-9)
+pobj(including-9, Hey-10)
+punct(Hey-10, ,-11)
+appos(Hey-10, Arnold-12)
+punct(enjoy-2, .-13)
+
+Sentence #3 (21 tokens):
+But moving a TV show to the Big Screen isn't easy and this just didn't feel big enough.
+[Text=But CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=CC] [Text=moving CharacterOffsetBegin=97 CharacterOffsetEnd=103 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=TV CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=show CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=Big CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=JJ] [Text=Screen CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=RB] [Text=easy CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=DT] [Text=just CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=RB] [Text=feel CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=VB] [Text=big CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=JJ] [Text=enough CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=.] 
+root(ROOT-0, easy-12)
+cc(easy-12, But-1)
+csubj(easy-12, moving-2)
+det(show-5, a-3)
+nn(show-5, TV-4)
+dobj(moving-2, show-5)
+prep(moving-2, to-6)
+det(Screen-9, the-7)
+amod(Screen-9, Big-8)
+pobj(to-6, Screen-9)
+cop(easy-12, is-10)
+neg(easy-12, n't-11)
+cc(easy-12, and-13)
+nsubj(feel-18, this-14)
+advmod(feel-18, just-15)
+aux(feel-18, did-16)
+neg(feel-18, n't-17)
+conj(easy-12, feel-18)
+amod(enough-20, big-19)
+advmod(feel-18, enough-20)
+punct(easy-12, .-21)
+
+Sentence #4 (21 tokens):
+It was more like a long episode of the show, and it just didn't move along that well.
+[Text=It CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=VBD] [Text=more CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=RBR] [Text=like CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=long CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=episode CharacterOffsetBegin=209 CharacterOffsetEnd=216 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=,] [Text=and CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=RB] [Text=move CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=VB] [Text=along CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=well CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=.] 
+root(ROOT-0, more-3)
+nsubj(more-3, It-1)
+cop(more-3, was-2)
+prep(more-3, like-4)
+det(episode-7, a-5)
+amod(episode-7, long-6)
+pobj(like-4, episode-7)
+prep(episode-7, of-8)
+det(show-10, the-9)
+pobj(of-8, show-10)
+punct(more-3, ,-11)
+cc(more-3, and-12)
+nsubj(move-17, it-13)
+advmod(move-17, just-14)
+aux(move-17, did-15)
+neg(move-17, n't-16)
+conj(more-3, move-17)
+prep(move-17, along-18)
+pobj(along-18, that-19)
+advmod(that-19, well-20)
+punct(more-3, .-21)
+
+Sentence #5 (22 tokens):
+Judging by the behavior of the kids we had with us, it didn't score that well with them either.
+[Text=Judging CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=VBG] [Text=by CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=behavior CharacterOffsetBegin=290 CharacterOffsetEnd=298 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=DT] [Text=kids CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=NNS] [Text=we CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=VBD] [Text=with CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=IN] [Text=us CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=,] [Text=it CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=RB] [Text=score CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=WDT] [Text=well CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=PRP] [Text=either CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=.] 
+root(ROOT-0, score-16)
+partmod(score-16, Judging-1)
+prep(Judging-1, by-2)
+det(behavior-4, the-3)
+pobj(by-2, behavior-4)
+prep(behavior-4, of-5)
+det(kids-7, the-6)
+pobj(of-5, kids-7)
+nsubj(had-9, we-8)
+rcmod(kids-7, had-9)
+prep(had-9, with-10)
+pobj(with-10, us-11)
+punct(score-16, ,-12)
+nsubj(score-16, it-13)
+aux(score-16, did-14)
+neg(score-16, n't-15)
+dep(score-16, that-17)
+advmod(with-19, well-18)
+dep(that-17, with-19)
+pobj(with-19, them-20)
+advmod(with-19, either-21)
+punct(score-16, .-22)
+

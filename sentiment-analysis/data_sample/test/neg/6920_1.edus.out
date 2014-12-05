@@ -1,0 +1,86 @@
+Sentence #1 (4 tokens):
+Just plain terrible.
+[Text=Just CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=RB] [Text=plain CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=JJ] [Text=terrible CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=.] 
+root(ROOT-0, terrible-3)
+advmod(plain-2, Just-1)
+dep(terrible-3, plain-2)
+punct(terrible-3, .-4)
+
+Sentence #2 (10 tokens):
+Nick and Michael are WAY better actors than this.
+[Text=Nick CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=CC] [Text=Michael CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=NNP] [Text=are CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=VBP] [Text=WAY CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=NNP] [Text=better CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=JJR] [Text=actors CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=NNS] [Text=than CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=.] 
+root(ROOT-0, actors-7)
+nsubj(actors-7, Nick-1)
+cc(Nick-1, and-2)
+conj(Nick-1, Michael-3)
+cop(actors-7, are-4)
+nn(actors-7, WAY-5)
+amod(actors-7, better-6)
+prep(actors-7, than-8)
+pobj(than-8, this-9)
+punct(actors-7, .-10)
+
+Sentence #3 (9 tokens):
+A "C" rated flick at best.
+[Text=A CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=``] [Text=C CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=''] [Text=rated CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=VBN] [Text=flick CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=IN] [Text=best CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=.] 
+root(ROOT-0, A-1)
+punct(rated-5, ``-2)
+nsubjpass(rated-5, C-3)
+punct(rated-5, ''-4)
+rcmod(A-1, rated-5)
+xcomp(rated-5, flick-6)
+prep(flick-6, at-7)
+pobj(at-7, best-8)
+punct(A-1, .-9)
+
+Sentence #4 (10 tokens):
+The plot was weak and the characters totally undeveloped.
+[Text=The CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=VBD] [Text=weak CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=140 CharacterOffsetEnd=150 PartOfSpeech=NNS] [Text=totally CharacterOffsetBegin=151 CharacterOffsetEnd=158 PartOfSpeech=RB] [Text=undeveloped CharacterOffsetBegin=159 CharacterOffsetEnd=170 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=.] 
+root(ROOT-0, weak-4)
+det(plot-2, The-1)
+nsubj(weak-4, plot-2)
+cop(weak-4, was-3)
+cc(weak-4, and-5)
+det(characters-7, the-6)
+nsubj(undeveloped-9, characters-7)
+advmod(undeveloped-9, totally-8)
+conj(weak-4, undeveloped-9)
+punct(weak-4, .-10)
+
+Sentence #5 (9 tokens):
+Even the film and sound quality was terrible.
+[Text=Even CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=CC] [Text=sound CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=JJ] [Text=quality CharacterOffsetBegin=200 CharacterOffsetEnd=207 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=VBD] [Text=terrible CharacterOffsetBegin=212 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=.] 
+root(ROOT-0, terrible-8)
+advmod(film-3, Even-1)
+det(film-3, the-2)
+nn(quality-6, film-3)
+cc(film-3, and-4)
+conj(film-3, sound-5)
+nsubj(terrible-8, quality-6)
+cop(terrible-8, was-7)
+punct(terrible-8, .-9)
+
+Sentence #6 (20 tokens):
+I suppose that these were all young actors at the time and this script just filled a job nitch.
+[Text=I CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=PRP] [Text=suppose CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=DT] [Text=were CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=young CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=262 CharacterOffsetEnd=268 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=RB] [Text=filled CharacterOffsetBegin=302 CharacterOffsetEnd=308 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=DT] [Text=job CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=nitch CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=.] 
+root(ROOT-0, suppose-2)
+nsubj(suppose-2, I-1)
+mark(actors-8, that-3)
+nsubj(actors-8, these-4)
+cop(actors-8, were-5)
+det(actors-8, all-6)
+amod(actors-8, young-7)
+ccomp(suppose-2, actors-8)
+prep(actors-8, at-9)
+det(time-11, the-10)
+pobj(at-9, time-11)
+cc(actors-8, and-12)
+det(script-14, this-13)
+nsubj(filled-16, script-14)
+advmod(filled-16, just-15)
+conj(actors-8, filled-16)
+det(nitch-19, a-17)
+nn(nitch-19, job-18)
+dobj(filled-16, nitch-19)
+punct(suppose-2, .-20)
+

@@ -1,0 +1,650 @@
+Sentence #1 (11 tokens):
+CCCC is the first good film in Bollywood of 2001.
+[Text=CCCC CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=JJ] [Text=good CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN] [Text=Bollywood CharacterOffsetBegin=35 CharacterOffsetEnd=44 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=IN] [Text=2001 CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nsubj(film-6, CCCC-1)
+cop(film-6, is-2)
+det(film-6, the-3)
+amod(film-6, first-4)
+amod(film-6, good-5)
+prep(film-6, in-7)
+pobj(in-7, Bollywood-8)
+prep(Bollywood-8, of-9)
+pobj(of-9, 2001-10)
+punct(film-6, .-11)
+
+Sentence #2 (19 tokens):
+When I first saw the trailer of the film I thought It would be a nice family movie.
+[Text=When CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=PRP] [Text=first CharacterOffsetBegin=65 CharacterOffsetEnd=70 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=DT] [Text=trailer CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=101 CharacterOffsetEnd=108 PartOfSpeech=VBD] [Text=It CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, saw-4)
+advmod(saw-4, When-1)
+nsubj(saw-4, I-2)
+advmod(saw-4, first-3)
+det(trailer-6, the-5)
+dobj(saw-4, trailer-6)
+prep(trailer-6, of-7)
+det(film-9, the-8)
+pobj(of-7, film-9)
+nsubj(thought-11, I-10)
+rcmod(trailer-6, thought-11)
+nsubj(movie-18, It-12)
+aux(movie-18, would-13)
+cop(movie-18, be-14)
+det(movie-18, a-15)
+amod(movie-18, nice-16)
+nn(movie-18, family-17)
+ccomp(thought-11, movie-18)
+punct(saw-4, .-19)
+
+Sentence #3 (4 tokens):
+I was right.
+[Text=I CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=VBD] [Text=right CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=.] 
+root(ROOT-0, right-3)
+nsubj(right-3, I-1)
+cop(right-3, was-2)
+punct(right-3, .-4)
+
+Sentence #4 (9 tokens):
+Salman Khan has given is strongest performance ever.
+[Text=Salman CharacterOffsetBegin=163 CharacterOffsetEnd=169 PartOfSpeech=NNP] [Text=Khan CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=VBZ] [Text=given CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=VBN] [Text=is CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=VBZ] [Text=strongest CharacterOffsetBegin=188 CharacterOffsetEnd=197 PartOfSpeech=JJS] [Text=performance CharacterOffsetBegin=198 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=.] 
+root(ROOT-0, given-4)
+nn(Khan-2, Salman-1)
+nsubj(given-4, Khan-2)
+aux(given-4, has-3)
+cop(performance-7, is-5)
+amod(performance-7, strongest-6)
+dep(given-4, performance-7)
+advmod(performance-7, ever-8)
+punct(given-4, .-9)
+
+Sentence #5 (21 tokens):
+My family weren't too keen on him but after seeing this film my family are very impressed with him.
+[Text=My CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=PRP$] [Text=family CharacterOffsetBegin=223 CharacterOffsetEnd=229 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=RB] [Text=too CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=RB] [Text=keen CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=PRP] [Text=but CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=CC] [Text=after CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=IN] [Text=seeing CharacterOffsetBegin=264 CharacterOffsetEnd=270 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=my CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=PRP$] [Text=family CharacterOffsetBegin=284 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=VBP] [Text=very CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=RB] [Text=impressed CharacterOffsetBegin=300 CharacterOffsetEnd=309 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=.] 
+root(ROOT-0, keen-6)
+poss(family-2, My-1)
+nsubj(keen-6, family-2)
+cop(keen-6, were-3)
+neg(keen-6, n't-4)
+advmod(keen-6, too-5)
+prep(keen-6, on-7)
+pobj(on-7, him-8)
+cc(keen-6, but-9)
+conj(keen-6, after-10)
+pcomp(after-10, seeing-11)
+det(film-13, this-12)
+nsubj(impressed-18, film-13)
+poss(family-15, my-14)
+nsubj(impressed-18, family-15)
+cop(impressed-18, are-16)
+advmod(impressed-18, very-17)
+ccomp(seeing-11, impressed-18)
+prep(impressed-18, with-19)
+pobj(with-19, him-20)
+punct(keen-6, .-21)
+
+Sentence #6 (6 tokens):
+Rani and Preity are wonderful.
+[Text=Rani CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=CC] [Text=Preity CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=NNP] [Text=are CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=VBP] [Text=wonderful CharacterOffsetBegin=344 CharacterOffsetEnd=353 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=.] 
+root(ROOT-0, wonderful-5)
+nsubj(wonderful-5, Rani-1)
+cc(Rani-1, and-2)
+conj(Rani-1, Preity-3)
+cop(wonderful-5, are-4)
+punct(wonderful-5, .-6)
+
+Sentence #7 (16 tokens):
+The film is going to be a huge hit because of the three main stars.
+[Text=The CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=363 CharacterOffsetEnd=367 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=VBZ] [Text=going CharacterOffsetBegin=371 CharacterOffsetEnd=376 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=DT] [Text=huge CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=JJ] [Text=hit CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=394 CharacterOffsetEnd=401 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=DT] [Text=three CharacterOffsetBegin=409 CharacterOffsetEnd=414 PartOfSpeech=CD] [Text=main CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=JJ] [Text=stars CharacterOffsetBegin=420 CharacterOffsetEnd=425 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=.] 
+root(ROOT-0, going-4)
+det(film-2, The-1)
+nsubj(going-4, film-2)
+aux(going-4, is-3)
+aux(hit-9, to-5)
+cop(hit-9, be-6)
+det(hit-9, a-7)
+amod(hit-9, huge-8)
+xcomp(going-4, hit-9)
+mwe(of-11, because-10)
+prep(going-4, of-11)
+det(stars-15, the-12)
+num(stars-15, three-13)
+amod(stars-15, main-14)
+pobj(of-11, stars-15)
+punct(going-4, .-16)
+
+Sentence #8 (16 tokens):
+It's about Raj (Salman Khan) and Priya meeting and falling in love.
+[Text=It CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=436 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=Raj CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=-LRB-] [Text=Salman CharacterOffsetBegin=447 CharacterOffsetEnd=453 PartOfSpeech=NNP] [Text=Khan CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=CC] [Text=Priya CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=NNP] [Text=meeting CharacterOffsetBegin=470 CharacterOffsetEnd=477 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=CC] [Text=falling CharacterOffsetBegin=482 CharacterOffsetEnd=489 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=IN] [Text=love CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=497 CharacterOffsetEnd=498 PartOfSpeech=.] 
+root(ROOT-0, It-1)
+dep(It-1, 's-2)
+prep('s-2, about-3)
+pobj(about-3, Raj-4)
+punct(Khan-7, -LRB--5)
+nn(Khan-7, Salman-6)
+dep(Raj-4, Khan-7)
+punct(Khan-7, -RRB--8)
+cc(Raj-4, and-9)
+nn(meeting-11, Priya-10)
+conj(Raj-4, meeting-11)
+cc('s-2, and-12)
+conj('s-2, falling-13)
+prep(falling-13, in-14)
+pobj(in-14, love-15)
+punct(It-1, .-16)
+
+Sentence #9 (11 tokens):
+They get married and go to Switzerland for their honeymoon.
+[Text=They CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=508 CharacterOffsetEnd=511 PartOfSpeech=VBP] [Text=married CharacterOffsetBegin=512 CharacterOffsetEnd=519 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=CC] [Text=go CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=527 CharacterOffsetEnd=529 PartOfSpeech=TO] [Text=Switzerland CharacterOffsetBegin=530 CharacterOffsetEnd=541 PartOfSpeech=NNP] [Text=for CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=PRP$] [Text=honeymoon CharacterOffsetBegin=552 CharacterOffsetEnd=561 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=561 CharacterOffsetEnd=562 PartOfSpeech=.] 
+root(ROOT-0, married-3)
+nsubjpass(married-3, They-1)
+auxpass(married-3, get-2)
+cc(married-3, and-4)
+conj(married-3, go-5)
+prep(go-5, to-6)
+pobj(to-6, Switzerland-7)
+prep(go-5, for-8)
+poss(honeymoon-10, their-9)
+pobj(for-8, honeymoon-10)
+punct(married-3, .-11)
+
+Sentence #10 (14 tokens):
+When they come back Raj and Priya find out that Priya is pregnant.
+[Text=When CharacterOffsetBegin=567 CharacterOffsetEnd=571 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=PRP] [Text=come CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=VBP] [Text=back CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=RB] [Text=Raj CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=CC] [Text=Priya CharacterOffsetBegin=595 CharacterOffsetEnd=600 PartOfSpeech=NNP] [Text=find CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=VBP] [Text=out CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=RP] [Text=that CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=IN] [Text=Priya CharacterOffsetBegin=615 CharacterOffsetEnd=620 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=621 CharacterOffsetEnd=623 PartOfSpeech=VBZ] [Text=pregnant CharacterOffsetBegin=624 CharacterOffsetEnd=632 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=.] 
+root(ROOT-0, find-8)
+advmod(come-3, When-1)
+nsubj(come-3, they-2)
+advcl(find-8, come-3)
+advmod(come-3, back-4)
+nsubj(find-8, Raj-5)
+cc(Raj-5, and-6)
+conj(Raj-5, Priya-7)
+prt(find-8, out-9)
+mark(pregnant-13, that-10)
+nsubj(pregnant-13, Priya-11)
+cop(pregnant-13, is-12)
+ccomp(find-8, pregnant-13)
+punct(find-8, .-14)
+
+Sentence #11 (20 tokens):
+Raj's family are full of joy when they find out especially Raj's dada (Amrish Puri).
+[Text=Raj CharacterOffsetBegin=638 CharacterOffsetEnd=641 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=POS] [Text=family CharacterOffsetBegin=644 CharacterOffsetEnd=650 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=651 CharacterOffsetEnd=654 PartOfSpeech=VBP] [Text=full CharacterOffsetBegin=655 CharacterOffsetEnd=659 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=660 CharacterOffsetEnd=662 PartOfSpeech=IN] [Text=joy CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=667 CharacterOffsetEnd=671 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=672 CharacterOffsetEnd=676 PartOfSpeech=PRP] [Text=find CharacterOffsetBegin=677 CharacterOffsetEnd=681 PartOfSpeech=VBP] [Text=out CharacterOffsetBegin=682 CharacterOffsetEnd=685 PartOfSpeech=RP] [Text=especially CharacterOffsetBegin=686 CharacterOffsetEnd=696 PartOfSpeech=RB] [Text=Raj CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=POS] [Text=dada CharacterOffsetBegin=703 CharacterOffsetEnd=707 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=-LRB-] [Text=Amrish CharacterOffsetBegin=709 CharacterOffsetEnd=715 PartOfSpeech=JJ] [Text=Puri CharacterOffsetBegin=716 CharacterOffsetEnd=720 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=720 CharacterOffsetEnd=721 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=721 CharacterOffsetEnd=722 PartOfSpeech=.] 
+root(ROOT-0, full-5)
+poss(family-3, Raj-1)
+possessive(Raj-1, 's-2)
+nsubj(full-5, family-3)
+cop(full-5, are-4)
+prep(full-5, of-6)
+pobj(of-6, joy-7)
+advmod(find-10, when-8)
+nsubj(find-10, they-9)
+advcl(full-5, find-10)
+prt(find-10, out-11)
+advmod(find-10, especially-12)
+dep(especially-12, Raj-13)
+possessive(Raj-13, 's-14)
+dep(Raj-13, dada-15)
+punct(Puri-18, -LRB--16)
+amod(Puri-18, Amrish-17)
+appos(dada-15, Puri-18)
+punct(Puri-18, -RRB--19)
+punct(full-5, .-20)
+
+Sentence #12 (22 tokens):
+Raj and his family are playing cricket one day and Priya has an accident which causes Priya to have a miscarriage.
+[Text=Raj CharacterOffsetBegin=727 CharacterOffsetEnd=730 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=PRP$] [Text=family CharacterOffsetBegin=739 CharacterOffsetEnd=745 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=746 CharacterOffsetEnd=749 PartOfSpeech=VBP] [Text=playing CharacterOffsetBegin=750 CharacterOffsetEnd=757 PartOfSpeech=VBG] [Text=cricket CharacterOffsetBegin=758 CharacterOffsetEnd=765 PartOfSpeech=NN] [Text=one CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=CD] [Text=day CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=CC] [Text=Priya CharacterOffsetBegin=778 CharacterOffsetEnd=783 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=784 CharacterOffsetEnd=787 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=788 CharacterOffsetEnd=790 PartOfSpeech=DT] [Text=accident CharacterOffsetBegin=791 CharacterOffsetEnd=799 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=800 CharacterOffsetEnd=805 PartOfSpeech=WDT] [Text=causes CharacterOffsetBegin=806 CharacterOffsetEnd=812 PartOfSpeech=VBZ] [Text=Priya CharacterOffsetBegin=813 CharacterOffsetEnd=818 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=819 CharacterOffsetEnd=821 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=822 CharacterOffsetEnd=826 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=DT] [Text=miscarriage CharacterOffsetBegin=829 CharacterOffsetEnd=840 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=840 CharacterOffsetEnd=841 PartOfSpeech=.] 
+root(ROOT-0, playing-6)
+nsubj(playing-6, Raj-1)
+cc(Raj-1, and-2)
+poss(family-4, his-3)
+conj(Raj-1, family-4)
+aux(playing-6, are-5)
+dobj(playing-6, cricket-7)
+num(day-9, one-8)
+tmod(cricket-7, day-9)
+cc(playing-6, and-10)
+nsubj(has-12, Priya-11)
+conj(playing-6, has-12)
+det(accident-14, an-13)
+dobj(has-12, accident-14)
+nsubj(causes-16, which-15)
+rcmod(accident-14, causes-16)
+nsubj(have-19, Priya-17)
+aux(have-19, to-18)
+xcomp(causes-16, have-19)
+det(miscarriage-21, a-20)
+dobj(have-19, miscarriage-21)
+punct(playing-6, .-22)
+
+Sentence #13 (19 tokens):
+Raj has a very close family friend who is a doctor, Balraj Chopra (Prem Chopra).
+[Text=Raj CharacterOffsetBegin=846 CharacterOffsetEnd=849 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=850 CharacterOffsetEnd=853 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=854 CharacterOffsetEnd=855 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=856 CharacterOffsetEnd=860 PartOfSpeech=RB] [Text=close CharacterOffsetBegin=861 CharacterOffsetEnd=866 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=867 CharacterOffsetEnd=873 PartOfSpeech=NN] [Text=friend CharacterOffsetBegin=874 CharacterOffsetEnd=880 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=881 CharacterOffsetEnd=884 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=885 CharacterOffsetEnd=887 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=888 CharacterOffsetEnd=889 PartOfSpeech=DT] [Text=doctor CharacterOffsetBegin=890 CharacterOffsetEnd=896 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=896 CharacterOffsetEnd=897 PartOfSpeech=,] [Text=Balraj CharacterOffsetBegin=898 CharacterOffsetEnd=904 PartOfSpeech=NNP] [Text=Chopra CharacterOffsetBegin=905 CharacterOffsetEnd=911 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=912 CharacterOffsetEnd=913 PartOfSpeech=-LRB-] [Text=Prem CharacterOffsetBegin=913 CharacterOffsetEnd=917 PartOfSpeech=NNP] [Text=Chopra CharacterOffsetBegin=918 CharacterOffsetEnd=924 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=924 CharacterOffsetEnd=925 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=925 CharacterOffsetEnd=926 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, Raj-1)
+det(friend-7, a-3)
+advmod(close-5, very-4)
+amod(friend-7, close-5)
+nn(friend-7, family-6)
+dobj(has-2, friend-7)
+nsubj(doctor-11, who-8)
+cop(doctor-11, is-9)
+det(doctor-11, a-10)
+rcmod(friend-7, doctor-11)
+punct(doctor-11, ,-12)
+appos(doctor-11, Balraj-13)
+dep(Balraj-13, Chopra-14)
+punct(Chopra-17, -LRB--15)
+nn(Chopra-17, Prem-16)
+appos(Chopra-14, Chopra-17)
+punct(Chopra-17, -RRB--18)
+punct(has-2, .-19)
+
+Sentence #14 (14 tokens):
+He tells Raj and Priya that she can no longer have anymore kids.
+[Text=He CharacterOffsetBegin=931 CharacterOffsetEnd=933 PartOfSpeech=PRP] [Text=tells CharacterOffsetBegin=934 CharacterOffsetEnd=939 PartOfSpeech=VBZ] [Text=Raj CharacterOffsetBegin=940 CharacterOffsetEnd=943 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=944 CharacterOffsetEnd=947 PartOfSpeech=CC] [Text=Priya CharacterOffsetBegin=948 CharacterOffsetEnd=953 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=954 CharacterOffsetEnd=958 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=959 CharacterOffsetEnd=962 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=963 CharacterOffsetEnd=966 PartOfSpeech=MD] [Text=no CharacterOffsetBegin=967 CharacterOffsetEnd=969 PartOfSpeech=RB] [Text=longer CharacterOffsetBegin=970 CharacterOffsetEnd=976 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=977 CharacterOffsetEnd=981 PartOfSpeech=VBP] [Text=anymore CharacterOffsetBegin=982 CharacterOffsetEnd=989 PartOfSpeech=RB] [Text=kids CharacterOffsetBegin=990 CharacterOffsetEnd=994 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=994 CharacterOffsetEnd=995 PartOfSpeech=.] 
+root(ROOT-0, tells-2)
+nsubj(tells-2, He-1)
+dobj(tells-2, Raj-3)
+cc(Raj-3, and-4)
+conj(Raj-3, Priya-5)
+mark(have-11, that-6)
+nsubj(have-11, she-7)
+aux(have-11, can-8)
+advmod(longer-10, no-9)
+advmod(have-11, longer-10)
+ccomp(tells-2, have-11)
+advmod(kids-13, anymore-12)
+dobj(have-11, kids-13)
+punct(tells-2, .-14)
+
+Sentence #15 (10 tokens):
+Raj and Priya keep this quiet from the family.
+[Text=Raj CharacterOffsetBegin=1000 CharacterOffsetEnd=1003 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1004 CharacterOffsetEnd=1007 PartOfSpeech=CC] [Text=Priya CharacterOffsetBegin=1008 CharacterOffsetEnd=1013 PartOfSpeech=NN] [Text=keep CharacterOffsetBegin=1014 CharacterOffsetEnd=1018 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=1019 CharacterOffsetEnd=1023 PartOfSpeech=DT] [Text=quiet CharacterOffsetBegin=1024 CharacterOffsetEnd=1029 PartOfSpeech=JJ] [Text=from CharacterOffsetBegin=1030 CharacterOffsetEnd=1034 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1035 CharacterOffsetEnd=1038 PartOfSpeech=DT] [Text=family CharacterOffsetBegin=1039 CharacterOffsetEnd=1045 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1045 CharacterOffsetEnd=1046 PartOfSpeech=.] 
+root(ROOT-0, keep-4)
+nsubj(keep-4, Raj-1)
+cc(Raj-1, and-2)
+conj(Raj-1, Priya-3)
+nsubj(quiet-6, this-5)
+xcomp(keep-4, quiet-6)
+prep(quiet-6, from-7)
+det(family-9, the-8)
+pobj(from-7, family-9)
+punct(keep-4, .-10)
+
+Sentence #16 (9 tokens):
+Raj and Priya decide to go for surrogacy.
+[Text=Raj CharacterOffsetBegin=1051 CharacterOffsetEnd=1054 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1055 CharacterOffsetEnd=1058 PartOfSpeech=CC] [Text=Priya CharacterOffsetBegin=1059 CharacterOffsetEnd=1064 PartOfSpeech=NN] [Text=decide CharacterOffsetBegin=1065 CharacterOffsetEnd=1071 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=1072 CharacterOffsetEnd=1074 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=1075 CharacterOffsetEnd=1077 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=1078 CharacterOffsetEnd=1081 PartOfSpeech=IN] [Text=surrogacy CharacterOffsetBegin=1082 CharacterOffsetEnd=1091 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1091 CharacterOffsetEnd=1092 PartOfSpeech=.] 
+root(ROOT-0, decide-4)
+nsubj(decide-4, Raj-1)
+cc(Raj-1, and-2)
+conj(Raj-1, Priya-3)
+aux(go-6, to-5)
+xcomp(decide-4, go-6)
+prep(go-6, for-7)
+pobj(for-7, surrogacy-8)
+punct(decide-4, .-9)
+
+Sentence #17 (31 tokens):
+Surrogacy to them is that they will find a girl and Raj and that girl will have a baby together and then hand the baby over to Raj and Priya.
+[Text=Surrogacy CharacterOffsetBegin=1097 CharacterOffsetEnd=1106 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=1107 CharacterOffsetEnd=1109 PartOfSpeech=TO] [Text=them CharacterOffsetBegin=1110 CharacterOffsetEnd=1114 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1115 CharacterOffsetEnd=1117 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=1118 CharacterOffsetEnd=1122 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=1123 CharacterOffsetEnd=1127 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=1128 CharacterOffsetEnd=1132 PartOfSpeech=MD] [Text=find CharacterOffsetBegin=1133 CharacterOffsetEnd=1137 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1138 CharacterOffsetEnd=1139 PartOfSpeech=DT] [Text=girl CharacterOffsetBegin=1140 CharacterOffsetEnd=1144 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1145 CharacterOffsetEnd=1148 PartOfSpeech=CC] [Text=Raj CharacterOffsetBegin=1149 CharacterOffsetEnd=1152 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1153 CharacterOffsetEnd=1156 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=1157 CharacterOffsetEnd=1161 PartOfSpeech=IN] [Text=girl CharacterOffsetBegin=1162 CharacterOffsetEnd=1166 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=1167 CharacterOffsetEnd=1171 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=1172 CharacterOffsetEnd=1176 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1177 CharacterOffsetEnd=1178 PartOfSpeech=DT] [Text=baby CharacterOffsetBegin=1179 CharacterOffsetEnd=1183 PartOfSpeech=NN] [Text=together CharacterOffsetBegin=1184 CharacterOffsetEnd=1192 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=1193 CharacterOffsetEnd=1196 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=1197 CharacterOffsetEnd=1201 PartOfSpeech=RB] [Text=hand CharacterOffsetBegin=1202 CharacterOffsetEnd=1206 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=1207 CharacterOffsetEnd=1210 PartOfSpeech=DT] [Text=baby CharacterOffsetBegin=1211 CharacterOffsetEnd=1215 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=1216 CharacterOffsetEnd=1220 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=1221 CharacterOffsetEnd=1223 PartOfSpeech=TO] [Text=Raj CharacterOffsetBegin=1224 CharacterOffsetEnd=1227 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=1228 CharacterOffsetEnd=1231 PartOfSpeech=CC] [Text=Priya CharacterOffsetBegin=1232 CharacterOffsetEnd=1237 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1237 CharacterOffsetEnd=1238 PartOfSpeech=.] 
+root(ROOT-0, is-4)
+nsubj(is-4, Surrogacy-1)
+prep(Surrogacy-1, to-2)
+pobj(to-2, them-3)
+mark(find-8, that-5)
+nsubj(find-8, they-6)
+aux(find-8, will-7)
+ccomp(is-4, find-8)
+det(girl-10, a-9)
+dobj(find-8, girl-10)
+cc(girl-10, and-11)
+conj(girl-10, Raj-12)
+cc(find-8, and-13)
+mark(have-17, that-14)
+nsubj(have-17, girl-15)
+aux(have-17, will-16)
+conj(find-8, have-17)
+det(baby-19, a-18)
+dobj(have-17, baby-19)
+advmod(have-17, together-20)
+cc(have-17, and-21)
+advmod(have-17, then-22)
+dep(have-17, hand-23)
+det(baby-25, the-24)
+dobj(hand-23, baby-25)
+prep(hand-23, over-26)
+pcomp(over-26, to-27)
+pobj(to-27, Raj-28)
+cc(Raj-28, and-29)
+conj(Raj-28, Priya-30)
+punct(is-4, .-31)
+
+Sentence #18 (5 tokens):
+Raj finds a girl.
+[Text=Raj CharacterOffsetBegin=1243 CharacterOffsetEnd=1246 PartOfSpeech=NN] [Text=finds CharacterOffsetBegin=1247 CharacterOffsetEnd=1252 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1253 CharacterOffsetEnd=1254 PartOfSpeech=DT] [Text=girl CharacterOffsetBegin=1255 CharacterOffsetEnd=1259 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1259 CharacterOffsetEnd=1260 PartOfSpeech=.] 
+root(ROOT-0, finds-2)
+nsubj(finds-2, Raj-1)
+det(girl-4, a-3)
+dobj(finds-2, girl-4)
+punct(finds-2, .-5)
+
+Sentence #19 (9 tokens):
+Her name is Madhubala (Preity Zinta).
+[Text=Her CharacterOffsetBegin=1265 CharacterOffsetEnd=1268 PartOfSpeech=PRP$] [Text=name CharacterOffsetBegin=1269 CharacterOffsetEnd=1273 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=1274 CharacterOffsetEnd=1276 PartOfSpeech=VBZ] [Text=Madhubala CharacterOffsetBegin=1277 CharacterOffsetEnd=1286 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=1287 CharacterOffsetEnd=1288 PartOfSpeech=-LRB-] [Text=Preity CharacterOffsetBegin=1288 CharacterOffsetEnd=1294 PartOfSpeech=NNP] [Text=Zinta CharacterOffsetBegin=1295 CharacterOffsetEnd=1300 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=1300 CharacterOffsetEnd=1301 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=1301 CharacterOffsetEnd=1302 PartOfSpeech=.] 
+root(ROOT-0, name-2)
+poss(name-2, Her-1)
+dep(name-2, is-3)
+nsubj(is-3, Madhubala-4)
+punct(Zinta-7, -LRB--5)
+nn(Zinta-7, Preity-6)
+appos(Madhubala-4, Zinta-7)
+punct(Zinta-7, -RRB--8)
+punct(name-2, .-9)
+
+Sentence #20 (8 tokens):
+She is a dancer and a prostitute.
+[Text=She CharacterOffsetBegin=1307 CharacterOffsetEnd=1310 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1311 CharacterOffsetEnd=1313 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1314 CharacterOffsetEnd=1315 PartOfSpeech=DT] [Text=dancer CharacterOffsetBegin=1316 CharacterOffsetEnd=1322 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1323 CharacterOffsetEnd=1326 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=1327 CharacterOffsetEnd=1328 PartOfSpeech=DT] [Text=prostitute CharacterOffsetBegin=1329 CharacterOffsetEnd=1339 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1339 CharacterOffsetEnd=1340 PartOfSpeech=.] 
+root(ROOT-0, dancer-4)
+nsubj(dancer-4, She-1)
+cop(dancer-4, is-2)
+det(dancer-4, a-3)
+cc(dancer-4, and-5)
+det(prostitute-7, a-6)
+conj(dancer-4, prostitute-7)
+punct(dancer-4, .-8)
+
+Sentence #21 (14 tokens):
+Raj tells her the situation and bribes her with money and she agrees.
+[Text=Raj CharacterOffsetBegin=1345 CharacterOffsetEnd=1348 PartOfSpeech=NN] [Text=tells CharacterOffsetBegin=1349 CharacterOffsetEnd=1354 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=1355 CharacterOffsetEnd=1358 PartOfSpeech=PRP$] [Text=the CharacterOffsetBegin=1359 CharacterOffsetEnd=1362 PartOfSpeech=DT] [Text=situation CharacterOffsetBegin=1363 CharacterOffsetEnd=1372 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1373 CharacterOffsetEnd=1376 PartOfSpeech=CC] [Text=bribes CharacterOffsetBegin=1377 CharacterOffsetEnd=1383 PartOfSpeech=NNS] [Text=her CharacterOffsetBegin=1384 CharacterOffsetEnd=1387 PartOfSpeech=PRP$] [Text=with CharacterOffsetBegin=1388 CharacterOffsetEnd=1392 PartOfSpeech=IN] [Text=money CharacterOffsetBegin=1393 CharacterOffsetEnd=1398 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1399 CharacterOffsetEnd=1402 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=1403 CharacterOffsetEnd=1406 PartOfSpeech=PRP] [Text=agrees CharacterOffsetBegin=1407 CharacterOffsetEnd=1413 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=1413 CharacterOffsetEnd=1414 PartOfSpeech=.] 
+root(ROOT-0, tells-2)
+nsubj(tells-2, Raj-1)
+poss(situation-5, her-3)
+det(situation-5, the-4)
+dobj(tells-2, situation-5)
+cc(tells-2, and-6)
+conj(tells-2, bribes-7)
+dobj(bribes-7, her-8)
+prep(her-8, with-9)
+pobj(with-9, money-10)
+cc(tells-2, and-11)
+nsubj(agrees-13, she-12)
+conj(tells-2, agrees-13)
+punct(tells-2, .-14)
+
+Sentence #22 (5 tokens):
+Raj changes Madhubala completley.
+[Text=Raj CharacterOffsetBegin=1419 CharacterOffsetEnd=1422 PartOfSpeech=NN] [Text=changes CharacterOffsetBegin=1423 CharacterOffsetEnd=1430 PartOfSpeech=NNS] [Text=Madhubala CharacterOffsetBegin=1431 CharacterOffsetEnd=1440 PartOfSpeech=NNP] [Text=completley CharacterOffsetBegin=1441 CharacterOffsetEnd=1451 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1451 CharacterOffsetEnd=1452 PartOfSpeech=.] 
+root(ROOT-0, completley-4)
+nn(completley-4, Raj-1)
+nn(completley-4, changes-2)
+nn(completley-4, Madhubala-3)
+punct(completley-4, .-5)
+
+Sentence #23 (10 tokens):
+Raj tells Priya that he has found a girl.
+[Text=Raj CharacterOffsetBegin=1457 CharacterOffsetEnd=1460 PartOfSpeech=NN] [Text=tells CharacterOffsetBegin=1461 CharacterOffsetEnd=1466 PartOfSpeech=VBZ] [Text=Priya CharacterOffsetBegin=1467 CharacterOffsetEnd=1472 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=1473 CharacterOffsetEnd=1477 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=1478 CharacterOffsetEnd=1480 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=1481 CharacterOffsetEnd=1484 PartOfSpeech=VBZ] [Text=found CharacterOffsetBegin=1485 CharacterOffsetEnd=1490 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=1491 CharacterOffsetEnd=1492 PartOfSpeech=DT] [Text=girl CharacterOffsetBegin=1493 CharacterOffsetEnd=1497 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1497 CharacterOffsetEnd=1498 PartOfSpeech=.] 
+root(ROOT-0, tells-2)
+nsubj(tells-2, Raj-1)
+dobj(tells-2, Priya-3)
+mark(found-7, that-4)
+nsubj(found-7, he-5)
+aux(found-7, has-6)
+ccomp(tells-2, found-7)
+det(girl-9, a-8)
+dobj(found-7, girl-9)
+punct(tells-2, .-10)
+
+Sentence #24 (8 tokens):
+Madhubala and Priya meet and become friends.
+[Text=Madhubala CharacterOffsetBegin=1503 CharacterOffsetEnd=1512 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=1513 CharacterOffsetEnd=1516 PartOfSpeech=CC] [Text=Priya CharacterOffsetBegin=1517 CharacterOffsetEnd=1522 PartOfSpeech=NNP] [Text=meet CharacterOffsetBegin=1523 CharacterOffsetEnd=1527 PartOfSpeech=VBP] [Text=and CharacterOffsetBegin=1528 CharacterOffsetEnd=1531 PartOfSpeech=CC] [Text=become CharacterOffsetBegin=1532 CharacterOffsetEnd=1538 PartOfSpeech=VBP] [Text=friends CharacterOffsetBegin=1539 CharacterOffsetEnd=1546 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1546 CharacterOffsetEnd=1547 PartOfSpeech=.] 
+root(ROOT-0, meet-4)
+nsubj(meet-4, Madhubala-1)
+cc(Madhubala-1, and-2)
+conj(Madhubala-1, Priya-3)
+cc(meet-4, and-5)
+cop(friends-7, become-6)
+conj(meet-4, friends-7)
+punct(meet-4, .-8)
+
+Sentence #25 (13 tokens):
+They go to Switzerland to do this so no one finds out.
+[Text=They CharacterOffsetBegin=1552 CharacterOffsetEnd=1556 PartOfSpeech=PRP] [Text=go CharacterOffsetBegin=1557 CharacterOffsetEnd=1559 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=1560 CharacterOffsetEnd=1562 PartOfSpeech=TO] [Text=Switzerland CharacterOffsetBegin=1563 CharacterOffsetEnd=1574 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=1575 CharacterOffsetEnd=1577 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=1578 CharacterOffsetEnd=1580 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=1581 CharacterOffsetEnd=1585 PartOfSpeech=DT] [Text=so CharacterOffsetBegin=1586 CharacterOffsetEnd=1588 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=1589 CharacterOffsetEnd=1591 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=1592 CharacterOffsetEnd=1595 PartOfSpeech=NN] [Text=finds CharacterOffsetBegin=1596 CharacterOffsetEnd=1601 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=1602 CharacterOffsetEnd=1605 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=1605 CharacterOffsetEnd=1606 PartOfSpeech=.] 
+root(ROOT-0, go-2)
+nsubj(go-2, They-1)
+prep(go-2, to-3)
+pobj(to-3, Switzerland-4)
+aux(do-6, to-5)
+xcomp(go-2, do-6)
+dobj(do-6, this-7)
+mark(finds-11, so-8)
+det(one-10, no-9)
+nsubj(finds-11, one-10)
+advcl(go-2, finds-11)
+prt(finds-11, out-12)
+punct(go-2, .-13)
+
+Sentence #26 (21 tokens):
+Priya spends the night in a church and Raj and Madhubala are all alone and they spend the night together.
+[Text=Priya CharacterOffsetBegin=1611 CharacterOffsetEnd=1616 PartOfSpeech=NNP] [Text=spends CharacterOffsetBegin=1617 CharacterOffsetEnd=1623 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=1624 CharacterOffsetEnd=1627 PartOfSpeech=DT] [Text=night CharacterOffsetBegin=1628 CharacterOffsetEnd=1633 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=1634 CharacterOffsetEnd=1636 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1637 CharacterOffsetEnd=1638 PartOfSpeech=DT] [Text=church CharacterOffsetBegin=1639 CharacterOffsetEnd=1645 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1646 CharacterOffsetEnd=1649 PartOfSpeech=CC] [Text=Raj CharacterOffsetBegin=1650 CharacterOffsetEnd=1653 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1654 CharacterOffsetEnd=1657 PartOfSpeech=CC] [Text=Madhubala CharacterOffsetBegin=1658 CharacterOffsetEnd=1667 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=1668 CharacterOffsetEnd=1671 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=1672 CharacterOffsetEnd=1675 PartOfSpeech=DT] [Text=alone CharacterOffsetBegin=1676 CharacterOffsetEnd=1681 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=1682 CharacterOffsetEnd=1685 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=1686 CharacterOffsetEnd=1690 PartOfSpeech=PRP] [Text=spend CharacterOffsetBegin=1691 CharacterOffsetEnd=1696 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=1697 CharacterOffsetEnd=1700 PartOfSpeech=DT] [Text=night CharacterOffsetBegin=1701 CharacterOffsetEnd=1706 PartOfSpeech=NN] [Text=together CharacterOffsetBegin=1707 CharacterOffsetEnd=1715 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1715 CharacterOffsetEnd=1716 PartOfSpeech=.] 
+root(ROOT-0, spends-2)
+nsubj(spends-2, Priya-1)
+det(night-4, the-3)
+dobj(spends-2, night-4)
+prep(spends-2, in-5)
+det(church-7, a-6)
+pobj(in-5, church-7)
+cc(church-7, and-8)
+conj(church-7, Raj-9)
+cc(spends-2, and-10)
+nsubj(all-13, Madhubala-11)
+cop(all-13, are-12)
+conj(spends-2, all-13)
+advmod(all-13, alone-14)
+cc(spends-2, and-15)
+nsubj(spend-17, they-16)
+conj(spends-2, spend-17)
+det(night-19, the-18)
+dobj(spend-17, night-19)
+advmod(spend-17, together-20)
+punct(spends-2, .-21)
+
+Sentence #27 (13 tokens):
+The doctor confirms that Madhubala is pregnant and they are all happy.
+[Text=The CharacterOffsetBegin=1721 CharacterOffsetEnd=1724 PartOfSpeech=DT] [Text=doctor CharacterOffsetBegin=1725 CharacterOffsetEnd=1731 PartOfSpeech=NN] [Text=confirms CharacterOffsetBegin=1732 CharacterOffsetEnd=1740 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=1741 CharacterOffsetEnd=1745 PartOfSpeech=IN] [Text=Madhubala CharacterOffsetBegin=1746 CharacterOffsetEnd=1755 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=1756 CharacterOffsetEnd=1758 PartOfSpeech=VBZ] [Text=pregnant CharacterOffsetBegin=1759 CharacterOffsetEnd=1767 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=1768 CharacterOffsetEnd=1771 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=1772 CharacterOffsetEnd=1776 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=1777 CharacterOffsetEnd=1780 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=1781 CharacterOffsetEnd=1784 PartOfSpeech=DT] [Text=happy CharacterOffsetBegin=1785 CharacterOffsetEnd=1790 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1790 CharacterOffsetEnd=1791 PartOfSpeech=.] 
+root(ROOT-0, confirms-3)
+det(doctor-2, The-1)
+nsubj(confirms-3, doctor-2)
+mark(pregnant-7, that-4)
+nsubj(pregnant-7, Madhubala-5)
+cop(pregnant-7, is-6)
+ccomp(confirms-3, pregnant-7)
+cc(pregnant-7, and-8)
+nsubj(happy-12, they-9)
+cop(happy-12, are-10)
+dep(happy-12, all-11)
+conj(pregnant-7, happy-12)
+punct(confirms-3, .-13)
+
+Sentence #28 (9 tokens):
+Raj tells his family that Priya is pregnant.
+[Text=Raj CharacterOffsetBegin=1796 CharacterOffsetEnd=1799 PartOfSpeech=NN] [Text=tells CharacterOffsetBegin=1800 CharacterOffsetEnd=1805 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=1806 CharacterOffsetEnd=1809 PartOfSpeech=PRP$] [Text=family CharacterOffsetBegin=1810 CharacterOffsetEnd=1816 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=1817 CharacterOffsetEnd=1821 PartOfSpeech=IN] [Text=Priya CharacterOffsetBegin=1822 CharacterOffsetEnd=1827 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=1828 CharacterOffsetEnd=1830 PartOfSpeech=VBZ] [Text=pregnant CharacterOffsetBegin=1831 CharacterOffsetEnd=1839 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1839 CharacterOffsetEnd=1840 PartOfSpeech=.] 
+root(ROOT-0, tells-2)
+nsubj(tells-2, Raj-1)
+poss(family-4, his-3)
+dobj(tells-2, family-4)
+mark(pregnant-8, that-5)
+nsubj(pregnant-8, Priya-6)
+cop(pregnant-8, is-7)
+ccomp(tells-2, pregnant-8)
+punct(tells-2, .-9)
+
+Sentence #29 (5 tokens):
+They are happy again.
+[Text=They CharacterOffsetBegin=1845 CharacterOffsetEnd=1849 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=1850 CharacterOffsetEnd=1853 PartOfSpeech=VBP] [Text=happy CharacterOffsetBegin=1854 CharacterOffsetEnd=1859 PartOfSpeech=JJ] [Text=again CharacterOffsetBegin=1860 CharacterOffsetEnd=1865 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1865 CharacterOffsetEnd=1866 PartOfSpeech=.] 
+root(ROOT-0, happy-3)
+nsubj(happy-3, They-1)
+cop(happy-3, are-2)
+advmod(happy-3, again-4)
+punct(happy-3, .-5)
+
+Sentence #30 (10 tokens):
+Madhubala comes to love Raj and she wants him.
+[Text=Madhubala CharacterOffsetBegin=1871 CharacterOffsetEnd=1880 PartOfSpeech=NN] [Text=comes CharacterOffsetBegin=1881 CharacterOffsetEnd=1886 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=1887 CharacterOffsetEnd=1889 PartOfSpeech=TO] [Text=love CharacterOffsetBegin=1890 CharacterOffsetEnd=1894 PartOfSpeech=VB] [Text=Raj CharacterOffsetBegin=1895 CharacterOffsetEnd=1898 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1899 CharacterOffsetEnd=1902 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=1903 CharacterOffsetEnd=1906 PartOfSpeech=PRP] [Text=wants CharacterOffsetBegin=1907 CharacterOffsetEnd=1912 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=1913 CharacterOffsetEnd=1916 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=1916 CharacterOffsetEnd=1917 PartOfSpeech=.] 
+root(ROOT-0, comes-2)
+nsubj(comes-2, Madhubala-1)
+aux(love-4, to-3)
+xcomp(comes-2, love-4)
+dobj(love-4, Raj-5)
+cc(comes-2, and-6)
+nsubj(wants-8, she-7)
+conj(comes-2, wants-8)
+dobj(wants-8, him-9)
+punct(comes-2, .-10)
+
+Sentence #31 (4 tokens):
+What happens next?
+[Text=What CharacterOffsetBegin=1922 CharacterOffsetEnd=1926 PartOfSpeech=WP] [Text=happens CharacterOffsetBegin=1927 CharacterOffsetEnd=1934 PartOfSpeech=VBZ] [Text=next CharacterOffsetBegin=1935 CharacterOffsetEnd=1939 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=1939 CharacterOffsetEnd=1940 PartOfSpeech=.] 
+root(ROOT-0, happens-2)
+nsubj(happens-2, What-1)
+advmod(happens-2, next-3)
+punct(happens-2, ?-4)
+
+Sentence #32 (6 tokens):
+Watch CCCC to find out.
+[Text=Watch CharacterOffsetBegin=1945 CharacterOffsetEnd=1950 PartOfSpeech=VB] [Text=CCCC CharacterOffsetBegin=1951 CharacterOffsetEnd=1955 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=1956 CharacterOffsetEnd=1958 PartOfSpeech=TO] [Text=find CharacterOffsetBegin=1959 CharacterOffsetEnd=1963 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=1964 CharacterOffsetEnd=1967 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=1967 CharacterOffsetEnd=1968 PartOfSpeech=.] 
+root(ROOT-0, Watch-1)
+dobj(Watch-1, CCCC-2)
+aux(find-4, to-3)
+infmod(CCCC-2, find-4)
+prt(find-4, out-5)
+punct(Watch-1, .-6)
+
+Sentence #33 (16 tokens):
+The one thing I didn't like about the film is their idea of surrogacy.
+[Text=The CharacterOffsetBegin=1973 CharacterOffsetEnd=1976 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=1977 CharacterOffsetEnd=1980 PartOfSpeech=CD] [Text=thing CharacterOffsetBegin=1981 CharacterOffsetEnd=1986 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=1987 CharacterOffsetEnd=1988 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=1989 CharacterOffsetEnd=1992 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=1992 CharacterOffsetEnd=1995 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=1996 CharacterOffsetEnd=2000 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=2001 CharacterOffsetEnd=2006 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2007 CharacterOffsetEnd=2010 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=2011 CharacterOffsetEnd=2015 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=2016 CharacterOffsetEnd=2018 PartOfSpeech=VBZ] [Text=their CharacterOffsetBegin=2019 CharacterOffsetEnd=2024 PartOfSpeech=PRP$] [Text=idea CharacterOffsetBegin=2025 CharacterOffsetEnd=2029 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=2030 CharacterOffsetEnd=2032 PartOfSpeech=IN] [Text=surrogacy CharacterOffsetBegin=2033 CharacterOffsetEnd=2042 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2042 CharacterOffsetEnd=2043 PartOfSpeech=.] 
+root(ROOT-0, idea-13)
+det(thing-3, The-1)
+num(thing-3, one-2)
+nsubj(idea-13, thing-3)
+nsubj(like-7, I-4)
+aux(like-7, did-5)
+neg(like-7, n't-6)
+rcmod(thing-3, like-7)
+prep(like-7, about-8)
+det(film-10, the-9)
+pobj(about-8, film-10)
+cop(idea-13, is-11)
+poss(idea-13, their-12)
+prep(idea-13, of-14)
+pobj(of-14, surrogacy-15)
+punct(idea-13, .-16)
+
+Sentence #34 (19 tokens):
+They should have done it the proper way in the film but it didn't ruin the film.
+[Text=They CharacterOffsetBegin=2048 CharacterOffsetEnd=2052 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=2053 CharacterOffsetEnd=2059 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=2060 CharacterOffsetEnd=2064 PartOfSpeech=VB] [Text=done CharacterOffsetBegin=2065 CharacterOffsetEnd=2069 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=2070 CharacterOffsetEnd=2072 PartOfSpeech=PRP] [Text=the CharacterOffsetBegin=2073 CharacterOffsetEnd=2076 PartOfSpeech=DT] [Text=proper CharacterOffsetBegin=2077 CharacterOffsetEnd=2083 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=2084 CharacterOffsetEnd=2087 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=2088 CharacterOffsetEnd=2090 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2091 CharacterOffsetEnd=2094 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=2095 CharacterOffsetEnd=2099 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=2100 CharacterOffsetEnd=2103 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=2104 CharacterOffsetEnd=2106 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=2107 CharacterOffsetEnd=2110 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=2110 CharacterOffsetEnd=2113 PartOfSpeech=RB] [Text=ruin CharacterOffsetBegin=2114 CharacterOffsetEnd=2118 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=2119 CharacterOffsetEnd=2122 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=2123 CharacterOffsetEnd=2127 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2127 CharacterOffsetEnd=2128 PartOfSpeech=.] 
+root(ROOT-0, done-4)
+nsubj(done-4, They-1)
+aux(done-4, should-2)
+aux(done-4, have-3)
+dobj(done-4, it-5)
+det(way-8, the-6)
+amod(way-8, proper-7)
+dep(it-5, way-8)
+prep(way-8, in-9)
+det(film-11, the-10)
+pobj(in-9, film-11)
+cc(way-8, but-12)
+nsubj(ruin-16, it-13)
+aux(ruin-16, did-14)
+neg(ruin-16, n't-15)
+conj(way-8, ruin-16)
+det(film-18, the-17)
+dobj(ruin-16, film-18)
+punct(done-4, .-19)
+
+Sentence #35 (11 tokens):
+It was still excellent.The songs of the film are great.
+[Text=It CharacterOffsetBegin=2133 CharacterOffsetEnd=2135 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=2136 CharacterOffsetEnd=2139 PartOfSpeech=VBD] [Text=still CharacterOffsetBegin=2140 CharacterOffsetEnd=2145 PartOfSpeech=RB] [Text=excellent.The CharacterOffsetBegin=2146 CharacterOffsetEnd=2159 PartOfSpeech=JJ] [Text=songs CharacterOffsetBegin=2160 CharacterOffsetEnd=2165 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=2166 CharacterOffsetEnd=2168 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2169 CharacterOffsetEnd=2172 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=2173 CharacterOffsetEnd=2177 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=2178 CharacterOffsetEnd=2181 PartOfSpeech=VBP] [Text=great CharacterOffsetBegin=2182 CharacterOffsetEnd=2187 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=2187 CharacterOffsetEnd=2188 PartOfSpeech=.] 
+root(ROOT-0, excellent.The-4)
+nsubj(excellent.The-4, It-1)
+cop(excellent.The-4, was-2)
+advmod(excellent.The-4, still-3)
+nsubj(great-10, songs-5)
+prep(songs-5, of-6)
+det(film-8, the-7)
+pobj(of-6, film-8)
+cop(great-10, are-9)
+dep(excellent.The-4, great-10)
+punct(excellent.The-4, .-11)
+
+Sentence #36 (26 tokens):
+My favourites are "Chori Chori Chupke Chupke", Dekhne Walon Ne", "Deewana Hai Yeh Mann" and "Mehndi".
+[Text=My CharacterOffsetBegin=2193 CharacterOffsetEnd=2195 PartOfSpeech=PRP$] [Text=favourites CharacterOffsetBegin=2196 CharacterOffsetEnd=2206 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=2207 CharacterOffsetEnd=2210 PartOfSpeech=VBP] [Text=`` CharacterOffsetBegin=2211 CharacterOffsetEnd=2212 PartOfSpeech=``] [Text=Chori CharacterOffsetBegin=2212 CharacterOffsetEnd=2217 PartOfSpeech=NNP] [Text=Chori CharacterOffsetBegin=2218 CharacterOffsetEnd=2223 PartOfSpeech=NNP] [Text=Chupke CharacterOffsetBegin=2224 CharacterOffsetEnd=2230 PartOfSpeech=NNP] [Text=Chupke CharacterOffsetBegin=2231 CharacterOffsetEnd=2237 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=2237 CharacterOffsetEnd=2238 PartOfSpeech=''] [Text=, CharacterOffsetBegin=2238 CharacterOffsetEnd=2239 PartOfSpeech=,] [Text=Dekhne CharacterOffsetBegin=2240 CharacterOffsetEnd=2246 PartOfSpeech=NNP] [Text=Walon CharacterOffsetBegin=2247 CharacterOffsetEnd=2252 PartOfSpeech=NNP] [Text=Ne CharacterOffsetBegin=2253 CharacterOffsetEnd=2255 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=2255 CharacterOffsetEnd=2256 PartOfSpeech=''] [Text=, CharacterOffsetBegin=2256 CharacterOffsetEnd=2257 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=2258 CharacterOffsetEnd=2259 PartOfSpeech=``] [Text=Deewana CharacterOffsetBegin=2259 CharacterOffsetEnd=2266 PartOfSpeech=NNP] [Text=Hai CharacterOffsetBegin=2267 CharacterOffsetEnd=2270 PartOfSpeech=NNP] [Text=Yeh CharacterOffsetBegin=2271 CharacterOffsetEnd=2274 PartOfSpeech=NNP] [Text=Mann CharacterOffsetBegin=2275 CharacterOffsetEnd=2279 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=2279 CharacterOffsetEnd=2280 PartOfSpeech=''] [Text=and CharacterOffsetBegin=2281 CharacterOffsetEnd=2284 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=2285 CharacterOffsetEnd=2286 PartOfSpeech=``] [Text=Mehndi CharacterOffsetBegin=2286 CharacterOffsetEnd=2292 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=2292 CharacterOffsetEnd=2293 PartOfSpeech=''] [Text=. CharacterOffsetBegin=2293 CharacterOffsetEnd=2294 PartOfSpeech=.] 
+root(ROOT-0, Chupke-8)
+poss(favourites-2, My-1)
+nsubj(Chupke-8, favourites-2)
+cop(Chupke-8, are-3)
+punct(Chupke-8, ``-4)
+nn(Chupke-8, Chori-5)
+nn(Chupke-8, Chori-6)
+nn(Chupke-8, Chupke-7)
+punct(Chupke-8, ''-9)
+punct(Chupke-8, ,-10)
+nn(Ne-13, Dekhne-11)
+nn(Ne-13, Walon-12)
+appos(Chupke-8, Ne-13)
+punct(Ne-13, ''-14)
+punct(Chupke-8, ,-15)
+punct(Chupke-8, ``-16)
+nn(Mann-20, Deewana-17)
+nn(Mann-20, Hai-18)
+nn(Mann-20, Yeh-19)
+dep(Chupke-8, Mann-20)
+punct(Mann-20, ''-21)
+cc(Mann-20, and-22)
+punct(Mann-20, ``-23)
+conj(Mann-20, Mehndi-24)
+punct(Mehndi-24, ''-25)
+punct(Chupke-8, .-26)
+
+Sentence #37 (9 tokens):
+The song "Mehndi" is very colourful.
+[Text=The CharacterOffsetBegin=2299 CharacterOffsetEnd=2302 PartOfSpeech=DT] [Text=song CharacterOffsetBegin=2303 CharacterOffsetEnd=2307 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=2308 CharacterOffsetEnd=2309 PartOfSpeech=``] [Text=Mehndi CharacterOffsetBegin=2309 CharacterOffsetEnd=2315 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=2315 CharacterOffsetEnd=2316 PartOfSpeech=''] [Text=is CharacterOffsetBegin=2317 CharacterOffsetEnd=2319 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=2320 CharacterOffsetEnd=2324 PartOfSpeech=RB] [Text=colourful CharacterOffsetBegin=2325 CharacterOffsetEnd=2334 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=2334 CharacterOffsetEnd=2335 PartOfSpeech=.] 
+root(ROOT-0, colourful-8)
+det(song-2, The-1)
+dep(colourful-8, song-2)
+punct(colourful-8, ``-3)
+nsubj(colourful-8, Mehndi-4)
+punct(colourful-8, ''-5)
+cop(colourful-8, is-6)
+advmod(colourful-8, very-7)
+punct(colourful-8, .-9)
+
+Sentence #38 (16 tokens):
+In that song it shows the ghod bharai taking place and it is very colourful.
+[Text=In CharacterOffsetBegin=2340 CharacterOffsetEnd=2342 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=2343 CharacterOffsetEnd=2347 PartOfSpeech=DT] [Text=song CharacterOffsetBegin=2348 CharacterOffsetEnd=2352 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=2353 CharacterOffsetEnd=2355 PartOfSpeech=PRP] [Text=shows CharacterOffsetBegin=2356 CharacterOffsetEnd=2361 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=2362 CharacterOffsetEnd=2365 PartOfSpeech=DT] [Text=ghod CharacterOffsetBegin=2366 CharacterOffsetEnd=2370 PartOfSpeech=NN] [Text=bharai CharacterOffsetBegin=2371 CharacterOffsetEnd=2377 PartOfSpeech=NN] [Text=taking CharacterOffsetBegin=2378 CharacterOffsetEnd=2384 PartOfSpeech=VBG] [Text=place CharacterOffsetBegin=2385 CharacterOffsetEnd=2390 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=2391 CharacterOffsetEnd=2394 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=2395 CharacterOffsetEnd=2397 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=2398 CharacterOffsetEnd=2400 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=2401 CharacterOffsetEnd=2405 PartOfSpeech=RB] [Text=colourful CharacterOffsetBegin=2406 CharacterOffsetEnd=2415 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=2415 CharacterOffsetEnd=2416 PartOfSpeech=.] 
+root(ROOT-0, shows-5)
+prep(shows-5, In-1)
+det(song-3, that-2)
+pobj(In-1, song-3)
+nsubj(shows-5, it-4)
+dep(colourful-15, the-6)
+nsubj(colourful-15, ghod-7)
+dep(ghod-7, bharai-8)
+partmod(bharai-8, taking-9)
+dobj(taking-9, place-10)
+cc(ghod-7, and-11)
+conj(ghod-7, it-12)
+cop(colourful-15, is-13)
+advmod(colourful-15, very-14)
+dobj(shows-5, colourful-15)
+punct(shows-5, .-16)
+
+Sentence #39 (5 tokens):
+The film deserves 10/10!
+[Text=The CharacterOffsetBegin=2421 CharacterOffsetEnd=2424 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=2425 CharacterOffsetEnd=2429 PartOfSpeech=NN] [Text=deserves CharacterOffsetBegin=2430 CharacterOffsetEnd=2438 PartOfSpeech=VBZ] [Text=10/10 CharacterOffsetBegin=2439 CharacterOffsetEnd=2444 PartOfSpeech=CD] [Text=! CharacterOffsetBegin=2444 CharacterOffsetEnd=2445 PartOfSpeech=.] 
+root(ROOT-0, deserves-3)
+det(film-2, The-1)
+nsubj(deserves-3, film-2)
+dobj(deserves-3, 10/10-4)
+punct(deserves-3, !-5)
+

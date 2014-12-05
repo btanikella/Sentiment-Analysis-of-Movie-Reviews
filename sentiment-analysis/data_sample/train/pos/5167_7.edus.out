@@ -1,0 +1,365 @@
+Sentence #1 (16 tokens):
+I have to say the worst part of the movie was the first half hour.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=JJS] [Text=part CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=JJ] [Text=half CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=hour CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+aux(say-4, to-3)
+xcomp(have-2, say-4)
+det(part-7, the-5)
+amod(part-7, worst-6)
+nsubj(hour-15, part-7)
+prep(part-7, of-8)
+det(movie-10, the-9)
+pobj(of-8, movie-10)
+cop(hour-15, was-11)
+det(hour-15, the-12)
+amod(hour-15, first-13)
+det(hour-15, half-14)
+ccomp(say-4, hour-15)
+punct(have-2, .-16)
+
+Sentence #2 (9 tokens):
+I was really confused about who was who.
+[Text=I CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=VBD] [Text=really CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=RB] [Text=confused CharacterOffsetBegin=88 CharacterOffsetEnd=96 PartOfSpeech=VBN] [Text=about CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=IN] [Text=who CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=VBD] [Text=who CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=WP] [Text=. CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=.] 
+root(ROOT-0, confused-4)
+nsubjpass(confused-4, I-1)
+auxpass(confused-4, was-2)
+advmod(confused-4, really-3)
+prep(confused-4, about-5)
+nsubj(was-7, who-6)
+rcmod(about-5, was-7)
+dep(was-7, who-8)
+punct(confused-4, .-9)
+
+Sentence #3 (16 tokens):
+For example, Bill Paxson's character had long hair and was wearing a jacket.
+[Text=For CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=IN] [Text=example CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=,] [Text=Bill CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=NNP] [Text=Paxson CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=POS] [Text=character CharacterOffsetBegin=147 CharacterOffsetEnd=156 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=VBD] [Text=long CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=JJ] [Text=hair CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=VBD] [Text=wearing CharacterOffsetBegin=179 CharacterOffsetEnd=186 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=DT] [Text=jacket CharacterOffsetBegin=189 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=.] 
+root(ROOT-0, had-8)
+prep(had-8, For-1)
+pobj(For-1, example-2)
+punct(had-8, ,-3)
+nn(Paxson-5, Bill-4)
+poss(character-7, Paxson-5)
+possessive(Paxson-5, 's-6)
+nsubj(had-8, character-7)
+amod(hair-10, long-9)
+dobj(had-8, hair-10)
+cc(had-8, and-11)
+aux(wearing-13, was-12)
+conj(had-8, wearing-13)
+det(jacket-15, a-14)
+dobj(wearing-13, jacket-15)
+punct(had-8, .-16)
+
+Sentence #4 (27 tokens):
+Then, when all the males arrived at camp, it turned out there was a character who looked like Bill Paxson, but wasn't.
+[Text=Then CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=,] [Text=when CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=WRB] [Text=all CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=DT] [Text=males CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=NNS] [Text=arrived CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=VBD] [Text=at CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=IN] [Text=camp CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=,] [Text=it CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text=turned CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=RP] [Text=there CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=269 CharacterOffsetEnd=278 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=WP] [Text=looked CharacterOffsetBegin=283 CharacterOffsetEnd=289 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=IN] [Text=Bill CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=NNP] [Text=Paxson CharacterOffsetBegin=300 CharacterOffsetEnd=306 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=,] [Text=but CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=.] 
+root(ROOT-0, turned-12)
+advmod(turned-12, Then-1)
+punct(turned-12, ,-2)
+advmod(arrived-7, when-3)
+predet(males-6, all-4)
+det(males-6, the-5)
+nsubj(arrived-7, males-6)
+advcl(turned-12, arrived-7)
+prep(arrived-7, at-8)
+pobj(at-8, camp-9)
+punct(turned-12, ,-10)
+nsubj(turned-12, it-11)
+prt(turned-12, out-13)
+expl(was-15, there-14)
+ccomp(turned-12, was-15)
+det(character-17, a-16)
+nsubj(was-15, character-17)
+nsubj(looked-19, who-18)
+rcmod(character-17, looked-19)
+prep(looked-19, like-20)
+nn(Paxson-22, Bill-21)
+pobj(like-20, Paxson-22)
+punct(turned-12, ,-23)
+cc(turned-12, but-24)
+conj(turned-12, was-25)
+neg(was-25, n't-26)
+punct(turned-12, .-27)
+
+Sentence #5 (7 tokens):
+I said where's Bill Paxson?
+[Text=I CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=PRP] [Text=said CharacterOffsetBegin=326 CharacterOffsetEnd=330 PartOfSpeech=VBD] [Text=where CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=WRB] [Text='s CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=POS] [Text=Bill CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=NNP] [Text=Paxson CharacterOffsetBegin=344 CharacterOffsetEnd=350 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=.] 
+root(ROOT-0, said-2)
+nsubj(said-2, I-1)
+advmod(Paxson-6, where-3)
+cop(Paxson-6, 's-4)
+nn(Paxson-6, Bill-5)
+advcl(said-2, Paxson-6)
+punct(said-2, ?-7)
+
+Sentence #6 (10 tokens):
+Then, there was a guy with his girlfriend.
+[Text=Then CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=,] [Text=there CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=378 CharacterOffsetEnd=382 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=PRP$] [Text=girlfriend CharacterOffsetBegin=387 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=.] 
+root(ROOT-0, was-4)
+advmod(was-4, Then-1)
+punct(was-4, ,-2)
+expl(was-4, there-3)
+det(guy-6, a-5)
+nsubj(was-4, guy-6)
+prep(guy-6, with-7)
+poss(girlfriend-9, his-8)
+pobj(with-7, girlfriend-9)
+punct(was-4, .-10)
+
+Sentence #7 (6 tokens):
+He said she was 21.
+[Text=He CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=PRP] [Text=said CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=VBD] [Text=she CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=VBD] [Text=21 CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.] 
+root(ROOT-0, said-2)
+nsubj(said-2, He-1)
+nsubj(21-5, she-3)
+cop(21-5, was-4)
+ccomp(said-2, 21-5)
+punct(said-2, .-6)
+
+Sentence #8 (20 tokens):
+This was supposed to be a 20-year reunion of the camp director's (Alan Arkin) most memorable.
+[Text=This CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=VBD] [Text=supposed CharacterOffsetBegin=436 CharacterOffsetEnd=444 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=448 CharacterOffsetEnd=450 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=DT] [Text=20-year CharacterOffsetBegin=453 CharacterOffsetEnd=460 PartOfSpeech=JJ] [Text=reunion CharacterOffsetBegin=461 CharacterOffsetEnd=468 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=DT] [Text=camp CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=NN] [Text=director CharacterOffsetBegin=481 CharacterOffsetEnd=489 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=489 CharacterOffsetEnd=491 PartOfSpeech=POS] [Text=-LRB- CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=-LRB-] [Text=Alan CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=NNP] [Text=Arkin CharacterOffsetBegin=498 CharacterOffsetEnd=503 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=503 CharacterOffsetEnd=504 PartOfSpeech=-RRB-] [Text=most CharacterOffsetBegin=505 CharacterOffsetEnd=509 PartOfSpeech=RBS] [Text=memorable CharacterOffsetBegin=510 CharacterOffsetEnd=519 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=.] 
+root(ROOT-0, supposed-3)
+nsubjpass(supposed-3, This-1)
+auxpass(supposed-3, was-2)
+aux(reunion-8, to-4)
+cop(reunion-8, be-5)
+det(reunion-8, a-6)
+amod(reunion-8, 20-year-7)
+xcomp(supposed-3, reunion-8)
+prep(reunion-8, of-9)
+det(director-12, the-10)
+nn(director-12, camp-11)
+poss(memorable-19, director-12)
+possessive(director-12, 's-13)
+punct(Arkin-16, -LRB--14)
+nn(Arkin-16, Alan-15)
+dep(memorable-19, Arkin-16)
+punct(Arkin-16, -RRB--17)
+advmod(memorable-19, most-18)
+pobj(of-9, memorable-19)
+punct(supposed-3, .-20)
+
+Sentence #9 (15 tokens):
+Later on, this same girl was interacting and talking about her camp experiences.
+[Text=Later CharacterOffsetBegin=525 CharacterOffsetEnd=530 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=531 CharacterOffsetEnd=533 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=,] [Text=this CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=JJ] [Text=girl CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=VBD] [Text=interacting CharacterOffsetBegin=554 CharacterOffsetEnd=565 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=CC] [Text=talking CharacterOffsetBegin=570 CharacterOffsetEnd=577 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=578 CharacterOffsetEnd=583 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=PRP$] [Text=camp CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=NN] [Text=experiences CharacterOffsetBegin=593 CharacterOffsetEnd=604 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=.] 
+root(ROOT-0, interacting-8)
+advmod(on-2, Later-1)
+prep(interacting-8, on-2)
+punct(on-2, ,-3)
+det(girl-6, this-4)
+amod(girl-6, same-5)
+nsubj(interacting-8, girl-6)
+aux(interacting-8, was-7)
+cc(interacting-8, and-9)
+conj(interacting-8, talking-10)
+prep(talking-10, about-11)
+poss(experiences-14, her-12)
+nn(experiences-14, camp-13)
+pobj(about-11, experiences-14)
+punct(interacting-8, .-15)
+
+Sentence #10 (5 tokens):
+That made no sense.
+[Text=That CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=DT] [Text=made CharacterOffsetBegin=615 CharacterOffsetEnd=619 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=DT] [Text=sense CharacterOffsetBegin=623 CharacterOffsetEnd=628 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=.] 
+root(ROOT-0, made-2)
+nsubj(made-2, That-1)
+det(sense-4, no-3)
+dobj(made-2, sense-4)
+punct(made-2, .-5)
+
+Sentence #11 (8 tokens):
+She would have been one years old.
+[Text=She CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=638 CharacterOffsetEnd=643 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=VBN] [Text=one CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=658 CharacterOffsetEnd=663 PartOfSpeech=NNS] [Text=old CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=667 CharacterOffsetEnd=668 PartOfSpeech=.] 
+root(ROOT-0, old-7)
+nsubj(old-7, She-1)
+aux(old-7, would-2)
+aux(old-7, have-3)
+cop(old-7, been-4)
+num(years-6, one-5)
+npadvmod(old-7, years-6)
+punct(old-7, .-8)
+
+Sentence #12 (12 tokens):
+That said, the movie turned out to be pretty good.
+[Text=That CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=DT] [Text=said CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=682 CharacterOffsetEnd=683 PartOfSpeech=,] [Text=the CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=688 CharacterOffsetEnd=693 PartOfSpeech=NN] [Text=turned CharacterOffsetBegin=694 CharacterOffsetEnd=700 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=701 CharacterOffsetEnd=704 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=705 CharacterOffsetEnd=707 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=708 CharacterOffsetEnd=710 PartOfSpeech=VB] [Text=pretty CharacterOffsetBegin=711 CharacterOffsetEnd=717 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=718 CharacterOffsetEnd=722 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=722 CharacterOffsetEnd=723 PartOfSpeech=.] 
+root(ROOT-0, said-2)
+nsubj(said-2, That-1)
+punct(said-2, ,-3)
+det(movie-5, the-4)
+nsubj(turned-6, movie-5)
+ccomp(said-2, turned-6)
+prt(turned-6, out-7)
+aux(good-11, to-8)
+cop(good-11, be-9)
+advmod(good-11, pretty-10)
+xcomp(turned-6, good-11)
+punct(said-2, .-12)
+
+Sentence #13 (12 tokens):
+Kevin Pollak was the nice guy who was always being teased.
+[Text=Kevin CharacterOffsetBegin=728 CharacterOffsetEnd=733 PartOfSpeech=NNP] [Text=Pollak CharacterOffsetBegin=734 CharacterOffsetEnd=740 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=749 CharacterOffsetEnd=753 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=754 CharacterOffsetEnd=757 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=VBD] [Text=always CharacterOffsetBegin=766 CharacterOffsetEnd=772 PartOfSpeech=RB] [Text=being CharacterOffsetBegin=773 CharacterOffsetEnd=778 PartOfSpeech=VBG] [Text=teased CharacterOffsetBegin=779 CharacterOffsetEnd=785 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=785 CharacterOffsetEnd=786 PartOfSpeech=.] 
+root(ROOT-0, guy-6)
+nn(Pollak-2, Kevin-1)
+nsubj(guy-6, Pollak-2)
+cop(guy-6, was-3)
+det(guy-6, the-4)
+amod(guy-6, nice-5)
+nsubj(teased-11, who-7)
+cop(teased-11, was-8)
+advmod(teased-11, always-9)
+auxpass(teased-11, being-10)
+rcmod(guy-6, teased-11)
+punct(guy-6, .-12)
+
+Sentence #14 (15 tokens):
+One guy was a complete narcissist, and ended up losing his beautiful girlfriend.
+[Text=One CharacterOffsetBegin=791 CharacterOffsetEnd=794 PartOfSpeech=CD] [Text=guy CharacterOffsetBegin=795 CharacterOffsetEnd=798 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=799 CharacterOffsetEnd=802 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=803 CharacterOffsetEnd=804 PartOfSpeech=DT] [Text=complete CharacterOffsetBegin=805 CharacterOffsetEnd=813 PartOfSpeech=JJ] [Text=narcissist CharacterOffsetBegin=814 CharacterOffsetEnd=824 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=824 CharacterOffsetEnd=825 PartOfSpeech=,] [Text=and CharacterOffsetBegin=826 CharacterOffsetEnd=829 PartOfSpeech=CC] [Text=ended CharacterOffsetBegin=830 CharacterOffsetEnd=835 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=836 CharacterOffsetEnd=838 PartOfSpeech=RP] [Text=losing CharacterOffsetBegin=839 CharacterOffsetEnd=845 PartOfSpeech=VBG] [Text=his CharacterOffsetBegin=846 CharacterOffsetEnd=849 PartOfSpeech=PRP$] [Text=beautiful CharacterOffsetBegin=850 CharacterOffsetEnd=859 PartOfSpeech=JJ] [Text=girlfriend CharacterOffsetBegin=860 CharacterOffsetEnd=870 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=870 CharacterOffsetEnd=871 PartOfSpeech=.] 
+root(ROOT-0, narcissist-6)
+num(guy-2, One-1)
+nsubj(narcissist-6, guy-2)
+cop(narcissist-6, was-3)
+det(narcissist-6, a-4)
+amod(narcissist-6, complete-5)
+punct(narcissist-6, ,-7)
+cc(narcissist-6, and-8)
+conj(narcissist-6, ended-9)
+prt(ended-9, up-10)
+xcomp(ended-9, losing-11)
+poss(girlfriend-14, his-12)
+amod(girlfriend-14, beautiful-13)
+dobj(losing-11, girlfriend-14)
+punct(narcissist-6, .-15)
+
+Sentence #15 (23 tokens):
+Alan Arkin was interesting as an old-style camp director, who admits that he has grown out of touch with modern youth.
+[Text=Alan CharacterOffsetBegin=876 CharacterOffsetEnd=880 PartOfSpeech=NNP] [Text=Arkin CharacterOffsetBegin=881 CharacterOffsetEnd=886 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=887 CharacterOffsetEnd=890 PartOfSpeech=VBD] [Text=interesting CharacterOffsetBegin=891 CharacterOffsetEnd=902 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=903 CharacterOffsetEnd=905 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=DT] [Text=old-style CharacterOffsetBegin=909 CharacterOffsetEnd=918 PartOfSpeech=JJ] [Text=camp CharacterOffsetBegin=919 CharacterOffsetEnd=923 PartOfSpeech=NN] [Text=director CharacterOffsetBegin=924 CharacterOffsetEnd=932 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=932 CharacterOffsetEnd=933 PartOfSpeech=,] [Text=who CharacterOffsetBegin=934 CharacterOffsetEnd=937 PartOfSpeech=WP] [Text=admits CharacterOffsetBegin=938 CharacterOffsetEnd=944 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=945 CharacterOffsetEnd=949 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=950 CharacterOffsetEnd=952 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=953 CharacterOffsetEnd=956 PartOfSpeech=VBZ] [Text=grown CharacterOffsetBegin=957 CharacterOffsetEnd=962 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=963 CharacterOffsetEnd=966 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=967 CharacterOffsetEnd=969 PartOfSpeech=IN] [Text=touch CharacterOffsetBegin=970 CharacterOffsetEnd=975 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=976 CharacterOffsetEnd=980 PartOfSpeech=IN] [Text=modern CharacterOffsetBegin=981 CharacterOffsetEnd=987 PartOfSpeech=JJ] [Text=youth CharacterOffsetBegin=988 CharacterOffsetEnd=993 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=993 CharacterOffsetEnd=994 PartOfSpeech=.] 
+root(ROOT-0, interesting-4)
+nn(Arkin-2, Alan-1)
+nsubj(interesting-4, Arkin-2)
+cop(interesting-4, was-3)
+prep(interesting-4, as-5)
+det(director-9, an-6)
+amod(director-9, old-style-7)
+nn(director-9, camp-8)
+pobj(as-5, director-9)
+punct(director-9, ,-10)
+nsubj(admits-12, who-11)
+rcmod(director-9, admits-12)
+mark(grown-16, that-13)
+nsubj(grown-16, he-14)
+aux(grown-16, has-15)
+ccomp(admits-12, grown-16)
+prep(grown-16, out-17)
+pcomp(out-17, of-18)
+pobj(of-18, touch-19)
+prep(touch-19, with-20)
+amod(youth-22, modern-21)
+pobj(with-20, youth-22)
+punct(interesting-4, .-23)
+
+Sentence #16 (15 tokens):
+The best part was that none of the grown-up campers were successes in life.
+[Text=The CharacterOffsetBegin=999 CharacterOffsetEnd=1002 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=1003 CharacterOffsetEnd=1007 PartOfSpeech=JJS] [Text=part CharacterOffsetBegin=1008 CharacterOffsetEnd=1012 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=1013 CharacterOffsetEnd=1016 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=1017 CharacterOffsetEnd=1021 PartOfSpeech=IN] [Text=none CharacterOffsetBegin=1022 CharacterOffsetEnd=1026 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1027 CharacterOffsetEnd=1029 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1030 CharacterOffsetEnd=1033 PartOfSpeech=DT] [Text=grown-up CharacterOffsetBegin=1034 CharacterOffsetEnd=1042 PartOfSpeech=JJ] [Text=campers CharacterOffsetBegin=1043 CharacterOffsetEnd=1050 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=1051 CharacterOffsetEnd=1055 PartOfSpeech=VBD] [Text=successes CharacterOffsetBegin=1056 CharacterOffsetEnd=1065 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=1066 CharacterOffsetEnd=1068 PartOfSpeech=IN] [Text=life CharacterOffsetBegin=1069 CharacterOffsetEnd=1073 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1073 CharacterOffsetEnd=1074 PartOfSpeech=.] 
+root(ROOT-0, was-4)
+det(part-3, The-1)
+amod(part-3, best-2)
+nsubj(was-4, part-3)
+mark(successes-12, that-5)
+nsubj(successes-12, none-6)
+prep(none-6, of-7)
+det(campers-10, the-8)
+amod(campers-10, grown-up-9)
+pobj(of-7, campers-10)
+cop(successes-12, were-11)
+ccomp(was-4, successes-12)
+prep(successes-12, in-13)
+pobj(in-13, life-14)
+punct(was-4, .-15)
+
+Sentence #17 (8 tokens):
+None of them had very great careers.
+[Text=None CharacterOffsetBegin=1079 CharacterOffsetEnd=1083 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1084 CharacterOffsetEnd=1086 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=1087 CharacterOffsetEnd=1091 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=1092 CharacterOffsetEnd=1095 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=1096 CharacterOffsetEnd=1100 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=1101 CharacterOffsetEnd=1106 PartOfSpeech=JJ] [Text=careers CharacterOffsetBegin=1107 CharacterOffsetEnd=1114 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1114 CharacterOffsetEnd=1115 PartOfSpeech=.] 
+root(ROOT-0, had-4)
+nsubj(had-4, None-1)
+prep(None-1, of-2)
+pobj(of-2, them-3)
+advmod(great-6, very-5)
+amod(careers-7, great-6)
+dobj(had-4, careers-7)
+punct(had-4, .-8)
+
+Sentence #18 (6 tokens):
+This seemed very real life.
+[Text=This CharacterOffsetBegin=1120 CharacterOffsetEnd=1124 PartOfSpeech=DT] [Text=seemed CharacterOffsetBegin=1125 CharacterOffsetEnd=1131 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=1132 CharacterOffsetEnd=1136 PartOfSpeech=RB] [Text=real CharacterOffsetBegin=1137 CharacterOffsetEnd=1141 PartOfSpeech=JJ] [Text=life CharacterOffsetBegin=1142 CharacterOffsetEnd=1146 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1146 CharacterOffsetEnd=1147 PartOfSpeech=.] 
+root(ROOT-0, life-5)
+nsubj(life-5, This-1)
+cop(life-5, seemed-2)
+advmod(real-4, very-3)
+amod(life-5, real-4)
+punct(life-5, .-6)
+
+Sentence #19 (9 tokens):
+The movie was compared to The Big Chill.
+[Text=The CharacterOffsetBegin=1152 CharacterOffsetEnd=1155 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=1156 CharacterOffsetEnd=1161 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=1162 CharacterOffsetEnd=1165 PartOfSpeech=VBD] [Text=compared CharacterOffsetBegin=1166 CharacterOffsetEnd=1174 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=1175 CharacterOffsetEnd=1177 PartOfSpeech=TO] [Text=The CharacterOffsetBegin=1178 CharacterOffsetEnd=1181 PartOfSpeech=DT] [Text=Big CharacterOffsetBegin=1182 CharacterOffsetEnd=1185 PartOfSpeech=JJ] [Text=Chill CharacterOffsetBegin=1186 CharacterOffsetEnd=1191 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1191 CharacterOffsetEnd=1192 PartOfSpeech=.] 
+root(ROOT-0, compared-4)
+det(movie-2, The-1)
+nsubjpass(compared-4, movie-2)
+auxpass(compared-4, was-3)
+prep(compared-4, to-5)
+det(Chill-8, The-6)
+amod(Chill-8, Big-7)
+pobj(to-5, Chill-8)
+punct(compared-4, .-9)
+
+Sentence #20 (21 tokens):
+In some ways it wasn't as exciting as the Big Chill, but it was a lot more realistic.
+[Text=In CharacterOffsetBegin=1197 CharacterOffsetEnd=1199 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=1200 CharacterOffsetEnd=1204 PartOfSpeech=DT] [Text=ways CharacterOffsetBegin=1205 CharacterOffsetEnd=1209 PartOfSpeech=NNS] [Text=it CharacterOffsetBegin=1210 CharacterOffsetEnd=1212 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=1213 CharacterOffsetEnd=1216 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=1216 CharacterOffsetEnd=1219 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=1220 CharacterOffsetEnd=1222 PartOfSpeech=IN] [Text=exciting CharacterOffsetBegin=1223 CharacterOffsetEnd=1231 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=1232 CharacterOffsetEnd=1234 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1235 CharacterOffsetEnd=1238 PartOfSpeech=DT] [Text=Big CharacterOffsetBegin=1239 CharacterOffsetEnd=1242 PartOfSpeech=JJ] [Text=Chill CharacterOffsetBegin=1243 CharacterOffsetEnd=1248 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=1248 CharacterOffsetEnd=1249 PartOfSpeech=,] [Text=but CharacterOffsetBegin=1250 CharacterOffsetEnd=1253 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=1254 CharacterOffsetEnd=1256 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=1257 CharacterOffsetEnd=1260 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=1261 CharacterOffsetEnd=1262 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=1263 CharacterOffsetEnd=1266 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=1267 CharacterOffsetEnd=1271 PartOfSpeech=RBR] [Text=realistic CharacterOffsetBegin=1272 CharacterOffsetEnd=1281 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1281 CharacterOffsetEnd=1282 PartOfSpeech=.] 
+root(ROOT-0, exciting-8)
+prep(exciting-8, In-1)
+det(ways-3, some-2)
+pobj(In-1, ways-3)
+nsubj(exciting-8, it-4)
+cop(exciting-8, was-5)
+neg(exciting-8, n't-6)
+advmod(exciting-8, as-7)
+prep(exciting-8, as-9)
+det(Chill-12, the-10)
+amod(Chill-12, Big-11)
+pobj(as-9, Chill-12)
+punct(exciting-8, ,-13)
+cc(exciting-8, but-14)
+nsubj(realistic-20, it-15)
+cop(realistic-20, was-16)
+det(lot-18, a-17)
+npadvmod(more-19, lot-18)
+advmod(realistic-20, more-19)
+conj(exciting-8, realistic-20)
+punct(exciting-8, .-21)
+
+Sentence #21 (21 tokens):
+So, even though the beginning is not promising, the movie ended up turning into a pretty good one.
+[Text=So CharacterOffsetBegin=1287 CharacterOffsetEnd=1289 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=1289 CharacterOffsetEnd=1290 PartOfSpeech=,] [Text=even CharacterOffsetBegin=1291 CharacterOffsetEnd=1295 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=1296 CharacterOffsetEnd=1302 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1303 CharacterOffsetEnd=1306 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=1307 CharacterOffsetEnd=1316 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=1317 CharacterOffsetEnd=1319 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=1320 CharacterOffsetEnd=1323 PartOfSpeech=RB] [Text=promising CharacterOffsetBegin=1324 CharacterOffsetEnd=1333 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=1333 CharacterOffsetEnd=1334 PartOfSpeech=,] [Text=the CharacterOffsetBegin=1335 CharacterOffsetEnd=1338 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=1339 CharacterOffsetEnd=1344 PartOfSpeech=NN] [Text=ended CharacterOffsetBegin=1345 CharacterOffsetEnd=1350 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=1351 CharacterOffsetEnd=1353 PartOfSpeech=RP] [Text=turning CharacterOffsetBegin=1354 CharacterOffsetEnd=1361 PartOfSpeech=VBG] [Text=into CharacterOffsetBegin=1362 CharacterOffsetEnd=1366 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1367 CharacterOffsetEnd=1368 PartOfSpeech=DT] [Text=pretty CharacterOffsetBegin=1369 CharacterOffsetEnd=1375 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=1376 CharacterOffsetEnd=1380 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=1381 CharacterOffsetEnd=1384 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=1384 CharacterOffsetEnd=1385 PartOfSpeech=.] 
+root(ROOT-0, ended-13)
+advmod(ended-13, So-1)
+punct(ended-13, ,-2)
+advmod(promising-9, even-3)
+mark(promising-9, though-4)
+det(beginning-6, the-5)
+nsubj(promising-9, beginning-6)
+cop(promising-9, is-7)
+neg(promising-9, not-8)
+advcl(ended-13, promising-9)
+punct(ended-13, ,-10)
+det(movie-12, the-11)
+nsubj(ended-13, movie-12)
+prt(ended-13, up-14)
+xcomp(ended-13, turning-15)
+prep(turning-15, into-16)
+det(one-20, a-17)
+advmod(good-19, pretty-18)
+amod(one-20, good-19)
+pobj(into-16, one-20)
+punct(ended-13, .-21)
+

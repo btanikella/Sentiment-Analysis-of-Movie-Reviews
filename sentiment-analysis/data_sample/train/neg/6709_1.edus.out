@@ -1,0 +1,138 @@
+Sentence #1 (5 tokens):
+I'm easily entertained.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=VBP] [Text=easily CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=RB] [Text=entertained CharacterOffsetBegin=15 CharacterOffsetEnd=26 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=.] 
+root(ROOT-0, entertained-4)
+nsubjpass(entertained-4, I-1)
+auxpass(entertained-4, 'm-2)
+advmod(entertained-4, easily-3)
+punct(entertained-4, .-5)
+
+Sentence #2 (25 tokens):
+I enjoyed "Hot Shots" and "The Naked Gun" and their many sequels, even when most people found them unbearable.
+[Text=I CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=PRP] [Text=enjoyed CharacterOffsetBegin=34 CharacterOffsetEnd=41 PartOfSpeech=VBD] [Text=`` CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=``] [Text=Hot CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=NNP] [Text=Shots CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=''] [Text=and CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=``] [Text=The CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=Naked CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=Gun CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=''] [Text=and CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=CC] [Text=their CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=PRP$] [Text=many CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=JJ] [Text=sequels CharacterOffsetBegin=89 CharacterOffsetEnd=96 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=,] [Text=even CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=RB] [Text=when CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=WRB] [Text=most CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=JJS] [Text=people CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=NNS] [Text=found CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=VBD] [Text=them CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=PRP] [Text=unbearable CharacterOffsetBegin=131 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=.] 
+root(ROOT-0, enjoyed-2)
+nsubj(enjoyed-2, I-1)
+punct(enjoyed-2, ``-3)
+nn(Shots-5, Hot-4)
+dobj(enjoyed-2, Shots-5)
+punct(enjoyed-2, ''-6)
+cc(enjoyed-2, and-7)
+punct(enjoyed-2, ``-8)
+det(Gun-11, The-9)
+amod(Gun-11, Naked-10)
+dobj(enjoyed-2, Gun-11)
+punct(Gun-11, ''-12)
+cc(Gun-11, and-13)
+poss(sequels-16, their-14)
+amod(sequels-16, many-15)
+conj(Gun-11, sequels-16)
+punct(Gun-11, ,-17)
+advmod(found-22, even-18)
+advmod(found-22, when-19)
+amod(people-21, most-20)
+nsubj(found-22, people-21)
+partmod(Gun-11, found-22)
+nsubj(unbearable-24, them-23)
+xcomp(found-22, unbearable-24)
+punct(enjoyed-2, .-25)
+
+Sentence #3 (11 tokens):
+I've even managed to enjoy most Pauly Shore movies.
+[Text=I CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=VBP] [Text=even CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=RB] [Text=managed CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=TO] [Text=enjoy CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=VB] [Text=most CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=RBS] [Text=Pauly CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=RB] [Text=Shore CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=NNP] [Text=movies CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=.] 
+root(ROOT-0, managed-4)
+nsubj(managed-4, I-1)
+aux(managed-4, 've-2)
+advmod(managed-4, even-3)
+aux(enjoy-6, to-5)
+xcomp(managed-4, enjoy-6)
+advmod(Pauly-8, most-7)
+amod(movies-10, Pauly-8)
+nn(movies-10, Shore-9)
+dobj(enjoy-6, movies-10)
+punct(managed-4, .-11)
+
+Sentence #4 (22 tokens):
+There is only one movie that I've seen that I can honestly say was bad...and this was it.
+[Text=There CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=VBZ] [Text=only CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=CD] [Text=movie CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=MD] [Text=honestly CharacterOffsetBegin=253 CharacterOffsetEnd=261 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=VB] [Text=was CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=VBD] [Text=bad CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=JJ] [Text=... CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=:] [Text=and CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+quantmod(one-4, only-3)
+num(movie-5, one-4)
+nsubj(is-2, movie-5)
+dobj(seen-9, that-6)
+nsubj(seen-9, I-7)
+aux(seen-9, 've-8)
+rcmod(movie-5, seen-9)
+mark(say-14, that-10)
+nsubj(say-14, I-11)
+aux(say-14, can-12)
+advmod(say-14, honestly-13)
+ccomp(seen-9, say-14)
+cop(bad-16, was-15)
+ccomp(say-14, bad-16)
+punct(is-2, ...-17)
+cc(is-2, and-18)
+nsubj(was-20, this-19)
+conj(is-2, was-20)
+nsubj(was-20, it-21)
+punct(is-2, .-22)
+
+Sentence #5 (28 tokens):
+It's been a while since I've seen it, but I do remember sitting in the theater thinking, "This is a dumb movie.
+[Text=It CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=DT] [Text=while CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=since CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=326 CharacterOffsetEnd=330 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=,] [Text=but CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=VBP] [Text=remember CharacterOffsetBegin=344 CharacterOffsetEnd=352 PartOfSpeech=VB] [Text=sitting CharacterOffsetBegin=353 CharacterOffsetEnd=360 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=DT] [Text=theater CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NN] [Text=thinking CharacterOffsetBegin=376 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=``] [Text=This CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=392 CharacterOffsetEnd=394 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=DT] [Text=dumb CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=.] 
+root(ROOT-0, while-5)
+nsubj(while-5, It-1)
+cop(while-5, 's-2)
+cop(while-5, been-3)
+det(while-5, a-4)
+mark(seen-9, since-6)
+nsubj(seen-9, I-7)
+aux(seen-9, 've-8)
+advcl(while-5, seen-9)
+dobj(seen-9, it-10)
+punct(while-5, ,-11)
+cc(while-5, but-12)
+nsubj(remember-15, I-13)
+aux(remember-15, do-14)
+conj(while-5, remember-15)
+dep(remember-15, sitting-16)
+prep(sitting-16, in-17)
+det(thinking-20, the-18)
+nn(thinking-20, theater-19)
+pobj(in-17, thinking-20)
+punct(remember-15, ,-21)
+punct(remember-15, ``-22)
+nsubj(movie-27, This-23)
+cop(movie-27, is-24)
+det(movie-27, a-25)
+amod(movie-27, dumb-26)
+ccomp(remember-15, movie-27)
+punct(while-5, .-28)
+
+Sentence #6 (7 tokens):
+Why did I see this?"
+[Text=Why CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=DT] [Text=? CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=.] [Text='' CharacterOffsetBegin=432 CharacterOffsetEnd=433 PartOfSpeech=''] 
+root(ROOT-0, see-4)
+advmod(see-4, Why-1)
+aux(see-4, did-2)
+nsubj(see-4, I-3)
+dobj(see-4, this-5)
+punct(see-4, ?-6)
+punct(see-4, ''-7)
+
+Sentence #7 (12 tokens):
+It's honestly the only movie that I cannot recommend.
+[Text=It CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=440 CharacterOffsetEnd=442 PartOfSpeech=VBZ] [Text=honestly CharacterOffsetBegin=443 CharacterOffsetEnd=451 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=456 CharacterOffsetEnd=460 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=461 CharacterOffsetEnd=466 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=RB] [Text=recommend CharacterOffsetBegin=481 CharacterOffsetEnd=490 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, It-1)
+cop(movie-6, 's-2)
+advmod(movie-6, honestly-3)
+det(movie-6, the-4)
+amod(movie-6, only-5)
+dobj(recommend-11, that-7)
+nsubj(recommend-11, I-8)
+aux(recommend-11, can-9)
+neg(recommend-11, not-10)
+rcmod(movie-6, recommend-11)
+punct(movie-6, .-12)
+

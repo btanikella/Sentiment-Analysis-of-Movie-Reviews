@@ -1,0 +1,64 @@
+Sentence #1 (9 tokens):
+A pointless movie with nothing but gratuitous violence.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=pointless CharacterOffsetBegin=6 CharacterOffsetEnd=15 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=nothing CharacterOffsetBegin=27 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=CC] [Text=gratuitous CharacterOffsetBegin=39 CharacterOffsetEnd=49 PartOfSpeech=JJ] [Text=violence CharacterOffsetBegin=50 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, movie-3)
+det(movie-3, A-1)
+amod(movie-3, pointless-2)
+prep(movie-3, with-4)
+pobj(with-4, nothing-5)
+cc(nothing-5, but-6)
+amod(violence-8, gratuitous-7)
+conj(nothing-5, violence-8)
+punct(movie-3, .-9)
+
+Sentence #2 (28 tokens):
+The only fun I had was playing "spot the location", as much of it was filmed in my home town of Regina, Saskatchewan.
+[Text=The CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=JJ] [Text=fun CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=VBD] [Text=was CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=VBD] [Text=playing CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=VBG] [Text=`` CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=``] [Text=spot CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=location CharacterOffsetBegin=105 CharacterOffsetEnd=113 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=''] [Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=,] [Text=as CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=VBD] [Text=filmed CharacterOffsetBegin=134 CharacterOffsetEnd=140 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=PRP$] [Text=home CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=NN] [Text=town CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=IN] [Text=Regina CharacterOffsetBegin=160 CharacterOffsetEnd=166 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=,] [Text=Saskatchewan CharacterOffsetBegin=168 CharacterOffsetEnd=180 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=.] 
+root(ROOT-0, playing-7)
+det(fun-3, The-1)
+amod(fun-3, only-2)
+nsubj(playing-7, fun-3)
+nsubj(had-5, I-4)
+rcmod(fun-3, had-5)
+aux(playing-7, was-6)
+punct(playing-7, ``-8)
+dep(playing-7, spot-9)
+det(location-11, the-10)
+dobj(spot-9, location-11)
+punct(location-11, ''-12)
+punct(location-11, ,-13)
+advmod(much-15, as-14)
+nsubjpass(filmed-19, much-15)
+prep(much-15, of-16)
+pobj(of-16, it-17)
+auxpass(filmed-19, was-18)
+rcmod(location-11, filmed-19)
+prep(filmed-19, in-20)
+poss(town-23, my-21)
+nn(town-23, home-22)
+pobj(in-20, town-23)
+prep(town-23, of-24)
+pobj(of-24, Regina-25)
+punct(Regina-25, ,-26)
+appos(Regina-25, Saskatchewan-27)
+punct(playing-7, .-28)
+
+Sentence #3 (15 tokens):
+I like to support locally produced films but this one was a major disappointment.
+[Text=I CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=TO] [Text=support CharacterOffsetBegin=196 CharacterOffsetEnd=203 PartOfSpeech=VB] [Text=locally CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=RB] [Text=produced CharacterOffsetBegin=212 CharacterOffsetEnd=220 PartOfSpeech=VBN] [Text=films CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=major CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=JJ] [Text=disappointment CharacterOffsetBegin=252 CharacterOffsetEnd=266 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=.] 
+root(ROOT-0, like-2)
+nsubj(like-2, I-1)
+aux(support-4, to-3)
+xcomp(like-2, support-4)
+advmod(films-7, locally-5)
+amod(films-7, produced-6)
+dobj(support-4, films-7)
+cc(films-7, but-8)
+det(one-10, this-9)
+nsubj(disappointment-14, one-10)
+cop(disappointment-14, was-11)
+det(disappointment-14, a-12)
+amod(disappointment-14, major-13)
+conj(films-7, disappointment-14)
+punct(like-2, .-15)
+

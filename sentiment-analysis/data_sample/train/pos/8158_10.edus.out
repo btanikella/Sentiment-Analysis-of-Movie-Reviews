@@ -1,0 +1,119 @@
+Sentence #1 (21 tokens):
+"Fear Of A Black Hat" is everything the (much weaker) "CB-4" SHOULD have been.
+[Text=`` CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=``] [Text=Fear CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=NN] [Text=Of CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=IN] [Text=A CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=Black CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=JJ] [Text=Hat CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=''] [Text=is CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=VBZ] [Text=everything CharacterOffsetBegin=29 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT] [Text=-LRB- CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=-LRB-] [Text=much CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=JJ] [Text=weaker CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=JJR] [Text=-RRB- CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=-RRB-] [Text=`` CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=``] [Text=CB-4 CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=''] [Text=SHOULD CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, everything-9)
+punct(Fear-2, ``-1)
+nsubj(everything-9, Fear-2)
+prep(Fear-2, Of-3)
+det(Hat-6, A-4)
+amod(Hat-6, Black-5)
+pobj(Of-3, Hat-6)
+punct(Fear-2, ''-7)
+cop(everything-9, is-8)
+det(CB-4-16, the-10)
+punct(weaker-13, -LRB--11)
+advmod(weaker-13, much-12)
+dep(CB-4-16, weaker-13)
+punct(weaker-13, -RRB--14)
+punct(CB-4-16, ``-15)
+nsubj(been-20, CB-4-16)
+punct(CB-4-16, ''-17)
+aux(been-20, SHOULD-18)
+aux(been-20, have-19)
+rcmod(everything-9, been-20)
+punct(everything-9, .-21)
+
+Sentence #2 (24 tokens):
+Rusty Cundieff's satirical eye is ruthless, as he folds, spindles, and mutilates every aspect of hip-hop trends and culture.
+[Text=Rusty CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NNP] [Text=Cundieff CharacterOffsetBegin=93 CharacterOffsetEnd=101 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=POS] [Text=satirical CharacterOffsetBegin=104 CharacterOffsetEnd=113 PartOfSpeech=JJ] [Text=eye CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=VBZ] [Text=ruthless CharacterOffsetBegin=121 CharacterOffsetEnd=129 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=,] [Text=as CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=PRP] [Text=folds CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=,] [Text=spindles CharacterOffsetBegin=144 CharacterOffsetEnd=152 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=,] [Text=and CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=CC] [Text=mutilates CharacterOffsetBegin=158 CharacterOffsetEnd=167 PartOfSpeech=VBZ] [Text=every CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=DT] [Text=aspect CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=hip-hop CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=JJ] [Text=trends CharacterOffsetBegin=192 CharacterOffsetEnd=198 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=CC] [Text=culture CharacterOffsetBegin=203 CharacterOffsetEnd=210 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=.] 
+root(ROOT-0, ruthless-7)
+nn(Cundieff-2, Rusty-1)
+poss(eye-5, Cundieff-2)
+possessive(Cundieff-2, 's-3)
+amod(eye-5, satirical-4)
+nsubj(ruthless-7, eye-5)
+cop(ruthless-7, is-6)
+punct(ruthless-7, ,-8)
+mark(folds-11, as-9)
+nsubj(folds-11, he-10)
+advcl(ruthless-7, folds-11)
+punct(folds-11, ,-12)
+conj(folds-11, spindles-13)
+punct(folds-11, ,-14)
+cc(folds-11, and-15)
+conj(folds-11, mutilates-16)
+det(aspect-18, every-17)
+dobj(mutilates-16, aspect-18)
+prep(aspect-18, of-19)
+amod(trends-21, hip-hop-20)
+pobj(of-19, trends-21)
+cc(trends-21, and-22)
+conj(trends-21, culture-23)
+punct(ruthless-7, .-24)
+
+Sentence #3 (8 tokens):
+Does "FoaBH" resemble Spinal Tap?
+[Text=Does CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=``] [Text=FoaBH CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=''] [Text=resemble CharacterOffsetBegin=229 CharacterOffsetEnd=237 PartOfSpeech=VB] [Text=Spinal CharacterOffsetBegin=238 CharacterOffsetEnd=244 PartOfSpeech=JJ] [Text=Tap CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=.] 
+root(ROOT-0, resemble-5)
+aux(resemble-5, Does-1)
+punct(resemble-5, ``-2)
+nsubj(resemble-5, FoaBH-3)
+punct(resemble-5, ''-4)
+amod(Tap-7, Spinal-6)
+nsubj(resemble-5, Tap-7)
+punct(resemble-5, ?-8)
+
+Sentence #4 (5 tokens):
+Yes, a bit.
+[Text=Yes CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=,] [Text=a CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=.] 
+root(ROOT-0, bit-4)
+discourse(bit-4, Yes-1)
+punct(bit-4, ,-2)
+det(bit-4, a-3)
+punct(bit-4, .-5)
+
+Sentence #5 (7 tokens):
+Is it derivative of Spinal Tap?
+[Text=Is CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=PRP] [Text=derivative CharacterOffsetBegin=276 CharacterOffsetEnd=286 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=IN] [Text=Spinal CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=JJ] [Text=Tap CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=.] 
+root(ROOT-0, Is-1)
+nsubj(Is-1, it-2)
+dep(it-2, derivative-3)
+prep(derivative-3, of-4)
+amod(Tap-6, Spinal-5)
+pobj(of-4, Tap-6)
+punct(Is-1, ?-7)
+
+Sentence #6 (5 tokens):
+No, not really.
+[Text=No CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=,] [Text=not CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=314 CharacterOffsetEnd=320 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=.] 
+root(ROOT-0, No-1)
+punct(No-1, ,-2)
+neg(No-1, not-3)
+advmod(No-1, really-4)
+punct(No-1, .-5)
+
+Sentence #7 (21 tokens):
+The aim is more focused, the satire is better focused, and to be honest, it's funnier.
+[Text=The CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=aim CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=RBR] [Text=focused CharacterOffsetBegin=342 CharacterOffsetEnd=349 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=,] [Text=the CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=DT] [Text=satire CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=VBZ] [Text=better CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=RBR] [Text=focused CharacterOffsetBegin=372 CharacterOffsetEnd=379 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=,] [Text=and CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=CC] [Text=to CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=VB] [Text=honest CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=,] [Text=it CharacterOffsetBegin=399 CharacterOffsetEnd=401 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=VBZ] [Text=funnier CharacterOffsetBegin=404 CharacterOffsetEnd=411 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=.] 
+root(ROOT-0, focused-5)
+det(aim-2, The-1)
+nsubj(focused-5, aim-2)
+cop(focused-5, is-3)
+advmod(focused-5, more-4)
+punct(focused-5, ,-6)
+det(satire-8, the-7)
+nsubj(focused-11, satire-8)
+cop(focused-11, is-9)
+advmod(focused-11, better-10)
+ccomp(focused-5, focused-11)
+punct(focused-5, ,-12)
+cc(focused-5, and-13)
+aux(honest-16, to-14)
+cop(honest-16, be-15)
+conj(focused-5, honest-16)
+punct(honest-16, ,-17)
+nsubj(funnier-20, it-18)
+cop(funnier-20, 's-19)
+dep(honest-16, funnier-20)
+punct(focused-5, .-21)
+

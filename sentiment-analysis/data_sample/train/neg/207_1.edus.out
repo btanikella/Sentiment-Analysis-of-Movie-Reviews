@@ -1,0 +1,131 @@
+Sentence #1 (17 tokens):
+This movie is a 90 minute Ramones concert with brief periods of stupidity and absolute boredom.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=DT] [Text=90 CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=CD] [Text=minute CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=Ramones CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=NNPS] [Text=concert CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=brief CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=periods CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN] [Text=stupidity CharacterOffsetBegin=68 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=CC] [Text=absolute CharacterOffsetBegin=82 CharacterOffsetEnd=90 PartOfSpeech=JJ] [Text=boredom CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=.] 
+root(ROOT-0, concert-8)
+det(movie-2, This-1)
+nsubj(concert-8, movie-2)
+cop(concert-8, is-3)
+det(concert-8, a-4)
+number(minute-6, 90-5)
+amod(concert-8, minute-6)
+nn(concert-8, Ramones-7)
+prep(concert-8, with-9)
+amod(periods-11, brief-10)
+pobj(with-9, periods-11)
+prep(periods-11, of-12)
+nn(boredom-16, stupidity-13)
+cc(stupidity-13, and-14)
+conj(stupidity-13, absolute-15)
+pobj(of-12, boredom-16)
+punct(concert-8, .-17)
+
+Sentence #2 (29 tokens):
+What kind of high school is this anyway?Unless you are a major Ramones fan, DO NOT and I repeat DO NOT waste your time like I did.
+[Text=What CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=WDT] [Text=kind CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=high CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=JJ] [Text=school CharacterOffsetBegin=122 CharacterOffsetEnd=128 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=anyway?Unless CharacterOffsetBegin=137 CharacterOffsetEnd=150 PartOfSpeech=JJ] [Text=you CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=major CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=JJ] [Text=Ramones CharacterOffsetBegin=167 CharacterOffsetEnd=174 PartOfSpeech=NNPS] [Text=fan CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=,] [Text=DO CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=NNP] [Text=NOT CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=PRP] [Text=repeat CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=VBP] [Text=DO CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=NNP] [Text=NOT CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=NNP] [Text=waste CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, is-6)
+det(kind-2, What-1)
+nsubj(is-6, kind-2)
+prep(kind-2, of-3)
+amod(school-5, high-4)
+pobj(of-3, school-5)
+det(anyway?Unless-8, this-7)
+dep(fan-14, anyway?Unless-8)
+nsubj(fan-14, you-9)
+cop(fan-14, are-10)
+det(fan-14, a-11)
+amod(fan-14, major-12)
+nn(fan-14, Ramones-13)
+dep(is-6, fan-14)
+punct(fan-14, ,-15)
+nn(NOT-17, DO-16)
+conj(fan-14, NOT-17)
+cc(fan-14, and-18)
+nsubj(repeat-20, I-19)
+conj(fan-14, repeat-20)
+dobj(repeat-20, DO-21)
+nsubj(waste-23, NOT-22)
+rcmod(DO-21, waste-23)
+poss(time-25, your-24)
+dobj(waste-23, time-25)
+mark(did-28, like-26)
+nsubj(did-28, I-27)
+advcl(waste-23, did-28)
+punct(is-6, .-29)
+
+Sentence #3 (9 tokens):
+This is utterly unwatchable from start to finish.
+[Text=This CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=VBZ] [Text=utterly CharacterOffsetBegin=247 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=unwatchable CharacterOffsetBegin=255 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=from CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=IN] [Text=start CharacterOffsetBegin=272 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=TO] [Text=finish CharacterOffsetBegin=281 CharacterOffsetEnd=287 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=.] 
+root(ROOT-0, unwatchable-4)
+nsubj(unwatchable-4, This-1)
+cop(unwatchable-4, is-2)
+advmod(unwatchable-4, utterly-3)
+prep(unwatchable-4, from-5)
+pobj(from-5, start-6)
+aux(finish-8, to-7)
+infmod(start-6, finish-8)
+punct(unwatchable-4, .-9)
+
+Sentence #4 (8 tokens):
+This movie should be called Ramone Fever.
+[Text=This CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=304 CharacterOffsetEnd=310 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=VB] [Text=called CharacterOffsetBegin=314 CharacterOffsetEnd=320 PartOfSpeech=VBN] [Text=Ramone CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=NNP] [Text=Fever CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=.] 
+root(ROOT-0, called-5)
+det(movie-2, This-1)
+nsubjpass(called-5, movie-2)
+aux(called-5, should-3)
+auxpass(called-5, be-4)
+nn(Fever-7, Ramone-6)
+xcomp(called-5, Fever-7)
+punct(called-5, .-8)
+
+Sentence #5 (9 tokens):
+Everyone appears to like them in this movie.
+[Text=Everyone CharacterOffsetBegin=339 CharacterOffsetEnd=347 PartOfSpeech=NN] [Text=appears CharacterOffsetBegin=348 CharacterOffsetEnd=355 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=TO] [Text=like CharacterOffsetBegin=359 CharacterOffsetEnd=363 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=.] 
+root(ROOT-0, appears-2)
+nsubj(appears-2, Everyone-1)
+aux(like-4, to-3)
+xcomp(appears-2, like-4)
+dobj(like-4, them-5)
+prep(like-4, in-6)
+det(movie-8, this-7)
+pobj(in-6, movie-8)
+punct(appears-2, .-9)
+
+Sentence #6 (12 tokens):
+There is not a plot to be found in this flick.
+[Text=There CharacterOffsetBegin=388 CharacterOffsetEnd=393 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=VB] [Text=found CharacterOffsetBegin=414 CharacterOffsetEnd=419 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=DT] [Text=flick CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+neg(is-2, not-3)
+det(plot-5, a-4)
+nsubj(is-2, plot-5)
+aux(found-8, to-6)
+auxpass(found-8, be-7)
+infmod(plot-5, found-8)
+prep(found-8, in-9)
+det(flick-11, this-10)
+pobj(in-9, flick-11)
+punct(is-2, .-12)
+
+Sentence #7 (19 tokens):
+As far as teen comedies go, you are scraping the bottom of the barrel with this one.
+[Text=As CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=far CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=446 CharacterOffsetEnd=448 PartOfSpeech=IN] [Text=teen CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=NN] [Text=comedies CharacterOffsetBegin=454 CharacterOffsetEnd=462 PartOfSpeech=NNS] [Text=go CharacterOffsetBegin=463 CharacterOffsetEnd=465 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=,] [Text=you CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=VBP] [Text=scraping CharacterOffsetBegin=475 CharacterOffsetEnd=483 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=DT] [Text=bottom CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=495 CharacterOffsetEnd=497 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=DT] [Text=barrel CharacterOffsetBegin=502 CharacterOffsetEnd=508 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=509 CharacterOffsetEnd=513 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=514 CharacterOffsetEnd=518 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=522 CharacterOffsetEnd=523 PartOfSpeech=.] 
+root(ROOT-0, scraping-10)
+advmod(far-2, As-1)
+advmod(scraping-10, far-2)
+mark(go-6, as-3)
+nn(comedies-5, teen-4)
+nsubj(go-6, comedies-5)
+ccomp(far-2, go-6)
+punct(scraping-10, ,-7)
+nsubj(scraping-10, you-8)
+aux(scraping-10, are-9)
+det(bottom-12, the-11)
+dobj(scraping-10, bottom-12)
+prep(bottom-12, of-13)
+det(barrel-15, the-14)
+pobj(of-13, barrel-15)
+prep(scraping-10, with-16)
+det(one-18, this-17)
+pobj(with-16, one-18)
+punct(scraping-10, .-19)
+

@@ -1,0 +1,102 @@
+Sentence #1 (7 tokens):
+Homeward Bound is a beautiful film.
+[Text=Homeward CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNP] [Text=Bound CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=VBN] [Text=is CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=beautiful CharacterOffsetBegin=24 CharacterOffsetEnd=33 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nn(Bound-2, Homeward-1)
+nsubj(film-6, Bound-2)
+cop(film-6, is-3)
+det(film-6, a-4)
+amod(film-6, beautiful-5)
+punct(film-6, .-7)
+
+Sentence #2 (27 tokens):
+Y'know the part where Shadow falls down the ditch... thingy, I *cried*, considering I was only six, I cried!
+[Text=Y' CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=NN] [Text=know CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=part CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=WRB] [Text=Shadow CharacterOffsetBegin=66 CharacterOffsetEnd=72 PartOfSpeech=NNP] [Text=falls CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=VBZ] [Text=down CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=ditch CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=:] [Text=thingy CharacterOffsetBegin=97 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=,] [Text=I CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=PRP] [Text=* CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=SYM] [Text=cried CharacterOffsetBegin=108 CharacterOffsetEnd=113 PartOfSpeech=VBD] [Text=* CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=SYM] [Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=,] [Text=considering CharacterOffsetBegin=116 CharacterOffsetEnd=127 PartOfSpeech=VBG] [Text=I CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=VBD] [Text=only CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=RB] [Text=six CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=,] [Text=I CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=PRP] [Text=cried CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=VBD] [Text=! CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=.] 
+root(ROOT-0, cried-26)
+nsubj(know-2, Y'-1)
+ccomp(cried-26, know-2)
+det(part-4, the-3)
+dobj(know-2, part-4)
+advmod(falls-7, where-5)
+nsubj(falls-7, Shadow-6)
+rcmod(part-4, falls-7)
+prt(falls-7, down-8)
+det(ditch-10, the-9)
+dobj(falls-7, ditch-10)
+punct(ditch-10, ...-11)
+dep(ditch-10, thingy-12)
+punct(cried-16, ,-13)
+nsubj(cried-16, I-14)
+dep(cried-16, *-15)
+dep(thingy-12, cried-16)
+dep(cried-16, *-17)
+punct(cried-16, ,-18)
+partmod(thingy-12, considering-19)
+nsubj(six-23, I-20)
+cop(six-23, was-21)
+advmod(six-23, only-22)
+ccomp(considering-19, six-23)
+punct(cried-26, ,-24)
+nsubj(cried-26, I-25)
+punct(cried-26, !-27)
+
+Sentence #3 (9 tokens):
+it takes a lot to make me cry!
+[Text=it CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=PRP] [Text=takes CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=PRP] [Text=cry CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=VB] [Text=! CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=.] 
+root(ROOT-0, takes-2)
+nsubj(takes-2, it-1)
+det(lot-4, a-3)
+dobj(takes-2, lot-4)
+aux(make-6, to-5)
+xcomp(takes-2, make-6)
+nsubj(cry-8, me-7)
+ccomp(make-6, cry-8)
+punct(takes-2, !-9)
+
+Sentence #4 (9 tokens):
+The dogs and the cat are excellently trained.
+[Text=The CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=DT] [Text=dogs CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=DT] [Text=cat CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=VBP] [Text=excellently CharacterOffsetBegin=217 CharacterOffsetEnd=228 PartOfSpeech=RB] [Text=trained CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.] 
+root(ROOT-0, trained-8)
+det(dogs-2, The-1)
+nsubjpass(trained-8, dogs-2)
+cc(dogs-2, and-3)
+det(cat-5, the-4)
+conj(dogs-2, cat-5)
+auxpass(trained-8, are-6)
+advmod(trained-8, excellently-7)
+punct(trained-8, .-9)
+
+Sentence #5 (29 tokens):
+A nice family movie, *not* for completely hardened non-fluffy people or animal-haters but could for soft-as-crap a.k.a.
+    people like me.A good film overall, 10/10!
+[Text=A CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=249 CharacterOffsetEnd=255 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=,] [Text=* CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=SYM] [Text=not CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=RB] [Text=* CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=SYM] [Text=for CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=IN] [Text=completely CharacterOffsetBegin=273 CharacterOffsetEnd=283 PartOfSpeech=RB] [Text=hardened CharacterOffsetBegin=284 CharacterOffsetEnd=292 PartOfSpeech=VBN] [Text=non-fluffy CharacterOffsetBegin=293 CharacterOffsetEnd=303 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=304 CharacterOffsetEnd=310 PartOfSpeech=NNS] [Text=or CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=CC] [Text=animal-haters CharacterOffsetBegin=314 CharacterOffsetEnd=327 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=CC] [Text=could CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=MD] [Text=for CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=IN] [Text=soft-as-crap CharacterOffsetBegin=342 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=a.k.a. CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=IN] [Text=me.A CharacterOffsetBegin=378 CharacterOffsetEnd=382 PartOfSpeech=NN] [Text=good CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=overall CharacterOffsetBegin=393 CharacterOffsetEnd=400 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=400 CharacterOffsetEnd=401 PartOfSpeech=,] [Text=10/10 CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=CD] [Text=! CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=.] 
+root(ROOT-0, movie-4)
+det(movie-4, A-1)
+amod(movie-4, nice-2)
+nn(movie-4, family-3)
+punct(movie-4, ,-5)
+dep(*-8, *-6)
+neg(*-8, not-7)
+dep(movie-4, *-8)
+prep(*-8, for-9)
+advmod(hardened-11, completely-10)
+amod(people-13, hardened-11)
+amod(people-13, non-fluffy-12)
+pobj(for-9, people-13)
+cc(people-13, or-14)
+conj(people-13, animal-haters-15)
+cc(*-8, but-16)
+conj(*-8, could-17)
+prep(could-17, for-18)
+amod(people-21, soft-as-crap-19)
+amod(people-21, a.k.a.-20)
+pobj(for-18, people-21)
+prep(people-21, like-22)
+amod(film-25, me.A-23)
+amod(film-25, good-24)
+pobj(like-22, film-25)
+advmod(film-25, overall-26)
+punct(film-25, ,-27)
+amod(film-25, 10/10-28)
+punct(movie-4, !-29)
+

@@ -1,0 +1,96 @@
+Sentence #1 (3 tokens):
+COME ON!!!
+[Text=COME CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=VB] [Text=ON CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=IN] [Text=!!! CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=CD] 
+root(ROOT-0, COME-1)
+dep(COME-1, ON-2)
+num(ON-2, !!!-3)
+
+Sentence #2 (6 tokens):
+They did that on purpose!!
+[Text=They CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=on CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=purpose CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=!! CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=CD] 
+root(ROOT-0, did-2)
+nsubj(did-2, They-1)
+dobj(did-2, that-3)
+prep(did-2, on-4)
+pobj(on-4, purpose-5)
+num(purpose-5, !!-6)
+
+Sentence #3 (36 tokens):
+Two of my current faves on TV (Meloni from "Oz" and "L and O-SVU" and Janel from "West Wing") hook up for a nice little sleeper/character study.
+[Text=Two CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=PRP$] [Text=current CharacterOffsetBegin=60 CharacterOffsetEnd=67 PartOfSpeech=JJ] [Text=faves CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=-LRB-] [Text=Meloni CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=NNP] [Text=from CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=``] [Text=Oz CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=''] [Text=and CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=``] [Text=L CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=CC] [Text=O-SVU CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=''] [Text=and CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=CC] [Text=Janel CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=NNP] [Text=from CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=``] [Text=West CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=NNP] [Text=Wing CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=''] [Text=-RRB- CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=-RRB-] [Text=hook CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=up CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=JJ] [Text=little CharacterOffsetBegin=163 CharacterOffsetEnd=169 PartOfSpeech=JJ] [Text=sleeper/character CharacterOffsetBegin=170 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=study CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=.] 
+root(ROOT-0, hook-28)
+num(hook-28, Two-1)
+prep(Two-1, of-2)
+poss(faves-5, my-3)
+amod(faves-5, current-4)
+pobj(of-2, faves-5)
+prep(faves-5, on-6)
+nn(Meloni-9, TV-7)
+punct(Meloni-9, -LRB--8)
+pobj(on-6, Meloni-9)
+prep(Two-1, from-10)
+punct(Oz-12, ``-11)
+pobj(from-10, Oz-12)
+punct(Oz-12, ''-13)
+cc(Oz-12, and-14)
+punct(Oz-12, ``-15)
+conj(Oz-12, L-16)
+cc(Oz-12, and-17)
+conj(Oz-12, O-SVU-18)
+punct(Oz-12, ''-19)
+cc(Oz-12, and-20)
+conj(Oz-12, Janel-21)
+prep(Janel-21, from-22)
+punct(from-22, ``-23)
+nn(Wing-25, West-24)
+pobj(from-22, Wing-25)
+punct(from-22, ''-26)
+punct(hook-28, -RRB--27)
+prep(hook-28, up-29)
+pcomp(up-29, for-30)
+det(study-35, a-31)
+amod(study-35, nice-32)
+amod(study-35, little-33)
+nn(study-35, sleeper/character-34)
+pobj(for-30, study-35)
+punct(hook-28, .-36)
+
+Sentence #4 (14 tokens):
+Plot's nothing fancy, but the acting is right on the mark.
+[Text=Plot CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=POS] [Text=nothing CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=fancy CharacterOffsetBegin=214 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=,] [Text=but CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=229 CharacterOffsetEnd=235 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=VBZ] [Text=right CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=DT] [Text=mark CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=.] 
+root(ROOT-0, fancy-4)
+poss(fancy-4, Plot-1)
+possessive(Plot-1, 's-2)
+nn(fancy-4, nothing-3)
+punct(fancy-4, ,-5)
+cc(fancy-4, but-6)
+det(acting-8, the-7)
+nsubj(right-10, acting-8)
+cop(right-10, is-9)
+conj(fancy-4, right-10)
+prep(right-10, on-11)
+det(mark-13, the-12)
+pobj(on-11, mark-13)
+punct(fancy-4, .-14)
+
+Sentence #5 (9 tokens):
+Tim Busfield shows up for some neat bits.
+[Text=Tim CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=NNP] [Text=Busfield CharacterOffsetBegin=266 CharacterOffsetEnd=274 PartOfSpeech=NNP] [Text=shows CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=neat CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=JJ] [Text=bits CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=.] 
+root(ROOT-0, shows-3)
+nn(Busfield-2, Tim-1)
+nsubj(shows-3, Busfield-2)
+prt(shows-3, up-4)
+prep(shows-3, for-5)
+det(bits-8, some-6)
+amod(bits-8, neat-7)
+pobj(for-5, bits-8)
+punct(shows-3, .-9)
+
+Sentence #6 (4 tokens):
+Worth a look.
+[Text=Worth CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=NNP] [Text=a CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=DT] [Text=look CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=.] 
+root(ROOT-0, Worth-1)
+det(look-3, a-2)
+dep(Worth-1, look-3)
+punct(Worth-1, .-4)
+

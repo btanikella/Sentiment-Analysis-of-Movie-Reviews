@@ -1,0 +1,96 @@
+Sentence #1 (16 tokens):
+I rented this tape a couple of years ago, and boy did it suck.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=rented CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=tape CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=DT] [Text=couple CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN] [Text=years CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NNS] [Text=ago CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=,] [Text=and CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=CC] [Text=boy CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=PRP] [Text=suck CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=.] 
+root(ROOT-0, rented-2)
+nsubj(rented-2, I-1)
+det(tape-4, this-3)
+dobj(rented-2, tape-4)
+det(couple-6, a-5)
+nsubj(did-13, couple-6)
+prep(couple-6, of-7)
+npadvmod(ago-9, years-8)
+pcomp(of-7, ago-9)
+punct(couple-6, ,-10)
+cc(couple-6, and-11)
+conj(couple-6, boy-12)
+rcmod(tape-4, did-13)
+nsubj(suck-15, it-14)
+ccomp(did-13, suck-15)
+punct(rented-2, .-16)
+
+Sentence #2 (34 tokens):
+From the commercials, I was lead to believe that this was a movie about a guy who had no no luck with women, and that was where the comedy would lie.
+[Text=From CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=commercials CharacterOffsetBegin=80 CharacterOffsetEnd=91 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=,] [Text=I CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=VBD] [Text=lead CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=TO] [Text=believe CharacterOffsetBegin=107 CharacterOffsetEnd=114 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=WP] [Text=had CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=no CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=luck CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=IN] [Text=women CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=,] [Text=and CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=VBD] [Text=where CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=DT] [Text=comedy CharacterOffsetBegin=203 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=would CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=MD] [Text=lie CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=.] 
+root(ROOT-0, lead-7)
+prep(lead-7, From-1)
+det(commercials-3, the-2)
+pobj(From-1, commercials-3)
+punct(lead-7, ,-4)
+nsubj(lead-7, I-5)
+cop(lead-7, was-6)
+aux(believe-9, to-8)
+xcomp(lead-7, believe-9)
+mark(movie-14, that-10)
+nsubj(movie-14, this-11)
+cop(movie-14, was-12)
+det(movie-14, a-13)
+ccomp(believe-9, movie-14)
+prep(movie-14, about-15)
+det(guy-17, a-16)
+pobj(about-15, guy-17)
+nsubj(had-19, who-18)
+rcmod(guy-17, had-19)
+det(luck-22, no-20)
+det(luck-22, no-21)
+dobj(had-19, luck-22)
+prep(had-19, with-23)
+pobj(with-23, women-24)
+punct(movie-14, ,-25)
+cc(movie-14, and-26)
+nsubj(was-28, that-27)
+conj(movie-14, was-28)
+advmod(lie-33, where-29)
+det(comedy-31, the-30)
+nsubj(lie-33, comedy-31)
+aux(lie-33, would-32)
+advcl(was-28, lie-33)
+punct(lead-7, .-34)
+
+Sentence #3 (5 tokens):
+Boy was I wrong.
+[Text=Boy CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=PRP] [Text=wrong CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=.] 
+root(ROOT-0, wrong-4)
+nsubj(wrong-4, Boy-1)
+cop(wrong-4, was-2)
+nsubj(wrong-4, I-3)
+punct(wrong-4, .-5)
+
+Sentence #4 (12 tokens):
+The jokes were vulgar, and they were just not funny.
+[Text=The CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=DT] [Text=jokes CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=VBD] [Text=vulgar CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=,] [Text=and CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=.] 
+root(ROOT-0, vulgar-4)
+det(jokes-2, The-1)
+nsubj(vulgar-4, jokes-2)
+cop(vulgar-4, were-3)
+punct(vulgar-4, ,-5)
+cc(vulgar-4, and-6)
+nsubj(funny-11, they-7)
+cop(funny-11, were-8)
+advmod(funny-11, just-9)
+neg(funny-11, not-10)
+conj(vulgar-4, funny-11)
+punct(vulgar-4, .-12)
+
+Sentence #5 (4 tokens):
+Don't bother.
+[Text=Do CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=RB] [Text=bother CharacterOffsetBegin=309 CharacterOffsetEnd=315 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=.] 
+root(ROOT-0, bother-3)
+aux(bother-3, Do-1)
+neg(bother-3, n't-2)
+punct(bother-3, .-4)
+
+Sentence #6 (1 tokens):
+1/10
+[Text=1/10 CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=CD] 
+root(ROOT-0, 1/10-1)
+

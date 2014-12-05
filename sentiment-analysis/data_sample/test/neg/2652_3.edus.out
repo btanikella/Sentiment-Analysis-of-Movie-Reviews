@@ -1,0 +1,99 @@
+Sentence #1 (10 tokens):
+Two things -- too long and totally lacked credibility.
+[Text=Two CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=CD] [Text=things CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=NNS] [Text=-- CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=:] [Text=too CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=RB] [Text=long CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=CC] [Text=totally CharacterOffsetBegin=31 CharacterOffsetEnd=38 PartOfSpeech=RB] [Text=lacked CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VBD] [Text=credibility CharacterOffsetBegin=46 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=.] 
+root(ROOT-0, things-2)
+num(things-2, Two-1)
+punct(long-5, ---3)
+advmod(long-5, too-4)
+dep(things-2, long-5)
+cc(long-5, and-6)
+conj(long-5, totally-7)
+dep(long-5, lacked-8)
+dobj(lacked-8, credibility-9)
+punct(things-2, .-10)
+
+Sentence #2 (14 tokens):
+This movie didn't make any sense and was excrutiating to sit through.
+[Text=This CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=sense CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=VBD] [Text=excrutiating CharacterOffsetBegin=104 CharacterOffsetEnd=116 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=TO] [Text=sit CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=.] 
+root(ROOT-0, make-5)
+det(movie-2, This-1)
+nsubj(make-5, movie-2)
+aux(make-5, did-3)
+neg(make-5, n't-4)
+det(sense-7, any-6)
+dobj(make-5, sense-7)
+cc(make-5, and-8)
+aux(excrutiating-10, was-9)
+conj(make-5, excrutiating-10)
+aux(sit-12, to-11)
+xcomp(excrutiating-10, sit-12)
+prt(sit-12, through-13)
+punct(make-5, .-14)
+
+Sentence #3 (19 tokens):
+I am usually pretty patient, but man...
+    It just doesn't keep your attention at all!
+[Text=I CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=VBP] [Text=usually CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=RB] [Text=pretty CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=RB] [Text=patient CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=,] [Text=but CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=CC] [Text=man CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=:] [Text=It CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=does CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=RB] [Text=keep CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=PRP$] [Text=attention CharacterOffsetBegin=207 CharacterOffsetEnd=216 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=DT] [Text=! CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, patient-5)
+nsubj(patient-5, I-1)
+cop(patient-5, am-2)
+advmod(patient-5, usually-3)
+advmod(patient-5, pretty-4)
+punct(patient-5, ,-6)
+cc(patient-5, but-7)
+conj(patient-5, man-8)
+punct(patient-5, ...-9)
+nsubj(keep-14, It-10)
+advmod(keep-14, just-11)
+aux(keep-14, does-12)
+neg(keep-14, n't-13)
+dep(patient-5, keep-14)
+poss(attention-16, your-15)
+dobj(keep-14, attention-16)
+prep(keep-14, at-17)
+pobj(at-17, all-18)
+punct(patient-5, !-19)
+
+Sentence #4 (9 tokens):
+I think I am being nice here even!
+[Text=I CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=VBP] [Text=I CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=VBP] [Text=being CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=VBG] [Text=nice CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=JJ] [Text=here CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+nsubj(nice-6, I-3)
+aux(nice-6, am-4)
+cop(nice-6, being-5)
+ccomp(think-2, nice-6)
+advmod(nice-6, here-7)
+advmod(nice-6, even-8)
+punct(think-2, !-9)
+
+Sentence #5 (19 tokens):
+You keep thinking it's almost over only to find out it's still got another half hour!
+[Text=You CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=PRP] [Text=keep CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=VBP] [Text=thinking CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=VBZ] [Text=almost CharacterOffsetBegin=291 CharacterOffsetEnd=297 PartOfSpeech=RB] [Text=over CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=IN] [Text=only CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=TO] [Text=find CharacterOffsetBegin=311 CharacterOffsetEnd=315 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=RP] [Text=it CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=VBZ] [Text=still CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=VBN] [Text=another CharacterOffsetBegin=335 CharacterOffsetEnd=342 PartOfSpeech=DT] [Text=half CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=JJ] [Text=hour CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.] 
+root(ROOT-0, keep-2)
+nsubj(keep-2, You-1)
+xcomp(keep-2, thinking-3)
+nsubj('s-5, it-4)
+ccomp(thinking-3, 's-5)
+advmod(over-7, almost-6)
+prep('s-5, over-7)
+advmod(find-10, only-8)
+aux(find-10, to-9)
+pcomp(over-7, find-10)
+prt(find-10, out-11)
+nsubjpass(got-15, it-12)
+auxpass(got-15, 's-13)
+advmod(got-15, still-14)
+ccomp(find-10, got-15)
+det(hour-18, another-16)
+amod(hour-18, half-17)
+tmod(got-15, hour-18)
+punct(keep-2, !-19)
+
+Sentence #6 (3 tokens):
+Good actors.
+[Text=Good CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=.] 
+root(ROOT-0, actors-2)
+amod(actors-2, Good-1)
+punct(actors-2, .-3)
+

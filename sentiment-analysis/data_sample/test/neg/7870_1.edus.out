@@ -1,0 +1,122 @@
+Sentence #1 (4 tokens):
+This movie sucks.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=sucks CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, sucks-3)
+det(movie-2, This-1)
+nsubj(sucks-3, movie-2)
+punct(sucks-3, .-4)
+
+Sentence #2 (37 tokens):
+The acting is worse than in the films we made when we were 10 years old with a camcorder, the effects look like some 80's computer game and the plot is worse than terrible.
+[Text=The CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=VBZ] [Text=worse CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=in CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=films CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NNS] [Text=we CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VBD] [Text=when CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=WRB] [Text=we CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=VBD] [Text=10 CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NNS] [Text=old CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=camcorder CharacterOffsetBegin=105 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=,] [Text=the CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=effects CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=NNS] [Text=look CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=VBP] [Text=like CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=80 CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=POS] [Text=computer CharacterOffsetBegin=148 CharacterOffsetEnd=156 PartOfSpeech=NN] [Text=game CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=VBZ] [Text=worse CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=IN] [Text=terrible CharacterOffsetBegin=189 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=.] 
+root(ROOT-0, worse-34)
+det(acting-2, The-1)
+nsubj(worse-4, acting-2)
+cop(worse-4, is-3)
+ccomp(look-23, worse-4)
+prep(worse-4, than-5)
+pcomp(than-5, in-6)
+det(films-8, the-7)
+pobj(in-6, films-8)
+nsubj(made-10, we-9)
+rcmod(films-8, made-10)
+advmod(years-15, when-11)
+nsubj(years-15, we-12)
+cop(years-15, were-13)
+num(years-15, 10-14)
+advcl(made-10, years-15)
+advmod(years-15, old-16)
+prep(years-15, with-17)
+det(camcorder-19, a-18)
+pobj(with-17, camcorder-19)
+punct(look-23, ,-20)
+det(effects-22, the-21)
+nsubj(look-23, effects-22)
+nsubj(worse-34, look-23)
+prep(look-23, like-24)
+det(game-29, some-25)
+poss(game-29, 80-26)
+possessive(80-26, 's-27)
+nn(game-29, computer-28)
+pobj(like-24, game-29)
+cc(game-29, and-30)
+det(plot-32, the-31)
+conj(game-29, plot-32)
+cop(worse-34, is-33)
+prep(worse-34, than-35)
+pcomp(than-35, terrible-36)
+punct(worse-34, .-37)
+
+Sentence #3 (11 tokens):
+Even the worst Van Damme movies make this look crappy.
+[Text=Even CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=JJS] [Text=Van CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=NNP] [Text=Damme CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=NNP] [Text=movies CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=NNS] [Text=make CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=look CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=crappy CharacterOffsetBegin=250 CharacterOffsetEnd=256 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=.] 
+root(ROOT-0, make-7)
+advmod(movies-6, Even-1)
+det(movies-6, the-2)
+amod(movies-6, worst-3)
+nn(movies-6, Van-4)
+nn(movies-6, Damme-5)
+nsubj(make-7, movies-6)
+nsubj(look-9, this-8)
+ccomp(make-7, look-9)
+acomp(look-9, crappy-10)
+punct(make-7, .-11)
+
+Sentence #4 (18 tokens):
+The accent and speech rhythm of the 'bad guys' is so bad it's funny.
+[Text=The CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=DT] [Text=accent CharacterOffsetBegin=266 CharacterOffsetEnd=272 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC] [Text=speech CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=rhythm CharacterOffsetBegin=284 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=``] [Text=bad CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=NNS] [Text=' CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=POS] [Text=is CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=VBZ] [Text=funny CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=.] 
+root(ROOT-0, bad-14)
+det(accent-2, The-1)
+nsubj(bad-14, accent-2)
+cc(accent-2, and-3)
+conj(accent-2, speech-4)
+partmod(accent-2, rhythm-5)
+prep(rhythm-5, of-6)
+det(guys-10, the-7)
+punct(guys-10, `-8)
+amod(guys-10, bad-9)
+pobj(of-6, guys-10)
+possessive(guys-10, '-11)
+cop(bad-14, is-12)
+advmod(bad-14, so-13)
+nsubj(funny-17, it-15)
+cop(funny-17, 's-16)
+ccomp(bad-14, funny-17)
+punct(bad-14, .-18)
+
+Sentence #5 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #6 (18 tokens):
+I wouldn't recommend watching this unless you are a big time fan one of the actors.
+[Text=I CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=RB] [Text=recommend CharacterOffsetBegin=343 CharacterOffsetEnd=352 PartOfSpeech=VB] [Text=watching CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=DT] [Text=unless CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=DT] [Text=big CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=fan CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=NN] [Text=one CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=.] 
+root(ROOT-0, recommend-4)
+nsubj(recommend-4, I-1)
+aux(recommend-4, would-2)
+neg(recommend-4, n't-3)
+xcomp(recommend-4, watching-5)
+dobj(watching-5, this-6)
+mark(fan-13, unless-7)
+nsubj(fan-13, you-8)
+cop(fan-13, are-9)
+det(fan-13, a-10)
+amod(fan-13, big-11)
+nn(fan-13, time-12)
+advcl(recommend-4, fan-13)
+dobj(fan-13, one-14)
+prep(one-14, of-15)
+det(actors-17, the-16)
+pobj(of-15, actors-17)
+punct(recommend-4, .-18)
+
+Sentence #7 (5 tokens):
+1 out of 10.
+[Text=1 CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=.] 
+root(ROOT-0, 1-1)
+prep(1-1, out-2)
+pcomp(out-2, of-3)
+pobj(of-3, 10-4)
+punct(1-1, .-5)
+

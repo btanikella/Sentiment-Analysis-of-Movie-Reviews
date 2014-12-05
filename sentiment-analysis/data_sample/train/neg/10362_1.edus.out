@@ -1,0 +1,194 @@
+Sentence #1 (2 tokens):
+Disney?
+[Text=Disney CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=.] 
+root(ROOT-0, Disney-1)
+punct(Disney-1, ?-2)
+
+Sentence #2 (3 tokens):
+What happened?
+[Text=What CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=WP] [Text=happened CharacterOffsetBegin=21 CharacterOffsetEnd=29 PartOfSpeech=VBD] [Text=? CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.] 
+root(ROOT-0, happened-2)
+nsubj(happened-2, What-1)
+punct(happened-2, ?-3)
+
+Sentence #3 (18 tokens):
+I really wish the movie had been set in the 60's ;like the book was.
+[Text=I CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=RB] [Text=wish CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=53 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=VBD] [Text=been CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=VBN] [Text=set CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=DT] [Text=60 CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=POS] [Text=; CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=:] [Text=like CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT] [Text=book CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=.] 
+root(ROOT-0, wish-3)
+nsubj(wish-3, I-1)
+advmod(wish-3, really-2)
+det(movie-5, the-4)
+nsubjpass(set-8, movie-5)
+aux(set-8, had-6)
+auxpass(set-8, been-7)
+ccomp(wish-3, set-8)
+prep(set-8, in-9)
+det(60-11, the-10)
+pobj(in-9, 60-11)
+possessive(60-11, 's-12)
+punct(wish-3, ;-13)
+prep(was-17, like-14)
+det(book-16, the-15)
+pobj(like-14, book-16)
+parataxis(wish-3, was-17)
+punct(wish-3, .-18)
+
+Sentence #4 (49 tokens):
+And I really could have dealt with cheap special effects in order to save the budget for a more accurate adaption.....
+    I'm glad that, maybe, someone might be influenced to read the books..... but, The Man With Red Eyes interchangeable as IT?
+[Text=And CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=RB] [Text=could CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=VB] [Text=dealt CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=IN] [Text=cheap CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=JJ] [Text=special CharacterOffsetBegin=149 CharacterOffsetEnd=156 PartOfSpeech=JJ] [Text=effects CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=IN] [Text=order CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=TO] [Text=save CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=budget CharacterOffsetBegin=186 CharacterOffsetEnd=192 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=RBR] [Text=accurate CharacterOffsetBegin=204 CharacterOffsetEnd=212 PartOfSpeech=JJ] [Text=adaption CharacterOffsetBegin=213 CharacterOffsetEnd=221 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=:] [Text=I CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=VBP] [Text=glad CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=,] [Text=maybe CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=,] [Text=someone CharacterOffsetBegin=253 CharacterOffsetEnd=260 PartOfSpeech=NN] [Text=might CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=VB] [Text=influenced CharacterOffsetBegin=270 CharacterOffsetEnd=280 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=TO] [Text=read CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=books CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=NNS] [Text=... CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=:] [Text=but CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=,] [Text=The CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=DT] [Text=Man CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=With CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=IN] [Text=Red CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=NNP] [Text=Eyes CharacterOffsetBegin=326 CharacterOffsetEnd=330 PartOfSpeech=NNS] [Text=interchangeable CharacterOffsetBegin=331 CharacterOffsetEnd=346 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=IN] [Text=IT CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.] 
+root(ROOT-0, dealt-6)
+cc(dealt-6, And-1)
+nsubj(dealt-6, I-2)
+advmod(dealt-6, really-3)
+aux(dealt-6, could-4)
+aux(dealt-6, have-5)
+prep(dealt-6, with-7)
+amod(effects-10, cheap-8)
+amod(effects-10, special-9)
+pobj(with-7, effects-10)
+mark(save-14, in-11)
+dep(save-14, order-12)
+aux(save-14, to-13)
+infmod(effects-10, save-14)
+det(budget-16, the-15)
+dobj(save-14, budget-16)
+prep(save-14, for-17)
+det(adaption-21, a-18)
+advmod(accurate-20, more-19)
+amod(adaption-21, accurate-20)
+pobj(for-17, adaption-21)
+punct(dealt-6, ...-22)
+nsubj(glad-25, I-23)
+cop(glad-25, 'm-24)
+parataxis(dealt-6, glad-25)
+mark(influenced-33, that-26)
+punct(influenced-33, ,-27)
+advmod(influenced-33, maybe-28)
+punct(influenced-33, ,-29)
+nsubjpass(influenced-33, someone-30)
+aux(influenced-33, might-31)
+auxpass(influenced-33, be-32)
+ccomp(glad-25, influenced-33)
+aux(read-35, to-34)
+xcomp(influenced-33, read-35)
+det(books-37, the-36)
+dobj(read-35, books-37)
+punct(dealt-6, ...-38)
+cc(dealt-6, but-39)
+punct(dealt-6, ,-40)
+det(Man-42, The-41)
+dobj(dealt-6, Man-42)
+prep(Man-42, With-43)
+nn(interchangeable-46, Red-44)
+nn(interchangeable-46, Eyes-45)
+pobj(With-43, interchangeable-46)
+prep(interchangeable-46, as-47)
+pobj(as-47, IT-48)
+punct(dealt-6, ?-49)
+
+Sentence #5 (9 tokens):
+And what's up with the volcanic upheaval?
+[Text=And CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=CC] [Text=what CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=WP] [Text='s CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=DT] [Text=volcanic CharacterOffsetBegin=381 CharacterOffsetEnd=389 PartOfSpeech=JJ] [Text=upheaval CharacterOffsetBegin=390 CharacterOffsetEnd=398 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=.] 
+root(ROOT-0, 's-3)
+cc('s-3, And-1)
+nsubj('s-3, what-2)
+prt('s-3, up-4)
+prep('s-3, with-5)
+det(upheaval-8, the-6)
+amod(upheaval-8, volcanic-7)
+pobj(with-5, upheaval-8)
+punct('s-3, ?-9)
+
+Sentence #6 (7 tokens):
+Where was THAT in the book?
+[Text=Where CharacterOffsetBegin=404 CharacterOffsetEnd=409 PartOfSpeech=WRB] [Text=was CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=VBD] [Text=THAT CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=WDT] [Text=in CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT] [Text=book CharacterOffsetBegin=426 CharacterOffsetEnd=430 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=.] 
+root(ROOT-0, THAT-3)
+advmod(THAT-3, Where-1)
+dep(THAT-3, was-2)
+prep(THAT-3, in-4)
+det(book-6, the-5)
+pobj(in-4, book-6)
+punct(THAT-3, ?-7)
+
+Sentence #7 (3 tokens):
+Peter Jackson!
+[Text=Peter CharacterOffsetBegin=436 CharacterOffsetEnd=441 PartOfSpeech=NNP] [Text=Jackson CharacterOffsetBegin=442 CharacterOffsetEnd=449 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=.] 
+root(ROOT-0, Jackson-2)
+nn(Jackson-2, Peter-1)
+punct(Jackson-2, !-3)
+
+Sentence #8 (3 tokens):
+Save us!!!!
+[Text=Save CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=VB] [Text=us CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=PRP] [Text=!!!! CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=IN] 
+root(ROOT-0, Save-1)
+dobj(Save-1, us-2)
+dep(Save-1, !!!!-3)
+
+Sentence #9 (18 tokens):
+A long time ago (1978) I heard that there was European version of this film.
+[Text=A CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=DT] [Text=long CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=NN] [Text=ago CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=IN] [Text=-LRB- CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=-LRB-] [Text=1978 CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=-RRB-] [Text=I CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=PRP] [Text=heard CharacterOffsetBegin=496 CharacterOffsetEnd=501 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=507 CharacterOffsetEnd=512 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=VBD] [Text=European CharacterOffsetBegin=517 CharacterOffsetEnd=525 PartOfSpeech=JJ] [Text=version CharacterOffsetBegin=526 CharacterOffsetEnd=533 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=542 CharacterOffsetEnd=546 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=.] 
+root(ROOT-0, heard-9)
+det(time-3, A-1)
+amod(time-3, long-2)
+npadvmod(ago-4, time-3)
+advmod(heard-9, ago-4)
+punct(heard-9, -LRB--5)
+dep(heard-9, 1978-6)
+punct(heard-9, -RRB--7)
+nsubj(heard-9, I-8)
+mark(was-12, that-10)
+expl(was-12, there-11)
+ccomp(heard-9, was-12)
+amod(version-14, European-13)
+nsubj(was-12, version-14)
+prep(version-14, of-15)
+det(film-17, this-16)
+pobj(of-15, film-17)
+punct(heard-9, .-18)
+
+Sentence #10 (8 tokens):
+I sure wish I could id it.
+[Text=I CharacterOffsetBegin=552 CharacterOffsetEnd=553 PartOfSpeech=PRP] [Text=sure CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=RB] [Text=wish CharacterOffsetBegin=559 CharacterOffsetEnd=563 PartOfSpeech=VBP] [Text=I CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=566 CharacterOffsetEnd=571 PartOfSpeech=MD] [Text=id CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=575 CharacterOffsetEnd=577 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=.] 
+root(ROOT-0, wish-3)
+nsubj(wish-3, I-1)
+advmod(wish-3, sure-2)
+nsubj(id-6, I-4)
+aux(id-6, could-5)
+ccomp(wish-3, id-6)
+dobj(id-6, it-7)
+punct(wish-3, .-8)
+
+Sentence #11 (17 tokens):
+I can only imagine it might be closer to the real story than this poor adaption.
+[Text=I CharacterOffsetBegin=583 CharacterOffsetEnd=584 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=MD] [Text=only CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=RB] [Text=imagine CharacterOffsetBegin=594 CharacterOffsetEnd=601 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=PRP] [Text=might CharacterOffsetBegin=605 CharacterOffsetEnd=610 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=611 CharacterOffsetEnd=613 PartOfSpeech=VB] [Text=closer CharacterOffsetBegin=614 CharacterOffsetEnd=620 PartOfSpeech=JJR] [Text=to CharacterOffsetBegin=621 CharacterOffsetEnd=623 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=639 CharacterOffsetEnd=643 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=DT] [Text=poor CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=JJ] [Text=adaption CharacterOffsetBegin=654 CharacterOffsetEnd=662 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=662 CharacterOffsetEnd=663 PartOfSpeech=.] 
+root(ROOT-0, imagine-4)
+nsubj(imagine-4, I-1)
+aux(imagine-4, can-2)
+advmod(imagine-4, only-3)
+nsubj(closer-8, it-5)
+aux(closer-8, might-6)
+cop(closer-8, be-7)
+ccomp(imagine-4, closer-8)
+prep(closer-8, to-9)
+det(story-12, the-10)
+amod(story-12, real-11)
+pobj(to-9, story-12)
+prep(closer-8, than-13)
+det(adaption-16, this-14)
+amod(adaption-16, poor-15)
+pobj(than-13, adaption-16)
+punct(imagine-4, .-17)
+
+Sentence #12 (8 tokens):
+This movie needs to be X'd.
+[Text=This CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=673 CharacterOffsetEnd=678 PartOfSpeech=NN] [Text=needs CharacterOffsetBegin=679 CharacterOffsetEnd=684 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=685 CharacterOffsetEnd=687 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=688 CharacterOffsetEnd=690 PartOfSpeech=VB] [Text=X CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=NN] [Text='d CharacterOffsetBegin=692 CharacterOffsetEnd=694 PartOfSpeech=MD] [Text=. CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=.] 
+root(ROOT-0, needs-3)
+det(movie-2, This-1)
+nsubj(needs-3, movie-2)
+aux('d-7, to-4)
+cop('d-7, be-5)
+nsubj('d-7, X-6)
+xcomp(needs-3, 'd-7)
+punct(needs-3, .-8)
+

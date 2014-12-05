@@ -1,0 +1,83 @@
+Sentence #1 (7 tokens):
+Devil Dog sets your heart racing.
+[Text=Devil CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=Dog CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NNP] [Text=sets CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=VBZ] [Text=your CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=PRP$] [Text=heart CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=racing CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=.] 
+root(ROOT-0, sets-3)
+nn(Dog-2, Devil-1)
+nsubj(sets-3, Dog-2)
+poss(racing-6, your-4)
+nn(racing-6, heart-5)
+dobj(sets-3, racing-6)
+punct(sets-3, .-7)
+
+Sentence #2 (26 tokens):
+It's brilliantly paced, the ending comes like a bolt out of the blue and plunges itself into the very centre of your being.
+[Text=It CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=VBZ] [Text=brilliantly CharacterOffsetBegin=47 CharacterOffsetEnd=58 PartOfSpeech=RB] [Text=paced CharacterOffsetBegin=59 CharacterOffsetEnd=64 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=,] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=VBG] [Text=comes CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=bolt CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=blue CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=CC] [Text=plunges CharacterOffsetBegin=115 CharacterOffsetEnd=122 PartOfSpeech=VBZ] [Text=itself CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text=into CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=JJ] [Text=centre CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=PRP$] [Text=being CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=.] 
+root(ROOT-0, paced-4)
+nsubj(paced-4, It-1)
+cop(paced-4, 's-2)
+advmod(paced-4, brilliantly-3)
+punct(paced-4, ,-5)
+det(ending-7, the-6)
+nsubj(comes-8, ending-7)
+dep(paced-4, comes-8)
+prep(comes-8, like-9)
+det(bolt-11, a-10)
+pobj(like-9, bolt-11)
+prep(bolt-11, out-12)
+pcomp(out-12, of-13)
+det(blue-15, the-14)
+pobj(of-13, blue-15)
+cc(comes-8, and-16)
+conj(comes-8, plunges-17)
+dobj(plunges-17, itself-18)
+prep(plunges-17, into-19)
+det(centre-22, the-20)
+amod(centre-22, very-21)
+pobj(into-19, centre-22)
+prep(centre-22, of-23)
+poss(being-25, your-24)
+pobj(of-23, being-25)
+punct(paced-4, .-26)
+
+Sentence #3 (12 tokens):
+You'll never look at your dog the same way again.
+[Text=You CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=177 CharacterOffsetEnd=182 PartOfSpeech=RB] [Text=look CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=PRP$] [Text=dog CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=again CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=.] 
+root(ROOT-0, look-4)
+nsubj(look-4, You-1)
+aux(look-4, 'll-2)
+neg(look-4, never-3)
+prep(look-4, at-5)
+poss(dog-7, your-6)
+pobj(at-5, dog-7)
+det(way-10, the-8)
+amod(way-10, same-9)
+dobj(look-4, way-10)
+advmod(look-4, again-11)
+punct(look-4, .-12)
+
+Sentence #4 (16 tokens):
+In fact you'll start thinking of having it put down - BY A PRIEST!
+[Text=In CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=IN] [Text=fact CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=MD] [Text=start CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=VB] [Text=thinking CharacterOffsetBegin=245 CharacterOffsetEnd=253 PartOfSpeech=VBG] [Text=of CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=IN] [Text=having CharacterOffsetBegin=257 CharacterOffsetEnd=263 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=PRP] [Text=put CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=VBD] [Text=down CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=RP] [Text=- CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=:] [Text=BY CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=A CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=DT] [Text=PRIEST CharacterOffsetBegin=283 CharacterOffsetEnd=289 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=.] 
+root(ROOT-0, start-5)
+prep(start-5, In-1)
+pobj(In-1, fact-2)
+nsubj(start-5, you-3)
+aux(start-5, 'll-4)
+xcomp(start-5, thinking-6)
+prep(thinking-6, of-7)
+pcomp(of-7, having-8)
+nsubj(put-10, it-9)
+ccomp(having-8, put-10)
+prt(put-10, down-11)
+punct(put-10, --12)
+prep(put-10, BY-13)
+det(PRIEST-15, A-14)
+pobj(BY-13, PRIEST-15)
+punct(start-5, !-16)
+
+Sentence #5 (2 tokens):
+FANTASTIC!
+[Text=FANTASTIC CharacterOffsetBegin=295 CharacterOffsetEnd=304 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=.] 
+root(ROOT-0, FANTASTIC-1)
+punct(FANTASTIC-1, !-2)
+

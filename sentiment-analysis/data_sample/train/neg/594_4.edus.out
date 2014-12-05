@@ -1,0 +1,168 @@
+Sentence #1 (11 tokens):
+I just rented Creep and was not at all impressed.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=rented CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=VBD] [Text=Creep CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=DT] [Text=impressed CharacterOffsetBegin=43 CharacterOffsetEnd=52 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=.] 
+root(ROOT-0, rented-3)
+nsubj(rented-3, I-1)
+advmod(rented-3, just-2)
+dobj(rented-3, Creep-4)
+cc(rented-3, and-5)
+cop(impressed-10, was-6)
+neg(impressed-10, not-7)
+advmod(impressed-10, at-8)
+dep(impressed-10, all-9)
+conj(rented-3, impressed-10)
+punct(rented-3, .-11)
+
+Sentence #2 (9 tokens):
+I didn't feel anything in this film.
+[Text=I CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=RB] [Text=feel CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VB] [Text=anything CharacterOffsetBegin=72 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, feel-4)
+nsubj(feel-4, I-1)
+aux(feel-4, did-2)
+neg(feel-4, n't-3)
+dobj(feel-4, anything-5)
+prep(feel-4, in-6)
+det(film-8, this-7)
+pobj(in-6, film-8)
+punct(feel-4, .-9)
+
+Sentence #3 (27 tokens):
+I felt sick because the gore alone was shocking.I walked out of my living room several times in desperation that something would happen with this film.
+[Text=I CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=PRP] [Text=felt CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=VBD] [Text=sick CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=JJ] [Text=because CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=DT] [Text=gore CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=VBP] [Text=alone CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=RB] [Text=was CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=VBD] [Text=shocking.I CharacterOffsetBegin=138 CharacterOffsetEnd=148 PartOfSpeech=NNP] [Text=walked CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=PRP$] [Text=living CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=room CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=NN] [Text=several CharacterOffsetBegin=178 CharacterOffsetEnd=185 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=IN] [Text=desperation CharacterOffsetBegin=195 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=WDT] [Text=something CharacterOffsetBegin=212 CharacterOffsetEnd=221 PartOfSpeech=NN] [Text=would CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=MD] [Text=happen CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=.] 
+root(ROOT-0, felt-2)
+nsubj(felt-2, I-1)
+acomp(felt-2, sick-3)
+mark(shocking.I-9, because-4)
+det(gore-6, the-5)
+nsubj(shocking.I-9, gore-6)
+advmod(gore-6, alone-7)
+cop(shocking.I-9, was-8)
+nsubj(walked-10, shocking.I-9)
+ccomp(felt-2, walked-10)
+prep(walked-10, out-11)
+pcomp(out-11, of-12)
+poss(room-15, my-13)
+nn(room-15, living-14)
+pobj(of-12, room-15)
+amod(times-17, several-16)
+tmod(walked-10, times-17)
+prep(walked-10, in-18)
+pobj(in-18, desperation-19)
+dobj(happen-23, that-20)
+nsubj(happen-23, something-21)
+aux(happen-23, would-22)
+rcmod(desperation-19, happen-23)
+prep(happen-23, with-24)
+det(film-26, this-25)
+pobj(with-24, film-26)
+punct(felt-2, .-27)
+
+Sentence #4 (8 tokens):
+Haven't we seen this all before?
+[Text=Have CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=RB] [Text=we CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=PRP] [Text=seen CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=all CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=before CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=IN] [Text=? CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, seen-4)
+aux(seen-4, Have-1)
+neg(seen-4, n't-2)
+nsubj(seen-4, we-3)
+det(all-6, this-5)
+dobj(seen-4, all-6)
+advmod(seen-4, before-7)
+punct(seen-4, ?-8)
+
+Sentence #5 (16 tokens):
+I didn't like any of the characters barr the guy in the sewer cage.
+[Text=I CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=317 CharacterOffsetEnd=327 PartOfSpeech=NNS] [Text=barr CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT] [Text=sewer CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=NN] [Text=cage CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=.] 
+root(ROOT-0, like-4)
+nsubj(like-4, I-1)
+aux(like-4, did-2)
+neg(like-4, n't-3)
+dobj(like-4, any-5)
+prep(any-5, of-6)
+det(characters-8, the-7)
+pobj(of-6, characters-8)
+partmod(any-5, barr-9)
+det(guy-11, the-10)
+dobj(barr-9, guy-11)
+prep(guy-11, in-12)
+det(cage-15, the-13)
+nn(cage-15, sewer-14)
+pobj(in-12, cage-15)
+punct(like-4, .-16)
+
+Sentence #6 (6 tokens):
+I felt bad for him.
+[Text=I CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=PRP] [Text=felt CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=VBD] [Text=bad CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=.] 
+root(ROOT-0, felt-2)
+nsubj(felt-2, I-1)
+acomp(felt-2, bad-3)
+prep(felt-2, for-4)
+pobj(for-4, him-5)
+punct(felt-2, .-6)
+
+Sentence #7 (21 tokens):
+But then again I couldn't think as to why he was still alive and not murdered by the Creep?
+[Text=But CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=RB] [Text=again CharacterOffsetBegin=397 CharacterOffsetEnd=402 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=405 CharacterOffsetEnd=410 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=RB] [Text=think CharacterOffsetBegin=414 CharacterOffsetEnd=419 PartOfSpeech=VB] [Text=as CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=423 CharacterOffsetEnd=425 PartOfSpeech=TO] [Text=why CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=VBD] [Text=still CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=RB] [Text=alive CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=RB] [Text=murdered CharacterOffsetBegin=457 CharacterOffsetEnd=465 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=DT] [Text=Creep CharacterOffsetBegin=473 CharacterOffsetEnd=478 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=478 CharacterOffsetEnd=479 PartOfSpeech=.] 
+root(ROOT-0, think-7)
+cc(think-7, But-1)
+advmod(think-7, then-2)
+advmod(think-7, again-3)
+nsubj(think-7, I-4)
+aux(think-7, could-5)
+neg(think-7, n't-6)
+prep(think-7, as-8)
+pcomp(as-8, to-9)
+advmod(alive-14, why-10)
+nsubj(alive-14, he-11)
+cop(alive-14, was-12)
+advmod(alive-14, still-13)
+pcomp(to-9, alive-14)
+cc(alive-14, and-15)
+neg(murdered-17, not-16)
+conj(alive-14, murdered-17)
+prep(alive-14, by-18)
+det(Creep-20, the-19)
+pobj(by-18, Creep-20)
+punct(think-7, ?-21)
+
+Sentence #8 (30 tokens):
+So many questions need to be answered.Someone mentioned references to the PS2 game Silent Hill and I can see similarities vaguely.Not a bad film, not a good one.
+[Text=So CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=JJ] [Text=questions CharacterOffsetBegin=492 CharacterOffsetEnd=501 PartOfSpeech=NNS] [Text=need CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=507 CharacterOffsetEnd=509 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=VB] [Text=answered.Someone CharacterOffsetBegin=513 CharacterOffsetEnd=529 PartOfSpeech=NN] [Text=mentioned CharacterOffsetBegin=530 CharacterOffsetEnd=539 PartOfSpeech=VBN] [Text=references CharacterOffsetBegin=540 CharacterOffsetEnd=550 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=551 CharacterOffsetEnd=553 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=DT] [Text=PS2 CharacterOffsetBegin=558 CharacterOffsetEnd=561 PartOfSpeech=NN] [Text=game CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=NN] [Text=Silent CharacterOffsetBegin=567 CharacterOffsetEnd=573 PartOfSpeech=NNP] [Text=Hill CharacterOffsetBegin=574 CharacterOffsetEnd=578 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=583 CharacterOffsetEnd=584 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=VB] [Text=similarities CharacterOffsetBegin=593 CharacterOffsetEnd=605 PartOfSpeech=NNS] [Text=vaguely.Not CharacterOffsetBegin=606 CharacterOffsetEnd=617 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=624 CharacterOffsetEnd=628 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=,] [Text=not CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=.] 
+root(ROOT-0, need-4)
+advmod(need-4, So-1)
+amod(questions-3, many-2)
+nsubj(need-4, questions-3)
+aux(references-9, to-5)
+cop(references-9, be-6)
+dep(references-9, answered.Someone-7)
+amod(references-9, mentioned-8)
+xcomp(need-4, references-9)
+prep(references-9, to-10)
+det(Hill-15, the-11)
+nn(Hill-15, PS2-12)
+nn(Hill-15, game-13)
+nn(Hill-15, Silent-14)
+pobj(to-10, Hill-15)
+cc(need-4, and-16)
+nsubj(see-19, I-17)
+aux(see-19, can-18)
+conj(need-4, see-19)
+nn(vaguely.Not-21, similarities-20)
+dobj(see-19, vaguely.Not-21)
+det(film-24, a-22)
+amod(film-24, bad-23)
+dep(vaguely.Not-21, film-24)
+punct(film-24, ,-25)
+neg(one-29, not-26)
+det(one-29, a-27)
+amod(one-29, good-28)
+appos(film-24, one-29)
+punct(need-4, .-30)
+
+Sentence #9 (4 tokens):
+judge for yourself.
+[Text=judge CharacterOffsetBegin=650 CharacterOffsetEnd=655 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=656 CharacterOffsetEnd=659 PartOfSpeech=IN] [Text=yourself CharacterOffsetBegin=660 CharacterOffsetEnd=668 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=668 CharacterOffsetEnd=669 PartOfSpeech=.] 
+root(ROOT-0, judge-1)
+prep(judge-1, for-2)
+pobj(for-2, yourself-3)
+punct(judge-1, .-4)
+

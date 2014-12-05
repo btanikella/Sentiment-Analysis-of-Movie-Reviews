@@ -1,0 +1,180 @@
+Sentence #1 (10 tokens):
+How can a movie be both controversial and gentle?
+[Text=How CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=WRB] [Text=can CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=MD] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=be CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=VB] [Text=both CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=CC] [Text=controversial CharacterOffsetBegin=28 CharacterOffsetEnd=41 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=CC] [Text=gentle CharacterOffsetBegin=46 CharacterOffsetEnd=52 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=.] 
+root(ROOT-0, controversial-7)
+advmod(controversial-7, How-1)
+aux(controversial-7, can-2)
+det(movie-4, a-3)
+nsubj(controversial-7, movie-4)
+cop(controversial-7, be-5)
+preconj(controversial-7, both-6)
+cc(controversial-7, and-8)
+conj(controversial-7, gentle-9)
+punct(controversial-7, ?-10)
+
+Sentence #2 (9 tokens):
+This one does it with a near-perfect structure.
+[Text=This CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=CD] [Text=does CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=DT] [Text=near-perfect CharacterOffsetBegin=82 CharacterOffsetEnd=94 PartOfSpeech=JJ] [Text=structure CharacterOffsetBegin=95 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, does-3)
+det(one-2, This-1)
+nsubj(does-3, one-2)
+dobj(does-3, it-4)
+prep(does-3, with-5)
+det(structure-8, a-6)
+amod(structure-8, near-perfect-7)
+pobj(with-5, structure-8)
+punct(does-3, .-9)
+
+Sentence #3 (9 tokens):
+No one wants their daughters to be athletes.
+[Text=No CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=wants CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=VBZ] [Text=their CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=PRP$] [Text=daughters CharacterOffsetBegin=129 CharacterOffsetEnd=138 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=VB] [Text=athletes CharacterOffsetBegin=145 CharacterOffsetEnd=153 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=.] 
+root(ROOT-0, wants-3)
+det(one-2, No-1)
+nsubj(wants-3, one-2)
+poss(daughters-5, their-4)
+nsubj(athletes-8, daughters-5)
+aux(athletes-8, to-6)
+cop(athletes-8, be-7)
+xcomp(wants-3, athletes-8)
+punct(wants-3, .-9)
+
+Sentence #4 (14 tokens):
+Apparently most cultures don't want their daughters to be small-breasted, either.
+[Text=Apparently CharacterOffsetBegin=159 CharacterOffsetEnd=169 PartOfSpeech=RB] [Text=most CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=RBS] [Text=cultures CharacterOffsetBegin=175 CharacterOffsetEnd=183 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=VB] [Text=their CharacterOffsetBegin=195 CharacterOffsetEnd=200 PartOfSpeech=PRP$] [Text=daughters CharacterOffsetBegin=201 CharacterOffsetEnd=210 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=VB] [Text=small-breasted CharacterOffsetBegin=217 CharacterOffsetEnd=231 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=,] [Text=either CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=CC] [Text=. CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=.] 
+root(ROOT-0, want-6)
+advmod(cultures-3, Apparently-1)
+amod(cultures-3, most-2)
+nsubj(want-6, cultures-3)
+aux(want-6, do-4)
+neg(want-6, n't-5)
+poss(daughters-8, their-7)
+nsubj(small-breasted-11, daughters-8)
+aux(small-breasted-11, to-9)
+cop(small-breasted-11, be-10)
+xcomp(want-6, small-breasted-11)
+punct(want-6, ,-12)
+advmod(want-6, either-13)
+punct(want-6, .-14)
+
+Sentence #5 (41 tokens):
+Here we see a bunch of superb actors we've never heard of before portray folks of different cultures living fairly humdrum lives until their female children want to, and have the potential to, become professional soccer players.
+[Text=Here CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=RB] [Text=we CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=bunch CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=IN] [Text=superb CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=275 CharacterOffsetEnd=281 PartOfSpeech=NNS] [Text=we CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=VBP] [Text=never CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=RB] [Text=heard CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=IN] [Text=before CharacterOffsetBegin=303 CharacterOffsetEnd=309 PartOfSpeech=RB] [Text=portray CharacterOffsetBegin=310 CharacterOffsetEnd=317 PartOfSpeech=VBP] [Text=folks CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=IN] [Text=different CharacterOffsetBegin=327 CharacterOffsetEnd=336 PartOfSpeech=JJ] [Text=cultures CharacterOffsetBegin=337 CharacterOffsetEnd=345 PartOfSpeech=NNS] [Text=living CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=VBG] [Text=fairly CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=RB] [Text=humdrum CharacterOffsetBegin=360 CharacterOffsetEnd=367 PartOfSpeech=JJ] [Text=lives CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NNS] [Text=until CharacterOffsetBegin=374 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=PRP$] [Text=female CharacterOffsetBegin=386 CharacterOffsetEnd=392 PartOfSpeech=JJ] [Text=children CharacterOffsetBegin=393 CharacterOffsetEnd=401 PartOfSpeech=NNS] [Text=want CharacterOffsetBegin=402 CharacterOffsetEnd=406 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=TO] [Text=, CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=,] [Text=and CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=CC] [Text=have CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=DT] [Text=potential CharacterOffsetBegin=424 CharacterOffsetEnd=433 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=TO] [Text=, CharacterOffsetBegin=436 CharacterOffsetEnd=437 PartOfSpeech=,] [Text=become CharacterOffsetBegin=438 CharacterOffsetEnd=444 PartOfSpeech=VB] [Text=professional CharacterOffsetBegin=445 CharacterOffsetEnd=457 PartOfSpeech=JJ] [Text=soccer CharacterOffsetBegin=458 CharacterOffsetEnd=464 PartOfSpeech=NN] [Text=players CharacterOffsetBegin=465 CharacterOffsetEnd=472 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=.] 
+root(ROOT-0, see-3)
+advmod(see-3, Here-1)
+nsubj(see-3, we-2)
+det(bunch-5, a-4)
+dobj(see-3, bunch-5)
+prep(bunch-5, of-6)
+amod(actors-8, superb-7)
+pobj(of-6, actors-8)
+nsubj(heard-12, we-9)
+aux(heard-12, 've-10)
+neg(heard-12, never-11)
+rcmod(bunch-5, heard-12)
+prep(heard-12, of-13)
+advmod(portray-15, before-14)
+pcomp(of-13, portray-15)
+dobj(portray-15, folks-16)
+prep(folks-16, of-17)
+amod(cultures-19, different-18)
+pobj(of-17, cultures-19)
+amod(lives-23, living-20)
+advmod(humdrum-22, fairly-21)
+amod(lives-23, humdrum-22)
+rcmod(cultures-19, lives-23)
+mark(want-28, until-24)
+poss(children-27, their-25)
+amod(children-27, female-26)
+nsubj(want-28, children-27)
+advcl(lives-23, want-28)
+xcomp(want-28, to-29)
+punct(want-28, ,-30)
+cc(want-28, and-31)
+conj(want-28, have-32)
+det(potential-34, the-33)
+dobj(have-32, potential-34)
+prep(potential-34, to-35)
+punct(players-40, ,-36)
+cop(players-40, become-37)
+amod(players-40, professional-38)
+nn(players-40, soccer-39)
+pobj(to-35, players-40)
+punct(see-3, .-41)
+
+Sentence #6 (12 tokens):
+The structure around the parallelism of the two cultures is wonderful.
+[Text=The CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=DT] [Text=structure CharacterOffsetBegin=482 CharacterOffsetEnd=491 PartOfSpeech=NN] [Text=around CharacterOffsetBegin=492 CharacterOffsetEnd=498 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=DT] [Text=parallelism CharacterOffsetBegin=503 CharacterOffsetEnd=514 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=DT] [Text=two CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=CD] [Text=cultures CharacterOffsetBegin=526 CharacterOffsetEnd=534 PartOfSpeech=NNS] [Text=is CharacterOffsetBegin=535 CharacterOffsetEnd=537 PartOfSpeech=VBZ] [Text=wonderful CharacterOffsetBegin=538 CharacterOffsetEnd=547 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=.] 
+root(ROOT-0, wonderful-11)
+det(structure-2, The-1)
+nsubj(wonderful-11, structure-2)
+prep(structure-2, around-3)
+det(parallelism-5, the-4)
+pobj(around-3, parallelism-5)
+prep(parallelism-5, of-6)
+det(cultures-9, the-7)
+num(cultures-9, two-8)
+pobj(of-6, cultures-9)
+cop(wonderful-11, is-10)
+punct(wonderful-11, .-12)
+
+Sentence #7 (5 tokens):
+There is no condescension.
+[Text=There CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=DT] [Text=condescension CharacterOffsetBegin=565 CharacterOffsetEnd=578 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(condescension-4, no-3)
+nsubj(is-2, condescension-4)
+punct(is-2, .-5)
+
+Sentence #8 (9 tokens):
+Both cultures are seen as modern and valid.
+[Text=Both CharacterOffsetBegin=584 CharacterOffsetEnd=588 PartOfSpeech=DT] [Text=cultures CharacterOffsetBegin=589 CharacterOffsetEnd=597 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=VBN] [Text=as CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=IN] [Text=modern CharacterOffsetBegin=610 CharacterOffsetEnd=616 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=CC] [Text=valid CharacterOffsetBegin=621 CharacterOffsetEnd=626 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=.] 
+root(ROOT-0, seen-4)
+det(cultures-2, Both-1)
+nsubjpass(seen-4, cultures-2)
+auxpass(seen-4, are-3)
+prep(seen-4, as-5)
+pobj(as-5, modern-6)
+cc(modern-6, and-7)
+conj(modern-6, valid-8)
+punct(seen-4, .-9)
+
+Sentence #9 (11 tokens):
+(And yes, both are silly, too).
+[Text=-LRB- CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=-LRB-] [Text=And CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=CC] [Text=yes CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=,] [Text=both CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=DT] [Text=are CharacterOffsetBegin=647 CharacterOffsetEnd=650 PartOfSpeech=VBP] [Text=silly CharacterOffsetBegin=651 CharacterOffsetEnd=656 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=,] [Text=too CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=RB] [Text=-RRB- CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=662 CharacterOffsetEnd=663 PartOfSpeech=.] 
+root(ROOT-0, silly-7)
+punct(silly-7, -LRB--1)
+cc(silly-7, And-2)
+discourse(silly-7, yes-3)
+punct(silly-7, ,-4)
+nsubj(silly-7, both-5)
+cop(silly-7, are-6)
+punct(silly-7, ,-8)
+advmod(silly-7, too-9)
+punct(silly-7, -RRB--10)
+punct(silly-7, .-11)
+
+Sentence #10 (20 tokens):
+One flaw: the Hindu wedding ceremony seemed to involve hundreds of relatives but not one child among them.
+[Text=One CharacterOffsetBegin=668 CharacterOffsetEnd=671 PartOfSpeech=CD] [Text=flaw CharacterOffsetBegin=672 CharacterOffsetEnd=676 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=:] [Text=the CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=DT] [Text=Hindu CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=NNP] [Text=wedding CharacterOffsetBegin=688 CharacterOffsetEnd=695 PartOfSpeech=NN] [Text=ceremony CharacterOffsetBegin=696 CharacterOffsetEnd=704 PartOfSpeech=NN] [Text=seemed CharacterOffsetBegin=705 CharacterOffsetEnd=711 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=712 CharacterOffsetEnd=714 PartOfSpeech=TO] [Text=involve CharacterOffsetBegin=715 CharacterOffsetEnd=722 PartOfSpeech=VB] [Text=hundreds CharacterOffsetBegin=723 CharacterOffsetEnd=731 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=732 CharacterOffsetEnd=734 PartOfSpeech=IN] [Text=relatives CharacterOffsetBegin=735 CharacterOffsetEnd=744 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=749 CharacterOffsetEnd=752 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=753 CharacterOffsetEnd=756 PartOfSpeech=CD] [Text=child CharacterOffsetBegin=757 CharacterOffsetEnd=762 PartOfSpeech=NN] [Text=among CharacterOffsetBegin=763 CharacterOffsetEnd=768 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=769 CharacterOffsetEnd=773 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=.] 
+root(ROOT-0, flaw-2)
+num(flaw-2, One-1)
+punct(flaw-2, :-3)
+det(ceremony-7, the-4)
+nn(ceremony-7, Hindu-5)
+nn(ceremony-7, wedding-6)
+nsubj(seemed-8, ceremony-7)
+dep(flaw-2, seemed-8)
+aux(involve-10, to-9)
+xcomp(seemed-8, involve-10)
+dobj(involve-10, hundreds-11)
+prep(hundreds-11, of-12)
+pobj(of-12, relatives-13)
+cc(involve-10, but-14)
+neg(child-17, not-15)
+num(child-17, one-16)
+conj(involve-10, child-17)
+prep(child-17, among-18)
+pobj(among-18, them-19)
+punct(flaw-2, .-20)
+

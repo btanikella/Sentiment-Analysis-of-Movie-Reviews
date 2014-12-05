@@ -1,0 +1,195 @@
+Sentence #1 (7 tokens):
+Slow, boring, extremely repetitive.
+[Text=Slow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=,] [Text=boring CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=,] [Text=extremely CharacterOffsetBegin=18 CharacterOffsetEnd=27 PartOfSpeech=RB] [Text=repetitive CharacterOffsetBegin=28 CharacterOffsetEnd=38 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.] 
+root(ROOT-0, Slow-1)
+punct(Slow-1, ,-2)
+conj(Slow-1, boring-3)
+punct(Slow-1, ,-4)
+advmod(repetitive-6, extremely-5)
+amod(Slow-1, repetitive-6)
+punct(Slow-1, .-7)
+
+Sentence #2 (10 tokens):
+No wonder the Weinstein Company did not buy this.
+[Text=No CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=wonder CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=Weinstein CharacterOffsetBegin=58 CharacterOffsetEnd=67 PartOfSpeech=NNP] [Text=Company CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=NNP] [Text=did CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=RB] [Text=buy CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.] 
+root(ROOT-0, wonder-2)
+det(wonder-2, No-1)
+det(Company-5, the-3)
+nn(Company-5, Weinstein-4)
+nsubj(buy-8, Company-5)
+aux(buy-8, did-6)
+neg(buy-8, not-7)
+rcmod(wonder-2, buy-8)
+dobj(buy-8, this-9)
+punct(wonder-2, .-10)
+
+Sentence #3 (14 tokens):
+This Spurlock should eat more McDonalds while filming himself, and quit producing.
+[Text=This CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=Spurlock CharacterOffsetBegin=103 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=112 CharacterOffsetEnd=118 PartOfSpeech=MD] [Text=eat CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=VB] [Text=more CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=RBR] [Text=McDonalds CharacterOffsetBegin=128 CharacterOffsetEnd=137 PartOfSpeech=NNP] [Text=while CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=IN] [Text=filming CharacterOffsetBegin=144 CharacterOffsetEnd=151 PartOfSpeech=VBG] [Text=himself CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=,] [Text=and CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=CC] [Text=quit CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=VB] [Text=producing CharacterOffsetBegin=170 CharacterOffsetEnd=179 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=.] 
+root(ROOT-0, eat-4)
+det(Spurlock-2, This-1)
+nsubj(eat-4, Spurlock-2)
+aux(eat-4, should-3)
+advmod(McDonalds-6, more-5)
+dobj(eat-4, McDonalds-6)
+prep(eat-4, while-7)
+pcomp(while-7, filming-8)
+dobj(filming-8, himself-9)
+punct(filming-8, ,-10)
+cc(filming-8, and-11)
+conj(filming-8, quit-12)
+xcomp(quit-12, producing-13)
+punct(eat-4, .-14)
+
+Sentence #4 (11 tokens):
+There is no way you can watch this and enjoy.
+[Text=There CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=MD] [Text=watch CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=DT] [Text=and CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC] [Text=enjoy CharacterOffsetBegin=224 CharacterOffsetEnd=229 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(way-4, no-3)
+nsubj(is-2, way-4)
+nsubj(watch-7, you-5)
+aux(watch-7, can-6)
+rcmod(way-4, watch-7)
+dobj(watch-7, this-8)
+cc(watch-7, and-9)
+conj(watch-7, enjoy-10)
+punct(is-2, .-11)
+
+Sentence #5 (6 tokens):
+The preacher is a joke.
+[Text=The CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=DT] [Text=preacher CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=DT] [Text=joke CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=.] 
+root(ROOT-0, joke-5)
+det(preacher-2, The-1)
+nsubj(joke-5, preacher-2)
+cop(joke-5, is-3)
+det(joke-5, a-4)
+punct(joke-5, .-6)
+
+Sentence #6 (7 tokens):
+The whole idea is not funny.
+[Text=The CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=JJ] [Text=idea CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=.] 
+root(ROOT-0, funny-6)
+det(idea-3, The-1)
+amod(idea-3, whole-2)
+nsubj(funny-6, idea-3)
+cop(funny-6, is-4)
+neg(funny-6, not-5)
+punct(funny-6, .-7)
+
+Sentence #7 (14 tokens):
+You can make a 2 minute film with this idea not a feature.
+[Text=You CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=DT] [Text=2 CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=CD] [Text=minute CharacterOffsetBegin=313 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=DT] [Text=idea CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=NN] [Text=not CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=DT] [Text=feature CharacterOffsetBegin=346 CharacterOffsetEnd=353 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=.] 
+root(ROOT-0, make-3)
+nsubj(make-3, You-1)
+aux(make-3, can-2)
+det(film-7, a-4)
+number(minute-6, 2-5)
+amod(film-7, minute-6)
+dobj(make-3, film-7)
+mark(feature-13, with-8)
+det(idea-10, this-9)
+dep(feature-13, idea-10)
+neg(feature-13, not-11)
+det(feature-13, a-12)
+advcl(make-3, feature-13)
+punct(make-3, .-14)
+
+Sentence #8 (9 tokens):
+I am so sorry I rented this movie.
+[Text=I CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=VBP] [Text=so CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=RB] [Text=sorry CharacterOffsetBegin=367 CharacterOffsetEnd=372 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=PRP] [Text=rented CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=382 CharacterOffsetEnd=386 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=387 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=.] 
+root(ROOT-0, sorry-4)
+nsubj(sorry-4, I-1)
+cop(sorry-4, am-2)
+advmod(sorry-4, so-3)
+nsubj(rented-6, I-5)
+ccomp(sorry-4, rented-6)
+det(movie-8, this-7)
+dobj(rented-6, movie-8)
+punct(sorry-4, .-9)
+
+Sentence #9 (12 tokens):
+I will never watch anything with the name Spurlock on it.
+[Text=I CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=405 CharacterOffsetEnd=410 PartOfSpeech=RB] [Text=watch CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=VB] [Text=anything CharacterOffsetBegin=417 CharacterOffsetEnd=425 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=426 CharacterOffsetEnd=430 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=DT] [Text=name CharacterOffsetBegin=435 CharacterOffsetEnd=439 PartOfSpeech=NN] [Text=Spurlock CharacterOffsetBegin=440 CharacterOffsetEnd=448 PartOfSpeech=NNP] [Text=on CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=454 CharacterOffsetEnd=455 PartOfSpeech=.] 
+root(ROOT-0, watch-4)
+nsubj(watch-4, I-1)
+aux(watch-4, will-2)
+neg(watch-4, never-3)
+dobj(watch-4, anything-5)
+prep(watch-4, with-6)
+det(name-8, the-7)
+pobj(with-6, name-8)
+dep(name-8, Spurlock-9)
+prep(Spurlock-9, on-10)
+pobj(on-10, it-11)
+punct(watch-4, .-12)
+
+Sentence #10 (5 tokens):
+It is completely garbage.
+[Text=It CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=463 CharacterOffsetEnd=465 PartOfSpeech=VBZ] [Text=completely CharacterOffsetBegin=466 CharacterOffsetEnd=476 PartOfSpeech=RB] [Text=garbage CharacterOffsetBegin=477 CharacterOffsetEnd=484 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=.] 
+root(ROOT-0, garbage-4)
+nsubj(garbage-4, It-1)
+cop(garbage-4, is-2)
+advmod(garbage-4, completely-3)
+punct(garbage-4, .-5)
+
+Sentence #11 (15 tokens):
+Filmmakers like this should be on youtube and never be granted a distribution deal.
+[Text=Filmmakers CharacterOffsetBegin=490 CharacterOffsetEnd=500 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=506 CharacterOffsetEnd=510 PartOfSpeech=DT] [Text=should CharacterOffsetBegin=511 CharacterOffsetEnd=517 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=IN] [Text=youtube CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=CC] [Text=never CharacterOffsetBegin=536 CharacterOffsetEnd=541 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=VB] [Text=granted CharacterOffsetBegin=545 CharacterOffsetEnd=552 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=DT] [Text=distribution CharacterOffsetBegin=555 CharacterOffsetEnd=567 PartOfSpeech=NN] [Text=deal CharacterOffsetBegin=568 CharacterOffsetEnd=572 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=.] 
+root(ROOT-0, be-5)
+nsubj(be-5, Filmmakers-1)
+prep(Filmmakers-1, like-2)
+pobj(like-2, this-3)
+aux(be-5, should-4)
+prep(be-5, on-6)
+pobj(on-6, youtube-7)
+cc(be-5, and-8)
+neg(granted-11, never-9)
+auxpass(granted-11, be-10)
+conj(be-5, granted-11)
+det(deal-14, a-12)
+nn(deal-14, distribution-13)
+dobj(granted-11, deal-14)
+punct(be-5, .-15)
+
+Sentence #12 (37 tokens):
+The film states that the American Consumers and their shopping are at fault for the current depression when shopping and buying products, making money circulate in the system are the base of a healthy economy.
+[Text=The CharacterOffsetBegin=578 CharacterOffsetEnd=581 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=states CharacterOffsetBegin=587 CharacterOffsetEnd=593 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=594 CharacterOffsetEnd=598 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=DT] [Text=American CharacterOffsetBegin=603 CharacterOffsetEnd=611 PartOfSpeech=JJ] [Text=Consumers CharacterOffsetBegin=612 CharacterOffsetEnd=621 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=CC] [Text=their CharacterOffsetBegin=626 CharacterOffsetEnd=631 PartOfSpeech=PRP$] [Text=shopping CharacterOffsetBegin=632 CharacterOffsetEnd=640 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=VBP] [Text=at CharacterOffsetBegin=645 CharacterOffsetEnd=647 PartOfSpeech=IN] [Text=fault CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=DT] [Text=current CharacterOffsetBegin=662 CharacterOffsetEnd=669 PartOfSpeech=JJ] [Text=depression CharacterOffsetBegin=670 CharacterOffsetEnd=680 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=WRB] [Text=shopping CharacterOffsetBegin=686 CharacterOffsetEnd=694 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=CC] [Text=buying CharacterOffsetBegin=699 CharacterOffsetEnd=705 PartOfSpeech=NN] [Text=products CharacterOffsetBegin=706 CharacterOffsetEnd=714 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=714 CharacterOffsetEnd=715 PartOfSpeech=,] [Text=making CharacterOffsetBegin=716 CharacterOffsetEnd=722 PartOfSpeech=VBG] [Text=money CharacterOffsetBegin=723 CharacterOffsetEnd=728 PartOfSpeech=NN] [Text=circulate CharacterOffsetBegin=729 CharacterOffsetEnd=738 PartOfSpeech=VBP] [Text=in CharacterOffsetBegin=739 CharacterOffsetEnd=741 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=DT] [Text=system CharacterOffsetBegin=746 CharacterOffsetEnd=752 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=753 CharacterOffsetEnd=756 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=757 CharacterOffsetEnd=760 PartOfSpeech=DT] [Text=base CharacterOffsetBegin=761 CharacterOffsetEnd=765 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=766 CharacterOffsetEnd=768 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=DT] [Text=healthy CharacterOffsetBegin=771 CharacterOffsetEnd=778 PartOfSpeech=JJ] [Text=economy CharacterOffsetBegin=779 CharacterOffsetEnd=786 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=786 CharacterOffsetEnd=787 PartOfSpeech=.] 
+root(ROOT-0, states-3)
+det(film-2, The-1)
+nsubj(states-3, film-2)
+mark(are-11, that-4)
+det(Consumers-7, the-5)
+amod(Consumers-7, American-6)
+nsubj(are-11, Consumers-7)
+cc(Consumers-7, and-8)
+poss(shopping-10, their-9)
+conj(Consumers-7, shopping-10)
+ccomp(states-3, are-11)
+prep(are-11, at-12)
+pobj(at-12, fault-13)
+prep(are-11, for-14)
+det(depression-17, the-15)
+amod(depression-17, current-16)
+pobj(for-14, depression-17)
+advmod(base-32, when-18)
+nn(products-22, shopping-19)
+cc(shopping-19, and-20)
+conj(shopping-19, buying-21)
+nsubj(base-32, products-22)
+punct(products-22, ,-23)
+partmod(products-22, making-24)
+dobj(making-24, money-25)
+xcomp(making-24, circulate-26)
+prep(circulate-26, in-27)
+det(system-29, the-28)
+pobj(in-27, system-29)
+cop(base-32, are-30)
+det(base-32, the-31)
+rcmod(depression-17, base-32)
+prep(base-32, of-33)
+det(economy-36, a-34)
+amod(economy-36, healthy-35)
+pobj(of-33, economy-36)
+punct(states-3, .-37)
+

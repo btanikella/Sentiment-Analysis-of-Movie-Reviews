@@ -1,0 +1,62 @@
+Sentence #1 (4 tokens):
+Oh, man!
+[Text=Oh CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=,] [Text=man CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=.] 
+root(ROOT-0, man-3)
+discourse(man-3, Oh-1)
+punct(man-3, ,-2)
+punct(man-3, !-4)
+
+Sentence #2 (19 tokens):
+This thing scared the heck out of me when I first watched it... and I was SIXTEEN!!
+[Text=This CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=scared CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT] [Text=heck CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=PRP] [Text=when CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=PRP] [Text=first CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=RB] [Text=watched CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=PRP] [Text=... CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=:] [Text=and CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=VBD] [Text=SIXTEEN CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=CD] [Text=!! CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=CD] 
+root(ROOT-0, scared-3)
+det(thing-2, This-1)
+nsubj(scared-3, thing-2)
+det(heck-5, the-4)
+dobj(scared-3, heck-5)
+prep(scared-3, out-6)
+pcomp(out-6, of-7)
+pobj(of-7, me-8)
+advmod(watched-12, when-9)
+nsubj(watched-12, I-10)
+advmod(watched-12, first-11)
+advcl(scared-3, watched-12)
+dobj(watched-12, it-13)
+punct(scared-3, ...-14)
+cc(scared-3, and-15)
+nsubj(SIXTEEN-18, I-16)
+cop(SIXTEEN-18, was-17)
+conj(scared-3, SIXTEEN-18)
+dep(SIXTEEN-18, !!-19)
+
+Sentence #3 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+
+Sentence #4 (9 tokens):
+That creepy animated Barbie is scary as hell!
+[Text=That CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=DT] [Text=creepy CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=JJ] [Text=animated CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=JJ] [Text=Barbie CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=VBZ] [Text=scary CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN] [Text=hell CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.] 
+root(ROOT-0, scary-6)
+det(Barbie-4, That-1)
+amod(Barbie-4, creepy-2)
+amod(Barbie-4, animated-3)
+nsubj(scary-6, Barbie-4)
+cop(scary-6, is-5)
+prep(scary-6, as-7)
+pobj(as-7, hell-8)
+punct(scary-6, !-9)
+
+Sentence #5 (9 tokens):
+I want to stop talking about her now.
+[Text=I CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=TO] [Text=stop CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=VB] [Text=talking CharacterOffsetBegin=171 CharacterOffsetEnd=178 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=PRP$] [Text=now CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=.] 
+root(ROOT-0, want-2)
+nsubj(want-2, I-1)
+aux(stop-4, to-3)
+xcomp(want-2, stop-4)
+xcomp(stop-4, talking-5)
+prep(talking-5, about-6)
+pobj(about-6, her-7)
+advmod(her-7, now-8)
+punct(want-2, .-9)
+

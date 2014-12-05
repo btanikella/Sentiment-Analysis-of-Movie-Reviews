@@ -1,0 +1,62 @@
+Sentence #1 (10 tokens):
+Certainly any others I have seen pale in comparison.
+[Text=Certainly CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=RB] [Text=any CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=others CharacterOffsetBegin=18 CharacterOffsetEnd=24 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=VBN] [Text=pale CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=IN] [Text=comparison CharacterOffsetBegin=45 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, Certainly-1)
+det(others-3, any-2)
+dep(Certainly-1, others-3)
+nsubj(seen-6, I-4)
+aux(seen-6, have-5)
+rcmod(others-3, seen-6)
+acomp(seen-6, pale-7)
+prep(seen-6, in-8)
+pobj(in-8, comparison-9)
+punct(Certainly-1, .-10)
+
+Sentence #2 (11 tokens):
+The series gives balanced coverage to all theatres of operation.
+[Text=The CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=series CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=gives CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBZ] [Text=balanced CharacterOffsetBegin=78 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=coverage CharacterOffsetBegin=87 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=TO] [Text=all CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=theatres CharacterOffsetBegin=103 CharacterOffsetEnd=111 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=IN] [Text=operation CharacterOffsetBegin=115 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=.] 
+root(ROOT-0, gives-3)
+det(series-2, The-1)
+nsubj(gives-3, series-2)
+amod(coverage-5, balanced-4)
+dobj(gives-3, coverage-5)
+prep(gives-3, to-6)
+det(theatres-8, all-7)
+pobj(to-6, theatres-8)
+prep(theatres-8, of-9)
+pobj(of-9, operation-10)
+punct(gives-3, .-11)
+
+Sentence #3 (12 tokens):
+No one country is given undue credit for the Allied victory.
+[Text=No CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=country CharacterOffsetBegin=137 CharacterOffsetEnd=144 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=VBZ] [Text=given CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=VBN] [Text=undue CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=credit CharacterOffsetBegin=160 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT] [Text=Allied CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=NNP] [Text=victory CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=.] 
+root(ROOT-0, given-5)
+det(country-3, No-1)
+amod(country-3, one-2)
+nsubjpass(given-5, country-3)
+auxpass(given-5, is-4)
+amod(credit-7, undue-6)
+dobj(given-5, credit-7)
+prep(given-5, for-8)
+det(victory-11, the-9)
+nn(victory-11, Allied-10)
+pobj(for-8, victory-11)
+punct(given-5, .-12)
+
+Sentence #4 (13 tokens):
+Laurence Olivier brings great weight and dignity to his role as narrator.
+[Text=Laurence CharacterOffsetBegin=195 CharacterOffsetEnd=203 PartOfSpeech=NNP] [Text=Olivier CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=NNP] [Text=brings CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=JJ] [Text=weight CharacterOffsetBegin=225 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=CC] [Text=dignity CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=TO] [Text=his CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=PRP$] [Text=role CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=IN] [Text=narrator CharacterOffsetBegin=259 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=.] 
+root(ROOT-0, brings-3)
+nn(Olivier-2, Laurence-1)
+nsubj(brings-3, Olivier-2)
+amod(weight-5, great-4)
+dobj(brings-3, weight-5)
+cc(weight-5, and-6)
+conj(weight-5, dignity-7)
+prep(brings-3, to-8)
+poss(role-10, his-9)
+pobj(to-8, role-10)
+prep(brings-3, as-11)
+pobj(as-11, narrator-12)
+punct(brings-3, .-13)
+

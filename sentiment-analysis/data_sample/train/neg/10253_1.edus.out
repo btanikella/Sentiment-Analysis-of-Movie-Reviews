@@ -1,0 +1,91 @@
+Sentence #1 (9 tokens):
+Christopher Lee is one of my favorite actors!
+[Text=Christopher CharacterOffsetBegin=4 CharacterOffsetEnd=15 PartOfSpeech=NNP] [Text=Lee CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=33 CharacterOffsetEnd=41 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=.] 
+root(ROOT-0, one-4)
+nn(Lee-2, Christopher-1)
+nsubj(one-4, Lee-2)
+cop(one-4, is-3)
+prep(one-4, of-5)
+poss(actors-8, my-6)
+amod(actors-8, favorite-7)
+pobj(of-5, actors-8)
+punct(one-4, !-9)
+
+Sentence #2 (10 tokens):
+I'm trying to view all of his work.
+[Text=I CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=VBP] [Text=trying CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=TO] [Text=view CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=VB] [Text=all CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=PRP$] [Text=work CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=.] 
+root(ROOT-0, trying-3)
+nsubj(trying-3, I-1)
+aux(trying-3, 'm-2)
+aux(view-5, to-4)
+xcomp(trying-3, view-5)
+dobj(view-5, all-6)
+prep(all-6, of-7)
+poss(work-9, his-8)
+pobj(of-7, work-9)
+punct(trying-3, .-10)
+
+Sentence #3 (12 tokens):
+He has been known to single-handedly save movies with his presence.
+[Text=He CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=VBN] [Text=known CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=TO] [Text=single-handedly CharacterOffsetBegin=115 CharacterOffsetEnd=130 PartOfSpeech=RB] [Text=save CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=VB] [Text=movies CharacterOffsetBegin=136 CharacterOffsetEnd=142 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=PRP$] [Text=presence CharacterOffsetBegin=152 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=.] 
+root(ROOT-0, known-4)
+nsubjpass(known-4, He-1)
+aux(known-4, has-2)
+auxpass(known-4, been-3)
+aux(save-7, to-5)
+advmod(save-7, single-handedly-6)
+xcomp(known-4, save-7)
+dobj(save-7, movies-8)
+prep(movies-8, with-9)
+poss(presence-11, his-10)
+pobj(with-9, presence-11)
+punct(known-4, .-12)
+
+Sentence #4 (9 tokens):
+Unfortunately, this is not one of them.
+[Text=Unfortunately CharacterOffsetBegin=166 CharacterOffsetEnd=179 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=,] [Text=this CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=.] 
+root(ROOT-0, one-6)
+advmod(one-6, Unfortunately-1)
+punct(one-6, ,-2)
+nsubj(one-6, this-3)
+cop(one-6, is-4)
+neg(one-6, not-5)
+prep(one-6, of-7)
+pobj(of-7, them-8)
+punct(one-6, .-9)
+
+Sentence #5 (15 tokens):
+This movie suffers from a low budget and it's production values are disturbing.
+[Text=This CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=NN] [Text=suffers CharacterOffsetBegin=221 CharacterOffsetEnd=228 PartOfSpeech=VBZ] [Text=from CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=low CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=JJ] [Text=budget CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=VBZ] [Text=production CharacterOffsetBegin=256 CharacterOffsetEnd=266 PartOfSpeech=NN] [Text=values CharacterOffsetBegin=267 CharacterOffsetEnd=273 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=VBP] [Text=disturbing CharacterOffsetBegin=278 CharacterOffsetEnd=288 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=.] 
+root(ROOT-0, suffers-3)
+det(movie-2, This-1)
+nsubj(suffers-3, movie-2)
+prep(suffers-3, from-4)
+det(budget-7, a-5)
+amod(budget-7, low-6)
+pobj(from-4, budget-7)
+cc(suffers-3, and-8)
+nsubj(values-12, it-9)
+cop(values-12, 's-10)
+nn(values-12, production-11)
+nsubj(disturbing-14, values-12)
+cop(disturbing-14, are-13)
+conj(suffers-3, disturbing-14)
+punct(suffers-3, .-15)
+
+Sentence #6 (12 tokens):
+Please...for the love of Christopher....avoid this film!
+[Text=Please CharacterOffsetBegin=294 CharacterOffsetEnd=300 PartOfSpeech=VB] [Text=... CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=:] [Text=for CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=DT] [Text=love CharacterOffsetBegin=311 CharacterOffsetEnd=315 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=IN] [Text=Christopher CharacterOffsetBegin=319 CharacterOffsetEnd=330 PartOfSpeech=NNP] [Text=... CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=:] [Text=avoid CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=.] 
+root(ROOT-0, Please-1)
+punct(Please-1, ...-2)
+prep(Please-1, for-3)
+det(love-5, the-4)
+pobj(for-3, love-5)
+prep(love-5, of-6)
+pobj(of-6, Christopher-7)
+punct(Please-1, ...-8)
+dep(Please-1, avoid-9)
+det(film-11, this-10)
+dobj(avoid-9, film-11)
+punct(Please-1, !-12)
+

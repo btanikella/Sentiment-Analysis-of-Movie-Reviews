@@ -1,0 +1,89 @@
+Sentence #1 (4 tokens):
+Very disappointing film.
+[Text=Very CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=RB] [Text=disappointing CharacterOffsetBegin=9 CharacterOffsetEnd=22 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=.] 
+root(ROOT-0, film-3)
+nn(film-3, Very-1)
+amod(film-3, disappointing-2)
+punct(film-3, .-4)
+
+Sentence #2 (13 tokens):
+By the end I no longer cared for any of the characters.
+[Text=By CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=PRP] [Text=no CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=RB] [Text=longer CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=RBR] [Text=cared CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=77 CharacterOffsetEnd=87 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=.] 
+root(ROOT-0, cared-7)
+prep(cared-7, By-1)
+det(end-3, the-2)
+pobj(By-1, end-3)
+nsubj(cared-7, I-4)
+advmod(longer-6, no-5)
+advmod(cared-7, longer-6)
+prep(cared-7, for-8)
+pobj(for-8, any-9)
+prep(any-9, of-10)
+det(characters-12, the-11)
+pobj(of-10, characters-12)
+punct(cared-7, .-13)
+
+Sentence #3 (25 tokens):
+I did enjoy seeing Ving Rhames in a very small part, and William Macy was good as always, still not worth watching.
+[Text=I CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=VBD] [Text=enjoy CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=VB] [Text=seeing CharacterOffsetBegin=105 CharacterOffsetEnd=111 PartOfSpeech=VBG] [Text=Ving CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=Rhames CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=RB] [Text=small CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=JJ] [Text=part CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=,] [Text=and CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=CC] [Text=William CharacterOffsetBegin=150 CharacterOffsetEnd=157 PartOfSpeech=NNP] [Text=Macy CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=VBD] [Text=good CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=IN] [Text=always CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=,] [Text=still CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=199 CharacterOffsetEnd=207 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=.] 
+root(ROOT-0, enjoy-3)
+nsubj(enjoy-3, I-1)
+aux(enjoy-3, did-2)
+xcomp(enjoy-3, seeing-4)
+amod(Rhames-6, Ving-5)
+dobj(seeing-4, Rhames-6)
+prep(Rhames-6, in-7)
+det(part-11, a-8)
+advmod(small-10, very-9)
+amod(part-11, small-10)
+pobj(in-7, part-11)
+punct(enjoy-3, ,-12)
+cc(enjoy-3, and-13)
+nn(Macy-15, William-14)
+nsubj(good-17, Macy-15)
+cop(good-17, was-16)
+conj(enjoy-3, good-17)
+prep(good-17, as-18)
+pcomp(as-18, always-19)
+punct(enjoy-3, ,-20)
+advmod(enjoy-3, still-21)
+neg(enjoy-3, not-22)
+dep(enjoy-3, worth-23)
+dep(worth-23, watching-24)
+punct(enjoy-3, .-25)
+
+Sentence #4 (12 tokens):
+It starts out strong and just keeps getting weaker and weaker.
+[Text=It CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=PRP] [Text=starts CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=RP] [Text=strong CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=CC] [Text=just CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=RB] [Text=keeps CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=VBZ] [Text=getting CharacterOffsetBegin=249 CharacterOffsetEnd=256 PartOfSpeech=VBG] [Text=weaker CharacterOffsetBegin=257 CharacterOffsetEnd=263 PartOfSpeech=JJR] [Text=and CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=CC] [Text=weaker CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=.] 
+root(ROOT-0, starts-2)
+nsubj(starts-2, It-1)
+prt(starts-2, out-3)
+dep(starts-2, strong-4)
+cc(strong-4, and-5)
+advmod(keeps-7, just-6)
+conj(strong-4, keeps-7)
+xcomp(keeps-7, getting-8)
+dobj(getting-8, weaker-9)
+cc(weaker-9, and-10)
+conj(weaker-9, weaker-11)
+punct(starts-2, .-12)
+
+Sentence #5 (15 tokens):
+Insomniacs will like it as I am sure it will put them to sleep.
+[Text=Insomniacs CharacterOffsetBegin=280 CharacterOffsetEnd=290 PartOfSpeech=NNS] [Text=will CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=MD] [Text=like CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=PRP] [Text=as CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=VBP] [Text=sure CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=MD] [Text=put CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=TO] [Text=sleep CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=.] 
+root(ROOT-0, like-3)
+nsubj(like-3, Insomniacs-1)
+aux(like-3, will-2)
+dobj(like-3, it-4)
+mark(sure-8, as-5)
+nsubj(sure-8, I-6)
+cop(sure-8, am-7)
+advcl(like-3, sure-8)
+nsubj(put-11, it-9)
+aux(put-11, will-10)
+ccomp(sure-8, put-11)
+dobj(put-11, them-12)
+aux(sleep-14, to-13)
+xcomp(put-11, sleep-14)
+punct(like-3, .-15)
+

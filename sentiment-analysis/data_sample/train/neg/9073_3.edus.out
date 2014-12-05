@@ -1,0 +1,136 @@
+Sentence #1 (11 tokens):
+This film looked promising but it was actually pretty bad.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=looked CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=VBD] [Text=promising CharacterOffsetBegin=21 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=VBD] [Text=actually CharacterOffsetBegin=42 CharacterOffsetEnd=50 PartOfSpeech=RB] [Text=pretty CharacterOffsetBegin=51 CharacterOffsetEnd=57 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=.] 
+root(ROOT-0, looked-3)
+det(film-2, This-1)
+nsubj(looked-3, film-2)
+acomp(looked-3, promising-4)
+cc(looked-3, but-5)
+nsubj(bad-10, it-6)
+cop(bad-10, was-7)
+advmod(bad-10, actually-8)
+advmod(bad-10, pretty-9)
+conj(looked-3, bad-10)
+punct(looked-3, .-11)
+
+Sentence #2 (12 tokens):
+The premise was O.K, but the plot itself was terrible.
+[Text=The CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=DT] [Text=premise CharacterOffsetBegin=71 CharacterOffsetEnd=78 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=VBD] [Text=O.K CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=,] [Text=but CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=itself CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBD] [Text=terrible CharacterOffsetBegin=112 CharacterOffsetEnd=120 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=.] 
+root(ROOT-0, O.K-4)
+det(premise-2, The-1)
+nsubj(O.K-4, premise-2)
+cop(O.K-4, was-3)
+punct(O.K-4, ,-5)
+cc(O.K-4, but-6)
+det(plot-8, the-7)
+nsubj(terrible-11, plot-8)
+dep(plot-8, itself-9)
+cop(terrible-11, was-10)
+conj(O.K-4, terrible-11)
+punct(O.K-4, .-12)
+
+Sentence #3 (24 tokens):
+The actors tried their best with limited material, but they could not rise above the mean spiritedness of this tacky college film.
+[Text=The CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NNS] [Text=tried CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=VBD] [Text=their CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=PRP$] [Text=best CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=JJS] [Text=with CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=limited CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=JJ] [Text=material CharacterOffsetBegin=167 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=,] [Text=but CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=RB] [Text=rise CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=VB] [Text=above CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=DT] [Text=mean CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=spiritedness CharacterOffsetBegin=216 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=DT] [Text=tacky CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=JJ] [Text=college CharacterOffsetBegin=243 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=.] 
+root(ROOT-0, tried-3)
+det(actors-2, The-1)
+nsubj(tried-3, actors-2)
+poss(best-5, their-4)
+dobj(tried-3, best-5)
+prep(tried-3, with-6)
+amod(material-8, limited-7)
+pobj(with-6, material-8)
+punct(tried-3, ,-9)
+cc(tried-3, but-10)
+nsubj(rise-14, they-11)
+aux(rise-14, could-12)
+neg(rise-14, not-13)
+conj(tried-3, rise-14)
+prep(rise-14, above-15)
+det(mean-17, the-16)
+pobj(above-15, mean-17)
+amod(mean-17, spiritedness-18)
+prep(spiritedness-18, of-19)
+det(film-23, this-20)
+amod(film-23, tacky-21)
+nn(film-23, college-22)
+pobj(of-19, film-23)
+punct(tried-3, .-24)
+
+Sentence #4 (24 tokens):
+Jason Schwartzman was once again immensely irritating - even more so than in Rushmore, the rest of the cast were quite non-eventful.
+[Text=Jason CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NNP] [Text=Schwartzman CharacterOffsetBegin=267 CharacterOffsetEnd=278 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=VBD] [Text=once CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=RB] [Text=again CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=RB] [Text=immensely CharacterOffsetBegin=294 CharacterOffsetEnd=303 PartOfSpeech=RB] [Text=irritating CharacterOffsetBegin=304 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=- CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=:] [Text=even CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=RBR] [Text=so CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=RB] [Text=than CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=IN] [Text=in CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=IN] [Text=Rushmore CharacterOffsetBegin=338 CharacterOffsetEnd=346 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=,] [Text=the CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=VBD] [Text=quite CharacterOffsetBegin=374 CharacterOffsetEnd=379 PartOfSpeech=RB] [Text=non-eventful CharacterOffsetBegin=380 CharacterOffsetEnd=392 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=.] 
+root(ROOT-0, non-eventful-23)
+nn(Schwartzman-2, Jason-1)
+nsubj(so-11, Schwartzman-2)
+cop(so-11, was-3)
+advmod(again-5, once-4)
+advmod(so-11, again-5)
+advmod(so-11, immensely-6)
+dep(so-11, irritating-7)
+punct(so-11, --8)
+advmod(more-10, even-9)
+advmod(so-11, more-10)
+dep(non-eventful-23, so-11)
+prep(so-11, than-12)
+pcomp(than-12, in-13)
+pobj(in-13, Rushmore-14)
+punct(non-eventful-23, ,-15)
+det(rest-17, the-16)
+nsubj(non-eventful-23, rest-17)
+prep(rest-17, of-18)
+det(cast-20, the-19)
+pobj(of-18, cast-20)
+cop(non-eventful-23, were-21)
+advmod(non-eventful-23, quite-22)
+punct(non-eventful-23, .-24)
+
+Sentence #5 (15 tokens):
+Scenes that should have been fun turned out to be off-putting & incredibly juvenile.
+[Text=Scenes CharacterOffsetBegin=398 CharacterOffsetEnd=404 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=WDT] [Text=should CharacterOffsetBegin=410 CharacterOffsetEnd=416 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=VBN] [Text=fun CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=NN] [Text=turned CharacterOffsetBegin=431 CharacterOffsetEnd=437 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=VB] [Text=off-putting CharacterOffsetBegin=448 CharacterOffsetEnd=459 PartOfSpeech=JJ] [Text=& CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=CC] [Text=incredibly CharacterOffsetBegin=462 CharacterOffsetEnd=472 PartOfSpeech=RB] [Text=juvenile CharacterOffsetBegin=473 CharacterOffsetEnd=481 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=481 CharacterOffsetEnd=482 PartOfSpeech=.] 
+root(ROOT-0, turned-7)
+nsubj(turned-7, Scenes-1)
+nsubj(fun-6, that-2)
+aux(fun-6, should-3)
+aux(fun-6, have-4)
+cop(fun-6, been-5)
+rcmod(Scenes-1, fun-6)
+prt(turned-7, out-8)
+aux(off-putting-11, to-9)
+cop(off-putting-11, be-10)
+xcomp(turned-7, off-putting-11)
+cc(off-putting-11, &-12)
+advmod(juvenile-14, incredibly-13)
+conj(off-putting-11, juvenile-14)
+punct(turned-7, .-15)
+
+Sentence #6 (14 tokens):
+Tries to be a Road Trip/American Pie but fails dismally on all levels.
+[Text=Tries CharacterOffsetBegin=487 CharacterOffsetEnd=492 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=499 CharacterOffsetEnd=500 PartOfSpeech=DT] [Text=Road CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=NNP] [Text=Trip/American CharacterOffsetBegin=506 CharacterOffsetEnd=519 PartOfSpeech=NNP] [Text=Pie CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=NNP] [Text=but CharacterOffsetBegin=524 CharacterOffsetEnd=527 PartOfSpeech=CC] [Text=fails CharacterOffsetBegin=528 CharacterOffsetEnd=533 PartOfSpeech=VBZ] [Text=dismally CharacterOffsetBegin=534 CharacterOffsetEnd=542 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=DT] [Text=levels CharacterOffsetBegin=550 CharacterOffsetEnd=556 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=.] 
+root(ROOT-0, Tries-1)
+aux(Pie-7, to-2)
+cop(Pie-7, be-3)
+det(Pie-7, a-4)
+nn(Pie-7, Road-5)
+nn(Pie-7, Trip/American-6)
+xcomp(Tries-1, Pie-7)
+cc(Tries-1, but-8)
+conj(Tries-1, fails-9)
+advmod(fails-9, dismally-10)
+prep(dismally-10, on-11)
+det(levels-13, all-12)
+pobj(on-11, levels-13)
+punct(Tries-1, .-14)
+
+Sentence #7 (8 tokens):
+A total waste of everyone's time.
+[Text=A CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=DT] [Text=total CharacterOffsetBegin=564 CharacterOffsetEnd=569 PartOfSpeech=JJ] [Text=waste CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=IN] [Text=everyone CharacterOffsetBegin=579 CharacterOffsetEnd=587 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=587 CharacterOffsetEnd=589 PartOfSpeech=POS] [Text=time CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=594 CharacterOffsetEnd=595 PartOfSpeech=.] 
+root(ROOT-0, waste-3)
+det(waste-3, A-1)
+amod(waste-3, total-2)
+prep(waste-3, of-4)
+poss(time-7, everyone-5)
+possessive(everyone-5, 's-6)
+pobj(of-4, time-7)
+punct(waste-3, .-8)
+

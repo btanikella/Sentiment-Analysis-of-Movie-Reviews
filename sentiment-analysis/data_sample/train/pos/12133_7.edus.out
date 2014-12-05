@@ -1,0 +1,900 @@
+Sentence #1 (7 tokens):
+This movie is about sexual obsession.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=IN] [Text=sexual CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=obsession CharacterOffsetBegin=31 CharacterOffsetEnd=40 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.] 
+root(ROOT-0, movie-2)
+det(movie-2, This-1)
+dep(movie-2, is-3)
+prep(is-3, about-4)
+amod(obsession-6, sexual-5)
+pobj(about-4, obsession-6)
+punct(movie-2, .-7)
+
+Sentence #2 (5 tokens):
+Bette Davis plays Mildred.
+[Text=Bette CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NNP] [Text=Davis CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=NNP] [Text=plays CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=VBZ] [Text=Mildred CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=.] 
+root(ROOT-0, plays-3)
+nn(Davis-2, Bette-1)
+nsubj(plays-3, Davis-2)
+dobj(plays-3, Mildred-4)
+punct(plays-3, .-5)
+
+Sentence #3 (10 tokens):
+This is a woman who men are drawn to.
+[Text=This CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=WP] [Text=men CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=VBP] [Text=drawn CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=TO] [Text=. CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=.] 
+root(ROOT-0, woman-4)
+nsubj(woman-4, This-1)
+cop(woman-4, is-2)
+det(woman-4, a-3)
+dobj(drawn-8, who-5)
+nsubjpass(drawn-8, men-6)
+auxpass(drawn-8, are-7)
+rcmod(woman-4, drawn-8)
+prep(drawn-8, to-9)
+punct(woman-4, .-10)
+
+Sentence #4 (16 tokens):
+Not because she is a nice beautiful girl but because she is a sexual entity.
+[Text=Not CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=beautiful CharacterOffsetBegin=145 CharacterOffsetEnd=154 PartOfSpeech=JJ] [Text=girl CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=CC] [Text=because CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=DT] [Text=sexual CharacterOffsetBegin=181 CharacterOffsetEnd=187 PartOfSpeech=JJ] [Text=entity CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=.] 
+root(ROOT-0, Not-1)
+mark(girl-8, because-2)
+nsubj(girl-8, she-3)
+cop(girl-8, is-4)
+det(girl-8, a-5)
+amod(girl-8, nice-6)
+amod(girl-8, beautiful-7)
+advcl(Not-1, girl-8)
+cc(girl-8, but-9)
+mark(entity-15, because-10)
+nsubj(entity-15, she-11)
+cop(entity-15, is-12)
+det(entity-15, a-13)
+amod(entity-15, sexual-14)
+conj(girl-8, entity-15)
+punct(Not-1, .-16)
+
+Sentence #5 (15 tokens):
+Now the movie does not come out and say that but it is obvious.
+[Text=Now CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=come CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=RP] [Text=and CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=CC] [Text=say CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=but CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=VBZ] [Text=obvious CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=.] 
+root(ROOT-0, come-6)
+advmod(come-6, Now-1)
+det(movie-3, the-2)
+nsubj(come-6, movie-3)
+aux(come-6, does-4)
+neg(come-6, not-5)
+prt(come-6, out-7)
+cc(come-6, and-8)
+conj(come-6, say-9)
+mark(obvious-14, that-10)
+cc(that-10, but-11)
+nsubj(obvious-14, it-12)
+cop(obvious-14, is-13)
+ccomp(come-6, obvious-14)
+punct(come-6, .-15)
+
+Sentence #6 (18 tokens):
+There is a scene in the movie in which men are all going googly eyes over her.
+[Text=There CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=scene CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=IN] [Text=which CharacterOffsetBegin=301 CharacterOffsetEnd=306 PartOfSpeech=WDT] [Text=men CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=DT] [Text=going CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=VBG] [Text=googly CharacterOffsetBegin=325 CharacterOffsetEnd=331 PartOfSpeech=RB] [Text=eyes CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=NNS] [Text=over CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(scene-4, a-3)
+nsubj(is-2, scene-4)
+prep(scene-4, in-5)
+det(movie-7, the-6)
+pobj(in-5, movie-7)
+prep(eyes-15, in-8)
+pobj(in-8, which-9)
+nsubj(eyes-15, men-10)
+cop(eyes-15, are-11)
+det(eyes-15, all-12)
+amod(eyes-15, going-13)
+amod(eyes-15, googly-14)
+rcmod(movie-7, eyes-15)
+prep(eyes-15, over-16)
+pobj(over-16, her-17)
+punct(is-2, .-18)
+
+Sentence #7 (28 tokens):
+She works as a waitress in a coffee shop, she can't read and she not really anybody to look at but she is a flirt.
+[Text=She CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=PRP] [Text=works CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=VBZ] [Text=as CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=DT] [Text=waitress CharacterOffsetBegin=366 CharacterOffsetEnd=374 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=DT] [Text=coffee CharacterOffsetBegin=380 CharacterOffsetEnd=386 PartOfSpeech=NN] [Text=shop CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=,] [Text=she CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=RB] [Text=read CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=PRP] [Text=not CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=420 CharacterOffsetEnd=426 PartOfSpeech=RB] [Text=anybody CharacterOffsetBegin=427 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=TO] [Text=look CharacterOffsetBegin=438 CharacterOffsetEnd=442 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=IN] [Text=but CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=454 CharacterOffsetEnd=456 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=DT] [Text=flirt CharacterOffsetBegin=459 CharacterOffsetEnd=464 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=.] 
+root(ROOT-0, works-2)
+nsubj(works-2, She-1)
+prep(works-2, as-3)
+det(waitress-5, a-4)
+pobj(as-3, waitress-5)
+prep(waitress-5, in-6)
+det(shop-9, a-7)
+nn(shop-9, coffee-8)
+pobj(in-6, shop-9)
+punct(works-2, ,-10)
+nsubj(read-14, she-11)
+aux(read-14, ca-12)
+neg(read-14, n't-13)
+dep(works-2, read-14)
+cc(read-14, and-15)
+conj(read-14, she-16)
+neg(anybody-19, not-17)
+advmod(anybody-19, really-18)
+nsubj(look-21, anybody-19)
+aux(look-21, to-20)
+dep(she-16, look-21)
+prt(look-21, at-22)
+cc(look-21, but-23)
+nsubj(flirt-27, she-24)
+cop(flirt-27, is-25)
+det(flirt-27, a-26)
+conj(look-21, flirt-27)
+punct(works-2, .-28)
+
+Sentence #8 (16 tokens):
+It is obvious the male customers in that coffee shop are there because of her.
+[Text=It CharacterOffsetBegin=470 CharacterOffsetEnd=472 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=VBZ] [Text=obvious CharacterOffsetBegin=476 CharacterOffsetEnd=483 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=DT] [Text=male CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=JJ] [Text=customers CharacterOffsetBegin=493 CharacterOffsetEnd=502 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=506 CharacterOffsetEnd=510 PartOfSpeech=DT] [Text=coffee CharacterOffsetBegin=511 CharacterOffsetEnd=517 PartOfSpeech=NN] [Text=shop CharacterOffsetBegin=518 CharacterOffsetEnd=522 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=523 CharacterOffsetEnd=526 PartOfSpeech=VBP] [Text=there CharacterOffsetBegin=527 CharacterOffsetEnd=532 PartOfSpeech=EX] [Text=because CharacterOffsetBegin=533 CharacterOffsetEnd=540 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=544 CharacterOffsetEnd=547 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=.] 
+root(ROOT-0, obvious-3)
+nsubj(obvious-3, It-1)
+cop(obvious-3, is-2)
+det(customers-6, the-4)
+amod(customers-6, male-5)
+nsubj(are-11, customers-6)
+prep(customers-6, in-7)
+det(shop-10, that-8)
+nn(shop-10, coffee-9)
+pobj(in-7, shop-10)
+ccomp(obvious-3, are-11)
+advmod(are-11, there-12)
+mwe(of-14, because-13)
+prep(there-12, of-14)
+pobj(of-14, her-15)
+punct(obvious-3, .-16)
+
+Sentence #9 (32 tokens):
+One day Phillip a club footed failed painter medical student comes in the shop to say a good word for his friend but he becomes besotted the moment he sees her.
+[Text=One CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=CD] [Text=day CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=NN] [Text=Phillip CharacterOffsetBegin=561 CharacterOffsetEnd=568 PartOfSpeech=NNP] [Text=a CharacterOffsetBegin=569 CharacterOffsetEnd=570 PartOfSpeech=DT] [Text=club CharacterOffsetBegin=571 CharacterOffsetEnd=575 PartOfSpeech=NN] [Text=footed CharacterOffsetBegin=576 CharacterOffsetEnd=582 PartOfSpeech=VBD] [Text=failed CharacterOffsetBegin=583 CharacterOffsetEnd=589 PartOfSpeech=VBN] [Text=painter CharacterOffsetBegin=590 CharacterOffsetEnd=597 PartOfSpeech=NN] [Text=medical CharacterOffsetBegin=598 CharacterOffsetEnd=605 PartOfSpeech=JJ] [Text=student CharacterOffsetBegin=606 CharacterOffsetEnd=613 PartOfSpeech=NN] [Text=comes CharacterOffsetBegin=614 CharacterOffsetEnd=619 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=DT] [Text=shop CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=639 CharacterOffsetEnd=640 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=JJ] [Text=word CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=651 CharacterOffsetEnd=654 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=659 CharacterOffsetEnd=665 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=670 CharacterOffsetEnd=672 PartOfSpeech=PRP] [Text=becomes CharacterOffsetBegin=673 CharacterOffsetEnd=680 PartOfSpeech=VBZ] [Text=besotted CharacterOffsetBegin=681 CharacterOffsetEnd=689 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=DT] [Text=moment CharacterOffsetBegin=694 CharacterOffsetEnd=700 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=701 CharacterOffsetEnd=703 PartOfSpeech=PRP] [Text=sees CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=709 CharacterOffsetEnd=712 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=712 CharacterOffsetEnd=713 PartOfSpeech=.] 
+root(ROOT-0, comes-11)
+num(day-2, One-1)
+tmod(comes-11, day-2)
+nn(student-10, Phillip-3)
+det(club-5, a-4)
+nn(student-10, club-5)
+nn(student-10, footed-6)
+amod(student-10, failed-7)
+nn(student-10, painter-8)
+amod(student-10, medical-9)
+nsubj(comes-11, student-10)
+prep(comes-11, in-12)
+det(shop-14, the-13)
+pobj(in-12, shop-14)
+aux(say-16, to-15)
+xcomp(comes-11, say-16)
+det(word-19, a-17)
+amod(word-19, good-18)
+dobj(say-16, word-19)
+prep(word-19, for-20)
+poss(friend-22, his-21)
+pobj(for-20, friend-22)
+cc(comes-11, but-23)
+nsubj(besotted-26, he-24)
+cop(besotted-26, becomes-25)
+conj(comes-11, besotted-26)
+det(moment-28, the-27)
+dobj(besotted-26, moment-28)
+nsubj(sees-30, he-29)
+rcmod(moment-28, sees-30)
+dobj(sees-30, her-31)
+punct(comes-11, .-32)
+
+Sentence #10 (11 tokens):
+He starts buying her things even pays for her apartment.
+[Text=He CharacterOffsetBegin=718 CharacterOffsetEnd=720 PartOfSpeech=PRP] [Text=starts CharacterOffsetBegin=721 CharacterOffsetEnd=727 PartOfSpeech=VBZ] [Text=buying CharacterOffsetBegin=728 CharacterOffsetEnd=734 PartOfSpeech=VBG] [Text=her CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=PRP$] [Text=things CharacterOffsetBegin=739 CharacterOffsetEnd=745 PartOfSpeech=NNS] [Text=even CharacterOffsetBegin=746 CharacterOffsetEnd=750 PartOfSpeech=RB] [Text=pays CharacterOffsetBegin=751 CharacterOffsetEnd=755 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=756 CharacterOffsetEnd=759 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=760 CharacterOffsetEnd=763 PartOfSpeech=PRP$] [Text=apartment CharacterOffsetBegin=764 CharacterOffsetEnd=773 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=.] 
+root(ROOT-0, starts-2)
+nsubj(starts-2, He-1)
+xcomp(starts-2, buying-3)
+poss(things-5, her-4)
+dobj(buying-3, things-5)
+advmod(pays-7, even-6)
+dep(buying-3, pays-7)
+prep(pays-7, for-8)
+poss(apartment-10, her-9)
+pobj(for-8, apartment-10)
+punct(starts-2, .-11)
+
+Sentence #11 (14 tokens):
+Meanwhile she is seeing other people and she makes no secrets of it.
+[Text=Meanwhile CharacterOffsetBegin=779 CharacterOffsetEnd=788 PartOfSpeech=RB] [Text=she CharacterOffsetBegin=789 CharacterOffsetEnd=792 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=793 CharacterOffsetEnd=795 PartOfSpeech=VBZ] [Text=seeing CharacterOffsetBegin=796 CharacterOffsetEnd=802 PartOfSpeech=VBG] [Text=other CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=809 CharacterOffsetEnd=815 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=816 CharacterOffsetEnd=819 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=820 CharacterOffsetEnd=823 PartOfSpeech=PRP] [Text=makes CharacterOffsetBegin=824 CharacterOffsetEnd=829 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=830 CharacterOffsetEnd=832 PartOfSpeech=DT] [Text=secrets CharacterOffsetBegin=833 CharacterOffsetEnd=840 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=841 CharacterOffsetEnd=843 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=844 CharacterOffsetEnd=846 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=846 CharacterOffsetEnd=847 PartOfSpeech=.] 
+root(ROOT-0, seeing-4)
+advmod(seeing-4, Meanwhile-1)
+nsubj(seeing-4, she-2)
+aux(seeing-4, is-3)
+amod(people-6, other-5)
+dobj(seeing-4, people-6)
+cc(seeing-4, and-7)
+nsubj(makes-9, she-8)
+conj(seeing-4, makes-9)
+det(secrets-11, no-10)
+dobj(makes-9, secrets-11)
+prep(secrets-11, of-12)
+pobj(of-12, it-13)
+punct(seeing-4, .-14)
+
+Sentence #12 (16 tokens):
+He dreams about her like she is a angel, but she is no angel.
+[Text=He CharacterOffsetBegin=852 CharacterOffsetEnd=854 PartOfSpeech=PRP] [Text=dreams CharacterOffsetBegin=855 CharacterOffsetEnd=861 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=862 CharacterOffsetEnd=867 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=868 CharacterOffsetEnd=871 PartOfSpeech=PRP$] [Text=like CharacterOffsetBegin=872 CharacterOffsetEnd=876 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=877 CharacterOffsetEnd=880 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=881 CharacterOffsetEnd=883 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=884 CharacterOffsetEnd=885 PartOfSpeech=DT] [Text=angel CharacterOffsetBegin=886 CharacterOffsetEnd=891 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=891 CharacterOffsetEnd=892 PartOfSpeech=,] [Text=but CharacterOffsetBegin=893 CharacterOffsetEnd=896 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=897 CharacterOffsetEnd=900 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=901 CharacterOffsetEnd=903 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=904 CharacterOffsetEnd=906 PartOfSpeech=DT] [Text=angel CharacterOffsetBegin=907 CharacterOffsetEnd=912 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=912 CharacterOffsetEnd=913 PartOfSpeech=.] 
+root(ROOT-0, angel-9)
+nsubj(dreams-2, He-1)
+nsubj(angel-9, dreams-2)
+prep(dreams-2, about-3)
+pobj(about-3, her-4)
+prep(her-4, like-5)
+pobj(like-5, she-6)
+cop(angel-9, is-7)
+det(angel-9, a-8)
+punct(angel-9, ,-10)
+cc(angel-9, but-11)
+nsubj(angel-15, she-12)
+cop(angel-15, is-13)
+det(angel-15, no-14)
+conj(angel-9, angel-15)
+punct(angel-9, .-16)
+
+Sentence #13 (7 tokens):
+He is constantly thinking about her.
+[Text=He CharacterOffsetBegin=918 CharacterOffsetEnd=920 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=921 CharacterOffsetEnd=923 PartOfSpeech=VBZ] [Text=constantly CharacterOffsetBegin=924 CharacterOffsetEnd=934 PartOfSpeech=RB] [Text=thinking CharacterOffsetBegin=935 CharacterOffsetEnd=943 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=944 CharacterOffsetEnd=949 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=950 CharacterOffsetEnd=953 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=953 CharacterOffsetEnd=954 PartOfSpeech=.] 
+root(ROOT-0, thinking-4)
+nsubj(thinking-4, He-1)
+aux(thinking-4, is-2)
+advmod(thinking-4, constantly-3)
+prep(thinking-4, about-5)
+pobj(about-5, her-6)
+punct(thinking-4, .-7)
+
+Sentence #14 (8 tokens):
+His med school grades are even failing.
+[Text=His CharacterOffsetBegin=959 CharacterOffsetEnd=962 PartOfSpeech=PRP$] [Text=med CharacterOffsetBegin=963 CharacterOffsetEnd=966 PartOfSpeech=JJ] [Text=school CharacterOffsetBegin=967 CharacterOffsetEnd=973 PartOfSpeech=NN] [Text=grades CharacterOffsetBegin=974 CharacterOffsetEnd=980 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=981 CharacterOffsetEnd=984 PartOfSpeech=VBP] [Text=even CharacterOffsetBegin=985 CharacterOffsetEnd=989 PartOfSpeech=RB] [Text=failing CharacterOffsetBegin=990 CharacterOffsetEnd=997 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=997 CharacterOffsetEnd=998 PartOfSpeech=.] 
+root(ROOT-0, failing-7)
+poss(grades-4, His-1)
+amod(grades-4, med-2)
+nn(grades-4, school-3)
+nsubj(failing-7, grades-4)
+aux(failing-7, are-5)
+advmod(failing-7, even-6)
+punct(failing-7, .-8)
+
+Sentence #15 (8 tokens):
+So what the nookie is too good.
+[Text=So CharacterOffsetBegin=1003 CharacterOffsetEnd=1005 PartOfSpeech=RB] [Text=what CharacterOffsetBegin=1006 CharacterOffsetEnd=1010 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=1011 CharacterOffsetEnd=1014 PartOfSpeech=DT] [Text=nookie CharacterOffsetBegin=1015 CharacterOffsetEnd=1021 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=1022 CharacterOffsetEnd=1024 PartOfSpeech=VBZ] [Text=too CharacterOffsetBegin=1025 CharacterOffsetEnd=1028 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=1029 CharacterOffsetEnd=1033 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1033 CharacterOffsetEnd=1034 PartOfSpeech=.] 
+root(ROOT-0, good-7)
+advmod(good-7, So-1)
+dobj(good-7, what-2)
+det(nookie-4, the-3)
+nsubj(good-7, nookie-4)
+cop(good-7, is-5)
+advmod(good-7, too-6)
+punct(good-7, .-8)
+
+Sentence #16 (16 tokens):
+He wants to marry her but she rejects him because she is marrying another guy.
+[Text=He CharacterOffsetBegin=1039 CharacterOffsetEnd=1041 PartOfSpeech=PRP] [Text=wants CharacterOffsetBegin=1042 CharacterOffsetEnd=1047 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=1048 CharacterOffsetEnd=1050 PartOfSpeech=TO] [Text=marry CharacterOffsetBegin=1051 CharacterOffsetEnd=1056 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=1057 CharacterOffsetEnd=1060 PartOfSpeech=PRP$] [Text=but CharacterOffsetBegin=1061 CharacterOffsetEnd=1064 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=1065 CharacterOffsetEnd=1068 PartOfSpeech=PRP] [Text=rejects CharacterOffsetBegin=1069 CharacterOffsetEnd=1076 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=1077 CharacterOffsetEnd=1080 PartOfSpeech=PRP] [Text=because CharacterOffsetBegin=1081 CharacterOffsetEnd=1088 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=1089 CharacterOffsetEnd=1092 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1093 CharacterOffsetEnd=1095 PartOfSpeech=VBZ] [Text=marrying CharacterOffsetBegin=1096 CharacterOffsetEnd=1104 PartOfSpeech=VBG] [Text=another CharacterOffsetBegin=1105 CharacterOffsetEnd=1112 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=1113 CharacterOffsetEnd=1116 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1116 CharacterOffsetEnd=1117 PartOfSpeech=.] 
+root(ROOT-0, wants-2)
+nsubj(wants-2, He-1)
+aux(marry-4, to-3)
+xcomp(wants-2, marry-4)
+dobj(marry-4, her-5)
+cc(wants-2, but-6)
+nsubj(rejects-8, she-7)
+conj(wants-2, rejects-8)
+dobj(rejects-8, him-9)
+mark(marrying-13, because-10)
+nsubj(marrying-13, she-11)
+aux(marrying-13, is-12)
+advcl(rejects-8, marrying-13)
+det(guy-15, another-14)
+dobj(marrying-13, guy-15)
+punct(wants-2, .-16)
+
+Sentence #17 (18 tokens):
+She always lets Phil know she really doesn't have love feelings for him all of time.
+[Text=She CharacterOffsetBegin=1122 CharacterOffsetEnd=1125 PartOfSpeech=PRP] [Text=always CharacterOffsetBegin=1126 CharacterOffsetEnd=1132 PartOfSpeech=RB] [Text=lets CharacterOffsetBegin=1133 CharacterOffsetEnd=1137 PartOfSpeech=VBZ] [Text=Phil CharacterOffsetBegin=1138 CharacterOffsetEnd=1142 PartOfSpeech=NNP] [Text=know CharacterOffsetBegin=1143 CharacterOffsetEnd=1147 PartOfSpeech=VB] [Text=she CharacterOffsetBegin=1148 CharacterOffsetEnd=1151 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=1152 CharacterOffsetEnd=1158 PartOfSpeech=RB] [Text=does CharacterOffsetBegin=1159 CharacterOffsetEnd=1163 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=1163 CharacterOffsetEnd=1166 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=1167 CharacterOffsetEnd=1171 PartOfSpeech=VB] [Text=love CharacterOffsetBegin=1172 CharacterOffsetEnd=1176 PartOfSpeech=NN] [Text=feelings CharacterOffsetBegin=1177 CharacterOffsetEnd=1185 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=1186 CharacterOffsetEnd=1189 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=1190 CharacterOffsetEnd=1193 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=1194 CharacterOffsetEnd=1197 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=1198 CharacterOffsetEnd=1200 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=1201 CharacterOffsetEnd=1205 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1205 CharacterOffsetEnd=1206 PartOfSpeech=.] 
+root(ROOT-0, lets-3)
+nsubj(lets-3, She-1)
+advmod(lets-3, always-2)
+nsubj(know-5, Phil-4)
+xcomp(lets-3, know-5)
+nsubj(have-10, she-6)
+advmod(have-10, really-7)
+aux(have-10, does-8)
+neg(have-10, n't-9)
+ccomp(know-5, have-10)
+nn(feelings-12, love-11)
+dobj(have-10, feelings-12)
+prep(feelings-12, for-13)
+pobj(for-13, him-14)
+dep(have-10, all-15)
+prep(all-15, of-16)
+pobj(of-16, time-17)
+punct(lets-3, .-18)
+
+Sentence #18 (10 tokens):
+He is heart broken but he meets another woman.
+[Text=He CharacterOffsetBegin=1211 CharacterOffsetEnd=1213 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1214 CharacterOffsetEnd=1216 PartOfSpeech=VBZ] [Text=heart CharacterOffsetBegin=1217 CharacterOffsetEnd=1222 PartOfSpeech=NN] [Text=broken CharacterOffsetBegin=1223 CharacterOffsetEnd=1229 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=1230 CharacterOffsetEnd=1233 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=1234 CharacterOffsetEnd=1236 PartOfSpeech=PRP] [Text=meets CharacterOffsetBegin=1237 CharacterOffsetEnd=1242 PartOfSpeech=VBZ] [Text=another CharacterOffsetBegin=1243 CharacterOffsetEnd=1250 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=1251 CharacterOffsetEnd=1256 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1256 CharacterOffsetEnd=1257 PartOfSpeech=.] 
+root(ROOT-0, heart-3)
+nsubj(heart-3, He-1)
+cop(heart-3, is-2)
+amod(heart-3, broken-4)
+cc(heart-3, but-5)
+nsubj(meets-7, he-6)
+conj(heart-3, meets-7)
+det(woman-9, another-8)
+dobj(meets-7, woman-9)
+punct(heart-3, .-10)
+
+Sentence #19 (15 tokens):
+They seem fine but it is obvious he is still dreaming of the Bimbo.
+[Text=They CharacterOffsetBegin=1262 CharacterOffsetEnd=1266 PartOfSpeech=PRP] [Text=seem CharacterOffsetBegin=1267 CharacterOffsetEnd=1271 PartOfSpeech=VBP] [Text=fine CharacterOffsetBegin=1272 CharacterOffsetEnd=1276 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=1277 CharacterOffsetEnd=1280 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=1281 CharacterOffsetEnd=1283 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1284 CharacterOffsetEnd=1286 PartOfSpeech=VBZ] [Text=obvious CharacterOffsetBegin=1287 CharacterOffsetEnd=1294 PartOfSpeech=JJ] [Text=he CharacterOffsetBegin=1295 CharacterOffsetEnd=1297 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=1298 CharacterOffsetEnd=1300 PartOfSpeech=VBZ] [Text=still CharacterOffsetBegin=1301 CharacterOffsetEnd=1306 PartOfSpeech=RB] [Text=dreaming CharacterOffsetBegin=1307 CharacterOffsetEnd=1315 PartOfSpeech=VBG] [Text=of CharacterOffsetBegin=1316 CharacterOffsetEnd=1318 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1319 CharacterOffsetEnd=1322 PartOfSpeech=DT] [Text=Bimbo CharacterOffsetBegin=1323 CharacterOffsetEnd=1328 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1328 CharacterOffsetEnd=1329 PartOfSpeech=.] 
+root(ROOT-0, fine-3)
+nsubj(fine-3, They-1)
+cop(fine-3, seem-2)
+cc(fine-3, but-4)
+nsubj(obvious-7, it-5)
+cop(obvious-7, is-6)
+conj(fine-3, obvious-7)
+nsubj(dreaming-11, he-8)
+aux(dreaming-11, is-9)
+advmod(dreaming-11, still-10)
+ccomp(obvious-7, dreaming-11)
+prep(dreaming-11, of-12)
+det(Bimbo-14, the-13)
+pobj(of-12, Bimbo-14)
+punct(fine-3, .-15)
+
+Sentence #20 (10 tokens):
+Mildred does comes back with a baby and unwed.
+[Text=Mildred CharacterOffsetBegin=1334 CharacterOffsetEnd=1341 PartOfSpeech=NNP] [Text=does CharacterOffsetBegin=1342 CharacterOffsetEnd=1346 PartOfSpeech=VBZ] [Text=comes CharacterOffsetBegin=1347 CharacterOffsetEnd=1352 PartOfSpeech=VBZ] [Text=back CharacterOffsetBegin=1353 CharacterOffsetEnd=1357 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=1358 CharacterOffsetEnd=1362 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1363 CharacterOffsetEnd=1364 PartOfSpeech=DT] [Text=baby CharacterOffsetBegin=1365 CharacterOffsetEnd=1369 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1370 CharacterOffsetEnd=1373 PartOfSpeech=CC] [Text=unwed CharacterOffsetBegin=1374 CharacterOffsetEnd=1379 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1379 CharacterOffsetEnd=1380 PartOfSpeech=.] 
+root(ROOT-0, comes-3)
+nsubj(comes-3, Mildred-1)
+aux(comes-3, does-2)
+prt(comes-3, back-4)
+prep(comes-3, with-5)
+det(baby-7, a-6)
+pobj(with-5, baby-7)
+cc(baby-7, and-8)
+conj(baby-7, unwed-9)
+punct(comes-3, .-10)
+
+Sentence #21 (30 tokens):
+Phillip takes her in again, but she starts going out with a friend of his, the light bulb comes on a little and he kicks her out.
+[Text=Phillip CharacterOffsetBegin=1385 CharacterOffsetEnd=1392 PartOfSpeech=NNP] [Text=takes CharacterOffsetBegin=1393 CharacterOffsetEnd=1398 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=1399 CharacterOffsetEnd=1402 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=1403 CharacterOffsetEnd=1405 PartOfSpeech=IN] [Text=again CharacterOffsetBegin=1406 CharacterOffsetEnd=1411 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=1411 CharacterOffsetEnd=1412 PartOfSpeech=,] [Text=but CharacterOffsetBegin=1413 CharacterOffsetEnd=1416 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=1417 CharacterOffsetEnd=1420 PartOfSpeech=PRP] [Text=starts CharacterOffsetBegin=1421 CharacterOffsetEnd=1427 PartOfSpeech=VBZ] [Text=going CharacterOffsetBegin=1428 CharacterOffsetEnd=1433 PartOfSpeech=VBG] [Text=out CharacterOffsetBegin=1434 CharacterOffsetEnd=1437 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=1438 CharacterOffsetEnd=1442 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1443 CharacterOffsetEnd=1444 PartOfSpeech=DT] [Text=friend CharacterOffsetBegin=1445 CharacterOffsetEnd=1451 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1452 CharacterOffsetEnd=1454 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=1455 CharacterOffsetEnd=1458 PartOfSpeech=PRP$] [Text=, CharacterOffsetBegin=1458 CharacterOffsetEnd=1459 PartOfSpeech=,] [Text=the CharacterOffsetBegin=1460 CharacterOffsetEnd=1463 PartOfSpeech=DT] [Text=light CharacterOffsetBegin=1464 CharacterOffsetEnd=1469 PartOfSpeech=JJ] [Text=bulb CharacterOffsetBegin=1470 CharacterOffsetEnd=1474 PartOfSpeech=NN] [Text=comes CharacterOffsetBegin=1475 CharacterOffsetEnd=1480 PartOfSpeech=VBZ] [Text=on CharacterOffsetBegin=1481 CharacterOffsetEnd=1483 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1484 CharacterOffsetEnd=1485 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=1486 CharacterOffsetEnd=1492 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=1493 CharacterOffsetEnd=1496 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=1497 CharacterOffsetEnd=1499 PartOfSpeech=PRP] [Text=kicks CharacterOffsetBegin=1500 CharacterOffsetEnd=1505 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=1506 CharacterOffsetEnd=1509 PartOfSpeech=PRP] [Text=out CharacterOffsetBegin=1510 CharacterOffsetEnd=1513 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=1513 CharacterOffsetEnd=1514 PartOfSpeech=.] 
+root(ROOT-0, takes-2)
+nsubj(takes-2, Phillip-1)
+dobj(takes-2, her-3)
+prep(takes-2, in-4)
+pobj(in-4, again-5)
+punct(takes-2, ,-6)
+cc(takes-2, but-7)
+nsubj(starts-9, she-8)
+conj(takes-2, starts-9)
+xcomp(starts-9, going-10)
+prt(going-10, out-11)
+prep(going-10, with-12)
+det(friend-14, a-13)
+pobj(with-12, friend-14)
+prep(friend-14, of-15)
+pobj(of-15, his-16)
+punct(his-16, ,-17)
+det(bulb-20, the-18)
+amod(bulb-20, light-19)
+nsubj(comes-21, bulb-20)
+conj(his-16, comes-21)
+prep(comes-21, on-22)
+det(little-24, a-23)
+pobj(on-22, little-24)
+cc(his-16, and-25)
+nsubj(kicks-27, he-26)
+conj(his-16, kicks-27)
+dep(out-29, her-28)
+advmod(his-16, out-29)
+punct(takes-2, .-30)
+
+Sentence #22 (28 tokens):
+She does what she knows works so she tries to seduce him, well it doesn't work and she proceeds to burn his tuition money up.
+[Text=She CharacterOffsetBegin=1519 CharacterOffsetEnd=1522 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=1523 CharacterOffsetEnd=1527 PartOfSpeech=VBZ] [Text=what CharacterOffsetBegin=1528 CharacterOffsetEnd=1532 PartOfSpeech=WP] [Text=she CharacterOffsetBegin=1533 CharacterOffsetEnd=1536 PartOfSpeech=PRP] [Text=knows CharacterOffsetBegin=1537 CharacterOffsetEnd=1542 PartOfSpeech=VBZ] [Text=works CharacterOffsetBegin=1543 CharacterOffsetEnd=1548 PartOfSpeech=NNS] [Text=so CharacterOffsetBegin=1549 CharacterOffsetEnd=1551 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=1552 CharacterOffsetEnd=1555 PartOfSpeech=PRP] [Text=tries CharacterOffsetBegin=1556 CharacterOffsetEnd=1561 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=1562 CharacterOffsetEnd=1564 PartOfSpeech=TO] [Text=seduce CharacterOffsetBegin=1565 CharacterOffsetEnd=1571 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=1572 CharacterOffsetEnd=1575 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=1575 CharacterOffsetEnd=1576 PartOfSpeech=,] [Text=well CharacterOffsetBegin=1577 CharacterOffsetEnd=1581 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=1582 CharacterOffsetEnd=1584 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=1585 CharacterOffsetEnd=1589 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=1589 CharacterOffsetEnd=1592 PartOfSpeech=RB] [Text=work CharacterOffsetBegin=1593 CharacterOffsetEnd=1597 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=1598 CharacterOffsetEnd=1601 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=1602 CharacterOffsetEnd=1605 PartOfSpeech=PRP] [Text=proceeds CharacterOffsetBegin=1606 CharacterOffsetEnd=1614 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=1615 CharacterOffsetEnd=1617 PartOfSpeech=TO] [Text=burn CharacterOffsetBegin=1618 CharacterOffsetEnd=1622 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=1623 CharacterOffsetEnd=1626 PartOfSpeech=PRP$] [Text=tuition CharacterOffsetBegin=1627 CharacterOffsetEnd=1634 PartOfSpeech=NN] [Text=money CharacterOffsetBegin=1635 CharacterOffsetEnd=1640 PartOfSpeech=NN] [Text=up CharacterOffsetBegin=1641 CharacterOffsetEnd=1643 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1643 CharacterOffsetEnd=1644 PartOfSpeech=.] 
+root(ROOT-0, does-2)
+nsubj(does-2, She-1)
+dobj(knows-5, what-3)
+nsubj(knows-5, she-4)
+ccomp(does-2, knows-5)
+dobj(knows-5, works-6)
+mark(tries-9, so-7)
+nsubj(tries-9, she-8)
+advcl(does-2, tries-9)
+aux(seduce-11, to-10)
+xcomp(tries-9, seduce-11)
+dobj(seduce-11, him-12)
+punct(seduce-11, ,-13)
+advmod(seduce-11, well-14)
+nsubj(work-18, it-15)
+aux(work-18, does-16)
+neg(work-18, n't-17)
+dep(seduce-11, work-18)
+cc(work-18, and-19)
+nsubj(proceeds-21, she-20)
+conj(work-18, proceeds-21)
+aux(burn-23, to-22)
+xcomp(proceeds-21, burn-23)
+poss(money-26, his-24)
+nn(money-26, tuition-25)
+dobj(burn-23, money-26)
+prt(burn-23, up-27)
+punct(does-2, .-28)
+
+Sentence #23 (30 tokens):
+Oh we have a club foot that he has problems about, even though a street teenager who has the same problem tells him to lighten up about it.
+[Text=Oh CharacterOffsetBegin=1649 CharacterOffsetEnd=1651 PartOfSpeech=UH] [Text=we CharacterOffsetBegin=1652 CharacterOffsetEnd=1654 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=1655 CharacterOffsetEnd=1659 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=1660 CharacterOffsetEnd=1661 PartOfSpeech=DT] [Text=club CharacterOffsetBegin=1662 CharacterOffsetEnd=1666 PartOfSpeech=NN] [Text=foot CharacterOffsetBegin=1667 CharacterOffsetEnd=1671 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=1672 CharacterOffsetEnd=1676 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=1677 CharacterOffsetEnd=1679 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=1680 CharacterOffsetEnd=1683 PartOfSpeech=VBZ] [Text=problems CharacterOffsetBegin=1684 CharacterOffsetEnd=1692 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=1693 CharacterOffsetEnd=1698 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=1698 CharacterOffsetEnd=1699 PartOfSpeech=,] [Text=even CharacterOffsetBegin=1700 CharacterOffsetEnd=1704 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=1705 CharacterOffsetEnd=1711 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1712 CharacterOffsetEnd=1713 PartOfSpeech=DT] [Text=street CharacterOffsetBegin=1714 CharacterOffsetEnd=1720 PartOfSpeech=NN] [Text=teenager CharacterOffsetBegin=1721 CharacterOffsetEnd=1729 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=1730 CharacterOffsetEnd=1733 PartOfSpeech=WP] [Text=has CharacterOffsetBegin=1734 CharacterOffsetEnd=1737 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=1738 CharacterOffsetEnd=1741 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=1742 CharacterOffsetEnd=1746 PartOfSpeech=JJ] [Text=problem CharacterOffsetBegin=1747 CharacterOffsetEnd=1754 PartOfSpeech=NN] [Text=tells CharacterOffsetBegin=1755 CharacterOffsetEnd=1760 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=1761 CharacterOffsetEnd=1764 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=1765 CharacterOffsetEnd=1767 PartOfSpeech=TO] [Text=lighten CharacterOffsetBegin=1768 CharacterOffsetEnd=1775 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=1776 CharacterOffsetEnd=1778 PartOfSpeech=RP] [Text=about CharacterOffsetBegin=1779 CharacterOffsetEnd=1784 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=1785 CharacterOffsetEnd=1787 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=1787 CharacterOffsetEnd=1788 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+advmod(have-3, Oh-1)
+nsubj(have-3, we-2)
+det(foot-6, a-4)
+nn(foot-6, club-5)
+dobj(have-3, foot-6)
+mark(has-9, that-7)
+nsubj(has-9, he-8)
+ccomp(foot-6, has-9)
+dobj(has-9, problems-10)
+advmod(problems-10, about-11)
+punct(has-9, ,-12)
+advmod(tells-23, even-13)
+mark(tells-23, though-14)
+det(teenager-17, a-15)
+nn(teenager-17, street-16)
+nsubj(tells-23, teenager-17)
+nsubj(has-19, who-18)
+rcmod(teenager-17, has-19)
+det(problem-22, the-20)
+amod(problem-22, same-21)
+dobj(has-19, problem-22)
+advcl(has-9, tells-23)
+dobj(tells-23, him-24)
+aux(lighten-26, to-25)
+xcomp(tells-23, lighten-26)
+prt(lighten-26, up-27)
+prep(lighten-26, about-28)
+pobj(about-28, it-29)
+punct(have-3, .-30)
+
+Sentence #24 (27 tokens):
+He meets another girl named Sally we have a March of time montage which shows her aging while he strings her along still waiting for Mildred.
+[Text=He CharacterOffsetBegin=1793 CharacterOffsetEnd=1795 PartOfSpeech=PRP] [Text=meets CharacterOffsetBegin=1796 CharacterOffsetEnd=1801 PartOfSpeech=VBZ] [Text=another CharacterOffsetBegin=1802 CharacterOffsetEnd=1809 PartOfSpeech=DT] [Text=girl CharacterOffsetBegin=1810 CharacterOffsetEnd=1814 PartOfSpeech=NN] [Text=named CharacterOffsetBegin=1815 CharacterOffsetEnd=1820 PartOfSpeech=VBN] [Text=Sally CharacterOffsetBegin=1821 CharacterOffsetEnd=1826 PartOfSpeech=NNP] [Text=we CharacterOffsetBegin=1827 CharacterOffsetEnd=1829 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=1830 CharacterOffsetEnd=1834 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=1835 CharacterOffsetEnd=1836 PartOfSpeech=DT] [Text=March CharacterOffsetBegin=1837 CharacterOffsetEnd=1842 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=1843 CharacterOffsetEnd=1845 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=1846 CharacterOffsetEnd=1850 PartOfSpeech=NN] [Text=montage CharacterOffsetBegin=1851 CharacterOffsetEnd=1858 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=1859 CharacterOffsetEnd=1864 PartOfSpeech=WDT] [Text=shows CharacterOffsetBegin=1865 CharacterOffsetEnd=1870 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=1871 CharacterOffsetEnd=1874 PartOfSpeech=PRP$] [Text=aging CharacterOffsetBegin=1875 CharacterOffsetEnd=1880 PartOfSpeech=NN] [Text=while CharacterOffsetBegin=1881 CharacterOffsetEnd=1886 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=1887 CharacterOffsetEnd=1889 PartOfSpeech=PRP] [Text=strings CharacterOffsetBegin=1890 CharacterOffsetEnd=1897 PartOfSpeech=NNS] [Text=her CharacterOffsetBegin=1898 CharacterOffsetEnd=1901 PartOfSpeech=PRP$] [Text=along CharacterOffsetBegin=1902 CharacterOffsetEnd=1907 PartOfSpeech=IN] [Text=still CharacterOffsetBegin=1908 CharacterOffsetEnd=1913 PartOfSpeech=RB] [Text=waiting CharacterOffsetBegin=1914 CharacterOffsetEnd=1921 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=1922 CharacterOffsetEnd=1925 PartOfSpeech=IN] [Text=Mildred CharacterOffsetBegin=1926 CharacterOffsetEnd=1933 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1933 CharacterOffsetEnd=1934 PartOfSpeech=.] 
+root(ROOT-0, meets-2)
+nsubj(meets-2, He-1)
+det(girl-4, another-3)
+dobj(meets-2, girl-4)
+partmod(girl-4, named-5)
+dep(named-5, Sally-6)
+nsubj(have-8, we-7)
+rcmod(girl-4, have-8)
+det(March-10, a-9)
+dobj(have-8, March-10)
+prep(March-10, of-11)
+nn(montage-13, time-12)
+pobj(of-11, montage-13)
+nsubj(shows-15, which-14)
+rcmod(montage-13, shows-15)
+poss(aging-17, her-16)
+dobj(shows-15, aging-17)
+mark(strings-20, while-18)
+nsubj(strings-20, he-19)
+advcl(shows-15, strings-20)
+dep(strings-20, her-21)
+prep(her-21, along-22)
+advmod(waiting-24, still-23)
+pcomp(along-22, waiting-24)
+prep(waiting-24, for-25)
+pobj(for-25, Mildred-26)
+punct(meets-2, .-27)
+
+Sentence #25 (13 tokens):
+Well he has no school tuition, can't find a job.
+[Text=Well CharacterOffsetBegin=1939 CharacterOffsetEnd=1943 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=1944 CharacterOffsetEnd=1946 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=1947 CharacterOffsetEnd=1950 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=1951 CharacterOffsetEnd=1953 PartOfSpeech=DT] [Text=school CharacterOffsetBegin=1954 CharacterOffsetEnd=1960 PartOfSpeech=NN] [Text=tuition CharacterOffsetBegin=1961 CharacterOffsetEnd=1968 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1968 CharacterOffsetEnd=1969 PartOfSpeech=,] [Text=ca CharacterOffsetBegin=1970 CharacterOffsetEnd=1972 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=1972 CharacterOffsetEnd=1975 PartOfSpeech=RB] [Text=find CharacterOffsetBegin=1976 CharacterOffsetEnd=1980 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1981 CharacterOffsetEnd=1982 PartOfSpeech=DT] [Text=job CharacterOffsetBegin=1983 CharacterOffsetEnd=1986 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1986 CharacterOffsetEnd=1987 PartOfSpeech=.] 
+root(ROOT-0, find-10)
+advmod(has-3, Well-1)
+nsubj(has-3, he-2)
+csubj(find-10, has-3)
+det(tuition-6, no-4)
+nn(tuition-6, school-5)
+dobj(has-3, tuition-6)
+punct(has-3, ,-7)
+aux(find-10, ca-8)
+neg(find-10, n't-9)
+det(job-12, a-11)
+dobj(find-10, job-12)
+punct(find-10, .-13)
+
+Sentence #26 (9 tokens):
+Finally Sally and her dad takes him in.
+[Text=Finally CharacterOffsetBegin=1992 CharacterOffsetEnd=1999 PartOfSpeech=RB] [Text=Sally CharacterOffsetBegin=2000 CharacterOffsetEnd=2005 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=2006 CharacterOffsetEnd=2009 PartOfSpeech=CC] [Text=her CharacterOffsetBegin=2010 CharacterOffsetEnd=2013 PartOfSpeech=PRP$] [Text=dad CharacterOffsetBegin=2014 CharacterOffsetEnd=2017 PartOfSpeech=NN] [Text=takes CharacterOffsetBegin=2018 CharacterOffsetEnd=2023 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=2024 CharacterOffsetEnd=2027 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=2028 CharacterOffsetEnd=2030 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=2030 CharacterOffsetEnd=2031 PartOfSpeech=.] 
+root(ROOT-0, takes-6)
+advmod(Sally-2, Finally-1)
+nsubj(takes-6, Sally-2)
+cc(Sally-2, and-3)
+poss(dad-5, her-4)
+conj(Sally-2, dad-5)
+dobj(takes-6, him-7)
+prt(takes-6, in-8)
+punct(takes-6, .-9)
+
+Sentence #27 (12 tokens):
+Not before another March of Time montage showing him going downhill.
+[Text=Not CharacterOffsetBegin=2036 CharacterOffsetEnd=2039 PartOfSpeech=RB] [Text=before CharacterOffsetBegin=2040 CharacterOffsetEnd=2046 PartOfSpeech=IN] [Text=another CharacterOffsetBegin=2047 CharacterOffsetEnd=2054 PartOfSpeech=DT] [Text=March CharacterOffsetBegin=2055 CharacterOffsetEnd=2060 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=2061 CharacterOffsetEnd=2063 PartOfSpeech=IN] [Text=Time CharacterOffsetBegin=2064 CharacterOffsetEnd=2068 PartOfSpeech=NNP] [Text=montage CharacterOffsetBegin=2069 CharacterOffsetEnd=2076 PartOfSpeech=NN] [Text=showing CharacterOffsetBegin=2077 CharacterOffsetEnd=2084 PartOfSpeech=VBG] [Text=him CharacterOffsetBegin=2085 CharacterOffsetEnd=2088 PartOfSpeech=PRP] [Text=going CharacterOffsetBegin=2089 CharacterOffsetEnd=2094 PartOfSpeech=VBG] [Text=downhill CharacterOffsetBegin=2095 CharacterOffsetEnd=2103 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=2103 CharacterOffsetEnd=2104 PartOfSpeech=.] 
+root(ROOT-0, before-2)
+neg(before-2, Not-1)
+det(March-4, another-3)
+pobj(before-2, March-4)
+prep(March-4, of-5)
+nn(montage-7, Time-6)
+pobj(of-5, montage-7)
+dep(before-2, showing-8)
+nsubj(going-10, him-9)
+ccomp(showing-8, going-10)
+advmod(going-10, downhill-11)
+punct(before-2, .-12)
+
+Sentence #28 (16 tokens):
+Soon his uncle who raised him dies and he gets money to become a doctor.
+[Text=Soon CharacterOffsetBegin=2109 CharacterOffsetEnd=2113 PartOfSpeech=RB] [Text=his CharacterOffsetBegin=2114 CharacterOffsetEnd=2117 PartOfSpeech=PRP$] [Text=uncle CharacterOffsetBegin=2118 CharacterOffsetEnd=2123 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=2124 CharacterOffsetEnd=2127 PartOfSpeech=WP] [Text=raised CharacterOffsetBegin=2128 CharacterOffsetEnd=2134 PartOfSpeech=VBD] [Text=him CharacterOffsetBegin=2135 CharacterOffsetEnd=2138 PartOfSpeech=PRP] [Text=dies CharacterOffsetBegin=2139 CharacterOffsetEnd=2143 PartOfSpeech=VBZ] [Text=and CharacterOffsetBegin=2144 CharacterOffsetEnd=2147 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=2148 CharacterOffsetEnd=2150 PartOfSpeech=PRP] [Text=gets CharacterOffsetBegin=2151 CharacterOffsetEnd=2155 PartOfSpeech=VBZ] [Text=money CharacterOffsetBegin=2156 CharacterOffsetEnd=2161 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=2162 CharacterOffsetEnd=2164 PartOfSpeech=TO] [Text=become CharacterOffsetBegin=2165 CharacterOffsetEnd=2171 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=2172 CharacterOffsetEnd=2173 PartOfSpeech=DT] [Text=doctor CharacterOffsetBegin=2174 CharacterOffsetEnd=2180 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2180 CharacterOffsetEnd=2181 PartOfSpeech=.] 
+root(ROOT-0, dies-7)
+advmod(dies-7, Soon-1)
+poss(uncle-3, his-2)
+nsubj(dies-7, uncle-3)
+nsubj(raised-5, who-4)
+rcmod(uncle-3, raised-5)
+dobj(raised-5, him-6)
+cc(dies-7, and-8)
+nsubj(gets-10, he-9)
+conj(dies-7, gets-10)
+dobj(gets-10, money-11)
+aux(doctor-15, to-12)
+cop(doctor-15, become-13)
+det(doctor-15, a-14)
+infmod(money-11, doctor-15)
+punct(dies-7, .-16)
+
+Sentence #29 (8 tokens):
+Meanwhile he finds Mildred needs him again.
+[Text=Meanwhile CharacterOffsetBegin=2186 CharacterOffsetEnd=2195 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=2196 CharacterOffsetEnd=2198 PartOfSpeech=PRP] [Text=finds CharacterOffsetBegin=2199 CharacterOffsetEnd=2204 PartOfSpeech=VBZ] [Text=Mildred CharacterOffsetBegin=2205 CharacterOffsetEnd=2212 PartOfSpeech=NNP] [Text=needs CharacterOffsetBegin=2213 CharacterOffsetEnd=2218 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=2219 CharacterOffsetEnd=2222 PartOfSpeech=PRP] [Text=again CharacterOffsetBegin=2223 CharacterOffsetEnd=2228 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=2228 CharacterOffsetEnd=2229 PartOfSpeech=.] 
+root(ROOT-0, finds-3)
+advmod(finds-3, Meanwhile-1)
+nsubj(finds-3, he-2)
+nsubj(needs-5, Mildred-4)
+ccomp(finds-3, needs-5)
+dobj(needs-5, him-6)
+advmod(needs-5, again-7)
+punct(finds-3, .-8)
+
+Sentence #30 (4 tokens):
+She has TB.
+[Text=She CharacterOffsetBegin=2234 CharacterOffsetEnd=2237 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=2238 CharacterOffsetEnd=2241 PartOfSpeech=VBZ] [Text=TB CharacterOffsetBegin=2242 CharacterOffsetEnd=2244 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2244 CharacterOffsetEnd=2245 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, She-1)
+dobj(has-2, TB-3)
+punct(has-2, .-4)
+
+Sentence #31 (21 tokens):
+meanwhile he is still leading Sally down the Primrose path about marriage and he takes a job on a steamship.
+[Text=meanwhile CharacterOffsetBegin=2250 CharacterOffsetEnd=2259 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=2260 CharacterOffsetEnd=2262 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=2263 CharacterOffsetEnd=2265 PartOfSpeech=VBZ] [Text=still CharacterOffsetBegin=2266 CharacterOffsetEnd=2271 PartOfSpeech=RB] [Text=leading CharacterOffsetBegin=2272 CharacterOffsetEnd=2279 PartOfSpeech=VBG] [Text=Sally CharacterOffsetBegin=2280 CharacterOffsetEnd=2285 PartOfSpeech=NNP] [Text=down CharacterOffsetBegin=2286 CharacterOffsetEnd=2290 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2291 CharacterOffsetEnd=2294 PartOfSpeech=DT] [Text=Primrose CharacterOffsetBegin=2295 CharacterOffsetEnd=2303 PartOfSpeech=NNP] [Text=path CharacterOffsetBegin=2304 CharacterOffsetEnd=2308 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=2309 CharacterOffsetEnd=2314 PartOfSpeech=IN] [Text=marriage CharacterOffsetBegin=2315 CharacterOffsetEnd=2323 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=2324 CharacterOffsetEnd=2327 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=2328 CharacterOffsetEnd=2330 PartOfSpeech=PRP] [Text=takes CharacterOffsetBegin=2331 CharacterOffsetEnd=2336 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=2337 CharacterOffsetEnd=2338 PartOfSpeech=DT] [Text=job CharacterOffsetBegin=2339 CharacterOffsetEnd=2342 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=2343 CharacterOffsetEnd=2345 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=2346 CharacterOffsetEnd=2347 PartOfSpeech=DT] [Text=steamship CharacterOffsetBegin=2348 CharacterOffsetEnd=2357 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2357 CharacterOffsetEnd=2358 PartOfSpeech=.] 
+root(ROOT-0, leading-5)
+advmod(leading-5, meanwhile-1)
+nsubj(leading-5, he-2)
+aux(leading-5, is-3)
+advmod(leading-5, still-4)
+dobj(leading-5, Sally-6)
+prep(Sally-6, down-7)
+det(path-10, the-8)
+nn(path-10, Primrose-9)
+pobj(down-7, path-10)
+prep(path-10, about-11)
+pobj(about-11, marriage-12)
+cc(Sally-6, and-13)
+nsubj(takes-15, he-14)
+conj(Sally-6, takes-15)
+det(job-17, a-16)
+dobj(takes-15, job-17)
+prep(takes-15, on-18)
+det(steamship-20, a-19)
+pobj(on-18, steamship-20)
+punct(leading-5, .-21)
+
+Sentence #32 (17 tokens):
+Finally the bimbo dies and Phillip declares he is free now and he will marry Sally.
+[Text=Finally CharacterOffsetBegin=2363 CharacterOffsetEnd=2370 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=2371 CharacterOffsetEnd=2374 PartOfSpeech=DT] [Text=bimbo CharacterOffsetBegin=2375 CharacterOffsetEnd=2380 PartOfSpeech=NN] [Text=dies CharacterOffsetBegin=2381 CharacterOffsetEnd=2385 PartOfSpeech=VBZ] [Text=and CharacterOffsetBegin=2386 CharacterOffsetEnd=2389 PartOfSpeech=CC] [Text=Phillip CharacterOffsetBegin=2390 CharacterOffsetEnd=2397 PartOfSpeech=NNP] [Text=declares CharacterOffsetBegin=2398 CharacterOffsetEnd=2406 PartOfSpeech=VBZ] [Text=he CharacterOffsetBegin=2407 CharacterOffsetEnd=2409 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=2410 CharacterOffsetEnd=2412 PartOfSpeech=VBZ] [Text=free CharacterOffsetBegin=2413 CharacterOffsetEnd=2417 PartOfSpeech=JJ] [Text=now CharacterOffsetBegin=2418 CharacterOffsetEnd=2421 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=2422 CharacterOffsetEnd=2425 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=2426 CharacterOffsetEnd=2428 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=2429 CharacterOffsetEnd=2433 PartOfSpeech=MD] [Text=marry CharacterOffsetBegin=2434 CharacterOffsetEnd=2439 PartOfSpeech=VB] [Text=Sally CharacterOffsetBegin=2440 CharacterOffsetEnd=2445 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=2445 CharacterOffsetEnd=2446 PartOfSpeech=.] 
+root(ROOT-0, dies-4)
+advmod(dies-4, Finally-1)
+det(bimbo-3, the-2)
+nsubj(dies-4, bimbo-3)
+cc(dies-4, and-5)
+nsubj(declares-7, Phillip-6)
+conj(dies-4, declares-7)
+nsubj(free-10, he-8)
+cop(free-10, is-9)
+ccomp(declares-7, free-10)
+advmod(free-10, now-11)
+cc(free-10, and-12)
+nsubj(marry-15, he-13)
+aux(marry-15, will-14)
+conj(free-10, marry-15)
+dobj(marry-15, Sally-16)
+punct(dies-4, .-17)
+
+Sentence #33 (9 tokens):
+I wished she told him to stuff it.
+[Text=I CharacterOffsetBegin=2451 CharacterOffsetEnd=2452 PartOfSpeech=PRP] [Text=wished CharacterOffsetBegin=2453 CharacterOffsetEnd=2459 PartOfSpeech=VBD] [Text=she CharacterOffsetBegin=2460 CharacterOffsetEnd=2463 PartOfSpeech=PRP] [Text=told CharacterOffsetBegin=2464 CharacterOffsetEnd=2468 PartOfSpeech=VBD] [Text=him CharacterOffsetBegin=2469 CharacterOffsetEnd=2472 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=2473 CharacterOffsetEnd=2475 PartOfSpeech=TO] [Text=stuff CharacterOffsetBegin=2476 CharacterOffsetEnd=2481 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=2482 CharacterOffsetEnd=2484 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=2484 CharacterOffsetEnd=2485 PartOfSpeech=.] 
+root(ROOT-0, wished-2)
+nsubj(wished-2, I-1)
+nsubj(told-4, she-3)
+ccomp(wished-2, told-4)
+dobj(told-4, him-5)
+aux(stuff-7, to-6)
+xcomp(told-4, stuff-7)
+dobj(stuff-7, it-8)
+punct(wished-2, .-9)
+
+Sentence #34 (17 tokens):
+Now I know my take on the characters are not going to get me any points.
+[Text=Now CharacterOffsetBegin=2490 CharacterOffsetEnd=2493 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=2494 CharacterOffsetEnd=2495 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=2496 CharacterOffsetEnd=2500 PartOfSpeech=VBP] [Text=my CharacterOffsetBegin=2501 CharacterOffsetEnd=2503 PartOfSpeech=PRP$] [Text=take CharacterOffsetBegin=2504 CharacterOffsetEnd=2508 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=2509 CharacterOffsetEnd=2511 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2512 CharacterOffsetEnd=2515 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=2516 CharacterOffsetEnd=2526 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=2527 CharacterOffsetEnd=2530 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=2531 CharacterOffsetEnd=2534 PartOfSpeech=RB] [Text=going CharacterOffsetBegin=2535 CharacterOffsetEnd=2540 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=2541 CharacterOffsetEnd=2543 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=2544 CharacterOffsetEnd=2547 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=2548 CharacterOffsetEnd=2550 PartOfSpeech=PRP] [Text=any CharacterOffsetBegin=2551 CharacterOffsetEnd=2554 PartOfSpeech=DT] [Text=points CharacterOffsetBegin=2555 CharacterOffsetEnd=2561 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2561 CharacterOffsetEnd=2562 PartOfSpeech=.] 
+root(ROOT-0, know-3)
+advmod(know-3, Now-1)
+nsubj(know-3, I-2)
+poss(take-5, my-4)
+nsubj(going-11, take-5)
+prep(take-5, on-6)
+det(characters-8, the-7)
+pobj(on-6, characters-8)
+aux(going-11, are-9)
+neg(going-11, not-10)
+ccomp(know-3, going-11)
+aux(get-13, to-12)
+xcomp(going-11, get-13)
+iobj(get-13, me-14)
+det(points-16, any-15)
+dobj(get-13, points-16)
+punct(know-3, .-17)
+
+Sentence #35 (9 tokens):
+But I feel Phillip was the bad guy.
+[Text=But CharacterOffsetBegin=2567 CharacterOffsetEnd=2570 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=2571 CharacterOffsetEnd=2572 PartOfSpeech=PRP] [Text=feel CharacterOffsetBegin=2573 CharacterOffsetEnd=2577 PartOfSpeech=VBP] [Text=Phillip CharacterOffsetBegin=2578 CharacterOffsetEnd=2585 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=2586 CharacterOffsetEnd=2589 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=2590 CharacterOffsetEnd=2593 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=2594 CharacterOffsetEnd=2597 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=2598 CharacterOffsetEnd=2601 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2601 CharacterOffsetEnd=2602 PartOfSpeech=.] 
+root(ROOT-0, feel-3)
+cc(feel-3, But-1)
+nsubj(feel-3, I-2)
+nsubj(guy-8, Phillip-4)
+cop(guy-8, was-5)
+det(guy-8, the-6)
+amod(guy-8, bad-7)
+ccomp(feel-3, guy-8)
+punct(feel-3, .-9)
+
+Sentence #36 (16 tokens):
+Yes Mildred is a Strumpet BUT he knows it, and he keeps coming back.
+[Text=Yes CharacterOffsetBegin=2607 CharacterOffsetEnd=2610 PartOfSpeech=UH] [Text=Mildred CharacterOffsetBegin=2611 CharacterOffsetEnd=2618 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=2619 CharacterOffsetEnd=2621 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=2622 CharacterOffsetEnd=2623 PartOfSpeech=DT] [Text=Strumpet CharacterOffsetBegin=2624 CharacterOffsetEnd=2632 PartOfSpeech=NNP] [Text=BUT CharacterOffsetBegin=2633 CharacterOffsetEnd=2636 PartOfSpeech=NNP] [Text=he CharacterOffsetBegin=2637 CharacterOffsetEnd=2639 PartOfSpeech=PRP] [Text=knows CharacterOffsetBegin=2640 CharacterOffsetEnd=2645 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=2646 CharacterOffsetEnd=2648 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=2648 CharacterOffsetEnd=2649 PartOfSpeech=,] [Text=and CharacterOffsetBegin=2650 CharacterOffsetEnd=2653 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=2654 CharacterOffsetEnd=2656 PartOfSpeech=PRP] [Text=keeps CharacterOffsetBegin=2657 CharacterOffsetEnd=2662 PartOfSpeech=VBZ] [Text=coming CharacterOffsetBegin=2663 CharacterOffsetEnd=2669 PartOfSpeech=VBG] [Text=back CharacterOffsetBegin=2670 CharacterOffsetEnd=2674 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=2674 CharacterOffsetEnd=2675 PartOfSpeech=.] 
+root(ROOT-0, BUT-6)
+nn(Mildred-2, Yes-1)
+nsubj(BUT-6, Mildred-2)
+cop(BUT-6, is-3)
+det(BUT-6, a-4)
+nn(BUT-6, Strumpet-5)
+nsubj(knows-8, he-7)
+rcmod(BUT-6, knows-8)
+dobj(knows-8, it-9)
+punct(BUT-6, ,-10)
+cc(BUT-6, and-11)
+nsubj(keeps-13, he-12)
+conj(BUT-6, keeps-13)
+xcomp(keeps-13, coming-14)
+advmod(coming-14, back-15)
+punct(BUT-6, .-16)
+
+Sentence #37 (16 tokens):
+Mean while he has two other girlfriends who love him but he treats as appetizers.
+[Text=Mean CharacterOffsetBegin=2680 CharacterOffsetEnd=2684 PartOfSpeech=NN] [Text=while CharacterOffsetBegin=2685 CharacterOffsetEnd=2690 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=2691 CharacterOffsetEnd=2693 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=2694 CharacterOffsetEnd=2697 PartOfSpeech=VBZ] [Text=two CharacterOffsetBegin=2698 CharacterOffsetEnd=2701 PartOfSpeech=CD] [Text=other CharacterOffsetBegin=2702 CharacterOffsetEnd=2707 PartOfSpeech=JJ] [Text=girlfriends CharacterOffsetBegin=2708 CharacterOffsetEnd=2719 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=2720 CharacterOffsetEnd=2723 PartOfSpeech=WP] [Text=love CharacterOffsetBegin=2724 CharacterOffsetEnd=2728 PartOfSpeech=VBP] [Text=him CharacterOffsetBegin=2729 CharacterOffsetEnd=2732 PartOfSpeech=PRP] [Text=but CharacterOffsetBegin=2733 CharacterOffsetEnd=2736 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=2737 CharacterOffsetEnd=2739 PartOfSpeech=PRP] [Text=treats CharacterOffsetBegin=2740 CharacterOffsetEnd=2746 PartOfSpeech=VBZ] [Text=as CharacterOffsetBegin=2747 CharacterOffsetEnd=2749 PartOfSpeech=IN] [Text=appetizers CharacterOffsetBegin=2750 CharacterOffsetEnd=2760 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2760 CharacterOffsetEnd=2761 PartOfSpeech=.] 
+root(ROOT-0, Mean-1)
+mark(has-4, while-2)
+nsubj(has-4, he-3)
+advcl(Mean-1, has-4)
+num(girlfriends-7, two-5)
+amod(girlfriends-7, other-6)
+dobj(has-4, girlfriends-7)
+nsubj(love-9, who-8)
+rcmod(girlfriends-7, love-9)
+dobj(love-9, him-10)
+cc(love-9, but-11)
+nsubj(treats-13, he-12)
+conj(love-9, treats-13)
+prep(treats-13, as-14)
+pobj(as-14, appetizers-15)
+punct(Mean-1, .-16)
+
+Sentence #38 (9 tokens):
+I guess the sex wasn't as good.
+[Text=I CharacterOffsetBegin=2766 CharacterOffsetEnd=2767 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=2768 CharacterOffsetEnd=2773 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=2774 CharacterOffsetEnd=2777 PartOfSpeech=DT] [Text=sex CharacterOffsetBegin=2778 CharacterOffsetEnd=2781 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=2782 CharacterOffsetEnd=2785 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=2785 CharacterOffsetEnd=2788 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=2789 CharacterOffsetEnd=2791 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=2792 CharacterOffsetEnd=2796 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=2796 CharacterOffsetEnd=2797 PartOfSpeech=.] 
+root(ROOT-0, guess-2)
+nsubj(guess-2, I-1)
+det(sex-4, the-3)
+nsubj(good-8, sex-4)
+cop(good-8, was-5)
+neg(good-8, n't-6)
+advmod(good-8, as-7)
+ccomp(guess-2, good-8)
+punct(guess-2, .-9)
+
+Sentence #39 (12 tokens):
+But in any case he dogs those women waiting for Mildred.
+[Text=But CharacterOffsetBegin=2802 CharacterOffsetEnd=2805 PartOfSpeech=CC] [Text=in CharacterOffsetBegin=2806 CharacterOffsetEnd=2808 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=2809 CharacterOffsetEnd=2812 PartOfSpeech=DT] [Text=case CharacterOffsetBegin=2813 CharacterOffsetEnd=2817 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=2818 CharacterOffsetEnd=2820 PartOfSpeech=PRP] [Text=dogs CharacterOffsetBegin=2821 CharacterOffsetEnd=2825 PartOfSpeech=VBZ] [Text=those CharacterOffsetBegin=2826 CharacterOffsetEnd=2831 PartOfSpeech=DT] [Text=women CharacterOffsetBegin=2832 CharacterOffsetEnd=2837 PartOfSpeech=NNS] [Text=waiting CharacterOffsetBegin=2838 CharacterOffsetEnd=2845 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=2846 CharacterOffsetEnd=2849 PartOfSpeech=IN] [Text=Mildred CharacterOffsetBegin=2850 CharacterOffsetEnd=2857 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=2857 CharacterOffsetEnd=2858 PartOfSpeech=.] 
+root(ROOT-0, But-1)
+prep(But-1, in-2)
+det(case-4, any-3)
+pobj(in-2, case-4)
+nsubj(dogs-6, he-5)
+rcmod(case-4, dogs-6)
+det(women-8, those-7)
+dobj(dogs-6, women-8)
+partmod(women-8, waiting-9)
+prep(waiting-9, for-10)
+pobj(for-10, Mildred-11)
+punct(But-1, .-12)
+
+Sentence #40 (51 tokens):
+Not only that but the man who gets Mildred pregnant is already married and when Philip asks him what he intends to do about Baby ( apparently the baby's name) he laughs is off, he has no intention in supporting her and Baby and he is wealthy.
+[Text=Not CharacterOffsetBegin=2863 CharacterOffsetEnd=2866 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=2867 CharacterOffsetEnd=2871 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=2872 CharacterOffsetEnd=2876 PartOfSpeech=IN] [Text=but CharacterOffsetBegin=2877 CharacterOffsetEnd=2880 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=2881 CharacterOffsetEnd=2884 PartOfSpeech=DT] [Text=man CharacterOffsetBegin=2885 CharacterOffsetEnd=2888 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=2889 CharacterOffsetEnd=2892 PartOfSpeech=WP] [Text=gets CharacterOffsetBegin=2893 CharacterOffsetEnd=2897 PartOfSpeech=VBZ] [Text=Mildred CharacterOffsetBegin=2898 CharacterOffsetEnd=2905 PartOfSpeech=NNP] [Text=pregnant CharacterOffsetBegin=2906 CharacterOffsetEnd=2914 PartOfSpeech=JJ] [Text=is CharacterOffsetBegin=2915 CharacterOffsetEnd=2917 PartOfSpeech=VBZ] [Text=already CharacterOffsetBegin=2918 CharacterOffsetEnd=2925 PartOfSpeech=RB] [Text=married CharacterOffsetBegin=2926 CharacterOffsetEnd=2933 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=2934 CharacterOffsetEnd=2937 PartOfSpeech=CC] [Text=when CharacterOffsetBegin=2938 CharacterOffsetEnd=2942 PartOfSpeech=WRB] [Text=Philip CharacterOffsetBegin=2943 CharacterOffsetEnd=2949 PartOfSpeech=NNP] [Text=asks CharacterOffsetBegin=2950 CharacterOffsetEnd=2954 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=2955 CharacterOffsetEnd=2958 PartOfSpeech=PRP] [Text=what CharacterOffsetBegin=2959 CharacterOffsetEnd=2963 PartOfSpeech=WP] [Text=he CharacterOffsetBegin=2964 CharacterOffsetEnd=2966 PartOfSpeech=PRP] [Text=intends CharacterOffsetBegin=2967 CharacterOffsetEnd=2974 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=2975 CharacterOffsetEnd=2977 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=2978 CharacterOffsetEnd=2980 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=2981 CharacterOffsetEnd=2986 PartOfSpeech=IN] [Text=Baby CharacterOffsetBegin=2987 CharacterOffsetEnd=2991 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=2992 CharacterOffsetEnd=2993 PartOfSpeech=-LRB-] [Text=apparently CharacterOffsetBegin=2994 CharacterOffsetEnd=3004 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=3005 CharacterOffsetEnd=3008 PartOfSpeech=DT] [Text=baby CharacterOffsetBegin=3009 CharacterOffsetEnd=3013 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=3013 CharacterOffsetEnd=3015 PartOfSpeech=POS] [Text=name CharacterOffsetBegin=3016 CharacterOffsetEnd=3020 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=3020 CharacterOffsetEnd=3021 PartOfSpeech=-RRB-] [Text=he CharacterOffsetBegin=3022 CharacterOffsetEnd=3024 PartOfSpeech=PRP] [Text=laughs CharacterOffsetBegin=3025 CharacterOffsetEnd=3031 PartOfSpeech=VBZ] [Text=is CharacterOffsetBegin=3032 CharacterOffsetEnd=3034 PartOfSpeech=VBZ] [Text=off CharacterOffsetBegin=3035 CharacterOffsetEnd=3038 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=3038 CharacterOffsetEnd=3039 PartOfSpeech=,] [Text=he CharacterOffsetBegin=3040 CharacterOffsetEnd=3042 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=3043 CharacterOffsetEnd=3046 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=3047 CharacterOffsetEnd=3049 PartOfSpeech=DT] [Text=intention CharacterOffsetBegin=3050 CharacterOffsetEnd=3059 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=3060 CharacterOffsetEnd=3062 PartOfSpeech=IN] [Text=supporting CharacterOffsetBegin=3063 CharacterOffsetEnd=3073 PartOfSpeech=VBG] [Text=her CharacterOffsetBegin=3074 CharacterOffsetEnd=3077 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=3078 CharacterOffsetEnd=3081 PartOfSpeech=CC] [Text=Baby CharacterOffsetBegin=3082 CharacterOffsetEnd=3086 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=3087 CharacterOffsetEnd=3090 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=3091 CharacterOffsetEnd=3093 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=3094 CharacterOffsetEnd=3096 PartOfSpeech=VBZ] [Text=wealthy CharacterOffsetBegin=3097 CharacterOffsetEnd=3104 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=3104 CharacterOffsetEnd=3105 PartOfSpeech=.] 
+root(ROOT-0, has-39)
+neg(only-2, Not-1)
+advmod(has-39, only-2)
+mark(married-13, that-3)
+cc(married-13, but-4)
+det(man-6, the-5)
+nsubjpass(married-13, man-6)
+nsubj(gets-8, who-7)
+rcmod(man-6, gets-8)
+dobj(gets-8, Mildred-9)
+amod(Mildred-9, pregnant-10)
+auxpass(married-13, is-11)
+advmod(married-13, already-12)
+ccomp(has-39, married-13)
+cc(married-13, and-14)
+advmod(asks-17, when-15)
+nsubj(asks-17, Philip-16)
+conj(married-13, asks-17)
+dobj(asks-17, him-18)
+dobj(intends-21, what-19)
+nsubj(intends-21, he-20)
+dep(asks-17, intends-21)
+aux(do-23, to-22)
+xcomp(intends-21, do-23)
+prep(do-23, about-24)
+nn(name-31, Baby-25)
+punct(name-31, -LRB--26)
+advmod(name-31, apparently-27)
+det(baby-29, the-28)
+poss(name-31, baby-29)
+possessive(baby-29, 's-30)
+pobj(about-24, name-31)
+punct(asks-17, -RRB--32)
+nsubj(laughs-34, he-33)
+dep(married-13, laughs-34)
+cop(off-36, is-35)
+prt(laughs-34, off-36)
+punct(has-39, ,-37)
+nsubj(has-39, he-38)
+det(intention-41, no-40)
+dobj(has-39, intention-41)
+prep(intention-41, in-42)
+pcomp(in-42, supporting-43)
+dobj(supporting-43, her-44)
+cc(her-44, and-45)
+conj(her-44, Baby-46)
+cc(has-39, and-47)
+nsubj(wealthy-50, he-48)
+cop(wealthy-50, is-49)
+conj(has-39, wealthy-50)
+punct(has-39, .-51)
+
+Sentence #41 (24 tokens):
+Sally's father who has 9 children say some pretty nasty things about women but he is said to be a old traditionalist.
+[Text=Sally CharacterOffsetBegin=3110 CharacterOffsetEnd=3115 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=3115 CharacterOffsetEnd=3117 PartOfSpeech=POS] [Text=father CharacterOffsetBegin=3118 CharacterOffsetEnd=3124 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=3125 CharacterOffsetEnd=3128 PartOfSpeech=WP] [Text=has CharacterOffsetBegin=3129 CharacterOffsetEnd=3132 PartOfSpeech=VBZ] [Text=9 CharacterOffsetBegin=3133 CharacterOffsetEnd=3134 PartOfSpeech=CD] [Text=children CharacterOffsetBegin=3135 CharacterOffsetEnd=3143 PartOfSpeech=NNS] [Text=say CharacterOffsetBegin=3144 CharacterOffsetEnd=3147 PartOfSpeech=VBP] [Text=some CharacterOffsetBegin=3148 CharacterOffsetEnd=3152 PartOfSpeech=DT] [Text=pretty CharacterOffsetBegin=3153 CharacterOffsetEnd=3159 PartOfSpeech=RB] [Text=nasty CharacterOffsetBegin=3160 CharacterOffsetEnd=3165 PartOfSpeech=JJ] [Text=things CharacterOffsetBegin=3166 CharacterOffsetEnd=3172 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=3173 CharacterOffsetEnd=3178 PartOfSpeech=IN] [Text=women CharacterOffsetBegin=3179 CharacterOffsetEnd=3184 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=3185 CharacterOffsetEnd=3188 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=3189 CharacterOffsetEnd=3191 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=3192 CharacterOffsetEnd=3194 PartOfSpeech=VBZ] [Text=said CharacterOffsetBegin=3195 CharacterOffsetEnd=3199 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=3200 CharacterOffsetEnd=3202 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=3203 CharacterOffsetEnd=3205 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=3206 CharacterOffsetEnd=3207 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=3208 CharacterOffsetEnd=3211 PartOfSpeech=JJ] [Text=traditionalist CharacterOffsetBegin=3212 CharacterOffsetEnd=3226 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=3226 CharacterOffsetEnd=3227 PartOfSpeech=.] 
+root(ROOT-0, say-8)
+poss(father-3, Sally-1)
+possessive(Sally-1, 's-2)
+nsubj(say-8, father-3)
+nsubj(has-5, who-4)
+rcmod(father-3, has-5)
+num(children-7, 9-6)
+dobj(has-5, children-7)
+det(things-12, some-9)
+advmod(nasty-11, pretty-10)
+amod(things-12, nasty-11)
+dobj(say-8, things-12)
+prep(things-12, about-13)
+pobj(about-13, women-14)
+cc(say-8, but-15)
+nsubjpass(said-18, he-16)
+auxpass(said-18, is-17)
+conj(say-8, said-18)
+aux(traditionalist-23, to-19)
+cop(traditionalist-23, be-20)
+det(traditionalist-23, a-21)
+amod(traditionalist-23, old-22)
+xcomp(said-18, traditionalist-23)
+punct(say-8, .-24)
+
+Sentence #42 (10 tokens):
+Philip doesn't seem to refute his feelings either.
+[Text=Philip CharacterOffsetBegin=3232 CharacterOffsetEnd=3238 PartOfSpeech=NNP] [Text=does CharacterOffsetBegin=3239 CharacterOffsetEnd=3243 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=3243 CharacterOffsetEnd=3246 PartOfSpeech=RB] [Text=seem CharacterOffsetBegin=3247 CharacterOffsetEnd=3251 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=3252 CharacterOffsetEnd=3254 PartOfSpeech=TO] [Text=refute CharacterOffsetBegin=3255 CharacterOffsetEnd=3261 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=3262 CharacterOffsetEnd=3265 PartOfSpeech=PRP$] [Text=feelings CharacterOffsetBegin=3266 CharacterOffsetEnd=3274 PartOfSpeech=NNS] [Text=either CharacterOffsetBegin=3275 CharacterOffsetEnd=3281 PartOfSpeech=CC] [Text=. CharacterOffsetBegin=3281 CharacterOffsetEnd=3282 PartOfSpeech=.] 
+root(ROOT-0, seem-4)
+nsubj(seem-4, Philip-1)
+aux(seem-4, does-2)
+neg(seem-4, n't-3)
+aux(refute-6, to-5)
+xcomp(seem-4, refute-6)
+poss(feelings-8, his-7)
+dobj(refute-6, feelings-8)
+advmod(refute-6, either-9)
+punct(seem-4, .-10)
+
+Sentence #43 (19 tokens):
+Men are using Mildred as a Boy Toy but the men in this movie come out as unscathed.
+[Text=Men CharacterOffsetBegin=3287 CharacterOffsetEnd=3290 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=3291 CharacterOffsetEnd=3294 PartOfSpeech=VBP] [Text=using CharacterOffsetBegin=3295 CharacterOffsetEnd=3300 PartOfSpeech=VBG] [Text=Mildred CharacterOffsetBegin=3301 CharacterOffsetEnd=3308 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=3309 CharacterOffsetEnd=3311 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=3312 CharacterOffsetEnd=3313 PartOfSpeech=DT] [Text=Boy CharacterOffsetBegin=3314 CharacterOffsetEnd=3317 PartOfSpeech=NNP] [Text=Toy CharacterOffsetBegin=3318 CharacterOffsetEnd=3321 PartOfSpeech=NNP] [Text=but CharacterOffsetBegin=3322 CharacterOffsetEnd=3325 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=3326 CharacterOffsetEnd=3329 PartOfSpeech=DT] [Text=men CharacterOffsetBegin=3330 CharacterOffsetEnd=3333 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=3334 CharacterOffsetEnd=3336 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=3337 CharacterOffsetEnd=3341 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=3342 CharacterOffsetEnd=3347 PartOfSpeech=NN] [Text=come CharacterOffsetBegin=3348 CharacterOffsetEnd=3352 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=3353 CharacterOffsetEnd=3356 PartOfSpeech=RP] [Text=as CharacterOffsetBegin=3357 CharacterOffsetEnd=3359 PartOfSpeech=IN] [Text=unscathed CharacterOffsetBegin=3360 CharacterOffsetEnd=3369 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=3369 CharacterOffsetEnd=3370 PartOfSpeech=.] 
+root(ROOT-0, using-3)
+nsubj(using-3, Men-1)
+aux(using-3, are-2)
+dobj(using-3, Mildred-4)
+mark(come-15, as-5)
+det(Toy-8, a-6)
+nn(Toy-8, Boy-7)
+nsubj(come-15, Toy-8)
+cc(Toy-8, but-9)
+det(men-11, the-10)
+conj(Toy-8, men-11)
+prep(men-11, in-12)
+det(movie-14, this-13)
+pobj(in-12, movie-14)
+advcl(using-3, come-15)
+prt(come-15, out-16)
+prep(come-15, as-17)
+pobj(as-17, unscathed-18)
+punct(using-3, .-19)
+
+Sentence #44 (13 tokens):
+Yes she was not a respectable woman but far from a villain.
+[Text=Yes CharacterOffsetBegin=3375 CharacterOffsetEnd=3378 PartOfSpeech=UH] [Text=she CharacterOffsetBegin=3379 CharacterOffsetEnd=3382 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=3383 CharacterOffsetEnd=3386 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=3387 CharacterOffsetEnd=3390 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=3391 CharacterOffsetEnd=3392 PartOfSpeech=DT] [Text=respectable CharacterOffsetBegin=3393 CharacterOffsetEnd=3404 PartOfSpeech=JJ] [Text=woman CharacterOffsetBegin=3405 CharacterOffsetEnd=3410 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=3411 CharacterOffsetEnd=3414 PartOfSpeech=CC] [Text=far CharacterOffsetBegin=3415 CharacterOffsetEnd=3418 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=3419 CharacterOffsetEnd=3423 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=3424 CharacterOffsetEnd=3425 PartOfSpeech=DT] [Text=villain CharacterOffsetBegin=3426 CharacterOffsetEnd=3433 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=3433 CharacterOffsetEnd=3434 PartOfSpeech=.] 
+root(ROOT-0, woman-7)
+advmod(woman-7, Yes-1)
+nsubj(woman-7, she-2)
+cop(woman-7, was-3)
+neg(woman-7, not-4)
+det(woman-7, a-5)
+amod(woman-7, respectable-6)
+cc(woman-7, but-8)
+advmod(from-10, far-9)
+conj(woman-7, from-10)
+det(villain-12, a-11)
+pobj(from-10, villain-12)
+punct(woman-7, .-13)
+
+Sentence #45 (20 tokens):
+To me it is Philip who was had the real problem and it was his sexual obsession for Mildred.
+[Text=To CharacterOffsetBegin=3439 CharacterOffsetEnd=3441 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=3442 CharacterOffsetEnd=3444 PartOfSpeech=PRP] [Text=it CharacterOffsetBegin=3445 CharacterOffsetEnd=3447 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=3448 CharacterOffsetEnd=3450 PartOfSpeech=VBZ] [Text=Philip CharacterOffsetBegin=3451 CharacterOffsetEnd=3457 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=3458 CharacterOffsetEnd=3461 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=3462 CharacterOffsetEnd=3465 PartOfSpeech=VBD] [Text=had CharacterOffsetBegin=3466 CharacterOffsetEnd=3469 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=3470 CharacterOffsetEnd=3473 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=3474 CharacterOffsetEnd=3478 PartOfSpeech=JJ] [Text=problem CharacterOffsetBegin=3479 CharacterOffsetEnd=3486 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=3487 CharacterOffsetEnd=3490 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=3491 CharacterOffsetEnd=3493 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=3494 CharacterOffsetEnd=3497 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=3498 CharacterOffsetEnd=3501 PartOfSpeech=PRP$] [Text=sexual CharacterOffsetBegin=3502 CharacterOffsetEnd=3508 PartOfSpeech=JJ] [Text=obsession CharacterOffsetBegin=3509 CharacterOffsetEnd=3518 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=3519 CharacterOffsetEnd=3522 PartOfSpeech=IN] [Text=Mildred CharacterOffsetBegin=3523 CharacterOffsetEnd=3530 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=3530 CharacterOffsetEnd=3531 PartOfSpeech=.] 
+root(ROOT-0, Philip-5)
+prep(Philip-5, To-1)
+pobj(To-1, me-2)
+nsubj(Philip-5, it-3)
+cop(Philip-5, is-4)
+nsubj(had-8, who-6)
+aux(had-8, was-7)
+rcmod(Philip-5, had-8)
+det(problem-11, the-9)
+amod(problem-11, real-10)
+dobj(had-8, problem-11)
+cc(had-8, and-12)
+nsubj(obsession-17, it-13)
+cop(obsession-17, was-14)
+poss(obsession-17, his-15)
+amod(obsession-17, sexual-16)
+conj(had-8, obsession-17)
+prep(obsession-17, for-18)
+pobj(for-18, Mildred-19)
+punct(Philip-5, .-20)
+

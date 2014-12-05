@@ -1,0 +1,63 @@
+Sentence #1 (20 tokens):
+Pointless, humourless drivel.....meant to be a comedy; but not one laugh in the whole film.
+[Text=Pointless CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=,] [Text=humourless CharacterOffsetBegin=15 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=drivel CharacterOffsetBegin=26 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=:] [Text=meant CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=comedy CharacterOffsetBegin=51 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=; CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=:] [Text=but CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=CD] [Text=laugh CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.] 
+root(ROOT-0, drivel-4)
+amod(drivel-4, Pointless-1)
+punct(drivel-4, ,-2)
+amod(drivel-4, humourless-3)
+punct(drivel-4, ...-5)
+dep(drivel-4, meant-6)
+aux(comedy-10, to-7)
+cop(comedy-10, be-8)
+det(comedy-10, a-9)
+xcomp(meant-6, comedy-10)
+punct(drivel-4, ;-11)
+cc(drivel-4, but-12)
+neg(one-14, not-13)
+num(laugh-15, one-14)
+conj(drivel-4, laugh-15)
+prep(laugh-15, in-16)
+det(film-19, the-17)
+amod(film-19, whole-18)
+pobj(in-16, film-19)
+punct(drivel-4, .-20)
+
+Sentence #2 (6 tokens):
+Gratuitous violence often with guns.
+[Text=Gratuitous CharacterOffsetBegin=100 CharacterOffsetEnd=110 PartOfSpeech=JJ] [Text=violence CharacterOffsetBegin=111 CharacterOffsetEnd=119 PartOfSpeech=NN] [Text=often CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=IN] [Text=guns CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=.] 
+root(ROOT-0, violence-2)
+amod(violence-2, Gratuitous-1)
+advmod(with-4, often-3)
+prep(violence-2, with-4)
+pobj(with-4, guns-5)
+punct(violence-2, .-6)
+
+Sentence #3 (16 tokens):
+What kind of warped mentality can either make or say this is a good film?!
+[Text=What CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=WDT] [Text=kind CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=warped CharacterOffsetBegin=154 CharacterOffsetEnd=160 PartOfSpeech=JJ] [Text=mentality CharacterOffsetBegin=161 CharacterOffsetEnd=170 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=MD] [Text=either CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=VB] [Text=or CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=CC] [Text=say CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=?! CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=IN] 
+root(ROOT-0, ?!-16)
+det(kind-2, What-1)
+nsubj(make-8, kind-2)
+prep(kind-2, of-3)
+amod(mentality-5, warped-4)
+pobj(of-3, mentality-5)
+aux(make-8, can-6)
+advmod(make-8, either-7)
+dep(film-15, make-8)
+cc(make-8, or-9)
+conj(make-8, say-10)
+nsubj(film-15, this-11)
+cop(film-15, is-12)
+det(film-15, a-13)
+amod(film-15, good-14)
+dep(?!-16, film-15)
+
+Sentence #4 (5 tokens):
+1 out of 10.
+[Text=1 CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, 1-1)
+prep(1-1, out-2)
+pcomp(out-2, of-3)
+pobj(of-3, 10-4)
+punct(1-1, .-5)
+

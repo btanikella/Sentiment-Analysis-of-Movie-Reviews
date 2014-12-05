@@ -1,0 +1,101 @@
+Sentence #1 (8 tokens):
+The first one was different and funny.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=VBD] [Text=different CharacterOffsetBegin=22 CharacterOffsetEnd=31 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=CC] [Text=funny CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.] 
+root(ROOT-0, different-5)
+det(one-3, The-1)
+amod(one-3, first-2)
+nsubj(different-5, one-3)
+cop(different-5, was-4)
+cc(different-5, and-6)
+conj(different-5, funny-7)
+punct(different-5, .-8)
+
+Sentence #2 (9 tokens):
+This attempt should have never left the studio.
+[Text=This CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=DT] [Text=attempt CharacterOffsetBegin=52 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=60 CharacterOffsetEnd=66 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VB] [Text=never CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=RB] [Text=left CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT] [Text=studio CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, left-6)
+det(attempt-2, This-1)
+nsubj(left-6, attempt-2)
+aux(left-6, should-3)
+aux(left-6, have-4)
+neg(left-6, never-5)
+det(studio-8, the-7)
+dobj(left-6, studio-8)
+punct(left-6, .-9)
+
+Sentence #3 (8 tokens):
+This movie does not make you laugh.
+[Text=This CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=PRP] [Text=laugh CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=.] 
+root(ROOT-0, make-5)
+det(movie-2, This-1)
+nsubj(make-5, movie-2)
+aux(make-5, does-3)
+neg(make-5, not-4)
+nsubj(laugh-7, you-6)
+xcomp(make-5, laugh-7)
+punct(make-5, .-8)
+
+Sentence #4 (10 tokens):
+It is a weak attempt at gross out humor.
+[Text=It CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=DT] [Text=weak CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=attempt CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=IN] [Text=gross CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=JJ] [Text=out CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=IN] [Text=humor CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=.] 
+root(ROOT-0, attempt-5)
+nsubj(attempt-5, It-1)
+cop(attempt-5, is-2)
+det(attempt-5, a-3)
+amod(attempt-5, weak-4)
+prep(attempt-5, at-6)
+pobj(at-6, gross-7)
+prep(gross-7, out-8)
+pobj(out-8, humor-9)
+punct(attempt-5, .-10)
+
+Sentence #5 (11 tokens):
+The movie picks out current and old movies to rip-off.
+[Text=The CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NN] [Text=picks CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=RP] [Text=current CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=CC] [Text=old CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=220 CharacterOffsetEnd=226 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=TO] [Text=rip-off CharacterOffsetBegin=230 CharacterOffsetEnd=237 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=.] 
+root(ROOT-0, picks-3)
+det(movie-2, The-1)
+nsubj(picks-3, movie-2)
+prt(picks-3, out-4)
+amod(movies-8, current-5)
+cc(current-5, and-6)
+conj(current-5, old-7)
+dobj(picks-3, movies-8)
+prep(picks-3, to-9)
+pobj(to-9, rip-off-10)
+punct(picks-3, .-11)
+
+Sentence #6 (9 tokens):
+This time the jokes seem used and overdone.
+[Text=This CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=jokes CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=NNS] [Text=seem CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=VBP] [Text=used CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC] [Text=overdone CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.] 
+root(ROOT-0, time-2)
+det(time-2, This-1)
+det(jokes-4, the-3)
+nsubjpass(used-6, jokes-4)
+auxpass(used-6, seem-5)
+rcmod(time-2, used-6)
+cc(used-6, and-7)
+conj(used-6, overdone-8)
+punct(time-2, .-9)
+
+Sentence #7 (18 tokens):
+The audience that I saw it with only re-acted to Hannibal dinner scene and was otherwise asleep.
+[Text=The CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=audience CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=IN] [Text=only CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=RB] [Text=re-acted CharacterOffsetBegin=328 CharacterOffsetEnd=336 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=TO] [Text=Hannibal CharacterOffsetBegin=340 CharacterOffsetEnd=348 PartOfSpeech=NNP] [Text=dinner CharacterOffsetBegin=349 CharacterOffsetEnd=355 PartOfSpeech=NN] [Text=scene CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=VBD] [Text=otherwise CharacterOffsetBegin=370 CharacterOffsetEnd=379 PartOfSpeech=RB] [Text=asleep CharacterOffsetBegin=380 CharacterOffsetEnd=386 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=.] 
+root(ROOT-0, audience-2)
+det(audience-2, The-1)
+dobj(saw-5, that-3)
+nsubj(saw-5, I-4)
+rcmod(audience-2, saw-5)
+dobj(saw-5, it-6)
+prep(saw-5, with-7)
+advmod(re-acted-9, only-8)
+pobj(with-7, re-acted-9)
+prep(re-acted-9, to-10)
+nn(scene-13, Hannibal-11)
+nn(scene-13, dinner-12)
+pobj(to-10, scene-13)
+cc(audience-2, and-14)
+cop(asleep-17, was-15)
+advmod(asleep-17, otherwise-16)
+conj(audience-2, asleep-17)
+punct(audience-2, .-18)
+

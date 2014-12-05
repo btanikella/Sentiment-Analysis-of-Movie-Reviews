@@ -1,0 +1,102 @@
+Sentence #1 (18 tokens):
+As I saw the movie I was really shocked to see what the 60's was about.
+[Text=As CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=VBD] [Text=really CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=RB] [Text=shocked CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=60 CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=POS] [Text=was CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=VBD] [Text=about CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=.] 
+root(ROOT-0, saw-3)
+mark(saw-3, As-1)
+nsubj(saw-3, I-2)
+det(movie-5, the-4)
+dobj(saw-3, movie-5)
+nsubjpass(shocked-9, I-6)
+auxpass(shocked-9, was-7)
+advmod(shocked-9, really-8)
+rcmod(movie-5, shocked-9)
+aux(see-11, to-10)
+xcomp(shocked-9, see-11)
+dobj(about-17, what-12)
+det(60-14, the-13)
+nsubj(about-17, 60-14)
+possessive(60-14, 's-15)
+cop(about-17, was-16)
+ccomp(see-11, about-17)
+punct(saw-3, .-18)
+
+Sentence #2 (27 tokens):
+I know I may be wrong about some things, but it seemed like the 60's really had an effect on people of the time.
+[Text=I CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=VBP] [Text=I CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=may CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=VB] [Text=wrong CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=DT] [Text=things CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=,] [Text=but CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=PRP] [Text=seemed CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=DT] [Text=60 CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=POS] [Text=really CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=RB] [Text=had CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=effect CharacterOffsetBegin=163 CharacterOffsetEnd=169 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, I-1)
+nsubj(wrong-6, I-3)
+aux(wrong-6, may-4)
+cop(wrong-6, be-5)
+ccomp(know-2, wrong-6)
+prep(wrong-6, about-7)
+det(things-9, some-8)
+pobj(about-7, things-9)
+punct(know-2, ,-10)
+cc(know-2, but-11)
+nsubj(seemed-13, it-12)
+conj(know-2, seemed-13)
+mark(had-19, like-14)
+det(60-16, the-15)
+nsubj(had-19, 60-16)
+possessive(60-16, 's-17)
+advmod(had-19, really-18)
+advcl(seemed-13, had-19)
+det(effect-21, an-20)
+dobj(had-19, effect-21)
+prep(effect-21, on-22)
+pobj(on-22, people-23)
+prep(people-23, of-24)
+det(time-26, the-25)
+pobj(of-24, time-26)
+punct(know-2, .-27)
+
+Sentence #3 (14 tokens):
+Some people said they would want to go back to the 60's.
+[Text=Some CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=people CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=said CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=MD] [Text=want CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=VB] [Text=back CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=60 CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=POS] [Text=. CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=.] 
+root(ROOT-0, said-3)
+det(people-2, Some-1)
+nsubj(said-3, people-2)
+nsubj(want-6, they-4)
+aux(want-6, would-5)
+ccomp(said-3, want-6)
+aux(go-8, to-7)
+xcomp(want-6, go-8)
+advmod(go-8, back-9)
+prep(go-8, to-10)
+det(60-12, the-11)
+pobj(to-10, 60-12)
+possessive(60-12, 's-13)
+punct(said-3, .-14)
+
+Sentence #4 (17 tokens):
+From what I saw I would say yes for the excitement and no for the outcome.
+[Text=From CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=MD] [Text=say CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=VB] [Text=yes CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=UH] [Text=for CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=excitement CharacterOffsetBegin=298 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=CC] [Text=no CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=DT] [Text=for CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=DT] [Text=outcome CharacterOffsetBegin=324 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=.] 
+root(ROOT-0, say-7)
+prep(say-7, From-1)
+dobj(saw-4, what-2)
+nsubj(saw-4, I-3)
+pcomp(From-1, saw-4)
+nsubj(say-7, I-5)
+aux(say-7, would-6)
+dobj(say-7, yes-8)
+prep(yes-8, for-9)
+det(excitement-11, the-10)
+pobj(for-9, excitement-11)
+cc(yes-8, and-12)
+conj(yes-8, no-13)
+prep(no-13, for-14)
+det(outcome-16, the-15)
+pobj(for-14, outcome-16)
+punct(say-7, .-17)
+
+Sentence #5 (6 tokens):
+But that's my opinion.
+[Text=But CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=VBZ] [Text=my CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=PRP$] [Text=opinion CharacterOffsetBegin=351 CharacterOffsetEnd=358 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=.] 
+root(ROOT-0, opinion-5)
+cc(opinion-5, But-1)
+nsubj(opinion-5, that-2)
+cop(opinion-5, 's-3)
+poss(opinion-5, my-4)
+punct(opinion-5, .-6)
+

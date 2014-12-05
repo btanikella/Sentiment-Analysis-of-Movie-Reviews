@@ -1,0 +1,73 @@
+Sentence #1 (5 tokens):
+This movie is BAD!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=BAD CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=.] 
+root(ROOT-0, BAD-4)
+det(movie-2, This-1)
+nsubj(BAD-4, movie-2)
+cop(BAD-4, is-3)
+punct(BAD-4, !-5)
+
+Sentence #2 (16 tokens):
+It's basically an overdone copy of Michael Jackson's Thriller video, only worse!
+[Text=It CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VBZ] [Text=basically CharacterOffsetBegin=32 CharacterOffsetEnd=41 PartOfSpeech=RB] [Text=an CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=DT] [Text=overdone CharacterOffsetBegin=45 CharacterOffsetEnd=53 PartOfSpeech=VBN] [Text=copy CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=IN] [Text=Michael CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=NNP] [Text=Jackson CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=POS] [Text=Thriller CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=video CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=,] [Text=only CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=RB] [Text=worse CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=JJR] [Text=! CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.] 
+root(ROOT-0, copy-6)
+nsubj(copy-6, It-1)
+cop(copy-6, 's-2)
+advmod(copy-6, basically-3)
+det(copy-6, an-4)
+amod(copy-6, overdone-5)
+prep(copy-6, of-7)
+nn(Jackson-9, Michael-8)
+poss(video-12, Jackson-9)
+possessive(Jackson-9, 's-10)
+nn(video-12, Thriller-11)
+pobj(of-7, video-12)
+punct(copy-6, ,-13)
+advmod(worse-15, only-14)
+advmod(copy-6, worse-15)
+punct(copy-6, !-16)
+
+Sentence #3 (23 tokens):
+The special effects consist of lots of glow in the dark paint, freaky slapstick fastmoving camera shots and lots of growling.
+[Text=The CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=special CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=JJ] [Text=effects CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=NNS] [Text=consist CharacterOffsetBegin=132 CharacterOffsetEnd=139 PartOfSpeech=VBP] [Text=of CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=IN] [Text=lots CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=IN] [Text=glow CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=dark CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=JJ] [Text=paint CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=,] [Text=freaky CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=slapstick CharacterOffsetBegin=182 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text=fastmoving CharacterOffsetBegin=192 CharacterOffsetEnd=202 PartOfSpeech=VBG] [Text=camera CharacterOffsetBegin=203 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=shots CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=CC] [Text=lots CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=IN] [Text=growling CharacterOffsetBegin=228 CharacterOffsetEnd=236 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.] 
+root(ROOT-0, consist-4)
+det(effects-3, The-1)
+amod(effects-3, special-2)
+nsubj(consist-4, effects-3)
+prep(consist-4, of-5)
+pobj(of-5, lots-6)
+prep(lots-6, of-7)
+pobj(of-7, glow-8)
+prep(lots-6, in-9)
+det(paint-12, the-10)
+amod(paint-12, dark-11)
+pobj(in-9, paint-12)
+punct(lots-6, ,-13)
+amod(shots-18, freaky-14)
+amod(shots-18, slapstick-15)
+amod(shots-18, fastmoving-16)
+nn(shots-18, camera-17)
+conj(lots-6, shots-18)
+cc(lots-6, and-19)
+conj(lots-6, lots-20)
+prep(lots-20, of-21)
+pobj(of-21, growling-22)
+punct(consist-4, .-23)
+
+Sentence #4 (13 tokens):
+I think the dog was the best actor in the whole movie.
+[Text=I CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=dog CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=JJS] [Text=actor CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+det(dog-4, the-3)
+nsubj(actor-8, dog-4)
+cop(actor-8, was-5)
+det(actor-8, the-6)
+amod(actor-8, best-7)
+ccomp(think-2, actor-8)
+prep(actor-8, in-9)
+det(movie-12, the-10)
+amod(movie-12, whole-11)
+pobj(in-9, movie-12)
+punct(think-2, .-13)
+

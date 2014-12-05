@@ -1,0 +1,55 @@
+Sentence #1 (18 tokens):
+Perhaps the biggest waste of production time, money and the space on the video store shelf.
+[Text=Perhaps CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=biggest CharacterOffsetBegin=16 CharacterOffsetEnd=23 PartOfSpeech=JJS] [Text=waste CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN] [Text=production CharacterOffsetBegin=33 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=time CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=,] [Text=money CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=DT] [Text=space CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text=video CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=store CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=shelf CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.] 
+root(ROOT-0, waste-4)
+advmod(waste-4, Perhaps-1)
+det(waste-4, the-2)
+amod(waste-4, biggest-3)
+prep(waste-4, of-5)
+nn(time-7, production-6)
+pobj(of-5, time-7)
+punct(waste-4, ,-8)
+conj(waste-4, money-9)
+cc(waste-4, and-10)
+det(space-12, the-11)
+conj(waste-4, space-12)
+prep(space-12, on-13)
+det(shelf-17, the-14)
+nn(shelf-17, video-15)
+nn(shelf-17, store-16)
+pobj(on-13, shelf-17)
+punct(waste-4, .-18)
+
+Sentence #2 (15 tokens):
+If someone suggests you see this movie, run screaming in the other direction.
+[Text=If CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=IN] [Text=someone CharacterOffsetBegin=103 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=suggests CharacterOffsetBegin=111 CharacterOffsetEnd=119 PartOfSpeech=VBZ] [Text=you CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=,] [Text=run CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=VBP] [Text=screaming CharacterOffsetBegin=144 CharacterOffsetEnd=153 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=JJ] [Text=direction CharacterOffsetBegin=167 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=.] 
+root(ROOT-0, run-9)
+mark(suggests-3, If-1)
+nsubj(suggests-3, someone-2)
+advcl(run-9, suggests-3)
+nsubj(see-5, you-4)
+ccomp(suggests-3, see-5)
+det(movie-7, this-6)
+dobj(see-5, movie-7)
+punct(run-9, ,-8)
+xcomp(run-9, screaming-10)
+prep(screaming-10, in-11)
+det(direction-14, the-12)
+amod(direction-14, other-13)
+pobj(in-11, direction-14)
+punct(run-9, .-15)
+
+Sentence #3 (10 tokens):
+Unless, of course, you're into self-abuse.
+[Text=Unless CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=,] [Text=of CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=,] [Text=you CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=VBP] [Text=into CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=IN] [Text=self-abuse CharacterOffsetBegin=213 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, 're-7)
+mark('re-7, Unless-1)
+punct('re-7, ,-2)
+prep('re-7, of-3)
+pobj(of-3, course-4)
+punct('re-7, ,-5)
+nsubj('re-7, you-6)
+prep('re-7, into-8)
+pobj(into-8, self-abuse-9)
+punct('re-7, .-10)
+

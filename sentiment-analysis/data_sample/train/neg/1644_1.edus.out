@@ -1,0 +1,143 @@
+Sentence #1 (10 tokens):
+Hands down the worst movie I have ever seen.
+[Text=Hands CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNS] [Text=down CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=.] 
+root(ROOT-0, seen-9)
+dobj(seen-9, Hands-1)
+prep(Hands-1, down-2)
+det(movie-5, the-3)
+amod(movie-5, worst-4)
+pobj(down-2, movie-5)
+nsubj(seen-9, I-6)
+aux(seen-9, have-7)
+advmod(seen-9, ever-8)
+punct(seen-9, .-10)
+
+Sentence #2 (15 tokens):
+I thought nothing would ever dethrone Last Action Hero, but this does easily.
+[Text=I CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=VBD] [Text=nothing CharacterOffsetBegin=63 CharacterOffsetEnd=70 PartOfSpeech=NN] [Text=would CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=MD] [Text=ever CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=RB] [Text=dethrone CharacterOffsetBegin=82 CharacterOffsetEnd=90 PartOfSpeech=VB] [Text=Last CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=JJ] [Text=Action CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=NNP] [Text=Hero CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=,] [Text=but CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=DT] [Text=does CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=VBZ] [Text=easily CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+nsubj(dethrone-6, nothing-3)
+aux(dethrone-6, would-4)
+advmod(dethrone-6, ever-5)
+ccomp(thought-2, dethrone-6)
+amod(Hero-9, Last-7)
+nn(Hero-9, Action-8)
+dobj(dethrone-6, Hero-9)
+punct(thought-2, ,-10)
+cc(thought-2, but-11)
+nsubj(does-13, this-12)
+conj(thought-2, does-13)
+advmod(does-13, easily-14)
+punct(thought-2, .-15)
+
+Sentence #3 (20 tokens):
+The movie is about 3 single guys who meet on Sundays to discuss their sexual escapades from the weekend.
+[Text=The CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=3 CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=CD] [Text=single CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=WP] [Text=meet CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=VBP] [Text=on CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=IN] [Text=Sundays CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=TO] [Text=discuss CharacterOffsetBegin=191 CharacterOffsetEnd=198 PartOfSpeech=VB] [Text=their CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=PRP$] [Text=sexual CharacterOffsetBegin=205 CharacterOffsetEnd=211 PartOfSpeech=JJ] [Text=escapades CharacterOffsetBegin=212 CharacterOffsetEnd=221 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=weekend CharacterOffsetBegin=231 CharacterOffsetEnd=238 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=.] 
+root(ROOT-0, guys-7)
+det(movie-2, The-1)
+nsubj(guys-7, movie-2)
+cop(guys-7, is-3)
+quantmod(3-5, about-4)
+num(guys-7, 3-5)
+amod(guys-7, single-6)
+nsubj(meet-9, who-8)
+rcmod(guys-7, meet-9)
+prep(meet-9, on-10)
+pobj(on-10, Sundays-11)
+aux(discuss-13, to-12)
+xcomp(meet-9, discuss-13)
+poss(escapades-16, their-14)
+amod(escapades-16, sexual-15)
+dobj(discuss-13, escapades-16)
+prep(discuss-13, from-17)
+det(weekend-19, the-18)
+pobj(from-17, weekend-19)
+punct(guys-7, .-20)
+
+Sentence #4 (30 tokens):
+A fourth guy - who is married and - that used to be a part of the group shows up and talks about what he and his wife do.
+[Text=A CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=fourth CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=NN] [Text=- CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=:] [Text=who CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=VBZ] [Text=married CharacterOffsetBegin=266 CharacterOffsetEnd=273 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=CC] [Text=- CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=:] [Text=that CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=IN] [Text=used CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=part CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=DT] [Text=group CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NN] [Text=shows CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=RP] [Text=and CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=CC] [Text=talks CharacterOffsetBegin=329 CharacterOffsetEnd=334 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=WP] [Text=he CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=do CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, guy-3)
+det(guy-3, A-1)
+amod(guy-3, fourth-2)
+punct(guy-3, --4)
+nsubjpass(married-7, who-5)
+auxpass(married-7, is-6)
+dep(guy-3, married-7)
+cc(married-7, and-8)
+punct(married-7, --9)
+mark(used-11, that-10)
+csubj(shows-19, used-11)
+aux(part-15, to-12)
+cop(part-15, be-13)
+det(part-15, a-14)
+xcomp(used-11, part-15)
+prep(part-15, of-16)
+det(group-18, the-17)
+pobj(of-16, group-18)
+conj(married-7, shows-19)
+prt(shows-19, up-20)
+cc(shows-19, and-21)
+conj(shows-19, talks-22)
+prep(talks-22, about-23)
+dobj(do-29, what-24)
+nsubj(do-29, he-25)
+cc(he-25, and-26)
+poss(wife-28, his-27)
+conj(he-25, wife-28)
+pcomp(about-23, do-29)
+punct(guy-3, .-30)
+
+Sentence #5 (6 tokens):
+Nothing works in this movie.
+[Text=Nothing CharacterOffsetBegin=370 CharacterOffsetEnd=377 PartOfSpeech=NN] [Text=works CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=392 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=.] 
+root(ROOT-0, works-2)
+nsubj(works-2, Nothing-1)
+prep(works-2, in-3)
+det(movie-5, this-4)
+pobj(in-3, movie-5)
+punct(works-2, .-6)
+
+Sentence #6 (13 tokens):
+The jokes are not funny but they are repeated throughout the movie.
+[Text=The CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=DT] [Text=jokes CharacterOffsetBegin=407 CharacterOffsetEnd=412 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=VBP] [Text=repeated CharacterOffsetBegin=440 CharacterOffsetEnd=448 PartOfSpeech=VBN] [Text=throughout CharacterOffsetBegin=449 CharacterOffsetEnd=459 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=.] 
+root(ROOT-0, funny-5)
+det(jokes-2, The-1)
+nsubj(funny-5, jokes-2)
+cop(funny-5, are-3)
+neg(funny-5, not-4)
+cc(funny-5, but-6)
+nsubjpass(repeated-9, they-7)
+auxpass(repeated-9, are-8)
+conj(funny-5, repeated-9)
+prep(repeated-9, throughout-10)
+det(movie-12, the-11)
+pobj(throughout-10, movie-12)
+punct(funny-5, .-13)
+
+Sentence #7 (12 tokens):
+The big kicker at the end of the movie is laughable.
+[Text=The CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=DT] [Text=big CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=JJ] [Text=kicker CharacterOffsetBegin=483 CharacterOffsetEnd=489 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=493 CharacterOffsetEnd=496 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=497 CharacterOffsetEnd=500 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=508 CharacterOffsetEnd=513 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=514 CharacterOffsetEnd=516 PartOfSpeech=VBZ] [Text=laughable CharacterOffsetBegin=517 CharacterOffsetEnd=526 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=.] 
+root(ROOT-0, laughable-11)
+det(kicker-3, The-1)
+amod(kicker-3, big-2)
+nsubj(laughable-11, kicker-3)
+prep(kicker-3, at-4)
+det(end-6, the-5)
+pobj(at-4, end-6)
+prep(end-6, of-7)
+det(movie-9, the-8)
+pobj(of-7, movie-9)
+cop(laughable-11, is-10)
+punct(laughable-11, .-12)
+
+Sentence #8 (5 tokens):
+Avoid at all costs.
+[Text=Avoid CharacterOffsetBegin=532 CharacterOffsetEnd=537 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=DT] [Text=costs CharacterOffsetBegin=545 CharacterOffsetEnd=550 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=.] 
+root(ROOT-0, Avoid-1)
+prep(Avoid-1, at-2)
+det(costs-4, all-3)
+pobj(at-2, costs-4)
+punct(Avoid-1, .-5)
+

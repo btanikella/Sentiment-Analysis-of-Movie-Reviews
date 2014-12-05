@@ -1,0 +1,182 @@
+Sentence #1 (17 tokens):
+I entered the theatre intending to pass a pleasant 90 minutes being entertained if not enlightened.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=entered CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=theatre CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=intending CharacterOffsetBegin=26 CharacterOffsetEnd=35 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=TO] [Text=pass CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=pleasant CharacterOffsetBegin=46 CharacterOffsetEnd=54 PartOfSpeech=JJ] [Text=90 CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=58 CharacterOffsetEnd=65 PartOfSpeech=NNS] [Text=being CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=VBG] [Text=entertained CharacterOffsetBegin=72 CharacterOffsetEnd=83 PartOfSpeech=VBN] [Text=if CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=IN] [Text=not CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=RB] [Text=enlightened CharacterOffsetBegin=91 CharacterOffsetEnd=102 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=.] 
+root(ROOT-0, entered-2)
+nsubj(entered-2, I-1)
+det(theatre-4, the-3)
+dobj(entered-2, theatre-4)
+partmod(theatre-4, intending-5)
+aux(pass-7, to-6)
+xcomp(intending-5, pass-7)
+det(minutes-11, a-8)
+amod(minutes-11, pleasant-9)
+num(minutes-11, 90-10)
+dobj(pass-7, minutes-11)
+auxpass(entertained-13, being-12)
+partmod(minutes-11, entertained-13)
+mark(enlightened-16, if-14)
+neg(enlightened-16, not-15)
+advcl(entertained-13, enlightened-16)
+punct(entered-2, .-17)
+
+Sentence #2 (7 tokens):
+I left neither entertained nor enlightened.
+[Text=I CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=PRP] [Text=left CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=VBD] [Text=neither CharacterOffsetBegin=115 CharacterOffsetEnd=122 PartOfSpeech=CC] [Text=entertained CharacterOffsetBegin=123 CharacterOffsetEnd=134 PartOfSpeech=VBD] [Text=nor CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=CC] [Text=enlightened CharacterOffsetBegin=139 CharacterOffsetEnd=150 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.] 
+root(ROOT-0, left-2)
+nsubj(left-2, I-1)
+cc(left-2, neither-3)
+conj(left-2, entertained-4)
+cc(left-2, nor-5)
+conj(left-2, enlightened-6)
+punct(left-2, .-7)
+
+Sentence #3 (22 tokens):
+This movie can't make up its mind what it wants to be and ends up being not much of anything.
+[Text=This CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=ca CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=RP] [Text=its CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=PRP$] [Text=mind CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=what CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=PRP] [Text=wants CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=CC] [Text=ends CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=RP] [Text=being CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=VBG] [Text=not CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=anything CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=.] 
+root(ROOT-0, make-5)
+det(movie-2, This-1)
+nsubj(make-5, movie-2)
+aux(make-5, ca-3)
+neg(make-5, n't-4)
+prt(make-5, up-6)
+poss(mind-8, its-7)
+dobj(make-5, mind-8)
+dobj(wants-11, what-9)
+nsubj(wants-11, it-10)
+dep(make-5, wants-11)
+aux(be-13, to-12)
+xcomp(wants-11, be-13)
+cc(wants-11, and-14)
+conj(wants-11, ends-15)
+prt(ends-15, up-16)
+cop(much-19, being-17)
+neg(much-19, not-18)
+xcomp(ends-15, much-19)
+prep(much-19, of-20)
+pobj(of-20, anything-21)
+punct(make-5, .-22)
+
+Sentence #4 (22 tokens):
+There are a few funny lines and a few incredibly pretentious movie references (The 400 Blows--for this character?
+[Text=There CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=JJ] [Text=funny CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=JJ] [Text=lines CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=JJ] [Text=incredibly CharacterOffsetBegin=292 CharacterOffsetEnd=302 PartOfSpeech=RB] [Text=pretentious CharacterOffsetBegin=303 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=NN] [Text=references CharacterOffsetBegin=321 CharacterOffsetEnd=331 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=-LRB-] [Text=The CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=DT] [Text=400 CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=CD] [Text=Blows CharacterOffsetBegin=341 CharacterOffsetEnd=346 PartOfSpeech=NNS] [Text=-- CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=:] [Text=for CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=357 CharacterOffsetEnd=366 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+det(lines-6, a-3)
+amod(lines-6, few-4)
+amod(lines-6, funny-5)
+nsubj(are-2, lines-6)
+cc(lines-6, and-7)
+det(references-13, a-8)
+amod(references-13, few-9)
+amod(references-13, incredibly-10)
+amod(references-13, pretentious-11)
+nn(references-13, movie-12)
+conj(lines-6, references-13)
+punct(Blows-17, -LRB--14)
+det(Blows-17, The-15)
+num(Blows-17, 400-16)
+dep(references-13, Blows-17)
+punct(Blows-17, ---18)
+prep(Blows-17, for-19)
+det(character-21, this-20)
+pobj(for-19, character-21)
+punct(Blows-17, ?-22)
+
+Sentence #5 (5 tokens):
+come off it!)
+[Text=come CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=VB] [Text=off CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=RP] [Text=it CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=-RRB-] 
+root(ROOT-0, come-1)
+prt(come-1, off-2)
+dobj(come-1, it-3)
+punct(come-1, !-4)
+punct(come-1, -RRB--5)
+
+Sentence #6 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #7 (31 tokens):
+While none of the characters gets treated with much respect, the over thirty gay men get the worst of it: all predatory, fat, sad, slobs.
+[Text=While CharacterOffsetBegin=391 CharacterOffsetEnd=396 PartOfSpeech=IN] [Text=none CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=409 CharacterOffsetEnd=419 PartOfSpeech=NNS] [Text=gets CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=VBZ] [Text=treated CharacterOffsetBegin=425 CharacterOffsetEnd=432 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=433 CharacterOffsetEnd=437 PartOfSpeech=IN] [Text=much CharacterOffsetBegin=438 CharacterOffsetEnd=442 PartOfSpeech=JJ] [Text=respect CharacterOffsetBegin=443 CharacterOffsetEnd=450 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=,] [Text=the CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=DT] [Text=over CharacterOffsetBegin=456 CharacterOffsetEnd=460 PartOfSpeech=JJ] [Text=thirty CharacterOffsetBegin=461 CharacterOffsetEnd=467 PartOfSpeech=CD] [Text=gay CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=JJ] [Text=men CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=NNS] [Text=get CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=PRP] [Text=: CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=:] [Text=all CharacterOffsetBegin=497 CharacterOffsetEnd=500 PartOfSpeech=DT] [Text=predatory CharacterOffsetBegin=501 CharacterOffsetEnd=510 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=,] [Text=fat CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=515 CharacterOffsetEnd=516 PartOfSpeech=,] [Text=sad CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=,] [Text=slobs CharacterOffsetBegin=522 CharacterOffsetEnd=527 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=527 CharacterOffsetEnd=528 PartOfSpeech=.] 
+root(ROOT-0, get-17)
+mark(treated-7, While-1)
+nsubjpass(treated-7, none-2)
+prep(none-2, of-3)
+det(characters-5, the-4)
+pobj(of-3, characters-5)
+auxpass(treated-7, gets-6)
+advcl(get-17, treated-7)
+prep(treated-7, with-8)
+amod(respect-10, much-9)
+pobj(with-8, respect-10)
+punct(get-17, ,-11)
+det(men-16, the-12)
+amod(men-16, over-13)
+num(men-16, thirty-14)
+amod(men-16, gay-15)
+nsubj(get-17, men-16)
+det(worst-19, the-18)
+dobj(get-17, worst-19)
+prep(worst-19, of-20)
+pobj(of-20, it-21)
+punct(get-17, :-22)
+dep(predatory-24, all-23)
+dep(get-17, predatory-24)
+punct(predatory-24, ,-25)
+conj(predatory-24, fat-26)
+punct(predatory-24, ,-27)
+conj(predatory-24, sad-28)
+punct(predatory-24, ,-29)
+dep(predatory-24, slobs-30)
+punct(get-17, .-31)
+
+Sentence #8 (36 tokens):
+If you're in the mood for a movie dealing with gay relationships check out Parting Glances, Longtime Companion, Trick, All Over the Guy, Red Dirt, Maurice, Philadelphia instead.
+[Text=If CharacterOffsetBegin=533 CharacterOffsetEnd=535 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=VBP] [Text=in CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=DT] [Text=mood CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=NN] [Text=dealing CharacterOffsetBegin=567 CharacterOffsetEnd=574 PartOfSpeech=VBG] [Text=with CharacterOffsetBegin=575 CharacterOffsetEnd=579 PartOfSpeech=IN] [Text=gay CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=JJ] [Text=relationships CharacterOffsetBegin=584 CharacterOffsetEnd=597 PartOfSpeech=NNS] [Text=check CharacterOffsetBegin=598 CharacterOffsetEnd=603 PartOfSpeech=VBP] [Text=out CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=RP] [Text=Parting CharacterOffsetBegin=608 CharacterOffsetEnd=615 PartOfSpeech=NN] [Text=Glances CharacterOffsetBegin=616 CharacterOffsetEnd=623 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=,] [Text=Longtime CharacterOffsetBegin=625 CharacterOffsetEnd=633 PartOfSpeech=JJ] [Text=Companion CharacterOffsetBegin=634 CharacterOffsetEnd=643 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=,] [Text=Trick CharacterOffsetBegin=645 CharacterOffsetEnd=650 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=,] [Text=All CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=DT] [Text=Over CharacterOffsetBegin=656 CharacterOffsetEnd=660 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=DT] [Text=Guy CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=668 CharacterOffsetEnd=669 PartOfSpeech=,] [Text=Red CharacterOffsetBegin=670 CharacterOffsetEnd=673 PartOfSpeech=NNP] [Text=Dirt CharacterOffsetBegin=674 CharacterOffsetEnd=678 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=,] [Text=Maurice CharacterOffsetBegin=680 CharacterOffsetEnd=687 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=,] [Text=Philadelphia CharacterOffsetBegin=689 CharacterOffsetEnd=701 PartOfSpeech=NNP] [Text=instead CharacterOffsetBegin=702 CharacterOffsetEnd=709 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=.] 
+root(ROOT-0, 're-3)
+mark('re-3, If-1)
+nsubj('re-3, you-2)
+prep('re-3, in-4)
+det(mood-6, the-5)
+pobj(in-4, mood-6)
+prep(mood-6, for-7)
+det(movie-9, a-8)
+pobj(for-7, movie-9)
+partmod(movie-9, dealing-10)
+prep(dealing-10, with-11)
+amod(relationships-13, gay-12)
+pobj(with-11, relationships-13)
+ccomp('re-3, check-14)
+prt(check-14, out-15)
+nn(Glances-17, Parting-16)
+dobj(check-14, Glances-17)
+punct(Glances-17, ,-18)
+amod(Companion-20, Longtime-19)
+conj(Glances-17, Companion-20)
+punct(Glances-17, ,-21)
+conj(Glances-17, Trick-22)
+punct(Glances-17, ,-23)
+appos(Glances-17, All-24)
+prep(All-24, Over-25)
+det(Guy-27, the-26)
+pobj(Over-25, Guy-27)
+punct(Guy-27, ,-28)
+nn(Dirt-30, Red-29)
+conj(Guy-27, Dirt-30)
+punct(Guy-27, ,-31)
+conj(Guy-27, Maurice-32)
+punct(Guy-27, ,-33)
+appos(Guy-27, Philadelphia-34)
+advmod(Philadelphia-34, instead-35)
+punct('re-3, .-36)
+
+Sentence #9 (5 tokens):
+You'll thank me.
+[Text=You CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=MD] [Text=thank CharacterOffsetBegin=722 CharacterOffsetEnd=727 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=728 CharacterOffsetEnd=730 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=730 CharacterOffsetEnd=731 PartOfSpeech=.] 
+root(ROOT-0, thank-3)
+nsubj(thank-3, You-1)
+aux(thank-3, 'll-2)
+dobj(thank-3, me-4)
+punct(thank-3, .-5)
+

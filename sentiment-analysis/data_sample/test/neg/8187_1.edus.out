@@ -1,0 +1,81 @@
+Sentence #1 (7 tokens):
+This is a truly awful movie.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=truly CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=RB] [Text=awful CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, This-1)
+cop(movie-6, is-2)
+det(movie-6, a-3)
+advmod(awful-5, truly-4)
+amod(movie-6, awful-5)
+punct(movie-6, .-7)
+
+Sentence #2 (17 tokens):
+The jokes are few and far between and the pacing is a down right endurance test.
+[Text=The CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=DT] [Text=jokes CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=VBP] [Text=few CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=CC] [Text=far CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=RB] [Text=between CharacterOffsetBegin=63 CharacterOffsetEnd=70 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=DT] [Text=pacing CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=DT] [Text=down CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=RB] [Text=right CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=JJ] [Text=endurance CharacterOffsetBegin=102 CharacterOffsetEnd=111 PartOfSpeech=JJ] [Text=test CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=.] 
+root(ROOT-0, few-4)
+det(jokes-2, The-1)
+nsubj(few-4, jokes-2)
+cop(few-4, are-3)
+cc(few-4, and-5)
+advmod(between-7, far-6)
+conj(few-4, between-7)
+cc(few-4, and-8)
+det(pacing-10, the-9)
+nsubj(test-16, pacing-10)
+cop(test-16, is-11)
+det(test-16, a-12)
+amod(test-16, down-13)
+amod(test-16, right-14)
+amod(test-16, endurance-15)
+conj(few-4, test-16)
+punct(few-4, .-17)
+
+Sentence #3 (24 tokens):
+The only thing funny to come out of this production is it's comparison to the classic film "This Is Spinal Tap.
+[Text=The CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=funny CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=TO] [Text=come CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=production CharacterOffsetBegin=163 CharacterOffsetEnd=173 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=VBZ] [Text=comparison CharacterOffsetBegin=182 CharacterOffsetEnd=192 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=200 CharacterOffsetEnd=207 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=``] [Text=This CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=DT] [Text=Is CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=VBZ] [Text=Spinal CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=JJ] [Text=Tap CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=.] 
+root(ROOT-0, comparison-14)
+det(thing-3, The-1)
+amod(thing-3, only-2)
+nsubj(comparison-14, thing-3)
+partmod(thing-3, funny-4)
+aux(come-6, to-5)
+xcomp(funny-4, come-6)
+advmod(come-6, out-7)
+prep(out-7, of-8)
+det(production-10, this-9)
+pobj(of-8, production-10)
+cop(comparison-14, is-11)
+nsubj(comparison-14, it-12)
+cop(comparison-14, 's-13)
+prep(comparison-14, to-15)
+det(film-18, the-16)
+amod(film-18, classic-17)
+pobj(to-15, film-18)
+punct(film-18, ``-19)
+nsubj(Tap-23, This-20)
+cop(Tap-23, Is-21)
+amod(Tap-23, Spinal-22)
+rcmod(film-18, Tap-23)
+punct(comparison-14, .-24)
+
+Sentence #4 (17 tokens):
+"Avoid this film as if it were one of the plagues of the Bible itself.
+[Text=`` CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=``] [Text=Avoid CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=IN] [Text=if CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBD] [Text=one CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=plagues CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=Bible CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=NNP] [Text=itself CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=.] 
+root(ROOT-0, Avoid-2)
+punct(Avoid-2, ``-1)
+det(film-4, this-3)
+dobj(Avoid-2, film-4)
+mark(one-9, as-5)
+mark(one-9, if-6)
+nsubj(one-9, it-7)
+cop(one-9, were-8)
+advcl(Avoid-2, one-9)
+prep(one-9, of-10)
+det(plagues-12, the-11)
+pobj(of-10, plagues-12)
+prep(plagues-12, of-13)
+det(Bible-15, the-14)
+pobj(of-13, Bible-15)
+dep(Bible-15, itself-16)
+punct(Avoid-2, .-17)
+

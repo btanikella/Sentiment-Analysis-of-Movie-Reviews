@@ -1,0 +1,149 @@
+Sentence #1 (5 tokens):
+What a let down!
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=let CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=VB] [Text=down CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=RP] [Text=! CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=.] 
+root(ROOT-0, let-3)
+nsubj(let-3, What-1)
+det(let-3, a-2)
+prt(let-3, down-4)
+punct(let-3, !-5)
+
+Sentence #2 (10 tokens):
+This started with an intriguing mystery and interesting characters.
+[Text=This CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=started CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=VBD] [Text=with CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=intriguing CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=mystery CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=CC] [Text=interesting CharacterOffsetBegin=69 CharacterOffsetEnd=80 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=81 CharacterOffsetEnd=91 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=.] 
+root(ROOT-0, started-2)
+nsubj(started-2, This-1)
+prep(started-2, with-3)
+det(mystery-6, an-4)
+amod(mystery-6, intriguing-5)
+pobj(with-3, mystery-6)
+cc(mystery-6, and-7)
+amod(characters-9, interesting-8)
+conj(mystery-6, characters-9)
+punct(started-2, .-10)
+
+Sentence #3 (32 tokens):
+Admittedly it moved along at the speed of a snail, but I was nevertheless gripped and kept watching.David Morrissey is always good value and he Suranne Jones were good leads.
+[Text=Admittedly CharacterOffsetBegin=97 CharacterOffsetEnd=107 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=PRP] [Text=moved CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=VBD] [Text=along CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=speed CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=DT] [Text=snail CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=,] [Text=but CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=VBD] [Text=nevertheless CharacterOffsetBegin=158 CharacterOffsetEnd=170 PartOfSpeech=RB] [Text=gripped CharacterOffsetBegin=171 CharacterOffsetEnd=178 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=CC] [Text=kept CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=VBN] [Text=watching.David CharacterOffsetBegin=188 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=Morrissey CharacterOffsetBegin=203 CharacterOffsetEnd=212 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=VBZ] [Text=always CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=JJ] [Text=value CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=PRP] [Text=Suranne CharacterOffsetBegin=241 CharacterOffsetEnd=248 PartOfSpeech=NNP] [Text=Jones CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=VBD] [Text=good CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=JJ] [Text=leads CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, moved-3)
+advmod(moved-3, Admittedly-1)
+nsubj(moved-3, it-2)
+advmod(moved-3, along-4)
+prep(moved-3, at-5)
+det(speed-7, the-6)
+pobj(at-5, speed-7)
+prep(speed-7, of-8)
+det(snail-10, a-9)
+pobj(of-8, snail-10)
+punct(moved-3, ,-11)
+cc(moved-3, but-12)
+nsubjpass(gripped-16, I-13)
+auxpass(gripped-16, was-14)
+advmod(gripped-16, nevertheless-15)
+conj(moved-3, gripped-16)
+cc(gripped-16, and-17)
+dep(value-24, kept-18)
+nn(Morrissey-20, watching.David-19)
+nsubj(value-24, Morrissey-20)
+cop(value-24, is-21)
+advmod(value-24, always-22)
+amod(value-24, good-23)
+conj(gripped-16, value-24)
+cc(gripped-16, and-25)
+nsubj(leads-31, he-26)
+nn(Jones-28, Suranne-27)
+nsubj(leads-31, Jones-28)
+cop(leads-31, were-29)
+amod(leads-31, good-30)
+conj(gripped-16, leads-31)
+punct(moved-3, .-32)
+
+Sentence #4 (7 tokens):
+The Muslim aspects were very interesting.
+[Text=The CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=Muslim CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=JJ] [Text=aspects CharacterOffsetBegin=287 CharacterOffsetEnd=294 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=RB] [Text=interesting CharacterOffsetBegin=305 CharacterOffsetEnd=316 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.] 
+root(ROOT-0, interesting-6)
+det(aspects-3, The-1)
+amod(aspects-3, Muslim-2)
+nsubj(interesting-6, aspects-3)
+cop(interesting-6, were-4)
+advmod(interesting-6, very-5)
+punct(interesting-6, .-7)
+
+Sentence #5 (22 tokens):
+We were tantalised with possible terrorist connections.But then Morrissey's character was killed off and all the air left the balloon.
+[Text=We CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=VBD] [Text=tantalised CharacterOffsetBegin=330 CharacterOffsetEnd=340 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=IN] [Text=possible CharacterOffsetBegin=346 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=terrorist CharacterOffsetBegin=355 CharacterOffsetEnd=364 PartOfSpeech=JJ] [Text=connections.But CharacterOffsetBegin=365 CharacterOffsetEnd=380 PartOfSpeech=NN] [Text=then CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=RB] [Text=Morrissey CharacterOffsetBegin=386 CharacterOffsetEnd=395 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=POS] [Text=character CharacterOffsetBegin=398 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=VBD] [Text=killed CharacterOffsetBegin=412 CharacterOffsetEnd=418 PartOfSpeech=VBN] [Text=off CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=RP] [Text=and CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=CC] [Text=all CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=DT] [Text=air CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=left CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=DT] [Text=balloon CharacterOffsetBegin=448 CharacterOffsetEnd=455 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=.] 
+root(ROOT-0, tantalised-3)
+nsubjpass(tantalised-3, We-1)
+auxpass(tantalised-3, were-2)
+mark(killed-13, with-4)
+amod(connections.But-7, possible-5)
+amod(connections.But-7, terrorist-6)
+nsubj(killed-13, connections.But-7)
+advmod(killed-13, then-8)
+poss(character-11, Morrissey-9)
+possessive(Morrissey-9, 's-10)
+nsubjpass(killed-13, character-11)
+auxpass(killed-13, was-12)
+advcl(tantalised-3, killed-13)
+prt(killed-13, off-14)
+cc(killed-13, and-15)
+predet(air-18, all-16)
+det(air-18, the-17)
+nsubj(left-19, air-18)
+conj(killed-13, left-19)
+det(balloon-21, the-20)
+dobj(left-19, balloon-21)
+punct(tantalised-3, .-22)
+
+Sentence #6 (10 tokens):
+The last episode was dull, dull, dull.
+[Text=The CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=DT] [Text=last CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=JJ] [Text=episode CharacterOffsetBegin=470 CharacterOffsetEnd=477 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=VBD] [Text=dull CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=,] [Text=dull CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=,] [Text=dull CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=.] 
+root(ROOT-0, dull-5)
+det(episode-3, The-1)
+amod(episode-3, last-2)
+nsubj(dull-5, episode-3)
+cop(dull-5, was-4)
+punct(dull-5, ,-6)
+conj(dull-5, dull-7)
+punct(dull-5, ,-8)
+dep(dull-5, dull-9)
+punct(dull-5, .-10)
+
+Sentence #7 (23 tokens):
+The whole thing turned out to be very small beer and the dnouement was unbelievably feeble.Five hours of my life for that?
+[Text=The CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=508 CharacterOffsetEnd=513 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=514 CharacterOffsetEnd=519 PartOfSpeech=NN] [Text=turned CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=527 CharacterOffsetEnd=530 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=531 CharacterOffsetEnd=533 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=VB] [Text=very CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=RB] [Text=small CharacterOffsetBegin=542 CharacterOffsetEnd=547 PartOfSpeech=JJ] [Text=beer CharacterOffsetBegin=548 CharacterOffsetEnd=552 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=DT] [Text=dnouement CharacterOffsetBegin=561 CharacterOffsetEnd=570 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=VBD] [Text=unbelievably CharacterOffsetBegin=575 CharacterOffsetEnd=587 PartOfSpeech=RB] [Text=feeble.Five CharacterOffsetBegin=588 CharacterOffsetEnd=599 PartOfSpeech=JJ] [Text=hours CharacterOffsetBegin=600 CharacterOffsetEnd=605 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=621 CharacterOffsetEnd=625 PartOfSpeech=DT] [Text=? CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=.] 
+root(ROOT-0, hours-17)
+det(thing-3, The-1)
+amod(thing-3, whole-2)
+nsubj(turned-4, thing-3)
+csubj(hours-17, turned-4)
+prt(turned-4, out-5)
+aux(beer-10, to-6)
+cop(beer-10, be-7)
+advmod(small-9, very-8)
+amod(beer-10, small-9)
+xcomp(turned-4, beer-10)
+cc(beer-10, and-11)
+det(dnouement-13, the-12)
+conj(beer-10, dnouement-13)
+cop(hours-17, was-14)
+advmod(hours-17, unbelievably-15)
+amod(hours-17, feeble.Five-16)
+prep(hours-17, of-18)
+poss(life-20, my-19)
+pobj(of-18, life-20)
+prep(hours-17, for-21)
+pobj(for-21, that-22)
+punct(hours-17, ?-23)
+
+Sentence #8 (8 tokens):
+My advice: watch paint dry instead.
+[Text=My CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=PRP$] [Text=advice CharacterOffsetBegin=634 CharacterOffsetEnd=640 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=:] [Text=watch CharacterOffsetBegin=642 CharacterOffsetEnd=647 PartOfSpeech=NN] [Text=paint CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=NN] [Text=dry CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=JJ] [Text=instead CharacterOffsetBegin=658 CharacterOffsetEnd=665 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=665 CharacterOffsetEnd=666 PartOfSpeech=.] 
+root(ROOT-0, advice-2)
+poss(advice-2, My-1)
+punct(advice-2, :-3)
+nn(paint-5, watch-4)
+dep(advice-2, paint-5)
+amod(paint-5, dry-6)
+advmod(dry-6, instead-7)
+punct(advice-2, .-8)
+

@@ -1,0 +1,146 @@
+Sentence #1 (20 tokens):
+Alfred Hitchcok is not my favorite director by any means but imagine what he could have done with this!
+[Text=Alfred CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=Hitchcok CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=RB] [Text=my CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=30 CharacterOffsetEnd=38 PartOfSpeech=JJ] [Text=director CharacterOffsetBegin=39 CharacterOffsetEnd=47 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=means CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=CC] [Text=imagine CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=VBP] [Text=what CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=WP] [Text=he CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=VB] [Text=done CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=DT] [Text=! CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.] 
+root(ROOT-0, director-7)
+nn(Hitchcok-2, Alfred-1)
+nsubj(director-7, Hitchcok-2)
+cop(director-7, is-3)
+neg(director-7, not-4)
+poss(director-7, my-5)
+amod(director-7, favorite-6)
+prep(director-7, by-8)
+det(means-10, any-9)
+pobj(by-8, means-10)
+cc(director-7, but-11)
+conj(director-7, imagine-12)
+dobj(done-17, what-13)
+nsubj(done-17, he-14)
+aux(done-17, could-15)
+aux(done-17, have-16)
+ccomp(imagine-12, done-17)
+prep(done-17, with-18)
+pobj(with-18, this-19)
+punct(director-7, !-20)
+
+Sentence #2 (8 tokens):
+The plot holds much potential for suspense.
+[Text=The CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=holds CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=VBZ] [Text=much CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=JJ] [Text=potential CharacterOffsetBegin=132 CharacterOffsetEnd=141 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=IN] [Text=suspense CharacterOffsetBegin=146 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=.] 
+root(ROOT-0, holds-3)
+det(plot-2, The-1)
+nsubj(holds-3, plot-2)
+amod(potential-5, much-4)
+dobj(holds-3, potential-5)
+prep(potential-5, for-6)
+pobj(for-6, suspense-7)
+punct(holds-3, .-8)
+
+Sentence #3 (16 tokens):
+John Garfield is as almost always excellent and Raymond Massey is scarily cast against type.
+[Text=John CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NNP] [Text=Garfield CharacterOffsetBegin=165 CharacterOffsetEnd=173 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=VBZ] [Text=as CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=IN] [Text=almost CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=RB] [Text=always CharacterOffsetBegin=187 CharacterOffsetEnd=193 PartOfSpeech=RB] [Text=excellent CharacterOffsetBegin=194 CharacterOffsetEnd=203 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=CC] [Text=Raymond CharacterOffsetBegin=208 CharacterOffsetEnd=215 PartOfSpeech=NNP] [Text=Massey CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=VBZ] [Text=scarily CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=RB] [Text=cast CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=VBN] [Text=against CharacterOffsetBegin=239 CharacterOffsetEnd=246 PartOfSpeech=IN] [Text=type CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+nn(Garfield-2, John-1)
+nsubj(is-3, Garfield-2)
+advmod(excellent-7, as-4)
+advmod(always-6, almost-5)
+advmod(excellent-7, always-6)
+dep(is-3, excellent-7)
+cc(excellent-7, and-8)
+nn(Massey-10, Raymond-9)
+nsubjpass(cast-13, Massey-10)
+auxpass(cast-13, is-11)
+advmod(cast-13, scarily-12)
+conj(excellent-7, cast-13)
+prep(cast-13, against-14)
+pobj(against-14, type-15)
+punct(is-3, .-16)
+
+Sentence #4 (25 tokens):
+Nancy Coleman is not a very impressive leading lady but the supporting cast is large and very capable.Yes it starts to sag fairly early.
+[Text=Nancy CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=NNP] [Text=Coleman CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=RB] [Text=impressive CharacterOffsetBegin=285 CharacterOffsetEnd=295 PartOfSpeech=JJ] [Text=leading CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=VBG] [Text=lady CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=supporting CharacterOffsetBegin=317 CharacterOffsetEnd=327 PartOfSpeech=VBG] [Text=cast CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=VBZ] [Text=large CharacterOffsetBegin=336 CharacterOffsetEnd=341 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=CC] [Text=very CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=RB] [Text=capable.Yes CharacterOffsetBegin=351 CharacterOffsetEnd=362 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=PRP] [Text=starts CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=TO] [Text=sag CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=NN] [Text=fairly CharacterOffsetBegin=380 CharacterOffsetEnd=386 PartOfSpeech=RB] [Text=early CharacterOffsetBegin=387 CharacterOffsetEnd=392 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=.] 
+root(ROOT-0, large-15)
+nn(Coleman-2, Nancy-1)
+nsubj(lady-9, Coleman-2)
+cop(lady-9, is-3)
+neg(lady-9, not-4)
+det(lady-9, a-5)
+advmod(impressive-7, very-6)
+amod(lady-9, impressive-7)
+amod(lady-9, leading-8)
+nsubj(large-15, lady-9)
+cc(lady-9, but-10)
+det(cast-13, the-11)
+amod(cast-13, supporting-12)
+conj(lady-9, cast-13)
+cop(large-15, is-14)
+cc(large-15, and-16)
+advmod(capable.Yes-18, very-17)
+conj(large-15, capable.Yes-18)
+nsubj(starts-20, it-19)
+rcmod(large-15, starts-20)
+prep(starts-20, to-21)
+pobj(to-21, sag-22)
+advmod(early-24, fairly-23)
+advmod(starts-20, early-24)
+punct(large-15, .-25)
+
+Sentence #5 (6 tokens):
+There are too many coincidences.
+[Text=There CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=VBP] [Text=too CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=JJ] [Text=coincidences CharacterOffsetBegin=417 CharacterOffsetEnd=429 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+advmod(many-4, too-3)
+amod(coincidences-5, many-4)
+nsubj(are-2, coincidences-5)
+punct(are-2, .-6)
+
+Sentence #6 (36 tokens):
+And an important subject is trivialized by its being made into little more, in the end, than a love story.It's fun to watch for Garfield, Massey, and the character performers.
+[Text=And CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=CC] [Text=an CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=DT] [Text=important CharacterOffsetBegin=442 CharacterOffsetEnd=451 PartOfSpeech=JJ] [Text=subject CharacterOffsetBegin=452 CharacterOffsetEnd=459 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=VBZ] [Text=trivialized CharacterOffsetBegin=463 CharacterOffsetEnd=474 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=PRP$] [Text=being CharacterOffsetBegin=482 CharacterOffsetEnd=487 PartOfSpeech=VBG] [Text=made CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=VBN] [Text=into CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=IN] [Text=little CharacterOffsetBegin=498 CharacterOffsetEnd=504 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=505 CharacterOffsetEnd=509 PartOfSpeech=JJR] [Text=, CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=,] [Text=in CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=,] [Text=than CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=DT] [Text=love CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=NN] [Text=story.It CharacterOffsetBegin=535 CharacterOffsetEnd=543 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=POS] [Text=fun CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=IN] [Text=Garfield CharacterOffsetBegin=563 CharacterOffsetEnd=571 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=571 CharacterOffsetEnd=572 PartOfSpeech=,] [Text=Massey CharacterOffsetBegin=573 CharacterOffsetEnd=579 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=,] [Text=and CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=589 CharacterOffsetEnd=598 PartOfSpeech=NN] [Text=performers CharacterOffsetBegin=599 CharacterOffsetEnd=609 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=.] 
+root(ROOT-0, trivialized-6)
+cc(trivialized-6, And-1)
+det(subject-4, an-2)
+amod(subject-4, important-3)
+nsubjpass(trivialized-6, subject-4)
+auxpass(trivialized-6, is-5)
+prep(trivialized-6, by-7)
+nsubjpass(made-10, its-8)
+auxpass(made-10, being-9)
+pcomp(by-7, made-10)
+prep(made-10, into-11)
+advmod(more-13, little-12)
+pobj(into-11, more-13)
+punct(trivialized-6, ,-14)
+prep(trivialized-6, in-15)
+det(end-17, the-16)
+pobj(in-15, end-17)
+punct(trivialized-6, ,-18)
+prep(trivialized-6, than-19)
+det(story.It-22, a-20)
+nn(story.It-22, love-21)
+poss(fun-24, story.It-22)
+possessive(story.It-22, 's-23)
+pobj(than-19, fun-24)
+aux(watch-26, to-25)
+infmod(fun-24, watch-26)
+prep(watch-26, for-27)
+pobj(for-27, Garfield-28)
+punct(Garfield-28, ,-29)
+conj(Garfield-28, Massey-30)
+punct(Garfield-28, ,-31)
+cc(Garfield-28, and-32)
+det(character-34, the-33)
+nn(performers-35, character-34)
+conj(Garfield-28, performers-35)
+punct(trivialized-6, .-36)
+
+Sentence #7 (7 tokens):
+But it's not awfully good.
+[Text=But CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=621 CharacterOffsetEnd=623 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=RB] [Text=awfully CharacterOffsetBegin=628 CharacterOffsetEnd=635 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=.] 
+root(ROOT-0, good-6)
+cc(good-6, But-1)
+nsubj(good-6, it-2)
+cop(good-6, 's-3)
+neg(good-6, not-4)
+advmod(good-6, awfully-5)
+punct(good-6, .-7)
+

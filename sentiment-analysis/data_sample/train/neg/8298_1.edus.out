@@ -1,0 +1,103 @@
+Sentence #1 (20 tokens):
+This movie was not very entertaining, certainly NO WHERE as original or as good as A Christmas Story.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=RB] [Text=entertaining CharacterOffsetBegin=28 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=,] [Text=certainly CharacterOffsetBegin=42 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=NO CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=NN] [Text=WHERE CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=IN] [Text=original CharacterOffsetBegin=64 CharacterOffsetEnd=72 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=CC] [Text=as CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=IN] [Text=A CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=DT] [Text=Christmas CharacterOffsetBegin=89 CharacterOffsetEnd=98 PartOfSpeech=NNP] [Text=Story CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, entertaining-6)
+det(movie-2, This-1)
+nsubj(entertaining-6, movie-2)
+cop(entertaining-6, was-3)
+neg(entertaining-6, not-4)
+advmod(entertaining-6, very-5)
+punct(entertaining-6, ,-7)
+advmod(WHERE-10, certainly-8)
+nn(WHERE-10, NO-9)
+dep(entertaining-6, WHERE-10)
+prep(WHERE-10, as-11)
+pobj(as-11, original-12)
+cc(original-12, or-13)
+advmod(good-15, as-14)
+conj(original-12, good-15)
+prep(original-12, as-16)
+det(Story-19, A-17)
+nn(Story-19, Christmas-18)
+pobj(as-16, Story-19)
+punct(entertaining-6, .-20)
+
+Sentence #2 (18 tokens):
+The characters (except the youngest) try to emulate the preceding actors, and they fail.
+[Text=The CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=114 CharacterOffsetEnd=124 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=-LRB-] [Text=except CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=youngest CharacterOffsetBegin=137 CharacterOffsetEnd=145 PartOfSpeech=JJS] [Text=-RRB- CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=-RRB-] [Text=try CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=TO] [Text=emulate CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=DT] [Text=preceding CharacterOffsetBegin=166 CharacterOffsetEnd=175 PartOfSpeech=VBG] [Text=actors CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=,] [Text=and CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=PRP] [Text=fail CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=.] 
+root(ROOT-0, try-8)
+det(characters-2, The-1)
+nsubj(try-8, characters-2)
+punct(except-4, -LRB--3)
+prep(characters-2, except-4)
+det(youngest-6, the-5)
+pobj(except-4, youngest-6)
+punct(except-4, -RRB--7)
+aux(emulate-10, to-9)
+xcomp(try-8, emulate-10)
+det(actors-13, the-11)
+amod(actors-13, preceding-12)
+dobj(emulate-10, actors-13)
+punct(try-8, ,-14)
+cc(try-8, and-15)
+nsubj(fail-17, they-16)
+conj(try-8, fail-17)
+punct(try-8, .-18)
+
+Sentence #3 (18 tokens):
+The hillbilly neighbors come out of nowhere as they weren't a part of the first movie.
+[Text=The CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=hillbilly CharacterOffsetBegin=207 CharacterOffsetEnd=216 PartOfSpeech=JJ] [Text=neighbors CharacterOffsetBegin=217 CharacterOffsetEnd=226 PartOfSpeech=NNS] [Text=come CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=VBP] [Text=out CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=IN] [Text=nowhere CharacterOffsetBegin=239 CharacterOffsetEnd=246 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=part CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=277 CharacterOffsetEnd=282 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=283 CharacterOffsetEnd=288 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=.] 
+root(ROOT-0, come-4)
+det(neighbors-3, The-1)
+amod(neighbors-3, hillbilly-2)
+nsubj(come-4, neighbors-3)
+prep(come-4, out-5)
+pcomp(out-5, of-6)
+pobj(of-6, nowhere-7)
+mark(part-13, as-8)
+nsubj(part-13, they-9)
+cop(part-13, were-10)
+neg(part-13, n't-11)
+det(part-13, a-12)
+advcl(come-4, part-13)
+prep(part-13, of-14)
+det(movie-17, the-15)
+amod(movie-17, first-16)
+pobj(of-14, movie-17)
+punct(come-4, .-18)
+
+Sentence #4 (24 tokens):
+This really sucked, might have been good with the original cast, then again maybe not because the story is so weak.
+[Text=This CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=DT] [Text=really CharacterOffsetBegin=299 CharacterOffsetEnd=305 PartOfSpeech=RB] [Text=sucked CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=,] [Text=might CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=VBN] [Text=good CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=344 CharacterOffsetEnd=352 PartOfSpeech=JJ] [Text=cast CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=,] [Text=then CharacterOffsetBegin=359 CharacterOffsetEnd=363 PartOfSpeech=RB] [Text=again CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=maybe CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=380 CharacterOffsetEnd=387 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=392 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=RB] [Text=weak CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=.] 
+root(ROOT-0, sucked-3)
+det(sucked-3, This-1)
+advmod(sucked-3, really-2)
+punct(sucked-3, ,-4)
+aux(good-8, might-5)
+aux(good-8, have-6)
+cop(good-8, been-7)
+conj(sucked-3, good-8)
+prep(good-8, with-9)
+det(cast-12, the-10)
+amod(cast-12, original-11)
+pobj(with-9, cast-12)
+punct(sucked-3, ,-13)
+advmod(maybe-16, then-14)
+advmod(maybe-16, again-15)
+dep(sucked-3, maybe-16)
+dep(maybe-16, not-17)
+mark(weak-23, because-18)
+det(story-20, the-19)
+nsubj(weak-23, story-20)
+cop(weak-23, is-21)
+advmod(weak-23, so-22)
+dep(maybe-16, weak-23)
+punct(sucked-3, .-24)
+
+Sentence #5 (3 tokens):
+Skip it.
+[Text=Skip CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.] 
+root(ROOT-0, Skip-1)
+dobj(Skip-1, it-2)
+punct(Skip-1, .-3)
+

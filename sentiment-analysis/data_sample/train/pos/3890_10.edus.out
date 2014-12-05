@@ -1,0 +1,199 @@
+Sentence #1 (7 tokens):
+This is an excellent stand-up DVD!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=excellent CharacterOffsetBegin=15 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=stand-up CharacterOffsetBegin=25 CharacterOffsetEnd=33 PartOfSpeech=JJ] [Text=DVD CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, DVD-6)
+nsubj(DVD-6, This-1)
+cop(DVD-6, is-2)
+det(DVD-6, an-3)
+amod(DVD-6, excellent-4)
+amod(DVD-6, stand-up-5)
+punct(DVD-6, !-7)
+
+Sentence #2 (12 tokens):
+Eddie Izzard is the funniest person I have seen in years.
+[Text=Eddie CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=NNP] [Text=Izzard CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=funniest CharacterOffsetBegin=63 CharacterOffsetEnd=71 PartOfSpeech=JJS] [Text=person CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=IN] [Text=years CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=.] 
+root(ROOT-0, person-6)
+nn(Izzard-2, Eddie-1)
+nsubj(person-6, Izzard-2)
+cop(person-6, is-3)
+det(person-6, the-4)
+amod(person-6, funniest-5)
+nsubj(seen-9, I-7)
+aux(seen-9, have-8)
+rcmod(person-6, seen-9)
+prep(seen-9, in-10)
+pobj(in-10, years-11)
+punct(person-6, .-12)
+
+Sentence #3 (16 tokens):
+His routine is hilarious and makes for great conversation with others who have seen it.
+[Text=His CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=PRP$] [Text=routine CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=VBZ] [Text=hilarious CharacterOffsetBegin=120 CharacterOffsetEnd=129 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=CC] [Text=makes CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=IN] [Text=great CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=JJ] [Text=conversation CharacterOffsetBegin=150 CharacterOffsetEnd=162 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=IN] [Text=others CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=WP] [Text=have CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=.] 
+root(ROOT-0, hilarious-4)
+poss(routine-2, His-1)
+nsubj(hilarious-4, routine-2)
+cop(hilarious-4, is-3)
+cc(hilarious-4, and-5)
+conj(hilarious-4, makes-6)
+prep(hilarious-4, for-7)
+amod(conversation-9, great-8)
+pobj(for-7, conversation-9)
+prep(conversation-9, with-10)
+pobj(with-10, others-11)
+nsubj(seen-14, who-12)
+aux(seen-14, have-13)
+rcmod(others-11, seen-14)
+dobj(seen-14, it-15)
+punct(hilarious-4, .-16)
+
+Sentence #4 (6 tokens):
+I HIGHLY recommend this one.
+[Text=I CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=PRP] [Text=HIGHLY CharacterOffsetBegin=199 CharacterOffsetEnd=205 PartOfSpeech=RB] [Text=recommend CharacterOffsetBegin=206 CharacterOffsetEnd=215 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, recommend-3)
+nsubj(recommend-3, I-1)
+advmod(recommend-3, HIGHLY-2)
+det(one-5, this-4)
+dobj(recommend-3, one-5)
+punct(recommend-3, .-6)
+
+Sentence #5 (45 tokens):
+The part about the history of Europe is a bit slow, but the ending jokes in French are quite good, because you don't have to speak French to get it (although if you do, it is still hilarious).
+[Text=The CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=DT] [Text=part CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=DT] [Text=history CharacterOffsetBegin=249 CharacterOffsetEnd=256 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=IN] [Text=Europe CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=NN] [Text=slow CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=,] [Text=but CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=VBG] [Text=jokes CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN] [Text=French CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=NNP] [Text=are CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=VBP] [Text=quite CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=,] [Text=because CharacterOffsetBegin=329 CharacterOffsetEnd=336 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=TO] [Text=speak CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=VB] [Text=French CharacterOffsetBegin=361 CharacterOffsetEnd=367 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=PRP] [Text=-LRB- CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=-LRB-] [Text=although CharacterOffsetBegin=379 CharacterOffsetEnd=387 PartOfSpeech=IN] [Text=if CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=,] [Text=it CharacterOffsetBegin=399 CharacterOffsetEnd=401 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=VBZ] [Text=still CharacterOffsetBegin=405 CharacterOffsetEnd=410 PartOfSpeech=RB] [Text=hilarious CharacterOffsetBegin=411 CharacterOffsetEnd=420 PartOfSpeech=JJ] [Text=-RRB- CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.] 
+root(ROOT-0, bit-10)
+det(part-2, The-1)
+nsubj(bit-10, part-2)
+prep(part-2, about-3)
+det(history-5, the-4)
+pobj(about-3, history-5)
+prep(history-5, of-6)
+pobj(of-6, Europe-7)
+cop(bit-10, is-8)
+det(bit-10, a-9)
+amod(bit-10, slow-11)
+punct(bit-10, ,-12)
+cc(bit-10, but-13)
+det(ending-15, the-14)
+nsubj(good-21, ending-15)
+partmod(ending-15, jokes-16)
+prep(jokes-16, in-17)
+pobj(in-17, French-18)
+cop(good-21, are-19)
+advmod(good-21, quite-20)
+conj(bit-10, good-21)
+punct(bit-10, ,-22)
+mark(have-27, because-23)
+nsubj(have-27, you-24)
+aux(have-27, do-25)
+neg(have-27, n't-26)
+advcl(bit-10, have-27)
+aux(speak-29, to-28)
+xcomp(have-27, speak-29)
+dobj(speak-29, French-30)
+aux(get-32, to-31)
+xcomp(speak-29, get-32)
+dobj(get-32, it-33)
+punct(although-35, -LRB--34)
+mark(hilarious-43, although-35)
+mark(do-38, if-36)
+nsubj(do-38, you-37)
+advcl(hilarious-43, do-38)
+punct(hilarious-43, ,-39)
+nsubj(hilarious-43, it-40)
+cop(hilarious-43, is-41)
+advmod(hilarious-43, still-42)
+dep(it-33, hilarious-43)
+punct(hilarious-43, -RRB--44)
+punct(bit-10, .-45)
+
+Sentence #6 (12 tokens):
+Also, the parts about being a transvestite are quite good.
+[Text=Also CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=,] [Text=the CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=DT] [Text=parts CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=IN] [Text=being CharacterOffsetBegin=449 CharacterOffsetEnd=454 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=DT] [Text=transvestite CharacterOffsetBegin=457 CharacterOffsetEnd=469 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=VBP] [Text=quite CharacterOffsetBegin=474 CharacterOffsetEnd=479 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=.] 
+root(ROOT-0, good-11)
+advmod(good-11, Also-1)
+punct(good-11, ,-2)
+det(parts-4, the-3)
+nsubj(good-11, parts-4)
+prep(parts-4, about-5)
+cop(transvestite-8, being-6)
+det(transvestite-8, a-7)
+pcomp(about-5, transvestite-8)
+cop(good-11, are-9)
+advmod(good-11, quite-10)
+punct(good-11, .-12)
+
+Sentence #7 (18 tokens):
+The first scene (about San Francisco) is not great, but funny the first time.
+[Text=The CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=494 CharacterOffsetEnd=499 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=506 CharacterOffsetEnd=507 PartOfSpeech=-LRB-] [Text=about CharacterOffsetBegin=507 CharacterOffsetEnd=512 PartOfSpeech=IN] [Text=San CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=NNP] [Text=Francisco CharacterOffsetBegin=517 CharacterOffsetEnd=526 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=-RRB-] [Text=is CharacterOffsetBegin=528 CharacterOffsetEnd=530 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=535 CharacterOffsetEnd=540 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=,] [Text=but CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=CC] [Text=funny CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=556 CharacterOffsetEnd=561 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=.] 
+root(ROOT-0, great-11)
+det(scene-3, The-1)
+amod(scene-3, first-2)
+nsubj(great-11, scene-3)
+punct(Francisco-7, -LRB--4)
+quantmod(San-6, about-5)
+dep(Francisco-7, San-6)
+appos(scene-3, Francisco-7)
+punct(Francisco-7, -RRB--8)
+cop(great-11, is-9)
+neg(great-11, not-10)
+punct(great-11, ,-12)
+cc(great-11, but-13)
+amod(time-17, funny-14)
+det(time-17, the-15)
+amod(time-17, first-16)
+conj(great-11, time-17)
+punct(great-11, .-18)
+
+Sentence #8 (7 tokens):
+Skip over those if you can.
+[Text=Skip CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=VB] [Text=over CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=DT] [Text=if CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=MD] [Text=. CharacterOffsetBegin=598 CharacterOffsetEnd=599 PartOfSpeech=.] 
+root(ROOT-0, Skip-1)
+prep(Skip-1, over-2)
+pobj(over-2, those-3)
+mark(can-6, if-4)
+nsubj(can-6, you-5)
+advcl(Skip-1, can-6)
+punct(Skip-1, .-7)
+
+Sentence #9 (7 tokens):
+It's almost not worth watching.
+[Text=It CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=VBZ] [Text=almost CharacterOffsetBegin=609 CharacterOffsetEnd=615 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=620 CharacterOffsetEnd=625 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=626 CharacterOffsetEnd=634 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=.] 
+root(ROOT-0, worth-5)
+nsubj(worth-5, It-1)
+cop(worth-5, 's-2)
+advmod(not-4, almost-3)
+neg(worth-5, not-4)
+dep(worth-5, watching-6)
+punct(worth-5, .-7)
+
+Sentence #10 (16 tokens):
+However, this really is a funny, funny stand-up show that everyone should see.
+[Text=However CharacterOffsetBegin=640 CharacterOffsetEnd=647 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=,] [Text=this CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=DT] [Text=really CharacterOffsetBegin=654 CharacterOffsetEnd=660 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=661 CharacterOffsetEnd=663 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=664 CharacterOffsetEnd=665 PartOfSpeech=DT] [Text=funny CharacterOffsetBegin=666 CharacterOffsetEnd=671 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=,] [Text=funny CharacterOffsetBegin=673 CharacterOffsetEnd=678 PartOfSpeech=JJ] [Text=stand-up CharacterOffsetBegin=679 CharacterOffsetEnd=687 PartOfSpeech=JJ] [Text=show CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=IN] [Text=everyone CharacterOffsetBegin=698 CharacterOffsetEnd=706 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=707 CharacterOffsetEnd=713 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=714 CharacterOffsetEnd=717 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=717 CharacterOffsetEnd=718 PartOfSpeech=.] 
+root(ROOT-0, show-11)
+advmod(show-11, However-1)
+punct(show-11, ,-2)
+nsubj(show-11, this-3)
+advmod(show-11, really-4)
+cop(show-11, is-5)
+det(show-11, a-6)
+amod(show-11, funny-7)
+punct(show-11, ,-8)
+amod(show-11, funny-9)
+amod(show-11, stand-up-10)
+mark(see-15, that-12)
+nsubj(see-15, everyone-13)
+aux(see-15, should-14)
+ccomp(show-11, see-15)
+punct(show-11, .-16)
+
+Sentence #11 (9 tokens):
+"I was dead at the time!"
+[Text=`` CharacterOffsetBegin=723 CharacterOffsetEnd=724 PartOfSpeech=``] [Text=I CharacterOffsetBegin=724 CharacterOffsetEnd=725 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=726 CharacterOffsetEnd=729 PartOfSpeech=VBD] [Text=dead CharacterOffsetBegin=730 CharacterOffsetEnd=734 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=735 CharacterOffsetEnd=737 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=742 CharacterOffsetEnd=746 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=746 CharacterOffsetEnd=747 PartOfSpeech=.] [Text='' CharacterOffsetBegin=747 CharacterOffsetEnd=748 PartOfSpeech=''] 
+root(ROOT-0, dead-4)
+punct(dead-4, ``-1)
+nsubj(dead-4, I-2)
+cop(dead-4, was-3)
+prep(dead-4, at-5)
+det(time-7, the-6)
+pobj(at-5, time-7)
+punct(dead-4, !-8)
+punct(dead-4, ''-9)
+

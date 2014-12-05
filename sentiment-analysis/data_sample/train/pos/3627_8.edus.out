@@ -1,0 +1,100 @@
+Sentence #1 (6 tokens):
+What a fun movie experience!
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=fun CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=experience CharacterOffsetBegin=21 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, experience-5)
+dep(experience-5, What-1)
+det(experience-5, a-2)
+nn(experience-5, fun-3)
+nn(experience-5, movie-4)
+punct(experience-5, !-6)
+
+Sentence #2 (18 tokens):
+I was expecting a sappy kids movie and found that I enjoyed it more than my teens.
+[Text=I CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=VBD] [Text=expecting CharacterOffsetBegin=43 CharacterOffsetEnd=52 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=sappy CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=JJ] [Text=kids CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NNS] [Text=movie CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=CC] [Text=found CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=enjoyed CharacterOffsetBegin=89 CharacterOffsetEnd=96 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=PRP] [Text=more CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=PRP$] [Text=teens CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=.] 
+root(ROOT-0, expecting-3)
+nsubj(expecting-3, I-1)
+aux(expecting-3, was-2)
+det(movie-7, a-4)
+amod(movie-7, sappy-5)
+nn(movie-7, kids-6)
+dobj(expecting-3, movie-7)
+cc(expecting-3, and-8)
+conj(expecting-3, found-9)
+mark(enjoyed-12, that-10)
+nsubj(enjoyed-12, I-11)
+ccomp(found-9, enjoyed-12)
+dobj(enjoyed-12, it-13)
+advmod(than-15, more-14)
+prep(it-13, than-15)
+poss(teens-17, my-16)
+pobj(than-15, teens-17)
+punct(expecting-3, .-18)
+
+Sentence #3 (16 tokens):
+Take a tissue, it's not sad, just 'moving' in parts.
+[Text=Take CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=tissue CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=,] [Text=it CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=RB] [Text=sad CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=,] [Text=just CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=RB] [Text=` CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=``] [Text=moving CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=VBG] [Text=' CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=''] [Text=in CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=parts CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=.] 
+root(ROOT-0, Take-1)
+det(tissue-3, a-2)
+dobj(Take-1, tissue-3)
+punct(Take-1, ,-4)
+nsubj(sad-8, it-5)
+cop(sad-8, 's-6)
+neg(sad-8, not-7)
+dep(Take-1, sad-8)
+punct(Take-1, ,-9)
+advmod(moving-12, just-10)
+punct(moving-12, `-11)
+xcomp(Take-1, moving-12)
+punct(moving-12, '-13)
+prep(moving-12, in-14)
+pobj(in-14, parts-15)
+punct(Take-1, .-16)
+
+Sentence #4 (14 tokens):
+Finally, its a 'feel good' flick for the whole family.
+[Text=Finally CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=,] [Text=its CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=PRP$] [Text=a CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=``] [Text=feel CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VB] [Text=good CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=''] [Text=flick CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=.] 
+root(ROOT-0, Finally-1)
+punct(Finally-1, ,-2)
+dep(,-2, its-3)
+det(feel-6, a-4)
+punct(feel-6, `-5)
+dep(its-3, feel-6)
+amod(flick-9, good-7)
+punct(flick-9, '-8)
+dobj(feel-6, flick-9)
+prep(flick-9, for-10)
+det(family-13, the-11)
+amod(family-13, whole-12)
+pobj(for-10, family-13)
+punct(its-3, .-14)
+
+Sentence #5 (21 tokens):
+Note: It's 2+ hours, so consider leaving the littlest 'squirmers' home for this one.
+[Text=Note CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=VB] [Text=: CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=:] [Text=It CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=VBZ] [Text=2 CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=CD] [Text=+ CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=CC] [Text=hours CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=,] [Text=so CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=RB] [Text=consider CharacterOffsetBegin=264 CharacterOffsetEnd=272 PartOfSpeech=VB] [Text=leaving CharacterOffsetBegin=273 CharacterOffsetEnd=280 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=littlest CharacterOffsetBegin=285 CharacterOffsetEnd=293 PartOfSpeech=JJS] [Text=` CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=``] [Text=squirmers CharacterOffsetBegin=295 CharacterOffsetEnd=304 PartOfSpeech=NNS] [Text=' CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=''] [Text=home CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=.] 
+root(ROOT-0, Note-1)
+punct(Note-1, :-2)
+dep(Note-1, It-3)
+rcmod(It-3, 's-4)
+dep('s-4, 2-5)
+prep(2-5, +-6)
+dep(+-6, hours-7)
+punct(2-5, ,-8)
+advmod(consider-10, so-9)
+conj(2-5, consider-10)
+xcomp(consider-10, leaving-11)
+det(squirmers-15, the-12)
+amod(squirmers-15, littlest-13)
+punct(squirmers-15, `-14)
+nsubj(home-17, squirmers-15)
+punct(squirmers-15, '-16)
+xcomp(leaving-11, home-17)
+prep(home-17, for-18)
+det(one-20, this-19)
+pobj(for-18, one-20)
+punct(Note-1, .-21)
+
+Sentence #6 (1 tokens):
+AP
+[Text=AP CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=NN] 
+root(ROOT-0, AP-1)
+

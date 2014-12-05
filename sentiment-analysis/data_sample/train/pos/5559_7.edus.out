@@ -1,0 +1,84 @@
+Sentence #1 (6 tokens):
+This was stupid funny movie.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=stupid CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=funny CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, This-1)
+cop(movie-5, was-2)
+amod(movie-5, stupid-3)
+amod(movie-5, funny-4)
+punct(movie-5, .-6)
+
+Sentence #2 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #3 (17 tokens):
+Cheech and Chong are the dopiest wasted guys ever... i rate this film a 7.
+[Text=Cheech CharacterOffsetBegin=34 CharacterOffsetEnd=40 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=CC] [Text=Chong CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=NNP] [Text=are CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=DT] [Text=dopiest CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=JJS] [Text=wasted CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=VBN] [Text=guys CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=NNS] [Text=ever CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=RB] [Text=... CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=:] [Text=i CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=FW] [Text=rate CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=7 CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=.] 
+root(ROOT-0, guys-8)
+nsubj(guys-8, Cheech-1)
+cc(Cheech-1, and-2)
+conj(Cheech-1, Chong-3)
+cop(guys-8, are-4)
+det(guys-8, the-5)
+amod(guys-8, dopiest-6)
+amod(guys-8, wasted-7)
+advmod(guys-8, ever-9)
+punct(guys-8, ...-10)
+nn(rate-12, i-11)
+dep(guys-8, rate-12)
+det(film-14, this-13)
+dep(rate-12, film-14)
+det(7-16, a-15)
+num(film-14, 7-16)
+punct(guys-8, .-17)
+
+Sentence #4 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #5 (13 tokens):
+but if you like this one then go see Jay and Silentbob!
+[Text=but CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=CD] [Text=then CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=RB] [Text=go CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=VB] [Text=see CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=VB] [Text=Jay CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=Silentbob CharacterOffsetBegin=155 CharacterOffsetEnd=164 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=.] 
+root(ROOT-0, go-8)
+cc(go-8, but-1)
+mark(like-4, if-2)
+nsubj(like-4, you-3)
+advcl(go-8, like-4)
+det(one-6, this-5)
+nsubj(go-8, one-6)
+advmod(go-8, then-7)
+ccomp(go-8, see-9)
+dobj(see-9, Jay-10)
+cc(Jay-10, and-11)
+conj(Jay-10, Silentbob-12)
+punct(go-8, !-13)
+
+Sentence #6 (5 tokens):
+There funnier and crazier.
+[Text=There CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=EX] [Text=funnier CharacterOffsetBegin=176 CharacterOffsetEnd=183 PartOfSpeech=JJR] [Text=and CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=CC] [Text=crazier CharacterOffsetBegin=188 CharacterOffsetEnd=195 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=.] 
+root(ROOT-0, funnier-2)
+expl(funnier-2, There-1)
+cc(funnier-2, and-3)
+conj(funnier-2, crazier-4)
+punct(funnier-2, .-5)
+
+Sentence #7 (13 tokens):
+Now Cheech is a sellout working on kids movies..... wheres chong?
+[Text=Now CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=RB] [Text=Cheech CharacterOffsetBegin=205 CharacterOffsetEnd=211 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=DT] [Text=sellout CharacterOffsetBegin=217 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=working CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=kids CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=NNS] [Text=movies CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=NNS] [Text=... CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=:] [Text=wheres CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=NNS] [Text=chong CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=.] 
+root(ROOT-0, sellout-5)
+advmod(sellout-5, Now-1)
+nsubj(sellout-5, Cheech-2)
+cop(sellout-5, is-3)
+det(sellout-5, a-4)
+partmod(sellout-5, working-6)
+prep(working-6, on-7)
+nn(movies-9, kids-8)
+pobj(on-7, movies-9)
+punct(sellout-5, ...-10)
+nn(chong-12, wheres-11)
+dep(sellout-5, chong-12)
+punct(sellout-5, ?-13)
+

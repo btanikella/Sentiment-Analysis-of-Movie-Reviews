@@ -1,0 +1,94 @@
+Sentence #1 (5 tokens):
+I loved This Movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=This CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=Movie CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=.] 
+root(ROOT-0, loved-2)
+nsubj(loved-2, I-1)
+det(Movie-4, This-3)
+dobj(loved-2, Movie-4)
+punct(loved-2, .-5)
+
+Sentence #2 (15 tokens):
+When I saw it on Febuary 3rd I knew I had to buy It!!!
+[Text=When CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=IN] [Text=Febuary CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=NNP] [Text=3rd CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=knew CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=TO] [Text=buy CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=VB] [Text=It CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=PRP] [Text=!!! CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=IN] 
+root(ROOT-0, saw-3)
+advmod(saw-3, When-1)
+nsubj(saw-3, I-2)
+dobj(saw-3, it-4)
+prep(saw-3, on-5)
+pobj(on-5, Febuary-6)
+dep(saw-3, 3rd-7)
+nsubj(knew-9, I-8)
+rcmod(3rd-7, knew-9)
+nsubj(had-11, I-10)
+ccomp(knew-9, had-11)
+aux(buy-13, to-12)
+xcomp(had-11, buy-13)
+dobj(buy-13, It-14)
+dep(buy-13, !!!-15)
+
+Sentence #3 (9 tokens):
+It comes out to buy on July 24th!!!
+[Text=It CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=PRP] [Text=comes CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=TO] [Text=buy CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=IN] [Text=July CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=NNP] [Text=24th CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=JJ] [Text=!!! CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=NN] 
+root(ROOT-0, comes-2)
+nsubj(comes-2, It-1)
+prt(comes-2, out-3)
+aux(buy-5, to-4)
+xcomp(comes-2, buy-5)
+prep(buy-5, on-6)
+nn(!!!-9, July-7)
+amod(!!!-9, 24th-8)
+pobj(on-6, !!!-9)
+
+Sentence #4 (18 tokens):
+It has cool deaths scenes, Hot girls, great cast, good story , good acting.
+[Text=It CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=VBZ] [Text=cool CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=JJ] [Text=deaths CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NNS] [Text=scenes CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=,] [Text=Hot CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=JJ] [Text=girls CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=,] [Text=great CharacterOffsetBegin=165 CharacterOffsetEnd=170 PartOfSpeech=JJ] [Text=cast CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=,] [Text=good CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=,] [Text=good CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, It-1)
+amod(scenes-5, cool-3)
+nn(scenes-5, deaths-4)
+dobj(has-2, scenes-5)
+punct(scenes-5, ,-6)
+amod(girls-8, Hot-7)
+conj(scenes-5, girls-8)
+punct(scenes-5, ,-9)
+amod(cast-11, great-10)
+conj(scenes-5, cast-11)
+punct(scenes-5, ,-12)
+amod(story-14, good-13)
+conj(scenes-5, story-14)
+punct(scenes-5, ,-15)
+amod(acting-17, good-16)
+appos(scenes-5, acting-17)
+punct(has-2, .-18)
+
+Sentence #5 (4 tokens):
+Great Slasher Film.
+[Text=Great CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=JJ] [Text=Slasher CharacterOffsetBegin=213 CharacterOffsetEnd=220 PartOfSpeech=NNP] [Text=Film CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=.] 
+root(ROOT-0, Film-3)
+amod(Film-3, Great-1)
+nn(Film-3, Slasher-2)
+punct(Film-3, .-4)
+
+Sentence #6 (12 tokens):
+the Movies is about some serial killer killing off four girls.
+[Text=the CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=DT] [Text=Movies CharacterOffsetBegin=235 CharacterOffsetEnd=241 PartOfSpeech=NNPS] [Text=is CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=serial CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=killer CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=killing CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=VBG] [Text=off CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=RP] [Text=four CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=CD] [Text=girls CharacterOffsetBegin=287 CharacterOffsetEnd=292 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=.] 
+root(ROOT-0, Movies-2)
+det(Movies-2, the-1)
+dep(Movies-2, is-3)
+prep(is-3, about-4)
+det(killer-7, some-5)
+amod(killer-7, serial-6)
+pobj(about-4, killer-7)
+partmod(killer-7, killing-8)
+prt(killing-8, off-9)
+num(girls-11, four-10)
+dobj(killing-8, girls-11)
+punct(Movies-2, .-12)
+
+Sentence #7 (3 tokens):
+SEE this movies
+[Text=SEE CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=DT] [Text=movies CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=NNS] 
+root(ROOT-0, SEE-1)
+det(movies-3, this-2)
+dobj(SEE-1, movies-3)
+

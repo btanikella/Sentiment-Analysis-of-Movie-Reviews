@@ -1,0 +1,89 @@
+Sentence #1 (19 tokens):
+Picked up the movie at the flea market for 4 bucks, sure did get my moneys worth!
+[Text=Picked CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=VBN] [Text=up CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=DT] [Text=flea CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=market CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=IN] [Text=4 CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=CD] [Text=bucks CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=,] [Text=sure CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=JJ] [Text=did CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=VBD] [Text=get CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=VB] [Text=my CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=PRP$] [Text=moneys CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NNS] [Text=worth CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=.] 
+root(ROOT-0, Picked-1)
+prep(Picked-1, up-2)
+det(movie-4, the-3)
+pobj(up-2, movie-4)
+prep(Picked-1, at-5)
+det(market-8, the-6)
+nn(market-8, flea-7)
+pobj(at-5, market-8)
+prep(Picked-1, for-9)
+num(bucks-11, 4-10)
+pobj(for-9, bucks-11)
+punct(Picked-1, ,-12)
+amod(Picked-1, sure-13)
+aux(get-15, did-14)
+ccomp(sure-13, get-15)
+poss(moneys-17, my-16)
+nsubj(worth-18, moneys-17)
+xcomp(get-15, worth-18)
+punct(Picked-1, !-19)
+
+Sentence #2 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #3 (25 tokens):
+Could care-less about the hot babes but the animation just blew me away after a steady diet of Simpsons (Sorry Mr. Groening).
+[Text=Could CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=MD] [Text=care-less CharacterOffsetBegin=97 CharacterOffsetEnd=106 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=DT] [Text=hot CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=JJ] [Text=babes CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=animation CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=RB] [Text=blew CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=PRP] [Text=away CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=RP] [Text=after CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=steady CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=JJ] [Text=diet CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=IN] [Text=Simpsons CharacterOffsetBegin=186 CharacterOffsetEnd=194 PartOfSpeech=NNPS] [Text=-LRB- CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=-LRB-] [Text=Sorry CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NNP] [Text=Mr. CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=NNP] [Text=Groening CharacterOffsetBegin=206 CharacterOffsetEnd=214 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=.] 
+root(ROOT-0, care-less-2)
+aux(care-less-2, Could-1)
+prep(care-less-2, about-3)
+det(babes-6, the-4)
+amod(babes-6, hot-5)
+pobj(about-3, babes-6)
+cc(babes-6, but-7)
+det(animation-9, the-8)
+nsubj(blew-11, animation-9)
+advmod(blew-11, just-10)
+conj(babes-6, blew-11)
+dobj(blew-11, me-12)
+prt(blew-11, away-13)
+prep(blew-11, after-14)
+det(diet-17, a-15)
+amod(diet-17, steady-16)
+pobj(after-14, diet-17)
+prep(diet-17, of-18)
+pobj(of-18, Simpsons-19)
+punct(Groening-23, -LRB--20)
+nn(Groening-23, Sorry-21)
+nn(Groening-23, Mr.-22)
+appos(Simpsons-19, Groening-23)
+punct(Groening-23, -RRB--24)
+punct(care-less-2, .-25)
+
+Sentence #4 (7 tokens):
+The best part, facial expressions.
+[Text=The CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=JJS] [Text=part CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=,] [Text=facial CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=JJ] [Text=expressions CharacterOffsetBegin=243 CharacterOffsetEnd=254 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=.] 
+root(ROOT-0, part-3)
+det(part-3, The-1)
+amod(part-3, best-2)
+punct(part-3, ,-4)
+amod(expressions-6, facial-5)
+appos(part-3, expressions-6)
+punct(part-3, .-7)
+
+Sentence #5 (17 tokens):
+Recommend multiple viewings with some cool tunes, good friends and a couple of cold ones!
+[Text=Recommend CharacterOffsetBegin=260 CharacterOffsetEnd=269 PartOfSpeech=VB] [Text=multiple CharacterOffsetBegin=270 CharacterOffsetEnd=278 PartOfSpeech=JJ] [Text=viewings CharacterOffsetBegin=279 CharacterOffsetEnd=287 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=cool CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=JJ] [Text=tunes CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=,] [Text=good CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=friends CharacterOffsetBegin=315 CharacterOffsetEnd=322 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=DT] [Text=couple CharacterOffsetBegin=329 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=IN] [Text=cold CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=JJ] [Text=ones CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=.] 
+root(ROOT-0, friends-10)
+dep(friends-10, Recommend-1)
+amod(viewings-3, multiple-2)
+dobj(Recommend-1, viewings-3)
+prep(Recommend-1, with-4)
+det(tunes-7, some-5)
+amod(tunes-7, cool-6)
+pobj(with-4, tunes-7)
+punct(friends-10, ,-8)
+amod(friends-10, good-9)
+cc(friends-10, and-11)
+det(couple-13, a-12)
+conj(friends-10, couple-13)
+prep(couple-13, of-14)
+amod(ones-16, cold-15)
+pobj(of-14, ones-16)
+punct(friends-10, !-17)
+

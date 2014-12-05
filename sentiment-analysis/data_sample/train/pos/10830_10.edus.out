@@ -1,0 +1,129 @@
+Sentence #1 (14 tokens):
+I enjoyed Still Crazy more than any film I have seen in years.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=enjoyed CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=Still CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=RB] [Text=Crazy CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=NNP] [Text=more CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=IN] [Text=years CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=.] 
+root(ROOT-0, enjoyed-2)
+nsubj(enjoyed-2, I-1)
+dobj(enjoyed-2, Still-3)
+dep(Still-3, Crazy-4)
+amod(Crazy-4, more-5)
+prep(more-5, than-6)
+det(film-8, any-7)
+pobj(than-6, film-8)
+nsubj(seen-11, I-9)
+aux(seen-11, have-10)
+rcmod(film-8, seen-11)
+prep(seen-11, in-12)
+pobj(in-12, years-13)
+punct(enjoyed-2, .-14)
+
+Sentence #2 (14 tokens):
+A successful band from the 70's decide to give it another try.
+[Text=A CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=successful CharacterOffsetBegin=73 CharacterOffsetEnd=83 PartOfSpeech=JJ] [Text=band CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=DT] [Text=70 CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=POS] [Text=decide CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=TO] [Text=give CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=PRP] [Text=another CharacterOffsetBegin=121 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=try CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=.] 
+root(ROOT-0, band-3)
+det(band-3, A-1)
+amod(band-3, successful-2)
+prep(band-3, from-4)
+det(70-6, the-5)
+poss(decide-8, 70-6)
+possessive(70-6, 's-7)
+pobj(from-4, decide-8)
+aux(give-10, to-9)
+xcomp(decide-8, give-10)
+iobj(give-10, it-11)
+det(try-13, another-12)
+dobj(give-10, try-13)
+punct(band-3, .-14)
+
+Sentence #3 (16 tokens):
+They start by playing some gigs in some seedy European venues, with hilarious results.
+[Text=They CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=PRP] [Text=start CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=VBP] [Text=by CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=playing CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=VBG] [Text=some CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=DT] [Text=gigs CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=seedy CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=JJ] [Text=European CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=venues CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=,] [Text=with CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=hilarious CharacterOffsetBegin=206 CharacterOffsetEnd=215 PartOfSpeech=JJ] [Text=results CharacterOffsetBegin=216 CharacterOffsetEnd=223 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, start-2)
+nsubj(start-2, They-1)
+prep(start-2, by-3)
+pcomp(by-3, playing-4)
+det(gigs-6, some-5)
+dobj(playing-4, gigs-6)
+prep(playing-4, in-7)
+det(venues-11, some-8)
+amod(venues-11, seedy-9)
+amod(venues-11, European-10)
+pobj(in-7, venues-11)
+punct(start-2, ,-12)
+prep(start-2, with-13)
+amod(results-15, hilarious-14)
+pobj(with-13, results-15)
+punct(start-2, .-16)
+
+Sentence #4 (12 tokens):
+The music is fantastic, the script and acting are terrific.
+[Text=The CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=VBZ] [Text=fantastic CharacterOffsetBegin=242 CharacterOffsetEnd=251 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=,] [Text=the CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=257 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=CC] [Text=acting CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=VBG] [Text=are CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=VBP] [Text=terrific CharacterOffsetBegin=279 CharacterOffsetEnd=287 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=.] 
+root(ROOT-0, fantastic-4)
+det(music-2, The-1)
+nsubj(fantastic-4, music-2)
+cop(fantastic-4, is-3)
+punct(fantastic-4, ,-5)
+det(script-7, the-6)
+nsubj(terrific-11, script-7)
+cc(script-7, and-8)
+conj(script-7, acting-9)
+cop(terrific-11, are-10)
+dep(fantastic-4, terrific-11)
+punct(fantastic-4, .-12)
+
+Sentence #5 (22 tokens):
+The characters are spot on, especially the lead singer with the high heavy metal voice, makeup and personality problems.
+[Text=The CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=297 CharacterOffsetEnd=307 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=VBP] [Text=spot CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=319 CharacterOffsetEnd=320 PartOfSpeech=,] [Text=especially CharacterOffsetBegin=321 CharacterOffsetEnd=331 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=DT] [Text=lead CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=NN] [Text=singer CharacterOffsetBegin=341 CharacterOffsetEnd=347 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=DT] [Text=high CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=JJ] [Text=heavy CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=JJ] [Text=metal CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NN] [Text=voice CharacterOffsetBegin=374 CharacterOffsetEnd=379 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=,] [Text=makeup CharacterOffsetBegin=381 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=CC] [Text=personality CharacterOffsetBegin=392 CharacterOffsetEnd=403 PartOfSpeech=NN] [Text=problems CharacterOffsetBegin=404 CharacterOffsetEnd=412 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=412 CharacterOffsetEnd=413 PartOfSpeech=.] 
+root(ROOT-0, spot-4)
+det(characters-2, The-1)
+nsubj(spot-4, characters-2)
+cop(spot-4, are-3)
+prep(spot-4, on-5)
+punct(spot-4, ,-6)
+advmod(singer-10, especially-7)
+det(singer-10, the-8)
+amod(singer-10, lead-9)
+appos(spot-4, singer-10)
+prep(singer-10, with-11)
+det(voice-16, the-12)
+amod(voice-16, high-13)
+amod(voice-16, heavy-14)
+nn(voice-16, metal-15)
+pobj(with-11, voice-16)
+punct(voice-16, ,-17)
+conj(voice-16, makeup-18)
+cc(voice-16, and-19)
+nn(problems-21, personality-20)
+conj(voice-16, problems-21)
+punct(spot-4, .-22)
+
+Sentence #6 (8 tokens):
+The concert at the end was unreal.
+[Text=The CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=DT] [Text=concert CharacterOffsetBegin=422 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=VBD] [Text=unreal CharacterOffsetBegin=445 CharacterOffsetEnd=451 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=.] 
+root(ROOT-0, unreal-7)
+det(concert-2, The-1)
+nsubj(unreal-7, concert-2)
+prep(concert-2, at-3)
+det(end-5, the-4)
+pobj(at-3, end-5)
+cop(unreal-7, was-6)
+punct(unreal-7, .-8)
+
+Sentence #7 (15 tokens):
+Go and see it, preferably in a cinema with a good sound system :)
+[Text=Go CharacterOffsetBegin=457 CharacterOffsetEnd=459 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=CC] [Text=see CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=,] [Text=preferably CharacterOffsetBegin=472 CharacterOffsetEnd=482 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=DT] [Text=cinema CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=JJ] [Text=sound CharacterOffsetBegin=507 CharacterOffsetEnd=512 PartOfSpeech=NN] [Text=system CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NN] [Text=:-RRB- CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=NN] 
+root(ROOT-0, Go-1)
+cc(Go-1, and-2)
+conj(Go-1, see-3)
+dobj(see-3, it-4)
+punct(it-4, ,-5)
+appos(it-4, preferably-6)
+prep(preferably-6, in-7)
+det(cinema-9, a-8)
+pobj(in-7, cinema-9)
+prep(cinema-9, with-10)
+det(system-14, a-11)
+amod(system-14, good-12)
+nn(system-14, sound-13)
+pobj(with-10, system-14)
+dep(system-14, :-RRB--15)
+

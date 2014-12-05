@@ -1,0 +1,102 @@
+Sentence #1 (13 tokens):
+I was 15 years old when this movie premiered on the television.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=15 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NNS] [Text=old CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=JJ] [Text=when CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=WRB] [Text=this CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=premiered CharacterOffsetBegin=39 CharacterOffsetEnd=48 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=DT] [Text=television CharacterOffsetBegin=56 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=.] 
+root(ROOT-0, old-5)
+nsubj(old-5, I-1)
+cop(old-5, was-2)
+num(years-4, 15-3)
+npadvmod(old-5, years-4)
+advmod(premiered-9, when-6)
+det(movie-8, this-7)
+nsubj(premiered-9, movie-8)
+advcl(old-5, premiered-9)
+prep(premiered-9, on-10)
+det(television-12, the-11)
+pobj(on-10, television-12)
+punct(old-5, .-13)
+
+Sentence #2 (16 tokens):
+Being raised in Texas, I understood the boredom & monotony of teenage life there.
+[Text=Being CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBG] [Text=raised CharacterOffsetBegin=78 CharacterOffsetEnd=84 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=Texas CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=,] [Text=I CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=PRP] [Text=understood CharacterOffsetBegin=97 CharacterOffsetEnd=107 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT] [Text=boredom CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=NN] [Text=& CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=CC] [Text=monotony CharacterOffsetBegin=122 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=IN] [Text=teenage CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=life CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=there CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=.] 
+root(ROOT-0, understood-7)
+partmod(understood-7, Being-1)
+partmod(Being-1, raised-2)
+prep(raised-2, in-3)
+pobj(in-3, Texas-4)
+punct(understood-7, ,-5)
+nsubj(understood-7, I-6)
+det(boredom-9, the-8)
+dobj(understood-7, boredom-9)
+cc(boredom-9, &-10)
+conj(boredom-9, monotony-11)
+prep(boredom-9, of-12)
+amod(life-14, teenage-13)
+pobj(of-12, life-14)
+advmod(understood-7, there-15)
+punct(understood-7, .-16)
+
+Sentence #3 (18 tokens):
+This movie touched my impressionable teenage heart & I remembered it fondly through the past 12 years.
+[Text=This CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=touched CharacterOffsetBegin=169 CharacterOffsetEnd=176 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=PRP$] [Text=impressionable CharacterOffsetBegin=180 CharacterOffsetEnd=194 PartOfSpeech=JJ] [Text=teenage CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=JJ] [Text=heart CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=& CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=PRP] [Text=remembered CharacterOffsetBegin=213 CharacterOffsetEnd=223 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=PRP] [Text=fondly CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=RB] [Text=through CharacterOffsetBegin=234 CharacterOffsetEnd=241 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=past CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=JJ] [Text=12 CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=.] 
+root(ROOT-0, touched-3)
+det(movie-2, This-1)
+nsubj(touched-3, movie-2)
+poss(heart-7, my-4)
+amod(heart-7, impressionable-5)
+amod(heart-7, teenage-6)
+dobj(touched-3, heart-7)
+cc(touched-3, &-8)
+nsubj(remembered-10, I-9)
+conj(touched-3, remembered-10)
+dobj(remembered-10, it-11)
+advmod(through-13, fondly-12)
+dep(it-11, through-13)
+det(years-17, the-14)
+amod(years-17, past-15)
+num(years-17, 12-16)
+pobj(through-13, years-17)
+punct(touched-3, .-18)
+
+Sentence #4 (20 tokens):
+I recently got to see it for the 2nd, 3rd & 4th times thanks the the LOVE channel.
+[Text=I CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=PRP] [Text=recently CharacterOffsetBegin=267 CharacterOffsetEnd=275 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=2nd CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=301 CharacterOffsetEnd=302 PartOfSpeech=,] [Text=3rd CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=JJ] [Text=& CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=CC] [Text=4th CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=NNS] [Text=thanks CharacterOffsetBegin=319 CharacterOffsetEnd=325 PartOfSpeech=NNS] [Text=the CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=the CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=DT] [Text=LOVE CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=NNP] [Text=channel CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=.] 
+root(ROOT-0, got-3)
+nsubj(got-3, I-1)
+advmod(got-3, recently-2)
+aux(see-5, to-4)
+xcomp(got-3, see-5)
+dobj(see-5, it-6)
+prep(see-5, for-7)
+det(times-14, the-8)
+amod(times-14, 2nd-9)
+punct(2nd-9, ,-10)
+conj(2nd-9, 3rd-11)
+cc(2nd-9, &-12)
+conj(2nd-9, 4th-13)
+pobj(for-7, times-14)
+dep(see-5, thanks-15)
+det(channel-19, the-16)
+det(channel-19, the-17)
+nn(channel-19, LOVE-18)
+dobj(thanks-15, channel-19)
+punct(got-3, .-20)
+
+Sentence #5 (15 tokens):
+I still cry because the movie reaches in & touches my inner confused teenager.
+[Text=I CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=RB] [Text=cry CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=VBP] [Text=because CharacterOffsetBegin=364 CharacterOffsetEnd=371 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=NN] [Text=reaches CharacterOffsetBegin=382 CharacterOffsetEnd=389 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=IN] [Text=& CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=CC] [Text=touches CharacterOffsetBegin=395 CharacterOffsetEnd=402 PartOfSpeech=NNS] [Text=my CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=PRP$] [Text=inner CharacterOffsetBegin=406 CharacterOffsetEnd=411 PartOfSpeech=JJ] [Text=confused CharacterOffsetBegin=412 CharacterOffsetEnd=420 PartOfSpeech=JJ] [Text=teenager CharacterOffsetBegin=421 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=.] 
+root(ROOT-0, cry-3)
+nsubj(cry-3, I-1)
+advmod(cry-3, still-2)
+mark(reaches-7, because-4)
+det(movie-6, the-5)
+nsubj(reaches-7, movie-6)
+advcl(cry-3, reaches-7)
+prep(reaches-7, in-8)
+cc(in-8, &-9)
+conj(in-8, touches-10)
+poss(teenager-14, my-11)
+amod(teenager-14, inner-12)
+amod(teenager-14, confused-13)
+pobj(in-8, teenager-14)
+punct(cry-3, .-15)
+

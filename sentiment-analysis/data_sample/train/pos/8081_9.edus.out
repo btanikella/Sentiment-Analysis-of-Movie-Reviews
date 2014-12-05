@@ -1,0 +1,49 @@
+Sentence #1 (3 tokens):
+Brilliant movie.
+[Text=Brilliant CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=.] 
+root(ROOT-0, movie-2)
+amod(movie-2, Brilliant-1)
+punct(movie-2, .-3)
+
+Sentence #2 (6 tokens):
+The drawings were just amazing.
+[Text=The CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=DT] [Text=drawings CharacterOffsetBegin=29 CharacterOffsetEnd=37 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=RB] [Text=amazing CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, amazing-5)
+det(drawings-2, The-1)
+nsubj(amazing-5, drawings-2)
+cop(amazing-5, were-3)
+advmod(amazing-5, just-4)
+punct(amazing-5, .-6)
+
+Sentence #3 (8 tokens):
+Too bad it ended before it begun.
+[Text=Too CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=PRP] [Text=ended CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBD] [Text=before CharacterOffsetBegin=78 CharacterOffsetEnd=84 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=PRP] [Text=begun CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, bad-2)
+advmod(bad-2, Too-1)
+nsubj(ended-4, it-3)
+ccomp(bad-2, ended-4)
+mark(begun-7, before-5)
+nsubj(begun-7, it-6)
+advcl(ended-4, begun-7)
+punct(bad-2, .-8)
+
+Sentence #4 (11 tokens):
+Ive waited 21 years for a sequel, but nooooo!!
+[Text=Ive CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=NN] [Text=waited CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=VBD] [Text=21 CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=DT] [Text=sequel CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=,] [Text=but CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=CC] [Text=nooooo CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=RB] [Text=!! CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN] 
+root(ROOT-0, waited-2)
+nsubj(waited-2, Ive-1)
+num(years-4, 21-3)
+tmod(waited-2, years-4)
+prep(waited-2, for-5)
+det(sequel-7, a-6)
+pobj(for-5, sequel-7)
+punct(waited-2, ,-8)
+cc(waited-2, but-9)
+advmod(!!-11, nooooo-10)
+conj(waited-2, !!-11)
+
+Sentence #5 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

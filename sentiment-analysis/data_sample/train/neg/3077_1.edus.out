@@ -1,0 +1,145 @@
+Sentence #1 (6 tokens):
+Hobgoblins... what a concept.
+[Text=Hobgoblins CharacterOffsetBegin=4 CharacterOffsetEnd=14 PartOfSpeech=NNS] [Text=... CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=:] [Text=what CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=DT] [Text=concept CharacterOffsetBegin=25 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=.] 
+root(ROOT-0, Hobgoblins-1)
+punct(Hobgoblins-1, ...-2)
+dep(concept-5, what-3)
+det(concept-5, a-4)
+dep(Hobgoblins-1, concept-5)
+punct(Hobgoblins-1, .-6)
+
+Sentence #2 (9 tokens):
+Rick Sloan was a master with this film.
+[Text=Rick CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=NNP] [Text=Sloan CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=master CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=.] 
+root(ROOT-0, master-5)
+nn(Sloan-2, Rick-1)
+nsubj(master-5, Sloan-2)
+cop(master-5, was-3)
+det(master-5, a-4)
+prep(master-5, with-6)
+det(film-8, this-7)
+pobj(with-6, film-8)
+punct(master-5, .-9)
+
+Sentence #3 (15 tokens):
+He had the brilliance to produce a film with actors that couldn't act.
+[Text=He CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=DT] [Text=brilliance CharacterOffsetBegin=93 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=TO] [Text=produce CharacterOffsetBegin=107 CharacterOffsetEnd=114 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=actors CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=WDT] [Text=could CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=RB] [Text=act CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, He-1)
+det(brilliance-4, the-3)
+dobj(had-2, brilliance-4)
+aux(produce-6, to-5)
+infmod(brilliance-4, produce-6)
+det(film-8, a-7)
+dobj(produce-6, film-8)
+prep(produce-6, with-9)
+pobj(with-9, actors-10)
+nsubj(act-14, that-11)
+aux(act-14, could-12)
+neg(act-14, n't-13)
+rcmod(actors-10, act-14)
+punct(had-2, .-15)
+
+Sentence #4 (23 tokens):
+On top of that, he chose to write a script based on some sort of bad acid trip gone serriously wrong.
+[Text=On CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=IN] [Text=top CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=,] [Text=he CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=PRP] [Text=chose CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=TO] [Text=write CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=based CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=DT] [Text=sort CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=IN] [Text=bad CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=JJ] [Text=acid CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=NN] [Text=trip CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=NN] [Text=gone CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=VBN] [Text=serriously CharacterOffsetBegin=241 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=wrong CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=.] 
+root(ROOT-0, chose-7)
+prep(chose-7, On-1)
+pobj(On-1, top-2)
+prep(top-2, of-3)
+pobj(of-3, that-4)
+punct(chose-7, ,-5)
+nsubj(chose-7, he-6)
+aux(write-9, to-8)
+xcomp(chose-7, write-9)
+det(script-11, a-10)
+dobj(write-9, script-11)
+partmod(script-11, based-12)
+prep(based-12, on-13)
+det(sort-15, some-14)
+nsubj(gone-20, sort-15)
+prep(sort-15, of-16)
+amod(trip-19, bad-17)
+nn(trip-19, acid-18)
+pobj(of-16, trip-19)
+pcomp(on-13, gone-20)
+advmod(wrong-22, serriously-21)
+acomp(gone-20, wrong-22)
+punct(chose-7, .-23)
+
+Sentence #5 (24 tokens):
+Put it together, you end up with a film that sucks more than a warehouse filled with suction cups and vaccum cleaners.
+[Text=Put CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=PRP] [Text=together CharacterOffsetBegin=270 CharacterOffsetEnd=278 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=,] [Text=you CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=PRP] [Text=end CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=VBP] [Text=up CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=WDT] [Text=sucks CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=DT] [Text=warehouse CharacterOffsetBegin=326 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=filled CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=IN] [Text=suction CharacterOffsetBegin=348 CharacterOffsetEnd=355 PartOfSpeech=NN] [Text=cups CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=CC] [Text=vaccum CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=NN] [Text=cleaners CharacterOffsetBegin=372 CharacterOffsetEnd=380 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=.] 
+root(ROOT-0, end-6)
+partmod(end-6, Put-1)
+dobj(Put-1, it-2)
+advmod(Put-1, together-3)
+punct(end-6, ,-4)
+nsubj(end-6, you-5)
+prt(end-6, up-7)
+prep(end-6, with-8)
+det(film-10, a-9)
+pobj(with-8, film-10)
+nsubj(sucks-12, that-11)
+rcmod(film-10, sucks-12)
+dobj(sucks-12, more-13)
+prep(more-13, than-14)
+det(warehouse-16, a-15)
+pobj(than-14, warehouse-16)
+partmod(warehouse-16, filled-17)
+prep(filled-17, with-18)
+nn(cups-20, suction-19)
+pobj(with-18, cups-20)
+cc(cups-20, and-21)
+nn(cleaners-23, vaccum-22)
+conj(cups-20, cleaners-23)
+punct(end-6, .-24)
+
+Sentence #6 (6 tokens):
+This movie was very painful.
+[Text=This CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=391 CharacterOffsetEnd=396 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=RB] [Text=painful CharacterOffsetBegin=406 CharacterOffsetEnd=413 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=.] 
+root(ROOT-0, painful-5)
+det(movie-2, This-1)
+nsubj(painful-5, movie-2)
+cop(painful-5, was-3)
+advmod(painful-5, very-4)
+punct(painful-5, .-6)
+
+Sentence #7 (34 tokens):
+The pain it caused is about equal to the pain caused by having your genitals carved out with a spoon, and then having the entire wound covered with salt and Hydrochloric acid.
+[Text=The CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=DT] [Text=pain CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=PRP] [Text=caused CharacterOffsetBegin=431 CharacterOffsetEnd=437 PartOfSpeech=VBD] [Text=is CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=IN] [Text=equal CharacterOffsetBegin=447 CharacterOffsetEnd=452 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=DT] [Text=pain CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=NN] [Text=caused CharacterOffsetBegin=465 CharacterOffsetEnd=471 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=IN] [Text=having CharacterOffsetBegin=475 CharacterOffsetEnd=481 PartOfSpeech=VBG] [Text=your CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=PRP$] [Text=genitals CharacterOffsetBegin=487 CharacterOffsetEnd=495 PartOfSpeech=NNS] [Text=carved CharacterOffsetBegin=496 CharacterOffsetEnd=502 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=503 CharacterOffsetEnd=506 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=DT] [Text=spoon CharacterOffsetBegin=514 CharacterOffsetEnd=519 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=,] [Text=and CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=RB] [Text=having CharacterOffsetBegin=530 CharacterOffsetEnd=536 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=DT] [Text=entire CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=JJ] [Text=wound CharacterOffsetBegin=548 CharacterOffsetEnd=553 PartOfSpeech=NN] [Text=covered CharacterOffsetBegin=554 CharacterOffsetEnd=561 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=IN] [Text=salt CharacterOffsetBegin=567 CharacterOffsetEnd=571 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=CC] [Text=Hydrochloric CharacterOffsetBegin=576 CharacterOffsetEnd=588 PartOfSpeech=JJ] [Text=acid CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=.] 
+root(ROOT-0, pain-2)
+det(pain-2, The-1)
+nsubj(caused-4, it-3)
+rcmod(pain-2, caused-4)
+amod(pain-2, is-5)
+prep(is-5, about-6)
+pobj(about-6, equal-7)
+prep(equal-7, to-8)
+det(pain-10, the-9)
+pobj(to-8, pain-10)
+partmod(pain-10, caused-11)
+prep(caused-11, by-12)
+pcomp(by-12, having-13)
+poss(genitals-15, your-14)
+nsubj(carved-16, genitals-15)
+ccomp(having-13, carved-16)
+prt(carved-16, out-17)
+prep(carved-16, with-18)
+det(spoon-20, a-19)
+pobj(with-18, spoon-20)
+punct(pain-2, ,-21)
+cc(pain-2, and-22)
+advmod(pain-2, then-23)
+dep(pain-2, having-24)
+det(wound-27, the-25)
+amod(wound-27, entire-26)
+dobj(having-24, wound-27)
+partmod(wound-27, covered-28)
+prep(covered-28, with-29)
+pobj(with-29, salt-30)
+cc(salt-30, and-31)
+amod(acid-33, Hydrochloric-32)
+conj(salt-30, acid-33)
+punct(pain-2, .-34)
+

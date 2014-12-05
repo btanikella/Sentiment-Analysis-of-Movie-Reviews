@@ -1,0 +1,216 @@
+Sentence #1 (12 tokens):
+If you ask me the first one was really better one.
+[Text=If CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=PRP] [Text=ask CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=VBP] [Text=me CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=PRP] [Text=the CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=VBD] [Text=really CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=JJR] [Text=one CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=.] 
+root(ROOT-0, better-10)
+mark(ask-3, If-1)
+nsubj(ask-3, you-2)
+csubj(better-10, ask-3)
+iobj(ask-3, me-4)
+det(one-7, the-5)
+amod(one-7, first-6)
+dobj(ask-3, one-7)
+cop(better-10, was-8)
+advmod(better-10, really-9)
+num(better-10, one-11)
+punct(better-10, .-12)
+
+Sentence #2 (27 tokens):
+Look at Sarah M. G., she is real, mean, cruel girl, look at Amy Adams she is just little fool hanging around.
+[Text=Look CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=IN] [Text=Sarah CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=NNP] [Text=M. CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=NNP] [Text=G. CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=,] [Text=she CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=VBZ] [Text=real CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=,] [Text=mean CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=,] [Text=cruel CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=JJ] [Text=girl CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=,] [Text=look CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN] [Text=Amy CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=NNP] [Text=Adams CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NNP] [Text=she CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=RB] [Text=little CharacterOffsetBegin=141 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=fool CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=hanging CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=VBG] [Text=around CharacterOffsetBegin=161 CharacterOffsetEnd=167 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=.] 
+root(ROOT-0, mean-11)
+dep(mean-11, Look-1)
+prep(Look-1, at-2)
+nn(G.-5, Sarah-3)
+nn(G.-5, M.-4)
+pobj(at-2, G.-5)
+punct(real-9, ,-6)
+nsubj(real-9, she-7)
+cop(real-9, is-8)
+parataxis(mean-11, real-9)
+punct(real-9, ,-10)
+punct(mean-11, ,-12)
+amod(girl-14, cruel-13)
+conj(mean-11, girl-14)
+punct(girl-14, ,-15)
+dep(little-23, look-16)
+prep(look-16, at-17)
+nn(Adams-19, Amy-18)
+pobj(at-17, Adams-19)
+nsubj(little-23, she-20)
+cop(little-23, is-21)
+advmod(little-23, just-22)
+amod(fool-24, little-23)
+nsubj(hanging-25, fool-24)
+rcmod(girl-14, hanging-25)
+prt(hanging-25, around-26)
+punct(mean-11, .-27)
+
+Sentence #3 (4 tokens):
+She is nothing!
+[Text=She CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=.] 
+root(ROOT-0, nothing-3)
+nsubj(nothing-3, She-1)
+cop(nothing-3, is-2)
+punct(nothing-3, !-4)
+
+Sentence #4 (6 tokens):
+People don't adore her!
+[Text=People CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=RB] [Text=adore CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=PRP$] [Text=! CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=.] 
+root(ROOT-0, adore-4)
+nsubj(adore-4, People-1)
+aux(adore-4, do-2)
+neg(adore-4, n't-3)
+dobj(adore-4, her-5)
+punct(adore-4, !-6)
+
+Sentence #5 (19 tokens):
+Second, Sebastian was cute and hot in first movie, now he is "baby face".
+[Text=Second CharacterOffsetBegin=221 CharacterOffsetEnd=227 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=,] [Text=Sebastian CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=VBD] [Text=cute CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=CC] [Text=hot CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=IN] [Text=first CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=,] [Text=now CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=``] [Text=baby CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=face CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=''] [Text=. CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=.] 
+root(ROOT-0, cute-5)
+advmod(cute-5, Second-1)
+punct(cute-5, ,-2)
+nsubj(cute-5, Sebastian-3)
+cop(cute-5, was-4)
+cc(cute-5, and-6)
+conj(cute-5, hot-7)
+prep(cute-5, in-8)
+amod(movie-10, first-9)
+pobj(in-8, movie-10)
+punct(cute-5, ,-11)
+advmod(face-17, now-12)
+nsubj(face-17, he-13)
+cop(face-17, is-14)
+punct(face-17, ``-15)
+nn(face-17, baby-16)
+dep(cute-5, face-17)
+punct(face-17, ''-18)
+punct(cute-5, .-19)
+
+Sentence #6 (12 tokens):
+Story is not that good, and i do not understand.
+[Text=Story CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=,] [Text=and CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=CC] [Text=i CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=FW] [Text=do CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=RB] [Text=understand CharacterOffsetBegin=336 CharacterOffsetEnd=346 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=.] 
+root(ROOT-0, good-5)
+nsubj(good-5, Story-1)
+cop(good-5, is-2)
+neg(good-5, not-3)
+dep(good-5, that-4)
+punct(good-5, ,-6)
+cc(good-5, and-7)
+nsubj(understand-11, i-8)
+aux(understand-11, do-9)
+neg(understand-11, not-10)
+conj(good-5, understand-11)
+punct(good-5, .-12)
+
+Sentence #7 (14 tokens):
+Why didn't they make this one first, it is the beginning.
+[Text=Why CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=RB] [Text=they CharacterOffsetBegin=363 CharacterOffsetEnd=367 PartOfSpeech=PRP] [Text=make CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=CD] [Text=first CharacterOffsetBegin=382 CharacterOffsetEnd=387 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=,] [Text=it CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=392 CharacterOffsetEnd=394 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=399 CharacterOffsetEnd=408 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=.] 
+root(ROOT-0, beginning-13)
+advmod(make-5, Why-1)
+aux(make-5, did-2)
+neg(make-5, n't-3)
+nsubj(make-5, they-4)
+dep(beginning-13, make-5)
+det(one-7, this-6)
+dobj(make-5, one-7)
+advmod(make-5, first-8)
+punct(make-5, ,-9)
+nsubj(beginning-13, it-10)
+cop(beginning-13, is-11)
+det(beginning-13, the-12)
+punct(beginning-13, .-14)
+
+Sentence #8 (7 tokens):
+Loosy actors, nothing with story.
+[Text=Loosy CharacterOffsetBegin=414 CharacterOffsetEnd=419 PartOfSpeech=NNP] [Text=actors CharacterOffsetBegin=420 CharacterOffsetEnd=426 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=,] [Text=nothing CharacterOffsetBegin=428 CharacterOffsetEnd=435 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=IN] [Text=story CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=.] 
+root(ROOT-0, actors-2)
+nn(actors-2, Loosy-1)
+punct(actors-2, ,-3)
+appos(actors-2, nothing-4)
+prep(nothing-4, with-5)
+pobj(with-5, story-6)
+punct(actors-2, .-7)
+
+Sentence #9 (9 tokens):
+This is not cruel, this is playing.
+[Text=This CharacterOffsetBegin=452 CharacterOffsetEnd=456 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=457 CharacterOffsetEnd=459 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=RB] [Text=cruel CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=,] [Text=this CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=VBZ] [Text=playing CharacterOffsetBegin=479 CharacterOffsetEnd=486 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=.] 
+root(ROOT-0, cruel-4)
+nsubj(cruel-4, This-1)
+cop(cruel-4, is-2)
+neg(cruel-4, not-3)
+punct(cruel-4, ,-5)
+nsubj(playing-8, this-6)
+aux(playing-8, is-7)
+ccomp(cruel-4, playing-8)
+punct(cruel-4, .-9)
+
+Sentence #10 (13 tokens):
+First one has better actors, better story, and its mean.
+[Text=First CharacterOffsetBegin=492 CharacterOffsetEnd=497 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=CD] [Text=has CharacterOffsetBegin=502 CharacterOffsetEnd=505 PartOfSpeech=VBZ] [Text=better CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=JJR] [Text=actors CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=,] [Text=better CharacterOffsetBegin=521 CharacterOffsetEnd=527 PartOfSpeech=JJR] [Text=story CharacterOffsetBegin=528 CharacterOffsetEnd=533 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=,] [Text=and CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=CC] [Text=its CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=PRP$] [Text=mean CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=.] 
+root(ROOT-0, one-2)
+advmod(one-2, First-1)
+partmod(one-2, has-3)
+amod(actors-5, better-4)
+dobj(has-3, actors-5)
+punct(actors-5, ,-6)
+amod(story-8, better-7)
+conj(actors-5, story-8)
+punct(actors-5, ,-9)
+cc(actors-5, and-10)
+poss(mean-12, its-11)
+conj(actors-5, mean-12)
+punct(one-2, .-13)
+
+Sentence #11 (21 tokens):
+I think that the music is better in cruel intentions 1 and the music is better in cruel intentions 3.
+[Text=I CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=555 CharacterOffsetEnd=560 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=VBZ] [Text=better CharacterOffsetBegin=579 CharacterOffsetEnd=585 PartOfSpeech=RBR] [Text=in CharacterOffsetBegin=586 CharacterOffsetEnd=588 PartOfSpeech=IN] [Text=cruel CharacterOffsetBegin=589 CharacterOffsetEnd=594 PartOfSpeech=JJ] [Text=intentions CharacterOffsetBegin=595 CharacterOffsetEnd=605 PartOfSpeech=NNS] [Text=1 CharacterOffsetBegin=606 CharacterOffsetEnd=607 PartOfSpeech=CD] [Text=and CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=616 CharacterOffsetEnd=621 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=VBZ] [Text=better CharacterOffsetBegin=625 CharacterOffsetEnd=631 PartOfSpeech=RBR] [Text=in CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=IN] [Text=cruel CharacterOffsetBegin=635 CharacterOffsetEnd=640 PartOfSpeech=JJ] [Text=intentions CharacterOffsetBegin=641 CharacterOffsetEnd=651 PartOfSpeech=NNS] [Text=3 CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+mark(better-7, that-3)
+det(music-5, the-4)
+nsubj(better-7, music-5)
+cop(better-7, is-6)
+dep(better-16, better-7)
+prep(better-7, in-8)
+amod(intentions-10, cruel-9)
+pobj(in-8, intentions-10)
+num(intentions-10, 1-11)
+cc(intentions-10, and-12)
+det(music-14, the-13)
+conj(intentions-10, music-14)
+cop(better-16, is-15)
+advmod(think-2, better-16)
+prep(better-16, in-17)
+amod(intentions-19, cruel-18)
+pobj(in-17, intentions-19)
+num(intentions-19, 3-20)
+punct(think-2, .-21)
+
+Sentence #12 (24 tokens):
+It is not the worst movie I saw, but in compaer with first one its one big, big, big nothing.
+[Text=It CharacterOffsetBegin=659 CharacterOffsetEnd=661 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=669 CharacterOffsetEnd=672 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=673 CharacterOffsetEnd=678 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=679 CharacterOffsetEnd=684 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=685 CharacterOffsetEnd=686 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=690 CharacterOffsetEnd=691 PartOfSpeech=,] [Text=but CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=CC] [Text=in CharacterOffsetBegin=696 CharacterOffsetEnd=698 PartOfSpeech=IN] [Text=compaer CharacterOffsetBegin=699 CharacterOffsetEnd=706 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=707 CharacterOffsetEnd=711 PartOfSpeech=IN] [Text=first CharacterOffsetBegin=712 CharacterOffsetEnd=717 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=CD] [Text=its CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=PRP$] [Text=one CharacterOffsetBegin=726 CharacterOffsetEnd=729 PartOfSpeech=CD] [Text=big CharacterOffsetBegin=730 CharacterOffsetEnd=733 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=,] [Text=big CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=738 CharacterOffsetEnd=739 PartOfSpeech=,] [Text=big CharacterOffsetBegin=740 CharacterOffsetEnd=743 PartOfSpeech=JJ] [Text=nothing CharacterOffsetBegin=744 CharacterOffsetEnd=751 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=751 CharacterOffsetEnd=752 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, It-1)
+cop(movie-6, is-2)
+neg(movie-6, not-3)
+det(movie-6, the-4)
+amod(movie-6, worst-5)
+nsubj(saw-8, I-7)
+rcmod(movie-6, saw-8)
+punct(movie-6, ,-9)
+cc(movie-6, but-10)
+conj(movie-6, in-11)
+pobj(in-11, compaer-12)
+prep(in-11, with-13)
+amod(nothing-23, first-14)
+num(nothing-23, one-15)
+poss(nothing-23, its-16)
+num(nothing-23, one-17)
+amod(nothing-23, big-18)
+punct(nothing-23, ,-19)
+amod(nothing-23, big-20)
+punct(nothing-23, ,-21)
+amod(nothing-23, big-22)
+pobj(with-13, nothing-23)
+punct(movie-6, .-24)
+

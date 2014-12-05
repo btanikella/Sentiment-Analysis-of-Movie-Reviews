@@ -1,0 +1,208 @@
+Sentence #1 (5 tokens):
+I love horror movies.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=horror CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=18 CharacterOffsetEnd=24 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+nn(movies-4, horror-3)
+dobj(love-2, movies-4)
+punct(love-2, .-5)
+
+Sentence #2 (28 tokens):
+I can even appreciate most cheese (face it, 9 out of 10 horror films these days ARE cheese), but this was just ridiculous.
+[Text=I CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=MD] [Text=even CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=RB] [Text=appreciate CharacterOffsetBegin=41 CharacterOffsetEnd=51 PartOfSpeech=VB] [Text=most CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=RBS] [Text=cheese CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=-LRB-] [Text=face CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=,] [Text=9 CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=CD] [Text=horror CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=films CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NNS] [Text=these CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=days CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NNS] [Text=ARE CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=VBP] [Text=cheese CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=,] [Text=but CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=RB] [Text=ridiculous CharacterOffsetBegin=141 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=.] 
+root(ROOT-0, appreciate-4)
+nsubj(appreciate-4, I-1)
+aux(appreciate-4, can-2)
+advmod(appreciate-4, even-3)
+advmod(cheese-6, most-5)
+dobj(appreciate-4, cheese-6)
+punct(face-8, -LRB--7)
+appos(cheese-6, face-8)
+dep(face-8, it-9)
+punct(face-8, ,-10)
+dep(face-8, 9-11)
+prep(9-11, out-12)
+pcomp(out-12, of-13)
+num(films-16, 10-14)
+nn(films-16, horror-15)
+pobj(of-13, films-16)
+det(days-18, these-17)
+dep(cheese-20, days-18)
+amod(cheese-20, ARE-19)
+dep(face-8, cheese-20)
+punct(face-8, -RRB--21)
+punct(appreciate-4, ,-22)
+cc(appreciate-4, but-23)
+nsubj(ridiculous-27, this-24)
+cop(ridiculous-27, was-25)
+advmod(ridiculous-27, just-26)
+conj(appreciate-4, ridiculous-27)
+punct(appreciate-4, .-28)
+
+Sentence #3 (18 tokens):
+Terrible acting, terrible writing, completely hollow and unbelievable characters (no Meisner actors here!)
+[Text=Terrible CharacterOffsetBegin=157 CharacterOffsetEnd=165 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=,] [Text=terrible CharacterOffsetBegin=174 CharacterOffsetEnd=182 PartOfSpeech=JJ] [Text=writing CharacterOffsetBegin=183 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=,] [Text=completely CharacterOffsetBegin=192 CharacterOffsetEnd=202 PartOfSpeech=RB] [Text=hollow CharacterOffsetBegin=203 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=CC] [Text=unbelievable CharacterOffsetBegin=214 CharacterOffsetEnd=226 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=227 CharacterOffsetEnd=237 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=-LRB-] [Text=no CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=Meisner CharacterOffsetBegin=242 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=actors CharacterOffsetBegin=250 CharacterOffsetEnd=256 PartOfSpeech=NNS] [Text=here CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=-RRB-] 
+root(ROOT-0, acting-2)
+amod(acting-2, Terrible-1)
+punct(acting-2, ,-3)
+amod(writing-5, terrible-4)
+appos(acting-2, writing-5)
+punct(acting-2, ,-6)
+advmod(hollow-8, completely-7)
+appos(acting-2, hollow-8)
+cc(hollow-8, and-9)
+amod(characters-11, unbelievable-10)
+conj(hollow-8, characters-11)
+punct(actors-15, -LRB--12)
+det(actors-15, no-13)
+amod(actors-15, Meisner-14)
+dep(hollow-8, actors-15)
+advmod(actors-15, here-16)
+punct(actors-15, !-17)
+punct(acting-2, -RRB--18)
+
+Sentence #4 (9 tokens):
+and a total lack of sufficient body count.
+[Text=and CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=total CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=JJ] [Text=lack CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=IN] [Text=sufficient CharacterOffsetBegin=288 CharacterOffsetEnd=298 PartOfSpeech=JJ] [Text=body CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=count CharacterOffsetBegin=304 CharacterOffsetEnd=309 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=.] 
+root(ROOT-0, lack-4)
+cc(lack-4, and-1)
+det(lack-4, a-2)
+amod(lack-4, total-3)
+prep(lack-4, of-5)
+amod(count-8, sufficient-6)
+nn(count-8, body-7)
+pobj(of-5, count-8)
+punct(lack-4, .-9)
+
+Sentence #5 (15 tokens):
+I wish I could SALVAGE the 79 minutes of my life I just wasted.
+[Text=I CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=PRP] [Text=wish CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=VBP] [Text=I CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=MD] [Text=SALVAGE CharacterOffsetBegin=330 CharacterOffsetEnd=337 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=DT] [Text=79 CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=345 CharacterOffsetEnd=352 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=359 CharacterOffsetEnd=363 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=RB] [Text=wasted CharacterOffsetBegin=371 CharacterOffsetEnd=377 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=.] 
+root(ROOT-0, wish-2)
+nsubj(wish-2, I-1)
+nsubj(SALVAGE-5, I-3)
+aux(SALVAGE-5, could-4)
+ccomp(wish-2, SALVAGE-5)
+det(minutes-8, the-6)
+num(minutes-8, 79-7)
+dobj(SALVAGE-5, minutes-8)
+prep(minutes-8, of-9)
+poss(life-11, my-10)
+pobj(of-9, life-11)
+nsubj(wasted-14, I-12)
+advmod(wasted-14, just-13)
+rcmod(minutes-8, wasted-14)
+punct(wish-2, .-15)
+
+Sentence #6 (9 tokens):
+At least the Crook brothers are aptly named.
+[Text=At CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=386 CharacterOffsetEnd=391 PartOfSpeech=JJS] [Text=the CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=DT] [Text=Crook CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=NN] [Text=brothers CharacterOffsetBegin=402 CharacterOffsetEnd=410 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=VBP] [Text=aptly CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=RB] [Text=named CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=.] 
+root(ROOT-0, named-8)
+advmod(named-8, At-1)
+pobj(At-1, least-2)
+det(brothers-5, the-3)
+nn(brothers-5, Crook-4)
+nsubjpass(named-8, brothers-5)
+auxpass(named-8, are-6)
+advmod(named-8, aptly-7)
+punct(named-8, .-9)
+
+Sentence #7 (20 tokens):
+The only good thing about the whole film was watching the Alicia Silverstone wanna-be get punched in the face.
+[Text=The CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=441 CharacterOffsetEnd=445 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=VBD] [Text=watching CharacterOffsetBegin=477 CharacterOffsetEnd=485 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=DT] [Text=Alicia CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=NNP] [Text=Silverstone CharacterOffsetBegin=497 CharacterOffsetEnd=508 PartOfSpeech=NNP] [Text=wanna-be CharacterOffsetBegin=509 CharacterOffsetEnd=517 PartOfSpeech=NN] [Text=get CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=VB] [Text=punched CharacterOffsetBegin=522 CharacterOffsetEnd=529 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=533 CharacterOffsetEnd=536 PartOfSpeech=DT] [Text=face CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=541 CharacterOffsetEnd=542 PartOfSpeech=.] 
+root(ROOT-0, watching-10)
+det(thing-4, The-1)
+advmod(good-3, only-2)
+amod(thing-4, good-3)
+nsubj(watching-10, thing-4)
+prep(thing-4, about-5)
+det(film-8, the-6)
+amod(film-8, whole-7)
+pobj(about-5, film-8)
+aux(watching-10, was-9)
+det(wanna-be-14, the-11)
+nn(wanna-be-14, Alicia-12)
+nn(wanna-be-14, Silverstone-13)
+nsubj(punched-16, wanna-be-14)
+dep(punched-16, get-15)
+ccomp(watching-10, punched-16)
+prep(punched-16, in-17)
+det(face-19, the-18)
+pobj(in-17, face-19)
+punct(watching-10, .-20)
+
+Sentence #8 (13 tokens):
+How this EVER made it to Sundance is completely baffling to me.
+[Text=How CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=WRB] [Text=this CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=DT] [Text=EVER CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=TO] [Text=Sundance CharacterOffsetBegin=572 CharacterOffsetEnd=580 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=VBZ] [Text=completely CharacterOffsetBegin=584 CharacterOffsetEnd=594 PartOfSpeech=RB] [Text=baffling CharacterOffsetBegin=595 CharacterOffsetEnd=603 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=.] 
+root(ROOT-0, baffling-10)
+advmod(made-4, How-1)
+det(EVER-3, this-2)
+nsubj(made-4, EVER-3)
+dep(baffling-10, made-4)
+dobj(made-4, it-5)
+prep(made-4, to-6)
+pobj(to-6, Sundance-7)
+aux(baffling-10, is-8)
+advmod(baffling-10, completely-9)
+prep(baffling-10, to-11)
+pobj(to-11, me-12)
+punct(baffling-10, .-13)
+
+Sentence #9 (14 tokens):
+Most of the plot was absolutely unrealistic, even by slasher film standards.
+[Text=Most CharacterOffsetBegin=615 CharacterOffsetEnd=619 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=VBD] [Text=absolutely CharacterOffsetBegin=636 CharacterOffsetEnd=646 PartOfSpeech=RB] [Text=unrealistic CharacterOffsetBegin=647 CharacterOffsetEnd=658 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=658 CharacterOffsetEnd=659 PartOfSpeech=,] [Text=even CharacterOffsetBegin=660 CharacterOffsetEnd=664 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=665 CharacterOffsetEnd=667 PartOfSpeech=IN] [Text=slasher CharacterOffsetBegin=668 CharacterOffsetEnd=675 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=NN] [Text=standards CharacterOffsetBegin=681 CharacterOffsetEnd=690 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=690 CharacterOffsetEnd=691 PartOfSpeech=.] 
+root(ROOT-0, unrealistic-7)
+nsubj(unrealistic-7, Most-1)
+prep(Most-1, of-2)
+det(plot-4, the-3)
+pobj(of-2, plot-4)
+cop(unrealistic-7, was-5)
+advmod(unrealistic-7, absolutely-6)
+punct(unrealistic-7, ,-8)
+advmod(by-10, even-9)
+prep(unrealistic-7, by-10)
+nn(standards-13, slasher-11)
+nn(standards-13, film-12)
+pobj(by-10, standards-13)
+punct(unrealistic-7, .-14)
+
+Sentence #10 (6 tokens):
+I mean, COME ON!
+[Text=I CharacterOffsetBegin=696 CharacterOffsetEnd=697 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=702 CharacterOffsetEnd=703 PartOfSpeech=,] [Text=COME CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=VBP] [Text=ON CharacterOffsetBegin=709 CharacterOffsetEnd=711 PartOfSpeech=IN] [Text=! CharacterOffsetBegin=711 CharacterOffsetEnd=712 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+punct(mean-2, ,-3)
+dep(ON-5, COME-4)
+dep(mean-2, ON-5)
+punct(mean-2, !-6)
+
+Sentence #11 (21 tokens):
+Who would rush out to get a cheap earring 10 seconds after a creepy stalker guy just left their doorstep?
+[Text=Who CharacterOffsetBegin=717 CharacterOffsetEnd=720 PartOfSpeech=WP] [Text=would CharacterOffsetBegin=721 CharacterOffsetEnd=726 PartOfSpeech=MD] [Text=rush CharacterOffsetBegin=727 CharacterOffsetEnd=731 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=732 CharacterOffsetEnd=735 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=736 CharacterOffsetEnd=738 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=739 CharacterOffsetEnd=742 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=743 CharacterOffsetEnd=744 PartOfSpeech=DT] [Text=cheap CharacterOffsetBegin=745 CharacterOffsetEnd=750 PartOfSpeech=JJ] [Text=earring CharacterOffsetBegin=751 CharacterOffsetEnd=758 PartOfSpeech=NN] [Text=10 CharacterOffsetBegin=759 CharacterOffsetEnd=761 PartOfSpeech=CD] [Text=seconds CharacterOffsetBegin=762 CharacterOffsetEnd=769 PartOfSpeech=NNS] [Text=after CharacterOffsetBegin=770 CharacterOffsetEnd=775 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=776 CharacterOffsetEnd=777 PartOfSpeech=DT] [Text=creepy CharacterOffsetBegin=778 CharacterOffsetEnd=784 PartOfSpeech=JJ] [Text=stalker CharacterOffsetBegin=785 CharacterOffsetEnd=792 PartOfSpeech=NN] [Text=guy CharacterOffsetBegin=793 CharacterOffsetEnd=796 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=797 CharacterOffsetEnd=801 PartOfSpeech=RB] [Text=left CharacterOffsetBegin=802 CharacterOffsetEnd=806 PartOfSpeech=VBD] [Text=their CharacterOffsetBegin=807 CharacterOffsetEnd=812 PartOfSpeech=PRP$] [Text=doorstep CharacterOffsetBegin=813 CharacterOffsetEnd=821 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=821 CharacterOffsetEnd=822 PartOfSpeech=.] 
+root(ROOT-0, rush-3)
+nsubj(rush-3, Who-1)
+aux(rush-3, would-2)
+prt(rush-3, out-4)
+aux(get-6, to-5)
+xcomp(rush-3, get-6)
+det(earring-9, a-7)
+amod(earring-9, cheap-8)
+dobj(get-6, earring-9)
+num(seconds-11, 10-10)
+dep(left-18, seconds-11)
+mark(left-18, after-12)
+det(guy-16, a-13)
+amod(guy-16, creepy-14)
+nn(guy-16, stalker-15)
+nsubj(left-18, guy-16)
+advmod(left-18, just-17)
+advcl(get-6, left-18)
+poss(doorstep-20, their-19)
+dobj(left-18, doorstep-20)
+punct(rush-3, ?-21)
+
+Sentence #12 (2 tokens):
+Lame.
+[Text=Lame CharacterOffsetBegin=827 CharacterOffsetEnd=831 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=831 CharacterOffsetEnd=832 PartOfSpeech=.] 
+root(ROOT-0, Lame-1)
+punct(Lame-1, .-2)
+

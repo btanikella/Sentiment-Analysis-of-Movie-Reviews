@@ -1,0 +1,121 @@
+Sentence #1 (16 tokens):
+I purchased this video quite cheaply ex-rental, thinking that the cover looked quite nice.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=purchased CharacterOffsetBegin=6 CharacterOffsetEnd=15 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=DT] [Text=video CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=quite CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=RB] [Text=cheaply CharacterOffsetBegin=33 CharacterOffsetEnd=40 PartOfSpeech=RB] [Text=ex-rental CharacterOffsetBegin=41 CharacterOffsetEnd=50 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=,] [Text=thinking CharacterOffsetBegin=52 CharacterOffsetEnd=60 PartOfSpeech=VBG] [Text=that CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=cover CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=looked CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=VBD] [Text=quite CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=RB] [Text=nice CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, purchased-2)
+nsubj(purchased-2, I-1)
+det(video-4, this-3)
+dobj(purchased-2, video-4)
+advmod(ex-rental-7, quite-5)
+advmod(ex-rental-7, cheaply-6)
+dep(video-4, ex-rental-7)
+punct(ex-rental-7, ,-8)
+partmod(ex-rental-7, thinking-9)
+mark(looked-13, that-10)
+det(cover-12, the-11)
+nsubj(looked-13, cover-12)
+ccomp(thinking-9, looked-13)
+advmod(nice-15, quite-14)
+acomp(looked-13, nice-15)
+punct(purchased-2, .-16)
+
+Sentence #2 (11 tokens):
+And it was nice, but the movie is trash.
+[Text=And CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=VBD] [Text=nice CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=,] [Text=but CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=124 CharacterOffsetEnd=129 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=VBZ] [Text=trash CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=.] 
+root(ROOT-0, nice-4)
+cc(nice-4, And-1)
+nsubj(nice-4, it-2)
+cop(nice-4, was-3)
+punct(nice-4, ,-5)
+cc(nice-4, but-6)
+det(movie-8, the-7)
+nsubj(trash-10, movie-8)
+cop(trash-10, is-9)
+conj(nice-4, trash-10)
+punct(nice-4, .-11)
+
+Sentence #3 (16 tokens):
+I can handle B-grade, I sometimes even enjoy a good B romp (ie.
+[Text=I CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=MD] [Text=handle CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=VB] [Text=B-grade CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=,] [Text=I CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=PRP] [Text=sometimes CharacterOffsetBegin=168 CharacterOffsetEnd=177 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=RB] [Text=enjoy CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=JJ] [Text=B CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=romp CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=VB] [Text=-LRB- CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=-LRB-] [Text=ie CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=FW] [Text=. CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=.] 
+root(ROOT-0, handle-3)
+nsubj(handle-3, I-1)
+aux(handle-3, can-2)
+dobj(handle-3, B-grade-4)
+punct(B-grade-4, ,-5)
+nsubj(enjoy-9, I-6)
+advmod(enjoy-9, sometimes-7)
+advmod(enjoy-9, even-8)
+rcmod(B-grade-4, enjoy-9)
+det(B-12, a-10)
+amod(B-12, good-11)
+dobj(enjoy-9, B-12)
+dep(B-12, romp-13)
+punct(ie-15, -LRB--14)
+dobj(romp-13, ie-15)
+punct(handle-3, .-16)
+
+Sentence #4 (27 tokens):
+'Surf Nazis Must Die' is a classic example of how entertaining the genre can be), but this was just bland bland bland.
+[Text=` CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=``] [Text=Surf CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=VB] [Text=Nazis CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NNPS] [Text=Must CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=MD] [Text=Die CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=VB] [Text=' CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=''] [Text=is CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=239 CharacterOffsetEnd=246 PartOfSpeech=JJ] [Text=example CharacterOffsetBegin=247 CharacterOffsetEnd=254 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=WRB] [Text=entertaining CharacterOffsetBegin=262 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=genre CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=VB] [Text=-RRB- CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=,] [Text=but CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=RB] [Text=bland CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=JJ] [Text=bland CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=JJ] [Text=bland CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=.] 
+root(ROOT-0, example-10)
+punct(example-10, `-1)
+nsubj(example-10, Surf-2)
+dobj(Surf-2, Nazis-3)
+dep(Nazis-3, Must-4)
+dep(Must-4, Die-5)
+punct(Die-5, '-6)
+cop(example-10, is-7)
+det(example-10, a-8)
+amod(example-10, classic-9)
+prep(example-10, of-11)
+advmod(entertaining-13, how-12)
+dep(be-17, entertaining-13)
+det(genre-15, the-14)
+nsubj(be-17, genre-15)
+aux(be-17, can-16)
+pcomp(of-11, be-17)
+punct(be-17, -RRB--18)
+punct(example-10, ,-19)
+cc(example-10, but-20)
+nsubj(bland-24, this-21)
+cop(bland-24, was-22)
+advmod(bland-24, just-23)
+amod(bland-26, bland-24)
+amod(bland-26, bland-25)
+conj(example-10, bland-26)
+punct(example-10, .-27)
+
+Sentence #5 (19 tokens):
+Incredibly dull scenes were broken up too sparsely by good wholesome cheap porn and entertaining dream horror sequences.
+[Text=Incredibly CharacterOffsetBegin=335 CharacterOffsetEnd=345 PartOfSpeech=RB] [Text=dull CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=JJ] [Text=scenes CharacterOffsetBegin=351 CharacterOffsetEnd=357 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=VBD] [Text=broken CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=VBN] [Text=up CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=RP] [Text=too CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=RB] [Text=sparsely CharacterOffsetBegin=377 CharacterOffsetEnd=385 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=JJ] [Text=wholesome CharacterOffsetBegin=394 CharacterOffsetEnd=403 PartOfSpeech=JJ] [Text=cheap CharacterOffsetBegin=404 CharacterOffsetEnd=409 PartOfSpeech=JJ] [Text=porn CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=CC] [Text=entertaining CharacterOffsetBegin=419 CharacterOffsetEnd=431 PartOfSpeech=JJ] [Text=dream CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=NN] [Text=horror CharacterOffsetBegin=438 CharacterOffsetEnd=444 PartOfSpeech=NN] [Text=sequences CharacterOffsetBegin=445 CharacterOffsetEnd=454 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=454 CharacterOffsetEnd=455 PartOfSpeech=.] 
+root(ROOT-0, broken-5)
+amod(scenes-3, Incredibly-1)
+amod(scenes-3, dull-2)
+nsubjpass(broken-5, scenes-3)
+auxpass(broken-5, were-4)
+prt(broken-5, up-6)
+advmod(sparsely-8, too-7)
+advmod(broken-5, sparsely-8)
+prep(sparsely-8, by-9)
+amod(porn-13, good-10)
+amod(porn-13, wholesome-11)
+amod(porn-13, cheap-12)
+pobj(by-9, porn-13)
+cc(porn-13, and-14)
+amod(sequences-18, entertaining-15)
+nn(sequences-18, dream-16)
+nn(sequences-18, horror-17)
+conj(porn-13, sequences-18)
+punct(broken-5, .-19)
+
+Sentence #6 (8 tokens):
+This movie has very little to offer.
+[Text=This CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=RB] [Text=little CharacterOffsetBegin=480 CharacterOffsetEnd=486 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=TO] [Text=offer CharacterOffsetBegin=490 CharacterOffsetEnd=495 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(movie-2, This-1)
+nsubj(has-3, movie-2)
+advmod(little-5, very-4)
+advmod(offer-7, little-5)
+aux(offer-7, to-6)
+xcomp(has-3, offer-7)
+punct(has-3, .-8)
+

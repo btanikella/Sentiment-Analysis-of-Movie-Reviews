@@ -1,0 +1,123 @@
+Sentence #1 (8 tokens):
+I thought this movie was pretty good.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=VBD] [Text=pretty CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+det(movie-4, this-3)
+nsubj(good-7, movie-4)
+cop(good-7, was-5)
+advmod(good-7, pretty-6)
+ccomp(thought-2, good-7)
+punct(thought-2, .-8)
+
+Sentence #2 (18 tokens):
+Some parts were corny but that's understandable since it was made more than 55 years ago.
+[Text=Some CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=parts CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=VBD] [Text=corny CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=VBZ] [Text=understandable CharacterOffsetBegin=79 CharacterOffsetEnd=93 PartOfSpeech=JJ] [Text=since CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=VBD] [Text=made CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VBN] [Text=more CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=RBR] [Text=than CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=IN] [Text=55 CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NNS] [Text=ago CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=.] 
+root(ROOT-0, corny-4)
+det(parts-2, Some-1)
+nsubj(corny-4, parts-2)
+cop(corny-4, were-3)
+cc(corny-4, but-5)
+nsubj(understandable-8, that-6)
+cop(understandable-8, 's-7)
+conj(corny-4, understandable-8)
+mark(made-12, since-9)
+nsubjpass(made-12, it-10)
+auxpass(made-12, was-11)
+advcl(corny-4, made-12)
+advmod(than-14, more-13)
+quantmod(55-15, than-14)
+num(years-16, 55-15)
+npadvmod(ago-17, years-16)
+advmod(made-12, ago-17)
+punct(corny-4, .-18)
+
+Sentence #3 (18 tokens):
+I thought the best performance in the movie was given by Michele Morgan who played Millie convincingly.
+[Text=I CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=JJS] [Text=performance CharacterOffsetBegin=159 CharacterOffsetEnd=170 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=VBD] [Text=given CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=IN] [Text=Michele CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=NNP] [Text=Morgan CharacterOffsetBegin=205 CharacterOffsetEnd=211 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=WP] [Text=played CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=VBD] [Text=Millie CharacterOffsetBegin=223 CharacterOffsetEnd=229 PartOfSpeech=NNP] [Text=convincingly CharacterOffsetBegin=230 CharacterOffsetEnd=242 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+det(performance-5, the-3)
+amod(performance-5, best-4)
+nsubjpass(given-10, performance-5)
+prep(performance-5, in-6)
+det(movie-8, the-7)
+pobj(in-6, movie-8)
+auxpass(given-10, was-9)
+ccomp(thought-2, given-10)
+prep(given-10, by-11)
+nn(Morgan-13, Michele-12)
+pobj(by-11, Morgan-13)
+nsubj(played-15, who-14)
+rcmod(Morgan-13, played-15)
+nn(convincingly-17, Millie-16)
+dobj(played-15, convincingly-17)
+punct(thought-2, .-18)
+
+Sentence #4 (10 tokens):
+Jack Haley is also really good as Mike O'Brien.
+[Text=Jack CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=NNP] [Text=Haley CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=VBZ] [Text=also CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=267 CharacterOffsetEnd=273 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=IN] [Text=Mike CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=NNP] [Text=O'Brien CharacterOffsetBegin=287 CharacterOffsetEnd=294 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=.] 
+root(ROOT-0, good-6)
+nn(Haley-2, Jack-1)
+nsubj(good-6, Haley-2)
+cop(good-6, is-3)
+advmod(good-6, also-4)
+advmod(good-6, really-5)
+prep(good-6, as-7)
+nn(O'Brien-9, Mike-8)
+pobj(as-7, O'Brien-9)
+punct(good-6, .-10)
+
+Sentence #5 (21 tokens):
+Even though I'm not a big Frank Sinatra fan, I think he was very good in this movie.
+[Text=Even CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=305 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=DT] [Text=big CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=JJ] [Text=Frank CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=NNP] [Text=Sinatra CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=NNP] [Text=fan CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=,] [Text=I CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=VBP] [Text=he CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=.] 
+root(ROOT-0, think-13)
+advmod(fan-10, Even-1)
+mark(fan-10, though-2)
+nsubj(fan-10, I-3)
+cop(fan-10, 'm-4)
+neg(fan-10, not-5)
+det(fan-10, a-6)
+amod(fan-10, big-7)
+nn(fan-10, Frank-8)
+nn(fan-10, Sinatra-9)
+advcl(think-13, fan-10)
+punct(think-13, ,-11)
+nsubj(think-13, I-12)
+nsubj(good-17, he-14)
+cop(good-17, was-15)
+advmod(good-17, very-16)
+ccomp(think-13, good-17)
+prep(good-17, in-18)
+det(movie-20, this-19)
+pobj(in-18, movie-20)
+punct(think-13, .-21)
+
+Sentence #6 (24 tokens):
+If your have a craving for a silly, over the top musical comedy, Higher and Higher is the movie for you.
+[Text=If CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=PRP$] [Text=have CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=402 CharacterOffsetEnd=403 PartOfSpeech=DT] [Text=craving CharacterOffsetBegin=404 CharacterOffsetEnd=411 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=DT] [Text=silly CharacterOffsetBegin=418 CharacterOffsetEnd=423 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=,] [Text=over CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=DT] [Text=top CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=JJ] [Text=musical CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=JJ] [Text=comedy CharacterOffsetBegin=446 CharacterOffsetEnd=452 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=,] [Text=Higher CharacterOffsetBegin=454 CharacterOffsetEnd=460 PartOfSpeech=JJR] [Text=and CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=CC] [Text=Higher CharacterOffsetBegin=465 CharacterOffsetEnd=471 PartOfSpeech=JJR] [Text=is CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=.] 
+root(ROOT-0, movie-21)
+mark(have-3, If-1)
+nsubj(have-3, your-2)
+advcl(movie-21, have-3)
+det(craving-5, a-4)
+dobj(have-3, craving-5)
+prep(craving-5, for-6)
+det(silly-8, a-7)
+pobj(for-6, silly-8)
+punct(movie-21, ,-9)
+prep(movie-21, over-10)
+det(comedy-14, the-11)
+amod(comedy-14, top-12)
+amod(comedy-14, musical-13)
+pobj(over-10, comedy-14)
+punct(movie-21, ,-15)
+nsubj(movie-21, Higher-16)
+cc(Higher-16, and-17)
+conj(Higher-16, Higher-18)
+cop(movie-21, is-19)
+det(movie-21, the-20)
+prep(movie-21, for-22)
+pobj(for-22, you-23)
+punct(movie-21, .-24)
+

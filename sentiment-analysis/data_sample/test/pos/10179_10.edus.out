@@ -1,0 +1,186 @@
+Sentence #1 (12 tokens):
+Millions in gold is traveling by train to the US treasury.
+[Text=Millions CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=IN] [Text=gold CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=VBZ] [Text=traveling CharacterOffsetBegin=24 CharacterOffsetEnd=33 PartOfSpeech=VBG] [Text=by CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=IN] [Text=train CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT] [Text=US CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=NNP] [Text=treasury CharacterOffsetBegin=53 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=.] 
+root(ROOT-0, traveling-5)
+nsubj(traveling-5, Millions-1)
+prep(Millions-1, in-2)
+pobj(in-2, gold-3)
+aux(traveling-5, is-4)
+prep(traveling-5, by-6)
+pobj(by-6, train-7)
+prep(traveling-5, to-8)
+det(treasury-11, the-9)
+nn(treasury-11, US-10)
+pobj(to-8, treasury-11)
+punct(traveling-5, .-12)
+
+Sentence #2 (10 tokens):
+Traveling along is Lois Lane to report on it.
+[Text=Traveling CharacterOffsetBegin=67 CharacterOffsetEnd=76 PartOfSpeech=VBG] [Text=along CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=RP] [Text=is CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=VBZ] [Text=Lois CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=NNP] [Text=Lane CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=TO] [Text=report CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.] 
+root(ROOT-0, Lane-5)
+nsubj(Lane-5, Traveling-1)
+prt(Traveling-1, along-2)
+cop(Lane-5, is-3)
+nn(Lane-5, Lois-4)
+aux(report-7, to-6)
+infmod(Lane-5, report-7)
+prep(report-7, on-8)
+pobj(on-8, it-9)
+punct(Lane-5, .-10)
+
+Sentence #3 (11 tokens):
+Along the way the train is attacked by masked thieves.
+[Text=Along CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=train CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=attacked CharacterOffsetBegin=144 CharacterOffsetEnd=152 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=masked CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=VBN] [Text=thieves CharacterOffsetBegin=163 CharacterOffsetEnd=170 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=.] 
+root(ROOT-0, Along-1)
+det(way-3, the-2)
+pobj(Along-1, way-3)
+det(train-5, the-4)
+nsubjpass(attacked-7, train-5)
+auxpass(attacked-7, is-6)
+rcmod(way-3, attacked-7)
+prep(attacked-7, by-8)
+amod(thieves-10, masked-9)
+pobj(by-8, thieves-10)
+punct(Along-1, .-11)
+
+Sentence #4 (16 tokens):
+They detach the car with the armed guards in it and attack the remaining ones.
+[Text=They CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=PRP] [Text=detach CharacterOffsetBegin=181 CharacterOffsetEnd=187 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=car CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=armed CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=JJ] [Text=guards CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=CC] [Text=attack CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=DT] [Text=remaining CharacterOffsetBegin=239 CharacterOffsetEnd=248 PartOfSpeech=VBG] [Text=ones CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=.] 
+root(ROOT-0, detach-2)
+nsubj(detach-2, They-1)
+det(car-4, the-3)
+dobj(detach-2, car-4)
+prep(detach-2, with-5)
+det(guards-8, the-6)
+amod(guards-8, armed-7)
+pobj(with-5, guards-8)
+prep(detach-2, in-9)
+pobj(in-9, it-10)
+cc(detach-2, and-11)
+conj(detach-2, attack-12)
+det(ones-15, the-13)
+amod(ones-15, remaining-14)
+dobj(attack-12, ones-15)
+punct(detach-2, .-16)
+
+Sentence #5 (14 tokens):
+This leads to a vicious fight between the remaining guards and the thieves.
+[Text=This CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=DT] [Text=leads CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=DT] [Text=vicious CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=JJ] [Text=fight CharacterOffsetBegin=283 CharacterOffsetEnd=288 PartOfSpeech=NN] [Text=between CharacterOffsetBegin=289 CharacterOffsetEnd=296 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=DT] [Text=remaining CharacterOffsetBegin=301 CharacterOffsetEnd=310 PartOfSpeech=VBG] [Text=guards CharacterOffsetBegin=311 CharacterOffsetEnd=317 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=DT] [Text=thieves CharacterOffsetBegin=326 CharacterOffsetEnd=333 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=.] 
+root(ROOT-0, leads-2)
+nsubj(leads-2, This-1)
+prep(leads-2, to-3)
+det(fight-6, a-4)
+amod(fight-6, vicious-5)
+pobj(to-3, fight-6)
+prep(fight-6, between-7)
+det(guards-10, the-8)
+amod(guards-10, remaining-9)
+pobj(between-7, guards-10)
+cc(guards-10, and-11)
+det(thieves-13, the-12)
+conj(guards-10, thieves-13)
+punct(leads-2, .-14)
+
+Sentence #6 (11 tokens):
+The thieves overpower them but then Lois Lane jumps in.
+[Text=The CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=DT] [Text=thieves CharacterOffsetBegin=343 CharacterOffsetEnd=350 PartOfSpeech=NNS] [Text=overpower CharacterOffsetBegin=351 CharacterOffsetEnd=360 PartOfSpeech=VBP] [Text=them CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=PRP] [Text=but CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=RB] [Text=Lois CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=NNP] [Text=Lane CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=NNP] [Text=jumps CharacterOffsetBegin=385 CharacterOffsetEnd=390 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.] 
+root(ROOT-0, overpower-3)
+det(thieves-2, The-1)
+nsubj(overpower-3, thieves-2)
+dobj(overpower-3, them-4)
+cc(overpower-3, but-5)
+advmod(overpower-3, then-6)
+nn(Lane-8, Lois-7)
+nsubj(jumps-9, Lane-8)
+dep(overpower-3, jumps-9)
+prt(jumps-9, in-10)
+punct(overpower-3, .-11)
+
+Sentence #7 (25 tokens):
+She beats the thieves off the train (at one point using a gun) but the train starts to careen out of control.
+[Text=She CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=PRP] [Text=beats CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=DT] [Text=thieves CharacterOffsetBegin=413 CharacterOffsetEnd=420 PartOfSpeech=NNS] [Text=off CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=DT] [Text=train CharacterOffsetBegin=429 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=435 CharacterOffsetEnd=436 PartOfSpeech=-LRB-] [Text=at CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=IN] [Text=one CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=CD] [Text=point CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=NN] [Text=using CharacterOffsetBegin=449 CharacterOffsetEnd=454 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=DT] [Text=gun CharacterOffsetBegin=457 CharacterOffsetEnd=460 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=-RRB-] [Text=but CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=DT] [Text=train CharacterOffsetBegin=470 CharacterOffsetEnd=475 PartOfSpeech=NN] [Text=starts CharacterOffsetBegin=476 CharacterOffsetEnd=482 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=TO] [Text=careen CharacterOffsetBegin=486 CharacterOffsetEnd=492 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=493 CharacterOffsetEnd=496 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=IN] [Text=control CharacterOffsetBegin=500 CharacterOffsetEnd=507 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=.] 
+root(ROOT-0, beats-2)
+nsubj(beats-2, She-1)
+det(thieves-4, the-3)
+dobj(beats-2, thieves-4)
+prep(beats-2, off-5)
+det(train-7, the-6)
+pobj(off-5, train-7)
+dep(train-7, -LRB--8)
+dep(-LRB--8, at-9)
+num(point-11, one-10)
+pobj(at-9, point-11)
+partmod(point-11, using-12)
+det(gun-14, a-13)
+dobj(using-12, gun-14)
+punct(at-9, -RRB--15)
+cc(at-9, but-16)
+det(train-18, the-17)
+nsubj(starts-19, train-18)
+conj(at-9, starts-19)
+aux(careen-21, to-20)
+xcomp(starts-19, careen-21)
+prep(careen-21, out-22)
+pcomp(out-22, of-23)
+pobj(of-23, control-24)
+punct(beats-2, .-25)
+
+Sentence #8 (17 tokens):
+Lois can't stop it and the thieves will stop at nothing to get the gold.
+[Text=Lois CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=NNP] [Text=ca CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=RB] [Text=stop CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=DT] [Text=thieves CharacterOffsetBegin=540 CharacterOffsetEnd=547 PartOfSpeech=NNS] [Text=will CharacterOffsetBegin=548 CharacterOffsetEnd=552 PartOfSpeech=MD] [Text=stop CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=558 CharacterOffsetEnd=560 PartOfSpeech=IN] [Text=nothing CharacterOffsetBegin=561 CharacterOffsetEnd=568 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=DT] [Text=gold CharacterOffsetBegin=580 CharacterOffsetEnd=584 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=584 CharacterOffsetEnd=585 PartOfSpeech=.] 
+root(ROOT-0, stop-4)
+nsubj(stop-4, Lois-1)
+aux(stop-4, ca-2)
+neg(stop-4, n't-3)
+dobj(stop-4, it-5)
+cc(stop-4, and-6)
+det(thieves-8, the-7)
+nsubj(stop-10, thieves-8)
+aux(stop-10, will-9)
+conj(stop-4, stop-10)
+prep(stop-10, at-11)
+pobj(at-11, nothing-12)
+aux(get-14, to-13)
+infmod(nothing-12, get-14)
+det(gold-16, the-15)
+dobj(get-14, gold-16)
+punct(stop-4, .-17)
+
+Sentence #9 (13 tokens):
+Good thing Superman is on the way!Fast, exciting, non-stop action.
+[Text=Good CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=595 CharacterOffsetEnd=600 PartOfSpeech=NN] [Text=Superman CharacterOffsetBegin=601 CharacterOffsetEnd=609 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=VBZ] [Text=on CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=DT] [Text=way!Fast CharacterOffsetBegin=620 CharacterOffsetEnd=628 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=,] [Text=exciting CharacterOffsetBegin=630 CharacterOffsetEnd=638 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=638 CharacterOffsetEnd=639 PartOfSpeech=,] [Text=non-stop CharacterOffsetBegin=640 CharacterOffsetEnd=648 PartOfSpeech=JJ] [Text=action CharacterOffsetBegin=649 CharacterOffsetEnd=655 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=.] 
+root(ROOT-0, thing-2)
+amod(thing-2, Good-1)
+nsubj(is-4, Superman-3)
+rcmod(thing-2, is-4)
+prep(is-4, on-5)
+det(way!Fast-7, the-6)
+pobj(on-5, way!Fast-7)
+punct(thing-2, ,-8)
+amod(thing-2, exciting-9)
+punct(thing-2, ,-10)
+amod(action-12, non-stop-11)
+appos(thing-2, action-12)
+punct(thing-2, .-13)
+
+Sentence #10 (10 tokens):
+Probably one of the best of all the cartoons.
+[Text=Probably CharacterOffsetBegin=661 CharacterOffsetEnd=669 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=670 CharacterOffsetEnd=673 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=674 CharacterOffsetEnd=676 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=677 CharacterOffsetEnd=680 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=686 CharacterOffsetEnd=688 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=689 CharacterOffsetEnd=692 PartOfSpeech=DT] [Text=the CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=DT] [Text=cartoons CharacterOffsetBegin=697 CharacterOffsetEnd=705 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=705 CharacterOffsetEnd=706 PartOfSpeech=.] 
+root(ROOT-0, one-2)
+amod(one-2, Probably-1)
+prep(one-2, of-3)
+det(best-5, the-4)
+pobj(of-3, best-5)
+prep(best-5, of-6)
+predet(cartoons-9, all-7)
+det(cartoons-9, the-8)
+pobj(of-6, cartoons-9)
+punct(one-2, .-10)
+
+Sentence #11 (3 tokens):
+Just great.
+[Text=Just CharacterOffsetBegin=711 CharacterOffsetEnd=715 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=716 CharacterOffsetEnd=721 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=721 CharacterOffsetEnd=722 PartOfSpeech=.] 
+root(ROOT-0, great-2)
+advmod(great-2, Just-1)
+punct(great-2, .-3)
+

@@ -1,0 +1,173 @@
+Sentence #1 (18 tokens):
+This is a movie that should be seen by everyone if you want to see great acting.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=WDT] [Text=should CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=VB] [Text=seen CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=IN] [Text=everyone CharacterOffsetBegin=43 CharacterOffsetEnd=51 PartOfSpeech=NN] [Text=if CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=VB] [Text=great CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=77 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=.] 
+root(ROOT-0, movie-4)
+nsubj(movie-4, This-1)
+cop(movie-4, is-2)
+det(movie-4, a-3)
+nsubjpass(seen-8, that-5)
+aux(seen-8, should-6)
+auxpass(seen-8, be-7)
+rcmod(movie-4, seen-8)
+prep(seen-8, by-9)
+pobj(by-9, everyone-10)
+mark(want-13, if-11)
+nsubj(want-13, you-12)
+advcl(seen-8, want-13)
+aux(see-15, to-14)
+xcomp(want-13, see-15)
+amod(acting-17, great-16)
+dobj(see-15, acting-17)
+punct(movie-4, .-18)
+
+Sentence #2 (10 tokens):
+Mr. Torn and Ms Farrel do an outstanding job.
+[Text=Mr. CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=NNP] [Text=Torn CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=CC] [Text=Ms CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=NNP] [Text=Farrel CharacterOffsetBegin=105 CharacterOffsetEnd=111 PartOfSpeech=NNP] [Text=do CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=VBP] [Text=an CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=DT] [Text=outstanding CharacterOffsetBegin=118 CharacterOffsetEnd=129 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=.] 
+root(ROOT-0, do-6)
+nn(Torn-2, Mr.-1)
+nsubj(do-6, Torn-2)
+cc(Torn-2, and-3)
+nn(Farrel-5, Ms-4)
+conj(Torn-2, Farrel-5)
+det(job-9, an-7)
+amod(job-9, outstanding-8)
+dobj(do-6, job-9)
+punct(do-6, .-10)
+
+Sentence #3 (17 tokens):
+I think they should have it on TV again so a new audience can enjoy it.
+[Text=I CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=152 CharacterOffsetEnd=158 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=again CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=RB] [Text=so CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=JJ] [Text=audience CharacterOffsetBegin=188 CharacterOffsetEnd=196 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=MD] [Text=enjoy CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+nsubj(have-5, they-3)
+aux(have-5, should-4)
+ccomp(think-2, have-5)
+dobj(have-5, it-6)
+prep(have-5, on-7)
+pobj(on-7, TV-8)
+advmod(have-5, again-9)
+advmod(enjoy-15, so-10)
+det(audience-13, a-11)
+amod(audience-13, new-12)
+nsubj(enjoy-15, audience-13)
+aux(enjoy-15, can-14)
+ccomp(have-5, enjoy-15)
+dobj(enjoy-15, it-16)
+punct(think-2, .-17)
+
+Sentence #4 (20 tokens):
+Wonderful performances.It gives you a real feel of what the pioneers had to go through both physically and emotionally.
+[Text=Wonderful CharacterOffsetBegin=215 CharacterOffsetEnd=224 PartOfSpeech=JJ] [Text=performances.It CharacterOffsetBegin=225 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=gives CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=VBZ] [Text=you CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=JJ] [Text=feel CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=DT] [Text=pioneers CharacterOffsetBegin=275 CharacterOffsetEnd=283 PartOfSpeech=NNS] [Text=had CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=294 CharacterOffsetEnd=301 PartOfSpeech=IN] [Text=both CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=DT] [Text=physically CharacterOffsetBegin=307 CharacterOffsetEnd=317 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=CC] [Text=emotionally CharacterOffsetBegin=322 CharacterOffsetEnd=333 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=.] 
+root(ROOT-0, gives-3)
+amod(performances.It-2, Wonderful-1)
+nsubj(gives-3, performances.It-2)
+iobj(gives-3, you-4)
+det(feel-7, a-5)
+amod(feel-7, real-6)
+dobj(gives-3, feel-7)
+prep(feel-7, of-8)
+dobj(had-12, what-9)
+det(pioneers-11, the-10)
+nsubj(had-12, pioneers-11)
+pcomp(of-8, had-12)
+aux(go-14, to-13)
+xcomp(had-12, go-14)
+prep(go-14, through-15)
+preconj(physically-17, both-16)
+pobj(through-15, physically-17)
+cc(physically-17, and-18)
+conj(physically-17, emotionally-19)
+punct(gives-3, .-20)
+
+Sentence #5 (13 tokens):
+Great unheard of movie.It was done when Ms. Farrel was very young.
+[Text=Great CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=JJ] [Text=unheard CharacterOffsetBegin=345 CharacterOffsetEnd=352 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=IN] [Text=movie.It CharacterOffsetBegin=356 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=VBD] [Text=done CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=VBN] [Text=when CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=WRB] [Text=Ms. CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=NNP] [Text=Farrel CharacterOffsetBegin=383 CharacterOffsetEnd=389 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=RB] [Text=young CharacterOffsetBegin=399 CharacterOffsetEnd=404 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=.] 
+root(ROOT-0, done-6)
+amod(unheard-2, Great-1)
+nsubjpass(done-6, unheard-2)
+prep(unheard-2, of-3)
+pobj(of-3, movie.It-4)
+auxpass(done-6, was-5)
+advmod(young-12, when-7)
+nn(Farrel-9, Ms.-8)
+nsubj(young-12, Farrel-9)
+cop(young-12, was-10)
+advmod(young-12, very-11)
+advcl(done-6, young-12)
+punct(done-6, .-13)
+
+Sentence #6 (23 tokens):
+I had always thought of her as a comedian, but this certainly is not a comedy and she is just wonderful.
+[Text=I CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=VBD] [Text=always CharacterOffsetBegin=416 CharacterOffsetEnd=422 PartOfSpeech=RB] [Text=thought CharacterOffsetBegin=423 CharacterOffsetEnd=430 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=PRP$] [Text=as CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=DT] [Text=comedian CharacterOffsetBegin=443 CharacterOffsetEnd=451 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=,] [Text=but CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=DT] [Text=certainly CharacterOffsetBegin=462 CharacterOffsetEnd=471 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=479 CharacterOffsetEnd=480 PartOfSpeech=DT] [Text=comedy CharacterOffsetBegin=481 CharacterOffsetEnd=487 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=499 CharacterOffsetEnd=503 PartOfSpeech=RB] [Text=wonderful CharacterOffsetBegin=504 CharacterOffsetEnd=513 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=513 CharacterOffsetEnd=514 PartOfSpeech=.] 
+root(ROOT-0, thought-4)
+nsubj(thought-4, I-1)
+aux(thought-4, had-2)
+advmod(thought-4, always-3)
+prep(thought-4, of-5)
+pobj(of-5, her-6)
+prep(her-6, as-7)
+det(comedian-9, a-8)
+pobj(as-7, comedian-9)
+punct(thought-4, ,-10)
+cc(thought-4, but-11)
+nsubj(is-14, this-12)
+advmod(is-14, certainly-13)
+conj(thought-4, is-14)
+neg(is-14, not-15)
+det(comedy-17, a-16)
+nsubj(wonderful-22, comedy-17)
+cc(comedy-17, and-18)
+conj(comedy-17, she-19)
+cop(wonderful-22, is-20)
+advmod(wonderful-22, just-21)
+dep(is-14, wonderful-22)
+punct(thought-4, .-23)
+
+Sentence #7 (15 tokens):
+There is very little dialogs, but that just make it seem more real.
+[Text=There CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=RB] [Text=little CharacterOffsetBegin=533 CharacterOffsetEnd=539 PartOfSpeech=JJ] [Text=dialogs CharacterOffsetBegin=540 CharacterOffsetEnd=547 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=,] [Text=but CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=DT] [Text=just CharacterOffsetBegin=558 CharacterOffsetEnd=562 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=PRP] [Text=seem CharacterOffsetBegin=571 CharacterOffsetEnd=575 PartOfSpeech=VB] [Text=more CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=RBR] [Text=real CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+advmod(little-4, very-3)
+amod(dialogs-5, little-4)
+nsubj(is-2, dialogs-5)
+punct(is-2, ,-6)
+cc(is-2, but-7)
+nsubj(make-10, that-8)
+advmod(make-10, just-9)
+conj(is-2, make-10)
+nsubj(real-14, it-11)
+cop(real-14, seem-12)
+advmod(real-14, more-13)
+xcomp(make-10, real-14)
+punct(is-2, .-15)
+
+Sentence #8 (16 tokens):
+Mr. Torn as always is a great presence and just his breathing has great feeling.
+[Text=Mr. CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=NNP] [Text=Torn CharacterOffsetBegin=595 CharacterOffsetEnd=599 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=600 CharacterOffsetEnd=602 PartOfSpeech=IN] [Text=always CharacterOffsetBegin=603 CharacterOffsetEnd=609 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=615 CharacterOffsetEnd=620 PartOfSpeech=JJ] [Text=presence CharacterOffsetBegin=621 CharacterOffsetEnd=629 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=CC] [Text=just CharacterOffsetBegin=634 CharacterOffsetEnd=638 PartOfSpeech=RB] [Text=his CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=PRP$] [Text=breathing CharacterOffsetBegin=643 CharacterOffsetEnd=652 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=657 CharacterOffsetEnd=662 PartOfSpeech=JJ] [Text=feeling CharacterOffsetBegin=663 CharacterOffsetEnd=670 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=.] 
+root(ROOT-0, Torn-2)
+nn(Torn-2, Mr.-1)
+mark(presence-8, as-3)
+advmod(presence-8, always-4)
+cop(presence-8, is-5)
+det(presence-8, a-6)
+amod(presence-8, great-7)
+dep(Torn-2, presence-8)
+cc(presence-8, and-9)
+advmod(has-13, just-10)
+poss(breathing-12, his-11)
+nsubj(has-13, breathing-12)
+conj(presence-8, has-13)
+amod(feeling-15, great-14)
+dobj(has-13, feeling-15)
+punct(Torn-2, .-16)
+
+Sentence #9 (5 tokens):
+I must see movie.
+[Text=I CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=PRP] [Text=must CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=683 CharacterOffsetEnd=686 PartOfSpeech=VB] [Text=movie CharacterOffsetBegin=687 CharacterOffsetEnd=692 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=692 CharacterOffsetEnd=693 PartOfSpeech=.] 
+root(ROOT-0, see-3)
+nsubj(see-3, I-1)
+aux(see-3, must-2)
+dobj(see-3, movie-4)
+punct(see-3, .-5)
+

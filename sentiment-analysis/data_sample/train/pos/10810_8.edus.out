@@ -1,0 +1,105 @@
+Sentence #1 (5 tokens):
+Very nicely done movie.
+[Text=Very CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=RB] [Text=nicely CharacterOffsetBegin=9 CharacterOffsetEnd=15 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=VBN] [Text=movie CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=.] 
+root(ROOT-0, movie-4)
+advmod(movie-4, Very-1)
+advmod(done-3, nicely-2)
+amod(movie-4, done-3)
+punct(movie-4, .-5)
+
+Sentence #2 (7 tokens):
+It does stay in your memory.
+[Text=It CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=VBZ] [Text=stay CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=PRP$] [Text=memory CharacterOffsetBegin=53 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=.] 
+root(ROOT-0, stay-3)
+nsubj(stay-3, It-1)
+aux(stay-3, does-2)
+prep(stay-3, in-4)
+poss(memory-6, your-5)
+pobj(in-4, memory-6)
+punct(stay-3, .-7)
+
+Sentence #3 (21 tokens):
+Better billed as a romance than flying or war, altho the flying parts are realistic and almost error free.
+[Text=Better CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=NNP] [Text=billed CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=VBD] [Text=as CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=DT] [Text=romance CharacterOffsetBegin=84 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=flying CharacterOffsetBegin=97 CharacterOffsetEnd=103 PartOfSpeech=VBG] [Text=or CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=CC] [Text=war CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=,] [Text=altho CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=DT] [Text=flying CharacterOffsetBegin=122 CharacterOffsetEnd=128 PartOfSpeech=VBG] [Text=parts CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=VBP] [Text=realistic CharacterOffsetBegin=139 CharacterOffsetEnd=148 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=CC] [Text=almost CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=RB] [Text=error CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NN] [Text=free CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=.] 
+root(ROOT-0, billed-2)
+advmod(billed-2, Better-1)
+prep(billed-2, as-3)
+det(romance-5, a-4)
+pobj(as-3, romance-5)
+prep(romance-5, than-6)
+pcomp(than-6, flying-7)
+cc(flying-7, or-8)
+conj(flying-7, war-9)
+punct(billed-2, ,-10)
+mark(realistic-16, altho-11)
+det(parts-14, the-12)
+amod(parts-14, flying-13)
+nsubj(realistic-16, parts-14)
+cop(realistic-16, are-15)
+advcl(billed-2, realistic-16)
+cc(realistic-16, and-17)
+advmod(error-19, almost-18)
+nn(free-20, error-19)
+conj(realistic-16, free-20)
+punct(billed-2, .-21)
+
+Sentence #4 (30 tokens):
+Flying buffs like myself will enjoy this movie even if attracted by the airplanes, unless they have no sensitivity or have never been in love.Fun watching early Crowe.
+[Text=Flying CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=NNP] [Text=buffs CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=myself CharacterOffsetBegin=194 CharacterOffsetEnd=200 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=MD] [Text=enjoy CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=217 CharacterOffsetEnd=222 PartOfSpeech=NN] [Text=even CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=RB] [Text=if CharacterOffsetBegin=228 CharacterOffsetEnd=230 PartOfSpeech=IN] [Text=attracted CharacterOffsetBegin=231 CharacterOffsetEnd=240 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=airplanes CharacterOffsetBegin=248 CharacterOffsetEnd=257 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=,] [Text=unless CharacterOffsetBegin=259 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=VBP] [Text=no CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=sensitivity CharacterOffsetBegin=279 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=CC] [Text=have CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=VB] [Text=never CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=RB] [Text=been CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=IN] [Text=love.Fun CharacterOffsetBegin=313 CharacterOffsetEnd=321 PartOfSpeech=NN] [Text=watching CharacterOffsetBegin=322 CharacterOffsetEnd=330 PartOfSpeech=VBG] [Text=early CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=JJ] [Text=Crowe CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=.] 
+root(ROOT-0, enjoy-6)
+nn(buffs-2, Flying-1)
+nsubj(enjoy-6, buffs-2)
+prep(buffs-2, like-3)
+pobj(like-3, myself-4)
+aux(enjoy-6, will-5)
+det(movie-8, this-7)
+dobj(enjoy-6, movie-8)
+advmod(attracted-11, even-9)
+mark(attracted-11, if-10)
+advcl(enjoy-6, attracted-11)
+prep(attracted-11, by-12)
+det(airplanes-14, the-13)
+pobj(by-12, airplanes-14)
+punct(enjoy-6, ,-15)
+mark(have-18, unless-16)
+nsubj(have-18, they-17)
+advcl(enjoy-6, have-18)
+det(sensitivity-20, no-19)
+dobj(have-18, sensitivity-20)
+cc(have-18, or-21)
+aux(been-24, have-22)
+neg(been-24, never-23)
+conj(have-18, been-24)
+prep(been-24, in-25)
+pobj(in-25, love.Fun-26)
+partmod(love.Fun-26, watching-27)
+amod(Crowe-29, early-28)
+dobj(watching-27, Crowe-29)
+punct(enjoy-6, .-30)
+
+Sentence #5 (7 tokens):
+He is good and exudes charm.
+[Text=He CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=CC] [Text=exudes CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=VBZ] [Text=charm CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=.] 
+root(ROOT-0, good-3)
+nsubj(good-3, He-1)
+cop(good-3, is-2)
+cc(good-3, and-4)
+nn(charm-6, exudes-5)
+conj(good-3, charm-6)
+punct(good-3, .-7)
+
+Sentence #6 (11 tokens):
+His reading of "High Flight" is superb.cheers, Boom
+[Text=His CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=PRP$] [Text=reading CharacterOffsetBegin=385 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=``] [Text=High CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=JJ] [Text=Flight CharacterOffsetBegin=402 CharacterOffsetEnd=408 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=''] [Text=is CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=VBZ] [Text=superb.cheers CharacterOffsetBegin=413 CharacterOffsetEnd=426 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=,] [Text=Boom CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=NN] 
+root(ROOT-0, superb.cheers-9)
+poss(reading-2, His-1)
+nsubj(superb.cheers-9, reading-2)
+prep(reading-2, of-3)
+punct(Flight-6, ``-4)
+amod(Flight-6, High-5)
+pobj(of-3, Flight-6)
+punct(Flight-6, ''-7)
+cop(superb.cheers-9, is-8)
+punct(superb.cheers-9, ,-10)
+appos(superb.cheers-9, Boom-11)
+

@@ -1,0 +1,107 @@
+Sentence #1 (8 tokens):
+'Holes' was a GREAT movie.
+[Text=` CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=``] [Text=Holes CharacterOffsetBegin=5 CharacterOffsetEnd=10 PartOfSpeech=NNS] [Text=' CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=POS] [Text=was CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=GREAT CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+punct(movie-7, `-1)
+nsubj(movie-7, Holes-2)
+possessive(Holes-2, '-3)
+cop(movie-7, was-4)
+det(movie-7, a-5)
+amod(movie-7, GREAT-6)
+punct(movie-7, .-8)
+
+Sentence #2 (6 tokens):
+Disney made the right choice.
+[Text=Disney CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=NNP] [Text=made CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=right CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=choice CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=.] 
+root(ROOT-0, made-2)
+nsubj(made-2, Disney-1)
+det(choice-5, the-3)
+amod(choice-5, right-4)
+dobj(made-2, choice-5)
+punct(made-2, .-6)
+
+Sentence #3 (14 tokens):
+Every person who I have talked to about it said they LOVED it.
+[Text=Every CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=person CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=VBP] [Text=talked CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=TO] [Text=about CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text=said CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=PRP] [Text=LOVED CharacterOffsetBegin=122 CharacterOffsetEnd=127 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.] 
+root(ROOT-0, said-10)
+det(person-2, Every-1)
+nsubj(said-10, person-2)
+dobj(talked-6, who-3)
+nsubj(talked-6, I-4)
+aux(talked-6, have-5)
+rcmod(person-2, talked-6)
+prep(talked-6, to-7)
+pcomp(to-7, about-8)
+pobj(about-8, it-9)
+nsubj(LOVED-12, they-11)
+ccomp(said-10, LOVED-12)
+dobj(LOVED-12, it-13)
+punct(said-10, .-14)
+
+Sentence #4 (20 tokens):
+Everyone casted was fit for the part they had, and Shia Labeouf really has a future with acting.
+[Text=Everyone CharacterOffsetBegin=136 CharacterOffsetEnd=144 PartOfSpeech=NN] [Text=casted CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=VBD] [Text=was CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=VBD] [Text=fit CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=DT] [Text=part CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=they CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=,] [Text=and CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=CC] [Text=Shia CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=JJ] [Text=Labeouf CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=really CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=RB] [Text=has CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=DT] [Text=future CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=IN] [Text=acting CharacterOffsetBegin=225 CharacterOffsetEnd=231 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, fit-4)
+dep(fit-4, Everyone-1)
+nsubjpass(fit-4, casted-2)
+auxpass(fit-4, was-3)
+prep(fit-4, for-5)
+det(part-7, the-6)
+pobj(for-5, part-7)
+nsubj(had-9, they-8)
+rcmod(part-7, had-9)
+punct(fit-4, ,-10)
+cc(fit-4, and-11)
+amod(Labeouf-13, Shia-12)
+nsubj(has-15, Labeouf-13)
+advmod(has-15, really-14)
+conj(fit-4, has-15)
+det(future-17, a-16)
+dobj(has-15, future-17)
+prep(future-17, with-18)
+pcomp(with-18, acting-19)
+punct(fit-4, .-20)
+
+Sentence #5 (16 tokens):
+Sigourney Weaver was perfect for The Warden, she was exactly how I imagined her.
+[Text=Sigourney CharacterOffsetBegin=237 CharacterOffsetEnd=246 PartOfSpeech=NNP] [Text=Weaver CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=VBD] [Text=perfect CharacterOffsetBegin=258 CharacterOffsetEnd=265 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=Warden CharacterOffsetBegin=274 CharacterOffsetEnd=280 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=,] [Text=she CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=VBD] [Text=exactly CharacterOffsetBegin=290 CharacterOffsetEnd=297 PartOfSpeech=RB] [Text=how CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=PRP] [Text=imagined CharacterOffsetBegin=304 CharacterOffsetEnd=312 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.] 
+root(ROOT-0, perfect-4)
+nn(Weaver-2, Sigourney-1)
+nsubj(perfect-4, Weaver-2)
+cop(perfect-4, was-3)
+prep(perfect-4, for-5)
+det(Warden-7, The-6)
+pobj(for-5, Warden-7)
+punct(perfect-4, ,-8)
+nsubj(was-10, she-9)
+ccomp(perfect-4, was-10)
+advmod(how-12, exactly-11)
+advmod(imagined-14, how-12)
+nsubj(imagined-14, I-13)
+ccomp(was-10, imagined-14)
+dobj(imagined-14, her-15)
+punct(perfect-4, .-16)
+
+Sentence #6 (19 tokens):
+everyone who hasn't seen it I recommend it and I guarantee you will 'Dig It'.
+[Text=everyone CharacterOffsetBegin=322 CharacterOffsetEnd=330 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=WP] [Text=has CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=PRP] [Text=I CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=PRP] [Text=recommend CharacterOffsetBegin=352 CharacterOffsetEnd=361 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=PRP] [Text=guarantee CharacterOffsetBegin=371 CharacterOffsetEnd=380 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=MD] [Text=` CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=``] [Text=Dig CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=VB] [Text=It CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=PRP] [Text=' CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=''] [Text=. CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=.] 
+root(ROOT-0, everyone-1)
+nsubj(seen-5, who-2)
+aux(seen-5, has-3)
+neg(seen-5, n't-4)
+rcmod(everyone-1, seen-5)
+dobj(seen-5, it-6)
+nsubj(recommend-8, I-7)
+dep(seen-5, recommend-8)
+dobj(recommend-8, it-9)
+cc(recommend-8, and-10)
+nsubj(guarantee-12, I-11)
+conj(recommend-8, guarantee-12)
+nsubj(Dig-16, you-13)
+aux(Dig-16, will-14)
+punct(Dig-16, `-15)
+ccomp(guarantee-12, Dig-16)
+dobj(Dig-16, It-17)
+punct(Dig-16, '-18)
+punct(everyone-1, .-19)
+

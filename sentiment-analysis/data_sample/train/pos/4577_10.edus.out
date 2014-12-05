@@ -1,0 +1,69 @@
+Sentence #1 (13 tokens):
+This movie is so good I could watch it all day long!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=MD] [Text=watch CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=day CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=long CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, good-5)
+det(movie-2, This-1)
+nsubj(good-5, movie-2)
+cop(good-5, is-3)
+advmod(good-5, so-4)
+nsubj(watch-8, I-6)
+aux(watch-8, could-7)
+ccomp(good-5, watch-8)
+dobj(watch-8, it-9)
+det(day-11, all-10)
+npadvmod(long-12, day-11)
+advmod(watch-8, long-12)
+punct(good-5, !-13)
+
+Sentence #2 (9 tokens):
+Mary-Kate and Ashley were robbed at Oscar time!!
+[Text=Mary-Kate CharacterOffsetBegin=61 CharacterOffsetEnd=70 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=CC] [Text=Ashley CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=VBD] [Text=robbed CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=Oscar CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=NNP] [Text=time CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=!! CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=IN] 
+root(ROOT-0, robbed-5)
+nsubjpass(robbed-5, Mary-Kate-1)
+cc(Mary-Kate-1, and-2)
+conj(Mary-Kate-1, Ashley-3)
+auxpass(robbed-5, were-4)
+prep(robbed-5, at-6)
+nn(time-8, Oscar-7)
+pobj(at-6, time-8)
+xcomp(robbed-5, !!-9)
+
+Sentence #3 (15 tokens):
+If I got to be one of the actors I would be so excited!!!
+[Text=If CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=VB] [Text=one CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=140 CharacterOffsetEnd=146 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=VB] [Text=so CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=RB] [Text=excited CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=JJ] [Text=!!! CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=IN] 
+root(ROOT-0, excited-14)
+mark(got-3, If-1)
+nsubj(got-3, I-2)
+advcl(excited-14, got-3)
+aux(one-6, to-4)
+cop(one-6, be-5)
+xcomp(got-3, one-6)
+prep(one-6, of-7)
+det(actors-9, the-8)
+pobj(of-7, actors-9)
+nsubj(excited-14, I-10)
+aux(excited-14, would-11)
+cop(excited-14, be-12)
+advmod(excited-14, so-13)
+dep(excited-14, !!!-15)
+
+Sentence #4 (16 tokens):
+I can't wait for the new Charlie's Angels movie starring Mary-Kate and Ashley.
+[Text=I CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=RB] [Text=wait CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=JJ] [Text=Charlie CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=POS] [Text=Angels CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=NNPS] [Text=movie CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=starring CharacterOffsetBegin=224 CharacterOffsetEnd=232 PartOfSpeech=VBG] [Text=Mary-Kate CharacterOffsetBegin=233 CharacterOffsetEnd=242 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=CC] [Text=Ashley CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=.] 
+root(ROOT-0, wait-4)
+nsubj(wait-4, I-1)
+aux(wait-4, ca-2)
+neg(wait-4, n't-3)
+prep(wait-4, for-5)
+det(Charlie-8, the-6)
+amod(Charlie-8, new-7)
+poss(movie-11, Charlie-8)
+possessive(Charlie-8, 's-9)
+nn(movie-11, Angels-10)
+pobj(for-5, movie-11)
+partmod(movie-11, starring-12)
+dobj(starring-12, Mary-Kate-13)
+cc(Mary-Kate-13, and-14)
+conj(Mary-Kate-13, Ashley-15)
+punct(wait-4, .-16)
+

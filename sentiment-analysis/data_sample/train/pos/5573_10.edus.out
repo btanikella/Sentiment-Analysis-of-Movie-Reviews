@@ -1,0 +1,228 @@
+Sentence #1 (4 tokens):
+A MUST SEE!
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=MUST CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=NN] [Text=SEE CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=VBP] [Text=! CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=.] 
+root(ROOT-0, SEE-3)
+det(MUST-2, A-1)
+nsubj(SEE-3, MUST-2)
+punct(SEE-3, !-4)
+
+Sentence #2 (12 tokens):
+I saw WHIPPED at a press screening and it was hilarious.
+[Text=I CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=VBD] [Text=WHIPPED CharacterOffsetBegin=26 CharacterOffsetEnd=33 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=DT] [Text=press CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=screening CharacterOffsetBegin=45 CharacterOffsetEnd=54 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=VBD] [Text=hilarious CharacterOffsetBegin=66 CharacterOffsetEnd=75 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+dobj(saw-2, WHIPPED-3)
+prep(WHIPPED-3, at-4)
+det(screening-7, a-5)
+nn(screening-7, press-6)
+pobj(at-4, screening-7)
+cc(WHIPPED-3, and-8)
+nsubj(hilarious-11, it-9)
+cop(hilarious-11, was-10)
+conj(WHIPPED-3, hilarious-11)
+punct(saw-2, .-12)
+
+Sentence #3 (6 tokens):
+We're talking nonstop laughs.
+[Text=We CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=VBP] [Text=talking CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=VBG] [Text=nonstop CharacterOffsetBegin=95 CharacterOffsetEnd=102 PartOfSpeech=JJ] [Text=laughs CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.] 
+root(ROOT-0, talking-3)
+nsubj(talking-3, We-1)
+aux(talking-3, 're-2)
+amod(laughs-5, nonstop-4)
+dobj(talking-3, laughs-5)
+punct(talking-3, .-6)
+
+Sentence #4 (11 tokens):
+It makes SOMETHING ABOUT MARY seem like a meandering drama.
+[Text=It CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=PRP] [Text=makes CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=VBZ] [Text=SOMETHING CharacterOffsetBegin=124 CharacterOffsetEnd=133 PartOfSpeech=NNP] [Text=ABOUT CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NNP] [Text=MARY CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text=seem CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=VBP] [Text=like CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=DT] [Text=meandering CharacterOffsetBegin=157 CharacterOffsetEnd=167 PartOfSpeech=JJ] [Text=drama CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=.] 
+root(ROOT-0, makes-2)
+nsubj(makes-2, It-1)
+nn(MARY-5, SOMETHING-3)
+nn(MARY-5, ABOUT-4)
+nsubj(seem-6, MARY-5)
+ccomp(makes-2, seem-6)
+prep(seem-6, like-7)
+det(drama-10, a-8)
+amod(drama-10, meandering-9)
+pobj(like-7, drama-10)
+punct(makes-2, .-11)
+
+Sentence #5 (19 tokens):
+Amanda Peet screams star quality with her winning combination of beauty, brains, and serious acting ability.
+[Text=Amanda CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NNP] [Text=Peet CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=NNP] [Text=screams CharacterOffsetBegin=191 CharacterOffsetEnd=198 PartOfSpeech=NNS] [Text=star CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=VB] [Text=quality CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=PRP$] [Text=winning CharacterOffsetBegin=221 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=combination CharacterOffsetBegin=229 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=IN] [Text=beauty CharacterOffsetBegin=244 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=,] [Text=brains CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=,] [Text=and CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=CC] [Text=serious CharacterOffsetBegin=264 CharacterOffsetEnd=271 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=272 CharacterOffsetEnd=278 PartOfSpeech=VBG] [Text=ability CharacterOffsetBegin=279 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, quality-5)
+nn(quality-5, Amanda-1)
+nn(quality-5, Peet-2)
+nn(quality-5, screams-3)
+nn(quality-5, star-4)
+prep(quality-5, with-6)
+poss(combination-9, her-7)
+amod(combination-9, winning-8)
+pobj(with-6, combination-9)
+prep(combination-9, of-10)
+pobj(of-10, beauty-11)
+punct(beauty-11, ,-12)
+conj(beauty-11, brains-13)
+punct(beauty-11, ,-14)
+cc(beauty-11, and-15)
+amod(ability-18, serious-16)
+amod(ability-18, acting-17)
+conj(beauty-11, ability-18)
+punct(quality-5, .-19)
+
+Sentence #6 (27 tokens):
+Peter Cohen, the director, has made a cutting edge film that shows the raw inside of men's egos in the urban dating world.
+[Text=Peter CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=NNP] [Text=Cohen CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=,] [Text=the CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=309 CharacterOffsetEnd=317 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=,] [Text=has CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=VBZ] [Text=made CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=cutting CharacterOffsetBegin=330 CharacterOffsetEnd=337 PartOfSpeech=VBG] [Text=edge CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=WDT] [Text=shows CharacterOffsetBegin=353 CharacterOffsetEnd=358 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=DT] [Text=raw CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=JJ] [Text=inside CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=IN] [Text=men CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=NNS] [Text='s CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=POS] [Text=egos CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=DT] [Text=urban CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=JJ] [Text=dating CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=VBG] [Text=world CharacterOffsetBegin=408 CharacterOffsetEnd=413 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=.] 
+root(ROOT-0, made-8)
+nn(Cohen-2, Peter-1)
+nsubj(made-8, Cohen-2)
+punct(Cohen-2, ,-3)
+det(director-5, the-4)
+appos(Cohen-2, director-5)
+punct(Cohen-2, ,-6)
+aux(made-8, has-7)
+det(film-12, a-9)
+nn(film-12, cutting-10)
+nn(film-12, edge-11)
+dobj(made-8, film-12)
+nsubj(shows-14, that-13)
+rcmod(film-12, shows-14)
+det(inside-17, the-15)
+amod(inside-17, raw-16)
+dobj(shows-14, inside-17)
+prep(inside-17, of-18)
+poss(egos-21, men-19)
+possessive(men-19, 's-20)
+pobj(of-18, egos-21)
+prep(egos-21, in-22)
+det(world-26, the-23)
+amod(world-26, urban-24)
+amod(world-26, dating-25)
+pobj(in-22, world-26)
+punct(made-8, .-27)
+
+Sentence #7 (14 tokens):
+For all of it's comedy, Whipped succeeds with it's intelligence.
+[Text=For CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=VBZ] [Text=comedy CharacterOffsetBegin=435 CharacterOffsetEnd=441 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=,] [Text=Whipped CharacterOffsetBegin=443 CharacterOffsetEnd=450 PartOfSpeech=VBD] [Text=succeeds CharacterOffsetBegin=451 CharacterOffsetEnd=459 PartOfSpeech=VBZ] [Text=with CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=467 CharacterOffsetEnd=469 PartOfSpeech=VBZ] [Text=intelligence CharacterOffsetBegin=470 CharacterOffsetEnd=482 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=482 CharacterOffsetEnd=483 PartOfSpeech=.] 
+root(ROOT-0, succeeds-9)
+prep(succeeds-9, For-1)
+pobj(For-1, all-2)
+prep(all-2, of-3)
+nsubj(comedy-6, it-4)
+cop(comedy-6, 's-5)
+pobj(of-3, comedy-6)
+punct(succeeds-9, ,-7)
+nsubj(succeeds-9, Whipped-8)
+mark(intelligence-13, with-10)
+nsubj(intelligence-13, it-11)
+cop(intelligence-13, 's-12)
+advcl(succeeds-9, intelligence-13)
+punct(succeeds-9, .-14)
+
+Sentence #8 (16 tokens):
+Which is so rare for a first time director, especially with a romantic comedy.
+[Text=Which CharacterOffsetBegin=488 CharacterOffsetEnd=493 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=RB] [Text=rare CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=511 CharacterOffsetEnd=516 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=director CharacterOffsetBegin=522 CharacterOffsetEnd=530 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=,] [Text=especially CharacterOffsetBegin=532 CharacterOffsetEnd=542 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=DT] [Text=romantic CharacterOffsetBegin=550 CharacterOffsetEnd=558 PartOfSpeech=JJ] [Text=comedy CharacterOffsetBegin=559 CharacterOffsetEnd=565 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=.] 
+root(ROOT-0, rare-4)
+nsubj(rare-4, Which-1)
+cop(rare-4, is-2)
+advmod(rare-4, so-3)
+prep(rare-4, for-5)
+det(director-9, a-6)
+amod(director-9, first-7)
+nn(director-9, time-8)
+pobj(for-5, director-9)
+punct(director-9, ,-10)
+advmod(with-12, especially-11)
+prep(director-9, with-12)
+det(comedy-15, a-13)
+amod(comedy-15, romantic-14)
+pobj(with-12, comedy-15)
+punct(rare-4, .-16)
+
+Sentence #9 (6 tokens):
+He is a major talent.
+[Text=He CharacterOffsetBegin=571 CharacterOffsetEnd=573 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=DT] [Text=major CharacterOffsetBegin=579 CharacterOffsetEnd=584 PartOfSpeech=JJ] [Text=talent CharacterOffsetBegin=585 CharacterOffsetEnd=591 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=591 CharacterOffsetEnd=592 PartOfSpeech=.] 
+root(ROOT-0, talent-5)
+nsubj(talent-5, He-1)
+cop(talent-5, is-2)
+det(talent-5, a-3)
+amod(talent-5, major-4)
+punct(talent-5, .-6)
+
+Sentence #10 (32 tokens):
+Judah Domke, Brian Van Holt, Jonathan Abrahams, and Zorie Barber round out the cast with depth and very strong performances as the would be slick lady's men.
+[Text=Judah CharacterOffsetBegin=597 CharacterOffsetEnd=602 PartOfSpeech=NNP] [Text=Domke CharacterOffsetBegin=603 CharacterOffsetEnd=608 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=,] [Text=Brian CharacterOffsetBegin=610 CharacterOffsetEnd=615 PartOfSpeech=NNP] [Text=Van CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=NNP] [Text=Holt CharacterOffsetBegin=620 CharacterOffsetEnd=624 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=,] [Text=Jonathan CharacterOffsetBegin=626 CharacterOffsetEnd=634 PartOfSpeech=NNP] [Text=Abrahams CharacterOffsetBegin=635 CharacterOffsetEnd=643 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=,] [Text=and CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=CC] [Text=Zorie CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=NNP] [Text=Barber CharacterOffsetBegin=655 CharacterOffsetEnd=661 PartOfSpeech=NNP] [Text=round CharacterOffsetBegin=662 CharacterOffsetEnd=667 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=668 CharacterOffsetEnd=671 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=672 CharacterOffsetEnd=675 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=IN] [Text=depth CharacterOffsetBegin=686 CharacterOffsetEnd=691 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=CC] [Text=very CharacterOffsetBegin=696 CharacterOffsetEnd=700 PartOfSpeech=RB] [Text=strong CharacterOffsetBegin=701 CharacterOffsetEnd=707 PartOfSpeech=JJ] [Text=performances CharacterOffsetBegin=708 CharacterOffsetEnd=720 PartOfSpeech=NNS] [Text=as CharacterOffsetBegin=721 CharacterOffsetEnd=723 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=DT] [Text=would CharacterOffsetBegin=728 CharacterOffsetEnd=733 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=734 CharacterOffsetEnd=736 PartOfSpeech=VB] [Text=slick CharacterOffsetBegin=737 CharacterOffsetEnd=742 PartOfSpeech=JJ] [Text=lady CharacterOffsetBegin=743 CharacterOffsetEnd=747 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=747 CharacterOffsetEnd=749 PartOfSpeech=POS] [Text=men CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=753 CharacterOffsetEnd=754 PartOfSpeech=.] 
+root(ROOT-0, Domke-2)
+nn(Domke-2, Judah-1)
+punct(Domke-2, ,-3)
+nn(Holt-6, Brian-4)
+nn(Holt-6, Van-5)
+conj(Domke-2, Holt-6)
+punct(Domke-2, ,-7)
+nn(Abrahams-9, Jonathan-8)
+conj(Domke-2, Abrahams-9)
+punct(Domke-2, ,-10)
+cc(Domke-2, and-11)
+nn(round-14, Zorie-12)
+nn(round-14, Barber-13)
+conj(Domke-2, round-14)
+prep(round-14, out-15)
+det(cast-17, the-16)
+pcomp(out-15, cast-17)
+prep(cast-17, with-18)
+pobj(with-18, depth-19)
+cc(depth-19, and-20)
+advmod(strong-22, very-21)
+amod(performances-23, strong-22)
+conj(depth-19, performances-23)
+mark(men-31, as-24)
+nsubj(men-31, the-25)
+aux(men-31, would-26)
+cop(men-31, be-27)
+amod(lady-29, slick-28)
+poss(men-31, lady-29)
+possessive(lady-29, 's-30)
+advcl(cast-17, men-31)
+punct(Domke-2, .-32)
+
+Sentence #11 (18 tokens):
+You've got to see these guys go to work and get caught in Peet's web.
+[Text=You CharacterOffsetBegin=759 CharacterOffsetEnd=762 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=VBP] [Text=got CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=770 CharacterOffsetEnd=772 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=VB] [Text=these CharacterOffsetBegin=777 CharacterOffsetEnd=782 PartOfSpeech=DT] [Text=guys CharacterOffsetBegin=783 CharacterOffsetEnd=787 PartOfSpeech=NNS] [Text=go CharacterOffsetBegin=788 CharacterOffsetEnd=790 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=791 CharacterOffsetEnd=793 PartOfSpeech=TO] [Text=work CharacterOffsetBegin=794 CharacterOffsetEnd=798 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=799 CharacterOffsetEnd=802 PartOfSpeech=CC] [Text=get CharacterOffsetBegin=803 CharacterOffsetEnd=806 PartOfSpeech=VB] [Text=caught CharacterOffsetBegin=807 CharacterOffsetEnd=813 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=814 CharacterOffsetEnd=816 PartOfSpeech=IN] [Text=Peet CharacterOffsetBegin=817 CharacterOffsetEnd=821 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=821 CharacterOffsetEnd=823 PartOfSpeech=POS] [Text=web CharacterOffsetBegin=824 CharacterOffsetEnd=827 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=.] 
+root(ROOT-0, got-3)
+nsubj(got-3, You-1)
+aux(got-3, 've-2)
+aux(see-5, to-4)
+xcomp(got-3, see-5)
+det(guys-7, these-6)
+nsubj(go-8, guys-7)
+ccomp(see-5, go-8)
+aux(work-10, to-9)
+xcomp(go-8, work-10)
+cc(work-10, and-11)
+auxpass(caught-13, get-12)
+conj(work-10, caught-13)
+prep(caught-13, in-14)
+poss(web-17, Peet-15)
+possessive(Peet-15, 's-16)
+pobj(in-14, web-17)
+punct(got-3, .-18)
+
+Sentence #12 (15 tokens):
+Check out the trailer on whipped.com, it's worth the 3 minute download.
+[Text=Check CharacterOffsetBegin=833 CharacterOffsetEnd=838 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=839 CharacterOffsetEnd=842 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=843 CharacterOffsetEnd=846 PartOfSpeech=DT] [Text=trailer CharacterOffsetBegin=847 CharacterOffsetEnd=854 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=855 CharacterOffsetEnd=857 PartOfSpeech=IN] [Text=whipped.com CharacterOffsetBegin=858 CharacterOffsetEnd=869 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=869 CharacterOffsetEnd=870 PartOfSpeech=,] [Text=it CharacterOffsetBegin=871 CharacterOffsetEnd=873 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=873 CharacterOffsetEnd=875 PartOfSpeech=VBZ] [Text=worth CharacterOffsetBegin=876 CharacterOffsetEnd=881 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=882 CharacterOffsetEnd=885 PartOfSpeech=DT] [Text=3 CharacterOffsetBegin=886 CharacterOffsetEnd=887 PartOfSpeech=CD] [Text=minute CharacterOffsetBegin=888 CharacterOffsetEnd=894 PartOfSpeech=NN] [Text=download CharacterOffsetBegin=895 CharacterOffsetEnd=903 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=903 CharacterOffsetEnd=904 PartOfSpeech=.] 
+root(ROOT-0, worth-10)
+ccomp(worth-10, Check-1)
+prt(Check-1, out-2)
+det(trailer-4, the-3)
+dobj(Check-1, trailer-4)
+prep(trailer-4, on-5)
+pobj(on-5, whipped.com-6)
+punct(worth-10, ,-7)
+nsubj(worth-10, it-8)
+cop(worth-10, 's-9)
+det(download-14, the-11)
+number(minute-13, 3-12)
+amod(download-14, minute-13)
+dep(worth-10, download-14)
+punct(worth-10, .-15)
+

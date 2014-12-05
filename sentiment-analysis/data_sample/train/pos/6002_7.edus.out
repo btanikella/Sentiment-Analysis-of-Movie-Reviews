@@ -1,0 +1,97 @@
+Sentence #1 (7 tokens):
+This film had my heart pounding.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=PRP$] [Text=heart CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=pounding CharacterOffsetBegin=27 CharacterOffsetEnd=35 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.] 
+root(ROOT-0, had-3)
+det(film-2, This-1)
+nsubj(had-3, film-2)
+poss(heart-5, my-4)
+nsubj(pounding-6, heart-5)
+ccomp(had-3, pounding-6)
+punct(had-3, .-7)
+
+Sentence #2 (21 tokens):
+The acting was great, the erotic music and the beautiful women add up to make this one a winner.
+[Text=The CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=VBD] [Text=great CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=,] [Text=the CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=DT] [Text=erotic CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=music CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=beautiful CharacterOffsetBegin=88 CharacterOffsetEnd=97 PartOfSpeech=JJ] [Text=women CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=NNS] [Text=add CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=VBP] [Text=up CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=CD] [Text=a CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=winner CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=.] 
+root(ROOT-0, great-4)
+det(acting-2, The-1)
+nsubj(great-4, acting-2)
+cop(great-4, was-3)
+punct(great-4, ,-5)
+det(music-8, the-6)
+amod(music-8, erotic-7)
+nsubj(add-13, music-8)
+cc(music-8, and-9)
+det(women-12, the-10)
+amod(women-12, beautiful-11)
+conj(music-8, women-12)
+ccomp(great-4, add-13)
+prt(add-13, up-14)
+aux(make-16, to-15)
+xcomp(add-13, make-16)
+det(one-18, this-17)
+nsubj(winner-20, one-18)
+det(winner-20, a-19)
+xcomp(make-16, winner-20)
+punct(great-4, .-21)
+
+Sentence #3 (21 tokens):
+The lead actress decides to join an escort service when she realizes that her husband has no time for her.
+[Text=The CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=DT] [Text=lead CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=actress CharacterOffsetBegin=151 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=decides CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=TO] [Text=join CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=VB] [Text=an CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=escort CharacterOffsetBegin=178 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=service CharacterOffsetBegin=185 CharacterOffsetEnd=192 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=WRB] [Text=she CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=PRP] [Text=realizes CharacterOffsetBegin=202 CharacterOffsetEnd=210 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=PRP$] [Text=husband CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=.] 
+root(ROOT-0, lead-2)
+det(lead-2, The-1)
+nsubj(decides-4, actress-3)
+rcmod(lead-2, decides-4)
+aux(join-6, to-5)
+xcomp(decides-4, join-6)
+det(service-9, an-7)
+nn(service-9, escort-8)
+dobj(join-6, service-9)
+advmod(realizes-12, when-10)
+nsubj(realizes-12, she-11)
+advcl(join-6, realizes-12)
+mark(has-16, that-13)
+poss(husband-15, her-14)
+nsubj(has-16, husband-15)
+ccomp(realizes-12, has-16)
+det(time-18, no-17)
+dobj(has-16, time-18)
+prep(has-16, for-19)
+pobj(for-19, her-20)
+punct(lead-2, .-21)
+
+Sentence #4 (15 tokens):
+She step's into a whole new world her first client being another woman.
+[Text=She CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=PRP] [Text=step CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=VB] [Text='s CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=POS] [Text=into CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=JJ] [Text=new CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=JJ] [Text=world CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=her CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=PRP$] [Text=first CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=JJ] [Text=client CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=being CharacterOffsetBegin=304 CharacterOffsetEnd=309 PartOfSpeech=VBG] [Text=another CharacterOffsetBegin=310 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=.] 
+root(ROOT-0, step-2)
+nsubj(step-2, She-1)
+dobj(step-2, 's-3)
+prep(step-2, into-4)
+det(world-8, a-5)
+amod(world-8, whole-6)
+amod(world-8, new-7)
+pobj(into-4, world-8)
+poss(client-11, her-9)
+amod(client-11, first-10)
+nsubj(woman-14, client-11)
+cop(woman-14, being-12)
+det(woman-14, another-13)
+xcomp(step-2, woman-14)
+punct(step-2, .-15)
+
+Sentence #5 (13 tokens):
+This is a film you definitely DON'T want to pass up.
+[Text=This CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=PRP] [Text=definitely CharacterOffsetBegin=348 CharacterOffsetEnd=358 PartOfSpeech=RB] [Text=DO CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=NNP] [Text=N'T CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=TO] [Text=pass CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=.] 
+root(ROOT-0, film-4)
+nsubj(film-4, This-1)
+cop(film-4, is-2)
+det(film-4, a-3)
+dep(want-9, you-5)
+advmod(DO-7, definitely-6)
+nsubj(want-9, DO-7)
+advmod(want-9, N'T-8)
+rcmod(film-4, want-9)
+aux(pass-11, to-10)
+xcomp(want-9, pass-11)
+prt(pass-11, up-12)
+punct(film-4, .-13)
+

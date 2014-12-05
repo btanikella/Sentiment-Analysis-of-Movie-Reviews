@@ -1,0 +1,214 @@
+Sentence #1 (6 tokens):
+OK now, lets see.
+[Text=OK CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=UH] [Text=now CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=,] [Text=lets CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=VBZ] [Text=see CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, lets-4)
+advmod(lets-4, OK-1)
+advmod(OK-1, now-2)
+punct(lets-4, ,-3)
+dobj(lets-4, see-5)
+punct(lets-4, .-6)
+
+Sentence #2 (8 tokens):
+What was funny in the first movie?
+[Text=What CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=VBD] [Text=funny CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=.] 
+root(ROOT-0, funny-3)
+nsubj(funny-3, What-1)
+cop(funny-3, was-2)
+prep(funny-3, in-4)
+det(movie-7, the-5)
+amod(movie-7, first-6)
+pobj(in-4, movie-7)
+punct(funny-3, ?-8)
+
+Sentence #3 (25 tokens):
+I know, people with funny accents, people falling into the water, silly boat crashes and funny comments between the two teams.
+[Text=I CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=,] [Text=people CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=IN] [Text=funny CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=JJ] [Text=accents CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=,] [Text=people CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=NNS] [Text=falling CharacterOffsetBegin=107 CharacterOffsetEnd=114 PartOfSpeech=VBG] [Text=into CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=water CharacterOffsetBegin=124 CharacterOffsetEnd=129 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=,] [Text=silly CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=JJ] [Text=boat CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NN] [Text=crashes CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC] [Text=funny CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=comments CharacterOffsetBegin=160 CharacterOffsetEnd=168 PartOfSpeech=NNS] [Text=between CharacterOffsetBegin=169 CharacterOffsetEnd=176 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=DT] [Text=two CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=CD] [Text=teams CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, I-1)
+punct(know-2, ,-3)
+dobj(know-2, people-4)
+prep(people-4, with-5)
+amod(accents-7, funny-6)
+pobj(with-5, accents-7)
+punct(know-2, ,-8)
+dep(know-2, people-9)
+partmod(people-9, falling-10)
+prep(falling-10, into-11)
+det(water-13, the-12)
+pobj(into-11, water-13)
+punct(people-9, ,-14)
+amod(crashes-17, silly-15)
+nn(crashes-17, boat-16)
+conj(people-9, crashes-17)
+cc(people-9, and-18)
+amod(comments-20, funny-19)
+conj(people-9, comments-20)
+prep(people-9, between-21)
+det(teams-24, the-22)
+num(teams-24, two-23)
+pobj(between-21, teams-24)
+punct(know-2, .-25)
+
+Sentence #4 (16 tokens):
+In this movie they have twisted the accent part to the max, no good.
+[Text=In CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=they CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=VBP] [Text=twisted CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=DT] [Text=accent CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=NN] [Text=part CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=DT] [Text=max CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=,] [Text=no CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=.] 
+root(ROOT-0, twisted-6)
+prep(twisted-6, In-1)
+det(movie-3, this-2)
+pobj(In-1, movie-3)
+nsubj(twisted-6, they-4)
+aux(twisted-6, have-5)
+det(part-9, the-7)
+nn(part-9, accent-8)
+dobj(twisted-6, part-9)
+prep(twisted-6, to-10)
+det(max-12, the-11)
+pobj(to-10, max-12)
+punct(twisted-6, ,-13)
+det(good-15, no-14)
+npadvmod(twisted-6, good-15)
+punct(twisted-6, .-16)
+
+Sentence #5 (18 tokens):
+A whole a lot of people are falling into the water for uncertain reasons, no good.
+[Text=A CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=VBP] [Text=falling CharacterOffsetBegin=297 CharacterOffsetEnd=304 PartOfSpeech=VBG] [Text=into CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=DT] [Text=water CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=IN] [Text=uncertain CharacterOffsetBegin=324 CharacterOffsetEnd=333 PartOfSpeech=JJ] [Text=reasons CharacterOffsetBegin=334 CharacterOffsetEnd=341 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=,] [Text=no CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=.] 
+root(ROOT-0, falling-8)
+det(whole-2, A-1)
+dep(falling-8, whole-2)
+det(lot-4, a-3)
+nsubj(falling-8, lot-4)
+prep(lot-4, of-5)
+pobj(of-5, people-6)
+aux(falling-8, are-7)
+prep(falling-8, into-9)
+det(water-11, the-10)
+pobj(into-9, water-11)
+prep(falling-8, for-12)
+amod(reasons-14, uncertain-13)
+pobj(for-12, reasons-14)
+punct(falling-8, ,-15)
+det(good-17, no-16)
+npadvmod(falling-8, good-17)
+punct(falling-8, .-18)
+
+Sentence #6 (4 tokens):
+Boatcrash, check.
+[Text=Boatcrash CharacterOffsetBegin=356 CharacterOffsetEnd=365 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=,] [Text=check CharacterOffsetBegin=367 CharacterOffsetEnd=372 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=.] 
+root(ROOT-0, Boatcrash-1)
+punct(Boatcrash-1, ,-2)
+appos(Boatcrash-1, check-3)
+punct(Boatcrash-1, .-4)
+
+Sentence #7 (12 tokens):
+Funny comments between the two teams, they tried but failed.
+[Text=Funny CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=JJ] [Text=comments CharacterOffsetBegin=384 CharacterOffsetEnd=392 PartOfSpeech=NNS] [Text=between CharacterOffsetBegin=393 CharacterOffsetEnd=400 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=DT] [Text=two CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=CD] [Text=teams CharacterOffsetBegin=409 CharacterOffsetEnd=414 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=,] [Text=they CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=PRP] [Text=tried CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=VBD] [Text=but CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=CC] [Text=failed CharacterOffsetBegin=431 CharacterOffsetEnd=437 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=.] 
+root(ROOT-0, comments-2)
+amod(comments-2, Funny-1)
+prep(comments-2, between-3)
+det(teams-6, the-4)
+num(teams-6, two-5)
+pobj(between-3, teams-6)
+punct(comments-2, ,-7)
+nsubj(tried-9, they-8)
+rcmod(comments-2, tried-9)
+cc(tried-9, but-10)
+conj(tried-9, failed-11)
+punct(comments-2, .-12)
+
+Sentence #8 (14 tokens):
+Also, there are too may personalities they are following in this movie.
+[Text=Also CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=,] [Text=there CharacterOffsetBegin=449 CharacterOffsetEnd=454 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=VBP] [Text=too CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=RB] [Text=may CharacterOffsetBegin=463 CharacterOffsetEnd=466 PartOfSpeech=MD] [Text=personalities CharacterOffsetBegin=467 CharacterOffsetEnd=480 PartOfSpeech=NNS] [Text=they CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=VBP] [Text=following CharacterOffsetBegin=490 CharacterOffsetEnd=499 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=508 CharacterOffsetEnd=513 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=513 CharacterOffsetEnd=514 PartOfSpeech=.] 
+root(ROOT-0, are-4)
+advmod(are-4, Also-1)
+punct(are-4, ,-2)
+expl(are-4, there-3)
+advmod(are-4, too-5)
+aux(personalities-7, may-6)
+nsubj(are-4, personalities-7)
+nsubj(following-10, they-8)
+aux(following-10, are-9)
+rcmod(personalities-7, following-10)
+prep(following-10, in-11)
+det(movie-13, this-12)
+pobj(in-11, movie-13)
+punct(are-4, .-14)
+
+Sentence #9 (16 tokens):
+This film should be about what is happening on the water, not on land.
+[Text=This CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=529 CharacterOffsetEnd=535 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=539 CharacterOffsetEnd=544 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=VBZ] [Text=happening CharacterOffsetBegin=553 CharacterOffsetEnd=562 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=DT] [Text=water CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=,] [Text=not CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=IN] [Text=land CharacterOffsetBegin=584 CharacterOffsetEnd=588 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=.] 
+root(ROOT-0, be-4)
+det(film-2, This-1)
+nsubj(be-4, film-2)
+aux(be-4, should-3)
+prep(be-4, about-5)
+nsubj(happening-8, what-6)
+aux(happening-8, is-7)
+pcomp(about-5, happening-8)
+prep(happening-8, on-9)
+det(water-11, the-10)
+pobj(on-9, water-11)
+punct(about-5, ,-12)
+neg(about-5, not-13)
+prep(about-5, on-14)
+pobj(on-14, land-15)
+punct(be-4, .-16)
+
+Sentence #10 (26 tokens):
+I am sorry to say that there is too far between the funny parts and the sponsors of the film are exploited to the max.
+[Text=I CharacterOffsetBegin=594 CharacterOffsetEnd=595 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=VBP] [Text=sorry CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=617 CharacterOffsetEnd=622 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=VBZ] [Text=too CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=RB] [Text=far CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=RB] [Text=between CharacterOffsetBegin=634 CharacterOffsetEnd=641 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=DT] [Text=funny CharacterOffsetBegin=646 CharacterOffsetEnd=651 PartOfSpeech=JJ] [Text=parts CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=DT] [Text=sponsors CharacterOffsetBegin=666 CharacterOffsetEnd=674 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=675 CharacterOffsetEnd=677 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=682 CharacterOffsetEnd=686 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=VBP] [Text=exploited CharacterOffsetBegin=691 CharacterOffsetEnd=700 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=701 CharacterOffsetEnd=703 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=704 CharacterOffsetEnd=707 PartOfSpeech=DT] [Text=max CharacterOffsetBegin=708 CharacterOffsetEnd=711 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=711 CharacterOffsetEnd=712 PartOfSpeech=.] 
+root(ROOT-0, sorry-3)
+nsubj(sorry-3, I-1)
+cop(sorry-3, am-2)
+aux(say-5, to-4)
+xcomp(sorry-3, say-5)
+mark(is-8, that-6)
+expl(is-8, there-7)
+ccomp(say-5, is-8)
+advmod(far-10, too-9)
+advmod(is-8, far-10)
+prep(far-10, between-11)
+det(parts-14, the-12)
+amod(parts-14, funny-13)
+pobj(between-11, parts-14)
+cc(parts-14, and-15)
+det(sponsors-17, the-16)
+conj(parts-14, sponsors-17)
+prep(sponsors-17, of-18)
+det(film-20, the-19)
+pobj(of-18, film-20)
+auxpass(exploited-22, are-21)
+ccomp(is-8, exploited-22)
+prep(exploited-22, to-23)
+det(max-25, the-24)
+pobj(to-23, max-25)
+punct(sorry-3, .-26)
+
+Sentence #11 (3 tokens):
+No good.
+[Text=No CharacterOffsetBegin=717 CharacterOffsetEnd=719 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=720 CharacterOffsetEnd=724 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=724 CharacterOffsetEnd=725 PartOfSpeech=.] 
+root(ROOT-0, good-2)
+det(good-2, No-1)
+punct(good-2, .-3)
+
+Sentence #12 (18 tokens):
+All in all, I give it four out of ten since it has some funny parts.
+[Text=All CharacterOffsetBegin=730 CharacterOffsetEnd=733 PartOfSpeech=DT] [Text=in CharacterOffsetBegin=734 CharacterOffsetEnd=736 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=740 CharacterOffsetEnd=741 PartOfSpeech=,] [Text=I CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech=PRP] [Text=give CharacterOffsetBegin=744 CharacterOffsetEnd=748 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=749 CharacterOffsetEnd=751 PartOfSpeech=PRP] [Text=four CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=757 CharacterOffsetEnd=760 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=761 CharacterOffsetEnd=763 PartOfSpeech=IN] [Text=ten CharacterOffsetBegin=764 CharacterOffsetEnd=767 PartOfSpeech=CD] [Text=since CharacterOffsetBegin=768 CharacterOffsetEnd=773 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=774 CharacterOffsetEnd=776 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=777 CharacterOffsetEnd=780 PartOfSpeech=VBZ] [Text=some CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=DT] [Text=funny CharacterOffsetBegin=786 CharacterOffsetEnd=791 PartOfSpeech=JJ] [Text=parts CharacterOffsetBegin=792 CharacterOffsetEnd=797 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=.] 
+root(ROOT-0, give-6)
+dep(give-6, All-1)
+prep(All-1, in-2)
+pobj(in-2, all-3)
+punct(give-6, ,-4)
+nsubj(give-6, I-5)
+iobj(give-6, it-7)
+dobj(give-6, four-8)
+prep(four-8, out-9)
+pcomp(out-9, of-10)
+pobj(of-10, ten-11)
+mark(has-14, since-12)
+nsubj(has-14, it-13)
+advcl(give-6, has-14)
+det(parts-17, some-15)
+amod(parts-17, funny-16)
+dobj(has-14, parts-17)
+punct(give-6, .-18)
+

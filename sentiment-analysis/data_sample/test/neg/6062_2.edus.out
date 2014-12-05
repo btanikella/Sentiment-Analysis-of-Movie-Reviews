@@ -1,0 +1,67 @@
+Sentence #1 (12 tokens):
+My only question is: Why did they make this movie?
+[Text=My CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP$] [Text=only CharacterOffsetBegin=7 CharacterOffsetEnd=11 PartOfSpeech=JJ] [Text=question CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=VBZ] [Text=: CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=:] [Text=Why CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=PRP] [Text=make CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=.] 
+root(ROOT-0, is-4)
+poss(question-3, My-1)
+amod(question-3, only-2)
+nsubj(is-4, question-3)
+punct(is-4, :-5)
+advmod(make-9, Why-6)
+aux(make-9, did-7)
+nsubj(make-9, they-8)
+ccomp(is-4, make-9)
+det(movie-11, this-10)
+dobj(make-9, movie-11)
+punct(is-4, ?-12)
+
+Sentence #2 (16 tokens):
+Did they have a script or did they make it up as they went along?
+[Text=Did CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=CC] [Text=did CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=PRP] [Text=make CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=RP] [Text=as CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=PRP] [Text=went CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=VBD] [Text=along CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=IN] [Text=? CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+aux(have-3, Did-1)
+nsubj(have-3, they-2)
+det(script-5, a-4)
+dobj(have-3, script-5)
+cc(have-3, or-6)
+aux(make-9, did-7)
+nsubj(make-9, they-8)
+conj(have-3, make-9)
+dobj(make-9, it-10)
+prt(make-9, up-11)
+mark(went-14, as-12)
+nsubj(went-14, they-13)
+advcl(make-9, went-14)
+advmod(went-14, along-15)
+punct(have-3, ?-16)
+
+Sentence #3 (10 tokens):
+Boom Boom doesn't look like a Charley Davis.
+[Text=Boom CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=Boom CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=RB] [Text=look CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=VB] [Text=like CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=Charley CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=NNP] [Text=Davis CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=.] 
+root(ROOT-0, look-5)
+nn(Boom-2, Boom-1)
+nsubj(look-5, Boom-2)
+aux(look-5, does-3)
+neg(look-5, n't-4)
+prep(look-5, like-6)
+det(Davis-9, a-7)
+nn(Davis-9, Charley-8)
+pobj(like-6, Davis-9)
+punct(look-5, .-10)
+
+Sentence #4 (13 tokens):
+John Garfield probably turned over in his grave if he saw this.
+[Text=John CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=NNP] [Text=Garfield CharacterOffsetBegin=183 CharacterOffsetEnd=191 PartOfSpeech=NNP] [Text=probably CharacterOffsetBegin=192 CharacterOffsetEnd=200 PartOfSpeech=RB] [Text=turned CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=VBD] [Text=over CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=PRP$] [Text=grave CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=NN] [Text=if CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=.] 
+root(ROOT-0, turned-4)
+nn(Garfield-2, John-1)
+nsubj(turned-4, Garfield-2)
+advmod(turned-4, probably-3)
+prt(turned-4, over-5)
+prep(turned-4, in-6)
+poss(grave-8, his-7)
+pobj(in-6, grave-8)
+mark(saw-11, if-9)
+nsubj(saw-11, he-10)
+advcl(turned-4, saw-11)
+dobj(saw-11, this-12)
+punct(turned-4, .-13)
+

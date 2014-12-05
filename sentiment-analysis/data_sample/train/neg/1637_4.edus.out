@@ -1,0 +1,84 @@
+Sentence #1 (3 tokens):
+Bad acting.
+[Text=Bad CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=.] 
+root(ROOT-0, acting-2)
+amod(acting-2, Bad-1)
+punct(acting-2, .-3)
+
+Sentence #2 (3 tokens):
+Bad writing.
+[Text=Bad CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=writing CharacterOffsetBegin=24 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, writing-2)
+amod(writing-2, Bad-1)
+punct(writing-2, .-3)
+
+Sentence #3 (7 tokens):
+This was a poorly written film.
+[Text=This CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=poorly CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=RB] [Text=written CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=VBN] [Text=film CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nsubj(film-6, This-1)
+cop(film-6, was-2)
+det(film-6, a-3)
+amod(film-6, poorly-4)
+amod(film-6, written-5)
+punct(film-6, .-7)
+
+Sentence #4 (10 tokens):
+It's too bad because it had some potential.
+[Text=It CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=VBZ] [Text=too CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=JJ] [Text=because CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=potential CharacterOffsetBegin=106 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=.] 
+root(ROOT-0, bad-4)
+nsubj(bad-4, It-1)
+cop(bad-4, 's-2)
+advmod(bad-4, too-3)
+mark(had-7, because-5)
+nsubj(had-7, it-6)
+advcl(bad-4, had-7)
+det(potential-9, some-8)
+dobj(had-7, potential-9)
+punct(bad-4, .-10)
+
+Sentence #5 (20 tokens):
+It's not even close to American Pie or Something about Mary as previous comments might have you believe.
+[Text=It CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=RB] [Text=close CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=TO] [Text=American CharacterOffsetBegin=144 CharacterOffsetEnd=152 PartOfSpeech=JJ] [Text=Pie CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=NNP] [Text=or CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=CC] [Text=Something CharacterOffsetBegin=160 CharacterOffsetEnd=169 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=IN] [Text=Mary CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=previous CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=comments CharacterOffsetBegin=193 CharacterOffsetEnd=201 PartOfSpeech=NNS] [Text=might CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=PRP] [Text=believe CharacterOffsetBegin=217 CharacterOffsetEnd=224 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, have-17)
+nsubj(close-5, It-1)
+cop(close-5, 's-2)
+neg(close-5, not-3)
+advmod(close-5, even-4)
+csubj(have-17, close-5)
+prep(close-5, to-6)
+amod(Pie-8, American-7)
+pobj(to-6, Pie-8)
+cc(Pie-8, or-9)
+conj(Pie-8, Something-10)
+prep(Something-10, about-11)
+pobj(about-11, Mary-12)
+prep(close-5, as-13)
+amod(comments-15, previous-14)
+pobj(as-13, comments-15)
+aux(have-17, might-16)
+nsubj(believe-19, you-18)
+ccomp(have-17, believe-19)
+punct(have-17, .-20)
+
+Sentence #6 (17 tokens):
+Rent it at dollar night from you local video store if you're kind of bored.
+[Text=Rent CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NNP] [Text=it CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=PRP] [Text=at CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=IN] [Text=dollar CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=night CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=PRP] [Text=local CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=JJ] [Text=video CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=store CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=if CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=VBP] [Text=kind CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=IN] [Text=bored CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=.] 
+root(ROOT-0, night-5)
+nn(night-5, Rent-1)
+dobj(Rent-1, it-2)
+prep(Rent-1, at-3)
+pobj(at-3, dollar-4)
+prep(night-5, from-6)
+dep(store-10, you-7)
+amod(store-10, local-8)
+nn(store-10, video-9)
+pobj(from-6, store-10)
+mark(kind-14, if-11)
+nsubj(kind-14, you-12)
+cop(kind-14, 're-13)
+advcl(night-5, kind-14)
+prep(kind-14, of-15)
+pcomp(of-15, bored-16)
+punct(night-5, .-17)
+

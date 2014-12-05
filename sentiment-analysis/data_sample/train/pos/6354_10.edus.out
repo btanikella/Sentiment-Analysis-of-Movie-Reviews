@@ -1,0 +1,106 @@
+Sentence #1 (6 tokens):
+jim carrey can do anything.
+[Text=jim CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NN] [Text=carrey CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VB] [Text=anything CharacterOffsetBegin=22 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=.] 
+root(ROOT-0, do-4)
+nn(carrey-2, jim-1)
+nsubj(do-4, carrey-2)
+aux(do-4, can-3)
+dobj(do-4, anything-5)
+punct(do-4, .-6)
+
+Sentence #2 (18 tokens):
+i thought this was going to be some dumb childish movie, and it TOTALLY was not.
+[Text=i CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=LS] [Text=thought CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=VBD] [Text=going CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=VB] [Text=some CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=DT] [Text=dumb CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=JJ] [Text=childish CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=,] [Text=and CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=PRP] [Text=TOTALLY CharacterOffsetBegin=100 CharacterOffsetEnd=107 PartOfSpeech=RB] [Text=was CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, i-1)
+nsubj(going-5, this-3)
+aux(going-5, was-4)
+ccomp(thought-2, going-5)
+aux(movie-11, to-6)
+cop(movie-11, be-7)
+det(movie-11, some-8)
+amod(movie-11, dumb-9)
+amod(movie-11, childish-10)
+xcomp(going-5, movie-11)
+punct(thought-2, ,-12)
+cc(thought-2, and-13)
+nsubj(not-17, it-14)
+advmod(not-17, TOTALLY-15)
+cop(not-17, was-16)
+conj(thought-2, not-17)
+punct(thought-2, .-18)
+
+Sentence #3 (12 tokens):
+it was so incredibly funny for EVERYONE, adults & kids.
+[Text=it CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=RB] [Text=incredibly CharacterOffsetBegin=131 CharacterOffsetEnd=141 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=EVERYONE CharacterOffsetBegin=152 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=,] [Text=adults CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=NNS] [Text=& CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=CC] [Text=kids CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=.] 
+root(ROOT-0, funny-5)
+nsubj(funny-5, it-1)
+cop(funny-5, was-2)
+advmod(incredibly-4, so-3)
+advmod(funny-5, incredibly-4)
+prep(funny-5, for-6)
+pobj(for-6, EVERYONE-7)
+punct(EVERYONE-7, ,-8)
+conj(EVERYONE-7, adults-9)
+cc(EVERYONE-7, &-10)
+conj(EVERYONE-7, kids-11)
+punct(funny-5, .-12)
+
+Sentence #4 (35 tokens):
+i saw it once cause it was almost out of theatres, and now it's FINALLY coming out on DVD this tuesday and i'm way to excited, as you can see.
+[Text=i CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=LS] [Text=saw CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=PRP] [Text=once CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=RB] [Text=cause CharacterOffsetBegin=195 CharacterOffsetEnd=200 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=VBD] [Text=almost CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=RB] [Text=out CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=IN] [Text=theatres CharacterOffsetBegin=222 CharacterOffsetEnd=230 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=,] [Text=and CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=CC] [Text=now CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=VBZ] [Text=FINALLY CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=RB] [Text=coming CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=VBG] [Text=out CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=RP] [Text=on CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=IN] [Text=DVD CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=tuesday CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=CC] [Text=i CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=FW] [Text='m CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=VBP] [Text=way CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=TO] [Text=excited CharacterOffsetBegin=299 CharacterOffsetEnd=306 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=,] [Text=as CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, i-1)
+dobj(saw-2, it-3)
+advmod(cause-5, once-4)
+dep(saw-2, cause-5)
+nsubj(was-7, it-6)
+ccomp(cause-5, was-7)
+advmod(out-9, almost-8)
+prep(was-7, out-9)
+pcomp(out-9, of-10)
+pobj(of-10, theatres-11)
+punct(cause-5, ,-12)
+cc(cause-5, and-13)
+advmod(coming-18, now-14)
+nsubj(coming-18, it-15)
+aux(coming-18, 's-16)
+advmod(coming-18, FINALLY-17)
+conj(cause-5, coming-18)
+prt(coming-18, out-19)
+prep(coming-18, on-20)
+pobj(on-20, DVD-21)
+det(tuesday-23, this-22)
+nsubj(way-27, tuesday-23)
+cc(tuesday-23, and-24)
+conj(tuesday-23, i-25)
+cop(way-27, 'm-26)
+rcmod(DVD-21, way-27)
+aux(excited-29, to-28)
+infmod(way-27, excited-29)
+punct(saw-2, ,-30)
+mark(see-34, as-31)
+nsubj(see-34, you-32)
+aux(see-34, can-33)
+advcl(saw-2, see-34)
+punct(saw-2, .-35)
+
+Sentence #5 (15 tokens):
+you should definitely see it if you haven't already, it was so great!Liz
+[Text=you CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=MD] [Text=definitely CharacterOffsetBegin=339 CharacterOffsetEnd=349 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=PRP] [Text=if CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=RB] [Text=already CharacterOffsetBegin=372 CharacterOffsetEnd=379 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=,] [Text=it CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=RB] [Text=great!Liz CharacterOffsetBegin=391 CharacterOffsetEnd=400 PartOfSpeech=NN] 
+root(ROOT-0, see-4)
+nsubj(see-4, you-1)
+aux(see-4, should-2)
+advmod(see-4, definitely-3)
+dobj(see-4, it-5)
+mark(great!Liz-15, if-6)
+nsubj(great!Liz-15, you-7)
+aux(great!Liz-15, have-8)
+neg(great!Liz-15, n't-9)
+advmod(great!Liz-15, already-10)
+punct(great!Liz-15, ,-11)
+nsubj(great!Liz-15, it-12)
+cop(great!Liz-15, was-13)
+advmod(great!Liz-15, so-14)
+advcl(see-4, great!Liz-15)
+

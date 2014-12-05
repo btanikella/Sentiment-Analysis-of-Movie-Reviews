@@ -1,0 +1,96 @@
+Sentence #1 (9 tokens):
+The 74th Oscars was a very good one.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=74th CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=JJ] [Text=Oscars CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=NNS] [Text=was CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=.] 
+root(ROOT-0, one-8)
+det(Oscars-3, The-1)
+amod(Oscars-3, 74th-2)
+nsubj(one-8, Oscars-3)
+cop(one-8, was-4)
+det(one-8, a-5)
+advmod(good-7, very-6)
+amod(one-8, good-7)
+punct(one-8, .-9)
+
+Sentence #2 (12 tokens):
+Whoopi's work as EmCee was very funny, and light.
+[Text=Whoopi CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=POS] [Text=work CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=IN] [Text=EmCee CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=,] [Text=and CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=CC] [Text=light CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, funny-8)
+poss(work-3, Whoopi-1)
+possessive(Whoopi-1, 's-2)
+nsubj(funny-8, work-3)
+prep(work-3, as-4)
+pobj(as-4, EmCee-5)
+cop(funny-8, was-6)
+advmod(funny-8, very-7)
+punct(funny-8, ,-9)
+cc(funny-8, and-10)
+conj(funny-8, light-11)
+punct(funny-8, .-12)
+
+Sentence #3 (25 tokens):
+I personally loved her last apperance, which garnered some frigid reviews due to coarse language and salacious jokes, but that's fine.
+[Text=I CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=PRP] [Text=personally CharacterOffsetBegin=101 CharacterOffsetEnd=111 PartOfSpeech=RB] [Text=loved CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=PRP$] [Text=last CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=JJ] [Text=apperance CharacterOffsetBegin=127 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=,] [Text=which CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=WDT] [Text=garnered CharacterOffsetBegin=144 CharacterOffsetEnd=152 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=frigid CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=JJ] [Text=reviews CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=NNS] [Text=due CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=TO] [Text=coarse CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=JJ] [Text=language CharacterOffsetBegin=187 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=CC] [Text=salacious CharacterOffsetBegin=200 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=jokes CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=,] [Text=but CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=VBZ] [Text=fine CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=.] 
+root(ROOT-0, loved-3)
+nsubj(loved-3, I-1)
+advmod(loved-3, personally-2)
+poss(apperance-6, her-4)
+amod(apperance-6, last-5)
+dobj(loved-3, apperance-6)
+punct(apperance-6, ,-7)
+nsubj(garnered-9, which-8)
+rcmod(apperance-6, garnered-9)
+det(reviews-12, some-10)
+amod(reviews-12, frigid-11)
+dobj(garnered-9, reviews-12)
+amod(reviews-12, due-13)
+prep(due-13, to-14)
+amod(language-16, coarse-15)
+pobj(to-14, language-16)
+cc(language-16, and-17)
+amod(jokes-19, salacious-18)
+conj(language-16, jokes-19)
+punct(loved-3, ,-20)
+cc(loved-3, but-21)
+nsubj(fine-24, that-22)
+cop(fine-24, 's-23)
+conj(loved-3, fine-24)
+punct(loved-3, .-25)
+
+Sentence #4 (7 tokens):
+The audience seemed to like it.
+[Text=The CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=audience CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=seemed CharacterOffsetBegin=251 CharacterOffsetEnd=257 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=TO] [Text=like CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=.] 
+root(ROOT-0, seemed-3)
+det(audience-2, The-1)
+nsubj(seemed-3, audience-2)
+aux(like-5, to-4)
+xcomp(seemed-3, like-5)
+dobj(like-5, it-6)
+punct(seemed-3, .-7)
+
+Sentence #5 (23 tokens):
+Halle Berry, Denzel Washington, Ron Howard, Woody Allen, and Sidney Poitier made this an Oscar telecast to remember.
+[Text=Halle CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=NNP] [Text=Berry CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=,] [Text=Denzel CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NNP] [Text=Washington CharacterOffsetBegin=294 CharacterOffsetEnd=304 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=,] [Text=Ron CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=NNP] [Text=Howard CharacterOffsetBegin=310 CharacterOffsetEnd=316 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=,] [Text=Woody CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=NNP] [Text=Allen CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=,] [Text=and CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=CC] [Text=Sidney CharacterOffsetBegin=335 CharacterOffsetEnd=341 PartOfSpeech=NNP] [Text=Poitier CharacterOffsetBegin=342 CharacterOffsetEnd=349 PartOfSpeech=NNP] [Text=made CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=DT] [Text=an CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=DT] [Text=Oscar CharacterOffsetBegin=363 CharacterOffsetEnd=368 PartOfSpeech=NNP] [Text=telecast CharacterOffsetBegin=369 CharacterOffsetEnd=377 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=TO] [Text=remember CharacterOffsetBegin=381 CharacterOffsetEnd=389 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=.] 
+root(ROOT-0, made-16)
+nn(Berry-2, Halle-1)
+nsubj(made-16, Berry-2)
+punct(Berry-2, ,-3)
+nn(Washington-5, Denzel-4)
+appos(Berry-2, Washington-5)
+punct(Berry-2, ,-6)
+nn(Howard-8, Ron-7)
+appos(Berry-2, Howard-8)
+punct(Berry-2, ,-9)
+nn(Allen-11, Woody-10)
+appos(Berry-2, Allen-11)
+punct(Berry-2, ,-12)
+cc(Berry-2, and-13)
+nn(Poitier-15, Sidney-14)
+conj(Berry-2, Poitier-15)
+dobj(made-16, this-17)
+det(telecast-20, an-18)
+nn(telecast-20, Oscar-19)
+dep(this-17, telecast-20)
+aux(remember-22, to-21)
+infmod(telecast-20, remember-22)
+punct(made-16, .-23)
+

@@ -1,0 +1,212 @@
+Sentence #1 (4 tokens):
+0.5/10.
+[Text=0.5 CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=CD] [Text=/ CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=:] [Text=10 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=.] 
+root(ROOT-0, 0.5-1)
+punct(0.5-1, /-2)
+dep(0.5-1, 10-3)
+punct(0.5-1, .-4)
+
+Sentence #2 (9 tokens):
+This movie has absolutely nothing good about it.
+[Text=This CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VBZ] [Text=absolutely CharacterOffsetBegin=31 CharacterOffsetEnd=41 PartOfSpeech=RB] [Text=nothing CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=good CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(movie-2, This-1)
+nsubj(has-3, movie-2)
+advmod(nothing-5, absolutely-4)
+dobj(has-3, nothing-5)
+amod(nothing-5, good-6)
+prep(good-6, about-7)
+pobj(about-7, it-8)
+punct(has-3, .-9)
+
+Sentence #3 (31 tokens):
+The acting is among the worst I have ever seen, what is really amazing is that EVERYONE is awful, not just a few here and there, everyone.
+[Text=The CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=VBZ] [Text=among CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=JJS] [Text=I CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=,] [Text=what CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=VBZ] [Text=really CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=RB] [Text=amazing CharacterOffsetBegin=132 CharacterOffsetEnd=139 PartOfSpeech=JJ] [Text=is CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=EVERYONE CharacterOffsetBegin=148 CharacterOffsetEnd=156 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=VBZ] [Text=awful CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=,] [Text=not CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=RB] [Text=just CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=here CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=,] [Text=everyone CharacterOffsetBegin=198 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+det(acting-2, The-1)
+nsubj(is-3, acting-2)
+prep(is-3, among-4)
+det(worst-6, the-5)
+pobj(among-4, worst-6)
+nsubj(seen-10, I-7)
+aux(seen-10, have-8)
+advmod(seen-10, ever-9)
+rcmod(worst-6, seen-10)
+punct(worst-6, ,-11)
+nsubj(amazing-15, what-12)
+cop(amazing-15, is-13)
+advmod(amazing-15, really-14)
+csubj(is-16, amazing-15)
+ccomp(is-3, is-16)
+mark(awful-20, that-17)
+nsubj(awful-20, EVERYONE-18)
+cop(awful-20, is-19)
+ccomp(is-16, awful-20)
+punct(awful-20, ,-21)
+neg(few-25, not-22)
+advmod(few-25, just-23)
+det(few-25, a-24)
+conj(awful-20, few-25)
+dep(few-25, here-26)
+cc(awful-20, and-27)
+conj(awful-20, there-28)
+punct(awful-20, ,-29)
+conj(awful-20, everyone-30)
+punct(is-3, .-31)
+
+Sentence #4 (36 tokens):
+The direction is a joke, the low budget is hopelessly evident, the score is awful, I wouldn't say the movie was edited, brutally chopped would be a more appropriate phrase.
+[Text=The CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=direction CharacterOffsetBegin=216 CharacterOffsetEnd=225 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=joke CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=,] [Text=the CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=low CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=JJ] [Text=budget CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=VBZ] [Text=hopelessly CharacterOffsetBegin=255 CharacterOffsetEnd=265 PartOfSpeech=RB] [Text=evident CharacterOffsetBegin=266 CharacterOffsetEnd=273 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=,] [Text=the CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=score CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=VBZ] [Text=awful CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=,] [Text=I CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=VBD] [Text=edited CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=,] [Text=brutally CharacterOffsetBegin=332 CharacterOffsetEnd=340 PartOfSpeech=RB] [Text=chopped CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=VBN] [Text=would CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=RBR] [Text=appropriate CharacterOffsetBegin=365 CharacterOffsetEnd=376 PartOfSpeech=JJ] [Text=phrase CharacterOffsetBegin=377 CharacterOffsetEnd=383 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=.] 
+root(ROOT-0, joke-5)
+det(direction-2, The-1)
+nsubj(joke-5, direction-2)
+cop(joke-5, is-3)
+det(joke-5, a-4)
+punct(joke-5, ,-6)
+det(budget-9, the-7)
+amod(budget-9, low-8)
+nsubj(evident-12, budget-9)
+cop(evident-12, is-10)
+advmod(evident-12, hopelessly-11)
+ccomp(awful-17, evident-12)
+punct(awful-17, ,-13)
+det(score-15, the-14)
+nsubj(awful-17, score-15)
+cop(awful-17, is-16)
+conj(joke-5, awful-17)
+punct(joke-5, ,-18)
+nsubj(say-22, I-19)
+aux(say-22, would-20)
+neg(say-22, n't-21)
+rcmod(joke-5, say-22)
+det(movie-24, the-23)
+nsubj(edited-26, movie-24)
+cop(edited-26, was-25)
+ccomp(say-22, edited-26)
+punct(edited-26, ,-27)
+advmod(chopped-29, brutally-28)
+nsubj(phrase-35, chopped-29)
+aux(phrase-35, would-30)
+cop(phrase-35, be-31)
+det(phrase-35, a-32)
+advmod(appropriate-34, more-33)
+amod(phrase-35, appropriate-34)
+dep(edited-26, phrase-35)
+punct(joke-5, .-36)
+
+Sentence #5 (10 tokens):
+It combines serial killings, voodoo and tarot cards.
+[Text=It CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=PRP] [Text=combines CharacterOffsetBegin=392 CharacterOffsetEnd=400 PartOfSpeech=VBZ] [Text=serial CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=JJ] [Text=killings CharacterOffsetBegin=408 CharacterOffsetEnd=416 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=,] [Text=voodoo CharacterOffsetBegin=418 CharacterOffsetEnd=424 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=CC] [Text=tarot CharacterOffsetBegin=429 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=cards CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=440 CharacterOffsetEnd=441 PartOfSpeech=.] 
+root(ROOT-0, combines-2)
+nsubj(combines-2, It-1)
+amod(killings-4, serial-3)
+dobj(combines-2, killings-4)
+punct(killings-4, ,-5)
+conj(killings-4, voodoo-6)
+cc(killings-4, and-7)
+nn(cards-9, tarot-8)
+conj(killings-4, cards-9)
+punct(combines-2, .-10)
+
+Sentence #6 (2 tokens):
+Dumb.
+[Text=Dumb CharacterOffsetBegin=446 CharacterOffsetEnd=450 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=.] 
+root(ROOT-0, Dumb-1)
+punct(Dumb-1, .-2)
+
+Sentence #7 (2 tokens):
+Dumb.
+[Text=Dumb CharacterOffsetBegin=456 CharacterOffsetEnd=460 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=.] 
+root(ROOT-0, Dumb-1)
+punct(Dumb-1, .-2)
+
+Sentence #8 (2 tokens):
+Dumb.
+[Text=Dumb CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=.] 
+root(ROOT-0, Dumb-1)
+punct(Dumb-1, .-2)
+
+Sentence #9 (14 tokens):
+It is not scary at all, the special effects are hopelessly lame.
+[Text=It CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=RB] [Text=scary CharacterOffsetBegin=486 CharacterOffsetEnd=491 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=492 CharacterOffsetEnd=494 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=,] [Text=the CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=DT] [Text=special CharacterOffsetBegin=504 CharacterOffsetEnd=511 PartOfSpeech=JJ] [Text=effects CharacterOffsetBegin=512 CharacterOffsetEnd=519 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=VBP] [Text=hopelessly CharacterOffsetBegin=524 CharacterOffsetEnd=534 PartOfSpeech=RB] [Text=lame CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=.] 
+root(ROOT-0, scary-4)
+nsubj(scary-4, It-1)
+cop(scary-4, is-2)
+neg(scary-4, not-3)
+advmod(scary-4, at-5)
+pobj(at-5, all-6)
+punct(scary-4, ,-7)
+det(effects-10, the-8)
+amod(effects-10, special-9)
+nsubj(lame-13, effects-10)
+cop(lame-13, are-11)
+advmod(lame-13, hopelessly-12)
+ccomp(scary-4, lame-13)
+punct(scary-4, .-14)
+
+Sentence #10 (4 tokens):
+laughably bad throughout.
+[Text=laughably CharacterOffsetBegin=545 CharacterOffsetEnd=554 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=JJ] [Text=throughout CharacterOffsetBegin=559 CharacterOffsetEnd=569 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=569 CharacterOffsetEnd=570 PartOfSpeech=.] 
+root(ROOT-0, bad-2)
+advmod(bad-2, laughably-1)
+prep(bad-2, throughout-3)
+punct(bad-2, .-4)
+
+Sentence #11 (6 tokens):
+The writing was appallingly bad.
+[Text=The CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=DT] [Text=writing CharacterOffsetBegin=579 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=VBD] [Text=appallingly CharacterOffsetBegin=591 CharacterOffsetEnd=602 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=606 CharacterOffsetEnd=607 PartOfSpeech=.] 
+root(ROOT-0, bad-5)
+det(writing-2, The-1)
+nsubj(bad-5, writing-2)
+cop(bad-5, was-3)
+advmod(bad-5, appallingly-4)
+punct(bad-5, .-6)
+
+Sentence #12 (18 tokens):
+The cinematography is real cheap looking, and very grainy sometimes, and the camera-work is dreadful.
+[Text=The CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=DT] [Text=cinematography CharacterOffsetBegin=616 CharacterOffsetEnd=630 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=VBZ] [Text=real CharacterOffsetBegin=634 CharacterOffsetEnd=638 PartOfSpeech=JJ] [Text=cheap CharacterOffsetBegin=639 CharacterOffsetEnd=644 PartOfSpeech=JJ] [Text=looking CharacterOffsetBegin=645 CharacterOffsetEnd=652 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=,] [Text=and CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=CC] [Text=very CharacterOffsetBegin=658 CharacterOffsetEnd=662 PartOfSpeech=RB] [Text=grainy CharacterOffsetBegin=663 CharacterOffsetEnd=669 PartOfSpeech=JJ] [Text=sometimes CharacterOffsetBegin=670 CharacterOffsetEnd=679 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=,] [Text=and CharacterOffsetBegin=681 CharacterOffsetEnd=684 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=685 CharacterOffsetEnd=688 PartOfSpeech=DT] [Text=camera-work CharacterOffsetBegin=689 CharacterOffsetEnd=700 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=701 CharacterOffsetEnd=703 PartOfSpeech=VBZ] [Text=dreadful CharacterOffsetBegin=704 CharacterOffsetEnd=712 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=712 CharacterOffsetEnd=713 PartOfSpeech=.] 
+root(ROOT-0, cheap-5)
+det(cinematography-2, The-1)
+nsubj(cheap-5, cinematography-2)
+cop(cheap-5, is-3)
+amod(cheap-5, real-4)
+dep(cheap-5, looking-6)
+punct(cheap-5, ,-7)
+cc(cheap-5, and-8)
+advmod(grainy-10, very-9)
+conj(cheap-5, grainy-10)
+advmod(grainy-10, sometimes-11)
+punct(cheap-5, ,-12)
+cc(cheap-5, and-13)
+det(camera-work-15, the-14)
+nsubj(dreadful-17, camera-work-15)
+cop(dreadful-17, is-16)
+conj(cheap-5, dreadful-17)
+punct(cheap-5, .-18)
+
+Sentence #13 (16 tokens):
+Again, what really does the movie in is how badly all the actors are.
+[Text=Again CharacterOffsetBegin=718 CharacterOffsetEnd=723 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=723 CharacterOffsetEnd=724 PartOfSpeech=,] [Text=what CharacterOffsetBegin=725 CharacterOffsetEnd=729 PartOfSpeech=WP] [Text=really CharacterOffsetBegin=730 CharacterOffsetEnd=736 PartOfSpeech=RB] [Text=does CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=746 CharacterOffsetEnd=751 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=752 CharacterOffsetEnd=754 PartOfSpeech=IN] [Text=is CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=VBZ] [Text=how CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=WRB] [Text=badly CharacterOffsetBegin=762 CharacterOffsetEnd=767 PartOfSpeech=RB] [Text=all CharacterOffsetBegin=768 CharacterOffsetEnd=771 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=772 CharacterOffsetEnd=775 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=776 CharacterOffsetEnd=782 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=783 CharacterOffsetEnd=786 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=786 CharacterOffsetEnd=787 PartOfSpeech=.] 
+root(ROOT-0, are-15)
+advmod(are-15, Again-1)
+punct(Again-1, ,-2)
+nsubj(does-5, what-3)
+advmod(does-5, really-4)
+dep(are-15, does-5)
+det(movie-7, the-6)
+dobj(does-5, movie-7)
+nsubj(are-15, in-8)
+aux(are-15, is-9)
+advmod(badly-11, how-10)
+advmod(are-15, badly-11)
+predet(actors-14, all-12)
+det(actors-14, the-13)
+nsubj(are-15, actors-14)
+punct(are-15, .-16)
+
+Sentence #14 (2 tokens):
+Cheesy.
+[Text=Cheesy CharacterOffsetBegin=792 CharacterOffsetEnd=798 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=798 CharacterOffsetEnd=799 PartOfSpeech=.] 
+root(ROOT-0, Cheesy-1)
+punct(Cheesy-1, .-2)
+

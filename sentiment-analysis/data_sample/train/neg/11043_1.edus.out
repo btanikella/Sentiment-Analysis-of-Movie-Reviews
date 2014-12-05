@@ -1,0 +1,93 @@
+Sentence #1 (10 tokens):
+This is certainly the worst movie i ever saw?
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=certainly CharacterOffsetBegin=12 CharacterOffsetEnd=21 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NN] [Text=i CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=FW] [Text=ever CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VBN] [Text=? CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, This-1)
+cop(movie-6, is-2)
+advmod(movie-6, certainly-3)
+det(movie-6, the-4)
+amod(movie-6, worst-5)
+dep(saw-9, i-7)
+advmod(saw-9, ever-8)
+partmod(movie-6, saw-9)
+punct(movie-6, ?-10)
+
+Sentence #2 (10 tokens):
+The beginning is somewhat good, but the end?
+[Text=The CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=58 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=VBZ] [Text=somewhat CharacterOffsetBegin=71 CharacterOffsetEnd=79 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=,] [Text=but CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=.] 
+root(ROOT-0, good-5)
+det(beginning-2, The-1)
+nsubj(good-5, beginning-2)
+cop(good-5, is-3)
+advmod(good-5, somewhat-4)
+punct(good-5, ,-6)
+cc(good-5, but-7)
+det(end-9, the-8)
+conj(good-5, end-9)
+punct(good-5, ?-10)
+
+Sentence #3 (8 tokens):
+I still don't even get it!
+[Text=I CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=.] 
+root(ROOT-0, get-6)
+nsubj(get-6, I-1)
+advmod(get-6, still-2)
+aux(get-6, do-3)
+neg(get-6, n't-4)
+advmod(get-6, even-5)
+dobj(get-6, it-7)
+punct(get-6, !-8)
+
+Sentence #4 (18 tokens):
+Magical power, 300 years later, goddess, dancing what the f*** is that about???
+[Text=Magical CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=power CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=,] [Text=300 CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=NNS] [Text=later CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=,] [Text=goddess CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=,] [Text=dancing CharacterOffsetBegin=175 CharacterOffsetEnd=182 PartOfSpeech=VBG] [Text=what CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=f CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=FW] [Text=*** CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=FW] [Text=is CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=IN] [Text=about CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=IN] [Text=??? CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=CD] 
+root(ROOT-0, dancing-10)
+amod(power-2, Magical-1)
+nsubj(dancing-10, power-2)
+punct(power-2, ,-3)
+num(years-5, 300-4)
+npadvmod(later-6, years-5)
+advmod(power-2, later-6)
+punct(power-2, ,-7)
+appos(power-2, goddess-8)
+punct(power-2, ,-9)
+dobj(is-15, what-11)
+det(***-14, the-12)
+nn(***-14, f-13)
+nsubj(is-15, ***-14)
+ccomp(dancing-10, is-15)
+dep(is-15, that-16)
+quantmod(???-18, about-17)
+dep(that-16, ???-18)
+
+Sentence #5 (8 tokens):
+The acting is somewhat not so bad.
+[Text=The CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=VBZ] [Text=somewhat CharacterOffsetBegin=232 CharacterOffsetEnd=240 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=so CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.] 
+root(ROOT-0, bad-7)
+det(acting-2, The-1)
+nsubj(bad-7, acting-2)
+cop(bad-7, is-3)
+advmod(bad-7, somewhat-4)
+neg(bad-7, not-5)
+advmod(bad-7, so-6)
+punct(bad-7, .-8)
+
+Sentence #6 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #7 (10 tokens):
+but some place I could do better for sure!
+[Text=but CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=CC] [Text=some CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=DT] [Text=place CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=VB] [Text=better CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=JJR] [Text=for CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=IN] [Text=sure CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=.] 
+root(ROOT-0, but-1)
+det(place-3, some-2)
+dep(but-1, place-3)
+nsubj(do-6, I-4)
+aux(do-6, could-5)
+rcmod(place-3, do-6)
+advmod(do-6, better-7)
+prep(do-6, for-8)
+pobj(for-8, sure-9)
+punct(but-1, !-10)
+

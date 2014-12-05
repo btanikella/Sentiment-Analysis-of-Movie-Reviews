@@ -1,0 +1,78 @@
+Sentence #1 (12 tokens):
+Horrible waste of time - bad acting, plot, directing.
+[Text=Horrible CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=JJ] [Text=waste CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=- CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=:] [Text=bad CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=,] [Text=plot CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=,] [Text=directing CharacterOffsetBegin=47 CharacterOffsetEnd=56 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=.] 
+root(ROOT-0, waste-2)
+amod(waste-2, Horrible-1)
+prep(waste-2, of-3)
+pobj(of-3, time-4)
+punct(acting-7, --5)
+amod(acting-7, bad-6)
+dep(waste-2, acting-7)
+punct(acting-7, ,-8)
+conj(acting-7, plot-9)
+punct(acting-7, ,-10)
+conj(acting-7, directing-11)
+punct(waste-2, .-12)
+
+Sentence #2 (8 tokens):
+This is the most boring movie EVER!
+[Text=This CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=RBS] [Text=boring CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=EVER CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=.] 
+root(ROOT-0, EVER-7)
+nsubj(EVER-7, This-1)
+cop(EVER-7, is-2)
+det(EVER-7, the-3)
+advmod(boring-5, most-4)
+amod(EVER-7, boring-5)
+nn(EVER-7, movie-6)
+punct(EVER-7, !-8)
+
+Sentence #3 (22 tokens):
+There are bad movies that are fun (Freddy vs. Jason), and there are bad movies that are HORRIBLE.
+[Text=There CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBP] [Text=bad CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=116 CharacterOffsetEnd=122 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=VBP] [Text=fun CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=-LRB-] [Text=Freddy CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=NNP] [Text=vs. CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=FW] [Text=Jason CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=,] [Text=and CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=VBP] [Text=bad CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=VBP] [Text=HORRIBLE CharacterOffsetBegin=190 CharacterOffsetEnd=198 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+amod(movies-4, bad-3)
+nsubj(are-2, movies-4)
+nsubj(fun-7, that-5)
+cop(fun-7, are-6)
+rcmod(movies-4, fun-7)
+punct(Freddy-9, -LRB--8)
+dep(fun-7, Freddy-9)
+prep(Freddy-9, vs.-10)
+pobj(vs.-10, Jason-11)
+punct(Jason-11, -RRB--12)
+punct(Freddy-9, ,-13)
+cc(Freddy-9, and-14)
+expl(are-16, there-15)
+conj(Freddy-9, are-16)
+amod(movies-18, bad-17)
+nsubj(are-16, movies-18)
+nsubj(HORRIBLE-21, that-19)
+cop(HORRIBLE-21, are-20)
+rcmod(movies-18, HORRIBLE-21)
+punct(are-2, .-22)
+
+Sentence #4 (7 tokens):
+This one fits into the latter.
+[Text=This CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=CD] [Text=fits CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=VBZ] [Text=into CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=latter CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, fits-3)
+det(one-2, This-1)
+nsubj(fits-3, one-2)
+prep(fits-3, into-4)
+det(latter-6, the-5)
+pobj(into-4, latter-6)
+punct(fits-3, .-7)
+
+Sentence #5 (9 tokens):
+Bottom Line - don't waste your time.
+[Text=Bottom CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=NNP] [Text=Line CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=NNP] [Text=- CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=:] [Text=do CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=RB] [Text=waste CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=.] 
+root(ROOT-0, waste-6)
+nn(Line-2, Bottom-1)
+nsubj(waste-6, Line-2)
+punct(Line-2, --3)
+aux(waste-6, do-4)
+neg(waste-6, n't-5)
+poss(time-8, your-7)
+dobj(waste-6, time-8)
+punct(waste-6, .-9)
+

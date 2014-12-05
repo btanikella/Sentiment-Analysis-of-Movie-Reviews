@@ -1,0 +1,68 @@
+Sentence #1 (5 tokens):
+Such energy and vitality.
+[Text=Such CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=JJ] [Text=energy CharacterOffsetBegin=9 CharacterOffsetEnd=15 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=CC] [Text=vitality CharacterOffsetBegin=20 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=.] 
+root(ROOT-0, energy-2)
+amod(energy-2, Such-1)
+cc(energy-2, and-3)
+conj(energy-2, vitality-4)
+punct(energy-2, .-5)
+
+Sentence #2 (18 tokens):
+You just can't go wrong with Busby Berkley films and this certainly must be his best.
+[Text=You CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=RB] [Text=ca CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=RB] [Text=go CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=VB] [Text=wrong CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=Busby CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=NNP] [Text=Berkley CharacterOffsetBegin=69 CharacterOffsetEnd=76 PartOfSpeech=NNP] [Text=films CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=DT] [Text=certainly CharacterOffsetBegin=92 CharacterOffsetEnd=101 PartOfSpeech=RB] [Text=must CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=PRP$] [Text=best CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=.] 
+root(ROOT-0, go-5)
+nsubj(go-5, You-1)
+advmod(go-5, just-2)
+aux(go-5, ca-3)
+neg(go-5, n't-4)
+acomp(go-5, wrong-6)
+prep(go-5, with-7)
+nn(films-10, Busby-8)
+nn(films-10, Berkley-9)
+pobj(with-7, films-10)
+cc(films-10, and-11)
+nsubj(best-17, this-12)
+advmod(best-17, certainly-13)
+aux(best-17, must-14)
+cop(best-17, be-15)
+poss(best-17, his-16)
+conj(films-10, best-17)
+punct(go-5, .-18)
+
+Sentence #3 (23 tokens):
+Of course the choreography is wonderful, but also the banter between Cagney and Blondell is so colorful and such a delight.
+[Text=Of CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=DT] [Text=choreography CharacterOffsetBegin=138 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=VBZ] [Text=wonderful CharacterOffsetBegin=154 CharacterOffsetEnd=163 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=,] [Text=but CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=CC] [Text=also CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=banter CharacterOffsetBegin=178 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=between CharacterOffsetBegin=185 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=Cagney CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=CC] [Text=Blondell CharacterOffsetBegin=204 CharacterOffsetEnd=212 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=RB] [Text=colorful CharacterOffsetBegin=219 CharacterOffsetEnd=227 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=CC] [Text=such CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=DT] [Text=delight CharacterOffsetBegin=239 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=.] 
+root(ROOT-0, wonderful-6)
+prep(wonderful-6, Of-1)
+pobj(Of-1, course-2)
+det(choreography-4, the-3)
+nsubj(wonderful-6, choreography-4)
+cop(wonderful-6, is-5)
+punct(wonderful-6, ,-7)
+cc(wonderful-6, but-8)
+advmod(wonderful-6, also-9)
+det(banter-11, the-10)
+nsubj(colorful-18, banter-11)
+prep(banter-11, between-12)
+pobj(between-12, Cagney-13)
+cc(Cagney-13, and-14)
+conj(Cagney-13, Blondell-15)
+cop(colorful-18, is-16)
+advmod(colorful-18, so-17)
+conj(wonderful-6, colorful-18)
+cc(wonderful-6, and-19)
+amod(delight-22, such-20)
+det(delight-22, a-21)
+conj(wonderful-6, delight-22)
+punct(wonderful-6, .-23)
+
+Sentence #4 (6 tokens):
+Don't miss this one.
+[Text=Do CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=RB] [Text=miss CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, miss-3)
+aux(miss-3, Do-1)
+neg(miss-3, n't-2)
+det(one-5, this-4)
+dobj(miss-3, one-5)
+punct(miss-3, .-6)
+

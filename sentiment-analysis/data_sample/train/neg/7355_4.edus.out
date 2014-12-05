@@ -1,0 +1,260 @@
+Sentence #1 (13 tokens):
+Don't get me wrong - I love David Suchet as Poirot.
+[Text=Do CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=PRP] [Text=wrong CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=JJ] [Text=- CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=:] [Text=I CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=VBP] [Text=David CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NNP] [Text=Suchet CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=IN] [Text=Poirot CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=.] 
+root(ROOT-0, get-3)
+aux(get-3, Do-1)
+neg(get-3, n't-2)
+nsubj(wrong-5, me-4)
+xcomp(get-3, wrong-5)
+punct(wrong-5, --6)
+nsubj(love-8, I-7)
+parataxis(wrong-5, love-8)
+nn(Suchet-10, David-9)
+dobj(love-8, Suchet-10)
+prep(Suchet-10, as-11)
+pobj(as-11, Poirot-12)
+punct(get-3, .-13)
+
+Sentence #2 (19 tokens):
+I love the series as well as the movies but enough already re: Death On The Nile.
+[Text=I CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=DT] [Text=series CharacterOffsetBegin=71 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=DT] [Text=movies CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=CC] [Text=enough CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=RB] [Text=already CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=RB] [Text=re CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=VB] [Text=: CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=:] [Text=Death CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NNP] [Text=On CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=DT] [Text=Nile CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+det(series-4, the-3)
+dobj(love-2, series-4)
+advmod(well-6, as-5)
+cc(love-2, well-6)
+mwe(well-6, as-7)
+det(movies-9, the-8)
+nsubj(re-13, movies-9)
+cc(movies-9, but-10)
+conj(movies-9, enough-11)
+advmod(re-13, already-12)
+conj(love-2, re-13)
+punct(re-13, :-14)
+dobj(re-13, Death-15)
+prep(Death-15, On-16)
+det(Nile-18, The-17)
+pobj(On-16, Nile-18)
+punct(love-2, .-19)
+
+Sentence #3 (6 tokens):
+Everyone has done this one!
+[Text=Everyone CharacterOffsetBegin=146 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=VBZ] [Text=done CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=CD] [Text=! CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=.] 
+root(ROOT-0, done-3)
+nsubj(done-3, Everyone-1)
+aux(done-3, has-2)
+det(one-5, this-4)
+dobj(done-3, one-5)
+punct(done-3, !-6)
+
+Sentence #4 (5 tokens):
+We know who dies.
+[Text=We CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=VBP] [Text=who CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=WP] [Text=dies CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, We-1)
+nsubj(dies-4, who-3)
+ccomp(know-2, dies-4)
+punct(know-2, .-5)
+
+Sentence #5 (6 tokens):
+We know why they die.
+[Text=We CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=VBP] [Text=why CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=PRP] [Text=die CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, We-1)
+advmod(die-5, why-3)
+nsubj(die-5, they-4)
+advcl(know-2, die-5)
+punct(know-2, .-6)
+
+Sentence #6 (7 tokens):
+We know who the killer is.
+[Text=We CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=VBP] [Text=who CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=killer CharacterOffsetBegin=242 CharacterOffsetEnd=248 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, We-1)
+dobj(is-6, who-3)
+det(killer-5, the-4)
+nsubj(is-6, killer-5)
+ccomp(know-2, is-6)
+punct(know-2, .-7)
+
+Sentence #7 (7 tokens):
+We know how it was done.
+[Text=We CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=VBP] [Text=how CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=VBD] [Text=done CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, We-1)
+advmod(done-6, how-3)
+nsubjpass(done-6, it-4)
+auxpass(done-6, was-5)
+ccomp(know-2, done-6)
+punct(know-2, .-7)
+
+Sentence #8 (6 tokens):
+So I say enough already!
+[Text=So CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=PRP] [Text=say CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=VBP] [Text=enough CharacterOffsetBegin=295 CharacterOffsetEnd=301 PartOfSpeech=JJ] [Text=already CharacterOffsetBegin=302 CharacterOffsetEnd=309 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=.] 
+root(ROOT-0, say-3)
+dobj(say-3, So-1)
+nsubj(say-3, I-2)
+advmod(say-3, enough-4)
+advmod(enough-4, already-5)
+punct(say-3, !-6)
+
+Sentence #9 (17 tokens):
+Mr. Suchet could have used that awesome talent in another one of Agatha Christie's novels.
+[Text=Mr. CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=NNP] [Text=Suchet CharacterOffsetBegin=319 CharacterOffsetEnd=325 PartOfSpeech=NNP] [Text=could CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=VB] [Text=used CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=awesome CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=talent CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=IN] [Text=another CharacterOffsetBegin=365 CharacterOffsetEnd=372 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=Agatha CharacterOffsetBegin=380 CharacterOffsetEnd=386 PartOfSpeech=NNP] [Text=Christie CharacterOffsetBegin=387 CharacterOffsetEnd=395 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=POS] [Text=novels CharacterOffsetBegin=398 CharacterOffsetEnd=404 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=.] 
+root(ROOT-0, used-5)
+nn(Suchet-2, Mr.-1)
+nsubj(used-5, Suchet-2)
+aux(used-5, could-3)
+aux(used-5, have-4)
+det(talent-8, that-6)
+amod(talent-8, awesome-7)
+dobj(used-5, talent-8)
+prep(used-5, in-9)
+det(one-11, another-10)
+pobj(in-9, one-11)
+prep(one-11, of-12)
+nn(Christie-14, Agatha-13)
+poss(novels-16, Christie-14)
+possessive(Christie-14, 's-15)
+pobj(of-12, novels-16)
+punct(used-5, .-17)
+
+Sentence #10 (13 tokens):
+I will say that the acting by all the actors was superb.
+[Text=I CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=MD] [Text=say CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=VBG] [Text=by CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=448 CharacterOffsetEnd=454 PartOfSpeech=NNS] [Text=was CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=VBD] [Text=superb CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=.] 
+root(ROOT-0, say-3)
+nsubj(say-3, I-1)
+aux(say-3, will-2)
+mark(superb-12, that-4)
+det(acting-6, the-5)
+nsubj(superb-12, acting-6)
+prep(acting-6, by-7)
+predet(actors-10, all-8)
+det(actors-10, the-9)
+pobj(by-7, actors-10)
+cop(superb-12, was-11)
+ccomp(say-3, superb-12)
+punct(say-3, .-13)
+
+Sentence #11 (8 tokens):
+The sets were terrific and very realistic.
+[Text=The CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=DT] [Text=sets CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=VBD] [Text=terrific CharacterOffsetBegin=485 CharacterOffsetEnd=493 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=CC] [Text=very CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=RB] [Text=realistic CharacterOffsetBegin=503 CharacterOffsetEnd=512 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=.] 
+root(ROOT-0, terrific-4)
+det(sets-2, The-1)
+nsubj(terrific-4, sets-2)
+cop(terrific-4, were-3)
+cc(terrific-4, and-5)
+advmod(realistic-7, very-6)
+conj(terrific-4, realistic-7)
+punct(terrific-4, .-8)
+
+Sentence #12 (17 tokens):
+I especially liked David Soul but I was surprised at how 'awful' he looked.
+[Text=I CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=PRP] [Text=especially CharacterOffsetBegin=520 CharacterOffsetEnd=530 PartOfSpeech=RB] [Text=liked CharacterOffsetBegin=531 CharacterOffsetEnd=536 PartOfSpeech=VBD] [Text=David CharacterOffsetBegin=537 CharacterOffsetEnd=542 PartOfSpeech=NNP] [Text=Soul CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=NNP] [Text=but CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=552 CharacterOffsetEnd=553 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=VBD] [Text=surprised CharacterOffsetBegin=558 CharacterOffsetEnd=567 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=WRB] [Text=` CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=``] [Text=awful CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=''] [Text=he CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=PRP] [Text=looked CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=.] 
+root(ROOT-0, liked-3)
+nsubj(liked-3, I-1)
+advmod(liked-3, especially-2)
+nn(Soul-5, David-4)
+dobj(liked-3, Soul-5)
+cc(liked-3, but-6)
+nsubjpass(surprised-9, I-7)
+auxpass(surprised-9, was-8)
+conj(liked-3, surprised-9)
+prep(surprised-9, at-10)
+advmod(awful-13, how-11)
+punct(awful-13, `-12)
+dep(looked-16, awful-13)
+punct(awful-13, '-14)
+nsubj(looked-16, he-15)
+pcomp(at-10, looked-16)
+punct(liked-3, .-17)
+
+Sentence #13 (14 tokens):
+I hope he doesn't look that way in 'real' life!
+[Text=I CharacterOffsetBegin=598 CharacterOffsetEnd=599 PartOfSpeech=PRP] [Text=hope CharacterOffsetBegin=600 CharacterOffsetEnd=604 PartOfSpeech=VBP] [Text=he CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=608 CharacterOffsetEnd=612 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=RB] [Text=look CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=621 CharacterOffsetEnd=625 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=IN] [Text=` CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=``] [Text=real CharacterOffsetBegin=634 CharacterOffsetEnd=638 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=638 CharacterOffsetEnd=639 PartOfSpeech=''] [Text=life CharacterOffsetBegin=640 CharacterOffsetEnd=644 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=.] 
+root(ROOT-0, hope-2)
+nsubj(hope-2, I-1)
+nsubj(look-6, he-3)
+aux(look-6, does-4)
+neg(look-6, n't-5)
+ccomp(hope-2, look-6)
+det(way-8, that-7)
+dobj(look-6, way-8)
+prep(way-8, in-9)
+punct(life-13, `-10)
+amod(life-13, real-11)
+punct(life-13, '-12)
+pobj(in-9, life-13)
+punct(hope-2, !-14)
+
+Sentence #14 (16 tokens):
+I honestly can't remember from other movies whether the very end was the same.
+[Text=I CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=PRP] [Text=honestly CharacterOffsetBegin=652 CharacterOffsetEnd=660 PartOfSpeech=RB] [Text=ca CharacterOffsetBegin=661 CharacterOffsetEnd=663 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=RB] [Text=remember CharacterOffsetBegin=667 CharacterOffsetEnd=675 PartOfSpeech=VB] [Text=from CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=687 CharacterOffsetEnd=693 PartOfSpeech=NNS] [Text=whether CharacterOffsetBegin=694 CharacterOffsetEnd=701 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=706 CharacterOffsetEnd=710 PartOfSpeech=JJ] [Text=end CharacterOffsetBegin=711 CharacterOffsetEnd=714 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=719 CharacterOffsetEnd=722 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=723 CharacterOffsetEnd=727 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=727 CharacterOffsetEnd=728 PartOfSpeech=.] 
+root(ROOT-0, remember-5)
+nsubj(remember-5, I-1)
+advmod(remember-5, honestly-2)
+aux(remember-5, ca-3)
+neg(remember-5, n't-4)
+prep(remember-5, from-6)
+amod(movies-8, other-7)
+pobj(from-6, movies-8)
+mark(same-15, whether-9)
+det(end-12, the-10)
+amod(end-12, very-11)
+nsubj(same-15, end-12)
+cop(same-15, was-13)
+det(same-15, the-14)
+ccomp(remember-5, same-15)
+punct(remember-5, .-16)
+
+Sentence #15 (7 tokens):
+Somehow I don't think so.
+[Text=Somehow CharacterOffsetBegin=733 CharacterOffsetEnd=740 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=743 CharacterOffsetEnd=745 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=RB] [Text=think CharacterOffsetBegin=749 CharacterOffsetEnd=754 PartOfSpeech=VB] [Text=so CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=757 CharacterOffsetEnd=758 PartOfSpeech=.] 
+root(ROOT-0, think-5)
+advmod(think-5, Somehow-1)
+nsubj(think-5, I-2)
+aux(think-5, do-3)
+neg(think-5, n't-4)
+advmod(think-5, so-6)
+punct(think-5, .-7)
+
+Sentence #16 (18 tokens):
+I thought that was a rather brilliant touch whether or not Ms. Christie wrote it that way.
+[Text=I CharacterOffsetBegin=763 CharacterOffsetEnd=764 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=765 CharacterOffsetEnd=772 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=773 CharacterOffsetEnd=777 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=778 CharacterOffsetEnd=781 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=782 CharacterOffsetEnd=783 PartOfSpeech=DT] [Text=rather CharacterOffsetBegin=784 CharacterOffsetEnd=790 PartOfSpeech=RB] [Text=brilliant CharacterOffsetBegin=791 CharacterOffsetEnd=800 PartOfSpeech=JJ] [Text=touch CharacterOffsetBegin=801 CharacterOffsetEnd=806 PartOfSpeech=NN] [Text=whether CharacterOffsetBegin=807 CharacterOffsetEnd=814 PartOfSpeech=IN] [Text=or CharacterOffsetBegin=815 CharacterOffsetEnd=817 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=818 CharacterOffsetEnd=821 PartOfSpeech=RB] [Text=Ms. CharacterOffsetBegin=822 CharacterOffsetEnd=825 PartOfSpeech=NNP] [Text=Christie CharacterOffsetBegin=826 CharacterOffsetEnd=834 PartOfSpeech=NNP] [Text=wrote CharacterOffsetBegin=835 CharacterOffsetEnd=840 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=841 CharacterOffsetEnd=843 PartOfSpeech=PRP] [Text=that CharacterOffsetBegin=844 CharacterOffsetEnd=848 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=849 CharacterOffsetEnd=852 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=852 CharacterOffsetEnd=853 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+nsubj(touch-8, that-3)
+cop(touch-8, was-4)
+det(touch-8, a-5)
+advmod(brilliant-7, rather-6)
+amod(touch-8, brilliant-7)
+ccomp(thought-2, touch-8)
+dep(wrote-14, whether-9)
+cc(whether-9, or-10)
+conj(whether-9, not-11)
+nn(Christie-13, Ms.-12)
+nsubj(wrote-14, Christie-13)
+ccomp(touch-8, wrote-14)
+nsubj(way-17, it-15)
+det(way-17, that-16)
+xcomp(wrote-14, way-17)
+punct(thought-2, .-18)
+
+Sentence #17 (13 tokens):
+I would much rather have that ending then wasting away in prison!
+[Text=I CharacterOffsetBegin=858 CharacterOffsetEnd=859 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=860 CharacterOffsetEnd=865 PartOfSpeech=MD] [Text=much CharacterOffsetBegin=866 CharacterOffsetEnd=870 PartOfSpeech=RB] [Text=rather CharacterOffsetBegin=871 CharacterOffsetEnd=877 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=878 CharacterOffsetEnd=882 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=883 CharacterOffsetEnd=887 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=888 CharacterOffsetEnd=894 PartOfSpeech=VBG] [Text=then CharacterOffsetBegin=895 CharacterOffsetEnd=899 PartOfSpeech=RB] [Text=wasting CharacterOffsetBegin=900 CharacterOffsetEnd=907 PartOfSpeech=VBG] [Text=away CharacterOffsetBegin=908 CharacterOffsetEnd=912 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=913 CharacterOffsetEnd=915 PartOfSpeech=IN] [Text=prison CharacterOffsetBegin=916 CharacterOffsetEnd=922 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=922 CharacterOffsetEnd=923 PartOfSpeech=.] 
+root(ROOT-0, have-5)
+nsubj(have-5, I-1)
+aux(have-5, would-2)
+advmod(have-5, much-3)
+advmod(have-5, rather-4)
+dobj(have-5, that-6)
+dep(that-6, ending-7)
+advmod(ending-7, then-8)
+dep(ending-7, wasting-9)
+advmod(wasting-9, away-10)
+prep(away-10, in-11)
+pobj(in-11, prison-12)
+punct(have-5, !-13)
+

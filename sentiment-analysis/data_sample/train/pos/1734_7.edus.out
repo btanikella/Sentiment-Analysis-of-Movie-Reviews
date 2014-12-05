@@ -1,0 +1,175 @@
+Sentence #1 (15 tokens):
+I just saw this movie for the first time ever and I liked it.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=PRP] [Text=liked CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=.] 
+root(ROOT-0, saw-3)
+nsubj(saw-3, I-1)
+advmod(saw-3, just-2)
+det(movie-5, this-4)
+dobj(saw-3, movie-5)
+prep(saw-3, for-6)
+det(time-9, the-7)
+amod(time-9, first-8)
+pobj(for-6, time-9)
+advmod(time-9, ever-10)
+cc(saw-3, and-11)
+nsubj(liked-13, I-12)
+conj(saw-3, liked-13)
+dobj(liked-13, it-14)
+punct(saw-3, .-15)
+
+Sentence #2 (6 tokens):
+Her dancing was very entertaining.
+[Text=Her CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=PRP$] [Text=dancing CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=RB] [Text=entertaining CharacterOffsetBegin=91 CharacterOffsetEnd=103 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=.] 
+root(ROOT-0, entertaining-5)
+poss(dancing-2, Her-1)
+nsubj(entertaining-5, dancing-2)
+cop(entertaining-5, was-3)
+advmod(entertaining-5, very-4)
+punct(entertaining-5, .-6)
+
+Sentence #3 (18 tokens):
+I read somewhere that she got the part in this movie because she knew how to dance.
+[Text=I CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=PRP] [Text=read CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=VBP] [Text=somewhere CharacterOffsetBegin=116 CharacterOffsetEnd=125 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=part CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=162 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=PRP] [Text=knew CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=VBD] [Text=how CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=TO] [Text=dance CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=.] 
+root(ROOT-0, read-2)
+nsubj(read-2, I-1)
+advmod(read-2, somewhere-3)
+mark(got-6, that-4)
+nsubj(got-6, she-5)
+ccomp(read-2, got-6)
+det(part-8, the-7)
+dobj(got-6, part-8)
+prep(part-8, in-9)
+det(movie-11, this-10)
+pobj(in-9, movie-11)
+mark(knew-14, because-12)
+nsubj(knew-14, she-13)
+advcl(read-2, knew-14)
+advmod(dance-17, how-15)
+aux(dance-17, to-16)
+ccomp(knew-14, dance-17)
+punct(read-2, .-18)
+
+Sentence #4 (6 tokens):
+The scenery was great too.
+[Text=The CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=DT] [Text=scenery CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=VBD] [Text=great CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=JJ] [Text=too CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=.] 
+root(ROOT-0, great-4)
+det(scenery-2, The-1)
+nsubj(great-4, scenery-2)
+cop(great-4, was-3)
+advmod(great-4, too-5)
+punct(great-4, .-6)
+
+Sentence #5 (9 tokens):
+Yvonne is such a talented woman and beautiful.
+[Text=Yvonne CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=VBZ] [Text=such CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=talented CharacterOffsetBegin=245 CharacterOffsetEnd=253 PartOfSpeech=JJ] [Text=woman CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=CC] [Text=beautiful CharacterOffsetBegin=264 CharacterOffsetEnd=273 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=.] 
+root(ROOT-0, woman-6)
+nsubj(woman-6, Yvonne-1)
+cop(woman-6, is-2)
+amod(woman-6, such-3)
+det(woman-6, a-4)
+amod(woman-6, talented-5)
+cc(woman-6, and-7)
+conj(woman-6, beautiful-8)
+punct(woman-6, .-9)
+
+Sentence #6 (18 tokens):
+WE laughed at the silly kissing scenes, but that is what is great about old movies!
+[Text=WE CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=NNP] [Text=laughed CharacterOffsetBegin=282 CharacterOffsetEnd=289 PartOfSpeech=VBD] [Text=at CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=DT] [Text=silly CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=JJ] [Text=kissing CharacterOffsetBegin=303 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=scenes CharacterOffsetBegin=311 CharacterOffsetEnd=317 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=,] [Text=but CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=VBZ] [Text=what CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=IN] [Text=old CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=.] 
+root(ROOT-0, laughed-2)
+nsubj(laughed-2, WE-1)
+prep(laughed-2, at-3)
+det(scenes-7, the-4)
+amod(scenes-7, silly-5)
+nn(scenes-7, kissing-6)
+pobj(at-3, scenes-7)
+punct(laughed-2, ,-8)
+cc(laughed-2, but-9)
+nsubj(is-11, that-10)
+conj(laughed-2, is-11)
+nsubj(great-14, what-12)
+cop(great-14, is-13)
+ccomp(is-11, great-14)
+prep(great-14, about-15)
+amod(movies-17, old-16)
+pobj(about-15, movies-17)
+punct(laughed-2, !-18)
+
+Sentence #7 (19 tokens):
+I grew up with her on The Munsters and I am enjoying watching her in her earlier movies.
+[Text=I CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=PRP] [Text=grew CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=PRP$] [Text=on CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=DT] [Text=Munsters CharacterOffsetBegin=393 CharacterOffsetEnd=401 PartOfSpeech=NNPS] [Text=and CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=VBP] [Text=enjoying CharacterOffsetBegin=411 CharacterOffsetEnd=419 PartOfSpeech=VBG] [Text=watching CharacterOffsetBegin=420 CharacterOffsetEnd=428 PartOfSpeech=VBG] [Text=her CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=PRP$] [Text=in CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=PRP$] [Text=earlier CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=JJR] [Text=movies CharacterOffsetBegin=448 CharacterOffsetEnd=454 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=454 CharacterOffsetEnd=455 PartOfSpeech=.] 
+root(ROOT-0, grew-2)
+nsubj(grew-2, I-1)
+prt(grew-2, up-3)
+prep(grew-2, with-4)
+pobj(with-4, her-5)
+prep(her-5, on-6)
+det(Munsters-8, The-7)
+pobj(on-6, Munsters-8)
+cc(her-5, and-9)
+nsubj(enjoying-12, I-10)
+aux(enjoying-12, am-11)
+conj(her-5, enjoying-12)
+xcomp(enjoying-12, watching-13)
+dobj(watching-13, her-14)
+prep(watching-13, in-15)
+poss(movies-18, her-16)
+amod(movies-18, earlier-17)
+pobj(in-15, movies-18)
+punct(grew-2, .-19)
+
+Sentence #8 (20 tokens):
+They may not all be the best out there but still worth watching to see her act and sing.
+[Text=They CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=PRP] [Text=may CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=RB] [Text=all CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=DT] [Text=be CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=JJS] [Text=out CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=493 CharacterOffsetEnd=498 PartOfSpeech=RB] [Text=but CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=CC] [Text=still CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=515 CharacterOffsetEnd=523 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=527 CharacterOffsetEnd=530 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=PRP$] [Text=act CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=CC] [Text=sing CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=.] 
+root(ROOT-0, best-7)
+nsubj(best-7, They-1)
+aux(best-7, may-2)
+neg(best-7, not-3)
+nsubj(best-7, all-4)
+cop(best-7, be-5)
+det(best-7, the-6)
+prep(best-7, out-8)
+pobj(out-8, there-9)
+cc(best-7, but-10)
+advmod(best-7, still-11)
+dep(best-7, worth-12)
+dep(worth-12, watching-13)
+aux(see-15, to-14)
+xcomp(watching-13, see-15)
+poss(act-17, her-16)
+dobj(see-15, act-17)
+cc(see-15, and-18)
+conj(see-15, sing-19)
+punct(best-7, .-20)
+
+Sentence #9 (15 tokens):
+I am slowly purchasing all her movies and watching them as I receive them.
+[Text=I CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=555 CharacterOffsetEnd=557 PartOfSpeech=VBP] [Text=slowly CharacterOffsetBegin=558 CharacterOffsetEnd=564 PartOfSpeech=RB] [Text=purchasing CharacterOffsetBegin=565 CharacterOffsetEnd=575 PartOfSpeech=VBG] [Text=all CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=DT] [Text=her CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=PRP$] [Text=movies CharacterOffsetBegin=584 CharacterOffsetEnd=590 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=CC] [Text=watching CharacterOffsetBegin=595 CharacterOffsetEnd=603 PartOfSpeech=VBG] [Text=them CharacterOffsetBegin=604 CharacterOffsetEnd=608 PartOfSpeech=PRP] [Text=as CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=PRP] [Text=receive CharacterOffsetBegin=614 CharacterOffsetEnd=621 PartOfSpeech=VBP] [Text=them CharacterOffsetBegin=622 CharacterOffsetEnd=626 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=.] 
+root(ROOT-0, purchasing-4)
+nsubj(purchasing-4, I-1)
+aux(purchasing-4, am-2)
+advmod(purchasing-4, slowly-3)
+predet(movies-7, all-5)
+poss(movies-7, her-6)
+dobj(purchasing-4, movies-7)
+cc(purchasing-4, and-8)
+conj(purchasing-4, watching-9)
+dobj(watching-9, them-10)
+mark(receive-13, as-11)
+nsubj(receive-13, I-12)
+advcl(watching-9, receive-13)
+dobj(receive-13, them-14)
+punct(purchasing-4, .-15)
+
+Sentence #10 (9 tokens):
+I have a large collection of her memorabilia.
+[Text=I CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=634 CharacterOffsetEnd=638 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=639 CharacterOffsetEnd=640 PartOfSpeech=DT] [Text=large CharacterOffsetBegin=641 CharacterOffsetEnd=646 PartOfSpeech=JJ] [Text=collection CharacterOffsetBegin=647 CharacterOffsetEnd=657 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=PRP$] [Text=memorabilia CharacterOffsetBegin=665 CharacterOffsetEnd=676 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+det(collection-5, a-3)
+amod(collection-5, large-4)
+dobj(have-2, collection-5)
+prep(collection-5, of-6)
+poss(memorabilia-8, her-7)
+pobj(of-6, memorabilia-8)
+punct(have-2, .-9)
+

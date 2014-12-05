@@ -1,0 +1,92 @@
+Sentence #1 (9 tokens):
+This movie has everything typical horror movies lack.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBZ] [Text=everything CharacterOffsetBegin=19 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=typical CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=horror CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NNS] [Text=lack CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(movie-2, This-1)
+nsubj(has-3, movie-2)
+dobj(has-3, everything-4)
+amod(movies-7, typical-5)
+nn(movies-7, horror-6)
+nsubj(lack-8, movies-7)
+rcmod(everything-4, lack-8)
+punct(has-3, .-9)
+
+Sentence #2 (15 tokens):
+Although some things are far fetched we are dealing with quality snow man engineers.
+[Text=Although CharacterOffsetBegin=62 CharacterOffsetEnd=70 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=things CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=VBP] [Text=far CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=RB] [Text=fetched CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=VBN] [Text=we CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=VBP] [Text=dealing CharacterOffsetBegin=106 CharacterOffsetEnd=113 PartOfSpeech=VBG] [Text=with CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=IN] [Text=quality CharacterOffsetBegin=119 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=snow CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=man CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=engineers CharacterOffsetBegin=136 CharacterOffsetEnd=145 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=.] 
+root(ROOT-0, dealing-9)
+mark(fetched-6, Although-1)
+det(things-3, some-2)
+nsubj(fetched-6, things-3)
+cop(fetched-6, are-4)
+advmod(fetched-6, far-5)
+advcl(dealing-9, fetched-6)
+nsubj(dealing-9, we-7)
+aux(dealing-9, are-8)
+prep(dealing-9, with-10)
+nn(engineers-14, quality-11)
+nn(engineers-14, snow-12)
+nn(engineers-14, man-13)
+pobj(with-10, engineers-14)
+punct(dealing-9, .-15)
+
+Sentence #3 (14 tokens):
+The only preview i can reveal is that i cant wait for Jackzilla.
+[Text=The CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=preview CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=i CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=FW] [Text=can CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=MD] [Text=reveal CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=VB] [Text=is CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=IN] [Text=i CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=FW] [Text=cant CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=FW] [Text=wait CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=IN] [Text=Jackzilla CharacterOffsetBegin=205 CharacterOffsetEnd=214 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=.] 
+root(ROOT-0, reveal-6)
+det(i-4, The-1)
+amod(i-4, only-2)
+nn(i-4, preview-3)
+nsubj(reveal-6, i-4)
+aux(reveal-6, can-5)
+dobj(reveal-6, is-7)
+mark(wait-11, that-8)
+advmod(wait-11, i-9)
+nsubj(wait-11, cant-10)
+ccomp(is-7, wait-11)
+prep(wait-11, for-12)
+pobj(for-12, Jackzilla-13)
+punct(reveal-6, .-14)
+
+Sentence #4 (6 tokens):
+Dare i say oscar winner.
+[Text=Dare CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VB] [Text=i CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=FW] [Text=say CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=VBP] [Text=oscar CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=winner CharacterOffsetBegin=237 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=.] 
+root(ROOT-0, say-3)
+dep(say-3, Dare-1)
+nsubj(say-3, i-2)
+nn(winner-5, oscar-4)
+nsubj(say-3, winner-5)
+punct(say-3, .-6)
+
+Sentence #5 (7 tokens):
+This is a perfect date movie.
+[Text=This CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=259 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=date CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=272 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, This-1)
+cop(movie-6, is-2)
+det(movie-6, a-3)
+amod(movie-6, perfect-4)
+nn(movie-6, date-5)
+punct(movie-6, .-7)
+
+Sentence #6 (17 tokens):
+I advise all men for a nice romantic surprise see this movie with that special person.
+[Text=I CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=PRP] [Text=advise CharacterOffsetBegin=285 CharacterOffsetEnd=291 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=DT] [Text=men CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=JJ] [Text=romantic CharacterOffsetBegin=311 CharacterOffsetEnd=319 PartOfSpeech=JJ] [Text=surprise CharacterOffsetBegin=320 CharacterOffsetEnd=328 PartOfSpeech=NN] [Text=see CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=338 CharacterOffsetEnd=343 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=DT] [Text=special CharacterOffsetBegin=354 CharacterOffsetEnd=361 PartOfSpeech=JJ] [Text=person CharacterOffsetBegin=362 CharacterOffsetEnd=368 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=368 CharacterOffsetEnd=369 PartOfSpeech=.] 
+root(ROOT-0, advise-2)
+nsubj(advise-2, I-1)
+det(men-4, all-3)
+dobj(advise-2, men-4)
+prep(advise-2, for-5)
+det(surprise-9, a-6)
+amod(surprise-9, nice-7)
+amod(surprise-9, romantic-8)
+pobj(for-5, surprise-9)
+partmod(surprise-9, see-10)
+det(movie-12, this-11)
+dobj(see-10, movie-12)
+prep(see-10, with-13)
+det(person-16, that-14)
+amod(person-16, special-15)
+pobj(with-13, person-16)
+punct(advise-2, .-17)
+

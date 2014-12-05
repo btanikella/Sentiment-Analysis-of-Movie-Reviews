@@ -1,0 +1,95 @@
+Sentence #1 (12 tokens):
+I watched this film for 45 minutes and counted 9 mullets.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=IN] [Text=45 CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=31 CharacterOffsetEnd=38 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=CC] [Text=counted CharacterOffsetBegin=43 CharacterOffsetEnd=50 PartOfSpeech=VBN] [Text=9 CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=CD] [Text=mullets CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+det(film-4, this-3)
+dobj(watched-2, film-4)
+prep(watched-2, for-5)
+num(minutes-7, 45-6)
+pobj(for-5, minutes-7)
+cc(watched-2, and-8)
+conj(watched-2, counted-9)
+num(mullets-11, 9-10)
+dobj(counted-9, mullets-11)
+punct(watched-2, .-12)
+
+Sentence #2 (8 tokens):
+That's a mullet every 5 minutes.
+[Text=That CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=mullet CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=every CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=5 CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=.] 
+root(ROOT-0, mullet-4)
+nsubj(mullet-4, That-1)
+cop(mullet-4, 's-2)
+det(mullet-4, a-3)
+det(minutes-7, every-5)
+num(minutes-7, 5-6)
+tmod(mullet-4, minutes-7)
+punct(mullet-4, .-8)
+
+Sentence #3 (12 tokens):
+Seriously though, this film is living proof that formula works.
+[Text=Seriously CharacterOffsetBegin=103 CharacterOffsetEnd=112 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=,] [Text=this CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=VBZ] [Text=living CharacterOffsetBegin=134 CharacterOffsetEnd=140 PartOfSpeech=VBG] [Text=proof CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=formula CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=works CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=.] 
+root(ROOT-0, living-7)
+advmod(living-7, Seriously-1)
+advmod(living-7, though-2)
+punct(living-7, ,-3)
+det(film-5, this-4)
+nsubj(living-7, film-5)
+aux(living-7, is-6)
+dobj(living-7, proof-8)
+mark(works-11, that-9)
+nn(works-11, formula-10)
+ccomp(proof-8, works-11)
+punct(living-7, .-12)
+
+Sentence #4 (12 tokens):
+If it ain't broke, it don't need fixin.
+[Text=If CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=PRP] [Text=ai CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=RB] [Text=broke CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=,] [Text=it CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=RB] [Text=need CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=VB] [Text=fixin CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, need-10)
+mark(ai-3, If-1)
+nsubj(ai-3, it-2)
+dep(broke-5, ai-3)
+neg(broke-5, n't-4)
+dep(need-10, broke-5)
+punct(need-10, ,-6)
+nsubj(need-10, it-7)
+aux(need-10, do-8)
+neg(need-10, n't-9)
+dobj(need-10, fixin-11)
+punct(need-10, .-12)
+
+Sentence #5 (24 tokens):
+A streetwise-yet-vulnerable heroine, a hardened ex-cop martial arts master with a heart of gold and a serial killer with 'issues'.
+[Text=A CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=DT] [Text=streetwise-yet-vulnerable CharacterOffsetBegin=217 CharacterOffsetEnd=242 PartOfSpeech=JJ] [Text=heroine CharacterOffsetBegin=243 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=,] [Text=a CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=hardened CharacterOffsetBegin=254 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=ex-cop CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=martial CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=JJ] [Text=arts CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=NNS] [Text=master CharacterOffsetBegin=283 CharacterOffsetEnd=289 PartOfSpeech=VBP] [Text=with CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=DT] [Text=heart CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN] [Text=gold CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=serial CharacterOffsetBegin=317 CharacterOffsetEnd=323 PartOfSpeech=JJ] [Text=killer CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=IN] [Text=` CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=``] [Text=issues CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=NNS] [Text=' CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=POS] [Text=. CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=.] 
+root(ROOT-0, heroine-3)
+det(heroine-3, A-1)
+amod(heroine-3, streetwise-yet-vulnerable-2)
+punct(heroine-3, ,-4)
+appos(heroine-3, a-5)
+amod(a-5, hardened-6)
+dep(hardened-6, ex-cop-7)
+dep(ex-cop-7, martial-8)
+nsubj(master-10, arts-9)
+rcmod(martial-8, master-10)
+prep(master-10, with-11)
+det(heart-13, a-12)
+pobj(with-11, heart-13)
+prep(heart-13, of-14)
+pobj(of-14, gold-15)
+cc(heart-13, and-16)
+det(killer-19, a-17)
+amod(killer-19, serial-18)
+conj(heart-13, killer-19)
+prep(killer-19, with-20)
+punct(issues-22, `-21)
+pobj(with-20, issues-22)
+possessive(issues-22, '-23)
+punct(heroine-3, .-24)
+
+Sentence #6 (3 tokens):
+Pure magic.
+[Text=Pure CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=magic CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=.] 
+root(ROOT-0, magic-2)
+amod(magic-2, Pure-1)
+punct(magic-2, .-3)
+

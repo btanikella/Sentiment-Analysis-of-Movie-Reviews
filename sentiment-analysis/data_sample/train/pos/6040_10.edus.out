@@ -1,0 +1,167 @@
+Sentence #1 (8 tokens):
+I simply never tire of watching FREEBIRD.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=simply CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=RB] [Text=never CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=RB] [Text=tire CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=watching CharacterOffsetBegin=27 CharacterOffsetEnd=35 PartOfSpeech=VBG] [Text=FREEBIRD CharacterOffsetBegin=36 CharacterOffsetEnd=44 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.] 
+root(ROOT-0, tire-4)
+nsubj(tire-4, I-1)
+advmod(tire-4, simply-2)
+neg(tire-4, never-3)
+prep(tire-4, of-5)
+pcomp(of-5, watching-6)
+dobj(watching-6, FREEBIRD-7)
+punct(tire-4, .-8)
+
+Sentence #2 (13 tokens):
+My husband was an extra so I was involved from the start.
+[Text=My CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=PRP$] [Text=husband CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=extra CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=so CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=VBD] [Text=involved CharacterOffsetBegin=83 CharacterOffsetEnd=91 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=DT] [Text=start CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.] 
+root(ROOT-0, extra-5)
+poss(husband-2, My-1)
+nsubj(extra-5, husband-2)
+cop(extra-5, was-3)
+det(extra-5, an-4)
+mark(involved-9, so-6)
+nsubjpass(involved-9, I-7)
+auxpass(involved-9, was-8)
+advcl(extra-5, involved-9)
+prep(involved-9, from-10)
+det(start-12, the-11)
+pobj(from-10, start-12)
+punct(extra-5, .-13)
+
+Sentence #3 (23 tokens):
+Have kept in touch with Jon and have helped out with promoting the film both in Cinemas and now the DVD release.
+[Text=Have CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=VBP] [Text=kept CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=touch CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=IN] [Text=Jon CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=CC] [Text=have CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=VBP] [Text=helped CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=promoting CharacterOffsetBegin=165 CharacterOffsetEnd=174 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=both CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=CC] [Text=in CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=IN] [Text=Cinemas CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=CC] [Text=now CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=release CharacterOffsetBegin=216 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, kept-2)
+aux(kept-2, Have-1)
+prep(kept-2, in-3)
+pobj(in-3, touch-4)
+prep(touch-4, with-5)
+pobj(with-5, Jon-6)
+cc(kept-2, and-7)
+aux(helped-9, have-8)
+conj(kept-2, helped-9)
+prt(helped-9, out-10)
+prep(helped-9, with-11)
+pcomp(with-11, promoting-12)
+det(film-14, the-13)
+dobj(promoting-12, film-14)
+cc(promoting-12, both-15)
+conj(promoting-12, in-16)
+pobj(in-16, Cinemas-17)
+cc(promoting-12, and-18)
+advmod(release-22, now-19)
+det(release-22, the-20)
+nn(release-22, DVD-21)
+conj(promoting-12, release-22)
+punct(kept-2, .-23)
+
+Sentence #4 (18 tokens):
+Even to the extent of distributing promotional postcards on cross channel ferries and various places throughout France.
+[Text=Even CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=extent CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=distributing CharacterOffsetBegin=251 CharacterOffsetEnd=263 PartOfSpeech=VBG] [Text=promotional CharacterOffsetBegin=264 CharacterOffsetEnd=275 PartOfSpeech=JJ] [Text=postcards CharacterOffsetBegin=276 CharacterOffsetEnd=285 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=IN] [Text=cross CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=channel CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=NN] [Text=ferries CharacterOffsetBegin=303 CharacterOffsetEnd=310 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=CC] [Text=various CharacterOffsetBegin=315 CharacterOffsetEnd=322 PartOfSpeech=JJ] [Text=places CharacterOffsetBegin=323 CharacterOffsetEnd=329 PartOfSpeech=NNS] [Text=throughout CharacterOffsetBegin=330 CharacterOffsetEnd=340 PartOfSpeech=IN] [Text=France CharacterOffsetBegin=341 CharacterOffsetEnd=347 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=.] 
+root(ROOT-0, to-2)
+advmod(to-2, Even-1)
+det(extent-4, the-3)
+pobj(to-2, extent-4)
+prep(extent-4, of-5)
+pcomp(of-5, distributing-6)
+amod(postcards-8, promotional-7)
+dobj(distributing-6, postcards-8)
+prep(postcards-8, on-9)
+nn(ferries-12, cross-10)
+nn(ferries-12, channel-11)
+pobj(on-9, ferries-12)
+cc(ferries-12, and-13)
+amod(places-15, various-14)
+conj(ferries-12, places-15)
+prep(places-15, throughout-16)
+pobj(throughout-16, France-17)
+punct(to-2, .-18)
+
+Sentence #5 (19 tokens):
+FREEBIRD was expertly written and directed with the perfect combination of fun and serious moments plus choice casting.
+[Text=FREEBIRD CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=VBD] [Text=expertly CharacterOffsetBegin=366 CharacterOffsetEnd=374 PartOfSpeech=RB] [Text=written CharacterOffsetBegin=375 CharacterOffsetEnd=382 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=CC] [Text=directed CharacterOffsetBegin=387 CharacterOffsetEnd=395 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=405 CharacterOffsetEnd=412 PartOfSpeech=JJ] [Text=combination CharacterOffsetBegin=413 CharacterOffsetEnd=424 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=IN] [Text=fun CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=CC] [Text=serious CharacterOffsetBegin=436 CharacterOffsetEnd=443 PartOfSpeech=JJ] [Text=moments CharacterOffsetBegin=444 CharacterOffsetEnd=451 PartOfSpeech=NNS] [Text=plus CharacterOffsetBegin=452 CharacterOffsetEnd=456 PartOfSpeech=CC] [Text=choice CharacterOffsetBegin=457 CharacterOffsetEnd=463 PartOfSpeech=NN] [Text=casting CharacterOffsetBegin=464 CharacterOffsetEnd=471 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=.] 
+root(ROOT-0, written-4)
+nsubjpass(written-4, FREEBIRD-1)
+auxpass(written-4, was-2)
+advmod(written-4, expertly-3)
+cc(written-4, and-5)
+conj(written-4, directed-6)
+prep(directed-6, with-7)
+det(combination-10, the-8)
+amod(combination-10, perfect-9)
+pobj(with-7, combination-10)
+prep(combination-10, of-11)
+nn(casting-18, fun-12)
+cc(fun-12, and-13)
+amod(moments-15, serious-14)
+conj(fun-12, moments-15)
+cc(fun-12, plus-16)
+conj(fun-12, choice-17)
+pobj(of-11, casting-18)
+punct(written-4, .-19)
+
+Sentence #6 (10 tokens):
+Only Phil Daniels could fit the role of Grouch.
+[Text=Only CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=RB] [Text=Phil CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=NNP] [Text=Daniels CharacterOffsetBegin=487 CharacterOffsetEnd=494 PartOfSpeech=NNP] [Text=could CharacterOffsetBegin=495 CharacterOffsetEnd=500 PartOfSpeech=MD] [Text=fit CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=DT] [Text=role CharacterOffsetBegin=509 CharacterOffsetEnd=513 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=514 CharacterOffsetEnd=516 PartOfSpeech=IN] [Text=Grouch CharacterOffsetBegin=517 CharacterOffsetEnd=523 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=.] 
+root(ROOT-0, fit-5)
+advmod(Daniels-3, Only-1)
+nn(Daniels-3, Phil-2)
+nsubj(fit-5, Daniels-3)
+aux(fit-5, could-4)
+det(role-7, the-6)
+dobj(fit-5, role-7)
+prep(role-7, of-8)
+pobj(of-8, Grouch-9)
+punct(fit-5, .-10)
+
+Sentence #7 (17 tokens):
+Great privilege to meet Jon and the cast at the party following the premier in January.
+[Text=Great CharacterOffsetBegin=529 CharacterOffsetEnd=534 PartOfSpeech=JJ] [Text=privilege CharacterOffsetBegin=535 CharacterOffsetEnd=544 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=TO] [Text=meet CharacterOffsetBegin=548 CharacterOffsetEnd=552 PartOfSpeech=VB] [Text=Jon CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=561 CharacterOffsetEnd=564 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=DT] [Text=party CharacterOffsetBegin=577 CharacterOffsetEnd=582 PartOfSpeech=NN] [Text=following CharacterOffsetBegin=583 CharacterOffsetEnd=592 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=DT] [Text=premier CharacterOffsetBegin=597 CharacterOffsetEnd=604 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=IN] [Text=January CharacterOffsetBegin=608 CharacterOffsetEnd=615 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=615 CharacterOffsetEnd=616 PartOfSpeech=.] 
+root(ROOT-0, privilege-2)
+amod(privilege-2, Great-1)
+aux(meet-4, to-3)
+infmod(privilege-2, meet-4)
+dobj(meet-4, Jon-5)
+cc(Jon-5, and-6)
+det(cast-8, the-7)
+conj(Jon-5, cast-8)
+prep(meet-4, at-9)
+det(party-11, the-10)
+pobj(at-9, party-11)
+prep(meet-4, following-12)
+det(premier-14, the-13)
+pobj(following-12, premier-14)
+prep(premier-14, in-15)
+pobj(in-15, January-16)
+punct(privilege-2, .-17)
+
+Sentence #8 (21 tokens):
+Anything else you want doing Jon just ask, either email or phone, you know how to get me.
+[Text=Anything CharacterOffsetBegin=621 CharacterOffsetEnd=629 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=630 CharacterOffsetEnd=634 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=639 CharacterOffsetEnd=643 PartOfSpeech=VBP] [Text=doing CharacterOffsetBegin=644 CharacterOffsetEnd=649 PartOfSpeech=VBG] [Text=Jon CharacterOffsetBegin=650 CharacterOffsetEnd=653 PartOfSpeech=NNP] [Text=just CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=RB] [Text=ask CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=662 CharacterOffsetEnd=663 PartOfSpeech=,] [Text=either CharacterOffsetBegin=664 CharacterOffsetEnd=670 PartOfSpeech=CC] [Text=email CharacterOffsetBegin=671 CharacterOffsetEnd=676 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=677 CharacterOffsetEnd=679 PartOfSpeech=CC] [Text=phone CharacterOffsetBegin=680 CharacterOffsetEnd=685 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=685 CharacterOffsetEnd=686 PartOfSpeech=,] [Text=you CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=691 CharacterOffsetEnd=695 PartOfSpeech=VBP] [Text=how CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=703 CharacterOffsetEnd=706 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=707 CharacterOffsetEnd=709 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=.] 
+root(ROOT-0, know-16)
+ccomp(know-16, Anything-1)
+advmod(want-4, else-2)
+nsubj(want-4, you-3)
+rcmod(Anything-1, want-4)
+csubj(ask-8, doing-5)
+dobj(doing-5, Jon-6)
+advmod(ask-8, just-7)
+xcomp(want-4, ask-8)
+punct(Anything-1, ,-9)
+cc(Anything-1, either-10)
+conj(Anything-1, email-11)
+cc(email-11, or-12)
+conj(email-11, phone-13)
+punct(know-16, ,-14)
+nsubj(know-16, you-15)
+advmod(get-19, how-17)
+aux(get-19, to-18)
+ccomp(know-16, get-19)
+dobj(get-19, me-20)
+punct(know-16, .-21)
+
+Sentence #9 (2 tokens):
+Sue xx
+[Text=Sue CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=VB] [Text=xx CharacterOffsetBegin=719 CharacterOffsetEnd=721 PartOfSpeech=NN] 
+root(ROOT-0, xx-2)
+nn(xx-2, Sue-1)
+

@@ -1,0 +1,71 @@
+Sentence #1 (18 tokens):
+I didn't see They Call Me Trinity, but this sequel is really unfunny at all.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=VB] [Text=They CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=PRP] [Text=Call CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=VB] [Text=Me CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP] [Text=Trinity CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=,] [Text=but CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=sequel CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=VBZ] [Text=really CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=RB] [Text=unfunny CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=.] 
+root(ROOT-0, see-4)
+nsubj(see-4, I-1)
+aux(see-4, did-2)
+neg(see-4, n't-3)
+nsubj(Call-6, They-5)
+ccomp(see-4, Call-6)
+dobj(Call-6, Me-7)
+dep(Me-7, Trinity-8)
+punct(see-4, ,-9)
+cc(see-4, but-10)
+det(sequel-12, this-11)
+nsubj(unfunny-15, sequel-12)
+cop(unfunny-15, is-13)
+advmod(unfunny-15, really-14)
+conj(see-4, unfunny-15)
+advmod(unfunny-15, at-16)
+pobj(at-16, all-17)
+punct(see-4, .-18)
+
+Sentence #2 (12 tokens):
+It has many gags that are supposed to make people laugh.
+[Text=It CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=VBZ] [Text=many CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=JJ] [Text=gags CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=VBP] [Text=supposed CharacterOffsetBegin=111 CharacterOffsetEnd=119 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=VB] [Text=people CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=NNS] [Text=laugh CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, It-1)
+amod(gags-4, many-3)
+dobj(has-2, gags-4)
+nsubjpass(supposed-7, that-5)
+auxpass(supposed-7, are-6)
+rcmod(gags-4, supposed-7)
+aux(make-9, to-8)
+xcomp(supposed-7, make-9)
+nsubj(laugh-11, people-10)
+xcomp(make-9, laugh-11)
+punct(has-2, .-12)
+
+Sentence #3 (15 tokens):
+I guess the filmmaker just don't have the talent to do it right.
+[Text=I CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=filmmaker CharacterOffsetBegin=158 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=talent CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=PRP] [Text=right CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, guess-2)
+nsubj(guess-2, I-1)
+det(filmmaker-4, the-3)
+nsubj(have-8, filmmaker-4)
+advmod(have-8, just-5)
+aux(have-8, do-6)
+neg(have-8, n't-7)
+ccomp(guess-2, have-8)
+det(talent-10, the-9)
+dobj(have-8, talent-10)
+aux(do-12, to-11)
+infmod(talent-10, do-12)
+dobj(do-12, it-13)
+advmod(do-12, right-14)
+punct(guess-2, .-15)
+
+Sentence #4 (10 tokens):
+Wonder why it was so popular in the 70s.
+[Text=Wonder CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=JJ] [Text=why CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=RB] [Text=popular CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=DT] [Text=70s CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=.] 
+root(ROOT-0, Wonder-1)
+advmod(popular-6, why-2)
+nsubj(popular-6, it-3)
+cop(popular-6, was-4)
+advmod(popular-6, so-5)
+rcmod(Wonder-1, popular-6)
+prep(popular-6, in-7)
+det(70s-9, the-8)
+pobj(in-7, 70s-9)
+punct(Wonder-1, .-10)
+

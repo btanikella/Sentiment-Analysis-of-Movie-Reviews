@@ -1,0 +1,241 @@
+Sentence #1 (16 tokens):
+Jesus Christ, I can't believe I've wasted my time watching this movie.
+[Text=Jesus CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=Christ CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=,] [Text=I CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=RB] [Text=believe CharacterOffsetBegin=26 CharacterOffsetEnd=33 PartOfSpeech=VB] [Text=I CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=VBP] [Text=wasted CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VBN] [Text=my CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=watching CharacterOffsetBegin=54 CharacterOffsetEnd=62 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=.] 
+root(ROOT-0, Christ-2)
+nn(Christ-2, Jesus-1)
+punct(Christ-2, ,-3)
+nsubj(believe-7, I-4)
+aux(believe-7, ca-5)
+neg(believe-7, n't-6)
+rcmod(Christ-2, believe-7)
+nsubj(wasted-10, I-8)
+aux(wasted-10, 've-9)
+ccomp(believe-7, wasted-10)
+poss(time-12, my-11)
+dobj(wasted-10, time-12)
+partmod(time-12, watching-13)
+det(movie-15, this-14)
+dobj(watching-13, movie-15)
+punct(Christ-2, .-16)
+
+Sentence #2 (13 tokens):
+I only watched because I have such a crush on Jordan Ladd.
+[Text=I CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=PRP] [Text=only CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=watched CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=VBD] [Text=because CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=VBP] [Text=such CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=crush CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=Jordan CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=NNP] [Text=Ladd CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=.] 
+root(ROOT-0, watched-3)
+nsubj(watched-3, I-1)
+advmod(watched-3, only-2)
+mark(have-6, because-4)
+nsubj(have-6, I-5)
+advcl(watched-3, have-6)
+amod(crush-9, such-7)
+det(crush-9, a-8)
+dobj(have-6, crush-9)
+prep(crush-9, on-10)
+nn(Ladd-12, Jordan-11)
+pobj(on-10, Ladd-12)
+punct(watched-3, .-13)
+
+Sentence #3 (10 tokens):
+But watching this film almost put me off her.
+[Text=But CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=CC] [Text=watching CharacterOffsetBegin=146 CharacterOffsetEnd=154 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NN] [Text=almost CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=RB] [Text=put CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=PRP] [Text=off CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=RP] [Text=her CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=.] 
+root(ROOT-0, put-6)
+cc(put-6, But-1)
+csubj(put-6, watching-2)
+det(film-4, this-3)
+dobj(watching-2, film-4)
+advmod(put-6, almost-5)
+dobj(put-6, me-7)
+prt(put-6, off-8)
+dobj(put-6, her-9)
+punct(put-6, .-10)
+
+Sentence #4 (5 tokens):
+This is absolutely awful!
+[Text=This CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=VBZ] [Text=absolutely CharacterOffsetBegin=200 CharacterOffsetEnd=210 PartOfSpeech=RB] [Text=awful CharacterOffsetBegin=211 CharacterOffsetEnd=216 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=.] 
+root(ROOT-0, awful-4)
+nsubj(awful-4, This-1)
+cop(awful-4, is-2)
+advmod(awful-4, absolutely-3)
+punct(awful-4, !-5)
+
+Sentence #5 (20 tokens):
+I could have been watching Survivor Series 93 over this.The lead guy in this was so bland and generic.
+[Text=I CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=224 CharacterOffsetEnd=229 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=VBN] [Text=watching CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=VBG] [Text=Survivor CharacterOffsetBegin=249 CharacterOffsetEnd=257 PartOfSpeech=NNP] [Text=Series CharacterOffsetBegin=258 CharacterOffsetEnd=264 PartOfSpeech=NNP] [Text=93 CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=CD] [Text=over CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=IN] [Text=this.The CharacterOffsetBegin=273 CharacterOffsetEnd=281 PartOfSpeech=JJ] [Text=lead CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=guy CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=RB] [Text=bland CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=CC] [Text=generic CharacterOffsetBegin=316 CharacterOffsetEnd=323 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=.] 
+root(ROOT-0, bland-17)
+nsubj(watching-5, I-1)
+aux(watching-5, could-2)
+aux(watching-5, have-3)
+aux(watching-5, been-4)
+csubj(bland-17, watching-5)
+dobj(watching-5, Survivor-6)
+dep(Survivor-6, Series-7)
+num(Series-7, 93-8)
+prep(Series-7, over-9)
+amod(guy-12, this.The-10)
+nn(guy-12, lead-11)
+pobj(over-9, guy-12)
+prep(watching-5, in-13)
+pobj(in-13, this-14)
+cop(bland-17, was-15)
+advmod(bland-17, so-16)
+cc(bland-17, and-18)
+conj(bland-17, generic-19)
+punct(bland-17, .-20)
+
+Sentence #6 (21 tokens):
+I would love it if the great Mistuharu Misawa Tiger Drove '91'd his ass through a glass window.
+[Text=I CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=MD] [Text=love CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=PRP] [Text=if CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=JJ] [Text=Mistuharu CharacterOffsetBegin=358 CharacterOffsetEnd=367 PartOfSpeech=NNP] [Text=Misawa CharacterOffsetBegin=368 CharacterOffsetEnd=374 PartOfSpeech=NNP] [Text=Tiger CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NNP] [Text=Drove CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=POS] [Text=91 CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=CD] [Text='d CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=MD] [Text=his CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=PRP$] [Text=ass CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=through CharacterOffsetBegin=401 CharacterOffsetEnd=408 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=DT] [Text=glass CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=NN] [Text=window CharacterOffsetBegin=417 CharacterOffsetEnd=423 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=.] 
+root(ROOT-0, love-3)
+nsubj(love-3, I-1)
+aux(love-3, would-2)
+dobj(love-3, it-4)
+prep(love-3, if-5)
+det(Drove-11, the-6)
+amod(Drove-11, great-7)
+nn(Drove-11, Mistuharu-8)
+nn(Drove-11, Misawa-9)
+nn(Drove-11, Tiger-10)
+pobj(if-5, Drove-11)
+possessive(Drove-11, '-12)
+dep(Drove-11, 91-13)
+dep(91-13, 'd-14)
+poss(ass-16, his-15)
+dep('d-14, ass-16)
+prep(ass-16, through-17)
+det(window-20, a-18)
+nn(window-20, glass-19)
+pobj(through-17, window-20)
+punct(love-3, .-21)
+
+Sentence #7 (16 tokens):
+I was enraging every time he was saying "lake" and "cabin".
+[Text=I CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=VBD] [Text=enraging CharacterOffsetBegin=435 CharacterOffsetEnd=443 PartOfSpeech=VBG] [Text=every CharacterOffsetBegin=444 CharacterOffsetEnd=449 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=VBD] [Text=saying CharacterOffsetBegin=462 CharacterOffsetEnd=468 PartOfSpeech=VBG] [Text=`` CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=``] [Text=lake CharacterOffsetBegin=470 CharacterOffsetEnd=474 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=''] [Text=and CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=``] [Text=cabin CharacterOffsetBegin=481 CharacterOffsetEnd=486 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=''] [Text=. CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=.] 
+root(ROOT-0, enraging-3)
+nsubj(enraging-3, I-1)
+aux(enraging-3, was-2)
+det(time-5, every-4)
+dobj(enraging-3, time-5)
+nsubj(saying-8, he-6)
+aux(saying-8, was-7)
+rcmod(time-5, saying-8)
+punct(saying-8, ``-9)
+dobj(saying-8, lake-10)
+punct(lake-10, ''-11)
+cc(lake-10, and-12)
+punct(cabin-14, ``-13)
+conj(lake-10, cabin-14)
+punct(cabin-14, ''-15)
+punct(enraging-3, .-16)
+
+Sentence #8 (16 tokens):
+I'd kick his ass.Jordan Ladd, on the other hand, was absolutely wonderful.
+[Text=I CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=PRP] [Text='d CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=MD] [Text=kick CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=502 CharacterOffsetEnd=505 PartOfSpeech=PRP$] [Text=ass.Jordan CharacterOffsetBegin=506 CharacterOffsetEnd=516 PartOfSpeech=NNP] [Text=Ladd CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=,] [Text=on CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=530 CharacterOffsetEnd=535 PartOfSpeech=JJ] [Text=hand CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=,] [Text=was CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=VBD] [Text=absolutely CharacterOffsetBegin=546 CharacterOffsetEnd=556 PartOfSpeech=RB] [Text=wonderful CharacterOffsetBegin=557 CharacterOffsetEnd=566 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=.] 
+root(ROOT-0, wonderful-15)
+nsubj(kick-3, I-1)
+aux(kick-3, 'd-2)
+parataxis(wonderful-15, kick-3)
+poss(Ladd-6, his-4)
+nn(Ladd-6, ass.Jordan-5)
+dobj(kick-3, Ladd-6)
+punct(kick-3, ,-7)
+prep(kick-3, on-8)
+det(hand-11, the-9)
+amod(hand-11, other-10)
+pobj(on-8, hand-11)
+punct(kick-3, ,-12)
+cop(wonderful-15, was-13)
+advmod(wonderful-15, absolutely-14)
+punct(wonderful-15, .-16)
+
+Sentence #9 (4 tokens):
+A true angel.
+[Text=A CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=DT] [Text=true CharacterOffsetBegin=574 CharacterOffsetEnd=578 PartOfSpeech=JJ] [Text=angel CharacterOffsetBegin=579 CharacterOffsetEnd=584 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=584 CharacterOffsetEnd=585 PartOfSpeech=.] 
+root(ROOT-0, angel-3)
+det(angel-3, A-1)
+amod(angel-3, true-2)
+punct(angel-3, .-4)
+
+Sentence #10 (13 tokens):
+But she couldn't even save this utter joke of a film.
+[Text=But CharacterOffsetBegin=590 CharacterOffsetEnd=593 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=594 CharacterOffsetEnd=597 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=598 CharacterOffsetEnd=603 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=RB] [Text=save CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=617 CharacterOffsetEnd=621 PartOfSpeech=DT] [Text=utter CharacterOffsetBegin=622 CharacterOffsetEnd=627 PartOfSpeech=JJ] [Text=joke CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=636 CharacterOffsetEnd=637 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=638 CharacterOffsetEnd=642 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=.] 
+root(ROOT-0, save-6)
+cc(save-6, But-1)
+nsubj(save-6, she-2)
+aux(save-6, could-3)
+neg(save-6, n't-4)
+advmod(save-6, even-5)
+det(joke-9, this-7)
+amod(joke-9, utter-8)
+dobj(save-6, joke-9)
+prep(joke-9, of-10)
+det(film-12, a-11)
+pobj(of-10, film-12)
+punct(save-6, .-13)
+
+Sentence #11 (20 tokens):
+Sadly, she couldn't even act like she was off her nut when she took that truth drug.
+[Text=Sadly CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=,] [Text=she CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=659 CharacterOffsetEnd=664 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=RB] [Text=act CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=VB] [Text=like CharacterOffsetBegin=677 CharacterOffsetEnd=681 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=682 CharacterOffsetEnd=685 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=VBD] [Text=off CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=PRP$] [Text=nut CharacterOffsetBegin=698 CharacterOffsetEnd=701 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=WRB] [Text=she CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=PRP] [Text=took CharacterOffsetBegin=711 CharacterOffsetEnd=715 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=716 CharacterOffsetEnd=720 PartOfSpeech=DT] [Text=truth CharacterOffsetBegin=721 CharacterOffsetEnd=726 PartOfSpeech=NN] [Text=drug CharacterOffsetBegin=727 CharacterOffsetEnd=731 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=731 CharacterOffsetEnd=732 PartOfSpeech=.] 
+root(ROOT-0, act-7)
+advmod(act-7, Sadly-1)
+punct(act-7, ,-2)
+nsubj(act-7, she-3)
+aux(act-7, could-4)
+neg(act-7, n't-5)
+advmod(act-7, even-6)
+mark(was-10, like-8)
+nsubj(was-10, she-9)
+advcl(act-7, was-10)
+prep(was-10, off-11)
+poss(nut-13, her-12)
+pobj(off-11, nut-13)
+advmod(took-16, when-14)
+nsubj(took-16, she-15)
+advcl(was-10, took-16)
+det(drug-19, that-17)
+nn(drug-19, truth-18)
+dobj(took-16, drug-19)
+punct(act-7, .-20)
+
+Sentence #12 (15 tokens):
+It looked hilarious.I also loved the bit where Jordan accidentally spilled yogurt on her.
+[Text=It CharacterOffsetBegin=737 CharacterOffsetEnd=739 PartOfSpeech=PRP] [Text=looked CharacterOffsetBegin=740 CharacterOffsetEnd=746 PartOfSpeech=VBD] [Text=hilarious.I CharacterOffsetBegin=747 CharacterOffsetEnd=758 PartOfSpeech=NNP] [Text=also CharacterOffsetBegin=759 CharacterOffsetEnd=763 PartOfSpeech=RB] [Text=loved CharacterOffsetBegin=764 CharacterOffsetEnd=769 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=778 CharacterOffsetEnd=783 PartOfSpeech=WRB] [Text=Jordan CharacterOffsetBegin=784 CharacterOffsetEnd=790 PartOfSpeech=NNP] [Text=accidentally CharacterOffsetBegin=791 CharacterOffsetEnd=803 PartOfSpeech=RB] [Text=spilled CharacterOffsetBegin=804 CharacterOffsetEnd=811 PartOfSpeech=VBD] [Text=yogurt CharacterOffsetBegin=812 CharacterOffsetEnd=818 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=819 CharacterOffsetEnd=821 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=822 CharacterOffsetEnd=825 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=825 CharacterOffsetEnd=826 PartOfSpeech=.] 
+root(ROOT-0, looked-2)
+nsubj(looked-2, It-1)
+nsubj(loved-5, hilarious.I-3)
+advmod(loved-5, also-4)
+ccomp(looked-2, loved-5)
+det(bit-7, the-6)
+dobj(loved-5, bit-7)
+advmod(spilled-11, where-8)
+nsubj(spilled-11, Jordan-9)
+advmod(spilled-11, accidentally-10)
+rcmod(bit-7, spilled-11)
+dobj(spilled-11, yogurt-12)
+prep(spilled-11, on-13)
+pobj(on-13, her-14)
+punct(looked-2, .-15)
+
+Sentence #13 (20 tokens):
+It reminded me of a time where...nevermind.Anayways, do watch this film because of it's awfulness.
+[Text=It CharacterOffsetBegin=831 CharacterOffsetEnd=833 PartOfSpeech=PRP] [Text=reminded CharacterOffsetBegin=834 CharacterOffsetEnd=842 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=843 CharacterOffsetEnd=845 PartOfSpeech=PRP] [Text=of CharacterOffsetBegin=846 CharacterOffsetEnd=848 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=849 CharacterOffsetEnd=850 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=851 CharacterOffsetEnd=855 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=856 CharacterOffsetEnd=861 PartOfSpeech=WRB] [Text=... CharacterOffsetBegin=861 CharacterOffsetEnd=864 PartOfSpeech=:] [Text=nevermind.Anayways CharacterOffsetBegin=864 CharacterOffsetEnd=882 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=882 CharacterOffsetEnd=883 PartOfSpeech=,] [Text=do CharacterOffsetBegin=884 CharacterOffsetEnd=886 PartOfSpeech=VBP] [Text=watch CharacterOffsetBegin=887 CharacterOffsetEnd=892 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=893 CharacterOffsetEnd=897 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=898 CharacterOffsetEnd=902 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=903 CharacterOffsetEnd=910 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=911 CharacterOffsetEnd=913 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=914 CharacterOffsetEnd=916 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=916 CharacterOffsetEnd=918 PartOfSpeech=VBZ] [Text=awfulness CharacterOffsetBegin=919 CharacterOffsetEnd=928 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=928 CharacterOffsetEnd=929 PartOfSpeech=.] 
+root(ROOT-0, reminded-2)
+nsubj(reminded-2, It-1)
+dobj(reminded-2, me-3)
+prep(reminded-2, of-4)
+det(time-6, a-5)
+pobj(of-4, time-6)
+advmod(watch-12, where-7)
+punct(nevermind.Anayways-9, ...-8)
+nsubj(watch-12, nevermind.Anayways-9)
+punct(nevermind.Anayways-9, ,-10)
+aux(watch-12, do-11)
+rcmod(time-6, watch-12)
+det(film-14, this-13)
+dobj(watch-12, film-14)
+mwe(of-16, because-15)
+mark(awfulness-19, of-16)
+nsubj(awfulness-19, it-17)
+cop(awfulness-19, 's-18)
+ccomp(reminded-2, awfulness-19)
+punct(reminded-2, .-20)
+

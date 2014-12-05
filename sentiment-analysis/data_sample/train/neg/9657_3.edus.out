@@ -1,0 +1,218 @@
+Sentence #1 (23 tokens):
+1) I am not weapon expert, but even i can see difference between U.S. army riffles in WWI and WWII.
+[Text=1 CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=LS] [Text=-RRB- CharacterOffsetBegin=5 CharacterOffsetEnd=6 PartOfSpeech=-RRB-] [Text=I CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=RB] [Text=weapon CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=expert CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=,] [Text=but CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=CC] [Text=even CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=RB] [Text=i CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=FW] [Text=can CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=VB] [Text=difference CharacterOffsetBegin=50 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=between CharacterOffsetBegin=61 CharacterOffsetEnd=68 PartOfSpeech=IN] [Text=U.S. CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=NNP] [Text=army CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=NN] [Text=riffles CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN] [Text=WWI CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=CC] [Text=WWII CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=.] 
+root(ROOT-0, expert-7)
+nn(expert-7, 1-1)
+punct(expert-7, -RRB--2)
+nsubj(expert-7, I-3)
+cop(expert-7, am-4)
+neg(expert-7, not-5)
+nn(expert-7, weapon-6)
+punct(expert-7, ,-8)
+cc(expert-7, but-9)
+advmod(i-11, even-10)
+nsubj(see-13, i-11)
+aux(see-13, can-12)
+conj(expert-7, see-13)
+dobj(see-13, difference-14)
+prep(difference-14, between-15)
+nn(riffles-18, U.S.-16)
+nn(riffles-18, army-17)
+pobj(between-15, riffles-18)
+prep(riffles-18, in-19)
+pobj(in-19, WWI-20)
+cc(WWI-20, and-21)
+conj(WWI-20, WWII-22)
+punct(expert-7, .-23)
+
+Sentence #2 (20 tokens):
+In movie we can see privates, armed with "M1 Garand" (invented in year 1932!
+    )
+[Text=In CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=IN] [Text=movie CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=we CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=VB] [Text=privates CharacterOffsetBegin=128 CharacterOffsetEnd=136 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=,] [Text=armed CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=``] [Text=M1 CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=Garand CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=''] [Text=-LRB- CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=-LRB-] [Text=invented CharacterOffsetBegin=162 CharacterOffsetEnd=170 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=IN] [Text=year CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=1932 CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=CD] [Text=! CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=-RRB-] 
+root(ROOT-0, see-5)
+prep(see-5, In-1)
+pobj(In-1, movie-2)
+nsubj(see-5, we-3)
+aux(see-5, can-4)
+dobj(see-5, privates-6)
+punct(privates-6, ,-7)
+partmod(privates-6, armed-8)
+prep(armed-8, with-9)
+punct(M1-11, ``-10)
+pobj(with-9, M1-11)
+dep(invented-15, Garand-12)
+punct(invented-15, ''-13)
+punct(invented-15, -LRB--14)
+rcmod(M1-11, invented-15)
+prep(invented-15, in-16)
+pobj(in-16, year-17)
+num(year-17, 1932-18)
+punct(M1-11, !-19)
+punct(M1-11, -RRB--20)
+
+Sentence #3 (21 tokens):
+, not authentic "1903 Springfield" (aka "Silent Death"), who privates use until WWII.
+[Text=, CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=,] [Text=not CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=RB] [Text=authentic CharacterOffsetBegin=196 CharacterOffsetEnd=205 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=``] [Text=1903 CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=CD] [Text=Springfield CharacterOffsetBegin=212 CharacterOffsetEnd=223 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=''] [Text=-LRB- CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=-LRB-] [Text=aka CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=FW] [Text=`` CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=``] [Text=Silent CharacterOffsetBegin=231 CharacterOffsetEnd=237 PartOfSpeech=JJ] [Text=Death CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=''] [Text=-RRB- CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=,] [Text=who CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=WP] [Text=privates CharacterOffsetBegin=251 CharacterOffsetEnd=259 PartOfSpeech=VBZ] [Text=use CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=until CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=IN] [Text=WWII CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=.] 
+root(ROOT-0, Springfield-6)
+punct(authentic-3, ,-1)
+neg(authentic-3, not-2)
+dep(Springfield-6, authentic-3)
+punct(Springfield-6, ``-4)
+num(Springfield-6, 1903-5)
+punct(Springfield-6, ''-7)
+punct(aka-9, -LRB--8)
+dep(Springfield-6, aka-9)
+punct(aka-9, ``-10)
+amod(Death-12, Silent-11)
+dep(aka-9, Death-12)
+punct(aka-9, ''-13)
+punct(Springfield-6, -RRB--14)
+punct(Springfield-6, ,-15)
+nsubj(privates-17, who-16)
+rcmod(Springfield-6, privates-17)
+dobj(privates-17, use-18)
+prep(privates-17, until-19)
+pobj(until-19, WWII-20)
+punct(Springfield-6, .-21)
+
+Sentence #4 (16 tokens):
+Difference - M1 can load 1,5 times more ammunition and 3 times more fire rate!
+[Text=Difference CharacterOffsetBegin=280 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=- CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=:] [Text=M1 CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=MD] [Text=load CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=VB] [Text=1,5 CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=CD] [Text=times CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=NNS] [Text=more CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=RBR] [Text=ammunition CharacterOffsetBegin=320 CharacterOffsetEnd=330 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=CC] [Text=3 CharacterOffsetBegin=335 CharacterOffsetEnd=336 PartOfSpeech=CD] [Text=times CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=NNS] [Text=more CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=RBR] [Text=fire CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=NN] [Text=rate CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=.] 
+root(ROOT-0, load-5)
+dep(load-5, Difference-1)
+punct(load-5, --2)
+nsubj(load-5, M1-3)
+aux(load-5, can-4)
+number(times-7, 1,5-6)
+num(ammunition-9, times-7)
+advmod(ammunition-9, more-8)
+dobj(load-5, ammunition-9)
+cc(ammunition-9, and-10)
+number(times-12, 3-11)
+num(rate-15, times-12)
+advmod(rate-15, more-13)
+nn(rate-15, fire-14)
+conj(ammunition-9, rate-15)
+punct(load-5, !-16)
+
+Sentence #5 (13 tokens):
+M1 was semi - automatic, Springfield requires reloading after every shot.
+[Text=M1 CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=VBD] [Text=semi CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=SYM] [Text=- CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=:] [Text=automatic CharacterOffsetBegin=377 CharacterOffsetEnd=386 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=,] [Text=Springfield CharacterOffsetBegin=388 CharacterOffsetEnd=399 PartOfSpeech=NNP] [Text=requires CharacterOffsetBegin=400 CharacterOffsetEnd=408 PartOfSpeech=VBZ] [Text=reloading CharacterOffsetBegin=409 CharacterOffsetEnd=418 PartOfSpeech=VBG] [Text=after CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=IN] [Text=every CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=DT] [Text=shot CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=435 CharacterOffsetEnd=436 PartOfSpeech=.] 
+root(ROOT-0, requires-8)
+nsubjpass(requires-8, M1-1)
+auxpass(requires-8, was-2)
+dep(requires-8, semi-3)
+punct(semi-3, --4)
+dep(requires-8, automatic-5)
+punct(requires-8, ,-6)
+nsubj(requires-8, Springfield-7)
+xcomp(requires-8, reloading-9)
+prep(reloading-9, after-10)
+det(shot-12, every-11)
+pobj(after-10, shot-12)
+punct(requires-8, .-13)
+
+Sentence #6 (3 tokens):
+Little difference?!
+[Text=Little CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=JJ] [Text=difference CharacterOffsetBegin=448 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=?! CharacterOffsetBegin=458 CharacterOffsetEnd=460 PartOfSpeech=IN] 
+root(ROOT-0, difference-2)
+amod(difference-2, Little-1)
+dep(difference-2, ?!-3)
+
+Sentence #7 (12 tokens):
+2) German army uniforms has borrowed from 1940 Year too.
+[Text=2 CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=LS] [Text=-RRB- CharacterOffsetBegin=466 CharacterOffsetEnd=467 PartOfSpeech=-RRB-] [Text=German CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=JJ] [Text=army CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=NN] [Text=uniforms CharacterOffsetBegin=480 CharacterOffsetEnd=488 PartOfSpeech=NNS] [Text=has CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=VBZ] [Text=borrowed CharacterOffsetBegin=493 CharacterOffsetEnd=501 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=IN] [Text=1940 CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=CD] [Text=Year CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=NN] [Text=too CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=.] 
+root(ROOT-0, borrowed-7)
+amod(uniforms-5, 2-1)
+punct(uniforms-5, -RRB--2)
+amod(uniforms-5, German-3)
+nn(uniforms-5, army-4)
+nsubj(borrowed-7, uniforms-5)
+aux(borrowed-7, has-6)
+prep(borrowed-7, from-8)
+num(Year-10, 1940-9)
+pobj(from-8, Year-10)
+advmod(borrowed-7, too-11)
+punct(borrowed-7, .-12)
+
+Sentence #8 (4 tokens):
+Especially - helmets.
+[Text=Especially CharacterOffsetBegin=526 CharacterOffsetEnd=536 PartOfSpeech=RB] [Text=- CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=:] [Text=helmets CharacterOffsetBegin=539 CharacterOffsetEnd=546 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=.] 
+root(ROOT-0, helmets-3)
+dep(helmets-3, Especially-1)
+punct(helmets-3, --2)
+punct(helmets-3, .-4)
+
+Sentence #9 (21 tokens):
+German helmets until end of WWI have significant pike on top, we cannot see even one in movie.
+[Text=German CharacterOffsetBegin=552 CharacterOffsetEnd=558 PartOfSpeech=JJ] [Text=helmets CharacterOffsetBegin=559 CharacterOffsetEnd=566 PartOfSpeech=NNS] [Text=until CharacterOffsetBegin=567 CharacterOffsetEnd=572 PartOfSpeech=IN] [Text=end CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=577 CharacterOffsetEnd=579 PartOfSpeech=IN] [Text=WWI CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=NNP] [Text=have CharacterOffsetBegin=584 CharacterOffsetEnd=588 PartOfSpeech=VBP] [Text=significant CharacterOffsetBegin=589 CharacterOffsetEnd=600 PartOfSpeech=JJ] [Text=pike CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=IN] [Text=top CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=,] [Text=we CharacterOffsetBegin=614 CharacterOffsetEnd=616 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=VB] [Text=even CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=CD] [Text=in CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=IN] [Text=movie CharacterOffsetBegin=640 CharacterOffsetEnd=645 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=.] 
+root(ROOT-0, have-7)
+amod(helmets-2, German-1)
+nsubj(have-7, helmets-2)
+prep(helmets-2, until-3)
+pobj(until-3, end-4)
+prep(end-4, of-5)
+pobj(of-5, WWI-6)
+amod(pike-9, significant-8)
+dobj(have-7, pike-9)
+prep(have-7, on-10)
+pobj(on-10, top-11)
+punct(have-7, ,-12)
+nsubj(see-16, we-13)
+aux(see-16, can-14)
+neg(see-16, not-15)
+ccomp(have-7, see-16)
+advmod(one-18, even-17)
+dobj(see-16, one-18)
+prep(one-18, in-19)
+pobj(in-19, movie-20)
+punct(have-7, .-21)
+
+Sentence #10 (20 tokens):
+And if we make little additional search in archives - how much truthful is this "True Story"?
+[Text=And CharacterOffsetBegin=651 CharacterOffsetEnd=654 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=IN] [Text=we CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=PRP] [Text=make CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=VBP] [Text=little CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=JJ] [Text=additional CharacterOffsetBegin=673 CharacterOffsetEnd=683 PartOfSpeech=JJ] [Text=search CharacterOffsetBegin=684 CharacterOffsetEnd=690 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=691 CharacterOffsetEnd=693 PartOfSpeech=IN] [Text=archives CharacterOffsetBegin=694 CharacterOffsetEnd=702 PartOfSpeech=NNS] [Text=- CharacterOffsetBegin=703 CharacterOffsetEnd=704 PartOfSpeech=:] [Text=how CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=WRB] [Text=much CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=JJ] [Text=truthful CharacterOffsetBegin=714 CharacterOffsetEnd=722 PartOfSpeech=JJ] [Text=is CharacterOffsetBegin=723 CharacterOffsetEnd=725 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=726 CharacterOffsetEnd=730 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=731 CharacterOffsetEnd=732 PartOfSpeech=``] [Text=True CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=JJ] [Text=Story CharacterOffsetBegin=737 CharacterOffsetEnd=742 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech=''] [Text=? CharacterOffsetBegin=743 CharacterOffsetEnd=744 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+mark(make-4, if-2)
+nsubj(make-4, we-3)
+dep(And-1, make-4)
+amod(search-7, little-5)
+amod(search-7, additional-6)
+dobj(make-4, search-7)
+prep(make-4, in-8)
+pobj(in-8, archives-9)
+punct(make-4, --10)
+advmod(much-12, how-11)
+amod(truthful-13, much-12)
+nsubj(Story-18, truthful-13)
+cop(Story-18, is-14)
+det(Story-18, this-15)
+punct(Story-18, ``-16)
+amod(Story-18, True-17)
+dep(make-4, Story-18)
+punct(Story-18, ''-19)
+punct(make-4, ?-20)
+
+Sentence #11 (20 tokens):
+I am surprised, how much "truthful" can be film directors in a pursuit of cheap propagation.
+[Text=I CharacterOffsetBegin=749 CharacterOffsetEnd=750 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=751 CharacterOffsetEnd=753 PartOfSpeech=VBP] [Text=surprised CharacterOffsetBegin=754 CharacterOffsetEnd=763 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=763 CharacterOffsetEnd=764 PartOfSpeech=,] [Text=how CharacterOffsetBegin=765 CharacterOffsetEnd=768 PartOfSpeech=WRB] [Text=much CharacterOffsetBegin=769 CharacterOffsetEnd=773 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=774 CharacterOffsetEnd=775 PartOfSpeech=``] [Text=truthful CharacterOffsetBegin=775 CharacterOffsetEnd=783 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=783 CharacterOffsetEnd=784 PartOfSpeech=''] [Text=can CharacterOffsetBegin=785 CharacterOffsetEnd=788 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=789 CharacterOffsetEnd=791 PartOfSpeech=VB] [Text=film CharacterOffsetBegin=792 CharacterOffsetEnd=796 PartOfSpeech=NN] [Text=directors CharacterOffsetBegin=797 CharacterOffsetEnd=806 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=807 CharacterOffsetEnd=809 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=810 CharacterOffsetEnd=811 PartOfSpeech=DT] [Text=pursuit CharacterOffsetBegin=812 CharacterOffsetEnd=819 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=820 CharacterOffsetEnd=822 PartOfSpeech=IN] [Text=cheap CharacterOffsetBegin=823 CharacterOffsetEnd=828 PartOfSpeech=JJ] [Text=propagation CharacterOffsetBegin=829 CharacterOffsetEnd=840 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=840 CharacterOffsetEnd=841 PartOfSpeech=.] 
+root(ROOT-0, surprised-3)
+nsubj(surprised-3, I-1)
+cop(surprised-3, am-2)
+punct(surprised-3, ,-4)
+advmod(much-6, how-5)
+advmod(truthful-8, much-6)
+punct(truthful-8, ``-7)
+nsubj(directors-13, truthful-8)
+punct(truthful-8, ''-9)
+aux(directors-13, can-10)
+cop(directors-13, be-11)
+nn(directors-13, film-12)
+ccomp(surprised-3, directors-13)
+prep(directors-13, in-14)
+det(pursuit-16, a-15)
+pobj(in-14, pursuit-16)
+prep(pursuit-16, of-17)
+amod(propagation-19, cheap-18)
+pobj(of-17, propagation-19)
+punct(surprised-3, .-20)
+

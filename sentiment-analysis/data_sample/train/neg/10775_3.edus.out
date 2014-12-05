@@ -1,0 +1,92 @@
+Sentence #1 (5 tokens):
+This movie is horrible!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=horrible CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=.] 
+root(ROOT-0, horrible-4)
+det(movie-2, This-1)
+nsubj(horrible-4, movie-2)
+cop(horrible-4, is-3)
+punct(horrible-4, !-5)
+
+Sentence #2 (13 tokens):
+It rivals "Ishtar" in the number of embarrassingly bad moments.
+[Text=It CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=PRP] [Text=rivals CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=``] [Text=Ishtar CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=''] [Text=in CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=number CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN] [Text=embarrassingly CharacterOffsetBegin=68 CharacterOffsetEnd=82 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=moments CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.] 
+root(ROOT-0, rivals-2)
+nsubj(rivals-2, It-1)
+punct(Ishtar-4, ``-3)
+dobj(rivals-2, Ishtar-4)
+punct(Ishtar-4, ''-5)
+prep(Ishtar-4, in-6)
+det(number-8, the-7)
+pobj(in-6, number-8)
+prep(number-8, of-9)
+amod(moments-12, embarrassingly-10)
+amod(moments-12, bad-11)
+pobj(of-9, moments-12)
+punct(rivals-2, .-13)
+
+Sentence #3 (27 tokens):
+I would have rated it lower than a 3, save for a couple of funny lines; but, overall, this film was crap!
+[Text=I CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=VB] [Text=rated CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=PRP] [Text=lower CharacterOffsetBegin=122 CharacterOffsetEnd=127 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=3 CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=,] [Text=save CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=DT] [Text=couple CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=funny CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=JJ] [Text=lines CharacterOffsetBegin=165 CharacterOffsetEnd=170 PartOfSpeech=NNS] [Text=; CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=:] [Text=but CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=,] [Text=overall CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=,] [Text=this CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VBD] [Text=crap CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=.] 
+root(ROOT-0, rated-4)
+nsubj(rated-4, I-1)
+aux(rated-4, would-2)
+aux(rated-4, have-3)
+dobj(rated-4, it-5)
+amod(it-5, lower-6)
+prep(lower-6, than-7)
+det(3-9, a-8)
+pobj(than-7, 3-9)
+punct(rated-4, ,-10)
+conj(rated-4, save-11)
+prep(save-11, for-12)
+det(couple-14, a-13)
+pobj(for-12, couple-14)
+prep(couple-14, of-15)
+amod(lines-17, funny-16)
+pobj(of-15, lines-17)
+punct(rated-4, ;-18)
+cc(rated-4, but-19)
+punct(rated-4, ,-20)
+advmod(rated-4, overall-21)
+punct(rated-4, ,-22)
+det(film-24, this-23)
+nsubj(crap-26, film-24)
+cop(crap-26, was-25)
+ccomp(rated-4, crap-26)
+punct(rated-4, !-27)
+
+Sentence #4 (15 tokens):
+It looked like they made it over a weekend at some bankrupt resort somewhere.
+[Text=It CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=PRP] [Text=looked CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=PRP] [Text=over CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=weekend CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=DT] [Text=bankrupt CharacterOffsetBegin=261 CharacterOffsetEnd=269 PartOfSpeech=JJ] [Text=resort CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=somewhere CharacterOffsetBegin=277 CharacterOffsetEnd=286 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, looked-2)
+nsubj(looked-2, It-1)
+mark(made-5, like-3)
+nsubj(made-5, they-4)
+advcl(looked-2, made-5)
+dobj(made-5, it-6)
+prep(made-5, over-7)
+det(weekend-9, a-8)
+pobj(over-7, weekend-9)
+prep(made-5, at-10)
+det(resort-13, some-11)
+amod(resort-13, bankrupt-12)
+pobj(at-10, resort-13)
+advmod(made-5, somewhere-14)
+punct(looked-2, .-15)
+
+Sentence #5 (12 tokens):
+Joe Roth should join Elaine May on the directing sidelines forever!
+[Text=Joe CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=NNP] [Text=Roth CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=NNP] [Text=should CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=MD] [Text=join CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=VB] [Text=Elaine CharacterOffsetBegin=313 CharacterOffsetEnd=319 PartOfSpeech=NNP] [Text=May CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=NNP] [Text=on CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=DT] [Text=directing CharacterOffsetBegin=331 CharacterOffsetEnd=340 PartOfSpeech=VBG] [Text=sidelines CharacterOffsetBegin=341 CharacterOffsetEnd=350 PartOfSpeech=NNS] [Text=forever CharacterOffsetBegin=351 CharacterOffsetEnd=358 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=.] 
+root(ROOT-0, join-4)
+nn(Roth-2, Joe-1)
+nsubj(join-4, Roth-2)
+aux(join-4, should-3)
+nn(May-6, Elaine-5)
+tmod(join-4, May-6)
+prep(join-4, on-7)
+det(sidelines-10, the-8)
+nn(sidelines-10, directing-9)
+pobj(on-7, sidelines-10)
+advmod(join-4, forever-11)
+punct(join-4, !-12)
+

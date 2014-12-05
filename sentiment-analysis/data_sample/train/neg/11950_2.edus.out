@@ -1,0 +1,41 @@
+Sentence #1 (13 tokens):
+This is without a doubt the worst movie I have ever seen.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=without CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=DT] [Text=doubt CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, This-1)
+prep(is-2, without-3)
+det(doubt-5, a-4)
+pobj(without-3, doubt-5)
+det(movie-8, the-6)
+amod(movie-8, worst-7)
+dep(doubt-5, movie-8)
+nsubj(seen-12, I-9)
+aux(seen-12, have-10)
+advmod(seen-12, ever-11)
+rcmod(movie-8, seen-12)
+punct(is-2, .-13)
+
+Sentence #2 (5 tokens):
+It is not funny.
+[Text=It CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, funny-4)
+nsubj(funny-4, It-1)
+cop(funny-4, is-2)
+neg(funny-4, not-3)
+punct(funny-4, .-5)
+
+Sentence #3 (11 tokens):
+It is not interesting and should not have been made.
+[Text=It CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=RB] [Text=interesting CharacterOffsetBegin=97 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=CC] [Text=should CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=VBN] [Text=made CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=.] 
+root(ROOT-0, interesting-4)
+nsubj(interesting-4, It-1)
+cop(interesting-4, is-2)
+neg(interesting-4, not-3)
+cc(interesting-4, and-5)
+aux(made-10, should-6)
+neg(made-10, not-7)
+aux(made-10, have-8)
+auxpass(made-10, been-9)
+conj(interesting-4, made-10)
+punct(interesting-4, .-11)
+

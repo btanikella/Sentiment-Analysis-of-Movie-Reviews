@@ -1,0 +1,53 @@
+Sentence #1 (9 tokens):
+GREAT movie and the family will love it!!
+[Text=GREAT CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=family CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=MD] [Text=love CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=PRP] [Text=!! CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN] 
+root(ROOT-0, love-7)
+amod(movie-2, GREAT-1)
+nsubj(love-7, movie-2)
+cc(movie-2, and-3)
+det(family-5, the-4)
+conj(movie-2, family-5)
+aux(love-7, will-6)
+dobj(love-7, it-8)
+dep(love-7, !!-9)
+
+Sentence #2 (20 tokens):
+If kids are bored one day just pop the tape in and you'll be so glad you did!!
+[Text=If CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=IN] [Text=kids CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=VBP] [Text=bored CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=VBN] [Text=one CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=CD] [Text=day CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=RB] [Text=pop CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=DT] [Text=tape CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=VB] [Text=so CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=RB] [Text=glad CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=JJ] [Text=you CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=VBD] [Text=!! CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=CD] 
+root(ROOT-0, bored-4)
+mark(bored-4, If-1)
+nsubjpass(bored-4, kids-2)
+auxpass(bored-4, are-3)
+num(day-6, one-5)
+tmod(bored-4, day-6)
+advmod(pop-8, just-7)
+dep(bored-4, pop-8)
+det(tape-10, the-9)
+dobj(pop-8, tape-10)
+prep(pop-8, in-11)
+cc(bored-4, and-12)
+nsubj(glad-17, you-13)
+aux(glad-17, 'll-14)
+cop(glad-17, be-15)
+advmod(glad-17, so-16)
+conj(bored-4, glad-17)
+nsubj(did-19, you-18)
+ccomp(glad-17, did-19)
+dobj(did-19, !!-20)
+
+Sentence #3 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+
+Sentence #4 (7 tokens):
+~~~Rubei luv raven-s!
+[Text=~ CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=~ CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=CD] [Text=~ CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=Rubei CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=NN] [Text=luv CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=raven-s CharacterOffsetBegin=147 CharacterOffsetEnd=154 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=.] 
+root(ROOT-0, raven-s-6)
+nn(raven-s-6, ~-1)
+num(raven-s-6, ~-2)
+nn(raven-s-6, ~-3)
+nn(raven-s-6, Rubei-4)
+nn(raven-s-6, luv-5)
+punct(raven-s-6, !-7)
+

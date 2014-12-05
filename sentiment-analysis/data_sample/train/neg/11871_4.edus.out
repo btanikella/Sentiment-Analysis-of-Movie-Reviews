@@ -1,0 +1,116 @@
+Sentence #1 (28 tokens):
+Gregory Peck's acting was excellent, as one would expect, and the cinematography quite stunning even when playing directly into some melodramatic "moment."
+[Text=Gregory CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=NNP] [Text=Peck CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=POS] [Text=acting CharacterOffsetBegin=19 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=VBD] [Text=excellent CharacterOffsetBegin=30 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=,] [Text=as CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=IN] [Text=one CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=CD] [Text=would CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=MD] [Text=expect CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=,] [Text=and CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=cinematography CharacterOffsetBegin=70 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=quite CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=RB] [Text=stunning CharacterOffsetBegin=91 CharacterOffsetEnd=99 PartOfSpeech=JJ] [Text=even CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=RB] [Text=when CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=WRB] [Text=playing CharacterOffsetBegin=110 CharacterOffsetEnd=117 PartOfSpeech=VBG] [Text=directly CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=RB] [Text=into CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=melodramatic CharacterOffsetBegin=137 CharacterOffsetEnd=149 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=``] [Text=moment CharacterOffsetBegin=151 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=.] [Text='' CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=''] 
+root(ROOT-0, excellent-6)
+nn(Peck-2, Gregory-1)
+poss(acting-4, Peck-2)
+possessive(Peck-2, 's-3)
+nsubj(excellent-6, acting-4)
+cop(excellent-6, was-5)
+punct(excellent-6, ,-7)
+mark(expect-11, as-8)
+nsubj(expect-11, one-9)
+aux(expect-11, would-10)
+advcl(excellent-6, expect-11)
+punct(excellent-6, ,-12)
+cc(excellent-6, and-13)
+det(cinematography-15, the-14)
+nsubj(stunning-17, cinematography-15)
+advmod(stunning-17, quite-16)
+conj(excellent-6, stunning-17)
+advmod(when-19, even-18)
+advmod(playing-20, when-19)
+advcl(stunning-17, playing-20)
+advmod(playing-20, directly-21)
+prep(playing-20, into-22)
+det(moment-26, some-23)
+amod(moment-26, melodramatic-24)
+punct(moment-26, ``-25)
+pobj(into-22, moment-26)
+punct(excellent-6, .-27)
+punct(excellent-6, ''-28)
+
+Sentence #2 (18 tokens):
+But, the rest of the film was overacted and hard to watch, for me anyway.
+[Text=But CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=,] [Text=the CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=VBD] [Text=overacted CharacterOffsetBegin=194 CharacterOffsetEnd=203 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=CC] [Text=hard CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=,] [Text=for CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=PRP] [Text=anyway CharacterOffsetBegin=230 CharacterOffsetEnd=236 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.] 
+root(ROOT-0, overacted-9)
+cc(overacted-9, But-1)
+punct(overacted-9, ,-2)
+det(rest-4, the-3)
+nsubjpass(overacted-9, rest-4)
+prep(rest-4, of-5)
+det(film-7, the-6)
+pobj(of-5, film-7)
+auxpass(overacted-9, was-8)
+cc(overacted-9, and-10)
+conj(overacted-9, hard-11)
+aux(watch-13, to-12)
+xcomp(hard-11, watch-13)
+punct(overacted-9, ,-14)
+prep(overacted-9, for-15)
+pobj(for-15, me-16)
+advmod(overacted-9, anyway-17)
+punct(overacted-9, .-18)
+
+Sentence #3 (18 tokens):
+I tried to like it, but had to fast-forward through the last thirty minutes or so.
+[Text=I CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=PRP] [Text=tried CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=TO] [Text=like CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=,] [Text=but CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=CC] [Text=had CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=TO] [Text=fast-forward CharacterOffsetBegin=273 CharacterOffsetEnd=285 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=286 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=last CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=JJ] [Text=thirty CharacterOffsetBegin=303 CharacterOffsetEnd=309 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=310 CharacterOffsetEnd=317 PartOfSpeech=NNS] [Text=or CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=CC] [Text=so CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=.] 
+root(ROOT-0, tried-2)
+nsubj(tried-2, I-1)
+aux(like-4, to-3)
+xcomp(tried-2, like-4)
+dobj(like-4, it-5)
+punct(tried-2, ,-6)
+cc(tried-2, but-7)
+conj(tried-2, had-8)
+aux(fast-forward-10, to-9)
+xcomp(had-8, fast-forward-10)
+prep(fast-forward-10, through-11)
+det(minutes-15, the-12)
+amod(minutes-15, last-13)
+num(minutes-15, thirty-14)
+pobj(through-11, minutes-15)
+cc(minutes-15, or-16)
+advmod(minutes-15, so-17)
+punct(tried-2, .-18)
+
+Sentence #4 (10 tokens):
+I feel I wasted a couple of good hours.
+[Text=I CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=PRP] [Text=feel CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=VBP] [Text=I CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=PRP] [Text=wasted CharacterOffsetBegin=338 CharacterOffsetEnd=344 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=couple CharacterOffsetBegin=347 CharacterOffsetEnd=353 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=JJ] [Text=hours CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=.] 
+root(ROOT-0, feel-2)
+nsubj(feel-2, I-1)
+nsubj(wasted-4, I-3)
+ccomp(feel-2, wasted-4)
+det(couple-6, a-5)
+dobj(wasted-4, couple-6)
+prep(couple-6, of-7)
+amod(hours-9, good-8)
+pobj(of-7, hours-9)
+punct(feel-2, .-10)
+
+Sentence #5 (16 tokens):
+Had it not been for Gregory Peck, I wouldn't have lasted fifteen minutes.
+[Text=Had CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=PRP] [Text=not CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=RB] [Text=been CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=IN] [Text=Gregory CharacterOffsetBegin=393 CharacterOffsetEnd=400 PartOfSpeech=NNP] [Text=Peck CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=,] [Text=I CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=409 CharacterOffsetEnd=414 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=VB] [Text=lasted CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=VBN] [Text=fifteen CharacterOffsetBegin=430 CharacterOffsetEnd=437 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=445 CharacterOffsetEnd=446 PartOfSpeech=.] 
+root(ROOT-0, lasted-13)
+aux(been-4, Had-1)
+nsubj(been-4, it-2)
+neg(been-4, not-3)
+advcl(lasted-13, been-4)
+prep(been-4, for-5)
+nn(Peck-7, Gregory-6)
+pobj(for-5, Peck-7)
+punct(lasted-13, ,-8)
+nsubj(lasted-13, I-9)
+aux(lasted-13, would-10)
+neg(lasted-13, n't-11)
+aux(lasted-13, have-12)
+num(minutes-15, fifteen-14)
+dobj(lasted-13, minutes-15)
+punct(lasted-13, .-16)
+
+Sentence #6 (2 tokens):
+4/10.
+[Text=4/10 CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=.] 
+root(ROOT-0, 4/10-1)
+punct(4/10-1, .-2)
+

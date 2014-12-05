@@ -1,0 +1,78 @@
+Sentence #1 (5 tokens):
+This movie is wonderful.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=wonderful CharacterOffsetBegin=18 CharacterOffsetEnd=27 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=.] 
+root(ROOT-0, wonderful-4)
+det(movie-2, This-1)
+nsubj(wonderful-4, movie-2)
+cop(wonderful-4, is-3)
+punct(wonderful-4, .-5)
+
+Sentence #2 (10 tokens):
+The writing, directing, acting all are fantastic.
+[Text=The CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=DT] [Text=writing CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=,] [Text=directing CharacterOffsetBegin=46 CharacterOffsetEnd=55 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=,] [Text=acting CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=VBG] [Text=all CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=are CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=VBP] [Text=fantastic CharacterOffsetBegin=72 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, fantastic-9)
+det(writing-2, The-1)
+nsubj(fantastic-9, writing-2)
+punct(writing-2, ,-3)
+conj(writing-2, directing-4)
+punct(writing-2, ,-5)
+conj(writing-2, acting-6)
+dobj(acting-6, all-7)
+cop(fantastic-9, are-8)
+punct(fantastic-9, .-10)
+
+Sentence #3 (6 tokens):
+Very witty and clever script.
+[Text=Very CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=RB] [Text=witty CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=CC] [Text=clever CharacterOffsetBegin=102 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=.] 
+root(ROOT-0, witty-2)
+advmod(witty-2, Very-1)
+cc(witty-2, and-3)
+amod(script-5, clever-4)
+conj(witty-2, script-5)
+punct(witty-2, .-6)
+
+Sentence #4 (15 tokens):
+Quality performances by actors, Ally Sheedy is strong and dynamic and delightfully quirky.
+[Text=Quality CharacterOffsetBegin=121 CharacterOffsetEnd=128 PartOfSpeech=JJ] [Text=performances CharacterOffsetBegin=129 CharacterOffsetEnd=141 PartOfSpeech=NNS] [Text=by CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=IN] [Text=actors CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=,] [Text=Ally CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=NNP] [Text=Sheedy CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=VBZ] [Text=strong CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=CC] [Text=dynamic CharacterOffsetBegin=179 CharacterOffsetEnd=186 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=CC] [Text=delightfully CharacterOffsetBegin=191 CharacterOffsetEnd=203 PartOfSpeech=RB] [Text=quirky CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=.] 
+root(ROOT-0, performances-2)
+amod(performances-2, Quality-1)
+prep(performances-2, by-3)
+pobj(by-3, actors-4)
+punct(actors-4, ,-5)
+nn(Sheedy-7, Ally-6)
+nsubj(strong-9, Sheedy-7)
+cop(strong-9, is-8)
+rcmod(actors-4, strong-9)
+cc(strong-9, and-10)
+conj(strong-9, dynamic-11)
+cc(strong-9, and-12)
+advmod(quirky-14, delightfully-13)
+conj(strong-9, quirky-14)
+punct(performances-2, .-15)
+
+Sentence #5 (6 tokens):
+Really original and heart-warmingly unpredicatable.
+[Text=Really CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=original CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=CC] [Text=heart-warmingly CharacterOffsetBegin=236 CharacterOffsetEnd=251 PartOfSpeech=JJ] [Text=unpredicatable CharacterOffsetBegin=252 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=.] 
+root(ROOT-0, unpredicatable-5)
+advmod(original-2, Really-1)
+amod(unpredicatable-5, original-2)
+cc(original-2, and-3)
+conj(original-2, heart-warmingly-4)
+punct(unpredicatable-5, .-6)
+
+Sentence #6 (12 tokens):
+The scenes are alive with fresh energy and really talented production.
+[Text=The CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=scenes CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=VBP] [Text=alive CharacterOffsetBegin=287 CharacterOffsetEnd=292 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=IN] [Text=fresh CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=JJ] [Text=energy CharacterOffsetBegin=304 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=CC] [Text=really CharacterOffsetBegin=315 CharacterOffsetEnd=321 PartOfSpeech=RB] [Text=talented CharacterOffsetBegin=322 CharacterOffsetEnd=330 PartOfSpeech=JJ] [Text=production CharacterOffsetBegin=331 CharacterOffsetEnd=341 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=.] 
+root(ROOT-0, alive-4)
+det(scenes-2, The-1)
+nsubj(alive-4, scenes-2)
+cop(alive-4, are-3)
+prep(alive-4, with-5)
+amod(energy-7, fresh-6)
+pobj(with-5, energy-7)
+cc(alive-4, and-8)
+advmod(talented-10, really-9)
+amod(production-11, talented-10)
+conj(alive-4, production-11)
+punct(alive-4, .-12)
+

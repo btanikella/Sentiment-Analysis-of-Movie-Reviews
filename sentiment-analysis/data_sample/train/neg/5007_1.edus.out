@@ -1,0 +1,194 @@
+Sentence #1 (9 tokens):
+There is no reason to see this movie.
+[Text=There CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(reason-4, no-3)
+nsubj(is-2, reason-4)
+aux(see-6, to-5)
+infmod(reason-4, see-6)
+det(movie-8, this-7)
+dobj(see-6, movie-8)
+punct(is-2, .-9)
+
+Sentence #2 (9 tokens):
+A good plot idea is handled very badly.
+[Text=A CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=idea CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=VBZ] [Text=handled CharacterOffsetBegin=66 CharacterOffsetEnd=73 PartOfSpeech=VBN] [Text=very CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=RB] [Text=badly CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=.] 
+root(ROOT-0, handled-6)
+det(idea-4, A-1)
+amod(idea-4, good-2)
+nn(idea-4, plot-3)
+nsubjpass(handled-6, idea-4)
+auxpass(handled-6, is-5)
+advmod(badly-8, very-7)
+advmod(handled-6, badly-8)
+punct(handled-6, .-9)
+
+Sentence #3 (17 tokens):
+In the middle of the movie everything changes and from there on nothing makes much sense.
+[Text=In CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=middle CharacterOffsetBegin=97 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=everything CharacterOffsetBegin=117 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=changes CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=CC] [Text=from CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=EX] [Text=on CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=nothing CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=VBZ] [Text=much CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=JJ] [Text=sense CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=.] 
+root(ROOT-0, In-1)
+det(middle-3, the-2)
+pobj(In-1, middle-3)
+prep(middle-3, of-4)
+det(movie-6, the-5)
+pobj(of-4, movie-6)
+nn(changes-8, everything-7)
+dep(In-1, changes-8)
+cc(changes-8, and-9)
+mark(makes-14, from-10)
+nsubj(makes-14, there-11)
+prep(makes-14, on-12)
+pobj(on-12, nothing-13)
+conj(changes-8, makes-14)
+amod(sense-16, much-15)
+dobj(makes-14, sense-16)
+punct(In-1, .-17)
+
+Sentence #4 (10 tokens):
+The reason for the killings are not made clear.
+[Text=The CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=DT] [Text=killings CharacterOffsetBegin=203 CharacterOffsetEnd=211 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VBN] [Text=clear CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=.] 
+root(ROOT-0, made-8)
+det(reason-2, The-1)
+nsubjpass(made-8, reason-2)
+prep(reason-2, for-3)
+det(killings-5, the-4)
+pobj(for-3, killings-5)
+auxpass(made-8, are-6)
+neg(made-8, not-7)
+acomp(made-8, clear-9)
+punct(made-8, .-10)
+
+Sentence #5 (5 tokens):
+The acting is awful.
+[Text=The CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=VBZ] [Text=awful CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=.] 
+root(ROOT-0, awful-4)
+det(acting-2, The-1)
+nsubj(awful-4, acting-2)
+cop(awful-4, is-3)
+punct(awful-4, .-5)
+
+Sentence #6 (8 tokens):
+Nick Stahl obviously needs a better director.
+[Text=Nick CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=NNP] [Text=Stahl CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=NNP] [Text=obviously CharacterOffsetBegin=272 CharacterOffsetEnd=281 PartOfSpeech=RB] [Text=needs CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=better CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=JJR] [Text=director CharacterOffsetBegin=297 CharacterOffsetEnd=305 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=.] 
+root(ROOT-0, needs-4)
+nn(Stahl-2, Nick-1)
+nsubj(needs-4, Stahl-2)
+advmod(needs-4, obviously-3)
+det(director-7, a-5)
+amod(director-7, better-6)
+dobj(needs-4, director-7)
+punct(needs-4, .-8)
+
+Sentence #7 (14 tokens):
+He was excellent in In the Bedroom, but here he is terrible.
+[Text=He CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=VBD] [Text=excellent CharacterOffsetBegin=318 CharacterOffsetEnd=327 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=IN] [Text=In CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=DT] [Text=Bedroom CharacterOffsetBegin=338 CharacterOffsetEnd=345 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=,] [Text=but CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=CC] [Text=here CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=VBZ] [Text=terrible CharacterOffsetBegin=362 CharacterOffsetEnd=370 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=.] 
+root(ROOT-0, excellent-3)
+nsubj(excellent-3, He-1)
+cop(excellent-3, was-2)
+prep(excellent-3, in-4)
+pcomp(in-4, In-5)
+det(Bedroom-7, the-6)
+pobj(In-5, Bedroom-7)
+punct(excellent-3, ,-8)
+cc(excellent-3, but-9)
+advmod(terrible-13, here-10)
+nsubj(terrible-13, he-11)
+cop(terrible-13, is-12)
+conj(excellent-3, terrible-13)
+punct(excellent-3, .-14)
+
+Sentence #8 (12 tokens):
+Amber Benson from Buffy, has to change her character someday.
+[Text=Amber CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=NNP] [Text=Benson CharacterOffsetBegin=382 CharacterOffsetEnd=388 PartOfSpeech=NNP] [Text=from CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=IN] [Text=Buffy CharacterOffsetBegin=394 CharacterOffsetEnd=399 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=,] [Text=has CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=TO] [Text=change CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=PRP$] [Text=character CharacterOffsetBegin=419 CharacterOffsetEnd=428 PartOfSpeech=NN] [Text=someday CharacterOffsetBegin=429 CharacterOffsetEnd=436 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=436 CharacterOffsetEnd=437 PartOfSpeech=.] 
+root(ROOT-0, has-6)
+nn(Benson-2, Amber-1)
+nsubj(has-6, Benson-2)
+prep(Benson-2, from-3)
+pobj(from-3, Buffy-4)
+punct(Benson-2, ,-5)
+aux(change-8, to-7)
+xcomp(has-6, change-8)
+poss(character-10, her-9)
+dobj(change-8, character-10)
+advmod(change-8, someday-11)
+punct(has-6, .-12)
+
+Sentence #9 (14 tokens):
+Even those of you who enjoy gratuitous sex and violence will be disappointed.
+[Text=Even CharacterOffsetBegin=442 CharacterOffsetEnd=446 PartOfSpeech=RB] [Text=those CharacterOffsetBegin=447 CharacterOffsetEnd=452 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=PRP] [Text=who CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=WP] [Text=enjoy CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=VBP] [Text=gratuitous CharacterOffsetBegin=470 CharacterOffsetEnd=480 PartOfSpeech=JJ] [Text=sex CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=CC] [Text=violence CharacterOffsetBegin=489 CharacterOffsetEnd=497 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=VB] [Text=disappointed CharacterOffsetBegin=506 CharacterOffsetEnd=518 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=.] 
+root(ROOT-0, disappointed-13)
+advmod(those-2, Even-1)
+nsubjpass(disappointed-13, those-2)
+prep(those-2, of-3)
+pobj(of-3, you-4)
+nsubj(enjoy-6, who-5)
+rcmod(you-4, enjoy-6)
+amod(sex-8, gratuitous-7)
+dobj(enjoy-6, sex-8)
+cc(sex-8, and-9)
+conj(sex-8, violence-10)
+aux(disappointed-13, will-11)
+auxpass(disappointed-13, be-12)
+punct(disappointed-13, .-14)
+
+Sentence #10 (56 tokens):
+Even though the movie was 80 minutes, which is too short for a good movie (but too long for this one),there are no deleted scenes in the DVD which means they never bothered to fill in the missing parts to the characters.Don't spend the time on this one.
+[Text=Even CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=529 CharacterOffsetEnd=535 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=540 CharacterOffsetEnd=545 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=VBD] [Text=80 CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=553 CharacterOffsetEnd=560 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=,] [Text=which CharacterOffsetBegin=562 CharacterOffsetEnd=567 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=VBZ] [Text=too CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=RB] [Text=short CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=598 CharacterOffsetEnd=599 PartOfSpeech=-LRB-] [Text=but CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=CC] [Text=too CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=RB] [Text=long CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=,] [Text=there CharacterOffsetBegin=626 CharacterOffsetEnd=631 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=VBP] [Text=no CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=DT] [Text=deleted CharacterOffsetBegin=639 CharacterOffsetEnd=646 PartOfSpeech=VBN] [Text=scenes CharacterOffsetBegin=647 CharacterOffsetEnd=653 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=665 CharacterOffsetEnd=670 PartOfSpeech=WDT] [Text=means CharacterOffsetBegin=671 CharacterOffsetEnd=676 PartOfSpeech=VBZ] [Text=they CharacterOffsetBegin=677 CharacterOffsetEnd=681 PartOfSpeech=PRP] [Text=never CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=RB] [Text=bothered CharacterOffsetBegin=688 CharacterOffsetEnd=696 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=697 CharacterOffsetEnd=699 PartOfSpeech=TO] [Text=fill CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=705 CharacterOffsetEnd=707 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=708 CharacterOffsetEnd=711 PartOfSpeech=DT] [Text=missing CharacterOffsetBegin=712 CharacterOffsetEnd=719 PartOfSpeech=VBG] [Text=parts CharacterOffsetBegin=720 CharacterOffsetEnd=725 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=726 CharacterOffsetEnd=728 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=729 CharacterOffsetEnd=732 PartOfSpeech=DT] [Text=characters.Don CharacterOffsetBegin=733 CharacterOffsetEnd=747 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=747 CharacterOffsetEnd=748 PartOfSpeech=POS] [Text=t CharacterOffsetBegin=748 CharacterOffsetEnd=749 PartOfSpeech=NN] [Text=spend CharacterOffsetBegin=750 CharacterOffsetEnd=755 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=756 CharacterOffsetEnd=759 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=760 CharacterOffsetEnd=764 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=765 CharacterOffsetEnd=767 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=768 CharacterOffsetEnd=772 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=776 CharacterOffsetEnd=777 PartOfSpeech=.] 
+root(ROOT-0, minutes-7)
+advmod(minutes-7, Even-1)
+mark(minutes-7, though-2)
+det(movie-4, the-3)
+nsubj(minutes-7, movie-4)
+cop(minutes-7, was-5)
+num(minutes-7, 80-6)
+punct(minutes-7, ,-8)
+nsubj(short-12, which-9)
+cop(short-12, is-10)
+advmod(short-12, too-11)
+rcmod(minutes-7, short-12)
+prep(short-12, for-13)
+det(movie-16, a-14)
+amod(movie-16, good-15)
+pobj(for-13, movie-16)
+punct(long-20, -LRB--17)
+cc(long-20, but-18)
+advmod(long-20, too-19)
+dep(movie-16, long-20)
+prep(long-20, for-21)
+det(one-23, this-22)
+pobj(for-21, one-23)
+punct(long-20, -RRB--24)
+punct(minutes-7, ,-25)
+expl(are-27, there-26)
+rcmod(minutes-7, are-27)
+det(scenes-30, no-28)
+amod(scenes-30, deleted-29)
+nsubj(spend-50, scenes-30)
+prep(scenes-30, in-31)
+det(DVD-33, the-32)
+pobj(in-31, DVD-33)
+nsubj(means-35, which-34)
+rcmod(DVD-33, means-35)
+nsubj(bothered-38, they-36)
+neg(bothered-38, never-37)
+ccomp(means-35, bothered-38)
+aux(fill-40, to-39)
+xcomp(bothered-38, fill-40)
+prep(fill-40, in-41)
+det(parts-44, the-42)
+amod(parts-44, missing-43)
+pobj(in-41, parts-44)
+prep(fill-40, to-45)
+det(characters.Don-47, the-46)
+poss(t-49, characters.Don-47)
+possessive(characters.Don-47, '-48)
+pobj(to-45, t-49)
+ccomp(are-27, spend-50)
+det(time-52, the-51)
+dobj(spend-50, time-52)
+prep(spend-50, on-53)
+det(one-55, this-54)
+pobj(on-53, one-55)
+punct(minutes-7, .-56)
+

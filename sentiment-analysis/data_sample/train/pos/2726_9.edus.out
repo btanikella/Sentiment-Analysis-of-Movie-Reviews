@@ -1,0 +1,114 @@
+Sentence #1 (10 tokens):
+This movie is up there with the all-time classics.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=RB] [Text=there CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=DT] [Text=all-time CharacterOffsetBegin=36 CharacterOffsetEnd=44 PartOfSpeech=JJ] [Text=classics CharacterOffsetBegin=45 CharacterOffsetEnd=53 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+det(movie-2, This-1)
+nsubj(is-3, movie-2)
+advmod(there-5, up-4)
+advmod(is-3, there-5)
+prep(is-3, with-6)
+det(classics-9, the-7)
+amod(classics-9, all-time-8)
+pobj(with-6, classics-9)
+punct(is-3, .-10)
+
+Sentence #2 (11 tokens):
+The music, camera shots, and acting are excellent.
+[Text=The CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=,] [Text=camera CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=shots CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=,] [Text=and CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=CC] [Text=acting CharacterOffsetBegin=88 CharacterOffsetEnd=94 PartOfSpeech=VBG] [Text=are CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=VBP] [Text=excellent CharacterOffsetBegin=99 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=.] 
+root(ROOT-0, excellent-10)
+det(music-2, The-1)
+nsubj(excellent-10, music-2)
+punct(music-2, ,-3)
+nn(shots-5, camera-4)
+conj(music-2, shots-5)
+punct(music-2, ,-6)
+cc(music-2, and-7)
+conj(music-2, acting-8)
+cop(excellent-10, are-9)
+punct(excellent-10, .-11)
+
+Sentence #3 (22 tokens):
+Showing the movie in black and white gave it a much better appearance and complemented the music perfectly, like Psycho.
+[Text=Showing CharacterOffsetBegin=114 CharacterOffsetEnd=121 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN] [Text=black CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=CC] [Text=white CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=JJ] [Text=gave CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=much CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=JJR] [Text=appearance CharacterOffsetBegin=173 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=CC] [Text=complemented CharacterOffsetBegin=188 CharacterOffsetEnd=200 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=NN] [Text=perfectly CharacterOffsetBegin=211 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=,] [Text=like CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=IN] [Text=Psycho CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, gave-8)
+csubj(gave-8, Showing-1)
+det(movie-3, the-2)
+dobj(Showing-1, movie-3)
+prep(movie-3, in-4)
+pobj(in-4, black-5)
+cc(black-5, and-6)
+conj(black-5, white-7)
+iobj(gave-8, it-9)
+det(appearance-13, a-10)
+advmod(better-12, much-11)
+amod(appearance-13, better-12)
+dobj(gave-8, appearance-13)
+cc(gave-8, and-14)
+conj(gave-8, complemented-15)
+det(music-17, the-16)
+dobj(complemented-15, music-17)
+advmod(complemented-15, perfectly-18)
+punct(complemented-15, ,-19)
+prep(complemented-15, like-20)
+pobj(like-20, Psycho-21)
+punct(gave-8, .-22)
+
+Sentence #4 (12 tokens):
+Its surprising how so few people have commented on this movie.
+[Text=Its CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=PRP$] [Text=surprising CharacterOffsetBegin=243 CharacterOffsetEnd=253 PartOfSpeech=JJ] [Text=how CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=WRB] [Text=so CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=RB] [Text=few CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=265 CharacterOffsetEnd=271 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=VBP] [Text=commented CharacterOffsetBegin=277 CharacterOffsetEnd=286 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=.] 
+root(ROOT-0, surprising-2)
+poss(surprising-2, Its-1)
+advmod(so-4, how-3)
+advmod(commented-8, so-4)
+amod(people-6, few-5)
+nsubj(commented-8, people-6)
+aux(commented-8, have-7)
+ccomp(surprising-2, commented-8)
+prep(commented-8, on-9)
+det(movie-11, this-10)
+pobj(on-9, movie-11)
+punct(surprising-2, .-12)
+
+Sentence #5 (11 tokens):
+My guess is that its a hard movie to find.
+[Text=My CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=PRP$] [Text=guess CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=PRP$] [Text=a CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=DT] [Text=hard CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=TO] [Text=find CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+poss(guess-2, My-1)
+nsubj(is-3, guess-2)
+mark(find-10, that-4)
+poss(movie-8, its-5)
+det(movie-8, a-6)
+amod(movie-8, hard-7)
+nsubj(find-10, movie-8)
+aux(find-10, to-9)
+ccomp(is-3, find-10)
+punct(is-3, .-11)
+
+Sentence #6 (7 tokens):
+I gave the film a 9.
+[Text=I CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=PRP] [Text=gave CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=DT] [Text=9 CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=.] 
+root(ROOT-0, gave-2)
+nsubj(gave-2, I-1)
+det(film-4, the-3)
+iobj(gave-2, film-4)
+det(9-6, a-5)
+dobj(gave-2, 9-6)
+punct(gave-2, .-7)
+
+Sentence #7 (13 tokens):
+See the movie and you'll know what I'm talking about.
+[Text=See CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=386 CharacterOffsetEnd=391 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=MD] [Text=know CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=408 CharacterOffsetEnd=412 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=VBP] [Text=talking CharacterOffsetBegin=417 CharacterOffsetEnd=424 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=.] 
+root(ROOT-0, See-1)
+det(movie-3, the-2)
+dobj(See-1, movie-3)
+cc(See-1, and-4)
+nsubj(know-7, you-5)
+aux(know-7, 'll-6)
+conj(See-1, know-7)
+dobj(talking-11, what-8)
+nsubj(talking-11, I-9)
+aux(talking-11, 'm-10)
+ccomp(know-7, talking-11)
+advmod(talking-11, about-12)
+punct(See-1, .-13)
+

@@ -1,0 +1,43 @@
+Sentence #1 (3 tokens):
+Complete entertainment!
+[Text=Complete CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=JJ] [Text=entertainment CharacterOffsetBegin=13 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=.] 
+root(ROOT-0, entertainment-2)
+amod(entertainment-2, Complete-1)
+punct(entertainment-2, !-3)
+
+Sentence #2 (32 tokens):
+Although there are many strange things in the movie that the fairy tale itself doesn't have them including the autumn characters (mother and daughter) the general concept rocks.
+[Text=Although CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=VBP] [Text=many CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=strange CharacterOffsetBegin=56 CharacterOffsetEnd=63 PartOfSpeech=JJ] [Text=things CharacterOffsetBegin=64 CharacterOffsetEnd=70 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=DT] [Text=fairy CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=tale CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=itself CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text=including CharacterOffsetBegin=129 CharacterOffsetEnd=138 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=autumn CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=characters CharacterOffsetBegin=150 CharacterOffsetEnd=160 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=-LRB-] [Text=mother CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=CC] [Text=daughter CharacterOffsetBegin=173 CharacterOffsetEnd=181 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=-RRB-] [Text=the CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=general CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=JJ] [Text=concept CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=rocks CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=.] 
+root(ROOT-0, are-3)
+mark(are-3, Although-1)
+expl(are-3, there-2)
+amod(things-6, many-4)
+amod(things-6, strange-5)
+nsubj(are-3, things-6)
+prep(things-6, in-7)
+det(movie-9, the-8)
+pobj(in-7, movie-9)
+mark(have-17, that-10)
+det(tale-13, the-11)
+nn(tale-13, fairy-12)
+nsubj(have-17, tale-13)
+dep(tale-13, itself-14)
+aux(have-17, does-15)
+neg(have-17, n't-16)
+ccomp(are-3, have-17)
+dobj(have-17, them-18)
+prep(have-17, including-19)
+det(characters-22, the-20)
+nn(characters-22, autumn-21)
+nsubj(rocks-31, characters-22)
+punct(mother-24, -LRB--23)
+appos(characters-22, mother-24)
+cc(mother-24, and-25)
+conj(mother-24, daughter-26)
+punct(mother-24, -RRB--27)
+det(rocks-31, the-28)
+amod(rocks-31, general-29)
+nn(rocks-31, concept-30)
+pobj(including-19, rocks-31)
+punct(are-3, .-32)
+

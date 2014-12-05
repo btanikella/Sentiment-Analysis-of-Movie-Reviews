@@ -1,0 +1,125 @@
+Sentence #1 (5 tokens):
+It's very funny.
+[Text=It CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=.] 
+root(ROOT-0, funny-4)
+nsubj(funny-4, It-1)
+cop(funny-4, 's-2)
+advmod(funny-4, very-3)
+punct(funny-4, .-5)
+
+Sentence #2 (11 tokens):
+It has a great cast who each give great performances.
+[Text=It CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=cast CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=WP] [Text=each CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=DT] [Text=give CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=VBP] [Text=great CharacterOffsetBegin=59 CharacterOffsetEnd=64 PartOfSpeech=JJ] [Text=performances CharacterOffsetBegin=65 CharacterOffsetEnd=77 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, It-1)
+det(cast-5, a-3)
+amod(cast-5, great-4)
+dobj(has-2, cast-5)
+nsubj(give-8, who-6)
+dep(give-8, each-7)
+rcmod(cast-5, give-8)
+amod(performances-10, great-9)
+dobj(give-8, performances-10)
+punct(has-2, .-11)
+
+Sentence #3 (7 tokens):
+Especially Sally Field and Kevin Kline.
+[Text=Especially CharacterOffsetBegin=83 CharacterOffsetEnd=93 PartOfSpeech=RB] [Text=Sally CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=NNP] [Text=Field CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=CC] [Text=Kevin CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=NNP] [Text=Kline CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.] 
+root(ROOT-0, Field-3)
+nn(Field-3, Especially-1)
+nn(Field-3, Sally-2)
+cc(Field-3, and-4)
+nn(Kline-6, Kevin-5)
+conj(Field-3, Kline-6)
+punct(Field-3, .-7)
+
+Sentence #4 (15 tokens):
+It's a well written screenplay by Andrew Bergman (Honeymoon In Vegas).
+[Text=It CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=well CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=RB] [Text=written CharacterOffsetBegin=139 CharacterOffsetEnd=146 PartOfSpeech=VBN] [Text=screenplay CharacterOffsetBegin=147 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=IN] [Text=Andrew CharacterOffsetBegin=161 CharacterOffsetEnd=167 PartOfSpeech=NNP] [Text=Bergman CharacterOffsetBegin=168 CharacterOffsetEnd=175 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=-LRB-] [Text=Honeymoon CharacterOffsetBegin=177 CharacterOffsetEnd=186 PartOfSpeech=NNP] [Text=In CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=IN] [Text=Vegas CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=.] 
+root(ROOT-0, screenplay-6)
+nsubj(screenplay-6, It-1)
+cop(screenplay-6, 's-2)
+det(screenplay-6, a-3)
+advmod(written-5, well-4)
+amod(screenplay-6, written-5)
+prep(screenplay-6, by-7)
+nn(Bergman-9, Andrew-8)
+pobj(by-7, Bergman-9)
+punct(Honeymoon-11, -LRB--10)
+appos(Bergman-9, Honeymoon-11)
+prep(Honeymoon-11, In-12)
+pobj(In-12, Vegas-13)
+punct(Honeymoon-11, -RRB--14)
+punct(screenplay-6, .-15)
+
+Sentence #5 (14 tokens):
+I don't like soap operas, even though I never watch them.
+[Text=I CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=VB] [Text=soap CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=operas CharacterOffsetBegin=220 CharacterOffsetEnd=226 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=,] [Text=even CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=PRP] [Text=never CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=RB] [Text=watch CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=VBP] [Text=them CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=.] 
+root(ROOT-0, like-4)
+nsubj(like-4, I-1)
+aux(like-4, do-2)
+neg(like-4, n't-3)
+nn(operas-6, soap-5)
+dobj(like-4, operas-6)
+punct(like-4, ,-7)
+advmod(watch-12, even-8)
+mark(watch-12, though-9)
+nsubj(watch-12, I-10)
+neg(watch-12, never-11)
+advcl(like-4, watch-12)
+dobj(watch-12, them-13)
+punct(like-4, .-14)
+
+Sentence #6 (33 tokens):
+But I do love this film because it's so crazy and off the wall, that it beats the hell out of any stupid soap that they have on daytime television.
+[Text=But CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=VBP] [Text=love CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=288 CharacterOffsetEnd=295 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=RB] [Text=crazy CharacterOffsetBegin=304 CharacterOffsetEnd=309 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=CC] [Text=off CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=DT] [Text=wall CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=,] [Text=that CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=PRP] [Text=beats CharacterOffsetBegin=336 CharacterOffsetEnd=341 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=DT] [Text=hell CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=DT] [Text=stupid CharacterOffsetBegin=362 CharacterOffsetEnd=368 PartOfSpeech=JJ] [Text=soap CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=VBP] [Text=on CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=IN] [Text=daytime CharacterOffsetBegin=392 CharacterOffsetEnd=399 PartOfSpeech=JJ] [Text=television CharacterOffsetBegin=400 CharacterOffsetEnd=410 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=.] 
+root(ROOT-0, love-4)
+cc(love-4, But-1)
+nsubj(love-4, I-2)
+aux(love-4, do-3)
+det(film-6, this-5)
+dobj(love-4, film-6)
+mark(crazy-11, because-7)
+nsubj(crazy-11, it-8)
+cop(crazy-11, 's-9)
+advmod(crazy-11, so-10)
+advcl(love-4, crazy-11)
+cc(crazy-11, and-12)
+conj(crazy-11, off-13)
+det(wall-15, the-14)
+pobj(off-13, wall-15)
+punct(love-4, ,-16)
+mark(beats-19, that-17)
+nsubj(beats-19, it-18)
+ccomp(love-4, beats-19)
+det(hell-21, the-20)
+dobj(beats-19, hell-21)
+prep(beats-19, out-22)
+pcomp(out-22, of-23)
+det(soap-26, any-24)
+amod(soap-26, stupid-25)
+pobj(of-23, soap-26)
+mark(have-29, that-27)
+nsubj(have-29, they-28)
+ccomp(beats-19, have-29)
+prep(have-29, on-30)
+amod(television-32, daytime-31)
+pobj(on-30, television-32)
+punct(love-4, .-33)
+
+Sentence #7 (12 tokens):
+In my opinion, it's the best film of 1991.
+[Text=In CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=PRP$] [Text=opinion CharacterOffsetBegin=422 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=,] [Text=it CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=JJS] [Text=film CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=IN] [Text=1991 CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=.] 
+root(ROOT-0, film-9)
+prep(film-9, In-1)
+poss(opinion-3, my-2)
+pobj(In-1, opinion-3)
+punct(film-9, ,-4)
+nsubj(film-9, it-5)
+cop(film-9, 's-6)
+det(film-9, the-7)
+amod(film-9, best-8)
+prep(film-9, of-10)
+pobj(of-10, 1991-11)
+punct(film-9, .-12)
+

@@ -1,0 +1,84 @@
+Sentence #1 (16 tokens):
+Miles O'keefe stars as Ator, a loin-clothed hero who resembles a Chippendale's dancer.
+[Text=Miles CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=O'keefe CharacterOffsetBegin=10 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=stars CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=VBZ] [Text=as CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=Ator CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=,] [Text=a CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=loin-clothed CharacterOffsetBegin=35 CharacterOffsetEnd=47 PartOfSpeech=JJ] [Text=hero CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=WP] [Text=resembles CharacterOffsetBegin=57 CharacterOffsetEnd=66 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=DT] [Text=Chippendale CharacterOffsetBegin=69 CharacterOffsetEnd=80 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=POS] [Text=dancer CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.] 
+root(ROOT-0, stars-3)
+nn(O'keefe-2, Miles-1)
+nsubj(stars-3, O'keefe-2)
+prep(stars-3, as-4)
+pobj(as-4, Ator-5)
+punct(Ator-5, ,-6)
+det(hero-9, a-7)
+amod(hero-9, loin-clothed-8)
+appos(Ator-5, hero-9)
+nsubj(resembles-11, who-10)
+rcmod(hero-9, resembles-11)
+det(Chippendale-13, a-12)
+poss(dancer-15, Chippendale-13)
+possessive(Chippendale-13, 's-14)
+dobj(resembles-11, dancer-15)
+punct(stars-3, .-16)
+
+Sentence #2 (30 tokens):
+The Conan-wannabe must do battle with an evil guy in a Cher wig, and protect the Earth from the Geometric Nucleus, a sort of primitive atomic bomb.
+[Text=The CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=DT] [Text=Conan-wannabe CharacterOffsetBegin=99 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=must CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=VB] [Text=battle CharacterOffsetBegin=121 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=DT] [Text=evil CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=DT] [Text=Cher CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=NNP] [Text=wig CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=,] [Text=and CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=CC] [Text=protect CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text=Earth CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=NNP] [Text=from CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=Geometric CharacterOffsetBegin=191 CharacterOffsetEnd=200 PartOfSpeech=NNP] [Text=Nucleus CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=,] [Text=a CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=sort CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=IN] [Text=primitive CharacterOffsetBegin=220 CharacterOffsetEnd=229 PartOfSpeech=JJ] [Text=atomic CharacterOffsetBegin=230 CharacterOffsetEnd=236 PartOfSpeech=JJ] [Text=bomb CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=.] 
+root(ROOT-0, do-4)
+det(Conan-wannabe-2, The-1)
+nsubj(do-4, Conan-wannabe-2)
+aux(do-4, must-3)
+dobj(do-4, battle-5)
+prep(do-4, with-6)
+det(guy-9, an-7)
+amod(guy-9, evil-8)
+pobj(with-6, guy-9)
+prep(guy-9, in-10)
+det(wig-13, a-11)
+nn(wig-13, Cher-12)
+pobj(in-10, wig-13)
+punct(do-4, ,-14)
+cc(do-4, and-15)
+conj(do-4, protect-16)
+det(Earth-18, the-17)
+dobj(protect-16, Earth-18)
+prep(protect-16, from-19)
+det(Nucleus-22, the-20)
+nn(Nucleus-22, Geometric-21)
+pobj(from-19, Nucleus-22)
+punct(Nucleus-22, ,-23)
+det(sort-25, a-24)
+appos(Nucleus-22, sort-25)
+prep(sort-25, of-26)
+amod(bomb-29, primitive-27)
+amod(bomb-29, atomic-28)
+pobj(of-26, bomb-29)
+punct(do-4, .-30)
+
+Sentence #3 (8 tokens):
+Watch closely for visible sunglasses and tire-tracks.
+[Text=Watch CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=VB] [Text=closely CharacterOffsetBegin=253 CharacterOffsetEnd=260 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=IN] [Text=visible CharacterOffsetBegin=265 CharacterOffsetEnd=272 PartOfSpeech=JJ] [Text=sunglasses CharacterOffsetBegin=273 CharacterOffsetEnd=283 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=CC] [Text=tire-tracks CharacterOffsetBegin=288 CharacterOffsetEnd=299 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=.] 
+root(ROOT-0, Watch-1)
+advmod(Watch-1, closely-2)
+prep(Watch-1, for-3)
+amod(sunglasses-5, visible-4)
+pobj(for-3, sunglasses-5)
+cc(sunglasses-5, and-6)
+conj(sunglasses-5, tire-tracks-7)
+punct(Watch-1, .-8)
+
+Sentence #4 (14 tokens):
+Mystery Science Theater 3000 made fun of it under the title CAVE DWELLERS.
+[Text=Mystery CharacterOffsetBegin=305 CharacterOffsetEnd=312 PartOfSpeech=NNP] [Text=Science CharacterOffsetBegin=313 CharacterOffsetEnd=320 PartOfSpeech=NNP] [Text=Theater CharacterOffsetBegin=321 CharacterOffsetEnd=328 PartOfSpeech=NNP] [Text=3000 CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=CD] [Text=made CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=VBD] [Text=fun CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=PRP] [Text=under CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=DT] [Text=title CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=CAVE CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=NNP] [Text=DWELLERS CharacterOffsetBegin=370 CharacterOffsetEnd=378 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=.] 
+root(ROOT-0, made-5)
+nn(Theater-3, Mystery-1)
+nn(Theater-3, Science-2)
+nsubj(made-5, Theater-3)
+num(Theater-3, 3000-4)
+dobj(made-5, fun-6)
+prep(fun-6, of-7)
+pobj(of-7, it-8)
+prep(made-5, under-9)
+det(DWELLERS-13, the-10)
+nn(DWELLERS-13, title-11)
+nn(DWELLERS-13, CAVE-12)
+pobj(under-9, DWELLERS-13)
+punct(made-5, .-14)
+

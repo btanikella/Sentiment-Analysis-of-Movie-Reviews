@@ -1,0 +1,74 @@
+Sentence #1 (9 tokens):
+This is John Waters best film to date.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=John CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=Waters CharacterOffsetBegin=17 CharacterOffsetEnd=23 PartOfSpeech=NNP] [Text=best CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=JJS] [Text=film CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=TO] [Text=date CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.] 
+root(ROOT-0, Waters-4)
+nsubj(Waters-4, This-1)
+cop(Waters-4, is-2)
+nn(Waters-4, John-3)
+amod(film-6, best-5)
+dobj(Waters-4, film-6)
+prep(film-6, to-7)
+pobj(to-7, date-8)
+punct(Waters-4, .-9)
+
+Sentence #2 (14 tokens):
+The characters are obvious and symbolic, just as in his other films.
+[Text=The CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=51 CharacterOffsetEnd=61 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=VBP] [Text=obvious CharacterOffsetBegin=66 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=CC] [Text=symbolic CharacterOffsetBegin=78 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=,] [Text=just CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=IN] [Text=in CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=PRP$] [Text=other CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=.] 
+root(ROOT-0, obvious-4)
+det(characters-2, The-1)
+nsubj(obvious-4, characters-2)
+cop(obvious-4, are-3)
+cc(obvious-4, and-5)
+conj(obvious-4, symbolic-6)
+punct(obvious-4, ,-7)
+advmod(as-9, just-8)
+prep(obvious-4, as-9)
+pcomp(as-9, in-10)
+poss(films-13, his-11)
+amod(films-13, other-12)
+pobj(in-10, films-13)
+punct(obvious-4, .-14)
+
+Sentence #3 (9 tokens):
+So there are no surprises or character changes.
+[Text=So CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=RB] [Text=there CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=VBP] [Text=no CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=DT] [Text=surprises CharacterOffsetBegin=136 CharacterOffsetEnd=145 PartOfSpeech=NNS] [Text=or CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=CC] [Text=character CharacterOffsetBegin=149 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=changes CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=.] 
+root(ROOT-0, are-3)
+advmod(are-3, So-1)
+expl(are-3, there-2)
+det(surprises-5, no-4)
+nsubj(are-3, surprises-5)
+cc(surprises-5, or-6)
+nn(changes-8, character-7)
+conj(surprises-5, changes-8)
+punct(are-3, .-9)
+
+Sentence #4 (14 tokens):
+I enjoyed the film because of the wittiness and pace of the story.
+[Text=I CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=PRP] [Text=enjoyed CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=191 CharacterOffsetEnd=198 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT] [Text=wittiness CharacterOffsetBegin=206 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=CC] [Text=pace CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=.] 
+root(ROOT-0, enjoyed-2)
+nsubj(enjoyed-2, I-1)
+det(film-4, the-3)
+dobj(enjoyed-2, film-4)
+mwe(of-6, because-5)
+prep(enjoyed-2, of-6)
+det(wittiness-8, the-7)
+pobj(of-6, wittiness-8)
+cc(wittiness-8, and-9)
+conj(wittiness-8, pace-10)
+prep(wittiness-8, of-11)
+det(story-13, the-12)
+pobj(of-11, story-13)
+punct(enjoyed-2, .-14)
+
+Sentence #5 (8 tokens):
+It was good story-telling with honest people.
+[Text=It CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=VBD] [Text=good CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=JJ] [Text=story-telling CharacterOffsetBegin=255 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=IN] [Text=honest CharacterOffsetBegin=274 CharacterOffsetEnd=280 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=281 CharacterOffsetEnd=287 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=.] 
+root(ROOT-0, story-telling-4)
+nsubj(story-telling-4, It-1)
+cop(story-telling-4, was-2)
+amod(story-telling-4, good-3)
+prep(story-telling-4, with-5)
+amod(people-7, honest-6)
+pobj(with-5, people-7)
+punct(story-telling-4, .-8)
+

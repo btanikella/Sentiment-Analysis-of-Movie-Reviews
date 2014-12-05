@@ -1,0 +1,210 @@
+Sentence #1 (3 tokens):
+A failure.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=failure CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=.] 
+root(ROOT-0, failure-2)
+det(failure-2, A-1)
+punct(failure-2, .-3)
+
+Sentence #2 (7 tokens):
+The movie was just not good.
+[Text=The CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, good-6)
+det(movie-2, The-1)
+nsubj(good-6, movie-2)
+cop(good-6, was-3)
+advmod(good-6, just-4)
+neg(good-6, not-5)
+punct(good-6, .-7)
+
+Sentence #3 (14 tokens):
+It has humor that 5 year olds that will not even giggle at.
+[Text=It CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=VBZ] [Text=humor CharacterOffsetBegin=59 CharacterOffsetEnd=64 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=5 CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=CD] [Text=year CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=olds CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=WDT] [Text=will CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=RB] [Text=giggle CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, It-1)
+dobj(has-2, humor-3)
+prep(humor-3, that-4)
+num(olds-7, 5-5)
+nn(olds-7, year-6)
+dep(that-4, olds-7)
+nsubj(giggle-12, that-8)
+aux(giggle-12, will-9)
+neg(giggle-12, not-10)
+advmod(giggle-12, even-11)
+rcmod(olds-7, giggle-12)
+advmod(giggle-12, at-13)
+punct(has-2, .-14)
+
+Sentence #4 (17 tokens):
+I mean, sure, some parts were amusing, but most of it is not.
+[Text=I CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=,] [Text=sure CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=,] [Text=some CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=parts CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=VBD] [Text=amusing CharacterOffsetBegin=146 CharacterOffsetEnd=153 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=,] [Text=but CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=CC] [Text=most CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+punct(mean-2, ,-3)
+acomp(mean-2, sure-4)
+punct(mean-2, ,-5)
+det(parts-7, some-6)
+nsubj(amusing-9, parts-7)
+cop(amusing-9, were-8)
+ccomp(mean-2, amusing-9)
+punct(mean-2, ,-10)
+cc(mean-2, but-11)
+nsubj(not-16, most-12)
+prep(most-12, of-13)
+pobj(of-13, it-14)
+cop(not-16, is-15)
+conj(mean-2, not-16)
+punct(mean-2, .-17)
+
+Sentence #5 (22 tokens):
+Lindsey Lohan is a great actress (and a bad singer,) and she should be working on better movies.
+[Text=Lindsey CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=NNP] [Text=Lohan CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=JJ] [Text=actress CharacterOffsetBegin=207 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=-LRB-] [Text=and CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=JJ] [Text=singer CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=,] [Text=-RRB- CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=243 CharacterOffsetEnd=249 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=VB] [Text=working CharacterOffsetBegin=253 CharacterOffsetEnd=260 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=IN] [Text=better CharacterOffsetBegin=264 CharacterOffsetEnd=270 PartOfSpeech=JJR] [Text=movies CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=.] 
+root(ROOT-0, actress-6)
+nn(Lohan-2, Lindsey-1)
+nsubj(actress-6, Lohan-2)
+cop(actress-6, is-3)
+det(actress-6, a-4)
+amod(actress-6, great-5)
+punct(actress-6, -LRB--7)
+cc(actress-6, and-8)
+det(singer-11, a-9)
+amod(singer-11, bad-10)
+conj(actress-6, singer-11)
+punct(singer-11, ,-12)
+punct(singer-11, -RRB--13)
+cc(actress-6, and-14)
+nsubj(working-18, she-15)
+aux(working-18, should-16)
+aux(working-18, be-17)
+conj(actress-6, working-18)
+prep(working-18, on-19)
+amod(movies-21, better-20)
+pobj(on-19, movies-21)
+punct(actress-6, .-22)
+
+Sentence #6 (29 tokens):
+The movie should have been aired as a Disney Channel original movie, that is FREE.The only thing that was well done about this movie was the music.
+[Text=The CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=287 CharacterOffsetEnd=292 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=293 CharacterOffsetEnd=299 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=VBN] [Text=aired CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=VBN] [Text=as CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=319 CharacterOffsetEnd=320 PartOfSpeech=DT] [Text=Disney CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=NNP] [Text=Channel CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=NNP] [Text=original CharacterOffsetBegin=336 CharacterOffsetEnd=344 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=,] [Text=that CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=VBZ] [Text=FREE.The CharacterOffsetBegin=360 CharacterOffsetEnd=368 PartOfSpeech=NNP] [Text=only CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=RB] [Text=thing CharacterOffsetBegin=374 CharacterOffsetEnd=379 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=VBD] [Text=well CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=VBN] [Text=about CharacterOffsetBegin=399 CharacterOffsetEnd=404 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=410 CharacterOffsetEnd=415 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=.] 
+root(ROOT-0, aired-6)
+det(movie-2, The-1)
+nsubj(aired-6, movie-2)
+aux(aired-6, should-3)
+aux(aired-6, have-4)
+auxpass(aired-6, been-5)
+prep(aired-6, as-7)
+det(movie-12, a-8)
+nn(movie-12, Disney-9)
+nn(movie-12, Channel-10)
+amod(movie-12, original-11)
+pobj(as-7, movie-12)
+punct(aired-6, ,-13)
+nsubj(FREE.The-16, that-14)
+cop(FREE.The-16, is-15)
+nsubj(music-28, FREE.The-16)
+amod(thing-18, only-17)
+dobj(FREE.The-16, thing-18)
+nsubjpass(done-22, that-19)
+auxpass(done-22, was-20)
+advmod(done-22, well-21)
+rcmod(thing-18, done-22)
+prep(done-22, about-23)
+det(movie-25, this-24)
+pobj(about-23, movie-25)
+cop(music-28, was-26)
+det(music-28, the-27)
+ccomp(aired-6, music-28)
+punct(aired-6, .-29)
+
+Sentence #7 (12 tokens):
+Nothing like a remade rock soundtrack to brighten up your day.
+[Text=Nothing CharacterOffsetBegin=435 CharacterOffsetEnd=442 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=DT] [Text=remade CharacterOffsetBegin=450 CharacterOffsetEnd=456 PartOfSpeech=VB] [Text=rock CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=NN] [Text=soundtrack CharacterOffsetBegin=462 CharacterOffsetEnd=472 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=TO] [Text=brighten CharacterOffsetBegin=476 CharacterOffsetEnd=484 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=RP] [Text=your CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=PRP$] [Text=day CharacterOffsetBegin=493 CharacterOffsetEnd=496 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=496 CharacterOffsetEnd=497 PartOfSpeech=.] 
+root(ROOT-0, Nothing-1)
+prep(Nothing-1, like-2)
+det(soundtrack-6, a-3)
+amod(soundtrack-6, remade-4)
+nn(soundtrack-6, rock-5)
+pobj(like-2, soundtrack-6)
+aux(brighten-8, to-7)
+infmod(soundtrack-6, brighten-8)
+prt(brighten-8, up-9)
+poss(day-11, your-10)
+tmod(brighten-8, day-11)
+punct(Nothing-1, .-12)
+
+Sentence #8 (6 tokens):
+These songs are so good.
+[Text=These CharacterOffsetBegin=502 CharacterOffsetEnd=507 PartOfSpeech=DT] [Text=songs CharacterOffsetBegin=508 CharacterOffsetEnd=513 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=VBP] [Text=so CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=525 CharacterOffsetEnd=526 PartOfSpeech=.] 
+root(ROOT-0, good-5)
+det(songs-2, These-1)
+nsubj(good-5, songs-2)
+cop(good-5, are-3)
+advmod(good-5, so-4)
+punct(good-5, .-6)
+
+Sentence #9 (25 tokens):
+Especially Alyson and Amanda's Walking On Sunshine and Caleigh Peter's, Beach Boy song, Fun Fun Fun.4 out of 10.
+[Text=Especially CharacterOffsetBegin=531 CharacterOffsetEnd=541 PartOfSpeech=RB] [Text=Alyson CharacterOffsetBegin=542 CharacterOffsetEnd=548 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=CC] [Text=Amanda CharacterOffsetBegin=553 CharacterOffsetEnd=559 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=POS] [Text=Walking CharacterOffsetBegin=562 CharacterOffsetEnd=569 PartOfSpeech=VBG] [Text=On CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=IN] [Text=Sunshine CharacterOffsetBegin=573 CharacterOffsetEnd=581 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=CC] [Text=Caleigh CharacterOffsetBegin=586 CharacterOffsetEnd=593 PartOfSpeech=NNP] [Text=Peter CharacterOffsetBegin=594 CharacterOffsetEnd=599 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=599 CharacterOffsetEnd=601 PartOfSpeech=POS] [Text=, CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=,] [Text=Beach CharacterOffsetBegin=603 CharacterOffsetEnd=608 PartOfSpeech=NNP] [Text=Boy CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=NNP] [Text=song CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=617 CharacterOffsetEnd=618 PartOfSpeech=,] [Text=Fun CharacterOffsetBegin=619 CharacterOffsetEnd=622 PartOfSpeech=NNP] [Text=Fun CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=NNP] [Text=Fun CharacterOffsetBegin=627 CharacterOffsetEnd=630 PartOfSpeech=NNP] [Text=.4 CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=.] 
+root(ROOT-0, Alyson-2)
+nn(Alyson-2, Especially-1)
+cc(Alyson-2, and-3)
+poss(Walking-6, Amanda-4)
+possessive(Amanda-4, 's-5)
+conj(Alyson-2, Walking-6)
+prep(Alyson-2, On-7)
+pobj(On-7, Sunshine-8)
+cc(Sunshine-8, and-9)
+nn(Peter-11, Caleigh-10)
+conj(Sunshine-8, Peter-11)
+possessive(Peter-11, 's-12)
+punct(Sunshine-8, ,-13)
+nn(song-16, Beach-14)
+nn(song-16, Boy-15)
+conj(Sunshine-8, song-16)
+punct(Sunshine-8, ,-17)
+nn(Fun-20, Fun-18)
+nn(Fun-20, Fun-19)
+appos(Sunshine-8, Fun-20)
+num(Fun-20, .4-21)
+prep(Fun-20, out-22)
+pcomp(out-22, of-23)
+pobj(of-23, 10-24)
+punct(Alyson-2, .-25)
+
+Sentence #10 (21 tokens):
+If I gave it a ten, 9 of that would be the music and 1 will be the movie.
+[Text=If CharacterOffsetBegin=648 CharacterOffsetEnd=650 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=651 CharacterOffsetEnd=652 PartOfSpeech=PRP] [Text=gave CharacterOffsetBegin=653 CharacterOffsetEnd=657 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=DT] [Text=ten CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=666 CharacterOffsetEnd=667 PartOfSpeech=,] [Text=9 CharacterOffsetBegin=668 CharacterOffsetEnd=669 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=670 CharacterOffsetEnd=672 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=DT] [Text=would CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=684 CharacterOffsetEnd=686 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=CC] [Text=1 CharacterOffsetBegin=701 CharacterOffsetEnd=702 PartOfSpeech=CD] [Text=will CharacterOffsetBegin=703 CharacterOffsetEnd=707 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=708 CharacterOffsetEnd=710 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=711 CharacterOffsetEnd=714 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=715 CharacterOffsetEnd=720 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=720 CharacterOffsetEnd=721 PartOfSpeech=.] 
+root(ROOT-0, movie-20)
+mark(gave-3, If-1)
+nsubj(gave-3, I-2)
+advcl(music-14, gave-3)
+iobj(gave-3, it-4)
+det(ten-6, a-5)
+dobj(gave-3, ten-6)
+punct(music-14, ,-7)
+nsubj(music-14, 9-8)
+prep(9-8, of-9)
+pobj(of-9, that-10)
+aux(music-14, would-11)
+cop(music-14, be-12)
+det(music-14, the-13)
+nsubj(movie-20, music-14)
+cc(music-14, and-15)
+conj(music-14, 1-16)
+aux(movie-20, will-17)
+cop(movie-20, be-18)
+det(movie-20, the-19)
+punct(movie-20, .-21)
+
+Sentence #11 (10 tokens):
+Not worth your money, but the soundtrack is.
+[Text=Not CharacterOffsetBegin=726 CharacterOffsetEnd=729 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=730 CharacterOffsetEnd=735 PartOfSpeech=JJ] [Text=your CharacterOffsetBegin=736 CharacterOffsetEnd=740 PartOfSpeech=PRP$] [Text=money CharacterOffsetBegin=741 CharacterOffsetEnd=746 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=746 CharacterOffsetEnd=747 PartOfSpeech=,] [Text=but CharacterOffsetBegin=748 CharacterOffsetEnd=751 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=752 CharacterOffsetEnd=755 PartOfSpeech=DT] [Text=soundtrack CharacterOffsetBegin=756 CharacterOffsetEnd=766 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=767 CharacterOffsetEnd=769 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=.] 
+root(ROOT-0, worth-2)
+neg(worth-2, Not-1)
+poss(money-4, your-3)
+dobj(worth-2, money-4)
+punct(worth-2, ,-5)
+cc(worth-2, but-6)
+det(soundtrack-8, the-7)
+nsubj(is-9, soundtrack-8)
+conj(worth-2, is-9)
+punct(worth-2, .-10)
+

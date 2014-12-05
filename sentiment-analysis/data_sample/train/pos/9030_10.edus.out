@@ -1,0 +1,167 @@
+Sentence #1 (7 tokens):
+This film caught me by surprise.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=caught CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=PRP] [Text=by CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=surprise CharacterOffsetBegin=27 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.] 
+root(ROOT-0, caught-3)
+det(film-2, This-1)
+nsubj(caught-3, film-2)
+dobj(caught-3, me-4)
+prep(caught-3, by-5)
+pobj(by-5, surprise-6)
+punct(caught-3, .-7)
+
+Sentence #2 (14 tokens):
+My friend told me that this movie was a "chick flick."
+[Text=My CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=told CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=that CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=``] [Text=chick CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text=flick CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] [Text='' CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=''] 
+root(ROOT-0, told-3)
+poss(friend-2, My-1)
+nsubj(told-3, friend-2)
+dobj(told-3, me-4)
+mark(flick-12, that-5)
+det(movie-7, this-6)
+nsubj(flick-12, movie-7)
+cop(flick-12, was-8)
+det(flick-12, a-9)
+punct(flick-12, ``-10)
+nn(flick-12, chick-11)
+ccomp(told-3, flick-12)
+punct(told-3, .-13)
+punct(told-3, ''-14)
+
+Sentence #3 (6 tokens):
+Boy, was he wrong!
+[Text=Boy CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=,] [Text=was CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=VBD] [Text=he CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text=wrong CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=.] 
+root(ROOT-0, wrong-5)
+nsubj(wrong-5, Boy-1)
+punct(Boy-1, ,-2)
+cop(wrong-5, was-3)
+nsubj(wrong-5, he-4)
+punct(wrong-5, !-6)
+
+Sentence #4 (18 tokens):
+This movie has a great family appeal, with no sex scenes like _other_ movies.
+[Text=This CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=appeal CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=,] [Text=with CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=DT] [Text=sex CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=scenes CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=IN] [Text=_ CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=CD] [Text=other CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=JJ] [Text=_ CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(movie-2, This-1)
+nsubj(has-3, movie-2)
+det(appeal-7, a-4)
+amod(appeal-7, great-5)
+nn(appeal-7, family-6)
+dobj(has-3, appeal-7)
+punct(has-3, ,-8)
+prep(has-3, with-9)
+det(scenes-12, no-10)
+nn(scenes-12, sex-11)
+pobj(with-9, scenes-12)
+prep(scenes-12, like-13)
+num(movies-17, _-14)
+amod(movies-17, other-15)
+nn(movies-17, _-16)
+pobj(like-13, movies-17)
+punct(has-3, .-18)
+
+Sentence #5 (12 tokens):
+Jake Gyllenhaal does an excellent job in Homer Hickam's shoes.
+[Text=Jake CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=NNP] [Text=Gyllenhaal CharacterOffsetBegin=210 CharacterOffsetEnd=220 PartOfSpeech=NNP] [Text=does CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=excellent CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=IN] [Text=Homer CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=NNP] [Text=Hickam CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=POS] [Text=shoes CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=.] 
+root(ROOT-0, does-3)
+nn(Gyllenhaal-2, Jake-1)
+nsubj(does-3, Gyllenhaal-2)
+det(job-6, an-4)
+amod(job-6, excellent-5)
+dobj(does-3, job-6)
+prep(job-6, in-7)
+nn(Hickam-9, Homer-8)
+poss(shoes-11, Hickam-9)
+possessive(Hickam-9, 's-10)
+pobj(in-7, shoes-11)
+punct(does-3, .-12)
+
+Sentence #6 (25 tokens):
+The supporting cast is great, as well.Science, coming-of-age, family quarrels, a great train scene...
+    This film has it all.
+[Text=The CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=supporting CharacterOffsetBegin=276 CharacterOffsetEnd=286 PartOfSpeech=VBG] [Text=cast CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=,] [Text=as CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=IN] [Text=well.Science CharacterOffsetBegin=305 CharacterOffsetEnd=317 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=,] [Text=coming-of-age CharacterOffsetBegin=319 CharacterOffsetEnd=332 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=,] [Text=family CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=NN] [Text=quarrels CharacterOffsetBegin=341 CharacterOffsetEnd=349 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=,] [Text=a CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=353 CharacterOffsetEnd=358 PartOfSpeech=JJ] [Text=train CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=scene CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=:] [Text=This CharacterOffsetBegin=378 CharacterOffsetEnd=382 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=392 CharacterOffsetEnd=394 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=.] 
+root(ROOT-0, great-5)
+det(cast-3, The-1)
+amod(cast-3, supporting-2)
+nsubj(great-5, cast-3)
+cop(great-5, is-4)
+punct(great-5, ,-6)
+prep(great-5, as-7)
+pobj(as-7, well.Science-8)
+punct(well.Science-8, ,-9)
+conj(well.Science-8, coming-of-age-10)
+punct(well.Science-8, ,-11)
+nn(quarrels-13, family-12)
+conj(well.Science-8, quarrels-13)
+punct(well.Science-8, ,-14)
+det(scene-18, a-15)
+amod(scene-18, great-16)
+nn(scene-18, train-17)
+conj(well.Science-8, scene-18)
+punct(great-5, ...-19)
+det(film-21, This-20)
+nsubj(has-22, film-21)
+parataxis(great-5, has-22)
+dobj(has-22, it-23)
+det(it-23, all-24)
+punct(great-5, .-25)
+
+Sentence #7 (13 tokens):
+The soundtrack is good, although the score is presented quite choppily.
+[Text=The CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=DT] [Text=soundtrack CharacterOffsetBegin=408 CharacterOffsetEnd=418 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=,] [Text=although CharacterOffsetBegin=428 CharacterOffsetEnd=436 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=DT] [Text=score CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=VBZ] [Text=presented CharacterOffsetBegin=450 CharacterOffsetEnd=459 PartOfSpeech=VBN] [Text=quite CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=RB] [Text=choppily CharacterOffsetBegin=466 CharacterOffsetEnd=474 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=.] 
+root(ROOT-0, good-4)
+det(soundtrack-2, The-1)
+nsubj(good-4, soundtrack-2)
+cop(good-4, is-3)
+punct(good-4, ,-5)
+mark(presented-10, although-6)
+det(score-8, the-7)
+nsubjpass(presented-10, score-8)
+auxpass(presented-10, is-9)
+advcl(good-4, presented-10)
+advmod(choppily-12, quite-11)
+advmod(presented-10, choppily-12)
+punct(good-4, .-13)
+
+Sentence #8 (20 tokens):
+The 50s music kicks the movie over the edge of greatness.The DVD is definitely worth its weigh in coal.
+[Text=The CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=DT] [Text=50s CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=CD] [Text=music CharacterOffsetBegin=488 CharacterOffsetEnd=493 PartOfSpeech=NN] [Text=kicks CharacterOffsetBegin=494 CharacterOffsetEnd=499 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=504 CharacterOffsetEnd=509 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=DT] [Text=edge CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=IN] [Text=greatness.The CharacterOffsetBegin=527 CharacterOffsetEnd=540 PartOfSpeech=NNP] [Text=DVD CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=VBZ] [Text=definitely CharacterOffsetBegin=548 CharacterOffsetEnd=558 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=JJ] [Text=its CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=PRP$] [Text=weigh CharacterOffsetBegin=569 CharacterOffsetEnd=574 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=575 CharacterOffsetEnd=577 PartOfSpeech=IN] [Text=coal CharacterOffsetBegin=578 CharacterOffsetEnd=582 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=582 CharacterOffsetEnd=583 PartOfSpeech=.] 
+root(ROOT-0, worth-15)
+det(music-3, The-1)
+num(music-3, 50s-2)
+nsubj(kicks-4, music-3)
+nsubj(worth-15, kicks-4)
+det(movie-6, the-5)
+dobj(kicks-4, movie-6)
+prep(kicks-4, over-7)
+det(edge-9, the-8)
+pobj(over-7, edge-9)
+prep(edge-9, of-10)
+nn(DVD-12, greatness.The-11)
+pobj(of-10, DVD-12)
+cop(worth-15, is-13)
+advmod(worth-15, definitely-14)
+poss(weigh-17, its-16)
+dep(worth-15, weigh-17)
+prep(weigh-17, in-18)
+pobj(in-18, coal-19)
+punct(worth-15, .-20)
+
+Sentence #9 (15 tokens):
+Replay value is great - I've seen it quite a few times already.
+[Text=Replay CharacterOffsetBegin=588 CharacterOffsetEnd=594 PartOfSpeech=NN] [Text=value CharacterOffsetBegin=595 CharacterOffsetEnd=600 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=604 CharacterOffsetEnd=609 PartOfSpeech=JJ] [Text=- CharacterOffsetBegin=610 CharacterOffsetEnd=611 PartOfSpeech=:] [Text=I CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=617 CharacterOffsetEnd=621 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=PRP] [Text=quite CharacterOffsetBegin=625 CharacterOffsetEnd=630 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=NNS] [Text=already CharacterOffsetBegin=643 CharacterOffsetEnd=650 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=.] 
+root(ROOT-0, great-4)
+nn(value-2, Replay-1)
+nsubj(great-4, value-2)
+cop(great-4, is-3)
+punct(great-4, --5)
+nsubj(seen-8, I-6)
+aux(seen-8, 've-7)
+parataxis(great-4, seen-8)
+dobj(seen-8, it-9)
+advmod(times-13, quite-10)
+det(times-13, a-11)
+amod(times-13, few-12)
+dep(it-9, times-13)
+advmod(times-13, already-14)
+punct(great-4, .-15)
+

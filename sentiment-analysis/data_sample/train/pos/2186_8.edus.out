@@ -1,0 +1,171 @@
+Sentence #1 (5 tokens):
+and what a combo.
+[Text=and CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=CC] [Text=what CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=combo CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, combo-4)
+cc(combo-4, and-1)
+dep(combo-4, what-2)
+det(combo-4, a-3)
+punct(combo-4, .-5)
+
+Sentence #2 (14 tokens):
+Two of the century's great singers star together in this underrated musical.
+[Text=Two CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=DT] [Text=century CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=POS] [Text=great CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=JJ] [Text=singers CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NNS] [Text=star CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=VB] [Text=together CharacterOffsetBegin=66 CharacterOffsetEnd=74 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=underrated CharacterOffsetBegin=83 CharacterOffsetEnd=93 PartOfSpeech=JJ] [Text=musical CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=.] 
+root(ROOT-0, Two-1)
+prep(Two-1, of-2)
+det(century-4, the-3)
+pobj(of-2, century-4)
+possessive(century-4, 's-5)
+amod(century-4, great-6)
+dep(great-6, singers-7)
+partmod(singers-7, star-8)
+advmod(star-8, together-9)
+prep(star-8, in-10)
+det(musical-13, this-11)
+amod(musical-13, underrated-12)
+pobj(in-10, musical-13)
+punct(Two-1, .-14)
+
+Sentence #3 (32 tokens):
+He writes music, she writes lyrics, and they both work for Basil Rathbone who can't write either because his wife died (actually she just got fat!)
+[Text=He CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=PRP] [Text=writes CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=VBZ] [Text=music CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=,] [Text=she CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=PRP] [Text=writes CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=VBZ] [Text=lyrics CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=,] [Text=and CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=PRP] [Text=both CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=DT] [Text=work CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=Basil CharacterOffsetBegin=166 CharacterOffsetEnd=171 PartOfSpeech=NNP] [Text=Rathbone CharacterOffsetBegin=172 CharacterOffsetEnd=180 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=WP] [Text=ca CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=RB] [Text=write CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=VB] [Text=either CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=CC] [Text=because CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=NN] [Text=died CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=VBD] [Text=-LRB- CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=-LRB-] [Text=actually CharacterOffsetBegin=227 CharacterOffsetEnd=235 PartOfSpeech=RB] [Text=she CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=VBD] [Text=fat CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=-RRB-] 
+root(ROOT-0, writes-2)
+nsubj(writes-2, He-1)
+dobj(writes-2, music-3)
+punct(writes-2, ,-4)
+nsubj(writes-6, she-5)
+ccomp(writes-2, writes-6)
+dobj(writes-6, lyrics-7)
+punct(writes-2, ,-8)
+cc(writes-2, and-9)
+nsubj(work-12, they-10)
+dep(work-12, both-11)
+conj(writes-2, work-12)
+prep(work-12, for-13)
+nn(Rathbone-15, Basil-14)
+pobj(for-13, Rathbone-15)
+nsubj(write-19, who-16)
+aux(write-19, ca-17)
+neg(write-19, n't-18)
+rcmod(Rathbone-15, write-19)
+dobj(write-19, either-20)
+mark(died-24, because-21)
+poss(wife-23, his-22)
+nsubj(died-24, wife-23)
+advcl(write-19, died-24)
+punct(got-29, -LRB--25)
+advmod(got-29, actually-26)
+nsubj(got-29, she-27)
+advmod(got-29, just-28)
+dep(died-24, got-29)
+acomp(got-29, fat-30)
+punct(got-29, !-31)
+punct(got-29, -RRB--32)
+
+Sentence #4 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #5 (24 tokens):
+Best scene is the pawn shop number where Bing sings an impromptu number while the swing band gets their instruments out of hock.
+[Text=Best CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=JJS] [Text=scene CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=pawn CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=NN] [Text=shop CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=number CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=WRB] [Text=Bing CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=NNP] [Text=sings CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=DT] [Text=impromptu CharacterOffsetBegin=315 CharacterOffsetEnd=324 PartOfSpeech=JJ] [Text=number CharacterOffsetBegin=325 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=while CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=DT] [Text=swing CharacterOffsetBegin=342 CharacterOffsetEnd=347 PartOfSpeech=NN] [Text=band CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=NN] [Text=gets CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=VBZ] [Text=their CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=PRP$] [Text=instruments CharacterOffsetBegin=364 CharacterOffsetEnd=375 PartOfSpeech=NNS] [Text=out CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=IN] [Text=hock CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=.] 
+root(ROOT-0, number-7)
+amod(scene-2, Best-1)
+nsubj(number-7, scene-2)
+cop(number-7, is-3)
+det(number-7, the-4)
+nn(number-7, pawn-5)
+nn(number-7, shop-6)
+advmod(sings-10, where-8)
+nsubj(sings-10, Bing-9)
+rcmod(number-7, sings-10)
+det(number-13, an-11)
+amod(number-13, impromptu-12)
+dobj(sings-10, number-13)
+mark(gets-18, while-14)
+det(band-17, the-15)
+nn(band-17, swing-16)
+nsubj(gets-18, band-17)
+advcl(sings-10, gets-18)
+poss(instruments-20, their-19)
+dobj(gets-18, instruments-20)
+prep(gets-18, out-21)
+pcomp(out-21, of-22)
+pobj(of-22, hock-23)
+punct(number-7, .-24)
+
+Sentence #6 (3 tokens):
+Just wonderful.
+[Text=Just CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=RB] [Text=wonderful CharacterOffsetBegin=398 CharacterOffsetEnd=407 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=.] 
+root(ROOT-0, wonderful-2)
+advmod(wonderful-2, Just-1)
+punct(wonderful-2, .-3)
+
+Sentence #7 (20 tokens):
+And this is a rare starring role for Broadway legend, Mary Martin, and she's quite good.
+[Text=And CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=422 CharacterOffsetEnd=424 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=DT] [Text=rare CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=JJ] [Text=starring CharacterOffsetBegin=432 CharacterOffsetEnd=440 PartOfSpeech=VBG] [Text=role CharacterOffsetBegin=441 CharacterOffsetEnd=445 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=IN] [Text=Broadway CharacterOffsetBegin=450 CharacterOffsetEnd=458 PartOfSpeech=NNP] [Text=legend CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=,] [Text=Mary CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=NNP] [Text=Martin CharacterOffsetBegin=472 CharacterOffsetEnd=478 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=478 CharacterOffsetEnd=479 PartOfSpeech=,] [Text=and CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=VBZ] [Text=quite CharacterOffsetBegin=490 CharacterOffsetEnd=495 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=.] 
+root(ROOT-0, role-7)
+cc(role-7, And-1)
+nsubj(role-7, this-2)
+cop(role-7, is-3)
+det(role-7, a-4)
+amod(role-7, rare-5)
+amod(role-7, starring-6)
+prep(role-7, for-8)
+nn(legend-10, Broadway-9)
+pobj(for-8, legend-10)
+punct(role-7, ,-11)
+nn(Martin-13, Mary-12)
+conj(role-7, Martin-13)
+punct(role-7, ,-14)
+cc(role-7, and-15)
+nsubj(good-19, she-16)
+cop(good-19, 's-17)
+advmod(good-19, quite-18)
+conj(role-7, good-19)
+punct(role-7, .-20)
+
+Sentence #8 (28 tokens):
+Charley Grapewin, John Scott Trotter, William Frawley, Oscar Levant (once again the manic pianist), Charles Lane, and Helen Bertram co-star.
+[Text=Charley CharacterOffsetBegin=506 CharacterOffsetEnd=513 PartOfSpeech=NNP] [Text=Grapewin CharacterOffsetBegin=514 CharacterOffsetEnd=522 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=522 CharacterOffsetEnd=523 PartOfSpeech=,] [Text=John CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=NNP] [Text=Scott CharacterOffsetBegin=529 CharacterOffsetEnd=534 PartOfSpeech=NNP] [Text=Trotter CharacterOffsetBegin=535 CharacterOffsetEnd=542 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=542 CharacterOffsetEnd=543 PartOfSpeech=,] [Text=William CharacterOffsetBegin=544 CharacterOffsetEnd=551 PartOfSpeech=NNP] [Text=Frawley CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=,] [Text=Oscar CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=NNP] [Text=Levant CharacterOffsetBegin=567 CharacterOffsetEnd=573 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=-LRB-] [Text=once CharacterOffsetBegin=575 CharacterOffsetEnd=579 PartOfSpeech=RB] [Text=again CharacterOffsetBegin=580 CharacterOffsetEnd=585 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=DT] [Text=manic CharacterOffsetBegin=590 CharacterOffsetEnd=595 PartOfSpeech=JJ] [Text=pianist CharacterOffsetBegin=596 CharacterOffsetEnd=603 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=,] [Text=Charles CharacterOffsetBegin=606 CharacterOffsetEnd=613 PartOfSpeech=NNP] [Text=Lane CharacterOffsetBegin=614 CharacterOffsetEnd=618 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=,] [Text=and CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=CC] [Text=Helen CharacterOffsetBegin=624 CharacterOffsetEnd=629 PartOfSpeech=NNP] [Text=Bertram CharacterOffsetBegin=630 CharacterOffsetEnd=637 PartOfSpeech=NNP] [Text=co-star CharacterOffsetBegin=638 CharacterOffsetEnd=645 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=.] 
+root(ROOT-0, Grapewin-2)
+nn(Grapewin-2, Charley-1)
+punct(Grapewin-2, ,-3)
+nn(Trotter-6, John-4)
+nn(Trotter-6, Scott-5)
+appos(Grapewin-2, Trotter-6)
+punct(Grapewin-2, ,-7)
+nn(Frawley-9, William-8)
+appos(Grapewin-2, Frawley-9)
+punct(Grapewin-2, ,-10)
+appos(Grapewin-2, Oscar-11)
+dep(Oscar-11, Levant-12)
+punct(Levant-12, -LRB--13)
+advmod(again-15, once-14)
+dep(-LRB--13, again-15)
+det(pianist-18, the-16)
+amod(pianist-18, manic-17)
+dep(again-15, pianist-18)
+punct(pianist-18, -RRB--19)
+punct(again-15, ,-20)
+nn(Lane-22, Charles-21)
+dep(,-20, Lane-22)
+punct(Lane-22, ,-23)
+cc(Lane-22, and-24)
+nn(co-star-27, Helen-25)
+nn(co-star-27, Bertram-26)
+conj(Lane-22, co-star-27)
+punct(Lane-22, .-28)
+
+Sentence #9 (8 tokens):
+And who knew Rathbone could be funny?
+[Text=And CharacterOffsetBegin=651 CharacterOffsetEnd=654 PartOfSpeech=CC] [Text=who CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=WP] [Text=knew CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=VBD] [Text=Rathbone CharacterOffsetBegin=664 CharacterOffsetEnd=672 PartOfSpeech=NNP] [Text=could CharacterOffsetBegin=673 CharacterOffsetEnd=678 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=679 CharacterOffsetEnd=681 PartOfSpeech=VB] [Text=funny CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+nsubj(knew-3, who-2)
+dep(And-1, knew-3)
+nsubj(funny-7, Rathbone-4)
+aux(funny-7, could-5)
+cop(funny-7, be-6)
+ccomp(knew-3, funny-7)
+punct(knew-3, ?-8)
+

@@ -1,0 +1,208 @@
+Sentence #1 (19 tokens):
+Yes, Marie Dresler drinks prune juice that she thinks is poison and she exits running.Dresler is good.
+[Text=Yes CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=,] [Text=Marie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=Dresler CharacterOffsetBegin=15 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=drinks CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=VBZ] [Text=prune CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=VB] [Text=juice CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=PRP] [Text=thinks CharacterOffsetBegin=51 CharacterOffsetEnd=57 PartOfSpeech=VBZ] [Text=is CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=VBZ] [Text=poison CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=PRP] [Text=exits CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NNS] [Text=running.Dresler CharacterOffsetBegin=82 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=.] 
+root(ROOT-0, drinks-5)
+advmod(drinks-5, Yes-1)
+punct(drinks-5, ,-2)
+dep(drinks-5, Marie-3)
+nsubj(drinks-5, Dresler-4)
+amod(juice-7, prune-6)
+dobj(drinks-5, juice-7)
+dobj(thinks-10, that-8)
+nsubj(thinks-10, she-9)
+ccomp(drinks-5, thinks-10)
+cop(poison-12, is-11)
+ccomp(thinks-10, poison-12)
+cc(poison-12, and-13)
+conj(poison-12, she-14)
+dep(she-14, exits-15)
+nsubj(good-18, running.Dresler-16)
+cop(good-18, is-17)
+rcmod(exits-15, good-18)
+punct(drinks-5, .-19)
+
+Sentence #2 (28 tokens):
+Never my cup of tea but she is a solid performer who surely holds the screen.I watched this for Polly Moran, whom I've seen elsewhere.
+[Text=Never CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=my CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=PRP$] [Text=cup CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=tea CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=DT] [Text=solid CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=JJ] [Text=performer CharacterOffsetBegin=150 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=WP] [Text=surely CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=RB] [Text=holds CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=DT] [Text=screen.I CharacterOffsetBegin=181 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=watched CharacterOffsetBegin=190 CharacterOffsetEnd=197 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=DT] [Text=for CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=IN] [Text=Polly CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NNP] [Text=Moran CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=,] [Text=whom CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=VBN] [Text=elsewhere CharacterOffsetBegin=235 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=.] 
+root(ROOT-0, cup-3)
+neg(cup-3, Never-1)
+poss(cup-3, my-2)
+prep(cup-3, of-4)
+pobj(of-4, tea-5)
+cc(cup-3, but-6)
+nsubj(performer-11, she-7)
+cop(performer-11, is-8)
+det(performer-11, a-9)
+amod(performer-11, solid-10)
+conj(cup-3, performer-11)
+nsubj(holds-14, who-12)
+advmod(holds-14, surely-13)
+rcmod(performer-11, holds-14)
+det(screen.I-16, the-15)
+nsubj(watched-17, screen.I-16)
+ccomp(holds-14, watched-17)
+dobj(watched-17, this-18)
+prep(watched-17, for-19)
+nn(Moran-21, Polly-20)
+pobj(for-19, Moran-21)
+punct(Moran-21, ,-22)
+dobj(seen-26, whom-23)
+nsubj(seen-26, I-24)
+aux(seen-26, 've-25)
+rcmod(Moran-21, seen-26)
+advmod(seen-26, elsewhere-27)
+punct(cup-3, .-28)
+
+Sentence #3 (15 tokens):
+Here, Moran is OK -- just OK -- as Dressler's shrewish friend/foe.
+[Text=Here CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=,] [Text=Moran CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=VBZ] [Text=OK CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=JJ] [Text=-- CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=:] [Text=just CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=RB] [Text=OK CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=UH] [Text=-- CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=:] [Text=as CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=IN] [Text=Dressler CharacterOffsetBegin=285 CharacterOffsetEnd=293 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=POS] [Text=shrewish CharacterOffsetBegin=296 CharacterOffsetEnd=304 PartOfSpeech=JJ] [Text=friend/foe CharacterOffsetBegin=305 CharacterOffsetEnd=315 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=.] 
+root(ROOT-0, OK-5)
+advmod(OK-5, Here-1)
+punct(OK-5, ,-2)
+nsubj(OK-5, Moran-3)
+cop(OK-5, is-4)
+punct(OK-5, ---6)
+advmod(OK-8, just-7)
+dep(OK-5, OK-8)
+punct(OK-5, ---9)
+prep(OK-5, as-10)
+poss(friend/foe-14, Dressler-11)
+possessive(Dressler-11, 's-12)
+amod(friend/foe-14, shrewish-13)
+pobj(as-10, friend/foe-14)
+punct(OK-5, .-15)
+
+Sentence #4 (14 tokens):
+Too bad she has sunk into nearly total oblivion.The plot is good hearted.
+[Text=Too CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=JJ] [Text=she CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=VBZ] [Text=sunk CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VBN] [Text=into CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=IN] [Text=nearly CharacterOffsetBegin=347 CharacterOffsetEnd=353 PartOfSpeech=RB] [Text=total CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=JJ] [Text=oblivion.The CharacterOffsetBegin=360 CharacterOffsetEnd=372 PartOfSpeech=NN] [Text=plot CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=JJ] [Text=hearted CharacterOffsetBegin=386 CharacterOffsetEnd=393 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.] 
+root(ROOT-0, hearted-13)
+advmod(bad-2, Too-1)
+csubj(hearted-13, bad-2)
+nsubj(sunk-5, she-3)
+aux(sunk-5, has-4)
+dep(bad-2, sunk-5)
+prep(sunk-5, into-6)
+advmod(total-8, nearly-7)
+amod(plot-10, total-8)
+nn(plot-10, oblivion.The-9)
+pobj(into-6, plot-10)
+cop(hearted-13, is-11)
+amod(hearted-13, good-12)
+punct(hearted-13, .-14)
+
+Sentence #5 (8 tokens):
+Bad guys try to rob the townspeople.
+[Text=Bad CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=NNS] [Text=try CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=TO] [Text=rob CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=DT] [Text=townspeople CharacterOffsetBegin=423 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=.] 
+root(ROOT-0, try-3)
+amod(guys-2, Bad-1)
+nsubj(try-3, guys-2)
+aux(rob-5, to-4)
+xcomp(try-3, rob-5)
+det(townspeople-7, the-6)
+dobj(rob-5, townspeople-7)
+punct(try-3, .-8)
+
+Sentence #6 (16 tokens):
+Dressler triumphs and all ends well.I do wonder about the central plot mechanism: bonds.
+[Text=Dressler CharacterOffsetBegin=440 CharacterOffsetEnd=448 PartOfSpeech=NNP] [Text=triumphs CharacterOffsetBegin=449 CharacterOffsetEnd=457 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=CC] [Text=all CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=DT] [Text=ends CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=NNS] [Text=well.I CharacterOffsetBegin=471 CharacterOffsetEnd=477 PartOfSpeech=NN] [Text=do CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=VBP] [Text=wonder CharacterOffsetBegin=481 CharacterOffsetEnd=487 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=488 CharacterOffsetEnd=493 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=DT] [Text=central CharacterOffsetBegin=498 CharacterOffsetEnd=505 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=506 CharacterOffsetEnd=510 PartOfSpeech=NN] [Text=mechanism CharacterOffsetBegin=511 CharacterOffsetEnd=520 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=:] [Text=bonds CharacterOffsetBegin=522 CharacterOffsetEnd=527 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=527 CharacterOffsetEnd=528 PartOfSpeech=.] 
+root(ROOT-0, triumphs-2)
+nn(triumphs-2, Dressler-1)
+cc(triumphs-2, and-3)
+det(ends-5, all-4)
+conj(triumphs-2, ends-5)
+nsubj(wonder-8, well.I-6)
+aux(wonder-8, do-7)
+rcmod(ends-5, wonder-8)
+prep(wonder-8, about-9)
+det(mechanism-13, the-10)
+amod(mechanism-13, central-11)
+nn(mechanism-13, plot-12)
+pobj(about-9, mechanism-13)
+punct(mechanism-13, :-14)
+dep(mechanism-13, bonds-15)
+punct(triumphs-2, .-16)
+
+Sentence #7 (26 tokens):
+This came out during the Depression so maybe everyone was familiar with bonds and what they can do if used well and if used wrongly.
+[Text=This CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=DT] [Text=came CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=RP] [Text=during CharacterOffsetBegin=547 CharacterOffsetEnd=553 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=DT] [Text=Depression CharacterOffsetBegin=558 CharacterOffsetEnd=568 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=IN] [Text=maybe CharacterOffsetBegin=572 CharacterOffsetEnd=577 PartOfSpeech=RB] [Text=everyone CharacterOffsetBegin=578 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=VBD] [Text=familiar CharacterOffsetBegin=591 CharacterOffsetEnd=599 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=600 CharacterOffsetEnd=604 PartOfSpeech=IN] [Text=bonds CharacterOffsetBegin=605 CharacterOffsetEnd=610 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=CC] [Text=what CharacterOffsetBegin=615 CharacterOffsetEnd=619 PartOfSpeech=WP] [Text=they CharacterOffsetBegin=620 CharacterOffsetEnd=624 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=625 CharacterOffsetEnd=628 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=629 CharacterOffsetEnd=631 PartOfSpeech=VB] [Text=if CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=IN] [Text=used CharacterOffsetBegin=635 CharacterOffsetEnd=639 PartOfSpeech=VBN] [Text=well CharacterOffsetBegin=640 CharacterOffsetEnd=644 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=IN] [Text=used CharacterOffsetBegin=652 CharacterOffsetEnd=656 PartOfSpeech=VBN] [Text=wrongly CharacterOffsetBegin=657 CharacterOffsetEnd=664 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=664 CharacterOffsetEnd=665 PartOfSpeech=.] 
+root(ROOT-0, came-2)
+nsubj(came-2, This-1)
+prt(came-2, out-3)
+prep(came-2, during-4)
+det(Depression-6, the-5)
+pobj(during-4, Depression-6)
+advmod(familiar-11, so-7)
+advmod(familiar-11, maybe-8)
+nsubj(familiar-11, everyone-9)
+cop(familiar-11, was-10)
+advcl(came-2, familiar-11)
+prep(familiar-11, with-12)
+pobj(with-12, bonds-13)
+cc(familiar-11, and-14)
+dobj(do-18, what-15)
+nsubj(do-18, they-16)
+aux(do-18, can-17)
+conj(familiar-11, do-18)
+mark(used-20, if-19)
+advcl(do-18, used-20)
+advmod(used-20, well-21)
+cc(used-20, and-22)
+mark(used-24, if-23)
+conj(used-20, used-24)
+advmod(used-24, wrongly-25)
+punct(came-2, .-26)
+
+Sentence #8 (15 tokens):
+I, however, not of that era, am vaguely familiar with them.
+[Text=I CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=,] [Text=however CharacterOffsetBegin=673 CharacterOffsetEnd=680 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=680 CharacterOffsetEnd=681 PartOfSpeech=,] [Text=not CharacterOffsetBegin=682 CharacterOffsetEnd=685 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=686 CharacterOffsetEnd=688 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=DT] [Text=era CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=697 CharacterOffsetEnd=698 PartOfSpeech=,] [Text=am CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=VBP] [Text=vaguely CharacterOffsetBegin=702 CharacterOffsetEnd=709 PartOfSpeech=RB] [Text=familiar CharacterOffsetBegin=710 CharacterOffsetEnd=718 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=719 CharacterOffsetEnd=723 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=728 CharacterOffsetEnd=729 PartOfSpeech=.] 
+root(ROOT-0, of-6)
+dep(of-6, I-1)
+punct(of-6, ,-2)
+advmod(of-6, however-3)
+punct(of-6, ,-4)
+neg(of-6, not-5)
+det(era-8, that-7)
+pobj(of-6, era-8)
+punct(of-6, ,-9)
+dep(of-6, am-10)
+nsubj(am-10, vaguely-11)
+amod(vaguely-11, familiar-12)
+prep(familiar-12, with-13)
+pobj(with-13, them-14)
+punct(of-6, .-15)
+
+Sentence #9 (9 tokens):
+They're like stocks only different, right?
+[Text=They CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=VBP] [Text=like CharacterOffsetBegin=742 CharacterOffsetEnd=746 PartOfSpeech=IN] [Text=stocks CharacterOffsetBegin=747 CharacterOffsetEnd=753 PartOfSpeech=NNS] [Text=only CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=RB] [Text=different CharacterOffsetBegin=759 CharacterOffsetEnd=768 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=768 CharacterOffsetEnd=769 PartOfSpeech=,] [Text=right CharacterOffsetBegin=770 CharacterOffsetEnd=775 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=775 CharacterOffsetEnd=776 PartOfSpeech=.] 
+root(ROOT-0, 're-2)
+nsubj('re-2, They-1)
+prep('re-2, like-3)
+pobj(like-3, stocks-4)
+advmod(different-6, only-5)
+amod(stocks-4, different-6)
+punct(different-6, ,-7)
+dep(different-6, right-8)
+punct('re-2, ?-9)
+
+Sentence #10 (18 tokens):
+It seems odd to build a story about The Little Man around a somewhat sophisticated monetary entity.
+[Text=It CharacterOffsetBegin=781 CharacterOffsetEnd=783 PartOfSpeech=PRP] [Text=seems CharacterOffsetBegin=784 CharacterOffsetEnd=789 PartOfSpeech=VBZ] [Text=odd CharacterOffsetBegin=790 CharacterOffsetEnd=793 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=794 CharacterOffsetEnd=796 PartOfSpeech=TO] [Text=build CharacterOffsetBegin=797 CharacterOffsetEnd=802 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=803 CharacterOffsetEnd=804 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=805 CharacterOffsetEnd=810 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=811 CharacterOffsetEnd=816 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=817 CharacterOffsetEnd=820 PartOfSpeech=DT] [Text=Little CharacterOffsetBegin=821 CharacterOffsetEnd=827 PartOfSpeech=JJ] [Text=Man CharacterOffsetBegin=828 CharacterOffsetEnd=831 PartOfSpeech=NN] [Text=around CharacterOffsetBegin=832 CharacterOffsetEnd=838 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=839 CharacterOffsetEnd=840 PartOfSpeech=DT] [Text=somewhat CharacterOffsetBegin=841 CharacterOffsetEnd=849 PartOfSpeech=RB] [Text=sophisticated CharacterOffsetBegin=850 CharacterOffsetEnd=863 PartOfSpeech=JJ] [Text=monetary CharacterOffsetBegin=864 CharacterOffsetEnd=872 PartOfSpeech=JJ] [Text=entity CharacterOffsetBegin=873 CharacterOffsetEnd=879 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=879 CharacterOffsetEnd=880 PartOfSpeech=.] 
+root(ROOT-0, odd-3)
+nsubj(odd-3, It-1)
+cop(odd-3, seems-2)
+aux(build-5, to-4)
+xcomp(odd-3, build-5)
+det(story-7, a-6)
+dobj(build-5, story-7)
+prep(story-7, about-8)
+det(Man-11, The-9)
+amod(Man-11, Little-10)
+pobj(about-8, Man-11)
+prep(build-5, around-12)
+det(entity-17, a-13)
+advmod(sophisticated-15, somewhat-14)
+amod(entity-17, sophisticated-15)
+amod(entity-17, monetary-16)
+pobj(around-12, entity-17)
+punct(odd-3, .-18)
+

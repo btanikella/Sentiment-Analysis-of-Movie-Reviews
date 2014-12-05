@@ -1,0 +1,99 @@
+Sentence #1 (8 tokens):
+....is the boob in the pie.
+[Text=... CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=:] [Text=is CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=boob CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=DT] [Text=pie CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=.] 
+root(ROOT-0, boob-4)
+punct(is-2, ...-1)
+cop(boob-4, is-2)
+det(boob-4, the-3)
+prep(boob-4, in-5)
+det(pie-7, the-6)
+pobj(in-5, pie-7)
+punct(boob-4, .-8)
+
+Sentence #2 (16 tokens):
+Every thing else in it is an abortion, a malformed failure of a film.
+[Text=Every CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=abortion CharacterOffsetBegin=65 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=,] [Text=a CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text=malformed CharacterOffsetBegin=77 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=failure CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, abortion-8)
+det(thing-2, Every-1)
+nsubj(abortion-8, thing-2)
+advmod(thing-2, else-3)
+prep(thing-2, in-4)
+pobj(in-4, it-5)
+cop(abortion-8, is-6)
+det(abortion-8, an-7)
+punct(abortion-8, ,-9)
+det(failure-12, a-10)
+amod(failure-12, malformed-11)
+appos(abortion-8, failure-12)
+prep(failure-12, of-13)
+det(film-15, a-14)
+pobj(of-13, film-15)
+punct(abortion-8, .-16)
+
+Sentence #3 (19 tokens):
+At least you can SEE and HEAR what goes on in an Ed Wood movie (usually).
+[Text=At CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=JJS] [Text=you CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=MD] [Text=SEE CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=CC] [Text=HEAR CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=WP] [Text=goes CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=VBZ] [Text=on CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=IN] [Text=in CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=Ed CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=NNP] [Text=Wood CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=NNP] [Text=movie CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=-LRB-] [Text=usually CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=-RRB- CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=.] 
+root(ROOT-0, SEE-5)
+advmod(SEE-5, At-1)
+pobj(At-1, least-2)
+nsubj(SEE-5, you-3)
+aux(SEE-5, can-4)
+cc(SEE-5, and-6)
+conj(SEE-5, HEAR-7)
+nsubj(goes-9, what-8)
+ccomp(SEE-5, goes-9)
+prep(goes-9, on-10)
+pcomp(on-10, in-11)
+det(movie-15, an-12)
+nn(movie-15, Ed-13)
+nn(movie-15, Wood-14)
+pobj(in-11, movie-15)
+punct(movie-15, -LRB--16)
+advmod(-LRB--16, usually-17)
+punct(usually-17, -RRB--18)
+punct(SEE-5, .-19)
+
+Sentence #4 (13 tokens):
+High schools drama clubs do better than this on a routine basis.
+[Text=High CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=schools CharacterOffsetBegin=193 CharacterOffsetEnd=200 PartOfSpeech=NNS] [Text=drama CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=clubs CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=VBP] [Text=better CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=DT] [Text=on CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=DT] [Text=routine CharacterOffsetBegin=238 CharacterOffsetEnd=245 PartOfSpeech=JJ] [Text=basis CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.] 
+root(ROOT-0, better-6)
+amod(clubs-4, High-1)
+nn(clubs-4, schools-2)
+nn(clubs-4, drama-3)
+nsubj(better-6, clubs-4)
+cop(better-6, do-5)
+prep(better-6, than-7)
+pobj(than-7, this-8)
+prep(better-6, on-9)
+det(basis-12, a-10)
+amod(basis-12, routine-11)
+pobj(on-9, basis-12)
+punct(better-6, .-13)
+
+Sentence #5 (23 tokens):
+Once you've you've seen the breast pie bit, you can turn it off and go watch "Hannibal".
+[Text=Once CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=breast CharacterOffsetBegin=285 CharacterOffsetEnd=291 PartOfSpeech=NN] [Text=pie CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=bit CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=,] [Text=you CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=MD] [Text=turn CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=PRP] [Text=off CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=RP] [Text=and CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=CC] [Text=go CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=VB] [Text=watch CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=``] [Text=Hannibal CharacterOffsetBegin=335 CharacterOffsetEnd=343 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=''] [Text=. CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=.] 
+root(ROOT-0, turn-14)
+advmod(seen-6, Once-1)
+nsubj(seen-6, you-2)
+aux(seen-6, 've-3)
+nsubj(seen-6, you-4)
+aux(seen-6, 've-5)
+advcl(turn-14, seen-6)
+det(bit-10, the-7)
+nn(bit-10, breast-8)
+nn(bit-10, pie-9)
+dobj(seen-6, bit-10)
+punct(turn-14, ,-11)
+nsubj(turn-14, you-12)
+aux(turn-14, can-13)
+dobj(turn-14, it-15)
+prt(turn-14, off-16)
+cc(turn-14, and-17)
+conj(turn-14, go-18)
+dobj(go-18, watch-19)
+punct(Hannibal-21, ``-20)
+dep(watch-19, Hannibal-21)
+punct(Hannibal-21, ''-22)
+punct(turn-14, .-23)
+

@@ -1,0 +1,257 @@
+Sentence #1 (4 tokens):
+This show stinks.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=stinks CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, stinks-3)
+det(show-2, This-1)
+nsubj(stinks-3, show-2)
+punct(stinks-3, .-4)
+
+Sentence #2 (15 tokens):
+For parents, they usually want their kids to watch something good for them.
+[Text=For CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=IN] [Text=parents CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=,] [Text=they CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=PRP] [Text=usually CharacterOffsetBegin=44 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VBP] [Text=their CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=PRP$] [Text=kids CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=VB] [Text=something CharacterOffsetBegin=77 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=good CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=.] 
+root(ROOT-0, want-6)
+prep(want-6, For-1)
+pobj(For-1, parents-2)
+punct(want-6, ,-3)
+nsubj(want-6, they-4)
+advmod(want-6, usually-5)
+poss(kids-8, their-7)
+nsubj(watch-10, kids-8)
+aux(watch-10, to-9)
+xcomp(want-6, watch-10)
+dobj(watch-10, something-11)
+amod(something-11, good-12)
+prep(watch-10, for-13)
+pobj(for-13, them-14)
+punct(want-6, .-15)
+
+Sentence #3 (12 tokens):
+It is usually educational, funny, and bright.Is it educational?
+[Text=It CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=VBZ] [Text=usually CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=RB] [Text=educational CharacterOffsetBegin=120 CharacterOffsetEnd=131 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=,] [Text=funny CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=,] [Text=and CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=CC] [Text=bright.Is CharacterOffsetBegin=144 CharacterOffsetEnd=153 PartOfSpeech=NNS] [Text=it CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=PRP] [Text=educational CharacterOffsetBegin=157 CharacterOffsetEnd=168 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=.] 
+root(ROOT-0, educational-4)
+nsubj(educational-4, It-1)
+cop(educational-4, is-2)
+advmod(educational-4, usually-3)
+punct(educational-4, ,-5)
+conj(educational-4, funny-6)
+punct(educational-4, ,-7)
+cc(educational-4, and-8)
+conj(educational-4, bright.Is-9)
+nsubj(educational-11, it-10)
+rcmod(bright.Is-9, educational-11)
+punct(educational-4, ?-12)
+
+Sentence #4 (2 tokens):
+No.
+[Text=No CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=.] 
+root(ROOT-0, No-1)
+punct(No-1, .-2)
+
+Sentence #5 (8 tokens):
+the Doodlebops sing and that's it.
+[Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=Doodlebops CharacterOffsetBegin=186 CharacterOffsetEnd=196 PartOfSpeech=NNP] [Text=sing CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=.] 
+root(ROOT-0, sing-3)
+det(sing-3, the-1)
+nn(sing-3, Doodlebops-2)
+cc(sing-3, and-4)
+nsubj('s-6, that-5)
+conj(sing-3, 's-6)
+nsubj('s-6, it-7)
+punct(sing-3, .-8)
+
+Sentence #6 (15 tokens):
+They usually sing about themselves, they don't try teaching anything.Is it funny?
+[Text=They CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=PRP] [Text=usually CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=RB] [Text=sing CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=VBP] [Text=about CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=themselves CharacterOffsetBegin=245 CharacterOffsetEnd=255 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=,] [Text=they CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=RB] [Text=try CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=VB] [Text=teaching CharacterOffsetBegin=272 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=anything.Is CharacterOffsetBegin=281 CharacterOffsetEnd=292 PartOfSpeech=NNS] [Text=it CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=PRP] [Text=funny CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=301 CharacterOffsetEnd=302 PartOfSpeech=.] 
+root(ROOT-0, sing-3)
+nsubj(sing-3, They-1)
+advmod(sing-3, usually-2)
+prep(sing-3, about-4)
+pobj(about-4, themselves-5)
+punct(sing-3, ,-6)
+nsubj(try-10, they-7)
+aux(try-10, do-8)
+neg(try-10, n't-9)
+ccomp(sing-3, try-10)
+xcomp(try-10, teaching-11)
+dobj(teaching-11, anything.Is-12)
+nsubj(funny-14, it-13)
+rcmod(anything.Is-12, funny-14)
+punct(sing-3, ?-15)
+
+Sentence #7 (2 tokens):
+No.
+[Text=No CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=.] 
+root(ROOT-0, No-1)
+punct(No-1, .-2)
+
+Sentence #8 (20 tokens):
+The Doodlebops instead say something which is not intended as a joke, and laugh at it.Is it bright?
+[Text=The CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=DT] [Text=Doodlebops CharacterOffsetBegin=319 CharacterOffsetEnd=329 PartOfSpeech=NNP] [Text=instead CharacterOffsetBegin=330 CharacterOffsetEnd=337 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=VBP] [Text=something CharacterOffsetBegin=342 CharacterOffsetEnd=351 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=RB] [Text=intended CharacterOffsetBegin=365 CharacterOffsetEnd=373 PartOfSpeech=VBN] [Text=as CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=DT] [Text=joke CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=,] [Text=and CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=CC] [Text=laugh CharacterOffsetBegin=389 CharacterOffsetEnd=394 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=IN] [Text=it.Is CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=NNS] [Text=it CharacterOffsetBegin=404 CharacterOffsetEnd=406 PartOfSpeech=PRP] [Text=bright CharacterOffsetBegin=407 CharacterOffsetEnd=413 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=.] 
+root(ROOT-0, say-4)
+det(Doodlebops-2, The-1)
+nsubj(say-4, Doodlebops-2)
+advmod(say-4, instead-3)
+dobj(say-4, something-5)
+nsubjpass(intended-9, which-6)
+auxpass(intended-9, is-7)
+neg(intended-9, not-8)
+rcmod(something-5, intended-9)
+prep(intended-9, as-10)
+det(joke-12, a-11)
+pobj(as-10, joke-12)
+punct(something-5, ,-13)
+cc(something-5, and-14)
+conj(something-5, laugh-15)
+prep(laugh-15, at-16)
+pobj(at-16, it.Is-17)
+nsubj(bright-19, it-18)
+rcmod(it.Is-17, bright-19)
+punct(say-4, ?-20)
+
+Sentence #9 (9 tokens):
+It's so bright, it's painful.
+[Text=It CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=RB] [Text=bright CharacterOffsetBegin=427 CharacterOffsetEnd=433 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=,] [Text=it CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=VBZ] [Text=painful CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=.] 
+root(ROOT-0, bright-4)
+nsubj(bright-4, It-1)
+cop(bright-4, 's-2)
+advmod(bright-4, so-3)
+punct(bright-4, ,-5)
+nsubj(painful-8, it-6)
+cop(painful-8, 's-7)
+ccomp(bright-4, painful-8)
+punct(bright-4, .-9)
+
+Sentence #10 (16 tokens):
+As far as color,s everything is extremely bright, so that's good.
+[Text=As CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=IN] [Text=far CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=IN] [Text=color CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=468 CharacterOffsetEnd=469 PartOfSpeech=,] [Text=s CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=VBZ] [Text=everything CharacterOffsetBegin=471 CharacterOffsetEnd=481 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=VBZ] [Text=extremely CharacterOffsetBegin=485 CharacterOffsetEnd=494 PartOfSpeech=RB] [Text=bright CharacterOffsetBegin=495 CharacterOffsetEnd=501 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=,] [Text=so CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=506 CharacterOffsetEnd=510 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=.] 
+root(ROOT-0, bright-10)
+advmod(far-2, As-1)
+advmod(bright-10, far-2)
+prep(far-2, as-3)
+pobj(as-3, color-4)
+punct(bright-10, ,-5)
+csubj(bright-10, s-6)
+dobj(s-6, everything-7)
+cop(bright-10, is-8)
+advmod(bright-10, extremely-9)
+punct(bright-10, ,-11)
+dep(bright-10, so-12)
+nsubj(good-15, that-13)
+cop(good-15, 's-14)
+ccomp(bright-10, good-15)
+punct(bright-10, .-16)
+
+Sentence #11 (13 tokens):
+But NOTHING is ever wrong in the world of the Doodlebop's.
+[Text=But CharacterOffsetBegin=523 CharacterOffsetEnd=526 PartOfSpeech=CC] [Text=NOTHING CharacterOffsetBegin=527 CharacterOffsetEnd=534 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=535 CharacterOffsetEnd=537 PartOfSpeech=VBZ] [Text=ever CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=RB] [Text=wrong CharacterOffsetBegin=543 CharacterOffsetEnd=548 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=549 CharacterOffsetEnd=551 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=DT] [Text=world CharacterOffsetBegin=556 CharacterOffsetEnd=561 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=DT] [Text=Doodlebop CharacterOffsetBegin=569 CharacterOffsetEnd=578 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=POS] [Text=. CharacterOffsetBegin=580 CharacterOffsetEnd=581 PartOfSpeech=.] 
+root(ROOT-0, wrong-5)
+cc(wrong-5, But-1)
+nsubj(wrong-5, NOTHING-2)
+cop(wrong-5, is-3)
+advmod(wrong-5, ever-4)
+prep(wrong-5, in-6)
+det(world-8, the-7)
+pobj(in-6, world-8)
+prep(world-8, of-9)
+det(Doodlebop-11, the-10)
+pobj(of-9, Doodlebop-11)
+possessive(Doodlebop-11, 's-12)
+punct(wrong-5, .-13)
+
+Sentence #12 (7 tokens):
+Therefore, they are always happy.
+[Text=Therefore CharacterOffsetBegin=586 CharacterOffsetEnd=595 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=595 CharacterOffsetEnd=596 PartOfSpeech=,] [Text=they CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=VBP] [Text=always CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=RB] [Text=happy CharacterOffsetBegin=613 CharacterOffsetEnd=618 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=.] 
+root(ROOT-0, happy-6)
+advmod(happy-6, Therefore-1)
+punct(happy-6, ,-2)
+nsubj(happy-6, they-3)
+cop(happy-6, are-4)
+advmod(happy-6, always-5)
+punct(happy-6, .-7)
+
+Sentence #13 (22 tokens):
+a kid in trouble will become depressed because they have never been exposed to being sad.The show is also extremely cheesy.
+[Text=a CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=DT] [Text=kid CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=IN] [Text=trouble CharacterOffsetBegin=633 CharacterOffsetEnd=640 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=MD] [Text=become CharacterOffsetBegin=646 CharacterOffsetEnd=652 PartOfSpeech=VB] [Text=depressed CharacterOffsetBegin=653 CharacterOffsetEnd=662 PartOfSpeech=JJ] [Text=because CharacterOffsetBegin=663 CharacterOffsetEnd=670 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=VBP] [Text=never CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=RB] [Text=been CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=VBN] [Text=exposed CharacterOffsetBegin=692 CharacterOffsetEnd=699 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=TO] [Text=being CharacterOffsetBegin=703 CharacterOffsetEnd=708 PartOfSpeech=VBG] [Text=sad.The CharacterOffsetBegin=709 CharacterOffsetEnd=716 PartOfSpeech=JJ] [Text=show CharacterOffsetBegin=717 CharacterOffsetEnd=721 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=722 CharacterOffsetEnd=724 PartOfSpeech=VBZ] [Text=also CharacterOffsetBegin=725 CharacterOffsetEnd=729 PartOfSpeech=RB] [Text=extremely CharacterOffsetBegin=730 CharacterOffsetEnd=739 PartOfSpeech=RB] [Text=cheesy CharacterOffsetBegin=740 CharacterOffsetEnd=746 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=746 CharacterOffsetEnd=747 PartOfSpeech=.] 
+root(ROOT-0, cheesy-21)
+det(kid-2, a-1)
+nsubj(depressed-7, kid-2)
+prep(kid-2, in-3)
+pobj(in-3, trouble-4)
+aux(depressed-7, will-5)
+cop(depressed-7, become-6)
+csubj(cheesy-21, depressed-7)
+mark(exposed-13, because-8)
+nsubj(exposed-13, they-9)
+aux(exposed-13, have-10)
+neg(exposed-13, never-11)
+auxpass(exposed-13, been-12)
+advcl(depressed-7, exposed-13)
+prep(exposed-13, to-14)
+cop(show-17, being-15)
+amod(show-17, sad.The-16)
+pcomp(to-14, show-17)
+cop(cheesy-21, is-18)
+advmod(cheesy-21, also-19)
+advmod(cheesy-21, extremely-20)
+punct(cheesy-21, .-22)
+
+Sentence #14 (14 tokens):
+Every syllable is said to the highest level of exaggeration and very corny.
+[Text=Every CharacterOffsetBegin=752 CharacterOffsetEnd=757 PartOfSpeech=DT] [Text=syllable CharacterOffsetBegin=758 CharacterOffsetEnd=766 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=767 CharacterOffsetEnd=769 PartOfSpeech=VBZ] [Text=said CharacterOffsetBegin=770 CharacterOffsetEnd=774 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=775 CharacterOffsetEnd=777 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=778 CharacterOffsetEnd=781 PartOfSpeech=DT] [Text=highest CharacterOffsetBegin=782 CharacterOffsetEnd=789 PartOfSpeech=JJS] [Text=level CharacterOffsetBegin=790 CharacterOffsetEnd=795 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=796 CharacterOffsetEnd=798 PartOfSpeech=IN] [Text=exaggeration CharacterOffsetBegin=799 CharacterOffsetEnd=811 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=812 CharacterOffsetEnd=815 PartOfSpeech=CC] [Text=very CharacterOffsetBegin=816 CharacterOffsetEnd=820 PartOfSpeech=RB] [Text=corny CharacterOffsetBegin=821 CharacterOffsetEnd=826 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=826 CharacterOffsetEnd=827 PartOfSpeech=.] 
+root(ROOT-0, said-4)
+det(syllable-2, Every-1)
+nsubjpass(said-4, syllable-2)
+auxpass(said-4, is-3)
+prep(said-4, to-5)
+det(level-8, the-6)
+amod(level-8, highest-7)
+pobj(to-5, level-8)
+prep(level-8, of-9)
+pobj(of-9, exaggeration-10)
+cc(said-4, and-11)
+advmod(corny-13, very-12)
+conj(said-4, corny-13)
+punct(said-4, .-14)
+
+Sentence #15 (25 tokens):
+It's overkill.For kids, it's entertaining, but past the age of 2 you won't want your kids to see it.
+[Text=It CharacterOffsetBegin=832 CharacterOffsetEnd=834 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=834 CharacterOffsetEnd=836 PartOfSpeech=VBZ] [Text=overkill.For CharacterOffsetBegin=837 CharacterOffsetEnd=849 PartOfSpeech=NNP] [Text=kids CharacterOffsetBegin=850 CharacterOffsetEnd=854 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=854 CharacterOffsetEnd=855 PartOfSpeech=,] [Text=it CharacterOffsetBegin=856 CharacterOffsetEnd=858 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=858 CharacterOffsetEnd=860 PartOfSpeech=VBZ] [Text=entertaining CharacterOffsetBegin=861 CharacterOffsetEnd=873 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=873 CharacterOffsetEnd=874 PartOfSpeech=,] [Text=but CharacterOffsetBegin=875 CharacterOffsetEnd=878 PartOfSpeech=CC] [Text=past CharacterOffsetBegin=879 CharacterOffsetEnd=883 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=884 CharacterOffsetEnd=887 PartOfSpeech=DT] [Text=age CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=892 CharacterOffsetEnd=894 PartOfSpeech=IN] [Text=2 CharacterOffsetBegin=895 CharacterOffsetEnd=896 PartOfSpeech=CD] [Text=you CharacterOffsetBegin=897 CharacterOffsetEnd=900 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=901 CharacterOffsetEnd=903 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=903 CharacterOffsetEnd=906 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=907 CharacterOffsetEnd=911 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=912 CharacterOffsetEnd=916 PartOfSpeech=PRP$] [Text=kids CharacterOffsetBegin=917 CharacterOffsetEnd=921 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=922 CharacterOffsetEnd=924 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=925 CharacterOffsetEnd=928 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=929 CharacterOffsetEnd=931 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=931 CharacterOffsetEnd=932 PartOfSpeech=.] 
+root(ROOT-0, kids-4)
+nsubj(kids-4, It-1)
+cop(kids-4, 's-2)
+nn(kids-4, overkill.For-3)
+punct(kids-4, ,-5)
+nsubj(entertaining-8, it-6)
+cop(entertaining-8, 's-7)
+conj(kids-4, entertaining-8)
+punct(kids-4, ,-9)
+cc(kids-4, but-10)
+prep(want-19, past-11)
+det(age-13, the-12)
+pobj(past-11, age-13)
+prep(age-13, of-14)
+pobj(of-14, 2-15)
+nsubj(want-19, you-16)
+aux(want-19, wo-17)
+neg(want-19, n't-18)
+conj(kids-4, want-19)
+poss(kids-21, your-20)
+dobj(want-19, kids-21)
+aux(see-23, to-22)
+xcomp(want-19, see-23)
+dobj(see-23, it-24)
+punct(kids-4, .-25)
+
+Sentence #16 (9 tokens):
+They'll never know how to grow up.
+[Text=They CharacterOffsetBegin=937 CharacterOffsetEnd=941 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=941 CharacterOffsetEnd=944 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=945 CharacterOffsetEnd=950 PartOfSpeech=RB] [Text=know CharacterOffsetBegin=951 CharacterOffsetEnd=955 PartOfSpeech=VB] [Text=how CharacterOffsetBegin=956 CharacterOffsetEnd=959 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=960 CharacterOffsetEnd=962 PartOfSpeech=TO] [Text=grow CharacterOffsetBegin=963 CharacterOffsetEnd=967 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=968 CharacterOffsetEnd=970 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=970 CharacterOffsetEnd=971 PartOfSpeech=.] 
+root(ROOT-0, know-4)
+nsubj(know-4, They-1)
+aux(know-4, 'll-2)
+neg(know-4, never-3)
+advmod(grow-7, how-5)
+aux(grow-7, to-6)
+ccomp(know-4, grow-7)
+prt(grow-7, up-8)
+punct(know-4, .-9)
+

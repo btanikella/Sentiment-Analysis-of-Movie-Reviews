@@ -1,0 +1,50 @@
+Sentence #1 (3 tokens):
+Wonderful movie.
+[Text=Wonderful CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=.] 
+root(ROOT-0, movie-2)
+amod(movie-2, Wonderful-1)
+punct(movie-2, .-3)
+
+Sentence #2 (3 tokens):
+Adult content.
+[Text=Adult CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=content CharacterOffsetBegin=31 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.] 
+root(ROOT-0, content-2)
+amod(content-2, Adult-1)
+punct(content-2, .-3)
+
+Sentence #3 (11 tokens):
+Lots of erotic scenes plus excellent music and dance scenes.
+[Text=Lots CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=IN] [Text=erotic CharacterOffsetBegin=52 CharacterOffsetEnd=58 PartOfSpeech=JJ] [Text=scenes CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=NNS] [Text=plus CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=CC] [Text=excellent CharacterOffsetBegin=71 CharacterOffsetEnd=80 PartOfSpeech=JJ] [Text=music CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=CC] [Text=dance CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=NN] [Text=scenes CharacterOffsetBegin=97 CharacterOffsetEnd=103 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=.] 
+root(ROOT-0, Lots-1)
+prep(Lots-1, of-2)
+amod(scenes-4, erotic-3)
+pobj(of-2, scenes-4)
+cc(scenes-4, plus-5)
+amod(music-7, excellent-6)
+conj(scenes-4, music-7)
+cc(scenes-4, and-8)
+nn(scenes-10, dance-9)
+conj(scenes-4, scenes-10)
+punct(Lots-1, .-11)
+
+Sentence #4 (17 tokens):
+My wife and I absolutely loved this movie and wish they'd make more like it.
+[Text=My CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=PRP] [Text=absolutely CharacterOffsetBegin=123 CharacterOffsetEnd=133 PartOfSpeech=RB] [Text=loved CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=wish CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=they CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=PRP] [Text='d CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=VB] [Text=more CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=JJR] [Text=like CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=.] 
+root(ROOT-0, loved-6)
+poss(wife-2, My-1)
+nsubj(loved-6, wife-2)
+cc(wife-2, and-3)
+conj(wife-2, I-4)
+advmod(loved-6, absolutely-5)
+det(movie-8, this-7)
+dobj(loved-6, movie-8)
+cc(loved-6, and-9)
+conj(loved-6, wish-10)
+nsubj(make-13, they-11)
+aux(make-13, 'd-12)
+ccomp(wish-10, make-13)
+advmod(like-15, more-14)
+prep(make-13, like-15)
+pobj(like-15, it-16)
+punct(loved-6, .-17)
+

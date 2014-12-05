@@ -1,0 +1,204 @@
+Sentence #1 (2 tokens):
+Okay.
+[Text=Okay CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=UH] [Text=. CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=.] 
+root(ROOT-0, Okay-1)
+punct(Okay-1, .-2)
+
+Sentence #2 (17 tokens):
+Look- I've seen LOTS and I do mean LOTS of these types of films.
+[Text=Look CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=VB] [Text=- CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=:] [Text=I CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=VBN] [Text=LOTS CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=VBP] [Text=mean CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=VB] [Text=LOTS CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=types CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=films CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=.] 
+root(ROOT-0, Look-1)
+punct(Look-1, --2)
+nsubj(seen-5, I-3)
+aux(seen-5, 've-4)
+ccomp(Look-1, seen-5)
+dobj(seen-5, LOTS-6)
+cc(seen-5, and-7)
+nsubj(mean-10, I-8)
+aux(mean-10, do-9)
+conj(seen-5, mean-10)
+dobj(mean-10, LOTS-11)
+prep(LOTS-11, of-12)
+det(types-14, these-13)
+pobj(of-12, types-14)
+prep(types-14, of-15)
+pobj(of-15, films-16)
+punct(Look-1, .-17)
+
+Sentence #3 (24 tokens):
+You know, the ones where the DVD cover just look SO good and scaarrryyy that you just cant WAIT to see it?
+[Text=You CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=,] [Text=the CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=ones CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NNS] [Text=where CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=cover CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=RB] [Text=look CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=VB] [Text=SO CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=CC] [Text=scaarrryyy CharacterOffsetBegin=144 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=RB] [Text=cant CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=JJ] [Text=WAIT CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, You-1)
+punct(know-2, ,-3)
+det(ones-5, the-4)
+dobj(know-2, ones-5)
+advmod(look-11, where-6)
+det(cover-9, the-7)
+nn(cover-9, DVD-8)
+nsubj(look-11, cover-9)
+advmod(look-11, just-10)
+rcmod(ones-5, look-11)
+advmod(good-13, SO-12)
+acomp(look-11, good-13)
+cc(look-11, and-14)
+conj(look-11, scaarrryyy-15)
+mark(see-22, that-16)
+dep(WAIT-20, you-17)
+advmod(cant-19, just-18)
+amod(WAIT-20, cant-19)
+nsubj(see-22, WAIT-20)
+aux(see-22, to-21)
+ccomp(scaarrryyy-15, see-22)
+dobj(see-22, it-23)
+punct(know-2, ?-24)
+
+Sentence #4 (7 tokens):
+Well, I got GOT again.
+[Text=Well CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=,] [Text=I CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=VBD] [Text=GOT CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=NNP] [Text=again CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=.] 
+root(ROOT-0, got-4)
+advmod(got-4, Well-1)
+punct(got-4, ,-2)
+nsubj(got-4, I-3)
+dep(got-4, GOT-5)
+advmod(GOT-5, again-6)
+punct(got-4, .-7)
+
+Sentence #5 (10 tokens):
+And I'm getting' pretty tired of it.
+[Text=And CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=VBP] [Text=getting CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=VBG] [Text=' CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=''] [Text=pretty CharacterOffsetBegin=238 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=tired CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=.] 
+root(ROOT-0, tired-7)
+cc(getting-4, And-1)
+nsubj(getting-4, I-2)
+aux(getting-4, 'm-3)
+dep(tired-7, getting-4)
+punct(getting-4, '-5)
+advmod(tired-7, pretty-6)
+prep(tired-7, of-8)
+pobj(of-8, it-9)
+punct(tired-7, .-10)
+
+Sentence #6 (4 tokens):
+But I digress.
+[Text=But CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=PRP] [Text=digress CharacterOffsetBegin=268 CharacterOffsetEnd=275 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=275 CharacterOffsetEnd=276 PartOfSpeech=.] 
+root(ROOT-0, digress-3)
+cc(digress-3, But-1)
+nsubj(digress-3, I-2)
+punct(digress-3, .-4)
+
+Sentence #7 (5 tokens):
+It's pretty simple.
+[Text=It CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=VBZ] [Text=pretty CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=RB] [Text=simple CharacterOffsetBegin=293 CharacterOffsetEnd=299 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=.] 
+root(ROOT-0, simple-4)
+nsubj(simple-4, It-1)
+cop(simple-4, 's-2)
+advmod(simple-4, pretty-3)
+punct(simple-4, .-5)
+
+Sentence #8 (13 tokens):
+It sucked(I know, rather juvenile) but it did.
+[Text=It CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=PRP] [Text=sucked CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=VBD] [Text=-LRB- CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=-LRB-] [Text=I CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=,] [Text=rather CharacterOffsetBegin=323 CharacterOffsetEnd=329 PartOfSpeech=RB] [Text=juvenile CharacterOffsetBegin=330 CharacterOffsetEnd=338 PartOfSpeech=JJ] [Text=-RRB- CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=-RRB-] [Text=but CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=344 CharacterOffsetEnd=346 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=.] 
+root(ROOT-0, sucked-2)
+nsubj(sucked-2, It-1)
+punct(know-5, -LRB--3)
+nsubj(know-5, I-4)
+dep(sucked-2, know-5)
+punct(know-5, ,-6)
+advmod(juvenile-8, rather-7)
+dep(know-5, juvenile-8)
+punct(know-5, -RRB--9)
+cc(sucked-2, but-10)
+nsubj(did-12, it-11)
+conj(sucked-2, did-12)
+punct(sucked-2, .-13)
+
+Sentence #9 (36 tokens):
+AndI SO agree with the other poster that if we had to sit through the boring thing, why oh WHY did the lead actress have to be so unnattractive?Distractingly so if I may add.
+[Text=AndI CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=NNP] [Text=SO CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=NNP] [Text=agree CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=VBP] [Text=with CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=379 CharacterOffsetEnd=384 PartOfSpeech=JJ] [Text=poster CharacterOffsetBegin=385 CharacterOffsetEnd=391 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=IN] [Text=if CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=IN] [Text=we CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=TO] [Text=sit CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=414 CharacterOffsetEnd=421 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT] [Text=boring CharacterOffsetBegin=426 CharacterOffsetEnd=432 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=433 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=,] [Text=why CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=WRB] [Text=oh CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=UH] [Text=WHY CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=DT] [Text=lead CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=NN] [Text=actress CharacterOffsetBegin=464 CharacterOffsetEnd=471 PartOfSpeech=NN] [Text=have CharacterOffsetBegin=472 CharacterOffsetEnd=476 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=VB] [Text=so CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=RB] [Text=unnattractive?Distractingly CharacterOffsetBegin=486 CharacterOffsetEnd=513 PartOfSpeech=JJ] [Text=so CharacterOffsetBegin=514 CharacterOffsetEnd=516 PartOfSpeech=IN] [Text=if CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=PRP] [Text=may CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=MD] [Text=add CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=.] 
+root(ROOT-0, agree-3)
+nn(SO-2, AndI-1)
+nsubj(agree-3, SO-2)
+prep(agree-3, with-4)
+det(poster-7, the-5)
+amod(poster-7, other-6)
+pobj(with-4, poster-7)
+dep(poster-7, that-8)
+mark(had-11, if-9)
+nsubj(had-11, we-10)
+dep(that-8, had-11)
+aux(sit-13, to-12)
+xcomp(had-11, sit-13)
+prep(sit-13, through-14)
+det(thing-17, the-15)
+amod(thing-17, boring-16)
+pobj(through-14, thing-17)
+punct(had-11, ,-18)
+dep(had-11, why-19)
+dep(why-19, oh-20)
+dep(oh-20, WHY-21)
+dep(WHY-21, did-22)
+det(lead-24, the-23)
+dobj(did-22, lead-24)
+nsubj(have-26, actress-25)
+rcmod(lead-24, have-26)
+aux(unnattractive?Distractingly-30, to-27)
+cop(unnattractive?Distractingly-30, be-28)
+advmod(unnattractive?Distractingly-30, so-29)
+xcomp(have-26, unnattractive?Distractingly-30)
+advmod(add-35, so-31)
+mark(add-35, if-32)
+nsubj(add-35, I-33)
+aux(add-35, may-34)
+advcl(unnattractive?Distractingly-30, add-35)
+punct(agree-3, .-36)
+
+Sentence #10 (18 tokens):
+And the scowl she used convey unresolved pain/grief over the death of her daughter did little help.
+[Text=And CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=DT] [Text=scowl CharacterOffsetBegin=543 CharacterOffsetEnd=548 PartOfSpeech=VBP] [Text=she CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=PRP] [Text=used CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=VBN] [Text=convey CharacterOffsetBegin=558 CharacterOffsetEnd=564 PartOfSpeech=VBP] [Text=unresolved CharacterOffsetBegin=565 CharacterOffsetEnd=575 PartOfSpeech=JJ] [Text=pain/grief CharacterOffsetBegin=576 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=DT] [Text=death CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=PRP$] [Text=daughter CharacterOffsetBegin=609 CharacterOffsetEnd=617 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=VBD] [Text=little CharacterOffsetBegin=622 CharacterOffsetEnd=628 PartOfSpeech=JJ] [Text=help CharacterOffsetBegin=629 CharacterOffsetEnd=633 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+det(scowl-3, the-2)
+dep(And-1, scowl-3)
+nsubj(used-5, she-4)
+rcmod(scowl-3, used-5)
+xcomp(used-5, convey-6)
+amod(pain/grief-8, unresolved-7)
+dobj(convey-6, pain/grief-8)
+prep(convey-6, over-9)
+det(death-11, the-10)
+pobj(over-9, death-11)
+prep(death-11, of-12)
+poss(daughter-14, her-13)
+pobj(of-12, daughter-14)
+advcl(convey-6, did-15)
+amod(help-17, little-16)
+nsubj(did-15, help-17)
+punct(And-1, .-18)
+
+Sentence #11 (5 tokens):
+I mean, Jesus.
+[Text=I CharacterOffsetBegin=639 CharacterOffsetEnd=640 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=,] [Text=Jesus CharacterOffsetBegin=647 CharacterOffsetEnd=652 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+punct(mean-2, ,-3)
+dep(mean-2, Jesus-4)
+punct(mean-2, .-5)
+
+Sentence #12 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #13 (10 tokens):
+Oh, but the crawling-on-her-back-demon thingee was pretty neat...
+[Text=Oh CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=,] [Text=but CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=DT] [Text=crawling-on-her-back-demon CharacterOffsetBegin=667 CharacterOffsetEnd=693 PartOfSpeech=JJ] [Text=thingee CharacterOffsetBegin=694 CharacterOffsetEnd=701 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=VBD] [Text=pretty CharacterOffsetBegin=706 CharacterOffsetEnd=712 PartOfSpeech=RB] [Text=neat CharacterOffsetBegin=713 CharacterOffsetEnd=717 PartOfSpeech=JJ] [Text=... CharacterOffsetBegin=717 CharacterOffsetEnd=720 PartOfSpeech=:] 
+root(ROOT-0, Oh-1)
+punct(Oh-1, ,-2)
+cc(Oh-1, but-3)
+det(thingee-6, the-4)
+amod(thingee-6, crawling-on-her-back-demon-5)
+nsubj(neat-9, thingee-6)
+cop(neat-9, was-7)
+advmod(neat-9, pretty-8)
+conj(Oh-1, neat-9)
+punct(Oh-1, ...-10)
+

@@ -1,0 +1,287 @@
+Sentence #1 (4 tokens):
+Very sweet pilot.
+[Text=Very CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=RB] [Text=sweet CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=JJ] [Text=pilot CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, pilot-3)
+nn(pilot-3, Very-1)
+amod(pilot-3, sweet-2)
+punct(pilot-3, .-4)
+
+Sentence #2 (22 tokens):
+The show reeks of Tim Burton's better films...Edward Sissorhands, Big Fish, Charlie & the Chocolate Factory.
+[Text=The CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=reeks CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=IN] [Text=Tim CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=NNP] [Text=Burton CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=POS] [Text=better CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=JJR] [Text=films CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NNS] [Text=... CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=:] [Text=Edward CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NNP] [Text=Sissorhands CharacterOffsetBegin=79 CharacterOffsetEnd=90 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=,] [Text=Big CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=NNP] [Text=Fish CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=,] [Text=Charlie CharacterOffsetBegin=102 CharacterOffsetEnd=109 PartOfSpeech=NNP] [Text=& CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=Chocolate CharacterOffsetBegin=116 CharacterOffsetEnd=125 PartOfSpeech=NNP] [Text=Factory CharacterOffsetBegin=126 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=.] 
+root(ROOT-0, show-2)
+det(show-2, The-1)
+dep(show-2, reeks-3)
+prep(reeks-3, of-4)
+nn(Burton-6, Tim-5)
+poss(films-9, Burton-6)
+possessive(Burton-6, 's-7)
+amod(films-9, better-8)
+pobj(of-4, films-9)
+punct(show-2, ...-10)
+nn(Sissorhands-12, Edward-11)
+dep(show-2, Sissorhands-12)
+punct(Sissorhands-12, ,-13)
+nn(Fish-15, Big-14)
+conj(Sissorhands-12, Fish-15)
+punct(Sissorhands-12, ,-16)
+appos(Sissorhands-12, Charlie-17)
+cc(Charlie-17, &-18)
+det(Factory-21, the-19)
+nn(Factory-21, Chocolate-20)
+conj(Charlie-17, Factory-21)
+punct(show-2, .-22)
+
+Sentence #3 (17 tokens):
+The cinematography, the narration, the music, the external sets all scream Tim Burton.
+[Text=The CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=cinematography CharacterOffsetBegin=143 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=,] [Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=narration CharacterOffsetBegin=163 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=,] [Text=the CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=,] [Text=the CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=DT] [Text=external CharacterOffsetBegin=189 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=sets CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=NNS] [Text=all CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=scream CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=VBP] [Text=Tim CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=NNP] [Text=Burton CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, cinematography-2)
+det(cinematography-2, The-1)
+punct(cinematography-2, ,-3)
+det(narration-5, the-4)
+appos(cinematography-2, narration-5)
+punct(cinematography-2, ,-6)
+det(music-8, the-7)
+appos(cinematography-2, music-8)
+punct(cinematography-2, ,-9)
+det(sets-12, the-10)
+amod(sets-12, external-11)
+appos(cinematography-2, sets-12)
+det(Burton-16, all-13)
+nn(Burton-16, scream-14)
+nn(Burton-16, Tim-15)
+dep(sets-12, Burton-16)
+punct(cinematography-2, .-17)
+
+Sentence #4 (42 tokens):
+There has to be a connection, or a STRONG influence, I just haven't researched enough to know where it is.As I've seen in the forums, yes Anna Friel is playing a poor man's Zooey Deschanel.
+[Text=There CharacterOffsetBegin=230 CharacterOffsetEnd=235 PartOfSpeech=EX] [Text=has CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=connection CharacterOffsetBegin=248 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=,] [Text=or CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=STRONG CharacterOffsetBegin=265 CharacterOffsetEnd=271 PartOfSpeech=JJ] [Text=influence CharacterOffsetBegin=272 CharacterOffsetEnd=281 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=,] [Text=I CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=RB] [Text=researched CharacterOffsetBegin=298 CharacterOffsetEnd=308 PartOfSpeech=VBN] [Text=enough CharacterOffsetBegin=309 CharacterOffsetEnd=315 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=TO] [Text=know CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=VB] [Text=where CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=PRP] [Text=is.As CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=VBZ] [Text=I CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=DT] [Text=forums CharacterOffsetBegin=356 CharacterOffsetEnd=362 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=,] [Text=yes CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=UH] [Text=Anna CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=NNP] [Text=Friel CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=VBZ] [Text=playing CharacterOffsetBegin=382 CharacterOffsetEnd=389 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=DT] [Text=poor CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=JJ] [Text=man CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=POS] [Text=Zooey CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=NNP] [Text=Deschanel CharacterOffsetBegin=409 CharacterOffsetEnd=418 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+expl(has-2, There-1)
+aux(connection-6, to-3)
+cop(connection-6, be-4)
+det(connection-6, a-5)
+xcomp(has-2, connection-6)
+punct(connection-6, ,-7)
+cc(connection-6, or-8)
+det(influence-11, a-9)
+amod(influence-11, STRONG-10)
+conj(connection-6, influence-11)
+punct(has-2, ,-12)
+nsubj(researched-17, I-13)
+advmod(researched-17, just-14)
+aux(researched-17, have-15)
+neg(researched-17, n't-16)
+ccomp(has-2, researched-17)
+advmod(researched-17, enough-18)
+aux(know-20, to-19)
+xcomp(researched-17, know-20)
+advmod(is.As-23, where-21)
+nsubj(is.As-23, it-22)
+advcl(know-20, is.As-23)
+nsubj(seen-26, I-24)
+aux(seen-26, 've-25)
+ccomp(is.As-23, seen-26)
+prep(seen-26, in-27)
+det(forums-29, the-28)
+pobj(in-27, forums-29)
+punct(has-2, ,-30)
+nn(Friel-33, yes-31)
+nn(Friel-33, Anna-32)
+nsubj(playing-35, Friel-33)
+aux(playing-35, is-34)
+ccomp(has-2, playing-35)
+det(man-38, a-36)
+amod(man-38, poor-37)
+poss(Deschanel-41, man-38)
+possessive(man-38, 's-39)
+nn(Deschanel-41, Zooey-40)
+dobj(playing-35, Deschanel-41)
+punct(has-2, .-42)
+
+Sentence #5 (12 tokens):
+Every time I see her on the screen I see Zooey.
+[Text=Every CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=430 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=435 CharacterOffsetEnd=436 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=VBP] [Text=her CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=PRP$] [Text=on CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=DT] [Text=screen CharacterOffsetBegin=452 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=VBP] [Text=Zooey CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=.] 
+root(ROOT-0, time-2)
+det(time-2, Every-1)
+nsubj(see-4, I-3)
+rcmod(time-2, see-4)
+dobj(see-4, her-5)
+prep(see-10, on-6)
+det(screen-8, the-7)
+pobj(on-6, screen-8)
+nsubj(see-10, I-9)
+rcmod(her-5, see-10)
+dobj(see-10, Zooey-11)
+punct(time-2, .-12)
+
+Sentence #6 (13 tokens):
+Don't get me wrong, Anna Friel does a great job.
+[Text=Do CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=PRP] [Text=wrong CharacterOffsetBegin=489 CharacterOffsetEnd=494 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=,] [Text=Anna CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=NNP] [Text=Friel CharacterOffsetBegin=501 CharacterOffsetEnd=506 PartOfSpeech=NNP] [Text=does CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=514 CharacterOffsetEnd=519 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=.] 
+root(ROOT-0, does-9)
+aux(get-3, Do-1)
+neg(get-3, n't-2)
+dep(does-9, get-3)
+nsubj(wrong-5, me-4)
+xcomp(get-3, wrong-5)
+punct(does-9, ,-6)
+nn(Friel-8, Anna-7)
+nsubj(does-9, Friel-8)
+det(job-12, a-10)
+amod(job-12, great-11)
+nsubj(does-9, job-12)
+punct(does-9, .-13)
+
+Sentence #7 (15 tokens):
+Her character is very sweet and lovable and you easily get attached to her.
+[Text=Her CharacterOffsetBegin=529 CharacterOffsetEnd=532 PartOfSpeech=PRP$] [Text=character CharacterOffsetBegin=533 CharacterOffsetEnd=542 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=RB] [Text=sweet CharacterOffsetBegin=551 CharacterOffsetEnd=556 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=CC] [Text=lovable CharacterOffsetBegin=561 CharacterOffsetEnd=568 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=569 CharacterOffsetEnd=572 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=PRP] [Text=easily CharacterOffsetBegin=577 CharacterOffsetEnd=583 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=VBP] [Text=attached CharacterOffsetBegin=588 CharacterOffsetEnd=596 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=597 CharacterOffsetEnd=599 PartOfSpeech=TO] [Text=her CharacterOffsetBegin=600 CharacterOffsetEnd=603 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=.] 
+root(ROOT-0, sweet-5)
+poss(character-2, Her-1)
+nsubj(sweet-5, character-2)
+cop(sweet-5, is-3)
+advmod(sweet-5, very-4)
+cc(sweet-5, and-6)
+conj(sweet-5, lovable-7)
+cc(sweet-5, and-8)
+nsubjpass(attached-12, you-9)
+advmod(attached-12, easily-10)
+auxpass(attached-12, get-11)
+conj(sweet-5, attached-12)
+prep(attached-12, to-13)
+pobj(to-13, her-14)
+punct(sweet-5, .-15)
+
+Sentence #8 (20 tokens):
+It's more of a distraction that I keep thinking "Why didn't they get Zooey Deschanel".
+[Text=It CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=611 CharacterOffsetEnd=613 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=614 CharacterOffsetEnd=618 PartOfSpeech=JJR] [Text=of CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=DT] [Text=distraction CharacterOffsetBegin=624 CharacterOffsetEnd=635 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=641 CharacterOffsetEnd=642 PartOfSpeech=PRP] [Text=keep CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=VBP] [Text=thinking CharacterOffsetBegin=648 CharacterOffsetEnd=656 PartOfSpeech=VBG] [Text=`` CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=``] [Text=Why CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=RB] [Text=they CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=674 CharacterOffsetEnd=677 PartOfSpeech=VBP] [Text=Zooey CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=NNP] [Text=Deschanel CharacterOffsetBegin=684 CharacterOffsetEnd=693 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=693 CharacterOffsetEnd=694 PartOfSpeech=''] [Text=. CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=.] 
+root(ROOT-0, more-3)
+nsubj(more-3, It-1)
+cop(more-3, 's-2)
+prep(more-3, of-4)
+det(distraction-6, a-5)
+pobj(of-4, distraction-6)
+mark(keep-9, that-7)
+nsubj(keep-9, I-8)
+ccomp(distraction-6, keep-9)
+xcomp(keep-9, thinking-10)
+punct(thinking-10, ``-11)
+advmod(get-16, Why-12)
+aux(get-16, did-13)
+neg(get-16, n't-14)
+nsubj(get-16, they-15)
+ccomp(thinking-10, get-16)
+nn(Deschanel-18, Zooey-17)
+nsubj(get-16, Deschanel-18)
+punct(Deschanel-18, ''-19)
+punct(more-3, .-20)
+
+Sentence #9 (8 tokens):
+Lee Pace does a great job too.
+[Text=Lee CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=NNP] [Text=Pace CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=NNP] [Text=does CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=711 CharacterOffsetEnd=716 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=717 CharacterOffsetEnd=720 PartOfSpeech=NN] [Text=too CharacterOffsetBegin=721 CharacterOffsetEnd=724 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=724 CharacterOffsetEnd=725 PartOfSpeech=.] 
+root(ROOT-0, does-3)
+nn(Pace-2, Lee-1)
+nsubj(does-3, Pace-2)
+det(job-6, a-4)
+amod(job-6, great-5)
+dobj(does-3, job-6)
+advmod(job-6, too-7)
+punct(does-3, .-8)
+
+Sentence #10 (16 tokens):
+I kept trying to remember where I knew him from and just looked it up.
+[Text=I CharacterOffsetBegin=730 CharacterOffsetEnd=731 PartOfSpeech=PRP] [Text=kept CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=VBD] [Text=trying CharacterOffsetBegin=737 CharacterOffsetEnd=743 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=744 CharacterOffsetEnd=746 PartOfSpeech=TO] [Text=remember CharacterOffsetBegin=747 CharacterOffsetEnd=755 PartOfSpeech=VB] [Text=where CharacterOffsetBegin=756 CharacterOffsetEnd=761 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=762 CharacterOffsetEnd=763 PartOfSpeech=PRP] [Text=knew CharacterOffsetBegin=764 CharacterOffsetEnd=768 PartOfSpeech=VBD] [Text=him CharacterOffsetBegin=769 CharacterOffsetEnd=772 PartOfSpeech=PRP] [Text=from CharacterOffsetBegin=773 CharacterOffsetEnd=777 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=778 CharacterOffsetEnd=781 PartOfSpeech=CC] [Text=just CharacterOffsetBegin=782 CharacterOffsetEnd=786 PartOfSpeech=RB] [Text=looked CharacterOffsetBegin=787 CharacterOffsetEnd=793 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=794 CharacterOffsetEnd=796 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=797 CharacterOffsetEnd=799 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=799 CharacterOffsetEnd=800 PartOfSpeech=.] 
+root(ROOT-0, kept-2)
+nsubj(kept-2, I-1)
+xcomp(kept-2, trying-3)
+aux(remember-5, to-4)
+xcomp(trying-3, remember-5)
+advmod(knew-8, where-6)
+nsubj(knew-8, I-7)
+advcl(remember-5, knew-8)
+dobj(knew-8, him-9)
+prep(knew-8, from-10)
+cc(from-10, and-11)
+conj(from-10, just-12)
+dep(from-10, looked-13)
+dobj(looked-13, it-14)
+prt(looked-13, up-15)
+punct(kept-2, .-16)
+
+Sentence #11 (2 tokens):
+Wonderfalls!!!
+[Text=Wonderfalls CharacterOffsetBegin=805 CharacterOffsetEnd=816 PartOfSpeech=NNP] [Text=!!! CharacterOffsetBegin=816 CharacterOffsetEnd=819 PartOfSpeech=CD] 
+root(ROOT-0, Wonderfalls-1)
+num(Wonderfalls-1, !!!-2)
+
+Sentence #12 (8 tokens):
+Great, short lived series from 2004.
+[Text=Great CharacterOffsetBegin=824 CharacterOffsetEnd=829 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=829 CharacterOffsetEnd=830 PartOfSpeech=,] [Text=short CharacterOffsetBegin=831 CharacterOffsetEnd=836 PartOfSpeech=JJ] [Text=lived CharacterOffsetBegin=837 CharacterOffsetEnd=842 PartOfSpeech=VBD] [Text=series CharacterOffsetBegin=843 CharacterOffsetEnd=849 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=850 CharacterOffsetEnd=854 PartOfSpeech=IN] [Text=2004 CharacterOffsetBegin=855 CharacterOffsetEnd=859 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=859 CharacterOffsetEnd=860 PartOfSpeech=.] 
+root(ROOT-0, series-5)
+amod(series-5, Great-1)
+punct(series-5, ,-2)
+amod(series-5, short-3)
+amod(series-5, lived-4)
+prep(series-5, from-6)
+pobj(from-6, 2004-7)
+punct(series-5, .-8)
+
+Sentence #13 (38 tokens):
+If you enjoy Pushing Daisies you MUST go rent Wonderfalls, which is another Brian Fuller creation.hmmmm Loved seeing Swoosie Kurtz (World According to Garp) and Ellen Greene (Little Shop of Horrors) again.
+[Text=If CharacterOffsetBegin=865 CharacterOffsetEnd=867 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=868 CharacterOffsetEnd=871 PartOfSpeech=PRP] [Text=enjoy CharacterOffsetBegin=872 CharacterOffsetEnd=877 PartOfSpeech=VBP] [Text=Pushing CharacterOffsetBegin=878 CharacterOffsetEnd=885 PartOfSpeech=VBG] [Text=Daisies CharacterOffsetBegin=886 CharacterOffsetEnd=893 PartOfSpeech=NNS] [Text=you CharacterOffsetBegin=894 CharacterOffsetEnd=897 PartOfSpeech=PRP] [Text=MUST CharacterOffsetBegin=898 CharacterOffsetEnd=902 PartOfSpeech=VBP] [Text=go CharacterOffsetBegin=903 CharacterOffsetEnd=905 PartOfSpeech=VB] [Text=rent CharacterOffsetBegin=906 CharacterOffsetEnd=910 PartOfSpeech=VB] [Text=Wonderfalls CharacterOffsetBegin=911 CharacterOffsetEnd=922 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=922 CharacterOffsetEnd=923 PartOfSpeech=,] [Text=which CharacterOffsetBegin=924 CharacterOffsetEnd=929 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=930 CharacterOffsetEnd=932 PartOfSpeech=VBZ] [Text=another CharacterOffsetBegin=933 CharacterOffsetEnd=940 PartOfSpeech=DT] [Text=Brian CharacterOffsetBegin=941 CharacterOffsetEnd=946 PartOfSpeech=NNP] [Text=Fuller CharacterOffsetBegin=947 CharacterOffsetEnd=953 PartOfSpeech=NNP] [Text=creation.hmmmm CharacterOffsetBegin=954 CharacterOffsetEnd=968 PartOfSpeech=NNP] [Text=Loved CharacterOffsetBegin=969 CharacterOffsetEnd=974 PartOfSpeech=VBD] [Text=seeing CharacterOffsetBegin=975 CharacterOffsetEnd=981 PartOfSpeech=VBG] [Text=Swoosie CharacterOffsetBegin=982 CharacterOffsetEnd=989 PartOfSpeech=NNP] [Text=Kurtz CharacterOffsetBegin=990 CharacterOffsetEnd=995 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=996 CharacterOffsetEnd=997 PartOfSpeech=-LRB-] [Text=World CharacterOffsetBegin=997 CharacterOffsetEnd=1002 PartOfSpeech=NNP] [Text=According CharacterOffsetBegin=1003 CharacterOffsetEnd=1012 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=1013 CharacterOffsetEnd=1015 PartOfSpeech=TO] [Text=Garp CharacterOffsetBegin=1016 CharacterOffsetEnd=1020 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=1020 CharacterOffsetEnd=1021 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=1022 CharacterOffsetEnd=1025 PartOfSpeech=CC] [Text=Ellen CharacterOffsetBegin=1026 CharacterOffsetEnd=1031 PartOfSpeech=NNP] [Text=Greene CharacterOffsetBegin=1032 CharacterOffsetEnd=1038 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=1039 CharacterOffsetEnd=1040 PartOfSpeech=-LRB-] [Text=Little CharacterOffsetBegin=1040 CharacterOffsetEnd=1046 PartOfSpeech=NNP] [Text=Shop CharacterOffsetBegin=1047 CharacterOffsetEnd=1051 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=1052 CharacterOffsetEnd=1054 PartOfSpeech=IN] [Text=Horrors CharacterOffsetBegin=1055 CharacterOffsetEnd=1062 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=1062 CharacterOffsetEnd=1063 PartOfSpeech=-RRB-] [Text=again CharacterOffsetBegin=1064 CharacterOffsetEnd=1069 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1069 CharacterOffsetEnd=1070 PartOfSpeech=.] 
+root(ROOT-0, enjoy-3)
+mark(enjoy-3, If-1)
+nsubj(enjoy-3, you-2)
+xcomp(enjoy-3, Pushing-4)
+dobj(Pushing-4, Daisies-5)
+dep(Daisies-5, you-6)
+dep(you-6, MUST-7)
+dep(MUST-7, go-8)
+xcomp(go-8, rent-9)
+dobj(rent-9, Wonderfalls-10)
+punct(Wonderfalls-10, ,-11)
+nsubj(creation.hmmmm-17, which-12)
+cop(creation.hmmmm-17, is-13)
+det(creation.hmmmm-17, another-14)
+nn(creation.hmmmm-17, Brian-15)
+nn(creation.hmmmm-17, Fuller-16)
+rcmod(Wonderfalls-10, creation.hmmmm-17)
+dep(creation.hmmmm-17, Loved-18)
+partmod(Loved-18, seeing-19)
+nn(World-23, Swoosie-20)
+nn(World-23, Kurtz-21)
+punct(World-23, -LRB--22)
+dobj(seeing-19, World-23)
+prep(World-23, According-24)
+pcomp(According-24, to-25)
+pobj(to-25, Garp-26)
+punct(World-23, -RRB--27)
+cc(seeing-19, and-28)
+nn(Shop-33, Ellen-29)
+nn(Shop-33, Greene-30)
+punct(Shop-33, -LRB--31)
+nn(Shop-33, Little-32)
+conj(seeing-19, Shop-33)
+prep(Shop-33, of-34)
+pobj(of-34, Horrors-35)
+punct(Shop-33, -RRB--36)
+advmod(seeing-19, again-37)
+punct(enjoy-3, .-38)
+
+Sentence #14 (14 tokens):
+Two underrated character actresses that never fail to bring it with their performances.
+[Text=Two CharacterOffsetBegin=1075 CharacterOffsetEnd=1078 PartOfSpeech=CD] [Text=underrated CharacterOffsetBegin=1079 CharacterOffsetEnd=1089 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=1090 CharacterOffsetEnd=1099 PartOfSpeech=NN] [Text=actresses CharacterOffsetBegin=1100 CharacterOffsetEnd=1109 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=1110 CharacterOffsetEnd=1114 PartOfSpeech=WDT] [Text=never CharacterOffsetBegin=1115 CharacterOffsetEnd=1120 PartOfSpeech=RB] [Text=fail CharacterOffsetBegin=1121 CharacterOffsetEnd=1125 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=1126 CharacterOffsetEnd=1128 PartOfSpeech=TO] [Text=bring CharacterOffsetBegin=1129 CharacterOffsetEnd=1134 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=1135 CharacterOffsetEnd=1137 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=1138 CharacterOffsetEnd=1142 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=1143 CharacterOffsetEnd=1148 PartOfSpeech=PRP$] [Text=performances CharacterOffsetBegin=1149 CharacterOffsetEnd=1161 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1161 CharacterOffsetEnd=1162 PartOfSpeech=.] 
+root(ROOT-0, actresses-4)
+num(actresses-4, Two-1)
+amod(actresses-4, underrated-2)
+nn(actresses-4, character-3)
+nsubj(fail-7, that-5)
+neg(fail-7, never-6)
+rcmod(actresses-4, fail-7)
+aux(bring-9, to-8)
+xcomp(fail-7, bring-9)
+dobj(bring-9, it-10)
+prep(bring-9, with-11)
+poss(performances-13, their-12)
+pobj(with-11, performances-13)
+punct(actresses-4, .-14)
+

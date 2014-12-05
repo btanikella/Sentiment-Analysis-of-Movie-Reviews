@@ -1,0 +1,95 @@
+Sentence #1 (12 tokens):
+This is only related to the first movie by the name.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=only CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=RB] [Text=related CharacterOffsetBegin=17 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=name CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, related-4)
+nsubj(related-4, This-1)
+cop(related-4, is-2)
+advmod(related-4, only-3)
+prep(related-4, to-5)
+det(movie-8, the-6)
+amod(movie-8, first-7)
+pobj(to-5, movie-8)
+prep(movie-8, by-9)
+det(name-11, the-10)
+pobj(by-9, name-11)
+punct(related-4, .-12)
+
+Sentence #2 (15 tokens):
+The plot has nothing to do with the first and the whole movie stinks!!!
+[Text=The CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=stinks CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=VBZ] [Text=!!! CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=RB] 
+root(ROOT-0, has-3)
+det(plot-2, The-1)
+nsubj(has-3, plot-2)
+dobj(has-3, nothing-4)
+aux(do-6, to-5)
+infmod(nothing-4, do-6)
+prep(do-6, with-7)
+det(stinks-14, the-8)
+amod(stinks-14, first-9)
+cc(first-9, and-10)
+det(movie-13, the-11)
+amod(movie-13, whole-12)
+conj(first-9, movie-13)
+pobj(with-7, stinks-14)
+advmod(stinks-14, !!!-15)
+
+Sentence #3 (15 tokens):
+I have no idea what they were thinking but this movie is so bad.
+[Text=I CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=VBP] [Text=no CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=DT] [Text=idea CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=NN] [Text=what CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=WP] [Text=they CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=VBD] [Text=thinking CharacterOffsetBegin=167 CharacterOffsetEnd=175 PartOfSpeech=VBG] [Text=but CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+det(idea-4, no-3)
+dobj(have-2, idea-4)
+dobj(thinking-8, what-5)
+nsubj(thinking-8, they-6)
+aux(thinking-8, were-7)
+dep(idea-4, thinking-8)
+cc(thinking-8, but-9)
+det(movie-11, this-10)
+nsubj(bad-14, movie-11)
+cop(bad-14, is-12)
+advmod(bad-14, so-13)
+conj(thinking-8, bad-14)
+punct(have-2, .-15)
+
+Sentence #4 (32 tokens):
+Avoid this at all costs, the first movie in the series is acceptable as a slasher flick and so is the fourth but this one and the 3rd are rubbish!
+[Text=Avoid CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=DT] [Text=at CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=DT] [Text=costs CharacterOffsetBegin=224 CharacterOffsetEnd=229 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=,] [Text=the CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=series CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=VBZ] [Text=acceptable CharacterOffsetBegin=264 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=slasher CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=flick CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=CC] [Text=so CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT] [Text=fourth CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=CD] [Text=and CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=DT] [Text=3rd CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=JJ] [Text=are CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=VBP] [Text=rubbish CharacterOffsetBegin=344 CharacterOffsetEnd=351 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=.] 
+root(ROOT-0, acceptable-14)
+partmod(acceptable-14, Avoid-1)
+dobj(Avoid-1, this-2)
+prep(Avoid-1, at-3)
+det(costs-5, all-4)
+pobj(at-3, costs-5)
+punct(acceptable-14, ,-6)
+det(movie-9, the-7)
+amod(movie-9, first-8)
+nsubj(acceptable-14, movie-9)
+prep(movie-9, in-10)
+det(series-12, the-11)
+pobj(in-10, series-12)
+cop(acceptable-14, is-13)
+prep(acceptable-14, as-15)
+det(flick-18, a-16)
+nn(flick-18, slasher-17)
+pobj(as-15, flick-18)
+cc(acceptable-14, and-19)
+advmod(is-21, so-20)
+cop(fourth-23, is-21)
+det(fourth-23, the-22)
+conj(acceptable-14, fourth-23)
+cc(fourth-23, but-24)
+det(one-26, this-25)
+nsubj(rubbish-31, one-26)
+cc(one-26, and-27)
+det(3rd-29, the-28)
+conj(one-26, 3rd-29)
+cop(rubbish-31, are-30)
+conj(fourth-23, rubbish-31)
+punct(acceptable-14, !-32)
+
+Sentence #5 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

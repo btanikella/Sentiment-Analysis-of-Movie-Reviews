@@ -1,0 +1,175 @@
+Sentence #1 (13 tokens):
+Movie about a small town with equal numbers of Mormons and Baptists.
+[Text=Movie CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=small CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=town CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=IN] [Text=equal CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=numbers CharacterOffsetBegin=40 CharacterOffsetEnd=47 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=Mormons CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=NNPS] [Text=and CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=CC] [Text=Baptists CharacterOffsetBegin=63 CharacterOffsetEnd=71 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=.] 
+root(ROOT-0, Movie-1)
+prep(Movie-1, about-2)
+det(town-5, a-3)
+amod(town-5, small-4)
+pobj(about-2, town-5)
+prep(town-5, with-6)
+amod(numbers-8, equal-7)
+pobj(with-6, numbers-8)
+prep(numbers-8, of-9)
+pobj(of-9, Mormons-10)
+cc(Mormons-10, and-11)
+conj(Mormons-10, Baptists-12)
+punct(Movie-1, .-13)
+
+Sentence #2 (32 tokens):
+New family moves in, cue the overwritten dialog, mediocre acting, green jello salad with shredded carrots, and every other 'inside Mormon joke' known to man.
+[Text=New CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=NNP] [Text=family CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text=moves CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=,] [Text=cue CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=overwritten CharacterOffsetBegin=106 CharacterOffsetEnd=117 PartOfSpeech=JJ] [Text=dialog CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=,] [Text=mediocre CharacterOffsetBegin=126 CharacterOffsetEnd=134 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=,] [Text=green CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=JJ] [Text=jello CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=salad CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=shredded CharacterOffsetBegin=166 CharacterOffsetEnd=174 PartOfSpeech=JJ] [Text=carrots CharacterOffsetBegin=175 CharacterOffsetEnd=182 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=,] [Text=and CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=CC] [Text=every CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=JJ] [Text=` CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=``] [Text=inside CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=IN] [Text=Mormon CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=joke CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=''] [Text=known CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=TO] [Text=man CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, moves-3)
+nn(family-2, New-1)
+nsubj(moves-3, family-2)
+prt(moves-3, in-4)
+punct(moves-3, ,-5)
+xcomp(moves-3, cue-6)
+det(dialog-9, the-7)
+amod(dialog-9, overwritten-8)
+dobj(cue-6, dialog-9)
+punct(dialog-9, ,-10)
+amod(acting-12, mediocre-11)
+conj(dialog-9, acting-12)
+punct(dialog-9, ,-13)
+amod(salad-16, green-14)
+nn(salad-16, jello-15)
+conj(dialog-9, salad-16)
+prep(salad-16, with-17)
+amod(carrots-19, shredded-18)
+pobj(with-17, carrots-19)
+punct(dialog-9, ,-20)
+cc(dialog-9, and-21)
+conj(dialog-9, every-22)
+dep(every-22, other-23)
+punct(other-23, `-24)
+dep(`-24, inside-25)
+amod(joke-27, Mormon-26)
+pobj(inside-25, joke-27)
+punct(joke-27, '-28)
+partmod(joke-27, known-29)
+prep(known-29, to-30)
+pobj(to-30, man-31)
+punct(inside-25, .-32)
+
+Sentence #3 (14 tokens):
+Anyone outside the Mormon culture will have a hard time stomaching this movie.
+[Text=Anyone CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=NN] [Text=outside CharacterOffsetBegin=246 CharacterOffsetEnd=253 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=DT] [Text=Mormon CharacterOffsetBegin=258 CharacterOffsetEnd=264 PartOfSpeech=JJ] [Text=culture CharacterOffsetBegin=265 CharacterOffsetEnd=272 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=hard CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=stomaching CharacterOffsetBegin=295 CharacterOffsetEnd=305 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.] 
+root(ROOT-0, have-7)
+nsubj(have-7, Anyone-1)
+prep(Anyone-1, outside-2)
+det(culture-5, the-3)
+amod(culture-5, Mormon-4)
+pobj(outside-2, culture-5)
+aux(have-7, will-6)
+det(time-10, a-8)
+amod(time-10, hard-9)
+dobj(have-7, time-10)
+dep(time-10, stomaching-11)
+det(movie-13, this-12)
+dobj(stomaching-11, movie-13)
+punct(have-7, .-14)
+
+Sentence #4 (16 tokens):
+Anyone inside the Mormon culture will be slightly amused with a chuckle here and there.
+[Text=Anyone CharacterOffsetBegin=322 CharacterOffsetEnd=328 PartOfSpeech=NN] [Text=inside CharacterOffsetBegin=329 CharacterOffsetEnd=335 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=DT] [Text=Mormon CharacterOffsetBegin=340 CharacterOffsetEnd=346 PartOfSpeech=JJ] [Text=culture CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=VB] [Text=slightly CharacterOffsetBegin=363 CharacterOffsetEnd=371 PartOfSpeech=RB] [Text=amused CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=chuckle CharacterOffsetBegin=386 CharacterOffsetEnd=393 PartOfSpeech=NN] [Text=here CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=.] 
+root(ROOT-0, amused-9)
+nsubjpass(amused-9, Anyone-1)
+prep(Anyone-1, inside-2)
+det(culture-5, the-3)
+amod(culture-5, Mormon-4)
+pobj(inside-2, culture-5)
+aux(amused-9, will-6)
+auxpass(amused-9, be-7)
+advmod(amused-9, slightly-8)
+prep(amused-9, with-10)
+det(chuckle-12, a-11)
+pobj(with-10, chuckle-12)
+advmod(chuckle-12, here-13)
+cc(chuckle-12, and-14)
+advmod(chuckle-12, there-15)
+punct(amused-9, .-16)
+
+Sentence #5 (18 tokens):
+You'll be much better off watching Hess's other movies (Napoleon Dynamite, etc..)
+[Text=You CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=VB] [Text=much CharacterOffsetBegin=424 CharacterOffsetEnd=428 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=429 CharacterOffsetEnd=435 PartOfSpeech=JJR] [Text=off CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=RP] [Text=watching CharacterOffsetBegin=440 CharacterOffsetEnd=448 PartOfSpeech=VBG] [Text=Hess CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=POS] [Text=other CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=462 CharacterOffsetEnd=468 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=-LRB-] [Text=Napoleon CharacterOffsetBegin=470 CharacterOffsetEnd=478 PartOfSpeech=NNP] [Text=Dynamite CharacterOffsetBegin=479 CharacterOffsetEnd=487 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=,] [Text=etc. CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=FW] [Text=. CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=-RRB-] 
+root(ROOT-0, better-5)
+nsubj(better-5, You-1)
+aux(better-5, 'll-2)
+cop(better-5, be-3)
+advmod(better-5, much-4)
+prep(better-5, off-6)
+pcomp(off-6, watching-7)
+poss(movies-11, Hess-8)
+possessive(Hess-8, 's-9)
+amod(movies-11, other-10)
+dobj(watching-7, movies-11)
+punct(Dynamite-14, -LRB--12)
+nn(Dynamite-14, Napoleon-13)
+dep(movies-11, Dynamite-14)
+punct(Dynamite-14, ,-15)
+dep(Dynamite-14, etc.-16)
+punct(Dynamite-14, .-17)
+punct(better-5, -RRB--18)
+
+Sentence #6 (8 tokens):
+than trying to sit through this one.
+[Text=than CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=IN] [Text=trying CharacterOffsetBegin=501 CharacterOffsetEnd=507 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=TO] [Text=sit CharacterOffsetBegin=511 CharacterOffsetEnd=514 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=515 CharacterOffsetEnd=522 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=528 CharacterOffsetEnd=531 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=.] 
+root(ROOT-0, than-1)
+pcomp(than-1, trying-2)
+aux(sit-4, to-3)
+xcomp(trying-2, sit-4)
+prep(sit-4, through-5)
+det(one-7, this-6)
+pobj(through-5, one-7)
+punct(than-1, .-8)
+
+Sentence #7 (5 tokens):
+The acting is mediocre.
+[Text=The CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=VBZ] [Text=mediocre CharacterOffsetBegin=551 CharacterOffsetEnd=559 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=.] 
+root(ROOT-0, mediocre-4)
+det(acting-2, The-1)
+nsubj(mediocre-4, acting-2)
+cop(mediocre-4, is-3)
+punct(mediocre-4, .-5)
+
+Sentence #8 (24 tokens):
+Jared Hess has had his hands on much more quality films like "Saints and Soldiers", and "Napoleon Dynamite".
+[Text=Jared CharacterOffsetBegin=565 CharacterOffsetEnd=570 PartOfSpeech=NNP] [Text=Hess CharacterOffsetBegin=571 CharacterOffsetEnd=575 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=VBZ] [Text=had CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=VBN] [Text=his CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=PRP$] [Text=hands CharacterOffsetBegin=588 CharacterOffsetEnd=593 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=IN] [Text=much CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=JJR] [Text=quality CharacterOffsetBegin=607 CharacterOffsetEnd=614 PartOfSpeech=NN] [Text=films CharacterOffsetBegin=615 CharacterOffsetEnd=620 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=621 CharacterOffsetEnd=625 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=``] [Text=Saints CharacterOffsetBegin=627 CharacterOffsetEnd=633 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=CC] [Text=Soldiers CharacterOffsetBegin=638 CharacterOffsetEnd=646 PartOfSpeech=NNS] [Text='' CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=''] [Text=, CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=,] [Text=and CharacterOffsetBegin=649 CharacterOffsetEnd=652 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=``] [Text=Napoleon CharacterOffsetBegin=654 CharacterOffsetEnd=662 PartOfSpeech=NNP] [Text=Dynamite CharacterOffsetBegin=663 CharacterOffsetEnd=671 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=''] [Text=. CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=.] 
+root(ROOT-0, had-4)
+nn(Hess-2, Jared-1)
+nsubj(had-4, Hess-2)
+aux(had-4, has-3)
+poss(hands-6, his-5)
+dobj(had-4, hands-6)
+prep(had-4, on-7)
+advmod(more-9, much-8)
+amod(films-11, more-9)
+nn(films-11, quality-10)
+pobj(on-7, films-11)
+prep(films-11, like-12)
+punct(like-12, ``-13)
+dep(like-12, Saints-14)
+cc(Saints-14, and-15)
+conj(Saints-14, Soldiers-16)
+punct(like-12, ''-17)
+punct(had-4, ,-18)
+cc(had-4, and-19)
+punct(had-4, ``-20)
+nn(Dynamite-22, Napoleon-21)
+conj(had-4, Dynamite-22)
+punct(Dynamite-22, ''-23)
+punct(had-4, .-24)
+
+Sentence #9 (9 tokens):
+I would recommend both movies over this groaner.
+[Text=I CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=680 CharacterOffsetEnd=685 PartOfSpeech=MD] [Text=recommend CharacterOffsetBegin=686 CharacterOffsetEnd=695 PartOfSpeech=VB] [Text=both CharacterOffsetBegin=696 CharacterOffsetEnd=700 PartOfSpeech=DT] [Text=movies CharacterOffsetBegin=701 CharacterOffsetEnd=707 PartOfSpeech=NNS] [Text=over CharacterOffsetBegin=708 CharacterOffsetEnd=712 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=713 CharacterOffsetEnd=717 PartOfSpeech=DT] [Text=groaner CharacterOffsetBegin=718 CharacterOffsetEnd=725 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=.] 
+root(ROOT-0, recommend-3)
+nsubj(recommend-3, I-1)
+aux(recommend-3, would-2)
+det(movies-5, both-4)
+dobj(recommend-3, movies-5)
+prep(recommend-3, over-6)
+det(groaner-8, this-7)
+pobj(over-6, groaner-8)
+punct(recommend-3, .-9)
+

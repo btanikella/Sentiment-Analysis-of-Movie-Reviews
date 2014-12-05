@@ -1,0 +1,183 @@
+Sentence #1 (7 tokens):
+A very strange and compelling movie.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=strange CharacterOffsetBegin=11 CharacterOffsetEnd=18 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=CC] [Text=compelling CharacterOffsetBegin=23 CharacterOffsetEnd=33 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+det(movie-6, A-1)
+advmod(strange-3, very-2)
+amod(movie-6, strange-3)
+cc(strange-3, and-4)
+conj(strange-3, compelling-5)
+punct(movie-6, .-7)
+
+Sentence #2 (21 tokens):
+It's about a very awkward and tightly wound man who attempts to navigate his life as a door-to-door fundraiser/salesman.
+[Text=It CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=RB] [Text=awkward CharacterOffsetBegin=63 CharacterOffsetEnd=70 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=CC] [Text=tightly CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=RB] [Text=wound CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=VBN] [Text=man CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=WP] [Text=attempts CharacterOffsetBegin=97 CharacterOffsetEnd=105 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=TO] [Text=navigate CharacterOffsetBegin=109 CharacterOffsetEnd=117 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=door-to-door CharacterOffsetBegin=132 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=fundraiser/salesman CharacterOffsetBegin=145 CharacterOffsetEnd=164 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=.] 
+root(ROOT-0, It-1)
+dep(It-1, 's-2)
+prep('s-2, about-3)
+pobj(about-3, a-4)
+advmod(awkward-6, very-5)
+amod(a-4, awkward-6)
+cc(awkward-6, and-7)
+nn(man-10, tightly-8)
+amod(man-10, wound-9)
+conj(awkward-6, man-10)
+nsubj(attempts-12, who-11)
+rcmod(awkward-6, attempts-12)
+aux(navigate-14, to-13)
+xcomp(attempts-12, navigate-14)
+poss(life-16, his-15)
+dobj(navigate-14, life-16)
+prep(navigate-14, as-17)
+det(fundraiser/salesman-20, a-18)
+amod(fundraiser/salesman-20, door-to-door-19)
+pobj(as-17, fundraiser/salesman-20)
+punct(It-1, .-21)
+
+Sentence #3 (17 tokens):
+The director was able to capture a very unnerving tone that really served the story well.
+[Text=The CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=174 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=VBD] [Text=able CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=TO] [Text=capture CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=RB] [Text=unnerving CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=JJ] [Text=tone CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=WDT] [Text=really CharacterOffsetBegin=230 CharacterOffsetEnd=236 PartOfSpeech=RB] [Text=served CharacterOffsetBegin=237 CharacterOffsetEnd=243 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=well CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=.] 
+root(ROOT-0, able-4)
+det(director-2, The-1)
+nsubj(able-4, director-2)
+cop(able-4, was-3)
+aux(capture-6, to-5)
+xcomp(able-4, capture-6)
+det(tone-10, a-7)
+advmod(unnerving-9, very-8)
+amod(tone-10, unnerving-9)
+dobj(capture-6, tone-10)
+nsubj(served-13, that-11)
+advmod(served-13, really-12)
+rcmod(tone-10, served-13)
+det(story-15, the-14)
+dobj(served-13, story-15)
+advmod(served-13, well-16)
+punct(able-4, .-17)
+
+Sentence #4 (18 tokens):
+Original and unsettling while also finding a great deal of humor in the pain that accompanies life.
+[Text=Original CharacterOffsetBegin=264 CharacterOffsetEnd=272 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC] [Text=unsettling CharacterOffsetBegin=277 CharacterOffsetEnd=287 PartOfSpeech=JJ] [Text=while CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=also CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=RB] [Text=finding CharacterOffsetBegin=299 CharacterOffsetEnd=306 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=deal CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=IN] [Text=humor CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=DT] [Text=pain CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=WDT] [Text=accompanies CharacterOffsetBegin=346 CharacterOffsetEnd=357 PartOfSpeech=VBZ] [Text=life CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=.] 
+root(ROOT-0, Original-1)
+cc(Original-1, and-2)
+conj(Original-1, unsettling-3)
+mark(finding-6, while-4)
+advmod(finding-6, also-5)
+advcl(Original-1, finding-6)
+det(deal-9, a-7)
+amod(deal-9, great-8)
+dobj(finding-6, deal-9)
+prep(deal-9, of-10)
+pobj(of-10, humor-11)
+prep(finding-6, in-12)
+det(pain-14, the-13)
+pobj(in-12, pain-14)
+nsubj(accompanies-16, that-15)
+rcmod(pain-14, accompanies-16)
+dobj(accompanies-16, life-17)
+punct(Original-1, .-18)
+
+Sentence #5 (30 tokens):
+There is a sequence at a testing facility that really stood out and made me laugh out loud which is not something I do as frequently as I should.
+[Text=There CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=DT] [Text=sequence CharacterOffsetBegin=379 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=DT] [Text=testing CharacterOffsetBegin=393 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=facility CharacterOffsetBegin=401 CharacterOffsetEnd=409 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=WDT] [Text=really CharacterOffsetBegin=415 CharacterOffsetEnd=421 PartOfSpeech=RB] [Text=stood CharacterOffsetBegin=422 CharacterOffsetEnd=427 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=RP] [Text=and CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=CC] [Text=made CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=PRP] [Text=laugh CharacterOffsetBegin=444 CharacterOffsetEnd=449 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=IN] [Text=loud CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=JJ] [Text=which CharacterOffsetBegin=459 CharacterOffsetEnd=464 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=RB] [Text=something CharacterOffsetBegin=472 CharacterOffsetEnd=481 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=482 CharacterOffsetEnd=483 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=VBP] [Text=as CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=IN] [Text=frequently CharacterOffsetBegin=490 CharacterOffsetEnd=500 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=MD] [Text=. CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(sequence-4, a-3)
+nsubj(is-2, sequence-4)
+prep(sequence-4, at-5)
+det(facility-8, a-6)
+nn(facility-8, testing-7)
+pobj(at-5, facility-8)
+nsubj(stood-11, that-9)
+advmod(stood-11, really-10)
+rcmod(facility-8, stood-11)
+prt(stood-11, out-12)
+cc(stood-11, and-13)
+conj(stood-11, made-14)
+nsubj(laugh-16, me-15)
+xcomp(made-14, laugh-16)
+prep(laugh-16, out-17)
+pobj(out-17, loud-18)
+nsubj(something-22, which-19)
+cop(something-22, is-20)
+neg(something-22, not-21)
+rcmod(loud-18, something-22)
+nsubj(do-24, I-23)
+rcmod(something-22, do-24)
+advmod(frequently-26, as-25)
+advmod(do-24, frequently-26)
+mark(should-29, as-27)
+nsubj(should-29, I-28)
+advcl(do-24, should-29)
+punct(is-2, .-30)
+
+Sentence #6 (14 tokens):
+One of the more memorable films I've seen in a long while.
+[Text=One CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=529 CharacterOffsetEnd=533 PartOfSpeech=RBR] [Text=memorable CharacterOffsetBegin=534 CharacterOffsetEnd=543 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=544 CharacterOffsetEnd=549 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=DT] [Text=long CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=JJ] [Text=while CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=.] 
+root(ROOT-0, One-1)
+prep(One-1, of-2)
+det(films-6, the-3)
+advmod(memorable-5, more-4)
+amod(films-6, memorable-5)
+pobj(of-2, films-6)
+nsubj(seen-9, I-7)
+aux(seen-9, 've-8)
+rcmod(films-6, seen-9)
+prep(seen-9, in-10)
+det(while-13, a-11)
+amod(while-13, long-12)
+pobj(in-10, while-13)
+punct(One-1, .-14)
+
+Sentence #7 (15 tokens):
+Hasn't left my mind and I look forward to future efforts by Bronstein.
+[Text=Has CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=RB] [Text=left CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=VBN] [Text=my CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=PRP$] [Text=mind CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=601 CharacterOffsetEnd=604 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=605 CharacterOffsetEnd=606 PartOfSpeech=PRP] [Text=look CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=VBP] [Text=forward CharacterOffsetBegin=612 CharacterOffsetEnd=619 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=TO] [Text=future CharacterOffsetBegin=623 CharacterOffsetEnd=629 PartOfSpeech=JJ] [Text=efforts CharacterOffsetBegin=630 CharacterOffsetEnd=637 PartOfSpeech=NNS] [Text=by CharacterOffsetBegin=638 CharacterOffsetEnd=640 PartOfSpeech=IN] [Text=Bronstein CharacterOffsetBegin=641 CharacterOffsetEnd=650 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=.] 
+root(ROOT-0, left-3)
+auxpass(left-3, Has-1)
+neg(left-3, n't-2)
+poss(mind-5, my-4)
+dobj(left-3, mind-5)
+cc(left-3, and-6)
+nsubj(look-8, I-7)
+conj(left-3, look-8)
+advmod(look-8, forward-9)
+prep(look-8, to-10)
+amod(efforts-12, future-11)
+pobj(to-10, efforts-12)
+prep(efforts-12, by-13)
+pobj(by-13, Bronstein-14)
+punct(left-3, .-15)
+
+Sentence #8 (5 tokens):
+Fantastic performances all around.
+[Text=Fantastic CharacterOffsetBegin=656 CharacterOffsetEnd=665 PartOfSpeech=JJ] [Text=performances CharacterOffsetBegin=666 CharacterOffsetEnd=678 PartOfSpeech=NNS] [Text=all CharacterOffsetBegin=679 CharacterOffsetEnd=682 PartOfSpeech=DT] [Text=around CharacterOffsetBegin=683 CharacterOffsetEnd=689 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=689 CharacterOffsetEnd=690 PartOfSpeech=.] 
+root(ROOT-0, performances-2)
+amod(performances-2, Fantastic-1)
+dep(performances-2, all-3)
+advmod(all-3, around-4)
+punct(performances-2, .-5)
+
+Sentence #9 (10 tokens):
+The simple line "I really appreciate it."
+[Text=The CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=DT] [Text=simple CharacterOffsetBegin=699 CharacterOffsetEnd=705 PartOfSpeech=JJ] [Text=line CharacterOffsetBegin=706 CharacterOffsetEnd=710 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=711 CharacterOffsetEnd=712 PartOfSpeech=``] [Text=I CharacterOffsetBegin=712 CharacterOffsetEnd=713 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=714 CharacterOffsetEnd=720 PartOfSpeech=RB] [Text=appreciate CharacterOffsetBegin=721 CharacterOffsetEnd=731 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=732 CharacterOffsetEnd=734 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=.] [Text='' CharacterOffsetBegin=735 CharacterOffsetEnd=736 PartOfSpeech=''] 
+root(ROOT-0, appreciate-7)
+det(line-3, The-1)
+amod(line-3, simple-2)
+nsubj(appreciate-7, line-3)
+punct(appreciate-7, ``-4)
+nsubj(appreciate-7, I-5)
+advmod(appreciate-7, really-6)
+dobj(appreciate-7, it-8)
+punct(appreciate-7, .-9)
+punct(appreciate-7, ''-10)
+
+Sentence #10 (6 tokens):
+is now iconic to me.
+[Text=is CharacterOffsetBegin=741 CharacterOffsetEnd=743 PartOfSpeech=VBZ] [Text=now CharacterOffsetBegin=744 CharacterOffsetEnd=747 PartOfSpeech=RB] [Text=iconic CharacterOffsetBegin=748 CharacterOffsetEnd=754 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=758 CharacterOffsetEnd=760 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=760 CharacterOffsetEnd=761 PartOfSpeech=.] 
+root(ROOT-0, iconic-3)
+cop(iconic-3, is-1)
+advmod(iconic-3, now-2)
+prep(iconic-3, to-4)
+pobj(to-4, me-5)
+punct(iconic-3, .-6)
+

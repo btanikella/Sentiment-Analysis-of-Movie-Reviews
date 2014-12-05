@@ -1,0 +1,198 @@
+Sentence #1 (10 tokens):
+I really liked this movie...it was cute.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=RB] [Text=liked CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=:] [Text=it CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=VBD] [Text=cute CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=.] 
+root(ROOT-0, liked-3)
+nsubj(liked-3, I-1)
+advmod(liked-3, really-2)
+det(movie-5, this-4)
+dobj(liked-3, movie-5)
+punct(liked-3, ...-6)
+nsubj(cute-9, it-7)
+cop(cute-9, was-8)
+parataxis(liked-3, cute-9)
+punct(liked-3, .-10)
+
+Sentence #2 (15 tokens):
+I enjoyed it, but if you didn't, that is your fault.
+[Text=I CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=PRP] [Text=enjoyed CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=,] [Text=but CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=,] [Text=that CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=VBZ] [Text=your CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=PRP$] [Text=fault CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=.] 
+root(ROOT-0, enjoyed-2)
+nsubj(enjoyed-2, I-1)
+dobj(enjoyed-2, it-3)
+punct(enjoyed-2, ,-4)
+cc(enjoyed-2, but-5)
+mark(fault-14, if-6)
+nsubj(fault-14, you-7)
+aux(fault-14, did-8)
+neg(fault-14, n't-9)
+punct(fault-14, ,-10)
+nsubj(fault-14, that-11)
+cop(fault-14, is-12)
+poss(fault-14, your-13)
+conj(enjoyed-2, fault-14)
+punct(enjoyed-2, .-15)
+
+Sentence #3 (18 tokens):
+Emma Roberts played a good Nancy Drew, even though she isn't quite like the books.
+[Text=Emma CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=NNP] [Text=Roberts CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=NNP] [Text=played CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=JJ] [Text=Nancy CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=NNP] [Text=Drew CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=,] [Text=even CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=RB] [Text=quite CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=DT] [Text=books CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=.] 
+root(ROOT-0, played-3)
+nn(Roberts-2, Emma-1)
+nsubj(played-3, Roberts-2)
+det(Drew-7, a-4)
+amod(Drew-7, good-5)
+nn(Drew-7, Nancy-6)
+dobj(played-3, Drew-7)
+punct(played-3, ,-8)
+advmod(like-15, even-9)
+mark(like-15, though-10)
+nsubj(like-15, she-11)
+aux(like-15, is-12)
+neg(like-15, n't-13)
+advmod(like-15, quite-14)
+advcl(played-3, like-15)
+det(books-17, the-16)
+pobj(like-15, books-17)
+punct(played-3, .-18)
+
+Sentence #4 (21 tokens):
+The old fashion outfits are weird when you see them in modern times, but she looks good on them.
+[Text=The CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=JJ] [Text=fashion CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=outfits CharacterOffsetBegin=209 CharacterOffsetEnd=216 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=VBP] [Text=weird CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=JJ] [Text=when CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=WRB] [Text=you CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=VBP] [Text=them CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=IN] [Text=modern CharacterOffsetBegin=248 CharacterOffsetEnd=254 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=,] [Text=but CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=PRP] [Text=looks CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=.] 
+root(ROOT-0, weird-6)
+det(outfits-4, The-1)
+amod(outfits-4, old-2)
+nn(outfits-4, fashion-3)
+nsubj(weird-6, outfits-4)
+cop(weird-6, are-5)
+advmod(see-9, when-7)
+nsubj(see-9, you-8)
+advcl(weird-6, see-9)
+dobj(see-9, them-10)
+prep(see-9, in-11)
+amod(times-13, modern-12)
+pobj(in-11, times-13)
+punct(weird-6, ,-14)
+cc(weird-6, but-15)
+nsubj(looks-17, she-16)
+conj(weird-6, looks-17)
+acomp(looks-17, good-18)
+prep(looks-17, on-19)
+pobj(on-19, them-20)
+punct(weird-6, .-21)
+
+Sentence #5 (16 tokens):
+To me, the rich girls didn't have outfits that made them look rich.
+[Text=To CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=,] [Text=the CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=DT] [Text=rich CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=JJ] [Text=girls CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NNS] [Text=did CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=VB] [Text=outfits CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=WDT] [Text=made CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=VBD] [Text=them CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=PRP] [Text=look CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=VB] [Text=rich CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=.] 
+root(ROOT-0, have-9)
+prep(have-9, To-1)
+pobj(To-1, me-2)
+punct(have-9, ,-3)
+det(girls-6, the-4)
+amod(girls-6, rich-5)
+nsubj(have-9, girls-6)
+aux(have-9, did-7)
+neg(have-9, n't-8)
+dobj(have-9, outfits-10)
+nsubj(made-12, that-11)
+rcmod(outfits-10, made-12)
+nsubj(look-14, them-13)
+xcomp(made-12, look-14)
+acomp(look-14, rich-15)
+punct(have-9, .-16)
+
+Sentence #6 (28 tokens):
+I mean, it looks like they got all the clothes -blindfolded- at a garage sale and just decided to put it on all together.
+[Text=I CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=,] [Text=it CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=PRP] [Text=looks CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=DT] [Text=clothes CharacterOffsetBegin=405 CharacterOffsetEnd=412 PartOfSpeech=NNS] [Text=- CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=:] [Text=blindfolded CharacterOffsetBegin=414 CharacterOffsetEnd=425 PartOfSpeech=VBN] [Text=- CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=:] [Text=at CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=DT] [Text=garage CharacterOffsetBegin=432 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=sale CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=CC] [Text=just CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=RB] [Text=decided CharacterOffsetBegin=453 CharacterOffsetEnd=460 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=TO] [Text=put CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=DT] [Text=together CharacterOffsetBegin=478 CharacterOffsetEnd=486 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+punct(mean-2, ,-3)
+nsubj(looks-5, it-4)
+ccomp(mean-2, looks-5)
+mark(got-8, like-6)
+nsubj(got-8, they-7)
+advcl(looks-5, got-8)
+predet(clothes-11, all-9)
+det(clothes-11, the-10)
+dobj(got-8, clothes-11)
+punct(clothes-11, --12)
+dep(clothes-11, blindfolded-13)
+punct(clothes-11, --14)
+prep(got-8, at-15)
+det(sale-18, a-16)
+nn(sale-18, garage-17)
+pobj(at-15, sale-18)
+cc(got-8, and-19)
+advmod(decided-21, just-20)
+conj(got-8, decided-21)
+aux(put-23, to-22)
+xcomp(decided-21, put-23)
+dobj(put-23, it-24)
+prep(put-23, on-25)
+advmod(together-27, all-26)
+pobj(on-25, together-27)
+punct(mean-2, .-28)
+
+Sentence #7 (19 tokens):
+All of the outfits were tacky, especially when they wore the penny loafers with their regular outfits.
+[Text=All CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=DT] [Text=outfits CharacterOffsetBegin=503 CharacterOffsetEnd=510 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=VBD] [Text=tacky CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=,] [Text=especially CharacterOffsetBegin=523 CharacterOffsetEnd=533 PartOfSpeech=RB] [Text=when CharacterOffsetBegin=534 CharacterOffsetEnd=538 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=539 CharacterOffsetEnd=543 PartOfSpeech=PRP] [Text=wore CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=DT] [Text=penny CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=NN] [Text=loafers CharacterOffsetBegin=559 CharacterOffsetEnd=566 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=567 CharacterOffsetEnd=571 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=572 CharacterOffsetEnd=577 PartOfSpeech=PRP$] [Text=regular CharacterOffsetBegin=578 CharacterOffsetEnd=585 PartOfSpeech=JJ] [Text=outfits CharacterOffsetBegin=586 CharacterOffsetEnd=593 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=.] 
+root(ROOT-0, tacky-6)
+nsubj(tacky-6, All-1)
+prep(All-1, of-2)
+det(outfits-4, the-3)
+pobj(of-2, outfits-4)
+cop(tacky-6, were-5)
+punct(tacky-6, ,-7)
+advmod(when-9, especially-8)
+advmod(wore-11, when-9)
+nsubj(wore-11, they-10)
+rcmod(tacky-6, wore-11)
+det(loafers-14, the-12)
+nn(loafers-14, penny-13)
+dobj(wore-11, loafers-14)
+prep(wore-11, with-15)
+poss(outfits-18, their-16)
+amod(outfits-18, regular-17)
+pobj(with-15, outfits-18)
+punct(tacky-6, .-19)
+
+Sentence #8 (17 tokens):
+I do not want to make the movie look bad, because it definitely wasn't!
+[Text=I CharacterOffsetBegin=599 CharacterOffsetEnd=600 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=608 CharacterOffsetEnd=612 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=625 CharacterOffsetEnd=630 PartOfSpeech=NN] [Text=look CharacterOffsetBegin=631 CharacterOffsetEnd=635 PartOfSpeech=NN] [Text=bad CharacterOffsetBegin=636 CharacterOffsetEnd=639 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=639 CharacterOffsetEnd=640 PartOfSpeech=,] [Text=because CharacterOffsetBegin=641 CharacterOffsetEnd=648 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=PRP] [Text=definitely CharacterOffsetBegin=652 CharacterOffsetEnd=662 PartOfSpeech=RB] [Text=was CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=669 CharacterOffsetEnd=670 PartOfSpeech=.] 
+root(ROOT-0, want-4)
+nsubj(want-4, I-1)
+aux(want-4, do-2)
+neg(want-4, not-3)
+aux(make-6, to-5)
+xcomp(want-4, make-6)
+det(look-9, the-7)
+nn(look-9, movie-8)
+nsubj(bad-10, look-9)
+xcomp(make-6, bad-10)
+punct(want-4, ,-11)
+mark(was-15, because-12)
+nsubj(was-15, it-13)
+advmod(was-15, definitely-14)
+advcl(want-4, was-15)
+neg(was-15, n't-16)
+punct(want-4, !-17)
+
+Sentence #9 (9 tokens):
+Just go to the theater and watch it!!!
+[Text=Just CharacterOffsetBegin=675 CharacterOffsetEnd=679 PartOfSpeech=RB] [Text=go CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=683 CharacterOffsetEnd=685 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=DT] [Text=theater CharacterOffsetBegin=690 CharacterOffsetEnd=697 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=698 CharacterOffsetEnd=701 PartOfSpeech=CC] [Text=watch CharacterOffsetBegin=702 CharacterOffsetEnd=707 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=708 CharacterOffsetEnd=710 PartOfSpeech=PRP] [Text=!!! CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=IN] 
+root(ROOT-0, go-2)
+advmod(go-2, Just-1)
+prep(go-2, to-3)
+det(theater-5, the-4)
+pobj(to-3, theater-5)
+cc(go-2, and-6)
+conj(go-2, watch-7)
+dobj(watch-7, it-8)
+dep(watch-7, !!!-9)
+
+Sentence #10 (5 tokens):
+You will enjoy it!
+[Text=You CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=722 CharacterOffsetEnd=726 PartOfSpeech=MD] [Text=enjoy CharacterOffsetBegin=727 CharacterOffsetEnd=732 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=733 CharacterOffsetEnd=735 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=735 CharacterOffsetEnd=736 PartOfSpeech=.] 
+root(ROOT-0, enjoy-3)
+nsubj(enjoy-3, You-1)
+aux(enjoy-3, will-2)
+dobj(enjoy-3, it-4)
+punct(enjoy-3, !-5)
+

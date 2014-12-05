@@ -1,0 +1,211 @@
+Sentence #1 (18 tokens):
+I was about 11 years old i found out i live 0.48 miles from the uncle house.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=about CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=RB] [Text=11 CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNS] [Text=old CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=JJ] [Text=i CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=FW] [Text=found CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=IN] [Text=i CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=FW] [Text=live CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=VBP] [Text=0.48 CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=CD] [Text=miles CharacterOffsetBegin=53 CharacterOffsetEnd=58 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=uncle CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=house CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=.] 
+root(ROOT-0, old-6)
+nsubj(old-6, I-1)
+cop(old-6, was-2)
+quantmod(11-4, about-3)
+num(years-5, 11-4)
+npadvmod(old-6, years-5)
+nsubj(live-11, i-7)
+partmod(i-7, found-8)
+prep(found-8, out-9)
+pobj(out-9, i-10)
+ccomp(old-6, live-11)
+num(miles-13, 0.48-12)
+dobj(live-11, miles-13)
+prep(live-11, from-14)
+det(house-17, the-15)
+nn(house-17, uncle-16)
+pobj(from-14, house-17)
+punct(old-6, .-18)
+
+Sentence #2 (13 tokens):
+the uncle house is on Westway Dr, deer park, TX.
+[Text=the CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=DT] [Text=uncle CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=house CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=VBZ] [Text=on CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN] [Text=Westway CharacterOffsetBegin=107 CharacterOffsetEnd=114 PartOfSpeech=NNP] [Text=Dr CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=,] [Text=deer CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=NNS] [Text=park CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=,] [Text=TX CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=.] 
+root(ROOT-0, is-4)
+det(house-3, the-1)
+nn(house-3, uncle-2)
+nsubj(is-4, house-3)
+prep(is-4, on-5)
+nn(Dr-7, Westway-6)
+pobj(on-5, Dr-7)
+punct(Dr-7, ,-8)
+nn(park-10, deer-9)
+conj(Dr-7, park-10)
+punct(Dr-7, ,-11)
+appos(Dr-7, TX-12)
+punct(is-4, .-13)
+
+Sentence #3 (10 tokens):
+they have added homes since the movie was made.
+[Text=they CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=VBP] [Text=added CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=VBN] [Text=homes CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=NNS] [Text=since CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=VBD] [Text=made CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=.] 
+root(ROOT-0, added-3)
+nsubj(added-3, they-1)
+aux(added-3, have-2)
+dobj(added-3, homes-4)
+mark(made-9, since-5)
+det(movie-7, the-6)
+nsubjpass(made-9, movie-7)
+auxpass(made-9, was-8)
+advcl(added-3, made-9)
+punct(added-3, .-10)
+
+Sentence #4 (15 tokens):
+i don't know the house number but you can go look it up.
+[Text=i CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=LS] [Text=do CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=RB] [Text=know CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=house CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=number CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=MD] [Text=go CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=VB] [Text=look CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=.] 
+root(ROOT-0, know-4)
+nsubj(know-4, i-1)
+aux(know-4, do-2)
+neg(know-4, n't-3)
+det(number-7, the-5)
+nn(number-7, house-6)
+dobj(know-4, number-7)
+cc(know-4, but-8)
+nsubj(go-11, you-9)
+aux(go-11, can-10)
+conj(know-4, go-11)
+ccomp(go-11, look-12)
+dobj(look-12, it-13)
+prt(look-12, up-14)
+punct(know-4, .-15)
+
+Sentence #5 (11 tokens):
+i am now 21 and i enjoy watching this movie.
+[Text=i CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=LS] [Text=am CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=RB] [Text=now CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=RB] [Text=21 CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=CD] [Text=and CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=CC] [Text=i CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=FW] [Text=enjoy CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=VB] [Text=watching CharacterOffsetBegin=275 CharacterOffsetEnd=283 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=.] 
+root(ROOT-0, enjoy-7)
+dep(21-4, i-1)
+advmod(21-4, am-2)
+advmod(21-4, now-3)
+nsubj(enjoy-7, 21-4)
+cc(21-4, and-5)
+conj(21-4, i-6)
+xcomp(enjoy-7, watching-8)
+det(movie-10, this-9)
+dobj(watching-8, movie-10)
+punct(enjoy-7, .-11)
+
+Sentence #6 (9 tokens):
+the bar on Spencer is no longer their.
+[Text=the CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=DT] [Text=bar CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=IN] [Text=Spencer CharacterOffsetBegin=311 CharacterOffsetEnd=318 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=RB] [Text=longer CharacterOffsetBegin=325 CharacterOffsetEnd=331 PartOfSpeech=RBR] [Text=their CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=PRP$] [Text=. CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=.] 
+root(ROOT-0, bar-2)
+det(bar-2, the-1)
+prep(bar-2, on-3)
+pobj(on-3, Spencer-4)
+dep(bar-2, is-5)
+advmod(longer-7, no-6)
+advmod(is-5, longer-7)
+dep(longer-7, their-8)
+punct(bar-2, .-9)
+
+Sentence #7 (9 tokens):
+Pasadena ISD wants to build a school their.
+[Text=Pasadena CharacterOffsetBegin=343 CharacterOffsetEnd=351 PartOfSpeech=NNP] [Text=ISD CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=NNP] [Text=wants CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=TO] [Text=build CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=DT] [Text=school CharacterOffsetBegin=373 CharacterOffsetEnd=379 PartOfSpeech=NN] [Text=their CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=PRP$] [Text=. CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=.] 
+root(ROOT-0, wants-3)
+nn(ISD-2, Pasadena-1)
+nsubj(wants-3, ISD-2)
+aux(build-5, to-4)
+xcomp(wants-3, build-5)
+det(school-7, a-6)
+dobj(build-5, school-7)
+dep(build-5, their-8)
+punct(wants-3, .-9)
+
+Sentence #8 (13 tokens):
+I drove by the house last week the house still looks great.
+[Text=I CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=PRP] [Text=drove CharacterOffsetBegin=393 CharacterOffsetEnd=398 PartOfSpeech=VBD] [Text=by CharacterOffsetBegin=399 CharacterOffsetEnd=401 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=DT] [Text=house CharacterOffsetBegin=406 CharacterOffsetEnd=411 PartOfSpeech=NN] [Text=last CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=JJ] [Text=week CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT] [Text=house CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NN] [Text=still CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=RB] [Text=looks CharacterOffsetBegin=438 CharacterOffsetEnd=443 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=444 CharacterOffsetEnd=449 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=.] 
+root(ROOT-0, drove-2)
+nsubj(drove-2, I-1)
+prep(drove-2, by-3)
+det(house-5, the-4)
+pobj(by-3, house-5)
+amod(week-7, last-6)
+tmod(drove-2, week-7)
+det(house-9, the-8)
+nsubj(looks-11, house-9)
+advmod(looks-11, still-10)
+ccomp(drove-2, looks-11)
+acomp(looks-11, great-12)
+punct(drove-2, .-13)
+
+Sentence #9 (30 tokens):
+My dad and uncle would go to the street where the house is and watch the actors come in and out of the house trying to make the movie.
+[Text=My CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=PRP$] [Text=dad CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=CC] [Text=uncle CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=NN] [Text=would CharacterOffsetBegin=472 CharacterOffsetEnd=477 PartOfSpeech=MD] [Text=go CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=481 CharacterOffsetEnd=483 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=DT] [Text=street CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=495 CharacterOffsetEnd=500 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=DT] [Text=house CharacterOffsetBegin=505 CharacterOffsetEnd=510 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=VBZ] [Text=and CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=CC] [Text=watch CharacterOffsetBegin=518 CharacterOffsetEnd=523 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=524 CharacterOffsetEnd=527 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=528 CharacterOffsetEnd=534 PartOfSpeech=NNS] [Text=come CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=VBP] [Text=in CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=CC] [Text=out CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=551 CharacterOffsetEnd=553 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=DT] [Text=house CharacterOffsetBegin=558 CharacterOffsetEnd=563 PartOfSpeech=NN] [Text=trying CharacterOffsetBegin=564 CharacterOffsetEnd=570 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=571 CharacterOffsetEnd=573 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=574 CharacterOffsetEnd=578 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=583 CharacterOffsetEnd=588 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=.] 
+root(ROOT-0, go-6)
+poss(dad-2, My-1)
+nsubj(go-6, dad-2)
+cc(dad-2, and-3)
+conj(dad-2, uncle-4)
+aux(go-6, would-5)
+prep(go-6, to-7)
+det(street-9, the-8)
+pobj(to-7, street-9)
+advmod(is-13, where-10)
+det(house-12, the-11)
+nsubj(is-13, house-12)
+rcmod(street-9, is-13)
+cc(is-13, and-14)
+conj(is-13, watch-15)
+det(actors-17, the-16)
+nsubj(come-18, actors-17)
+ccomp(watch-15, come-18)
+prep(come-18, in-19)
+cc(in-19, and-20)
+conj(in-19, out-21)
+pcomp(out-21, of-22)
+det(house-24, the-23)
+pobj(of-22, house-24)
+pcomp(in-19, trying-25)
+aux(make-27, to-26)
+xcomp(trying-25, make-27)
+det(movie-29, the-28)
+dobj(make-27, movie-29)
+punct(go-6, .-30)
+
+Sentence #10 (13 tokens):
+where john cross over the railroad cracks they have made 225 higher.
+[Text=where CharacterOffsetBegin=594 CharacterOffsetEnd=599 PartOfSpeech=WRB] [Text=john CharacterOffsetBegin=600 CharacterOffsetEnd=604 PartOfSpeech=NN] [Text=cross CharacterOffsetBegin=605 CharacterOffsetEnd=610 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=611 CharacterOffsetEnd=615 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=DT] [Text=railroad CharacterOffsetBegin=620 CharacterOffsetEnd=628 PartOfSpeech=NN] [Text=cracks CharacterOffsetBegin=629 CharacterOffsetEnd=635 PartOfSpeech=NNS] [Text=they CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=VBP] [Text=made CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=VBN] [Text=225 CharacterOffsetBegin=651 CharacterOffsetEnd=654 PartOfSpeech=CD] [Text=higher CharacterOffsetBegin=655 CharacterOffsetEnd=661 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=.] 
+root(ROOT-0, cross-3)
+advmod(cross-3, where-1)
+nsubj(cross-3, john-2)
+prep(cross-3, over-4)
+det(cracks-7, the-5)
+nn(cracks-7, railroad-6)
+pobj(over-4, cracks-7)
+nsubj(made-10, they-8)
+aux(made-10, have-9)
+rcmod(cracks-7, made-10)
+npadvmod(higher-12, 225-11)
+advmod(made-10, higher-12)
+punct(cross-3, .-13)
+
+Sentence #11 (26 tokens):
+when i hear about john loesing his son i start thinking about when he made urban cowboy he was 26 or 25 at the time.
+[Text=when CharacterOffsetBegin=667 CharacterOffsetEnd=671 PartOfSpeech=WRB] [Text=i CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=FW] [Text=hear CharacterOffsetBegin=674 CharacterOffsetEnd=678 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=679 CharacterOffsetEnd=684 PartOfSpeech=IN] [Text=john CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=NN] [Text=loesing CharacterOffsetBegin=690 CharacterOffsetEnd=697 PartOfSpeech=JJ] [Text=his CharacterOffsetBegin=698 CharacterOffsetEnd=701 PartOfSpeech=PRP$] [Text=son CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=NN] [Text=i CharacterOffsetBegin=706 CharacterOffsetEnd=707 PartOfSpeech=FW] [Text=start CharacterOffsetBegin=708 CharacterOffsetEnd=713 PartOfSpeech=VB] [Text=thinking CharacterOffsetBegin=714 CharacterOffsetEnd=722 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=723 CharacterOffsetEnd=728 PartOfSpeech=IN] [Text=when CharacterOffsetBegin=729 CharacterOffsetEnd=733 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=734 CharacterOffsetEnd=736 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=VBD] [Text=urban CharacterOffsetBegin=742 CharacterOffsetEnd=747 PartOfSpeech=JJ] [Text=cowboy CharacterOffsetBegin=748 CharacterOffsetEnd=754 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=VBD] [Text=26 CharacterOffsetBegin=762 CharacterOffsetEnd=764 PartOfSpeech=CD] [Text=or CharacterOffsetBegin=765 CharacterOffsetEnd=767 PartOfSpeech=CC] [Text=25 CharacterOffsetBegin=768 CharacterOffsetEnd=770 PartOfSpeech=CD] [Text=at CharacterOffsetBegin=771 CharacterOffsetEnd=773 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=782 CharacterOffsetEnd=783 PartOfSpeech=.] 
+root(ROOT-0, hear-3)
+advmod(hear-3, when-1)
+nsubj(hear-3, i-2)
+dep(start-10, about-4)
+dep(start-10, john-5)
+dep(start-10, loesing-6)
+poss(i-9, his-7)
+nn(i-9, son-8)
+nsubj(start-10, i-9)
+ccomp(hear-3, start-10)
+dep(start-10, thinking-11)
+prep(thinking-11, about-12)
+advmod(made-15, when-13)
+nsubj(made-15, he-14)
+pcomp(about-12, made-15)
+amod(cowboy-17, urban-16)
+dobj(made-15, cowboy-17)
+nsubj(26-20, he-18)
+cop(26-20, was-19)
+rcmod(cowboy-17, 26-20)
+cc(26-20, or-21)
+conj(26-20, 25-22)
+prep(made-15, at-23)
+det(time-25, the-24)
+pobj(at-23, time-25)
+punct(hear-3, .-26)
+

@@ -1,0 +1,101 @@
+Sentence #1 (13 tokens):
+Harem Suare is the best film I saw in the year 2000.
+[Text=Harem CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=Suare CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=JJS] [Text=film CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=year CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=2000 CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nn(Suare-2, Harem-1)
+nsubj(film-6, Suare-2)
+cop(film-6, is-3)
+det(film-6, the-4)
+amod(film-6, best-5)
+nsubj(saw-8, I-7)
+rcmod(film-6, saw-8)
+prep(saw-8, in-9)
+det(year-11, the-10)
+pobj(in-9, year-11)
+num(year-11, 2000-12)
+punct(film-6, .-13)
+
+Sentence #2 (4 tokens):
+Bravo Ferzan Ozpetek.
+[Text=Bravo CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NNP] [Text=Ferzan CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=NNP] [Text=Ozpetek CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, Ozpetek-3)
+nn(Ozpetek-3, Bravo-1)
+nn(Ozpetek-3, Ferzan-2)
+punct(Ozpetek-3, .-4)
+
+Sentence #3 (25 tokens):
+Sensually shot and stunningly portrayed, Harem Suare is a bold film that tackles interracial romance, which is such a taboo in Hollywood.
+[Text=Sensually CharacterOffsetBegin=87 CharacterOffsetEnd=96 PartOfSpeech=RB] [Text=shot CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=CC] [Text=stunningly CharacterOffsetBegin=106 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=portrayed CharacterOffsetBegin=117 CharacterOffsetEnd=126 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=,] [Text=Harem CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NNP] [Text=Suare CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=DT] [Text=bold CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=WDT] [Text=tackles CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=VBZ] [Text=interracial CharacterOffsetBegin=168 CharacterOffsetEnd=179 PartOfSpeech=JJ] [Text=romance CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=,] [Text=which CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=VBZ] [Text=such CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=taboo CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=IN] [Text=Hollywood CharacterOffsetBegin=214 CharacterOffsetEnd=223 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, film-12)
+advmod(shot-2, Sensually-1)
+dep(film-12, shot-2)
+cc(shot-2, and-3)
+conj(shot-2, stunningly-4)
+dep(shot-2, portrayed-5)
+punct(shot-2, ,-6)
+nn(Suare-8, Harem-7)
+nsubj(film-12, Suare-8)
+cop(film-12, is-9)
+det(film-12, a-10)
+amod(film-12, bold-11)
+nsubj(tackles-14, that-13)
+rcmod(film-12, tackles-14)
+amod(romance-16, interracial-15)
+dobj(tackles-14, romance-16)
+punct(romance-16, ,-17)
+nsubj(taboo-22, which-18)
+cop(taboo-22, is-19)
+predet(taboo-22, such-20)
+det(taboo-22, a-21)
+rcmod(romance-16, taboo-22)
+prep(taboo-22, in-23)
+pobj(in-23, Hollywood-24)
+punct(film-12, .-25)
+
+Sentence #4 (14 tokens):
+Women of all shapes, sizes, and color, populate the film.
+[Text=Women CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=shapes CharacterOffsetBegin=242 CharacterOffsetEnd=248 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=,] [Text=sizes CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=,] [Text=and CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=CC] [Text=color CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=,] [Text=populate CharacterOffsetBegin=268 CharacterOffsetEnd=276 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.] 
+root(ROOT-0, Women-1)
+prep(Women-1, of-2)
+det(shapes-4, all-3)
+pobj(of-2, shapes-4)
+punct(Women-1, ,-5)
+conj(Women-1, sizes-6)
+punct(Women-1, ,-7)
+cc(Women-1, and-8)
+conj(Women-1, color-9)
+punct(Women-1, ,-10)
+partmod(Women-1, populate-11)
+det(film-13, the-12)
+dobj(populate-11, film-13)
+punct(Women-1, .-14)
+
+Sentence #5 (25 tokens):
+Cut off from the outside world, the women entertain each other by telling stories about intrigue, rivalry and jealousies within their ranks.
+[Text=Cut CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=NNP] [Text=off CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT] [Text=outside CharacterOffsetBegin=308 CharacterOffsetEnd=315 PartOfSpeech=JJ] [Text=world CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=,] [Text=the CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=DT] [Text=women CharacterOffsetBegin=327 CharacterOffsetEnd=332 PartOfSpeech=NNS] [Text=entertain CharacterOffsetBegin=333 CharacterOffsetEnd=342 PartOfSpeech=VBP] [Text=each CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=JJ] [Text=by CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=IN] [Text=telling CharacterOffsetBegin=357 CharacterOffsetEnd=364 PartOfSpeech=VBG] [Text=stories CharacterOffsetBegin=365 CharacterOffsetEnd=372 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=IN] [Text=intrigue CharacterOffsetBegin=379 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=,] [Text=rivalry CharacterOffsetBegin=389 CharacterOffsetEnd=396 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=CC] [Text=jealousies CharacterOffsetBegin=401 CharacterOffsetEnd=411 PartOfSpeech=NNS] [Text=within CharacterOffsetBegin=412 CharacterOffsetEnd=418 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=PRP$] [Text=ranks CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=.] 
+root(ROOT-0, Cut-1)
+prt(Cut-1, off-2)
+prep(Cut-1, from-3)
+det(world-6, the-4)
+amod(world-6, outside-5)
+pobj(from-3, world-6)
+punct(Cut-1, ,-7)
+det(women-9, the-8)
+nsubj(entertain-10, women-9)
+dep(Cut-1, entertain-10)
+det(other-12, each-11)
+dobj(entertain-10, other-12)
+prep(entertain-10, by-13)
+pcomp(by-13, telling-14)
+dobj(telling-14, stories-15)
+prep(stories-15, about-16)
+pobj(about-16, intrigue-17)
+punct(intrigue-17, ,-18)
+conj(intrigue-17, rivalry-19)
+cc(intrigue-17, and-20)
+conj(intrigue-17, jealousies-21)
+prep(jealousies-21, within-22)
+poss(ranks-24, their-23)
+pobj(within-22, ranks-24)
+punct(Cut-1, .-25)
+

@@ -67,5 +67,5 @@ def clean_text(html):
 	return stripper.get_data()
 
 if __name__ == '__main__':
-	num_train = 2000
-	generate_train_sample(num_train, int(0.1*num_train))
+	num_train = 4000
+	#generate_train_sample(num_train, int(0.1*num_train))

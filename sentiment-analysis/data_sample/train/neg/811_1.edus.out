@@ -1,0 +1,96 @@
+Sentence #1 (7 tokens):
+The original was a good movie.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=8 CharacterOffsetEnd=16 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+det(original-2, The-1)
+nsubj(movie-6, original-2)
+cop(movie-6, was-3)
+det(movie-6, a-4)
+amod(movie-6, good-5)
+punct(movie-6, .-7)
+
+Sentence #2 (12 tokens):
+I bought it on tape and have watched it several times.
+[Text=I CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PRP] [Text=bought CharacterOffsetBegin=41 CharacterOffsetEnd=47 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=IN] [Text=tape CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=CC] [Text=have CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=VBP] [Text=watched CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=PRP] [Text=several CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.] 
+root(ROOT-0, bought-2)
+nsubj(bought-2, I-1)
+dobj(bought-2, it-3)
+prep(bought-2, on-4)
+pobj(on-4, tape-5)
+cc(bought-2, and-6)
+aux(watched-8, have-7)
+conj(bought-2, watched-8)
+dobj(watched-8, it-9)
+amod(times-11, several-10)
+tmod(watched-8, times-11)
+punct(bought-2, .-12)
+
+Sentence #3 (23 tokens):
+And though I know that sequels are not usually as good as the original I certainly wasn't expecting such a bomb.
+[Text=And CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=CC] [Text=though CharacterOffsetBegin=102 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=IN] [Text=sequels CharacterOffsetBegin=121 CharacterOffsetEnd=128 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=RB] [Text=usually CharacterOffsetBegin=137 CharacterOffsetEnd=144 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=160 CharacterOffsetEnd=168 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=PRP] [Text=certainly CharacterOffsetBegin=171 CharacterOffsetEnd=180 PartOfSpeech=RB] [Text=was CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=RB] [Text=expecting CharacterOffsetBegin=188 CharacterOffsetEnd=197 PartOfSpeech=VBG] [Text=such CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=PDT] [Text=a CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=bomb CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+mark(know-4, though-2)
+nsubj(know-4, I-3)
+ccomp(And-1, know-4)
+mark(good-11, that-5)
+nsubj(good-11, sequels-6)
+cop(good-11, are-7)
+neg(good-11, not-8)
+advmod(good-11, usually-9)
+advmod(good-11, as-10)
+ccomp(know-4, good-11)
+mark(expecting-19, as-12)
+det(I-15, the-13)
+amod(I-15, original-14)
+nsubj(expecting-19, I-15)
+advmod(expecting-19, certainly-16)
+aux(expecting-19, was-17)
+neg(expecting-19, n't-18)
+advcl(good-11, expecting-19)
+predet(bomb-22, such-20)
+det(bomb-22, a-21)
+dobj(expecting-19, bomb-22)
+punct(And-1, .-23)
+
+Sentence #4 (17 tokens):
+The romance was flat, the sight gags old, the spoken humor just wasn't.
+[Text=The CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=DT] [Text=romance CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=VBD] [Text=flat CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=,] [Text=the CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=sight CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=gags CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=NNS] [Text=old CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=,] [Text=the CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=DT] [Text=spoken CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=VBN] [Text=humor CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=RB] [Text=was CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.] 
+root(ROOT-0, flat-4)
+det(romance-2, The-1)
+nsubj(flat-4, romance-2)
+cop(flat-4, was-3)
+punct(flat-4, ,-5)
+det(sight-7, the-6)
+dep(flat-4, sight-7)
+dep(sight-7, gags-8)
+amod(gags-8, old-9)
+punct(sight-7, ,-10)
+det(humor-13, the-11)
+amod(humor-13, spoken-12)
+appos(sight-7, humor-13)
+advmod(was-15, just-14)
+dep(humor-13, was-15)
+neg(was-15, n't-16)
+punct(flat-4, .-17)
+
+Sentence #5 (17 tokens):
+This may not have been the worst movie I've ever seen but it comes close.
+[Text=This CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=DT] [Text=may CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=VBN] [Text=but CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=PRP] [Text=comes CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=VBZ] [Text=close CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=.] 
+root(ROOT-0, movie-8)
+nsubj(movie-8, This-1)
+aux(movie-8, may-2)
+neg(movie-8, not-3)
+aux(movie-8, have-4)
+cop(movie-8, been-5)
+det(movie-8, the-6)
+amod(movie-8, worst-7)
+nsubj(seen-12, I-9)
+aux(seen-12, 've-10)
+advmod(seen-12, ever-11)
+rcmod(movie-8, seen-12)
+cc(seen-12, but-13)
+nsubj(comes-15, it-14)
+conj(seen-12, comes-15)
+advmod(comes-15, close-16)
+punct(movie-8, .-17)
+

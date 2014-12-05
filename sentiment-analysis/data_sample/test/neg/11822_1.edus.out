@@ -1,0 +1,92 @@
+Sentence #1 (16 tokens):
+Let's just say that it might be the worst movie I've ever seen.
+[Text=Let CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=VB] [Text='s CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=PRP] [Text=might CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=.] 
+root(ROOT-0, Let-1)
+nsubj(say-4, 's-2)
+advmod(say-4, just-3)
+ccomp(Let-1, say-4)
+mark(movie-11, that-5)
+nsubj(movie-11, it-6)
+aux(movie-11, might-7)
+cop(movie-11, be-8)
+det(movie-11, the-9)
+amod(movie-11, worst-10)
+ccomp(say-4, movie-11)
+nsubj(seen-15, I-12)
+aux(seen-15, 've-13)
+advmod(seen-15, ever-14)
+rcmod(movie-11, seen-15)
+punct(Let-1, .-16)
+
+Sentence #2 (18 tokens):
+On the front of the box of the movie it says something about it resembling Reservoir Dogs.
+[Text=On CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=DT] [Text=front CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=DT] [Text=box CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text=says CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=VBZ] [Text=something CharacterOffsetBegin=117 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=PRP] [Text=resembling CharacterOffsetBegin=136 CharacterOffsetEnd=146 PartOfSpeech=VBG] [Text=Reservoir CharacterOffsetBegin=147 CharacterOffsetEnd=156 PartOfSpeech=NNP] [Text=Dogs CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=.] 
+root(ROOT-0, says-11)
+prep(says-11, On-1)
+det(front-3, the-2)
+pobj(On-1, front-3)
+prep(front-3, of-4)
+det(box-6, the-5)
+pobj(of-4, box-6)
+prep(box-6, of-7)
+det(movie-9, the-8)
+pobj(of-7, movie-9)
+nsubj(says-11, it-10)
+dobj(says-11, something-12)
+prep(something-12, about-13)
+nsubj(Dogs-17, it-14)
+nn(Dogs-17, resembling-15)
+nn(Dogs-17, Reservoir-16)
+pcomp(about-13, Dogs-17)
+punct(says-11, .-18)
+
+Sentence #3 (11 tokens):
+I fell for it hook, line, and sinker.
+[Text=I CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=PRP] [Text=fell CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=VBD] [Text=for CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=PRP] [Text=hook CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=,] [Text=line CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=,] [Text=and CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=CC] [Text=sinker CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=.] 
+root(ROOT-0, fell-2)
+nsubj(fell-2, I-1)
+prep(fell-2, for-3)
+nsubj(hook-5, it-4)
+pobj(for-3, hook-5)
+punct(hook-5, ,-6)
+conj(hook-5, line-7)
+punct(hook-5, ,-8)
+cc(hook-5, and-9)
+conj(hook-5, sinker-10)
+punct(fell-2, .-11)
+
+Sentence #4 (13 tokens):
+This is just a warning message to anyone who might read this.
+[Text=This CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=DT] [Text=warning CharacterOffsetBegin=224 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=message CharacterOffsetBegin=232 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=TO] [Text=anyone CharacterOffsetBegin=243 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=WP] [Text=might CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=MD] [Text=read CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=.] 
+root(ROOT-0, message-6)
+nsubj(message-6, This-1)
+cop(message-6, is-2)
+advmod(message-6, just-3)
+det(message-6, a-4)
+nn(message-6, warning-5)
+prep(message-6, to-7)
+pobj(to-7, anyone-8)
+nsubj(read-11, who-9)
+aux(read-11, might-10)
+rcmod(anyone-8, read-11)
+dobj(read-11, this-12)
+punct(message-6, .-13)
+
+Sentence #5 (14 tokens):
+It's not even worth renting when you want something to laugh at.
+[Text=It CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=JJ] [Text=renting CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=VBG] [Text=when CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=WRB] [Text=you CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=VBP] [Text=something CharacterOffsetBegin=317 CharacterOffsetEnd=326 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=TO] [Text=laugh CharacterOffsetBegin=330 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=.] 
+root(ROOT-0, worth-5)
+nsubj(worth-5, It-1)
+cop(worth-5, 's-2)
+neg(worth-5, not-3)
+advmod(worth-5, even-4)
+dep(worth-5, renting-6)
+advmod(want-9, when-7)
+nsubj(want-9, you-8)
+advcl(worth-5, want-9)
+nsubj(laugh-12, something-10)
+aux(laugh-12, to-11)
+xcomp(want-9, laugh-12)
+advmod(laugh-12, at-13)
+punct(worth-5, .-14)
+

@@ -1,0 +1,71 @@
+Sentence #1 (23 tokens):
+This is without question the worst screen adaptation of a Stephen King work, if not the WORST MOVIE OF ALL TIME!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=without CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=IN] [Text=question CharacterOffsetBegin=20 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=JJS] [Text=screen CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=adaptation CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=Stephen CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=NNP] [Text=King CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=NNP] [Text=work CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=,] [Text=if CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN] [Text=not CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=DT] [Text=WORST CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=JJS] [Text=MOVIE CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=OF CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN] [Text=ALL CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=TIME CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, This-1)
+prep(adaptation-8, without-3)
+pobj(without-3, question-4)
+det(screen-7, the-5)
+amod(screen-7, worst-6)
+nsubj(adaptation-8, screen-7)
+ccomp(is-2, adaptation-8)
+prep(adaptation-8, of-9)
+det(work-13, a-10)
+nn(work-13, Stephen-11)
+nn(work-13, King-12)
+pobj(of-9, work-13)
+punct(adaptation-8, ,-14)
+prep(adaptation-8, if-15)
+neg(MOVIE-19, not-16)
+det(MOVIE-19, the-17)
+amod(MOVIE-19, WORST-18)
+dep(if-15, MOVIE-19)
+prep(MOVIE-19, OF-20)
+nn(TIME-22, ALL-21)
+pobj(OF-20, TIME-22)
+punct(is-2, !-23)
+
+Sentence #2 (7 tokens):
+This is an unbelievably horrible movie.
+[Text=This CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=unbelievably CharacterOffsetBegin=132 CharacterOffsetEnd=144 PartOfSpeech=RB] [Text=horrible CharacterOffsetBegin=145 CharacterOffsetEnd=153 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, This-1)
+cop(movie-6, is-2)
+det(movie-6, an-3)
+amod(movie-6, unbelievably-4)
+amod(movie-6, horrible-5)
+punct(movie-6, .-7)
+
+Sentence #3 (14 tokens):
+I fell asleep on this stinker several times and I wasn't tired!
+[Text=I CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=PRP] [Text=fell CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=VBD] [Text=asleep CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=stinker CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=several CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=RB] [Text=tired CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=VBN] [Text=! CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=.] 
+root(ROOT-0, fell-2)
+nsubj(fell-2, I-1)
+advmod(fell-2, asleep-3)
+prep(fell-2, on-4)
+det(stinker-6, this-5)
+pobj(on-4, stinker-6)
+amod(times-8, several-7)
+tmod(fell-2, times-8)
+cc(fell-2, and-9)
+nsubj(tired-13, I-10)
+cop(tired-13, was-11)
+neg(tired-13, n't-12)
+conj(fell-2, tired-13)
+punct(fell-2, !-14)
+
+Sentence #4 (11 tokens):
+I would rather shoot myself than sit through it again!
+[Text=I CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=MD] [Text=rather CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=RB] [Text=shoot CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=VB] [Text=myself CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=PRP] [Text=than CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=sit CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=PRP] [Text=again CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, shoot-4)
+nsubj(shoot-4, I-1)
+aux(shoot-4, would-2)
+advmod(shoot-4, rather-3)
+dobj(shoot-4, myself-5)
+prep(shoot-4, than-6)
+pcomp(than-6, sit-7)
+prep(sit-7, through-8)
+pobj(through-8, it-9)
+advmod(sit-7, again-10)
+punct(shoot-4, !-11)
+

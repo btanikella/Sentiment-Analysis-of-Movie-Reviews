@@ -1,0 +1,184 @@
+Sentence #1 (26 tokens):
+The next time you are at a party and someone asks, "The other day I heard the expression 'Author's will'.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=next CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=VBP] [Text=at CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=DT] [Text=party CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=CC] [Text=someone CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=NN] [Text=asks CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=``] [Text=The CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=JJ] [Text=day CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=CD] [Text=heard CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=DT] [Text=expression CharacterOffsetBegin=82 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=` CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=``] [Text=Author CharacterOffsetBegin=94 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=POS] [Text=will CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=MD] [Text=' CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=''] [Text=. CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=.] 
+root(ROOT-0, time-3)
+det(time-3, The-1)
+amod(time-3, next-2)
+nsubj(are-5, you-4)
+rcmod(time-3, are-5)
+prep(are-5, at-6)
+det(party-8, a-7)
+pobj(at-6, party-8)
+cc(time-3, and-9)
+nsubj(asks-11, someone-10)
+conj(time-3, asks-11)
+punct(time-3, ,-12)
+punct(heard-18, ``-13)
+det(day-16, The-14)
+amod(day-16, other-15)
+dep(heard-18, day-16)
+nsubj(heard-18, I-17)
+dep(time-3, heard-18)
+det(expression-20, the-19)
+dep(heard-18, expression-20)
+punct(expression-20, `-21)
+dep(`-21, Author-22)
+possessive(Author-22, 's-23)
+dep(Author-22, will-24)
+punct(will-24, '-25)
+punct(Author-22, .-26)
+
+Sentence #2 (8 tokens):
+Does anyone know what it means?"
+[Text=Does CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=VBZ] [Text=anyone CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=know CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=PRP] [Text=means CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=VBZ] [Text=? CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=.] [Text='' CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=''] 
+root(ROOT-0, know-3)
+aux(know-3, Does-1)
+nsubj(know-3, anyone-2)
+dobj(means-6, what-4)
+nsubj(means-6, it-5)
+ccomp(know-3, means-6)
+punct(know-3, ?-7)
+punct(know-3, ''-8)
+
+Sentence #3 (11 tokens):
+Tell them to sit through 'Head Above Water'.
+[Text=Tell CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=TO] [Text=sit CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=168 CharacterOffsetEnd=175 PartOfSpeech=IN] [Text=` CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=``] [Text=Head CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=NNP] [Text=Above CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=NNP] [Text=Water CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=POS] [Text=. CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=.] 
+root(ROOT-0, Tell-1)
+dobj(Tell-1, them-2)
+aux(sit-4, to-3)
+xcomp(Tell-1, sit-4)
+prep(sit-4, through-5)
+punct(Water-9, `-6)
+nn(Water-9, Head-7)
+nn(Water-9, Above-8)
+pobj(through-5, Water-9)
+possessive(Water-9, '-10)
+punct(Tell-1, .-11)
+
+Sentence #4 (23 tokens):
+The only way Diaz could possibly have survived this movie was by means of this literary device commonly used by bad writers.
+[Text=The CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=Diaz CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=NNP] [Text=could CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=MD] [Text=possibly CharacterOffsetBegin=224 CharacterOffsetEnd=232 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=VB] [Text=survived CharacterOffsetBegin=238 CharacterOffsetEnd=246 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=VBD] [Text=by CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=IN] [Text=means CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=literary CharacterOffsetBegin=279 CharacterOffsetEnd=287 PartOfSpeech=JJ] [Text=device CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=commonly CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=RB] [Text=used CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=bad CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=JJ] [Text=writers CharacterOffsetBegin=316 CharacterOffsetEnd=323 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=.] 
+root(ROOT-0, was-11)
+det(way-3, The-1)
+amod(way-3, only-2)
+nsubj(was-11, way-3)
+nsubj(survived-8, Diaz-4)
+aux(survived-8, could-5)
+advmod(survived-8, possibly-6)
+aux(survived-8, have-7)
+rcmod(way-3, survived-8)
+det(movie-10, this-9)
+dobj(survived-8, movie-10)
+prep(was-11, by-12)
+pobj(by-12, means-13)
+prep(means-13, of-14)
+det(device-17, this-15)
+amod(device-17, literary-16)
+pobj(of-14, device-17)
+advmod(used-19, commonly-18)
+partmod(device-17, used-19)
+prep(used-19, by-20)
+amod(writers-22, bad-21)
+pobj(by-20, writers-22)
+punct(was-11, .-23)
+
+Sentence #5 (13 tokens):
+There are some comic scenes and you will have a few laughs.
+[Text=There CharacterOffsetBegin=329 CharacterOffsetEnd=334 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=VBP] [Text=some CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=DT] [Text=comic CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=JJ] [Text=scenes CharacterOffsetBegin=350 CharacterOffsetEnd=356 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=JJ] [Text=laughs CharacterOffsetBegin=381 CharacterOffsetEnd=387 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+det(scenes-5, some-3)
+amod(scenes-5, comic-4)
+nsubj(are-2, scenes-5)
+cc(are-2, and-6)
+nsubj(have-9, you-7)
+aux(have-9, will-8)
+conj(are-2, have-9)
+det(laughs-12, a-10)
+amod(laughs-12, few-11)
+dobj(have-9, laughs-12)
+punct(are-2, .-13)
+
+Sentence #6 (14 tokens):
+However the film does not stand up to the most minor logical analysis.
+[Text=However CharacterOffsetBegin=393 CharacterOffsetEnd=400 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=RB] [Text=stand CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=435 CharacterOffsetEnd=439 PartOfSpeech=RBS] [Text=minor CharacterOffsetBegin=440 CharacterOffsetEnd=445 PartOfSpeech=JJ] [Text=logical CharacterOffsetBegin=446 CharacterOffsetEnd=453 PartOfSpeech=JJ] [Text=analysis CharacterOffsetBegin=454 CharacterOffsetEnd=462 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=.] 
+root(ROOT-0, stand-6)
+advmod(stand-6, However-1)
+det(film-3, the-2)
+nsubj(stand-6, film-3)
+aux(stand-6, does-4)
+neg(stand-6, not-5)
+prt(stand-6, up-7)
+prep(stand-6, to-8)
+det(analysis-13, the-9)
+advmod(minor-11, most-10)
+amod(analysis-13, minor-11)
+amod(analysis-13, logical-12)
+pobj(to-8, analysis-13)
+punct(stand-6, .-14)
+
+Sentence #7 (15 tokens):
+Why does Keitel tie Diaz's hand in front of her instead of behind?
+[Text=Why CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=WRB] [Text=does CharacterOffsetBegin=472 CharacterOffsetEnd=476 PartOfSpeech=VBZ] [Text=Keitel CharacterOffsetBegin=477 CharacterOffsetEnd=483 PartOfSpeech=NNP] [Text=tie CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=VB] [Text=Diaz CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=492 CharacterOffsetEnd=494 PartOfSpeech=POS] [Text=hand CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=IN] [Text=front CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=509 CharacterOffsetEnd=511 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=PRP$] [Text=instead CharacterOffsetBegin=516 CharacterOffsetEnd=523 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=IN] [Text=behind CharacterOffsetBegin=527 CharacterOffsetEnd=533 PartOfSpeech=IN] [Text=? CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=.] 
+root(ROOT-0, tie-4)
+advmod(tie-4, Why-1)
+aux(tie-4, does-2)
+nsubj(tie-4, Keitel-3)
+poss(hand-7, Diaz-5)
+possessive(Diaz-5, 's-6)
+dobj(tie-4, hand-7)
+prep(tie-4, in-8)
+pobj(in-8, front-9)
+prep(front-9, of-10)
+pobj(of-10, her-11)
+advmod(of-13, instead-12)
+prep(tie-4, of-13)
+pcomp(of-13, behind-14)
+punct(tie-4, ?-15)
+
+Sentence #8 (11 tokens):
+Why so she can do the chainsaw gag of course.
+[Text=Why CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=WRB] [Text=so CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=RB] [Text=she CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=554 CharacterOffsetEnd=556 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=DT] [Text=chainsaw CharacterOffsetBegin=561 CharacterOffsetEnd=569 PartOfSpeech=NN] [Text=gag CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=577 CharacterOffsetEnd=583 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=583 CharacterOffsetEnd=584 PartOfSpeech=.] 
+root(ROOT-0, do-5)
+advmod(so-2, Why-1)
+advmod(do-5, so-2)
+nsubj(do-5, she-3)
+aux(do-5, can-4)
+det(gag-8, the-6)
+nn(gag-8, chainsaw-7)
+dobj(do-5, gag-8)
+prep(gag-8, of-9)
+pobj(of-9, course-10)
+punct(do-5, .-11)
+
+Sentence #9 (27 tokens):
+For me the best part of this movie was that I saw it on a cable channel instead of spending four bucks at the video shop.
+[Text=For CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=PRP] [Text=the CharacterOffsetBegin=596 CharacterOffsetEnd=599 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=600 CharacterOffsetEnd=604 PartOfSpeech=JJS] [Text=part CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=618 CharacterOffsetEnd=623 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=642 CharacterOffsetEnd=644 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=DT] [Text=cable CharacterOffsetBegin=647 CharacterOffsetEnd=652 PartOfSpeech=NN] [Text=channel CharacterOffsetBegin=653 CharacterOffsetEnd=660 PartOfSpeech=NN] [Text=instead CharacterOffsetBegin=661 CharacterOffsetEnd=668 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=669 CharacterOffsetEnd=671 PartOfSpeech=IN] [Text=spending CharacterOffsetBegin=672 CharacterOffsetEnd=680 PartOfSpeech=VBG] [Text=four CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=CD] [Text=bucks CharacterOffsetBegin=686 CharacterOffsetEnd=691 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=692 CharacterOffsetEnd=694 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=DT] [Text=video CharacterOffsetBegin=699 CharacterOffsetEnd=704 PartOfSpeech=NN] [Text=shop CharacterOffsetBegin=705 CharacterOffsetEnd=709 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=.] 
+root(ROOT-0, was-9)
+prep(was-9, For-1)
+pobj(For-1, me-2)
+det(part-5, the-3)
+amod(part-5, best-4)
+nsubj(was-9, part-5)
+prep(part-5, of-6)
+det(movie-8, this-7)
+pobj(of-6, movie-8)
+mark(saw-12, that-10)
+nsubj(saw-12, I-11)
+ccomp(was-9, saw-12)
+dobj(saw-12, it-13)
+prep(saw-12, on-14)
+det(channel-17, a-15)
+nn(channel-17, cable-16)
+pobj(on-14, channel-17)
+advmod(of-19, instead-18)
+prep(on-14, of-19)
+pcomp(of-19, spending-20)
+num(bucks-22, four-21)
+dobj(spending-20, bucks-22)
+prep(spending-20, at-23)
+det(shop-26, the-24)
+nn(shop-26, video-25)
+pobj(at-23, shop-26)
+punct(was-9, .-27)
+

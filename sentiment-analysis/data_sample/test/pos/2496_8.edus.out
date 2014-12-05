@@ -1,0 +1,84 @@
+Sentence #1 (5 tokens):
+This movie was sweet.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=sweet CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=.] 
+root(ROOT-0, sweet-4)
+det(movie-2, This-1)
+nsubj(sweet-4, movie-2)
+cop(sweet-4, was-3)
+punct(sweet-4, .-5)
+
+Sentence #2 (14 tokens):
+The main character lady was sensitive to 2 different men who wanted her.
+[Text=The CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=main CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=39 CharacterOffsetEnd=48 PartOfSpeech=NN] [Text=lady CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=VBD] [Text=sensitive CharacterOffsetBegin=58 CharacterOffsetEnd=67 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=TO] [Text=2 CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=CD] [Text=different CharacterOffsetBegin=73 CharacterOffsetEnd=82 PartOfSpeech=JJ] [Text=men CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=WP] [Text=wanted CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=.] 
+root(ROOT-0, sensitive-6)
+det(lady-4, The-1)
+amod(lady-4, main-2)
+nn(lady-4, character-3)
+nsubj(sensitive-6, lady-4)
+cop(sensitive-6, was-5)
+prep(sensitive-6, to-7)
+num(men-10, 2-8)
+amod(men-10, different-9)
+pobj(to-7, men-10)
+nsubj(wanted-12, who-11)
+rcmod(men-10, wanted-12)
+dobj(wanted-12, her-13)
+punct(sensitive-6, .-14)
+
+Sentence #3 (24 tokens):
+She seemed not a character at all but a real person who had made some mistakes but was trying to set things right.
+[Text=She CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=PRP] [Text=seemed CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=124 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=DT] [Text=but CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=person CharacterOffsetBegin=152 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=WP] [Text=had CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=VBD] [Text=made CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=VBN] [Text=some CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=DT] [Text=mistakes CharacterOffsetBegin=177 CharacterOffsetEnd=185 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=VBD] [Text=trying CharacterOffsetBegin=194 CharacterOffsetEnd=200 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=TO] [Text=set CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=VB] [Text=things CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NNS] [Text=right CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=.] 
+root(ROOT-0, character-5)
+nsubj(character-5, She-1)
+cop(character-5, seemed-2)
+neg(character-5, not-3)
+det(character-5, a-4)
+prep(character-5, at-6)
+pobj(at-6, all-7)
+prep(all-7, but-8)
+det(person-11, a-9)
+amod(person-11, real-10)
+dep(but-8, person-11)
+nsubj(made-14, who-12)
+aux(made-14, had-13)
+rcmod(person-11, made-14)
+det(mistakes-16, some-15)
+dobj(made-14, mistakes-16)
+cc(made-14, but-17)
+aux(trying-19, was-18)
+conj(made-14, trying-19)
+aux(set-21, to-20)
+xcomp(trying-19, set-21)
+dobj(set-21, things-22)
+advmod(set-21, right-23)
+punct(character-5, .-24)
+
+Sentence #4 (7 tokens):
+I liked the movie a lot.
+[Text=I CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=PRP] [Text=liked CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=.] 
+root(ROOT-0, liked-2)
+nsubj(liked-2, I-1)
+det(movie-4, the-3)
+dobj(liked-2, movie-4)
+det(lot-6, a-5)
+npadvmod(movie-4, lot-6)
+punct(liked-2, .-7)
+
+Sentence #5 (14 tokens):
+Even the older ladies who were lesbian didn't irritate me too much.
+[Text=Even CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=DT] [Text=older CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=JJR] [Text=ladies CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=WP] [Text=were CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=VBD] [Text=lesbian CharacterOffsetBegin=286 CharacterOffsetEnd=293 PartOfSpeech=JJ] [Text=did CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=RB] [Text=irritate CharacterOffsetBegin=301 CharacterOffsetEnd=309 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=PRP] [Text=too CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=.] 
+root(ROOT-0, irritate-10)
+advmod(ladies-4, Even-1)
+det(ladies-4, the-2)
+amod(ladies-4, older-3)
+nsubj(irritate-10, ladies-4)
+nsubj(lesbian-7, who-5)
+cop(lesbian-7, were-6)
+rcmod(ladies-4, lesbian-7)
+aux(irritate-10, did-8)
+neg(irritate-10, n't-9)
+dobj(irritate-10, me-11)
+advmod(much-13, too-12)
+advmod(irritate-10, much-13)
+punct(irritate-10, .-14)
+

@@ -1,0 +1,37 @@
+Sentence #1 (11 tokens):
+Touching; Well directed autobiography of a talented young director/producer.
+[Text=Touching CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=VBG] [Text=; CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=:] [Text=Well CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=UH] [Text=directed CharacterOffsetBegin=19 CharacterOffsetEnd=27 PartOfSpeech=VBN] [Text=autobiography CharacterOffsetBegin=28 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=talented CharacterOffsetBegin=47 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=young CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=JJ] [Text=director/producer CharacterOffsetBegin=62 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=.] 
+root(ROOT-0, Touching-1)
+punct(Touching-1, ;-2)
+advmod(directed-4, Well-3)
+amod(autobiography-5, directed-4)
+conj(Touching-1, autobiography-5)
+prep(autobiography-5, of-6)
+det(director/producer-10, a-7)
+amod(director/producer-10, talented-8)
+amod(director/producer-10, young-9)
+pobj(of-6, director/producer-10)
+punct(Touching-1, .-11)
+
+Sentence #2 (11 tokens):
+A love story with Rabin's assassination in the background.
+[Text=A CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=DT] [Text=love CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=story CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=IN] [Text=Rabin CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=POS] [Text=assassination CharacterOffsetBegin=111 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=background CharacterOffsetBegin=132 CharacterOffsetEnd=142 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=.] 
+root(ROOT-0, story-3)
+det(story-3, A-1)
+nn(story-3, love-2)
+prep(story-3, with-4)
+poss(assassination-7, Rabin-5)
+possessive(Rabin-5, 's-6)
+pobj(with-4, assassination-7)
+prep(assassination-7, in-8)
+det(background-10, the-9)
+pobj(in-8, background-10)
+punct(story-3, .-11)
+
+Sentence #3 (3 tokens):
+Worth seeing !
+[Text=Worth CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NNP] [Text=seeing CharacterOffsetBegin=154 CharacterOffsetEnd=160 PartOfSpeech=VBG] [Text=! CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=.] 
+root(ROOT-0, seeing-2)
+aux(seeing-2, Worth-1)
+punct(seeing-2, !-3)
+

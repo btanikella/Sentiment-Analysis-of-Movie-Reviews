@@ -1,0 +1,70 @@
+Sentence #1 (7 tokens):
+Excellent movie, albeit slightly predictable.
+[Text=Excellent CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=,] [Text=albeit CharacterOffsetBegin=21 CharacterOffsetEnd=27 PartOfSpeech=IN] [Text=slightly CharacterOffsetBegin=28 CharacterOffsetEnd=36 PartOfSpeech=RB] [Text=predictable CharacterOffsetBegin=37 CharacterOffsetEnd=48 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=.] 
+root(ROOT-0, movie-2)
+amod(movie-2, Excellent-1)
+punct(movie-2, ,-3)
+dep(predictable-6, albeit-4)
+advmod(predictable-6, slightly-5)
+amod(movie-2, predictable-6)
+punct(movie-2, .-7)
+
+Sentence #2 (12 tokens):
+I have to comment on Nicole Kidmans acting in this movie.
+[Text=I CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=TO] [Text=comment CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN] [Text=Nicole CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=NNP] [Text=Kidmans CharacterOffsetBegin=82 CharacterOffsetEnd=89 PartOfSpeech=NNP] [Text=acting CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+aux(comment-4, to-3)
+xcomp(have-2, comment-4)
+prep(comment-4, on-5)
+pobj(on-5, Nicole-6)
+dep(Nicole-6, Kidmans-7)
+partmod(Kidmans-7, acting-8)
+prep(acting-8, in-9)
+det(movie-11, this-10)
+pobj(in-9, movie-11)
+punct(have-2, .-12)
+
+Sentence #3 (27 tokens):
+Some of her other works haven't shown the amazing talent this woman has, but Birthday Girl doesn't suffer from this in the slightest.
+[Text=Some CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=PRP$] [Text=other CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=JJ] [Text=works CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=RB] [Text=shown CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=amazing CharacterOffsetBegin=158 CharacterOffsetEnd=165 PartOfSpeech=JJ] [Text=talent CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=,] [Text=but CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=CC] [Text=Birthday CharacterOffsetBegin=193 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=Girl CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=NNP] [Text=does CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=RB] [Text=suffer CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=VB] [Text=from CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=DT] [Text=in CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=DT] [Text=slightest CharacterOffsetBegin=239 CharacterOffsetEnd=248 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=.] 
+root(ROOT-0, shown-8)
+nsubj(shown-8, Some-1)
+prep(Some-1, of-2)
+poss(works-5, her-3)
+amod(works-5, other-4)
+pobj(of-2, works-5)
+aux(shown-8, have-6)
+neg(shown-8, n't-7)
+det(talent-11, the-9)
+amod(talent-11, amazing-10)
+dobj(shown-8, talent-11)
+det(woman-13, this-12)
+nsubj(has-14, woman-13)
+ccomp(shown-8, has-14)
+punct(shown-8, ,-15)
+cc(shown-8, but-16)
+nn(Girl-18, Birthday-17)
+nsubj(suffer-21, Girl-18)
+aux(suffer-21, does-19)
+neg(suffer-21, n't-20)
+conj(shown-8, suffer-21)
+prep(suffer-21, from-22)
+pobj(from-22, this-23)
+prep(suffer-21, in-24)
+det(slightest-26, the-25)
+pobj(in-24, slightest-26)
+punct(shown-8, .-27)
+
+Sentence #4 (8 tokens):
+Even without words Kidmans acting shines through.
+[Text=Even CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=RB] [Text=without CharacterOffsetBegin=259 CharacterOffsetEnd=266 PartOfSpeech=IN] [Text=words CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NNS] [Text=Kidmans CharacterOffsetBegin=273 CharacterOffsetEnd=280 PartOfSpeech=NNP] [Text=acting CharacterOffsetBegin=281 CharacterOffsetEnd=287 PartOfSpeech=VBG] [Text=shines CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=NNS] [Text=through CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=.] 
+root(ROOT-0, without-2)
+advmod(without-2, Even-1)
+nn(shines-6, words-3)
+nn(shines-6, Kidmans-4)
+amod(shines-6, acting-5)
+pobj(without-2, shines-6)
+dep(without-2, through-7)
+punct(without-2, .-8)
+

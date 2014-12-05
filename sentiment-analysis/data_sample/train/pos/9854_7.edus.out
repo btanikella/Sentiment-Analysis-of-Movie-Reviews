@@ -1,0 +1,82 @@
+Sentence #1 (20 tokens):
+I can't stand it when people go see a movie when they know they won't like it.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=RB] [Text=stand CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=PRP] [Text=when CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=WRB] [Text=people CharacterOffsetBegin=26 CharacterOffsetEnd=32 PartOfSpeech=NNS] [Text=go CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=VBP] [Text=see CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, stand-4)
+nsubj(stand-4, I-1)
+aux(stand-4, ca-2)
+neg(stand-4, n't-3)
+dobj(stand-4, it-5)
+advmod(go-8, when-6)
+nsubj(go-8, people-7)
+advcl(stand-4, go-8)
+xcomp(go-8, see-9)
+det(movie-11, a-10)
+dobj(see-9, movie-11)
+advmod(know-14, when-12)
+nsubj(know-14, they-13)
+advcl(see-9, know-14)
+nsubj(like-18, they-15)
+aux(like-18, wo-16)
+neg(like-18, n't-17)
+ccomp(know-14, like-18)
+dobj(like-18, it-19)
+punct(stand-4, .-20)
+
+Sentence #2 (13 tokens):
+My mom likes violent movies, so why did she see it?
+[Text=My CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=PRP$] [Text=mom CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=likes CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=VBZ] [Text=violent CharacterOffsetBegin=100 CharacterOffsetEnd=107 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=108 CharacterOffsetEnd=114 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=,] [Text=so CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=RB] [Text=why CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=VBD] [Text=she CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=.] 
+root(ROOT-0, likes-3)
+poss(mom-2, My-1)
+nsubj(likes-3, mom-2)
+amod(movies-5, violent-4)
+dobj(likes-3, movies-5)
+punct(likes-3, ,-6)
+advmod(likes-3, so-7)
+advmod(see-11, why-8)
+aux(see-11, did-9)
+nsubj(see-11, she-10)
+advcl(likes-3, see-11)
+dobj(see-11, it-12)
+punct(likes-3, ?-13)
+
+Sentence #3 (10 tokens):
+She rated it just to bring down the rating.
+[Text=She CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=PRP] [Text=rated CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=TO] [Text=bring CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=VB] [Text=down CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=rating CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=.] 
+root(ROOT-0, rated-2)
+nsubj(rated-2, She-1)
+dobj(rated-2, it-3)
+advmod(bring-6, just-4)
+aux(bring-6, to-5)
+xcomp(rated-2, bring-6)
+prt(bring-6, down-7)
+det(rating-9, the-8)
+dobj(bring-6, rating-9)
+punct(rated-2, .-10)
+
+Sentence #4 (14 tokens):
+So I know that's why it didn't have a higher rating.
+[Text=So CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=VBZ] [Text=why CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=higher CharacterOffsetBegin=229 CharacterOffsetEnd=235 PartOfSpeech=JJR] [Text=rating CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=.] 
+root(ROOT-0, know-3)
+dep(know-3, So-1)
+nsubj(know-3, I-2)
+nsubj('s-5, that-4)
+ccomp(know-3, 's-5)
+advmod(have-10, why-6)
+nsubj(have-10, it-7)
+aux(have-10, did-8)
+neg(have-10, n't-9)
+advcl('s-5, have-10)
+det(rating-13, a-11)
+amod(rating-13, higher-12)
+dobj(have-10, rating-13)
+punct(know-3, .-14)
+
+Sentence #5 (5 tokens):
+I give it a 6/10
+[Text=I CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=PRP] [Text=give CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=DT] [Text=6/10 CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=CD] 
+root(ROOT-0, give-2)
+nsubj(give-2, I-1)
+iobj(give-2, it-3)
+det(6/10-5, a-4)
+dobj(give-2, 6/10-5)
+

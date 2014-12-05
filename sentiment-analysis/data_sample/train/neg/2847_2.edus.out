@@ -1,0 +1,78 @@
+Sentence #1 (11 tokens):
+This is simply the worst movie I've ever seen.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=simply CharacterOffsetBegin=12 CharacterOffsetEnd=18 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, This-1)
+cop(movie-6, is-2)
+advmod(movie-6, simply-3)
+det(movie-6, the-4)
+amod(movie-6, worst-5)
+nsubj(seen-10, I-7)
+aux(seen-10, 've-8)
+advmod(seen-10, ever-9)
+rcmod(movie-6, seen-10)
+punct(movie-6, .-11)
+
+Sentence #2 (23 tokens):
+Neither of the three central characters has any charm, and Erika's good looks aren't enough to carry the film.
+[Text=Neither CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=three CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=CD] [Text=central CharacterOffsetBegin=76 CharacterOffsetEnd=83 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=84 CharacterOffsetEnd=94 PartOfSpeech=NNS] [Text=has CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=VBZ] [Text=any CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=charm CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=,] [Text=and CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=CC] [Text=Erika CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=POS] [Text=good CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=JJ] [Text=looks CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=140 CharacterOffsetEnd=146 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=TO] [Text=carry CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=.] 
+root(ROOT-0, has-7)
+nsubj(has-7, Neither-1)
+prep(Neither-1, of-2)
+det(characters-6, the-3)
+num(characters-6, three-4)
+amod(characters-6, central-5)
+pobj(of-2, characters-6)
+det(charm-9, any-8)
+dobj(has-7, charm-9)
+punct(has-7, ,-10)
+cc(has-7, and-11)
+poss(looks-15, Erika-12)
+possessive(Erika-12, 's-13)
+amod(looks-15, good-14)
+nsubj(enough-18, looks-15)
+cop(enough-18, are-16)
+neg(enough-18, n't-17)
+conj(has-7, enough-18)
+aux(carry-20, to-19)
+xcomp(enough-18, carry-20)
+det(film-22, the-21)
+dobj(carry-20, film-22)
+punct(has-7, .-23)
+
+Sentence #3 (11 tokens):
+The lamest plot I've ever had inflicted upon me.
+[Text=The CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DT] [Text=lamest CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=JJS] [Text=plot CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=RB] [Text=had CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VBN] [Text=inflicted CharacterOffsetBegin=200 CharacterOffsetEnd=209 PartOfSpeech=VBN] [Text=upon CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=.] 
+root(ROOT-0, plot-3)
+det(plot-3, The-1)
+amod(plot-3, lamest-2)
+nsubj(had-7, I-4)
+aux(had-7, 've-5)
+advmod(had-7, ever-6)
+rcmod(plot-3, had-7)
+dobj(had-7, inflicted-8)
+prep(inflicted-8, upon-9)
+pobj(upon-9, me-10)
+punct(plot-3, .-11)
+
+Sentence #4 (8 tokens):
+Also the most unconvincing military comedy ever.
+[Text=Also CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=RBS] [Text=unconvincing CharacterOffsetBegin=237 CharacterOffsetEnd=249 PartOfSpeech=JJ] [Text=military CharacterOffsetBegin=250 CharacterOffsetEnd=258 PartOfSpeech=JJ] [Text=comedy CharacterOffsetBegin=259 CharacterOffsetEnd=265 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, Also-1)
+det(comedy-6, the-2)
+advmod(unconvincing-4, most-3)
+amod(comedy-6, unconvincing-4)
+amod(comedy-6, military-5)
+dep(Also-1, comedy-6)
+advmod(comedy-6, ever-7)
+punct(Also-1, .-8)
+
+Sentence #5 (5 tokens):
+Why did they bother?
+[Text=Why CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=PRP] [Text=bother CharacterOffsetBegin=289 CharacterOffsetEnd=295 PartOfSpeech=VB] [Text=? CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=.] 
+root(ROOT-0, bother-4)
+advmod(bother-4, Why-1)
+aux(bother-4, did-2)
+nsubj(bother-4, they-3)
+punct(bother-4, ?-5)
+

@@ -1,0 +1,187 @@
+Sentence #1 (13 tokens):
+I have yet to read a negative professional review of this movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=yet CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=TO] [Text=read CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=DT] [Text=negative CharacterOffsetBegin=25 CharacterOffsetEnd=33 PartOfSpeech=JJ] [Text=professional CharacterOffsetBegin=34 CharacterOffsetEnd=46 PartOfSpeech=JJ] [Text=review CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+advmod(have-2, yet-3)
+aux(read-5, to-4)
+xcomp(have-2, read-5)
+det(review-9, a-6)
+amod(review-9, negative-7)
+amod(review-9, professional-8)
+dobj(read-5, review-9)
+prep(review-9, of-10)
+det(movie-12, this-11)
+pobj(of-10, movie-12)
+punct(have-2, .-13)
+
+Sentence #2 (8 tokens):
+I guess I must have missed something.
+[Text=I CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=VBP] [Text=I CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=PRP] [Text=must CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=VB] [Text=missed CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=VBN] [Text=something CharacterOffsetBegin=100 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.] 
+root(ROOT-0, guess-2)
+nsubj(guess-2, I-1)
+nsubj(missed-6, I-3)
+aux(missed-6, must-4)
+aux(missed-6, have-5)
+ccomp(guess-2, missed-6)
+dobj(missed-6, something-7)
+punct(guess-2, .-8)
+
+Sentence #3 (26 tokens):
+The beginning is intriguing, the three main characters meet late at night in an otherwise empty bar and entertain each other with invented stories.
+[Text=The CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=119 CharacterOffsetEnd=128 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=VBZ] [Text=intriguing CharacterOffsetBegin=132 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=,] [Text=the CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=DT] [Text=three CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=CD] [Text=main CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=159 CharacterOffsetEnd=169 PartOfSpeech=NNS] [Text=meet CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=VBP] [Text=late CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=night CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=DT] [Text=otherwise CharacterOffsetBegin=195 CharacterOffsetEnd=204 PartOfSpeech=RB] [Text=empty CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=JJ] [Text=bar CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=CC] [Text=entertain CharacterOffsetBegin=219 CharacterOffsetEnd=228 PartOfSpeech=VB] [Text=each CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=invented CharacterOffsetBegin=245 CharacterOffsetEnd=253 PartOfSpeech=VBN] [Text=stories CharacterOffsetBegin=254 CharacterOffsetEnd=261 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=.] 
+root(ROOT-0, intriguing-4)
+det(beginning-2, The-1)
+nsubj(intriguing-4, beginning-2)
+cop(intriguing-4, is-3)
+punct(intriguing-4, ,-5)
+det(characters-9, the-6)
+num(characters-9, three-7)
+amod(characters-9, main-8)
+nsubj(meet-10, characters-9)
+conj(intriguing-4, meet-10)
+advmod(meet-10, late-11)
+prep(late-11, at-12)
+pobj(at-12, night-13)
+prep(meet-10, in-14)
+det(bar-18, an-15)
+advmod(empty-17, otherwise-16)
+amod(bar-18, empty-17)
+pobj(in-14, bar-18)
+cc(intriguing-4, and-19)
+conj(intriguing-4, entertain-20)
+det(other-22, each-21)
+dobj(entertain-20, other-22)
+prep(other-22, with-23)
+amod(stories-25, invented-24)
+pobj(with-23, stories-25)
+punct(intriguing-4, .-26)
+
+Sentence #4 (6 tokens):
+That's the best part.
+[Text=That CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=JJS] [Text=part CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=.] 
+root(ROOT-0, part-5)
+nsubj(part-5, That-1)
+cop(part-5, 's-2)
+det(part-5, the-3)
+amod(part-5, best-4)
+punct(part-5, .-6)
+
+Sentence #5 (15 tokens):
+After the three go their separate ways, the film splits into three threads.
+[Text=After CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=DT] [Text=three CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=CD] [Text=go CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=VBP] [Text=their CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=PRP$] [Text=separate CharacterOffsetBegin=318 CharacterOffsetEnd=326 PartOfSpeech=JJ] [Text=ways CharacterOffsetBegin=327 CharacterOffsetEnd=331 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=,] [Text=the CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=NN] [Text=splits CharacterOffsetBegin=342 CharacterOffsetEnd=348 PartOfSpeech=VBZ] [Text=into CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=IN] [Text=three CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=CD] [Text=threads CharacterOffsetBegin=360 CharacterOffsetEnd=367 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=.] 
+root(ROOT-0, splits-11)
+mark(go-4, After-1)
+det(three-3, the-2)
+nsubj(go-4, three-3)
+advcl(splits-11, go-4)
+poss(ways-7, their-5)
+amod(ways-7, separate-6)
+dobj(go-4, ways-7)
+punct(splits-11, ,-8)
+det(film-10, the-9)
+nsubj(splits-11, film-10)
+prep(splits-11, into-12)
+num(threads-14, three-13)
+pobj(into-12, threads-14)
+punct(splits-11, .-15)
+
+Sentence #6 (7 tokens):
+That's when boredom sets in.
+[Text=That CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=VBZ] [Text=when CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=WRB] [Text=boredom CharacterOffsetBegin=385 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=sets CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=400 CharacterOffsetEnd=401 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+nsubj('s-2, That-1)
+advmod(sets-5, when-3)
+nsubj(sets-5, boredom-4)
+advcl('s-2, sets-5)
+prt(sets-5, in-6)
+punct('s-2, .-7)
+
+Sentence #7 (23 tokens):
+Certainly, the thread with the Felliniesque babushkas who make dolls out of chewed bread is at first an eye opening curiosity.
+[Text=Certainly CharacterOffsetBegin=406 CharacterOffsetEnd=415 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=415 CharacterOffsetEnd=416 PartOfSpeech=,] [Text=the CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=DT] [Text=thread CharacterOffsetBegin=421 CharacterOffsetEnd=427 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=DT] [Text=Felliniesque CharacterOffsetBegin=437 CharacterOffsetEnd=449 PartOfSpeech=JJ] [Text=babushkas CharacterOffsetBegin=450 CharacterOffsetEnd=459 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=WP] [Text=make CharacterOffsetBegin=464 CharacterOffsetEnd=468 PartOfSpeech=VBP] [Text=dolls CharacterOffsetBegin=469 CharacterOffsetEnd=474 PartOfSpeech=NNS] [Text=out CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=IN] [Text=chewed CharacterOffsetBegin=482 CharacterOffsetEnd=488 PartOfSpeech=VBN] [Text=bread CharacterOffsetBegin=489 CharacterOffsetEnd=494 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=495 CharacterOffsetEnd=497 PartOfSpeech=VBZ] [Text=at CharacterOffsetBegin=498 CharacterOffsetEnd=500 PartOfSpeech=IN] [Text=first CharacterOffsetBegin=501 CharacterOffsetEnd=506 PartOfSpeech=RB] [Text=an CharacterOffsetBegin=507 CharacterOffsetEnd=509 PartOfSpeech=DT] [Text=eye CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=NN] [Text=opening CharacterOffsetBegin=514 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=curiosity CharacterOffsetBegin=522 CharacterOffsetEnd=531 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=.] 
+root(ROOT-0, is-16)
+advmod(is-16, Certainly-1)
+punct(is-16, ,-2)
+det(thread-4, the-3)
+nsubj(is-16, thread-4)
+prep(thread-4, with-5)
+det(babushkas-8, the-6)
+amod(babushkas-8, Felliniesque-7)
+pobj(with-5, babushkas-8)
+nsubj(make-10, who-9)
+rcmod(babushkas-8, make-10)
+dobj(make-10, dolls-11)
+prep(make-10, out-12)
+pcomp(out-12, of-13)
+amod(bread-15, chewed-14)
+pobj(of-13, bread-15)
+prep(is-16, at-17)
+advmod(curiosity-22, first-18)
+det(curiosity-22, an-19)
+nn(curiosity-22, eye-20)
+nn(curiosity-22, opening-21)
+pobj(at-17, curiosity-22)
+punct(is-16, .-23)
+
+Sentence #8 (22 tokens):
+Unfortunately, the director beat this one to death, even injecting a wild plot line that leads nowhere in particular.
+[Text=Unfortunately CharacterOffsetBegin=537 CharacterOffsetEnd=550 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=,] [Text=the CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=556 CharacterOffsetEnd=564 PartOfSpeech=NN] [Text=beat CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=CD] [Text=to CharacterOffsetBegin=579 CharacterOffsetEnd=581 PartOfSpeech=TO] [Text=death CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=,] [Text=even CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=RB] [Text=injecting CharacterOffsetBegin=594 CharacterOffsetEnd=603 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=DT] [Text=wild CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=611 CharacterOffsetEnd=615 PartOfSpeech=NN] [Text=line CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=621 CharacterOffsetEnd=625 PartOfSpeech=WDT] [Text=leads CharacterOffsetBegin=626 CharacterOffsetEnd=631 PartOfSpeech=VBZ] [Text=nowhere CharacterOffsetBegin=632 CharacterOffsetEnd=639 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=IN] [Text=particular CharacterOffsetBegin=643 CharacterOffsetEnd=653 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=.] 
+root(ROOT-0, beat-5)
+advmod(beat-5, Unfortunately-1)
+punct(beat-5, ,-2)
+det(director-4, the-3)
+nsubj(beat-5, director-4)
+det(one-7, this-6)
+dobj(beat-5, one-7)
+prep(beat-5, to-8)
+pobj(to-8, death-9)
+punct(beat-5, ,-10)
+advmod(injecting-12, even-11)
+xcomp(beat-5, injecting-12)
+det(line-16, a-13)
+amod(line-16, wild-14)
+nn(line-16, plot-15)
+dobj(injecting-12, line-16)
+nsubj(leads-18, that-17)
+rcmod(line-16, leads-18)
+advmod(leads-18, nowhere-19)
+prep(nowhere-19, in-20)
+pobj(in-20, particular-21)
+punct(beat-5, .-22)
+
+Sentence #9 (8 tokens):
+Bottom line: a two-hour plot-thin listlessness.
+[Text=Bottom CharacterOffsetBegin=659 CharacterOffsetEnd=665 PartOfSpeech=NN] [Text=line CharacterOffsetBegin=666 CharacterOffsetEnd=670 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=:] [Text=a CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=DT] [Text=two-hour CharacterOffsetBegin=674 CharacterOffsetEnd=682 PartOfSpeech=JJ] [Text=plot-thin CharacterOffsetBegin=683 CharacterOffsetEnd=692 PartOfSpeech=NN] [Text=listlessness CharacterOffsetBegin=693 CharacterOffsetEnd=705 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=705 CharacterOffsetEnd=706 PartOfSpeech=.] 
+root(ROOT-0, line-2)
+nn(line-2, Bottom-1)
+punct(line-2, :-3)
+det(listlessness-7, a-4)
+amod(listlessness-7, two-hour-5)
+nn(listlessness-7, plot-thin-6)
+dep(line-2, listlessness-7)
+punct(line-2, .-8)
+
+Sentence #10 (19 tokens):
+If you suffer from insomnia, view it in bed and you will have a good night sleep.
+[Text=If CharacterOffsetBegin=711 CharacterOffsetEnd=713 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=714 CharacterOffsetEnd=717 PartOfSpeech=PRP] [Text=suffer CharacterOffsetBegin=718 CharacterOffsetEnd=724 PartOfSpeech=VBP] [Text=from CharacterOffsetBegin=725 CharacterOffsetEnd=729 PartOfSpeech=IN] [Text=insomnia CharacterOffsetBegin=730 CharacterOffsetEnd=738 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=738 CharacterOffsetEnd=739 PartOfSpeech=,] [Text=view CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=745 CharacterOffsetEnd=747 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=IN] [Text=bed CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=755 CharacterOffsetEnd=758 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=759 CharacterOffsetEnd=762 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=763 CharacterOffsetEnd=767 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=768 CharacterOffsetEnd=772 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=775 CharacterOffsetEnd=779 PartOfSpeech=JJ] [Text=night CharacterOffsetBegin=780 CharacterOffsetEnd=785 PartOfSpeech=NN] [Text=sleep CharacterOffsetBegin=786 CharacterOffsetEnd=791 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=791 CharacterOffsetEnd=792 PartOfSpeech=.] 
+root(ROOT-0, view-7)
+mark(suffer-3, If-1)
+nsubj(suffer-3, you-2)
+advcl(view-7, suffer-3)
+prep(suffer-3, from-4)
+pobj(from-4, insomnia-5)
+punct(view-7, ,-6)
+dobj(view-7, it-8)
+prep(view-7, in-9)
+pobj(in-9, bed-10)
+cc(view-7, and-11)
+nsubj(have-14, you-12)
+aux(have-14, will-13)
+conj(view-7, have-14)
+det(night-17, a-15)
+amod(night-17, good-16)
+npadvmod(sleep-18, night-17)
+dobj(have-14, sleep-18)
+punct(view-7, .-19)
+

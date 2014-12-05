@@ -1,0 +1,93 @@
+Sentence #1 (24 tokens):
+So one person says, "This movie is a beautiful, delicate exploration of West German life after World War II."
+[Text=So CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=CD] [Text=person CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=says CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=``] [Text=This CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=DT] [Text=beautiful CharacterOffsetBegin=41 CharacterOffsetEnd=50 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=,] [Text=delicate CharacterOffsetBegin=52 CharacterOffsetEnd=60 PartOfSpeech=JJ] [Text=exploration CharacterOffsetBegin=61 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=IN] [Text=West CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=JJ] [Text=German CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=JJ] [Text=life CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=after CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=World CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=NNP] [Text=War CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=NNP] [Text=II CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.] [Text='' CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=''] 
+root(ROOT-0, says-4)
+advmod(says-4, So-1)
+num(person-3, one-2)
+nsubj(says-4, person-3)
+punct(says-4, ,-5)
+punct(says-4, ``-6)
+det(movie-8, This-7)
+nsubj(exploration-14, movie-8)
+cop(exploration-14, is-9)
+det(exploration-14, a-10)
+amod(exploration-14, beautiful-11)
+punct(exploration-14, ,-12)
+amod(exploration-14, delicate-13)
+ccomp(says-4, exploration-14)
+prep(exploration-14, of-15)
+amod(German-17, West-16)
+amod(life-18, German-17)
+pobj(of-15, life-18)
+prep(exploration-14, after-19)
+nn(II-22, World-20)
+nn(II-22, War-21)
+pobj(after-19, II-22)
+punct(says-4, .-23)
+punct(says-4, ''-24)
+
+Sentence #2 (25 tokens):
+And the other says, "Former Nazis living in bombed out buildings, and the movie is 'beautiful, delicate'?"
+[Text=And CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=JJ] [Text=says CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=``] [Text=Former CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=JJ] [Text=Nazis CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=NNS] [Text=living CharacterOffsetBegin=152 CharacterOffsetEnd=158 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=IN] [Text=bombed CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=RP] [Text=buildings CharacterOffsetBegin=173 CharacterOffsetEnd=182 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=,] [Text=and CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=VBZ] [Text=` CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=``] [Text=beautiful CharacterOffsetBegin=202 CharacterOffsetEnd=211 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=,] [Text=delicate CharacterOffsetBegin=213 CharacterOffsetEnd=221 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=''] [Text=? CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=.] [Text='' CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=''] 
+root(ROOT-0, says-4)
+cc(says-4, And-1)
+det(other-3, the-2)
+nsubj(says-4, other-3)
+punct(says-4, ,-5)
+punct(says-4, ``-6)
+amod(Nazis-8, Former-7)
+dep(says-4, Nazis-8)
+partmod(Nazis-8, living-9)
+prep(living-9, in-10)
+pcomp(in-10, bombed-11)
+prt(bombed-11, out-12)
+dobj(bombed-11, buildings-13)
+punct(Nazis-8, ,-14)
+cc(Nazis-8, and-15)
+det(movie-17, the-16)
+nsubj(beautiful-20, movie-17)
+cop(beautiful-20, is-18)
+punct(beautiful-20, `-19)
+conj(Nazis-8, beautiful-20)
+punct(beautiful-20, ,-21)
+dep(beautiful-20, delicate-22)
+punct(delicate-22, '-23)
+punct(says-4, ?-24)
+punct(says-4, ''-25)
+
+Sentence #3 (13 tokens):
+And the first sits there nodding, takes another sip of coffee.
+[Text=And CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=JJ] [Text=sits CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=VBZ] [Text=there CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=EX] [Text=nodding CharacterOffsetBegin=254 CharacterOffsetEnd=261 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=,] [Text=takes CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=VBZ] [Text=another CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=DT] [Text=sip CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=coffee CharacterOffsetBegin=284 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=.] 
+root(ROOT-0, sits-4)
+cc(sits-4, And-1)
+det(first-3, the-2)
+nsubj(sits-4, first-3)
+expl(nodding-6, there-5)
+ccomp(sits-4, nodding-6)
+punct(sits-4, ,-7)
+ccomp(sits-4, takes-8)
+det(sip-10, another-9)
+dobj(takes-8, sip-10)
+prep(sip-10, of-11)
+pobj(of-11, coffee-12)
+punct(sits-4, .-13)
+
+Sentence #4 (6 tokens):
+"I can't explain.
+[Text=`` CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=``] [Text=I CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=RB] [Text=explain CharacterOffsetBegin=305 CharacterOffsetEnd=312 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=.] 
+root(ROOT-0, explain-5)
+punct(explain-5, ``-1)
+nsubj(explain-5, I-2)
+aux(explain-5, ca-3)
+neg(explain-5, n't-4)
+punct(explain-5, .-6)
+
+Sentence #5 (5 tokens):
+Just see it."
+[Text=Just CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=.] [Text='' CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=''] 
+root(ROOT-0, see-2)
+advmod(see-2, Just-1)
+dobj(see-2, it-3)
+punct(see-2, .-4)
+punct(see-2, ''-5)
+

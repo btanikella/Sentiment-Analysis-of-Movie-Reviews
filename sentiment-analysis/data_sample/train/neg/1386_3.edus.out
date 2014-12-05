@@ -1,0 +1,80 @@
+Sentence #1 (6 tokens):
+I rated this a 3.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=rated CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=a CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=3 CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, rated-2)
+nsubj(rated-2, I-1)
+dobj(rated-2, this-3)
+det(3-5, a-4)
+num(this-3, 3-5)
+punct(rated-2, .-6)
+
+Sentence #2 (10 tokens):
+The dubbing was as bad as I have seen.
+[Text=The CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=dubbing CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=VBG] [Text=was CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=VBD] [Text=as CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=IN] [Text=bad CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=.] 
+root(ROOT-0, bad-5)
+det(dubbing-2, The-1)
+nsubj(bad-5, dubbing-2)
+cop(bad-5, was-3)
+advmod(bad-5, as-4)
+mark(seen-9, as-6)
+nsubj(seen-9, I-7)
+aux(seen-9, have-8)
+advcl(bad-5, seen-9)
+punct(bad-5, .-10)
+
+Sentence #3 (5 tokens):
+The plot - yuck.
+[Text=The CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=- CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=:] [Text=yuck CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=.] 
+root(ROOT-0, plot-2)
+det(plot-2, The-1)
+punct(plot-2, --3)
+dep(plot-2, yuck-4)
+punct(plot-2, .-5)
+
+Sentence #4 (10 tokens):
+I'm not sure which ruined the movie more.
+[Text=I CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=RB] [Text=sure CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=JJ] [Text=which CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=WDT] [Text=ruined CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=RBR] [Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.] 
+root(ROOT-0, sure-4)
+nsubj(sure-4, I-1)
+cop(sure-4, 'm-2)
+neg(sure-4, not-3)
+nsubj(ruined-6, which-5)
+ccomp(sure-4, ruined-6)
+det(movie-8, the-7)
+dobj(ruined-6, movie-8)
+advmod(movie-8, more-9)
+punct(sure-4, .-10)
+
+Sentence #5 (29 tokens):
+Jet Li is definitely a great martial artist, but I'll stick to Jackie Chan movies until somebody tells me Jet's English is up to par.
+[Text=Jet CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=NNP] [Text=Li CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=VBZ] [Text=definitely CharacterOffsetBegin=146 CharacterOffsetEnd=156 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=JJ] [Text=martial CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=JJ] [Text=artist CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=,] [Text=but CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=MD] [Text=stick CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=TO] [Text=Jackie CharacterOffsetBegin=199 CharacterOffsetEnd=205 PartOfSpeech=NNP] [Text=Chan CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=NNP] [Text=movies CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=NNS] [Text=until CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=IN] [Text=somebody CharacterOffsetBegin=224 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=tells CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=VBZ] [Text=me CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=PRP] [Text=Jet CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=POS] [Text=English CharacterOffsetBegin=248 CharacterOffsetEnd=255 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=TO] [Text=par CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=.] 
+root(ROOT-0, artist-8)
+nn(Li-2, Jet-1)
+nsubj(artist-8, Li-2)
+cop(artist-8, is-3)
+advmod(artist-8, definitely-4)
+det(artist-8, a-5)
+amod(artist-8, great-6)
+amod(artist-8, martial-7)
+punct(artist-8, ,-9)
+cc(artist-8, but-10)
+nsubj(stick-13, I-11)
+aux(stick-13, 'll-12)
+conj(artist-8, stick-13)
+prep(stick-13, to-14)
+nn(movies-17, Jackie-15)
+nn(movies-17, Chan-16)
+pobj(to-14, movies-17)
+mark(tells-20, until-18)
+nsubj(tells-20, somebody-19)
+advcl(stick-13, tells-20)
+nsubj(is-25, me-21)
+poss(English-24, Jet-22)
+possessive(Jet-22, 's-23)
+nsubj(is-25, English-24)
+ccomp(tells-20, is-25)
+advmod(is-25, up-26)
+prep(up-26, to-27)
+pobj(to-27, par-28)
+punct(artist-8, .-29)
+

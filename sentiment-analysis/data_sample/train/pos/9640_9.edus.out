@@ -1,0 +1,103 @@
+Sentence #1 (14 tokens):
+Most Hollywood movies fail to capture the full range of experience of teenagers.
+[Text=Most CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=JJS] [Text=Hollywood CharacterOffsetBegin=9 CharacterOffsetEnd=18 PartOfSpeech=NNP] [Text=movies CharacterOffsetBegin=19 CharacterOffsetEnd=25 PartOfSpeech=NNS] [Text=fail CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=TO] [Text=capture CharacterOffsetBegin=34 CharacterOffsetEnd=41 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=full CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=JJ] [Text=range CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=IN] [Text=experience CharacterOffsetBegin=60 CharacterOffsetEnd=70 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=IN] [Text=teenagers CharacterOffsetBegin=74 CharacterOffsetEnd=83 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=.] 
+root(ROOT-0, fail-4)
+amod(movies-3, Most-1)
+nn(movies-3, Hollywood-2)
+nsubj(fail-4, movies-3)
+aux(capture-6, to-5)
+xcomp(fail-4, capture-6)
+det(range-9, the-7)
+amod(range-9, full-8)
+dobj(capture-6, range-9)
+prep(range-9, of-10)
+pobj(of-10, experience-11)
+prep(experience-11, of-12)
+pobj(of-12, teenagers-13)
+punct(fail-4, .-14)
+
+Sentence #2 (10 tokens):
+This film demonstrates exactly how to do it right.
+[Text=This CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=demonstrates CharacterOffsetBegin=99 CharacterOffsetEnd=111 PartOfSpeech=VBZ] [Text=exactly CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=RB] [Text=how CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=PRP] [Text=right CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=.] 
+root(ROOT-0, demonstrates-3)
+det(film-2, This-1)
+nsubj(demonstrates-3, film-2)
+advmod(how-5, exactly-4)
+advmod(do-7, how-5)
+aux(do-7, to-6)
+ccomp(demonstrates-3, do-7)
+dobj(do-7, it-8)
+advmod(do-7, right-9)
+punct(demonstrates-3, .-10)
+
+Sentence #3 (12 tokens):
+It combines elements of humour, suffering, rebellion, etc.
+[Text=It CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=PRP] [Text=combines CharacterOffsetBegin=147 CharacterOffsetEnd=155 PartOfSpeech=VBZ] [Text=elements CharacterOffsetBegin=156 CharacterOffsetEnd=164 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=IN] [Text=humour CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=,] [Text=suffering CharacterOffsetBegin=176 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=,] [Text=rebellion CharacterOffsetBegin=187 CharacterOffsetEnd=196 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=,] [Text=etc. CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=FW] [Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=.] 
+root(ROOT-0, combines-2)
+nsubj(combines-2, It-1)
+dobj(combines-2, elements-3)
+prep(elements-3, of-4)
+pobj(of-4, humour-5)
+punct(humour-5, ,-6)
+conj(humour-5, suffering-7)
+punct(humour-5, ,-8)
+conj(humour-5, rebellion-9)
+punct(humour-5, ,-10)
+conj(humour-5, etc.-11)
+punct(combines-2, .-12)
+
+Sentence #4 (9 tokens):
+in a way that is comlex & sympathetic.
+[Text=in CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=VBZ] [Text=comlex CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=NN] [Text=& CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=CC] [Text=sympathetic CharacterOffsetBegin=233 CharacterOffsetEnd=244 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=.] 
+root(ROOT-0, in-1)
+det(way-3, a-2)
+pobj(in-1, way-3)
+nsubj(comlex-6, that-4)
+cop(comlex-6, is-5)
+rcmod(way-3, comlex-6)
+cc(comlex-6, &-7)
+conj(comlex-6, sympathetic-8)
+punct(in-1, .-9)
+
+Sentence #5 (38 tokens):
+The ending could be a bit clearer, but the fact that the director doesn't spell everything out for you in advance before coming to the conclusion means that this film assumes a more intelligent viewer.
+[Text=The CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=VBG] [Text=could CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=NN] [Text=clearer CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=JJR] [Text=, CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=,] [Text=but CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=fact CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=307 CharacterOffsetEnd=315 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=RB] [Text=spell CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=VB] [Text=everything CharacterOffsetBegin=330 CharacterOffsetEnd=340 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=IN] [Text=advance CharacterOffsetBegin=356 CharacterOffsetEnd=363 PartOfSpeech=NN] [Text=before CharacterOffsetBegin=364 CharacterOffsetEnd=370 PartOfSpeech=IN] [Text=coming CharacterOffsetBegin=371 CharacterOffsetEnd=377 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=DT] [Text=conclusion CharacterOffsetBegin=385 CharacterOffsetEnd=395 PartOfSpeech=NN] [Text=means CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=402 CharacterOffsetEnd=406 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=407 CharacterOffsetEnd=411 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=NN] [Text=assumes CharacterOffsetBegin=417 CharacterOffsetEnd=424 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=RBR] [Text=intelligent CharacterOffsetBegin=432 CharacterOffsetEnd=443 PartOfSpeech=JJ] [Text=viewer CharacterOffsetBegin=444 CharacterOffsetEnd=450 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=.] 
+root(ROOT-0, clearer-7)
+det(ending-2, The-1)
+nsubj(clearer-7, ending-2)
+aux(clearer-7, could-3)
+cop(clearer-7, be-4)
+det(clearer-7, a-5)
+npadvmod(clearer-7, bit-6)
+punct(clearer-7, ,-8)
+cc(clearer-7, but-9)
+det(fact-11, the-10)
+nsubj(means-29, fact-11)
+mark(spell-17, that-12)
+det(director-14, the-13)
+nsubj(spell-17, director-14)
+aux(spell-17, does-15)
+neg(spell-17, n't-16)
+ccomp(fact-11, spell-17)
+dobj(spell-17, everything-18)
+prep(spell-17, out-19)
+pcomp(out-19, for-20)
+pobj(for-20, you-21)
+prep(spell-17, in-22)
+pobj(in-22, advance-23)
+prep(spell-17, before-24)
+pcomp(before-24, coming-25)
+prep(coming-25, to-26)
+det(conclusion-28, the-27)
+pobj(to-26, conclusion-28)
+conj(clearer-7, means-29)
+mark(assumes-33, that-30)
+det(film-32, this-31)
+nsubj(assumes-33, film-32)
+ccomp(means-29, assumes-33)
+det(viewer-37, a-34)
+advmod(intelligent-36, more-35)
+amod(viewer-37, intelligent-36)
+dobj(assumes-33, viewer-37)
+punct(clearer-7, .-38)
+

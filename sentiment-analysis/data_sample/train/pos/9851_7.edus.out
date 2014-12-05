@@ -1,0 +1,157 @@
+Sentence #1 (4 tokens):
+Shrek, anyone?
+[Text=Shrek CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=,] [Text=anyone CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=.] 
+root(ROOT-0, Shrek-1)
+punct(Shrek-1, ,-2)
+appos(Shrek-1, anyone-3)
+punct(Shrek-1, ?-4)
+
+Sentence #2 (9 tokens):
+Well, imagine Shrek in the ice age.
+[Text=Well CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=,] [Text=imagine CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=VBP] [Text=Shrek CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT] [Text=ice CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=age CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=.] 
+root(ROOT-0, imagine-3)
+advmod(imagine-3, Well-1)
+punct(imagine-3, ,-2)
+dobj(imagine-3, Shrek-4)
+prep(Shrek-4, in-5)
+det(age-8, the-6)
+nn(age-8, ice-7)
+pobj(in-5, age-8)
+punct(imagine-3, .-9)
+
+Sentence #3 (6 tokens):
+Remember the ending of Shrek?
+[Text=Remember CharacterOffsetBegin=63 CharacterOffsetEnd=71 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=Shrek CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=.] 
+root(ROOT-0, Remember-1)
+det(ending-3, the-2)
+dobj(Remember-1, ending-3)
+prep(ending-3, of-4)
+pobj(of-4, Shrek-5)
+punct(Remember-1, ?-6)
+
+Sentence #4 (5 tokens):
+Of cause you do.
+[Text=Of CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=IN] [Text=cause CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=.] 
+root(ROOT-0, Of-1)
+pobj(Of-1, cause-2)
+nsubj(do-4, you-3)
+rcmod(cause-2, do-4)
+punct(Of-1, .-5)
+
+Sentence #5 (17 tokens):
+Now, imagine, that Shrek turns into a human, and so does the princess.
+[Text=Now CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=,] [Text=imagine CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=,] [Text=that CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=IN] [Text=Shrek CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=NNP] [Text=turns CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=VBZ] [Text=into CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=DT] [Text=human CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=,] [Text=and CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=CC] [Text=so CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=RB] [Text=does CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=princess CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=.] 
+root(ROOT-0, imagine-3)
+advmod(imagine-3, Now-1)
+punct(imagine-3, ,-2)
+punct(imagine-3, ,-4)
+mark(turns-7, that-5)
+nsubj(turns-7, Shrek-6)
+ccomp(imagine-3, turns-7)
+prep(turns-7, into-8)
+det(human-10, a-9)
+pobj(into-8, human-10)
+punct(imagine-3, ,-11)
+cc(imagine-3, and-12)
+advmod(does-14, so-13)
+conj(imagine-3, does-14)
+det(princess-16, the-15)
+nsubj(does-14, princess-16)
+punct(imagine-3, .-17)
+
+Sentence #6 (3 tokens):
+Get it?
+[Text=Get CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.] 
+root(ROOT-0, Get-1)
+dobj(Get-1, it-2)
+punct(Get-1, ?-3)
+
+Sentence #7 (32 tokens):
+Nice animation, actually, much more of an art work than Pixar and Disney pictures, which are trying to get as close to reality as possible in their drawings.
+[Text=Nice CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=animation CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=,] [Text=actually CharacterOffsetBegin=221 CharacterOffsetEnd=229 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=,] [Text=much CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=JJR] [Text=of CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=DT] [Text=art CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=work CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=IN] [Text=Pixar CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=CC] [Text=Disney CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=NNP] [Text=pictures CharacterOffsetBegin=278 CharacterOffsetEnd=286 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=,] [Text=which CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=VBP] [Text=trying CharacterOffsetBegin=298 CharacterOffsetEnd=304 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=VB] [Text=as CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=RB] [Text=close CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=TO] [Text=reality CharacterOffsetBegin=324 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=IN] [Text=possible CharacterOffsetBegin=335 CharacterOffsetEnd=343 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=344 CharacterOffsetEnd=346 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=PRP$] [Text=drawings CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=.] 
+root(ROOT-0, animation-2)
+amod(animation-2, Nice-1)
+punct(animation-2, ,-3)
+advmod(animation-2, actually-4)
+punct(animation-2, ,-5)
+advmod(more-7, much-6)
+amod(animation-2, more-7)
+prep(more-7, of-8)
+det(work-11, an-9)
+nn(work-11, art-10)
+pobj(of-8, work-11)
+prep(more-7, than-12)
+pobj(than-12, Pixar-13)
+cc(Pixar-13, and-14)
+nn(pictures-16, Disney-15)
+conj(Pixar-13, pictures-16)
+punct(Pixar-13, ,-17)
+nsubj(trying-20, which-18)
+aux(trying-20, are-19)
+rcmod(Pixar-13, trying-20)
+aux(get-22, to-21)
+xcomp(trying-20, get-22)
+advmod(close-24, as-23)
+acomp(get-22, close-24)
+prep(close-24, to-25)
+pobj(to-25, reality-26)
+prep(close-24, as-27)
+pobj(as-27, possible-28)
+prep(close-24, in-29)
+poss(drawings-31, their-30)
+pobj(in-29, drawings-31)
+punct(animation-2, .-32)
+
+Sentence #8 (17 tokens):
+Strong one-liners, some social comments that kids won't understand, the good guys win.
+[Text=Strong CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=JJ] [Text=one-liners CharacterOffsetBegin=374 CharacterOffsetEnd=384 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=,] [Text=some CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=DT] [Text=social CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=JJ] [Text=comments CharacterOffsetBegin=398 CharacterOffsetEnd=406 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=407 CharacterOffsetEnd=411 PartOfSpeech=WDT] [Text=kids CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=NNS] [Text=wo CharacterOffsetBegin=417 CharacterOffsetEnd=419 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=RB] [Text=understand CharacterOffsetBegin=423 CharacterOffsetEnd=433 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=,] [Text=the CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=NNS] [Text=win CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=.] 
+root(ROOT-0, one-liners-2)
+amod(one-liners-2, Strong-1)
+punct(one-liners-2, ,-3)
+det(comments-6, some-4)
+amod(comments-6, social-5)
+appos(one-liners-2, comments-6)
+dobj(understand-11, that-7)
+nsubj(understand-11, kids-8)
+aux(understand-11, wo-9)
+neg(understand-11, n't-10)
+rcmod(comments-6, understand-11)
+punct(one-liners-2, ,-12)
+det(guys-15, the-13)
+amod(guys-15, good-14)
+nsubj(win-16, guys-15)
+rcmod(one-liners-2, win-16)
+punct(one-liners-2, .-17)
+
+Sentence #9 (6 tokens):
+One thing more: Scrat.
+[Text=One CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=CD] [Text=thing CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=RBR] [Text=: CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=:] [Text=Scrat CharacterOffsetBegin=474 CharacterOffsetEnd=479 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=479 CharacterOffsetEnd=480 PartOfSpeech=.] 
+root(ROOT-0, more-3)
+num(thing-2, One-1)
+npadvmod(more-3, thing-2)
+punct(more-3, :-4)
+dep(more-3, Scrat-5)
+punct(more-3, .-6)
+
+Sentence #10 (13 tokens):
+By the way, how does everybody know his name is Scrat?
+[Text=By CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=,] [Text=how CharacterOffsetBegin=497 CharacterOffsetEnd=500 PartOfSpeech=WRB] [Text=does CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=VBZ] [Text=everybody CharacterOffsetBegin=506 CharacterOffsetEnd=515 PartOfSpeech=NN] [Text=know CharacterOffsetBegin=516 CharacterOffsetEnd=520 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=PRP$] [Text=name CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=VBZ] [Text=Scrat CharacterOffsetBegin=533 CharacterOffsetEnd=538 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=538 CharacterOffsetEnd=539 PartOfSpeech=.] 
+root(ROOT-0, By-1)
+det(way-3, the-2)
+pobj(By-1, way-3)
+punct(By-1, ,-4)
+advmod(know-8, how-5)
+aux(know-8, does-6)
+nsubj(know-8, everybody-7)
+ccomp(,-4, know-8)
+poss(name-10, his-9)
+nsubj(Scrat-12, name-10)
+cop(Scrat-12, is-11)
+ccomp(know-8, Scrat-12)
+punct(know-8, ?-13)
+
+Sentence #11 (1 tokens):
+7/10
+[Text=7/10 CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=CD] 
+root(ROOT-0, 7/10-1)
+

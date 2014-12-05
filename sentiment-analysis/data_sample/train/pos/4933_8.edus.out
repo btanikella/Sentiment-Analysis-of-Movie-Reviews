@@ -1,0 +1,167 @@
+Sentence #1 (6 tokens):
+Refreshing `lost' gem!
+[Text=Refreshing CharacterOffsetBegin=4 CharacterOffsetEnd=14 PartOfSpeech=JJ] [Text=` CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=``] [Text=lost CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=VBN] [Text=' CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=''] [Text=gem CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.] 
+root(ROOT-0, gem-5)
+amod(gem-5, Refreshing-1)
+punct(lost-3, `-2)
+amod(gem-5, lost-3)
+punct(lost-3, '-4)
+punct(gem-5, !-6)
+
+Sentence #2 (22 tokens):
+Featuring effective dialog combined with excellent acting to establish the characters and involve you enough to care what happens to them.
+[Text=Featuring CharacterOffsetBegin=31 CharacterOffsetEnd=40 PartOfSpeech=VBG] [Text=effective CharacterOffsetBegin=41 CharacterOffsetEnd=50 PartOfSpeech=JJ] [Text=dialog CharacterOffsetBegin=51 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=combined CharacterOffsetBegin=58 CharacterOffsetEnd=66 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=excellent CharacterOffsetBegin=72 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=TO] [Text=establish CharacterOffsetBegin=92 CharacterOffsetEnd=101 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=106 CharacterOffsetEnd=116 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=CC] [Text=involve CharacterOffsetBegin=121 CharacterOffsetEnd=128 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=PRP] [Text=enough CharacterOffsetBegin=133 CharacterOffsetEnd=139 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=TO] [Text=care CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=WP] [Text=happens CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=TO] [Text=them CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=.] 
+root(ROOT-0, Featuring-1)
+acomp(Featuring-1, effective-2)
+dep(effective-2, dialog-3)
+partmod(dialog-3, combined-4)
+prep(combined-4, with-5)
+amod(acting-7, excellent-6)
+pcomp(with-5, acting-7)
+aux(establish-9, to-8)
+xcomp(acting-7, establish-9)
+det(characters-11, the-10)
+dobj(establish-9, characters-11)
+cc(establish-9, and-12)
+conj(establish-9, involve-13)
+nsubj(care-17, you-14)
+dep(care-17, enough-15)
+aux(care-17, to-16)
+xcomp(involve-13, care-17)
+nsubj(happens-19, what-18)
+ccomp(care-17, happens-19)
+prep(happens-19, to-20)
+pobj(to-20, them-21)
+punct(Featuring-1, .-22)
+
+Sentence #3 (9 tokens):
+The Douglas and Widmark characters are realistic heroes.
+[Text=The CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=Douglas CharacterOffsetBegin=178 CharacterOffsetEnd=185 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=CC] [Text=Widmark CharacterOffsetBegin=190 CharacterOffsetEnd=197 PartOfSpeech=NNP] [Text=characters CharacterOffsetBegin=198 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=VBP] [Text=realistic CharacterOffsetBegin=213 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=heroes CharacterOffsetBegin=223 CharacterOffsetEnd=229 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=.] 
+root(ROOT-0, heroes-8)
+det(characters-5, The-1)
+nn(characters-5, Douglas-2)
+cc(Douglas-2, and-3)
+conj(Douglas-2, Widmark-4)
+nsubj(heroes-8, characters-5)
+cop(heroes-8, are-6)
+amod(heroes-8, realistic-7)
+punct(heroes-8, .-9)
+
+Sentence #4 (7 tokens):
+Palance is his usual evil presence.
+[Text=Palance CharacterOffsetBegin=235 CharacterOffsetEnd=242 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=PRP$] [Text=usual CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=evil CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=JJ] [Text=presence CharacterOffsetBegin=261 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=.] 
+root(ROOT-0, presence-6)
+nsubj(presence-6, Palance-1)
+cop(presence-6, is-2)
+poss(presence-6, his-3)
+amod(presence-6, usual-4)
+amod(presence-6, evil-5)
+punct(presence-6, .-7)
+
+Sentence #5 (38 tokens):
+Widmark win the fisticuffs fight scene, a car chase of less than 60 seconds with a `logical' end, and a lengthy chase on foot that shames the overdone chase sequences of contemporary Hollywood.
+[Text=Widmark CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=NNP] [Text=win CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=DT] [Text=fisticuffs CharacterOffsetBegin=291 CharacterOffsetEnd=301 PartOfSpeech=NN] [Text=fight CharacterOffsetBegin=302 CharacterOffsetEnd=307 PartOfSpeech=NN] [Text=scene CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=,] [Text=a CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=car CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=NN] [Text=chase CharacterOffsetBegin=321 CharacterOffsetEnd=326 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=IN] [Text=less CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=IN] [Text=60 CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=CD] [Text=seconds CharacterOffsetBegin=343 CharacterOffsetEnd=350 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=``] [Text=logical CharacterOffsetBegin=359 CharacterOffsetEnd=366 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=''] [Text=end CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=,] [Text=and CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=DT] [Text=lengthy CharacterOffsetBegin=379 CharacterOffsetEnd=386 PartOfSpeech=JJ] [Text=chase CharacterOffsetBegin=387 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=IN] [Text=foot CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=WDT] [Text=shames CharacterOffsetBegin=406 CharacterOffsetEnd=412 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=DT] [Text=overdone CharacterOffsetBegin=417 CharacterOffsetEnd=425 PartOfSpeech=VBN] [Text=chase CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NN] [Text=sequences CharacterOffsetBegin=432 CharacterOffsetEnd=441 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=IN] [Text=contemporary CharacterOffsetBegin=445 CharacterOffsetEnd=457 PartOfSpeech=JJ] [Text=Hollywood CharacterOffsetBegin=458 CharacterOffsetEnd=467 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=.] 
+root(ROOT-0, win-2)
+nsubj(win-2, Widmark-1)
+det(scene-6, the-3)
+nn(scene-6, fisticuffs-4)
+nn(scene-6, fight-5)
+dobj(win-2, scene-6)
+punct(win-2, ,-7)
+det(chase-10, a-8)
+nn(chase-10, car-9)
+dobj(win-2, chase-10)
+prep(chase-10, of-11)
+mwe(than-13, less-12)
+quantmod(60-14, than-13)
+num(seconds-15, 60-14)
+pobj(of-11, seconds-15)
+prep(chase-10, with-16)
+det(end-21, a-17)
+punct(end-21, `-18)
+amod(end-21, logical-19)
+punct(end-21, '-20)
+pobj(with-16, end-21)
+punct(win-2, ,-22)
+cc(win-2, and-23)
+det(chase-26, a-24)
+amod(chase-26, lengthy-25)
+conj(win-2, chase-26)
+prep(chase-26, on-27)
+pobj(on-27, foot-28)
+nsubj(shames-30, that-29)
+rcmod(chase-26, shames-30)
+det(sequences-34, the-31)
+nn(sequences-34, overdone-32)
+nn(sequences-34, chase-33)
+dobj(shames-30, sequences-34)
+prep(sequences-34, of-35)
+amod(Hollywood-37, contemporary-36)
+pobj(of-35, Hollywood-37)
+punct(win-2, .-38)
+
+Sentence #6 (17 tokens):
+You know how it will likely end, but the suspense and interest are sustained throughout.
+[Text=You CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=VBP] [Text=how CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=MD] [Text=likely CharacterOffsetBegin=494 CharacterOffsetEnd=500 PartOfSpeech=RB] [Text=end CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=,] [Text=but CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=DT] [Text=suspense CharacterOffsetBegin=514 CharacterOffsetEnd=522 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=523 CharacterOffsetEnd=526 PartOfSpeech=CC] [Text=interest CharacterOffsetBegin=527 CharacterOffsetEnd=535 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=VBP] [Text=sustained CharacterOffsetBegin=540 CharacterOffsetEnd=549 PartOfSpeech=VBN] [Text=throughout CharacterOffsetBegin=550 CharacterOffsetEnd=560 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, You-1)
+advmod(end-7, how-3)
+nsubj(end-7, it-4)
+aux(end-7, will-5)
+advmod(end-7, likely-6)
+ccomp(know-2, end-7)
+punct(know-2, ,-8)
+cc(know-2, but-9)
+det(suspense-11, the-10)
+nsubjpass(sustained-15, suspense-11)
+cc(suspense-11, and-12)
+conj(suspense-11, interest-13)
+auxpass(sustained-15, are-14)
+conj(know-2, sustained-15)
+advmod(sustained-15, throughout-16)
+punct(know-2, .-17)
+
+Sentence #7 (16 tokens):
+The end of the chase is one of the most realistic you will ever see.
+[Text=The CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=DT] [Text=chase CharacterOffsetBegin=581 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=587 CharacterOffsetEnd=589 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=590 CharacterOffsetEnd=593 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=RBS] [Text=realistic CharacterOffsetBegin=606 CharacterOffsetEnd=615 PartOfSpeech=JJ] [Text=you CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=620 CharacterOffsetEnd=624 PartOfSpeech=MD] [Text=ever CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=.] 
+root(ROOT-0, one-7)
+det(end-2, The-1)
+nsubj(one-7, end-2)
+prep(end-2, of-3)
+det(chase-5, the-4)
+pobj(of-3, chase-5)
+cop(one-7, is-6)
+prep(one-7, of-8)
+det(realistic-11, the-9)
+advmod(realistic-11, most-10)
+pobj(of-8, realistic-11)
+nsubj(see-15, you-12)
+aux(see-15, will-13)
+advmod(see-15, ever-14)
+rcmod(realistic-11, see-15)
+punct(one-7, .-16)
+
+Sentence #8 (20 tokens):
+The film seems to slow a little past the middle, but stay with it for the rewarding conclusion.
+[Text=The CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=NN] [Text=seems CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=TO] [Text=slow CharacterOffsetBegin=657 CharacterOffsetEnd=661 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=662 CharacterOffsetEnd=663 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=664 CharacterOffsetEnd=670 PartOfSpeech=JJ] [Text=past CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=DT] [Text=middle CharacterOffsetBegin=680 CharacterOffsetEnd=686 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=686 CharacterOffsetEnd=687 PartOfSpeech=,] [Text=but CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=CC] [Text=stay CharacterOffsetBegin=692 CharacterOffsetEnd=696 PartOfSpeech=VBP] [Text=with CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=702 CharacterOffsetEnd=704 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=709 CharacterOffsetEnd=712 PartOfSpeech=DT] [Text=rewarding CharacterOffsetBegin=713 CharacterOffsetEnd=722 PartOfSpeech=JJ] [Text=conclusion CharacterOffsetBegin=723 CharacterOffsetEnd=733 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=.] 
+root(ROOT-0, seems-3)
+det(film-2, The-1)
+nsubj(seems-3, film-2)
+aux(slow-5, to-4)
+xcomp(seems-3, slow-5)
+det(little-7, a-6)
+dobj(slow-5, little-7)
+prep(little-7, past-8)
+det(middle-10, the-9)
+pobj(past-8, middle-10)
+punct(seems-3, ,-11)
+cc(seems-3, but-12)
+conj(seems-3, stay-13)
+prep(stay-13, with-14)
+pobj(with-14, it-15)
+prep(stay-13, for-16)
+det(conclusion-19, the-17)
+amod(conclusion-19, rewarding-18)
+pobj(for-16, conclusion-19)
+punct(seems-3, .-20)
+

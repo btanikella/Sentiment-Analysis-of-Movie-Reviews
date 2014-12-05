@@ -1,0 +1,175 @@
+Sentence #1 (14 tokens):
+...And I never thought a movie deserved to be awarded a 1!
+[Text=... CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=:] [Text=And CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=PRP] [Text=never CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=RB] [Text=thought CharacterOffsetBegin=19 CharacterOffsetEnd=26 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=deserved CharacterOffsetBegin=35 CharacterOffsetEnd=43 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=VB] [Text=awarded CharacterOffsetBegin=50 CharacterOffsetEnd=57 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=1 CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=CD] [Text=! CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=.] 
+root(ROOT-0, thought-5)
+punct(thought-5, ...-1)
+cc(thought-5, And-2)
+nsubj(thought-5, I-3)
+neg(thought-5, never-4)
+det(movie-7, a-6)
+nsubj(deserved-8, movie-7)
+ccomp(thought-5, deserved-8)
+aux(awarded-11, to-9)
+auxpass(awarded-11, be-10)
+xcomp(deserved-8, awarded-11)
+det(1-13, a-12)
+dobj(awarded-11, 1-13)
+punct(thought-5, !-14)
+
+Sentence #2 (13 tokens):
+But this one is honestly the worst movie I've ever watched.
+[Text=But CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=CD] [Text=is CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=VBZ] [Text=honestly CharacterOffsetBegin=83 CharacterOffsetEnd=91 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=RB] [Text=watched CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=.] 
+root(ROOT-0, movie-8)
+cc(movie-8, But-1)
+det(one-3, this-2)
+nsubj(movie-8, one-3)
+cop(movie-8, is-4)
+advmod(movie-8, honestly-5)
+det(movie-8, the-6)
+amod(movie-8, worst-7)
+nsubj(watched-12, I-9)
+aux(watched-12, 've-10)
+advmod(watched-12, ever-11)
+rcmod(movie-8, watched-12)
+punct(movie-8, .-13)
+
+Sentence #3 (22 tokens):
+My wife picked it up because of the cast, but the storyline right since the DVD box seemed quite predictable.
+[Text=My CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=picked CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=RP] [Text=because CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=,] [Text=but CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=DT] [Text=storyline CharacterOffsetBegin=181 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=right CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=NN] [Text=since CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=NN] [Text=box CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=seemed CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=VBD] [Text=quite CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=RB] [Text=predictable CharacterOffsetBegin=228 CharacterOffsetEnd=239 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=.] 
+root(ROOT-0, picked-3)
+poss(wife-2, My-1)
+nsubj(picked-3, wife-2)
+dobj(picked-3, it-4)
+prt(picked-3, up-5)
+mwe(of-7, because-6)
+prep(picked-3, of-7)
+det(cast-9, the-8)
+pobj(of-7, cast-9)
+punct(picked-3, ,-10)
+cc(picked-3, but-11)
+det(right-14, the-12)
+nn(right-14, storyline-13)
+nsubj(predictable-21, right-14)
+prep(right-14, since-15)
+det(box-18, the-16)
+nn(box-18, DVD-17)
+pobj(since-15, box-18)
+cop(predictable-21, seemed-19)
+advmod(predictable-21, quite-20)
+conj(picked-3, predictable-21)
+punct(picked-3, .-22)
+
+Sentence #4 (11 tokens):
+It is not a mystery, nor a juvenile-catching film.
+[Text=It CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=mystery CharacterOffsetBegin=257 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=,] [Text=nor CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=DT] [Text=juvenile-catching CharacterOffsetBegin=272 CharacterOffsetEnd=289 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=.] 
+root(ROOT-0, mystery-5)
+nsubj(mystery-5, It-1)
+cop(mystery-5, is-2)
+neg(mystery-5, not-3)
+det(mystery-5, a-4)
+punct(mystery-5, ,-6)
+cc(mystery-5, nor-7)
+det(film-10, a-8)
+amod(film-10, juvenile-catching-9)
+conj(mystery-5, film-10)
+punct(mystery-5, .-11)
+
+Sentence #5 (21 tokens):
+It does not include any sensuality, if that's what the title could remotely have suggest any of you.
+[Text=It CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=RB] [Text=include CharacterOffsetBegin=312 CharacterOffsetEnd=319 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=DT] [Text=sensuality CharacterOffsetBegin=324 CharacterOffsetEnd=334 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=,] [Text=if CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=VBZ] [Text=what CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=DT] [Text=title CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=NN] [Text=could CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=MD] [Text=remotely CharacterOffsetBegin=367 CharacterOffsetEnd=375 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=VB] [Text=suggest CharacterOffsetBegin=381 CharacterOffsetEnd=388 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=.] 
+root(ROOT-0, include-4)
+nsubj(include-4, It-1)
+aux(include-4, does-2)
+neg(include-4, not-3)
+det(sensuality-6, any-5)
+dobj(include-4, sensuality-6)
+punct(include-4, ,-7)
+mark('s-10, if-8)
+nsubj('s-10, that-9)
+advcl(include-4, 's-10)
+dobj(suggest-17, what-11)
+det(title-13, the-12)
+nsubj(suggest-17, title-13)
+aux(suggest-17, could-14)
+nsubj(suggest-17, remotely-15)
+aux(suggest-17, have-16)
+ccomp('s-10, suggest-17)
+dobj(suggest-17, any-18)
+prep(any-18, of-19)
+pobj(of-19, you-20)
+punct(include-4, .-21)
+
+Sentence #6 (7 tokens):
+This is just a total no-no.
+[Text=This CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=DT] [Text=total CharacterOffsetBegin=420 CharacterOffsetEnd=425 PartOfSpeech=JJ] [Text=no-no CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=.] 
+root(ROOT-0, no-no-6)
+nsubj(no-no-6, This-1)
+cop(no-no-6, is-2)
+advmod(no-no-6, just-3)
+det(no-no-6, a-4)
+amod(no-no-6, total-5)
+punct(no-no-6, .-7)
+
+Sentence #7 (32 tokens):
+Don't waste your time or money unless you feel like watching a bunch of youngsters in a as-grown-up kind of Gothic setting, where a killer is going after them.
+[Text=Do CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=RB] [Text=waste CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=CC] [Text=money CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=NN] [Text=unless CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=PRP] [Text=feel CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=VBP] [Text=like CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=IN] [Text=watching CharacterOffsetBegin=489 CharacterOffsetEnd=497 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=DT] [Text=bunch CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=506 CharacterOffsetEnd=508 PartOfSpeech=IN] [Text=youngsters CharacterOffsetBegin=509 CharacterOffsetEnd=519 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=DT] [Text=as-grown-up CharacterOffsetBegin=525 CharacterOffsetEnd=536 PartOfSpeech=JJ] [Text=kind CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=IN] [Text=Gothic CharacterOffsetBegin=545 CharacterOffsetEnd=551 PartOfSpeech=JJ] [Text=setting CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=,] [Text=where CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=WRB] [Text=a CharacterOffsetBegin=567 CharacterOffsetEnd=568 PartOfSpeech=DT] [Text=killer CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=VBZ] [Text=going CharacterOffsetBegin=579 CharacterOffsetEnd=584 PartOfSpeech=VBG] [Text=after CharacterOffsetBegin=585 CharacterOffsetEnd=590 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=595 CharacterOffsetEnd=596 PartOfSpeech=.] 
+root(ROOT-0, waste-3)
+aux(waste-3, Do-1)
+neg(waste-3, n't-2)
+poss(time-5, your-4)
+dobj(waste-3, time-5)
+cc(time-5, or-6)
+conj(time-5, money-7)
+mark(feel-10, unless-8)
+nsubj(feel-10, you-9)
+advcl(waste-3, feel-10)
+prep(feel-10, like-11)
+pcomp(like-11, watching-12)
+det(bunch-14, a-13)
+dobj(watching-12, bunch-14)
+prep(bunch-14, of-15)
+pobj(of-15, youngsters-16)
+prep(watching-12, in-17)
+det(kind-20, a-18)
+amod(kind-20, as-grown-up-19)
+pobj(in-17, kind-20)
+prep(kind-20, of-21)
+amod(setting-23, Gothic-22)
+pobj(of-21, setting-23)
+punct(setting-23, ,-24)
+advmod(going-29, where-25)
+det(killer-27, a-26)
+nsubj(going-29, killer-27)
+aux(going-29, is-28)
+rcmod(setting-23, going-29)
+prep(going-29, after-30)
+pobj(after-30, them-31)
+punct(waste-3, .-32)
+
+Sentence #8 (10 tokens):
+Nothing new, nothing interesting, nothing worth watching.
+[Text=Nothing CharacterOffsetBegin=601 CharacterOffsetEnd=608 PartOfSpeech=NN] [Text=new CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=,] [Text=nothing CharacterOffsetBegin=614 CharacterOffsetEnd=621 PartOfSpeech=NN] [Text=interesting CharacterOffsetBegin=622 CharacterOffsetEnd=633 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=,] [Text=nothing CharacterOffsetBegin=635 CharacterOffsetEnd=642 PartOfSpeech=NN] [Text=worth CharacterOffsetBegin=643 CharacterOffsetEnd=648 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=649 CharacterOffsetEnd=657 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=.] 
+root(ROOT-0, Nothing-1)
+amod(Nothing-1, new-2)
+punct(nothing-4, ,-3)
+dep(new-2, nothing-4)
+amod(nothing-4, interesting-5)
+punct(nothing-4, ,-6)
+nn(worth-8, nothing-7)
+appos(nothing-4, worth-8)
+dep(worth-8, watching-9)
+punct(nothing-4, .-10)
+
+Sentence #9 (9 tokens):
+Max Makowski makes the worst of Nick Stahl.
+[Text=Max CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=NNP] [Text=Makowski CharacterOffsetBegin=667 CharacterOffsetEnd=675 PartOfSpeech=NNP] [Text=makes CharacterOffsetBegin=676 CharacterOffsetEnd=681 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=682 CharacterOffsetEnd=685 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=686 CharacterOffsetEnd=691 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=692 CharacterOffsetEnd=694 PartOfSpeech=IN] [Text=Nick CharacterOffsetBegin=695 CharacterOffsetEnd=699 PartOfSpeech=NNP] [Text=Stahl CharacterOffsetBegin=700 CharacterOffsetEnd=705 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=705 CharacterOffsetEnd=706 PartOfSpeech=.] 
+root(ROOT-0, makes-3)
+nn(Makowski-2, Max-1)
+nsubj(makes-3, Makowski-2)
+det(worst-5, the-4)
+dobj(makes-3, worst-5)
+prep(worst-5, of-6)
+nn(Stahl-8, Nick-7)
+pobj(of-6, Stahl-8)
+punct(makes-3, .-9)
+

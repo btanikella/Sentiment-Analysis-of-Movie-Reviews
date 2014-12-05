@@ -1,0 +1,73 @@
+Sentence #1 (11 tokens):
+I bought this DVD after seeing it highly ranked here.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=bought CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=after CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=IN] [Text=seeing CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=PRP] [Text=highly CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=RB] [Text=ranked CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=VBD] [Text=here CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=.] 
+root(ROOT-0, bought-2)
+nsubj(bought-2, I-1)
+det(DVD-4, this-3)
+dobj(bought-2, DVD-4)
+prep(bought-2, after-5)
+pcomp(after-5, seeing-6)
+nsubj(ranked-9, it-7)
+advmod(ranked-9, highly-8)
+ccomp(seeing-6, ranked-9)
+advmod(ranked-9, here-10)
+punct(bought-2, .-11)
+
+Sentence #2 (10 tokens):
+It's just a short 20 minutes zombie film.
+[Text=It CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=DT] [Text=short CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=JJ] [Text=20 CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=83 CharacterOffsetEnd=90 PartOfSpeech=NNS] [Text=zombie CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=.] 
+root(ROOT-0, minutes-7)
+nsubj(minutes-7, It-1)
+cop(minutes-7, 's-2)
+advmod(minutes-7, just-3)
+det(minutes-7, a-4)
+amod(minutes-7, short-5)
+num(minutes-7, 20-6)
+nn(film-9, zombie-8)
+dobj(minutes-7, film-9)
+punct(minutes-7, .-10)
+
+Sentence #3 (14 tokens):
+Nothing special about it except for the music perhaps.Don't buy it!
+[Text=Nothing CharacterOffsetBegin=108 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=special CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=124 CharacterOffsetEnd=129 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=PRP] [Text=except CharacterOffsetBegin=133 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NN] [Text=perhaps.Don CharacterOffsetBegin=154 CharacterOffsetEnd=165 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=POS] [Text=t CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=buy CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=.] 
+root(ROOT-0, Nothing-1)
+amod(Nothing-1, special-2)
+prep(special-2, about-3)
+pobj(about-3, it-4)
+mark(buy-12, except-5)
+mark(buy-12, for-6)
+det(perhaps.Don-9, the-7)
+nn(perhaps.Don-9, music-8)
+poss(t-11, perhaps.Don-9)
+possessive(perhaps.Don-9, '-10)
+nsubj(buy-12, t-11)
+advcl(Nothing-1, buy-12)
+dobj(buy-12, it-13)
+punct(Nothing-1, !-14)
+
+Sentence #4 (11 tokens):
+Not even really worth spending 20 minutes to see it.
+[Text=Not CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=189 CharacterOffsetEnd=195 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=spending CharacterOffsetBegin=202 CharacterOffsetEnd=210 PartOfSpeech=VBG] [Text=20 CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=214 CharacterOffsetEnd=221 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, worth-4)
+neg(worth-4, Not-1)
+advmod(really-3, even-2)
+advmod(worth-4, really-3)
+dep(worth-4, spending-5)
+num(minutes-7, 20-6)
+dobj(spending-5, minutes-7)
+aux(see-9, to-8)
+xcomp(spending-5, see-9)
+dobj(see-9, it-10)
+punct(worth-4, .-11)
+
+Sentence #5 (7 tokens):
+Only if you're really bored...
+[Text=Only CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=RB] [Text=if CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=VBP] [Text=really CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=RB] [Text=bored CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=VBN] [Text=... CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=:] 
+root(ROOT-0, bored-6)
+advmod(bored-6, Only-1)
+mark(bored-6, if-2)
+nsubj(bored-6, you-3)
+cop(bored-6, 're-4)
+advmod(bored-6, really-5)
+punct(bored-6, ...-7)
+

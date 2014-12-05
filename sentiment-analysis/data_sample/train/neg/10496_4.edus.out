@@ -1,0 +1,322 @@
+Sentence #1 (3 tokens):
+Gday Mates!
+[Text=Gday CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text=Mates CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NNPS] [Text=! CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=.] 
+root(ROOT-0, Mates-2)
+nn(Mates-2, Gday-1)
+punct(Mates-2, !-3)
+
+Sentence #2 (7 tokens):
+just watched Croc Hunter the movie.
+[Text=just CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=RB] [Text=watched CharacterOffsetBegin=25 CharacterOffsetEnd=32 PartOfSpeech=VBN] [Text=Croc CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=NNP] [Text=Hunter CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+advmod(watched-2, just-1)
+dep(movie-6, watched-2)
+nn(Hunter-4, Croc-3)
+nsubj(movie-6, Hunter-4)
+det(movie-6, the-5)
+punct(movie-6, .-7)
+
+Sentence #3 (10 tokens):
+it was alright but the show seems more real.
+[Text=it CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=VBD] [Text=alright CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text=seems CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=RBR] [Text=real CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=.] 
+root(ROOT-0, alright-3)
+nsubj(alright-3, it-1)
+cop(alright-3, was-2)
+cc(alright-3, but-4)
+det(show-6, the-5)
+nsubj(real-9, show-6)
+cop(real-9, seems-7)
+advmod(real-9, more-8)
+conj(alright-3, real-9)
+punct(alright-3, .-10)
+
+Sentence #4 (15 tokens):
+this just seemed like a longer AnimalPlanet episode with funnier lines and more characters.
+[Text=this CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=just CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=RB] [Text=seemed CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=VBN] [Text=like CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=DT] [Text=longer CharacterOffsetBegin=133 CharacterOffsetEnd=139 PartOfSpeech=RBR] [Text=AnimalPlanet CharacterOffsetBegin=140 CharacterOffsetEnd=152 PartOfSpeech=JJ] [Text=episode CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=funnier CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=JJR] [Text=lines CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=CC] [Text=more CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=JJR] [Text=characters CharacterOffsetBegin=189 CharacterOffsetEnd=199 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.] 
+root(ROOT-0, seemed-3)
+nsubj(seemed-3, this-1)
+advmod(seemed-3, just-2)
+prep(seemed-3, like-4)
+det(episode-8, a-5)
+advmod(AnimalPlanet-7, longer-6)
+amod(episode-8, AnimalPlanet-7)
+pobj(like-4, episode-8)
+prep(episode-8, with-9)
+amod(lines-11, funnier-10)
+pobj(with-9, lines-11)
+cc(lines-11, and-12)
+amod(characters-14, more-13)
+conj(lines-11, characters-14)
+punct(seemed-3, .-15)
+
+Sentence #5 (12 tokens):
+A few things: Steve described snakes Fangs like hypodermic needles.
+[Text=A CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=JJ] [Text=things CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=NNS] [Text=: CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=:] [Text=Steve CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=NNP] [Text=described CharacterOffsetBegin=225 CharacterOffsetEnd=234 PartOfSpeech=VBD] [Text=snakes CharacterOffsetBegin=235 CharacterOffsetEnd=241 PartOfSpeech=NNS] [Text=Fangs CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=hypodermic CharacterOffsetBegin=253 CharacterOffsetEnd=263 PartOfSpeech=JJ] [Text=needles CharacterOffsetBegin=264 CharacterOffsetEnd=271 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, things-3)
+det(things-3, A-1)
+amod(things-3, few-2)
+punct(things-3, :-4)
+nsubj(described-6, Steve-5)
+dep(things-3, described-6)
+dobj(described-6, snakes-7)
+dobj(snakes-7, Fangs-8)
+prep(Fangs-8, like-9)
+amod(needles-11, hypodermic-10)
+pobj(like-9, needles-11)
+punct(things-3, .-12)
+
+Sentence #6 (2 tokens):
+yeeeowch!
+[Text=yeeeowch CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.] 
+root(ROOT-0, yeeeowch-1)
+punct(yeeeowch-1, !-2)
+
+Sentence #7 (7 tokens):
+for reals you know that hurts.
+[Text=for CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=IN] [Text=reals CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=NNS] [Text=you CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=IN] [Text=hurts CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=.] 
+root(ROOT-0, for-1)
+pobj(for-1, reals-2)
+nsubj(know-4, you-3)
+rcmod(reals-2, know-4)
+nsubj(hurts-6, that-5)
+ccomp(know-4, hurts-6)
+punct(for-1, .-7)
+
+Sentence #8 (7 tokens):
+and cant they jump up high?
+[Text=and CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=CC] [Text=cant CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=NN] [Text=they CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=PRP] [Text=jump CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=VBP] [Text=up CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=RB] [Text=high CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.] 
+root(ROOT-0, cant-2)
+cc(cant-2, and-1)
+nsubj(jump-4, they-3)
+rcmod(cant-2, jump-4)
+prt(jump-4, up-5)
+advmod(jump-4, high-6)
+punct(cant-2, ?-7)
+
+Sentence #9 (10 tokens):
+hes all grabbin them by the tail and stuff.
+[Text=hes CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=NNS] [Text=all CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=DT] [Text=grabbin CharacterOffsetBegin=366 CharacterOffsetEnd=373 PartOfSpeech=VBP] [Text=them CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=PRP] [Text=by CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=tail CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=CC] [Text=stuff CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=400 CharacterOffsetEnd=401 PartOfSpeech=.] 
+root(ROOT-0, grabbin-3)
+nsubj(grabbin-3, hes-1)
+dep(grabbin-3, all-2)
+dobj(grabbin-3, them-4)
+prep(grabbin-3, by-5)
+det(tail-7, the-6)
+pobj(by-5, tail-7)
+cc(tail-7, and-8)
+conj(tail-7, stuff-9)
+punct(grabbin-3, .-10)
+
+Sentence #10 (10 tokens):
+There was two MAJOR cleavage shots in this movie.
+[Text=There CharacterOffsetBegin=406 CharacterOffsetEnd=411 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=VBD] [Text=two CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=CD] [Text=MAJOR CharacterOffsetBegin=420 CharacterOffsetEnd=425 PartOfSpeech=NN] [Text=cleavage CharacterOffsetBegin=426 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=shots CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=449 CharacterOffsetEnd=454 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=454 CharacterOffsetEnd=455 PartOfSpeech=.] 
+root(ROOT-0, was-2)
+expl(was-2, There-1)
+num(shots-6, two-3)
+nn(shots-6, MAJOR-4)
+nn(shots-6, cleavage-5)
+nsubj(was-2, shots-6)
+prep(shots-6, in-7)
+det(movie-9, this-8)
+pobj(in-7, movie-9)
+punct(was-2, .-10)
+
+Sentence #11 (22 tokens):
+when Terry find that baby joey she goes like "We have to nurture them, just like a baby".
+[Text=when CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=WRB] [Text=Terry CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=NNP] [Text=find CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=IN] [Text=baby CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=NN] [Text=joey CharacterOffsetBegin=486 CharacterOffsetEnd=490 PartOfSpeech=NN] [Text=she CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=PRP] [Text=goes CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=``] [Text=We CharacterOffsetBegin=506 CharacterOffsetEnd=508 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=509 CharacterOffsetEnd=513 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=514 CharacterOffsetEnd=516 PartOfSpeech=TO] [Text=nurture CharacterOffsetBegin=517 CharacterOffsetEnd=524 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=,] [Text=just CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=541 CharacterOffsetEnd=542 PartOfSpeech=DT] [Text=baby CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=''] [Text=. CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=.] 
+root(ROOT-0, find-3)
+advmod(find-3, when-1)
+nsubj(find-3, Terry-2)
+dobj(find-3, that-4)
+nn(joey-6, baby-5)
+dep(that-4, joey-6)
+nsubj(goes-8, she-7)
+rcmod(joey-6, goes-8)
+prep(goes-8, like-9)
+punct(like-9, ``-10)
+nsubj(have-12, We-11)
+dep(like-9, have-12)
+aux(nurture-14, to-13)
+xcomp(have-12, nurture-14)
+dobj(nurture-14, them-15)
+punct(have-12, ,-16)
+advmod(like-18, just-17)
+prep(have-12, like-18)
+det(baby-20, a-19)
+pobj(like-18, baby-20)
+punct(baby-20, ''-21)
+punct(find-3, .-22)
+
+Sentence #12 (2 tokens):
+Woah!
+[Text=Woah CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=.] 
+root(ROOT-0, Woah-1)
+punct(Woah-1, !-2)
+
+Sentence #13 (13 tokens):
+i thought she was gonna up & breast feed that kid.
+[Text=i CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=LS] [Text=thought CharacterOffsetBegin=566 CharacterOffsetEnd=573 PartOfSpeech=VBD] [Text=she CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=578 CharacterOffsetEnd=581 PartOfSpeech=VBD] [Text=gon CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=VBG] [Text=na CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=TO] [Text=up CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=RP] [Text=& CharacterOffsetBegin=591 CharacterOffsetEnd=592 PartOfSpeech=CC] [Text=breast CharacterOffsetBegin=593 CharacterOffsetEnd=599 PartOfSpeech=NN] [Text=feed CharacterOffsetBegin=600 CharacterOffsetEnd=604 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=WDT] [Text=kid CharacterOffsetBegin=610 CharacterOffsetEnd=613 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, i-1)
+nsubj(gon-5, she-3)
+aux(gon-5, was-4)
+ccomp(thought-2, gon-5)
+nsubj(feed-10, na-6)
+prt(na-6, up-7)
+cc(na-6, &-8)
+conj(na-6, breast-9)
+xcomp(gon-5, feed-10)
+nsubj(kid-12, that-11)
+dep(feed-10, kid-12)
+punct(thought-2, .-13)
+
+Sentence #14 (7 tokens):
+that woulda made it PG-13 though.
+[Text=that CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=IN] [Text=woulda CharacterOffsetBegin=624 CharacterOffsetEnd=630 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=631 CharacterOffsetEnd=635 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=PRP] [Text=PG-13 CharacterOffsetBegin=639 CharacterOffsetEnd=644 PartOfSpeech=NN] [Text=though CharacterOffsetBegin=645 CharacterOffsetEnd=651 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=651 CharacterOffsetEnd=652 PartOfSpeech=.] 
+root(ROOT-0, made-3)
+mark(made-3, that-1)
+nsubj(made-3, woulda-2)
+nsubj(PG-13-5, it-4)
+xcomp(made-3, PG-13-5)
+advmod(made-3, though-6)
+punct(made-3, .-7)
+
+Sentence #15 (23 tokens):
+While on Terry, did anyone notice on the movie and a lot of the show Terry's knowledge on ritual mating.
+[Text=While CharacterOffsetBegin=657 CharacterOffsetEnd=662 PartOfSpeech=IN] [Text=on CharacterOffsetBegin=663 CharacterOffsetEnd=665 PartOfSpeech=IN] [Text=Terry CharacterOffsetBegin=666 CharacterOffsetEnd=671 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=,] [Text=did CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=VBD] [Text=anyone CharacterOffsetBegin=677 CharacterOffsetEnd=683 PartOfSpeech=NN] [Text=notice CharacterOffsetBegin=684 CharacterOffsetEnd=690 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=691 CharacterOffsetEnd=693 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=698 CharacterOffsetEnd=703 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=704 CharacterOffsetEnd=707 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=714 CharacterOffsetEnd=716 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=717 CharacterOffsetEnd=720 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=721 CharacterOffsetEnd=725 PartOfSpeech=NN] [Text=Terry CharacterOffsetBegin=726 CharacterOffsetEnd=731 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=731 CharacterOffsetEnd=733 PartOfSpeech=POS] [Text=knowledge CharacterOffsetBegin=734 CharacterOffsetEnd=743 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=744 CharacterOffsetEnd=746 PartOfSpeech=IN] [Text=ritual CharacterOffsetBegin=747 CharacterOffsetEnd=753 PartOfSpeech=NN] [Text=mating CharacterOffsetBegin=754 CharacterOffsetEnd=760 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=760 CharacterOffsetEnd=761 PartOfSpeech=.] 
+root(ROOT-0, did-5)
+prep(did-5, While-1)
+pcomp(While-1, on-2)
+pobj(on-2, Terry-3)
+punct(did-5, ,-4)
+nsubj(notice-7, anyone-6)
+ccomp(did-5, notice-7)
+prep(notice-7, on-8)
+det(movie-10, the-9)
+pobj(on-8, movie-10)
+cc(movie-10, and-11)
+det(lot-13, a-12)
+conj(movie-10, lot-13)
+prep(lot-13, of-14)
+pobj(of-14, the-15)
+dep(the-15, show-16)
+poss(knowledge-19, Terry-17)
+possessive(Terry-17, 's-18)
+dobj(show-16, knowledge-19)
+prep(knowledge-19, on-20)
+nn(mating-22, ritual-21)
+pobj(on-20, mating-22)
+punct(did-5, .-23)
+
+Sentence #16 (6 tokens):
+she knows her sex stuffs.
+[Text=she CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=PRP] [Text=knows CharacterOffsetBegin=770 CharacterOffsetEnd=775 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=776 CharacterOffsetEnd=779 PartOfSpeech=PRP$] [Text=sex CharacterOffsetBegin=780 CharacterOffsetEnd=783 PartOfSpeech=NN] [Text=stuffs CharacterOffsetBegin=784 CharacterOffsetEnd=790 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=790 CharacterOffsetEnd=791 PartOfSpeech=.] 
+root(ROOT-0, knows-2)
+nsubj(knows-2, she-1)
+poss(sex-4, her-3)
+nsubj(stuffs-5, sex-4)
+ccomp(knows-2, stuffs-5)
+punct(knows-2, .-6)
+
+Sentence #17 (8 tokens):
+movie takes place in Queensland, Austrailia.
+[Text=movie CharacterOffsetBegin=796 CharacterOffsetEnd=801 PartOfSpeech=NN] [Text=takes CharacterOffsetBegin=802 CharacterOffsetEnd=807 PartOfSpeech=VBZ] [Text=place CharacterOffsetBegin=808 CharacterOffsetEnd=813 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=814 CharacterOffsetEnd=816 PartOfSpeech=IN] [Text=Queensland CharacterOffsetBegin=817 CharacterOffsetEnd=827 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=,] [Text=Austrailia CharacterOffsetBegin=829 CharacterOffsetEnd=839 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=839 CharacterOffsetEnd=840 PartOfSpeech=.] 
+root(ROOT-0, takes-2)
+nsubj(takes-2, movie-1)
+dobj(takes-2, place-3)
+prep(takes-2, in-4)
+pobj(in-4, Queensland-5)
+punct(Queensland-5, ,-6)
+appos(Queensland-5, Austrailia-7)
+punct(takes-2, .-8)
+
+Sentence #18 (20 tokens):
+I want a koala, dingo, and joey!Steve's dog Sui actually has a purpose in this movie.
+[Text=I CharacterOffsetBegin=845 CharacterOffsetEnd=846 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=847 CharacterOffsetEnd=851 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=852 CharacterOffsetEnd=853 PartOfSpeech=DT] [Text=koala CharacterOffsetBegin=854 CharacterOffsetEnd=859 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=859 CharacterOffsetEnd=860 PartOfSpeech=,] [Text=dingo CharacterOffsetBegin=861 CharacterOffsetEnd=866 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=866 CharacterOffsetEnd=867 PartOfSpeech=,] [Text=and CharacterOffsetBegin=868 CharacterOffsetEnd=871 PartOfSpeech=CC] [Text=joey!Steve CharacterOffsetBegin=872 CharacterOffsetEnd=882 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=882 CharacterOffsetEnd=884 PartOfSpeech=POS] [Text=dog CharacterOffsetBegin=885 CharacterOffsetEnd=888 PartOfSpeech=NN] [Text=Sui CharacterOffsetBegin=889 CharacterOffsetEnd=892 PartOfSpeech=NNP] [Text=actually CharacterOffsetBegin=893 CharacterOffsetEnd=901 PartOfSpeech=RB] [Text=has CharacterOffsetBegin=902 CharacterOffsetEnd=905 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=906 CharacterOffsetEnd=907 PartOfSpeech=DT] [Text=purpose CharacterOffsetBegin=908 CharacterOffsetEnd=915 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=916 CharacterOffsetEnd=918 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=919 CharacterOffsetEnd=923 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=924 CharacterOffsetEnd=929 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=929 CharacterOffsetEnd=930 PartOfSpeech=.] 
+root(ROOT-0, want-2)
+nsubj(want-2, I-1)
+det(koala-4, a-3)
+dobj(want-2, koala-4)
+punct(koala-4, ,-5)
+conj(koala-4, dingo-6)
+punct(koala-4, ,-7)
+cc(koala-4, and-8)
+poss(Sui-12, joey!Steve-9)
+possessive(joey!Steve-9, 's-10)
+nn(Sui-12, dog-11)
+nsubj(has-14, Sui-12)
+advmod(has-14, actually-13)
+conj(koala-4, has-14)
+det(purpose-16, a-15)
+dobj(has-14, purpose-16)
+prep(has-14, in-17)
+det(movie-19, this-18)
+pobj(in-17, movie-19)
+punct(want-2, .-20)
+
+Sentence #19 (42 tokens):
+albeit a small one which proves useless against the dynamite-wielding hottie.Oh and if anyone else watches this, try and agree with me in saying that country bumpkin fat lady with the herd of dogs was RIGHT in shotgunning the croc.
+[Text=albeit CharacterOffsetBegin=935 CharacterOffsetEnd=941 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=942 CharacterOffsetEnd=943 PartOfSpeech=DT] [Text=small CharacterOffsetBegin=944 CharacterOffsetEnd=949 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=950 CharacterOffsetEnd=953 PartOfSpeech=CD] [Text=which CharacterOffsetBegin=954 CharacterOffsetEnd=959 PartOfSpeech=WDT] [Text=proves CharacterOffsetBegin=960 CharacterOffsetEnd=966 PartOfSpeech=VBZ] [Text=useless CharacterOffsetBegin=967 CharacterOffsetEnd=974 PartOfSpeech=JJ] [Text=against CharacterOffsetBegin=975 CharacterOffsetEnd=982 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=983 CharacterOffsetEnd=986 PartOfSpeech=DT] [Text=dynamite-wielding CharacterOffsetBegin=987 CharacterOffsetEnd=1004 PartOfSpeech=JJ] [Text=hottie.Oh CharacterOffsetBegin=1005 CharacterOffsetEnd=1014 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1015 CharacterOffsetEnd=1018 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=1019 CharacterOffsetEnd=1021 PartOfSpeech=IN] [Text=anyone CharacterOffsetBegin=1022 CharacterOffsetEnd=1028 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=1029 CharacterOffsetEnd=1033 PartOfSpeech=RB] [Text=watches CharacterOffsetBegin=1034 CharacterOffsetEnd=1041 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=1042 CharacterOffsetEnd=1046 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=1046 CharacterOffsetEnd=1047 PartOfSpeech=,] [Text=try CharacterOffsetBegin=1048 CharacterOffsetEnd=1051 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=1052 CharacterOffsetEnd=1055 PartOfSpeech=CC] [Text=agree CharacterOffsetBegin=1056 CharacterOffsetEnd=1061 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=1062 CharacterOffsetEnd=1066 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=1067 CharacterOffsetEnd=1069 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=1070 CharacterOffsetEnd=1072 PartOfSpeech=IN] [Text=saying CharacterOffsetBegin=1073 CharacterOffsetEnd=1079 PartOfSpeech=VBG] [Text=that CharacterOffsetBegin=1080 CharacterOffsetEnd=1084 PartOfSpeech=DT] [Text=country CharacterOffsetBegin=1085 CharacterOffsetEnd=1092 PartOfSpeech=NN] [Text=bumpkin CharacterOffsetBegin=1093 CharacterOffsetEnd=1100 PartOfSpeech=NN] [Text=fat CharacterOffsetBegin=1101 CharacterOffsetEnd=1104 PartOfSpeech=JJ] [Text=lady CharacterOffsetBegin=1105 CharacterOffsetEnd=1109 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=1110 CharacterOffsetEnd=1114 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1115 CharacterOffsetEnd=1118 PartOfSpeech=DT] [Text=herd CharacterOffsetBegin=1119 CharacterOffsetEnd=1123 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1124 CharacterOffsetEnd=1126 PartOfSpeech=IN] [Text=dogs CharacterOffsetBegin=1127 CharacterOffsetEnd=1131 PartOfSpeech=NNS] [Text=was CharacterOffsetBegin=1132 CharacterOffsetEnd=1135 PartOfSpeech=VBD] [Text=RIGHT CharacterOffsetBegin=1136 CharacterOffsetEnd=1141 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=1142 CharacterOffsetEnd=1144 PartOfSpeech=IN] [Text=shotgunning CharacterOffsetBegin=1145 CharacterOffsetEnd=1156 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=1157 CharacterOffsetEnd=1160 PartOfSpeech=DT] [Text=croc CharacterOffsetBegin=1161 CharacterOffsetEnd=1165 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1165 CharacterOffsetEnd=1166 PartOfSpeech=.] 
+root(ROOT-0, try-19)
+dep(try-19, albeit-1)
+det(one-4, a-2)
+amod(one-4, small-3)
+nsubj(try-19, one-4)
+nsubj(proves-6, which-5)
+rcmod(one-4, proves-6)
+acomp(proves-6, useless-7)
+prep(useless-7, against-8)
+det(hottie.Oh-11, the-9)
+amod(hottie.Oh-11, dynamite-wielding-10)
+pobj(against-8, hottie.Oh-11)
+cc(useless-7, and-12)
+mark(watches-16, if-13)
+nsubj(watches-16, anyone-14)
+advmod(watches-16, else-15)
+conj(useless-7, watches-16)
+dobj(watches-16, this-17)
+punct(one-4, ,-18)
+cc(try-19, and-20)
+conj(try-19, agree-21)
+prep(agree-21, with-22)
+pobj(with-22, me-23)
+prep(try-19, in-24)
+pcomp(in-24, saying-25)
+mark(RIGHT-37, that-26)
+nn(lady-30, country-27)
+nn(lady-30, bumpkin-28)
+amod(lady-30, fat-29)
+nsubj(RIGHT-37, lady-30)
+prep(lady-30, with-31)
+det(herd-33, the-32)
+pobj(with-31, herd-33)
+prep(herd-33, of-34)
+pobj(of-34, dogs-35)
+cop(RIGHT-37, was-36)
+ccomp(saying-25, RIGHT-37)
+prep(RIGHT-37, in-38)
+pcomp(in-38, shotgunning-39)
+det(croc-41, the-40)
+dobj(shotgunning-39, croc-41)
+punct(try-19, .-42)
+
+Sentence #20 (6 tokens):
+he was eating her sheep!!
+[Text=he CharacterOffsetBegin=1171 CharacterOffsetEnd=1173 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=1174 CharacterOffsetEnd=1177 PartOfSpeech=VBD] [Text=eating CharacterOffsetBegin=1178 CharacterOffsetEnd=1184 PartOfSpeech=VBG] [Text=her CharacterOffsetBegin=1185 CharacterOffsetEnd=1188 PartOfSpeech=PRP$] [Text=sheep CharacterOffsetBegin=1189 CharacterOffsetEnd=1194 PartOfSpeech=NN] [Text=!! CharacterOffsetBegin=1194 CharacterOffsetEnd=1196 PartOfSpeech=IN] 
+root(ROOT-0, eating-3)
+nsubj(eating-3, he-1)
+aux(eating-3, was-2)
+poss(sheep-5, her-4)
+dobj(eating-3, sheep-5)
+advmod(eating-3, !!-6)
+
+Sentence #21 (6 tokens):
+i would be mad too!
+[Text=i CharacterOffsetBegin=1201 CharacterOffsetEnd=1202 PartOfSpeech=LS] [Text=would CharacterOffsetBegin=1203 CharacterOffsetEnd=1208 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=1209 CharacterOffsetEnd=1211 PartOfSpeech=VB] [Text=mad CharacterOffsetBegin=1212 CharacterOffsetEnd=1215 PartOfSpeech=JJ] [Text=too CharacterOffsetBegin=1216 CharacterOffsetEnd=1219 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=1219 CharacterOffsetEnd=1220 PartOfSpeech=.] 
+root(ROOT-0, mad-4)
+nsubj(mad-4, i-1)
+aux(mad-4, would-2)
+cop(mad-4, be-3)
+advmod(mad-4, too-5)
+punct(mad-4, !-6)
+

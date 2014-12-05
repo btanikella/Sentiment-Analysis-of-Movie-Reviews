@@ -1,0 +1,130 @@
+Sentence #1 (18 tokens):
+"Hak Hap", or "Black Mask" (in english) was a disappointment.
+[Text=`` CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=``] [Text=Hak CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text=Hap CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=''] [Text=, CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=,] [Text=or CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=``] [Text=Black CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=Mask CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=''] [Text=-LRB- CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=-LRB-] [Text=in CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN] [Text=english CharacterOffsetBegin=35 CharacterOffsetEnd=42 PartOfSpeech=JJ] [Text=-RRB- CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=-RRB-] [Text=was CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=DT] [Text=disappointment CharacterOffsetBegin=50 CharacterOffsetEnd=64 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=.] 
+root(ROOT-0, Hap-3)
+punct(Hap-3, ``-1)
+nn(Hap-3, Hak-2)
+punct(Hap-3, ''-4)
+punct(Hap-3, ,-5)
+cc(Hap-3, or-6)
+punct(Hap-3, ``-7)
+amod(Mask-9, Black-8)
+conj(Hap-3, Mask-9)
+punct(Hap-3, ''-10)
+punct(disappointment-17, -LRB--11)
+prep(disappointment-17, in-12)
+pobj(in-12, english-13)
+punct(disappointment-17, -RRB--14)
+cop(disappointment-17, was-15)
+det(disappointment-17, a-16)
+dep(Hap-3, disappointment-17)
+punct(Hap-3, .-18)
+
+Sentence #2 (17 tokens):
+I was told that it was a sort of "Japanese version of the Matrix".
+[Text=I CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=VBD] [Text=told CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=DT] [Text=sort CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=``] [Text=Japanese CharacterOffsetBegin=104 CharacterOffsetEnd=112 PartOfSpeech=JJ] [Text=version CharacterOffsetBegin=113 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=DT] [Text=Matrix CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=''] [Text=. CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=.] 
+root(ROOT-0, told-3)
+nsubjpass(told-3, I-1)
+auxpass(told-3, was-2)
+mark(sort-8, that-4)
+nsubj(sort-8, it-5)
+cop(sort-8, was-6)
+det(sort-8, a-7)
+ccomp(told-3, sort-8)
+prep(sort-8, of-9)
+punct(version-12, ``-10)
+amod(version-12, Japanese-11)
+pobj(of-9, version-12)
+prep(version-12, of-13)
+det(Matrix-15, the-14)
+pobj(of-13, Matrix-15)
+punct(Matrix-15, ''-16)
+punct(told-3, .-17)
+
+Sentence #3 (4 tokens):
+Imagine my disappointment.
+[Text=Imagine CharacterOffsetBegin=141 CharacterOffsetEnd=148 PartOfSpeech=VB] [Text=my CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=PRP$] [Text=disappointment CharacterOffsetBegin=152 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=.] 
+root(ROOT-0, Imagine-1)
+poss(disappointment-3, my-2)
+dobj(Imagine-1, disappointment-3)
+punct(Imagine-1, .-4)
+
+Sentence #4 (17 tokens):
+The film was either badly dubbed or the soundtrack didn't time well with the film.
+[Text=The CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=VBD] [Text=either CharacterOffsetBegin=185 CharacterOffsetEnd=191 PartOfSpeech=CC] [Text=badly CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=RB] [Text=dubbed CharacterOffsetBegin=198 CharacterOffsetEnd=204 PartOfSpeech=VBN] [Text=or CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=soundtrack CharacterOffsetBegin=212 CharacterOffsetEnd=222 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=RB] [Text=time CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NN] [Text=well CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=.] 
+root(ROOT-0, was-3)
+det(film-2, The-1)
+nsubj(was-3, film-2)
+preconj(dubbed-6, either-4)
+advmod(dubbed-6, badly-5)
+dep(was-3, dubbed-6)
+cc(dubbed-6, or-7)
+det(soundtrack-9, the-8)
+conj(dubbed-6, soundtrack-9)
+aux(time-12, did-10)
+neg(time-12, n't-11)
+dep(dubbed-6, time-12)
+advmod(with-14, well-13)
+prep(time-12, with-14)
+det(film-16, the-15)
+pobj(with-14, film-16)
+punct(was-3, .-17)
+
+Sentence #5 (11 tokens):
+Another thing is that the dialogue was pretty much bad.
+[Text=Another CharacterOffsetBegin=259 CharacterOffsetEnd=266 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=dialogue CharacterOffsetBegin=285 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=VBD] [Text=pretty CharacterOffsetBegin=298 CharacterOffsetEnd=304 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+det(thing-2, Another-1)
+nsubj(is-3, thing-2)
+mark(bad-10, that-4)
+det(dialogue-6, the-5)
+nsubj(bad-10, dialogue-6)
+cop(bad-10, was-7)
+advmod(much-9, pretty-8)
+advmod(bad-10, much-9)
+ccomp(is-3, bad-10)
+punct(is-3, .-11)
+
+Sentence #6 (25 tokens):
+There was very little thought put into the English version of this film and it appeals only to the "senseless action" genre.
+[Text=There CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=RB] [Text=little CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=JJ] [Text=thought CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=put CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=VBD] [Text=into CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=DT] [Text=English CharacterOffsetBegin=362 CharacterOffsetEnd=369 PartOfSpeech=NNP] [Text=version CharacterOffsetBegin=370 CharacterOffsetEnd=377 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=PRP] [Text=appeals CharacterOffsetBegin=398 CharacterOffsetEnd=405 PartOfSpeech=NNS] [Text=only CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=``] [Text=senseless CharacterOffsetBegin=419 CharacterOffsetEnd=428 PartOfSpeech=JJ] [Text=action CharacterOffsetBegin=429 CharacterOffsetEnd=435 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=435 CharacterOffsetEnd=436 PartOfSpeech=''] [Text=genre CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=442 CharacterOffsetEnd=443 PartOfSpeech=.] 
+root(ROOT-0, was-2)
+expl(was-2, There-1)
+advmod(little-4, very-3)
+amod(thought-5, little-4)
+nsubj(was-2, thought-5)
+dep(was-2, put-6)
+prep(put-6, into-7)
+det(version-10, the-8)
+nn(version-10, English-9)
+pobj(into-7, version-10)
+prep(version-10, of-11)
+det(film-13, this-12)
+pobj(of-11, film-13)
+cc(put-6, and-14)
+nsubj(appeals-16, it-15)
+conj(put-6, appeals-16)
+advmod(to-18, only-17)
+prep(appeals-16, to-18)
+det(genre-24, the-19)
+punct(genre-24, ``-20)
+amod(genre-24, senseless-21)
+nn(genre-24, action-22)
+punct(genre-24, ''-23)
+pobj(to-18, genre-24)
+punct(was-2, .-25)
+
+Sentence #7 (10 tokens):
+Not a film I would want to see again.
+[Text=Not CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=461 CharacterOffsetEnd=466 PartOfSpeech=MD] [Text=want CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=VB] [Text=again CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=.] 
+root(ROOT-0, film-3)
+neg(film-3, Not-1)
+det(film-3, a-2)
+nsubj(want-6, I-4)
+aux(want-6, would-5)
+rcmod(film-3, want-6)
+aux(see-8, to-7)
+xcomp(want-6, see-8)
+advmod(see-8, again-9)
+punct(film-3, .-10)
+

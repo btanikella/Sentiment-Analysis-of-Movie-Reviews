@@ -1,0 +1,143 @@
+Sentence #1 (14 tokens):
+This sci-fi adventure is not the best and by no means the worst.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=sci-fi CharacterOffsetBegin=9 CharacterOffsetEnd=15 PartOfSpeech=JJ] [Text=adventure CharacterOffsetBegin=16 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=JJS] [Text=and CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=CC] [Text=by CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=DT] [Text=means CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=.] 
+root(ROOT-0, means-11)
+det(adventure-3, This-1)
+amod(adventure-3, sci-fi-2)
+nsubj(best-7, adventure-3)
+cop(best-7, is-4)
+neg(best-7, not-5)
+det(best-7, the-6)
+nsubj(means-11, best-7)
+cc(best-7, and-8)
+conj(best-7, by-9)
+pobj(by-9, no-10)
+det(worst-13, the-12)
+dobj(means-11, worst-13)
+punct(means-11, .-14)
+
+Sentence #2 (11 tokens):
+I agree with the statement that bad sci-fi is comical.
+[Text=I CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=PRP] [Text=agree CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=VBP] [Text=with CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=statement CharacterOffsetBegin=90 CharacterOffsetEnd=99 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=IN] [Text=bad CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=sci-fi CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=VBZ] [Text=comical CharacterOffsetBegin=119 CharacterOffsetEnd=126 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=.] 
+root(ROOT-0, agree-2)
+nsubj(agree-2, I-1)
+prep(agree-2, with-3)
+det(statement-5, the-4)
+pobj(with-3, statement-5)
+mark(comical-10, that-6)
+amod(sci-fi-8, bad-7)
+nsubj(comical-10, sci-fi-8)
+cop(comical-10, is-9)
+ccomp(statement-5, comical-10)
+punct(agree-2, .-11)
+
+Sentence #3 (21 tokens):
+Bizarre pink tinting and unusual special effects make this a favorite for the late, late, late show viewers.
+[Text=Bizarre CharacterOffsetBegin=132 CharacterOffsetEnd=139 PartOfSpeech=JJ] [Text=pink CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=tinting CharacterOffsetBegin=145 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=CC] [Text=unusual CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=JJ] [Text=special CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=JJ] [Text=effects CharacterOffsetBegin=173 CharacterOffsetEnd=180 PartOfSpeech=NNS] [Text=make CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=a CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=DT] [Text=favorite CharacterOffsetBegin=193 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=DT] [Text=late CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=,] [Text=late CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=,] [Text=late CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=JJ] [Text=show CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=viewers CharacterOffsetBegin=232 CharacterOffsetEnd=239 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=.] 
+root(ROOT-0, make-8)
+amod(tinting-3, Bizarre-1)
+amod(tinting-3, pink-2)
+nsubj(make-8, tinting-3)
+cc(tinting-3, and-4)
+amod(effects-7, unusual-5)
+amod(effects-7, special-6)
+conj(tinting-3, effects-7)
+nsubj(favorite-11, this-9)
+det(favorite-11, a-10)
+xcomp(make-8, favorite-11)
+prep(favorite-11, for-12)
+det(viewers-20, the-13)
+amod(viewers-20, late-14)
+punct(viewers-20, ,-15)
+amod(viewers-20, late-16)
+punct(viewers-20, ,-17)
+amod(viewers-20, late-18)
+nn(viewers-20, show-19)
+pobj(for-12, viewers-20)
+punct(make-8, .-21)
+
+Sentence #4 (17 tokens):
+Space explorers on the planet Mars fight off strange giant amoeba-like monsters and other strange creatures.
+[Text=Space CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=explorers CharacterOffsetBegin=251 CharacterOffsetEnd=260 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=DT] [Text=planet CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=Mars CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=NNP] [Text=fight CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=VB] [Text=off CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=RP] [Text=strange CharacterOffsetBegin=290 CharacterOffsetEnd=297 PartOfSpeech=JJ] [Text=giant CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=JJ] [Text=amoeba-like CharacterOffsetBegin=304 CharacterOffsetEnd=315 PartOfSpeech=JJ] [Text=monsters CharacterOffsetBegin=316 CharacterOffsetEnd=324 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=CC] [Text=other CharacterOffsetBegin=329 CharacterOffsetEnd=334 PartOfSpeech=JJ] [Text=strange CharacterOffsetBegin=335 CharacterOffsetEnd=342 PartOfSpeech=JJ] [Text=creatures CharacterOffsetBegin=343 CharacterOffsetEnd=352 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.] 
+root(ROOT-0, explorers-2)
+nn(explorers-2, Space-1)
+prep(explorers-2, on-3)
+det(planet-5, the-4)
+pobj(on-3, planet-5)
+nsubj(fight-7, Mars-6)
+rcmod(planet-5, fight-7)
+prt(fight-7, off-8)
+amod(monsters-12, strange-9)
+amod(monsters-12, giant-10)
+amod(monsters-12, amoeba-like-11)
+dobj(fight-7, monsters-12)
+cc(monsters-12, and-13)
+amod(creatures-16, other-14)
+amod(creatures-16, strange-15)
+conj(monsters-12, creatures-16)
+punct(explorers-2, .-17)
+
+Sentence #5 (16 tokens):
+Pretty cool.The cast includes Les Tremayne, Naura Hayden, Gerald Mohr and Jack Kruschen.
+[Text=Pretty CharacterOffsetBegin=358 CharacterOffsetEnd=364 PartOfSpeech=NNP] [Text=cool.The CharacterOffsetBegin=365 CharacterOffsetEnd=373 PartOfSpeech=NNP] [Text=cast CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=VBD] [Text=includes CharacterOffsetBegin=379 CharacterOffsetEnd=387 PartOfSpeech=VBZ] [Text=Les CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=NNP] [Text=Tremayne CharacterOffsetBegin=392 CharacterOffsetEnd=400 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=400 CharacterOffsetEnd=401 PartOfSpeech=,] [Text=Naura CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=NNP] [Text=Hayden CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=,] [Text=Gerald CharacterOffsetBegin=416 CharacterOffsetEnd=422 PartOfSpeech=NNP] [Text=Mohr CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=CC] [Text=Jack CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=NNP] [Text=Kruschen CharacterOffsetBegin=437 CharacterOffsetEnd=445 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=445 CharacterOffsetEnd=446 PartOfSpeech=.] 
+root(ROOT-0, includes-4)
+nn(cast-3, Pretty-1)
+nn(cast-3, cool.The-2)
+nsubj(includes-4, cast-3)
+nn(Tremayne-6, Les-5)
+dobj(includes-4, Tremayne-6)
+punct(Tremayne-6, ,-7)
+nn(Hayden-9, Naura-8)
+conj(Tremayne-6, Hayden-9)
+punct(Tremayne-6, ,-10)
+nn(Mohr-12, Gerald-11)
+conj(Tremayne-6, Mohr-12)
+cc(Tremayne-6, and-13)
+nn(Kruschen-15, Jack-14)
+conj(Tremayne-6, Kruschen-15)
+punct(includes-4, .-16)
+
+Sentence #6 (5 tokens):
+Get comfy and enjoy.
+[Text=Get CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=VB] [Text=comfy CharacterOffsetBegin=455 CharacterOffsetEnd=460 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=CC] [Text=enjoy CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=.] 
+root(ROOT-0, comfy-2)
+dep(comfy-2, Get-1)
+cc(comfy-2, and-3)
+conj(comfy-2, enjoy-4)
+punct(comfy-2, .-5)
+
+Sentence #7 (12 tokens):
+Don't feel bad if you nod off for a moment.
+[Text=Do CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=RB] [Text=feel CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=VB] [Text=bad CharacterOffsetBegin=487 CharacterOffsetEnd=490 PartOfSpeech=JJ] [Text=if CharacterOffsetBegin=491 CharacterOffsetEnd=493 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=PRP] [Text=nod CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=NN] [Text=off CharacterOffsetBegin=502 CharacterOffsetEnd=505 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=DT] [Text=moment CharacterOffsetBegin=512 CharacterOffsetEnd=518 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=.] 
+root(ROOT-0, feel-3)
+aux(feel-3, Do-1)
+neg(feel-3, n't-2)
+acomp(feel-3, bad-4)
+mark(nod-7, if-5)
+nsubj(nod-7, you-6)
+advcl(feel-3, nod-7)
+prep(nod-7, off-8)
+pcomp(off-8, for-9)
+det(moment-11, a-10)
+pobj(for-9, moment-11)
+punct(feel-3, .-12)
+
+Sentence #8 (15 tokens):
+I agree with adding this to the list of cult classics to not miss.
+[Text=I CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=PRP] [Text=agree CharacterOffsetBegin=526 CharacterOffsetEnd=531 PartOfSpeech=VBP] [Text=with CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=IN] [Text=adding CharacterOffsetBegin=537 CharacterOffsetEnd=543 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=DT] [Text=to CharacterOffsetBegin=549 CharacterOffsetEnd=551 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=DT] [Text=list CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=561 CharacterOffsetEnd=563 PartOfSpeech=IN] [Text=cult CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=NN] [Text=classics CharacterOffsetBegin=569 CharacterOffsetEnd=577 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=TO] [Text=not CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=RB] [Text=miss CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=.] 
+root(ROOT-0, agree-2)
+nsubj(agree-2, I-1)
+prep(agree-2, with-3)
+pcomp(with-3, adding-4)
+dobj(adding-4, this-5)
+prep(adding-4, to-6)
+det(list-8, the-7)
+pobj(to-6, list-8)
+prep(list-8, of-9)
+nn(classics-11, cult-10)
+pobj(of-9, classics-11)
+aux(miss-14, to-12)
+neg(miss-14, not-13)
+xcomp(adding-4, miss-14)
+punct(agree-2, .-15)
+

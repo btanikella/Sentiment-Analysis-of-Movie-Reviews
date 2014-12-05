@@ -1,0 +1,56 @@
+Sentence #1 (20 tokens):
+Like another reviewer said, this movie is not a heavy melodrama, but it deals with harsh realities.
+[Text=Like CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=IN] [Text=another CharacterOffsetBegin=9 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=reviewer CharacterOffsetBegin=17 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=said CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=,] [Text=this CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=DT] [Text=heavy CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=JJ] [Text=melodrama CharacterOffsetBegin=58 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=,] [Text=but CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=PRP] [Text=deals CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=VBZ] [Text=with CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=IN] [Text=harsh CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=JJ] [Text=realities CharacterOffsetBegin=93 CharacterOffsetEnd=102 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=.] 
+root(ROOT-0, said-4)
+prep(said-4, Like-1)
+det(reviewer-3, another-2)
+pobj(Like-1, reviewer-3)
+punct(said-4, ,-5)
+det(movie-7, this-6)
+nsubj(melodrama-12, movie-7)
+cop(melodrama-12, is-8)
+neg(melodrama-12, not-9)
+det(melodrama-12, a-10)
+amod(melodrama-12, heavy-11)
+ccomp(said-4, melodrama-12)
+punct(said-4, ,-13)
+cc(said-4, but-14)
+nsubj(deals-16, it-15)
+conj(said-4, deals-16)
+prep(deals-16, with-17)
+amod(realities-19, harsh-18)
+pobj(with-17, realities-19)
+punct(said-4, .-20)
+
+Sentence #2 (13 tokens):
+A very very playful movie that does not dwell for a moment.
+[Text=A CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=RB] [Text=playful CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=WDT] [Text=does CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=RB] [Text=dwell CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=moment CharacterOffsetBegin=160 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+det(movie-5, A-1)
+advmod(playful-4, very-2)
+advmod(playful-4, very-3)
+amod(movie-5, playful-4)
+nsubj(dwell-9, that-6)
+aux(dwell-9, does-7)
+neg(dwell-9, not-8)
+rcmod(movie-5, dwell-9)
+prep(dwell-9, for-10)
+det(moment-12, a-11)
+pobj(for-10, moment-12)
+punct(movie-5, .-13)
+
+Sentence #3 (11 tokens):
+Some very good acting and some wonderful smiles as well.
+[Text=Some CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=187 CharacterOffsetEnd=193 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=CC] [Text=some CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=DT] [Text=wonderful CharacterOffsetBegin=203 CharacterOffsetEnd=212 PartOfSpeech=JJ] [Text=smiles CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NNS] [Text=as CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=.] 
+root(ROOT-0, acting-4)
+det(acting-4, Some-1)
+advmod(good-3, very-2)
+amod(acting-4, good-3)
+cc(acting-4, and-5)
+det(smiles-8, some-6)
+amod(smiles-8, wonderful-7)
+conj(acting-4, smiles-8)
+advmod(well-10, as-9)
+advmod(smiles-8, well-10)
+punct(acting-4, .-11)
+

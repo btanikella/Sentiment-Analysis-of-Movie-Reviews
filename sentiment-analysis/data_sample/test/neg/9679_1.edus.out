@@ -1,0 +1,233 @@
+Sentence #1 (7 tokens):
+I've seen some Bible-based trash.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VBN] [Text=some CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=Bible-based CharacterOffsetBegin=19 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=trash CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=.] 
+root(ROOT-0, seen-3)
+nsubj(seen-3, I-1)
+aux(seen-3, 've-2)
+det(trash-6, some-4)
+amod(trash-6, Bible-based-5)
+dobj(seen-3, trash-6)
+punct(seen-3, .-7)
+
+Sentence #2 (6 tokens):
+This one tops it all.
+[Text=This CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=CD] [Text=tops CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NNS] [Text=it CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=.] 
+root(ROOT-0, tops-3)
+det(tops-3, This-1)
+num(tops-3, one-2)
+dep(tops-3, it-4)
+det(it-4, all-5)
+punct(tops-3, .-6)
+
+Sentence #3 (11 tokens):
+To make matters worse, it lasts about three hours.
+[Text=To CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=VB] [Text=matters CharacterOffsetBegin=76 CharacterOffsetEnd=83 PartOfSpeech=NNS] [Text=worse CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=RBR] [Text=, CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=,] [Text=it CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=PRP] [Text=lasts CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=IN] [Text=three CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=CD] [Text=hours CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=.] 
+root(ROOT-0, lasts-7)
+aux(make-2, To-1)
+advcl(lasts-7, make-2)
+nsubj(worse-4, matters-3)
+xcomp(make-2, worse-4)
+punct(lasts-7, ,-5)
+nsubj(lasts-7, it-6)
+quantmod(three-9, about-8)
+num(hours-10, three-9)
+dobj(lasts-7, hours-10)
+punct(lasts-7, .-11)
+
+Sentence #4 (21 tokens):
+A horrible waste of time, unless you want to match your kid's biblical knowledge against the innumerable aberrations.
+[Text=A CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=DT] [Text=horrible CharacterOffsetBegin=125 CharacterOffsetEnd=133 PartOfSpeech=JJ] [Text=waste CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=,] [Text=unless CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=TO] [Text=match CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=PRP$] [Text=kid CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=POS] [Text=biblical CharacterOffsetBegin=185 CharacterOffsetEnd=193 PartOfSpeech=JJ] [Text=knowledge CharacterOffsetBegin=194 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text=against CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=innumerable CharacterOffsetBegin=216 CharacterOffsetEnd=227 PartOfSpeech=JJ] [Text=aberrations CharacterOffsetBegin=228 CharacterOffsetEnd=239 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=.] 
+root(ROOT-0, waste-3)
+det(waste-3, A-1)
+amod(waste-3, horrible-2)
+prep(waste-3, of-4)
+pobj(of-4, time-5)
+punct(waste-3, ,-6)
+mark(want-9, unless-7)
+nsubj(want-9, you-8)
+dep(waste-3, want-9)
+aux(match-11, to-10)
+xcomp(want-9, match-11)
+poss(kid-13, your-12)
+poss(knowledge-16, kid-13)
+possessive(kid-13, 's-14)
+amod(knowledge-16, biblical-15)
+dobj(match-11, knowledge-16)
+prep(match-11, against-17)
+det(aberrations-20, the-18)
+amod(aberrations-20, innumerable-19)
+pobj(against-17, aberrations-20)
+punct(waste-3, .-21)
+
+Sentence #5 (13 tokens):
+Do yourself a favor - take a walk in the Sahara instead.
+[Text=Do CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=VB] [Text=yourself CharacterOffsetBegin=248 CharacterOffsetEnd=256 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=favor CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=- CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=:] [Text=take CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=walk CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=DT] [Text=Sahara CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=NNP] [Text=instead CharacterOffsetBegin=293 CharacterOffsetEnd=300 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=.] 
+root(ROOT-0, take-6)
+aux(favor-4, Do-1)
+nsubj(favor-4, yourself-2)
+det(favor-4, a-3)
+dep(take-6, favor-4)
+punct(take-6, --5)
+det(walk-8, a-7)
+dobj(take-6, walk-8)
+prep(take-6, in-9)
+det(Sahara-11, the-10)
+pobj(in-9, Sahara-11)
+advmod(take-6, instead-12)
+punct(take-6, .-13)
+
+Sentence #6 (32 tokens):
+Since I am required to give you a ten line statement of why not to watch this movie, let me just say there is absolutely no redeemable quality to it.
+[Text=Since CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=VBP] [Text=required CharacterOffsetBegin=317 CharacterOffsetEnd=325 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=TO] [Text=give CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=DT] [Text=ten CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=CD] [Text=line CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=statement CharacterOffsetBegin=349 CharacterOffsetEnd=358 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=IN] [Text=why CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=WRB] [Text=not CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=,] [Text=let CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=VBP] [Text=there CharacterOffsetBegin=407 CharacterOffsetEnd=412 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=VBZ] [Text=absolutely CharacterOffsetBegin=416 CharacterOffsetEnd=426 PartOfSpeech=RB] [Text=no CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=DT] [Text=redeemable CharacterOffsetBegin=430 CharacterOffsetEnd=440 PartOfSpeech=JJ] [Text=quality CharacterOffsetBegin=441 CharacterOffsetEnd=448 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=TO] [Text=it CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=454 CharacterOffsetEnd=455 PartOfSpeech=.] 
+root(ROOT-0, let-20)
+mark(required-4, Since-1)
+nsubjpass(required-4, I-2)
+auxpass(required-4, am-3)
+advcl(let-20, required-4)
+aux(give-6, to-5)
+xcomp(required-4, give-6)
+iobj(give-6, you-7)
+det(statement-11, a-8)
+num(statement-11, ten-9)
+nn(statement-11, line-10)
+dobj(give-6, statement-11)
+prep(statement-11, of-12)
+advmod(watch-16, why-13)
+neg(watch-16, not-14)
+aux(watch-16, to-15)
+pcomp(of-12, watch-16)
+det(movie-18, this-17)
+dobj(watch-16, movie-18)
+punct(let-20, ,-19)
+dobj(let-20, me-21)
+advmod(say-23, just-22)
+dep(let-20, say-23)
+expl(is-25, there-24)
+ccomp(say-23, is-25)
+advmod(is-25, absolutely-26)
+det(quality-29, no-27)
+amod(quality-29, redeemable-28)
+nsubj(is-25, quality-29)
+prep(quality-29, to-30)
+pobj(to-30, it-31)
+punct(let-20, .-32)
+
+Sentence #7 (8 tokens):
+God's conversations with Noah are ridiculous.
+[Text=God CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=463 CharacterOffsetEnd=465 PartOfSpeech=POS] [Text=conversations CharacterOffsetBegin=466 CharacterOffsetEnd=479 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=IN] [Text=Noah CharacterOffsetBegin=485 CharacterOffsetEnd=489 PartOfSpeech=NNP] [Text=are CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=VBP] [Text=ridiculous CharacterOffsetBegin=494 CharacterOffsetEnd=504 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=.] 
+root(ROOT-0, ridiculous-7)
+poss(conversations-3, God-1)
+possessive(God-1, 's-2)
+nsubj(ridiculous-7, conversations-3)
+prep(conversations-3, with-4)
+pobj(with-4, Noah-5)
+cop(ridiculous-7, are-6)
+punct(ridiculous-7, .-8)
+
+Sentence #8 (18 tokens):
+The whole thing has a stench of "let's make the Biblical account look retarded."
+[Text=The CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=514 CharacterOffsetEnd=519 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=520 CharacterOffsetEnd=525 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=DT] [Text=stench CharacterOffsetBegin=532 CharacterOffsetEnd=538 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=539 CharacterOffsetEnd=541 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=542 CharacterOffsetEnd=543 PartOfSpeech=``] [Text=let CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=VB] [Text='s CharacterOffsetBegin=546 CharacterOffsetEnd=548 PartOfSpeech=POS] [Text=make CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=DT] [Text=Biblical CharacterOffsetBegin=558 CharacterOffsetEnd=566 PartOfSpeech=JJ] [Text=account CharacterOffsetBegin=567 CharacterOffsetEnd=574 PartOfSpeech=NN] [Text=look CharacterOffsetBegin=575 CharacterOffsetEnd=579 PartOfSpeech=NN] [Text=retarded CharacterOffsetBegin=580 CharacterOffsetEnd=588 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=.] [Text='' CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=''] 
+root(ROOT-0, has-4)
+det(thing-3, The-1)
+amod(thing-3, whole-2)
+nsubj(has-4, thing-3)
+det(stench-6, a-5)
+dobj(has-4, stench-6)
+prep(stench-6, of-7)
+punct(of-7, ``-8)
+dep(of-7, let-9)
+nsubj(make-11, 's-10)
+ccomp(let-9, make-11)
+det(look-15, the-12)
+amod(look-15, Biblical-13)
+nn(look-15, account-14)
+nsubj(retarded-16, look-15)
+xcomp(make-11, retarded-16)
+punct(has-4, .-17)
+punct(has-4, ''-18)
+
+Sentence #9 (21 tokens):
+The basic logic goes, if they spent the money on a biblical film, why not make it worthwhile?
+[Text=The CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=DT] [Text=basic CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=JJ] [Text=logic CharacterOffsetBegin=605 CharacterOffsetEnd=610 PartOfSpeech=NN] [Text=goes CharacterOffsetBegin=611 CharacterOffsetEnd=615 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=615 CharacterOffsetEnd=616 PartOfSpeech=,] [Text=if CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=620 CharacterOffsetEnd=624 PartOfSpeech=PRP] [Text=spent CharacterOffsetBegin=625 CharacterOffsetEnd=630 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=DT] [Text=money CharacterOffsetBegin=635 CharacterOffsetEnd=640 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=DT] [Text=biblical CharacterOffsetBegin=646 CharacterOffsetEnd=654 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=655 CharacterOffsetEnd=659 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=,] [Text=why CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=WRB] [Text=not CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=674 CharacterOffsetEnd=676 PartOfSpeech=PRP] [Text=worthwhile CharacterOffsetBegin=677 CharacterOffsetEnd=687 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=.] 
+root(ROOT-0, goes-4)
+det(logic-3, The-1)
+amod(logic-3, basic-2)
+nsubj(goes-4, logic-3)
+punct(goes-4, ,-5)
+mark(spent-8, if-6)
+nsubj(spent-8, they-7)
+advcl(goes-4, spent-8)
+det(money-10, the-9)
+dobj(spent-8, money-10)
+prep(spent-8, on-11)
+det(film-14, a-12)
+amod(film-14, biblical-13)
+pobj(on-11, film-14)
+punct(spent-8, ,-15)
+advmod(make-18, why-16)
+neg(make-18, not-17)
+advcl(spent-8, make-18)
+nsubj(worthwhile-20, it-19)
+xcomp(make-18, worthwhile-20)
+punct(goes-4, ?-21)
+
+Sentence #10 (12 tokens):
+Since the basic logic is not met, something is amiss.
+[Text=Since CharacterOffsetBegin=693 CharacterOffsetEnd=698 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=699 CharacterOffsetEnd=702 PartOfSpeech=DT] [Text=basic CharacterOffsetBegin=703 CharacterOffsetEnd=708 PartOfSpeech=JJ] [Text=logic CharacterOffsetBegin=709 CharacterOffsetEnd=714 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=715 CharacterOffsetEnd=717 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=RB] [Text=met CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=,] [Text=something CharacterOffsetBegin=727 CharacterOffsetEnd=736 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=737 CharacterOffsetEnd=739 PartOfSpeech=VBZ] [Text=amiss CharacterOffsetBegin=740 CharacterOffsetEnd=745 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=745 CharacterOffsetEnd=746 PartOfSpeech=.] 
+root(ROOT-0, amiss-11)
+mark(met-7, Since-1)
+det(logic-4, the-2)
+amod(logic-4, basic-3)
+nsubjpass(met-7, logic-4)
+auxpass(met-7, is-5)
+neg(met-7, not-6)
+advcl(amiss-11, met-7)
+punct(amiss-11, ,-8)
+nsubj(amiss-11, something-9)
+cop(amiss-11, is-10)
+punct(amiss-11, .-12)
+
+Sentence #11 (19 tokens):
+The movie starts with a disclaimer about Poetic Licenses taken...that is the understatement of the century.
+[Text=The CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=755 CharacterOffsetEnd=760 PartOfSpeech=NN] [Text=starts CharacterOffsetBegin=761 CharacterOffsetEnd=767 PartOfSpeech=VBZ] [Text=with CharacterOffsetBegin=768 CharacterOffsetEnd=772 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=DT] [Text=disclaimer CharacterOffsetBegin=775 CharacterOffsetEnd=785 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=786 CharacterOffsetEnd=791 PartOfSpeech=IN] [Text=Poetic CharacterOffsetBegin=792 CharacterOffsetEnd=798 PartOfSpeech=JJ] [Text=Licenses CharacterOffsetBegin=799 CharacterOffsetEnd=807 PartOfSpeech=NNS] [Text=taken CharacterOffsetBegin=808 CharacterOffsetEnd=813 PartOfSpeech=VBN] [Text=... CharacterOffsetBegin=813 CharacterOffsetEnd=816 PartOfSpeech=:] [Text=that CharacterOffsetBegin=816 CharacterOffsetEnd=820 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=821 CharacterOffsetEnd=823 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=824 CharacterOffsetEnd=827 PartOfSpeech=DT] [Text=understatement CharacterOffsetBegin=828 CharacterOffsetEnd=842 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=843 CharacterOffsetEnd=845 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=846 CharacterOffsetEnd=849 PartOfSpeech=DT] [Text=century CharacterOffsetBegin=850 CharacterOffsetEnd=857 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=857 CharacterOffsetEnd=858 PartOfSpeech=.] 
+root(ROOT-0, starts-3)
+det(movie-2, The-1)
+nsubj(starts-3, movie-2)
+prep(starts-3, with-4)
+det(disclaimer-6, a-5)
+pobj(with-4, disclaimer-6)
+prep(disclaimer-6, about-7)
+amod(Licenses-9, Poetic-8)
+pobj(about-7, Licenses-9)
+partmod(Licenses-9, taken-10)
+punct(starts-3, ...-11)
+nsubj(understatement-15, that-12)
+cop(understatement-15, is-13)
+det(understatement-15, the-14)
+parataxis(starts-3, understatement-15)
+prep(understatement-15, of-16)
+det(century-18, the-17)
+pobj(of-16, century-18)
+punct(starts-3, .-19)
+
+Sentence #12 (3 tokens):
+Poetic rape.
+[Text=Poetic CharacterOffsetBegin=863 CharacterOffsetEnd=869 PartOfSpeech=JJ] [Text=rape CharacterOffsetBegin=870 CharacterOffsetEnd=874 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=874 CharacterOffsetEnd=875 PartOfSpeech=.] 
+root(ROOT-0, rape-2)
+amod(rape-2, Poetic-1)
+punct(rape-2, .-3)
+
+Sentence #13 (10 tokens):
+But then, poetic would be an unmerited favor.
+[Text=But CharacterOffsetBegin=880 CharacterOffsetEnd=883 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=884 CharacterOffsetEnd=888 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=888 CharacterOffsetEnd=889 PartOfSpeech=,] [Text=poetic CharacterOffsetBegin=890 CharacterOffsetEnd=896 PartOfSpeech=JJ] [Text=would CharacterOffsetBegin=897 CharacterOffsetEnd=902 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=903 CharacterOffsetEnd=905 PartOfSpeech=VB] [Text=an CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=DT] [Text=unmerited CharacterOffsetBegin=909 CharacterOffsetEnd=918 PartOfSpeech=JJ] [Text=favor CharacterOffsetBegin=919 CharacterOffsetEnd=924 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=924 CharacterOffsetEnd=925 PartOfSpeech=.] 
+root(ROOT-0, favor-9)
+cc(favor-9, But-1)
+advmod(favor-9, then-2)
+punct(favor-9, ,-3)
+nsubj(favor-9, poetic-4)
+aux(favor-9, would-5)
+cop(favor-9, be-6)
+det(favor-9, an-7)
+amod(favor-9, unmerited-8)
+punct(favor-9, .-10)
+

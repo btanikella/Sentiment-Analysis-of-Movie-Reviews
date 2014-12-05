@@ -1,0 +1,79 @@
+Sentence #1 (7 tokens):
+This movie really kicked some ass.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=really CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=RB] [Text=kicked CharacterOffsetBegin=22 CharacterOffsetEnd=28 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=ass CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, kicked-4)
+det(movie-2, This-1)
+nsubj(kicked-4, movie-2)
+advmod(kicked-4, really-3)
+det(ass-6, some-5)
+dobj(kicked-4, ass-6)
+punct(kicked-4, .-7)
+
+Sentence #2 (12 tokens):
+I watched it over and over and it never got boring.
+[Text=I CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=PRP] [Text=over CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=CC] [Text=over CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=PRP] [Text=never CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=VBD] [Text=boring CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+dobj(watched-2, it-3)
+prep(watched-2, over-4)
+cc(over-4, and-5)
+conj(over-4, over-6)
+cc(over-4, and-7)
+nsubj(got-10, it-8)
+neg(got-10, never-9)
+conj(over-4, got-10)
+dobj(got-10, boring-11)
+punct(watched-2, .-12)
+
+Sentence #3 (22 tokens):
+Angelina Jolie really kicked some ass in the movie, you should see the movie, you won't be disappointed.
+[Text=Angelina CharacterOffsetBegin=99 CharacterOffsetEnd=107 PartOfSpeech=NNP] [Text=Jolie CharacterOffsetBegin=108 CharacterOffsetEnd=113 PartOfSpeech=NNP] [Text=really CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=RB] [Text=kicked CharacterOffsetBegin=121 CharacterOffsetEnd=127 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=DT] [Text=ass CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=,] [Text=you CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=155 CharacterOffsetEnd=161 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=,] [Text=you CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=VB] [Text=disappointed CharacterOffsetBegin=190 CharacterOffsetEnd=202 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, kicked-4)
+nn(Jolie-2, Angelina-1)
+nsubj(kicked-4, Jolie-2)
+advmod(kicked-4, really-3)
+det(ass-6, some-5)
+dobj(kicked-4, ass-6)
+prep(kicked-4, in-7)
+det(movie-9, the-8)
+pobj(in-7, movie-9)
+punct(kicked-4, ,-10)
+nsubj(see-13, you-11)
+aux(see-13, should-12)
+ccomp(kicked-4, see-13)
+det(movie-15, the-14)
+dobj(see-13, movie-15)
+punct(kicked-4, ,-16)
+nsubjpass(disappointed-21, you-17)
+aux(disappointed-21, wo-18)
+neg(disappointed-21, n't-19)
+auxpass(disappointed-21, be-20)
+ccomp(kicked-4, disappointed-21)
+punct(kicked-4, .-22)
+
+Sentence #4 (22 tokens):
+And another reason you should see the movie is because the guy from The X-Files is in it, David Duchovny.
+[Text=And CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=CC] [Text=another CharacterOffsetBegin=212 CharacterOffsetEnd=219 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=220 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=231 CharacterOffsetEnd=237 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=VBZ] [Text=because CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=X-Files CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=,] [Text=David CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=NNP] [Text=Duchovny CharacterOffsetBegin=304 CharacterOffsetEnd=312 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=.] 
+root(ROOT-0, is-9)
+cc(is-9, And-1)
+det(reason-3, another-2)
+nsubj(is-9, reason-3)
+nsubj(see-6, you-4)
+aux(see-6, should-5)
+rcmod(reason-3, see-6)
+det(movie-8, the-7)
+dobj(see-6, movie-8)
+mark(is-16, because-10)
+det(guy-12, the-11)
+nsubj(is-16, guy-12)
+prep(guy-12, from-13)
+det(X-Files-15, The-14)
+pobj(from-13, X-Files-15)
+advcl(is-9, is-16)
+prep(is-16, in-17)
+pobj(in-17, it-18)
+punct(is-9, ,-19)
+nn(Duchovny-21, David-20)
+dep(is-9, Duchovny-21)
+punct(is-9, .-22)
+

@@ -1,0 +1,190 @@
+Sentence #1 (8 tokens):
+How bad can you make a film.
+[Text=How CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=WRB] [Text=bad CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=JJ] [Text=can CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=MD] [Text=you CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=PRP] [Text=make CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, make-5)
+advmod(bad-2, How-1)
+dep(make-5, bad-2)
+aux(make-5, can-3)
+nsubj(make-5, you-4)
+det(film-7, a-6)
+dobj(make-5, film-7)
+punct(make-5, .-8)
+
+Sentence #2 (13 tokens):
+A good question which House of the Dead 2 succeeds in answering.
+[Text=A CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=JJ] [Text=question CharacterOffsetBegin=44 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=53 CharacterOffsetEnd=58 PartOfSpeech=WDT] [Text=House CharacterOffsetBegin=59 CharacterOffsetEnd=64 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=DT] [Text=Dead CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=JJ] [Text=2 CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=CD] [Text=succeeds CharacterOffsetBegin=79 CharacterOffsetEnd=87 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=IN] [Text=answering CharacterOffsetBegin=91 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=.] 
+root(ROOT-0, question-3)
+det(question-3, A-1)
+amod(question-3, good-2)
+dobj(succeeds-10, which-4)
+nsubj(succeeds-10, House-5)
+prep(House-5, of-6)
+det(2-9, the-7)
+amod(2-9, Dead-8)
+pobj(of-6, 2-9)
+rcmod(question-3, succeeds-10)
+prep(succeeds-10, in-11)
+pobj(in-11, answering-12)
+punct(question-3, .-13)
+
+Sentence #3 (25 tokens):
+I could not believe it was possible to get something worse than the first House of the Dead but amazingly the director has succeeded.
+[Text=I CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=108 CharacterOffsetEnd=113 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=RB] [Text=believe CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=VBD] [Text=possible CharacterOffsetBegin=133 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=VB] [Text=something CharacterOffsetBegin=149 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=worse CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=JJ] [Text=House CharacterOffsetBegin=180 CharacterOffsetEnd=185 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=DT] [Text=Dead CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=CC] [Text=amazingly CharacterOffsetBegin=202 CharacterOffsetEnd=211 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=216 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=VBZ] [Text=succeeded CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=.] 
+root(ROOT-0, believe-4)
+nsubj(believe-4, I-1)
+aux(believe-4, could-2)
+neg(believe-4, not-3)
+nsubj(possible-7, it-5)
+cop(possible-7, was-6)
+ccomp(believe-4, possible-7)
+aux(get-9, to-8)
+xcomp(possible-7, get-9)
+nsubj(worse-11, something-10)
+dep(get-9, worse-11)
+prep(worse-11, than-12)
+det(House-15, the-13)
+amod(House-15, first-14)
+pobj(than-12, House-15)
+prep(House-15, of-16)
+det(Dead-18, the-17)
+pobj(of-16, Dead-18)
+cc(worse-11, but-19)
+advmod(succeeded-24, amazingly-20)
+det(director-22, the-21)
+nsubj(succeeded-24, director-22)
+aux(succeeded-24, has-23)
+conj(worse-11, succeeded-24)
+punct(believe-4, .-25)
+
+Sentence #4 (16 tokens):
+The only feeling you get from the film is that its bad, just bad.
+[Text=The CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=JJ] [Text=feeling CharacterOffsetBegin=253 CharacterOffsetEnd=260 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=VBP] [Text=from CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=PRP$] [Text=bad CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=,] [Text=just CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=.] 
+root(ROOT-0, is-9)
+det(feeling-3, The-1)
+amod(feeling-3, only-2)
+nsubj(is-9, feeling-3)
+nsubj(get-5, you-4)
+rcmod(feeling-3, get-5)
+prep(get-5, from-6)
+det(film-8, the-7)
+pobj(from-6, film-8)
+dep(bad-15, that-10)
+poss(bad-15, its-11)
+amod(bad-15, bad-12)
+punct(bad-15, ,-13)
+advmod(bad-15, just-14)
+dep(is-9, bad-15)
+punct(is-9, .-16)
+
+Sentence #5 (11 tokens):
+What with overacting, bad FX and a stupid story.
+[Text=What CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=WDT] [Text=with CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=IN] [Text=overacting CharacterOffsetBegin=324 CharacterOffsetEnd=334 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=,] [Text=bad CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=JJ] [Text=FX CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=DT] [Text=stupid CharacterOffsetBegin=349 CharacterOffsetEnd=355 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=.] 
+root(ROOT-0, FX-6)
+dep(FX-6, What-1)
+prep(FX-6, with-2)
+pobj(with-2, overacting-3)
+punct(FX-6, ,-4)
+amod(FX-6, bad-5)
+cc(FX-6, and-7)
+det(story-10, a-8)
+amod(story-10, stupid-9)
+conj(FX-6, story-10)
+punct(FX-6, .-11)
+
+Sentence #6 (15 tokens):
+Its this kind of movie which gives a bad name to Z-Movies in general.
+[Text=Its CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=PRP$] [Text=this CharacterOffsetBegin=371 CharacterOffsetEnd=375 PartOfSpeech=DT] [Text=kind CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=IN] [Text=movie CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=WDT] [Text=gives CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=402 CharacterOffsetEnd=403 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=JJ] [Text=name CharacterOffsetBegin=408 CharacterOffsetEnd=412 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=TO] [Text=Z-Movies CharacterOffsetBegin=416 CharacterOffsetEnd=424 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=IN] [Text=general CharacterOffsetBegin=428 CharacterOffsetEnd=435 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=435 CharacterOffsetEnd=436 PartOfSpeech=.] 
+root(ROOT-0, kind-3)
+poss(kind-3, Its-1)
+det(kind-3, this-2)
+prep(kind-3, of-4)
+pobj(of-4, movie-5)
+nsubj(gives-7, which-6)
+rcmod(kind-3, gives-7)
+det(name-10, a-8)
+amod(name-10, bad-9)
+dobj(gives-7, name-10)
+prep(gives-7, to-11)
+pobj(to-11, Z-Movies-12)
+prep(Z-Movies-12, in-13)
+pobj(in-13, general-14)
+punct(kind-3, .-15)
+
+Sentence #7 (16 tokens):
+Why could they not learn the lesson from the first House of the Dead movie?
+[Text=Why CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=WRB] [Text=could CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=MD] [Text=they CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=PRP] [Text=not CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=RB] [Text=learn CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=DT] [Text=lesson CharacterOffsetBegin=470 CharacterOffsetEnd=476 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=486 CharacterOffsetEnd=491 PartOfSpeech=JJ] [Text=House CharacterOffsetBegin=492 CharacterOffsetEnd=497 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=498 CharacterOffsetEnd=500 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=DT] [Text=Dead CharacterOffsetBegin=505 CharacterOffsetEnd=509 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=510 CharacterOffsetEnd=515 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=515 CharacterOffsetEnd=516 PartOfSpeech=.] 
+root(ROOT-0, learn-5)
+advmod(learn-5, Why-1)
+aux(learn-5, could-2)
+nsubj(learn-5, they-3)
+neg(learn-5, not-4)
+det(lesson-7, the-6)
+dobj(learn-5, lesson-7)
+prep(learn-5, from-8)
+det(House-11, the-9)
+amod(House-11, first-10)
+pobj(from-8, House-11)
+prep(House-11, of-12)
+det(movie-15, the-13)
+amod(movie-15, Dead-14)
+pobj(of-12, movie-15)
+punct(learn-5, ?-16)
+
+Sentence #8 (17 tokens):
+Anyway I guess you will have understood by now that you should not see this film.
+[Text=Anyway CharacterOffsetBegin=521 CharacterOffsetEnd=527 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=530 CharacterOffsetEnd=535 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=VB] [Text=understood CharacterOffsetBegin=550 CharacterOffsetEnd=560 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=561 CharacterOffsetEnd=563 PartOfSpeech=IN] [Text=now CharacterOffsetBegin=564 CharacterOffsetEnd=567 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=568 CharacterOffsetEnd=572 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=577 CharacterOffsetEnd=583 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=592 CharacterOffsetEnd=596 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=.] 
+root(ROOT-0, guess-3)
+advmod(guess-3, Anyway-1)
+nsubj(guess-3, I-2)
+nsubj(understood-7, you-4)
+aux(understood-7, will-5)
+aux(understood-7, have-6)
+ccomp(guess-3, understood-7)
+prep(understood-7, by-8)
+pobj(by-8, now-9)
+mark(see-14, that-10)
+nsubj(see-14, you-11)
+aux(see-14, should-12)
+neg(see-14, not-13)
+ccomp(understood-7, see-14)
+det(film-16, this-15)
+dobj(see-14, film-16)
+punct(guess-3, .-17)
+
+Sentence #9 (8 tokens):
+It is but a waste of time.
+[Text=It CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=VBZ] [Text=but CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=617 CharacterOffsetEnd=618 PartOfSpeech=DT] [Text=waste CharacterOffsetBegin=619 CharacterOffsetEnd=624 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, It-1)
+cc(is-2, but-3)
+det(waste-5, a-4)
+conj(is-2, waste-5)
+prep(waste-5, of-6)
+pobj(of-6, time-7)
+punct(is-2, .-8)
+
+Sentence #10 (21 tokens):
+Watch "Bad Taste" or "Dawn of the Dead" if you want to see some good zombies.
+[Text=Watch CharacterOffsetBegin=638 CharacterOffsetEnd=643 PartOfSpeech=VB] [Text=`` CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=``] [Text=Bad CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=JJ] [Text=Taste CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=654 CharacterOffsetEnd=655 PartOfSpeech=''] [Text=or CharacterOffsetBegin=656 CharacterOffsetEnd=658 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=``] [Text=Dawn CharacterOffsetBegin=660 CharacterOffsetEnd=664 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=665 CharacterOffsetEnd=667 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=668 CharacterOffsetEnd=671 PartOfSpeech=DT] [Text=Dead CharacterOffsetBegin=672 CharacterOffsetEnd=676 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=''] [Text=if CharacterOffsetBegin=678 CharacterOffsetEnd=680 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=681 CharacterOffsetEnd=684 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=690 CharacterOffsetEnd=692 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=VB] [Text=some CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=JJ] [Text=zombies CharacterOffsetBegin=707 CharacterOffsetEnd=714 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=714 CharacterOffsetEnd=715 PartOfSpeech=.] 
+root(ROOT-0, Watch-1)
+punct(Watch-1, ``-2)
+dep(``-2, Bad-3)
+dep(Bad-3, Taste-4)
+punct(Taste-4, ''-5)
+cc(Taste-4, or-6)
+punct(Taste-4, ``-7)
+conj(Taste-4, Dawn-8)
+prep(Dawn-8, of-9)
+det(Dead-11, the-10)
+pobj(of-9, Dead-11)
+punct(Taste-4, ''-12)
+mark(want-15, if-13)
+nsubj(want-15, you-14)
+advcl(Bad-3, want-15)
+aux(see-17, to-16)
+xcomp(want-15, see-17)
+det(zombies-20, some-18)
+amod(zombies-20, good-19)
+dobj(see-17, zombies-20)
+punct(Bad-3, .-21)
+

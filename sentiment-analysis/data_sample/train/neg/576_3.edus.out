@@ -1,0 +1,82 @@
+Sentence #1 (6 tokens):
+Hi folksForget about that movie.
+[Text=Hi CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN] [Text=folksForget CharacterOffsetBegin=7 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.] 
+root(ROOT-0, folksForget-2)
+nn(folksForget-2, Hi-1)
+prep(folksForget-2, about-3)
+det(movie-5, that-4)
+pobj(about-3, movie-5)
+punct(folksForget-2, .-6)
+
+Sentence #2 (15 tokens):
+John C. should be ashamed that he appears as executive producer in the credits.
+[Text=John CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=NNP] [Text=C. CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=NNP] [Text=should CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=VB] [Text=ashamed CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=PRP] [Text=appears CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=VBZ] [Text=as CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=executive CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=JJ] [Text=producer CharacterOffsetBegin=96 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT] [Text=credits CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=.] 
+root(ROOT-0, ashamed-5)
+nn(C.-2, John-1)
+nsubj(ashamed-5, C.-2)
+aux(ashamed-5, should-3)
+cop(ashamed-5, be-4)
+mark(appears-8, that-6)
+nsubj(appears-8, he-7)
+ccomp(ashamed-5, appears-8)
+prep(appears-8, as-9)
+amod(producer-11, executive-10)
+pobj(as-9, producer-11)
+prep(producer-11, in-12)
+det(credits-14, the-13)
+pobj(in-12, credits-14)
+punct(ashamed-5, .-15)
+
+Sentence #3 (29 tokens):
+bon jovi has never been and will never be an actor and the FX are a joke.The first vampires was good ... and it was the only vampires.
+[Text=bon CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=FW] [Text=jovi CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=FW] [Text=has CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=VBZ] [Text=never CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=RB] [Text=been CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=CC] [Text=will CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=VB] [Text=an CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=actor CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=DT] [Text=FX CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=DT] [Text=joke.The CharacterOffsetBegin=193 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=first CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=JJ] [Text=vampires CharacterOffsetBegin=208 CharacterOffsetEnd=216 PartOfSpeech=NNS] [Text=was CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=VBD] [Text=good CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=JJ] [Text=... CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=:] [Text=and CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=JJ] [Text=vampires CharacterOffsetBegin=250 CharacterOffsetEnd=258 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=.] 
+root(ROOT-0, been-5)
+nn(jovi-2, bon-1)
+nsubj(been-5, jovi-2)
+aux(been-5, has-3)
+neg(been-5, never-4)
+cc(been-5, and-6)
+aux(actor-11, will-7)
+neg(actor-11, never-8)
+cop(actor-11, be-9)
+det(actor-11, an-10)
+nsubj(vampires-19, actor-11)
+cc(actor-11, and-12)
+det(FX-14, the-13)
+conj(actor-11, FX-14)
+cop(vampires-19, are-15)
+det(vampires-19, a-16)
+nn(vampires-19, joke.The-17)
+amod(vampires-19, first-18)
+conj(been-5, vampires-19)
+cop(good-21, was-20)
+acomp(been-5, good-21)
+punct(been-5, ...-22)
+cc(been-5, and-23)
+nsubj(vampires-28, it-24)
+cop(vampires-28, was-25)
+det(vampires-28, the-26)
+amod(vampires-28, only-27)
+conj(been-5, vampires-28)
+punct(been-5, .-29)
+
+Sentence #4 (16 tokens):
+This thing here just wears the same name.Just a waste of time thinks ...JAKE Scorpio
+[Text=This CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=here CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=RB] [Text=just CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=RB] [Text=wears CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=JJ] [Text=name.Just CharacterOffsetBegin=300 CharacterOffsetEnd=309 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=310 CharacterOffsetEnd=311 PartOfSpeech=DT] [Text=waste CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=NN] [Text=thinks CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=VBZ] [Text=... CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=:] [Text=JAKE CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=NNP] [Text=Scorpio CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=NNP] 
+root(ROOT-0, wears-5)
+det(thing-2, This-1)
+nsubj(wears-5, thing-2)
+advmod(thing-2, here-3)
+advmod(wears-5, just-4)
+det(name.Just-8, the-6)
+amod(name.Just-8, same-7)
+dobj(wears-5, name.Just-8)
+det(waste-10, a-9)
+nsubj(thinks-13, waste-10)
+prep(waste-10, of-11)
+pobj(of-11, time-12)
+rcmod(name.Just-8, thinks-13)
+punct(wears-5, ...-14)
+nn(Scorpio-16, JAKE-15)
+dobj(wears-5, Scorpio-16)
+

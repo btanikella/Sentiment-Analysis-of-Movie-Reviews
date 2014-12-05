@@ -1,0 +1,54 @@
+Sentence #1 (18 tokens):
+It feels like swedish movies are trying to become more american and I just dont get it.
+[Text=It CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP] [Text=feels CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=IN] [Text=swedish CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=26 CharacterOffsetEnd=32 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=VBP] [Text=trying CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=TO] [Text=become CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=VB] [Text=more CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=RBR] [Text=american CharacterOffsetBegin=59 CharacterOffsetEnd=67 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=RB] [Text=dont CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=VBP] [Text=get CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=.] 
+root(ROOT-0, feels-2)
+nsubj(feels-2, It-1)
+mark(trying-7, like-3)
+amod(movies-5, swedish-4)
+nsubj(trying-7, movies-5)
+aux(trying-7, are-6)
+advcl(feels-2, trying-7)
+aux(american-11, to-8)
+cop(american-11, become-9)
+advmod(american-11, more-10)
+xcomp(trying-7, american-11)
+cc(american-11, and-12)
+nsubj(dont-15, I-13)
+advmod(dont-15, just-14)
+conj(american-11, dont-15)
+ccomp(dont-15, get-16)
+dobj(get-16, it-17)
+punct(feels-2, .-18)
+
+Sentence #2 (19 tokens):
+In this movie the performance of some of the actors is horrible and the script is nothing special.
+[Text=In CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=performance CharacterOffsetBegin=114 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=141 CharacterOffsetEnd=147 PartOfSpeech=NNS] [Text=is CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=VBZ] [Text=horrible CharacterOffsetBegin=151 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=178 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=special CharacterOffsetBegin=186 CharacterOffsetEnd=193 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=.] 
+root(ROOT-0, horrible-12)
+prep(horrible-12, In-1)
+det(movie-3, this-2)
+pobj(In-1, movie-3)
+det(performance-5, the-4)
+nsubj(horrible-12, performance-5)
+prep(performance-5, of-6)
+pobj(of-6, some-7)
+prep(some-7, of-8)
+det(actors-10, the-9)
+pobj(of-8, actors-10)
+cop(horrible-12, is-11)
+cc(horrible-12, and-13)
+det(script-15, the-14)
+conj(horrible-12, script-15)
+dep(script-15, is-16)
+nsubj(is-16, nothing-17)
+amod(nothing-17, special-18)
+punct(horrible-12, .-19)
+
+Sentence #3 (5 tokens):
+Dont waste your time!
+[Text=Dont CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=NNP] [Text=waste CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=your CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=.] 
+root(ROOT-0, waste-2)
+nn(waste-2, Dont-1)
+poss(time-4, your-3)
+dobj(waste-2, time-4)
+punct(waste-2, !-5)
+

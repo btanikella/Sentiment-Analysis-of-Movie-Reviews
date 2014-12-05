@@ -1,0 +1,46 @@
+Sentence #1 (12 tokens):
+A very well directed version of Eric Bogosian's stage play.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=RB] [Text=directed CharacterOffsetBegin=16 CharacterOffsetEnd=24 PartOfSpeech=VBN] [Text=version CharacterOffsetBegin=25 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=Eric CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=NNP] [Text=Bogosian CharacterOffsetBegin=41 CharacterOffsetEnd=49 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=POS] [Text=stage CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=play CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=.] 
+root(ROOT-0, version-5)
+det(version-5, A-1)
+advmod(well-3, very-2)
+advmod(directed-4, well-3)
+amod(version-5, directed-4)
+prep(version-5, of-6)
+nn(Bogosian-8, Eric-7)
+poss(play-11, Bogosian-8)
+possessive(Bogosian-8, 's-9)
+nn(play-11, stage-10)
+pobj(of-6, play-11)
+punct(version-5, .-12)
+
+Sentence #2 (26 tokens):
+Well worth checking out for Bogosian's great characters and for anyone who wants to see how to bring a play to the movies correctly.
+[Text=Well CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=JJ] [Text=checking CharacterOffsetBegin=79 CharacterOffsetEnd=87 PartOfSpeech=VBG] [Text=out CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=IN] [Text=Bogosian CharacterOffsetBegin=96 CharacterOffsetEnd=104 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=POS] [Text=great CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=113 CharacterOffsetEnd=123 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=CC] [Text=for CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=IN] [Text=anyone CharacterOffsetBegin=132 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=WP] [Text=wants CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=VB] [Text=how CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=TO] [Text=bring CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=play CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=DT] [Text=movies CharacterOffsetBegin=183 CharacterOffsetEnd=189 PartOfSpeech=NNS] [Text=correctly CharacterOffsetBegin=190 CharacterOffsetEnd=199 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.] 
+root(ROOT-0, worth-2)
+advmod(worth-2, Well-1)
+dep(worth-2, checking-3)
+prt(checking-3, out-4)
+prep(checking-3, for-5)
+poss(characters-9, Bogosian-6)
+possessive(Bogosian-6, 's-7)
+amod(characters-9, great-8)
+pobj(for-5, characters-9)
+cc(worth-2, and-10)
+conj(worth-2, for-11)
+pobj(for-11, anyone-12)
+nsubj(wants-14, who-13)
+rcmod(anyone-12, wants-14)
+aux(see-16, to-15)
+xcomp(wants-14, see-16)
+advmod(bring-19, how-17)
+aux(bring-19, to-18)
+ccomp(see-16, bring-19)
+det(play-21, a-20)
+dobj(bring-19, play-21)
+prep(bring-19, to-22)
+det(movies-24, the-23)
+pobj(to-22, movies-24)
+advmod(movies-24, correctly-25)
+punct(worth-2, .-26)
+

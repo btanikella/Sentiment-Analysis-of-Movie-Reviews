@@ -1,0 +1,68 @@
+Sentence #1 (22 tokens):
+Errol Flynn's greatest movie, not just a sports movie with a wonder last 5 minutes where Ward Bond shines.
+[Text=Errol CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=Flynn CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=POS] [Text=greatest CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=,] [Text=not CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=RB] [Text=just CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=DT] [Text=sports CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NNS] [Text=movie CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=wonder CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=last CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=JJ] [Text=5 CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=NNS] [Text=where CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=WRB] [Text=Ward CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NNP] [Text=Bond CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=NNP] [Text=shines CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nn(Flynn-2, Errol-1)
+poss(movie-5, Flynn-2)
+possessive(Flynn-2, 's-3)
+amod(movie-5, greatest-4)
+punct(movie-5, ,-6)
+neg(movie-5, not-7)
+advmod(movie-11, just-8)
+det(movie-11, a-9)
+nn(movie-11, sports-10)
+dep(movie-5, movie-11)
+prep(movie-11, with-12)
+det(wonder-14, a-13)
+pobj(with-12, wonder-14)
+amod(minutes-17, last-15)
+num(minutes-17, 5-16)
+tmod(movie-5, minutes-17)
+advmod(shines-21, where-18)
+nn(Bond-20, Ward-19)
+nsubj(shines-21, Bond-20)
+rcmod(minutes-17, shines-21)
+punct(movie-5, .-22)
+
+Sentence #2 (13 tokens):
+Don't miss it just because you think its an old movie.
+[Text=Do CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=RB] [Text=miss CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=VBP] [Text=its CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=PRP$] [Text=an CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=.] 
+root(ROOT-0, miss-3)
+aux(miss-3, Do-1)
+neg(miss-3, n't-2)
+dobj(miss-3, it-4)
+advmod(think-8, just-5)
+mark(think-8, because-6)
+nsubj(think-8, you-7)
+advcl(miss-3, think-8)
+poss(movie-12, its-9)
+det(movie-12, an-10)
+amod(movie-12, old-11)
+dobj(think-8, movie-12)
+punct(miss-3, .-13)
+
+Sentence #3 (9 tokens):
+Its a classic that could be easily missed.
+[Text=Its CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=PRP$] [Text=a CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=DT] [Text=could CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=VB] [Text=easily CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=RB] [Text=missed CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=.] 
+root(ROOT-0, classic-3)
+poss(classic-3, Its-1)
+det(classic-3, a-2)
+nsubjpass(missed-8, that-4)
+aux(missed-8, could-5)
+auxpass(missed-8, be-6)
+advmod(missed-8, easily-7)
+rcmod(classic-3, missed-8)
+punct(classic-3, .-9)
+
+Sentence #4 (8 tokens):
+Do yourself a favour and don't.
+[Text=Do CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=VB] [Text=yourself CharacterOffsetBegin=224 CharacterOffsetEnd=232 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=DT] [Text=favour CharacterOffsetBegin=235 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=CC] [Text=do CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.] 
+root(ROOT-0, Do-1)
+nsubj(favour-4, yourself-2)
+det(favour-4, a-3)
+dep(Do-1, favour-4)
+cc(favour-4, and-5)
+conj(favour-4, do-6)
+neg(do-6, n't-7)
+punct(Do-1, .-8)
+

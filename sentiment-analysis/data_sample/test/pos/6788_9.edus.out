@@ -1,0 +1,226 @@
+Sentence #1 (9 tokens):
+My family watches this movie over and over.
+[Text=My CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP$] [Text=family CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=watches CharacterOffsetBegin=14 CharacterOffsetEnd=21 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=CC] [Text=over CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, watches-3)
+poss(family-2, My-1)
+nsubj(watches-3, family-2)
+det(movie-5, this-4)
+dobj(watches-3, movie-5)
+prep(watches-3, over-6)
+cc(over-6, and-7)
+conj(over-6, over-8)
+punct(watches-3, .-9)
+
+Sentence #2 (8 tokens):
+Even our 3 year old loves it.
+[Text=Even CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=RB] [Text=our CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=PRP$] [Text=3 CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=CD] [Text=year CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=old CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=JJ] [Text=loves CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=.] 
+root(ROOT-0, loves-6)
+advmod(year-4, Even-1)
+poss(year-4, our-2)
+num(year-4, 3-3)
+npadvmod(old-5, year-4)
+amod(loves-6, old-5)
+dobj(loves-6, it-7)
+punct(loves-6, .-8)
+
+Sentence #3 (10 tokens):
+I like the "goodness" in the movie.
+[Text=I CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=``] [Text=goodness CharacterOffsetBegin=98 CharacterOffsetEnd=106 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=''] [Text=in CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=.] 
+root(ROOT-0, like-2)
+nsubj(like-2, I-1)
+det(goodness-5, the-3)
+punct(goodness-5, ``-4)
+dobj(like-2, goodness-5)
+punct(goodness-5, ''-6)
+prep(goodness-5, in-7)
+det(movie-9, the-8)
+pobj(in-7, movie-9)
+punct(like-2, .-10)
+
+Sentence #4 (18 tokens):
+Giving the stranger a chance...showing goodwill to one obviously in need of some unconditional acceptance.
+[Text=Giving CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=stranger CharacterOffsetBegin=137 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=DT] [Text=chance CharacterOffsetBegin=148 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=:] [Text=showing CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=VBG] [Text=goodwill CharacterOffsetBegin=165 CharacterOffsetEnd=173 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=TO] [Text=one CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=CD] [Text=obviously CharacterOffsetBegin=181 CharacterOffsetEnd=190 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=need CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=unconditional CharacterOffsetBegin=207 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=acceptance CharacterOffsetBegin=221 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, Giving-1)
+det(stranger-3, the-2)
+iobj(Giving-1, stranger-3)
+det(chance-5, a-4)
+dobj(Giving-1, chance-5)
+punct(chance-5, ...-6)
+partmod(chance-5, showing-7)
+dobj(showing-7, goodwill-8)
+prep(showing-7, to-9)
+pobj(to-9, one-10)
+advmod(in-12, obviously-11)
+prep(showing-7, in-12)
+pobj(in-12, need-13)
+prep(need-13, of-14)
+det(acceptance-17, some-15)
+amod(acceptance-17, unconditional-16)
+pobj(of-14, acceptance-17)
+punct(Giving-1, .-18)
+
+Sentence #5 (10 tokens):
+The movie gives a feeling of goodwill and victory.
+[Text=The CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=gives CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=DT] [Text=feeling CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=goodwill CharacterOffsetBegin=266 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=CC] [Text=victory CharacterOffsetBegin=279 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, gives-3)
+det(movie-2, The-1)
+nsubj(gives-3, movie-2)
+det(feeling-5, a-4)
+dobj(gives-3, feeling-5)
+prep(feeling-5, of-6)
+pobj(of-6, goodwill-7)
+cc(goodwill-7, and-8)
+conj(goodwill-7, victory-9)
+punct(gives-3, .-10)
+
+Sentence #6 (19 tokens):
+One other aspect of the movie that makes it so appealing is the personalities of Velvet's siblings.
+[Text=One CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=CD] [Text=other CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=JJ] [Text=aspect CharacterOffsetBegin=302 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=WDT] [Text=makes CharacterOffsetBegin=327 CharacterOffsetEnd=332 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=PRP] [Text=so CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=RB] [Text=appealing CharacterOffsetBegin=339 CharacterOffsetEnd=348 PartOfSpeech=JJ] [Text=is CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=DT] [Text=personalities CharacterOffsetBegin=356 CharacterOffsetEnd=369 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=IN] [Text=Velvet CharacterOffsetBegin=373 CharacterOffsetEnd=379 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=POS] [Text=siblings CharacterOffsetBegin=382 CharacterOffsetEnd=390 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=.] 
+root(ROOT-0, personalities-14)
+num(aspect-3, One-1)
+amod(aspect-3, other-2)
+nsubj(personalities-14, aspect-3)
+prep(aspect-3, of-4)
+det(movie-6, the-5)
+pobj(of-4, movie-6)
+nsubj(makes-8, that-7)
+rcmod(movie-6, makes-8)
+nsubj(appealing-11, it-9)
+advmod(appealing-11, so-10)
+xcomp(makes-8, appealing-11)
+cop(personalities-14, is-12)
+det(personalities-14, the-13)
+prep(personalities-14, of-15)
+poss(siblings-18, Velvet-16)
+possessive(Velvet-16, 's-17)
+pobj(of-15, siblings-18)
+punct(personalities-14, .-19)
+
+Sentence #7 (4 tokens):
+The bird lover.
+[Text=The CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=DT] [Text=bird CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=NN] [Text=lover CharacterOffsetBegin=405 CharacterOffsetEnd=410 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=.] 
+root(ROOT-0, lover-3)
+det(lover-3, The-1)
+nn(lover-3, bird-2)
+punct(lover-3, .-4)
+
+Sentence #8 (4 tokens):
+The bug lover.
+[Text=The CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=DT] [Text=bug CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=NN] [Text=lover CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=.] 
+root(ROOT-0, lover-3)
+det(lover-3, The-1)
+nn(lover-3, bug-2)
+punct(lover-3, .-4)
+
+Sentence #9 (4 tokens):
+The boy lover!
+[Text=The CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=DT] [Text=boy CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=NN] [Text=lover CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=.] 
+root(ROOT-0, lover-3)
+det(boy-2, The-1)
+nsubj(lover-3, boy-2)
+punct(lover-3, !-4)
+
+Sentence #10 (6 tokens):
+Very cute and happy movie.
+[Text=Very CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=RB] [Text=cute CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=CC] [Text=happy CharacterOffsetBegin=468 CharacterOffsetEnd=473 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=474 CharacterOffsetEnd=479 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=479 CharacterOffsetEnd=480 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+advmod(cute-2, Very-1)
+amod(movie-5, cute-2)
+cc(cute-2, and-3)
+conj(cute-2, happy-4)
+punct(movie-5, .-6)
+
+Sentence #11 (12 tokens):
+There is one thing, however that is irritating about it.
+[Text=There CharacterOffsetBegin=485 CharacterOffsetEnd=490 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=491 CharacterOffsetEnd=493 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=CD] [Text=thing CharacterOffsetBegin=498 CharacterOffsetEnd=503 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=503 CharacterOffsetEnd=504 PartOfSpeech=,] [Text=however CharacterOffsetBegin=505 CharacterOffsetEnd=512 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=VBZ] [Text=irritating CharacterOffsetBegin=521 CharacterOffsetEnd=531 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=532 CharacterOffsetEnd=537 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+num(thing-4, one-3)
+nsubj(is-2, thing-4)
+punct(is-2, ,-5)
+advmod(is-2, however-6)
+nsubj(irritating-9, that-7)
+cop(irritating-9, is-8)
+dep(is-2, irritating-9)
+prep(irritating-9, about-10)
+pobj(about-10, it-11)
+punct(is-2, .-12)
+
+Sentence #12 (14 tokens):
+That is how Mrs. Brown often makes Mr. Brown look foolish or unwise.
+[Text=That CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=551 CharacterOffsetEnd=553 PartOfSpeech=VBZ] [Text=how CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=WRB] [Text=Mrs. CharacterOffsetBegin=558 CharacterOffsetEnd=562 PartOfSpeech=NNP] [Text=Brown CharacterOffsetBegin=563 CharacterOffsetEnd=568 PartOfSpeech=NNP] [Text=often CharacterOffsetBegin=569 CharacterOffsetEnd=574 PartOfSpeech=RB] [Text=makes CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=VBZ] [Text=Mr. CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=NNP] [Text=Brown CharacterOffsetBegin=585 CharacterOffsetEnd=590 PartOfSpeech=NNP] [Text=look CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=VB] [Text=foolish CharacterOffsetBegin=596 CharacterOffsetEnd=603 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=CC] [Text=unwise CharacterOffsetBegin=607 CharacterOffsetEnd=613 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, That-1)
+advmod(makes-7, how-3)
+nn(Brown-5, Mrs.-4)
+nsubj(makes-7, Brown-5)
+advmod(makes-7, often-6)
+dep(look-10, makes-7)
+nn(Brown-9, Mr.-8)
+nsubj(look-10, Brown-9)
+ccomp(is-2, look-10)
+acomp(look-10, foolish-11)
+cc(foolish-11, or-12)
+conj(foolish-11, unwise-13)
+punct(is-2, .-14)
+
+Sentence #13 (24 tokens):
+She, at times,comes off as a know it all, and he as a dimwit, which he is not.
+[Text=She CharacterOffsetBegin=619 CharacterOffsetEnd=622 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=,] [Text=at CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=IN] [Text=times CharacterOffsetBegin=627 CharacterOffsetEnd=632 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=,] [Text=comes CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=VBZ] [Text=off CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=RP] [Text=as CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=DT] [Text=know CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=653 CharacterOffsetEnd=655 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=656 CharacterOffsetEnd=659 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=,] [Text=and CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=665 CharacterOffsetEnd=667 PartOfSpeech=PRP] [Text=as CharacterOffsetBegin=668 CharacterOffsetEnd=670 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=DT] [Text=dimwit CharacterOffsetBegin=673 CharacterOffsetEnd=679 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=,] [Text=which CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=WDT] [Text=he CharacterOffsetBegin=687 CharacterOffsetEnd=689 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=690 CharacterOffsetEnd=692 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=696 CharacterOffsetEnd=697 PartOfSpeech=.] 
+root(ROOT-0, comes-6)
+nsubj(comes-6, She-1)
+punct(comes-6, ,-2)
+prep(comes-6, at-3)
+pobj(at-3, times-4)
+punct(comes-6, ,-5)
+prt(comes-6, off-7)
+prep(comes-6, as-8)
+det(know-10, a-9)
+pobj(as-8, know-10)
+dobj(know-10, it-11)
+det(it-11, all-12)
+punct(know-10, ,-13)
+cc(know-10, and-14)
+conj(know-10, he-15)
+prep(he-15, as-16)
+det(dimwit-18, a-17)
+pobj(as-16, dimwit-18)
+punct(dimwit-18, ,-19)
+dobj(is-22, which-20)
+nsubj(is-22, he-21)
+rcmod(dimwit-18, is-22)
+neg(is-22, not-23)
+punct(comes-6, .-24)
+
+Sentence #14 (11 tokens):
+Too bad to put that into such a nice story.
+[Text=Too CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=710 CharacterOffsetEnd=712 PartOfSpeech=TO] [Text=put CharacterOffsetBegin=713 CharacterOffsetEnd=716 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=717 CharacterOffsetEnd=721 PartOfSpeech=DT] [Text=into CharacterOffsetBegin=722 CharacterOffsetEnd=726 PartOfSpeech=IN] [Text=such CharacterOffsetBegin=727 CharacterOffsetEnd=731 PartOfSpeech=PDT] [Text=a CharacterOffsetBegin=732 CharacterOffsetEnd=733 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=744 CharacterOffsetEnd=745 PartOfSpeech=.] 
+root(ROOT-0, bad-2)
+advmod(bad-2, Too-1)
+aux(put-4, to-3)
+xcomp(bad-2, put-4)
+dobj(put-4, that-5)
+prep(put-4, into-6)
+predet(story-10, such-7)
+det(story-10, a-8)
+amod(story-10, nice-9)
+pobj(into-6, story-10)
+punct(bad-2, .-11)
+
+Sentence #15 (13 tokens):
+Nevertheless, we will continue to enjoy this wonderful, old movie!
+[Text=Nevertheless CharacterOffsetBegin=750 CharacterOffsetEnd=762 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=762 CharacterOffsetEnd=763 PartOfSpeech=,] [Text=we CharacterOffsetBegin=764 CharacterOffsetEnd=766 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=767 CharacterOffsetEnd=771 PartOfSpeech=MD] [Text=continue CharacterOffsetBegin=772 CharacterOffsetEnd=780 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=781 CharacterOffsetEnd=783 PartOfSpeech=TO] [Text=enjoy CharacterOffsetBegin=784 CharacterOffsetEnd=789 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=790 CharacterOffsetEnd=794 PartOfSpeech=DT] [Text=wonderful CharacterOffsetBegin=795 CharacterOffsetEnd=804 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=804 CharacterOffsetEnd=805 PartOfSpeech=,] [Text=old CharacterOffsetBegin=806 CharacterOffsetEnd=809 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=810 CharacterOffsetEnd=815 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=815 CharacterOffsetEnd=816 PartOfSpeech=.] 
+root(ROOT-0, continue-5)
+advmod(continue-5, Nevertheless-1)
+punct(continue-5, ,-2)
+nsubj(continue-5, we-3)
+aux(continue-5, will-4)
+aux(enjoy-7, to-6)
+xcomp(continue-5, enjoy-7)
+det(movie-12, this-8)
+amod(movie-12, wonderful-9)
+punct(movie-12, ,-10)
+amod(movie-12, old-11)
+dobj(enjoy-7, movie-12)
+punct(continue-5, !-13)
+

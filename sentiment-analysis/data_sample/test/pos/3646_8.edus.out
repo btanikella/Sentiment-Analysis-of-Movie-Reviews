@@ -1,0 +1,51 @@
+Sentence #1 (4 tokens):
+Funny, yes.
+[Text=Funny CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=,] [Text=yes CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=UH] [Text=. CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=.] 
+root(ROOT-0, Funny-1)
+punct(Funny-1, ,-2)
+conj(Funny-1, yes-3)
+punct(Funny-1, .-4)
+
+Sentence #2 (4 tokens):
+A Freleng classic!
+[Text=A CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=DT] [Text=Freleng CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=NNP] [Text=classic CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, classic-3)
+det(classic-3, A-1)
+nn(classic-3, Freleng-2)
+punct(classic-3, !-4)
+
+Sentence #3 (31 tokens):
+To watch Sylvester turn green is always a treat, and it brings us back to the days when cartoon slapstick was brave and geared for the adult mind.Loved it!
+[Text=To CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=VB] [Text=Sylvester CharacterOffsetBegin=52 CharacterOffsetEnd=61 PartOfSpeech=NNP] [Text=turn CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=VB] [Text=green CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=JJ] [Text=is CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=VBZ] [Text=always CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=DT] [Text=treat CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=,] [Text=and CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=PRP] [Text=brings CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=VBZ] [Text=us CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=PRP] [Text=back CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=days CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=NNS] [Text=when CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=WRB] [Text=cartoon CharacterOffsetBegin=131 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=slapstick CharacterOffsetBegin=139 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=VBD] [Text=brave CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=CC] [Text=geared CharacterOffsetBegin=163 CharacterOffsetEnd=169 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=DT] [Text=adult CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=JJ] [Text=mind.Loved CharacterOffsetBegin=184 CharacterOffsetEnd=194 PartOfSpeech=NNP] [Text=it CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=.] 
+root(ROOT-0, treat-9)
+aux(watch-2, To-1)
+csubj(treat-9, watch-2)
+nsubj(turn-4, Sylvester-3)
+ccomp(watch-2, turn-4)
+dobj(turn-4, green-5)
+cop(treat-9, is-6)
+advmod(treat-9, always-7)
+det(treat-9, a-8)
+punct(treat-9, ,-10)
+cc(treat-9, and-11)
+nsubj(brings-13, it-12)
+conj(treat-9, brings-13)
+dobj(brings-13, us-14)
+advmod(brings-13, back-15)
+prep(brings-13, to-16)
+det(days-18, the-17)
+pobj(to-16, days-18)
+advmod(brave-23, when-19)
+nn(slapstick-21, cartoon-20)
+nsubj(brave-23, slapstick-21)
+cop(brave-23, was-22)
+rcmod(days-18, brave-23)
+cc(brave-23, and-24)
+conj(brave-23, geared-25)
+prep(geared-25, for-26)
+det(mind.Loved-29, the-27)
+amod(mind.Loved-29, adult-28)
+pobj(for-26, mind.Loved-29)
+dep(mind.Loved-29, it-30)
+punct(treat-9, !-31)
+

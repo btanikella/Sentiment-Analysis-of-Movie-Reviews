@@ -1,0 +1,104 @@
+Sentence #1 (7 tokens):
+This movie is goofy as hell!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=goofy CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=hell CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, goofy-4)
+det(movie-2, This-1)
+nsubj(goofy-4, movie-2)
+cop(goofy-4, is-3)
+prep(goofy-4, as-5)
+pobj(as-5, hell-6)
+punct(goofy-4, !-7)
+
+Sentence #2 (37 tokens):
+I think it was written as a serious film, but then when it came time to film, Michael Cooney said "Hey, let's throw in some humor and spice it up!"
+[Text=I CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=VBD] [Text=written CharacterOffsetBegin=52 CharacterOffsetEnd=59 PartOfSpeech=VBN] [Text=as CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=serious CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=,] [Text=but CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=RB] [Text=when CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=PRP] [Text=came CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=VBD] [Text=time CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=TO] [Text=film CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=,] [Text=Michael CharacterOffsetBegin=115 CharacterOffsetEnd=122 PartOfSpeech=NNP] [Text=Cooney CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=VBD] [Text=`` CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=``] [Text=Hey CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=,] [Text=let CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=VB] [Text='s CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=POS] [Text=throw CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=humor CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=CC] [Text=spice CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=RP] [Text=! CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=.] [Text='' CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=''] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+nsubjpass(written-5, it-3)
+auxpass(written-5, was-4)
+ccomp(think-2, written-5)
+prep(written-5, as-6)
+det(film-9, a-7)
+amod(film-9, serious-8)
+pobj(as-6, film-9)
+punct(think-2, ,-10)
+cc(think-2, but-11)
+advmod(said-22, then-12)
+advmod(came-15, when-13)
+nsubj(came-15, it-14)
+advcl(said-22, came-15)
+dobj(came-15, time-16)
+prep(time-16, to-17)
+pobj(to-17, film-18)
+punct(said-22, ,-19)
+nn(Cooney-21, Michael-20)
+nsubj(said-22, Cooney-21)
+conj(think-2, said-22)
+punct(said-22, ``-23)
+discourse(let-26, Hey-24)
+punct(let-26, ,-25)
+ccomp(said-22, let-26)
+auxpass(throw-28, 's-27)
+ccomp(let-26, throw-28)
+prt(throw-28, in-29)
+det(humor-31, some-30)
+dobj(throw-28, humor-31)
+cc(throw-28, and-32)
+conj(throw-28, spice-33)
+dobj(throw-28, it-34)
+prt(throw-28, up-35)
+punct(think-2, !-36)
+punct(think-2, ''-37)
+
+Sentence #3 (9 tokens):
+The characters are actually slightly developed, too.
+[Text=The CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=193 CharacterOffsetEnd=203 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=VBP] [Text=actually CharacterOffsetBegin=208 CharacterOffsetEnd=216 PartOfSpeech=RB] [Text=slightly CharacterOffsetBegin=217 CharacterOffsetEnd=225 PartOfSpeech=RB] [Text=developed CharacterOffsetBegin=226 CharacterOffsetEnd=235 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=,] [Text=too CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=.] 
+root(ROOT-0, developed-6)
+det(characters-2, The-1)
+nsubjpass(developed-6, characters-2)
+auxpass(developed-6, are-3)
+advmod(developed-6, actually-4)
+advmod(developed-6, slightly-5)
+punct(developed-6, ,-7)
+advmod(developed-6, too-8)
+punct(developed-6, .-9)
+
+Sentence #4 (10 tokens):
+Oh, and the death sequences are the best.
+[Text=Oh CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=,] [Text=and CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=DT] [Text=death CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=sequences CharacterOffsetBegin=264 CharacterOffsetEnd=273 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, best-9)
+nsubj(best-9, Oh-1)
+punct(Oh-1, ,-2)
+cc(Oh-1, and-3)
+det(sequences-6, the-4)
+nn(sequences-6, death-5)
+conj(Oh-1, sequences-6)
+cop(best-9, are-7)
+det(best-9, the-8)
+punct(best-9, .-10)
+
+Sentence #5 (11 tokens):
+One thing I hate, though, was the hairdryer-weapons.
+[Text=One CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=CD] [Text=thing CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=PRP] [Text=hate CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=,] [Text=though CharacterOffsetBegin=310 CharacterOffsetEnd=316 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=,] [Text=was CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=DT] [Text=hairdryer-weapons CharacterOffsetBegin=326 CharacterOffsetEnd=343 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=.] 
+root(ROOT-0, hairdryer-weapons-10)
+num(thing-2, One-1)
+nsubj(hairdryer-weapons-10, thing-2)
+nsubj(hate-4, I-3)
+rcmod(thing-2, hate-4)
+punct(hate-4, ,-5)
+advmod(hate-4, though-6)
+punct(thing-2, ,-7)
+cop(hairdryer-weapons-10, was-8)
+det(hairdryer-weapons-10, the-9)
+punct(hairdryer-weapons-10, .-11)
+
+Sentence #6 (6 tokens):
+What was that all about?
+[Text=What CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=DT] [Text=about CharacterOffsetBegin=367 CharacterOffsetEnd=372 PartOfSpeech=IN] [Text=? CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=.] 
+root(ROOT-0, was-2)
+nsubj(was-2, What-1)
+mark(about-5, that-3)
+advmod(about-5, all-4)
+ccomp(was-2, about-5)
+punct(was-2, ?-6)
+

@@ -1,0 +1,225 @@
+Sentence #1 (14 tokens):
+Ok, honestly I dont see why everybody thinks this is so great.
+[Text=Ok CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=,] [Text=honestly CharacterOffsetBegin=8 CharacterOffsetEnd=16 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=PRP] [Text=dont CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=VBP] [Text=see CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=VB] [Text=why CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=WRB] [Text=everybody CharacterOffsetBegin=32 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=thinks CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=.] 
+root(ROOT-0, dont-5)
+dep(dont-5, Ok-1)
+punct(dont-5, ,-2)
+dep(dont-5, honestly-3)
+nsubj(dont-5, I-4)
+dep(dont-5, see-6)
+advmod(thinks-9, why-7)
+nsubj(thinks-9, everybody-8)
+advcl(see-6, thinks-9)
+nsubj(great-13, this-10)
+cop(great-13, is-11)
+advmod(great-13, so-12)
+ccomp(thinks-9, great-13)
+punct(dont-5, .-14)
+
+Sentence #2 (4 tokens):
+Its really not.
+[Text=Its CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=PRP$] [Text=really CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=.] 
+root(ROOT-0, not-3)
+poss(not-3, Its-1)
+advmod(not-3, really-2)
+punct(not-3, .-4)
+
+Sentence #3 (13 tokens):
+There were two good things that came out of this movie 1.
+[Text=There CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=EX] [Text=were CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=VBD] [Text=two CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=CD] [Text=good CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=JJ] [Text=things CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=WDT] [Text=came CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=1 CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=.] 
+root(ROOT-0, were-2)
+expl(were-2, There-1)
+num(things-5, two-3)
+amod(things-5, good-4)
+nsubj(were-2, things-5)
+nsubj(came-7, that-6)
+rcmod(things-5, came-7)
+prep(came-7, out-8)
+pcomp(out-8, of-9)
+det(movie-11, this-10)
+pobj(of-9, movie-11)
+num(movie-11, 1-12)
+punct(were-2, .-13)
+
+Sentence #4 (16 tokens):
+Jack's performance, he was very good I can tip my hat for him.
+[Text=Jack CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=POS] [Text=performance CharacterOffsetBegin=160 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=,] [Text=he CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=MD] [Text=tip CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VB] [Text=my CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=PRP$] [Text=hat CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=.] 
+root(ROOT-0, tip-11)
+poss(performance-3, Jack-1)
+possessive(Jack-1, 's-2)
+nsubj(tip-11, performance-3)
+punct(good-8, ,-4)
+nsubj(good-8, he-5)
+cop(good-8, was-6)
+advmod(good-8, very-7)
+dep(tip-11, good-8)
+nsubj(tip-11, I-9)
+aux(tip-11, can-10)
+poss(hat-13, my-12)
+dobj(tip-11, hat-13)
+prep(tip-11, for-14)
+pobj(for-14, him-15)
+punct(tip-11, .-16)
+
+Sentence #5 (2 tokens):
+2.
+[Text=2 CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=LS] [Text=. CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=.] 
+root(ROOT-0, 2-1)
+punct(2-1, .-2)
+
+Sentence #6 (8 tokens):
+Danny's performance, he was good.
+[Text=Danny CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=POS] [Text=performance CharacterOffsetBegin=235 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=,] [Text=he CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=VBD] [Text=good CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=.] 
+root(ROOT-0, performance-3)
+poss(performance-3, Danny-1)
+possessive(Danny-1, 's-2)
+punct(performance-3, ,-4)
+nsubj(good-7, he-5)
+cop(good-7, was-6)
+rcmod(performance-3, good-7)
+punct(performance-3, .-8)
+
+Sentence #7 (9 tokens):
+No other then that it got pretty stupid.
+[Text=No CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=JJ] [Text=then CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=VBD] [Text=pretty CharacterOffsetBegin=291 CharacterOffsetEnd=297 PartOfSpeech=RB] [Text=stupid CharacterOffsetBegin=298 CharacterOffsetEnd=304 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=.] 
+root(ROOT-0, other-2)
+det(other-2, No-1)
+advmod(other-2, then-3)
+mark(got-6, that-4)
+nsubj(got-6, it-5)
+dep(other-2, got-6)
+advmod(stupid-8, pretty-7)
+acomp(got-6, stupid-8)
+punct(other-2, .-9)
+
+Sentence #8 (13 tokens):
+And, what was Stanley Kubrick thinking drafting Shelly as the Wendy?
+[Text=And CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=,] [Text=what CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=VBD] [Text=Stanley CharacterOffsetBegin=324 CharacterOffsetEnd=331 PartOfSpeech=NNP] [Text=Kubrick CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=NNP] [Text=thinking CharacterOffsetBegin=340 CharacterOffsetEnd=348 PartOfSpeech=VBG] [Text=drafting CharacterOffsetBegin=349 CharacterOffsetEnd=357 PartOfSpeech=VBG] [Text=Shelly CharacterOffsetBegin=358 CharacterOffsetEnd=364 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=DT] [Text=Wendy CharacterOffsetBegin=372 CharacterOffsetEnd=377 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+punct(And-1, ,-2)
+nsubj(Kubrick-6, what-3)
+cop(Kubrick-6, was-4)
+nn(Kubrick-6, Stanley-5)
+ccomp(,-2, Kubrick-6)
+partmod(Kubrick-6, thinking-7)
+partmod(thinking-7, drafting-8)
+dobj(drafting-8, Shelly-9)
+prep(drafting-8, as-10)
+det(Wendy-12, the-11)
+pobj(as-10, Wendy-12)
+punct(Kubrick-6, ?-13)
+
+Sentence #9 (5 tokens):
+She was so bad.
+[Text=She CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=.] 
+root(ROOT-0, bad-4)
+nsubj(bad-4, She-1)
+cop(bad-4, was-2)
+advmod(bad-4, so-3)
+punct(bad-4, .-5)
+
+Sentence #10 (10 tokens):
+She looked the same every time she got scared.
+[Text=She CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=PRP] [Text=looked CharacterOffsetBegin=407 CharacterOffsetEnd=413 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=JJ] [Text=every CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=NN] [Text=she CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=VBD] [Text=scared CharacterOffsetBegin=442 CharacterOffsetEnd=448 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=.] 
+root(ROOT-0, looked-2)
+nsubj(looked-2, She-1)
+det(same-4, the-3)
+dobj(looked-2, same-4)
+det(time-6, every-5)
+tmod(looked-2, time-6)
+nsubjpass(scared-9, she-7)
+auxpass(scared-9, got-8)
+rcmod(time-6, scared-9)
+punct(looked-2, .-10)
+
+Sentence #11 (9 tokens):
+The problem with this movie was the ending.
+[Text=The CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=DT] [Text=problem CharacterOffsetBegin=458 CharacterOffsetEnd=465 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=476 CharacterOffsetEnd=481 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=496 CharacterOffsetEnd=497 PartOfSpeech=.] 
+root(ROOT-0, ending-8)
+det(problem-2, The-1)
+nsubj(ending-8, problem-2)
+prep(problem-2, with-3)
+det(movie-5, this-4)
+pobj(with-3, movie-5)
+cop(ending-8, was-6)
+det(ending-8, the-7)
+punct(ending-8, .-9)
+
+Sentence #12 (16 tokens):
+I would have had more respect for it if Kubrick would have ended it differently.
+[Text=I CharacterOffsetBegin=502 CharacterOffsetEnd=503 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=504 CharacterOffsetEnd=509 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=VB] [Text=had CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=VBD] [Text=more CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=RBR] [Text=respect CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=PRP] [Text=if CharacterOffsetBegin=539 CharacterOffsetEnd=541 PartOfSpeech=IN] [Text=Kubrick CharacterOffsetBegin=542 CharacterOffsetEnd=549 PartOfSpeech=NNP] [Text=would CharacterOffsetBegin=550 CharacterOffsetEnd=555 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=VB] [Text=ended CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=PRP] [Text=differently CharacterOffsetBegin=570 CharacterOffsetEnd=581 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+nsubj(have-3, I-1)
+aux(have-3, would-2)
+aux(respect-6, had-4)
+advmod(respect-6, more-5)
+dobj(have-3, respect-6)
+prep(respect-6, for-7)
+pobj(for-7, it-8)
+mark(ended-13, if-9)
+nsubj(ended-13, Kubrick-10)
+aux(ended-13, would-11)
+aux(ended-13, have-12)
+advcl(have-3, ended-13)
+dobj(ended-13, it-14)
+advmod(ended-13, differently-15)
+punct(have-3, .-16)
+
+Sentence #13 (10 tokens):
+And, the over all movie was just stupid.
+[Text=And CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=,] [Text=the CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=DT] [Text=over CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=601 CharacterOffsetEnd=604 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=605 CharacterOffsetEnd=610 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=615 CharacterOffsetEnd=619 PartOfSpeech=RB] [Text=stupid CharacterOffsetBegin=620 CharacterOffsetEnd=626 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=.] 
+root(ROOT-0, stupid-9)
+cc(stupid-9, And-1)
+punct(stupid-9, ,-2)
+nsubj(stupid-9, the-3)
+prep(the-3, over-4)
+det(movie-6, all-5)
+pobj(over-4, movie-6)
+cop(stupid-9, was-7)
+advmod(stupid-9, just-8)
+punct(stupid-9, .-10)
+
+Sentence #14 (14 tokens):
+The problem with the movie is that the book was so much better.
+[Text=The CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=DT] [Text=problem CharacterOffsetBegin=636 CharacterOffsetEnd=643 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=649 CharacterOffsetEnd=652 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=653 CharacterOffsetEnd=658 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=659 CharacterOffsetEnd=661 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=662 CharacterOffsetEnd=666 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=DT] [Text=book CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=683 CharacterOffsetEnd=687 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=688 CharacterOffsetEnd=694 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=.] 
+root(ROOT-0, is-6)
+det(problem-2, The-1)
+nsubj(is-6, problem-2)
+prep(problem-2, with-3)
+det(movie-5, the-4)
+pobj(with-3, movie-5)
+mark(better-13, that-7)
+det(book-9, the-8)
+nsubj(better-13, book-9)
+cop(better-13, was-10)
+advmod(much-12, so-11)
+advmod(better-13, much-12)
+ccomp(is-6, better-13)
+punct(is-6, .-14)
+
+Sentence #15 (16 tokens):
+So dont see the movie read the book and you will be much better off.
+[Text=So CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=RB] [Text=dont CharacterOffsetBegin=703 CharacterOffsetEnd=707 PartOfSpeech=JJ] [Text=see CharacterOffsetBegin=708 CharacterOffsetEnd=711 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=712 CharacterOffsetEnd=715 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=716 CharacterOffsetEnd=721 PartOfSpeech=NN] [Text=read CharacterOffsetBegin=722 CharacterOffsetEnd=726 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=727 CharacterOffsetEnd=730 PartOfSpeech=DT] [Text=book CharacterOffsetBegin=731 CharacterOffsetEnd=735 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=740 CharacterOffsetEnd=743 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=744 CharacterOffsetEnd=748 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=749 CharacterOffsetEnd=751 PartOfSpeech=VB] [Text=much CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=757 CharacterOffsetEnd=763 PartOfSpeech=JJR] [Text=off CharacterOffsetBegin=764 CharacterOffsetEnd=767 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=767 CharacterOffsetEnd=768 PartOfSpeech=.] 
+root(ROOT-0, see-3)
+advmod(dont-2, So-1)
+nsubj(see-3, dont-2)
+det(movie-5, the-4)
+nsubj(read-6, movie-5)
+ccomp(see-3, read-6)
+det(book-8, the-7)
+dobj(read-6, book-8)
+cc(read-6, and-9)
+nsubj(better-14, you-10)
+aux(better-14, will-11)
+cop(better-14, be-12)
+advmod(better-14, much-13)
+conj(read-6, better-14)
+prt(better-14, off-15)
+punct(see-3, .-16)
+
+Sentence #16 (2 tokens):
+3/10.
+[Text=3/10 CharacterOffsetBegin=773 CharacterOffsetEnd=777 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=777 CharacterOffsetEnd=778 PartOfSpeech=.] 
+root(ROOT-0, 3/10-1)
+punct(3/10-1, .-2)
+

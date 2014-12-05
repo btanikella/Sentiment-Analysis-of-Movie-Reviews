@@ -1,0 +1,253 @@
+Sentence #1 (14 tokens):
+Life Stinks (1991) was a step below Mel Brooks other productions.
+[Text=Life CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text=Stinks CharacterOffsetBegin=9 CharacterOffsetEnd=15 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=-LRB-] [Text=1991 CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=-RRB-] [Text=was CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=DT] [Text=step CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=NN] [Text=below CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=IN] [Text=Mel CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=NNP] [Text=Brooks CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=NNP] [Text=other CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=productions CharacterOffsetBegin=57 CharacterOffsetEnd=68 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=.] 
+root(ROOT-0, step-8)
+nn(Stinks-2, Life-1)
+nsubj(step-8, Stinks-2)
+punct(1991-4, -LRB--3)
+appos(Stinks-2, 1991-4)
+punct(1991-4, -RRB--5)
+cop(step-8, was-6)
+det(step-8, a-7)
+prep(step-8, below-9)
+nn(productions-13, Mel-10)
+nn(productions-13, Brooks-11)
+amod(productions-13, other-12)
+pobj(below-9, productions-13)
+punct(step-8, .-14)
+
+Sentence #2 (17 tokens):
+He stars as a rich man who wages an insane wager with his "friends".
+[Text=He CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=PRP] [Text=stars CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=VBZ] [Text=as CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=rich CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=JJ] [Text=man CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=WP] [Text=wages CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=NNS] [Text=an CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=DT] [Text=insane CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=wager CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=PRP$] [Text=`` CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=``] [Text=friends CharacterOffsetBegin=133 CharacterOffsetEnd=140 PartOfSpeech=NNS] [Text='' CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=''] [Text=. CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=.] 
+root(ROOT-0, stars-2)
+nsubj(stars-2, He-1)
+prep(stars-2, as-3)
+det(man-6, a-4)
+amod(man-6, rich-5)
+pobj(as-3, man-6)
+nsubj(wages-8, who-7)
+rcmod(man-6, wages-8)
+det(wager-11, an-9)
+amod(wager-11, insane-10)
+dobj(wages-8, wager-11)
+prep(wages-8, with-12)
+poss(friends-15, his-13)
+punct(friends-15, ``-14)
+pobj(with-12, friends-15)
+punct(friends-15, ''-16)
+punct(stars-2, .-17)
+
+Sentence #3 (14 tokens):
+Brooks claims that he can life like a homeless man for a month.
+[Text=Brooks CharacterOffsetBegin=147 CharacterOffsetEnd=153 PartOfSpeech=NNP] [Text=claims CharacterOffsetBegin=154 CharacterOffsetEnd=160 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=MD] [Text=life CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=DT] [Text=homeless CharacterOffsetBegin=185 CharacterOffsetEnd=193 PartOfSpeech=JJ] [Text=man CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=month CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, claims-2)
+nsubj(claims-2, Brooks-1)
+mark(life-6, that-3)
+nsubj(life-6, he-4)
+aux(life-6, can-5)
+ccomp(claims-2, life-6)
+prep(life-6, like-7)
+det(man-10, a-8)
+amod(man-10, homeless-9)
+pobj(like-7, man-10)
+prep(man-10, for-11)
+det(month-13, a-12)
+pobj(for-11, month-13)
+punct(claims-2, .-14)
+
+Sentence #4 (10 tokens):
+His shocked and amused friends accept this unusual wager.
+[Text=His CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=PRP$] [Text=shocked CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=CC] [Text=amused CharacterOffsetBegin=231 CharacterOffsetEnd=237 PartOfSpeech=VBD] [Text=friends CharacterOffsetBegin=238 CharacterOffsetEnd=245 PartOfSpeech=NNS] [Text=accept CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=DT] [Text=unusual CharacterOffsetBegin=258 CharacterOffsetEnd=265 PartOfSpeech=JJ] [Text=wager CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, shocked-2)
+poss(shocked-2, His-1)
+cc(shocked-2, and-3)
+nn(friends-5, amused-4)
+conj(shocked-2, friends-5)
+dep(shocked-2, accept-6)
+det(wager-9, this-7)
+amod(wager-9, unusual-8)
+dobj(accept-6, wager-9)
+punct(shocked-2, .-10)
+
+Sentence #5 (29 tokens):
+During his "stay" in the Bowery, he meets a bunch of odd homeless people, one of them catches his fancy (Lesley-Ann Warren).
+[Text=During CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=PRP$] [Text=`` CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=``] [Text=stay CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=VB] [Text='' CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=''] [Text=in CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=DT] [Text=Bowery CharacterOffsetBegin=302 CharacterOffsetEnd=308 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=,] [Text=he CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=PRP] [Text=meets CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=319 CharacterOffsetEnd=320 PartOfSpeech=DT] [Text=bunch CharacterOffsetBegin=321 CharacterOffsetEnd=326 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=IN] [Text=odd CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=JJ] [Text=homeless CharacterOffsetBegin=334 CharacterOffsetEnd=342 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=,] [Text=one CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=PRP] [Text=catches CharacterOffsetBegin=363 CharacterOffsetEnd=370 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=PRP$] [Text=fancy CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=-LRB-] [Text=Lesley-Ann CharacterOffsetBegin=382 CharacterOffsetEnd=392 PartOfSpeech=NNP] [Text=Warren CharacterOffsetBegin=393 CharacterOffsetEnd=399 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=400 CharacterOffsetEnd=401 PartOfSpeech=.] 
+root(ROOT-0, meets-11)
+prep(meets-11, During-1)
+poss(stay-4, his-2)
+punct(stay-4, ``-3)
+pobj(During-1, stay-4)
+punct(stay-4, ''-5)
+prep(stay-4, in-6)
+det(Bowery-8, the-7)
+pobj(in-6, Bowery-8)
+punct(meets-11, ,-9)
+nsubj(meets-11, he-10)
+det(bunch-13, a-12)
+dobj(meets-11, bunch-13)
+prep(bunch-13, of-14)
+amod(people-17, odd-15)
+amod(people-17, homeless-16)
+pobj(of-14, people-17)
+punct(bunch-13, ,-18)
+nsubj(catches-22, one-19)
+prep(one-19, of-20)
+pobj(of-20, them-21)
+rcmod(bunch-13, catches-22)
+poss(fancy-24, his-23)
+dobj(catches-22, fancy-24)
+punct(Warren-27, -LRB--25)
+nn(Warren-27, Lesley-Ann-26)
+appos(fancy-24, Warren-27)
+punct(Warren-27, -RRB--28)
+punct(meets-11, .-29)
+
+Sentence #6 (20 tokens):
+They strike up a friendship as she teaches him the many tricks she learned whilst living on the street.
+[Text=They CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=PRP] [Text=strike CharacterOffsetBegin=411 CharacterOffsetEnd=417 PartOfSpeech=VBP] [Text=up CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=RP] [Text=a CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=DT] [Text=friendship CharacterOffsetBegin=423 CharacterOffsetEnd=433 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=PRP] [Text=teaches CharacterOffsetBegin=441 CharacterOffsetEnd=448 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=PRP] [Text=the CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=DT] [Text=many CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=JJ] [Text=tricks CharacterOffsetBegin=462 CharacterOffsetEnd=468 PartOfSpeech=NNS] [Text=she CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=PRP] [Text=learned CharacterOffsetBegin=473 CharacterOffsetEnd=480 PartOfSpeech=VBD] [Text=whilst CharacterOffsetBegin=481 CharacterOffsetEnd=487 PartOfSpeech=IN] [Text=living CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=495 CharacterOffsetEnd=497 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=DT] [Text=street CharacterOffsetBegin=502 CharacterOffsetEnd=508 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=.] 
+root(ROOT-0, strike-2)
+nsubj(strike-2, They-1)
+prt(strike-2, up-3)
+det(friendship-5, a-4)
+dobj(strike-2, friendship-5)
+mark(teaches-8, as-6)
+nsubj(teaches-8, she-7)
+advcl(strike-2, teaches-8)
+iobj(teaches-8, him-9)
+det(tricks-12, the-10)
+amod(tricks-12, many-11)
+dobj(teaches-8, tricks-12)
+nsubj(learned-14, she-13)
+rcmod(tricks-12, learned-14)
+prep(learned-14, whilst-15)
+pcomp(whilst-15, living-16)
+prep(living-16, on-17)
+det(street-19, the-18)
+pobj(on-17, street-19)
+punct(strike-2, .-20)
+
+Sentence #7 (15 tokens):
+Can Mr. Brooks survive on his own without the luxuries of being filthy rich?
+[Text=Can CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=MD] [Text=Mr. CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=NNP] [Text=Brooks CharacterOffsetBegin=522 CharacterOffsetEnd=528 PartOfSpeech=NNP] [Text=survive CharacterOffsetBegin=529 CharacterOffsetEnd=536 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=544 CharacterOffsetEnd=547 PartOfSpeech=JJ] [Text=without CharacterOffsetBegin=548 CharacterOffsetEnd=555 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=DT] [Text=luxuries CharacterOffsetBegin=560 CharacterOffsetEnd=568 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=IN] [Text=being CharacterOffsetBegin=572 CharacterOffsetEnd=577 PartOfSpeech=VBG] [Text=filthy CharacterOffsetBegin=578 CharacterOffsetEnd=584 PartOfSpeech=JJ] [Text=rich CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=.] 
+root(ROOT-0, survive-4)
+aux(survive-4, Can-1)
+nn(Brooks-3, Mr.-2)
+nsubj(survive-4, Brooks-3)
+prep(survive-4, on-5)
+poss(own-7, his-6)
+pobj(on-5, own-7)
+prep(survive-4, without-8)
+det(luxuries-10, the-9)
+pobj(without-8, luxuries-10)
+prep(luxuries-10, of-11)
+cop(rich-14, being-12)
+dep(rich-14, filthy-13)
+pcomp(of-11, rich-14)
+punct(survive-4, ?-15)
+
+Sentence #8 (7 tokens):
+Will he win this unorthodox wager?
+[Text=Will CharacterOffsetBegin=595 CharacterOffsetEnd=599 PartOfSpeech=MD] [Text=he CharacterOffsetBegin=600 CharacterOffsetEnd=602 PartOfSpeech=PRP] [Text=win CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=DT] [Text=unorthodox CharacterOffsetBegin=612 CharacterOffsetEnd=622 PartOfSpeech=JJ] [Text=wager CharacterOffsetBegin=623 CharacterOffsetEnd=628 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=.] 
+root(ROOT-0, win-3)
+aux(win-3, Will-1)
+nsubj(win-3, he-2)
+det(wager-6, this-4)
+amod(wager-6, unorthodox-5)
+dobj(win-3, wager-6)
+punct(win-3, ?-7)
+
+Sentence #9 (6 tokens):
+Who are his true friends?
+[Text=Who CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=WP] [Text=are CharacterOffsetBegin=638 CharacterOffsetEnd=641 PartOfSpeech=VBP] [Text=his CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=PRP$] [Text=true CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=JJ] [Text=friends CharacterOffsetBegin=651 CharacterOffsetEnd=658 PartOfSpeech=NNS] [Text=? CharacterOffsetBegin=658 CharacterOffsetEnd=659 PartOfSpeech=.] 
+root(ROOT-0, friends-5)
+nsubj(friends-5, Who-1)
+cop(friends-5, are-2)
+poss(friends-5, his-3)
+amod(friends-5, true-4)
+punct(friends-5, ?-6)
+
+Sentence #10 (16 tokens):
+Find out when you watch LIFE STINKS to find out!This film has been slagged unfairly.
+[Text=Find CharacterOffsetBegin=664 CharacterOffsetEnd=668 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=669 CharacterOffsetEnd=672 PartOfSpeech=RP] [Text=when CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=WRB] [Text=you CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=PRP] [Text=watch CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=VBP] [Text=LIFE CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=NNP] [Text=STINKS CharacterOffsetBegin=693 CharacterOffsetEnd=699 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=TO] [Text=find CharacterOffsetBegin=703 CharacterOffsetEnd=707 PartOfSpeech=VB] [Text=out!This CharacterOffsetBegin=708 CharacterOffsetEnd=716 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=717 CharacterOffsetEnd=721 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=726 CharacterOffsetEnd=730 PartOfSpeech=VBN] [Text=slagged CharacterOffsetBegin=731 CharacterOffsetEnd=738 PartOfSpeech=VBN] [Text=unfairly CharacterOffsetBegin=739 CharacterOffsetEnd=747 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=747 CharacterOffsetEnd=748 PartOfSpeech=.] 
+root(ROOT-0, Find-1)
+prt(Find-1, out-2)
+advmod(watch-5, when-3)
+nsubj(watch-5, you-4)
+advcl(Find-1, watch-5)
+nsubj(STINKS-7, LIFE-6)
+ccomp(watch-5, STINKS-7)
+aux(find-9, to-8)
+xcomp(STINKS-7, find-9)
+nn(film-11, out!This-10)
+nsubjpass(slagged-14, film-11)
+aux(slagged-14, has-12)
+auxpass(slagged-14, been-13)
+ccomp(find-9, slagged-14)
+advmod(slagged-14, unfairly-15)
+punct(Find-1, .-16)
+
+Sentence #11 (16 tokens):
+Sure it's not a classic like his earlier films but it's still enjoyable.
+[Text=Sure CharacterOffsetBegin=753 CharacterOffsetEnd=757 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=758 CharacterOffsetEnd=760 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=760 CharacterOffsetEnd=762 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=767 CharacterOffsetEnd=768 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=769 CharacterOffsetEnd=776 PartOfSpeech=JJ] [Text=like CharacterOffsetBegin=777 CharacterOffsetEnd=781 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=782 CharacterOffsetEnd=785 PartOfSpeech=PRP$] [Text=earlier CharacterOffsetBegin=786 CharacterOffsetEnd=793 PartOfSpeech=JJR] [Text=films CharacterOffsetBegin=794 CharacterOffsetEnd=799 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=800 CharacterOffsetEnd=803 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=804 CharacterOffsetEnd=806 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=806 CharacterOffsetEnd=808 PartOfSpeech=VBZ] [Text=still CharacterOffsetBegin=809 CharacterOffsetEnd=814 PartOfSpeech=RB] [Text=enjoyable CharacterOffsetBegin=815 CharacterOffsetEnd=824 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=824 CharacterOffsetEnd=825 PartOfSpeech=.] 
+root(ROOT-0, Sure-1)
+nsubj(classic-6, it-2)
+cop(classic-6, 's-3)
+neg(classic-6, not-4)
+det(classic-6, a-5)
+ccomp(Sure-1, classic-6)
+prep(classic-6, like-7)
+poss(films-10, his-8)
+amod(films-10, earlier-9)
+pobj(like-7, films-10)
+cc(Sure-1, but-11)
+nsubj(enjoyable-15, it-12)
+cop(enjoyable-15, 's-13)
+advmod(enjoyable-15, still-14)
+conj(Sure-1, enjoyable-15)
+punct(Sure-1, .-16)
+
+Sentence #12 (15 tokens):
+I liked the way Mel Brooks pays homage to Charles Chaplin in this film.
+[Text=I CharacterOffsetBegin=830 CharacterOffsetEnd=831 PartOfSpeech=PRP] [Text=liked CharacterOffsetBegin=832 CharacterOffsetEnd=837 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=838 CharacterOffsetEnd=841 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=842 CharacterOffsetEnd=845 PartOfSpeech=NN] [Text=Mel CharacterOffsetBegin=846 CharacterOffsetEnd=849 PartOfSpeech=NNP] [Text=Brooks CharacterOffsetBegin=850 CharacterOffsetEnd=856 PartOfSpeech=NNP] [Text=pays CharacterOffsetBegin=857 CharacterOffsetEnd=861 PartOfSpeech=VBZ] [Text=homage CharacterOffsetBegin=862 CharacterOffsetEnd=868 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=869 CharacterOffsetEnd=871 PartOfSpeech=TO] [Text=Charles CharacterOffsetBegin=872 CharacterOffsetEnd=879 PartOfSpeech=NNP] [Text=Chaplin CharacterOffsetBegin=880 CharacterOffsetEnd=887 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=888 CharacterOffsetEnd=890 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=891 CharacterOffsetEnd=895 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=896 CharacterOffsetEnd=900 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=900 CharacterOffsetEnd=901 PartOfSpeech=.] 
+root(ROOT-0, liked-2)
+nsubj(liked-2, I-1)
+det(way-4, the-3)
+dobj(liked-2, way-4)
+nn(Brooks-6, Mel-5)
+nsubj(pays-7, Brooks-6)
+rcmod(way-4, pays-7)
+dobj(pays-7, homage-8)
+prep(pays-7, to-9)
+nn(Chaplin-11, Charles-10)
+pobj(to-9, Chaplin-11)
+prep(pays-7, in-12)
+det(film-14, this-13)
+pobj(in-12, film-14)
+punct(liked-2, .-15)
+
+Sentence #13 (22 tokens):
+If you have watched Chaplin's earlier silent films then you'll get the humor as well.Recommended for Mel Brooks fans.
+[Text=If CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=909 CharacterOffsetEnd=912 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=913 CharacterOffsetEnd=917 PartOfSpeech=VBP] [Text=watched CharacterOffsetBegin=918 CharacterOffsetEnd=925 PartOfSpeech=VBN] [Text=Chaplin CharacterOffsetBegin=926 CharacterOffsetEnd=933 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=933 CharacterOffsetEnd=935 PartOfSpeech=POS] [Text=earlier CharacterOffsetBegin=936 CharacterOffsetEnd=943 PartOfSpeech=JJR] [Text=silent CharacterOffsetBegin=944 CharacterOffsetEnd=950 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=951 CharacterOffsetEnd=956 PartOfSpeech=NNS] [Text=then CharacterOffsetBegin=957 CharacterOffsetEnd=961 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=962 CharacterOffsetEnd=965 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=965 CharacterOffsetEnd=968 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=969 CharacterOffsetEnd=972 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=973 CharacterOffsetEnd=976 PartOfSpeech=DT] [Text=humor CharacterOffsetBegin=977 CharacterOffsetEnd=982 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=983 CharacterOffsetEnd=985 PartOfSpeech=IN] [Text=well.Recommended CharacterOffsetBegin=986 CharacterOffsetEnd=1002 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=1003 CharacterOffsetEnd=1006 PartOfSpeech=IN] [Text=Mel CharacterOffsetBegin=1007 CharacterOffsetEnd=1010 PartOfSpeech=NNP] [Text=Brooks CharacterOffsetBegin=1011 CharacterOffsetEnd=1017 PartOfSpeech=NNP] [Text=fans CharacterOffsetBegin=1018 CharacterOffsetEnd=1022 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1022 CharacterOffsetEnd=1023 PartOfSpeech=.] 
+root(ROOT-0, get-13)
+mark(watched-4, If-1)
+nsubj(watched-4, you-2)
+aux(watched-4, have-3)
+advcl(get-13, watched-4)
+poss(films-9, Chaplin-5)
+possessive(Chaplin-5, 's-6)
+amod(films-9, earlier-7)
+amod(films-9, silent-8)
+dobj(watched-4, films-9)
+advmod(watched-4, then-10)
+nsubj(get-13, you-11)
+aux(get-13, 'll-12)
+det(humor-15, the-14)
+dobj(get-13, humor-15)
+prep(get-13, as-16)
+pobj(as-16, well.Recommended-17)
+prep(well.Recommended-17, for-18)
+nn(fans-21, Mel-19)
+nn(fans-21, Brooks-20)
+pobj(for-18, fans-21)
+punct(get-13, .-22)
+

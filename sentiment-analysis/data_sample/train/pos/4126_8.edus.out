@@ -1,0 +1,158 @@
+Sentence #1 (4 tokens):
+What a night.
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=night CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=.] 
+root(ROOT-0, night-3)
+dep(night-3, What-1)
+det(night-3, a-2)
+punct(night-3, .-4)
+
+Sentence #2 (46 tokens):
+Perry Mason then Have Gun, Will Travel followed by Gunsmoke (when it was a half hour) and finally at 10:30PM came 'Sea Hunt' with its wonderful opening theme music and Mike's boat sailing off to a new adventure.
+[Text=Perry CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNP] [Text=Mason CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NNP] [Text=then CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=RB] [Text=Have CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=VBP] [Text=Gun CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=,] [Text=Will CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=NNP] [Text=Travel CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=NNP] [Text=followed CharacterOffsetBegin=61 CharacterOffsetEnd=69 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=Gunsmoke CharacterOffsetBegin=73 CharacterOffsetEnd=81 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=-LRB-] [Text=when CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=half CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=JJ] [Text=hour CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=CC] [Text=finally CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN] [Text=10:30 CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=CD] [Text=PM CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=came CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=VBD] [Text=` CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=``] [Text=Sea CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=Hunt CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=POS] [Text=with CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=PRP$] [Text=wonderful CharacterOffsetBegin=156 CharacterOffsetEnd=165 PartOfSpeech=JJ] [Text=opening CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=NN] [Text=theme CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=NN] [Text=music CharacterOffsetBegin=180 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=CC] [Text=Mike CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=POS] [Text=boat CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=sailing CharacterOffsetBegin=202 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=off CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=adventure CharacterOffsetBegin=223 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=.] 
+root(ROOT-0, Gun-5)
+nn(Mason-2, Perry-1)
+nsubj(Gun-5, Mason-2)
+advmod(Gun-5, then-3)
+aux(Gun-5, Have-4)
+punct(Gun-5, ,-6)
+nn(Travel-8, Will-7)
+appos(Gun-5, Travel-8)
+partmod(Travel-8, followed-9)
+prep(followed-9, by-10)
+pobj(by-10, Gunsmoke-11)
+punct(hour-18, -LRB--12)
+advmod(hour-18, when-13)
+nsubj(hour-18, it-14)
+cop(hour-18, was-15)
+det(hour-18, a-16)
+amod(hour-18, half-17)
+appos(Gunsmoke-11, hour-18)
+punct(hour-18, -RRB--19)
+cc(Gunsmoke-11, and-20)
+advmod(came-25, finally-21)
+prep(came-25, at-22)
+num(PM-24, 10:30-23)
+pobj(at-22, PM-24)
+conj(Gunsmoke-11, came-25)
+punct(came-25, `-26)
+nn(Hunt-28, Sea-27)
+dobj(came-25, Hunt-28)
+possessive(Hunt-28, '-29)
+prep(Hunt-28, with-30)
+poss(music-35, its-31)
+amod(music-35, wonderful-32)
+nn(music-35, opening-33)
+nn(music-35, theme-34)
+pobj(with-30, music-35)
+cc(music-35, and-36)
+poss(boat-39, Mike-37)
+possessive(Mike-37, 's-38)
+nsubj(sailing-40, boat-39)
+conj(music-35, sailing-40)
+prep(sailing-40, off-41)
+pcomp(off-41, to-42)
+det(adventure-45, a-43)
+amod(adventure-45, new-44)
+pobj(to-42, adventure-45)
+punct(Gun-5, .-46)
+
+Sentence #3 (2 tokens):
+Terrific.
+[Text=Terrific CharacterOffsetBegin=238 CharacterOffsetEnd=246 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=.] 
+root(ROOT-0, Terrific-1)
+punct(Terrific-1, .-2)
+
+Sentence #4 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #5 (22 tokens):
+Regardless of the story it was the lead character (played by Lloyd Bridges), strong, honest, sincere.
+[Text=Regardless CharacterOffsetBegin=253 CharacterOffsetEnd=263 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=DT] [Text=lead CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=293 CharacterOffsetEnd=302 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=-LRB-] [Text=played CharacterOffsetBegin=304 CharacterOffsetEnd=310 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=IN] [Text=Lloyd CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=NNP] [Text=Bridges CharacterOffsetBegin=320 CharacterOffsetEnd=327 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=,] [Text=strong CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=,] [Text=honest CharacterOffsetBegin=338 CharacterOffsetEnd=344 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=,] [Text=sincere CharacterOffsetBegin=346 CharacterOffsetEnd=353 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=.] 
+root(ROOT-0, sincere-21)
+advmod(sincere-21, Regardless-1)
+prep(Regardless-1, of-2)
+det(story-4, the-3)
+pobj(of-2, story-4)
+nsubj(character-9, it-5)
+cop(character-9, was-6)
+det(character-9, the-7)
+amod(character-9, lead-8)
+rcmod(story-4, character-9)
+punct(played-11, -LRB--10)
+dep(character-9, played-11)
+prep(played-11, by-12)
+nn(Bridges-14, Lloyd-13)
+pobj(by-12, Bridges-14)
+punct(played-11, -RRB--15)
+punct(sincere-21, ,-16)
+amod(sincere-21, strong-17)
+punct(sincere-21, ,-18)
+amod(sincere-21, honest-19)
+punct(sincere-21, ,-20)
+punct(sincere-21, .-22)
+
+Sentence #6 (10 tokens):
+A Man's Man and a Boy's Man.
+[Text=A CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=DT] [Text=Man CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=POS] [Text=Man CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=DT] [Text=Boy CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=POS] [Text=Man CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=.] 
+root(ROOT-0, Man-4)
+det(Man-2, A-1)
+poss(Man-4, Man-2)
+possessive(Man-2, 's-3)
+cc(Man-4, and-5)
+det(Boy-7, a-6)
+poss(Man-9, Boy-7)
+possessive(Boy-7, 's-8)
+conj(Man-4, Man-9)
+punct(Man-4, .-10)
+
+Sentence #7 (12 tokens):
+This brought on an interest in boats that lasted for years.
+[Text=This CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=DT] [Text=brought CharacterOffsetBegin=397 CharacterOffsetEnd=404 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=DT] [Text=interest CharacterOffsetBegin=411 CharacterOffsetEnd=419 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=IN] [Text=boats CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=WDT] [Text=lasted CharacterOffsetBegin=434 CharacterOffsetEnd=440 PartOfSpeech=VBD] [Text=for CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=IN] [Text=years CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=.] 
+root(ROOT-0, brought-2)
+nsubj(brought-2, This-1)
+prep(brought-2, on-3)
+det(interest-5, an-4)
+pobj(on-3, interest-5)
+prep(interest-5, in-6)
+pobj(in-6, boats-7)
+nsubj(lasted-9, that-8)
+rcmod(interest-5, lasted-9)
+prep(lasted-9, for-10)
+pobj(for-10, years-11)
+punct(brought-2, .-12)
+
+Sentence #8 (17 tokens):
+Why they don't show on cable or make it available on video, no idea.
+[Text=Why CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=RB] [Text=show CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=IN] [Text=cable CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=CC] [Text=make CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=PRP] [Text=available CharacterOffsetBegin=496 CharacterOffsetEnd=505 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=506 CharacterOffsetEnd=508 PartOfSpeech=IN] [Text=video CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=514 CharacterOffsetEnd=515 PartOfSpeech=,] [Text=no CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=DT] [Text=idea CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=.] 
+root(ROOT-0, show-5)
+advmod(show-5, Why-1)
+nsubj(show-5, they-2)
+aux(show-5, do-3)
+neg(show-5, n't-4)
+prep(show-5, on-6)
+pobj(on-6, cable-7)
+cc(show-5, or-8)
+conj(show-5, make-9)
+nsubj(available-11, it-10)
+xcomp(make-9, available-11)
+prep(available-11, on-12)
+pobj(on-12, video-13)
+punct(show-5, ,-14)
+det(idea-16, no-15)
+dep(show-5, idea-16)
+punct(show-5, .-17)
+
+Sentence #9 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #10 (3 tokens):
+Too bad.
+[Text=Too CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=.] 
+root(ROOT-0, bad-2)
+advmod(bad-2, Too-1)
+punct(bad-2, .-3)
+

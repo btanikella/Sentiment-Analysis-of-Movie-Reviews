@@ -1,0 +1,230 @@
+Sentence #1 (9 tokens):
+I expected this to be a lot better.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=expected CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=DT] [Text=to CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=better CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.] 
+root(ROOT-0, expected-2)
+nsubj(expected-2, I-1)
+nsubj(lot-7, this-3)
+aux(lot-7, to-4)
+cop(lot-7, be-5)
+det(lot-7, a-6)
+xcomp(expected-2, lot-7)
+advmod(lot-7, better-8)
+punct(expected-2, .-9)
+
+Sentence #2 (19 tokens):
+I love Tim Burton's work, so I was really excited to see these online short films.
+[Text=I CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=VBP] [Text=Tim CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=NNP] [Text=Burton CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=POS] [Text=work CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=,] [Text=so CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=VBD] [Text=really CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=excited CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=VB] [Text=these CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=DT] [Text=online CharacterOffsetBegin=107 CharacterOffsetEnd=113 PartOfSpeech=JJ] [Text=short CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+nn(Burton-4, Tim-3)
+poss(work-6, Burton-4)
+possessive(Burton-4, 's-5)
+dobj(love-2, work-6)
+punct(love-2, ,-7)
+dep(love-2, so-8)
+nsubjpass(excited-12, I-9)
+auxpass(excited-12, was-10)
+advmod(excited-12, really-11)
+ccomp(love-2, excited-12)
+aux(see-14, to-13)
+xcomp(excited-12, see-14)
+det(films-18, these-15)
+amod(films-18, online-16)
+amod(films-18, short-17)
+dobj(see-14, films-18)
+punct(love-2, .-19)
+
+Sentence #3 (24 tokens):
+Well, they weren't at all what I had expected.I don't really know what exactly it is I don't like.
+[Text=Well CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=,] [Text=they CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=DT] [Text=what CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=VBD] [Text=expected.I CharacterOffsetBegin=168 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=do CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=185 CharacterOffsetEnd=191 PartOfSpeech=RB] [Text=know CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=WP] [Text=exactly CharacterOffsetBegin=202 CharacterOffsetEnd=209 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=VBZ] [Text=I CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, were-4)
+advmod(were-4, Well-1)
+punct(were-4, ,-2)
+nsubj(were-4, they-3)
+neg(were-4, n't-5)
+mark(know-15, at-6)
+nsubj(know-15, all-7)
+dobj(had-10, what-8)
+nsubj(had-10, I-9)
+dep(know-15, had-10)
+nsubj(know-15, expected.I-11)
+aux(know-15, do-12)
+neg(know-15, n't-13)
+advmod(know-15, really-14)
+advcl(were-4, know-15)
+dobj(like-23, what-16)
+advmod(like-23, exactly-17)
+nsubjpass(like-23, it-18)
+auxpass(like-23, is-19)
+nsubj(like-23, I-20)
+aux(like-23, do-21)
+neg(like-23, n't-22)
+ccomp(know-15, like-23)
+punct(were-4, .-24)
+
+Sentence #4 (9 tokens):
+I guess they're just sort of dull.
+[Text=I CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=VBP] [Text=just CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=sort CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=IN] [Text=dull CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=.] 
+root(ROOT-0, guess-2)
+nsubj(guess-2, I-1)
+nsubj(sort-6, they-3)
+cop(sort-6, 're-4)
+advmod(sort-6, just-5)
+ccomp(guess-2, sort-6)
+prep(sort-6, of-7)
+pobj(of-7, dull-8)
+punct(guess-2, .-9)
+
+Sentence #5 (47 tokens):
+The sound bothers me, and most of the characters, although I loved Roy the Toxic Boy, and Stainboy.The Match Girl episode probably bugged me the most, although it was pretty funny.I also don't like the way some of the characters die.
+[Text=The CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT] [Text=sound CharacterOffsetBegin=277 CharacterOffsetEnd=282 PartOfSpeech=JJ] [Text=bothers CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=NNS] [Text=me CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=,] [Text=and CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=CC] [Text=most CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=311 CharacterOffsetEnd=321 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=,] [Text=although CharacterOffsetBegin=323 CharacterOffsetEnd=331 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=VBD] [Text=Roy CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT] [Text=Toxic CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=JJ] [Text=Boy CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=,] [Text=and CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=CC] [Text=Stainboy.The CharacterOffsetBegin=363 CharacterOffsetEnd=375 PartOfSpeech=NNP] [Text=Match CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=NNP] [Text=Girl CharacterOffsetBegin=382 CharacterOffsetEnd=386 PartOfSpeech=NNP] [Text=episode CharacterOffsetBegin=387 CharacterOffsetEnd=394 PartOfSpeech=NN] [Text=probably CharacterOffsetBegin=395 CharacterOffsetEnd=403 PartOfSpeech=RB] [Text=bugged CharacterOffsetBegin=404 CharacterOffsetEnd=410 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=PRP] [Text=the CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=RBS] [Text=, CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=,] [Text=although CharacterOffsetBegin=424 CharacterOffsetEnd=432 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=VBD] [Text=pretty CharacterOffsetBegin=440 CharacterOffsetEnd=446 PartOfSpeech=RB] [Text=funny.I CharacterOffsetBegin=447 CharacterOffsetEnd=454 PartOfSpeech=NN] [Text=also CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=NN] [Text=some CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=487 CharacterOffsetEnd=490 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=491 CharacterOffsetEnd=501 PartOfSpeech=NNS] [Text=die CharacterOffsetBegin=502 CharacterOffsetEnd=505 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=.] 
+root(ROOT-0, loved-14)
+dep(loved-14, The-1)
+dep(loved-14, sound-2)
+dobj(sound-2, bothers-3)
+dobj(bothers-3, me-4)
+punct(bothers-3, ,-5)
+cc(bothers-3, and-6)
+conj(bothers-3, most-7)
+prep(most-7, of-8)
+det(characters-10, the-9)
+pobj(of-8, characters-10)
+punct(sound-2, ,-11)
+dep(sound-2, although-12)
+nsubj(loved-14, I-13)
+nn(Boy-18, Roy-15)
+det(Boy-18, the-16)
+amod(Boy-18, Toxic-17)
+dobj(loved-14, Boy-18)
+punct(loved-14, ,-19)
+cc(loved-14, and-20)
+nn(episode-24, Stainboy.The-21)
+nn(episode-24, Match-22)
+nn(episode-24, Girl-23)
+nsubj(bugged-26, episode-24)
+advmod(bugged-26, probably-25)
+conj(loved-14, bugged-26)
+iobj(bugged-26, me-27)
+det(most-29, the-28)
+dobj(bugged-26, most-29)
+punct(loved-14, ,-30)
+mark(funny.I-35, although-31)
+nsubj(funny.I-35, it-32)
+cop(funny.I-35, was-33)
+advmod(funny.I-35, pretty-34)
+nsubj(like-39, funny.I-35)
+advmod(like-39, also-36)
+aux(like-39, do-37)
+neg(like-39, n't-38)
+ccomp(loved-14, like-39)
+det(way-41, the-40)
+dobj(like-39, way-41)
+nsubj(die-46, some-42)
+prep(some-42, of-43)
+det(characters-45, the-44)
+pobj(of-43, characters-45)
+rcmod(way-41, die-46)
+punct(loved-14, .-47)
+
+Sentence #6 (23 tokens):
+Like how Match Girl basically set the gas station on fire, or how the Girl Who Stares died, in general.
+[Text=Like CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=WRB] [Text=Match CharacterOffsetBegin=520 CharacterOffsetEnd=525 PartOfSpeech=NNP] [Text=Girl CharacterOffsetBegin=526 CharacterOffsetEnd=530 PartOfSpeech=NNP] [Text=basically CharacterOffsetBegin=531 CharacterOffsetEnd=540 PartOfSpeech=RB] [Text=set CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=DT] [Text=gas CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=NN] [Text=station CharacterOffsetBegin=553 CharacterOffsetEnd=560 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=561 CharacterOffsetEnd=563 PartOfSpeech=IN] [Text=fire CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=,] [Text=or CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=CC] [Text=how CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=DT] [Text=Girl CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=NNP] [Text=Who CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=WP] [Text=Stares CharacterOffsetBegin=590 CharacterOffsetEnd=596 PartOfSpeech=VBZ] [Text=died CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=,] [Text=in CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=IN] [Text=general CharacterOffsetBegin=606 CharacterOffsetEnd=613 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=.] 
+root(ROOT-0, Like-1)
+advmod(set-6, how-2)
+nn(Girl-4, Match-3)
+nsubj(set-6, Girl-4)
+advmod(set-6, basically-5)
+pcomp(Like-1, set-6)
+det(station-9, the-7)
+nn(station-9, gas-8)
+dobj(set-6, station-9)
+prep(set-6, on-10)
+pobj(on-10, fire-11)
+punct(fire-11, ,-12)
+cc(fire-11, or-13)
+conj(fire-11, how-14)
+det(Girl-16, the-15)
+dep(how-14, Girl-16)
+dobj(died-19, Who-17)
+nsubj(died-19, Stares-18)
+rcmod(Girl-16, died-19)
+punct(died-19, ,-20)
+prep(died-19, in-21)
+pobj(in-21, general-22)
+punct(Like-1, .-23)
+
+Sentence #7 (8 tokens):
+Roy's death was amusing, surprisingly.
+[Text=Roy CharacterOffsetBegin=619 CharacterOffsetEnd=622 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=POS] [Text=death CharacterOffsetBegin=625 CharacterOffsetEnd=630 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=VBD] [Text=amusing CharacterOffsetBegin=635 CharacterOffsetEnd=642 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=,] [Text=surprisingly CharacterOffsetBegin=644 CharacterOffsetEnd=656 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=.] 
+root(ROOT-0, amusing-5)
+poss(death-3, Roy-1)
+possessive(Roy-1, 's-2)
+nsubj(amusing-5, death-3)
+cop(amusing-5, was-4)
+punct(amusing-5, ,-6)
+advmod(amusing-5, surprisingly-7)
+punct(amusing-5, .-8)
+
+Sentence #8 (6 tokens):
+Death by a car freshener.
+[Text=Death CharacterOffsetBegin=662 CharacterOffsetEnd=667 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=668 CharacterOffsetEnd=670 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=DT] [Text=car CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=NN] [Text=freshener CharacterOffsetBegin=677 CharacterOffsetEnd=686 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=686 CharacterOffsetEnd=687 PartOfSpeech=.] 
+root(ROOT-0, Death-1)
+prep(Death-1, by-2)
+det(freshener-5, a-3)
+nn(freshener-5, car-4)
+pobj(by-2, freshener-5)
+punct(Death-1, .-6)
+
+Sentence #9 (21 tokens):
+Very original ;-) That made me laugh so hard...There are some things that aren't appropriate for kids.
+[Text=Very CharacterOffsetBegin=692 CharacterOffsetEnd=696 PartOfSpeech=RB] [Text=original CharacterOffsetBegin=697 CharacterOffsetEnd=705 PartOfSpeech=JJ] [Text=;--RRB- CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=NN] [Text=That CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=WDT] [Text=made CharacterOffsetBegin=715 CharacterOffsetEnd=719 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=720 CharacterOffsetEnd=722 PartOfSpeech=PRP] [Text=laugh CharacterOffsetBegin=723 CharacterOffsetEnd=728 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=729 CharacterOffsetEnd=731 PartOfSpeech=RB] [Text=hard CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=RB] [Text=... CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=:] [Text=There CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=VBP] [Text=some CharacterOffsetBegin=749 CharacterOffsetEnd=753 PartOfSpeech=DT] [Text=things CharacterOffsetBegin=754 CharacterOffsetEnd=760 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=761 CharacterOffsetEnd=765 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=769 CharacterOffsetEnd=772 PartOfSpeech=RB] [Text=appropriate CharacterOffsetBegin=773 CharacterOffsetEnd=784 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=785 CharacterOffsetEnd=788 PartOfSpeech=IN] [Text=kids CharacterOffsetBegin=789 CharacterOffsetEnd=793 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=793 CharacterOffsetEnd=794 PartOfSpeech=.] 
+root(ROOT-0, Very-1)
+amod(;--RRB--3, original-2)
+dep(Very-1, ;--RRB--3)
+nsubj(made-5, That-4)
+rcmod(;--RRB--3, made-5)
+nsubj(laugh-7, me-6)
+xcomp(made-5, laugh-7)
+advmod(hard-9, so-8)
+advmod(laugh-7, hard-9)
+punct(Very-1, ...-10)
+expl(are-12, There-11)
+dep(Very-1, are-12)
+det(things-14, some-13)
+nsubj(are-12, things-14)
+nsubj(appropriate-18, that-15)
+cop(appropriate-18, are-16)
+neg(appropriate-18, n't-17)
+rcmod(things-14, appropriate-18)
+prep(appropriate-18, for-19)
+pobj(for-19, kids-20)
+punct(Very-1, .-21)
+
+Sentence #10 (6 tokens):
+Just some language and gore.
+[Text=Just CharacterOffsetBegin=799 CharacterOffsetEnd=803 PartOfSpeech=RB] [Text=some CharacterOffsetBegin=804 CharacterOffsetEnd=808 PartOfSpeech=DT] [Text=language CharacterOffsetBegin=809 CharacterOffsetEnd=817 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=818 CharacterOffsetEnd=821 PartOfSpeech=CC] [Text=gore CharacterOffsetBegin=822 CharacterOffsetEnd=826 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=826 CharacterOffsetEnd=827 PartOfSpeech=.] 
+root(ROOT-0, language-3)
+advmod(language-3, Just-1)
+det(language-3, some-2)
+cc(language-3, and-4)
+conj(language-3, gore-5)
+punct(language-3, .-6)
+
+Sentence #11 (9 tokens):
+That's about all I have to say!
+[Text=That CharacterOffsetBegin=832 CharacterOffsetEnd=836 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=836 CharacterOffsetEnd=838 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=839 CharacterOffsetEnd=844 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=845 CharacterOffsetEnd=848 PartOfSpeech=DT] [Text=I CharacterOffsetBegin=849 CharacterOffsetEnd=850 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=851 CharacterOffsetEnd=855 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=856 CharacterOffsetEnd=858 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=859 CharacterOffsetEnd=862 PartOfSpeech=VB] [Text=! CharacterOffsetBegin=862 CharacterOffsetEnd=863 PartOfSpeech=.] 
+root(ROOT-0, That-1)
+dep(That-1, 's-2)
+prep('s-2, about-3)
+pobj(about-3, all-4)
+nsubj(have-6, I-5)
+rcmod('s-2, have-6)
+aux(say-8, to-7)
+xcomp(have-6, say-8)
+punct(That-1, !-9)
+
+Sentence #12 (1 tokens):
+3/10
+[Text=3/10 CharacterOffsetBegin=868 CharacterOffsetEnd=872 PartOfSpeech=CD] 
+root(ROOT-0, 3/10-1)
+

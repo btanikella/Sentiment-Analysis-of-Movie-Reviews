@@ -1,0 +1,109 @@
+Sentence #1 (7 tokens):
+The movie was "OK".
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=VBD] [Text=`` CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=``] [Text=OK CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=''] [Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=.] 
+root(ROOT-0, OK-5)
+det(movie-2, The-1)
+nsubj(OK-5, movie-2)
+cop(OK-5, was-3)
+punct(OK-5, ``-4)
+punct(OK-5, ''-6)
+punct(OK-5, .-7)
+
+Sentence #2 (9 tokens):
+Not bad, not good, just OK.
+[Text=Not CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=,] [Text=not CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=,] [Text=just CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=OK CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=UH] [Text=. CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=.] 
+root(ROOT-0, bad-2)
+neg(bad-2, Not-1)
+punct(bad-2, ,-3)
+neg(good-5, not-4)
+conj(bad-2, good-5)
+punct(bad-2, ,-6)
+advmod(OK-8, just-7)
+conj(bad-2, OK-8)
+punct(bad-2, .-9)
+
+Sentence #3 (15 tokens):
+If there was anything else in the theater this would be skipped by far.
+[Text=If CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=VBD] [Text=anything CharacterOffsetBegin=73 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT] [Text=theater CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=DT] [Text=would CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=VB] [Text=skipped CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=far CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.] 
+root(ROOT-0, skipped-12)
+mark(was-3, If-1)
+expl(was-3, there-2)
+advcl(skipped-12, was-3)
+nsubj(was-3, anything-4)
+advmod(anything-4, else-5)
+prep(anything-4, in-6)
+det(theater-8, the-7)
+pobj(in-6, theater-8)
+nsubjpass(skipped-12, this-9)
+aux(skipped-12, would-10)
+auxpass(skipped-12, be-11)
+prep(skipped-12, by-13)
+pcomp(by-13, far-14)
+punct(skipped-12, .-15)
+
+Sentence #4 (18 tokens):
+Sadly, Fast and Furious 2 also stunk, but I'd rather see this than FF2.
+[Text=Sadly CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=,] [Text=Fast CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=CC] [Text=Furious CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=2 CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=CD] [Text=also CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=RB] [Text=stunk CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=,] [Text=but CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=PRP] [Text='d CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=MD] [Text=rather CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=DT] [Text=than CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=IN] [Text=FF2 CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=.] 
+root(ROOT-0, stunk-8)
+amod(2-6, Sadly-1)
+punct(Sadly-1, ,-2)
+conj(Sadly-1, Fast-3)
+cc(Sadly-1, and-4)
+conj(Sadly-1, Furious-5)
+nsubj(stunk-8, 2-6)
+advmod(stunk-8, also-7)
+punct(stunk-8, ,-9)
+cc(stunk-8, but-10)
+nsubj(see-14, I-11)
+aux(see-14, 'd-12)
+advmod(see-14, rather-13)
+conj(stunk-8, see-14)
+dobj(see-14, this-15)
+prep(this-15, than-16)
+pobj(than-16, FF2-17)
+punct(stunk-8, .-18)
+
+Sentence #5 (26 tokens):
+:) If you have a fetish for harrison ford or that other young punk, this will be a "cute" movie for you.
+[Text=:-RRB- CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=CD] [Text=If CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=fetish CharacterOffsetBegin=229 CharacterOffsetEnd=235 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=harrison CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=NN] [Text=ford CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=262 CharacterOffsetEnd=267 PartOfSpeech=JJ] [Text=young CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=JJ] [Text=punk CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=,] [Text=this CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=will CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=``] [Text=cute CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=''] [Text=movie CharacterOffsetBegin=302 CharacterOffsetEnd=307 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=.] 
+root(ROOT-0, :-RRB--1)
+mark(have-4, If-2)
+nsubj(have-4, you-3)
+dep(:-RRB--1, have-4)
+det(fetish-6, a-5)
+dobj(have-4, fetish-6)
+prep(fetish-6, for-7)
+nn(ford-9, harrison-8)
+pobj(for-7, ford-9)
+cc(ford-9, or-10)
+conj(ford-9, that-11)
+amod(punk-14, other-12)
+amod(punk-14, young-13)
+dep(that-11, punk-14)
+punct(punk-14, ,-15)
+nsubj(movie-23, this-16)
+aux(movie-23, will-17)
+cop(movie-23, be-18)
+det(movie-23, a-19)
+punct(movie-23, ``-20)
+amod(movie-23, cute-21)
+punct(movie-23, ''-22)
+rcmod(punk-14, movie-23)
+prep(movie-23, for-24)
+pobj(for-24, you-25)
+punct(:-RRB--1, .-26)
+
+Sentence #6 (10 tokens):
+Personally, I'd wait for HBO or Blockbuster.
+[Text=Personally CharacterOffsetBegin=321 CharacterOffsetEnd=331 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=,] [Text=I CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=PRP] [Text='d CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=MD] [Text=wait CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=IN] [Text=HBO CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=NNP] [Text=or CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=CC] [Text=Blockbuster CharacterOffsetBegin=353 CharacterOffsetEnd=364 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, wait-5)
+advmod(wait-5, Personally-1)
+punct(wait-5, ,-2)
+nsubj(wait-5, I-3)
+aux(wait-5, 'd-4)
+prep(wait-5, for-6)
+pobj(for-6, HBO-7)
+cc(HBO-7, or-8)
+conj(HBO-7, Blockbuster-9)
+punct(wait-5, .-10)
+

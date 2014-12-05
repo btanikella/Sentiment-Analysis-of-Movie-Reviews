@@ -1,0 +1,90 @@
+Sentence #1 (13 tokens):
+I watched the movie in a preview and I really loved it.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=DT] [Text=preview CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=RB] [Text=loved CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+det(movie-4, the-3)
+dobj(watched-2, movie-4)
+prep(watched-2, in-5)
+det(preview-7, a-6)
+pobj(in-5, preview-7)
+cc(watched-2, and-8)
+nsubj(loved-11, I-9)
+advmod(loved-11, really-10)
+conj(watched-2, loved-11)
+dobj(loved-11, it-12)
+punct(watched-2, .-13)
+
+Sentence #2 (12 tokens):
+The cast is excellent and the plot is sometimes absolutely hilarious.
+[Text=The CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=VBZ] [Text=excellent CharacterOffsetBegin=76 CharacterOffsetEnd=85 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=VBZ] [Text=sometimes CharacterOffsetBegin=102 CharacterOffsetEnd=111 PartOfSpeech=RB] [Text=absolutely CharacterOffsetBegin=112 CharacterOffsetEnd=122 PartOfSpeech=RB] [Text=hilarious CharacterOffsetBegin=123 CharacterOffsetEnd=132 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=.] 
+root(ROOT-0, excellent-4)
+det(cast-2, The-1)
+nsubj(excellent-4, cast-2)
+cop(excellent-4, is-3)
+cc(excellent-4, and-5)
+det(plot-7, the-6)
+nsubj(hilarious-11, plot-7)
+cop(hilarious-11, is-8)
+advmod(hilarious-11, sometimes-9)
+advmod(hilarious-11, absolutely-10)
+conj(excellent-4, hilarious-11)
+punct(excellent-4, .-12)
+
+Sentence #3 (17 tokens):
+Another highlight of the movie is definitely the music, which hopefully will be released soon.
+[Text=Another CharacterOffsetBegin=138 CharacterOffsetEnd=145 PartOfSpeech=DT] [Text=highlight CharacterOffsetBegin=146 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=VBZ] [Text=definitely CharacterOffsetBegin=172 CharacterOffsetEnd=182 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=,] [Text=which CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=WDT] [Text=hopefully CharacterOffsetBegin=200 CharacterOffsetEnd=209 PartOfSpeech=RB] [Text=will CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=VB] [Text=released CharacterOffsetBegin=218 CharacterOffsetEnd=226 PartOfSpeech=VBN] [Text=soon CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, music-9)
+det(highlight-2, Another-1)
+nsubj(music-9, highlight-2)
+prep(highlight-2, of-3)
+det(movie-5, the-4)
+pobj(of-3, movie-5)
+cop(music-9, is-6)
+advmod(music-9, definitely-7)
+det(music-9, the-8)
+punct(music-9, ,-10)
+dobj(released-15, which-11)
+nsubjpass(released-15, hopefully-12)
+aux(released-15, will-13)
+auxpass(released-15, be-14)
+rcmod(music-9, released-15)
+advmod(released-15, soon-16)
+punct(music-9, .-17)
+
+Sentence #4 (16 tokens):
+I recommend it to everyone who likes the British humour and especially to all musicians.
+[Text=I CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=PRP] [Text=recommend CharacterOffsetBegin=239 CharacterOffsetEnd=248 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=TO] [Text=everyone CharacterOffsetBegin=255 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=WP] [Text=likes CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=British CharacterOffsetBegin=278 CharacterOffsetEnd=285 PartOfSpeech=JJ] [Text=humour CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=CC] [Text=especially CharacterOffsetBegin=297 CharacterOffsetEnd=307 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=TO] [Text=all CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=DT] [Text=musicians CharacterOffsetBegin=315 CharacterOffsetEnd=324 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=.] 
+root(ROOT-0, recommend-2)
+nsubj(recommend-2, I-1)
+dobj(recommend-2, it-3)
+prep(recommend-2, to-4)
+pobj(to-4, everyone-5)
+nsubj(likes-7, who-6)
+rcmod(everyone-5, likes-7)
+det(humour-10, the-8)
+amod(humour-10, British-9)
+dobj(likes-7, humour-10)
+cc(likes-7, and-11)
+advmod(to-13, especially-12)
+conj(likes-7, to-13)
+det(musicians-15, all-14)
+pobj(to-13, musicians-15)
+punct(recommend-2, .-16)
+
+Sentence #5 (4 tokens):
+Go and see.
+[Text=Go CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=CC] [Text=see CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=.] 
+root(ROOT-0, Go-1)
+cc(Go-1, and-2)
+conj(Go-1, see-3)
+punct(Go-1, .-4)
+
+Sentence #6 (4 tokens):
+It's great.
+[Text=It CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=.] 
+root(ROOT-0, great-3)
+nsubj(great-3, It-1)
+cop(great-3, 's-2)
+punct(great-3, .-4)
+

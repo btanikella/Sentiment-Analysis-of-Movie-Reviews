@@ -1,0 +1,242 @@
+Sentence #1 (8 tokens):
+I absolutely, positively loved the movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=absolutely CharacterOffsetBegin=6 CharacterOffsetEnd=16 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=,] [Text=positively CharacterOffsetBegin=18 CharacterOffsetEnd=28 PartOfSpeech=RB] [Text=loved CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.] 
+root(ROOT-0, loved-5)
+nsubj(loved-5, I-1)
+advmod(loved-5, absolutely-2)
+punct(loved-5, ,-3)
+advmod(loved-5, positively-4)
+det(movie-7, the-6)
+dobj(loved-5, movie-7)
+punct(loved-5, .-8)
+
+Sentence #2 (16 tokens):
+I just saw it and can't wait for it to come out on DVD.
+[Text=I CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=CC] [Text=ca CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=RB] [Text=wait CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=TO] [Text=come CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=RP] [Text=on CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=DVD CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, saw-3)
+nsubj(saw-3, I-1)
+advmod(saw-3, just-2)
+dobj(saw-3, it-4)
+cc(saw-3, and-5)
+aux(wait-8, ca-6)
+neg(wait-8, n't-7)
+conj(saw-3, wait-8)
+mark(come-12, for-9)
+nsubj(come-12, it-10)
+aux(come-12, to-11)
+advcl(wait-8, come-12)
+prt(come-12, out-13)
+prep(come-12, on-14)
+pobj(on-14, DVD-15)
+punct(saw-3, .-16)
+
+Sentence #3 (8 tokens):
+It is a beautifully, well-drawn masterpiece.
+[Text=It CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=DT] [Text=beautifully CharacterOffsetBegin=118 CharacterOffsetEnd=129 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=,] [Text=well-drawn CharacterOffsetBegin=131 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=masterpiece CharacterOffsetBegin=142 CharacterOffsetEnd=153 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=.] 
+root(ROOT-0, masterpiece-7)
+nsubj(masterpiece-7, It-1)
+cop(masterpiece-7, is-2)
+det(masterpiece-7, a-3)
+amod(masterpiece-7, beautifully-4)
+punct(masterpiece-7, ,-5)
+amod(masterpiece-7, well-drawn-6)
+punct(masterpiece-7, .-8)
+
+Sentence #4 (13 tokens):
+I am always amazed with the intricately drawn work of Ghibli studios.
+[Text=I CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=VBP] [Text=always CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=RB] [Text=amazed CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=intricately CharacterOffsetBegin=187 CharacterOffsetEnd=198 PartOfSpeech=RB] [Text=drawn CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=VBN] [Text=work CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=IN] [Text=Ghibli CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NNP] [Text=studios CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=.] 
+root(ROOT-0, amazed-4)
+nsubj(amazed-4, I-1)
+cop(amazed-4, am-2)
+advmod(amazed-4, always-3)
+prep(amazed-4, with-5)
+det(work-9, the-6)
+advmod(work-9, intricately-7)
+amod(work-9, drawn-8)
+pobj(with-5, work-9)
+prep(work-9, of-10)
+nn(studios-12, Ghibli-11)
+pobj(of-10, studios-12)
+punct(amazed-4, .-13)
+
+Sentence #5 (12 tokens):
+Others have commented on Sosuke calling Risa by her first name.
+[Text=Others CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=VBP] [Text=commented CharacterOffsetBegin=245 CharacterOffsetEnd=254 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=IN] [Text=Sosuke CharacterOffsetBegin=258 CharacterOffsetEnd=264 PartOfSpeech=NNP] [Text=calling CharacterOffsetBegin=265 CharacterOffsetEnd=272 PartOfSpeech=VBG] [Text=Risa CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=NNP] [Text=by CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=PRP$] [Text=first CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=JJ] [Text=name CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=.] 
+root(ROOT-0, commented-3)
+nsubj(commented-3, Others-1)
+aux(commented-3, have-2)
+prep(commented-3, on-4)
+pobj(on-4, Sosuke-5)
+partmod(Sosuke-5, calling-6)
+dobj(calling-6, Risa-7)
+prep(calling-6, by-8)
+poss(name-11, her-9)
+amod(name-11, first-10)
+pobj(by-8, name-11)
+punct(commented-3, .-12)
+
+Sentence #6 (19 tokens):
+He never calls his Father by his first name unless he is speaking about him to someone else.
+[Text=He CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=PRP] [Text=never CharacterOffsetBegin=304 CharacterOffsetEnd=309 PartOfSpeech=RB] [Text=calls CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=PRP$] [Text=Father CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=PRP$] [Text=first CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=JJ] [Text=name CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=unless CharacterOffsetBegin=345 CharacterOffsetEnd=351 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=VBZ] [Text=speaking CharacterOffsetBegin=358 CharacterOffsetEnd=366 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=367 CharacterOffsetEnd=372 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=TO] [Text=someone CharacterOffsetBegin=380 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=.] 
+root(ROOT-0, calls-3)
+nsubj(calls-3, He-1)
+neg(calls-3, never-2)
+poss(Father-5, his-4)
+dobj(calls-3, Father-5)
+prep(calls-3, by-6)
+poss(name-9, his-7)
+amod(name-9, first-8)
+pobj(by-6, name-9)
+mark(speaking-13, unless-10)
+nsubj(speaking-13, he-11)
+aux(speaking-13, is-12)
+advcl(calls-3, speaking-13)
+prep(speaking-13, about-14)
+pobj(about-14, him-15)
+prep(speaking-13, to-16)
+pobj(to-16, someone-17)
+advmod(someone-17, else-18)
+punct(calls-3, .-19)
+
+Sentence #7 (12 tokens):
+I didn't get the impression that Risa was his mother.
+[Text=I CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=DT] [Text=impression CharacterOffsetBegin=415 CharacterOffsetEnd=425 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=426 CharacterOffsetEnd=430 PartOfSpeech=IN] [Text=Risa CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=PRP$] [Text=mother CharacterOffsetBegin=444 CharacterOffsetEnd=450 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=.] 
+root(ROOT-0, get-4)
+nsubj(get-4, I-1)
+aux(get-4, did-2)
+neg(get-4, n't-3)
+det(impression-6, the-5)
+dobj(get-4, impression-6)
+mark(mother-11, that-7)
+nsubj(mother-11, Risa-8)
+cop(mother-11, was-9)
+poss(mother-11, his-10)
+ccomp(impression-6, mother-11)
+punct(get-4, .-12)
+
+Sentence #8 (10 tokens):
+It was never even mentioned or implied by anyone.
+[Text=It CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=VBD] [Text=never CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=RB] [Text=mentioned CharacterOffsetBegin=474 CharacterOffsetEnd=483 PartOfSpeech=VBN] [Text=or CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=CC] [Text=implied CharacterOffsetBegin=487 CharacterOffsetEnd=494 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=495 CharacterOffsetEnd=497 PartOfSpeech=IN] [Text=anyone CharacterOffsetBegin=498 CharacterOffsetEnd=504 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=.] 
+root(ROOT-0, mentioned-5)
+nsubjpass(mentioned-5, It-1)
+auxpass(mentioned-5, was-2)
+neg(mentioned-5, never-3)
+advmod(mentioned-5, even-4)
+cc(mentioned-5, or-6)
+conj(mentioned-5, implied-7)
+prep(implied-7, by-8)
+pobj(by-8, anyone-9)
+punct(mentioned-5, .-10)
+
+Sentence #9 (10 tokens):
+It is quite obvious that she is his step-mother.
+[Text=It CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=513 CharacterOffsetEnd=515 PartOfSpeech=VBZ] [Text=quite CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=RB] [Text=obvious CharacterOffsetBegin=522 CharacterOffsetEnd=529 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=539 CharacterOffsetEnd=541 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=PRP$] [Text=step-mother CharacterOffsetBegin=546 CharacterOffsetEnd=557 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=.] 
+root(ROOT-0, obvious-4)
+nsubj(obvious-4, It-1)
+cop(obvious-4, is-2)
+advmod(obvious-4, quite-3)
+mark(step-mother-9, that-5)
+nsubj(step-mother-9, she-6)
+cop(step-mother-9, is-7)
+poss(step-mother-9, his-8)
+ccomp(obvious-4, step-mother-9)
+punct(obvious-4, .-10)
+
+Sentence #10 (23 tokens):
+That is why he makes her promise to come home and why he gets so upset when he finds her empty car.
+[Text=That CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=VBZ] [Text=why CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=575 CharacterOffsetEnd=577 PartOfSpeech=PRP] [Text=makes CharacterOffsetBegin=578 CharacterOffsetEnd=583 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=PRP$] [Text=promise CharacterOffsetBegin=588 CharacterOffsetEnd=595 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=TO] [Text=come CharacterOffsetBegin=599 CharacterOffsetEnd=603 PartOfSpeech=VB] [Text=home CharacterOffsetBegin=604 CharacterOffsetEnd=608 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=CC] [Text=why CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=PRP] [Text=gets CharacterOffsetBegin=620 CharacterOffsetEnd=624 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=RB] [Text=upset CharacterOffsetBegin=628 CharacterOffsetEnd=633 PartOfSpeech=JJ] [Text=when CharacterOffsetBegin=634 CharacterOffsetEnd=638 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=PRP] [Text=finds CharacterOffsetBegin=642 CharacterOffsetEnd=647 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=648 CharacterOffsetEnd=651 PartOfSpeech=PRP$] [Text=empty CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=JJ] [Text=car CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, That-1)
+advmod(makes-5, why-3)
+nsubj(makes-5, he-4)
+advcl(is-2, makes-5)
+poss(promise-7, her-6)
+dobj(makes-5, promise-7)
+aux(come-9, to-8)
+infmod(promise-7, come-9)
+advmod(come-9, home-10)
+cc(makes-5, and-11)
+advmod(gets-14, why-12)
+nsubj(gets-14, he-13)
+conj(makes-5, gets-14)
+advmod(upset-16, so-15)
+acomp(gets-14, upset-16)
+advmod(finds-19, when-17)
+nsubj(finds-19, he-18)
+advcl(upset-16, finds-19)
+poss(car-22, her-20)
+amod(car-22, empty-21)
+dobj(finds-19, car-22)
+punct(is-2, .-23)
+
+Sentence #11 (18 tokens):
+His mother must have died when he was an infant because he mentions being nursed by Risa.
+[Text=His CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=PRP$] [Text=mother CharacterOffsetBegin=671 CharacterOffsetEnd=677 PartOfSpeech=NN] [Text=must CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=683 CharacterOffsetEnd=687 PartOfSpeech=VB] [Text=died CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=VBN] [Text=when CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=698 CharacterOffsetEnd=700 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=701 CharacterOffsetEnd=704 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=705 CharacterOffsetEnd=707 PartOfSpeech=DT] [Text=infant CharacterOffsetBegin=708 CharacterOffsetEnd=714 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=715 CharacterOffsetEnd=722 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=723 CharacterOffsetEnd=725 PartOfSpeech=PRP] [Text=mentions CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=VBZ] [Text=being CharacterOffsetBegin=735 CharacterOffsetEnd=740 PartOfSpeech=VBG] [Text=nursed CharacterOffsetBegin=741 CharacterOffsetEnd=747 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=IN] [Text=Risa CharacterOffsetBegin=751 CharacterOffsetEnd=755 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=755 CharacterOffsetEnd=756 PartOfSpeech=.] 
+root(ROOT-0, died-5)
+poss(mother-2, His-1)
+nsubj(died-5, mother-2)
+aux(died-5, must-3)
+aux(died-5, have-4)
+advmod(infant-10, when-6)
+nsubj(infant-10, he-7)
+cop(infant-10, was-8)
+det(infant-10, an-9)
+advcl(died-5, infant-10)
+mark(mentions-13, because-11)
+nsubj(mentions-13, he-12)
+advcl(died-5, mentions-13)
+auxpass(nursed-15, being-14)
+dep(mentions-13, nursed-15)
+prep(nursed-15, by-16)
+pobj(by-16, Risa-17)
+punct(died-5, .-18)
+
+Sentence #12 (18 tokens):
+This coupled with his father being out to sea a lot is why he has abandonment issues.
+[Text=This CharacterOffsetBegin=761 CharacterOffsetEnd=765 PartOfSpeech=DT] [Text=coupled CharacterOffsetBegin=766 CharacterOffsetEnd=773 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=774 CharacterOffsetEnd=778 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=PRP$] [Text=father CharacterOffsetBegin=783 CharacterOffsetEnd=789 PartOfSpeech=NN] [Text=being CharacterOffsetBegin=790 CharacterOffsetEnd=795 PartOfSpeech=VBG] [Text=out CharacterOffsetBegin=796 CharacterOffsetEnd=799 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=800 CharacterOffsetEnd=802 PartOfSpeech=TO] [Text=sea CharacterOffsetBegin=803 CharacterOffsetEnd=806 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=807 CharacterOffsetEnd=808 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=809 CharacterOffsetEnd=812 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=813 CharacterOffsetEnd=815 PartOfSpeech=VBZ] [Text=why CharacterOffsetBegin=816 CharacterOffsetEnd=819 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=820 CharacterOffsetEnd=822 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=VBZ] [Text=abandonment CharacterOffsetBegin=827 CharacterOffsetEnd=838 PartOfSpeech=NN] [Text=issues CharacterOffsetBegin=839 CharacterOffsetEnd=845 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=845 CharacterOffsetEnd=846 PartOfSpeech=.] 
+root(ROOT-0, is-12)
+nsubj(is-12, This-1)
+dep(is-12, coupled-2)
+mark(out-7, with-3)
+poss(father-5, his-4)
+nsubj(out-7, father-5)
+cop(out-7, being-6)
+dep(is-12, out-7)
+prep(out-7, to-8)
+pobj(to-8, sea-9)
+det(lot-11, a-10)
+nsubj(is-12, lot-11)
+advmod(has-15, why-13)
+nsubj(has-15, he-14)
+advcl(is-12, has-15)
+nn(issues-17, abandonment-16)
+dobj(has-15, issues-17)
+punct(is-12, .-18)
+
+Sentence #13 (9 tokens):
+Everyone also talks about how mature he is.
+[Text=Everyone CharacterOffsetBegin=851 CharacterOffsetEnd=859 PartOfSpeech=NN] [Text=also CharacterOffsetBegin=860 CharacterOffsetEnd=864 PartOfSpeech=RB] [Text=talks CharacterOffsetBegin=865 CharacterOffsetEnd=870 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=871 CharacterOffsetEnd=876 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=877 CharacterOffsetEnd=880 PartOfSpeech=WRB] [Text=mature CharacterOffsetBegin=881 CharacterOffsetEnd=887 PartOfSpeech=JJ] [Text=he CharacterOffsetBegin=888 CharacterOffsetEnd=890 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=891 CharacterOffsetEnd=893 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=893 CharacterOffsetEnd=894 PartOfSpeech=.] 
+root(ROOT-0, talks-3)
+nsubj(talks-3, Everyone-1)
+advmod(talks-3, also-2)
+prep(talks-3, about-4)
+advmod(mature-6, how-5)
+dep(is-8, mature-6)
+nsubj(is-8, he-7)
+pcomp(about-4, is-8)
+punct(talks-3, .-9)
+
+Sentence #14 (10 tokens):
+This usually occurs when a child loses a parent.
+[Text=This CharacterOffsetBegin=899 CharacterOffsetEnd=903 PartOfSpeech=DT] [Text=usually CharacterOffsetBegin=904 CharacterOffsetEnd=911 PartOfSpeech=RB] [Text=occurs CharacterOffsetBegin=912 CharacterOffsetEnd=918 PartOfSpeech=VBZ] [Text=when CharacterOffsetBegin=919 CharacterOffsetEnd=923 PartOfSpeech=WRB] [Text=a CharacterOffsetBegin=924 CharacterOffsetEnd=925 PartOfSpeech=DT] [Text=child CharacterOffsetBegin=926 CharacterOffsetEnd=931 PartOfSpeech=NN] [Text=loses CharacterOffsetBegin=932 CharacterOffsetEnd=937 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=938 CharacterOffsetEnd=939 PartOfSpeech=DT] [Text=parent CharacterOffsetBegin=940 CharacterOffsetEnd=946 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=946 CharacterOffsetEnd=947 PartOfSpeech=.] 
+root(ROOT-0, occurs-3)
+nsubj(occurs-3, This-1)
+advmod(occurs-3, usually-2)
+advmod(loses-7, when-4)
+det(child-6, a-5)
+nsubj(loses-7, child-6)
+advcl(occurs-3, loses-7)
+det(parent-9, a-8)
+dobj(loses-7, parent-9)
+punct(occurs-3, .-10)
+

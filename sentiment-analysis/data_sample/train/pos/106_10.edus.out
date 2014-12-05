@@ -1,0 +1,256 @@
+Sentence #1 (14 tokens):
+The first von Trier movie i've ever seen was breaking the waves.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=von CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=Trier CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=NNP] [Text=movie CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=i CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=FW] [Text='ve CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=VBN] [Text=was CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VBD] [Text=breaking CharacterOffsetBegin=49 CharacterOffsetEnd=57 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=waves CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=.] 
+root(ROOT-0, seen-9)
+det(i-6, The-1)
+amod(i-6, first-2)
+nn(i-6, von-3)
+nn(i-6, Trier-4)
+nn(i-6, movie-5)
+nsubj(seen-9, i-6)
+aux(seen-9, 've-7)
+advmod(seen-9, ever-8)
+aux(breaking-11, was-10)
+xcomp(seen-9, breaking-11)
+det(waves-13, the-12)
+dobj(breaking-11, waves-13)
+punct(seen-9, .-14)
+
+Sentence #2 (14 tokens):
+Sure a nice movie but it definitely stands in the shadow of europa.
+[Text=Sure CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=PRP] [Text=definitely CharacterOffsetBegin=98 CharacterOffsetEnd=108 PartOfSpeech=RB] [Text=stands CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=DT] [Text=shadow CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=europa CharacterOffsetBegin=133 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=.] 
+root(ROOT-0, Sure-1)
+det(movie-4, a-2)
+amod(movie-4, nice-3)
+dep(Sure-1, movie-4)
+cc(movie-4, but-5)
+nsubj(stands-8, it-6)
+advmod(stands-8, definitely-7)
+conj(movie-4, stands-8)
+prep(stands-8, in-9)
+det(shadow-11, the-10)
+pobj(in-9, shadow-11)
+prep(shadow-11, of-12)
+pobj(of-12, europa-13)
+punct(Sure-1, .-14)
+
+Sentence #3 (20 tokens):
+Europa tells a story of a young German-American who wants to experience Germany just after the second world war.
+[Text=Europa CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NNP] [Text=tells CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=young CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=JJ] [Text=German-American CharacterOffsetBegin=177 CharacterOffsetEnd=192 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=WP] [Text=wants CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=TO] [Text=experience CharacterOffsetBegin=206 CharacterOffsetEnd=216 PartOfSpeech=VB] [Text=Germany CharacterOffsetBegin=217 CharacterOffsetEnd=224 PartOfSpeech=NNP] [Text=just CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=RB] [Text=after CharacterOffsetBegin=230 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=DT] [Text=second CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=JJ] [Text=world CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=NN] [Text=war CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=.] 
+root(ROOT-0, tells-2)
+nsubj(tells-2, Europa-1)
+det(story-4, a-3)
+dobj(tells-2, story-4)
+prep(story-4, of-5)
+det(German-American-8, a-6)
+amod(German-American-8, young-7)
+pobj(of-5, German-American-8)
+nsubj(wants-10, who-9)
+rcmod(German-American-8, wants-10)
+aux(experience-12, to-11)
+xcomp(wants-10, experience-12)
+dobj(experience-12, Germany-13)
+advmod(after-15, just-14)
+prep(experience-12, after-15)
+det(war-19, the-16)
+amod(war-19, second-17)
+nn(war-19, world-18)
+pobj(after-15, war-19)
+punct(tells-2, .-20)
+
+Sentence #4 (19 tokens):
+He takes a job that his uncle has arranged for him as a purser on a luxues train.
+[Text=He CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=PRP] [Text=takes CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=DT] [Text=job CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=PRP$] [Text=uncle CharacterOffsetBegin=286 CharacterOffsetEnd=291 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=VBZ] [Text=arranged CharacterOffsetBegin=296 CharacterOffsetEnd=304 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=PRP] [Text=as CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=purser CharacterOffsetBegin=318 CharacterOffsetEnd=324 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=luxues CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=NNS] [Text=train CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=.] 
+root(ROOT-0, takes-2)
+nsubj(takes-2, He-1)
+det(job-4, a-3)
+dobj(takes-2, job-4)
+dobj(arranged-9, that-5)
+poss(uncle-7, his-6)
+nsubj(arranged-9, uncle-7)
+aux(arranged-9, has-8)
+rcmod(job-4, arranged-9)
+prep(arranged-9, for-10)
+pobj(for-10, him-11)
+prep(arranged-9, as-12)
+det(purser-14, a-13)
+pobj(as-12, purser-14)
+prep(purser-14, on-15)
+det(train-18, a-16)
+nn(train-18, luxues-17)
+pobj(on-15, train-18)
+punct(takes-2, .-19)
+
+Sentence #5 (30 tokens):
+Because of his job, he travels all through an almost totally destroyed germany, meeting with the killing of traitors, and hunt for former nazi party members.
+[Text=Because CharacterOffsetBegin=348 CharacterOffsetEnd=355 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=PRP$] [Text=job CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=,] [Text=he CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=PRP] [Text=travels CharacterOffsetBegin=371 CharacterOffsetEnd=378 PartOfSpeech=VBZ] [Text=all CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=DT] [Text=through CharacterOffsetBegin=383 CharacterOffsetEnd=390 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=DT] [Text=almost CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=RB] [Text=totally CharacterOffsetBegin=401 CharacterOffsetEnd=408 PartOfSpeech=RB] [Text=destroyed CharacterOffsetBegin=409 CharacterOffsetEnd=418 PartOfSpeech=VBN] [Text=germany CharacterOffsetBegin=419 CharacterOffsetEnd=426 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=,] [Text=meeting CharacterOffsetBegin=428 CharacterOffsetEnd=435 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=DT] [Text=killing CharacterOffsetBegin=445 CharacterOffsetEnd=452 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=IN] [Text=traitors CharacterOffsetBegin=456 CharacterOffsetEnd=464 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=,] [Text=and CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=CC] [Text=hunt CharacterOffsetBegin=470 CharacterOffsetEnd=474 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=IN] [Text=former CharacterOffsetBegin=479 CharacterOffsetEnd=485 PartOfSpeech=JJ] [Text=nazi CharacterOffsetBegin=486 CharacterOffsetEnd=490 PartOfSpeech=NNS] [Text=party CharacterOffsetBegin=491 CharacterOffsetEnd=496 PartOfSpeech=NN] [Text=members CharacterOffsetBegin=497 CharacterOffsetEnd=504 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=.] 
+root(ROOT-0, travels-7)
+mwe(of-2, Because-1)
+prep(travels-7, of-2)
+poss(job-4, his-3)
+pobj(of-2, job-4)
+punct(travels-7, ,-5)
+nsubj(travels-7, he-6)
+dobj(travels-7, all-8)
+prep(travels-7, through-9)
+det(germany-14, an-10)
+advmod(totally-12, almost-11)
+advmod(destroyed-13, totally-12)
+amod(germany-14, destroyed-13)
+pobj(through-9, germany-14)
+punct(travels-7, ,-15)
+dobj(travels-7, meeting-16)
+prep(meeting-16, with-17)
+det(killing-19, the-18)
+pobj(with-17, killing-19)
+prep(killing-19, of-20)
+pobj(of-20, traitors-21)
+punct(travels-7, ,-22)
+cc(travels-7, and-23)
+conj(travels-7, hunt-24)
+prep(hunt-24, for-25)
+amod(members-29, former-26)
+nn(members-29, nazi-27)
+nn(members-29, party-28)
+pobj(for-25, members-29)
+punct(travels-7, .-30)
+
+Sentence #6 (7 tokens):
+The society is suffering from corruption.
+[Text=The CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=DT] [Text=society CharacterOffsetBegin=514 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=VBZ] [Text=suffering CharacterOffsetBegin=525 CharacterOffsetEnd=534 PartOfSpeech=VBG] [Text=from CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=IN] [Text=corruption CharacterOffsetBegin=540 CharacterOffsetEnd=550 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=.] 
+root(ROOT-0, suffering-4)
+det(society-2, The-1)
+nsubj(suffering-4, society-2)
+aux(suffering-4, is-3)
+prep(suffering-4, from-5)
+pobj(from-5, corruption-6)
+punct(suffering-4, .-7)
+
+Sentence #7 (21 tokens):
+His uncle has narrowed his conciousness by focussing on the job he has also as a purser on the train.
+[Text=His CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=PRP$] [Text=uncle CharacterOffsetBegin=560 CharacterOffsetEnd=565 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=VBZ] [Text=narrowed CharacterOffsetBegin=570 CharacterOffsetEnd=578 PartOfSpeech=VBN] [Text=his CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=PRP$] [Text=conciousness CharacterOffsetBegin=583 CharacterOffsetEnd=595 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=IN] [Text=focussing CharacterOffsetBegin=599 CharacterOffsetEnd=608 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=DT] [Text=job CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=VBZ] [Text=also CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=635 CharacterOffsetEnd=636 PartOfSpeech=DT] [Text=purser CharacterOffsetBegin=637 CharacterOffsetEnd=643 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=644 CharacterOffsetEnd=646 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=647 CharacterOffsetEnd=650 PartOfSpeech=DT] [Text=train CharacterOffsetBegin=651 CharacterOffsetEnd=656 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=.] 
+root(ROOT-0, narrowed-4)
+poss(uncle-2, His-1)
+nsubj(narrowed-4, uncle-2)
+aux(narrowed-4, has-3)
+poss(conciousness-6, his-5)
+dobj(narrowed-4, conciousness-6)
+prep(narrowed-4, by-7)
+pcomp(by-7, focussing-8)
+prep(focussing-8, on-9)
+det(job-11, the-10)
+pobj(on-9, job-11)
+dep(job-11, he-12)
+partmod(he-12, has-13)
+advmod(has-13, also-14)
+prep(also-14, as-15)
+det(purser-17, a-16)
+pobj(as-15, purser-17)
+prep(purser-17, on-18)
+det(train-20, the-19)
+pobj(on-18, train-20)
+punct(narrowed-4, .-21)
+
+Sentence #8 (31 tokens):
+By coincidence the main character get involved in bombing and terrorism by a group called 'werewolves' they put pressure on him to help them placing bombs on trains.
+[Text=By CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=IN] [Text=coincidence CharacterOffsetBegin=665 CharacterOffsetEnd=676 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=677 CharacterOffsetEnd=680 PartOfSpeech=DT] [Text=main CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=686 CharacterOffsetEnd=695 PartOfSpeech=NN] [Text=get CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=VB] [Text=involved CharacterOffsetBegin=700 CharacterOffsetEnd=708 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=709 CharacterOffsetEnd=711 PartOfSpeech=IN] [Text=bombing CharacterOffsetBegin=712 CharacterOffsetEnd=719 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=CC] [Text=terrorism CharacterOffsetBegin=724 CharacterOffsetEnd=733 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=734 CharacterOffsetEnd=736 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=737 CharacterOffsetEnd=738 PartOfSpeech=DT] [Text=group CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=NN] [Text=called CharacterOffsetBegin=745 CharacterOffsetEnd=751 PartOfSpeech=VBD] [Text=` CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=``] [Text=werewolves CharacterOffsetBegin=753 CharacterOffsetEnd=763 PartOfSpeech=NNS] [Text=' CharacterOffsetBegin=763 CharacterOffsetEnd=764 PartOfSpeech=POS] [Text=they CharacterOffsetBegin=765 CharacterOffsetEnd=769 PartOfSpeech=PRP] [Text=put CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=VBP] [Text=pressure CharacterOffsetBegin=774 CharacterOffsetEnd=782 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=783 CharacterOffsetEnd=785 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=786 CharacterOffsetEnd=789 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=TO] [Text=help CharacterOffsetBegin=793 CharacterOffsetEnd=797 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=798 CharacterOffsetEnd=802 PartOfSpeech=PRP] [Text=placing CharacterOffsetBegin=803 CharacterOffsetEnd=810 PartOfSpeech=VBG] [Text=bombs CharacterOffsetBegin=811 CharacterOffsetEnd=816 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=817 CharacterOffsetEnd=819 PartOfSpeech=IN] [Text=trains CharacterOffsetBegin=820 CharacterOffsetEnd=826 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=826 CharacterOffsetEnd=827 PartOfSpeech=.] 
+root(ROOT-0, By-1)
+pobj(By-1, coincidence-2)
+det(character-5, the-3)
+amod(character-5, main-4)
+dobj(coincidence-2, character-5)
+auxpass(involved-7, get-6)
+partmod(character-5, involved-7)
+prep(involved-7, in-8)
+pobj(in-8, bombing-9)
+cc(bombing-9, and-10)
+conj(bombing-9, terrorism-11)
+prep(involved-7, by-12)
+det(group-14, a-13)
+pobj(by-12, group-14)
+partmod(group-14, called-15)
+dep(called-15, `-16)
+dep(`-16, werewolves-17)
+possessive(werewolves-17, '-18)
+nsubj(put-20, they-19)
+rcmod(werewolves-17, put-20)
+dobj(put-20, pressure-21)
+prep(put-20, on-22)
+pobj(on-22, him-23)
+aux(help-25, to-24)
+infmod(werewolves-17, help-25)
+nsubj(placing-27, them-26)
+ccomp(help-25, placing-27)
+dobj(placing-27, bombs-28)
+prep(placing-27, on-29)
+pobj(on-29, trains-30)
+punct(By-1, .-31)
+
+Sentence #9 (5 tokens):
+The atmosphere is astounding.
+[Text=The CharacterOffsetBegin=832 CharacterOffsetEnd=835 PartOfSpeech=DT] [Text=atmosphere CharacterOffsetBegin=836 CharacterOffsetEnd=846 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=VBZ] [Text=astounding CharacterOffsetBegin=850 CharacterOffsetEnd=860 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=860 CharacterOffsetEnd=861 PartOfSpeech=.] 
+root(ROOT-0, astounding-4)
+det(atmosphere-2, The-1)
+nsubj(astounding-4, atmosphere-2)
+cop(astounding-4, is-3)
+punct(astounding-4, .-5)
+
+Sentence #10 (30 tokens):
+The viewer is taken from scene to scene by a man attempting to put the viewer under hypnosis and then counting to wake you up in a new scene.
+[Text=The CharacterOffsetBegin=866 CharacterOffsetEnd=869 PartOfSpeech=DT] [Text=viewer CharacterOffsetBegin=870 CharacterOffsetEnd=876 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=877 CharacterOffsetEnd=879 PartOfSpeech=VBZ] [Text=taken CharacterOffsetBegin=880 CharacterOffsetEnd=885 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=886 CharacterOffsetEnd=890 PartOfSpeech=IN] [Text=scene CharacterOffsetBegin=891 CharacterOffsetEnd=896 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=897 CharacterOffsetEnd=899 PartOfSpeech=TO] [Text=scene CharacterOffsetBegin=900 CharacterOffsetEnd=905 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=909 CharacterOffsetEnd=910 PartOfSpeech=DT] [Text=man CharacterOffsetBegin=911 CharacterOffsetEnd=914 PartOfSpeech=NN] [Text=attempting CharacterOffsetBegin=915 CharacterOffsetEnd=925 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=926 CharacterOffsetEnd=928 PartOfSpeech=TO] [Text=put CharacterOffsetBegin=929 CharacterOffsetEnd=932 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=933 CharacterOffsetEnd=936 PartOfSpeech=DT] [Text=viewer CharacterOffsetBegin=937 CharacterOffsetEnd=943 PartOfSpeech=NN] [Text=under CharacterOffsetBegin=944 CharacterOffsetEnd=949 PartOfSpeech=IN] [Text=hypnosis CharacterOffsetBegin=950 CharacterOffsetEnd=958 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=959 CharacterOffsetEnd=962 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=963 CharacterOffsetEnd=967 PartOfSpeech=RB] [Text=counting CharacterOffsetBegin=968 CharacterOffsetEnd=976 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=977 CharacterOffsetEnd=979 PartOfSpeech=TO] [Text=wake CharacterOffsetBegin=980 CharacterOffsetEnd=984 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=985 CharacterOffsetEnd=988 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=989 CharacterOffsetEnd=991 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=992 CharacterOffsetEnd=994 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=995 CharacterOffsetEnd=996 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=997 CharacterOffsetEnd=1000 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=1001 CharacterOffsetEnd=1006 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1006 CharacterOffsetEnd=1007 PartOfSpeech=.] 
+root(ROOT-0, taken-4)
+det(viewer-2, The-1)
+nsubjpass(taken-4, viewer-2)
+auxpass(taken-4, is-3)
+prep(taken-4, from-5)
+pobj(from-5, scene-6)
+prep(taken-4, to-7)
+pobj(to-7, scene-8)
+prep(taken-4, by-9)
+det(man-11, a-10)
+pobj(by-9, man-11)
+partmod(man-11, attempting-12)
+aux(put-14, to-13)
+xcomp(attempting-12, put-14)
+det(viewer-16, the-15)
+dobj(put-14, viewer-16)
+prep(put-14, under-17)
+pobj(under-17, hypnosis-18)
+cc(taken-4, and-19)
+advmod(counting-21, then-20)
+conj(taken-4, counting-21)
+aux(wake-23, to-22)
+xcomp(counting-21, wake-23)
+dobj(wake-23, you-24)
+prt(wake-23, up-25)
+prep(wake-23, in-26)
+det(scene-29, a-27)
+amod(scene-29, new-28)
+pobj(in-26, scene-29)
+punct(taken-4, .-30)
+
+Sentence #11 (10 tokens):
+Just when you think you've seen a lot!!!!!!!
+[Text=Just CharacterOffsetBegin=1012 CharacterOffsetEnd=1016 PartOfSpeech=RB] [Text=when CharacterOffsetBegin=1017 CharacterOffsetEnd=1021 PartOfSpeech=WRB] [Text=you CharacterOffsetBegin=1022 CharacterOffsetEnd=1025 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=1026 CharacterOffsetEnd=1031 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=1032 CharacterOffsetEnd=1035 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=1035 CharacterOffsetEnd=1038 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=1039 CharacterOffsetEnd=1043 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=1044 CharacterOffsetEnd=1045 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=1046 CharacterOffsetEnd=1049 PartOfSpeech=NN] [Text=!!!!!!! CharacterOffsetBegin=1049 CharacterOffsetEnd=1056 PartOfSpeech=CD] 
+root(ROOT-0, think-4)
+advmod(when-2, Just-1)
+advmod(think-4, when-2)
+nsubj(think-4, you-3)
+nsubj(seen-7, you-5)
+aux(seen-7, 've-6)
+ccomp(think-4, seen-7)
+det(lot-9, a-8)
+dobj(seen-7, lot-9)
+num(lot-9, !!!!!!!-10)
+
+Sentence #12 (2 tokens):
+europe!
+[Text=europe CharacterOffsetBegin=1061 CharacterOffsetEnd=1067 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=1067 CharacterOffsetEnd=1068 PartOfSpeech=.] 
+root(ROOT-0, europe-1)
+punct(europe-1, !-2)
+
+Sentence #13 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=1073 CharacterOffsetEnd=1074 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

@@ -1,0 +1,92 @@
+Sentence #1 (6 tokens):
+this is one amazing movie!!!!!
+[Text=this CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=CD] [Text=amazing CharacterOffsetBegin=16 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=!!!!! CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=IN] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, this-1)
+cop(movie-5, is-2)
+num(movie-5, one-3)
+amod(movie-5, amazing-4)
+dep(movie-5, !!!!!-6)
+
+Sentence #2 (12 tokens):
+you have to realize that chinese folklore is complicated and philosophical.
+[Text=you CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=TO] [Text=realize CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=IN] [Text=chinese CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=JJ] [Text=folklore CharacterOffsetBegin=72 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=VBZ] [Text=complicated CharacterOffsetBegin=84 CharacterOffsetEnd=95 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=CC] [Text=philosophical CharacterOffsetBegin=100 CharacterOffsetEnd=113 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, you-1)
+aux(realize-4, to-3)
+xcomp(have-2, realize-4)
+mark(complicated-9, that-5)
+amod(folklore-7, chinese-6)
+nsubj(complicated-9, folklore-7)
+cop(complicated-9, is-8)
+ccomp(realize-4, complicated-9)
+cc(complicated-9, and-10)
+conj(complicated-9, philosophical-11)
+punct(have-2, .-12)
+
+Sentence #3 (7 tokens):
+there are always stories behind stories.
+[Text=there CharacterOffsetBegin=119 CharacterOffsetEnd=124 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=VBP] [Text=always CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=RB] [Text=stories CharacterOffsetBegin=136 CharacterOffsetEnd=143 PartOfSpeech=NNS] [Text=behind CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=IN] [Text=stories CharacterOffsetBegin=151 CharacterOffsetEnd=158 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, there-1)
+advmod(are-2, always-3)
+nsubj(are-2, stories-4)
+prep(stories-4, behind-5)
+pobj(behind-5, stories-6)
+punct(are-2, .-7)
+
+Sentence #4 (22 tokens):
+i myself did not understand everything but knowing chinese folklore (i studied them in school)it is very complicated.
+[Text=i CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=LS] [Text=myself CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=RB] [Text=understand CharacterOffsetBegin=181 CharacterOffsetEnd=191 PartOfSpeech=VB] [Text=everything CharacterOffsetBegin=192 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=CC] [Text=knowing CharacterOffsetBegin=207 CharacterOffsetEnd=214 PartOfSpeech=VBG] [Text=chinese CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=folklore CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=-LRB-] [Text=i CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=FW] [Text=studied CharacterOffsetBegin=235 CharacterOffsetEnd=242 PartOfSpeech=VBN] [Text=them CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=school CharacterOffsetBegin=251 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=-RRB-] [Text=it CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=RB] [Text=complicated CharacterOffsetBegin=269 CharacterOffsetEnd=280 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=.] 
+root(ROOT-0, understand-5)
+nsubj(understand-5, i-1)
+dep(i-1, myself-2)
+aux(understand-5, did-3)
+neg(understand-5, not-4)
+dobj(understand-5, everything-6)
+cc(understand-5, but-7)
+conj(understand-5, knowing-8)
+dobj(knowing-8, chinese-9)
+nsubj(complicated-21, folklore-10)
+punct(i-12, -LRB--11)
+dep(folklore-10, i-12)
+dep(i-12, studied-13)
+dobj(studied-13, them-14)
+prep(studied-13, in-15)
+pobj(in-15, school-16)
+punct(i-12, -RRB--17)
+dobj(folklore-10, it-18)
+cop(complicated-21, is-19)
+advmod(complicated-21, very-20)
+rcmod(chinese-9, complicated-21)
+punct(understand-5, .-22)
+
+Sentence #5 (20 tokens):
+you just have to take what it gives you.....ENJOY THE MOVIE AND ENJOY THE RIDE....HOORAY!!!
+[Text=you CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=TO] [Text=take CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=PRP] [Text=gives CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=VBZ] [Text=you CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=PRP] [Text=... CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=:] [Text=ENJOY CharacterOffsetBegin=330 CharacterOffsetEnd=335 PartOfSpeech=NNP] [Text=THE CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=DT] [Text=MOVIE CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=NN] [Text=AND CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=CC] [Text=ENJOY CharacterOffsetBegin=350 CharacterOffsetEnd=355 PartOfSpeech=VBP] [Text=THE CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=DT] [Text=RIDE CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=:] [Text=HOORAY CharacterOffsetBegin=368 CharacterOffsetEnd=374 PartOfSpeech=NNP] [Text=!!! CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=CD] 
+root(ROOT-0, have-3)
+nsubj(have-3, you-1)
+advmod(have-3, just-2)
+aux(take-5, to-4)
+xcomp(have-3, take-5)
+dobj(gives-8, what-6)
+nsubj(gives-8, it-7)
+ccomp(take-5, gives-8)
+dobj(gives-8, you-9)
+punct(have-3, ...-10)
+dep(have-3, ENJOY-11)
+det(MOVIE-13, THE-12)
+dep(ENJOY-11, MOVIE-13)
+cc(MOVIE-13, AND-14)
+conj(MOVIE-13, ENJOY-15)
+det(RIDE-17, THE-16)
+dep(ENJOY-15, RIDE-17)
+punct(RIDE-17, ...-18)
+dep(RIDE-17, HOORAY-19)
+num(HOORAY-19, !!!-20)
+
+Sentence #6 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

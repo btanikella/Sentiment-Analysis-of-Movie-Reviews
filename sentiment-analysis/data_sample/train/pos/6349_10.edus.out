@@ -1,0 +1,68 @@
+Sentence #1 (4 tokens):
+jim carrey rocks!
+[Text=jim CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NN] [Text=carrey CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=rocks CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, rocks-3)
+nn(rocks-3, jim-1)
+nn(rocks-3, carrey-2)
+punct(rocks-3, !-4)
+
+Sentence #2 (12 tokens):
+if he's in a movie its bound to be good!
+[Text=if CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=its CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=PRP$] [Text=bound CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=VB] [Text=good CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=.] 
+root(ROOT-0, 's-3)
+mark('s-3, if-1)
+nsubj('s-3, he-2)
+prep('s-3, in-4)
+det(movie-6, a-5)
+pobj(in-4, movie-6)
+poss(bound-8, its-7)
+partmod(movie-6, bound-8)
+aux(good-11, to-9)
+cop(good-11, be-10)
+xcomp(bound-8, good-11)
+punct('s-3, !-12)
+
+Sentence #3 (40 tokens):
+he did not disappoint me with this one!the rest of the cast was cute,especially little cindy lou who and martha may, i was laughing through the whole thing and cannot wait to see it again!
+[Text=he CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=RB] [Text=disappoint CharacterOffsetBegin=82 CharacterOffsetEnd=92 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=one!the CharacterOffsetBegin=106 CharacterOffsetEnd=113 PartOfSpeech=JJ] [Text=rest CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=VBD] [Text=cute CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=,] [Text=especially CharacterOffsetBegin=140 CharacterOffsetEnd=150 PartOfSpeech=RB] [Text=little CharacterOffsetBegin=151 CharacterOffsetEnd=157 PartOfSpeech=JJ] [Text=cindy CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=lou CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=WP] [Text=and CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=CC] [Text=martha CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=MD] [Text=, CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=,] [Text=i CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=FW] [Text=was CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=VBD] [Text=laughing CharacterOffsetBegin=194 CharacterOffsetEnd=202 PartOfSpeech=VBG] [Text=through CharacterOffsetBegin=203 CharacterOffsetEnd=210 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=CC] [Text=can CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=RB] [Text=wait CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=PRP] [Text=again CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=.] 
+root(ROOT-0, cute-14)
+nsubj(disappoint-4, he-1)
+aux(disappoint-4, did-2)
+neg(disappoint-4, not-3)
+csubj(cute-14, disappoint-4)
+dobj(disappoint-4, me-5)
+prep(disappoint-4, with-6)
+det(rest-9, this-7)
+amod(rest-9, one!the-8)
+pobj(with-6, rest-9)
+prep(rest-9, of-10)
+det(cast-12, the-11)
+pobj(of-10, cast-12)
+cop(cute-14, was-13)
+punct(cute-14, ,-15)
+advmod(little-17, especially-16)
+appos(cute-14, little-17)
+nn(lou-19, cindy-18)
+dep(little-17, lou-19)
+nsubj(laughing-27, who-20)
+cc(who-20, and-21)
+conj(who-20, martha-22)
+aux(laughing-27, may-23)
+punct(laughing-27, ,-24)
+nsubj(laughing-27, i-25)
+aux(laughing-27, was-26)
+rcmod(lou-19, laughing-27)
+prep(laughing-27, through-28)
+det(thing-31, the-29)
+amod(thing-31, whole-30)
+pobj(through-28, thing-31)
+cc(laughing-27, and-32)
+aux(wait-35, can-33)
+neg(wait-35, not-34)
+conj(laughing-27, wait-35)
+aux(see-37, to-36)
+xcomp(wait-35, see-37)
+dobj(see-37, it-38)
+advmod(see-37, again-39)
+punct(cute-14, !-40)
+

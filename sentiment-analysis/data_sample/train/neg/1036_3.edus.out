@@ -1,0 +1,136 @@
+Sentence #1 (2 tokens):
+Ho-hum.
+[Text=Ho-hum CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=.] 
+root(ROOT-0, Ho-hum-1)
+punct(Ho-hum-1, .-2)
+
+Sentence #2 (20 tokens):
+An inventor's(Horst Buchholz)deadly biological weapon is in danger of falling into the wrong hands.
+[Text=An CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=inventor CharacterOffsetBegin=19 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=POS] [Text=-LRB- CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=-LRB-] [Text=Horst CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=NNP] [Text=Buchholz CharacterOffsetBegin=36 CharacterOffsetEnd=44 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=-RRB-] [Text=deadly CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=JJ] [Text=biological CharacterOffsetBegin=52 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=weapon CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=IN] [Text=danger CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=falling CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=VBG] [Text=into CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=wrong CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=hands CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=.] 
+root(ROOT-0, is-11)
+det(inventor-2, An-1)
+poss(weapon-10, inventor-2)
+possessive(inventor-2, 's-3)
+punct(weapon-10, -LRB--4)
+nn(weapon-10, Horst-5)
+nn(weapon-10, Buchholz-6)
+punct(weapon-10, -RRB--7)
+amod(weapon-10, deadly-8)
+amod(weapon-10, biological-9)
+nsubj(is-11, weapon-10)
+prep(is-11, in-12)
+pobj(in-12, danger-13)
+prep(danger-13, of-14)
+pcomp(of-14, falling-15)
+prep(falling-15, into-16)
+det(hands-19, the-17)
+amod(hands-19, wrong-18)
+pobj(into-16, hands-19)
+punct(is-11, .-20)
+
+Sentence #3 (16 tokens):
+Unknowingly his son(Luke Perry)has been working on the antedote all along.
+[Text=Unknowingly CharacterOffsetBegin=120 CharacterOffsetEnd=131 PartOfSpeech=RB] [Text=his CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=PRP$] [Text=son CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=-LRB-] [Text=Luke CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text=Perry CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=-RRB-] [Text=has CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=VBN] [Text=working CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT] [Text=antedote CharacterOffsetBegin=175 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=all CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=along CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=.] 
+root(ROOT-0, working-10)
+advmod(working-10, Unknowingly-1)
+poss(son-3, his-2)
+nsubj(working-10, son-3)
+punct(Perry-6, -LRB--4)
+nn(Perry-6, Luke-5)
+appos(son-3, Perry-6)
+punct(Perry-6, -RRB--7)
+aux(working-10, has-8)
+aux(working-10, been-9)
+prep(working-10, on-11)
+det(antedote-13, the-12)
+pobj(on-11, antedote-13)
+advmod(along-15, all-14)
+advmod(antedote-13, along-15)
+punct(working-10, .-16)
+
+Sentence #4 (14 tokens):
+Enter CIA agent Olivia d'Abo and the cat-and-mouse car chases and gunfire begins.
+[Text=Enter CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=VB] [Text=CIA CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=NNP] [Text=agent CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=Olivia CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=NNP] [Text=d'Abo CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=cat-and-mouse CharacterOffsetBegin=236 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=car CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=chases CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=VBZ] [Text=and CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=CC] [Text=gunfire CharacterOffsetBegin=265 CharacterOffsetEnd=272 PartOfSpeech=NN] [Text=begins CharacterOffsetBegin=273 CharacterOffsetEnd=279 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=.] 
+root(ROOT-0, chases-10)
+nn(d'Abo-5, Enter-1)
+nn(d'Abo-5, CIA-2)
+nn(d'Abo-5, agent-3)
+nn(d'Abo-5, Olivia-4)
+nsubj(chases-10, d'Abo-5)
+cc(d'Abo-5, and-6)
+det(car-9, the-7)
+nn(car-9, cat-and-mouse-8)
+conj(d'Abo-5, car-9)
+cc(chases-10, and-11)
+nsubj(begins-13, gunfire-12)
+conj(chases-10, begins-13)
+punct(chases-10, .-14)
+
+Sentence #5 (17 tokens):
+Also in the cast are:Tom Conti, Hendrick Haese and an aging Roger Moore.
+[Text=Also CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=VBP] [Text=: CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=:] [Text=Tom CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=NNP] [Text=Conti CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=,] [Text=Hendrick CharacterOffsetBegin=317 CharacterOffsetEnd=325 PartOfSpeech=NNP] [Text=Haese CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=CC] [Text=an CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=aging CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=Roger CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=NNP] [Text=Moore CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=.] 
+root(ROOT-0, are-5)
+advmod(are-5, Also-1)
+prep(are-5, in-2)
+det(cast-4, the-3)
+pobj(in-2, cast-4)
+punct(are-5, :-6)
+nn(Conti-8, Tom-7)
+nsubj(are-5, Conti-8)
+punct(Conti-8, ,-9)
+nn(Haese-11, Hendrick-10)
+appos(Conti-8, Haese-11)
+cc(Haese-11, and-12)
+det(Moore-16, an-13)
+nn(Moore-16, aging-14)
+nn(Moore-16, Roger-15)
+conj(Haese-11, Moore-16)
+punct(are-5, .-17)
+
+Sentence #6 (16 tokens):
+Moore seems to haggardly move through this mess definitely not one of his better efforts.
+[Text=Moore CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=NNP] [Text=seems CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=TO] [Text=haggardly CharacterOffsetBegin=377 CharacterOffsetEnd=386 PartOfSpeech=RB] [Text=move CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=392 CharacterOffsetEnd=399 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=DT] [Text=mess CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=NN] [Text=definitely CharacterOffsetBegin=410 CharacterOffsetEnd=420 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=PRP$] [Text=better CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=JJR] [Text=efforts CharacterOffsetBegin=443 CharacterOffsetEnd=450 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=.] 
+root(ROOT-0, seems-2)
+nsubj(seems-2, Moore-1)
+aux(move-5, to-3)
+advmod(move-5, haggardly-4)
+xcomp(seems-2, move-5)
+prep(move-5, through-6)
+det(mess-8, this-7)
+pobj(through-6, mess-8)
+advmod(one-11, definitely-9)
+neg(one-11, not-10)
+dobj(move-5, one-11)
+prep(one-11, of-12)
+poss(efforts-15, his-13)
+amod(efforts-15, better-14)
+pobj(of-12, efforts-15)
+punct(seems-2, .-16)
+
+Sentence #7 (6 tokens):
+Perry fans will be accepting.
+[Text=Perry CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=NNP] [Text=fans CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=NNS] [Text=will CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=VB] [Text=accepting CharacterOffsetBegin=475 CharacterOffsetEnd=484 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=.] 
+root(ROOT-0, accepting-5)
+nn(fans-2, Perry-1)
+nsubj(accepting-5, fans-2)
+aux(accepting-5, will-3)
+aux(accepting-5, be-4)
+punct(accepting-5, .-6)
+
+Sentence #8 (13 tokens):
+d'Abo is wrong for the role, but nice to look at.
+[Text=d'Abo CharacterOffsetBegin=490 CharacterOffsetEnd=495 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=VBZ] [Text=wrong CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=DT] [Text=role CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=,] [Text=but CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=CC] [Text=nice CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=528 CharacterOffsetEnd=530 PartOfSpeech=TO] [Text=look CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=538 CharacterOffsetEnd=539 PartOfSpeech=.] 
+root(ROOT-0, wrong-3)
+nsubj(wrong-3, d'Abo-1)
+cop(wrong-3, is-2)
+prep(wrong-3, for-4)
+det(role-6, the-5)
+pobj(for-4, role-6)
+punct(wrong-3, ,-7)
+cc(wrong-3, but-8)
+conj(wrong-3, nice-9)
+aux(look-11, to-10)
+xcomp(nice-9, look-11)
+prep(look-11, at-12)
+punct(wrong-3, .-13)
+

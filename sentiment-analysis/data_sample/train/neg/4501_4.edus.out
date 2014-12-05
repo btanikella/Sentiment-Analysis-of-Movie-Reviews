@@ -1,0 +1,183 @@
+Sentence #1 (9 tokens):
+True, the setting in Paris is great.
+[Text=True CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=,] [Text=the CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=setting CharacterOffsetBegin=14 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=IN] [Text=Paris CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=.] 
+root(ROOT-0, great-8)
+amod(great-8, True-1)
+punct(great-8, ,-2)
+det(setting-4, the-3)
+nsubj(great-8, setting-4)
+prep(setting-4, in-5)
+pobj(in-5, Paris-6)
+cop(great-8, is-7)
+punct(great-8, .-9)
+
+Sentence #2 (5 tokens):
+The actors are fine.
+[Text=The CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=VBP] [Text=fine CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=.] 
+root(ROOT-0, fine-4)
+det(actors-2, The-1)
+nsubj(fine-4, actors-2)
+cop(fine-4, are-3)
+punct(fine-4, .-5)
+
+Sentence #3 (8 tokens):
+The story is a twisted morality play.
+[Text=The CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=DT] [Text=twisted CharacterOffsetBegin=85 CharacterOffsetEnd=92 PartOfSpeech=JJ] [Text=morality CharacterOffsetBegin=93 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=play CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.] 
+root(ROOT-0, play-7)
+det(story-2, The-1)
+nsubj(play-7, story-2)
+cop(play-7, is-3)
+det(play-7, a-4)
+amod(play-7, twisted-5)
+nn(play-7, morality-6)
+punct(play-7, .-8)
+
+Sentence #4 (24 tokens):
+Is it supposed to say that if you want someone badly enough, it's OK to hurt everyone else along the way?
+[Text=Is CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=PRP] [Text=supposed CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=IN] [Text=if CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=VBP] [Text=someone CharacterOffsetBegin=151 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=badly CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=,] [Text=it CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=VBZ] [Text=OK CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=TO] [Text=hurt CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=VB] [Text=everyone CharacterOffsetBegin=189 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=RB] [Text=along CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=.] 
+root(ROOT-0, supposed-3)
+auxpass(supposed-3, Is-1)
+nsubj(supposed-3, it-2)
+aux(say-5, to-4)
+xcomp(supposed-3, say-5)
+mark(OK-16, that-6)
+mark(want-9, if-7)
+nsubj(want-9, you-8)
+advcl(OK-16, want-9)
+nsubj(enough-12, someone-10)
+advmod(enough-12, badly-11)
+ccomp(want-9, enough-12)
+punct(OK-16, ,-13)
+nsubj(OK-16, it-14)
+cop(OK-16, 's-15)
+ccomp(say-5, OK-16)
+aux(hurt-18, to-17)
+xcomp(OK-16, hurt-18)
+dobj(hurt-18, everyone-19)
+advmod(everyone-19, else-20)
+prep(everyone-19, along-21)
+det(way-23, the-22)
+pobj(along-21, way-23)
+punct(supposed-3, ?-24)
+
+Sentence #5 (42 tokens):
+In a real romance, you sort of want less clich than the man who has become bored with his wife and is willing to dump his family, and the woman who is OK with encouraging him to do this.
+[Text=In CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=JJ] [Text=romance CharacterOffsetBegin=232 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=,] [Text=you CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=PRP] [Text=sort CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=want CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=VBP] [Text=less CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=JJR] [Text=clich CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=man CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=WP] [Text=has CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=VBZ] [Text=become CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=VBN] [Text=bored CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=VBZ] [Text=willing CharacterOffsetBegin=324 CharacterOffsetEnd=331 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=TO] [Text=dump CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=PRP$] [Text=family CharacterOffsetBegin=344 CharacterOffsetEnd=350 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=,] [Text=and CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=VBZ] [Text=OK CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=IN] [Text=encouraging CharacterOffsetBegin=381 CharacterOffsetEnd=392 PartOfSpeech=VBG] [Text=him CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=.] 
+root(ROOT-0, sort-7)
+prep(sort-7, In-1)
+det(romance-4, a-2)
+amod(romance-4, real-3)
+pobj(In-1, romance-4)
+punct(sort-7, ,-5)
+nsubj(sort-7, you-6)
+prep(sort-7, of-8)
+pcomp(of-8, want-9)
+amod(clich-11, less-10)
+dobj(want-9, clich-11)
+prep(clich-11, than-12)
+det(man-14, the-13)
+pobj(than-12, man-14)
+nsubjpass(bored-18, who-15)
+aux(bored-18, has-16)
+auxpass(bored-18, become-17)
+rcmod(man-14, bored-18)
+prep(bored-18, with-19)
+poss(wife-21, his-20)
+pobj(with-19, wife-21)
+cc(bored-18, and-22)
+cop(willing-24, is-23)
+conj(bored-18, willing-24)
+aux(dump-26, to-25)
+xcomp(willing-24, dump-26)
+poss(family-28, his-27)
+dobj(dump-26, family-28)
+punct(sort-7, ,-29)
+cc(sort-7, and-30)
+det(woman-32, the-31)
+conj(sort-7, woman-32)
+nsubj(OK-35, who-33)
+cop(OK-35, is-34)
+rcmod(woman-32, OK-35)
+prep(OK-35, with-36)
+pcomp(with-36, encouraging-37)
+nsubj(do-40, him-38)
+aux(do-40, to-39)
+xcomp(encouraging-37, do-40)
+dobj(do-40, this-41)
+punct(sort-7, .-42)
+
+Sentence #6 (16 tokens):
+So what if they are decent looking and if Karen Allen shows off her body?
+[Text=So CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=RB] [Text=what CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=WP] [Text=if CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=424 CharacterOffsetEnd=428 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=VBP] [Text=decent CharacterOffsetBegin=433 CharacterOffsetEnd=439 PartOfSpeech=JJ] [Text=looking CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=IN] [Text=Karen CharacterOffsetBegin=455 CharacterOffsetEnd=460 PartOfSpeech=NNP] [Text=Allen CharacterOffsetBegin=461 CharacterOffsetEnd=466 PartOfSpeech=NNP] [Text=shows CharacterOffsetBegin=467 CharacterOffsetEnd=472 PartOfSpeech=VBZ] [Text=off CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=RP] [Text=her CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=PRP$] [Text=body CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=.] 
+root(ROOT-0, So-1)
+dep(So-1, what-2)
+mark(decent-6, if-3)
+nsubj(decent-6, they-4)
+cop(decent-6, are-5)
+dep(what-2, decent-6)
+dep(decent-6, looking-7)
+cc(looking-7, and-8)
+mark(shows-12, if-9)
+nn(Allen-11, Karen-10)
+nsubj(shows-12, Allen-11)
+conj(looking-7, shows-12)
+prt(shows-12, off-13)
+poss(body-15, her-14)
+dobj(shows-12, body-15)
+punct(So-1, ?-16)
+
+Sentence #7 (8 tokens):
+The characters are still self-absorbed and reprehensible.
+[Text=The CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=495 CharacterOffsetEnd=505 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=VBP] [Text=still CharacterOffsetBegin=510 CharacterOffsetEnd=515 PartOfSpeech=RB] [Text=self-absorbed CharacterOffsetBegin=516 CharacterOffsetEnd=529 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=CC] [Text=reprehensible CharacterOffsetBegin=534 CharacterOffsetEnd=547 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=.] 
+root(ROOT-0, self-absorbed-5)
+det(characters-2, The-1)
+nsubj(self-absorbed-5, characters-2)
+cop(self-absorbed-5, are-3)
+advmod(self-absorbed-5, still-4)
+cc(self-absorbed-5, and-6)
+conj(self-absorbed-5, reprehensible-7)
+punct(self-absorbed-5, .-8)
+
+Sentence #8 (15 tokens):
+Maybe the moral of the story is "you get what you deserve".
+[Text=Maybe CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=DT] [Text=moral CharacterOffsetBegin=563 CharacterOffsetEnd=568 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=582 CharacterOffsetEnd=584 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=``] [Text=you CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=590 CharacterOffsetEnd=593 PartOfSpeech=VBP] [Text=what CharacterOffsetBegin=594 CharacterOffsetEnd=598 PartOfSpeech=WP] [Text=you CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=PRP] [Text=deserve CharacterOffsetBegin=603 CharacterOffsetEnd=610 PartOfSpeech=VBP] [Text='' CharacterOffsetBegin=610 CharacterOffsetEnd=611 PartOfSpeech=''] [Text=. CharacterOffsetBegin=611 CharacterOffsetEnd=612 PartOfSpeech=.] 
+root(ROOT-0, get-10)
+advmod(get-10, Maybe-1)
+det(moral-3, the-2)
+nsubj(get-10, moral-3)
+prep(moral-3, of-4)
+det(story-6, the-5)
+pobj(of-4, story-6)
+aux(get-10, is-7)
+punct(get-10, ``-8)
+nsubj(get-10, you-9)
+dobj(deserve-13, what-11)
+nsubj(deserve-13, you-12)
+ccomp(get-10, deserve-13)
+punct(deserve-13, ''-14)
+punct(get-10, .-15)
+
+Sentence #9 (20 tokens):
+I give it a 4, only for the fast scan potential through the "male interest" bits.
+[Text=I CharacterOffsetBegin=617 CharacterOffsetEnd=618 PartOfSpeech=PRP] [Text=give CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=DT] [Text=4 CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=,] [Text=only CharacterOffsetBegin=632 CharacterOffsetEnd=636 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=DT] [Text=fast CharacterOffsetBegin=645 CharacterOffsetEnd=649 PartOfSpeech=JJ] [Text=scan CharacterOffsetBegin=650 CharacterOffsetEnd=654 PartOfSpeech=VB] [Text=potential CharacterOffsetBegin=655 CharacterOffsetEnd=664 PartOfSpeech=NN] [Text=through CharacterOffsetBegin=665 CharacterOffsetEnd=672 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=677 CharacterOffsetEnd=678 PartOfSpeech=``] [Text=male CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=JJ] [Text=interest CharacterOffsetBegin=683 CharacterOffsetEnd=691 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=''] [Text=bits CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=697 CharacterOffsetEnd=698 PartOfSpeech=.] 
+root(ROOT-0, give-2)
+nsubj(give-2, I-1)
+iobj(give-2, it-3)
+det(4-5, a-4)
+dobj(give-2, 4-5)
+punct(give-2, ,-6)
+advmod(for-8, only-7)
+prep(give-2, for-8)
+pobj(for-8, the-9)
+amod(the-9, fast-10)
+dep(fast-10, scan-11)
+dobj(scan-11, potential-12)
+prep(scan-11, through-13)
+det(interest-17, the-14)
+punct(interest-17, ``-15)
+amod(interest-17, male-16)
+pobj(through-13, interest-17)
+punct(interest-17, ''-18)
+dep(interest-17, bits-19)
+punct(give-2, .-20)
+

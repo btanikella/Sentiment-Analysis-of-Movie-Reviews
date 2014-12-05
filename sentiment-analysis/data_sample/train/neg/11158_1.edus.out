@@ -1,0 +1,206 @@
+Sentence #1 (7 tokens):
+What a horrible, horrible film.
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=horrible CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=,] [Text=horrible CharacterOffsetBegin=21 CharacterOffsetEnd=29 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+dep(film-6, What-1)
+det(film-6, a-2)
+amod(film-6, horrible-3)
+punct(film-6, ,-4)
+amod(film-6, horrible-5)
+punct(film-6, .-7)
+
+Sentence #2 (13 tokens):
+The worst collection of cliches I have seen in a long time.
+[Text=The CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=JJS] [Text=collection CharacterOffsetBegin=50 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=IN] [Text=cliches CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=DT] [Text=long CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=.] 
+root(ROOT-0, collection-3)
+det(collection-3, The-1)
+amod(collection-3, worst-2)
+prep(collection-3, of-4)
+pobj(of-4, cliches-5)
+nsubj(seen-8, I-6)
+aux(seen-8, have-7)
+rcmod(cliches-5, seen-8)
+prep(seen-8, in-9)
+det(time-12, a-10)
+amod(time-12, long-11)
+pobj(in-9, time-12)
+punct(collection-3, .-13)
+
+Sentence #3 (6 tokens):
+Not that I saw much.
+[Text=Not CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=VBD] [Text=much CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=.] 
+root(ROOT-0, saw-4)
+dep(saw-4, Not-1)
+mark(saw-4, that-2)
+nsubj(saw-4, I-3)
+advmod(saw-4, much-5)
+punct(saw-4, .-6)
+
+Sentence #4 (20 tokens):
+I left the theatre screaming after about 40 minutes in search of a stiff drink to soothe my nerves.
+[Text=I CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=PRP] [Text=left CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=theatre CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=screaming CharacterOffsetBegin=148 CharacterOffsetEnd=157 PartOfSpeech=VBG] [Text=after CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=IN] [Text=about CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=40 CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=173 CharacterOffsetEnd=180 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=search CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=DT] [Text=stiff CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=drink CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=TO] [Text=soothe CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=VB] [Text=my CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=PRP$] [Text=nerves CharacterOffsetBegin=221 CharacterOffsetEnd=227 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=.] 
+root(ROOT-0, left-2)
+nsubj(left-2, I-1)
+det(theatre-4, the-3)
+nsubj(screaming-5, theatre-4)
+xcomp(left-2, screaming-5)
+prep(screaming-5, after-6)
+quantmod(40-8, about-7)
+num(minutes-9, 40-8)
+pobj(after-6, minutes-9)
+prep(minutes-9, in-10)
+pobj(in-10, search-11)
+prep(search-11, of-12)
+det(drink-15, a-13)
+amod(drink-15, stiff-14)
+pobj(of-12, drink-15)
+aux(soothe-17, to-16)
+infmod(drink-15, soothe-17)
+poss(nerves-19, my-18)
+dobj(soothe-17, nerves-19)
+punct(left-2, .-20)
+
+Sentence #5 (7 tokens):
+Meryl Streep was awful as usual.
+[Text=Meryl CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=NNP] [Text=Streep CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=VBD] [Text=awful CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=IN] [Text=usual CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=.] 
+root(ROOT-0, awful-4)
+nn(Streep-2, Meryl-1)
+nsubj(awful-4, Streep-2)
+cop(awful-4, was-3)
+prep(awful-4, as-5)
+pobj(as-5, usual-6)
+punct(awful-4, .-7)
+
+Sentence #6 (11 tokens):
+How many hurt and tortured expressions can 1 person have?
+[Text=How CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=WRB] [Text=many CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=JJ] [Text=hurt CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=CC] [Text=tortured CharacterOffsetBegin=288 CharacterOffsetEnd=296 PartOfSpeech=JJ] [Text=expressions CharacterOffsetBegin=297 CharacterOffsetEnd=308 PartOfSpeech=NNS] [Text=can CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=MD] [Text=1 CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=LS] [Text=person CharacterOffsetBegin=315 CharacterOffsetEnd=321 PartOfSpeech=NN] [Text=have CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=VB] [Text=? CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=.] 
+root(ROOT-0, have-10)
+advmod(many-2, How-1)
+advmod(hurt-3, many-2)
+amod(expressions-6, hurt-3)
+cc(hurt-3, and-4)
+conj(hurt-3, tortured-5)
+nsubj(have-10, expressions-6)
+aux(have-10, can-7)
+nn(person-9, 1-8)
+nsubj(have-10, person-9)
+punct(have-10, ?-11)
+
+Sentence #7 (13 tokens):
+Aidan Quinn's talents were - as so often - totally wasted.
+[Text=Aidan CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=NNP] [Text=Quinn CharacterOffsetBegin=338 CharacterOffsetEnd=343 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=POS] [Text=talents CharacterOffsetBegin=346 CharacterOffsetEnd=353 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=VBD] [Text=- CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=:] [Text=as CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=IN] [Text=so CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=RB] [Text=often CharacterOffsetBegin=367 CharacterOffsetEnd=372 PartOfSpeech=RB] [Text=- CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=:] [Text=totally CharacterOffsetBegin=375 CharacterOffsetEnd=382 PartOfSpeech=RB] [Text=wasted CharacterOffsetBegin=383 CharacterOffsetEnd=389 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=.] 
+root(ROOT-0, talents-4)
+nn(Quinn-2, Aidan-1)
+poss(talents-4, Quinn-2)
+possessive(Quinn-2, 's-3)
+dep(talents-4, were-5)
+punct(were-5, --6)
+advmod(wasted-12, as-7)
+advmod(often-9, so-8)
+advmod(wasted-12, often-9)
+punct(wasted-12, --10)
+advmod(wasted-12, totally-11)
+dep(were-5, wasted-12)
+punct(talents-4, .-13)
+
+Sentence #8 (9 tokens):
+And who told Gloria Estefan she could act?
+[Text=And CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=CC] [Text=who CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=WP] [Text=told CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=VBD] [Text=Gloria CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NNP] [Text=Estefan CharacterOffsetBegin=415 CharacterOffsetEnd=422 PartOfSpeech=NNP] [Text=she CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=MD] [Text=act CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=VB] [Text=? CharacterOffsetBegin=436 CharacterOffsetEnd=437 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+nsubj(told-3, who-2)
+dep(And-1, told-3)
+nn(Estefan-5, Gloria-4)
+dobj(told-3, Estefan-5)
+nsubj(act-8, she-6)
+aux(act-8, could-7)
+dep(told-3, act-8)
+punct(told-3, ?-9)
+
+Sentence #9 (12 tokens):
+Trying to be polically correct this movie still enforces racial stereotypes.
+[Text=Trying CharacterOffsetBegin=442 CharacterOffsetEnd=448 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=VB] [Text=polically CharacterOffsetBegin=455 CharacterOffsetEnd=464 PartOfSpeech=RB] [Text=correct CharacterOffsetBegin=465 CharacterOffsetEnd=472 PartOfSpeech=JJ] [Text=this CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=478 CharacterOffsetEnd=483 PartOfSpeech=NN] [Text=still CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=RB] [Text=enforces CharacterOffsetBegin=490 CharacterOffsetEnd=498 PartOfSpeech=VBZ] [Text=racial CharacterOffsetBegin=499 CharacterOffsetEnd=505 PartOfSpeech=JJ] [Text=stereotypes CharacterOffsetBegin=506 CharacterOffsetEnd=517 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=.] 
+root(ROOT-0, Trying-1)
+aux(correct-5, to-2)
+cop(correct-5, be-3)
+advmod(correct-5, polically-4)
+xcomp(Trying-1, correct-5)
+det(movie-7, this-6)
+nsubj(enforces-9, movie-7)
+advmod(enforces-9, still-8)
+ccomp(correct-5, enforces-9)
+amod(stereotypes-11, racial-10)
+dobj(enforces-9, stereotypes-11)
+punct(Trying-1, .-12)
+
+Sentence #10 (16 tokens):
+(Brave inexperienced lonely music teacher teaches underprivilegded kids violin in poor neighbourhood school).
+[Text=-LRB- CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=-LRB-] [Text=Brave CharacterOffsetBegin=524 CharacterOffsetEnd=529 PartOfSpeech=NNP] [Text=inexperienced CharacterOffsetBegin=530 CharacterOffsetEnd=543 PartOfSpeech=JJ] [Text=lonely CharacterOffsetBegin=544 CharacterOffsetEnd=550 PartOfSpeech=JJ] [Text=music CharacterOffsetBegin=551 CharacterOffsetEnd=556 PartOfSpeech=NN] [Text=teacher CharacterOffsetBegin=557 CharacterOffsetEnd=564 PartOfSpeech=NN] [Text=teaches CharacterOffsetBegin=565 CharacterOffsetEnd=572 PartOfSpeech=VBZ] [Text=underprivilegded CharacterOffsetBegin=573 CharacterOffsetEnd=589 PartOfSpeech=JJ] [Text=kids CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=NNS] [Text=violin CharacterOffsetBegin=595 CharacterOffsetEnd=601 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=IN] [Text=poor CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=JJ] [Text=neighbourhood CharacterOffsetBegin=610 CharacterOffsetEnd=623 PartOfSpeech=NN] [Text=school CharacterOffsetBegin=624 CharacterOffsetEnd=630 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=.] 
+root(ROOT-0, teaches-7)
+punct(teacher-6, -LRB--1)
+nn(teacher-6, Brave-2)
+amod(teacher-6, inexperienced-3)
+amod(teacher-6, lonely-4)
+nn(teacher-6, music-5)
+nsubj(teaches-7, teacher-6)
+amod(violin-10, underprivilegded-8)
+nn(violin-10, kids-9)
+dobj(teaches-7, violin-10)
+prep(teaches-7, in-11)
+amod(school-14, poor-12)
+nn(school-14, neighbourhood-13)
+pobj(in-11, school-14)
+punct(teaches-7, -RRB--15)
+punct(teaches-7, .-16)
+
+Sentence #11 (7 tokens):
+The kids weren't even cute!
+[Text=The CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=DT] [Text=kids CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=650 CharacterOffsetEnd=653 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=RB] [Text=cute CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=663 CharacterOffsetEnd=664 PartOfSpeech=.] 
+root(ROOT-0, cute-6)
+det(kids-2, The-1)
+nsubj(cute-6, kids-2)
+cop(cute-6, were-3)
+neg(cute-6, n't-4)
+advmod(cute-6, even-5)
+punct(cute-6, !-7)
+
+Sentence #12 (9 tokens):
+Just written in to suit the appalling script.
+[Text=Just CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=RB] [Text=written CharacterOffsetBegin=674 CharacterOffsetEnd=681 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=682 CharacterOffsetEnd=684 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=685 CharacterOffsetEnd=687 PartOfSpeech=TO] [Text=suit CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=DT] [Text=appalling CharacterOffsetBegin=697 CharacterOffsetEnd=706 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=707 CharacterOffsetEnd=713 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=713 CharacterOffsetEnd=714 PartOfSpeech=.] 
+root(ROOT-0, written-2)
+advmod(written-2, Just-1)
+prep(written-2, in-3)
+aux(suit-5, to-4)
+pcomp(in-3, suit-5)
+det(script-8, the-6)
+amod(script-8, appalling-7)
+dobj(suit-5, script-8)
+punct(written-2, .-9)
+
+Sentence #13 (2 tokens):
+Aaargh!
+[Text=Aaargh CharacterOffsetBegin=719 CharacterOffsetEnd=725 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=.] 
+root(ROOT-0, Aaargh-1)
+punct(Aaargh-1, !-2)
+
+Sentence #14 (9 tokens):
+Wes Craven really made me cringe for once.
+[Text=Wes CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=NNP] [Text=Craven CharacterOffsetBegin=735 CharacterOffsetEnd=741 PartOfSpeech=NNP] [Text=really CharacterOffsetBegin=742 CharacterOffsetEnd=748 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=749 CharacterOffsetEnd=753 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=754 CharacterOffsetEnd=756 PartOfSpeech=PRP] [Text=cringe CharacterOffsetBegin=757 CharacterOffsetEnd=763 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=764 CharacterOffsetEnd=767 PartOfSpeech=IN] [Text=once CharacterOffsetBegin=768 CharacterOffsetEnd=772 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=772 CharacterOffsetEnd=773 PartOfSpeech=.] 
+root(ROOT-0, made-4)
+nn(Craven-2, Wes-1)
+nsubj(made-4, Craven-2)
+advmod(made-4, really-3)
+nsubj(cringe-6, me-5)
+xcomp(made-4, cringe-6)
+prep(cringe-6, for-7)
+pobj(for-7, once-8)
+punct(made-4, .-9)
+
+Sentence #15 (5 tokens):
+real horror this one!
+[Text=real CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=JJ] [Text=horror CharacterOffsetBegin=783 CharacterOffsetEnd=789 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=790 CharacterOffsetEnd=794 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=795 CharacterOffsetEnd=798 PartOfSpeech=CD] [Text=! CharacterOffsetBegin=798 CharacterOffsetEnd=799 PartOfSpeech=.] 
+root(ROOT-0, horror-2)
+amod(horror-2, real-1)
+det(one-4, this-3)
+dep(horror-2, one-4)
+punct(horror-2, !-5)
+

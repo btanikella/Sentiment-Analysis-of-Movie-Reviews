@@ -1,0 +1,141 @@
+Sentence #1 (4 tokens):
+A pleasant surprise!
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=pleasant CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=JJ] [Text=surprise CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=.] 
+root(ROOT-0, surprise-3)
+det(surprise-3, A-1)
+amod(surprise-3, pleasant-2)
+punct(surprise-3, !-4)
+
+Sentence #2 (28 tokens):
+I expected a further downgrade along the line: The Rock (9)-->Con Air (7)-->Armaggeddon (4).
+[Text=I CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=PRP] [Text=expected CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=further CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=JJ] [Text=downgrade CharacterOffsetBegin=50 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=along CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=line CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=:] [Text=The CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=Rock CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=-LRB-] [Text=9 CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=-RRB-] [Text=-- CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=:] [Text=> CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=JJR] [Text=Con CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=Air CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=-LRB-] [Text=7 CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=-RRB-] [Text=-- CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=:] [Text=> CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=JJR] [Text=Armaggeddon CharacterOffsetBegin=105 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=-LRB-] [Text=4 CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=.] 
+root(ROOT-0, expected-2)
+nsubj(expected-2, I-1)
+det(downgrade-5, a-3)
+amod(downgrade-5, further-4)
+dobj(expected-2, downgrade-5)
+prep(downgrade-5, along-6)
+det(line-8, the-7)
+pobj(along-6, line-8)
+punct(expected-2, :-9)
+det(Rock-11, The-10)
+dep(expected-2, Rock-11)
+punct(9-13, -LRB--12)
+appos(Rock-11, 9-13)
+punct(9-13, -RRB--14)
+punct(Rock-11, ---15)
+dep(Rock-11, >-16)
+dep(>-16, Con-17)
+dep(Con-17, Air-18)
+punct(7-20, -LRB--19)
+dep(Air-18, 7-20)
+punct(7-20, -RRB--21)
+punct(>-23, ---22)
+dep(Air-18, >-23)
+dep(>-23, Armaggeddon-24)
+punct(4-26, -LRB--25)
+dep(Armaggeddon-24, 4-26)
+punct(4-26, -RRB--27)
+punct(expected-2, .-28)
+
+Sentence #3 (7 tokens):
+Especially for such an overhyped film.
+[Text=Especially CharacterOffsetBegin=126 CharacterOffsetEnd=136 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=IN] [Text=such CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=PDT] [Text=an CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=DT] [Text=overhyped CharacterOffsetBegin=149 CharacterOffsetEnd=158 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=.] 
+root(ROOT-0, Especially-1)
+prep(Especially-1, for-2)
+predet(film-6, such-3)
+det(film-6, an-4)
+amod(film-6, overhyped-5)
+pobj(for-2, film-6)
+punct(Especially-1, .-7)
+
+Sentence #4 (16 tokens):
+Perhaps that's the reason so few approved of this new type of Bruckheimer fare.
+[Text=Perhaps CharacterOffsetBegin=169 CharacterOffsetEnd=176 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=RB] [Text=few CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=approved CharacterOffsetBegin=202 CharacterOffsetEnd=210 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=type CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=228 CharacterOffsetEnd=230 PartOfSpeech=IN] [Text=Bruckheimer CharacterOffsetBegin=231 CharacterOffsetEnd=242 PartOfSpeech=NNP] [Text=fare CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=.] 
+root(ROOT-0, reason-5)
+advmod(reason-5, Perhaps-1)
+nsubj(reason-5, that-2)
+cop(reason-5, 's-3)
+det(reason-5, the-4)
+advmod(few-7, so-6)
+amod(reason-5, few-7)
+partmod(few-7, approved-8)
+prep(approved-8, of-9)
+det(type-12, this-10)
+amod(type-12, new-11)
+pobj(of-9, type-12)
+prep(type-12, of-13)
+nn(fare-15, Bruckheimer-14)
+pobj(of-13, fare-15)
+punct(reason-5, .-16)
+
+Sentence #5 (24 tokens):
+Clever dialogue instead of snappy one-liners, decent background/motivation instead of shake-n-bake stereotypes and when the chase came you really thirsted for it.
+[Text=Clever CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=JJ] [Text=dialogue CharacterOffsetBegin=260 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=instead CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=IN] [Text=snappy CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=JJ] [Text=one-liners CharacterOffsetBegin=287 CharacterOffsetEnd=297 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=,] [Text=decent CharacterOffsetBegin=299 CharacterOffsetEnd=305 PartOfSpeech=JJ] [Text=background/motivation CharacterOffsetBegin=306 CharacterOffsetEnd=327 PartOfSpeech=NN] [Text=instead CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=IN] [Text=shake-n-bake CharacterOffsetBegin=339 CharacterOffsetEnd=351 PartOfSpeech=JJ] [Text=stereotypes CharacterOffsetBegin=352 CharacterOffsetEnd=363 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=CC] [Text=when CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=DT] [Text=chase CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=NN] [Text=came CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=VBD] [Text=you CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=392 CharacterOffsetEnd=398 PartOfSpeech=RB] [Text=thirsted CharacterOffsetBegin=399 CharacterOffsetEnd=407 PartOfSpeech=VBD] [Text=for CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=.] 
+root(ROOT-0, dialogue-2)
+amod(dialogue-2, Clever-1)
+cc(dialogue-2, instead-3)
+mwe(instead-3, of-4)
+amod(one-liners-6, snappy-5)
+conj(dialogue-2, one-liners-6)
+punct(dialogue-2, ,-7)
+amod(background/motivation-9, decent-8)
+appos(dialogue-2, background/motivation-9)
+advmod(of-11, instead-10)
+prep(background/motivation-9, of-11)
+amod(stereotypes-13, shake-n-bake-12)
+pobj(of-11, stereotypes-13)
+cc(stereotypes-13, and-14)
+advmod(came-18, when-15)
+det(chase-17, the-16)
+nsubj(came-18, chase-17)
+conj(stereotypes-13, came-18)
+nsubj(thirsted-21, you-19)
+advmod(thirsted-21, really-20)
+ccomp(came-18, thirsted-21)
+prep(thirsted-21, for-22)
+pobj(for-22, it-23)
+punct(dialogue-2, .-24)
+
+Sentence #6 (9 tokens):
+Fanboys expecting an Armageddon rollercoaster: stay away.
+[Text=Fanboys CharacterOffsetBegin=420 CharacterOffsetEnd=427 PartOfSpeech=NNPS] [Text=expecting CharacterOffsetBegin=428 CharacterOffsetEnd=437 PartOfSpeech=VBG] [Text=an CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=DT] [Text=Armageddon CharacterOffsetBegin=441 CharacterOffsetEnd=451 PartOfSpeech=NNP] [Text=rollercoaster CharacterOffsetBegin=452 CharacterOffsetEnd=465 PartOfSpeech=JJ] [Text=: CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=:] [Text=stay CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=VB] [Text=away CharacterOffsetBegin=472 CharacterOffsetEnd=476 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=476 CharacterOffsetEnd=477 PartOfSpeech=.] 
+root(ROOT-0, Fanboys-1)
+partmod(Fanboys-1, expecting-2)
+det(rollercoaster-5, an-3)
+nn(rollercoaster-5, Armageddon-4)
+dobj(expecting-2, rollercoaster-5)
+punct(rollercoaster-5, :-6)
+cop(away-8, stay-7)
+dep(rollercoaster-5, away-8)
+punct(Fanboys-1, .-9)
+
+Sentence #7 (10 tokens):
+This is one for the more intelligent action fans.
+[Text=This CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=CD] [Text=for CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=RBR] [Text=intelligent CharacterOffsetBegin=507 CharacterOffsetEnd=518 PartOfSpeech=JJ] [Text=action CharacterOffsetBegin=519 CharacterOffsetEnd=525 PartOfSpeech=NN] [Text=fans CharacterOffsetBegin=526 CharacterOffsetEnd=530 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=.] 
+root(ROOT-0, one-3)
+nsubj(one-3, This-1)
+cop(one-3, is-2)
+prep(one-3, for-4)
+det(fans-9, the-5)
+advmod(intelligent-7, more-6)
+amod(fans-9, intelligent-7)
+nn(fans-9, action-8)
+pobj(for-4, fans-9)
+punct(one-3, .-10)
+
+Sentence #8 (11 tokens):
+It didn't even bother me Jolie appeared so little.
+[Text=It CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=RB] [Text=bother CharacterOffsetBegin=551 CharacterOffsetEnd=557 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=558 CharacterOffsetEnd=560 PartOfSpeech=PRP] [Text=Jolie CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=NNP] [Text=appeared CharacterOffsetBegin=567 CharacterOffsetEnd=575 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=RB] [Text=little CharacterOffsetBegin=579 CharacterOffsetEnd=585 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=.] 
+root(ROOT-0, bother-5)
+nsubj(bother-5, It-1)
+aux(bother-5, did-2)
+neg(bother-5, n't-3)
+advmod(bother-5, even-4)
+nn(Jolie-7, me-6)
+dobj(bother-5, Jolie-7)
+cop(little-10, appeared-8)
+advmod(little-10, so-9)
+dep(bother-5, little-10)
+punct(bother-5, .-11)
+

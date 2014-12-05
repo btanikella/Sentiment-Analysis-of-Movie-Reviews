@@ -1,0 +1,125 @@
+Sentence #1 (7 tokens):
+I liked this movie a lot.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=liked CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=.] 
+root(ROOT-0, liked-2)
+nsubj(liked-2, I-1)
+det(movie-4, this-3)
+dobj(liked-2, movie-4)
+det(lot-6, a-5)
+npadvmod(movie-4, lot-6)
+punct(liked-2, .-7)
+
+Sentence #2 (11 tokens):
+The animation was well done and the romance was cute.
+[Text=The CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=DT] [Text=animation CharacterOffsetBegin=38 CharacterOffsetEnd=47 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=VBD] [Text=well CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=romance CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=VBD] [Text=cute CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=.] 
+root(ROOT-0, done-5)
+det(animation-2, The-1)
+nsubjpass(done-5, animation-2)
+auxpass(done-5, was-3)
+advmod(done-5, well-4)
+cc(done-5, and-6)
+det(romance-8, the-7)
+nsubj(cute-10, romance-8)
+cop(cute-10, was-9)
+conj(done-5, cute-10)
+punct(done-5, .-11)
+
+Sentence #3 (16 tokens):
+I liked most of Bryan Adams' songs and the Hans Zimmer score was excellent.
+[Text=I CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=PRP] [Text=liked CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=VBD] [Text=most CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN] [Text=Bryan CharacterOffsetBegin=108 CharacterOffsetEnd=113 PartOfSpeech=NNP] [Text=Adams CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=POS] [Text=songs CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=Hans CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NNP] [Text=Zimmer CharacterOffsetBegin=140 CharacterOffsetEnd=146 PartOfSpeech=NNP] [Text=score CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=VBD] [Text=excellent CharacterOffsetBegin=157 CharacterOffsetEnd=166 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=.] 
+root(ROOT-0, liked-2)
+nsubj(liked-2, I-1)
+nsubj(excellent-15, most-3)
+prep(most-3, of-4)
+nn(Adams-6, Bryan-5)
+poss(songs-8, Adams-6)
+possessive(Adams-6, '-7)
+pobj(of-4, songs-8)
+cc(songs-8, and-9)
+det(score-13, the-10)
+nn(score-13, Hans-11)
+nn(score-13, Zimmer-12)
+conj(songs-8, score-13)
+cop(excellent-15, was-14)
+ccomp(liked-2, excellent-15)
+punct(liked-2, .-16)
+
+Sentence #4 (45 tokens):
+What a lot of people don't realize is how well it relates to the Heart of Darkness/Apocalypse Now themes (what happens when so-called "civilization" invades someone elses home, what does it mean to be "civilized" etc.).
+[Text=What CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=186 CharacterOffsetEnd=192 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=RB] [Text=realize CharacterOffsetBegin=199 CharacterOffsetEnd=206 PartOfSpeech=VB] [Text=is CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=VBZ] [Text=how CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=WRB] [Text=well CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=PRP] [Text=relates CharacterOffsetBegin=222 CharacterOffsetEnd=229 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=DT] [Text=Heart CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=IN] [Text=Darkness/Apocalypse CharacterOffsetBegin=246 CharacterOffsetEnd=265 PartOfSpeech=NNP] [Text=Now CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=RB] [Text=themes CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=-LRB-] [Text=what CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=WP] [Text=happens CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=VBZ] [Text=when CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=WRB] [Text=so-called CharacterOffsetBegin=296 CharacterOffsetEnd=305 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=``] [Text=civilization CharacterOffsetBegin=307 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=319 CharacterOffsetEnd=320 PartOfSpeech=''] [Text=invades CharacterOffsetBegin=321 CharacterOffsetEnd=328 PartOfSpeech=VBZ] [Text=someone CharacterOffsetBegin=329 CharacterOffsetEnd=336 PartOfSpeech=NN] [Text=elses CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=NNS] [Text=home CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=,] [Text=what CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=WP] [Text=does CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=VB] [Text=`` CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=``] [Text=civilized CharacterOffsetBegin=374 CharacterOffsetEnd=383 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=''] [Text=etc. CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=.] 
+root(ROOT-0, realize-8)
+det(lot-3, What-1)
+det(lot-3, a-2)
+nsubj(realize-8, lot-3)
+prep(lot-3, of-4)
+pobj(of-4, people-5)
+aux(realize-8, do-6)
+neg(realize-8, n't-7)
+ccomp(realize-8, is-9)
+advmod(well-11, how-10)
+advmod(relates-13, well-11)
+nsubj(relates-13, it-12)
+ccomp(is-9, relates-13)
+prep(relates-13, to-14)
+det(Heart-16, the-15)
+pobj(to-14, Heart-16)
+prep(Heart-16, of-17)
+pobj(of-17, Darkness/Apocalypse-18)
+prep(relates-13, Now-19)
+dep(Now-19, themes-20)
+punct(happens-23, -LRB--21)
+nsubj(happens-23, what-22)
+ccomp(themes-20, happens-23)
+advmod(civilization-27, when-24)
+amod(civilization-27, so-called-25)
+punct(civilization-27, ``-26)
+advcl(happens-23, civilization-27)
+punct(happens-23, ''-28)
+dep(happens-23, invades-29)
+nn(home-32, someone-30)
+nn(home-32, elses-31)
+dobj(invades-29, home-32)
+punct(happens-23, ,-33)
+nsubj(mean-37, what-34)
+aux(mean-37, does-35)
+nsubj(mean-37, it-36)
+ccomp(happens-23, mean-37)
+aux(civilized-41, to-38)
+cop(civilized-41, be-39)
+punct(civilized-41, ``-40)
+xcomp(mean-37, civilized-41)
+punct(civilized-41, ''-42)
+dep(civilized-41, etc.-43)
+punct(etc.-43, -RRB--44)
+punct(realize-8, .-45)
+
+Sentence #5 (9 tokens):
+The opening scenery and music were very stirring.
+[Text=The CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=DT] [Text=opening CharacterOffsetBegin=400 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=scenery CharacterOffsetBegin=408 CharacterOffsetEnd=415 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=CC] [Text=music CharacterOffsetBegin=420 CharacterOffsetEnd=425 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=426 CharacterOffsetEnd=430 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=RB] [Text=stirring CharacterOffsetBegin=436 CharacterOffsetEnd=444 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=.] 
+root(ROOT-0, stirring-8)
+det(scenery-3, The-1)
+nn(scenery-3, opening-2)
+nsubj(stirring-8, scenery-3)
+cc(scenery-3, and-4)
+conj(scenery-3, music-5)
+aux(stirring-8, were-6)
+advmod(stirring-8, very-7)
+punct(stirring-8, .-9)
+
+Sentence #6 (13 tokens):
+The film is a lament to an America that was once beautiful.
+[Text=The CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=DT] [Text=lament CharacterOffsetBegin=464 CharacterOffsetEnd=470 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=TO] [Text=an CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=DT] [Text=America CharacterOffsetBegin=477 CharacterOffsetEnd=484 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=485 CharacterOffsetEnd=489 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=VBD] [Text=once CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=RB] [Text=beautiful CharacterOffsetBegin=499 CharacterOffsetEnd=508 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=.] 
+root(ROOT-0, lament-5)
+det(film-2, The-1)
+nsubj(lament-5, film-2)
+cop(lament-5, is-3)
+det(lament-5, a-4)
+prep(lament-5, to-6)
+det(America-8, an-7)
+pobj(to-6, America-8)
+nsubj(beautiful-12, that-9)
+cop(beautiful-12, was-10)
+advmod(beautiful-12, once-11)
+rcmod(lament-5, beautiful-12)
+punct(lament-5, .-13)
+

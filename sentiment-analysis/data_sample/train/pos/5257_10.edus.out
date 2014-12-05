@@ -1,0 +1,208 @@
+Sentence #1 (13 tokens):
+I must say, this movie has given me a dual personality.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=must CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD] [Text=say CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=,] [Text=this CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VBZ] [Text=given CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=VBN] [Text=me CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=dual CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=JJ] [Text=personality CharacterOffsetBegin=47 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, say-3)
+nsubj(say-3, I-1)
+aux(say-3, must-2)
+punct(say-3, ,-4)
+det(movie-6, this-5)
+nsubj(given-8, movie-6)
+aux(given-8, has-7)
+ccomp(say-3, given-8)
+iobj(given-8, me-9)
+det(personality-12, a-10)
+amod(personality-12, dual-11)
+dobj(given-8, personality-12)
+punct(say-3, .-13)
+
+Sentence #2 (18 tokens):
+I've been told again and again to SHUT UP and start speaking like a normal person.
+[Text=I CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=VBP] [Text=been CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=VBN] [Text=told CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=VBN] [Text=again CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=CC] [Text=again CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=TO] [Text=SHUT CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=VB] [Text=UP CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=CC] [Text=start CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=VB] [Text=speaking CharacterOffsetBegin=116 CharacterOffsetEnd=124 PartOfSpeech=VBG] [Text=like CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=normal CharacterOffsetBegin=132 CharacterOffsetEnd=138 PartOfSpeech=JJ] [Text=person CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=.] 
+root(ROOT-0, told-4)
+nsubjpass(told-4, I-1)
+aux(told-4, 've-2)
+auxpass(told-4, been-3)
+advmod(told-4, again-5)
+cc(told-4, and-6)
+advmod(told-4, again-7)
+aux(SHUT-9, to-8)
+conj(told-4, SHUT-9)
+dobj(SHUT-9, UP-10)
+cc(SHUT-9, and-11)
+conj(SHUT-9, start-12)
+xcomp(start-12, speaking-13)
+prep(speaking-13, like-14)
+det(person-17, a-15)
+amod(person-17, normal-16)
+pobj(like-14, person-17)
+punct(told-4, .-18)
+
+Sentence #3 (12 tokens):
+But, it's very hard... no not the wang.
+[Text=But CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=,] [Text=it CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=RB] [Text=hard CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=JJ] [Text=... CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=:] [Text=no CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=DT] [Text=not CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=DT] [Text=wang CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=.] 
+root(ROOT-0, hard-6)
+cc(hard-6, But-1)
+punct(hard-6, ,-2)
+nsubj(hard-6, it-3)
+cop(hard-6, 's-4)
+advmod(hard-6, very-5)
+punct(hard-6, ...-7)
+dep(not-9, no-8)
+neg(wang-11, not-9)
+det(wang-11, the-10)
+dep(hard-6, wang-11)
+punct(hard-6, .-12)
+
+Sentence #4 (8 tokens):
+Did you find that disgusting and disrespectful?
+[Text=Did CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=VBD] [Text=you CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=PRP] [Text=find CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=DT] [Text=disgusting CharacterOffsetBegin=213 CharacterOffsetEnd=223 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=CC] [Text=disrespectful CharacterOffsetBegin=228 CharacterOffsetEnd=241 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=.] 
+root(ROOT-0, find-3)
+aux(find-3, Did-1)
+nsubj(find-3, you-2)
+dobj(find-3, that-4)
+dep(that-4, disgusting-5)
+cc(disgusting-5, and-6)
+conj(disgusting-5, disrespectful-7)
+punct(find-3, ?-8)
+
+Sentence #5 (11 tokens):
+Well, get in the mood for a lot more.
+[Text=Well CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=,] [Text=get CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=DT] [Text=mood CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=RBR] [Text=. CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=.] 
+root(ROOT-0, Well-1)
+punct(Well-1, ,-2)
+dep(Well-1, get-3)
+prep(get-3, in-4)
+det(mood-6, the-5)
+pobj(in-4, mood-6)
+prep(get-3, for-7)
+det(lot-9, a-8)
+npadvmod(more-10, lot-9)
+pobj(for-7, more-10)
+punct(Well-1, .-11)
+
+Sentence #6 (6 tokens):
+This movie is just filthy!
+[Text=This CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=RB] [Text=filthy CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=.] 
+root(ROOT-0, filthy-5)
+det(movie-2, This-1)
+nsubj(filthy-5, movie-2)
+cop(filthy-5, is-3)
+advmod(filthy-5, just-4)
+punct(filthy-5, !-6)
+
+Sentence #7 (26 tokens):
+It's not a film to show your grand-parents, but you should show it to a teenager or some immature guy at your workplace.
+[Text=It CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=TO] [Text=show CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=PRP$] [Text=grand-parents CharacterOffsetBegin=349 CharacterOffsetEnd=362 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=,] [Text=but CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=MD] [Text=show CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=DT] [Text=teenager CharacterOffsetBegin=392 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=CC] [Text=some CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=DT] [Text=immature CharacterOffsetBegin=409 CharacterOffsetEnd=417 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=422 CharacterOffsetEnd=424 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=PRP$] [Text=workplace CharacterOffsetBegin=430 CharacterOffsetEnd=439 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=439 CharacterOffsetEnd=440 PartOfSpeech=.] 
+root(ROOT-0, film-5)
+nsubj(film-5, It-1)
+cop(film-5, 's-2)
+neg(film-5, not-3)
+det(film-5, a-4)
+aux(show-7, to-6)
+infmod(film-5, show-7)
+poss(grand-parents-9, your-8)
+dobj(show-7, grand-parents-9)
+punct(film-5, ,-10)
+cc(film-5, but-11)
+nsubj(show-14, you-12)
+aux(show-14, should-13)
+conj(film-5, show-14)
+dobj(show-14, it-15)
+prep(show-14, to-16)
+det(teenager-18, a-17)
+pobj(to-16, teenager-18)
+cc(teenager-18, or-19)
+det(guy-22, some-20)
+amod(guy-22, immature-21)
+conj(teenager-18, guy-22)
+prep(guy-22, at-23)
+poss(workplace-25, your-24)
+pobj(at-23, workplace-25)
+punct(film-5, .-26)
+
+Sentence #8 (8 tokens):
+Anyway, back to the voice mannerisms.
+[Text=Anyway CharacterOffsetBegin=445 CharacterOffsetEnd=451 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=,] [Text=back CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=458 CharacterOffsetEnd=460 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=DT] [Text=voice CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=NN] [Text=mannerisms CharacterOffsetBegin=471 CharacterOffsetEnd=481 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=481 CharacterOffsetEnd=482 PartOfSpeech=.] 
+root(ROOT-0, Anyway-1)
+punct(Anyway-1, ,-2)
+advmod(Anyway-1, back-3)
+prep(back-3, to-4)
+det(mannerisms-7, the-5)
+nn(mannerisms-7, voice-6)
+pobj(to-4, mannerisms-7)
+punct(Anyway-1, .-8)
+
+Sentence #9 (25 tokens):
+Fortunately this site has some Ladies Man (did anyone at the studio notice that there's supposed to be a apostrophe(?)
+[Text=Fortunately CharacterOffsetBegin=487 CharacterOffsetEnd=498 PartOfSpeech=RB] [Text=this CharacterOffsetBegin=499 CharacterOffsetEnd=503 PartOfSpeech=DT] [Text=site CharacterOffsetBegin=504 CharacterOffsetEnd=508 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=VBZ] [Text=some CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=Ladies CharacterOffsetBegin=518 CharacterOffsetEnd=524 PartOfSpeech=NNP] [Text=Man CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=-LRB-] [Text=did CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=VBD] [Text=anyone CharacterOffsetBegin=534 CharacterOffsetEnd=540 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=544 CharacterOffsetEnd=547 PartOfSpeech=DT] [Text=studio CharacterOffsetBegin=548 CharacterOffsetEnd=554 PartOfSpeech=NN] [Text=notice CharacterOffsetBegin=555 CharacterOffsetEnd=561 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=567 CharacterOffsetEnd=572 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=VBZ] [Text=supposed CharacterOffsetBegin=575 CharacterOffsetEnd=583 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=587 CharacterOffsetEnd=589 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=DT] [Text=apostrophe CharacterOffsetBegin=592 CharacterOffsetEnd=602 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=-LRB-] [Text=? CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=-RRB-] 
+root(ROOT-0, has-4)
+advmod(has-4, Fortunately-1)
+det(site-3, this-2)
+nsubj(has-4, site-3)
+det(Man-7, some-5)
+nn(Man-7, Ladies-6)
+dobj(has-4, Man-7)
+punct(did-9, -LRB--8)
+dep(Man-7, did-9)
+dobj(did-9, anyone-10)
+prep(did-9, at-11)
+det(notice-14, the-12)
+nn(notice-14, studio-13)
+pobj(at-11, notice-14)
+mark(supposed-18, that-15)
+expl(supposed-18, there-16)
+auxpass(supposed-18, 's-17)
+ccomp(did-9, supposed-18)
+aux(apostrophe-22, to-19)
+cop(apostrophe-22, be-20)
+det(apostrophe-22, a-21)
+xcomp(supposed-18, apostrophe-22)
+punct(apostrophe-22, -LRB--23)
+punct(apostrophe-22, ?-24)
+punct(did-9, -RRB--25)
+
+Sentence #10 (7 tokens):
+between the e and s?)
+[Text=between CharacterOffsetBegin=610 CharacterOffsetEnd=617 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=DT] [Text=e CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=SYM] [Text=and CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=CC] [Text=s CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=NNS] [Text=? CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=-RRB-] 
+root(ROOT-0, between-1)
+pobj(between-1, the-2)
+dep(the-2, e-3)
+cc(e-3, and-4)
+conj(e-3, s-5)
+punct(e-3, ?-6)
+punct(between-1, -RRB--7)
+
+Sentence #11 (18 tokens):
+so you can always have a fine little something to say to your boss or the cops.
+[Text=so CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=MD] [Text=always CharacterOffsetBegin=647 CharacterOffsetEnd=653 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=DT] [Text=fine CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=JJ] [Text=little CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=JJ] [Text=something CharacterOffsetBegin=673 CharacterOffsetEnd=682 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=683 CharacterOffsetEnd=685 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=690 CharacterOffsetEnd=692 PartOfSpeech=TO] [Text=your CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=PRP$] [Text=boss CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=703 CharacterOffsetEnd=705 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=DT] [Text=cops CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=714 CharacterOffsetEnd=715 PartOfSpeech=.] 
+root(ROOT-0, have-5)
+advmod(have-5, so-1)
+nsubj(have-5, you-2)
+aux(have-5, can-3)
+advmod(have-5, always-4)
+det(little-8, a-6)
+amod(little-8, fine-7)
+dobj(have-5, little-8)
+dep(little-8, something-9)
+aux(say-11, to-10)
+infmod(something-9, say-11)
+prep(say-11, to-12)
+poss(boss-14, your-13)
+pobj(to-12, boss-14)
+cc(boss-14, or-15)
+det(cops-17, the-16)
+conj(boss-14, cops-17)
+punct(have-5, .-18)
+
+Sentence #12 (8 tokens):
+I have a sheet in my wallet.
+[Text=I CharacterOffsetBegin=720 CharacterOffsetEnd=721 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=722 CharacterOffsetEnd=726 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=727 CharacterOffsetEnd=728 PartOfSpeech=DT] [Text=sheet CharacterOffsetBegin=729 CharacterOffsetEnd=734 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=735 CharacterOffsetEnd=737 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=738 CharacterOffsetEnd=740 PartOfSpeech=PRP$] [Text=wallet CharacterOffsetBegin=741 CharacterOffsetEnd=747 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=747 CharacterOffsetEnd=748 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+det(sheet-4, a-3)
+dobj(have-2, sheet-4)
+prep(have-2, in-5)
+poss(wallet-7, my-6)
+pobj(in-5, wallet-7)
+punct(have-2, .-8)
+

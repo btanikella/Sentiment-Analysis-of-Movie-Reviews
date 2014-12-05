@@ -1,0 +1,69 @@
+Sentence #1 (8 tokens):
+I just saw the movie on tv.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=IN] [Text=tv CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=.] 
+root(ROOT-0, saw-3)
+nsubj(saw-3, I-1)
+advmod(saw-3, just-2)
+det(movie-5, the-4)
+dobj(saw-3, movie-5)
+prep(movie-5, on-6)
+pobj(on-6, tv-7)
+punct(saw-3, .-8)
+
+Sentence #2 (5 tokens):
+I really enjoyed it.
+[Text=I CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=RB] [Text=enjoyed CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, enjoyed-3)
+nsubj(enjoyed-3, I-1)
+advmod(enjoyed-3, really-2)
+dobj(enjoyed-3, it-4)
+punct(enjoyed-3, .-5)
+
+Sentence #3 (6 tokens):
+I like a good mystery.
+[Text=I CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=JJ] [Text=mystery CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=.] 
+root(ROOT-0, like-2)
+nsubj(like-2, I-1)
+det(mystery-5, a-3)
+amod(mystery-5, good-4)
+dobj(like-2, mystery-5)
+punct(like-2, .-6)
+
+Sentence #4 (11 tokens):
+and this one had me guessing up to the end.
+[Text=and CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=CD] [Text=had CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=PRP] [Text=guessing CharacterOffsetBegin=108 CharacterOffsetEnd=116 PartOfSpeech=VBG] [Text=up CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.] 
+root(ROOT-0, had-4)
+cc(had-4, and-1)
+det(one-3, this-2)
+nsubj(had-4, one-3)
+nsubj(guessing-6, me-5)
+xcomp(had-4, guessing-6)
+prt(guessing-6, up-7)
+prep(guessing-6, to-8)
+det(end-10, the-9)
+pobj(to-8, end-10)
+punct(had-4, .-11)
+
+Sentence #5 (7 tokens):
+Sean Connery did a good job.
+[Text=Sean CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=Connery CharacterOffsetBegin=141 CharacterOffsetEnd=148 PartOfSpeech=NNP] [Text=did CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=.] 
+root(ROOT-0, did-3)
+nn(Connery-2, Sean-1)
+nsubj(did-3, Connery-2)
+det(job-6, a-4)
+amod(job-6, good-5)
+dobj(did-3, job-6)
+punct(did-3, .-7)
+
+Sentence #6 (8 tokens):
+I would recomend it to a friend.
+[Text=I CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=MD] [Text=recomend CharacterOffsetBegin=177 CharacterOffsetEnd=185 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=DT] [Text=friend CharacterOffsetBegin=194 CharacterOffsetEnd=200 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=.] 
+root(ROOT-0, recomend-3)
+nsubj(recomend-3, I-1)
+aux(recomend-3, would-2)
+dobj(recomend-3, it-4)
+prep(recomend-3, to-5)
+det(friend-7, a-6)
+pobj(to-5, friend-7)
+punct(recomend-3, .-8)
+

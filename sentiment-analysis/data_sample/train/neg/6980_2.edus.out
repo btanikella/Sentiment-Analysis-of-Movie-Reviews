@@ -1,0 +1,117 @@
+Sentence #1 (3 tokens):
+Historically accurate?
+[Text=Historically CharacterOffsetBegin=4 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=accurate CharacterOffsetBegin=17 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.] 
+root(ROOT-0, accurate-2)
+nsubj(accurate-2, Historically-1)
+punct(accurate-2, ?-3)
+
+Sentence #2 (16 tokens):
+Hmm... Perhaps... if you squint, and light falls upon the subject just-so.
+[Text=Hmm CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=:] [Text=Perhaps CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=RB] [Text=... CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=:] [Text=if CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=PRP] [Text=squint CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=,] [Text=and CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=CC] [Text=light CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=falls CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=VBZ] [Text=upon CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=DT] [Text=subject CharacterOffsetBegin=89 CharacterOffsetEnd=96 PartOfSpeech=JJ] [Text=just-so CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, Hmm-1)
+punct(Hmm-1, ...-2)
+dep(Hmm-1, Perhaps-3)
+punct(Hmm-1, ...-4)
+mark(squint-7, if-5)
+nsubj(squint-7, you-6)
+dep(Hmm-1, squint-7)
+punct(squint-7, ,-8)
+cc(squint-7, and-9)
+amod(falls-11, light-10)
+conj(squint-7, falls-11)
+prep(falls-11, upon-12)
+det(just-so-15, the-13)
+amod(just-so-15, subject-14)
+pobj(upon-12, just-so-15)
+punct(Hmm-1, .-16)
+
+Sentence #3 (24 tokens):
+But core accuracy is no compensation for a dismal, patchy and inconsistent plot, reams of cardboard dialogue and an unsatisfying conclusion.
+[Text=But CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=CC] [Text=core CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=NN] [Text=accuracy CharacterOffsetBegin=119 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=compensation CharacterOffsetBegin=134 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=DT] [Text=dismal CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=,] [Text=patchy CharacterOffsetBegin=161 CharacterOffsetEnd=167 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=CC] [Text=inconsistent CharacterOffsetBegin=172 CharacterOffsetEnd=184 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=,] [Text=reams CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=IN] [Text=cardboard CharacterOffsetBegin=200 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=dialogue CharacterOffsetBegin=210 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=CC] [Text=an CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=DT] [Text=unsatisfying CharacterOffsetBegin=226 CharacterOffsetEnd=238 PartOfSpeech=JJ] [Text=conclusion CharacterOffsetBegin=239 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=.] 
+root(ROOT-0, compensation-6)
+cc(compensation-6, But-1)
+nn(accuracy-3, core-2)
+nsubj(compensation-6, accuracy-3)
+cop(compensation-6, is-4)
+det(compensation-6, no-5)
+prep(compensation-6, for-7)
+det(patchy-11, a-8)
+amod(patchy-11, dismal-9)
+punct(patchy-11, ,-10)
+pobj(for-7, patchy-11)
+cc(patchy-11, and-12)
+amod(plot-14, inconsistent-13)
+conj(patchy-11, plot-14)
+punct(compensation-6, ,-15)
+dep(compensation-6, reams-16)
+prep(reams-16, of-17)
+nn(dialogue-19, cardboard-18)
+pobj(of-17, dialogue-19)
+cc(dialogue-19, and-20)
+det(conclusion-23, an-21)
+amod(conclusion-23, unsatisfying-22)
+conj(dialogue-19, conclusion-23)
+punct(compensation-6, .-24)
+
+Sentence #4 (31 tokens):
+The principal characters are merely characterizations; embarrassing stereotypes that range from the 'enigmatic and noble' American Indians through to the 'stuffy but sadistic' British officers.
+[Text=The CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=principal CharacterOffsetBegin=259 CharacterOffsetEnd=268 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=269 CharacterOffsetEnd=279 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=VBP] [Text=merely CharacterOffsetBegin=284 CharacterOffsetEnd=290 PartOfSpeech=RB] [Text=characterizations CharacterOffsetBegin=291 CharacterOffsetEnd=308 PartOfSpeech=NNS] [Text=; CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=:] [Text=embarrassing CharacterOffsetBegin=310 CharacterOffsetEnd=322 PartOfSpeech=JJ] [Text=stereotypes CharacterOffsetBegin=323 CharacterOffsetEnd=334 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=WDT] [Text=range CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=VBP] [Text=from CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=355 CharacterOffsetEnd=356 PartOfSpeech=``] [Text=enigmatic CharacterOffsetBegin=356 CharacterOffsetEnd=365 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=CC] [Text=noble CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=''] [Text=American CharacterOffsetBegin=377 CharacterOffsetEnd=385 PartOfSpeech=JJ] [Text=Indians CharacterOffsetBegin=386 CharacterOffsetEnd=393 PartOfSpeech=NNPS] [Text=through CharacterOffsetBegin=394 CharacterOffsetEnd=401 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=``] [Text=stuffy CharacterOffsetBegin=410 CharacterOffsetEnd=416 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=CC] [Text=sadistic CharacterOffsetBegin=421 CharacterOffsetEnd=429 PartOfSpeech=JJ] [Text=' CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=''] [Text=British CharacterOffsetBegin=431 CharacterOffsetEnd=438 PartOfSpeech=JJ] [Text=officers CharacterOffsetBegin=439 CharacterOffsetEnd=447 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=.] 
+root(ROOT-0, characterizations-6)
+det(characters-3, The-1)
+amod(characters-3, principal-2)
+nsubj(characterizations-6, characters-3)
+cop(characterizations-6, are-4)
+advmod(characterizations-6, merely-5)
+punct(characterizations-6, ;-7)
+amod(stereotypes-9, embarrassing-8)
+conj(characterizations-6, stereotypes-9)
+nsubj(range-11, that-10)
+rcmod(stereotypes-9, range-11)
+prep(range-11, from-12)
+det(enigmatic-15, the-13)
+punct(enigmatic-15, `-14)
+pobj(from-12, enigmatic-15)
+cc(enigmatic-15, and-16)
+amod(Indians-20, noble-17)
+punct(Indians-20, '-18)
+amod(Indians-20, American-19)
+conj(enigmatic-15, Indians-20)
+prep(range-11, through-21)
+pcomp(through-21, to-22)
+dep(to-22, the-23)
+punct(the-23, `-24)
+dep(`-24, stuffy-25)
+cc(stuffy-25, but-26)
+amod(officers-30, sadistic-27)
+punct(officers-30, '-28)
+amod(officers-30, British-29)
+conj(stuffy-25, officers-30)
+punct(stuffy-25, .-31)
+
+Sentence #5 (13 tokens):
+A wretched and unworthy rendition of a fascinating period in American history.
+[Text=A CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=DT] [Text=wretched CharacterOffsetBegin=455 CharacterOffsetEnd=463 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=CC] [Text=unworthy CharacterOffsetBegin=468 CharacterOffsetEnd=476 PartOfSpeech=JJ] [Text=rendition CharacterOffsetBegin=477 CharacterOffsetEnd=486 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=DT] [Text=fascinating CharacterOffsetBegin=492 CharacterOffsetEnd=503 PartOfSpeech=JJ] [Text=period CharacterOffsetBegin=504 CharacterOffsetEnd=510 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=IN] [Text=American CharacterOffsetBegin=514 CharacterOffsetEnd=522 PartOfSpeech=JJ] [Text=history CharacterOffsetBegin=523 CharacterOffsetEnd=530 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=.] 
+root(ROOT-0, rendition-5)
+det(rendition-5, A-1)
+amod(rendition-5, wretched-2)
+cc(wretched-2, and-3)
+conj(wretched-2, unworthy-4)
+prep(rendition-5, of-6)
+det(period-9, a-7)
+amod(period-9, fascinating-8)
+pobj(of-6, period-9)
+prep(period-9, in-10)
+amod(history-12, American-11)
+pobj(in-10, history-12)
+punct(rendition-5, .-13)
+
+Sentence #6 (6 tokens):
+I want my money back.
+[Text=I CharacterOffsetBegin=536 CharacterOffsetEnd=537 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=VBP] [Text=my CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=PRP$] [Text=money CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=NN] [Text=back CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=.] 
+root(ROOT-0, want-2)
+nsubj(want-2, I-1)
+poss(money-4, my-3)
+dobj(want-2, money-4)
+advmod(want-2, back-5)
+punct(want-2, .-6)
+

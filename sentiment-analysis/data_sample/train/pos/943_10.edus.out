@@ -1,0 +1,81 @@
+Sentence #1 (12 tokens):
+I saw a lot films about Charles Dickens' Christmas Carol.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=NN] [Text=films CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=IN] [Text=Charles CharacterOffsetBegin=28 CharacterOffsetEnd=35 PartOfSpeech=NNP] [Text=Dickens CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=POS] [Text=Christmas CharacterOffsetBegin=45 CharacterOffsetEnd=54 PartOfSpeech=NNP] [Text=Carol CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+det(films-5, a-3)
+nn(films-5, lot-4)
+dobj(saw-2, films-5)
+prep(films-5, about-6)
+nn(Dickens-8, Charles-7)
+poss(Carol-11, Dickens-8)
+possessive(Dickens-8, '-9)
+nn(Carol-11, Christmas-10)
+pobj(about-6, Carol-11)
+punct(saw-2, .-12)
+
+Sentence #2 (9 tokens):
+But this one is the best of all!
+[Text=But CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=CD] [Text=is CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=DT] [Text=! CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=.] 
+root(ROOT-0, best-6)
+cc(best-6, But-1)
+det(one-3, this-2)
+nsubj(best-6, one-3)
+cop(best-6, is-4)
+det(best-6, the-5)
+prep(best-6, of-7)
+pobj(of-7, all-8)
+punct(best-6, !-9)
+
+Sentence #3 (14 tokens):
+There is an atmosphere which is exactly the same as in the book.
+[Text=There CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=DT] [Text=atmosphere CharacterOffsetBegin=115 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=VBZ] [Text=exactly CharacterOffsetBegin=135 CharacterOffsetEnd=142 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=152 CharacterOffsetEnd=154 PartOfSpeech=IN] [Text=in CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=DT] [Text=book CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(atmosphere-4, an-3)
+nsubj(is-2, atmosphere-4)
+nsubj(same-9, which-5)
+cop(same-9, is-6)
+advmod(same-9, exactly-7)
+det(same-9, the-8)
+rcmod(atmosphere-4, same-9)
+prep(same-9, as-10)
+pcomp(as-10, in-11)
+det(book-13, the-12)
+pobj(in-11, book-13)
+punct(is-2, .-14)
+
+Sentence #4 (12 tokens):
+The actors (George C. Scott and others) are great!
+[Text=The CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=-LRB-] [Text=George CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=NNP] [Text=C. CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=NNP] [Text=Scott CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=CC] [Text=others CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=NNS] [Text=-RRB- CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=-RRB-] [Text=are CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=VBP] [Text=great CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=.] 
+root(ROOT-0, great-11)
+det(actors-2, The-1)
+nsubj(great-11, actors-2)
+punct(Scott-6, -LRB--3)
+nn(Scott-6, George-4)
+nn(Scott-6, C.-5)
+appos(actors-2, Scott-6)
+cc(Scott-6, and-7)
+conj(Scott-6, others-8)
+punct(Scott-6, -RRB--9)
+cop(great-11, are-10)
+punct(great-11, !-12)
+
+Sentence #5 (14 tokens):
+Unfortunately, you can't often watch the film in Germany and Switzerland.
+[Text=Unfortunately CharacterOffsetBegin=227 CharacterOffsetEnd=240 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=,] [Text=you CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=often CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=RB] [Text=watch CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=IN] [Text=Germany CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=CC] [Text=Switzerland CharacterOffsetBegin=288 CharacterOffsetEnd=299 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=.] 
+root(ROOT-0, watch-7)
+advmod(watch-7, Unfortunately-1)
+punct(watch-7, ,-2)
+nsubj(watch-7, you-3)
+aux(watch-7, ca-4)
+neg(watch-7, n't-5)
+advmod(watch-7, often-6)
+det(film-9, the-8)
+dobj(watch-7, film-9)
+prep(watch-7, in-10)
+pobj(in-10, Germany-11)
+cc(Germany-11, and-12)
+conj(Germany-11, Switzerland-13)
+punct(watch-7, .-14)
+
