@@ -1,0 +1,86 @@
+Sentence #1 (8 tokens):
+Jim Carrey shines in this beautiful movie.
+[Text=Jim CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NNP] [Text=Carrey CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=shines CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=beautiful CharacterOffsetBegin=30 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=.] 
+root(ROOT-0, shines-3)
+nn(Carrey-2, Jim-1)
+nsubj(shines-3, Carrey-2)
+prep(shines-3, in-4)
+det(movie-7, this-5)
+amod(movie-7, beautiful-6)
+pobj(in-4, movie-7)
+punct(shines-3, .-8)
+
+Sentence #2 (9 tokens):
+This is now one of my favorite movies.
+[Text=This CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=VBZ] [Text=now CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=73 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=.] 
+root(ROOT-0, one-4)
+nsubj(one-4, This-1)
+cop(one-4, is-2)
+advmod(one-4, now-3)
+prep(one-4, of-5)
+poss(movies-8, my-6)
+amod(movies-8, favorite-7)
+pobj(of-5, movies-8)
+punct(one-4, .-9)
+
+Sentence #3 (17 tokens):
+I read all about the making and I thought it was incredible how the did it.
+[Text=I CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=PRP] [Text=read CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=about CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=DT] [Text=making CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=VBD] [Text=incredible CharacterOffsetBegin=143 CharacterOffsetEnd=153 PartOfSpeech=JJ] [Text=how CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=DT] [Text=did CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=.] 
+root(ROOT-0, read-2)
+nsubj(read-2, I-1)
+dobj(read-2, all-3)
+prep(all-3, about-4)
+det(making-6, the-5)
+pobj(about-4, making-6)
+cc(read-2, and-7)
+nsubj(thought-9, I-8)
+conj(read-2, thought-9)
+nsubj(incredible-12, it-10)
+cop(incredible-12, was-11)
+ccomp(thought-9, incredible-12)
+advmod(did-15, how-13)
+nsubj(did-15, the-14)
+ccomp(incredible-12, did-15)
+dobj(did-15, it-16)
+punct(read-2, .-17)
+
+Sentence #4 (11 tokens):
+I can't wait till this comes out on DVD.
+[Text=I CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=wait CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=VB] [Text=till CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=comes CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=RP] [Text=on CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=IN] [Text=DVD CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=.] 
+root(ROOT-0, wait-4)
+nsubj(wait-4, I-1)
+aux(wait-4, ca-2)
+neg(wait-4, n't-3)
+mark(comes-7, till-5)
+nsubj(comes-7, this-6)
+advcl(wait-4, comes-7)
+prt(comes-7, out-8)
+prep(comes-7, on-9)
+pobj(on-9, DVD-10)
+punct(wait-4, .-11)
+
+Sentence #5 (21 tokens):
+I saw this in theaters so many times, I can't even count how times I've seen it.
+[Text=I CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=DT] [Text=in CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=IN] [Text=theaters CharacterOffsetBegin=233 CharacterOffsetEnd=241 PartOfSpeech=NNS] [Text=so CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=,] [Text=I CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=RB] [Text=count CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=VB] [Text=how CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=WRB] [Text=times CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+dobj(saw-2, this-3)
+prep(saw-2, in-4)
+pobj(in-4, theaters-5)
+advmod(times-8, so-6)
+amod(times-8, many-7)
+tmod(saw-2, times-8)
+punct(saw-2, ,-9)
+nsubj(count-14, I-10)
+aux(count-14, ca-11)
+neg(count-14, n't-12)
+advmod(count-14, even-13)
+ccomp(saw-2, count-14)
+advmod(times-16, how-15)
+advmod(seen-19, times-16)
+nsubj(seen-19, I-17)
+aux(seen-19, 've-18)
+ccomp(count-14, seen-19)
+dobj(seen-19, it-20)
+punct(saw-2, .-21)
+

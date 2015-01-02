@@ -1,0 +1,69 @@
+Sentence #1 (12 tokens):
+This film is not even worth walking to the movie theatre.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=JJ] [Text=walking CharacterOffsetBegin=32 CharacterOffsetEnd=39 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=theatre CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, worth-6)
+det(film-2, This-1)
+nsubj(worth-6, film-2)
+cop(worth-6, is-3)
+neg(worth-6, not-4)
+advmod(worth-6, even-5)
+dep(worth-6, walking-7)
+prep(walking-7, to-8)
+det(theatre-11, the-9)
+nn(theatre-11, movie-10)
+pobj(to-8, theatre-11)
+punct(worth-6, .-12)
+
+Sentence #2 (13 tokens):
+No jokes, but stupid and boring laughing on repeated disgusting stuff.
+[Text=No CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=DT] [Text=jokes CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=,] [Text=but CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=CC] [Text=stupid CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=CC] [Text=boring CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=JJ] [Text=laughing CharacterOffsetBegin=98 CharacterOffsetEnd=106 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=IN] [Text=repeated CharacterOffsetBegin=110 CharacterOffsetEnd=118 PartOfSpeech=VBN] [Text=disgusting CharacterOffsetBegin=119 CharacterOffsetEnd=129 PartOfSpeech=JJ] [Text=stuff CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=.] 
+root(ROOT-0, jokes-2)
+det(jokes-2, No-1)
+punct(jokes-2, ,-3)
+cc(jokes-2, but-4)
+amod(laughing-8, stupid-5)
+cc(stupid-5, and-6)
+conj(stupid-5, boring-7)
+conj(jokes-2, laughing-8)
+prep(laughing-8, on-9)
+amod(stuff-12, repeated-10)
+amod(stuff-12, disgusting-11)
+pobj(on-9, stuff-12)
+punct(jokes-2, .-13)
+
+Sentence #3 (20 tokens):
+The music and the girls are great, unfortunately you have to watch the whole movie to enjoy them.
+[Text=The CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=girls CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=VBP] [Text=great CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=,] [Text=unfortunately CharacterOffsetBegin=176 CharacterOffsetEnd=189 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=TO] [Text=enjoy CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=.] 
+root(ROOT-0, great-7)
+det(music-2, The-1)
+nsubj(great-7, music-2)
+cc(music-2, and-3)
+det(girls-5, the-4)
+conj(music-2, girls-5)
+cop(great-7, are-6)
+punct(great-7, ,-8)
+advmod(have-11, unfortunately-9)
+nsubj(have-11, you-10)
+dep(great-7, have-11)
+aux(watch-13, to-12)
+xcomp(have-11, watch-13)
+det(movie-16, the-14)
+amod(movie-16, whole-15)
+dobj(watch-13, movie-16)
+aux(enjoy-18, to-17)
+xcomp(watch-13, enjoy-18)
+dobj(enjoy-18, them-19)
+punct(great-7, .-20)
+
+Sentence #4 (8 tokens):
+It was weak, very very weak.
+[Text=It CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=VBD] [Text=weak CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=,] [Text=very CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=RB] [Text=weak CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, weak-3)
+nsubj(weak-3, It-1)
+cop(weak-3, was-2)
+punct(weak-3, ,-4)
+advmod(weak-7, very-5)
+advmod(weak-7, very-6)
+advmod(weak-3, weak-7)
+punct(weak-3, .-8)
+

@@ -1,0 +1,79 @@
+Sentence #1 (20 tokens):
+i would never have thought that it would be possible to make such an impressive movie without any music.
+[Text=i CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=LS] [Text=would CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=VB] [Text=thought CharacterOffsetBegin=23 CharacterOffsetEnd=30 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=VB] [Text=possible CharacterOffsetBegin=48 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=VB] [Text=such CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=PDT] [Text=an CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=impressive CharacterOffsetBegin=73 CharacterOffsetEnd=83 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=without CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=.] 
+root(ROOT-0, thought-5)
+nsubjpass(thought-5, i-1)
+aux(thought-5, would-2)
+neg(thought-5, never-3)
+aux(thought-5, have-4)
+mark(possible-10, that-6)
+nsubj(possible-10, it-7)
+aux(possible-10, would-8)
+cop(possible-10, be-9)
+ccomp(thought-5, possible-10)
+aux(make-12, to-11)
+xcomp(possible-10, make-12)
+predet(movie-16, such-13)
+det(movie-16, an-14)
+amod(movie-16, impressive-15)
+dobj(make-12, movie-16)
+prep(make-12, without-17)
+det(music-19, any-18)
+pobj(without-17, music-19)
+punct(thought-5, .-20)
+
+Sentence #2 (4 tokens):
+but it is.
+[Text=but CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+cc(is-3, but-1)
+nsubj(is-3, it-2)
+punct(is-3, .-4)
+
+Sentence #3 (4 tokens):
+just the pictures.
+[Text=just CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=pictures CharacterOffsetBegin=137 CharacterOffsetEnd=145 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=.] 
+root(ROOT-0, pictures-3)
+advmod(pictures-3, just-1)
+det(pictures-3, the-2)
+punct(pictures-3, .-4)
+
+Sentence #4 (18 tokens):
+watch out for that picture: anne talking with that little boy benny 'bout the soul.
+[Text=watch CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=picture CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=:] [Text=anne CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=talking CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=VBG] [Text=with CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=boy CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=benny CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=` CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=``] [Text=bout CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=soul CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, watch-1)
+prt(watch-1, out-2)
+prep(watch-1, for-3)
+det(picture-5, that-4)
+pobj(for-3, picture-5)
+punct(watch-1, :-6)
+dep(watch-1, anne-7)
+partmod(anne-7, talking-8)
+prep(talking-8, with-9)
+det(bout-15, that-10)
+amod(bout-15, little-11)
+nn(bout-15, boy-12)
+amod(bout-15, benny-13)
+punct(bout-15, `-14)
+pobj(with-9, bout-15)
+det(soul-17, the-16)
+dep(bout-15, soul-17)
+punct(watch-1, .-18)
+
+Sentence #5 (3 tokens):
+really strong.
+[Text=really CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=RB] [Text=strong CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=.] 
+root(ROOT-0, strong-2)
+advmod(strong-2, really-1)
+punct(strong-2, .-3)
+
+Sentence #6 (6 tokens):
+might make you feel different.
+[Text=might CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=PRP] [Text=feel CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=VBP] [Text=different CharacterOffsetBegin=278 CharacterOffsetEnd=287 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=.] 
+root(ROOT-0, make-2)
+aux(make-2, might-1)
+nsubj(feel-4, you-3)
+ccomp(make-2, feel-4)
+acomp(feel-4, different-5)
+punct(make-2, .-6)
+

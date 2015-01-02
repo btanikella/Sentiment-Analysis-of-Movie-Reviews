@@ -1,0 +1,213 @@
+Sentence #1 (15 tokens):
+I swear when I first saw this movie,I cried my eyes out!
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=swear CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBP] [Text=when CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=PRP] [Text=first CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=,] [Text=I CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=PRP] [Text=cried CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=PRP$] [Text=eyes CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NNS] [Text=out CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=IN] [Text=! CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=.] 
+root(ROOT-0, swear-2)
+nsubj(swear-2, I-1)
+advmod(saw-6, when-3)
+nsubj(saw-6, I-4)
+advmod(saw-6, first-5)
+advcl(swear-2, saw-6)
+det(movie-8, this-7)
+dobj(saw-6, movie-8)
+punct(swear-2, ,-9)
+nsubj(cried-11, I-10)
+dep(swear-2, cried-11)
+poss(eyes-13, my-12)
+dobj(cried-11, eyes-13)
+advmod(cried-11, out-14)
+punct(swear-2, !-15)
+
+Sentence #2 (32 tokens):
+A STAR IS BORN is the movie that lets you know what love is really like despite the obstacles John Norman (Kris Kristofferson) and Esther (Streisand) face.
+[Text=A CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=DT] [Text=STAR CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=IS CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=VBZ] [Text=BORN CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=WDT] [Text=lets CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=VBZ] [Text=you CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VBP] [Text=what CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=WP] [Text=love CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=VBZ] [Text=really CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=IN] [Text=despite CharacterOffsetBegin=137 CharacterOffsetEnd=144 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=DT] [Text=obstacles CharacterOffsetBegin=149 CharacterOffsetEnd=158 PartOfSpeech=NNS] [Text=John CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=NNP] [Text=Norman CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=-LRB-] [Text=Kris CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=NNP] [Text=Kristofferson CharacterOffsetBegin=177 CharacterOffsetEnd=190 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=CC] [Text=Esther CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=-LRB-] [Text=Streisand CharacterOffsetBegin=204 CharacterOffsetEnd=213 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=-RRB-] [Text=face CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+det(STAR-2, A-1)
+dep(movie-7, STAR-2)
+nn(BORN-4, IS-3)
+nsubj(movie-7, BORN-4)
+cop(movie-7, is-5)
+det(movie-7, the-6)
+nsubj(lets-9, that-8)
+rcmod(movie-7, lets-9)
+nsubj(know-11, you-10)
+ccomp(lets-9, know-11)
+dobj(is-14, what-12)
+nsubj(is-14, love-13)
+ccomp(know-11, is-14)
+advmod(is-14, really-15)
+prep(is-14, like-16)
+pcomp(like-16, despite-17)
+det(obstacles-19, the-18)
+pobj(despite-17, obstacles-19)
+dep(obstacles-19, John-20)
+dep(John-20, Norman-21)
+punct(Kristofferson-24, -LRB--22)
+nn(Kristofferson-24, Kris-23)
+appos(Norman-21, Kristofferson-24)
+punct(Kristofferson-24, -RRB--25)
+cc(Norman-21, and-26)
+nn(face-31, Esther-27)
+punct(Streisand-29, -LRB--28)
+dep(face-31, Streisand-29)
+punct(Streisand-29, -RRB--30)
+conj(Norman-21, face-31)
+punct(movie-7, .-32)
+
+Sentence #3 (20 tokens):
+You also experience what it's like to lose a love like that by the end of the movie.
+[Text=You CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=PRP] [Text=also CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=RB] [Text=experience CharacterOffsetBegin=234 CharacterOffsetEnd=244 PartOfSpeech=VBP] [Text=what CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=TO] [Text=lose CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=love CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=by CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=.] 
+root(ROOT-0, experience-3)
+nsubj(experience-3, You-1)
+advmod(experience-3, also-2)
+dobj('s-6, what-4)
+nsubj('s-6, it-5)
+ccomp(experience-3, 's-6)
+prep('s-6, like-7)
+aux(lose-9, to-8)
+xcomp(like-7, lose-9)
+det(love-11, a-10)
+dobj(lose-9, love-11)
+prep(love-11, like-12)
+pobj(like-12, that-13)
+prep(lose-9, by-14)
+det(end-16, the-15)
+pobj(by-14, end-16)
+prep(end-16, of-17)
+det(movie-19, the-18)
+pobj(of-17, movie-19)
+punct(experience-3, .-20)
+
+Sentence #4 (14 tokens):
+Streisand and Kristofferson have such great chemistry together and the music is fantastic!
+[Text=Streisand CharacterOffsetBegin=314 CharacterOffsetEnd=323 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=CC] [Text=Kristofferson CharacterOffsetBegin=328 CharacterOffsetEnd=341 PartOfSpeech=NNP] [Text=have CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=VBP] [Text=such CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=JJ] [Text=great CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=JJ] [Text=chemistry CharacterOffsetBegin=358 CharacterOffsetEnd=367 PartOfSpeech=NN] [Text=together CharacterOffsetBegin=368 CharacterOffsetEnd=376 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=385 CharacterOffsetEnd=390 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=VBZ] [Text=fantastic CharacterOffsetBegin=394 CharacterOffsetEnd=403 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=.] 
+root(ROOT-0, have-4)
+nsubj(have-4, Streisand-1)
+cc(Streisand-1, and-2)
+conj(Streisand-1, Kristofferson-3)
+amod(chemistry-7, such-5)
+amod(chemistry-7, great-6)
+dobj(have-4, chemistry-7)
+advmod(have-4, together-8)
+cc(have-4, and-9)
+det(music-11, the-10)
+nsubj(fantastic-13, music-11)
+cop(fantastic-13, is-12)
+conj(have-4, fantastic-13)
+punct(have-4, !-14)
+
+Sentence #5 (18 tokens):
+When Streisand sings With one more look at you/Watch closely now, it's just pure magic!
+[Text=When CharacterOffsetBegin=409 CharacterOffsetEnd=413 PartOfSpeech=WRB] [Text=Streisand CharacterOffsetBegin=414 CharacterOffsetEnd=423 PartOfSpeech=NNP] [Text=sings CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=VBZ] [Text=With CharacterOffsetBegin=430 CharacterOffsetEnd=434 PartOfSpeech=IN] [Text=one CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=CD] [Text=more CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=JJR] [Text=look CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=IN] [Text=you/Watch CharacterOffsetBegin=452 CharacterOffsetEnd=461 PartOfSpeech=NNP] [Text=closely CharacterOffsetBegin=462 CharacterOffsetEnd=469 PartOfSpeech=RB] [Text=now CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=,] [Text=it CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=RB] [Text=pure CharacterOffsetBegin=485 CharacterOffsetEnd=489 PartOfSpeech=JJ] [Text=magic CharacterOffsetBegin=490 CharacterOffsetEnd=495 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=.] 
+root(ROOT-0, magic-17)
+advmod(sings-3, When-1)
+nsubj(sings-3, Streisand-2)
+advcl(magic-17, sings-3)
+prep(sings-3, With-4)
+num(look-7, one-5)
+amod(look-7, more-6)
+pobj(With-4, look-7)
+prep(look-7, at-8)
+pobj(at-8, you/Watch-9)
+advmod(now-11, closely-10)
+advmod(you/Watch-9, now-11)
+punct(magic-17, ,-12)
+nsubj(magic-17, it-13)
+cop(magic-17, 's-14)
+advmod(pure-16, just-15)
+amod(magic-17, pure-16)
+punct(magic-17, !-18)
+
+Sentence #6 (20 tokens):
+This movie made the song Evergreen one of my favorites,and Queen Bee is such a fun song.
+[Text=This CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=506 CharacterOffsetEnd=511 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=DT] [Text=song CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=NN] [Text=Evergreen CharacterOffsetBegin=526 CharacterOffsetEnd=535 PartOfSpeech=NNP] [Text=one CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=PRP$] [Text=favorites CharacterOffsetBegin=546 CharacterOffsetEnd=555 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=555 CharacterOffsetEnd=556 PartOfSpeech=,] [Text=and CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=CC] [Text=Queen CharacterOffsetBegin=560 CharacterOffsetEnd=565 PartOfSpeech=NNP] [Text=Bee CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=VBZ] [Text=such CharacterOffsetBegin=573 CharacterOffsetEnd=577 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=DT] [Text=fun CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=NN] [Text=song CharacterOffsetBegin=584 CharacterOffsetEnd=588 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=.] 
+root(ROOT-0, song-19)
+det(movie-2, This-1)
+nsubj(made-3, movie-2)
+csubj(song-19, made-3)
+det(song-5, the-4)
+dobj(made-3, song-5)
+nn(one-7, Evergreen-6)
+dep(song-5, one-7)
+prep(one-7, of-8)
+poss(favorites-10, my-9)
+pobj(of-8, favorites-10)
+punct(song-5, ,-11)
+cc(song-5, and-12)
+nn(Bee-14, Queen-13)
+conj(song-5, Bee-14)
+cop(song-19, is-15)
+amod(song-19, such-16)
+det(song-19, a-17)
+nn(song-19, fun-18)
+punct(song-19, .-20)
+
+Sentence #7 (14 tokens):
+Also I love the fashion of the '70s (except Streisand's afro.
+[Text=Also CharacterOffsetBegin=594 CharacterOffsetEnd=598 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=599 CharacterOffsetEnd=600 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=DT] [Text=fashion CharacterOffsetBegin=610 CharacterOffsetEnd=617 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=618 CharacterOffsetEnd=620 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=DT] [Text='70s CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=-LRB-] [Text=except CharacterOffsetBegin=631 CharacterOffsetEnd=637 PartOfSpeech=IN] [Text=Streisand CharacterOffsetBegin=638 CharacterOffsetEnd=647 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=647 CharacterOffsetEnd=649 PartOfSpeech=POS] [Text=afro CharacterOffsetBegin=650 CharacterOffsetEnd=654 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=654 CharacterOffsetEnd=655 PartOfSpeech=.] 
+root(ROOT-0, love-3)
+advmod(love-3, Also-1)
+nsubj(love-3, I-2)
+det(fashion-5, the-4)
+dobj(love-3, fashion-5)
+prep(fashion-5, of-6)
+det('70s-8, the-7)
+pobj(of-6, '70s-8)
+punct(except-10, -LRB--9)
+prep('70s-8, except-10)
+poss(afro-13, Streisand-11)
+possessive(Streisand-11, 's-12)
+pobj(except-10, afro-13)
+punct(love-3, .-14)
+
+Sentence #8 (9 tokens):
+Besides that,she's a beauty.)
+[Text=Besides CharacterOffsetBegin=660 CharacterOffsetEnd=667 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=,] [Text=she CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=676 CharacterOffsetEnd=678 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=DT] [Text=beauty CharacterOffsetBegin=681 CharacterOffsetEnd=687 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=-RRB-] 
+root(ROOT-0, beauty-7)
+prep(beauty-7, Besides-1)
+pobj(Besides-1, that-2)
+punct(beauty-7, ,-3)
+nsubj(beauty-7, she-4)
+cop(beauty-7, 's-5)
+det(beauty-7, a-6)
+punct(beauty-7, .-8)
+punct(beauty-7, -RRB--9)
+
+Sentence #9 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=689 CharacterOffsetEnd=690 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #10 (11 tokens):
+A Star is Born is my number one favorite movie.
+[Text=A CharacterOffsetBegin=695 CharacterOffsetEnd=696 PartOfSpeech=DT] [Text=Star CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=702 CharacterOffsetEnd=704 PartOfSpeech=VBZ] [Text=Born CharacterOffsetBegin=705 CharacterOffsetEnd=709 PartOfSpeech=VBN] [Text=is CharacterOffsetBegin=710 CharacterOffsetEnd=712 PartOfSpeech=VBZ] [Text=my CharacterOffsetBegin=713 CharacterOffsetEnd=715 PartOfSpeech=PRP$] [Text=number CharacterOffsetBegin=716 CharacterOffsetEnd=722 PartOfSpeech=NN] [Text=one CharacterOffsetBegin=723 CharacterOffsetEnd=726 PartOfSpeech=CD] [Text=favorite CharacterOffsetBegin=727 CharacterOffsetEnd=735 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=736 CharacterOffsetEnd=741 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=.] 
+root(ROOT-0, number-7)
+det(Star-2, A-1)
+nsubjpass(Born-4, Star-2)
+auxpass(Born-4, is-3)
+nsubj(number-7, Born-4)
+cop(number-7, is-5)
+poss(number-7, my-6)
+num(movie-10, one-8)
+amod(movie-10, favorite-9)
+dep(number-7, movie-10)
+punct(number-7, .-11)
+
+Sentence #11 (15 tokens):
+This movie is a pleasure to watch and is a heart-breaker at the end.
+[Text=This CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=752 CharacterOffsetEnd=757 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=758 CharacterOffsetEnd=760 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=761 CharacterOffsetEnd=762 PartOfSpeech=DT] [Text=pleasure CharacterOffsetBegin=763 CharacterOffsetEnd=771 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=772 CharacterOffsetEnd=774 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=775 CharacterOffsetEnd=780 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=781 CharacterOffsetEnd=784 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=785 CharacterOffsetEnd=787 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=788 CharacterOffsetEnd=789 PartOfSpeech=DT] [Text=heart-breaker CharacterOffsetBegin=790 CharacterOffsetEnd=803 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=804 CharacterOffsetEnd=806 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=807 CharacterOffsetEnd=810 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=811 CharacterOffsetEnd=814 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=814 CharacterOffsetEnd=815 PartOfSpeech=.] 
+root(ROOT-0, pleasure-5)
+det(movie-2, This-1)
+nsubj(pleasure-5, movie-2)
+cop(pleasure-5, is-3)
+det(pleasure-5, a-4)
+aux(watch-7, to-6)
+infmod(pleasure-5, watch-7)
+cc(pleasure-5, and-8)
+cop(heart-breaker-11, is-9)
+det(heart-breaker-11, a-10)
+conj(pleasure-5, heart-breaker-11)
+prep(heart-breaker-11, at-12)
+det(end-14, the-13)
+pobj(at-12, end-14)
+punct(pleasure-5, .-15)
+

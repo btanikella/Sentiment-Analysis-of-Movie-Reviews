@@ -1,0 +1,315 @@
+Sentence #1 (7 tokens):
+Primal Species (1996, Dir.
+[Text=Primal CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=JJ] [Text=Species CharacterOffsetBegin=11 CharacterOffsetEnd=18 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=-LRB-] [Text=1996 CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=,] [Text=Dir CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.] 
+root(ROOT-0, Primal-1)
+dep(Primal-1, Species-2)
+punct(1996-4, -LRB--3)
+dep(Species-2, 1996-4)
+punct(1996-4, ,-5)
+appos(1996-4, Dir-6)
+punct(Primal-1, .-7)
+
+Sentence #2 (18 tokens):
+Jonathan Winfrey) International terrorists get a surprise when their cargo turn out to contain living dinosaurs.
+[Text=Jonathan CharacterOffsetBegin=35 CharacterOffsetEnd=43 PartOfSpeech=NNP] [Text=Winfrey CharacterOffsetBegin=44 CharacterOffsetEnd=51 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=-RRB-] [Text=International CharacterOffsetBegin=53 CharacterOffsetEnd=66 PartOfSpeech=NNP] [Text=terrorists CharacterOffsetBegin=67 CharacterOffsetEnd=77 PartOfSpeech=NNS] [Text=get CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=DT] [Text=surprise CharacterOffsetBegin=84 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=WRB] [Text=their CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=PRP$] [Text=cargo CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=turn CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=TO] [Text=contain CharacterOffsetBegin=122 CharacterOffsetEnd=129 PartOfSpeech=VB] [Text=living CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=VBG] [Text=dinosaurs CharacterOffsetBegin=137 CharacterOffsetEnd=146 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=.] 
+root(ROOT-0, get-6)
+nn(Winfrey-2, Jonathan-1)
+nn(terrorists-5, Winfrey-2)
+punct(Winfrey-2, -RRB--3)
+nn(terrorists-5, International-4)
+nsubj(get-6, terrorists-5)
+det(surprise-8, a-7)
+dobj(get-6, surprise-8)
+advmod(turn-12, when-9)
+poss(cargo-11, their-10)
+nsubj(turn-12, cargo-11)
+advcl(get-6, turn-12)
+prt(turn-12, out-13)
+aux(contain-15, to-14)
+xcomp(turn-12, contain-15)
+xcomp(contain-15, living-16)
+dobj(living-16, dinosaurs-17)
+punct(get-6, .-18)
+
+Sentence #3 (40 tokens):
+The army commando team now have to think fast, if they want to prevent the extinction of the human species, instead of the reptiles.You look at the cover and you gain your first impressions of the film.
+[Text=The CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=DT] [Text=army CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=commando CharacterOffsetBegin=161 CharacterOffsetEnd=169 PartOfSpeech=NN] [Text=team CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=now CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=TO] [Text=think CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=VB] [Text=fast CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=,] [Text=if CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=TO] [Text=prevent CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=extinction CharacterOffsetBegin=227 CharacterOffsetEnd=237 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=human CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=JJ] [Text=species CharacterOffsetBegin=251 CharacterOffsetEnd=258 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=,] [Text=instead CharacterOffsetBegin=260 CharacterOffsetEnd=267 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=DT] [Text=reptiles.You CharacterOffsetBegin=275 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=look CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=DT] [Text=cover CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=PRP] [Text=gain CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=PRP$] [Text=first CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=JJ] [Text=impressions CharacterOffsetBegin=330 CharacterOffsetEnd=341 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=.] 
+root(ROOT-0, have-6)
+det(team-4, The-1)
+nn(team-4, army-2)
+nn(team-4, commando-3)
+nsubj(have-6, team-4)
+advmod(have-6, now-5)
+aux(think-8, to-7)
+xcomp(have-6, think-8)
+advmod(think-8, fast-9)
+punct(have-6, ,-10)
+mark(want-13, if-11)
+nsubj(want-13, they-12)
+advcl(have-6, want-13)
+aux(prevent-15, to-14)
+xcomp(want-13, prevent-15)
+det(extinction-17, the-16)
+dobj(prevent-15, extinction-17)
+prep(extinction-17, of-18)
+det(species-21, the-19)
+amod(species-21, human-20)
+pobj(of-18, species-21)
+punct(want-13, ,-22)
+advmod(of-24, instead-23)
+prep(want-13, of-24)
+det(look-27, the-25)
+nn(look-27, reptiles.You-26)
+pobj(of-24, look-27)
+prep(look-27, at-28)
+det(cover-30, the-29)
+pobj(at-28, cover-30)
+cc(look-27, and-31)
+nsubj(gain-33, you-32)
+conj(look-27, gain-33)
+poss(impressions-36, your-34)
+amod(impressions-36, first-35)
+dobj(gain-33, impressions-36)
+prep(impressions-36, of-37)
+det(film-39, the-38)
+pobj(of-37, film-39)
+punct(have-6, .-40)
+
+Sentence #4 (6 tokens):
+That is pretty much it.
+[Text=That CharacterOffsetBegin=359 CharacterOffsetEnd=363 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=VBZ] [Text=pretty CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=.] 
+root(ROOT-0, much-4)
+nsubj(much-4, That-1)
+cop(much-4, is-2)
+advmod(much-4, pretty-3)
+dep(much-4, it-5)
+punct(much-4, .-6)
+
+Sentence #5 (11 tokens):
+The acting is only just acceptable from a few characters.
+[Text=The CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=VBZ] [Text=only CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=RB] [Text=just CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=RB] [Text=acceptable CharacterOffsetBegin=411 CharacterOffsetEnd=421 PartOfSpeech=JJ] [Text=from CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=433 CharacterOffsetEnd=443 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=.] 
+root(ROOT-0, acceptable-6)
+det(acting-2, The-1)
+nsubj(acceptable-6, acting-2)
+cop(acceptable-6, is-3)
+advmod(acceptable-6, only-4)
+advmod(acceptable-6, just-5)
+prep(acceptable-6, from-7)
+det(characters-10, a-8)
+amod(characters-10, few-9)
+pobj(from-7, characters-10)
+punct(acceptable-6, .-11)
+
+Sentence #6 (22 tokens):
+The story is poor, with the whole film based on the army and the marines trying to kill the dinosaurs.
+[Text=The CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=VBZ] [Text=poor CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=466 CharacterOffsetEnd=467 PartOfSpeech=,] [Text=with CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=477 CharacterOffsetEnd=482 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=NN] [Text=based CharacterOffsetBegin=488 CharacterOffsetEnd=493 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=497 CharacterOffsetEnd=500 PartOfSpeech=DT] [Text=army CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=DT] [Text=marines CharacterOffsetBegin=514 CharacterOffsetEnd=521 PartOfSpeech=NNS] [Text=trying CharacterOffsetBegin=522 CharacterOffsetEnd=528 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=TO] [Text=kill CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=DT] [Text=dinosaurs CharacterOffsetBegin=541 CharacterOffsetEnd=550 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=.] 
+root(ROOT-0, poor-4)
+det(story-2, The-1)
+nsubj(poor-4, story-2)
+cop(poor-4, is-3)
+punct(poor-4, ,-5)
+prep(poor-4, with-6)
+det(film-9, the-7)
+amod(film-9, whole-8)
+pobj(with-6, film-9)
+partmod(film-9, based-10)
+prep(based-10, on-11)
+det(army-13, the-12)
+pobj(on-11, army-13)
+cc(army-13, and-14)
+det(marines-16, the-15)
+conj(army-13, marines-16)
+partmod(marines-16, trying-17)
+aux(kill-19, to-18)
+xcomp(trying-17, kill-19)
+det(dinosaurs-21, the-20)
+dobj(kill-19, dinosaurs-21)
+punct(poor-4, .-22)
+
+Sentence #7 (12 tokens):
+This film came out three years after 'Jurassic Park'.
+[Text=This CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=NN] [Text=came CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=RP] [Text=three CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=581 CharacterOffsetEnd=586 PartOfSpeech=NNS] [Text=after CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=IN] [Text=` CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=``] [Text=Jurassic CharacterOffsetBegin=594 CharacterOffsetEnd=602 PartOfSpeech=JJ] [Text=Park CharacterOffsetBegin=603 CharacterOffsetEnd=607 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=607 CharacterOffsetEnd=608 PartOfSpeech=''] [Text=. CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=.] 
+root(ROOT-0, came-3)
+det(film-2, This-1)
+nsubj(came-3, film-2)
+prt(came-3, out-4)
+num(years-6, three-5)
+tmod(came-3, years-6)
+prep(years-6, after-7)
+punct(Park-10, `-8)
+nn(Park-10, Jurassic-9)
+pobj(after-7, Park-10)
+punct(Park-10, '-11)
+punct(came-3, .-12)
+
+Sentence #8 (17 tokens):
+Instead, this film looks to have come out 13 years before 'Jurassic Park'.
+[Text=Instead CharacterOffsetBegin=614 CharacterOffsetEnd=621 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=621 CharacterOffsetEnd=622 PartOfSpeech=,] [Text=this CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=NN] [Text=looks CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=VB] [Text=come CharacterOffsetBegin=647 CharacterOffsetEnd=651 PartOfSpeech=VBN] [Text=out CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=RP] [Text=13 CharacterOffsetBegin=656 CharacterOffsetEnd=658 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=659 CharacterOffsetEnd=664 PartOfSpeech=NNS] [Text=before CharacterOffsetBegin=665 CharacterOffsetEnd=671 PartOfSpeech=IN] [Text=` CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=``] [Text=Jurassic CharacterOffsetBegin=673 CharacterOffsetEnd=681 PartOfSpeech=JJ] [Text=Park CharacterOffsetBegin=682 CharacterOffsetEnd=686 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=686 CharacterOffsetEnd=687 PartOfSpeech=''] [Text=. CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=.] 
+root(ROOT-0, looks-5)
+advmod(looks-5, Instead-1)
+punct(looks-5, ,-2)
+det(film-4, this-3)
+nsubj(looks-5, film-4)
+aux(come-8, to-6)
+aux(come-8, have-7)
+xcomp(looks-5, come-8)
+prt(come-8, out-9)
+num(years-11, 13-10)
+tmod(come-8, years-11)
+prep(years-11, before-12)
+punct(Park-15, `-13)
+nn(Park-15, Jurassic-14)
+pobj(before-12, Park-15)
+punct(Park-15, '-16)
+punct(looks-5, .-17)
+
+Sentence #9 (14 tokens):
+The dinosaurs costumes are so poorly made, and i do mean costumes.
+[Text=The CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=DT] [Text=dinosaurs CharacterOffsetBegin=697 CharacterOffsetEnd=706 PartOfSpeech=NNS] [Text=costumes CharacterOffsetBegin=707 CharacterOffsetEnd=715 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=716 CharacterOffsetEnd=719 PartOfSpeech=VBP] [Text=so CharacterOffsetBegin=720 CharacterOffsetEnd=722 PartOfSpeech=RB] [Text=poorly CharacterOffsetBegin=723 CharacterOffsetEnd=729 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=730 CharacterOffsetEnd=734 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=,] [Text=and CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=CC] [Text=i CharacterOffsetBegin=740 CharacterOffsetEnd=741 PartOfSpeech=FW] [Text=do CharacterOffsetBegin=742 CharacterOffsetEnd=744 PartOfSpeech=VBP] [Text=mean CharacterOffsetBegin=745 CharacterOffsetEnd=749 PartOfSpeech=VB] [Text=costumes CharacterOffsetBegin=750 CharacterOffsetEnd=758 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=758 CharacterOffsetEnd=759 PartOfSpeech=.] 
+root(ROOT-0, made-7)
+det(costumes-3, The-1)
+nn(costumes-3, dinosaurs-2)
+nsubjpass(made-7, costumes-3)
+auxpass(made-7, are-4)
+advmod(made-7, so-5)
+advmod(made-7, poorly-6)
+punct(made-7, ,-8)
+cc(made-7, and-9)
+nsubj(mean-12, i-10)
+aux(mean-12, do-11)
+conj(made-7, mean-12)
+dobj(mean-12, costumes-13)
+punct(made-7, .-14)
+
+Sentence #10 (17 tokens):
+There are obviously people dressed up, and this film makes no attempts at hiding this.
+[Text=There CharacterOffsetBegin=764 CharacterOffsetEnd=769 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=VBP] [Text=obviously CharacterOffsetBegin=774 CharacterOffsetEnd=783 PartOfSpeech=RB] [Text=people CharacterOffsetBegin=784 CharacterOffsetEnd=790 PartOfSpeech=NNS] [Text=dressed CharacterOffsetBegin=791 CharacterOffsetEnd=798 PartOfSpeech=VBN] [Text=up CharacterOffsetBegin=799 CharacterOffsetEnd=801 PartOfSpeech=RP] [Text=, CharacterOffsetBegin=801 CharacterOffsetEnd=802 PartOfSpeech=,] [Text=and CharacterOffsetBegin=803 CharacterOffsetEnd=806 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=807 CharacterOffsetEnd=811 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=812 CharacterOffsetEnd=816 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=817 CharacterOffsetEnd=822 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=823 CharacterOffsetEnd=825 PartOfSpeech=DT] [Text=attempts CharacterOffsetBegin=826 CharacterOffsetEnd=834 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=835 CharacterOffsetEnd=837 PartOfSpeech=IN] [Text=hiding CharacterOffsetBegin=838 CharacterOffsetEnd=844 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=845 CharacterOffsetEnd=849 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=849 CharacterOffsetEnd=850 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+advmod(people-4, obviously-3)
+nsubj(makes-11, people-4)
+partmod(people-4, dressed-5)
+prt(dressed-5, up-6)
+punct(dressed-5, ,-7)
+cc(dressed-5, and-8)
+det(film-10, this-9)
+conj(dressed-5, film-10)
+ccomp(are-2, makes-11)
+det(attempts-13, no-12)
+dobj(makes-11, attempts-13)
+prep(attempts-13, at-14)
+pcomp(at-14, hiding-15)
+dobj(hiding-15, this-16)
+punct(are-2, .-17)
+
+Sentence #11 (26 tokens):
+A scene when a dinosaur runs down a corridor is created in a way, in which it looks like someone is riding the creature.
+[Text=A CharacterOffsetBegin=855 CharacterOffsetEnd=856 PartOfSpeech=DT] [Text=scene CharacterOffsetBegin=857 CharacterOffsetEnd=862 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=863 CharacterOffsetEnd=867 PartOfSpeech=WRB] [Text=a CharacterOffsetBegin=868 CharacterOffsetEnd=869 PartOfSpeech=DT] [Text=dinosaur CharacterOffsetBegin=870 CharacterOffsetEnd=878 PartOfSpeech=NN] [Text=runs CharacterOffsetBegin=879 CharacterOffsetEnd=883 PartOfSpeech=NNS] [Text=down CharacterOffsetBegin=884 CharacterOffsetEnd=888 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=889 CharacterOffsetEnd=890 PartOfSpeech=DT] [Text=corridor CharacterOffsetBegin=891 CharacterOffsetEnd=899 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=900 CharacterOffsetEnd=902 PartOfSpeech=VBZ] [Text=created CharacterOffsetBegin=903 CharacterOffsetEnd=910 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=911 CharacterOffsetEnd=913 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=914 CharacterOffsetEnd=915 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=916 CharacterOffsetEnd=919 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=919 CharacterOffsetEnd=920 PartOfSpeech=,] [Text=in CharacterOffsetBegin=921 CharacterOffsetEnd=923 PartOfSpeech=IN] [Text=which CharacterOffsetBegin=924 CharacterOffsetEnd=929 PartOfSpeech=WDT] [Text=it CharacterOffsetBegin=930 CharacterOffsetEnd=932 PartOfSpeech=PRP] [Text=looks CharacterOffsetBegin=933 CharacterOffsetEnd=938 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=939 CharacterOffsetEnd=943 PartOfSpeech=IN] [Text=someone CharacterOffsetBegin=944 CharacterOffsetEnd=951 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=952 CharacterOffsetEnd=954 PartOfSpeech=VBZ] [Text=riding CharacterOffsetBegin=955 CharacterOffsetEnd=961 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=962 CharacterOffsetEnd=965 PartOfSpeech=DT] [Text=creature CharacterOffsetBegin=966 CharacterOffsetEnd=974 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=974 CharacterOffsetEnd=975 PartOfSpeech=.] 
+root(ROOT-0, created-11)
+det(scene-2, A-1)
+nsubjpass(created-11, scene-2)
+advmod(runs-6, when-3)
+det(dinosaur-5, a-4)
+nsubj(runs-6, dinosaur-5)
+rcmod(scene-2, runs-6)
+prep(runs-6, down-7)
+det(corridor-9, a-8)
+pobj(down-7, corridor-9)
+auxpass(created-11, is-10)
+prep(created-11, in-12)
+det(way-14, a-13)
+pobj(in-12, way-14)
+punct(way-14, ,-15)
+prep(looks-19, in-16)
+pobj(in-16, which-17)
+nsubj(looks-19, it-18)
+rcmod(way-14, looks-19)
+prep(looks-19, like-20)
+nsubj(riding-23, someone-21)
+aux(riding-23, is-22)
+pcomp(like-20, riding-23)
+det(creature-25, the-24)
+dobj(riding-23, creature-25)
+punct(created-11, .-26)
+
+Sentence #12 (13 tokens):
+The is one good thing, which comes out of this film.
+[Text=The CharacterOffsetBegin=980 CharacterOffsetEnd=983 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=984 CharacterOffsetEnd=986 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=987 CharacterOffsetEnd=990 PartOfSpeech=CD] [Text=good CharacterOffsetBegin=991 CharacterOffsetEnd=995 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=996 CharacterOffsetEnd=1001 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1001 CharacterOffsetEnd=1002 PartOfSpeech=,] [Text=which CharacterOffsetBegin=1003 CharacterOffsetEnd=1008 PartOfSpeech=WDT] [Text=comes CharacterOffsetBegin=1009 CharacterOffsetEnd=1014 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=1015 CharacterOffsetEnd=1018 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=1019 CharacterOffsetEnd=1021 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=1022 CharacterOffsetEnd=1026 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=1027 CharacterOffsetEnd=1031 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1031 CharacterOffsetEnd=1032 PartOfSpeech=.] 
+root(ROOT-0, thing-5)
+det(thing-5, The-1)
+cop(thing-5, is-2)
+num(thing-5, one-3)
+amod(thing-5, good-4)
+punct(thing-5, ,-6)
+nsubj(comes-8, which-7)
+rcmod(thing-5, comes-8)
+prep(comes-8, out-9)
+pcomp(out-9, of-10)
+det(film-12, this-11)
+pobj(of-10, film-12)
+punct(thing-5, .-13)
+
+Sentence #13 (5 tokens):
+The short running time.
+[Text=The CharacterOffsetBegin=1037 CharacterOffsetEnd=1040 PartOfSpeech=DT] [Text=short CharacterOffsetBegin=1041 CharacterOffsetEnd=1046 PartOfSpeech=JJ] [Text=running CharacterOffsetBegin=1047 CharacterOffsetEnd=1054 PartOfSpeech=VBG] [Text=time CharacterOffsetBegin=1055 CharacterOffsetEnd=1059 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1059 CharacterOffsetEnd=1060 PartOfSpeech=.] 
+root(ROOT-0, time-4)
+det(time-4, The-1)
+amod(time-4, short-2)
+amod(time-4, running-3)
+punct(time-4, .-5)
+
+Sentence #14 (26 tokens):
+At only 1 hour and 15 minutes, it doesn't waste too much of your life, but still try to avoid it altogether.
+[Text=At CharacterOffsetBegin=1065 CharacterOffsetEnd=1067 PartOfSpeech=IN] [Text=only CharacterOffsetBegin=1068 CharacterOffsetEnd=1072 PartOfSpeech=RB] [Text=1 CharacterOffsetBegin=1073 CharacterOffsetEnd=1074 PartOfSpeech=CD] [Text=hour CharacterOffsetBegin=1075 CharacterOffsetEnd=1079 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1080 CharacterOffsetEnd=1083 PartOfSpeech=CC] [Text=15 CharacterOffsetBegin=1084 CharacterOffsetEnd=1086 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=1087 CharacterOffsetEnd=1094 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=1094 CharacterOffsetEnd=1095 PartOfSpeech=,] [Text=it CharacterOffsetBegin=1096 CharacterOffsetEnd=1098 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=1099 CharacterOffsetEnd=1103 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=1103 CharacterOffsetEnd=1106 PartOfSpeech=RB] [Text=waste CharacterOffsetBegin=1107 CharacterOffsetEnd=1112 PartOfSpeech=VB] [Text=too CharacterOffsetBegin=1113 CharacterOffsetEnd=1116 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=1117 CharacterOffsetEnd=1121 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=1122 CharacterOffsetEnd=1124 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=1125 CharacterOffsetEnd=1129 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=1130 CharacterOffsetEnd=1134 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1134 CharacterOffsetEnd=1135 PartOfSpeech=,] [Text=but CharacterOffsetBegin=1136 CharacterOffsetEnd=1139 PartOfSpeech=CC] [Text=still CharacterOffsetBegin=1140 CharacterOffsetEnd=1145 PartOfSpeech=RB] [Text=try CharacterOffsetBegin=1146 CharacterOffsetEnd=1149 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=1150 CharacterOffsetEnd=1152 PartOfSpeech=TO] [Text=avoid CharacterOffsetBegin=1153 CharacterOffsetEnd=1158 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=1159 CharacterOffsetEnd=1161 PartOfSpeech=PRP] [Text=altogether CharacterOffsetBegin=1162 CharacterOffsetEnd=1172 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1172 CharacterOffsetEnd=1173 PartOfSpeech=.] 
+root(ROOT-0, waste-12)
+prep(waste-12, At-1)
+quantmod(1-3, only-2)
+num(hour-4, 1-3)
+pobj(At-1, hour-4)
+cc(hour-4, and-5)
+num(minutes-7, 15-6)
+conj(hour-4, minutes-7)
+punct(waste-12, ,-8)
+nsubj(waste-12, it-9)
+aux(waste-12, does-10)
+neg(waste-12, n't-11)
+advmod(much-14, too-13)
+dobj(waste-12, much-14)
+prep(much-14, of-15)
+poss(life-17, your-16)
+pobj(of-15, life-17)
+punct(waste-12, ,-18)
+cc(waste-12, but-19)
+advmod(try-21, still-20)
+conj(waste-12, try-21)
+aux(avoid-23, to-22)
+xcomp(try-21, avoid-23)
+dobj(avoid-23, it-24)
+advmod(avoid-23, altogether-25)
+punct(waste-12, .-26)
+
+Sentence #15 (11 tokens):
+"It's like a Friday the 13th Nightmare."
+[Text=`` CharacterOffsetBegin=1173 CharacterOffsetEnd=1174 PartOfSpeech=``] [Text=It CharacterOffsetBegin=1174 CharacterOffsetEnd=1176 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=1176 CharacterOffsetEnd=1178 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=1179 CharacterOffsetEnd=1183 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1184 CharacterOffsetEnd=1185 PartOfSpeech=DT] [Text=Friday CharacterOffsetBegin=1186 CharacterOffsetEnd=1192 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=1193 CharacterOffsetEnd=1196 PartOfSpeech=DT] [Text=13th CharacterOffsetBegin=1197 CharacterOffsetEnd=1201 PartOfSpeech=JJ] [Text=Nightmare CharacterOffsetBegin=1202 CharacterOffsetEnd=1211 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1211 CharacterOffsetEnd=1212 PartOfSpeech=.] [Text='' CharacterOffsetBegin=1212 CharacterOffsetEnd=1213 PartOfSpeech=''] 
+root(ROOT-0, 's-3)
+punct('s-3, ``-1)
+nsubj('s-3, It-2)
+prep('s-3, like-4)
+det(Nightmare-9, a-5)
+nn(Nightmare-9, Friday-6)
+det(Nightmare-9, the-7)
+amod(Nightmare-9, 13th-8)
+pobj(like-4, Nightmare-9)
+punct('s-3, .-10)
+punct('s-3, ''-11)
+
+Sentence #16 (6 tokens):
+- Officer (Brian Currie)
+[Text=- CharacterOffsetBegin=1218 CharacterOffsetEnd=1219 PartOfSpeech=:] [Text=Officer CharacterOffsetBegin=1220 CharacterOffsetEnd=1227 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=1228 CharacterOffsetEnd=1229 PartOfSpeech=-LRB-] [Text=Brian CharacterOffsetBegin=1229 CharacterOffsetEnd=1234 PartOfSpeech=NNP] [Text=Currie CharacterOffsetBegin=1235 CharacterOffsetEnd=1241 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=1241 CharacterOffsetEnd=1242 PartOfSpeech=-RRB-] 
+root(ROOT-0, Currie-5)
+punct(Currie-5, --1)
+nn(Currie-5, Officer-2)
+punct(Currie-5, -LRB--3)
+nn(Currie-5, Brian-4)
+punct(Currie-5, -RRB--6)
+

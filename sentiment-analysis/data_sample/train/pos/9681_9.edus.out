@@ -1,0 +1,125 @@
+Sentence #1 (10 tokens):
+Add Paulie the parrot to beloved movie animal characters.
+[Text=Add CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=VB] [Text=Paulie CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=parrot CharacterOffsetBegin=19 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=TO] [Text=beloved CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=animal CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=characters CharacterOffsetBegin=50 CharacterOffsetEnd=60 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, Add-1)
+dobj(Add-1, Paulie-2)
+det(parrot-4, the-3)
+dobj(Paulie-2, parrot-4)
+prep(parrot-4, to-5)
+amod(characters-9, beloved-6)
+nn(characters-9, movie-7)
+nn(characters-9, animal-8)
+pobj(to-5, characters-9)
+punct(Add-1, .-10)
+
+Sentence #2 (21 tokens):
+This movie is a love story - bird and Gena Rowlands, Bird and beloved Marie, Michael and Marie.
+[Text=This CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=DT] [Text=love CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=story CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=- CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=:] [Text=bird CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=CC] [Text=Gena CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=NNP] [Text=Rowlands CharacterOffsetBegin=109 CharacterOffsetEnd=117 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=,] [Text=Bird CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=CC] [Text=beloved CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=JJ] [Text=Marie CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=,] [Text=Michael CharacterOffsetBegin=143 CharacterOffsetEnd=150 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=Marie CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=.] 
+root(ROOT-0, story-6)
+det(movie-2, This-1)
+nsubj(story-6, movie-2)
+cop(story-6, is-3)
+det(story-6, a-4)
+nn(story-6, love-5)
+punct(story-6, --7)
+nn(Rowlands-11, bird-8)
+cc(bird-8, and-9)
+conj(bird-8, Gena-10)
+dep(story-6, Rowlands-11)
+punct(Rowlands-11, ,-12)
+conj(Rowlands-11, Bird-13)
+cc(Rowlands-11, and-14)
+nn(Marie-16, beloved-15)
+conj(Rowlands-11, Marie-16)
+punct(Rowlands-11, ,-17)
+conj(Rowlands-11, Michael-18)
+cc(Rowlands-11, and-19)
+conj(Rowlands-11, Marie-20)
+punct(story-6, .-21)
+
+Sentence #3 (26 tokens):
+A Russian janitor helps a talking and thinking parrot find his rightful owner many years after Marie's parents sell him to a pawn shop.
+[Text=A CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=DT] [Text=Russian CharacterOffsetBegin=168 CharacterOffsetEnd=175 PartOfSpeech=JJ] [Text=janitor CharacterOffsetBegin=176 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=helps CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=talking CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=CC] [Text=thinking CharacterOffsetBegin=204 CharacterOffsetEnd=212 PartOfSpeech=VBG] [Text=parrot CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=find CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=PRP$] [Text=rightful CharacterOffsetBegin=229 CharacterOffsetEnd=237 PartOfSpeech=JJ] [Text=owner CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=many CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=JJ] [Text=years CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=NNS] [Text=after CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=IN] [Text=Marie CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=POS] [Text=parents CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=NNS] [Text=sell CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=VBP] [Text=him CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=DT] [Text=pawn CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=shop CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=.] 
+root(ROOT-0, helps-4)
+det(janitor-3, A-1)
+amod(janitor-3, Russian-2)
+nsubj(helps-4, janitor-3)
+dobj(helps-4, a-5)
+partmod(a-5, talking-6)
+cc(talking-6, and-7)
+conj(talking-6, thinking-8)
+nsubj(find-10, parrot-9)
+xcomp(talking-6, find-10)
+poss(owner-13, his-11)
+amod(owner-13, rightful-12)
+dobj(find-10, owner-13)
+amod(years-15, many-14)
+tmod(find-10, years-15)
+mark(sell-20, after-16)
+poss(parents-19, Marie-17)
+possessive(Marie-17, 's-18)
+nsubj(sell-20, parents-19)
+dep(years-15, sell-20)
+dobj(sell-20, him-21)
+prep(sell-20, to-22)
+det(shop-25, a-23)
+nn(shop-25, pawn-24)
+pobj(to-22, shop-25)
+punct(helps-4, .-26)
+
+Sentence #4 (13 tokens):
+Before the heart warming ending we learn all the misadventures of Paulie.
+[Text=Before CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=heart CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=NN] [Text=warming CharacterOffsetBegin=323 CharacterOffsetEnd=330 PartOfSpeech=VBG] [Text=ending CharacterOffsetBegin=331 CharacterOffsetEnd=337 PartOfSpeech=VBG] [Text=we CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=PRP] [Text=learn CharacterOffsetBegin=341 CharacterOffsetEnd=346 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=DT] [Text=misadventures CharacterOffsetBegin=355 CharacterOffsetEnd=368 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=IN] [Text=Paulie CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=.] 
+root(ROOT-0, Before-1)
+det(heart-3, the-2)
+pobj(Before-1, heart-3)
+partmod(heart-3, warming-4)
+partmod(warming-4, ending-5)
+nsubj(learn-7, we-6)
+ccomp(ending-5, learn-7)
+predet(misadventures-10, all-8)
+det(misadventures-10, the-9)
+dobj(learn-7, misadventures-10)
+prep(misadventures-10, of-11)
+pobj(of-11, Paulie-12)
+punct(Before-1, .-13)
+
+Sentence #5 (9 tokens):
+Cheech Marin and his dancing parrots are marvelous.
+[Text=Cheech CharacterOffsetBegin=384 CharacterOffsetEnd=390 PartOfSpeech=NNP] [Text=Marin CharacterOffsetBegin=391 CharacterOffsetEnd=396 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=PRP$] [Text=dancing CharacterOffsetBegin=405 CharacterOffsetEnd=412 PartOfSpeech=NN] [Text=parrots CharacterOffsetBegin=413 CharacterOffsetEnd=420 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=VBP] [Text=marvelous CharacterOffsetBegin=425 CharacterOffsetEnd=434 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=.] 
+root(ROOT-0, marvelous-8)
+nn(Marin-2, Cheech-1)
+nsubj(marvelous-8, Marin-2)
+cc(Marin-2, and-3)
+poss(parrots-6, his-4)
+nn(parrots-6, dancing-5)
+conj(Marin-2, parrots-6)
+cop(marvelous-8, are-7)
+punct(marvelous-8, .-9)
+
+Sentence #6 (4 tokens):
+Beautiful photography throughout.
+[Text=Beautiful CharacterOffsetBegin=440 CharacterOffsetEnd=449 PartOfSpeech=JJ] [Text=photography CharacterOffsetBegin=450 CharacterOffsetEnd=461 PartOfSpeech=NN] [Text=throughout CharacterOffsetBegin=462 CharacterOffsetEnd=472 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=.] 
+root(ROOT-0, photography-2)
+amod(photography-2, Beautiful-1)
+advmod(photography-2, throughout-3)
+punct(photography-2, .-4)
+
+Sentence #7 (14 tokens):
+Great little movie, word of mouth will make it a cult favorite.
+[Text=Great CharacterOffsetBegin=478 CharacterOffsetEnd=483 PartOfSpeech=NNP] [Text=little CharacterOffsetBegin=484 CharacterOffsetEnd=490 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=491 CharacterOffsetEnd=496 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=496 CharacterOffsetEnd=497 PartOfSpeech=,] [Text=word CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=IN] [Text=mouth CharacterOffsetBegin=506 CharacterOffsetEnd=511 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=525 CharacterOffsetEnd=526 PartOfSpeech=DT] [Text=cult CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=NN] [Text=favorite CharacterOffsetBegin=532 CharacterOffsetEnd=540 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=.] 
+root(ROOT-0, make-9)
+amod(movie-3, Great-1)
+amod(movie-3, little-2)
+nsubj(make-9, movie-3)
+punct(movie-3, ,-4)
+appos(movie-3, word-5)
+prep(word-5, of-6)
+pobj(of-6, mouth-7)
+aux(make-9, will-8)
+nsubj(favorite-13, it-10)
+det(favorite-13, a-11)
+nn(favorite-13, cult-12)
+xcomp(make-9, favorite-13)
+punct(make-9, .-14)
+

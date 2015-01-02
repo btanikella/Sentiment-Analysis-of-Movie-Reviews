@@ -1,0 +1,113 @@
+Sentence #1 (6 tokens):
+Fast Times it ain't.
+[Text=Fast CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=JJ] [Text=Times CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NNPS] [Text=it CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=PRP] [Text=ai CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=.] 
+root(ROOT-0, Times-2)
+amod(Times-2, Fast-1)
+nsubj(ai-4, it-3)
+rcmod(Times-2, ai-4)
+neg(ai-4, n't-5)
+punct(Times-2, .-6)
+
+Sentence #2 (11 tokens):
+But check this movie out, it has a heart.
+[Text=But CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=CC] [Text=check CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=RP] [Text=, CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=,] [Text=it CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=DT] [Text=heart CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=.] 
+root(ROOT-0, check-2)
+cc(check-2, But-1)
+det(movie-4, this-3)
+dobj(check-2, movie-4)
+prt(check-2, out-5)
+punct(check-2, ,-6)
+nsubj(has-8, it-7)
+ccomp(check-2, has-8)
+det(heart-10, a-9)
+dobj(has-8, heart-10)
+punct(check-2, .-11)
+
+Sentence #3 (7 tokens):
+Pour yourself a drink and enjoy.
+[Text=Pour CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=VB] [Text=yourself CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=DT] [Text=drink CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=CC] [Text=enjoy CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.] 
+root(ROOT-0, Pour-1)
+iobj(Pour-1, yourself-2)
+det(drink-4, a-3)
+dobj(Pour-1, drink-4)
+cc(Pour-1, and-5)
+conj(Pour-1, enjoy-6)
+punct(Pour-1, .-7)
+
+Sentence #4 (10 tokens):
+It's loaded with a slew of just-beginning stars.
+[Text=It CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=VBZ] [Text=loaded CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=slew CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN] [Text=just-beginning CharacterOffsetBegin=139 CharacterOffsetEnd=153 PartOfSpeech=JJ] [Text=stars CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=.] 
+root(ROOT-0, loaded-3)
+nsubjpass(loaded-3, It-1)
+auxpass(loaded-3, 's-2)
+prep(loaded-3, with-4)
+det(slew-6, a-5)
+pobj(with-4, slew-6)
+prep(slew-6, of-7)
+amod(stars-9, just-beginning-8)
+pobj(of-7, stars-9)
+punct(loaded-3, .-10)
+
+Sentence #5 (9 tokens):
+Sherilyn Fenn has her first on-screen credited cameo.
+[Text=Sherilyn CharacterOffsetBegin=165 CharacterOffsetEnd=173 PartOfSpeech=NNP] [Text=Fenn CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=PRP$] [Text=first CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=on-screen CharacterOffsetBegin=193 CharacterOffsetEnd=202 PartOfSpeech=JJ] [Text=credited CharacterOffsetBegin=203 CharacterOffsetEnd=211 PartOfSpeech=VBN] [Text=cameo CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+nn(Fenn-2, Sherilyn-1)
+nsubj(has-3, Fenn-2)
+poss(cameo-8, her-4)
+amod(cameo-8, first-5)
+amod(cameo-8, on-screen-6)
+amod(cameo-8, credited-7)
+dobj(has-3, cameo-8)
+punct(has-3, .-9)
+
+Sentence #6 (23 tokens):
+Chris Penn, Lea Thompson, Eric Stotz, Jenny Wright, Rick Moranis, etc.--they all look so young.
+[Text=Chris CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=NNP] [Text=Penn CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=,] [Text=Lea CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=NNP] [Text=Thompson CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=,] [Text=Eric CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=NNP] [Text=Stotz CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=,] [Text=Jenny CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NNP] [Text=Wright CharacterOffsetBegin=267 CharacterOffsetEnd=273 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=,] [Text=Rick CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=NNP] [Text=Moranis CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=,] [Text=etc. CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=FW] [Text=-- CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=:] [Text=they CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=DT] [Text=look CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=VBP] [Text=so CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=RB] [Text=young CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=.] 
+root(ROOT-0, look-20)
+nn(Penn-2, Chris-1)
+dep(look-20, Penn-2)
+punct(Penn-2, ,-3)
+nn(Thompson-5, Lea-4)
+appos(Penn-2, Thompson-5)
+punct(Penn-2, ,-6)
+nn(Stotz-8, Eric-7)
+appos(Penn-2, Stotz-8)
+punct(Penn-2, ,-9)
+nn(Wright-11, Jenny-10)
+appos(Penn-2, Wright-11)
+punct(Penn-2, ,-12)
+nn(Moranis-14, Rick-13)
+dep(Penn-2, Moranis-14)
+punct(Moranis-14, ,-15)
+appos(Moranis-14, etc.-16)
+punct(Moranis-14, ---17)
+nsubj(look-20, they-18)
+dep(look-20, all-19)
+advmod(young-22, so-21)
+acomp(look-20, young-22)
+punct(look-20, .-23)
+
+Sentence #7 (19 tokens):
+Oh and if you look closely the cop's wife is Nancy Wilson from the rock band Heart.
+[Text=Oh CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=UH] [Text=and CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=PRP] [Text=look CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VBP] [Text=closely CharacterOffsetBegin=342 CharacterOffsetEnd=349 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=DT] [Text=cop CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=POS] [Text=wife CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=VBZ] [Text=Nancy CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NNP] [Text=Wilson CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=NNP] [Text=from CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=DT] [Text=rock CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=NN] [Text=band CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=NN] [Text=Heart CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=.] 
+root(ROOT-0, Oh-1)
+cc(Oh-1, and-2)
+mark(look-5, if-3)
+nsubj(look-5, you-4)
+advcl(Wilson-13, look-5)
+advmod(look-5, closely-6)
+det(cop-8, the-7)
+poss(wife-10, cop-8)
+possessive(cop-8, 's-9)
+nsubj(Wilson-13, wife-10)
+cop(Wilson-13, is-11)
+nn(Wilson-13, Nancy-12)
+conj(Oh-1, Wilson-13)
+prep(Wilson-13, from-14)
+det(band-17, the-15)
+nn(band-17, rock-16)
+pobj(from-14, band-17)
+dep(band-17, Heart-18)
+punct(Oh-1, .-19)
+

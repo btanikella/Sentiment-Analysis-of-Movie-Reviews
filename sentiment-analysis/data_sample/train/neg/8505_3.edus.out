@@ -1,0 +1,195 @@
+Sentence #1 (16 tokens):
+"Semana Santa" or "Angel Of Death" is a very weak movie.
+[Text=`` CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=``] [Text=Semana CharacterOffsetBegin=5 CharacterOffsetEnd=11 PartOfSpeech=NNP] [Text=Santa CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=''] [Text=or CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=``] [Text=Angel CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NNP] [Text=Of CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=Death CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=''] [Text=is CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=RB] [Text=weak CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=.] 
+root(ROOT-0, movie-15)
+punct(Angel-7, ``-1)
+nn(Angel-7, Semana-2)
+nn(Angel-7, Santa-3)
+punct(Angel-7, ''-4)
+cc(Angel-7, or-5)
+punct(Angel-7, ``-6)
+nsubj(movie-15, Angel-7)
+prep(Angel-7, Of-8)
+pobj(Of-8, Death-9)
+punct(Angel-7, ''-10)
+cop(movie-15, is-11)
+det(movie-15, a-12)
+advmod(weak-14, very-13)
+amod(movie-15, weak-14)
+punct(movie-15, .-16)
+
+Sentence #2 (18 tokens):
+Mira Sorvino plays a detective who is trying to find a killer who shoots arrows in people.
+[Text=Mira CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=NNP] [Text=Sorvino CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=NNP] [Text=plays CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=detective CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=VBZ] [Text=trying CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=TO] [Text=find CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=killer CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=WP] [Text=shoots CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=VBZ] [Text=arrows CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=148 CharacterOffsetEnd=154 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=.] 
+root(ROOT-0, plays-3)
+nn(Sorvino-2, Mira-1)
+nsubj(plays-3, Sorvino-2)
+det(detective-5, a-4)
+dobj(plays-3, detective-5)
+nsubj(trying-8, who-6)
+aux(trying-8, is-7)
+rcmod(detective-5, trying-8)
+aux(find-10, to-9)
+xcomp(trying-8, find-10)
+det(killer-12, a-11)
+dobj(find-10, killer-12)
+nsubj(shoots-14, who-13)
+rcmod(killer-12, shoots-14)
+dobj(shoots-14, arrows-15)
+prep(arrows-15, in-16)
+pobj(in-16, people-17)
+punct(plays-3, .-18)
+
+Sentence #3 (12 tokens):
+Mira has an Italian accent which falters from time to time.
+[Text=Mira CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=DT] [Text=Italian CharacterOffsetBegin=172 CharacterOffsetEnd=179 PartOfSpeech=JJ] [Text=accent CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=WDT] [Text=falters CharacterOffsetBegin=193 CharacterOffsetEnd=200 PartOfSpeech=VBZ] [Text=from CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=TO] [Text=time CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, Mira-1)
+det(accent-5, an-3)
+amod(accent-5, Italian-4)
+dobj(has-2, accent-5)
+nsubj(falters-7, which-6)
+rcmod(accent-5, falters-7)
+prep(falters-7, from-8)
+pobj(from-8, time-9)
+prep(from-8, to-10)
+pobj(to-10, time-11)
+punct(has-2, .-12)
+
+Sentence #4 (7 tokens):
+Couldn't she just speak English?
+[Text=Could CharacterOffsetBegin=224 CharacterOffsetEnd=229 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=RB] [Text=she CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=RB] [Text=speak CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=VBP] [Text=English CharacterOffsetBegin=248 CharacterOffsetEnd=255 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=.] 
+root(ROOT-0, speak-5)
+aux(speak-5, Could-1)
+dep(speak-5, n't-2)
+nsubj(speak-5, she-3)
+advmod(speak-5, just-4)
+dobj(speak-5, English-6)
+punct(speak-5, ?-7)
+
+Sentence #5 (15 tokens):
+All the other characters have a forced Mexican\English accent which is distracting.
+[Text=All CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=275 CharacterOffsetEnd=285 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=forced CharacterOffsetBegin=293 CharacterOffsetEnd=299 PartOfSpeech=JJ] [Text=Mexican CharacterOffsetBegin=300 CharacterOffsetEnd=307 PartOfSpeech=JJ] [Text=\ CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=English CharacterOffsetBegin=308 CharacterOffsetEnd=315 PartOfSpeech=NNP] [Text=accent CharacterOffsetBegin=316 CharacterOffsetEnd=322 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=VBZ] [Text=distracting CharacterOffsetBegin=332 CharacterOffsetEnd=343 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=.] 
+root(ROOT-0, have-5)
+predet(characters-4, All-1)
+det(characters-4, the-2)
+amod(characters-4, other-3)
+nsubj(have-5, characters-4)
+det(accent-11, a-6)
+amod(accent-11, forced-7)
+amod(accent-11, Mexican-8)
+nn(accent-11, \-9)
+nn(accent-11, English-10)
+dobj(have-5, accent-11)
+nsubj(distracting-14, which-12)
+aux(distracting-14, is-13)
+rcmod(accent-11, distracting-14)
+punct(have-5, .-15)
+
+Sentence #6 (13 tokens):
+The dialogue is very bad and the delivery of it is wooden.
+[Text=The CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=DT] [Text=dialogue CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=DT] [Text=delivery CharacterOffsetBegin=382 CharacterOffsetEnd=390 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=VBZ] [Text=wooden CharacterOffsetBegin=400 CharacterOffsetEnd=406 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=.] 
+root(ROOT-0, bad-5)
+det(dialogue-2, The-1)
+nsubj(bad-5, dialogue-2)
+cop(bad-5, is-3)
+advmod(bad-5, very-4)
+cc(bad-5, and-6)
+det(delivery-8, the-7)
+nsubj(wooden-12, delivery-8)
+prep(delivery-8, of-9)
+pobj(of-9, it-10)
+cop(wooden-12, is-11)
+conj(bad-5, wooden-12)
+punct(bad-5, .-13)
+
+Sentence #7 (15 tokens):
+The cinematography looks nice, but that's not enough to save this tripe.
+[Text=The CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=DT] [Text=cinematography CharacterOffsetBegin=416 CharacterOffsetEnd=430 PartOfSpeech=NN] [Text=looks CharacterOffsetBegin=431 CharacterOffsetEnd=436 PartOfSpeech=VBZ] [Text=nice CharacterOffsetBegin=437 CharacterOffsetEnd=441 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=,] [Text=but CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=451 CharacterOffsetEnd=453 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=458 CharacterOffsetEnd=464 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=TO] [Text=save CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=DT] [Text=tripe CharacterOffsetBegin=478 CharacterOffsetEnd=483 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=.] 
+root(ROOT-0, looks-3)
+det(cinematography-2, The-1)
+nsubj(looks-3, cinematography-2)
+acomp(looks-3, nice-4)
+punct(looks-3, ,-5)
+cc(looks-3, but-6)
+nsubj(enough-10, that-7)
+cop(enough-10, 's-8)
+neg(enough-10, not-9)
+conj(looks-3, enough-10)
+aux(save-12, to-11)
+xcomp(enough-10, save-12)
+det(tripe-14, this-13)
+dobj(save-12, tripe-14)
+punct(looks-3, .-15)
+
+Sentence #8 (10 tokens):
+THIS NEXT PART OF THIS REVIEW DOES CONTAIN SPOILERS!!!!
+[Text=THIS CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=NNP] [Text=NEXT CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=NNP] [Text=PART CharacterOffsetBegin=499 CharacterOffsetEnd=503 PartOfSpeech=NNP] [Text=OF CharacterOffsetBegin=504 CharacterOffsetEnd=506 PartOfSpeech=IN] [Text=THIS CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=NNP] [Text=REVIEW CharacterOffsetBegin=512 CharacterOffsetEnd=518 PartOfSpeech=NNP] [Text=DOES CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=VBZ] [Text=CONTAIN CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=NNP] [Text=SPOILERS CharacterOffsetBegin=532 CharacterOffsetEnd=540 PartOfSpeech=NNP] [Text=!!!! CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=CD] 
+root(ROOT-0, PART-3)
+nn(PART-3, THIS-1)
+nn(PART-3, NEXT-2)
+prep(PART-3, OF-4)
+nn(SPOILERS-9, THIS-5)
+nn(SPOILERS-9, REVIEW-6)
+nn(SPOILERS-9, DOES-7)
+nn(SPOILERS-9, CONTAIN-8)
+pobj(OF-4, SPOILERS-9)
+num(SPOILERS-9, !!!!-10)
+
+Sentence #9 (33 tokens):
+During the climax it looks like the villain is going to get away, but then he comes back down stairs to get shot and do a cool stunt down the railing.
+[Text=During CharacterOffsetBegin=549 CharacterOffsetEnd=555 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=DT] [Text=climax CharacterOffsetBegin=560 CharacterOffsetEnd=566 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=PRP] [Text=looks CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=DT] [Text=villain CharacterOffsetBegin=585 CharacterOffsetEnd=592 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=VBZ] [Text=going CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=VB] [Text=away CharacterOffsetBegin=609 CharacterOffsetEnd=613 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=,] [Text=but CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=PRP] [Text=comes CharacterOffsetBegin=627 CharacterOffsetEnd=632 PartOfSpeech=VBZ] [Text=back CharacterOffsetBegin=633 CharacterOffsetEnd=637 PartOfSpeech=RB] [Text=down CharacterOffsetBegin=638 CharacterOffsetEnd=642 PartOfSpeech=RB] [Text=stairs CharacterOffsetBegin=643 CharacterOffsetEnd=649 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=VB] [Text=shot CharacterOffsetBegin=657 CharacterOffsetEnd=661 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=CC] [Text=do CharacterOffsetBegin=666 CharacterOffsetEnd=668 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=669 CharacterOffsetEnd=670 PartOfSpeech=DT] [Text=cool CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=JJ] [Text=stunt CharacterOffsetBegin=676 CharacterOffsetEnd=681 PartOfSpeech=NN] [Text=down CharacterOffsetBegin=682 CharacterOffsetEnd=686 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=DT] [Text=railing CharacterOffsetBegin=691 CharacterOffsetEnd=698 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=.] 
+root(ROOT-0, going-10)
+prep(looks-5, During-1)
+det(climax-3, the-2)
+pobj(During-1, climax-3)
+nsubj(looks-5, it-4)
+csubj(going-10, looks-5)
+prep(looks-5, like-6)
+det(villain-8, the-7)
+pobj(like-6, villain-8)
+aux(going-10, is-9)
+aux(get-12, to-11)
+xcomp(going-10, get-12)
+advmod(get-12, away-13)
+punct(going-10, ,-14)
+cc(going-10, but-15)
+advmod(comes-18, then-16)
+nsubj(comes-18, he-17)
+conj(going-10, comes-18)
+advmod(comes-18, back-19)
+advmod(comes-18, down-20)
+pobj(down-20, stairs-21)
+aux(shot-24, to-22)
+auxpass(shot-24, get-23)
+xcomp(comes-18, shot-24)
+cc(shot-24, and-25)
+conj(shot-24, do-26)
+det(stunt-29, a-27)
+amod(stunt-29, cool-28)
+dobj(do-26, stunt-29)
+prep(do-26, down-30)
+det(railing-32, the-31)
+pobj(down-30, railing-32)
+punct(going-10, .-33)
+
+Sentence #10 (10 tokens):
+That just shows this script has no originality whatsoever.
+[Text=That CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=DT] [Text=just CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=RB] [Text=shows CharacterOffsetBegin=714 CharacterOffsetEnd=719 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=720 CharacterOffsetEnd=724 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=725 CharacterOffsetEnd=731 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=732 CharacterOffsetEnd=735 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=736 CharacterOffsetEnd=738 PartOfSpeech=DT] [Text=originality CharacterOffsetBegin=739 CharacterOffsetEnd=750 PartOfSpeech=NN] [Text=whatsoever CharacterOffsetBegin=751 CharacterOffsetEnd=761 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=761 CharacterOffsetEnd=762 PartOfSpeech=.] 
+root(ROOT-0, shows-3)
+nsubj(shows-3, That-1)
+advmod(shows-3, just-2)
+det(script-5, this-4)
+nsubj(has-6, script-5)
+ccomp(shows-3, has-6)
+det(originality-8, no-7)
+dobj(has-6, originality-8)
+advmod(originality-8, whatsoever-9)
+punct(shows-3, .-10)
+
+Sentence #11 (2 tokens):
+AVOID!
+[Text=AVOID CharacterOffsetBegin=767 CharacterOffsetEnd=772 PartOfSpeech=VB] [Text=! CharacterOffsetBegin=772 CharacterOffsetEnd=773 PartOfSpeech=.] 
+root(ROOT-0, AVOID-1)
+punct(AVOID-1, !-2)
+

@@ -5,7 +5,7 @@ import re
 import string
 import nltk
 
-path = './RSTParser/examples'
+path = './sentiment-analysis/data_sample/test/neg/'
 files = [os.path.join(path, fname) for fname in os.listdir(path) if fname.endswith('.out')]
 
 for fname in files:

@@ -1,0 +1,266 @@
+Sentence #1 (11 tokens):
+A teenager who seems to have it all commits suicide.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=teenager CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=WP] [Text=seems CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=commits CharacterOffsetBegin=40 CharacterOffsetEnd=47 PartOfSpeech=VBZ] [Text=suicide CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, teenager-2)
+det(teenager-2, A-1)
+nsubj(seems-4, who-3)
+rcmod(teenager-2, seems-4)
+aux(have-6, to-5)
+xcomp(seems-4, have-6)
+nsubj(commits-9, it-7)
+dep(commits-9, all-8)
+ccomp(have-6, commits-9)
+dobj(commits-9, suicide-10)
+punct(teenager-2, .-11)
+
+Sentence #2 (26 tokens):
+It leaves his family and his best friend (Keanu Reeves) asking a lot of questions...and blaming themselves.Good idea, badly handled.
+[Text=It CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=PRP] [Text=leaves CharacterOffsetBegin=64 CharacterOffsetEnd=70 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=PRP$] [Text=family CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=PRP$] [Text=best CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=JJS] [Text=friend CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=-LRB-] [Text=Keanu CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NNP] [Text=Reeves CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=-RRB-] [Text=asking CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=questions CharacterOffsetBegin=133 CharacterOffsetEnd=142 PartOfSpeech=NNS] [Text=... CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=:] [Text=and CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=CC] [Text=blaming CharacterOffsetBegin=149 CharacterOffsetEnd=156 PartOfSpeech=VBG] [Text=themselves.Good CharacterOffsetBegin=157 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=idea CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=,] [Text=badly CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=RB] [Text=handled CharacterOffsetBegin=185 CharacterOffsetEnd=192 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=.] 
+root(ROOT-0, leaves-2)
+nsubj(leaves-2, It-1)
+poss(family-4, his-3)
+dobj(leaves-2, family-4)
+cc(family-4, and-5)
+poss(friend-8, his-6)
+amod(friend-8, best-7)
+nsubj(asking-13, friend-8)
+punct(Reeves-11, -LRB--9)
+nn(Reeves-11, Keanu-10)
+appos(friend-8, Reeves-11)
+punct(Reeves-11, -RRB--12)
+conj(family-4, asking-13)
+det(lot-15, a-14)
+dobj(asking-13, lot-15)
+prep(lot-15, of-16)
+pobj(of-16, questions-17)
+punct(leaves-2, ...-18)
+cc(leaves-2, and-19)
+conj(leaves-2, blaming-20)
+nn(idea-22, themselves.Good-21)
+dobj(blaming-20, idea-22)
+punct(leaves-2, ,-23)
+advmod(handled-25, badly-24)
+conj(leaves-2, handled-25)
+punct(leaves-2, .-26)
+
+Sentence #3 (18 tokens):
+For starters this HAS been done before 1988--mostly in TV movies and After School Specials.
+[Text=For CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=starters CharacterOffsetBegin=202 CharacterOffsetEnd=210 PartOfSpeech=NNS] [Text=this CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=HAS CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VBN] [Text=done CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=VBN] [Text=before CharacterOffsetBegin=230 CharacterOffsetEnd=236 PartOfSpeech=IN] [Text=1988 CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=CD] [Text=-- CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=:] [Text=mostly CharacterOffsetBegin=243 CharacterOffsetEnd=249 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=CC] [Text=After CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=IN] [Text=School CharacterOffsetBegin=273 CharacterOffsetEnd=279 PartOfSpeech=NNP] [Text=Specials CharacterOffsetBegin=280 CharacterOffsetEnd=288 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=.] 
+root(ROOT-0, done-6)
+prep(done-6, For-1)
+pobj(For-1, starters-2)
+nsubjpass(done-6, this-3)
+aux(done-6, HAS-4)
+auxpass(done-6, been-5)
+prep(done-6, before-7)
+pobj(before-7, 1988-8)
+punct(done-6, ---9)
+advmod(in-11, mostly-10)
+prep(done-6, in-11)
+nn(movies-13, TV-12)
+pobj(in-11, movies-13)
+cc(in-11, and-14)
+conj(in-11, After-15)
+nn(Specials-17, School-16)
+pobj(After-15, Specials-17)
+punct(done-6, .-18)
+
+Sentence #4 (17 tokens):
+Aside from some swearing and dialogue (hence the PG-13 rating) this added nothing new.
+[Text=Aside CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=DT] [Text=swearing CharacterOffsetBegin=310 CharacterOffsetEnd=318 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=CC] [Text=dialogue CharacterOffsetBegin=323 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=-LRB-] [Text=hence CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=DT] [Text=PG-13 CharacterOffsetBegin=343 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=rating CharacterOffsetBegin=349 CharacterOffsetEnd=355 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=355 CharacterOffsetEnd=356 PartOfSpeech=-RRB-] [Text=this CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=DT] [Text=added CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=VBD] [Text=nothing CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NN] [Text=new CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=.] 
+root(ROOT-0, added-14)
+advmod(added-14, Aside-1)
+prep(Aside-1, from-2)
+pobj(from-2, some-3)
+amod(some-3, swearing-4)
+cc(swearing-4, and-5)
+conj(swearing-4, dialogue-6)
+punct(hence-8, -LRB--7)
+dep(swearing-4, hence-8)
+det(rating-11, the-9)
+nn(rating-11, PG-13-10)
+dep(hence-8, rating-11)
+punct(hence-8, -RRB--12)
+nsubj(added-14, this-13)
+dobj(added-14, nothing-15)
+amod(nothing-15, new-16)
+punct(added-14, .-17)
+
+Sentence #5 (16 tokens):
+The outcome is predictable and Reeve's attempts at acting were truly painful to watch.
+[Text=The CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=DT] [Text=outcome CharacterOffsetBegin=389 CharacterOffsetEnd=396 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=VBZ] [Text=predictable CharacterOffsetBegin=400 CharacterOffsetEnd=411 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=CC] [Text=Reeve CharacterOffsetBegin=416 CharacterOffsetEnd=421 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=POS] [Text=attempts CharacterOffsetBegin=424 CharacterOffsetEnd=432 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=IN] [Text=acting CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=VBG] [Text=were CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=VBD] [Text=truly CharacterOffsetBegin=448 CharacterOffsetEnd=453 PartOfSpeech=RB] [Text=painful CharacterOffsetBegin=454 CharacterOffsetEnd=461 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=462 CharacterOffsetEnd=464 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=.] 
+root(ROOT-0, predictable-4)
+det(outcome-2, The-1)
+nsubj(predictable-4, outcome-2)
+cop(predictable-4, is-3)
+cc(predictable-4, and-5)
+poss(attempts-8, Reeve-6)
+possessive(Reeve-6, 's-7)
+nsubj(painful-13, attempts-8)
+prep(attempts-8, at-9)
+pobj(at-9, acting-10)
+cop(painful-13, were-11)
+advmod(painful-13, truly-12)
+conj(predictable-4, painful-13)
+aux(watch-15, to-14)
+xcomp(painful-13, watch-15)
+punct(predictable-4, .-16)
+
+Sentence #6 (9 tokens):
+He's good NOW but not in 1988.
+[Text=He CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=JJ] [Text=NOW CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=RB] [Text=but CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=498 CharacterOffsetEnd=500 PartOfSpeech=IN] [Text=1988 CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=.] 
+root(ROOT-0, good-3)
+nsubj(good-3, He-1)
+cop(good-3, 's-2)
+advmod(good-3, NOW-4)
+cc(NOW-4, but-5)
+conj(NOW-4, not-6)
+prep(NOW-4, in-7)
+pobj(in-7, 1988-8)
+punct(good-3, .-9)
+
+Sentence #7 (28 tokens):
+Aside from that his character was dressed like a slob and always looked so dirty is was hard to build up sympathy.That aside the movie is dull.
+[Text=Aside CharacterOffsetBegin=511 CharacterOffsetEnd=516 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=DT] [Text=his CharacterOffsetBegin=527 CharacterOffsetEnd=530 PartOfSpeech=PRP$] [Text=character CharacterOffsetBegin=531 CharacterOffsetEnd=540 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=VBD] [Text=dressed CharacterOffsetBegin=545 CharacterOffsetEnd=552 PartOfSpeech=VBN] [Text=like CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=DT] [Text=slob CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=CC] [Text=always CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=RB] [Text=looked CharacterOffsetBegin=576 CharacterOffsetEnd=582 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=RB] [Text=dirty CharacterOffsetBegin=586 CharacterOffsetEnd=591 PartOfSpeech=JJ] [Text=is CharacterOffsetBegin=592 CharacterOffsetEnd=594 PartOfSpeech=VBZ] [Text=was CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=VBD] [Text=hard CharacterOffsetBegin=599 CharacterOffsetEnd=603 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=TO] [Text=build CharacterOffsetBegin=607 CharacterOffsetEnd=612 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=RP] [Text=sympathy.That CharacterOffsetBegin=616 CharacterOffsetEnd=629 PartOfSpeech=NN] [Text=aside CharacterOffsetBegin=630 CharacterOffsetEnd=635 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=636 CharacterOffsetEnd=639 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=640 CharacterOffsetEnd=645 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=646 CharacterOffsetEnd=648 PartOfSpeech=VBZ] [Text=dull CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=.] 
+root(ROOT-0, from-2)
+advmod(from-2, Aside-1)
+mark(dressed-7, that-3)
+poss(character-5, his-4)
+nsubjpass(dressed-7, character-5)
+auxpass(dressed-7, was-6)
+pcomp(from-2, dressed-7)
+prep(dressed-7, like-8)
+det(slob-10, a-9)
+pobj(like-8, slob-10)
+cc(dressed-7, and-11)
+advmod(looked-13, always-12)
+conj(dressed-7, looked-13)
+advmod(dirty-15, so-14)
+nsubj(hard-18, dirty-15)
+aux(hard-18, is-16)
+cop(hard-18, was-17)
+xcomp(looked-13, hard-18)
+aux(build-20, to-19)
+xcomp(hard-18, build-20)
+prt(build-20, up-21)
+dobj(build-20, sympathy.That-22)
+advmod(build-20, aside-23)
+det(movie-25, the-24)
+nsubj(dull-27, movie-25)
+cop(dull-27, is-26)
+dep(build-20, dull-27)
+punct(from-2, .-28)
+
+Sentence #8 (13 tokens):
+I saw every scene coming and every "surprise" was telegraphed.
+[Text=I CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=VBD] [Text=every CharacterOffsetBegin=665 CharacterOffsetEnd=670 PartOfSpeech=DT] [Text=scene CharacterOffsetBegin=671 CharacterOffsetEnd=676 PartOfSpeech=NN] [Text=coming CharacterOffsetBegin=677 CharacterOffsetEnd=683 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=CC] [Text=every CharacterOffsetBegin=688 CharacterOffsetEnd=693 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=``] [Text=surprise CharacterOffsetBegin=695 CharacterOffsetEnd=703 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=703 CharacterOffsetEnd=704 PartOfSpeech=''] [Text=was CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=VBD] [Text=telegraphed CharacterOffsetBegin=709 CharacterOffsetEnd=720 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=720 CharacterOffsetEnd=721 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+det(scene-4, every-3)
+nsubj(coming-5, scene-4)
+dep(saw-2, coming-5)
+cc(coming-5, and-6)
+det(surprise-9, every-7)
+punct(surprise-9, ``-8)
+nsubjpass(telegraphed-12, surprise-9)
+punct(surprise-9, ''-10)
+auxpass(telegraphed-12, was-11)
+conj(coming-5, telegraphed-12)
+punct(saw-2, .-13)
+
+Sentence #9 (32 tokens):
+I basically couldn't wait for this thing to get over.I have a vague recollection of seeing it in a theatre in 1988 and hating it (it bombed BADLY).
+[Text=I CharacterOffsetBegin=726 CharacterOffsetEnd=727 PartOfSpeech=PRP] [Text=basically CharacterOffsetBegin=728 CharacterOffsetEnd=737 PartOfSpeech=RB] [Text=could CharacterOffsetBegin=738 CharacterOffsetEnd=743 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=RB] [Text=wait CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=752 CharacterOffsetEnd=755 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=756 CharacterOffsetEnd=760 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=761 CharacterOffsetEnd=766 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=767 CharacterOffsetEnd=769 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=VB] [Text=over.I CharacterOffsetBegin=774 CharacterOffsetEnd=780 PartOfSpeech=NNP] [Text=have CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=786 CharacterOffsetEnd=787 PartOfSpeech=DT] [Text=vague CharacterOffsetBegin=788 CharacterOffsetEnd=793 PartOfSpeech=JJ] [Text=recollection CharacterOffsetBegin=794 CharacterOffsetEnd=806 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=807 CharacterOffsetEnd=809 PartOfSpeech=IN] [Text=seeing CharacterOffsetBegin=810 CharacterOffsetEnd=816 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=817 CharacterOffsetEnd=819 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=820 CharacterOffsetEnd=822 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=823 CharacterOffsetEnd=824 PartOfSpeech=DT] [Text=theatre CharacterOffsetBegin=825 CharacterOffsetEnd=832 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=833 CharacterOffsetEnd=835 PartOfSpeech=IN] [Text=1988 CharacterOffsetBegin=836 CharacterOffsetEnd=840 PartOfSpeech=CD] [Text=and CharacterOffsetBegin=841 CharacterOffsetEnd=844 PartOfSpeech=CC] [Text=hating CharacterOffsetBegin=845 CharacterOffsetEnd=851 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=852 CharacterOffsetEnd=854 PartOfSpeech=PRP] [Text=-LRB- CharacterOffsetBegin=855 CharacterOffsetEnd=856 PartOfSpeech=-LRB-] [Text=it CharacterOffsetBegin=856 CharacterOffsetEnd=858 PartOfSpeech=PRP] [Text=bombed CharacterOffsetBegin=859 CharacterOffsetEnd=865 PartOfSpeech=VBD] [Text=BADLY CharacterOffsetBegin=866 CharacterOffsetEnd=871 PartOfSpeech=RB] [Text=-RRB- CharacterOffsetBegin=871 CharacterOffsetEnd=872 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=872 CharacterOffsetEnd=873 PartOfSpeech=.] 
+root(ROOT-0, wait-5)
+nsubj(wait-5, I-1)
+advmod(wait-5, basically-2)
+aux(wait-5, could-3)
+neg(wait-5, n't-4)
+prep(wait-5, for-6)
+det(thing-8, this-7)
+pobj(for-6, thing-8)
+aux(get-10, to-9)
+infmod(thing-8, get-10)
+nsubj(have-12, over.I-11)
+xcomp(get-10, have-12)
+det(recollection-15, a-13)
+amod(recollection-15, vague-14)
+dobj(have-12, recollection-15)
+prep(recollection-15, of-16)
+pcomp(of-16, seeing-17)
+dobj(seeing-17, it-18)
+prep(seeing-17, in-19)
+det(theatre-21, a-20)
+pobj(in-19, theatre-21)
+prep(theatre-21, in-22)
+pobj(in-22, 1988-23)
+cc(seeing-17, and-24)
+conj(seeing-17, hating-25)
+dobj(hating-25, it-26)
+punct(bombed-29, -LRB--27)
+nsubj(bombed-29, it-28)
+dep(it-26, bombed-29)
+advmod(bombed-29, BADLY-30)
+punct(bombed-29, -RRB--31)
+punct(wait-5, .-32)
+
+Sentence #10 (9 tokens):
+It still looks lousy almost 20 years later.
+[Text=It CharacterOffsetBegin=878 CharacterOffsetEnd=880 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=881 CharacterOffsetEnd=886 PartOfSpeech=RB] [Text=looks CharacterOffsetBegin=887 CharacterOffsetEnd=892 PartOfSpeech=VBZ] [Text=lousy CharacterOffsetBegin=893 CharacterOffsetEnd=898 PartOfSpeech=JJ] [Text=almost CharacterOffsetBegin=899 CharacterOffsetEnd=905 PartOfSpeech=RB] [Text=20 CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=909 CharacterOffsetEnd=914 PartOfSpeech=NNS] [Text=later CharacterOffsetBegin=915 CharacterOffsetEnd=920 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=920 CharacterOffsetEnd=921 PartOfSpeech=.] 
+root(ROOT-0, looks-3)
+nsubj(looks-3, It-1)
+advmod(looks-3, still-2)
+acomp(looks-3, lousy-4)
+quantmod(20-6, almost-5)
+num(years-7, 20-6)
+npadvmod(later-8, years-7)
+advmod(looks-3, later-8)
+punct(looks-3, .-9)
+
+Sentence #11 (21 tokens):
+The subject is worth handling but it's been done better (with better acting) in countless other movies.
+[Text=The CharacterOffsetBegin=926 CharacterOffsetEnd=929 PartOfSpeech=DT] [Text=subject CharacterOffsetBegin=930 CharacterOffsetEnd=937 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=938 CharacterOffsetEnd=940 PartOfSpeech=VBZ] [Text=worth CharacterOffsetBegin=941 CharacterOffsetEnd=946 PartOfSpeech=JJ] [Text=handling CharacterOffsetBegin=947 CharacterOffsetEnd=955 PartOfSpeech=VBG] [Text=but CharacterOffsetBegin=956 CharacterOffsetEnd=959 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=960 CharacterOffsetEnd=962 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=965 CharacterOffsetEnd=969 PartOfSpeech=VBN] [Text=done CharacterOffsetBegin=970 CharacterOffsetEnd=974 PartOfSpeech=VBN] [Text=better CharacterOffsetBegin=975 CharacterOffsetEnd=981 PartOfSpeech=RBR] [Text=-LRB- CharacterOffsetBegin=982 CharacterOffsetEnd=983 PartOfSpeech=-LRB-] [Text=with CharacterOffsetBegin=983 CharacterOffsetEnd=987 PartOfSpeech=IN] [Text=better CharacterOffsetBegin=988 CharacterOffsetEnd=994 PartOfSpeech=JJR] [Text=acting CharacterOffsetBegin=995 CharacterOffsetEnd=1001 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=1001 CharacterOffsetEnd=1002 PartOfSpeech=-RRB-] [Text=in CharacterOffsetBegin=1003 CharacterOffsetEnd=1005 PartOfSpeech=IN] [Text=countless CharacterOffsetBegin=1006 CharacterOffsetEnd=1015 PartOfSpeech=JJ] [Text=other CharacterOffsetBegin=1016 CharacterOffsetEnd=1021 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=1022 CharacterOffsetEnd=1028 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1028 CharacterOffsetEnd=1029 PartOfSpeech=.] 
+root(ROOT-0, worth-4)
+det(subject-2, The-1)
+nsubj(worth-4, subject-2)
+cop(worth-4, is-3)
+dep(worth-4, handling-5)
+cc(handling-5, but-6)
+nsubjpass(done-10, it-7)
+auxpass(done-10, 's-8)
+auxpass(done-10, been-9)
+conj(handling-5, done-10)
+advmod(done-10, better-11)
+dep(better-11, -LRB--12)
+dep(-LRB--12, with-13)
+amod(acting-15, better-14)
+pobj(with-13, acting-15)
+punct(acting-15, -RRB--16)
+prep(acting-15, in-17)
+amod(movies-20, countless-18)
+amod(movies-20, other-19)
+pobj(in-17, movies-20)
+punct(with-13, .-21)
+
+Sentence #12 (8 tokens):
+"Ordinary People" comes to mind.
+[Text=`` CharacterOffsetBegin=1034 CharacterOffsetEnd=1035 PartOfSpeech=``] [Text=Ordinary CharacterOffsetBegin=1035 CharacterOffsetEnd=1043 PartOfSpeech=NNP] [Text=People CharacterOffsetBegin=1044 CharacterOffsetEnd=1050 PartOfSpeech=NNPS] [Text='' CharacterOffsetBegin=1050 CharacterOffsetEnd=1051 PartOfSpeech=''] [Text=comes CharacterOffsetBegin=1052 CharacterOffsetEnd=1057 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=1058 CharacterOffsetEnd=1060 PartOfSpeech=TO] [Text=mind CharacterOffsetBegin=1061 CharacterOffsetEnd=1065 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=1065 CharacterOffsetEnd=1066 PartOfSpeech=.] 
+root(ROOT-0, comes-5)
+punct(People-3, ``-1)
+nn(People-3, Ordinary-2)
+nsubj(comes-5, People-3)
+punct(People-3, ''-4)
+prep(comes-5, to-6)
+pobj(to-6, mind-7)
+punct(comes-5, .-8)
+
+Sentence #13 (6 tokens):
+You can skip this one.
+[Text=You CharacterOffsetBegin=1071 CharacterOffsetEnd=1074 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=1075 CharacterOffsetEnd=1078 PartOfSpeech=MD] [Text=skip CharacterOffsetBegin=1079 CharacterOffsetEnd=1083 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=1084 CharacterOffsetEnd=1088 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=1089 CharacterOffsetEnd=1092 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=1092 CharacterOffsetEnd=1093 PartOfSpeech=.] 
+root(ROOT-0, skip-3)
+nsubj(skip-3, You-1)
+aux(skip-3, can-2)
+det(one-5, this-4)
+dobj(skip-3, one-5)
+punct(skip-3, .-6)
+

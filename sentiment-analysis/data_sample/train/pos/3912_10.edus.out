@@ -1,0 +1,60 @@
+Sentence #1 (10 tokens):
+Highly regarded at release, but since rather neglected.
+[Text=Highly CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=regarded CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=IN] [Text=release CharacterOffsetBegin=23 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=,] [Text=but CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=CC] [Text=since CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=IN] [Text=rather CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=RB] [Text=neglected CharacterOffsetBegin=49 CharacterOffsetEnd=58 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, regarded-2)
+advmod(regarded-2, Highly-1)
+prep(regarded-2, at-3)
+pobj(at-3, release-4)
+punct(regarded-2, ,-5)
+cc(regarded-2, but-6)
+mark(neglected-9, since-7)
+advmod(neglected-9, rather-8)
+conj(regarded-2, neglected-9)
+punct(regarded-2, .-10)
+
+Sentence #2 (9 tokens):
+Immense importance in the history of performing arts.
+[Text=Immense CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=JJ] [Text=importance CharacterOffsetBegin=72 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=history CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=performing CharacterOffsetBegin=101 CharacterOffsetEnd=111 PartOfSpeech=VBG] [Text=arts CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=.] 
+root(ROOT-0, importance-2)
+amod(importance-2, Immense-1)
+prep(importance-2, in-3)
+det(history-5, the-4)
+pobj(in-3, history-5)
+prep(history-5, of-6)
+pcomp(of-6, performing-7)
+dobj(performing-7, arts-8)
+punct(importance-2, .-9)
+
+Sentence #3 (7 tokens):
+A classic use of embedded plots.
+[Text=A CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=JJ] [Text=use CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN] [Text=embedded CharacterOffsetBegin=139 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=plots CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=.] 
+root(ROOT-0, use-3)
+det(use-3, A-1)
+amod(use-3, classic-2)
+prep(use-3, of-4)
+amod(plots-6, embedded-5)
+pobj(of-4, plots-6)
+punct(use-3, .-7)
+
+Sentence #4 (6 tokens):
+One of my favourite films.
+[Text=One CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=PRP$] [Text=favourite CharacterOffsetBegin=169 CharacterOffsetEnd=178 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=.] 
+root(ROOT-0, One-1)
+prep(One-1, of-2)
+poss(films-5, my-3)
+amod(films-5, favourite-4)
+pobj(of-2, films-5)
+punct(One-1, .-6)
+
+Sentence #5 (8 tokens):
+Why hasn't the soundtrack been re-released?
+[Text=Why CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=WRB] [Text=has CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=soundtrack CharacterOffsetBegin=205 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=been CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=VBN] [Text=re-released CharacterOffsetBegin=221 CharacterOffsetEnd=232 PartOfSpeech=VBN] [Text=? CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=.] 
+root(ROOT-0, re-released-7)
+advmod(re-released-7, Why-1)
+aux(re-released-7, has-2)
+neg(re-released-7, n't-3)
+det(soundtrack-5, the-4)
+nsubjpass(re-released-7, soundtrack-5)
+auxpass(re-released-7, been-6)
+punct(re-released-7, ?-8)
+

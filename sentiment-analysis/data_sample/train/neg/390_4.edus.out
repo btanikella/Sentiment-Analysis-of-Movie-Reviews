@@ -1,0 +1,193 @@
+Sentence #1 (14 tokens):
+I LOVED the Apprentice for the first two seasons.But now with season 5?
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=LOVED CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=Apprentice CharacterOffsetBegin=16 CharacterOffsetEnd=26 PartOfSpeech=NNP] [Text=for CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=two CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=CD] [Text=seasons.But CharacterOffsetBegin=45 CharacterOffsetEnd=56 PartOfSpeech=NN] [Text=now CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=season CharacterOffsetBegin=66 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=5 CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=CD] [Text=? CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=.] 
+root(ROOT-0, LOVED-2)
+nsubj(LOVED-2, I-1)
+det(Apprentice-4, the-3)
+dobj(LOVED-2, Apprentice-4)
+prep(LOVED-2, for-5)
+det(seasons.But-9, the-6)
+amod(seasons.But-9, first-7)
+num(seasons.But-9, two-8)
+pobj(for-5, seasons.But-9)
+advmod(seasons.But-9, now-10)
+prep(seasons.But-9, with-11)
+pobj(with-11, season-12)
+num(season-12, 5-13)
+punct(LOVED-2, ?-14)
+
+Sentence #2 (7 tokens):
+(or is it 6?)
+[Text=-LRB- CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=-LRB-] [Text=or CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=PRP] [Text=6 CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=CD] [Text=? CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=-RRB-] 
+root(ROOT-0, 6-5)
+punct(is-3, -LRB--1)
+cc(is-3, or-2)
+dep(6-5, is-3)
+nsubj(6-5, it-4)
+punct(6-5, ?-6)
+punct(6-5, -RRB--7)
+
+Sentence #3 (22 tokens):
+things are getting just plain too tiring.I used to like the show, but its become Donald Trumps own ego fest.
+[Text=things CharacterOffsetBegin=98 CharacterOffsetEnd=104 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=VBP] [Text=getting CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=VBG] [Text=just CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=RB] [Text=plain CharacterOffsetBegin=122 CharacterOffsetEnd=127 PartOfSpeech=RB] [Text=too CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=RB] [Text=tiring.I CharacterOffsetBegin=132 CharacterOffsetEnd=140 PartOfSpeech=JJ] [Text=used CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=TO] [Text=like CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=,] [Text=but CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=CC] [Text=its CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=PRP$] [Text=become CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=VBN] [Text=Donald CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NNP] [Text=Trumps CharacterOffsetBegin=186 CharacterOffsetEnd=192 PartOfSpeech=NNPS] [Text=own CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=JJ] [Text=ego CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=NN] [Text=fest CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=.] 
+root(ROOT-0, getting-3)
+nsubj(getting-3, things-1)
+aux(getting-3, are-2)
+advmod(plain-5, just-4)
+advmod(tiring.I-7, plain-5)
+advmod(tiring.I-7, too-6)
+dobj(getting-3, tiring.I-7)
+partmod(tiring.I-7, used-8)
+aux(like-10, to-9)
+xcomp(used-8, like-10)
+det(show-12, the-11)
+dobj(like-10, show-12)
+punct(getting-3, ,-13)
+cc(getting-3, but-14)
+nsubj(fest-21, its-15)
+cop(fest-21, become-16)
+nn(Trumps-18, Donald-17)
+dep(fest-21, Trumps-18)
+amod(fest-21, own-19)
+nn(fest-21, ego-20)
+conj(getting-3, fest-21)
+punct(getting-3, .-22)
+
+Sentence #4 (14 tokens):
+Granted its his company you'll be working for, but come on!
+[Text=Granted CharacterOffsetBegin=211 CharacterOffsetEnd=218 PartOfSpeech=VBN] [Text=its CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=PRP$] [Text=his CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=PRP$] [Text=company CharacterOffsetBegin=227 CharacterOffsetEnd=234 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=VB] [Text=working CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=,] [Text=but CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=CC] [Text=come CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=IN] [Text=! CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=.] 
+root(ROOT-0, Granted-1)
+poss(company-4, its-2)
+poss(company-4, his-3)
+dobj(Granted-1, company-4)
+nsubj(working-8, you-5)
+aux(working-8, 'll-6)
+aux(working-8, be-7)
+rcmod(company-4, working-8)
+prep(working-8, for-9)
+punct(Granted-1, ,-10)
+cc(Granted-1, but-11)
+conj(Granted-1, come-12)
+prt(come-12, on-13)
+punct(Granted-1, !-14)
+
+Sentence #5 (26 tokens):
+some of the things says "You're FIRED" is just insulting.after watching the show, I would not want to work for him.
+[Text=some CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=DT] [Text=things CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NNS] [Text=says CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=``] [Text=You CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=VBP] [Text=FIRED CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=VBN] [Text='' CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=''] [Text=is CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=RB] [Text=insulting.after CharacterOffsetBegin=322 CharacterOffsetEnd=337 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=338 CharacterOffsetEnd=346 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=355 CharacterOffsetEnd=356 PartOfSpeech=,] [Text=I CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=TO] [Text=work CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=.] 
+root(ROOT-0, says-5)
+nsubj(says-5, some-1)
+prep(some-1, of-2)
+det(things-4, the-3)
+pobj(of-2, things-4)
+punct(says-5, ``-6)
+nsubj(FIRED-9, You-7)
+cop(FIRED-9, 're-8)
+ccomp(says-5, FIRED-9)
+punct(says-5, ''-10)
+cop(insulting.after-13, is-11)
+advmod(insulting.after-13, just-12)
+ccomp(says-5, insulting.after-13)
+partmod(insulting.after-13, watching-14)
+det(show-16, the-15)
+dobj(watching-14, show-16)
+punct(says-5, ,-17)
+nsubj(want-21, I-18)
+aux(want-21, would-19)
+neg(want-21, not-20)
+ccomp(says-5, want-21)
+aux(work-23, to-22)
+xcomp(want-21, work-23)
+prep(work-23, for-24)
+pobj(for-24, him-25)
+punct(says-5, .-26)
+
+Sentence #6 (10 tokens):
+not because he is arrogant, pompous or such.
+[Text=not CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=VBZ] [Text=arrogant CharacterOffsetBegin=413 CharacterOffsetEnd=421 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=,] [Text=pompous CharacterOffsetBegin=423 CharacterOffsetEnd=430 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=CC] [Text=such CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=.] 
+root(ROOT-0, pompous-7)
+neg(pompous-7, not-1)
+mark(arrogant-5, because-2)
+nsubj(arrogant-5, he-3)
+cop(arrogant-5, is-4)
+advcl(pompous-7, arrogant-5)
+punct(pompous-7, ,-6)
+cc(pompous-7, or-8)
+conj(pompous-7, such-9)
+punct(pompous-7, .-10)
+
+Sentence #7 (18 tokens):
+Its just that the show is unrealistic and the way he handles things makes me just squirm.
+[Text=Its CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=PRP$] [Text=just CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=467 CharacterOffsetEnd=469 PartOfSpeech=VBZ] [Text=unrealistic CharacterOffsetBegin=470 CharacterOffsetEnd=481 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=PRP] [Text=handles CharacterOffsetBegin=497 CharacterOffsetEnd=504 PartOfSpeech=VBZ] [Text=things CharacterOffsetBegin=505 CharacterOffsetEnd=511 PartOfSpeech=NNS] [Text=makes CharacterOffsetBegin=512 CharacterOffsetEnd=517 PartOfSpeech=VBZ] [Text=me CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=RB] [Text=squirm CharacterOffsetBegin=526 CharacterOffsetEnd=532 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=.] 
+root(ROOT-0, makes-14)
+poss(just-2, Its-1)
+advmod(unrealistic-7, just-2)
+mark(unrealistic-7, that-3)
+det(show-5, the-4)
+nsubj(unrealistic-7, show-5)
+cop(unrealistic-7, is-6)
+nsubj(makes-14, unrealistic-7)
+cc(unrealistic-7, and-8)
+det(way-10, the-9)
+conj(unrealistic-7, way-10)
+nsubj(handles-12, he-11)
+rcmod(way-10, handles-12)
+dobj(handles-12, things-13)
+dobj(makes-14, me-15)
+advmod(squirm-17, just-16)
+xcomp(makes-14, squirm-17)
+punct(makes-14, .-18)
+
+Sentence #8 (3 tokens):
+Good Entertainment?
+[Text=Good CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=JJ] [Text=Entertainment CharacterOffsetBegin=543 CharacterOffsetEnd=556 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=.] 
+root(ROOT-0, Entertainment-2)
+amod(Entertainment-2, Good-1)
+punct(Entertainment-2, ?-3)
+
+Sentence #9 (12 tokens):
+YES, but tiring as the back stabbing gets so tiring.
+[Text=YES CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=,] [Text=but CharacterOffsetBegin=567 CharacterOffsetEnd=570 PartOfSpeech=CC] [Text=tiring CharacterOffsetBegin=571 CharacterOffsetEnd=577 PartOfSpeech=VBG] [Text=as CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=DT] [Text=back CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=JJ] [Text=stabbing CharacterOffsetBegin=590 CharacterOffsetEnd=598 PartOfSpeech=VBG] [Text=gets CharacterOffsetBegin=599 CharacterOffsetEnd=603 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=RB] [Text=tiring CharacterOffsetBegin=607 CharacterOffsetEnd=613 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=.] 
+root(ROOT-0, YES-1)
+punct(YES-1, ,-2)
+cc(YES-1, but-3)
+conj(YES-1, tiring-4)
+mark(tiring-11, as-5)
+det(stabbing-8, the-6)
+amod(stabbing-8, back-7)
+nsubj(tiring-11, stabbing-8)
+dep(tiring-11, gets-9)
+advmod(tiring-11, so-10)
+advcl(tiring-4, tiring-11)
+punct(YES-1, .-12)
+
+Sentence #10 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=614 CharacterOffsetEnd=615 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #11 (13 tokens):
+its not team work, its not personal, its just business.
+[Text=its CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=PRP$] [Text=not CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=RB] [Text=team CharacterOffsetBegin=624 CharacterOffsetEnd=628 PartOfSpeech=NN] [Text=work CharacterOffsetBegin=629 CharacterOffsetEnd=633 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=,] [Text=its CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=PRP$] [Text=not CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=RB] [Text=personal CharacterOffsetBegin=643 CharacterOffsetEnd=651 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=651 CharacterOffsetEnd=652 PartOfSpeech=,] [Text=its CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=PRP$] [Text=just CharacterOffsetBegin=657 CharacterOffsetEnd=661 PartOfSpeech=JJ] [Text=business CharacterOffsetBegin=662 CharacterOffsetEnd=670 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=.] 
+root(ROOT-0, work-4)
+poss(team-3, its-1)
+neg(team-3, not-2)
+nsubj(work-4, team-3)
+punct(work-4, ,-5)
+poss(personal-8, its-6)
+neg(personal-8, not-7)
+dep(work-4, personal-8)
+punct(personal-8, ,-9)
+poss(business-12, its-10)
+amod(business-12, just-11)
+appos(personal-8, business-12)
+punct(work-4, .-13)
+
+Sentence #12 (5 tokens):
+watch your back jack.
+[Text=watch CharacterOffsetBegin=676 CharacterOffsetEnd=681 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=682 CharacterOffsetEnd=686 PartOfSpeech=PRP$] [Text=back CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=NN] [Text=jack CharacterOffsetBegin=692 CharacterOffsetEnd=696 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=696 CharacterOffsetEnd=697 PartOfSpeech=.] 
+root(ROOT-0, watch-1)
+poss(jack-4, your-2)
+amod(jack-4, back-3)
+dobj(watch-1, jack-4)
+punct(watch-1, .-5)
+

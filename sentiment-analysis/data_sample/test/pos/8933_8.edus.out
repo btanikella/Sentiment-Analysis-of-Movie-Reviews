@@ -1,0 +1,177 @@
+Sentence #1 (14 tokens):
+I've been wanting to see this movie for a very long time.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=VBP] [Text=been CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VBN] [Text=wanting CharacterOffsetBegin=14 CharacterOffsetEnd=21 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=RB] [Text=long CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, wanting-4)
+nsubj(wanting-4, I-1)
+aux(wanting-4, 've-2)
+aux(wanting-4, been-3)
+aux(see-6, to-5)
+xcomp(wanting-4, see-6)
+det(movie-8, this-7)
+dobj(see-6, movie-8)
+prep(see-6, for-9)
+det(time-13, a-10)
+advmod(long-12, very-11)
+amod(time-13, long-12)
+pobj(for-9, time-13)
+punct(wanting-4, .-14)
+
+Sentence #2 (16 tokens):
+I eventually just bought it on E-Bay since it's so hard to find state-side.
+[Text=I CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=eventually CharacterOffsetBegin=68 CharacterOffsetEnd=78 PartOfSpeech=RB] [Text=just CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=RB] [Text=bought CharacterOffsetBegin=84 CharacterOffsetEnd=90 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=E-Bay CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=NN] [Text=since CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=hard CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=TO] [Text=find CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=VB] [Text=state-side CharacterOffsetBegin=130 CharacterOffsetEnd=140 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, bought-4)
+nsubj(bought-4, I-1)
+advmod(bought-4, eventually-2)
+advmod(bought-4, just-3)
+dobj(bought-4, it-5)
+prep(bought-4, on-6)
+pobj(on-6, E-Bay-7)
+mark(hard-12, since-8)
+nsubj(hard-12, it-9)
+cop(hard-12, 's-10)
+advmod(hard-12, so-11)
+advcl(bought-4, hard-12)
+aux(find-14, to-13)
+xcomp(hard-12, find-14)
+dobj(find-14, state-side-15)
+punct(bought-4, .-16)
+
+Sentence #3 (16 tokens):
+But the wait was...somewhat worth it.I can't say the movie was great.
+[Text=But CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=wait CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=VBD] [Text=... CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=:] [Text=somewhat CharacterOffsetBegin=165 CharacterOffsetEnd=173 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=JJ] [Text=it.I CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=ca CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=VBD] [Text=great CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=.] 
+root(ROOT-0, was-4)
+cc(was-4, But-1)
+det(wait-3, the-2)
+nsubj(was-4, wait-3)
+punct(was-4, ...-5)
+advmod(worth-7, somewhat-6)
+xcomp(was-4, worth-7)
+nsubj(say-11, it.I-8)
+aux(say-11, ca-9)
+neg(say-11, n't-10)
+ccomp(worth-7, say-11)
+det(movie-13, the-12)
+nsubj(great-15, movie-13)
+cop(great-15, was-14)
+ccomp(say-11, great-15)
+punct(was-4, .-16)
+
+Sentence #4 (11 tokens):
+And I can't say that the movie was hilarious.
+[Text=And CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=VBD] [Text=hilarious CharacterOffsetBegin=255 CharacterOffsetEnd=264 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=.] 
+root(ROOT-0, say-5)
+cc(say-5, And-1)
+nsubj(say-5, I-2)
+aux(say-5, ca-3)
+neg(say-5, n't-4)
+mark(hilarious-10, that-6)
+det(movie-8, the-7)
+nsubj(hilarious-10, movie-8)
+cop(hilarious-10, was-9)
+ccomp(say-5, hilarious-10)
+punct(say-5, .-11)
+
+Sentence #5 (12 tokens):
+But it was good and it has some pretty funny points.
+[Text=But CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=VBD] [Text=good CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=VBZ] [Text=some CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=DT] [Text=pretty CharacterOffsetBegin=302 CharacterOffsetEnd=308 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=points CharacterOffsetBegin=315 CharacterOffsetEnd=321 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=.] 
+root(ROOT-0, good-4)
+cc(good-4, But-1)
+nsubj(good-4, it-2)
+cop(good-4, was-3)
+cc(good-4, and-5)
+nsubj(has-7, it-6)
+conj(good-4, has-7)
+det(points-11, some-8)
+advmod(funny-10, pretty-9)
+amod(points-11, funny-10)
+dobj(has-7, points-11)
+punct(good-4, .-12)
+
+Sentence #6 (11 tokens):
+That aside the shots in this movie are just beautiful.
+[Text=That CharacterOffsetBegin=327 CharacterOffsetEnd=331 PartOfSpeech=DT] [Text=aside CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=DT] [Text=shots CharacterOffsetBegin=342 CharacterOffsetEnd=347 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=VBP] [Text=just CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=RB] [Text=beautiful CharacterOffsetBegin=371 CharacterOffsetEnd=380 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=.] 
+root(ROOT-0, aside-2)
+nsubj(aside-2, That-1)
+det(shots-4, the-3)
+nsubj(beautiful-10, shots-4)
+prep(shots-4, in-5)
+det(movie-7, this-6)
+pobj(in-5, movie-7)
+cop(beautiful-10, are-8)
+advmod(beautiful-10, just-9)
+ccomp(aside-2, beautiful-10)
+punct(aside-2, .-11)
+
+Sentence #7 (58 tokens):
+And the entire cast, especially Brenda Blethyn (someone I hadn't seen before, sadly), were excellent.In the end this is a feel good romantic comedy and I recommend checking it out, unless you've just had a death in the family.If anything, the final chapter is highly worth the money.
+[Text=And CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=DT] [Text=entire CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=JJ] [Text=cast CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=,] [Text=especially CharacterOffsetBegin=407 CharacterOffsetEnd=417 PartOfSpeech=RB] [Text=Brenda CharacterOffsetBegin=418 CharacterOffsetEnd=424 PartOfSpeech=NNP] [Text=Blethyn CharacterOffsetBegin=425 CharacterOffsetEnd=432 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=-LRB-] [Text=someone CharacterOffsetBegin=434 CharacterOffsetEnd=441 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=442 CharacterOffsetEnd=443 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=VBN] [Text=before CharacterOffsetBegin=456 CharacterOffsetEnd=462 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=,] [Text=sadly CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=RB] [Text=-RRB- CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=,] [Text=were CharacterOffsetBegin=472 CharacterOffsetEnd=476 PartOfSpeech=VBD] [Text=excellent.In CharacterOffsetBegin=477 CharacterOffsetEnd=489 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=506 CharacterOffsetEnd=507 PartOfSpeech=DT] [Text=feel CharacterOffsetBegin=508 CharacterOffsetEnd=512 PartOfSpeech=NN] [Text=good CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=JJ] [Text=romantic CharacterOffsetBegin=518 CharacterOffsetEnd=526 PartOfSpeech=JJ] [Text=comedy CharacterOffsetBegin=527 CharacterOffsetEnd=533 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=538 CharacterOffsetEnd=539 PartOfSpeech=PRP] [Text=recommend CharacterOffsetBegin=540 CharacterOffsetEnd=549 PartOfSpeech=VBP] [Text=checking CharacterOffsetBegin=550 CharacterOffsetEnd=558 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=PRP] [Text=out CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=RP] [Text=, CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=,] [Text=unless CharacterOffsetBegin=567 CharacterOffsetEnd=573 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=VBP] [Text=just CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=RB] [Text=had CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=DT] [Text=death CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=598 CharacterOffsetEnd=600 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=601 CharacterOffsetEnd=604 PartOfSpeech=DT] [Text=family.If CharacterOffsetBegin=605 CharacterOffsetEnd=614 PartOfSpeech=NN] [Text=anything CharacterOffsetBegin=615 CharacterOffsetEnd=623 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=,] [Text=the CharacterOffsetBegin=625 CharacterOffsetEnd=628 PartOfSpeech=DT] [Text=final CharacterOffsetBegin=629 CharacterOffsetEnd=634 PartOfSpeech=JJ] [Text=chapter CharacterOffsetBegin=635 CharacterOffsetEnd=642 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=VBZ] [Text=highly CharacterOffsetBegin=646 CharacterOffsetEnd=652 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=653 CharacterOffsetEnd=658 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=DT] [Text=money CharacterOffsetBegin=663 CharacterOffsetEnd=668 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=668 CharacterOffsetEnd=669 PartOfSpeech=.] 
+root(ROOT-0, excellent.In-21)
+cc(excellent.In-21, And-1)
+det(cast-4, the-2)
+amod(cast-4, entire-3)
+nsubj(excellent.In-21, cast-4)
+punct(cast-4, ,-5)
+advmod(cast-4, especially-6)
+dep(cast-4, Brenda-7)
+dep(Brenda-7, Blethyn-8)
+punct(someone-10, -LRB--9)
+appos(Blethyn-8, someone-10)
+nsubj(seen-14, I-11)
+aux(seen-14, had-12)
+neg(seen-14, n't-13)
+rcmod(someone-10, seen-14)
+advmod(seen-14, before-15)
+punct(someone-10, ,-16)
+dep(someone-10, sadly-17)
+punct(someone-10, -RRB--18)
+punct(Blethyn-8, ,-19)
+cop(excellent.In-21, were-20)
+det(end-23, the-22)
+dobj(excellent.In-21, end-23)
+nsubj(comedy-30, this-24)
+cop(comedy-30, is-25)
+det(comedy-30, a-26)
+amod(comedy-30, feel-27)
+amod(comedy-30, good-28)
+amod(comedy-30, romantic-29)
+rcmod(end-23, comedy-30)
+cc(comedy-30, and-31)
+nsubj(recommend-33, I-32)
+conj(comedy-30, recommend-33)
+xcomp(recommend-33, checking-34)
+dobj(checking-34, it-35)
+prt(checking-34, out-36)
+punct(checking-34, ,-37)
+mark(had-42, unless-38)
+nsubj(had-42, you-39)
+aux(had-42, 've-40)
+advmod(had-42, just-41)
+advcl(checking-34, had-42)
+det(death-44, a-43)
+dobj(had-42, death-44)
+prep(death-44, in-45)
+det(family.If-47, the-46)
+pobj(in-45, family.If-47)
+dep(family.If-47, anything-48)
+punct(anything-48, ,-49)
+det(chapter-52, the-50)
+amod(chapter-52, final-51)
+nsubj(worth-55, chapter-52)
+cop(worth-55, is-53)
+advmod(worth-55, highly-54)
+rcmod(anything-48, worth-55)
+det(money-57, the-56)
+dobj(worth-55, money-57)
+punct(excellent.In-21, .-58)
+
+Sentence #8 (2 tokens):
+>.
+[Text=> CharacterOffsetBegin=674 CharacterOffsetEnd=675 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=675 CharacterOffsetEnd=676 PartOfSpeech=.] 
+root(ROOT-0, >-1)
+punct(>-1, .-2)
+
+Sentence #9 (1 tokens):
+<
+[Text=< CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=JJR] 
+root(ROOT-0, <-1)
+

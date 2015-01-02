@@ -1,0 +1,191 @@
+Sentence #1 (6 tokens):
+William Hurt scuba diving scientist???
+[Text=William CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=NNP] [Text=Hurt CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=scuba CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=diving CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=scientist CharacterOffsetBegin=30 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=??? CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=CD] 
+root(ROOT-0, scientist-5)
+nn(scientist-5, William-1)
+nn(scientist-5, Hurt-2)
+nn(scientist-5, scuba-3)
+nn(scientist-5, diving-4)
+num(scientist-5, ???-6)
+
+Sentence #2 (7 tokens):
+US agents running the investigation abroad?
+[Text=US CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=NNP] [Text=agents CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NNS] [Text=running CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=DT] [Text=investigation CharacterOffsetBegin=69 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=abroad CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.] 
+root(ROOT-0, agents-2)
+nn(agents-2, US-1)
+partmod(agents-2, running-3)
+det(investigation-5, the-4)
+dobj(running-3, investigation-5)
+advmod(running-3, abroad-6)
+punct(agents-2, ?-7)
+
+Sentence #3 (17 tokens):
+The sick contaminated man kicking butt after falling 20 feet on his back and running away?
+[Text=The CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=DT] [Text=sick CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=JJ] [Text=contaminated CharacterOffsetBegin=104 CharacterOffsetEnd=116 PartOfSpeech=VBN] [Text=man CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=kicking CharacterOffsetBegin=121 CharacterOffsetEnd=128 PartOfSpeech=VBG] [Text=butt CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=after CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=falling CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=VBG] [Text=20 CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=CD] [Text=feet CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=PRP$] [Text=back CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=CC] [Text=running CharacterOffsetBegin=172 CharacterOffsetEnd=179 PartOfSpeech=VBG] [Text=away CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=.] 
+root(ROOT-0, man-4)
+det(man-4, The-1)
+amod(man-4, sick-2)
+amod(man-4, contaminated-3)
+amod(butt-6, kicking-5)
+partmod(man-4, butt-6)
+prep(butt-6, after-7)
+pcomp(after-7, falling-8)
+num(feet-10, 20-9)
+dobj(falling-8, feet-10)
+prep(falling-8, on-11)
+poss(back-13, his-12)
+pobj(on-11, back-13)
+cc(falling-8, and-14)
+conj(falling-8, running-15)
+advmod(running-15, away-16)
+punct(man-4, ?-17)
+
+Sentence #4 (22 tokens):
+Sniper missing and not killing Hurt (just wounding him) but the second "kill" shot is dead on ?
+[Text=Sniper CharacterOffsetBegin=190 CharacterOffsetEnd=196 PartOfSpeech=NNP] [Text=missing CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=RB] [Text=killing CharacterOffsetBegin=213 CharacterOffsetEnd=220 PartOfSpeech=VBG] [Text=Hurt CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=-LRB-] [Text=just CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=RB] [Text=wounding CharacterOffsetBegin=232 CharacterOffsetEnd=240 PartOfSpeech=VBG] [Text=him CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=PRP] [Text=-RRB- CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=-RRB-] [Text=but CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=second CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=``] [Text=kill CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=VB] [Text='' CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=''] [Text=shot CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=VBZ] [Text=dead CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=? CharacterOffsetBegin=284 CharacterOffsetEnd=285 PartOfSpeech=.] 
+root(ROOT-0, missing-2)
+nsubj(missing-2, Sniper-1)
+cc(missing-2, and-3)
+conj(missing-2, not-4)
+conj(missing-2, killing-5)
+dobj(killing-5, Hurt-6)
+punct(wounding-9, -LRB--7)
+advmod(wounding-9, just-8)
+dep(Hurt-6, wounding-9)
+dobj(wounding-9, him-10)
+punct(wounding-9, -RRB--11)
+cc(missing-2, but-12)
+det(kill-16, the-13)
+amod(kill-16, second-14)
+punct(kill-16, ``-15)
+conj(missing-2, kill-16)
+punct(kill-16, ''-17)
+nsubj(dead-20, shot-18)
+cop(dead-20, is-19)
+rcmod(kill-16, dead-20)
+prep(dead-20, on-21)
+punct(missing-2, ?-22)
+
+Sentence #5 (4 tokens):
+Waste of time.
+[Text=Waste CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=.] 
+root(ROOT-0, Waste-1)
+prep(Waste-1, of-2)
+pobj(of-2, time-3)
+punct(Waste-1, .-4)
+
+Sentence #6 (13 tokens):
+To compare this to falling down as other reviewers did is ridiculous.
+[Text=To CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=TO] [Text=compare CharacterOffsetBegin=312 CharacterOffsetEnd=319 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=DT] [Text=to CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=TO] [Text=falling CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=VBG] [Text=down CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=RP] [Text=as CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=JJ] [Text=reviewers CharacterOffsetBegin=350 CharacterOffsetEnd=359 PartOfSpeech=NNS] [Text=did CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=VBD] [Text=is CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=VBZ] [Text=ridiculous CharacterOffsetBegin=367 CharacterOffsetEnd=377 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=.] 
+root(ROOT-0, ridiculous-12)
+aux(compare-2, To-1)
+csubj(ridiculous-12, compare-2)
+dobj(compare-2, this-3)
+prep(compare-2, to-4)
+pcomp(to-4, falling-5)
+prt(falling-5, down-6)
+mark(did-10, as-7)
+amod(reviewers-9, other-8)
+nsubj(did-10, reviewers-9)
+advcl(falling-5, did-10)
+cop(ridiculous-12, is-11)
+punct(ridiculous-12, .-13)
+
+Sentence #7 (39 tokens):
+Oh and by the end of the movie they decide to start wearing gloves on their hands except for the "evil" agent and Hurt decides to kill him by giving him the "virus handshake".
+[Text=Oh CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=UH] [Text=and CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=CC] [Text=by CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=408 CharacterOffsetEnd=413 PartOfSpeech=NN] [Text=they CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=PRP] [Text=decide CharacterOffsetBegin=419 CharacterOffsetEnd=425 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=TO] [Text=start CharacterOffsetBegin=429 CharacterOffsetEnd=434 PartOfSpeech=VB] [Text=wearing CharacterOffsetBegin=435 CharacterOffsetEnd=442 PartOfSpeech=VBG] [Text=gloves CharacterOffsetBegin=443 CharacterOffsetEnd=449 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=PRP$] [Text=hands CharacterOffsetBegin=459 CharacterOffsetEnd=464 PartOfSpeech=NNS] [Text=except CharacterOffsetBegin=465 CharacterOffsetEnd=471 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=``] [Text=evil CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=''] [Text=agent CharacterOffsetBegin=487 CharacterOffsetEnd=492 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=493 CharacterOffsetEnd=496 PartOfSpeech=CC] [Text=Hurt CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=NNP] [Text=decides CharacterOffsetBegin=502 CharacterOffsetEnd=509 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=TO] [Text=kill CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=PRP] [Text=by CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=IN] [Text=giving CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=VBG] [Text=him CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=PRP] [Text=the CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=``] [Text=virus CharacterOffsetBegin=541 CharacterOffsetEnd=546 PartOfSpeech=NN] [Text=handshake CharacterOffsetBegin=547 CharacterOffsetEnd=556 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=''] [Text=. CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=.] 
+root(ROOT-0, Oh-1)
+cc(Oh-1, and-2)
+conj(Oh-1, by-3)
+det(end-5, the-4)
+pobj(by-3, end-5)
+prep(end-5, of-6)
+det(movie-8, the-7)
+pobj(of-6, movie-8)
+nsubj(decide-10, they-9)
+rcmod(movie-8, decide-10)
+aux(start-12, to-11)
+xcomp(decide-10, start-12)
+xcomp(start-12, wearing-13)
+dobj(wearing-13, gloves-14)
+prep(wearing-13, on-15)
+poss(hands-17, their-16)
+pobj(on-15, hands-17)
+mark(decides-27, except-18)
+mark(decides-27, for-19)
+det(agent-24, the-20)
+punct(agent-24, ``-21)
+amod(agent-24, evil-22)
+punct(agent-24, ''-23)
+nsubj(decides-27, agent-24)
+cc(agent-24, and-25)
+conj(agent-24, Hurt-26)
+advcl(wearing-13, decides-27)
+aux(kill-29, to-28)
+xcomp(decides-27, kill-29)
+dobj(kill-29, him-30)
+prep(kill-29, by-31)
+pcomp(by-31, giving-32)
+iobj(giving-32, him-33)
+det(virus-36, the-34)
+punct(virus-36, ``-35)
+nsubj(handshake-37, virus-36)
+dep(giving-32, handshake-37)
+punct(handshake-37, ''-38)
+punct(Oh-1, .-39)
+
+Sentence #8 (2 tokens):
+What?
+[Text=What CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=WDT] [Text=? CharacterOffsetBegin=567 CharacterOffsetEnd=568 PartOfSpeech=.] 
+root(ROOT-0, What-1)
+punct(What-1, ?-2)
+
+Sentence #9 (11 tokens):
+BTW...when did IMDb require 10 lines of text?
+[Text=BTW CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=:] [Text=when CharacterOffsetBegin=579 CharacterOffsetEnd=583 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=VBD] [Text=IMDb CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=NNP] [Text=require CharacterOffsetBegin=593 CharacterOffsetEnd=600 PartOfSpeech=VB] [Text=10 CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=CD] [Text=lines CharacterOffsetBegin=604 CharacterOffsetEnd=609 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=IN] [Text=text CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=617 CharacterOffsetEnd=618 PartOfSpeech=.] 
+root(ROOT-0, BTW-1)
+punct(BTW-1, ...-2)
+advmod(require-6, when-3)
+aux(require-6, did-4)
+nsubj(require-6, IMDb-5)
+rcmod(BTW-1, require-6)
+num(lines-8, 10-7)
+dobj(require-6, lines-8)
+prep(lines-8, of-9)
+pobj(of-9, text-10)
+punct(BTW-1, ?-11)
+
+Sentence #10 (6 tokens):
+I'm just babbling here.
+[Text=I CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=VBP] [Text=just CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=RB] [Text=babbling CharacterOffsetBegin=632 CharacterOffsetEnd=640 PartOfSpeech=VBG] [Text=here CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=.] 
+root(ROOT-0, babbling-4)
+nsubj(babbling-4, I-1)
+aux(babbling-4, 'm-2)
+advmod(babbling-4, just-3)
+advmod(babbling-4, here-5)
+punct(babbling-4, .-6)
+
+Sentence #11 (20 tokens):
+Doesn't this just dillute the content of reviews if you are required to have x amount of lines?
+[Text=Does CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=RB] [Text=this CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=DT] [Text=just CharacterOffsetBegin=664 CharacterOffsetEnd=668 PartOfSpeech=RB] [Text=dillute CharacterOffsetBegin=669 CharacterOffsetEnd=676 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=677 CharacterOffsetEnd=680 PartOfSpeech=DT] [Text=content CharacterOffsetBegin=681 CharacterOffsetEnd=688 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=IN] [Text=reviews CharacterOffsetBegin=692 CharacterOffsetEnd=699 PartOfSpeech=NNS] [Text=if CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=703 CharacterOffsetEnd=706 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=VBP] [Text=required CharacterOffsetBegin=711 CharacterOffsetEnd=719 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=720 CharacterOffsetEnd=722 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=723 CharacterOffsetEnd=727 PartOfSpeech=VB] [Text=x CharacterOffsetBegin=728 CharacterOffsetEnd=729 PartOfSpeech=CC] [Text=amount CharacterOffsetBegin=730 CharacterOffsetEnd=736 PartOfSpeech=VB] [Text=of CharacterOffsetBegin=737 CharacterOffsetEnd=739 PartOfSpeech=IN] [Text=lines CharacterOffsetBegin=740 CharacterOffsetEnd=745 PartOfSpeech=NNS] [Text=? CharacterOffsetBegin=745 CharacterOffsetEnd=746 PartOfSpeech=.] 
+root(ROOT-0, dillute-5)
+aux(dillute-5, Does-1)
+neg(dillute-5, n't-2)
+nsubj(dillute-5, this-3)
+advmod(dillute-5, just-4)
+det(content-7, the-6)
+dobj(dillute-5, content-7)
+prep(content-7, of-8)
+pobj(of-8, reviews-9)
+mark(required-13, if-10)
+nsubjpass(required-13, you-11)
+auxpass(required-13, are-12)
+advcl(dillute-5, required-13)
+aux(have-15, to-14)
+xcomp(required-13, have-15)
+amod(amount-17, x-16)
+dobj(have-15, amount-17)
+prep(amount-17, of-18)
+pobj(of-18, lines-19)
+punct(dillute-5, ?-20)
+

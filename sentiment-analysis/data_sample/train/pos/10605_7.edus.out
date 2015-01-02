@@ -1,0 +1,56 @@
+Sentence #1 (12 tokens):
+This film has good characters with excellent performances from the cast.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=23 CharacterOffsetEnd=33 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=IN] [Text=excellent CharacterOffsetBegin=39 CharacterOffsetEnd=48 PartOfSpeech=JJ] [Text=performances CharacterOffsetBegin=49 CharacterOffsetEnd=61 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(film-2, This-1)
+nsubj(has-3, film-2)
+amod(characters-5, good-4)
+dobj(has-3, characters-5)
+prep(has-3, with-6)
+amod(performances-8, excellent-7)
+pobj(with-6, performances-8)
+prep(performances-8, from-9)
+det(cast-11, the-10)
+pobj(from-9, cast-11)
+punct(has-3, .-12)
+
+Sentence #2 (20 tokens):
+David Strathairn is diabolically sincere as the child molesting salesman and Danny Vinson plays a perfect pussy-whipped southern husband.
+[Text=David CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=NNP] [Text=Strathairn CharacterOffsetBegin=87 CharacterOffsetEnd=97 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=VBZ] [Text=diabolically CharacterOffsetBegin=101 CharacterOffsetEnd=113 PartOfSpeech=RB] [Text=sincere CharacterOffsetBegin=114 CharacterOffsetEnd=121 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=child CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NN] [Text=molesting CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=VBG] [Text=salesman CharacterOffsetBegin=145 CharacterOffsetEnd=153 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=CC] [Text=Danny CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NNP] [Text=Vinson CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=NNP] [Text=plays CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=179 CharacterOffsetEnd=186 PartOfSpeech=JJ] [Text=pussy-whipped CharacterOffsetBegin=187 CharacterOffsetEnd=200 PartOfSpeech=JJ] [Text=southern CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=husband CharacterOffsetBegin=210 CharacterOffsetEnd=217 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=.] 
+root(ROOT-0, sincere-5)
+nn(Strathairn-2, David-1)
+nsubj(sincere-5, Strathairn-2)
+cop(sincere-5, is-3)
+advmod(sincere-5, diabolically-4)
+mark(plays-14, as-6)
+det(child-8, the-7)
+nsubj(plays-14, child-8)
+amod(salesman-10, molesting-9)
+dep(child-8, salesman-10)
+cc(salesman-10, and-11)
+nn(Vinson-13, Danny-12)
+conj(salesman-10, Vinson-13)
+advcl(sincere-5, plays-14)
+det(husband-19, a-15)
+amod(husband-19, perfect-16)
+amod(husband-19, pussy-whipped-17)
+amod(husband-19, southern-18)
+dobj(plays-14, husband-19)
+punct(sincere-5, .-20)
+
+Sentence #3 (12 tokens):
+The slick soundtrack betrays the murder ballad tone of the film.
+[Text=The CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=slick CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=JJ] [Text=soundtrack CharacterOffsetBegin=233 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=betrays CharacterOffsetBegin=244 CharacterOffsetEnd=251 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=murder CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=ballad CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=tone CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.] 
+root(ROOT-0, betrays-4)
+det(soundtrack-3, The-1)
+amod(soundtrack-3, slick-2)
+nsubj(betrays-4, soundtrack-3)
+det(tone-8, the-5)
+nn(tone-8, murder-6)
+nn(tone-8, ballad-7)
+dobj(betrays-4, tone-8)
+prep(tone-8, of-9)
+det(film-11, the-10)
+pobj(of-9, film-11)
+punct(betrays-4, .-12)
+

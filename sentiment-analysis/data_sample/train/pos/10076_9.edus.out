@@ -1,0 +1,77 @@
+Sentence #1 (5 tokens):
+Beautiful and touching movie.
+[Text=Beautiful CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=CC] [Text=touching CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=.] 
+root(ROOT-0, movie-4)
+amod(movie-4, Beautiful-1)
+cc(Beautiful-1, and-2)
+conj(Beautiful-1, touching-3)
+punct(movie-4, .-5)
+
+Sentence #2 (22 tokens):
+Rich colors, great settings, good acting and one of the most charming movies I have seen in a while.
+[Text=Rich CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=NNP] [Text=colors CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=,] [Text=great CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=settings CharacterOffsetBegin=57 CharacterOffsetEnd=65 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=,] [Text=good CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=CC] [Text=one CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=RBS] [Text=charming CharacterOffsetBegin=99 CharacterOffsetEnd=107 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=108 CharacterOffsetEnd=114 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=while CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=.] 
+root(ROOT-0, colors-2)
+amod(colors-2, Rich-1)
+punct(colors-2, ,-3)
+amod(settings-5, great-4)
+conj(colors-2, settings-5)
+punct(colors-2, ,-6)
+amod(acting-8, good-7)
+conj(colors-2, acting-8)
+cc(colors-2, and-9)
+conj(colors-2, one-10)
+prep(one-10, of-11)
+det(movies-15, the-12)
+advmod(charming-14, most-13)
+amod(movies-15, charming-14)
+pobj(of-11, movies-15)
+nsubj(seen-18, I-16)
+aux(seen-18, have-17)
+rcmod(movies-15, seen-18)
+prep(seen-18, in-19)
+det(while-21, a-20)
+pobj(in-19, while-21)
+punct(colors-2, .-22)
+
+Sentence #3 (13 tokens):
+I never saw such an interesting setting when I was in China.
+[Text=I CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=PRP] [Text=never CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=VBD] [Text=such CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=PDT] [Text=an CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=interesting CharacterOffsetBegin=163 CharacterOffsetEnd=174 PartOfSpeech=JJ] [Text=setting CharacterOffsetBegin=175 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=IN] [Text=China CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, saw-3)
+nsubj(saw-3, I-1)
+neg(saw-3, never-2)
+predet(setting-7, such-4)
+det(setting-7, an-5)
+amod(setting-7, interesting-6)
+dobj(saw-3, setting-7)
+advmod(was-10, when-8)
+nsubj(was-10, I-9)
+advcl(saw-3, was-10)
+prep(was-10, in-11)
+pobj(in-11, China-12)
+punct(saw-3, .-13)
+
+Sentence #4 (21 tokens):
+My wife liked it so much she asked me to log on and rate it so other would enjoy too.
+[Text=My CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=liked CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=PRP] [Text=so CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=RB] [Text=she CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=PRP] [Text=asked CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=TO] [Text=log CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=CC] [Text=rate CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=PRP] [Text=so CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=RB] [Text=other CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=JJ] [Text=would CharacterOffsetBegin=277 CharacterOffsetEnd=282 PartOfSpeech=MD] [Text=enjoy CharacterOffsetBegin=283 CharacterOffsetEnd=288 PartOfSpeech=VB] [Text=too CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=.] 
+root(ROOT-0, liked-3)
+poss(wife-2, My-1)
+nsubj(liked-3, wife-2)
+dobj(liked-3, it-4)
+advmod(much-6, so-5)
+advmod(liked-3, much-6)
+nsubj(asked-8, she-7)
+rcmod(much-6, asked-8)
+dobj(asked-8, me-9)
+aux(log-11, to-10)
+xcomp(asked-8, log-11)
+prt(log-11, on-12)
+cc(log-11, and-13)
+conj(log-11, rate-14)
+nsubj(enjoy-19, it-15)
+advmod(other-17, so-16)
+nsubj(enjoy-19, other-17)
+aux(enjoy-19, would-18)
+rcmod(rate-14, enjoy-19)
+advmod(enjoy-19, too-20)
+punct(liked-3, .-21)
+

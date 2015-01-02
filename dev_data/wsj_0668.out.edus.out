@@ -1,0 +1,165 @@
+Sentence #1 (20 tokens):
+ABB Asea Brown Boveri B.V. said 
+    it signed a contract for the largest-ever power plant order in the Netherlands.
+[Text=ABB CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NNP] [Text=Asea CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=NNP] [Text=Brown CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NNP] [Text=Boveri CharacterOffsetBegin=19 CharacterOffsetEnd=25 PartOfSpeech=NNP] [Text=B.V. CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=PRP] [Text=signed CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=DT] [Text=contract CharacterOffsetBegin=53 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=largest-ever CharacterOffsetBegin=70 CharacterOffsetEnd=82 PartOfSpeech=JJ] [Text=power CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=plant CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=order CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=DT] [Text=Netherlands CharacterOffsetBegin=108 CharacterOffsetEnd=119 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=.] 
+root(ROOT-0, said-6)
+nn(B.V.-5, ABB-1)
+nn(B.V.-5, Asea-2)
+nn(B.V.-5, Brown-3)
+nn(B.V.-5, Boveri-4)
+nsubj(said-6, B.V.-5)
+nsubj(signed-8, it-7)
+ccomp(said-6, signed-8)
+det(contract-10, a-9)
+dobj(signed-8, contract-10)
+prep(contract-10, for-11)
+det(order-16, the-12)
+amod(order-16, largest-ever-13)
+nn(order-16, power-14)
+nn(order-16, plant-15)
+pobj(for-11, order-16)
+prep(order-16, in-17)
+det(Netherlands-19, the-18)
+pobj(in-17, Netherlands-19)
+punct(said-6, .-20)
+
+Sentence #2 (23 tokens):
+ABB said 
+    the contract, 
+    signed with the Dutch utility N.V. Energieproduktiebedrijf UNA, 
+    is valued in excess of $200 million.
+[Text=ABB CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=DT] [Text=contract CharacterOffsetBegin=144 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=,] [Text=signed CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT] [Text=Dutch CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=JJ] [Text=utility CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=N.V. CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=NNP] [Text=Energieproduktiebedrijf CharacterOffsetBegin=194 CharacterOffsetEnd=217 PartOfSpeech=NNP] [Text=UNA CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=,] [Text=is CharacterOffsetBegin=228 CharacterOffsetEnd=230 PartOfSpeech=VBZ] [Text=valued CharacterOffsetBegin=231 CharacterOffsetEnd=237 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=IN] [Text=excess CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=$] [Text=200 CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=CD] [Text=million CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=.] 
+root(ROOT-0, said-2)
+nsubj(said-2, ABB-1)
+det(contract-4, the-3)
+nsubjpass(valued-16, contract-4)
+punct(contract-4, ,-5)
+partmod(contract-4, signed-6)
+prep(signed-6, with-7)
+det(UNA-13, the-8)
+amod(UNA-13, Dutch-9)
+nn(UNA-13, utility-10)
+nn(UNA-13, N.V.-11)
+nn(UNA-13, Energieproduktiebedrijf-12)
+pobj(with-7, UNA-13)
+punct(contract-4, ,-14)
+auxpass(valued-16, is-15)
+ccomp(said-2, valued-16)
+prep(valued-16, in-17)
+pobj(in-17, excess-18)
+prep(excess-18, of-19)
+pobj(of-19, $-20)
+number(million-22, 200-21)
+num($-20, million-22)
+punct(said-2, .-23)
+
+Sentence #3 (16 tokens):
+The accord is for a turbogenerator plant at the coal-fired power station Hemweg in Amsterdam.
+[Text=The CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=accord CharacterOffsetBegin=274 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=turbogenerator CharacterOffsetBegin=290 CharacterOffsetEnd=304 PartOfSpeech=NN] [Text=plant CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=coal-fired CharacterOffsetBegin=318 CharacterOffsetEnd=328 PartOfSpeech=JJ] [Text=power CharacterOffsetBegin=329 CharacterOffsetEnd=334 PartOfSpeech=NN] [Text=station CharacterOffsetBegin=335 CharacterOffsetEnd=342 PartOfSpeech=NN] [Text=Hemweg CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=IN] [Text=Amsterdam CharacterOffsetBegin=353 CharacterOffsetEnd=362 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+det(accord-2, The-1)
+nsubj(is-3, accord-2)
+prep(is-3, for-4)
+det(plant-7, a-5)
+nn(plant-7, turbogenerator-6)
+pobj(for-4, plant-7)
+prep(plant-7, at-8)
+det(Hemweg-13, the-9)
+amod(Hemweg-13, coal-fired-10)
+nn(Hemweg-13, power-11)
+nn(Hemweg-13, station-12)
+pobj(at-8, Hemweg-13)
+prep(Hemweg-13, in-14)
+pobj(in-14, Amsterdam-15)
+punct(is-3, .-16)
+
+Sentence #4 (20 tokens):
+ABB Asea Brown Boveri is the Dutch unit of the Swedish-Swiss electrical engineering group ABB Asea Brown Boveri AG.
+[Text=ABB CharacterOffsetBegin=369 CharacterOffsetEnd=372 PartOfSpeech=NNP] [Text=Asea CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=NNP] [Text=Brown CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=NNP] [Text=Boveri CharacterOffsetBegin=384 CharacterOffsetEnd=390 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=DT] [Text=Dutch CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=JJ] [Text=unit CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=DT] [Text=Swedish-Swiss CharacterOffsetBegin=416 CharacterOffsetEnd=429 PartOfSpeech=JJ] [Text=electrical CharacterOffsetBegin=430 CharacterOffsetEnd=440 PartOfSpeech=JJ] [Text=engineering CharacterOffsetBegin=441 CharacterOffsetEnd=452 PartOfSpeech=NN] [Text=group CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=ABB CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=NNP] [Text=Asea CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=NNP] [Text=Brown CharacterOffsetBegin=468 CharacterOffsetEnd=473 PartOfSpeech=NNP] [Text=Boveri CharacterOffsetBegin=474 CharacterOffsetEnd=480 PartOfSpeech=NNP] [Text=AG CharacterOffsetBegin=481 CharacterOffsetEnd=483 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=.] 
+root(ROOT-0, unit-8)
+nn(Boveri-4, ABB-1)
+nn(Boveri-4, Asea-2)
+nn(Boveri-4, Brown-3)
+nsubj(unit-8, Boveri-4)
+cop(unit-8, is-5)
+det(unit-8, the-6)
+amod(unit-8, Dutch-7)
+prep(unit-8, of-9)
+det(AG-19, the-10)
+amod(AG-19, Swedish-Swiss-11)
+amod(AG-19, electrical-12)
+nn(AG-19, engineering-13)
+nn(AG-19, group-14)
+nn(AG-19, ABB-15)
+nn(AG-19, Asea-16)
+nn(AG-19, Brown-17)
+nn(AG-19, Boveri-18)
+pobj(of-9, AG-19)
+punct(unit-8, .-20)
+
+Sentence #5 (27 tokens):
+ABB said 
+    a significant portion of the order will be placed with Dutch subcontractors, 
+    adding 
+    that a group has been set up for this purpose.
+[Text=ABB CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=DT] [Text=significant CharacterOffsetBegin=506 CharacterOffsetEnd=517 PartOfSpeech=JJ] [Text=portion CharacterOffsetBegin=518 CharacterOffsetEnd=525 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=526 CharacterOffsetEnd=528 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=529 CharacterOffsetEnd=532 PartOfSpeech=DT] [Text=order CharacterOffsetBegin=533 CharacterOffsetEnd=538 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=539 CharacterOffsetEnd=543 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=544 CharacterOffsetEnd=546 PartOfSpeech=VB] [Text=placed CharacterOffsetBegin=547 CharacterOffsetEnd=553 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=IN] [Text=Dutch CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=JJ] [Text=subcontractors CharacterOffsetBegin=565 CharacterOffsetEnd=579 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=,] [Text=adding CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=VBG] [Text=that CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=DT] [Text=group CharacterOffsetBegin=605 CharacterOffsetEnd=610 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=615 CharacterOffsetEnd=619 PartOfSpeech=VBN] [Text=set CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=VBN] [Text=up CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=627 CharacterOffsetEnd=630 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=631 CharacterOffsetEnd=635 PartOfSpeech=DT] [Text=purpose CharacterOffsetBegin=636 CharacterOffsetEnd=643 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=.] 
+root(ROOT-0, said-2)
+nsubj(said-2, ABB-1)
+det(portion-5, a-3)
+amod(portion-5, significant-4)
+nsubjpass(placed-11, portion-5)
+prep(portion-5, of-6)
+det(order-8, the-7)
+pobj(of-6, order-8)
+aux(placed-11, will-9)
+auxpass(placed-11, be-10)
+ccomp(said-2, placed-11)
+prep(placed-11, with-12)
+amod(subcontractors-14, Dutch-13)
+pobj(with-12, subcontractors-14)
+punct(said-2, ,-15)
+xcomp(said-2, adding-16)
+mark(set-22, that-17)
+det(group-19, a-18)
+nsubjpass(set-22, group-19)
+aux(set-22, has-20)
+auxpass(set-22, been-21)
+ccomp(adding-16, set-22)
+prt(set-22, up-23)
+prep(set-22, for-24)
+det(purpose-26, this-25)
+pobj(for-24, purpose-26)
+punct(said-2, .-27)
+
+Sentence #6 (11 tokens):
+The Dutch utility firm serves the Amsterdam and Utrecht areas.
+[Text=The CharacterOffsetBegin=650 CharacterOffsetEnd=653 PartOfSpeech=DT] [Text=Dutch CharacterOffsetBegin=654 CharacterOffsetEnd=659 PartOfSpeech=JJ] [Text=utility CharacterOffsetBegin=660 CharacterOffsetEnd=667 PartOfSpeech=NN] [Text=firm CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=NN] [Text=serves CharacterOffsetBegin=673 CharacterOffsetEnd=679 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=DT] [Text=Amsterdam CharacterOffsetBegin=684 CharacterOffsetEnd=693 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=CC] [Text=Utrecht CharacterOffsetBegin=698 CharacterOffsetEnd=705 PartOfSpeech=NNP] [Text=areas CharacterOffsetBegin=706 CharacterOffsetEnd=711 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=711 CharacterOffsetEnd=712 PartOfSpeech=.] 
+root(ROOT-0, serves-5)
+det(firm-4, The-1)
+amod(firm-4, Dutch-2)
+nn(firm-4, utility-3)
+nsubj(serves-5, firm-4)
+det(areas-10, the-6)
+nn(areas-10, Amsterdam-7)
+cc(Amsterdam-7, and-8)
+conj(Amsterdam-7, Utrecht-9)
+dobj(serves-5, areas-10)
+punct(serves-5, .-11)
+
+Sentence #7 (13 tokens):
+The planned turbogenerator plant is expected to go into operation in 1994.
+[Text=The CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=DT] [Text=planned CharacterOffsetBegin=722 CharacterOffsetEnd=729 PartOfSpeech=VBN] [Text=turbogenerator CharacterOffsetBegin=730 CharacterOffsetEnd=744 PartOfSpeech=NN] [Text=plant CharacterOffsetBegin=745 CharacterOffsetEnd=750 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=751 CharacterOffsetEnd=753 PartOfSpeech=VBZ] [Text=expected CharacterOffsetBegin=754 CharacterOffsetEnd=762 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=763 CharacterOffsetEnd=765 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=766 CharacterOffsetEnd=768 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=769 CharacterOffsetEnd=773 PartOfSpeech=IN] [Text=operation CharacterOffsetBegin=774 CharacterOffsetEnd=783 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=784 CharacterOffsetEnd=786 PartOfSpeech=IN] [Text=1994 CharacterOffsetBegin=787 CharacterOffsetEnd=791 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=791 CharacterOffsetEnd=792 PartOfSpeech=.] 
+root(ROOT-0, expected-6)
+det(plant-4, The-1)
+amod(plant-4, planned-2)
+nn(plant-4, turbogenerator-3)
+nsubjpass(expected-6, plant-4)
+auxpass(expected-6, is-5)
+aux(go-8, to-7)
+xcomp(expected-6, go-8)
+prep(go-8, into-9)
+pobj(into-9, operation-10)
+prep(go-8, in-11)
+pobj(in-11, 1994-12)
+punct(expected-6, .-13)
+

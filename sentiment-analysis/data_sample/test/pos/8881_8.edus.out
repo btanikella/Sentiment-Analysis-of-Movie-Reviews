@@ -1,0 +1,208 @@
+Sentence #1 (9 tokens):
+A picture starring Danny Devito and Billy Crystal.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=picture CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=starring CharacterOffsetBegin=14 CharacterOffsetEnd=22 PartOfSpeech=VBG] [Text=Danny CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NNP] [Text=Devito CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=CC] [Text=Billy CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=NNP] [Text=Crystal CharacterOffsetBegin=46 CharacterOffsetEnd=53 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=.] 
+root(ROOT-0, picture-2)
+det(picture-2, A-1)
+partmod(picture-2, starring-3)
+nn(Devito-5, Danny-4)
+dobj(starring-3, Devito-5)
+cc(Devito-5, and-6)
+nn(Crystal-8, Billy-7)
+conj(Devito-5, Crystal-8)
+punct(picture-2, .-9)
+
+Sentence #2 (22 tokens):
+They are both famous actors, and in this charming comedy entails them trying to murder each other's pet peeve.
+[Text=They CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=VBP] [Text=both CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=famous CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=,] [Text=and CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=CC] [Text=in CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=DT] [Text=charming CharacterOffsetBegin=100 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=comedy CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=entails CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=VBZ] [Text=them CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text=trying CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=TO] [Text=murder CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=each CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=JJ] [Text='s CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=POS] [Text=pet CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=NN] [Text=peeve CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=.] 
+root(ROOT-0, actors-5)
+nsubj(actors-5, They-1)
+cop(actors-5, are-2)
+det(actors-5, both-3)
+amod(actors-5, famous-4)
+punct(actors-5, ,-6)
+cc(actors-5, and-7)
+prep(entails-12, in-8)
+det(comedy-11, this-9)
+amod(comedy-11, charming-10)
+pobj(in-8, comedy-11)
+conj(actors-5, entails-12)
+nsubj(trying-14, them-13)
+xcomp(entails-12, trying-14)
+aux(murder-16, to-15)
+xcomp(trying-14, murder-16)
+det(other-18, each-17)
+poss(peeve-21, other-18)
+possessive(other-18, 's-19)
+nn(peeve-21, pet-20)
+dobj(murder-16, peeve-21)
+punct(actors-5, .-22)
+
+Sentence #3 (31 tokens):
+Billy Crystal's pet peeve being his ex wife who stole his book and put her name on it, and Danny Devito's pet peeve being his malignant mother.
+[Text=Billy CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=NNP] [Text=Crystal CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=POS] [Text=pet CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=NN] [Text=peeve CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=being CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=VBG] [Text=his CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=PRP$] [Text=ex CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=FW] [Text=wife CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=WP] [Text=stole CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=PRP$] [Text=book CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=CC] [Text=put CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=PRP$] [Text=name CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=,] [Text=and CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=CC] [Text=Danny CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NNP] [Text=Devito CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=POS] [Text=pet CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=peeve CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=NN] [Text=being CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=VBG] [Text=his CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=PRP$] [Text=malignant CharacterOffsetBegin=300 CharacterOffsetEnd=309 PartOfSpeech=JJ] [Text=mother CharacterOffsetBegin=310 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.] 
+root(ROOT-0, wife-9)
+nn(Crystal-2, Billy-1)
+poss(peeve-5, Crystal-2)
+possessive(Crystal-2, 's-3)
+nn(peeve-5, pet-4)
+nsubj(wife-9, peeve-5)
+cop(wife-9, being-6)
+poss(wife-9, his-7)
+nn(wife-9, ex-8)
+nsubj(stole-11, who-10)
+rcmod(wife-9, stole-11)
+poss(book-13, his-12)
+dobj(stole-11, book-13)
+cc(stole-11, and-14)
+conj(stole-11, put-15)
+poss(name-17, her-16)
+dobj(put-15, name-17)
+prep(put-15, on-18)
+pobj(on-18, it-19)
+punct(wife-9, ,-20)
+cc(wife-9, and-21)
+nn(Devito-23, Danny-22)
+poss(peeve-26, Devito-23)
+possessive(Devito-23, 's-24)
+nn(peeve-26, pet-25)
+nsubj(mother-30, peeve-26)
+cop(mother-30, being-27)
+poss(mother-30, his-28)
+amod(mother-30, malignant-29)
+conj(wife-9, mother-30)
+punct(wife-9, .-31)
+
+Sentence #4 (18 tokens):
+Billy Crystal is an author and a teacher apparently and Danny Devito is one of his students.
+[Text=Billy CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=NNP] [Text=Crystal CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=DT] [Text=author CharacterOffsetBegin=342 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=DT] [Text=teacher CharacterOffsetBegin=355 CharacterOffsetEnd=362 PartOfSpeech=NN] [Text=apparently CharacterOffsetBegin=363 CharacterOffsetEnd=373 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=CC] [Text=Danny CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=NNP] [Text=Devito CharacterOffsetBegin=384 CharacterOffsetEnd=390 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=PRP$] [Text=students CharacterOffsetBegin=405 CharacterOffsetEnd=413 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=.] 
+root(ROOT-0, author-5)
+nn(Crystal-2, Billy-1)
+nsubj(author-5, Crystal-2)
+cop(author-5, is-3)
+det(author-5, an-4)
+cc(author-5, and-6)
+det(teacher-8, a-7)
+conj(author-5, teacher-8)
+advmod(one-14, apparently-9)
+cc(apparently-9, and-10)
+conj(apparently-9, Danny-11)
+nsubj(one-14, Devito-12)
+cop(one-14, is-13)
+dep(author-5, one-14)
+prep(one-14, of-15)
+poss(students-17, his-16)
+pobj(of-15, students-17)
+punct(author-5, .-18)
+
+Sentence #5 (34 tokens):
+This comedy classic is very entertaining and for all ages.Danny Devito seems to act like a child in this movie because of his evil mother who keeps putting him down all the time.
+[Text=This CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=DT] [Text=comedy CharacterOffsetBegin=424 CharacterOffsetEnd=430 PartOfSpeech=NN] [Text=classic CharacterOffsetBegin=431 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=442 CharacterOffsetEnd=446 PartOfSpeech=RB] [Text=entertaining CharacterOffsetBegin=447 CharacterOffsetEnd=459 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=CC] [Text=for CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=DT] [Text=ages.Danny CharacterOffsetBegin=472 CharacterOffsetEnd=482 PartOfSpeech=NNP] [Text=Devito CharacterOffsetBegin=483 CharacterOffsetEnd=489 PartOfSpeech=NNP] [Text=seems CharacterOffsetBegin=490 CharacterOffsetEnd=495 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=TO] [Text=act CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=VB] [Text=like CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=DT] [Text=child CharacterOffsetBegin=510 CharacterOffsetEnd=515 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=524 CharacterOffsetEnd=529 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=530 CharacterOffsetEnd=537 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=PRP$] [Text=evil CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=JJ] [Text=mother CharacterOffsetBegin=550 CharacterOffsetEnd=556 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=WP] [Text=keeps CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=VBZ] [Text=putting CharacterOffsetBegin=567 CharacterOffsetEnd=574 PartOfSpeech=VBG] [Text=him CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=PRP] [Text=down CharacterOffsetBegin=579 CharacterOffsetEnd=583 PartOfSpeech=RP] [Text=all CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=592 CharacterOffsetEnd=596 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=596 CharacterOffsetEnd=597 PartOfSpeech=.] 
+root(ROOT-0, entertaining-6)
+det(classic-3, This-1)
+nn(classic-3, comedy-2)
+nsubj(entertaining-6, classic-3)
+cop(entertaining-6, is-4)
+advmod(entertaining-6, very-5)
+cc(entertaining-6, and-7)
+prep(seems-12, for-8)
+det(Devito-11, all-9)
+nn(Devito-11, ages.Danny-10)
+pobj(for-8, Devito-11)
+conj(entertaining-6, seems-12)
+aux(act-14, to-13)
+xcomp(seems-12, act-14)
+prep(act-14, like-15)
+det(child-17, a-16)
+pobj(like-15, child-17)
+prep(child-17, in-18)
+det(movie-20, this-19)
+pobj(in-18, movie-20)
+mwe(of-22, because-21)
+prep(act-14, of-22)
+poss(mother-25, his-23)
+amod(mother-25, evil-24)
+pobj(of-22, mother-25)
+nsubj(keeps-27, who-26)
+rcmod(mother-25, keeps-27)
+xcomp(keeps-27, putting-28)
+dobj(putting-28, him-29)
+prt(putting-28, down-30)
+predet(time-33, all-31)
+det(time-33, the-32)
+dobj(putting-28, time-33)
+punct(entertaining-6, .-34)
+
+Sentence #6 (11 tokens):
+She says things like "You have no friends!"
+[Text=She CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=PRP] [Text=says CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=VBZ] [Text=things CharacterOffsetBegin=611 CharacterOffsetEnd=617 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=618 CharacterOffsetEnd=622 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=``] [Text=You CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=VBP] [Text=no CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=DT] [Text=friends CharacterOffsetBegin=636 CharacterOffsetEnd=643 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=.] [Text='' CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=''] 
+root(ROOT-0, says-2)
+nsubj(says-2, She-1)
+dep(says-2, things-3)
+dep(things-3, like-4)
+punct(like-4, ``-5)
+nsubj(have-7, You-6)
+dep(like-4, have-7)
+det(friends-9, no-8)
+dobj(have-7, friends-9)
+punct(says-2, !-10)
+punct(says-2, ''-11)
+
+Sentence #7 (20 tokens):
+and when Billy Crystal fell down, she said "Burry him before he stinks up the basement!"
+[Text=and CharacterOffsetBegin=650 CharacterOffsetEnd=653 PartOfSpeech=CC] [Text=when CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=WRB] [Text=Billy CharacterOffsetBegin=659 CharacterOffsetEnd=664 PartOfSpeech=NNP] [Text=Crystal CharacterOffsetBegin=665 CharacterOffsetEnd=672 PartOfSpeech=NNP] [Text=fell CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=VBD] [Text=down CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=682 CharacterOffsetEnd=683 PartOfSpeech=,] [Text=she CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=PRP] [Text=said CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=VBD] [Text=`` CharacterOffsetBegin=693 CharacterOffsetEnd=694 PartOfSpeech=``] [Text=Burry CharacterOffsetBegin=694 CharacterOffsetEnd=699 PartOfSpeech=NNP] [Text=him CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=PRP] [Text=before CharacterOffsetBegin=704 CharacterOffsetEnd=710 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=711 CharacterOffsetEnd=713 PartOfSpeech=PRP] [Text=stinks CharacterOffsetBegin=714 CharacterOffsetEnd=720 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=721 CharacterOffsetEnd=723 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=DT] [Text=basement CharacterOffsetBegin=728 CharacterOffsetEnd=736 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=736 CharacterOffsetEnd=737 PartOfSpeech=.] [Text='' CharacterOffsetBegin=737 CharacterOffsetEnd=738 PartOfSpeech=''] 
+root(ROOT-0, said-9)
+cc(said-9, and-1)
+advmod(fell-5, when-2)
+nn(Crystal-4, Billy-3)
+nsubj(fell-5, Crystal-4)
+advcl(said-9, fell-5)
+prt(fell-5, down-6)
+punct(said-9, ,-7)
+nsubj(said-9, she-8)
+punct(said-9, ``-10)
+ccomp(said-9, Burry-11)
+dobj(Burry-11, him-12)
+mark(stinks-15, before-13)
+nsubj(stinks-15, he-14)
+advcl(Burry-11, stinks-15)
+prt(stinks-15, up-16)
+det(basement-18, the-17)
+dobj(stinks-15, basement-18)
+punct(said-9, !-19)
+punct(said-9, ''-20)
+
+Sentence #8 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=738 CharacterOffsetEnd=739 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #9 (13 tokens):
+She puts down Danny also by calling him "Lard ass!"
+[Text=She CharacterOffsetBegin=744 CharacterOffsetEnd=747 PartOfSpeech=PRP] [Text=puts CharacterOffsetBegin=748 CharacterOffsetEnd=752 PartOfSpeech=VBZ] [Text=down CharacterOffsetBegin=753 CharacterOffsetEnd=757 PartOfSpeech=RP] [Text=Danny CharacterOffsetBegin=758 CharacterOffsetEnd=763 PartOfSpeech=NNP] [Text=also CharacterOffsetBegin=764 CharacterOffsetEnd=768 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=769 CharacterOffsetEnd=771 PartOfSpeech=IN] [Text=calling CharacterOffsetBegin=772 CharacterOffsetEnd=779 PartOfSpeech=VBG] [Text=him CharacterOffsetBegin=780 CharacterOffsetEnd=783 PartOfSpeech=PRP] [Text=`` CharacterOffsetBegin=784 CharacterOffsetEnd=785 PartOfSpeech=``] [Text=Lard CharacterOffsetBegin=785 CharacterOffsetEnd=789 PartOfSpeech=NNP] [Text=ass CharacterOffsetBegin=790 CharacterOffsetEnd=793 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=793 CharacterOffsetEnd=794 PartOfSpeech=.] [Text='' CharacterOffsetBegin=794 CharacterOffsetEnd=795 PartOfSpeech=''] 
+root(ROOT-0, puts-2)
+nsubj(puts-2, She-1)
+prt(puts-2, down-3)
+dobj(puts-2, Danny-4)
+advmod(puts-2, also-5)
+prep(puts-2, by-6)
+pcomp(by-6, calling-7)
+dep(ass-11, him-8)
+punct(ass-11, ``-9)
+nn(ass-11, Lard-10)
+dep(calling-7, ass-11)
+punct(puts-2, !-12)
+punct(puts-2, ''-13)
+
+Sentence #10 (9 tokens):
+and other things just to make him angry.
+[Text=and CharacterOffsetBegin=800 CharacterOffsetEnd=803 PartOfSpeech=CC] [Text=other CharacterOffsetBegin=804 CharacterOffsetEnd=809 PartOfSpeech=JJ] [Text=things CharacterOffsetBegin=810 CharacterOffsetEnd=816 PartOfSpeech=NNS] [Text=just CharacterOffsetBegin=817 CharacterOffsetEnd=821 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=822 CharacterOffsetEnd=824 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=825 CharacterOffsetEnd=829 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=830 CharacterOffsetEnd=833 PartOfSpeech=PRP] [Text=angry CharacterOffsetBegin=834 CharacterOffsetEnd=839 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=839 CharacterOffsetEnd=840 PartOfSpeech=.] 
+root(ROOT-0, things-3)
+cc(things-3, and-1)
+amod(things-3, other-2)
+advmod(make-6, just-4)
+aux(make-6, to-5)
+infmod(things-3, make-6)
+nsubj(angry-8, him-7)
+xcomp(make-6, angry-8)
+punct(things-3, .-9)
+

@@ -1,0 +1,103 @@
+Sentence #1 (8 tokens):
+This movie is so bad it hurts.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=PRP] [Text=hurts CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=.] 
+root(ROOT-0, bad-5)
+det(movie-2, This-1)
+nsubj(bad-5, movie-2)
+cop(bad-5, is-3)
+advmod(bad-5, so-4)
+nsubj(hurts-7, it-6)
+ccomp(bad-5, hurts-7)
+punct(bad-5, .-8)
+
+Sentence #2 (24 tokens):
+The car doing 30 mph when it's supposed to go 100... the shift lever that's stuck (in Park!
+    )
+[Text=The CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=DT] [Text=car CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=NN] [Text=doing CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=VBG] [Text=30 CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=CD] [Text=mph CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=VBZ] [Text=supposed CharacterOffsetBegin=70 CharacterOffsetEnd=78 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=VB] [Text=100 CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=CD] [Text=... CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=:] [Text=the CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=DT] [Text=shift CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=lever CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=WDT] [Text='s CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=VBZ] [Text=stuck CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=VBN] [Text=-LRB- CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=-LRB-] [Text=in CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=Park CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=-RRB-] 
+root(ROOT-0, doing-3)
+det(car-2, The-1)
+nsubj(doing-3, car-2)
+num(mph-5, 30-4)
+dobj(doing-3, mph-5)
+advmod(supposed-9, when-6)
+nsubjpass(supposed-9, it-7)
+auxpass(supposed-9, 's-8)
+advcl(doing-3, supposed-9)
+aux(go-11, to-10)
+xcomp(supposed-9, go-11)
+dobj(go-11, 100-12)
+punct(doing-3, ...-13)
+det(shift-15, the-14)
+dobj(doing-3, shift-15)
+dep(shift-15, lever-16)
+nsubjpass(stuck-19, that-17)
+auxpass(stuck-19, 's-18)
+rcmod(lever-16, stuck-19)
+punct(in-21, -LRB--20)
+prep(stuck-19, in-21)
+pobj(in-21, Park-22)
+punct(in-21, !-23)
+punct(in-21, -RRB--24)
+
+Sentence #3 (29 tokens):
+, the nurse that drives for almost 2 hours with the cell phone on the shoulder...can't any of the 2 morons take this damn phone?
+[Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=,] [Text=the CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=DT] [Text=nurse CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=WDT] [Text=drives CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=IN] [Text=almost CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=RB] [Text=2 CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=CD] [Text=hours CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=cell CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=NN] [Text=phone CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT] [Text=shoulder CharacterOffsetBegin=206 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=:] [Text=ca CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=any CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=DT] [Text=2 CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=CD] [Text=morons CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NNS] [Text=take CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=DT] [Text=damn CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=phone CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=.] 
+root(ROOT-0, take-25)
+punct(take-25, ,-1)
+det(nurse-3, the-2)
+nsubj(take-25, nurse-3)
+nsubj(drives-5, that-4)
+rcmod(nurse-3, drives-5)
+prep(drives-5, for-6)
+quantmod(2-8, almost-7)
+num(hours-9, 2-8)
+pobj(for-6, hours-9)
+prep(hours-9, with-10)
+det(phone-13, the-11)
+nn(phone-13, cell-12)
+pobj(with-10, phone-13)
+prep(phone-13, on-14)
+det(shoulder-16, the-15)
+pobj(on-14, shoulder-16)
+punct(nurse-3, ...-17)
+aux(take-25, ca-18)
+neg(any-20, n't-19)
+nsubj(take-25, any-20)
+prep(any-20, of-21)
+det(morons-24, the-22)
+num(morons-24, 2-23)
+pobj(of-21, morons-24)
+det(phone-28, this-26)
+nn(phone-28, damn-27)
+dobj(take-25, phone-28)
+punct(take-25, ?-29)
+
+Sentence #4 (8 tokens):
+There's nothing credible in this crap.
+[Text=There CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=277 CharacterOffsetEnd=284 PartOfSpeech=NN] [Text=credible CharacterOffsetBegin=285 CharacterOffsetEnd=293 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=DT] [Text=crap CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+nsubj('s-2, nothing-3)
+amod(nothing-3, credible-4)
+prep('s-2, in-5)
+det(crap-7, this-6)
+pobj(in-5, crap-7)
+punct('s-2, .-8)
+
+Sentence #5 (13 tokens):
+I would be ashamed to be seen in a movie like this!
+[Text=I CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=VB] [Text=ashamed CharacterOffsetBegin=323 CharacterOffsetEnd=330 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=VB] [Text=seen CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=DT] [Text=! CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=.] 
+root(ROOT-0, ashamed-4)
+nsubj(ashamed-4, I-1)
+aux(ashamed-4, would-2)
+cop(ashamed-4, be-3)
+aux(seen-7, to-5)
+auxpass(seen-7, be-6)
+xcomp(ashamed-4, seen-7)
+prep(seen-7, in-8)
+det(movie-10, a-9)
+pobj(in-8, movie-10)
+prep(movie-10, like-11)
+pobj(like-11, this-12)
+punct(ashamed-4, !-13)
+

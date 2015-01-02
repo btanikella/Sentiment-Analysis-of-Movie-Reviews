@@ -1,0 +1,73 @@
+Sentence #1 (9 tokens):
+Im from Germany and I love the mvovies.
+[Text=Im CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=7 CharacterOffsetEnd=11 PartOfSpeech=IN] [Text=Germany CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=mvovies CharacterOffsetBegin=35 CharacterOffsetEnd=42 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=.] 
+root(ROOT-0, Im-1)
+prep(Im-1, from-2)
+pobj(from-2, Germany-3)
+cc(Im-1, and-4)
+nsubj(love-6, I-5)
+conj(Im-1, love-6)
+det(mvovies-8, the-7)
+dobj(love-6, mvovies-8)
+punct(Im-1, .-9)
+
+Sentence #2 (7 tokens):
+I go 200 times a year.
+[Text=I CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=PRP] [Text=go CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=VBP] [Text=200 CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=CD] [Text=times CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=NNS] [Text=a CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=year CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=.] 
+root(ROOT-0, go-2)
+nsubj(go-2, I-1)
+num(times-4, 200-3)
+tmod(go-2, times-4)
+det(year-6, a-5)
+npadvmod(times-4, year-6)
+punct(go-2, .-7)
+
+Sentence #3 (13 tokens):
+Tonight I saw "Pecker", it was a wonderful evening.
+[Text=Tonight CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=NNP] [Text=I CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=VBD] [Text=`` CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=``] [Text=Pecker CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=''] [Text=, CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=,] [Text=it CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=DT] [Text=wonderful CharacterOffsetBegin=108 CharacterOffsetEnd=117 PartOfSpeech=JJ] [Text=evening CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=.] 
+root(ROOT-0, Tonight-1)
+nsubj(saw-3, I-2)
+rcmod(Tonight-1, saw-3)
+punct(evening-12, ``-4)
+nn(evening-12, Pecker-5)
+punct(evening-12, ''-6)
+punct(evening-12, ,-7)
+nsubj(evening-12, it-8)
+cop(evening-12, was-9)
+det(evening-12, a-10)
+amod(evening-12, wonderful-11)
+dobj(saw-3, evening-12)
+punct(Tonight-1, .-13)
+
+Sentence #4 (6 tokens):
+Thank you, Mr.
+    Waters.
+[Text=Thank CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=,] [Text=Mr. CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=NNP] [Text=Waters CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=.] 
+root(ROOT-0, Waters-5)
+dep(Waters-5, Thank-1)
+dobj(Thank-1, you-2)
+punct(Waters-5, ,-3)
+nn(Waters-5, Mr.-4)
+punct(Waters-5, .-6)
+
+Sentence #5 (12 tokens):
+Everybody who has a chance to see the movie, go!!
+[Text=Everybody CharacterOffsetBegin=162 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=WP] [Text=has CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=DT] [Text=chance CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=,] [Text=go CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=VB] [Text=!! CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=SYM] 
+root(ROOT-0, Everybody-1)
+nsubj(has-3, who-2)
+rcmod(Everybody-1, has-3)
+det(chance-5, a-4)
+dobj(has-3, chance-5)
+aux(see-7, to-6)
+infmod(chance-5, see-7)
+det(movie-9, the-8)
+dobj(see-7, movie-9)
+punct(see-7, ,-10)
+dep(see-7, go-11)
+dep(go-11, !!-12)
+
+Sentence #6 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

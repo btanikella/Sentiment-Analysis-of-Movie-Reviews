@@ -1,0 +1,135 @@
+Sentence #1 (7 tokens):
+This movie shows us nothing original.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=shows CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=VBZ] [Text=us CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=PRP] [Text=nothing CharacterOffsetBegin=24 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=original CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.] 
+root(ROOT-0, shows-3)
+det(movie-2, This-1)
+nsubj(shows-3, movie-2)
+iobj(shows-3, us-4)
+dobj(shows-3, nothing-5)
+amod(nothing-5, original-6)
+punct(shows-3, .-7)
+
+Sentence #2 (16 tokens):
+Every idea or (action) scene can be found in many previously released movies.
+[Text=Every CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=DT] [Text=idea CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=CC] [Text=-LRB- CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=-LRB-] [Text=action CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=-RRB-] [Text=scene CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=VB] [Text=found CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=IN] [Text=many CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=JJ] [Text=previously CharacterOffsetBegin=96 CharacterOffsetEnd=106 PartOfSpeech=RB] [Text=released CharacterOffsetBegin=107 CharacterOffsetEnd=115 PartOfSpeech=VBN] [Text=movies CharacterOffsetBegin=116 CharacterOffsetEnd=122 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=.] 
+root(ROOT-0, found-10)
+det(idea-2, Every-1)
+nsubjpass(found-10, idea-2)
+cc(idea-2, or-3)
+punct(scene-7, -LRB--4)
+nn(scene-7, action-5)
+punct(scene-7, -RRB--6)
+conj(idea-2, scene-7)
+aux(found-10, can-8)
+auxpass(found-10, be-9)
+prep(found-10, in-11)
+amod(movies-15, many-12)
+advmod(released-14, previously-13)
+amod(movies-15, released-14)
+pobj(in-11, movies-15)
+punct(found-10, .-16)
+
+Sentence #3 (7 tokens):
+Fabulous Nick is completely plain here.
+[Text=Fabulous CharacterOffsetBegin=128 CharacterOffsetEnd=136 PartOfSpeech=NNP] [Text=Nick CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=VBZ] [Text=completely CharacterOffsetBegin=145 CharacterOffsetEnd=155 PartOfSpeech=RB] [Text=plain CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=RB] [Text=here CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=.] 
+root(ROOT-0, plain-5)
+nn(Nick-2, Fabulous-1)
+nsubj(plain-5, Nick-2)
+cop(plain-5, is-3)
+advmod(plain-5, completely-4)
+advmod(plain-5, here-6)
+punct(plain-5, .-7)
+
+Sentence #4 (10 tokens):
+Even Will Patton is calm and evil nor good.
+[Text=Even CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=RB] [Text=Will CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=MD] [Text=Patton CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=VBZ] [Text=calm CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=CC] [Text=evil CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=JJ] [Text=nor CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=CC] [Text=good CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=.] 
+root(ROOT-0, calm-5)
+advmod(calm-5, Even-1)
+dep(calm-5, Will-2)
+nsubj(calm-5, Patton-3)
+cop(calm-5, is-4)
+cc(calm-5, and-6)
+conj(calm-5, evil-7)
+cc(calm-5, nor-8)
+conj(calm-5, good-9)
+punct(calm-5, .-10)
+
+Sentence #5 (12 tokens):
+Mr. Duvall is ok, but has a very small part.
+[Text=Mr. CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=NNP] [Text=Duvall CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=231 CharacterOffsetEnd=233 PartOfSpeech=VBZ] [Text=ok CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=,] [Text=but CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=CC] [Text=has CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=RB] [Text=small CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=JJ] [Text=part CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=.] 
+root(ROOT-0, ok-4)
+nn(Duvall-2, Mr.-1)
+nsubj(ok-4, Duvall-2)
+cop(ok-4, is-3)
+punct(ok-4, ,-5)
+cc(ok-4, but-6)
+conj(ok-4, has-7)
+det(part-11, a-8)
+advmod(small-10, very-9)
+amod(part-11, small-10)
+dobj(has-7, part-11)
+punct(ok-4, .-12)
+
+Sentence #6 (14 tokens):
+So does Angelina, so how can we determine her newly acclaimed stardom?
+[Text=So CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=RB] [Text=does CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=VBZ] [Text=Angelina CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=,] [Text=so CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=RB] [Text=how CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=WRB] [Text=can CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=MD] [Text=we CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=PRP] [Text=determine CharacterOffsetBegin=301 CharacterOffsetEnd=310 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=PRP$] [Text=newly CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=RB] [Text=acclaimed CharacterOffsetBegin=321 CharacterOffsetEnd=330 PartOfSpeech=JJ] [Text=stardom CharacterOffsetBegin=331 CharacterOffsetEnd=338 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=.] 
+root(ROOT-0, Angelina-3)
+advmod(Angelina-3, So-1)
+aux(Angelina-3, does-2)
+punct(Angelina-3, ,-4)
+advmod(Angelina-3, so-5)
+advmod(determine-9, how-6)
+aux(determine-9, can-7)
+nsubj(determine-9, we-8)
+dep(Angelina-3, determine-9)
+poss(stardom-13, her-10)
+advmod(acclaimed-12, newly-11)
+amod(stardom-13, acclaimed-12)
+dobj(determine-9, stardom-13)
+punct(Angelina-3, ?-14)
+
+Sentence #7 (17 tokens):
+Overall, there are too many characters, so that nobody and nothing is especially detailed.
+[Text=Overall CharacterOffsetBegin=344 CharacterOffsetEnd=351 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=,] [Text=there CharacterOffsetBegin=353 CharacterOffsetEnd=358 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=VBP] [Text=too CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=372 CharacterOffsetEnd=382 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=,] [Text=so CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=IN] [Text=nobody CharacterOffsetBegin=392 CharacterOffsetEnd=398 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=CC] [Text=nothing CharacterOffsetBegin=403 CharacterOffsetEnd=410 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=VBZ] [Text=especially CharacterOffsetBegin=414 CharacterOffsetEnd=424 PartOfSpeech=RB] [Text=detailed CharacterOffsetBegin=425 CharacterOffsetEnd=433 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=.] 
+root(ROOT-0, characters-7)
+advmod(are-4, Overall-1)
+punct(are-4, ,-2)
+expl(are-4, there-3)
+cop(characters-7, are-4)
+advmod(many-6, too-5)
+amod(characters-7, many-6)
+punct(characters-7, ,-8)
+advmod(characters-7, so-9)
+mark(detailed-16, that-10)
+nsubjpass(detailed-16, nobody-11)
+cc(nobody-11, and-12)
+conj(nobody-11, nothing-13)
+auxpass(detailed-16, is-14)
+advmod(detailed-16, especially-15)
+dep(characters-7, detailed-16)
+punct(characters-7, .-17)
+
+Sentence #8 (8 tokens):
+This makes the movie easy to forget.
+[Text=This CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=DT] [Text=makes CharacterOffsetBegin=444 CharacterOffsetEnd=449 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=454 CharacterOffsetEnd=459 PartOfSpeech=NN] [Text=easy CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=TO] [Text=forget CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=.] 
+root(ROOT-0, makes-2)
+nsubj(makes-2, This-1)
+det(movie-4, the-3)
+nsubj(easy-5, movie-4)
+xcomp(makes-2, easy-5)
+aux(forget-7, to-6)
+ccomp(easy-5, forget-7)
+punct(makes-2, .-8)
+
+Sentence #9 (8 tokens):
+Too bad, don't you think?
+[Text=Too CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=,] [Text=do CharacterOffsetBegin=489 CharacterOffsetEnd=491 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=VB] [Text=? CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=.] 
+root(ROOT-0, bad-2)
+advmod(bad-2, Too-1)
+punct(bad-2, ,-3)
+aux(think-7, do-4)
+neg(think-7, n't-5)
+nsubj(think-7, you-6)
+dep(bad-2, think-7)
+punct(bad-2, ?-8)
+

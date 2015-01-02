@@ -1,0 +1,89 @@
+Sentence #1 (14 tokens):
+this movie was one of the best disney movies i've ever seen.
+[Text=this CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=one CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=JJS] [Text=disney CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=NNS] [Text=i CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=FW] [Text='ve CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=.] 
+root(ROOT-0, one-4)
+det(movie-2, this-1)
+nsubj(one-4, movie-2)
+cop(one-4, was-3)
+prep(one-4, of-5)
+det(movies-9, the-6)
+amod(movies-9, best-7)
+nn(movies-9, disney-8)
+pobj(of-5, movies-9)
+nsubj(seen-13, i-10)
+aux(seen-13, 've-11)
+advmod(seen-13, ever-12)
+rcmod(movies-9, seen-13)
+punct(one-4, .-14)
+
+Sentence #2 (8 tokens):
+great for the entire family to watch.
+[Text=great CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=entire CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=.] 
+root(ROOT-0, great-1)
+mark(watch-7, for-2)
+det(family-5, the-3)
+amod(family-5, entire-4)
+nsubj(watch-7, family-5)
+aux(watch-7, to-6)
+advcl(great-1, watch-7)
+punct(great-1, .-8)
+
+Sentence #3 (20 tokens):
+the ideas may be a little far-fetched, but it's a feel-good comedy and the acting is great.
+[Text=the CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=DT] [Text=ideas CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=NNS] [Text=may CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=JJ] [Text=far-fetched CharacterOffsetBegin=137 CharacterOffsetEnd=148 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=,] [Text=but CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=feel-good CharacterOffsetBegin=161 CharacterOffsetEnd=170 PartOfSpeech=JJ] [Text=comedy CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=186 CharacterOffsetEnd=192 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=.] 
+root(ROOT-0, far-fetched-7)
+det(ideas-2, the-1)
+nsubj(far-fetched-7, ideas-2)
+aux(far-fetched-7, may-3)
+cop(far-fetched-7, be-4)
+det(far-fetched-7, a-5)
+amod(far-fetched-7, little-6)
+punct(far-fetched-7, ,-8)
+cc(far-fetched-7, but-9)
+nsubj(comedy-14, it-10)
+cop(comedy-14, 's-11)
+det(comedy-14, a-12)
+amod(comedy-14, feel-good-13)
+conj(far-fetched-7, comedy-14)
+cc(comedy-14, and-15)
+det(acting-17, the-16)
+nsubj(great-19, acting-17)
+cop(great-19, is-18)
+conj(comedy-14, great-19)
+punct(far-fetched-7, .-20)
+
+Sentence #4 (24 tokens):
+love the little boy, j.p. and academy award winner adrien brody's part may have been very short, but very memorable.
+[Text=love CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=boy CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=,] [Text=j.p. CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=CC] [Text=academy CharacterOffsetBegin=237 CharacterOffsetEnd=244 PartOfSpeech=NN] [Text=award CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=winner CharacterOffsetBegin=251 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=adrien CharacterOffsetBegin=258 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=brody CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=POS] [Text=part CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=VBN] [Text=very CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=RB] [Text=short CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=,] [Text=but CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=CC] [Text=very CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=RB] [Text=memorable CharacterOffsetBegin=313 CharacterOffsetEnd=322 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=.] 
+root(ROOT-0, short-19)
+csubj(short-19, love-1)
+det(boy-4, the-2)
+amod(boy-4, little-3)
+dobj(love-1, boy-4)
+punct(boy-4, ,-5)
+conj(boy-4, j.p.-6)
+cc(boy-4, and-7)
+nn(brody-12, academy-8)
+nn(brody-12, award-9)
+nn(brody-12, winner-10)
+nn(brody-12, adrien-11)
+poss(part-14, brody-12)
+possessive(brody-12, 's-13)
+conj(boy-4, part-14)
+aux(short-19, may-15)
+aux(short-19, have-16)
+cop(short-19, been-17)
+advmod(short-19, very-18)
+punct(short-19, ,-20)
+cc(short-19, but-21)
+advmod(memorable-23, very-22)
+conj(short-19, memorable-23)
+punct(short-19, .-24)
+
+Sentence #5 (3 tokens):
+highly recommended.
+[Text=highly CharacterOffsetBegin=328 CharacterOffsetEnd=334 PartOfSpeech=RB] [Text=recommended CharacterOffsetBegin=335 CharacterOffsetEnd=346 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=.] 
+root(ROOT-0, recommended-2)
+advmod(recommended-2, highly-1)
+punct(recommended-2, .-3)
+

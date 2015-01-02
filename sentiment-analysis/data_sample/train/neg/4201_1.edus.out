@@ -1,0 +1,86 @@
+Sentence #1 (5 tokens):
+What a horrible comedy.
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=horrible CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=comedy CharacterOffsetBegin=20 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=.] 
+root(ROOT-0, comedy-4)
+dep(comedy-4, What-1)
+det(comedy-4, a-2)
+amod(comedy-4, horrible-3)
+punct(comedy-4, .-5)
+
+Sentence #2 (3 tokens):
+Totally lame.
+[Text=Totally CharacterOffsetBegin=32 CharacterOffsetEnd=39 PartOfSpeech=RB] [Text=lame CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.] 
+root(ROOT-0, lame-2)
+advmod(lame-2, Totally-1)
+punct(lame-2, .-3)
+
+Sentence #3 (10 tokens):
+The supposed "humor" was simple and stupid.
+[Text=The CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=DT] [Text=supposed CharacterOffsetBegin=54 CharacterOffsetEnd=62 PartOfSpeech=VBN] [Text=`` CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=``] [Text=humor CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=''] [Text=was CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=VBD] [Text=simple CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=CC] [Text=stupid CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.] 
+root(ROOT-0, simple-7)
+det(humor-4, The-1)
+amod(humor-4, supposed-2)
+punct(humor-4, ``-3)
+nsubj(simple-7, humor-4)
+punct(humor-4, ''-5)
+cop(simple-7, was-6)
+cc(simple-7, and-8)
+conj(simple-7, stupid-9)
+punct(simple-7, .-10)
+
+Sentence #4 (15 tokens):
+Stanly Tucci (a great actor) had the only parts worth chuckling at.
+[Text=Stanly CharacterOffsetBegin=98 CharacterOffsetEnd=104 PartOfSpeech=NNP] [Text=Tucci CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=-LRB-] [Text=a CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=JJ] [Text=actor CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=-RRB-] [Text=had CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=JJ] [Text=parts CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=NNS] [Text=worth CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=chuckling CharacterOffsetBegin=152 CharacterOffsetEnd=161 PartOfSpeech=VBG] [Text=at CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=.] 
+root(ROOT-0, Stanly-1)
+nsubj(had-8, Tucci-2)
+punct(actor-6, -LRB--3)
+det(actor-6, a-4)
+amod(actor-6, great-5)
+appos(Tucci-2, actor-6)
+punct(actor-6, -RRB--7)
+rcmod(Stanly-1, had-8)
+det(parts-11, the-9)
+amod(parts-11, only-10)
+dobj(had-8, parts-11)
+amod(parts-11, worth-12)
+dep(worth-12, chuckling-13)
+advmod(had-8, at-14)
+punct(Stanly-1, .-15)
+
+Sentence #5 (11 tokens):
+And he was tied up and gagged at the time.
+[Text=And CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=VBD] [Text=tied CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=VBN] [Text=up CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=CC] [Text=gagged CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=.] 
+root(ROOT-0, tied-4)
+cc(tied-4, And-1)
+nsubjpass(tied-4, he-2)
+auxpass(tied-4, was-3)
+prt(tied-4, up-5)
+cc(tied-4, and-6)
+conj(tied-4, gagged-7)
+prep(gagged-7, at-8)
+det(time-10, the-9)
+pobj(at-8, time-10)
+punct(tied-4, .-11)
+
+Sentence #6 (9 tokens):
+Don't waste your time with this one.
+[Text=Do CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=waste CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=.] 
+root(ROOT-0, waste-3)
+aux(waste-3, Do-1)
+neg(waste-3, n't-2)
+poss(time-5, your-4)
+dobj(waste-3, time-5)
+prep(waste-3, with-6)
+det(one-8, this-7)
+pobj(with-6, one-8)
+punct(waste-3, .-9)
+
+Sentence #7 (5 tokens):
+It deserves a 0/10.
+[Text=It CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=PRP] [Text=deserves CharacterOffsetBegin=261 CharacterOffsetEnd=269 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=DT] [Text=0/10 CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=.] 
+root(ROOT-0, deserves-2)
+nsubj(deserves-2, It-1)
+det(0/10-4, a-3)
+dobj(deserves-2, 0/10-4)
+punct(deserves-2, .-5)
+

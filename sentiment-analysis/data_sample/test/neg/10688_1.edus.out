@@ -1,0 +1,93 @@
+Sentence #1 (11 tokens):
+I have NEVER EVER seen such a bad movie before.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=NEVER CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=RB] [Text=EVER CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=VBN] [Text=such CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=PDT] [Text=a CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=before CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+advmod(seen-5, NEVER-3)
+advmod(seen-5, EVER-4)
+ccomp(have-2, seen-5)
+predet(movie-9, such-6)
+det(movie-9, a-7)
+amod(movie-9, bad-8)
+dobj(seen-5, movie-9)
+advmod(seen-5, before-10)
+punct(have-2, .-11)
+
+Sentence #2 (8 tokens):
+The scene where they shoot some guy.
+[Text=The CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=scene CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=PRP] [Text=shoot CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=VBP] [Text=some CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=.] 
+root(ROOT-0, scene-2)
+det(scene-2, The-1)
+advmod(shoot-5, where-3)
+nsubj(shoot-5, they-4)
+rcmod(scene-2, shoot-5)
+det(guy-7, some-6)
+dobj(shoot-5, guy-7)
+punct(scene-2, .-8)
+
+Sentence #3 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #4 (7 tokens):
+The pistol don`t even shoot.
+[Text=The CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=DT] [Text=pistol CharacterOffsetBegin=102 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=do CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=VBP] [Text=n`t CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=VB] [Text=even CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=RB] [Text=shoot CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=.] 
+root(ROOT-0, n`t-4)
+det(pistol-2, The-1)
+nsubj(n`t-4, pistol-2)
+aux(n`t-4, do-3)
+advmod(shoot-6, even-5)
+dobj(n`t-4, shoot-6)
+punct(n`t-4, .-7)
+
+Sentence #5 (5 tokens):
+Damn that is baad.
+[Text=Damn CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=baad CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=.] 
+root(ROOT-0, Damn-1)
+nsubj(baad-4, that-2)
+cop(baad-4, is-3)
+rcmod(Damn-1, baad-4)
+punct(Damn-1, .-5)
+
+Sentence #6 (11 tokens):
+The scene with the boy is even not that good.
+[Text=The CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=scene CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=DT] [Text=boy CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=VBZ] [Text=even CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=.] 
+root(ROOT-0, good-10)
+det(scene-2, The-1)
+nsubj(good-10, scene-2)
+prep(scene-2, with-3)
+det(boy-5, the-4)
+pobj(with-3, boy-5)
+cop(good-10, is-6)
+advmod(not-8, even-7)
+neg(good-10, not-8)
+dep(good-10, that-9)
+punct(good-10, .-11)
+
+Sentence #7 (17 tokens):
+no script, not any good sound, not anything good to say about this movie.
+[Text=no CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=,] [Text=not CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=RB] [Text=any CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=JJ] [Text=sound CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=,] [Text=not CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=RB] [Text=anything CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=good CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=.] 
+root(ROOT-0, script-2)
+det(script-2, no-1)
+punct(script-2, ,-3)
+neg(script-2, not-4)
+det(sound-7, any-5)
+amod(sound-7, good-6)
+dep(script-2, sound-7)
+punct(sound-7, ,-8)
+neg(sound-7, not-9)
+dep(sound-7, anything-10)
+amod(anything-10, good-11)
+aux(say-13, to-12)
+xcomp(good-11, say-13)
+prep(say-13, about-14)
+det(movie-16, this-15)
+pobj(about-14, movie-16)
+punct(script-2, .-17)
+
+Sentence #8 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+

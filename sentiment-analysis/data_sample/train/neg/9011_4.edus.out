@@ -1,0 +1,163 @@
+Sentence #1 (5 tokens):
+Pretty standard B-movie stuff.
+[Text=Pretty CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=standard CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=B-movie CharacterOffsetBegin=20 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=stuff CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=.] 
+root(ROOT-0, stuff-4)
+nn(stuff-4, Pretty-1)
+amod(stuff-4, standard-2)
+nn(stuff-4, B-movie-3)
+punct(stuff-4, .-5)
+
+Sentence #2 (34 tokens):
+Seriously, anyone who watches "Dragon Fighter" with Dean Cain and a bunch of people making their first movie should know better than to expect real quality or even moderate intelligence.
+[Text=Seriously CharacterOffsetBegin=39 CharacterOffsetEnd=48 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=,] [Text=anyone CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=WP] [Text=watches CharacterOffsetBegin=61 CharacterOffsetEnd=68 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=``] [Text=Dragon CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=NNP] [Text=Fighter CharacterOffsetBegin=77 CharacterOffsetEnd=84 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=''] [Text=with CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=IN] [Text=Dean CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=NNP] [Text=Cain CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=DT] [Text=bunch CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=116 CharacterOffsetEnd=122 PartOfSpeech=NNS] [Text=making CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=VBG] [Text=their CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=PRP$] [Text=first CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=148 CharacterOffsetEnd=154 PartOfSpeech=MD] [Text=know CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=VB] [Text=better CharacterOffsetBegin=160 CharacterOffsetEnd=166 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=TO] [Text=expect CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=VB] [Text=real CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=JJ] [Text=quality CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=CC] [Text=even CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=RB] [Text=moderate CharacterOffsetBegin=203 CharacterOffsetEnd=211 PartOfSpeech=JJ] [Text=intelligence CharacterOffsetBegin=212 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, know-23)
+advmod(know-23, Seriously-1)
+punct(know-23, ,-2)
+nsubj(know-23, anyone-3)
+nsubj(watches-5, who-4)
+rcmod(anyone-3, watches-5)
+punct(Fighter-8, ``-6)
+nn(Fighter-8, Dragon-7)
+dobj(watches-5, Fighter-8)
+punct(Fighter-8, ''-9)
+prep(Fighter-8, with-10)
+nn(Cain-12, Dean-11)
+pobj(with-10, Cain-12)
+cc(Cain-12, and-13)
+det(bunch-15, a-14)
+conj(Cain-12, bunch-15)
+prep(bunch-15, of-16)
+pobj(of-16, people-17)
+partmod(people-17, making-18)
+poss(movie-21, their-19)
+amod(movie-21, first-20)
+dobj(making-18, movie-21)
+aux(know-23, should-22)
+advmod(know-23, better-24)
+mark(expect-27, than-25)
+aux(expect-27, to-26)
+dep(better-24, expect-27)
+amod(quality-29, real-28)
+dobj(expect-27, quality-29)
+cc(quality-29, or-30)
+advmod(quality-29, even-31)
+amod(intelligence-33, moderate-32)
+conj(quality-29, intelligence-33)
+punct(know-23, .-34)
+
+Sentence #3 (10 tokens):
+B movies exist to re-work formulas that are popular.
+[Text=B CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=NNS] [Text=exist CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=TO] [Text=re-work CharacterOffsetBegin=248 CharacterOffsetEnd=255 PartOfSpeech=VB] [Text=formulas CharacterOffsetBegin=256 CharacterOffsetEnd=264 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=VBP] [Text=popular CharacterOffsetBegin=274 CharacterOffsetEnd=281 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=.] 
+root(ROOT-0, exist-3)
+nn(movies-2, B-1)
+nsubj(exist-3, movies-2)
+aux(re-work-5, to-4)
+xcomp(exist-3, re-work-5)
+dobj(re-work-5, formulas-6)
+nsubj(popular-9, that-7)
+cop(popular-9, are-8)
+rcmod(formulas-6, popular-9)
+punct(exist-3, .-10)
+
+Sentence #4 (30 tokens):
+If you give them even token analysis, you'll wind up ruining the movie for yourself (and perhaps writing some self-important, slanderous review on IMDb).
+[Text=If CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=PRP] [Text=give CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=VBP] [Text=them CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=PRP] [Text=even CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=RB] [Text=token CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=analysis CharacterOffsetBegin=315 CharacterOffsetEnd=323 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=,] [Text=you CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=MD] [Text=wind CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=RP] [Text=ruining CharacterOffsetBegin=340 CharacterOffsetEnd=347 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=IN] [Text=yourself CharacterOffsetBegin=362 CharacterOffsetEnd=370 PartOfSpeech=PRP] [Text=-LRB- CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=-LRB-] [Text=and CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=CC] [Text=perhaps CharacterOffsetBegin=376 CharacterOffsetEnd=383 PartOfSpeech=RB] [Text=writing CharacterOffsetBegin=384 CharacterOffsetEnd=391 PartOfSpeech=VBG] [Text=some CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=DT] [Text=self-important CharacterOffsetBegin=397 CharacterOffsetEnd=411 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=,] [Text=slanderous CharacterOffsetBegin=413 CharacterOffsetEnd=423 PartOfSpeech=JJ] [Text=review CharacterOffsetBegin=424 CharacterOffsetEnd=430 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=IN] [Text=IMDb CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=439 CharacterOffsetEnd=440 PartOfSpeech=.] 
+root(ROOT-0, wind-11)
+mark(give-3, If-1)
+nsubj(give-3, you-2)
+advcl(wind-11, give-3)
+dobj(give-3, them-4)
+advmod(analysis-7, even-5)
+amod(analysis-7, token-6)
+dobj(give-3, analysis-7)
+punct(wind-11, ,-8)
+nsubj(wind-11, you-9)
+aux(wind-11, 'll-10)
+prt(wind-11, up-12)
+xcomp(wind-11, ruining-13)
+det(movie-15, the-14)
+dobj(ruining-13, movie-15)
+prep(movie-15, for-16)
+pobj(for-16, yourself-17)
+punct(writing-21, -LRB--18)
+cc(writing-21, and-19)
+advmod(writing-21, perhaps-20)
+dep(yourself-17, writing-21)
+det(review-26, some-22)
+amod(review-26, self-important-23)
+punct(review-26, ,-24)
+amod(review-26, slanderous-25)
+dobj(writing-21, review-26)
+prep(review-26, on-27)
+pobj(on-27, IMDb-28)
+punct(writing-21, -RRB--29)
+punct(wind-11, .-30)
+
+Sentence #5 (9 tokens):
+I liked the female lead, Kristine Byers.
+[Text=I CharacterOffsetBegin=440 CharacterOffsetEnd=441 PartOfSpeech=PRP] [Text=liked CharacterOffsetBegin=442 CharacterOffsetEnd=447 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=DT] [Text=female CharacterOffsetBegin=452 CharacterOffsetEnd=458 PartOfSpeech=JJ] [Text=lead CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=,] [Text=Kristine CharacterOffsetBegin=465 CharacterOffsetEnd=473 PartOfSpeech=NNP] [Text=Byers CharacterOffsetBegin=474 CharacterOffsetEnd=479 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=479 CharacterOffsetEnd=480 PartOfSpeech=.] 
+root(ROOT-0, liked-2)
+nsubj(liked-2, I-1)
+det(lead-5, the-3)
+amod(lead-5, female-4)
+dobj(liked-2, lead-5)
+punct(lead-5, ,-6)
+nn(Byers-8, Kristine-7)
+appos(lead-5, Byers-8)
+punct(liked-2, .-9)
+
+Sentence #6 (11 tokens):
+She had charisma and I thought she was notably attractive.
+[Text=She CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=VBD] [Text=charisma CharacterOffsetBegin=493 CharacterOffsetEnd=501 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=502 CharacterOffsetEnd=505 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=506 CharacterOffsetEnd=507 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=508 CharacterOffsetEnd=515 PartOfSpeech=VBD] [Text=she CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=VBD] [Text=notably CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=RB] [Text=attractive CharacterOffsetBegin=532 CharacterOffsetEnd=542 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=542 CharacterOffsetEnd=543 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, She-1)
+dobj(had-2, charisma-3)
+cc(had-2, and-4)
+nsubj(thought-6, I-5)
+conj(had-2, thought-6)
+nsubj(attractive-10, she-7)
+cop(attractive-10, was-8)
+advmod(attractive-10, notably-9)
+ccomp(thought-6, attractive-10)
+punct(had-2, .-11)
+
+Sentence #7 (7 tokens):
+It was a memorable B-movie appearance.
+[Text=It CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=555 CharacterOffsetEnd=556 PartOfSpeech=DT] [Text=memorable CharacterOffsetBegin=557 CharacterOffsetEnd=566 PartOfSpeech=JJ] [Text=B-movie CharacterOffsetBegin=567 CharacterOffsetEnd=574 PartOfSpeech=JJ] [Text=appearance CharacterOffsetBegin=575 CharacterOffsetEnd=585 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=.] 
+root(ROOT-0, appearance-6)
+nsubj(appearance-6, It-1)
+cop(appearance-6, was-2)
+det(appearance-6, a-3)
+amod(appearance-6, memorable-4)
+amod(appearance-6, B-movie-5)
+punct(appearance-6, .-7)
+
+Sentence #8 (14 tokens):
+Unfortunately, I don't see where she has made any movies since.
+[Text=Unfortunately CharacterOffsetBegin=591 CharacterOffsetEnd=604 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=,] [Text=I CharacterOffsetBegin=606 CharacterOffsetEnd=607 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=608 CharacterOffsetEnd=610 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=610 CharacterOffsetEnd=613 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=614 CharacterOffsetEnd=617 PartOfSpeech=VB] [Text=where CharacterOffsetBegin=618 CharacterOffsetEnd=623 PartOfSpeech=WRB] [Text=she CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=VBZ] [Text=made CharacterOffsetBegin=632 CharacterOffsetEnd=636 PartOfSpeech=VBN] [Text=any CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=DT] [Text=movies CharacterOffsetBegin=641 CharacterOffsetEnd=647 PartOfSpeech=NNS] [Text=since CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=.] 
+root(ROOT-0, see-6)
+advmod(see-6, Unfortunately-1)
+punct(see-6, ,-2)
+nsubj(see-6, I-3)
+aux(see-6, do-4)
+neg(see-6, n't-5)
+advmod(made-10, where-7)
+nsubj(made-10, she-8)
+aux(made-10, has-9)
+advcl(see-6, made-10)
+det(movies-12, any-11)
+dobj(made-10, movies-12)
+prep(made-10, since-13)
+punct(see-6, .-14)
+
+Sentence #9 (7 tokens):
+I'll watch for her again.
+[Text=I CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=MD] [Text=watch CharacterOffsetBegin=664 CharacterOffsetEnd=669 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=670 CharacterOffsetEnd=673 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=674 CharacterOffsetEnd=677 PartOfSpeech=PRP$] [Text=again CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=683 CharacterOffsetEnd=684 PartOfSpeech=.] 
+root(ROOT-0, watch-3)
+nsubj(watch-3, I-1)
+aux(watch-3, 'll-2)
+prep(watch-3, for-4)
+pobj(for-4, her-5)
+advmod(her-5, again-6)
+punct(watch-3, .-7)
+

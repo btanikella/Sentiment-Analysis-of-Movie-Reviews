@@ -1,0 +1,113 @@
+Sentence #1 (18 tokens):
+The first time I saw this film it was with this cute girl I was attracted to.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=VBD] [Text=with CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=DT] [Text=cute CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=girl CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=VBD] [Text=attracted CharacterOffsetBegin=68 CharacterOffsetEnd=77 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=TO] [Text=. CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=.] 
+root(ROOT-0, time-3)
+det(time-3, The-1)
+amod(time-3, first-2)
+nsubj(saw-5, I-4)
+rcmod(time-3, saw-5)
+det(film-7, this-6)
+dobj(saw-5, film-7)
+nsubj(was-9, it-8)
+rcmod(film-7, was-9)
+prep(was-9, with-10)
+det(girl-13, this-11)
+amod(girl-13, cute-12)
+pobj(with-10, girl-13)
+nsubjpass(attracted-16, I-14)
+auxpass(attracted-16, was-15)
+rcmod(girl-13, attracted-16)
+prep(attracted-16, to-17)
+punct(time-3, .-18)
+
+Sentence #2 (14 tokens):
+we had a lot of fun laughing at it and generally making fun.
+[Text=we CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=fun CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=laughing CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=CC] [Text=generally CharacterOffsetBegin=125 CharacterOffsetEnd=134 PartOfSpeech=RB] [Text=making CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=VBG] [Text=fun CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, we-1)
+det(lot-4, a-3)
+dobj(had-2, lot-4)
+prep(lot-4, of-5)
+nn(laughing-7, fun-6)
+pobj(of-5, laughing-7)
+prep(had-2, at-8)
+pobj(at-8, it-9)
+cc(had-2, and-10)
+advmod(making-12, generally-11)
+conj(had-2, making-12)
+dobj(making-12, fun-13)
+punct(had-2, .-14)
+
+Sentence #3 (14 tokens):
+So my impression was that it was terrible but watchable for cheeseyness value.
+[Text=So CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=PRP$] [Text=impression CharacterOffsetBegin=157 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=VBD] [Text=terrible CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=CC] [Text=watchable CharacterOffsetBegin=197 CharacterOffsetEnd=206 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=IN] [Text=cheeseyness CharacterOffsetBegin=211 CharacterOffsetEnd=222 PartOfSpeech=NN] [Text=value CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, was-4)
+dep(was-4, So-1)
+poss(impression-3, my-2)
+nsubj(was-4, impression-3)
+mark(terrible-8, that-5)
+nsubj(terrible-8, it-6)
+cop(terrible-8, was-7)
+ccomp(was-4, terrible-8)
+cc(terrible-8, but-9)
+conj(terrible-8, watchable-10)
+prep(watchable-10, for-11)
+nn(value-13, cheeseyness-12)
+pobj(for-11, value-13)
+punct(was-4, .-14)
+
+Sentence #4 (16 tokens):
+Then, as part of our anniversary, we watched it together again on video.
+[Text=Then CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=,] [Text=as CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=IN] [Text=part CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=our CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=PRP$] [Text=anniversary CharacterOffsetBegin=255 CharacterOffsetEnd=266 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=,] [Text=we CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=PRP] [Text=together CharacterOffsetBegin=282 CharacterOffsetEnd=290 PartOfSpeech=RB] [Text=again CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=IN] [Text=video CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=.] 
+root(ROOT-0, watched-10)
+advmod(watched-10, Then-1)
+punct(watched-10, ,-2)
+prep(watched-10, as-3)
+pobj(as-3, part-4)
+prep(part-4, of-5)
+poss(anniversary-7, our-6)
+pobj(of-5, anniversary-7)
+punct(watched-10, ,-8)
+nsubj(watched-10, we-9)
+dobj(watched-10, it-11)
+advmod(watched-10, together-12)
+advmod(watched-10, again-13)
+prep(watched-10, on-14)
+pobj(on-14, video-15)
+punct(watched-10, .-16)
+
+Sentence #5 (13 tokens):
+As it turns out, the movie is just terrible and unwatchable.
+[Text=As CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=PRP] [Text=turns CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=RP] [Text=, CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=,] [Text=the CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=RB] [Text=terrible CharacterOffsetBegin=346 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=CC] [Text=unwatchable CharacterOffsetBegin=359 CharacterOffsetEnd=370 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=.] 
+root(ROOT-0, terrible-10)
+mark(turns-3, As-1)
+nsubj(turns-3, it-2)
+advcl(terrible-10, turns-3)
+prt(turns-3, out-4)
+punct(terrible-10, ,-5)
+det(movie-7, the-6)
+nsubj(terrible-10, movie-7)
+cop(terrible-10, is-8)
+advmod(terrible-10, just-9)
+cc(terrible-10, and-11)
+conj(terrible-10, unwatchable-12)
+punct(terrible-10, .-13)
+
+Sentence #6 (14 tokens):
+It's amazing how cute girls can change the way the world looks.
+[Text=It CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=VBZ] [Text=amazing CharacterOffsetBegin=381 CharacterOffsetEnd=388 PartOfSpeech=JJ] [Text=how CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=WRB] [Text=cute CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=JJ] [Text=girls CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=NNS] [Text=can CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=MD] [Text=change CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=DT] [Text=world CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=NN] [Text=looks CharacterOffsetBegin=433 CharacterOffsetEnd=438 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=.] 
+root(ROOT-0, amazing-3)
+nsubj(amazing-3, It-1)
+cop(amazing-3, 's-2)
+advmod(cute-5, how-4)
+amod(girls-6, cute-5)
+nsubj(change-8, girls-6)
+aux(change-8, can-7)
+ccomp(amazing-3, change-8)
+det(way-10, the-9)
+dobj(change-8, way-10)
+det(world-12, the-11)
+nsubj(looks-13, world-12)
+rcmod(way-10, looks-13)
+punct(amazing-3, .-14)
+

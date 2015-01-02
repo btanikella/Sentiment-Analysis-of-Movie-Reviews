@@ -1,0 +1,190 @@
+Sentence #1 (9 tokens):
+I just watched this movie, by mistake.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=watched CharacterOffsetBegin=11 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=,] [Text=by CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=IN] [Text=mistake CharacterOffsetBegin=34 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.] 
+root(ROOT-0, watched-3)
+nsubj(watched-3, I-1)
+advmod(watched-3, just-2)
+det(movie-5, this-4)
+dobj(watched-3, movie-5)
+punct(watched-3, ,-6)
+prep(watched-3, by-7)
+pobj(by-7, mistake-8)
+punct(watched-3, .-9)
+
+Sentence #2 (5 tokens):
+What a little gem.
+[Text=What CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=JJ] [Text=gem CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=.] 
+root(ROOT-0, gem-4)
+dep(gem-4, What-1)
+det(gem-4, a-2)
+amod(gem-4, little-3)
+punct(gem-4, .-5)
+
+Sentence #3 (16 tokens):
+This film made in 1956 looks, and feels, like a late Seventies movie.
+[Text=This CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=1956 CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=CD] [Text=looks CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=,] [Text=and CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=CC] [Text=feels CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=,] [Text=like CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=DT] [Text=late CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=JJ] [Text=Seventies CharacterOffsetBegin=123 CharacterOffsetEnd=132 PartOfSpeech=NNS] [Text=movie CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=.] 
+root(ROOT-0, made-3)
+det(film-2, This-1)
+nsubj(made-3, film-2)
+prep(made-3, in-4)
+num(looks-6, 1956-5)
+pobj(in-4, looks-6)
+punct(made-3, ,-7)
+cc(made-3, and-8)
+conj(made-3, feels-9)
+punct(feels-9, ,-10)
+prep(feels-9, like-11)
+det(movie-15, a-12)
+amod(movie-15, late-13)
+nn(movie-15, Seventies-14)
+pobj(like-11, movie-15)
+punct(made-3, .-16)
+
+Sentence #4 (17 tokens):
+And is in fact better, more restrained and correct than, say, Blue Soldier.
+[Text=And CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=fact CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=better CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=,] [Text=more CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=JJR] [Text=restrained CharacterOffsetBegin=172 CharacterOffsetEnd=182 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=CC] [Text=correct CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=,] [Text=say CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=,] [Text=Blue CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=NNP] [Text=Soldier CharacterOffsetBegin=211 CharacterOffsetEnd=218 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=.] 
+root(ROOT-0, better-5)
+cc(better-5, And-1)
+cop(better-5, is-2)
+prep(better-5, in-3)
+pobj(in-3, fact-4)
+punct(better-5, ,-6)
+advmod(restrained-8, more-7)
+conj(better-5, restrained-8)
+cc(better-5, and-9)
+conj(better-5, correct-10)
+dep(say-13, than-11)
+punct(say-13, ,-12)
+dep(better-5, say-13)
+punct(better-5, ,-14)
+nn(Soldier-16, Blue-15)
+dep(better-5, Soldier-16)
+punct(better-5, .-17)
+
+Sentence #5 (12 tokens):
+The environmental, anthropological undertones are way ahead of its time.
+[Text=The CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=DT] [Text=environmental CharacterOffsetBegin=228 CharacterOffsetEnd=241 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=,] [Text=anthropological CharacterOffsetBegin=243 CharacterOffsetEnd=258 PartOfSpeech=JJ] [Text=undertones CharacterOffsetBegin=259 CharacterOffsetEnd=269 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=VBP] [Text=way CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=ahead CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=.] 
+root(ROOT-0, way-7)
+det(way-7, The-1)
+amod(way-7, environmental-2)
+punct(way-7, ,-3)
+amod(undertones-5, anthropological-4)
+nsubj(way-7, undertones-5)
+cop(way-7, are-6)
+advmod(way-7, ahead-8)
+prep(ahead-8, of-9)
+poss(time-11, its-10)
+pobj(of-9, time-11)
+punct(way-7, .-12)
+
+Sentence #6 (9 tokens):
+The understated cinematography is superb and terribly realistic.
+[Text=The CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=DT] [Text=understated CharacterOffsetBegin=305 CharacterOffsetEnd=316 PartOfSpeech=VBN] [Text=cinematography CharacterOffsetBegin=317 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=VBZ] [Text=superb CharacterOffsetBegin=335 CharacterOffsetEnd=341 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=CC] [Text=terribly CharacterOffsetBegin=346 CharacterOffsetEnd=354 PartOfSpeech=RB] [Text=realistic CharacterOffsetBegin=355 CharacterOffsetEnd=364 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, superb-5)
+det(cinematography-3, The-1)
+amod(cinematography-3, understated-2)
+nsubj(superb-5, cinematography-3)
+cop(superb-5, is-4)
+cc(superb-5, and-6)
+advmod(realistic-8, terribly-7)
+conj(superb-5, realistic-8)
+punct(superb-5, .-9)
+
+Sentence #7 (29 tokens):
+Much more than Dances with Wolves, The Last Hunt manages to convey the look and feel of the buffalo "killing fields" of the late 1800s.
+[Text=Much CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=IN] [Text=Dances CharacterOffsetBegin=385 CharacterOffsetEnd=391 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=IN] [Text=Wolves CharacterOffsetBegin=397 CharacterOffsetEnd=403 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=,] [Text=The CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=DT] [Text=Last CharacterOffsetBegin=409 CharacterOffsetEnd=413 PartOfSpeech=JJ] [Text=Hunt CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=NNP] [Text=manages CharacterOffsetBegin=419 CharacterOffsetEnd=426 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=TO] [Text=convey CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=DT] [Text=look CharacterOffsetBegin=441 CharacterOffsetEnd=445 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=CC] [Text=feel CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=DT] [Text=buffalo CharacterOffsetBegin=462 CharacterOffsetEnd=469 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=``] [Text=killing CharacterOffsetBegin=471 CharacterOffsetEnd=478 PartOfSpeech=VBG] [Text=fields CharacterOffsetBegin=479 CharacterOffsetEnd=485 PartOfSpeech=NNS] [Text='' CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=''] [Text=of CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=DT] [Text=late CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=JJ] [Text=1800s CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=.] 
+root(ROOT-0, more-2)
+advmod(more-2, Much-1)
+prep(more-2, than-3)
+pobj(than-3, Dances-4)
+prep(Dances-4, with-5)
+pobj(with-5, Wolves-6)
+punct(Wolves-6, ,-7)
+det(Hunt-10, The-8)
+amod(Hunt-10, Last-9)
+nsubj(manages-11, Hunt-10)
+rcmod(Wolves-6, manages-11)
+aux(convey-13, to-12)
+xcomp(manages-11, convey-13)
+det(look-15, the-14)
+dobj(convey-13, look-15)
+cc(convey-13, and-16)
+conj(convey-13, feel-17)
+prep(feel-17, of-18)
+det(buffalo-20, the-19)
+pobj(of-18, buffalo-20)
+punct(feel-17, ``-21)
+dep(feel-17, killing-22)
+dobj(killing-22, fields-23)
+punct(fields-23, ''-24)
+prep(fields-23, of-25)
+det(1800s-28, the-26)
+amod(1800s-28, late-27)
+pobj(of-25, 1800s-28)
+punct(more-2, .-29)
+
+Sentence #8 (11 tokens):
+Probably because those in the movie were real killing fields.
+[Text=Probably CharacterOffsetBegin=510 CharacterOffsetEnd=518 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=519 CharacterOffsetEnd=526 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=527 CharacterOffsetEnd=532 PartOfSpeech=DT] [Text=in CharacterOffsetBegin=533 CharacterOffsetEnd=535 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=540 CharacterOffsetEnd=545 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=VBD] [Text=real CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=JJ] [Text=killing CharacterOffsetBegin=556 CharacterOffsetEnd=563 PartOfSpeech=NN] [Text=fields CharacterOffsetBegin=564 CharacterOffsetEnd=570 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=.] 
+root(ROOT-0, Probably-1)
+mark(fields-10, because-2)
+nsubj(fields-10, those-3)
+prep(those-3, in-4)
+det(movie-6, the-5)
+pobj(in-4, movie-6)
+cop(fields-10, were-7)
+amod(fields-10, real-8)
+nn(fields-10, killing-9)
+advcl(Probably-1, fields-10)
+punct(Probably-1, .-11)
+
+Sentence #9 (26 tokens):
+The movie was shot during legal forestry directed buffalo culls, so the animals you see are really being shot, the bones are real.
+[Text=The CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=580 CharacterOffsetEnd=585 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=VBD] [Text=shot CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=VBN] [Text=during CharacterOffsetBegin=595 CharacterOffsetEnd=601 PartOfSpeech=IN] [Text=legal CharacterOffsetBegin=602 CharacterOffsetEnd=607 PartOfSpeech=JJ] [Text=forestry CharacterOffsetBegin=608 CharacterOffsetEnd=616 PartOfSpeech=NN] [Text=directed CharacterOffsetBegin=617 CharacterOffsetEnd=625 PartOfSpeech=VBD] [Text=buffalo CharacterOffsetBegin=626 CharacterOffsetEnd=633 PartOfSpeech=NN] [Text=culls CharacterOffsetBegin=634 CharacterOffsetEnd=639 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=639 CharacterOffsetEnd=640 PartOfSpeech=,] [Text=so CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=DT] [Text=animals CharacterOffsetBegin=648 CharacterOffsetEnd=655 PartOfSpeech=NNS] [Text=you CharacterOffsetBegin=656 CharacterOffsetEnd=659 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=VBP] [Text=are CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=VBP] [Text=really CharacterOffsetBegin=668 CharacterOffsetEnd=674 PartOfSpeech=RB] [Text=being CharacterOffsetBegin=675 CharacterOffsetEnd=680 PartOfSpeech=VBG] [Text=shot CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=685 CharacterOffsetEnd=686 PartOfSpeech=,] [Text=the CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=DT] [Text=bones CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=VBP] [Text=real CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=705 CharacterOffsetEnd=706 PartOfSpeech=.] 
+root(ROOT-0, shot-4)
+det(movie-2, The-1)
+nsubjpass(shot-4, movie-2)
+auxpass(shot-4, was-3)
+mark(directed-8, during-5)
+amod(forestry-7, legal-6)
+nsubj(directed-8, forestry-7)
+advcl(shot-4, directed-8)
+nn(culls-10, buffalo-9)
+dobj(directed-8, culls-10)
+punct(shot-4, ,-11)
+mark(shot-20, so-12)
+det(animals-14, the-13)
+nsubjpass(shot-20, animals-14)
+nsubj(see-16, you-15)
+rcmod(animals-14, see-16)
+aux(shot-20, are-17)
+advmod(shot-20, really-18)
+auxpass(shot-20, being-19)
+advcl(shot-4, shot-20)
+punct(shot-4, ,-21)
+det(bones-23, the-22)
+nsubj(real-25, bones-23)
+cop(real-25, are-24)
+parataxis(shot-4, real-25)
+punct(shot-4, .-26)
+
+Sentence #10 (16 tokens):
+In conclusion, a very under-rated western masterpiece, superbly acted, directed and shot.
+[Text=In CharacterOffsetBegin=711 CharacterOffsetEnd=713 PartOfSpeech=IN] [Text=conclusion CharacterOffsetBegin=714 CharacterOffsetEnd=724 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=724 CharacterOffsetEnd=725 PartOfSpeech=,] [Text=a CharacterOffsetBegin=726 CharacterOffsetEnd=727 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=728 CharacterOffsetEnd=732 PartOfSpeech=RB] [Text=under-rated CharacterOffsetBegin=733 CharacterOffsetEnd=744 PartOfSpeech=JJ] [Text=western CharacterOffsetBegin=745 CharacterOffsetEnd=752 PartOfSpeech=JJ] [Text=masterpiece CharacterOffsetBegin=753 CharacterOffsetEnd=764 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=764 CharacterOffsetEnd=765 PartOfSpeech=,] [Text=superbly CharacterOffsetBegin=766 CharacterOffsetEnd=774 PartOfSpeech=RB] [Text=acted CharacterOffsetBegin=775 CharacterOffsetEnd=780 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=780 CharacterOffsetEnd=781 PartOfSpeech=,] [Text=directed CharacterOffsetBegin=782 CharacterOffsetEnd=790 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=791 CharacterOffsetEnd=794 PartOfSpeech=CC] [Text=shot CharacterOffsetBegin=795 CharacterOffsetEnd=799 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=799 CharacterOffsetEnd=800 PartOfSpeech=.] 
+root(ROOT-0, In-1)
+pobj(In-1, conclusion-2)
+punct(In-1, ,-3)
+det(masterpiece-8, a-4)
+advmod(under-rated-6, very-5)
+amod(masterpiece-8, under-rated-6)
+amod(masterpiece-8, western-7)
+nsubj(,-3, masterpiece-8)
+punct(masterpiece-8, ,-9)
+advmod(acted-11, superbly-10)
+dep(masterpiece-8, acted-11)
+punct(acted-11, ,-12)
+conj(acted-11, directed-13)
+cc(acted-11, and-14)
+conj(acted-11, shot-15)
+punct(masterpiece-8, .-16)
+

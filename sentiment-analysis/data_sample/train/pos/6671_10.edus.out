@@ -1,0 +1,88 @@
+Sentence #1 (19 tokens):
+MYSTERY MEN has got to be THE stupidest film I've ever seen, but what a film!
+[Text=MYSTERY CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=NN] [Text=MEN CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=VBZ] [Text=got CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=VB] [Text=THE CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=stupidest CharacterOffsetBegin=34 CharacterOffsetEnd=43 PartOfSpeech=JJS] [Text=film CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=,] [Text=but CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=CC] [Text=what CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=.] 
+root(ROOT-0, got-4)
+nn(MEN-2, MYSTERY-1)
+nsubj(got-4, MEN-2)
+aux(got-4, has-3)
+aux(film-9, to-5)
+cop(film-9, be-6)
+det(film-9, THE-7)
+amod(film-9, stupidest-8)
+xcomp(got-4, film-9)
+nsubj(seen-13, I-10)
+aux(seen-13, 've-11)
+advmod(seen-13, ever-12)
+rcmod(film-9, seen-13)
+punct(got-4, ,-14)
+cc(got-4, but-15)
+dep(film-18, what-16)
+det(film-18, a-17)
+conj(got-4, film-18)
+punct(got-4, !-19)
+
+Sentence #2 (10 tokens):
+I thought it was fabulous, excellent and impressive.
+[Text=I CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=88 CharacterOffsetEnd=95 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=VBD] [Text=fabulous CharacterOffsetBegin=103 CharacterOffsetEnd=111 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=,] [Text=excellent CharacterOffsetBegin=113 CharacterOffsetEnd=122 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=CC] [Text=impressive CharacterOffsetBegin=127 CharacterOffsetEnd=137 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+nsubj(fabulous-5, it-3)
+cop(fabulous-5, was-4)
+ccomp(thought-2, fabulous-5)
+punct(fabulous-5, ,-6)
+conj(fabulous-5, excellent-7)
+cc(fabulous-5, and-8)
+conj(fabulous-5, impressive-9)
+punct(thought-2, .-10)
+
+Sentence #3 (16 tokens):
+It was funny, well-done and nice to see ridiculous Super Heroes for a change!
+[Text=It CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=VBD] [Text=funny CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=,] [Text=well-done CharacterOffsetBegin=157 CharacterOffsetEnd=166 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=CC] [Text=nice CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=VB] [Text=ridiculous CharacterOffsetBegin=183 CharacterOffsetEnd=193 PartOfSpeech=JJ] [Text=Super CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=NNP] [Text=Heroes CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=NNPS] [Text=for CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=DT] [Text=change CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=.] 
+root(ROOT-0, funny-3)
+nsubj(funny-3, It-1)
+cop(funny-3, was-2)
+punct(funny-3, ,-4)
+conj(funny-3, well-done-5)
+cc(funny-3, and-6)
+conj(funny-3, nice-7)
+aux(see-9, to-8)
+xcomp(funny-3, see-9)
+amod(Heroes-12, ridiculous-10)
+nn(Heroes-12, Super-11)
+dobj(see-9, Heroes-12)
+prep(see-9, for-13)
+det(change-15, a-14)
+pobj(for-13, change-15)
+punct(funny-3, !-16)
+
+Sentence #4 (8 tokens):
+And being able to pull it off!
+[Text=And CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=CC] [Text=being CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=VBG] [Text=able CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=TO] [Text=pull CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=PRP] [Text=off CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=RP] [Text=! CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+cop(able-3, being-2)
+dep(And-1, able-3)
+aux(pull-5, to-4)
+xcomp(able-3, pull-5)
+dobj(pull-5, it-6)
+prt(pull-5, off-7)
+punct(And-1, !-8)
+
+Sentence #5 (4 tokens):
+This was great!
+[Text=This CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=VBD] [Text=great CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=.] 
+root(ROOT-0, great-3)
+nsubj(great-3, This-1)
+cop(great-3, was-2)
+punct(great-3, !-4)
+
+Sentence #6 (7 tokens):
+I'll definitely watch it again!
+[Text=I CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=MD] [Text=definitely CharacterOffsetBegin=285 CharacterOffsetEnd=295 PartOfSpeech=RB] [Text=watch CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=PRP] [Text=again CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=310 CharacterOffsetEnd=311 PartOfSpeech=.] 
+root(ROOT-0, watch-4)
+nsubj(watch-4, I-1)
+aux(watch-4, 'll-2)
+advmod(watch-4, definitely-3)
+dobj(watch-4, it-5)
+advmod(watch-4, again-6)
+punct(watch-4, !-7)
+

@@ -1,0 +1,66 @@
+Sentence #1 (11 tokens):
+I'm warning you -- this movie is not scary.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=VBP] [Text=warning CharacterOffsetBegin=8 CharacterOffsetEnd=15 PartOfSpeech=VBG] [Text=you CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=PRP] [Text=-- CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=:] [Text=this CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=RB] [Text=scary CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, warning-3)
+nsubj(warning-3, I-1)
+aux(warning-3, 'm-2)
+dobj(warning-3, you-4)
+punct(warning-3, ---5)
+det(movie-7, this-6)
+nsubj(scary-10, movie-7)
+cop(scary-10, is-8)
+neg(scary-10, not-9)
+parataxis(warning-3, scary-10)
+punct(warning-3, .-11)
+
+Sentence #2 (30 tokens):
+If you're a horror movie fan, especially a Child's Play fan, you'll think it's incredibly funny, but you won't be scared.
+[Text=If CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=DT] [Text=horror CharacterOffsetBegin=64 CharacterOffsetEnd=70 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=fan CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=,] [Text=especially CharacterOffsetBegin=82 CharacterOffsetEnd=92 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=DT] [Text=Child CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=POS] [Text=Play CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NNP] [Text=fan CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=,] [Text=you CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=MD] [Text=think CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=VBZ] [Text=incredibly CharacterOffsetBegin=131 CharacterOffsetEnd=141 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=,] [Text=but CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=VB] [Text=scared CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=.] 
+root(ROOT-0, think-18)
+mark(fan-7, If-1)
+nsubj(fan-7, you-2)
+cop(fan-7, 're-3)
+det(fan-7, a-4)
+nn(fan-7, horror-5)
+nn(fan-7, movie-6)
+advcl(think-18, fan-7)
+punct(fan-7, ,-8)
+advmod(fan-14, especially-9)
+det(Child-11, a-10)
+poss(fan-14, Child-11)
+possessive(Child-11, 's-12)
+nn(fan-14, Play-13)
+dep(fan-7, fan-14)
+punct(think-18, ,-15)
+nsubj(think-18, you-16)
+aux(think-18, 'll-17)
+nsubj(funny-22, it-19)
+cop(funny-22, 's-20)
+advmod(funny-22, incredibly-21)
+ccomp(think-18, funny-22)
+punct(think-18, ,-23)
+cc(think-18, but-24)
+nsubjpass(scared-29, you-25)
+aux(scared-29, wo-26)
+neg(scared-29, n't-27)
+auxpass(scared-29, be-28)
+conj(think-18, scared-29)
+punct(think-18, .-30)
+
+Sentence #3 (13 tokens):
+It's not a bad movie, but it's not scary.
+[Text=It CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=,] [Text=but CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=RB] [Text=scary CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, It-1)
+cop(movie-6, 's-2)
+neg(movie-6, not-3)
+det(movie-6, a-4)
+amod(movie-6, bad-5)
+punct(movie-6, ,-7)
+cc(movie-6, but-8)
+nsubj(scary-12, it-9)
+cop(scary-12, 's-10)
+neg(scary-12, not-11)
+conj(movie-6, scary-12)
+punct(movie-6, .-13)
+

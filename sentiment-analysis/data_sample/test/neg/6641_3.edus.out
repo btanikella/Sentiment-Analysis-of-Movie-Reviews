@@ -1,0 +1,116 @@
+Sentence #1 (5 tokens):
+This movie is stupid.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=stupid CharacterOffsetBegin=18 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=.] 
+root(ROOT-0, stupid-4)
+det(movie-2, This-1)
+nsubj(stupid-4, movie-2)
+cop(stupid-4, is-3)
+punct(stupid-4, .-5)
+
+Sentence #2 (7 tokens):
+There's no getting around it.
+[Text=There CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=DT] [Text=getting CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=VBG] [Text=around CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+dep(getting-4, no-3)
+nsubj('s-2, getting-4)
+prep(getting-4, around-5)
+pobj(around-5, it-6)
+punct('s-2, .-7)
+
+Sentence #3 (7 tokens):
+But so is Dumb and Dumber.
+[Text=But CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=CC] [Text=so CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=VBZ] [Text=Dumb CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=CC] [Text=Dumber CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.] 
+root(ROOT-0, Dumb-4)
+cc(Dumb-4, But-1)
+advmod(Dumb-4, so-2)
+cop(Dumb-4, is-3)
+cc(Dumb-4, and-5)
+conj(Dumb-4, Dumber-6)
+punct(Dumb-4, .-7)
+
+Sentence #4 (13 tokens):
+Mind you, Dumb and Dumber is significantly more funny than this.
+[Text=Mind CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=,] [Text=Dumb CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=CC] [Text=Dumber CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=VBZ] [Text=significantly CharacterOffsetBegin=124 CharacterOffsetEnd=137 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=RBR] [Text=funny CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=.] 
+root(ROOT-0, funny-10)
+csubj(funny-10, Mind-1)
+dobj(Mind-1, you-2)
+punct(you-2, ,-3)
+conj(you-2, Dumb-4)
+cc(you-2, and-5)
+conj(you-2, Dumber-6)
+cop(funny-10, is-7)
+advmod(funny-10, significantly-8)
+advmod(funny-10, more-9)
+prep(funny-10, than-11)
+pobj(than-11, this-12)
+punct(funny-10, .-13)
+
+Sentence #5 (27 tokens):
+However, I for one love seeing stupid movies (Tail Sting) and laughing with a group of good friends over how bad it is.
+[Text=However CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=,] [Text=I CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=IN] [Text=one CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=CD] [Text=love CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=seeing CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=VBG] [Text=stupid CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=-LRB-] [Text=Tail CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=Sting CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=CC] [Text=laughing CharacterOffsetBegin=226 CharacterOffsetEnd=234 PartOfSpeech=VBG] [Text=with CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=group CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=friends CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=NNS] [Text=over CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=WRB] [Text=bad CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=.] 
+root(ROOT-0, However-1)
+punct(However-1, ,-2)
+nsubj(,-2, I-3)
+prep(I-3, for-4)
+num(love-6, one-5)
+pobj(for-4, love-6)
+partmod(love-6, seeing-7)
+amod(movies-9, stupid-8)
+dobj(seeing-7, movies-9)
+punct(Sting-12, -LRB--10)
+nn(Sting-12, Tail-11)
+dep(movies-9, Sting-12)
+punct(Sting-12, -RRB--13)
+cc(for-4, and-14)
+conj(for-4, laughing-15)
+prep(laughing-15, with-16)
+det(group-18, a-17)
+pobj(with-16, group-18)
+prep(group-18, of-19)
+amod(friends-21, good-20)
+pobj(of-19, friends-21)
+pcomp(for-4, over-22)
+advmod(bad-24, how-23)
+dep(is-26, bad-24)
+nsubj(is-26, it-25)
+pcomp(over-22, is-26)
+punct(I-3, .-27)
+
+Sentence #6 (33 tokens):
+Call me callous, but see this movie, and you'll find that the only way you can laugh at it is if you laugh at it instead of with it.
+[Text=Call CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=PRP] [Text=callous CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=,] [Text=but CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=CC] [Text=see CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=,] [Text=and CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=MD] [Text=find CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=MD] [Text=laugh CharacterOffsetBegin=367 CharacterOffsetEnd=372 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=VBZ] [Text=if CharacterOffsetBegin=382 CharacterOffsetEnd=384 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=PRP] [Text=laugh CharacterOffsetBegin=389 CharacterOffsetEnd=394 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=PRP] [Text=instead CharacterOffsetBegin=401 CharacterOffsetEnd=408 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=417 CharacterOffsetEnd=419 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=.] 
+root(ROOT-0, Call-1)
+nsubj(callous-3, me-2)
+xcomp(Call-1, callous-3)
+punct(Call-1, ,-4)
+cc(Call-1, but-5)
+conj(Call-1, see-6)
+det(movie-8, this-7)
+dobj(see-6, movie-8)
+punct(Call-1, ,-9)
+cc(Call-1, and-10)
+nsubj(find-13, you-11)
+aux(find-13, 'll-12)
+conj(Call-1, find-13)
+mark(is-23, that-14)
+det(way-17, the-15)
+amod(way-17, only-16)
+nsubj(is-23, way-17)
+nsubj(laugh-20, you-18)
+aux(laugh-20, can-19)
+rcmod(way-17, laugh-20)
+prep(laugh-20, at-21)
+pobj(at-21, it-22)
+ccomp(find-13, is-23)
+mark(laugh-26, if-24)
+nsubj(laugh-26, you-25)
+advcl(is-23, laugh-26)
+prep(laugh-26, at-27)
+pobj(at-27, it-28)
+advmod(of-30, instead-29)
+prep(laugh-26, of-30)
+pcomp(of-30, with-31)
+pobj(with-31, it-32)
+punct(Call-1, .-33)
+

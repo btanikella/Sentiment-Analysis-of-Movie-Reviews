@@ -1,0 +1,66 @@
+Sentence #1 (11 tokens):
+This movie was very very mediocre and very very gory.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=RB] [Text=mediocre CharacterOffsetBegin=29 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=CC] [Text=very CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=gory CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=.] 
+root(ROOT-0, mediocre-6)
+det(movie-2, This-1)
+nsubj(mediocre-6, movie-2)
+cop(mediocre-6, was-3)
+advmod(mediocre-6, very-4)
+advmod(mediocre-6, very-5)
+cc(mediocre-6, and-7)
+advmod(gory-10, very-8)
+advmod(gory-10, very-9)
+conj(mediocre-6, gory-10)
+punct(mediocre-6, .-11)
+
+Sentence #2 (38 tokens):
+everyone left their acting lessons at home and totally forgot how to act I mean it was so bad and had no real plot and kindergarteners could have written a better story plot wait what story plot.
+[Text=everyone CharacterOffsetBegin=62 CharacterOffsetEnd=70 PartOfSpeech=NN] [Text=left CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=VBD] [Text=their CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=PRP$] [Text=acting CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=VBG] [Text=lessons CharacterOffsetBegin=89 CharacterOffsetEnd=96 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=IN] [Text=home CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=CC] [Text=totally CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=forgot CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=VBD] [Text=how CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=TO] [Text=act CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=VB] [Text=I CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=CC] [Text=had CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=CC] [Text=kindergarteners CharacterOffsetBegin=181 CharacterOffsetEnd=196 PartOfSpeech=NNS] [Text=could CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=VB] [Text=written CharacterOffsetBegin=208 CharacterOffsetEnd=215 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=DT] [Text=better CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=JJR] [Text=story CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=NN] [Text=plot CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=NN] [Text=wait CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=WP] [Text=story CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=plot CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=.] 
+root(ROOT-0, left-2)
+nsubj(left-2, everyone-1)
+poss(lessons-5, their-3)
+amod(lessons-5, acting-4)
+dobj(left-2, lessons-5)
+prep(left-2, at-6)
+pobj(at-6, home-7)
+cc(left-2, and-8)
+advmod(forgot-10, totally-9)
+conj(left-2, forgot-10)
+advmod(act-13, how-11)
+aux(act-13, to-12)
+dep(mean-15, act-13)
+nsubj(mean-15, I-14)
+ccomp(forgot-10, mean-15)
+nsubj(bad-19, it-16)
+cop(bad-19, was-17)
+advmod(bad-19, so-18)
+ccomp(mean-15, bad-19)
+cc(left-2, and-20)
+conj(left-2, had-21)
+det(plot-24, no-22)
+amod(plot-24, real-23)
+dobj(had-21, plot-24)
+cc(plot-24, and-25)
+conj(plot-24, kindergarteners-26)
+aux(written-29, could-27)
+aux(written-29, have-28)
+dep(left-2, written-29)
+det(plot-33, a-30)
+amod(plot-33, better-31)
+nn(plot-33, story-32)
+nsubj(wait-34, plot-33)
+ccomp(written-29, wait-34)
+det(plot-37, what-35)
+nn(plot-37, story-36)
+dobj(wait-34, plot-37)
+punct(left-2, .-38)
+
+Sentence #3 (5 tokens):
+not at all scary!
+[Text=not CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=DT] [Text=scary CharacterOffsetBegin=273 CharacterOffsetEnd=278 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=.] 
+root(ROOT-0, at-2)
+neg(at-2, not-1)
+det(scary-4, all-3)
+pobj(at-2, scary-4)
+punct(at-2, !-5)
+

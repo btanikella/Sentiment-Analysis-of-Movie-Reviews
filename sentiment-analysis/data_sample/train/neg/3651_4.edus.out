@@ -1,0 +1,244 @@
+Sentence #1 (8 tokens):
+I was expecting a very funny movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=expecting CharacterOffsetBegin=10 CharacterOffsetEnd=19 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.] 
+root(ROOT-0, expecting-3)
+nsubj(expecting-3, I-1)
+aux(expecting-3, was-2)
+det(movie-7, a-4)
+advmod(funny-6, very-5)
+amod(movie-7, funny-6)
+dobj(expecting-3, movie-7)
+punct(expecting-3, .-8)
+
+Sentence #2 (20 tokens):
+Instead, I got a movie with a few funny jokes, and many that just didn't work.
+[Text=Instead CharacterOffsetBegin=44 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=,] [Text=I CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=JJ] [Text=funny CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=JJ] [Text=jokes CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=,] [Text=and CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CC] [Text=many CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=IN] [Text=just CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=work CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.] 
+root(ROOT-0, got-4)
+advmod(got-4, Instead-1)
+punct(got-4, ,-2)
+nsubj(got-4, I-3)
+det(movie-6, a-5)
+dobj(got-4, movie-6)
+prep(got-4, with-7)
+det(jokes-11, a-8)
+amod(jokes-11, few-9)
+amod(jokes-11, funny-10)
+pobj(with-7, jokes-11)
+punct(got-4, ,-12)
+cc(got-4, and-13)
+conj(got-4, many-14)
+nsubj(work-19, that-15)
+advmod(work-19, just-16)
+aux(work-19, did-17)
+neg(work-19, n't-18)
+rcmod(many-14, work-19)
+punct(got-4, .-20)
+
+Sentence #3 (17 tokens):
+I didn't like the idea of bringing in Sherlock Holmes' and Moriarty's descendants.
+[Text=I CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=DT] [Text=idea CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=IN] [Text=bringing CharacterOffsetBegin=153 CharacterOffsetEnd=161 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=Sherlock CharacterOffsetBegin=165 CharacterOffsetEnd=173 PartOfSpeech=NNP] [Text=Holmes CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=POS] [Text=and CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=CC] [Text=Moriarty CharacterOffsetBegin=186 CharacterOffsetEnd=194 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=POS] [Text=descendants CharacterOffsetBegin=197 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=.] 
+root(ROOT-0, like-4)
+nsubj(like-4, I-1)
+aux(like-4, did-2)
+neg(like-4, n't-3)
+det(idea-6, the-5)
+dobj(like-4, idea-6)
+prep(idea-6, of-7)
+pcomp(of-7, bringing-8)
+prep(bringing-8, in-9)
+nn(Holmes-11, Sherlock-10)
+pobj(in-9, Holmes-11)
+possessive(Holmes-11, '-12)
+cc(Holmes-11, and-13)
+poss(descendants-16, Moriarty-14)
+possessive(Moriarty-14, 's-15)
+conj(Holmes-11, descendants-16)
+punct(like-4, .-17)
+
+Sentence #4 (4 tokens):
+It was confusing.
+[Text=It CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=VBD] [Text=confusing CharacterOffsetBegin=221 CharacterOffsetEnd=230 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=.] 
+root(ROOT-0, confusing-3)
+nsubj(confusing-3, It-1)
+aux(confusing-3, was-2)
+punct(confusing-3, .-4)
+
+Sentence #5 (18 tokens):
+It would have been more funny if they just had someone new, instead of Moriarty resurrected.
+[Text=It CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=VBN] [Text=more CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=RBR] [Text=funny CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=JJ] [Text=if CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=RB] [Text=had CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=VBD] [Text=someone CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=new CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=,] [Text=instead CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN] [Text=Moriarty CharacterOffsetBegin=307 CharacterOffsetEnd=315 PartOfSpeech=NN] [Text=resurrected CharacterOffsetBegin=316 CharacterOffsetEnd=327 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=.] 
+root(ROOT-0, funny-6)
+nsubj(funny-6, It-1)
+aux(funny-6, would-2)
+aux(funny-6, have-3)
+cop(funny-6, been-4)
+advmod(funny-6, more-5)
+mark(had-10, if-7)
+nsubj(had-10, they-8)
+advmod(had-10, just-9)
+advcl(funny-6, had-10)
+dobj(had-10, someone-11)
+amod(someone-11, new-12)
+punct(funny-6, ,-13)
+advmod(of-15, instead-14)
+prep(funny-6, of-15)
+pobj(of-15, Moriarty-16)
+partmod(Moriarty-16, resurrected-17)
+punct(funny-6, .-18)
+
+Sentence #6 (7 tokens):
+Some of the things were funny.
+[Text=Some CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=DT] [Text=things CharacterOffsetBegin=345 CharacterOffsetEnd=351 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=VBD] [Text=funny CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=.] 
+root(ROOT-0, funny-6)
+nsubj(funny-6, Some-1)
+prep(Some-1, of-2)
+det(things-4, the-3)
+pobj(of-2, things-4)
+cop(funny-6, were-5)
+punct(funny-6, .-7)
+
+Sentence #7 (9 tokens):
+Burt Kwouk was very funny, as always.
+[Text=Burt CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=NNP] [Text=Kwouk CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=388 CharacterOffsetEnd=393 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=,] [Text=as CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=IN] [Text=always CharacterOffsetBegin=398 CharacterOffsetEnd=404 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=.] 
+root(ROOT-0, funny-5)
+nn(Kwouk-2, Burt-1)
+nsubj(funny-5, Kwouk-2)
+cop(funny-5, was-3)
+advmod(funny-5, very-4)
+punct(funny-5, ,-6)
+prep(funny-5, as-7)
+pcomp(as-7, always-8)
+punct(funny-5, .-9)
+
+Sentence #8 (7 tokens):
+McCloud on the horse was funny.
+[Text=McCloud CharacterOffsetBegin=410 CharacterOffsetEnd=417 PartOfSpeech=NNP] [Text=on CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=DT] [Text=horse CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=VBD] [Text=funny CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=440 CharacterOffsetEnd=441 PartOfSpeech=.] 
+root(ROOT-0, funny-6)
+nsubj(funny-6, McCloud-1)
+prep(McCloud-1, on-2)
+det(horse-4, the-3)
+pobj(on-2, horse-4)
+cop(funny-6, was-5)
+punct(funny-6, .-7)
+
+Sentence #9 (10 tokens):
+The McGarrett from Hawaii 5-0 was not even McGarrett-like.
+[Text=The CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=DT] [Text=McGarrett CharacterOffsetBegin=450 CharacterOffsetEnd=459 PartOfSpeech=NNP] [Text=from CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=IN] [Text=Hawaii CharacterOffsetBegin=465 CharacterOffsetEnd=471 PartOfSpeech=NNP] [Text=5-0 CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=CD] [Text=was CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=RB] [Text=McGarrett-like CharacterOffsetBegin=489 CharacterOffsetEnd=503 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=503 CharacterOffsetEnd=504 PartOfSpeech=.] 
+root(ROOT-0, McGarrett-like-9)
+det(McGarrett-2, The-1)
+nsubj(McGarrett-like-9, McGarrett-2)
+prep(McGarrett-2, from-3)
+pobj(from-3, Hawaii-4)
+num(Hawaii-4, 5-0-5)
+cop(McGarrett-like-9, was-6)
+neg(McGarrett-like-9, not-7)
+advmod(McGarrett-like-9, even-8)
+punct(McGarrett-like-9, .-10)
+
+Sentence #10 (9 tokens):
+Connie Booth obviously is very good with accents.
+[Text=Connie CharacterOffsetBegin=509 CharacterOffsetEnd=515 PartOfSpeech=NNP] [Text=Booth CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=NNP] [Text=obviously CharacterOffsetBegin=522 CharacterOffsetEnd=531 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=IN] [Text=accents CharacterOffsetBegin=550 CharacterOffsetEnd=557 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=.] 
+root(ROOT-0, good-6)
+nn(Booth-2, Connie-1)
+nsubj(good-6, Booth-2)
+advmod(good-6, obviously-3)
+cop(good-6, is-4)
+advmod(good-6, very-5)
+prep(good-6, with-7)
+pobj(with-7, accents-8)
+punct(good-6, .-9)
+
+Sentence #11 (15 tokens):
+She is from Indiana, but played English and a New Yorker pretty well.
+[Text=She CharacterOffsetBegin=563 CharacterOffsetEnd=566 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=VBZ] [Text=from CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=IN] [Text=Indiana CharacterOffsetBegin=575 CharacterOffsetEnd=582 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=582 CharacterOffsetEnd=583 PartOfSpeech=,] [Text=but CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=CC] [Text=played CharacterOffsetBegin=588 CharacterOffsetEnd=594 PartOfSpeech=VBD] [Text=English CharacterOffsetBegin=595 CharacterOffsetEnd=602 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=607 CharacterOffsetEnd=608 PartOfSpeech=DT] [Text=New CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=NNP] [Text=Yorker CharacterOffsetBegin=613 CharacterOffsetEnd=619 PartOfSpeech=NNP] [Text=pretty CharacterOffsetBegin=620 CharacterOffsetEnd=626 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, She-1)
+prep(is-2, from-3)
+pobj(from-3, Indiana-4)
+punct(is-2, ,-5)
+cc(is-2, but-6)
+conj(is-2, played-7)
+dobj(played-7, English-8)
+cc(English-8, and-9)
+det(Yorker-12, a-10)
+nn(Yorker-12, New-11)
+conj(English-8, Yorker-12)
+advmod(well-14, pretty-13)
+advmod(Yorker-12, well-14)
+punct(is-2, .-15)
+
+Sentence #12 (11 tokens):
+Unfortunately, she was not presented much into the script.
+[Text=Unfortunately CharacterOffsetBegin=637 CharacterOffsetEnd=650 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=,] [Text=she CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=656 CharacterOffsetEnd=659 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=RB] [Text=presented CharacterOffsetBegin=664 CharacterOffsetEnd=673 PartOfSpeech=VBN] [Text=much CharacterOffsetBegin=674 CharacterOffsetEnd=678 PartOfSpeech=RB] [Text=into CharacterOffsetBegin=679 CharacterOffsetEnd=683 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=688 CharacterOffsetEnd=694 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=.] 
+root(ROOT-0, presented-6)
+advmod(presented-6, Unfortunately-1)
+punct(presented-6, ,-2)
+nsubjpass(presented-6, she-3)
+auxpass(presented-6, was-4)
+neg(presented-6, not-5)
+dobj(presented-6, much-7)
+prep(presented-6, into-8)
+det(script-10, the-9)
+pobj(into-8, script-10)
+punct(presented-6, .-11)
+
+Sentence #13 (8 tokens):
+I was expecting a more funny film.
+[Text=I CharacterOffsetBegin=700 CharacterOffsetEnd=701 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=VBD] [Text=expecting CharacterOffsetBegin=706 CharacterOffsetEnd=715 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=716 CharacterOffsetEnd=717 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=718 CharacterOffsetEnd=722 PartOfSpeech=RBR] [Text=funny CharacterOffsetBegin=723 CharacterOffsetEnd=728 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=729 CharacterOffsetEnd=733 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=.] 
+root(ROOT-0, expecting-3)
+nsubj(expecting-3, I-1)
+aux(expecting-3, was-2)
+det(film-7, a-4)
+advmod(funny-6, more-5)
+amod(film-7, funny-6)
+dobj(expecting-3, film-7)
+punct(expecting-3, .-8)
+
+Sentence #14 (13 tokens):
+Instead, I got a rather confusing movie with a poor script.
+[Text=Instead CharacterOffsetBegin=739 CharacterOffsetEnd=746 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=746 CharacterOffsetEnd=747 PartOfSpeech=,] [Text=I CharacterOffsetBegin=748 CharacterOffsetEnd=749 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=754 CharacterOffsetEnd=755 PartOfSpeech=DT] [Text=rather CharacterOffsetBegin=756 CharacterOffsetEnd=762 PartOfSpeech=RB] [Text=confusing CharacterOffsetBegin=763 CharacterOffsetEnd=772 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=773 CharacterOffsetEnd=778 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=779 CharacterOffsetEnd=783 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=784 CharacterOffsetEnd=785 PartOfSpeech=DT] [Text=poor CharacterOffsetBegin=786 CharacterOffsetEnd=790 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=791 CharacterOffsetEnd=797 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=.] 
+root(ROOT-0, got-4)
+advmod(got-4, Instead-1)
+punct(got-4, ,-2)
+nsubj(got-4, I-3)
+det(movie-8, a-5)
+advmod(confusing-7, rather-6)
+amod(movie-8, confusing-7)
+dobj(got-4, movie-8)
+prep(movie-8, with-9)
+det(script-12, a-10)
+amod(script-12, poor-11)
+pobj(with-9, script-12)
+punct(got-4, .-13)
+
+Sentence #15 (14 tokens):
+Rather ironic, since both Booth and Cleese were together on this one.
+[Text=Rather CharacterOffsetBegin=803 CharacterOffsetEnd=809 PartOfSpeech=RB] [Text=ironic CharacterOffsetBegin=810 CharacterOffsetEnd=816 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=816 CharacterOffsetEnd=817 PartOfSpeech=,] [Text=since CharacterOffsetBegin=818 CharacterOffsetEnd=823 PartOfSpeech=IN] [Text=both CharacterOffsetBegin=824 CharacterOffsetEnd=828 PartOfSpeech=DT] [Text=Booth CharacterOffsetBegin=829 CharacterOffsetEnd=834 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=835 CharacterOffsetEnd=838 PartOfSpeech=CC] [Text=Cleese CharacterOffsetBegin=839 CharacterOffsetEnd=845 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=846 CharacterOffsetEnd=850 PartOfSpeech=VBD] [Text=together CharacterOffsetBegin=851 CharacterOffsetEnd=859 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=860 CharacterOffsetEnd=862 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=863 CharacterOffsetEnd=867 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=868 CharacterOffsetEnd=871 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=871 CharacterOffsetEnd=872 PartOfSpeech=.] 
+root(ROOT-0, ironic-2)
+advmod(ironic-2, Rather-1)
+punct(ironic-2, ,-3)
+mark(were-9, since-4)
+preconj(Booth-6, both-5)
+nsubj(were-9, Booth-6)
+cc(Booth-6, and-7)
+conj(Booth-6, Cleese-8)
+advcl(ironic-2, were-9)
+advmod(were-9, together-10)
+prep(were-9, on-11)
+det(one-13, this-12)
+pobj(on-11, one-13)
+punct(ironic-2, .-14)
+
+Sentence #16 (10 tokens):
+Maybe they were about to break up in 77.
+[Text=Maybe CharacterOffsetBegin=877 CharacterOffsetEnd=882 PartOfSpeech=RB] [Text=they CharacterOffsetBegin=883 CharacterOffsetEnd=887 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=888 CharacterOffsetEnd=892 PartOfSpeech=VBD] [Text=about CharacterOffsetBegin=893 CharacterOffsetEnd=898 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=899 CharacterOffsetEnd=901 PartOfSpeech=TO] [Text=break CharacterOffsetBegin=902 CharacterOffsetEnd=907 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=908 CharacterOffsetEnd=910 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=911 CharacterOffsetEnd=913 PartOfSpeech=IN] [Text=77 CharacterOffsetBegin=914 CharacterOffsetEnd=916 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=916 CharacterOffsetEnd=917 PartOfSpeech=.] 
+root(ROOT-0, about-4)
+advmod(about-4, Maybe-1)
+nsubj(about-4, they-2)
+cop(about-4, were-3)
+aux(break-6, to-5)
+xcomp(about-4, break-6)
+prt(break-6, up-7)
+prep(break-6, in-8)
+pobj(in-8, 77-9)
+punct(about-4, .-10)
+

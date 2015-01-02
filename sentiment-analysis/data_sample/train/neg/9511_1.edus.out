@@ -1,0 +1,299 @@
+Sentence #1 (15 tokens):
+I wanted to see this movie ever since it was first advertised on TV.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=wanted CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=RB] [Text=since CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VBD] [Text=first CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=JJ] [Text=advertised CharacterOffsetBegin=55 CharacterOffsetEnd=65 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=.] 
+root(ROOT-0, wanted-2)
+nsubj(wanted-2, I-1)
+aux(see-4, to-3)
+xcomp(wanted-2, see-4)
+det(movie-6, this-5)
+dobj(see-4, movie-6)
+advmod(see-4, ever-7)
+mark(advertised-12, since-8)
+nsubjpass(advertised-12, it-9)
+auxpass(advertised-12, was-10)
+advmod(advertised-12, first-11)
+advcl(see-4, advertised-12)
+prep(advertised-12, on-13)
+pobj(on-13, TV-14)
+punct(wanted-2, .-15)
+
+Sentence #2 (13 tokens):
+I went to Tinsel Town to see it Last Night at 7:40.
+[Text=I CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=PRP] [Text=went CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=TO] [Text=Tinsel CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=NNP] [Text=Town CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=PRP] [Text=Last CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=JJ] [Text=Night CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN] [Text=7:40 CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.] 
+root(ROOT-0, went-2)
+nsubj(went-2, I-1)
+prep(went-2, to-3)
+nn(Town-5, Tinsel-4)
+pobj(to-3, Town-5)
+aux(see-7, to-6)
+xcomp(went-2, see-7)
+nsubj(Night-10, it-8)
+amod(Night-10, Last-9)
+xcomp(see-7, Night-10)
+prep(Night-10, at-11)
+pobj(at-11, 7:40-12)
+punct(went-2, .-13)
+
+Sentence #3 (19 tokens):
+I regret the day that wasted my ticket on this trash when I could of saw something better.
+[Text=I CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=PRP] [Text=regret CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=DT] [Text=day CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=WDT] [Text=wasted CharacterOffsetBegin=155 CharacterOffsetEnd=161 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=PRP$] [Text=ticket CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=DT] [Text=trash CharacterOffsetBegin=180 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=MD] [Text=of CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=saw CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=NN] [Text=something CharacterOffsetBegin=206 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=better CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=.] 
+root(ROOT-0, regret-2)
+nsubj(regret-2, I-1)
+det(day-4, the-3)
+tmod(regret-2, day-4)
+nsubj(wasted-6, that-5)
+rcmod(day-4, wasted-6)
+poss(ticket-8, my-7)
+dobj(wasted-6, ticket-8)
+prep(ticket-8, on-9)
+det(trash-11, this-10)
+pobj(on-9, trash-11)
+advmod(wasted-6, when-12)
+dep(when-12, I-13)
+dep(I-13, could-14)
+prep(could-14, of-15)
+pcomp(of-15, saw-16)
+dobj(saw-16, something-17)
+advmod(something-17, better-18)
+punct(regret-2, .-19)
+
+Sentence #4 (11 tokens):
+The beginning was all a bunch sex trash and cliches.
+[Text=The CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=232 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=PDT] [Text=a CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=DT] [Text=bunch CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=sex CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=NN] [Text=trash CharacterOffsetBegin=262 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=CC] [Text=cliches CharacterOffsetBegin=272 CharacterOffsetEnd=279 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=.] 
+root(ROOT-0, trash-8)
+det(beginning-2, The-1)
+nsubj(trash-8, beginning-2)
+cop(trash-8, was-3)
+predet(trash-8, all-4)
+det(trash-8, a-5)
+nn(trash-8, bunch-6)
+nn(trash-8, sex-7)
+cc(trash-8, and-9)
+conj(trash-8, cliches-10)
+punct(trash-8, .-11)
+
+Sentence #5 (9 tokens):
+They exaggerated the way love works in reality.
+[Text=They CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=PRP] [Text=exaggerated CharacterOffsetBegin=290 CharacterOffsetEnd=301 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=NN] [Text=love CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=works CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=IN] [Text=reality CharacterOffsetBegin=324 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=.] 
+root(ROOT-0, exaggerated-2)
+nsubj(exaggerated-2, They-1)
+det(way-4, the-3)
+dobj(exaggerated-2, way-4)
+nsubj(works-6, love-5)
+rcmod(way-4, works-6)
+prep(works-6, in-7)
+pobj(in-7, reality-8)
+punct(exaggerated-2, .-9)
+
+Sentence #6 (8 tokens):
+All of the girls were stereo types.
+[Text=All CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT] [Text=girls CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=VBD] [Text=stereo CharacterOffsetBegin=359 CharacterOffsetEnd=365 PartOfSpeech=JJ] [Text=types CharacterOffsetBegin=366 CharacterOffsetEnd=371 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=.] 
+root(ROOT-0, types-7)
+nsubj(types-7, All-1)
+prep(All-1, of-2)
+det(girls-4, the-3)
+pobj(of-2, girls-4)
+cop(types-7, were-5)
+amod(types-7, stereo-6)
+punct(types-7, .-8)
+
+Sentence #7 (10 tokens):
+The boyfriend was too stupid for his own age.
+[Text=The CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=DT] [Text=boyfriend CharacterOffsetBegin=381 CharacterOffsetEnd=390 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=VBD] [Text=too CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=RB] [Text=stupid CharacterOffsetBegin=399 CharacterOffsetEnd=405 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=JJ] [Text=age CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.] 
+root(ROOT-0, stupid-5)
+det(boyfriend-2, The-1)
+nsubj(stupid-5, boyfriend-2)
+cop(stupid-5, was-3)
+advmod(stupid-5, too-4)
+prep(stupid-5, for-6)
+poss(age-9, his-7)
+amod(age-9, own-8)
+pobj(for-6, age-9)
+punct(stupid-5, .-10)
+
+Sentence #8 (14 tokens):
+The passing gases that the pregnant girl kept having barely got any laughs.
+[Text=The CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=DT] [Text=passing CharacterOffsetBegin=431 CharacterOffsetEnd=438 PartOfSpeech=VBG] [Text=gases CharacterOffsetBegin=439 CharacterOffsetEnd=444 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=DT] [Text=pregnant CharacterOffsetBegin=454 CharacterOffsetEnd=462 PartOfSpeech=JJ] [Text=girl CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=NN] [Text=kept CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=VBD] [Text=having CharacterOffsetBegin=473 CharacterOffsetEnd=479 PartOfSpeech=VBG] [Text=barely CharacterOffsetBegin=480 CharacterOffsetEnd=486 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=487 CharacterOffsetEnd=490 PartOfSpeech=VBD] [Text=any CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=DT] [Text=laughs CharacterOffsetBegin=495 CharacterOffsetEnd=501 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=.] 
+root(ROOT-0, gases-3)
+det(gases-3, The-1)
+nn(gases-3, passing-2)
+mark(kept-8, that-4)
+det(girl-7, the-5)
+amod(girl-7, pregnant-6)
+nsubj(kept-8, girl-7)
+ccomp(gases-3, kept-8)
+aux(got-11, having-9)
+advmod(got-11, barely-10)
+xcomp(kept-8, got-11)
+det(laughs-13, any-12)
+dobj(got-11, laughs-13)
+punct(gases-3, .-14)
+
+Sentence #9 (16 tokens):
+The bank robbery was completely boring with gags that have been used in other movies.
+[Text=The CharacterOffsetBegin=507 CharacterOffsetEnd=510 PartOfSpeech=DT] [Text=bank CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=NN] [Text=robbery CharacterOffsetBegin=516 CharacterOffsetEnd=523 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=524 CharacterOffsetEnd=527 PartOfSpeech=VBD] [Text=completely CharacterOffsetBegin=528 CharacterOffsetEnd=538 PartOfSpeech=RB] [Text=boring CharacterOffsetBegin=539 CharacterOffsetEnd=545 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=IN] [Text=gags CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=WDT] [Text=have CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=VBP] [Text=been CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=VBN] [Text=used CharacterOffsetBegin=571 CharacterOffsetEnd=575 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=579 CharacterOffsetEnd=584 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=585 CharacterOffsetEnd=591 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=591 CharacterOffsetEnd=592 PartOfSpeech=.] 
+root(ROOT-0, boring-6)
+det(robbery-3, The-1)
+nn(robbery-3, bank-2)
+nsubj(boring-6, robbery-3)
+cop(boring-6, was-4)
+advmod(boring-6, completely-5)
+prep(boring-6, with-7)
+pobj(with-7, gags-8)
+nsubjpass(used-12, that-9)
+aux(used-12, have-10)
+auxpass(used-12, been-11)
+rcmod(gags-8, used-12)
+prep(used-12, in-13)
+amod(movies-15, other-14)
+pobj(in-13, movies-15)
+punct(boring-6, .-16)
+
+Sentence #10 (18 tokens):
+Their getaway car was an old beat up Chevy van that they claimed that had no breaks.
+[Text=Their CharacterOffsetBegin=597 CharacterOffsetEnd=602 PartOfSpeech=PRP$] [Text=getaway CharacterOffsetBegin=603 CharacterOffsetEnd=610 PartOfSpeech=NN] [Text=car CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=JJ] [Text=beat CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=NN] [Text=up CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=IN] [Text=Chevy CharacterOffsetBegin=634 CharacterOffsetEnd=639 PartOfSpeech=NNP] [Text=van CharacterOffsetBegin=640 CharacterOffsetEnd=643 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=PRP] [Text=claimed CharacterOffsetBegin=654 CharacterOffsetEnd=661 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=662 CharacterOffsetEnd=666 PartOfSpeech=IN] [Text=had CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=671 CharacterOffsetEnd=673 PartOfSpeech=DT] [Text=breaks CharacterOffsetBegin=674 CharacterOffsetEnd=680 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=680 CharacterOffsetEnd=681 PartOfSpeech=.] 
+root(ROOT-0, beat-7)
+poss(car-3, Their-1)
+nn(car-3, getaway-2)
+nsubj(beat-7, car-3)
+cop(beat-7, was-4)
+det(beat-7, an-5)
+amod(beat-7, old-6)
+prep(beat-7, up-8)
+nn(van-10, Chevy-9)
+pobj(up-8, van-10)
+dobj(claimed-13, that-11)
+nsubj(claimed-13, they-12)
+rcmod(beat-7, claimed-13)
+nsubj(had-15, that-14)
+ccomp(claimed-13, had-15)
+det(breaks-17, no-16)
+dobj(had-15, breaks-17)
+punct(beat-7, .-18)
+
+Sentence #11 (14 tokens):
+Hey why didn't they get nice girlish vehicle for the robbery instead?
+[Text=Hey CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=UH] [Text=why CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=RB] [Text=they CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=VBP] [Text=nice CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=JJ] [Text=girlish CharacterOffsetBegin=715 CharacterOffsetEnd=722 PartOfSpeech=JJ] [Text=vehicle CharacterOffsetBegin=723 CharacterOffsetEnd=730 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=DT] [Text=robbery CharacterOffsetBegin=739 CharacterOffsetEnd=746 PartOfSpeech=NN] [Text=instead CharacterOffsetBegin=747 CharacterOffsetEnd=754 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=754 CharacterOffsetEnd=755 PartOfSpeech=.] 
+root(ROOT-0, Hey-1)
+advmod(get-6, why-2)
+aux(get-6, did-3)
+neg(get-6, n't-4)
+nsubj(get-6, they-5)
+advcl(Hey-1, get-6)
+amod(vehicle-9, nice-7)
+amod(vehicle-9, girlish-8)
+nsubj(get-6, vehicle-9)
+prep(vehicle-9, for-10)
+det(robbery-12, the-11)
+pobj(for-10, robbery-12)
+advmod(Hey-1, instead-13)
+punct(Hey-1, ?-14)
+
+Sentence #12 (11 tokens):
+It might have boosted the audience opinion about the movie.
+[Text=It CharacterOffsetBegin=760 CharacterOffsetEnd=762 PartOfSpeech=PRP] [Text=might CharacterOffsetBegin=763 CharacterOffsetEnd=768 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=769 CharacterOffsetEnd=773 PartOfSpeech=VB] [Text=boosted CharacterOffsetBegin=774 CharacterOffsetEnd=781 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=782 CharacterOffsetEnd=785 PartOfSpeech=DT] [Text=audience CharacterOffsetBegin=786 CharacterOffsetEnd=794 PartOfSpeech=NN] [Text=opinion CharacterOffsetBegin=795 CharacterOffsetEnd=802 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=809 CharacterOffsetEnd=812 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=813 CharacterOffsetEnd=818 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=818 CharacterOffsetEnd=819 PartOfSpeech=.] 
+root(ROOT-0, boosted-4)
+nsubj(boosted-4, It-1)
+aux(boosted-4, might-2)
+aux(boosted-4, have-3)
+det(opinion-7, the-5)
+nn(opinion-7, audience-6)
+dobj(boosted-4, opinion-7)
+prep(opinion-7, about-8)
+det(movie-10, the-9)
+pobj(about-8, movie-10)
+punct(boosted-4, .-11)
+
+Sentence #13 (19 tokens):
+This movie was very low low low low low budgeted since nothing in there was damaged or destroyed.
+[Text=This CharacterOffsetBegin=824 CharacterOffsetEnd=828 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=829 CharacterOffsetEnd=834 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=835 CharacterOffsetEnd=838 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=839 CharacterOffsetEnd=843 PartOfSpeech=RB] [Text=low CharacterOffsetBegin=844 CharacterOffsetEnd=847 PartOfSpeech=JJ] [Text=low CharacterOffsetBegin=848 CharacterOffsetEnd=851 PartOfSpeech=JJ] [Text=low CharacterOffsetBegin=852 CharacterOffsetEnd=855 PartOfSpeech=JJ] [Text=low CharacterOffsetBegin=856 CharacterOffsetEnd=859 PartOfSpeech=JJ] [Text=low CharacterOffsetBegin=860 CharacterOffsetEnd=863 PartOfSpeech=JJ] [Text=budgeted CharacterOffsetBegin=864 CharacterOffsetEnd=872 PartOfSpeech=VBN] [Text=since CharacterOffsetBegin=873 CharacterOffsetEnd=878 PartOfSpeech=IN] [Text=nothing CharacterOffsetBegin=879 CharacterOffsetEnd=886 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=887 CharacterOffsetEnd=889 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=890 CharacterOffsetEnd=895 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=896 CharacterOffsetEnd=899 PartOfSpeech=VBD] [Text=damaged CharacterOffsetBegin=900 CharacterOffsetEnd=907 PartOfSpeech=VBN] [Text=or CharacterOffsetBegin=908 CharacterOffsetEnd=910 PartOfSpeech=CC] [Text=destroyed CharacterOffsetBegin=911 CharacterOffsetEnd=920 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=920 CharacterOffsetEnd=921 PartOfSpeech=.] 
+root(ROOT-0, budgeted-10)
+det(movie-2, This-1)
+nsubjpass(budgeted-10, movie-2)
+auxpass(budgeted-10, was-3)
+advmod(low-5, very-4)
+advmod(budgeted-10, low-5)
+advmod(budgeted-10, low-6)
+advmod(budgeted-10, low-7)
+advmod(budgeted-10, low-8)
+advmod(budgeted-10, low-9)
+prep(budgeted-10, since-11)
+pobj(since-11, nothing-12)
+mark(damaged-16, in-13)
+nsubjpass(damaged-16, there-14)
+auxpass(damaged-16, was-15)
+dep(nothing-12, damaged-16)
+cc(damaged-16, or-17)
+conj(damaged-16, destroyed-18)
+punct(budgeted-10, .-19)
+
+Sentence #14 (16 tokens):
+This movie had a lot of stuff in it that would drive Christian people nuts.
+[Text=This CharacterOffsetBegin=926 CharacterOffsetEnd=930 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=931 CharacterOffsetEnd=936 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=937 CharacterOffsetEnd=940 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=941 CharacterOffsetEnd=942 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=943 CharacterOffsetEnd=946 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=947 CharacterOffsetEnd=949 PartOfSpeech=IN] [Text=stuff CharacterOffsetBegin=950 CharacterOffsetEnd=955 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=956 CharacterOffsetEnd=958 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=959 CharacterOffsetEnd=961 PartOfSpeech=PRP] [Text=that CharacterOffsetBegin=962 CharacterOffsetEnd=966 PartOfSpeech=WDT] [Text=would CharacterOffsetBegin=967 CharacterOffsetEnd=972 PartOfSpeech=MD] [Text=drive CharacterOffsetBegin=973 CharacterOffsetEnd=978 PartOfSpeech=VB] [Text=Christian CharacterOffsetBegin=979 CharacterOffsetEnd=988 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=989 CharacterOffsetEnd=995 PartOfSpeech=NNS] [Text=nuts CharacterOffsetBegin=996 CharacterOffsetEnd=1000 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1000 CharacterOffsetEnd=1001 PartOfSpeech=.] 
+root(ROOT-0, had-3)
+det(movie-2, This-1)
+nsubj(had-3, movie-2)
+det(lot-5, a-4)
+dobj(had-3, lot-5)
+prep(lot-5, of-6)
+pobj(of-6, stuff-7)
+prep(had-3, in-8)
+pobj(in-8, it-9)
+nsubj(drive-12, that-10)
+aux(drive-12, would-11)
+rcmod(it-9, drive-12)
+amod(people-14, Christian-13)
+nsubj(nuts-15, people-14)
+xcomp(drive-12, nuts-15)
+punct(had-3, .-16)
+
+Sentence #15 (24 tokens):
+Hey I even expected a car chase scene because all bank robbing movies have car chases but I but there was never any.
+[Text=Hey CharacterOffsetBegin=1006 CharacterOffsetEnd=1009 PartOfSpeech=UH] [Text=I CharacterOffsetBegin=1010 CharacterOffsetEnd=1011 PartOfSpeech=PRP] [Text=even CharacterOffsetBegin=1012 CharacterOffsetEnd=1016 PartOfSpeech=RB] [Text=expected CharacterOffsetBegin=1017 CharacterOffsetEnd=1025 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=1026 CharacterOffsetEnd=1027 PartOfSpeech=DT] [Text=car CharacterOffsetBegin=1028 CharacterOffsetEnd=1031 PartOfSpeech=NN] [Text=chase CharacterOffsetBegin=1032 CharacterOffsetEnd=1037 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=1038 CharacterOffsetEnd=1043 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=1044 CharacterOffsetEnd=1051 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=1052 CharacterOffsetEnd=1055 PartOfSpeech=DT] [Text=bank CharacterOffsetBegin=1056 CharacterOffsetEnd=1060 PartOfSpeech=NN] [Text=robbing CharacterOffsetBegin=1061 CharacterOffsetEnd=1068 PartOfSpeech=VBG] [Text=movies CharacterOffsetBegin=1069 CharacterOffsetEnd=1075 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=1076 CharacterOffsetEnd=1080 PartOfSpeech=VBP] [Text=car CharacterOffsetBegin=1081 CharacterOffsetEnd=1084 PartOfSpeech=NN] [Text=chases CharacterOffsetBegin=1085 CharacterOffsetEnd=1091 PartOfSpeech=VBZ] [Text=but CharacterOffsetBegin=1092 CharacterOffsetEnd=1095 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=1096 CharacterOffsetEnd=1097 PartOfSpeech=PRP] [Text=but CharacterOffsetBegin=1098 CharacterOffsetEnd=1101 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=1102 CharacterOffsetEnd=1107 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=1108 CharacterOffsetEnd=1111 PartOfSpeech=VBD] [Text=never CharacterOffsetBegin=1112 CharacterOffsetEnd=1117 PartOfSpeech=RB] [Text=any CharacterOffsetBegin=1118 CharacterOffsetEnd=1121 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=1121 CharacterOffsetEnd=1122 PartOfSpeech=.] 
+root(ROOT-0, Hey-1)
+nsubj(expected-4, I-2)
+advmod(expected-4, even-3)
+ccomp(Hey-1, expected-4)
+det(scene-8, a-5)
+nn(scene-8, car-6)
+amod(scene-8, chase-7)
+dobj(expected-4, scene-8)
+mark(have-14, because-9)
+det(movies-13, all-10)
+nn(movies-13, bank-11)
+nn(movies-13, robbing-12)
+nsubj(have-14, movies-13)
+advcl(expected-4, have-14)
+nn(chases-16, car-15)
+dobj(have-14, chases-16)
+cc(chases-16, but-17)
+conj(chases-16, I-18)
+cc(chases-16, but-19)
+expl(was-21, there-20)
+conj(chases-16, was-21)
+neg(was-21, never-22)
+nsubj(was-21, any-23)
+punct(Hey-1, .-24)
+
+Sentence #16 (18 tokens):
+So I rate this movie b which stands for low budgeted and 1 out of ten stars.
+[Text=So CharacterOffsetBegin=1127 CharacterOffsetEnd=1129 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=1130 CharacterOffsetEnd=1131 PartOfSpeech=CD] [Text=rate CharacterOffsetBegin=1132 CharacterOffsetEnd=1136 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=1137 CharacterOffsetEnd=1141 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=1142 CharacterOffsetEnd=1147 PartOfSpeech=NN] [Text=b CharacterOffsetBegin=1148 CharacterOffsetEnd=1149 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=1150 CharacterOffsetEnd=1155 PartOfSpeech=WDT] [Text=stands CharacterOffsetBegin=1156 CharacterOffsetEnd=1162 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=1163 CharacterOffsetEnd=1166 PartOfSpeech=IN] [Text=low CharacterOffsetBegin=1167 CharacterOffsetEnd=1170 PartOfSpeech=JJ] [Text=budgeted CharacterOffsetBegin=1171 CharacterOffsetEnd=1179 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=1180 CharacterOffsetEnd=1183 PartOfSpeech=CC] [Text=1 CharacterOffsetBegin=1184 CharacterOffsetEnd=1185 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=1186 CharacterOffsetEnd=1189 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=1190 CharacterOffsetEnd=1192 PartOfSpeech=IN] [Text=ten CharacterOffsetBegin=1193 CharacterOffsetEnd=1196 PartOfSpeech=CD] [Text=stars CharacterOffsetBegin=1197 CharacterOffsetEnd=1202 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1202 CharacterOffsetEnd=1203 PartOfSpeech=.] 
+root(ROOT-0, So-1)
+num(rate-3, I-2)
+pobj(So-1, rate-3)
+det(b-6, this-4)
+nn(b-6, movie-5)
+dep(rate-3, b-6)
+nsubj(stands-8, which-7)
+rcmod(b-6, stands-8)
+prep(stands-8, for-9)
+amod(budgeted-11, low-10)
+pobj(for-9, budgeted-11)
+cc(budgeted-11, and-12)
+conj(budgeted-11, 1-13)
+prep(1-13, out-14)
+pcomp(out-14, of-15)
+num(stars-17, ten-16)
+pobj(of-15, stars-17)
+punct(So-1, .-18)
+

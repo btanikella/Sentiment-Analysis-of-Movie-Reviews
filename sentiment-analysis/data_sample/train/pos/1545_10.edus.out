@@ -1,0 +1,74 @@
+Sentence #1 (3 tokens):
+Excellent film.
+[Text=Excellent CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=.] 
+root(ROOT-0, film-2)
+amod(film-2, Excellent-1)
+punct(film-2, .-3)
+
+Sentence #2 (8 tokens):
+Suzy Kendall will hold your interest throughout.
+[Text=Suzy CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=NNP] [Text=Kendall CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=NNP] [Text=will CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=MD] [Text=hold CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=PRP$] [Text=interest CharacterOffsetBegin=52 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=throughout CharacterOffsetBegin=61 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=.] 
+root(ROOT-0, hold-4)
+nn(Kendall-2, Suzy-1)
+nsubj(hold-4, Kendall-2)
+aux(hold-4, will-3)
+poss(interest-6, your-5)
+dobj(hold-4, interest-6)
+advmod(hold-4, throughout-7)
+punct(hold-4, .-8)
+
+Sentence #3 (11 tokens):
+Has not been shown on American TV for a decade.
+[Text=Has CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=RB] [Text=been CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=VBN] [Text=shown CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=American CharacterOffsetBegin=99 CharacterOffsetEnd=107 PartOfSpeech=JJ] [Text=TV CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=DT] [Text=decade CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=.] 
+root(ROOT-0, shown-4)
+nsubjpass(shown-4, Has-1)
+neg(shown-4, not-2)
+auxpass(shown-4, been-3)
+prep(shown-4, on-5)
+amod(TV-7, American-6)
+pobj(on-5, TV-7)
+prep(shown-4, for-8)
+det(decade-10, a-9)
+pobj(for-8, decade-10)
+punct(shown-4, .-11)
+
+Sentence #4 (15 tokens):
+One scene that has always stayed with me is the German cavalry gas attack.
+[Text=One CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=CD] [Text=scene CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=WDT] [Text=has CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=VBZ] [Text=always CharacterOffsetBegin=148 CharacterOffsetEnd=154 PartOfSpeech=RB] [Text=stayed CharacterOffsetBegin=155 CharacterOffsetEnd=161 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=DT] [Text=German CharacterOffsetBegin=177 CharacterOffsetEnd=183 PartOfSpeech=JJ] [Text=cavalry CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text=gas CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=attack CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, attack-14)
+num(scene-2, One-1)
+nsubj(attack-14, scene-2)
+nsubj(stayed-6, that-3)
+aux(stayed-6, has-4)
+advmod(stayed-6, always-5)
+rcmod(scene-2, stayed-6)
+prep(stayed-6, with-7)
+pobj(with-7, me-8)
+cop(attack-14, is-9)
+det(attack-14, the-10)
+amod(attack-14, German-11)
+nn(attack-14, cavalry-12)
+nn(attack-14, gas-13)
+punct(attack-14, .-15)
+
+Sentence #5 (5 tokens):
+You will find others.
+[Text=You CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=MD] [Text=find CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=VB] [Text=others CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, find-3)
+nsubj(find-3, You-1)
+aux(find-3, will-2)
+dobj(find-3, others-4)
+punct(find-3, .-5)
+
+Sentence #6 (8 tokens):
+Hope they soon put it on tape.
+[Text=Hope CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=NNP] [Text=they CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=PRP] [Text=soon CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=RB] [Text=put CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=IN] [Text=tape CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=.] 
+root(ROOT-0, Hope-1)
+nsubj(put-4, they-2)
+advmod(put-4, soon-3)
+rcmod(Hope-1, put-4)
+dobj(put-4, it-5)
+prep(put-4, on-6)
+pobj(on-6, tape-7)
+punct(Hope-1, .-8)
+

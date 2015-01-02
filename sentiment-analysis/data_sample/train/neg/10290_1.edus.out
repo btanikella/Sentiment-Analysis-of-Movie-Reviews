@@ -1,0 +1,158 @@
+Sentence #1 (9 tokens):
+I bought Bloodsuckers on ebay a while ago.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=bought CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=Bloodsuckers CharacterOffsetBegin=13 CharacterOffsetEnd=25 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN] [Text=ebay CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=DT] [Text=while CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=ago CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=.] 
+root(ROOT-0, bought-2)
+nsubj(bought-2, I-1)
+dobj(bought-2, Bloodsuckers-3)
+prep(bought-2, on-4)
+pobj(on-4, ebay-5)
+det(while-7, a-6)
+npadvmod(ago-8, while-7)
+advmod(bought-2, ago-8)
+punct(bought-2, .-9)
+
+Sentence #2 (13 tokens):
+I watched parts and deemed it just too dumb to review again.
+[Text=I CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=VBD] [Text=parts CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=CC] [Text=deemed CharacterOffsetBegin=71 CharacterOffsetEnd=77 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=too CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=RB] [Text=dumb CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=TO] [Text=review CharacterOffsetBegin=98 CharacterOffsetEnd=104 PartOfSpeech=VB] [Text=again CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+dobj(watched-2, parts-3)
+cc(watched-2, and-4)
+conj(watched-2, deemed-5)
+nsubj(review-11, it-6)
+advmod(dumb-9, just-7)
+advmod(dumb-9, too-8)
+dep(review-11, dumb-9)
+aux(review-11, to-10)
+xcomp(deemed-5, review-11)
+advmod(review-11, again-12)
+punct(watched-2, .-13)
+
+Sentence #3 (26 tokens):
+The excessive amount of watery 'blood' at the beginning is just plain obsolete - not to mention the "whip-around" wind sounds.
+[Text=The CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=excessive CharacterOffsetBegin=120 CharacterOffsetEnd=129 PartOfSpeech=JJ] [Text=amount CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=watery CharacterOffsetBegin=140 CharacterOffsetEnd=146 PartOfSpeech=JJ] [Text=` CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=``] [Text=blood CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=''] [Text=at CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=162 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=RB] [Text=plain CharacterOffsetBegin=180 CharacterOffsetEnd=185 PartOfSpeech=JJ] [Text=obsolete CharacterOffsetBegin=186 CharacterOffsetEnd=194 PartOfSpeech=JJ] [Text=- CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=:] [Text=not CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=TO] [Text=mention CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=``] [Text=whip-around CharacterOffsetBegin=217 CharacterOffsetEnd=228 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=''] [Text=wind CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NN] [Text=sounds CharacterOffsetBegin=235 CharacterOffsetEnd=241 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=.] 
+root(ROOT-0, obsolete-15)
+det(amount-3, The-1)
+amod(amount-3, excessive-2)
+nsubj(obsolete-15, amount-3)
+prep(amount-3, of-4)
+amod(blood-7, watery-5)
+punct(blood-7, `-6)
+pobj(of-4, blood-7)
+punct(blood-7, '-8)
+prep(amount-3, at-9)
+det(beginning-11, the-10)
+pobj(at-9, beginning-11)
+cop(obsolete-15, is-12)
+advmod(obsolete-15, just-13)
+dep(obsolete-15, plain-14)
+punct(obsolete-15, --16)
+neg(mention-19, not-17)
+aux(mention-19, to-18)
+parataxis(obsolete-15, mention-19)
+det(sounds-25, the-20)
+punct(sounds-25, ``-21)
+amod(sounds-25, whip-around-22)
+punct(sounds-25, ''-23)
+nn(sounds-25, wind-24)
+dobj(mention-19, sounds-25)
+punct(obsolete-15, .-26)
+
+Sentence #4 (36 tokens):
+My friends and I made a super low budget movie, and the effects still exceeded this crap fest.As for the amount of mistakes in this movie, there are way too many to count.
+[Text=My CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=PRP$] [Text=friends CharacterOffsetBegin=250 CharacterOffsetEnd=257 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=DT] [Text=super CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=JJ] [Text=low CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=JJ] [Text=budget CharacterOffsetBegin=281 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=,] [Text=and CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=DT] [Text=effects CharacterOffsetBegin=303 CharacterOffsetEnd=310 PartOfSpeech=NNS] [Text=still CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=RB] [Text=exceeded CharacterOffsetBegin=317 CharacterOffsetEnd=325 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=326 CharacterOffsetEnd=330 PartOfSpeech=DT] [Text=crap CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=fest.As CharacterOffsetBegin=336 CharacterOffsetEnd=343 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=DT] [Text=amount CharacterOffsetBegin=352 CharacterOffsetEnd=358 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=IN] [Text=mistakes CharacterOffsetBegin=362 CharacterOffsetEnd=370 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=379 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=,] [Text=there CharacterOffsetBegin=386 CharacterOffsetEnd=391 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=VBP] [Text=way CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=RB] [Text=too CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=TO] [Text=count CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=.] 
+root(ROOT-0, made-5)
+poss(friends-2, My-1)
+nsubj(made-5, friends-2)
+cc(friends-2, and-3)
+conj(friends-2, I-4)
+det(movie-10, a-6)
+amod(movie-10, super-7)
+amod(movie-10, low-8)
+nn(movie-10, budget-9)
+dobj(made-5, movie-10)
+punct(made-5, ,-11)
+cc(made-5, and-12)
+det(effects-14, the-13)
+nsubj(exceeded-16, effects-14)
+advmod(exceeded-16, still-15)
+conj(made-5, exceeded-16)
+det(fest.As-19, this-17)
+nn(fest.As-19, crap-18)
+dobj(exceeded-16, fest.As-19)
+prep(fest.As-19, for-20)
+det(amount-22, the-21)
+pobj(for-20, amount-22)
+prep(amount-22, of-23)
+pobj(of-23, mistakes-24)
+prep(amount-22, in-25)
+det(movie-27, this-26)
+pobj(in-25, movie-27)
+punct(made-5, ,-28)
+expl(are-30, there-29)
+ccomp(made-5, are-30)
+advmod(many-33, way-31)
+advmod(many-33, too-32)
+nsubj(are-30, many-33)
+aux(count-35, to-34)
+infmod(many-33, count-35)
+punct(made-5, .-36)
+
+Sentence #5 (18 tokens):
+I knew one of the actors - believe it or not, he was my THEATRE teacher.
+[Text=I CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=PRP] [Text=knew CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=VBD] [Text=one CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=NNS] [Text=- CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=:] [Text=believe CharacterOffsetBegin=450 CharacterOffsetEnd=457 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=458 CharacterOffsetEnd=460 PartOfSpeech=PRP] [Text=or CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=,] [Text=he CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=PRP$] [Text=THEATRE CharacterOffsetBegin=479 CharacterOffsetEnd=486 PartOfSpeech=NN] [Text=teacher CharacterOffsetBegin=487 CharacterOffsetEnd=494 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=.] 
+root(ROOT-0, knew-2)
+nsubj(knew-2, I-1)
+nsubj(believe-8, one-3)
+prep(one-3, of-4)
+det(actors-6, the-5)
+pobj(of-4, actors-6)
+punct(one-3, --7)
+ccomp(knew-2, believe-8)
+dep(teacher-17, it-9)
+cc(it-9, or-10)
+conj(it-9, not-11)
+punct(it-9, ,-12)
+nsubj(teacher-17, he-13)
+cop(teacher-17, was-14)
+poss(teacher-17, my-15)
+nn(teacher-17, THEATRE-16)
+ccomp(believe-8, teacher-17)
+punct(knew-2, .-18)
+
+Sentence #6 (2 tokens):
+HA!
+[Text=HA CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=502 CharacterOffsetEnd=503 PartOfSpeech=.] 
+root(ROOT-0, HA-1)
+punct(HA-1, !-2)
+
+Sentence #7 (13 tokens):
+Final verdict: Don't bother with this "horror" flick.
+[Text=Final CharacterOffsetBegin=508 CharacterOffsetEnd=513 PartOfSpeech=JJ] [Text=verdict CharacterOffsetBegin=514 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=:] [Text=Do CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=RB] [Text=bother CharacterOffsetBegin=529 CharacterOffsetEnd=535 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=``] [Text=horror CharacterOffsetBegin=547 CharacterOffsetEnd=553 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=''] [Text=flick CharacterOffsetBegin=555 CharacterOffsetEnd=560 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=.] 
+root(ROOT-0, verdict-2)
+amod(verdict-2, Final-1)
+punct(verdict-2, :-3)
+aux(bother-6, Do-4)
+neg(bother-6, n't-5)
+dep(verdict-2, bother-6)
+prep(bother-6, with-7)
+det(flick-12, this-8)
+punct(flick-12, ``-9)
+nn(flick-12, horror-10)
+punct(flick-12, ''-11)
+pobj(with-7, flick-12)
+punct(verdict-2, .-13)
+
+Sentence #8 (9 tokens):
+3 Stars (out of a possible 73)
+[Text=3 CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=CD] [Text=Stars CharacterOffsetBegin=568 CharacterOffsetEnd=573 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=-LRB-] [Text=out CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=579 CharacterOffsetEnd=581 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=582 CharacterOffsetEnd=583 PartOfSpeech=DT] [Text=possible CharacterOffsetBegin=584 CharacterOffsetEnd=592 PartOfSpeech=JJ] [Text=73 CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=595 CharacterOffsetEnd=596 PartOfSpeech=-RRB-] 
+root(ROOT-0, 3-1)
+dep(3-1, Stars-2)
+punct(out-4, -LRB--3)
+dep(Stars-2, out-4)
+pcomp(out-4, of-5)
+det(73-8, a-6)
+amod(73-8, possible-7)
+pobj(of-5, 73-8)
+punct(out-4, -RRB--9)
+

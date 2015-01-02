@@ -1,0 +1,69 @@
+Sentence #1 (9 tokens):
+I saw this in the summer of 1990.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=in CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=DT] [Text=summer CharacterOffsetBegin=22 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=1990 CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+dobj(saw-2, this-3)
+prep(saw-2, in-4)
+det(summer-6, the-5)
+pobj(in-4, summer-6)
+prep(summer-6, of-7)
+pobj(of-7, 1990-8)
+punct(saw-2, .-9)
+
+Sentence #2 (13 tokens):
+I'm still annoyed by how bad this movie is in 2001.
+[Text=I CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=VBP] [Text=still CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=annoyed CharacterOffsetBegin=52 CharacterOffsetEnd=59 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=WRB] [Text=bad CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=JJ] [Text=this CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=2001 CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.] 
+root(ROOT-0, annoyed-4)
+nsubjpass(annoyed-4, I-1)
+auxpass(annoyed-4, 'm-2)
+advmod(annoyed-4, still-3)
+prep(annoyed-4, by-5)
+advmod(bad-7, how-6)
+dep(is-10, bad-7)
+det(movie-9, this-8)
+nsubj(is-10, movie-9)
+pcomp(by-5, is-10)
+prep(is-10, in-11)
+pobj(in-11, 2001-12)
+punct(annoyed-4, .-13)
+
+Sentence #3 (3 tokens):
+Implausible plot.
+[Text=Implausible CharacterOffsetBegin=93 CharacterOffsetEnd=104 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.] 
+root(ROOT-0, plot-2)
+amod(plot-2, Implausible-1)
+punct(plot-2, .-3)
+
+Sentence #4 (19 tokens):
+You'd have to be a child to think this could happen.I'm just really annoyed by it.
+[Text=You CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=PRP] [Text='d CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=child CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=TO] [Text=think CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=could CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=MD] [Text=happen.I CharacterOffsetBegin=160 CharacterOffsetEnd=168 PartOfSpeech=NNP] [Text='m CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=VBP] [Text=just CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=RB] [Text=annoyed CharacterOffsetBegin=183 CharacterOffsetEnd=190 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+nsubj(have-3, You-1)
+aux(have-3, 'd-2)
+aux(child-7, to-4)
+cop(child-7, be-5)
+det(child-7, a-6)
+xcomp(have-3, child-7)
+aux(think-9, to-8)
+infmod(child-7, think-9)
+nsubj(annoyed-16, this-10)
+aux(annoyed-16, could-11)
+nsubjpass(annoyed-16, happen.I-12)
+auxpass(annoyed-16, 'm-13)
+advmod(annoyed-16, just-14)
+advmod(annoyed-16, really-15)
+ccomp(think-9, annoyed-16)
+prep(annoyed-16, by-17)
+pobj(by-17, it-18)
+punct(have-3, .-19)
+
+Sentence #5 (5 tokens):
+Don't see this.
+[Text=Do CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=.] 
+root(ROOT-0, see-3)
+aux(see-3, Do-1)
+neg(see-3, n't-2)
+dobj(see-3, this-4)
+punct(see-3, .-5)
+

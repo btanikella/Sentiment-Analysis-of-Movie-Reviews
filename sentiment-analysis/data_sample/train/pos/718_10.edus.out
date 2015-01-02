@@ -1,0 +1,197 @@
+Sentence #1 (14 tokens):
+Rock 'n' Roll High School was one of the best movies ever made!
+[Text=Rock CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text='n' CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC] [Text=Roll CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=High CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=School CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=VBD] [Text=one CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=JJS] [Text=movies CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NNS] [Text=ever CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=VBN] [Text=! CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=.] 
+root(ROOT-0, one-7)
+nn(School-5, Rock-1)
+nn(School-5, 'n'-2)
+nn(School-5, Roll-3)
+nn(School-5, High-4)
+nsubj(one-7, School-5)
+cop(one-7, was-6)
+prep(one-7, of-8)
+det(movies-11, the-9)
+amod(movies-11, best-10)
+pobj(of-8, movies-11)
+advmod(made-13, ever-12)
+partmod(movies-11, made-13)
+punct(one-7, !-14)
+
+Sentence #2 (15 tokens):
+I think the only reason it was so awesome was because of The Ramones!
+[Text=I CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=JJ] [Text=reason CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=RB] [Text=awesome CharacterOffsetBegin=106 CharacterOffsetEnd=113 PartOfSpeech=JJ] [Text=was CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=VBD] [Text=because CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=DT] [Text=Ramones CharacterOffsetBegin=133 CharacterOffsetEnd=140 PartOfSpeech=NNPS] [Text=! CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+det(reason-5, the-3)
+amod(reason-5, only-4)
+nsubj(was-10, reason-5)
+nsubj(awesome-9, it-6)
+cop(awesome-9, was-7)
+advmod(awesome-9, so-8)
+rcmod(reason-5, awesome-9)
+ccomp(think-2, was-10)
+mwe(of-12, because-11)
+prep(was-10, of-12)
+det(Ramones-14, The-13)
+pobj(of-12, Ramones-14)
+punct(think-2, !-15)
+
+Sentence #3 (34 tokens):
+You couldn't have made the same movie and put something like the Sex Pistols, or The Clash in place of The Ramones, it just wouldn't have been the same.
+[Text=You CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=VB] [Text=made CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=CC] [Text=put CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=VBD] [Text=something CharacterOffsetBegin=192 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=DT] [Text=Sex CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=Pistols CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=,] [Text=or CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=CC] [Text=The CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=Clash CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=place CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=DT] [Text=Ramones CharacterOffsetBegin=253 CharacterOffsetEnd=260 PartOfSpeech=NNPS] [Text=, CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=,] [Text=it CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=RB] [Text=would CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=.] 
+root(ROOT-0, made-5)
+nsubj(made-5, You-1)
+aux(made-5, could-2)
+neg(made-5, n't-3)
+aux(made-5, have-4)
+det(movie-8, the-6)
+amod(movie-8, same-7)
+dobj(made-5, movie-8)
+cc(made-5, and-9)
+conj(made-5, put-10)
+dobj(put-10, something-11)
+prep(something-11, like-12)
+det(Pistols-15, the-13)
+nn(Pistols-15, Sex-14)
+pobj(like-12, Pistols-15)
+punct(Pistols-15, ,-16)
+cc(Pistols-15, or-17)
+det(Clash-19, The-18)
+conj(Pistols-15, Clash-19)
+prep(Clash-19, in-20)
+pobj(in-20, place-21)
+prep(place-21, of-22)
+det(Ramones-24, The-23)
+pobj(of-22, Ramones-24)
+punct(made-5, ,-25)
+nsubj(same-33, it-26)
+advmod(same-33, just-27)
+aux(same-33, would-28)
+neg(same-33, n't-29)
+aux(same-33, have-30)
+cop(same-33, been-31)
+det(same-33, the-32)
+ccomp(made-5, same-33)
+punct(made-5, .-34)
+
+Sentence #4 (27 tokens):
+dey young, clint howard, Vincent Van Patten, Mary Woronov, Paul Bartel, and the hall monters, just added to the movie.
+[Text=dey CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=NN] [Text=young CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=,] [Text=clint CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=JJ] [Text=howard CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=,] [Text=Vincent CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=NNP] [Text=Van CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=NNP] [Text=Patten CharacterOffsetBegin=340 CharacterOffsetEnd=346 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=,] [Text=Mary CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=NNP] [Text=Woronov CharacterOffsetBegin=353 CharacterOffsetEnd=360 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=,] [Text=Paul CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=NNP] [Text=Bartel CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=,] [Text=and CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=DT] [Text=hall CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=monters CharacterOffsetBegin=388 CharacterOffsetEnd=395 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=,] [Text=just CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=RB] [Text=added CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=.] 
+root(ROOT-0, howard-5)
+amod(howard-5, dey-1)
+amod(howard-5, young-2)
+punct(howard-5, ,-3)
+amod(howard-5, clint-4)
+punct(howard-5, ,-6)
+nn(Patten-9, Vincent-7)
+nn(Patten-9, Van-8)
+conj(howard-5, Patten-9)
+punct(howard-5, ,-10)
+nn(Woronov-12, Mary-11)
+conj(howard-5, Woronov-12)
+punct(howard-5, ,-13)
+nn(Bartel-15, Paul-14)
+conj(howard-5, Bartel-15)
+punct(howard-5, ,-16)
+cc(howard-5, and-17)
+det(hall-19, the-18)
+conj(howard-5, hall-19)
+dep(hall-19, monters-20)
+punct(monters-20, ,-21)
+advmod(added-23, just-22)
+partmod(monters-20, added-23)
+prep(added-23, to-24)
+det(movie-26, the-25)
+pobj(to-24, movie-26)
+punct(howard-5, .-27)
+
+Sentence #5 (12 tokens):
+The whole entire movie is about The Ramones...especially Joey!
+[Text=The CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=430 CharacterOffsetEnd=435 PartOfSpeech=JJ] [Text=entire CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=DT] [Text=Ramones CharacterOffsetBegin=462 CharacterOffsetEnd=469 PartOfSpeech=NNPS] [Text=... CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=:] [Text=especially CharacterOffsetBegin=472 CharacterOffsetEnd=482 PartOfSpeech=RB] [Text=Joey CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=.] 
+root(ROOT-0, movie-4)
+det(movie-4, The-1)
+amod(movie-4, whole-2)
+amod(movie-4, entire-3)
+partmod(movie-4, is-5)
+prep(is-5, about-6)
+det(Ramones-8, The-7)
+pobj(about-6, Ramones-8)
+punct(movie-4, ...-9)
+advmod(Joey-11, especially-10)
+dep(movie-4, Joey-11)
+punct(movie-4, !-12)
+
+Sentence #6 (18 tokens):
+So everybody showed see Rock 'n' Roll High School if your a huge fan of real PUNK.
+[Text=So CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=RB] [Text=everybody CharacterOffsetBegin=496 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=showed CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=VBD] [Text=see CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=VB] [Text=Rock CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=NNP] [Text='n' CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=CC] [Text=Roll CharacterOffsetBegin=526 CharacterOffsetEnd=530 PartOfSpeech=NNP] [Text=High CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=NNP] [Text=School CharacterOffsetBegin=536 CharacterOffsetEnd=542 PartOfSpeech=NNP] [Text=if CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=PRP$] [Text=a CharacterOffsetBegin=551 CharacterOffsetEnd=552 PartOfSpeech=DT] [Text=huge CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=JJ] [Text=fan CharacterOffsetBegin=558 CharacterOffsetEnd=561 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=IN] [Text=real CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=JJ] [Text=PUNK CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=.] 
+root(ROOT-0, So-1)
+dep(So-1, everybody-2)
+partmod(everybody-2, showed-3)
+xcomp(showed-3, see-4)
+dobj(see-4, Rock-5)
+cc(Rock-5, 'n'-6)
+nn(School-9, Roll-7)
+nn(School-9, High-8)
+conj(Rock-5, School-9)
+prep(see-4, if-10)
+poss(fan-14, your-11)
+det(fan-14, a-12)
+amod(fan-14, huge-13)
+pobj(if-10, fan-14)
+prep(fan-14, of-15)
+amod(PUNK-17, real-16)
+pobj(of-15, PUNK-17)
+punct(So-1, .-18)
+
+Sentence #7 (14 tokens):
+Not the sissy new crap...but the loud, and fast kind.
+[Text=Not CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=DT] [Text=sissy CharacterOffsetBegin=588 CharacterOffsetEnd=593 PartOfSpeech=JJ] [Text=new CharacterOffsetBegin=594 CharacterOffsetEnd=597 PartOfSpeech=JJ] [Text=crap CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=:] [Text=but CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=DT] [Text=loud CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=617 CharacterOffsetEnd=618 PartOfSpeech=,] [Text=and CharacterOffsetBegin=619 CharacterOffsetEnd=622 PartOfSpeech=CC] [Text=fast CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=RB] [Text=kind CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=.] 
+root(ROOT-0, crap-5)
+neg(crap-5, Not-1)
+det(crap-5, the-2)
+amod(crap-5, sissy-3)
+amod(crap-5, new-4)
+punct(crap-5, ...-6)
+cc(crap-5, but-7)
+det(loud-9, the-8)
+conj(crap-5, loud-9)
+punct(crap-5, ,-10)
+cc(crap-5, and-11)
+amod(kind-13, fast-12)
+conj(crap-5, kind-13)
+punct(crap-5, .-14)
+
+Sentence #8 (8 tokens):
+The kind only The Ramones could do.
+[Text=The CharacterOffsetBegin=638 CharacterOffsetEnd=641 PartOfSpeech=DT] [Text=kind CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=NN] [Text=only CharacterOffsetBegin=647 CharacterOffsetEnd=651 PartOfSpeech=RB] [Text=The CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=DT] [Text=Ramones CharacterOffsetBegin=656 CharacterOffsetEnd=663 PartOfSpeech=NNPS] [Text=could CharacterOffsetBegin=664 CharacterOffsetEnd=669 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=670 CharacterOffsetEnd=672 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=.] 
+root(ROOT-0, kind-2)
+det(kind-2, The-1)
+advmod(do-7, only-3)
+det(Ramones-5, The-4)
+nsubj(do-7, Ramones-5)
+aux(do-7, could-6)
+rcmod(kind-2, do-7)
+punct(kind-2, .-8)
+
+Sentence #9 (10 tokens):
+R.I.P (Rest In Peace) Joey Ramone 1951-2001.
+[Text=R.I.P CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=684 CharacterOffsetEnd=685 PartOfSpeech=-LRB-] [Text=Rest CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=VB] [Text=In CharacterOffsetBegin=690 CharacterOffsetEnd=692 PartOfSpeech=IN] [Text=Peace CharacterOffsetBegin=693 CharacterOffsetEnd=698 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=-RRB-] [Text=Joey CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=NNP] [Text=Ramone CharacterOffsetBegin=705 CharacterOffsetEnd=711 PartOfSpeech=NNP] [Text=1951-2001 CharacterOffsetBegin=712 CharacterOffsetEnd=721 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=721 CharacterOffsetEnd=722 PartOfSpeech=.] 
+root(ROOT-0, R.I.P-1)
+punct(Rest-3, -LRB--2)
+dep(R.I.P-1, Rest-3)
+prep(Rest-3, In-4)
+pobj(In-4, Peace-5)
+punct(Rest-3, -RRB--6)
+dep(Rest-3, Joey-7)
+dep(Joey-7, Ramone-8)
+num(Ramone-8, 1951-2001-9)
+punct(R.I.P-1, .-10)
+
+Sentence #10 (5 tokens):
+Dee Dee Ramone 1952-2002!
+[Text=Dee CharacterOffsetBegin=727 CharacterOffsetEnd=730 PartOfSpeech=NNP] [Text=Dee CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=NNP] [Text=Ramone CharacterOffsetBegin=735 CharacterOffsetEnd=741 PartOfSpeech=NNP] [Text=1952-2002 CharacterOffsetBegin=742 CharacterOffsetEnd=751 PartOfSpeech=CD] [Text=! CharacterOffsetBegin=751 CharacterOffsetEnd=752 PartOfSpeech=.] 
+root(ROOT-0, Ramone-3)
+nn(Ramone-3, Dee-1)
+nn(Ramone-3, Dee-2)
+num(Ramone-3, 1952-2002-4)
+punct(Ramone-3, !-5)
+

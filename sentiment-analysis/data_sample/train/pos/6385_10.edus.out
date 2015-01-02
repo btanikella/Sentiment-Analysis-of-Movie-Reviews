@@ -1,0 +1,152 @@
+Sentence #1 (5 tokens):
+This movie was great!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=great CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=.] 
+root(ROOT-0, great-4)
+det(movie-2, This-1)
+nsubj(great-4, movie-2)
+cop(great-4, was-3)
+punct(great-4, !-5)
+
+Sentence #2 (10 tokens):
+It was an excellent rendition of an ancient myth.
+[Text=It CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=excellent CharacterOffsetBegin=40 CharacterOffsetEnd=49 PartOfSpeech=JJ] [Text=rendition CharacterOffsetBegin=50 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=DT] [Text=ancient CharacterOffsetBegin=66 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=myth CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=.] 
+root(ROOT-0, rendition-5)
+nsubj(rendition-5, It-1)
+cop(rendition-5, was-2)
+det(rendition-5, an-3)
+amod(rendition-5, excellent-4)
+prep(rendition-5, of-6)
+det(myth-9, an-7)
+amod(myth-9, ancient-8)
+pobj(of-6, myth-9)
+punct(rendition-5, .-10)
+
+Sentence #3 (12 tokens):
+The animation was somewhat odd, but nothing new from Disney.
+[Text=The CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=animation CharacterOffsetBegin=88 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=VBD] [Text=somewhat CharacterOffsetBegin=102 CharacterOffsetEnd=110 PartOfSpeech=RB] [Text=odd CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=,] [Text=but CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=CC] [Text=nothing CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=new CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=JJ] [Text=from CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=IN] [Text=Disney CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=.] 
+root(ROOT-0, odd-5)
+det(animation-2, The-1)
+nsubj(odd-5, animation-2)
+cop(odd-5, was-3)
+advmod(odd-5, somewhat-4)
+punct(odd-5, ,-6)
+cc(odd-5, but-7)
+conj(odd-5, nothing-8)
+amod(nothing-8, new-9)
+prep(new-9, from-10)
+pobj(from-10, Disney-11)
+punct(odd-5, .-12)
+
+Sentence #4 (18 tokens):
+It was definitely better than expected for a Disney movie with no singing.The background animation was magical.
+[Text=It CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=VBD] [Text=definitely CharacterOffsetBegin=156 CharacterOffsetEnd=166 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=IN] [Text=expected CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=DT] [Text=Disney CharacterOffsetBegin=194 CharacterOffsetEnd=200 PartOfSpeech=NNP] [Text=movie CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=DT] [Text=singing.The CharacterOffsetBegin=215 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=background CharacterOffsetBegin=227 CharacterOffsetEnd=237 PartOfSpeech=NN] [Text=animation CharacterOffsetBegin=238 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=VBD] [Text=magical CharacterOffsetBegin=252 CharacterOffsetEnd=259 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=.] 
+root(ROOT-0, better-4)
+nsubj(better-4, It-1)
+cop(better-4, was-2)
+advmod(better-4, definitely-3)
+mark(expected-6, than-5)
+dep(better-4, expected-6)
+prep(expected-6, for-7)
+det(movie-10, a-8)
+nn(movie-10, Disney-9)
+pobj(for-7, movie-10)
+prep(movie-10, with-11)
+det(animation-15, no-12)
+nn(animation-15, singing.The-13)
+nn(animation-15, background-14)
+pobj(with-11, animation-15)
+cop(magical-17, was-16)
+dep(better-4, magical-17)
+punct(better-4, .-18)
+
+Sentence #5 (12 tokens):
+It was a different level of work for the Disney people.
+[Text=It CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=different CharacterOffsetBegin=274 CharacterOffsetEnd=283 PartOfSpeech=JJ] [Text=level CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=IN] [Text=work CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=DT] [Text=Disney CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=NNP] [Text=people CharacterOffsetBegin=313 CharacterOffsetEnd=319 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=319 CharacterOffsetEnd=320 PartOfSpeech=.] 
+root(ROOT-0, level-5)
+nsubj(level-5, It-1)
+cop(level-5, was-2)
+det(level-5, a-3)
+amod(level-5, different-4)
+prep(level-5, of-6)
+pobj(of-6, work-7)
+prep(level-5, for-8)
+det(people-11, the-9)
+nn(people-11, Disney-10)
+pobj(for-8, people-11)
+punct(level-5, .-12)
+
+Sentence #6 (26 tokens):
+Some of the characters were a little boxy, but it was more than made up for with the beauty and lushness of the scenery.
+[Text=Some CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=337 CharacterOffsetEnd=347 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=JJ] [Text=boxy CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=,] [Text=but CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=VBD] [Text=more CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=made CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=VBN] [Text=up CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=DT] [Text=beauty CharacterOffsetBegin=410 CharacterOffsetEnd=416 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=CC] [Text=lushness CharacterOffsetBegin=421 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=DT] [Text=scenery CharacterOffsetBegin=437 CharacterOffsetEnd=444 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=.] 
+root(ROOT-0, boxy-8)
+nsubj(boxy-8, Some-1)
+prep(Some-1, of-2)
+det(characters-4, the-3)
+pobj(of-2, characters-4)
+cop(boxy-8, were-5)
+det(boxy-8, a-6)
+amod(boxy-8, little-7)
+punct(boxy-8, ,-9)
+cc(boxy-8, but-10)
+nsubjpass(made-15, it-11)
+auxpass(made-15, was-12)
+advmod(made-15, more-13)
+mark(made-15, than-14)
+conj(boxy-8, made-15)
+prt(made-15, up-16)
+prep(made-15, for-17)
+pcomp(for-17, with-18)
+det(beauty-20, the-19)
+pobj(with-18, beauty-20)
+cc(beauty-20, and-21)
+conj(beauty-20, lushness-22)
+prep(beauty-20, of-23)
+det(scenery-25, the-24)
+pobj(of-23, scenery-25)
+punct(boxy-8, .-26)
+
+Sentence #7 (13 tokens):
+The music was largely instrumental but that was perfect for the movie.
+[Text=The CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=454 CharacterOffsetEnd=459 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=VBD] [Text=largely CharacterOffsetBegin=464 CharacterOffsetEnd=471 PartOfSpeech=RB] [Text=instrumental CharacterOffsetBegin=472 CharacterOffsetEnd=484 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=VBD] [Text=perfect CharacterOffsetBegin=498 CharacterOffsetEnd=505 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=514 CharacterOffsetEnd=519 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=.] 
+root(ROOT-0, instrumental-5)
+det(music-2, The-1)
+nsubj(instrumental-5, music-2)
+cop(instrumental-5, was-3)
+advmod(instrumental-5, largely-4)
+cc(instrumental-5, but-6)
+nsubj(perfect-9, that-7)
+cop(perfect-9, was-8)
+conj(instrumental-5, perfect-9)
+prep(perfect-9, for-10)
+det(movie-12, the-11)
+pobj(for-10, movie-12)
+punct(instrumental-5, .-13)
+
+Sentence #8 (15 tokens):
+This was definitely not a film that needed the characters to bust into song.Perfect.
+[Text=This CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=VBD] [Text=definitely CharacterOffsetBegin=534 CharacterOffsetEnd=544 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=549 CharacterOffsetEnd=550 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=WDT] [Text=needed CharacterOffsetBegin=561 CharacterOffsetEnd=567 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=568 CharacterOffsetEnd=571 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=572 CharacterOffsetEnd=582 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=TO] [Text=bust CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=NN] [Text=into CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=IN] [Text=song.Perfect CharacterOffsetBegin=596 CharacterOffsetEnd=608 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nsubj(film-6, This-1)
+cop(film-6, was-2)
+advmod(film-6, definitely-3)
+neg(film-6, not-4)
+det(film-6, a-5)
+nsubj(needed-8, that-7)
+rcmod(film-6, needed-8)
+det(characters-10, the-9)
+dobj(needed-8, characters-10)
+aux(bust-12, to-11)
+xcomp(needed-8, bust-12)
+prep(bust-12, into-13)
+pobj(into-13, song.Perfect-14)
+punct(film-6, .-15)
+
+Sentence #9 (5 tokens):
+10 out of 10.
+[Text=10 CharacterOffsetBegin=614 CharacterOffsetEnd=616 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=621 CharacterOffsetEnd=623 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=.] 
+root(ROOT-0, 10-1)
+prep(10-1, out-2)
+pcomp(out-2, of-3)
+pobj(of-3, 10-4)
+punct(10-1, .-5)
+

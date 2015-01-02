@@ -1,0 +1,124 @@
+Sentence #1 (5 tokens):
+This movie is gorgeous.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=gorgeous CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=.] 
+root(ROOT-0, gorgeous-4)
+det(movie-2, This-1)
+nsubj(gorgeous-4, movie-2)
+cop(gorgeous-4, is-3)
+punct(gorgeous-4, .-5)
+
+Sentence #2 (16 tokens):
+It's real and down to heart, but at the same time totally crazy.
+[Text=It CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=POS] [Text=real CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=CC] [Text=down CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=TO] [Text=heart CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=,] [Text=but CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=CC] [Text=at CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=totally CharacterOffsetBegin=82 CharacterOffsetEnd=89 PartOfSpeech=RB] [Text=crazy CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=.] 
+root(ROOT-0, It-1)
+possessive(It-1, 's-2)
+dep(It-1, real-3)
+cc(real-3, and-4)
+conj(real-3, down-5)
+prep(down-5, to-6)
+pobj(to-6, heart-7)
+punct(It-1, ,-8)
+cc(It-1, but-9)
+conj(It-1, at-10)
+det(time-13, the-11)
+amod(time-13, same-12)
+pobj(at-10, time-13)
+advmod(crazy-15, totally-14)
+amod(time-13, crazy-15)
+punct(It-1, .-16)
+
+Sentence #3 (29 tokens):
+The characters are easy to fall in love with, because they have so many different minds, but each of us could refer to at least on.
+[Text=The CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=105 CharacterOffsetEnd=115 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=VBP] [Text=easy CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=TO] [Text=fall CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=IN] [Text=love CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=,] [Text=because CharacterOffsetBegin=147 CharacterOffsetEnd=154 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=VBP] [Text=so CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=JJ] [Text=different CharacterOffsetBegin=173 CharacterOffsetEnd=182 PartOfSpeech=JJ] [Text=minds CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=,] [Text=but CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=CC] [Text=each CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=us CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=MD] [Text=refer CharacterOffsetBegin=211 CharacterOffsetEnd=216 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=TO] [Text=at CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=JJS] [Text=on CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, easy-4)
+det(characters-2, The-1)
+nsubj(easy-4, characters-2)
+cop(easy-4, are-3)
+aux(fall-6, to-5)
+xcomp(easy-4, fall-6)
+prep(fall-6, in-7)
+pobj(in-7, love-8)
+advmod(fall-6, with-9)
+punct(easy-4, ,-10)
+mark(have-13, because-11)
+nsubj(have-13, they-12)
+advcl(easy-4, have-13)
+advmod(many-15, so-14)
+amod(minds-17, many-15)
+amod(minds-17, different-16)
+dobj(have-13, minds-17)
+punct(easy-4, ,-18)
+cc(easy-4, but-19)
+nsubj(refer-24, each-20)
+prep(each-20, of-21)
+pobj(of-21, us-22)
+aux(refer-24, could-23)
+conj(easy-4, refer-24)
+prep(refer-24, to-25)
+advmod(on-28, at-26)
+pobj(at-26, least-27)
+pcomp(to-25, on-28)
+punct(easy-4, .-29)
+
+Sentence #4 (28 tokens):
+In Canada, we don't have many movies from Eastern Europe, and for the few I have seen, Loners is one of the best.
+[Text=In CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=Canada CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=,] [Text=we CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=VB] [Text=many CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=267 CharacterOffsetEnd=273 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=IN] [Text=Eastern CharacterOffsetBegin=279 CharacterOffsetEnd=286 PartOfSpeech=NNP] [Text=Europe CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=,] [Text=and CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=CC] [Text=for CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=,] [Text=Loners CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NNPS] [Text=is CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=.] 
+root(ROOT-0, have-7)
+prep(have-7, In-1)
+pobj(In-1, Canada-2)
+punct(have-7, ,-3)
+nsubj(have-7, we-4)
+aux(have-7, do-5)
+neg(have-7, n't-6)
+amod(movies-9, many-8)
+dobj(have-7, movies-9)
+prep(movies-9, from-10)
+nn(Europe-12, Eastern-11)
+pobj(from-10, Europe-12)
+punct(have-7, ,-13)
+cc(have-7, and-14)
+prep(one-24, for-15)
+det(few-17, the-16)
+pobj(for-15, few-17)
+nsubj(seen-20, I-18)
+aux(seen-20, have-19)
+rcmod(few-17, seen-20)
+punct(one-24, ,-21)
+nsubj(one-24, Loners-22)
+cop(one-24, is-23)
+conj(have-7, one-24)
+prep(one-24, of-25)
+det(best-27, the-26)
+pobj(of-25, best-27)
+punct(have-7, .-28)
+
+Sentence #5 (8 tokens):
+It's very funny, and magic.
+[Text=It CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=,] [Text=and CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=CC] [Text=magic CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=.] 
+root(ROOT-0, funny-4)
+nsubj(funny-4, It-1)
+cop(funny-4, 's-2)
+advmod(funny-4, very-3)
+punct(funny-4, ,-5)
+cc(funny-4, and-6)
+conj(funny-4, magic-7)
+punct(funny-4, .-8)
+
+Sentence #6 (14 tokens):
+If you want to see something new and refreshing, go see Loners.
+[Text=If CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=399 CharacterOffsetEnd=401 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=VB] [Text=something CharacterOffsetBegin=406 CharacterOffsetEnd=415 PartOfSpeech=NN] [Text=new CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=CC] [Text=refreshing CharacterOffsetBegin=424 CharacterOffsetEnd=434 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=,] [Text=go CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=VB] [Text=see CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=VB] [Text=Loners CharacterOffsetBegin=443 CharacterOffsetEnd=449 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=.] 
+root(ROOT-0, go-11)
+mark(want-3, If-1)
+nsubj(want-3, you-2)
+advcl(go-11, want-3)
+aux(see-5, to-4)
+xcomp(want-3, see-5)
+dobj(see-5, something-6)
+amod(something-6, new-7)
+cc(new-7, and-8)
+conj(new-7, refreshing-9)
+punct(go-11, ,-10)
+ccomp(go-11, see-12)
+dobj(see-12, Loners-13)
+punct(go-11, .-14)
+

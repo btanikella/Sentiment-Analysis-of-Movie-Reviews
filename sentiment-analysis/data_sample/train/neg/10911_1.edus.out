@@ -1,0 +1,107 @@
+Sentence #1 (11 tokens):
+I hated this movie so much I remember it vividly.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=hated CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=PRP] [Text=remember CharacterOffsetBegin=33 CharacterOffsetEnd=41 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP] [Text=vividly CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=.] 
+root(ROOT-0, hated-2)
+nsubj(hated-2, I-1)
+det(movie-4, this-3)
+dobj(hated-2, movie-4)
+advmod(much-6, so-5)
+advmod(hated-2, much-6)
+nsubj(remember-8, I-7)
+rcmod(much-6, remember-8)
+dobj(remember-8, it-9)
+advmod(remember-8, vividly-10)
+punct(hated-2, .-11)
+
+Sentence #2 (6 tokens):
+It is not even funny.
+[Text=It CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=.] 
+root(ROOT-0, funny-5)
+nsubj(funny-5, It-1)
+cop(funny-5, is-2)
+neg(funny-5, not-3)
+advmod(funny-5, even-4)
+punct(funny-5, .-6)
+
+Sentence #3 (22 tokens):
+Any movie that relies on unfunny sex jokes and racism humor does not deserve the money it costs to make it.
+[Text=Any CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=WDT] [Text=relies CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=VBZ] [Text=on CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=unfunny CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=sex CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=jokes CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=CC] [Text=racism CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=humor CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=RB] [Text=deserve CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=DT] [Text=money CharacterOffsetBegin=165 CharacterOffsetEnd=170 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=PRP] [Text=costs CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=.] 
+root(ROOT-0, deserve-14)
+det(movie-2, Any-1)
+nsubj(deserve-14, movie-2)
+nsubj(relies-4, that-3)
+rcmod(movie-2, relies-4)
+prep(relies-4, on-5)
+amod(jokes-8, unfunny-6)
+nn(jokes-8, sex-7)
+pobj(on-5, jokes-8)
+cc(jokes-8, and-9)
+nn(humor-11, racism-10)
+conj(jokes-8, humor-11)
+aux(deserve-14, does-12)
+neg(deserve-14, not-13)
+det(money-16, the-15)
+dobj(deserve-14, money-16)
+nsubj(costs-18, it-17)
+rcmod(money-16, costs-18)
+aux(make-20, to-19)
+xcomp(costs-18, make-20)
+dobj(make-20, it-21)
+punct(deserve-14, .-22)
+
+Sentence #4 (15 tokens):
+In the first half hour, Rob Schneider drinks a carton of rancid milk.
+[Text=In CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=half CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=DT] [Text=hour CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=,] [Text=Rob CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=NNP] [Text=Schneider CharacterOffsetBegin=224 CharacterOffsetEnd=233 PartOfSpeech=NNP] [Text=drinks CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=DT] [Text=carton CharacterOffsetBegin=243 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=rancid CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=JJ] [Text=milk CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=.] 
+root(ROOT-0, drinks-9)
+prep(drinks-9, In-1)
+det(hour-5, the-2)
+amod(hour-5, first-3)
+det(hour-5, half-4)
+pobj(In-1, hour-5)
+punct(drinks-9, ,-6)
+nn(Schneider-8, Rob-7)
+nsubj(drinks-9, Schneider-8)
+det(carton-11, a-10)
+dobj(drinks-9, carton-11)
+prep(carton-11, of-12)
+amod(milk-14, rancid-13)
+pobj(of-12, milk-14)
+punct(drinks-9, .-15)
+
+Sentence #5 (18 tokens):
+All I could think was "he deserves it, for making such a bad movie".
+[Text=All CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=I CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=MD] [Text=think CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=VB] [Text=was CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=VBD] [Text=`` CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=``] [Text=he CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=PRP] [Text=deserves CharacterOffsetBegin=296 CharacterOffsetEnd=304 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=,] [Text=for CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=IN] [Text=making CharacterOffsetBegin=313 CharacterOffsetEnd=319 PartOfSpeech=VBG] [Text=such CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=PDT] [Text=a CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=''] [Text=. CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=.] 
+root(ROOT-0, think-4)
+dobj(think-4, All-1)
+nsubj(think-4, I-2)
+aux(think-4, could-3)
+aux(deserves-8, was-5)
+punct(deserves-8, ``-6)
+nsubj(deserves-8, he-7)
+ccomp(think-4, deserves-8)
+dobj(deserves-8, it-9)
+punct(deserves-8, ,-10)
+prep(deserves-8, for-11)
+pcomp(for-11, making-12)
+predet(movie-16, such-13)
+det(movie-16, a-14)
+amod(movie-16, bad-15)
+dobj(making-12, movie-16)
+punct(making-12, ''-17)
+punct(think-4, .-18)
+
+Sentence #6 (11 tokens):
+Don't waste your time or money on this one.
+[Text=Do CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=RB] [Text=waste CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=CC] [Text=money CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=.] 
+root(ROOT-0, waste-3)
+aux(waste-3, Do-1)
+neg(waste-3, n't-2)
+poss(time-5, your-4)
+dobj(waste-3, time-5)
+cc(time-5, or-6)
+conj(time-5, money-7)
+prep(waste-3, on-8)
+det(one-10, this-9)
+pobj(on-8, one-10)
+punct(waste-3, .-11)
+

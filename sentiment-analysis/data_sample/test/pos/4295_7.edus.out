@@ -1,0 +1,226 @@
+Sentence #1 (5 tokens):
+A well written screenplay.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=well CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=written CharacterOffsetBegin=11 CharacterOffsetEnd=18 PartOfSpeech=VBN] [Text=screenplay CharacterOffsetBegin=19 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.] 
+root(ROOT-0, screenplay-4)
+det(screenplay-4, A-1)
+advmod(written-3, well-2)
+amod(screenplay-4, written-3)
+punct(screenplay-4, .-5)
+
+Sentence #2 (13 tokens):
+A moving story showing the middle class English at it's best.
+[Text=A CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=DT] [Text=moving CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=VBG] [Text=story CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=showing CharacterOffsetBegin=50 CharacterOffsetEnd=57 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=middle CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=class CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=NN] [Text=English CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=VBZ] [Text=best CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=.] 
+root(ROOT-0, story-3)
+det(story-3, A-1)
+amod(story-3, moving-2)
+partmod(story-3, showing-4)
+det(class-7, the-5)
+amod(class-7, middle-6)
+nsubj(English-8, class-7)
+xcomp(showing-4, English-8)
+mark(best-12, at-9)
+nsubj(best-12, it-10)
+cop(best-12, 's-11)
+advcl(English-8, best-12)
+punct(story-3, .-13)
+
+Sentence #3 (10 tokens):
+Some great acting by Tom Wilkinson and Emily Watson.
+[Text=Some CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=112 CharacterOffsetEnd=118 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=IN] [Text=Tom CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=NNP] [Text=Wilkinson CharacterOffsetBegin=126 CharacterOffsetEnd=135 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=CC] [Text=Emily CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=NNP] [Text=Watson CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=.] 
+root(ROOT-0, acting-3)
+det(acting-3, Some-1)
+amod(acting-3, great-2)
+prep(acting-3, by-4)
+nn(Wilkinson-6, Tom-5)
+pobj(by-4, Wilkinson-6)
+cc(Wilkinson-6, and-7)
+nn(Watson-9, Emily-8)
+conj(Wilkinson-6, Watson-9)
+punct(acting-3, .-10)
+
+Sentence #4 (10 tokens):
+Tom Wilkinson is one of Britain's best actors.
+[Text=Tom CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=NNP] [Text=Wilkinson CharacterOffsetBegin=162 CharacterOffsetEnd=171 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=IN] [Text=Britain CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=POS] [Text=best CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=JJS] [Text=actors CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=.] 
+root(ROOT-0, one-4)
+nn(Wilkinson-2, Tom-1)
+nsubj(one-4, Wilkinson-2)
+cop(one-4, is-3)
+prep(one-4, of-5)
+poss(actors-9, Britain-6)
+possessive(Britain-6, 's-7)
+amod(actors-9, best-8)
+pobj(of-5, actors-9)
+punct(one-4, .-10)
+
+Sentence #5 (9 tokens):
+He knows how to be subtle and honest.
+[Text=He CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=PRP] [Text=knows CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=VBZ] [Text=how CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=VB] [Text=subtle CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=CC] [Text=honest CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=.] 
+root(ROOT-0, knows-2)
+nsubj(knows-2, He-1)
+advmod(subtle-6, how-3)
+aux(subtle-6, to-4)
+cop(subtle-6, be-5)
+ccomp(knows-2, subtle-6)
+cc(subtle-6, and-7)
+conj(subtle-6, honest-8)
+punct(knows-2, .-9)
+
+Sentence #6 (26 tokens):
+Emily Watson is an actress I was not familiar with, but to her credit she does a great job of playing the ****** wife.
+[Text=Emily CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=NNP] [Text=Watson CharacterOffsetBegin=257 CharacterOffsetEnd=263 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=actress CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=RB] [Text=familiar CharacterOffsetBegin=288 CharacterOffsetEnd=296 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=301 CharacterOffsetEnd=302 PartOfSpeech=,] [Text=but CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=CC] [Text=to CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=TO] [Text=her CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=PRP$] [Text=credit CharacterOffsetBegin=314 CharacterOffsetEnd=320 PartOfSpeech=NN] [Text=she CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=IN] [Text=playing CharacterOffsetBegin=345 CharacterOffsetEnd=352 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=DT] [Text=****** CharacterOffsetBegin=357 CharacterOffsetEnd=363 PartOfSpeech=CD] [Text=wife CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=368 CharacterOffsetEnd=369 PartOfSpeech=.] 
+root(ROOT-0, actress-5)
+nn(Watson-2, Emily-1)
+nsubj(actress-5, Watson-2)
+cop(actress-5, is-3)
+det(actress-5, an-4)
+nsubj(familiar-9, I-6)
+cop(familiar-9, was-7)
+neg(familiar-9, not-8)
+rcmod(actress-5, familiar-9)
+prep(familiar-9, with-10)
+punct(with-10, ,-11)
+cc(with-10, but-12)
+conj(with-10, to-13)
+poss(credit-15, her-14)
+pobj(to-13, credit-15)
+nsubj(does-17, she-16)
+dep(with-10, does-17)
+det(job-20, a-18)
+amod(job-20, great-19)
+dobj(does-17, job-20)
+prep(job-20, of-21)
+pcomp(of-21, playing-22)
+det(wife-25, the-23)
+num(wife-25, ******-24)
+dobj(playing-22, wife-25)
+punct(actress-5, .-26)
+
+Sentence #7 (21 tokens):
+The director, Julian Fellowes did not succumb to the typical Hollywood gimmicks to give the film some meaty storyline.
+[Text=The CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=378 CharacterOffsetEnd=386 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=,] [Text=Julian CharacterOffsetBegin=388 CharacterOffsetEnd=394 PartOfSpeech=NNP] [Text=Fellowes CharacterOffsetBegin=395 CharacterOffsetEnd=403 PartOfSpeech=NNP] [Text=did CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=RB] [Text=succumb CharacterOffsetBegin=412 CharacterOffsetEnd=419 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=DT] [Text=typical CharacterOffsetBegin=427 CharacterOffsetEnd=434 PartOfSpeech=JJ] [Text=Hollywood CharacterOffsetBegin=435 CharacterOffsetEnd=444 PartOfSpeech=NNP] [Text=gimmicks CharacterOffsetBegin=445 CharacterOffsetEnd=453 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=454 CharacterOffsetEnd=456 PartOfSpeech=TO] [Text=give CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=NN] [Text=some CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=DT] [Text=meaty CharacterOffsetBegin=476 CharacterOffsetEnd=481 PartOfSpeech=JJ] [Text=storyline CharacterOffsetBegin=482 CharacterOffsetEnd=491 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=.] 
+root(ROOT-0, succumb-8)
+det(director-2, The-1)
+nsubj(succumb-8, director-2)
+punct(director-2, ,-3)
+nn(Fellowes-5, Julian-4)
+appos(director-2, Fellowes-5)
+aux(succumb-8, did-6)
+neg(succumb-8, not-7)
+prep(succumb-8, to-9)
+det(gimmicks-13, the-10)
+amod(gimmicks-13, typical-11)
+nn(gimmicks-13, Hollywood-12)
+pobj(to-9, gimmicks-13)
+aux(give-15, to-14)
+infmod(gimmicks-13, give-15)
+det(film-17, the-16)
+iobj(give-15, film-17)
+det(storyline-20, some-18)
+amod(storyline-20, meaty-19)
+dobj(give-15, storyline-20)
+punct(succumb-8, .-21)
+
+Sentence #8 (14 tokens):
+It has not over dramatized it's portrayal of the English middle class.
+[Text=It CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=RB] [Text=over CharacterOffsetBegin=508 CharacterOffsetEnd=512 PartOfSpeech=IN] [Text=dramatized CharacterOffsetBegin=513 CharacterOffsetEnd=523 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=526 CharacterOffsetEnd=528 PartOfSpeech=VBZ] [Text=portrayal CharacterOffsetBegin=529 CharacterOffsetEnd=538 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=539 CharacterOffsetEnd=541 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=DT] [Text=English CharacterOffsetBegin=546 CharacterOffsetEnd=553 PartOfSpeech=NNP] [Text=middle CharacterOffsetBegin=554 CharacterOffsetEnd=560 PartOfSpeech=JJ] [Text=class CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, It-1)
+neg(over-4, not-3)
+prep(has-2, over-4)
+pobj(over-4, dramatized-5)
+nsubj(portrayal-8, it-6)
+cop(portrayal-8, 's-7)
+rcmod(dramatized-5, portrayal-8)
+prep(portrayal-8, of-9)
+det(class-13, the-10)
+nn(class-13, English-11)
+amod(class-13, middle-12)
+pobj(of-9, class-13)
+punct(has-2, .-14)
+
+Sentence #9 (15 tokens):
+The films pace does not falter although it is not a faced paced film.
+[Text=The CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=DT] [Text=films CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=NNS] [Text=pace CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=RB] [Text=falter CharacterOffsetBegin=596 CharacterOffsetEnd=602 PartOfSpeech=VB] [Text=although CharacterOffsetBegin=603 CharacterOffsetEnd=611 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=DT] [Text=faced CharacterOffsetBegin=624 CharacterOffsetEnd=629 PartOfSpeech=VBN] [Text=paced CharacterOffsetBegin=630 CharacterOffsetEnd=635 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=.] 
+root(ROOT-0, falter-6)
+det(pace-3, The-1)
+nn(pace-3, films-2)
+nsubj(falter-6, pace-3)
+aux(falter-6, does-4)
+neg(falter-6, not-5)
+mark(film-14, although-7)
+nsubj(film-14, it-8)
+cop(film-14, is-9)
+neg(film-14, not-10)
+det(film-14, a-11)
+amod(film-14, faced-12)
+amod(film-14, paced-13)
+advcl(falter-6, film-14)
+punct(falter-6, .-15)
+
+Sentence #10 (18 tokens):
+A good twist in the plot, that is not predictable A lovely English country village setting.
+[Text=A CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=JJ] [Text=twist CharacterOffsetBegin=653 CharacterOffsetEnd=658 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=659 CharacterOffsetEnd=661 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=666 CharacterOffsetEnd=670 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=,] [Text=that CharacterOffsetBegin=672 CharacterOffsetEnd=676 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=677 CharacterOffsetEnd=679 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=RB] [Text=predictable CharacterOffsetBegin=684 CharacterOffsetEnd=695 PartOfSpeech=JJ] [Text=A CharacterOffsetBegin=696 CharacterOffsetEnd=697 PartOfSpeech=NN] [Text=lovely CharacterOffsetBegin=698 CharacterOffsetEnd=704 PartOfSpeech=JJ] [Text=English CharacterOffsetBegin=705 CharacterOffsetEnd=712 PartOfSpeech=JJ] [Text=country CharacterOffsetBegin=713 CharacterOffsetEnd=720 PartOfSpeech=NN] [Text=village CharacterOffsetBegin=721 CharacterOffsetEnd=728 PartOfSpeech=NN] [Text=setting CharacterOffsetBegin=729 CharacterOffsetEnd=736 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=736 CharacterOffsetEnd=737 PartOfSpeech=.] 
+root(ROOT-0, twist-3)
+det(twist-3, A-1)
+amod(twist-3, good-2)
+prep(twist-3, in-4)
+det(plot-6, the-5)
+pobj(in-4, plot-6)
+punct(twist-3, ,-7)
+nsubj(setting-17, that-8)
+cop(setting-17, is-9)
+neg(predictable-11, not-10)
+amod(setting-17, predictable-11)
+nn(setting-17, A-12)
+amod(setting-17, lovely-13)
+amod(setting-17, English-14)
+nn(setting-17, country-15)
+nn(setting-17, village-16)
+rcmod(twist-3, setting-17)
+punct(twist-3, .-18)
+
+Sentence #11 (14 tokens):
+I enjoyed this film very much The locations were also very well selected.
+[Text=I CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech=PRP] [Text=enjoyed CharacterOffsetBegin=744 CharacterOffsetEnd=751 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=757 CharacterOffsetEnd=761 PartOfSpeech=NN] [Text=very CharacterOffsetBegin=762 CharacterOffsetEnd=766 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=767 CharacterOffsetEnd=771 PartOfSpeech=JJ] [Text=The CharacterOffsetBegin=772 CharacterOffsetEnd=775 PartOfSpeech=DT] [Text=locations CharacterOffsetBegin=776 CharacterOffsetEnd=785 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=786 CharacterOffsetEnd=790 PartOfSpeech=VBD] [Text=also CharacterOffsetBegin=791 CharacterOffsetEnd=795 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=796 CharacterOffsetEnd=800 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=801 CharacterOffsetEnd=805 PartOfSpeech=RB] [Text=selected CharacterOffsetBegin=806 CharacterOffsetEnd=814 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=814 CharacterOffsetEnd=815 PartOfSpeech=.] 
+root(ROOT-0, enjoyed-2)
+nsubj(enjoyed-2, I-1)
+det(film-4, this-3)
+dobj(enjoyed-2, film-4)
+advmod(much-6, very-5)
+advmod(selected-13, much-6)
+det(locations-8, The-7)
+nsubjpass(selected-13, locations-8)
+auxpass(selected-13, were-9)
+advmod(selected-13, also-10)
+advmod(well-12, very-11)
+advmod(selected-13, well-12)
+dep(enjoyed-2, selected-13)
+punct(enjoyed-2, .-14)
+
+Sentence #12 (12 tokens):
+If you enjoy films about relationships this is one to watch.
+[Text=If CharacterOffsetBegin=820 CharacterOffsetEnd=822 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=PRP] [Text=enjoy CharacterOffsetBegin=827 CharacterOffsetEnd=832 PartOfSpeech=VBP] [Text=films CharacterOffsetBegin=833 CharacterOffsetEnd=838 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=839 CharacterOffsetEnd=844 PartOfSpeech=IN] [Text=relationships CharacterOffsetBegin=845 CharacterOffsetEnd=858 PartOfSpeech=NNS] [Text=this CharacterOffsetBegin=859 CharacterOffsetEnd=863 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=864 CharacterOffsetEnd=866 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=867 CharacterOffsetEnd=870 PartOfSpeech=CD] [Text=to CharacterOffsetBegin=871 CharacterOffsetEnd=873 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=874 CharacterOffsetEnd=879 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=879 CharacterOffsetEnd=880 PartOfSpeech=.] 
+root(ROOT-0, one-9)
+mark(enjoy-3, If-1)
+nsubj(enjoy-3, you-2)
+advcl(one-9, enjoy-3)
+dobj(enjoy-3, films-4)
+prep(films-4, about-5)
+pobj(about-5, relationships-6)
+nsubj(one-9, this-7)
+cop(one-9, is-8)
+aux(watch-11, to-10)
+xcomp(one-9, watch-11)
+punct(one-9, .-12)
+
+Sentence #13 (7 tokens):
+Better to have some tissues ready!
+[Text=Better CharacterOffsetBegin=885 CharacterOffsetEnd=891 PartOfSpeech=RBR] [Text=to CharacterOffsetBegin=892 CharacterOffsetEnd=894 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=895 CharacterOffsetEnd=899 PartOfSpeech=VB] [Text=some CharacterOffsetBegin=900 CharacterOffsetEnd=904 PartOfSpeech=DT] [Text=tissues CharacterOffsetBegin=905 CharacterOffsetEnd=912 PartOfSpeech=NNS] [Text=ready CharacterOffsetBegin=913 CharacterOffsetEnd=918 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=918 CharacterOffsetEnd=919 PartOfSpeech=.] 
+root(ROOT-0, Better-1)
+aux(have-3, to-2)
+xcomp(Better-1, have-3)
+det(tissues-5, some-4)
+nsubj(ready-6, tissues-5)
+ccomp(have-3, ready-6)
+punct(Better-1, !-7)
+

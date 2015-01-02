@@ -1,0 +1,68 @@
+Sentence #1 (25 tokens):
+Like too many recent British films, this one takes a great cast and gives them a flimsy, cliched script to work with.
+[Text=Like CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=IN] [Text=too CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=JJ] [Text=recent CharacterOffsetBegin=18 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=British CharacterOffsetBegin=25 CharacterOffsetEnd=32 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=,] [Text=this CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=CD] [Text=takes CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=cast CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=CC] [Text=gives CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBZ] [Text=them CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=DT] [Text=flimsy CharacterOffsetBegin=85 CharacterOffsetEnd=91 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=,] [Text=cliched CharacterOffsetBegin=93 CharacterOffsetEnd=100 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=TO] [Text=work CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=.] 
+root(ROOT-0, takes-10)
+prep(takes-10, Like-1)
+advmod(many-3, too-2)
+amod(films-6, many-3)
+amod(films-6, recent-4)
+amod(films-6, British-5)
+pobj(Like-1, films-6)
+punct(takes-10, ,-7)
+det(one-9, this-8)
+nsubj(takes-10, one-9)
+det(cast-13, a-11)
+amod(cast-13, great-12)
+dobj(takes-10, cast-13)
+cc(takes-10, and-14)
+conj(takes-10, gives-15)
+iobj(gives-15, them-16)
+det(script-21, a-17)
+amod(script-21, flimsy-18)
+punct(script-21, ,-19)
+amod(script-21, cliched-20)
+dobj(gives-15, script-21)
+aux(work-23, to-22)
+infmod(script-21, work-23)
+prep(work-23, with-24)
+punct(takes-10, .-25)
+
+Sentence #2 (22 tokens):
+The performances save it from total disgrace, and it has some charm but it certainly didn't make me laugh.
+[Text=The CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=performances CharacterOffsetBegin=130 CharacterOffsetEnd=142 PartOfSpeech=NNS] [Text=save CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRP] [Text=from CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=total CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=JJ] [Text=disgrace CharacterOffsetBegin=162 CharacterOffsetEnd=170 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=,] [Text=and CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=VBZ] [Text=some CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=charm CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=PRP] [Text=certainly CharacterOffsetBegin=201 CharacterOffsetEnd=210 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=PRP] [Text=laugh CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, save-3)
+det(performances-2, The-1)
+nsubj(save-3, performances-2)
+dobj(save-3, it-4)
+prep(save-3, from-5)
+amod(disgrace-7, total-6)
+pobj(from-5, disgrace-7)
+punct(save-3, ,-8)
+cc(save-3, and-9)
+nsubj(has-11, it-10)
+conj(save-3, has-11)
+det(charm-13, some-12)
+dobj(has-11, charm-13)
+cc(save-3, but-14)
+nsubj(make-19, it-15)
+advmod(make-19, certainly-16)
+aux(make-19, did-17)
+neg(make-19, n't-18)
+conj(save-3, make-19)
+nsubj(laugh-21, me-20)
+xcomp(make-19, laugh-21)
+punct(save-3, .-22)
+
+Sentence #3 (9 tokens):
+Where are all the great British writers hiding?
+[Text=Where CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=WRB] [Text=are CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=JJ] [Text=British CharacterOffsetBegin=261 CharacterOffsetEnd=268 PartOfSpeech=JJ] [Text=writers CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=NNS] [Text=hiding CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=VBG] [Text=? CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=.] 
+root(ROOT-0, hiding-8)
+advmod(hiding-8, Where-1)
+aux(hiding-8, are-2)
+predet(writers-7, all-3)
+det(writers-7, the-4)
+amod(writers-7, great-5)
+amod(writers-7, British-6)
+nsubj(hiding-8, writers-7)
+punct(hiding-8, ?-9)
+

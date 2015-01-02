@@ -1,0 +1,185 @@
+Sentence #1 (7 tokens):
+One of the worst films ever.
+[Text=One CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=JJS] [Text=films CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NNS] [Text=ever CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, One-1)
+prep(One-1, of-2)
+det(films-5, the-3)
+amod(films-5, worst-4)
+pobj(of-2, films-5)
+advmod(films-5, ever-6)
+punct(One-1, .-7)
+
+Sentence #2 (11 tokens):
+Not funny, poor TV style cinematography, bad acting.
+[Text=Not CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=,] [Text=poor CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=JJ] [Text=TV CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=style CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=cinematography CharacterOffsetBegin=62 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=,] [Text=bad CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=.] 
+root(ROOT-0, funny-2)
+neg(funny-2, Not-1)
+punct(funny-2, ,-3)
+amod(style-6, poor-4)
+nn(style-6, TV-5)
+conj(funny-2, style-6)
+dep(style-6, cinematography-7)
+punct(cinematography-7, ,-8)
+amod(acting-10, bad-9)
+appos(cinematography-7, acting-10)
+punct(funny-2, .-11)
+
+Sentence #3 (17 tokens):
+Sad to see so many famous old actors barely able to walk, let alone act.
+[Text=Sad CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=VB] [Text=so CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=JJ] [Text=famous CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=JJ] [Text=old CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=NNS] [Text=barely CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=RB] [Text=able CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=TO] [Text=walk CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=,] [Text=let CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=VB] [Text=alone CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=JJ] [Text=act CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=.] 
+root(ROOT-0, Sad-1)
+aux(see-3, to-2)
+xcomp(Sad-1, see-3)
+advmod(many-5, so-4)
+amod(actors-8, many-5)
+amod(actors-8, famous-6)
+amod(actors-8, old-7)
+nsubj(able-10, actors-8)
+advmod(able-10, barely-9)
+ccomp(see-3, able-10)
+aux(walk-12, to-11)
+xcomp(able-10, walk-12)
+punct(walk-12, ,-13)
+xcomp(walk-12, let-14)
+amod(act-16, alone-15)
+dobj(let-14, act-16)
+punct(Sad-1, .-17)
+
+Sentence #4 (8 tokens):
+Lead female Nancy Young can't act.
+[Text=Lead CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=JJ] [Text=female CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=JJ] [Text=Nancy CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=NNP] [Text=Young CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=NNP] [Text=ca CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=RB] [Text=act CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=.] 
+root(ROOT-0, act-7)
+amod(Young-4, Lead-1)
+amod(Young-4, female-2)
+nn(Young-4, Nancy-3)
+nsubj(act-7, Young-4)
+aux(act-7, ca-5)
+neg(act-7, n't-6)
+punct(act-7, .-8)
+
+Sentence #5 (3 tokens):
+Terrible direction.
+[Text=Terrible CharacterOffsetBegin=210 CharacterOffsetEnd=218 PartOfSpeech=JJ] [Text=direction CharacterOffsetBegin=219 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, direction-2)
+amod(direction-2, Terrible-1)
+punct(direction-2, .-3)
+
+Sentence #6 (6 tokens):
+Sub-par with bad TV movies.
+[Text=Sub-par CharacterOffsetBegin=234 CharacterOffsetEnd=241 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=IN] [Text=bad CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=JJ] [Text=TV CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=.] 
+root(ROOT-0, Sub-par-1)
+prep(Sub-par-1, with-2)
+amod(movies-5, bad-3)
+nn(movies-5, TV-4)
+pobj(with-2, movies-5)
+punct(Sub-par-1, .-6)
+
+Sentence #7 (6 tokens):
+Occasional weak jokes fall flat.
+[Text=Occasional CharacterOffsetBegin=266 CharacterOffsetEnd=276 PartOfSpeech=JJ] [Text=weak CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=JJ] [Text=jokes CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=NNS] [Text=fall CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=VBP] [Text=flat CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=.] 
+root(ROOT-0, fall-4)
+amod(jokes-3, Occasional-1)
+amod(jokes-3, weak-2)
+nsubj(fall-4, jokes-3)
+acomp(fall-4, flat-5)
+punct(fall-4, .-6)
+
+Sentence #8 (11 tokens):
+Even the basic premise of the movie makes no sense.
+[Text=Even CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=DT] [Text=basic CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=JJ] [Text=premise CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=DT] [Text=sense CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=.] 
+root(ROOT-0, makes-8)
+advmod(premise-4, Even-1)
+det(premise-4, the-2)
+amod(premise-4, basic-3)
+nsubj(makes-8, premise-4)
+prep(premise-4, of-5)
+det(movie-7, the-6)
+pobj(of-5, movie-7)
+det(sense-10, no-9)
+dobj(makes-8, sense-10)
+punct(makes-8, .-11)
+
+Sentence #9 (19 tokens):
+Somehow they are supposed to stop a wedding from happening but there's no logic behind their actions.
+[Text=Somehow CharacterOffsetBegin=359 CharacterOffsetEnd=366 PartOfSpeech=RB] [Text=they CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=VBP] [Text=supposed CharacterOffsetBegin=376 CharacterOffsetEnd=384 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=TO] [Text=stop CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=DT] [Text=wedding CharacterOffsetBegin=395 CharacterOffsetEnd=402 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=IN] [Text=happening CharacterOffsetBegin=408 CharacterOffsetEnd=417 PartOfSpeech=VBG] [Text=but CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=422 CharacterOffsetEnd=427 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=DT] [Text=logic CharacterOffsetBegin=433 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=behind CharacterOffsetBegin=439 CharacterOffsetEnd=445 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=PRP$] [Text=actions CharacterOffsetBegin=452 CharacterOffsetEnd=459 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=.] 
+root(ROOT-0, supposed-4)
+advmod(supposed-4, Somehow-1)
+nsubjpass(supposed-4, they-2)
+auxpass(supposed-4, are-3)
+aux(stop-6, to-5)
+xcomp(supposed-4, stop-6)
+det(wedding-8, a-7)
+dobj(stop-6, wedding-8)
+prep(stop-6, from-9)
+pobj(from-9, happening-10)
+cc(supposed-4, but-11)
+expl('s-13, there-12)
+conj(supposed-4, 's-13)
+det(logic-15, no-14)
+nsubj('s-13, logic-15)
+prep(logic-15, behind-16)
+poss(actions-18, their-17)
+pobj(behind-16, actions-18)
+punct(supposed-4, .-19)
+
+Sentence #10 (13 tokens):
+Slow pacing made my wife stop watching but I suffered through it.
+[Text=Slow CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=JJ] [Text=pacing CharacterOffsetBegin=470 CharacterOffsetEnd=476 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=485 CharacterOffsetEnd=489 PartOfSpeech=NN] [Text=stop CharacterOffsetBegin=490 CharacterOffsetEnd=494 PartOfSpeech=VB] [Text=watching CharacterOffsetBegin=495 CharacterOffsetEnd=503 PartOfSpeech=VBG] [Text=but CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=PRP] [Text=suffered CharacterOffsetBegin=510 CharacterOffsetEnd=518 PartOfSpeech=VBD] [Text=through CharacterOffsetBegin=519 CharacterOffsetEnd=526 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=527 CharacterOffsetEnd=529 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=.] 
+root(ROOT-0, made-3)
+amod(pacing-2, Slow-1)
+nsubj(made-3, pacing-2)
+poss(wife-5, my-4)
+nsubj(stop-6, wife-5)
+xcomp(made-3, stop-6)
+xcomp(stop-6, watching-7)
+cc(made-3, but-8)
+nsubj(suffered-10, I-9)
+conj(made-3, suffered-10)
+prep(suffered-10, through-11)
+pobj(through-11, it-12)
+punct(made-3, .-13)
+
+Sentence #11 (25 tokens):
+The old men are supposed to be acting like they are young and horny, but it comes off as pathetic instead of funny.
+[Text=The CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=JJ] [Text=men CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=VBP] [Text=supposed CharacterOffsetBegin=551 CharacterOffsetEnd=559 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=VB] [Text=acting CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=VBG] [Text=like CharacterOffsetBegin=573 CharacterOffsetEnd=577 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=578 CharacterOffsetEnd=582 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=583 CharacterOffsetEnd=586 PartOfSpeech=VBP] [Text=young CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=CC] [Text=horny CharacterOffsetBegin=597 CharacterOffsetEnd=602 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=,] [Text=but CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=608 CharacterOffsetEnd=610 PartOfSpeech=PRP] [Text=comes CharacterOffsetBegin=611 CharacterOffsetEnd=616 PartOfSpeech=VBZ] [Text=off CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=RP] [Text=as CharacterOffsetBegin=621 CharacterOffsetEnd=623 PartOfSpeech=IN] [Text=pathetic CharacterOffsetBegin=624 CharacterOffsetEnd=632 PartOfSpeech=JJ] [Text=instead CharacterOffsetBegin=633 CharacterOffsetEnd=640 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=IN] [Text=funny CharacterOffsetBegin=644 CharacterOffsetEnd=649 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=649 CharacterOffsetEnd=650 PartOfSpeech=.] 
+root(ROOT-0, supposed-5)
+det(men-3, The-1)
+amod(men-3, old-2)
+nsubjpass(supposed-5, men-3)
+auxpass(supposed-5, are-4)
+aux(acting-8, to-6)
+aux(acting-8, be-7)
+xcomp(supposed-5, acting-8)
+mark(young-12, like-9)
+nsubj(young-12, they-10)
+cop(young-12, are-11)
+advcl(acting-8, young-12)
+cc(young-12, and-13)
+conj(young-12, horny-14)
+punct(supposed-5, ,-15)
+cc(supposed-5, but-16)
+nsubj(comes-18, it-17)
+conj(supposed-5, comes-18)
+prt(comes-18, off-19)
+prep(comes-18, as-20)
+pobj(as-20, pathetic-21)
+advmod(of-23, instead-22)
+prep(pathetic-21, of-23)
+pobj(of-23, funny-24)
+punct(supposed-5, .-25)
+
+Sentence #12 (11 tokens):
+How did they even get the money to make this?
+[Text=How CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=663 CharacterOffsetEnd=667 PartOfSpeech=PRP] [Text=even CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=677 CharacterOffsetEnd=680 PartOfSpeech=DT] [Text=money CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=687 CharacterOffsetEnd=689 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=695 CharacterOffsetEnd=699 PartOfSpeech=DT] [Text=? CharacterOffsetBegin=699 CharacterOffsetEnd=700 PartOfSpeech=.] 
+root(ROOT-0, make-9)
+advmod(get-5, How-1)
+aux(get-5, did-2)
+nsubj(get-5, they-3)
+advmod(get-5, even-4)
+dep(make-9, get-5)
+det(money-7, the-6)
+nsubj(make-9, money-7)
+aux(make-9, to-8)
+dobj(make-9, this-10)
+punct(make-9, ?-11)
+

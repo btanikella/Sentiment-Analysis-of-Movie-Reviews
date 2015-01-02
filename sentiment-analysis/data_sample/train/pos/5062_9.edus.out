@@ -1,0 +1,86 @@
+Sentence #1 (15 tokens):
+If you know the story of Grey Owl, you'll love the movie!
+[Text=If CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN] [Text=Grey CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=NNP] [Text=Owl CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=,] [Text=you CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=MD] [Text=love CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, love-12)
+mark(know-3, If-1)
+nsubj(know-3, you-2)
+advcl(love-12, know-3)
+det(story-5, the-4)
+dobj(know-3, story-5)
+prep(story-5, of-6)
+nn(Owl-8, Grey-7)
+pobj(of-6, Owl-8)
+punct(love-12, ,-9)
+nsubj(love-12, you-10)
+aux(love-12, 'll-11)
+det(movie-14, the-13)
+dobj(love-12, movie-14)
+punct(love-12, !-15)
+
+Sentence #2 (17 tokens):
+Annie Galipeau is a great actress, and Pierce is better than never in Grey Owl.
+[Text=Annie CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NNP] [Text=Galipeau CharacterOffsetBegin=72 CharacterOffsetEnd=80 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=JJ] [Text=actress CharacterOffsetBegin=92 CharacterOffsetEnd=99 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=,] [Text=and CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=CC] [Text=Pierce CharacterOffsetBegin=105 CharacterOffsetEnd=111 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=VBZ] [Text=better CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=never CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=IN] [Text=Grey CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=Owl CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=.] 
+root(ROOT-0, actress-6)
+nn(Galipeau-2, Annie-1)
+nsubj(actress-6, Galipeau-2)
+cop(actress-6, is-3)
+det(actress-6, a-4)
+amod(actress-6, great-5)
+punct(actress-6, ,-7)
+cc(actress-6, and-8)
+nsubj(better-11, Pierce-9)
+cop(better-11, is-10)
+conj(actress-6, better-11)
+prep(better-11, than-12)
+neg(in-14, never-13)
+pcomp(than-12, in-14)
+nn(Owl-16, Grey-15)
+pobj(in-14, Owl-16)
+punct(actress-6, .-17)
+
+Sentence #3 (12 tokens):
+But in this movie there's no real scene of action.
+[Text=But CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC] [Text=in CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=there CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=action CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.] 
+root(ROOT-0, 's-6)
+cc('s-6, But-1)
+prep('s-6, in-2)
+det(movie-4, this-3)
+pobj(in-2, movie-4)
+expl('s-6, there-5)
+det(scene-9, no-7)
+amod(scene-9, real-8)
+nsubj('s-6, scene-9)
+prep(scene-9, of-10)
+pobj(of-10, action-11)
+punct('s-6, .-12)
+
+Sentence #4 (11 tokens):
+I think this movie should be nominated at the Oscars!
+[Text=I CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=231 CharacterOffsetEnd=233 PartOfSpeech=VB] [Text=nominated CharacterOffsetBegin=234 CharacterOffsetEnd=243 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=DT] [Text=Oscars CharacterOffsetBegin=251 CharacterOffsetEnd=257 PartOfSpeech=NNPS] [Text=! CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+det(movie-4, this-3)
+nsubjpass(nominated-7, movie-4)
+aux(nominated-7, should-5)
+auxpass(nominated-7, be-6)
+ccomp(think-2, nominated-7)
+prep(nominated-7, at-8)
+det(Oscars-10, the-9)
+pobj(at-8, Oscars-10)
+punct(think-2, !-11)
+
+Sentence #5 (11 tokens):
+Welll go see this movie, it's A CLASSIC!
+[Text=Welll CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NNP] [Text=go CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=VB] [Text=see CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=,] [Text=it CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=VBZ] [Text=A CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=CLASSIC CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=.] 
+root(ROOT-0, go-2)
+nsubj(go-2, Welll-1)
+ccomp(go-2, see-3)
+det(movie-5, this-4)
+dobj(see-3, movie-5)
+punct(go-2, ,-6)
+nsubj(CLASSIC-10, it-7)
+cop(CLASSIC-10, 's-8)
+det(CLASSIC-10, A-9)
+ccomp(go-2, CLASSIC-10)
+punct(go-2, !-11)
+

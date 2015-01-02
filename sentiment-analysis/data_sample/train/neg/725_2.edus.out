@@ -1,0 +1,222 @@
+Sentence #1 (6 tokens):
+This was an awful movie!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=awful CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, This-1)
+cop(movie-5, was-2)
+det(movie-5, an-3)
+amod(movie-5, awful-4)
+punct(movie-5, !-6)
+
+Sentence #2 (11 tokens):
+Not for the subject matter, but for the delivery.
+[Text=Not CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT] [Text=subject CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=JJ] [Text=matter CharacterOffsetBegin=53 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=,] [Text=but CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=CC] [Text=for CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=delivery CharacterOffsetBegin=73 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, for-2)
+neg(for-2, Not-1)
+det(matter-5, the-3)
+amod(matter-5, subject-4)
+pobj(for-2, matter-5)
+punct(for-2, ,-6)
+cc(for-2, but-7)
+conj(for-2, for-8)
+det(delivery-10, the-9)
+pobj(for-8, delivery-10)
+punct(for-2, .-11)
+
+Sentence #3 (31 tokens):
+I went with my girlfriend at the time (when the movie came out), expecting to see a movie about the triumph of the human spirit over oppression.
+[Text=I CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=went CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=VBD] [Text=with CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=PRP$] [Text=girlfriend CharacterOffsetBegin=102 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=-LRB-] [Text=when CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=came CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=RP] [Text=-RRB- CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=,] [Text=expecting CharacterOffsetBegin=152 CharacterOffsetEnd=161 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=177 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=triumph CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=human CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=JJ] [Text=spirit CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=IN] [Text=oppression CharacterOffsetBegin=220 CharacterOffsetEnd=230 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=.] 
+root(ROOT-0, went-2)
+nsubj(went-2, I-1)
+prep(went-2, with-3)
+poss(girlfriend-5, my-4)
+pobj(with-3, girlfriend-5)
+prep(went-2, at-6)
+det(time-8, the-7)
+pobj(at-6, time-8)
+punct(came-13, -LRB--9)
+advmod(came-13, when-10)
+det(movie-12, the-11)
+nsubj(came-13, movie-12)
+dep(time-8, came-13)
+prt(came-13, out-14)
+punct(came-13, -RRB--15)
+punct(went-2, ,-16)
+xcomp(went-2, expecting-17)
+aux(see-19, to-18)
+xcomp(expecting-17, see-19)
+det(movie-21, a-20)
+dobj(see-19, movie-21)
+prep(movie-21, about-22)
+det(triumph-24, the-23)
+pobj(about-22, triumph-24)
+prep(triumph-24, of-25)
+det(spirit-28, the-26)
+amod(spirit-28, human-27)
+pobj(of-25, spirit-28)
+prep(triumph-24, over-29)
+pobj(over-29, oppression-30)
+punct(went-2, .-31)
+
+Sentence #4 (18 tokens):
+What we saw was 2 hours of brutal police oppression, with no uplift at the end.
+[Text=What CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=WP] [Text=we CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=VBD] [Text=was CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=VBD] [Text=2 CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=CD] [Text=hours CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=IN] [Text=brutal CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=JJ] [Text=police CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=oppression CharacterOffsetBegin=277 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=,] [Text=with CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=DT] [Text=uplift CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=.] 
+root(ROOT-0, hours-6)
+dobj(saw-3, What-1)
+nsubj(saw-3, we-2)
+csubj(hours-6, saw-3)
+cop(hours-6, was-4)
+num(hours-6, 2-5)
+prep(hours-6, of-7)
+amod(oppression-10, brutal-8)
+nn(oppression-10, police-9)
+pobj(of-7, oppression-10)
+punct(hours-6, ,-11)
+prep(hours-6, with-12)
+det(uplift-14, no-13)
+pobj(with-12, uplift-14)
+prep(hours-6, at-15)
+det(end-17, the-16)
+pobj(at-15, end-17)
+punct(hours-6, .-18)
+
+Sentence #5 (10 tokens):
+The previews and ads made NO mention of this!
+[Text=The CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=DT] [Text=previews CharacterOffsetBegin=324 CharacterOffsetEnd=332 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=CC] [Text=ads CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=NNS] [Text=made CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=VBD] [Text=NO CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=mention CharacterOffsetBegin=349 CharacterOffsetEnd=356 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=DT] [Text=! CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, made-5)
+det(previews-2, The-1)
+nsubj(made-5, previews-2)
+cc(previews-2, and-3)
+conj(previews-2, ads-4)
+nn(mention-7, NO-6)
+dobj(made-5, mention-7)
+prep(mention-7, of-8)
+pobj(of-8, this-9)
+punct(made-5, !-10)
+
+Sentence #6 (26 tokens):
+Plus, for all that they played up whoopi goldberg, my recollection is that she is arrested and killed in the first 20 minutes!
+[Text=Plus CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=,] [Text=for CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=DT] [Text=that CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=PRP] [Text=played CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=RP] [Text=whoopi CharacterOffsetBegin=404 CharacterOffsetEnd=410 PartOfSpeech=NNS] [Text=goldberg CharacterOffsetBegin=411 CharacterOffsetEnd=419 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=,] [Text=my CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=PRP$] [Text=recollection CharacterOffsetBegin=424 CharacterOffsetEnd=436 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=VBZ] [Text=arrested CharacterOffsetBegin=452 CharacterOffsetEnd=460 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=CC] [Text=killed CharacterOffsetBegin=465 CharacterOffsetEnd=471 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=JJ] [Text=20 CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=488 CharacterOffsetEnd=495 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=.] 
+root(ROOT-0, is-14)
+dep(is-14, Plus-1)
+punct(is-14, ,-2)
+prep(is-14, for-3)
+pobj(for-3, all-4)
+mark(played-7, that-5)
+nsubj(played-7, they-6)
+ccomp(all-4, played-7)
+prt(played-7, up-8)
+nn(goldberg-10, whoopi-9)
+dobj(played-7, goldberg-10)
+punct(goldberg-10, ,-11)
+poss(recollection-13, my-12)
+appos(goldberg-10, recollection-13)
+mark(arrested-18, that-15)
+nsubjpass(arrested-18, she-16)
+auxpass(arrested-18, is-17)
+ccomp(is-14, arrested-18)
+cc(arrested-18, and-19)
+conj(arrested-18, killed-20)
+prep(arrested-18, in-21)
+det(minutes-25, the-22)
+amod(minutes-25, first-23)
+num(minutes-25, 20-24)
+pobj(in-21, minutes-25)
+punct(is-14, !-26)
+
+Sentence #7 (9 tokens):
+Again, the previews say nothing about this!
+[Text=Again CharacterOffsetBegin=501 CharacterOffsetEnd=506 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=506 CharacterOffsetEnd=507 PartOfSpeech=,] [Text=the CharacterOffsetBegin=508 CharacterOffsetEnd=511 PartOfSpeech=DT] [Text=previews CharacterOffsetBegin=512 CharacterOffsetEnd=520 PartOfSpeech=NNS] [Text=say CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=VBP] [Text=nothing CharacterOffsetBegin=525 CharacterOffsetEnd=532 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=533 CharacterOffsetEnd=538 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=539 CharacterOffsetEnd=543 PartOfSpeech=DT] [Text=! CharacterOffsetBegin=543 CharacterOffsetEnd=544 PartOfSpeech=.] 
+root(ROOT-0, say-5)
+advmod(say-5, Again-1)
+punct(say-5, ,-2)
+det(previews-4, the-3)
+nsubj(say-5, previews-4)
+dobj(say-5, nothing-6)
+prep(nothing-6, about-7)
+pobj(about-7, this-8)
+punct(say-5, !-9)
+
+Sentence #8 (18 tokens):
+(not that you would expect that, but it's just more of the problem).
+[Text=-LRB- CharacterOffsetBegin=549 CharacterOffsetEnd=550 PartOfSpeech=-LRB-] [Text=not CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=563 CharacterOffsetEnd=568 PartOfSpeech=MD] [Text=expect CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=580 CharacterOffsetEnd=581 PartOfSpeech=,] [Text=but CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=586 CharacterOffsetEnd=588 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=JJR] [Text=of CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=DT] [Text=problem CharacterOffsetBegin=608 CharacterOffsetEnd=615 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=615 CharacterOffsetEnd=616 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=616 CharacterOffsetEnd=617 PartOfSpeech=.] 
+root(ROOT-0, expect-6)
+punct(expect-6, -LRB--1)
+dep(expect-6, not-2)
+mark(expect-6, that-3)
+nsubj(expect-6, you-4)
+aux(expect-6, would-5)
+dobj(expect-6, that-7)
+punct(expect-6, ,-8)
+cc(expect-6, but-9)
+nsubj(more-13, it-10)
+cop(more-13, 's-11)
+advmod(more-13, just-12)
+conj(expect-6, more-13)
+prep(more-13, of-14)
+det(problem-16, the-15)
+pobj(of-14, problem-16)
+punct(more-13, -RRB--17)
+punct(expect-6, .-18)
+
+Sentence #9 (19 tokens):
+If I had known how depressing this movie would be, I would've never have seen it.
+[Text=If CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=627 CharacterOffsetEnd=630 PartOfSpeech=VBD] [Text=known CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=VBN] [Text=how CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=WRB] [Text=depressing CharacterOffsetBegin=641 CharacterOffsetEnd=651 PartOfSpeech=JJ] [Text=this CharacterOffsetBegin=652 CharacterOffsetEnd=656 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=657 CharacterOffsetEnd=662 PartOfSpeech=NN] [Text=would CharacterOffsetBegin=663 CharacterOffsetEnd=668 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=669 CharacterOffsetEnd=671 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=,] [Text=I CharacterOffsetBegin=673 CharacterOffsetEnd=674 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=675 CharacterOffsetEnd=680 PartOfSpeech=MD] [Text='ve CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=VB] [Text=never CharacterOffsetBegin=684 CharacterOffsetEnd=689 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=695 CharacterOffsetEnd=699 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=702 CharacterOffsetEnd=703 PartOfSpeech=.] 
+root(ROOT-0, seen-17)
+mark(known-4, If-1)
+nsubj(known-4, I-2)
+aux(known-4, had-3)
+advcl(seen-17, known-4)
+advmod(depressing-6, how-5)
+dep(be-10, depressing-6)
+det(movie-8, this-7)
+nsubj(be-10, movie-8)
+aux(be-10, would-9)
+ccomp(known-4, be-10)
+punct(seen-17, ,-11)
+nsubj(seen-17, I-12)
+aux(seen-17, would-13)
+aux(seen-17, 've-14)
+neg(seen-17, never-15)
+aux(seen-17, have-16)
+dobj(seen-17, it-18)
+punct(seen-17, .-19)
+
+Sentence #10 (12 tokens):
+Or at least, I would've been prepared for it.
+[Text=Or CharacterOffsetBegin=708 CharacterOffsetEnd=710 PartOfSpeech=CC] [Text=at CharacterOffsetBegin=711 CharacterOffsetEnd=713 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=714 CharacterOffsetEnd=719 PartOfSpeech=JJS] [Text=, CharacterOffsetBegin=719 CharacterOffsetEnd=720 PartOfSpeech=,] [Text=I CharacterOffsetBegin=721 CharacterOffsetEnd=722 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=723 CharacterOffsetEnd=728 PartOfSpeech=MD] [Text='ve CharacterOffsetBegin=728 CharacterOffsetEnd=731 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=VBN] [Text=prepared CharacterOffsetBegin=737 CharacterOffsetEnd=745 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=746 CharacterOffsetEnd=749 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=750 CharacterOffsetEnd=752 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=.] 
+root(ROOT-0, prepared-9)
+cc(prepared-9, Or-1)
+advmod(prepared-9, at-2)
+pobj(at-2, least-3)
+punct(prepared-9, ,-4)
+nsubj(prepared-9, I-5)
+aux(prepared-9, would-6)
+aux(prepared-9, 've-7)
+auxpass(prepared-9, been-8)
+prep(prepared-9, for-10)
+pobj(for-10, it-11)
+punct(prepared-9, .-12)
+
+Sentence #11 (18 tokens):
+This was a bait and switch ad campaign, and I will NEVER see this movie again!
+[Text=This CharacterOffsetBegin=758 CharacterOffsetEnd=762 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=767 CharacterOffsetEnd=768 PartOfSpeech=DT] [Text=bait CharacterOffsetBegin=769 CharacterOffsetEnd=773 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=CC] [Text=switch CharacterOffsetBegin=778 CharacterOffsetEnd=784 PartOfSpeech=NN] [Text=ad CharacterOffsetBegin=785 CharacterOffsetEnd=787 PartOfSpeech=NN] [Text=campaign CharacterOffsetBegin=788 CharacterOffsetEnd=796 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=796 CharacterOffsetEnd=797 PartOfSpeech=,] [Text=and CharacterOffsetBegin=798 CharacterOffsetEnd=801 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=802 CharacterOffsetEnd=803 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=804 CharacterOffsetEnd=808 PartOfSpeech=MD] [Text=NEVER CharacterOffsetBegin=809 CharacterOffsetEnd=814 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=815 CharacterOffsetEnd=818 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=819 CharacterOffsetEnd=823 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=824 CharacterOffsetEnd=829 PartOfSpeech=NN] [Text=again CharacterOffsetBegin=830 CharacterOffsetEnd=835 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=835 CharacterOffsetEnd=836 PartOfSpeech=.] 
+root(ROOT-0, campaign-8)
+nsubj(campaign-8, This-1)
+cop(campaign-8, was-2)
+det(campaign-8, a-3)
+nn(campaign-8, bait-4)
+cc(bait-4, and-5)
+conj(bait-4, switch-6)
+nn(campaign-8, ad-7)
+punct(campaign-8, ,-9)
+cc(campaign-8, and-10)
+nsubj(see-14, I-11)
+aux(see-14, will-12)
+advmod(see-14, NEVER-13)
+conj(campaign-8, see-14)
+det(movie-16, this-15)
+dobj(see-14, movie-16)
+advmod(see-14, again-17)
+punct(campaign-8, !-18)
+

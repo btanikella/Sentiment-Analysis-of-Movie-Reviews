@@ -1,0 +1,72 @@
+Sentence #1 (7 tokens):
+Flockhart's performance is very disappointing.
+[Text=Flockhart CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=POS] [Text=performance CharacterOffsetBegin=16 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=RB] [Text=disappointing CharacterOffsetBegin=36 CharacterOffsetEnd=49 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=.] 
+root(ROOT-0, disappointing-6)
+poss(performance-3, Flockhart-1)
+possessive(Flockhart-1, 's-2)
+nsubj(disappointing-6, performance-3)
+cop(disappointing-6, is-4)
+advmod(disappointing-6, very-5)
+punct(disappointing-6, .-7)
+
+Sentence #2 (17 tokens):
+It seems she is trying to make up for her lack of emotion by substituting obscenities.
+[Text=It CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=PRP] [Text=seems CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=VBZ] [Text=she CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=VBZ] [Text=trying CharacterOffsetBegin=71 CharacterOffsetEnd=77 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=PRP$] [Text=lack CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=IN] [Text=emotion CharacterOffsetBegin=105 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN] [Text=substituting CharacterOffsetBegin=116 CharacterOffsetEnd=128 PartOfSpeech=VBG] [Text=obscenities CharacterOffsetBegin=129 CharacterOffsetEnd=140 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, seems-2)
+nsubj(seems-2, It-1)
+nsubj(trying-5, she-3)
+aux(trying-5, is-4)
+ccomp(seems-2, trying-5)
+aux(make-7, to-6)
+xcomp(trying-5, make-7)
+prt(make-7, up-8)
+prep(make-7, for-9)
+poss(lack-11, her-10)
+pobj(for-9, lack-11)
+prep(lack-11, of-12)
+pobj(of-12, emotion-13)
+prep(make-7, by-14)
+pcomp(by-14, substituting-15)
+dobj(substituting-15, obscenities-16)
+punct(seems-2, .-17)
+
+Sentence #3 (12 tokens):
+Why the R rating includes 'sexuality' is beyond me.
+[Text=Why CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=R CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=rating CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=NN] [Text=includes CharacterOffsetBegin=163 CharacterOffsetEnd=171 PartOfSpeech=VBZ] [Text=` CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=``] [Text=sexuality CharacterOffsetBegin=173 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=''] [Text=is CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=VBZ] [Text=beyond CharacterOffsetBegin=187 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=.] 
+root(ROOT-0, includes-5)
+advmod(includes-5, Why-1)
+det(rating-4, the-2)
+nn(rating-4, R-3)
+nsubj(includes-5, rating-4)
+punct(is-9, `-6)
+nsubj(is-9, sexuality-7)
+punct(is-9, '-8)
+ccomp(includes-5, is-9)
+prep(is-9, beyond-10)
+pobj(beyond-10, me-11)
+punct(includes-5, .-12)
+
+Sentence #4 (9 tokens):
+There is no nudity or steamy love scenes.
+[Text=There CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=DT] [Text=nudity CharacterOffsetBegin=214 CharacterOffsetEnd=220 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=CC] [Text=steamy CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=JJ] [Text=love CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=NN] [Text=scenes CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+det(nudity-4, no-3)
+nsubj(is-2, nudity-4)
+cc(nudity-4, or-5)
+amod(scenes-8, steamy-6)
+nn(scenes-8, love-7)
+conj(nudity-4, scenes-8)
+punct(is-2, .-9)
+
+Sentence #5 (7 tokens):
+The plot is old and tired.
+[Text=The CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=VBZ] [Text=old CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=CC] [Text=tired CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=.] 
+root(ROOT-0, old-4)
+det(plot-2, The-1)
+nsubj(old-4, plot-2)
+cop(old-4, is-3)
+cc(old-4, and-5)
+conj(old-4, tired-6)
+punct(old-4, .-7)
+

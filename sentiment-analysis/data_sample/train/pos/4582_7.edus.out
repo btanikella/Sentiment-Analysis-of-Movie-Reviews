@@ -1,0 +1,84 @@
+Sentence #1 (8 tokens):
+I do find it a bit overrated.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBP] [Text=find CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=overrated CharacterOffsetBegin=23 CharacterOffsetEnd=32 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=.] 
+root(ROOT-0, find-3)
+nsubj(find-3, I-1)
+aux(find-3, do-2)
+nsubj(overrated-7, it-4)
+det(bit-6, a-5)
+npadvmod(overrated-7, bit-6)
+xcomp(find-3, overrated-7)
+punct(find-3, .-8)
+
+Sentence #2 (17 tokens):
+Maybe it's just because I've never seen a subtitled version (dubbing stinks!
+    )
+[Text=Maybe CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=54 CharacterOffsetEnd=61 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=VBP] [Text=never CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=subtitled CharacterOffsetBegin=80 CharacterOffsetEnd=89 PartOfSpeech=VBN] [Text=version CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=-LRB-] [Text=dubbing CharacterOffsetBegin=99 CharacterOffsetEnd=106 PartOfSpeech=VBG] [Text=stinks CharacterOffsetBegin=107 CharacterOffsetEnd=113 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=-RRB-] 
+root(ROOT-0, 's-3)
+advmod('s-3, Maybe-1)
+nsubj('s-3, it-2)
+advmod(seen-9, just-4)
+mark(seen-9, because-5)
+nsubj(seen-9, I-6)
+aux(seen-9, 've-7)
+neg(seen-9, never-8)
+advcl('s-3, seen-9)
+det(version-12, a-10)
+amod(version-12, subtitled-11)
+dep(seen-9, version-12)
+punct(stinks-15, -LRB--13)
+nn(stinks-15, dubbing-14)
+dep(version-12, stinks-15)
+punct(stinks-15, !-16)
+punct('s-3, -RRB--17)
+
+Sentence #3 (17 tokens):
+, but I just don't get into it like a lot of other people do.
+[Text=, CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=,] [Text=but CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=165 CharacterOffsetEnd=170 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=.] 
+root(ROOT-0, get-7)
+punct(get-7, ,-1)
+cc(get-7, but-2)
+nsubj(get-7, I-3)
+advmod(get-7, just-4)
+aux(get-7, do-5)
+neg(get-7, n't-6)
+prep(get-7, into-8)
+pobj(into-8, it-9)
+mark(do-16, like-10)
+det(lot-12, a-11)
+nsubj(do-16, lot-12)
+prep(lot-12, of-13)
+amod(people-15, other-14)
+pobj(of-13, people-15)
+advcl(get-7, do-16)
+punct(get-7, .-17)
+
+Sentence #4 (25 tokens):
+The finale is really great though as Jackie trashes a mall, a scene that plays in my head every time i go shopping!
+[Text=The CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=DT] [Text=finale CharacterOffsetBegin=190 CharacterOffsetEnd=196 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=VBZ] [Text=really CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=JJ] [Text=though CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=IN] [Text=as CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=IN] [Text=Jackie CharacterOffsetBegin=223 CharacterOffsetEnd=229 PartOfSpeech=NNP] [Text=trashes CharacterOffsetBegin=230 CharacterOffsetEnd=237 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=DT] [Text=mall CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=,] [Text=a CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=DT] [Text=scene CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=WDT] [Text=plays CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=PRP$] [Text=head CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=NN] [Text=every CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=i CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=FW] [Text=go CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=VB] [Text=shopping CharacterOffsetBegin=292 CharacterOffsetEnd=300 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=.] 
+root(ROOT-0, great-5)
+det(finale-2, The-1)
+nsubj(great-5, finale-2)
+cop(great-5, is-3)
+advmod(great-5, really-4)
+prep(great-5, though-6)
+mark(trashes-9, as-7)
+nsubj(trashes-9, Jackie-8)
+ccomp(though-6, trashes-9)
+det(mall-11, a-10)
+dobj(trashes-9, mall-11)
+punct(trashes-9, ,-12)
+det(scene-14, a-13)
+npadvmod(trashes-9, scene-14)
+nsubj(plays-16, that-15)
+rcmod(scene-14, plays-16)
+prep(plays-16, in-17)
+poss(head-19, my-18)
+pobj(in-17, head-19)
+det(time-21, every-20)
+dobj(plays-16, time-21)
+nsubj(go-23, i-22)
+rcmod(time-21, go-23)
+dobj(go-23, shopping-24)
+punct(great-5, !-25)
+

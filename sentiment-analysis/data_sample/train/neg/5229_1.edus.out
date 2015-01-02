@@ -1,0 +1,164 @@
+Sentence #1 (6 tokens):
+boring stuff we got here.
+[Text=boring CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=JJ] [Text=stuff CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NN] [Text=we CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=VBD] [Text=here CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=.] 
+root(ROOT-0, stuff-2)
+amod(stuff-2, boring-1)
+nsubj(got-4, we-3)
+rcmod(stuff-2, got-4)
+advmod(got-4, here-5)
+punct(stuff-2, .-6)
+
+Sentence #2 (9 tokens):
+His 5 minute shorts are better than this.
+[Text=His CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=PRP$] [Text=5 CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=CD] [Text=minute CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=NN] [Text=shorts CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=VBP] [Text=better CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=.] 
+root(ROOT-0, better-6)
+poss(shorts-4, His-1)
+number(minute-3, 5-2)
+amod(shorts-4, minute-3)
+nsubj(better-6, shorts-4)
+cop(better-6, are-5)
+prep(better-6, than-7)
+pobj(than-7, this-8)
+punct(better-6, .-9)
+
+Sentence #3 (3 tokens):
+know why?
+[Text=know CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=VB] [Text=why CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=WRB] [Text=? CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=.] 
+root(ROOT-0, know-1)
+dep(know-1, why-2)
+punct(know-1, ?-3)
+
+Sentence #4 (16 tokens):
+because there only 5 minutes and not 91 minutes or how ever long this is.
+[Text=because CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=EX] [Text=only CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=RB] [Text=5 CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=115 CharacterOffsetEnd=122 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=RB] [Text=91 CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=NNS] [Text=or CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=CC] [Text=how CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=WRB] [Text=ever CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=RB] [Text=long CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=RB] [Text=this CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=.] 
+root(ROOT-0, minutes-5)
+mark(minutes-5, because-1)
+expl(minutes-5, there-2)
+quantmod(5-4, only-3)
+num(minutes-5, 5-4)
+cc(minutes-5, and-6)
+conj(minutes-5, not-7)
+num(minutes-9, 91-8)
+dep(minutes-5, minutes-9)
+cc(minutes-5, or-10)
+advmod(ever-12, how-11)
+advmod(is-15, ever-12)
+advmod(is-15, long-13)
+nsubj(is-15, this-14)
+conj(minutes-5, is-15)
+punct(minutes-5, .-16)
+
+Sentence #5 (7 tokens):
+The plot is kinda... eh.
+[Text=The CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=VBZ] [Text=kinda CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=:] [Text=eh CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=UH] [Text=. CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=.] 
+root(ROOT-0, kinda-4)
+det(plot-2, The-1)
+nsubj(kinda-4, plot-2)
+cop(kinda-4, is-3)
+punct(kinda-4, ...-5)
+dep(kinda-4, eh-6)
+punct(kinda-4, .-7)
+
+Sentence #6 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #7 (40 tokens):
+the last half hour is alright the rest is boring and not funny =( I had my hopes up, the trailer made it look funny but the pace of this movie is pretty slow and sadly not funny.
+[Text=the CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=last CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=JJ] [Text=half CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=JJ] [Text=hour CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=VBZ] [Text=alright CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=VBZ] [Text=boring CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=JJ] [Text==-LRB- CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=PRP$] [Text=hopes CharacterOffsetBegin=273 CharacterOffsetEnd=278 PartOfSpeech=NNS] [Text=up CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=,] [Text=the CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=DT] [Text=trailer CharacterOffsetBegin=287 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=PRP] [Text=look CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VB] [Text=funny CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=DT] [Text=pace CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=VBZ] [Text=pretty CharacterOffsetBegin=344 CharacterOffsetEnd=350 PartOfSpeech=RB] [Text=slow CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=CC] [Text=sadly CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=.] 
+root(ROOT-0, made-23)
+det(hour-4, the-1)
+amod(hour-4, last-2)
+amod(hour-4, half-3)
+nsubj(boring-10, hour-4)
+cop(boring-10, is-5)
+mark(boring-10, alright-6)
+det(rest-8, the-7)
+nsubj(boring-10, rest-8)
+cop(boring-10, is-9)
+ccomp(made-23, boring-10)
+cc(boring-10, and-11)
+neg(funny-13, not-12)
+conj(boring-10, funny-13)
+dep(funny-13, =-LRB--14)
+nsubj(had-16, I-15)
+rcmod(=-LRB--14, had-16)
+poss(hopes-18, my-17)
+dobj(had-16, hopes-18)
+advmod(hopes-18, up-19)
+punct(made-23, ,-20)
+det(trailer-22, the-21)
+nsubj(made-23, trailer-22)
+nsubj(look-25, it-24)
+ccomp(made-23, look-25)
+acomp(look-25, funny-26)
+cc(look-25, but-27)
+det(pace-29, the-28)
+nsubj(slow-35, pace-29)
+prep(pace-29, of-30)
+det(movie-32, this-31)
+pobj(of-30, movie-32)
+cop(slow-35, is-33)
+advmod(slow-35, pretty-34)
+conj(look-25, slow-35)
+cc(slow-35, and-36)
+advmod(funny-39, sadly-37)
+neg(funny-39, not-38)
+conj(slow-35, funny-39)
+punct(made-23, .-40)
+
+Sentence #8 (15 tokens):
+Just plain boring klaymen running into each other and trying to make us laugh.
+[Text=Just CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=RB] [Text=plain CharacterOffsetBegin=386 CharacterOffsetEnd=391 PartOfSpeech=JJ] [Text=boring CharacterOffsetBegin=392 CharacterOffsetEnd=398 PartOfSpeech=JJ] [Text=klaymen CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=NNS] [Text=running CharacterOffsetBegin=407 CharacterOffsetEnd=414 PartOfSpeech=VBG] [Text=into CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=IN] [Text=each CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=CC] [Text=trying CharacterOffsetBegin=435 CharacterOffsetEnd=441 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=VB] [Text=us CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=PRP] [Text=laugh CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=.] 
+root(ROOT-0, klaymen-4)
+advmod(plain-2, Just-1)
+amod(klaymen-4, plain-2)
+amod(klaymen-4, boring-3)
+partmod(klaymen-4, running-5)
+prep(running-5, into-6)
+det(other-8, each-7)
+pobj(into-6, other-8)
+cc(klaymen-4, and-9)
+conj(klaymen-4, trying-10)
+aux(make-12, to-11)
+xcomp(trying-10, make-12)
+nsubj(laugh-14, us-13)
+xcomp(make-12, laugh-14)
+punct(klaymen-4, .-15)
+
+Sentence #9 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #10 (26 tokens):
+not working.Maybe next time knox.Maybe re-cutting this movie and adding better scenes would do a lot of healing but for now its just not good.
+[Text=not CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=RB] [Text=working.Maybe CharacterOffsetBegin=465 CharacterOffsetEnd=478 PartOfSpeech=NN] [Text=next CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=NN] [Text=knox.Maybe CharacterOffsetBegin=489 CharacterOffsetEnd=499 PartOfSpeech=NN] [Text=re-cutting CharacterOffsetBegin=500 CharacterOffsetEnd=510 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=CC] [Text=adding CharacterOffsetBegin=526 CharacterOffsetEnd=532 PartOfSpeech=VBG] [Text=better CharacterOffsetBegin=533 CharacterOffsetEnd=539 PartOfSpeech=JJR] [Text=scenes CharacterOffsetBegin=540 CharacterOffsetEnd=546 PartOfSpeech=NNS] [Text=would CharacterOffsetBegin=547 CharacterOffsetEnd=552 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=558 CharacterOffsetEnd=561 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=IN] [Text=healing CharacterOffsetBegin=565 CharacterOffsetEnd=572 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=CC] [Text=for CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=IN] [Text=now CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=RB] [Text=its CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=PRP$] [Text=just CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=594 CharacterOffsetEnd=597 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=.] 
+root(ROOT-0, do-14)
+neg(working.Maybe-2, not-1)
+nsubj(do-14, working.Maybe-2)
+amod(time-4, next-3)
+tmod(working.Maybe-2, time-4)
+nn(re-cutting-6, knox.Maybe-5)
+dep(time-4, re-cutting-6)
+det(movie-8, this-7)
+dep(re-cutting-6, movie-8)
+cc(working.Maybe-2, and-9)
+conj(working.Maybe-2, adding-10)
+amod(scenes-12, better-11)
+dobj(adding-10, scenes-12)
+aux(do-14, would-13)
+det(lot-16, a-15)
+dobj(do-14, lot-16)
+prep(lot-16, of-17)
+pobj(of-17, healing-18)
+cc(do-14, but-19)
+conj(do-14, for-20)
+advmod(good-25, now-21)
+poss(good-25, its-22)
+advmod(good-25, just-23)
+neg(good-25, not-24)
+pobj(for-20, good-25)
+punct(do-14, .-26)
+

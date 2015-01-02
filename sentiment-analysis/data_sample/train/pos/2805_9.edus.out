@@ -1,0 +1,400 @@
+Sentence #1 (15 tokens):
+Wow, I can't believe I waited so long to see this film.
+[Text=Wow CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=,] [Text=I CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=RB] [Text=believe CharacterOffsetBegin=17 CharacterOffsetEnd=24 PartOfSpeech=VB] [Text=I CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=PRP] [Text=waited CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=RB] [Text=long CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, believe-6)
+discourse(believe-6, Wow-1)
+punct(believe-6, ,-2)
+nsubj(believe-6, I-3)
+aux(believe-6, ca-4)
+neg(believe-6, n't-5)
+nsubj(waited-8, I-7)
+ccomp(believe-6, waited-8)
+advmod(long-10, so-9)
+advmod(waited-8, long-10)
+aux(see-12, to-11)
+xcomp(waited-8, see-12)
+det(film-14, this-13)
+dobj(see-12, film-14)
+punct(believe-6, .-15)
+
+Sentence #2 (9 tokens):
+I just never got around to watching it.
+[Text=I CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=RB] [Text=never CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=VBD] [Text=around CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=TO] [Text=watching CharacterOffsetBegin=91 CharacterOffsetEnd=99 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=.] 
+root(ROOT-0, got-4)
+nsubj(got-4, I-1)
+advmod(got-4, just-2)
+neg(got-4, never-3)
+advmod(got-4, around-5)
+prep(got-4, to-6)
+pcomp(to-6, watching-7)
+dobj(watching-7, it-8)
+punct(got-4, .-9)
+
+Sentence #3 (8 tokens):
+The plot has nothing that interests me.
+[Text=The CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=121 CharacterOffsetEnd=128 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=IN] [Text=interests CharacterOffsetBegin=134 CharacterOffsetEnd=143 PartOfSpeech=NNS] [Text=me CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(plot-2, The-1)
+nsubj(has-3, plot-2)
+dobj(has-3, nothing-4)
+prep(nothing-4, that-5)
+dep(that-5, interests-6)
+dobj(interests-6, me-7)
+punct(has-3, .-8)
+
+Sentence #4 (9 tokens):
+I know nothing about soccer (football.)
+[Text=I CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=VBP] [Text=nothing CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=IN] [Text=soccer CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=-LRB-] [Text=football CharacterOffsetBegin=181 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=-RRB-] 
+root(ROOT-0, know-2)
+nsubj(know-2, I-1)
+dobj(know-2, nothing-3)
+prep(nothing-3, about-4)
+nn(football-7, soccer-5)
+punct(football-7, -LRB--6)
+pobj(about-4, football-7)
+punct(know-2, .-8)
+punct(know-2, -RRB--9)
+
+Sentence #5 (12 tokens):
+I am one of those American fools that has no clue.
+[Text=I CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=VBP] [Text=one CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=DT] [Text=American CharacterOffsetBegin=214 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=fools CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=WDT] [Text=has CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=clue CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=.] 
+root(ROOT-0, one-3)
+nsubj(one-3, I-1)
+cop(one-3, am-2)
+prep(one-3, of-4)
+det(fools-7, those-5)
+amod(fools-7, American-6)
+pobj(of-4, fools-7)
+nsubj(has-9, that-8)
+rcmod(fools-7, has-9)
+det(clue-11, no-10)
+dobj(has-9, clue-11)
+punct(one-3, .-12)
+
+Sentence #6 (11 tokens):
+I had never even seen David Beckham before this film.
+[Text=I CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=VBD] [Text=never CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=VBN] [Text=David CharacterOffsetBegin=273 CharacterOffsetEnd=278 PartOfSpeech=NNP] [Text=Beckham CharacterOffsetBegin=279 CharacterOffsetEnd=286 PartOfSpeech=NNP] [Text=before CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=.] 
+root(ROOT-0, seen-5)
+nsubj(seen-5, I-1)
+aux(seen-5, had-2)
+neg(seen-5, never-3)
+advmod(seen-5, even-4)
+nn(Beckham-7, David-6)
+dobj(seen-5, Beckham-7)
+prep(seen-5, before-8)
+det(film-10, this-9)
+pobj(before-8, film-10)
+punct(seen-5, .-11)
+
+Sentence #7 (18 tokens):
+I chose to ignore the buzz surrounding this film at the time it was released in America.
+[Text=I CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=PRP] [Text=chose CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=TO] [Text=ignore CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=DT] [Text=buzz CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=surrounding CharacterOffsetBegin=336 CharacterOffsetEnd=347 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=VBD] [Text=released CharacterOffsetBegin=377 CharacterOffsetEnd=385 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=America CharacterOffsetBegin=389 CharacterOffsetEnd=396 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=.] 
+root(ROOT-0, chose-2)
+nsubj(chose-2, I-1)
+aux(ignore-4, to-3)
+xcomp(chose-2, ignore-4)
+det(buzz-6, the-5)
+dobj(ignore-4, buzz-6)
+partmod(buzz-6, surrounding-7)
+det(film-9, this-8)
+dobj(surrounding-7, film-9)
+prep(ignore-4, at-10)
+det(time-12, the-11)
+pobj(at-10, time-12)
+nsubjpass(released-15, it-13)
+auxpass(released-15, was-14)
+rcmod(time-12, released-15)
+prep(released-15, in-16)
+pobj(in-16, America-17)
+punct(chose-2, .-18)
+
+Sentence #8 (4 tokens):
+Enough about me.
+[Text=Enough CharacterOffsetBegin=402 CharacterOffsetEnd=408 PartOfSpeech=NNP] [Text=about CharacterOffsetBegin=409 CharacterOffsetEnd=414 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=.] 
+root(ROOT-0, Enough-1)
+prep(Enough-1, about-2)
+pobj(about-2, me-3)
+punct(Enough-1, .-4)
+
+Sentence #9 (17 tokens):
+Truth be told, it was a mistake to ignore this little piece of movie-making heaven.
+[Text=Truth CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=NN] [Text=be CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=VB] [Text=told CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=436 CharacterOffsetEnd=437 PartOfSpeech=,] [Text=it CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=445 CharacterOffsetEnd=446 PartOfSpeech=DT] [Text=mistake CharacterOffsetBegin=447 CharacterOffsetEnd=454 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=TO] [Text=ignore CharacterOffsetBegin=458 CharacterOffsetEnd=464 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=470 CharacterOffsetEnd=476 PartOfSpeech=JJ] [Text=piece CharacterOffsetBegin=477 CharacterOffsetEnd=482 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=IN] [Text=movie-making CharacterOffsetBegin=486 CharacterOffsetEnd=498 PartOfSpeech=JJ] [Text=heaven CharacterOffsetBegin=499 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=.] 
+root(ROOT-0, told-3)
+nsubjpass(told-3, Truth-1)
+auxpass(told-3, be-2)
+punct(told-3, ,-4)
+nsubj(mistake-8, it-5)
+cop(mistake-8, was-6)
+det(mistake-8, a-7)
+ccomp(told-3, mistake-8)
+aux(ignore-10, to-9)
+xcomp(mistake-8, ignore-10)
+det(piece-13, this-11)
+amod(piece-13, little-12)
+dobj(ignore-10, piece-13)
+prep(piece-13, of-14)
+amod(heaven-16, movie-making-15)
+pobj(of-14, heaven-16)
+punct(told-3, .-17)
+
+Sentence #10 (5 tokens):
+What a fun film.
+[Text=What CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=516 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=fun CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=.] 
+root(ROOT-0, film-4)
+dep(film-4, What-1)
+det(film-4, a-2)
+nn(film-4, fun-3)
+punct(film-4, .-5)
+
+Sentence #11 (8 tokens):
+It's full of color and exuberance.
+[Text=It CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=VBZ] [Text=full CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=IN] [Text=color CharacterOffsetBegin=545 CharacterOffsetEnd=550 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=CC] [Text=exuberance CharacterOffsetBegin=555 CharacterOffsetEnd=565 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=.] 
+root(ROOT-0, full-3)
+nsubj(full-3, It-1)
+cop(full-3, 's-2)
+prep(full-3, of-4)
+pobj(of-4, color-5)
+cc(color-5, and-6)
+conj(color-5, exuberance-7)
+punct(full-3, .-8)
+
+Sentence #12 (13 tokens):
+I had a goofy grin on my face through the whole movie.
+[Text=I CharacterOffsetBegin=571 CharacterOffsetEnd=572 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=DT] [Text=goofy CharacterOffsetBegin=579 CharacterOffsetEnd=584 PartOfSpeech=JJ] [Text=grin CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=590 CharacterOffsetEnd=592 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=PRP$] [Text=face CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=NN] [Text=through CharacterOffsetBegin=601 CharacterOffsetEnd=608 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=613 CharacterOffsetEnd=618 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=619 CharacterOffsetEnd=624 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, I-1)
+det(grin-5, a-3)
+amod(grin-5, goofy-4)
+dobj(had-2, grin-5)
+prep(had-2, on-6)
+poss(face-8, my-7)
+pobj(on-6, face-8)
+prep(had-2, through-9)
+det(movie-12, the-10)
+amod(movie-12, whole-11)
+pobj(through-9, movie-12)
+punct(had-2, .-13)
+
+Sentence #13 (17 tokens):
+Parminder Nagra is so sweet and lovable, you can't help but root for her.
+[Text=Parminder CharacterOffsetBegin=630 CharacterOffsetEnd=639 PartOfSpeech=NNP] [Text=Nagra CharacterOffsetBegin=640 CharacterOffsetEnd=645 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=646 CharacterOffsetEnd=648 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=RB] [Text=sweet CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=CC] [Text=lovable CharacterOffsetBegin=662 CharacterOffsetEnd=669 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=669 CharacterOffsetEnd=670 PartOfSpeech=,] [Text=you CharacterOffsetBegin=671 CharacterOffsetEnd=674 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=675 CharacterOffsetEnd=677 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=677 CharacterOffsetEnd=680 PartOfSpeech=RB] [Text=help CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=VB] [Text=but CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=CC] [Text=root CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=699 CharacterOffsetEnd=702 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=702 CharacterOffsetEnd=703 PartOfSpeech=.] 
+root(ROOT-0, sweet-5)
+nn(Nagra-2, Parminder-1)
+nsubj(sweet-5, Nagra-2)
+cop(sweet-5, is-3)
+advmod(sweet-5, so-4)
+cc(sweet-5, and-6)
+conj(sweet-5, lovable-7)
+punct(sweet-5, ,-8)
+nsubj(help-12, you-9)
+aux(help-12, ca-10)
+neg(help-12, n't-11)
+ccomp(sweet-5, help-12)
+cc(help-12, but-13)
+conj(help-12, root-14)
+prep(help-12, for-15)
+pobj(for-15, her-16)
+punct(sweet-5, .-17)
+
+Sentence #14 (13 tokens):
+No wonder why the American television show E.R.
+    has snatched her up.
+[Text=No CharacterOffsetBegin=708 CharacterOffsetEnd=710 PartOfSpeech=DT] [Text=wonder CharacterOffsetBegin=711 CharacterOffsetEnd=717 PartOfSpeech=NN] [Text=why CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=DT] [Text=American CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=JJ] [Text=television CharacterOffsetBegin=735 CharacterOffsetEnd=745 PartOfSpeech=NN] [Text=show CharacterOffsetBegin=746 CharacterOffsetEnd=750 PartOfSpeech=NN] [Text=E.R. CharacterOffsetBegin=751 CharacterOffsetEnd=755 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=760 CharacterOffsetEnd=763 PartOfSpeech=VBZ] [Text=snatched CharacterOffsetBegin=764 CharacterOffsetEnd=772 PartOfSpeech=VBN] [Text=her CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=PRP$] [Text=up CharacterOffsetBegin=777 CharacterOffsetEnd=779 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=779 CharacterOffsetEnd=780 PartOfSpeech=.] 
+root(ROOT-0, wonder-2)
+det(wonder-2, No-1)
+dep(wonder-2, why-3)
+det(show-7, the-4)
+amod(show-7, American-5)
+nn(show-7, television-6)
+dep(why-3, show-7)
+nsubj(snatched-10, E.R.-8)
+aux(snatched-10, has-9)
+rcmod(show-7, snatched-10)
+dep(snatched-10, her-11)
+advmod(her-11, up-12)
+punct(wonder-2, .-13)
+
+Sentence #15 (9 tokens):
+I have a new appreciation for Indian culture.
+[Text=I CharacterOffsetBegin=785 CharacterOffsetEnd=786 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=787 CharacterOffsetEnd=791 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=792 CharacterOffsetEnd=793 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=794 CharacterOffsetEnd=797 PartOfSpeech=JJ] [Text=appreciation CharacterOffsetBegin=798 CharacterOffsetEnd=810 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=811 CharacterOffsetEnd=814 PartOfSpeech=IN] [Text=Indian CharacterOffsetBegin=815 CharacterOffsetEnd=821 PartOfSpeech=JJ] [Text=culture CharacterOffsetBegin=822 CharacterOffsetEnd=829 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=829 CharacterOffsetEnd=830 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+det(appreciation-5, a-3)
+amod(appreciation-5, new-4)
+dobj(have-2, appreciation-5)
+prep(appreciation-5, for-6)
+amod(culture-8, Indian-7)
+pobj(for-6, culture-8)
+punct(have-2, .-9)
+
+Sentence #16 (10 tokens):
+Those people know how to have a good time.
+[Text=Those CharacterOffsetBegin=835 CharacterOffsetEnd=840 PartOfSpeech=DT] [Text=people CharacterOffsetBegin=841 CharacterOffsetEnd=847 PartOfSpeech=NNS] [Text=know CharacterOffsetBegin=848 CharacterOffsetEnd=852 PartOfSpeech=VBP] [Text=how CharacterOffsetBegin=853 CharacterOffsetEnd=856 PartOfSpeech=WRB] [Text=to CharacterOffsetBegin=857 CharacterOffsetEnd=859 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=860 CharacterOffsetEnd=864 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=865 CharacterOffsetEnd=866 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=867 CharacterOffsetEnd=871 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=872 CharacterOffsetEnd=876 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=876 CharacterOffsetEnd=877 PartOfSpeech=.] 
+root(ROOT-0, know-3)
+det(people-2, Those-1)
+nsubj(know-3, people-2)
+advmod(have-6, how-4)
+aux(have-6, to-5)
+ccomp(know-3, have-6)
+det(time-9, a-7)
+amod(time-9, good-8)
+dobj(have-6, time-9)
+punct(know-3, .-10)
+
+Sentence #17 (7 tokens):
+The wedding scenes are dazzlingly beautiful.
+[Text=The CharacterOffsetBegin=882 CharacterOffsetEnd=885 PartOfSpeech=DT] [Text=wedding CharacterOffsetBegin=886 CharacterOffsetEnd=893 PartOfSpeech=NN] [Text=scenes CharacterOffsetBegin=894 CharacterOffsetEnd=900 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=901 CharacterOffsetEnd=904 PartOfSpeech=VBP] [Text=dazzlingly CharacterOffsetBegin=905 CharacterOffsetEnd=915 PartOfSpeech=RB] [Text=beautiful CharacterOffsetBegin=916 CharacterOffsetEnd=925 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=925 CharacterOffsetEnd=926 PartOfSpeech=.] 
+root(ROOT-0, beautiful-6)
+det(scenes-3, The-1)
+nn(scenes-3, wedding-2)
+nsubj(beautiful-6, scenes-3)
+cop(beautiful-6, are-4)
+advmod(beautiful-6, dazzlingly-5)
+punct(beautiful-6, .-7)
+
+Sentence #18 (18 tokens):
+The only problem I had was deciphering some of the British slang and dialogue through the accents.
+[Text=The CharacterOffsetBegin=931 CharacterOffsetEnd=934 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=935 CharacterOffsetEnd=939 PartOfSpeech=JJ] [Text=problem CharacterOffsetBegin=940 CharacterOffsetEnd=947 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=948 CharacterOffsetEnd=949 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=950 CharacterOffsetEnd=953 PartOfSpeech=VBD] [Text=was CharacterOffsetBegin=954 CharacterOffsetEnd=957 PartOfSpeech=VBD] [Text=deciphering CharacterOffsetBegin=958 CharacterOffsetEnd=969 PartOfSpeech=VBG] [Text=some CharacterOffsetBegin=970 CharacterOffsetEnd=974 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=975 CharacterOffsetEnd=977 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=978 CharacterOffsetEnd=981 PartOfSpeech=DT] [Text=British CharacterOffsetBegin=982 CharacterOffsetEnd=989 PartOfSpeech=JJ] [Text=slang CharacterOffsetBegin=990 CharacterOffsetEnd=995 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=996 CharacterOffsetEnd=999 PartOfSpeech=CC] [Text=dialogue CharacterOffsetBegin=1000 CharacterOffsetEnd=1008 PartOfSpeech=NN] [Text=through CharacterOffsetBegin=1009 CharacterOffsetEnd=1016 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1017 CharacterOffsetEnd=1020 PartOfSpeech=DT] [Text=accents CharacterOffsetBegin=1021 CharacterOffsetEnd=1028 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1028 CharacterOffsetEnd=1029 PartOfSpeech=.] 
+root(ROOT-0, deciphering-7)
+det(problem-3, The-1)
+amod(problem-3, only-2)
+nsubj(deciphering-7, problem-3)
+nsubj(had-5, I-4)
+rcmod(problem-3, had-5)
+aux(deciphering-7, was-6)
+dobj(deciphering-7, some-8)
+prep(some-8, of-9)
+det(slang-12, the-10)
+amod(slang-12, British-11)
+pobj(of-9, slang-12)
+cc(slang-12, and-13)
+conj(slang-12, dialogue-14)
+prep(deciphering-7, through-15)
+det(accents-17, the-16)
+pobj(through-15, accents-17)
+punct(deciphering-7, .-18)
+
+Sentence #19 (15 tokens):
+I turned on the English subtitles to make sure I didn't miss anything.
+[Text=I CharacterOffsetBegin=1034 CharacterOffsetEnd=1035 PartOfSpeech=PRP] [Text=turned CharacterOffsetBegin=1036 CharacterOffsetEnd=1042 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=1043 CharacterOffsetEnd=1045 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=1046 CharacterOffsetEnd=1049 PartOfSpeech=DT] [Text=English CharacterOffsetBegin=1050 CharacterOffsetEnd=1057 PartOfSpeech=NNP] [Text=subtitles CharacterOffsetBegin=1058 CharacterOffsetEnd=1067 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=1068 CharacterOffsetEnd=1070 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=1071 CharacterOffsetEnd=1075 PartOfSpeech=VB] [Text=sure CharacterOffsetBegin=1076 CharacterOffsetEnd=1080 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=1081 CharacterOffsetEnd=1082 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=1083 CharacterOffsetEnd=1086 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=1086 CharacterOffsetEnd=1089 PartOfSpeech=RB] [Text=miss CharacterOffsetBegin=1090 CharacterOffsetEnd=1094 PartOfSpeech=VB] [Text=anything CharacterOffsetBegin=1095 CharacterOffsetEnd=1103 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1103 CharacterOffsetEnd=1104 PartOfSpeech=.] 
+root(ROOT-0, turned-2)
+nsubj(turned-2, I-1)
+prt(turned-2, on-3)
+det(subtitles-6, the-4)
+nn(subtitles-6, English-5)
+dobj(turned-2, subtitles-6)
+aux(make-8, to-7)
+xcomp(turned-2, make-8)
+acomp(make-8, sure-9)
+nsubj(miss-13, I-10)
+aux(miss-13, did-11)
+neg(miss-13, n't-12)
+ccomp(sure-9, miss-13)
+dobj(miss-13, anything-14)
+punct(turned-2, .-15)
+
+Sentence #20 (11 tokens):
+(This is not a criticism of the film!)
+[Text=-LRB- CharacterOffsetBegin=1109 CharacterOffsetEnd=1110 PartOfSpeech=-LRB-] [Text=This CharacterOffsetBegin=1110 CharacterOffsetEnd=1114 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=1115 CharacterOffsetEnd=1117 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=1118 CharacterOffsetEnd=1121 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=1122 CharacterOffsetEnd=1123 PartOfSpeech=DT] [Text=criticism CharacterOffsetBegin=1124 CharacterOffsetEnd=1133 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1134 CharacterOffsetEnd=1136 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1137 CharacterOffsetEnd=1140 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=1141 CharacterOffsetEnd=1145 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=1145 CharacterOffsetEnd=1146 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=1146 CharacterOffsetEnd=1147 PartOfSpeech=-RRB-] 
+root(ROOT-0, criticism-6)
+punct(criticism-6, -LRB--1)
+nsubj(criticism-6, This-2)
+cop(criticism-6, is-3)
+neg(criticism-6, not-4)
+det(criticism-6, a-5)
+prep(criticism-6, of-7)
+det(film-9, the-8)
+pobj(of-7, film-9)
+punct(criticism-6, !-10)
+punct(criticism-6, -RRB--11)
+
+Sentence #21 (18 tokens):
+I'm sure audiences worldwide have trouble understanding the constantly changing slang in American films as well.
+[Text=I CharacterOffsetBegin=1152 CharacterOffsetEnd=1153 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=1153 CharacterOffsetEnd=1155 PartOfSpeech=VBP] [Text=sure CharacterOffsetBegin=1156 CharacterOffsetEnd=1160 PartOfSpeech=JJ] [Text=audiences CharacterOffsetBegin=1161 CharacterOffsetEnd=1170 PartOfSpeech=NNS] [Text=worldwide CharacterOffsetBegin=1171 CharacterOffsetEnd=1180 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=1181 CharacterOffsetEnd=1185 PartOfSpeech=VBP] [Text=trouble CharacterOffsetBegin=1186 CharacterOffsetEnd=1193 PartOfSpeech=NN] [Text=understanding CharacterOffsetBegin=1194 CharacterOffsetEnd=1207 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=1208 CharacterOffsetEnd=1211 PartOfSpeech=DT] [Text=constantly CharacterOffsetBegin=1212 CharacterOffsetEnd=1222 PartOfSpeech=RB] [Text=changing CharacterOffsetBegin=1223 CharacterOffsetEnd=1231 PartOfSpeech=VBG] [Text=slang CharacterOffsetBegin=1232 CharacterOffsetEnd=1237 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=1238 CharacterOffsetEnd=1240 PartOfSpeech=IN] [Text=American CharacterOffsetBegin=1241 CharacterOffsetEnd=1249 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=1250 CharacterOffsetEnd=1255 PartOfSpeech=NNS] [Text=as CharacterOffsetBegin=1256 CharacterOffsetEnd=1258 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=1259 CharacterOffsetEnd=1263 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1263 CharacterOffsetEnd=1264 PartOfSpeech=.] 
+root(ROOT-0, sure-3)
+nsubj(sure-3, I-1)
+cop(sure-3, 'm-2)
+nsubj(have-6, audiences-4)
+advmod(have-6, worldwide-5)
+ccomp(sure-3, have-6)
+dobj(have-6, trouble-7)
+dep(trouble-7, understanding-8)
+dobj(understanding-8, the-9)
+advmod(changing-11, constantly-10)
+partmod(the-9, changing-11)
+dobj(changing-11, slang-12)
+prep(slang-12, in-13)
+amod(films-15, American-14)
+pobj(in-13, films-15)
+advmod(well-17, as-16)
+advmod(slang-12, well-17)
+punct(sure-3, .-18)
+
+Sentence #22 (7 tokens):
+This is a perfect date film.
+[Text=This CharacterOffsetBegin=1269 CharacterOffsetEnd=1273 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=1274 CharacterOffsetEnd=1276 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1277 CharacterOffsetEnd=1278 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=1279 CharacterOffsetEnd=1286 PartOfSpeech=JJ] [Text=date CharacterOffsetBegin=1287 CharacterOffsetEnd=1291 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=1292 CharacterOffsetEnd=1296 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1296 CharacterOffsetEnd=1297 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nsubj(film-6, This-1)
+cop(film-6, is-2)
+det(film-6, a-3)
+amod(film-6, perfect-4)
+nn(film-6, date-5)
+punct(film-6, .-7)
+
+Sentence #23 (21 tokens):
+It has a great sports plot like Rocky, and a strong sense of feminism that is empowering for women.
+[Text=It CharacterOffsetBegin=1302 CharacterOffsetEnd=1304 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=1305 CharacterOffsetEnd=1308 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1309 CharacterOffsetEnd=1310 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=1311 CharacterOffsetEnd=1316 PartOfSpeech=JJ] [Text=sports CharacterOffsetBegin=1317 CharacterOffsetEnd=1323 PartOfSpeech=NNS] [Text=plot CharacterOffsetBegin=1324 CharacterOffsetEnd=1328 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=1329 CharacterOffsetEnd=1333 PartOfSpeech=IN] [Text=Rocky CharacterOffsetBegin=1334 CharacterOffsetEnd=1339 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=1339 CharacterOffsetEnd=1340 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1341 CharacterOffsetEnd=1344 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=1345 CharacterOffsetEnd=1346 PartOfSpeech=DT] [Text=strong CharacterOffsetBegin=1347 CharacterOffsetEnd=1353 PartOfSpeech=JJ] [Text=sense CharacterOffsetBegin=1354 CharacterOffsetEnd=1359 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1360 CharacterOffsetEnd=1362 PartOfSpeech=IN] [Text=feminism CharacterOffsetBegin=1363 CharacterOffsetEnd=1371 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=1372 CharacterOffsetEnd=1376 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=1377 CharacterOffsetEnd=1379 PartOfSpeech=VBZ] [Text=empowering CharacterOffsetBegin=1380 CharacterOffsetEnd=1390 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=1391 CharacterOffsetEnd=1394 PartOfSpeech=IN] [Text=women CharacterOffsetBegin=1395 CharacterOffsetEnd=1400 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1400 CharacterOffsetEnd=1401 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, It-1)
+det(plot-6, a-3)
+amod(plot-6, great-4)
+nn(plot-6, sports-5)
+dobj(has-2, plot-6)
+prep(plot-6, like-7)
+pobj(like-7, Rocky-8)
+punct(has-2, ,-9)
+cc(has-2, and-10)
+det(sense-13, a-11)
+amod(sense-13, strong-12)
+conj(has-2, sense-13)
+prep(sense-13, of-14)
+pobj(of-14, feminism-15)
+nsubj(empowering-18, that-16)
+aux(empowering-18, is-17)
+rcmod(feminism-15, empowering-18)
+prep(empowering-18, for-19)
+pobj(for-19, women-20)
+punct(has-2, .-21)
+
+Sentence #24 (19 tokens):
+I watched it with my wife, and sixteen year old niece, and we all loved it.
+[Text=I CharacterOffsetBegin=1406 CharacterOffsetEnd=1407 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=1408 CharacterOffsetEnd=1415 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=1416 CharacterOffsetEnd=1418 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=1419 CharacterOffsetEnd=1423 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=1424 CharacterOffsetEnd=1426 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=1427 CharacterOffsetEnd=1431 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1431 CharacterOffsetEnd=1432 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1433 CharacterOffsetEnd=1436 PartOfSpeech=CC] [Text=sixteen CharacterOffsetBegin=1437 CharacterOffsetEnd=1444 PartOfSpeech=CD] [Text=year CharacterOffsetBegin=1445 CharacterOffsetEnd=1449 PartOfSpeech=NN] [Text=old CharacterOffsetBegin=1450 CharacterOffsetEnd=1453 PartOfSpeech=JJ] [Text=niece CharacterOffsetBegin=1454 CharacterOffsetEnd=1459 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1459 CharacterOffsetEnd=1460 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1461 CharacterOffsetEnd=1464 PartOfSpeech=CC] [Text=we CharacterOffsetBegin=1465 CharacterOffsetEnd=1467 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=1468 CharacterOffsetEnd=1471 PartOfSpeech=DT] [Text=loved CharacterOffsetBegin=1472 CharacterOffsetEnd=1477 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=1478 CharacterOffsetEnd=1480 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=1480 CharacterOffsetEnd=1481 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+dobj(watched-2, it-3)
+prep(watched-2, with-4)
+poss(wife-6, my-5)
+pobj(with-4, wife-6)
+punct(watched-2, ,-7)
+cc(watched-2, and-8)
+num(year-10, sixteen-9)
+npadvmod(old-11, year-10)
+amod(niece-12, old-11)
+conj(watched-2, niece-12)
+punct(watched-2, ,-13)
+cc(watched-2, and-14)
+nsubj(loved-17, we-15)
+det(we-15, all-16)
+conj(watched-2, loved-17)
+dobj(loved-17, it-18)
+punct(watched-2, .-19)
+
+Sentence #25 (5 tokens):
+I highly recommend it.
+[Text=I CharacterOffsetBegin=1486 CharacterOffsetEnd=1487 PartOfSpeech=PRP] [Text=highly CharacterOffsetBegin=1488 CharacterOffsetEnd=1494 PartOfSpeech=RB] [Text=recommend CharacterOffsetBegin=1495 CharacterOffsetEnd=1504 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=1505 CharacterOffsetEnd=1507 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=1507 CharacterOffsetEnd=1508 PartOfSpeech=.] 
+root(ROOT-0, recommend-3)
+nsubj(recommend-3, I-1)
+advmod(recommend-3, highly-2)
+dobj(recommend-3, it-4)
+punct(recommend-3, .-5)
+

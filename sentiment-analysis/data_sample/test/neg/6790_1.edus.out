@@ -1,0 +1,162 @@
+Sentence #1 (7 tokens):
+This series is formulaic and boring.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=series CharacterOffsetBegin=9 CharacterOffsetEnd=15 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=VBZ] [Text=formulaic CharacterOffsetBegin=19 CharacterOffsetEnd=28 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=CC] [Text=boring CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=.] 
+root(ROOT-0, formulaic-4)
+det(series-2, This-1)
+nsubj(formulaic-4, series-2)
+cop(formulaic-4, is-3)
+cc(formulaic-4, and-5)
+conj(formulaic-4, boring-6)
+punct(formulaic-4, .-7)
+
+Sentence #2 (15 tokens):
+The episodes are the same thing every week, simply with slightly varied settings.
+[Text=The CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT] [Text=episodes CharacterOffsetBegin=49 CharacterOffsetEnd=57 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=every CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=week CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=,] [Text=simply CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=slightly CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=RB] [Text=varied CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=settings CharacterOffsetBegin=117 CharacterOffsetEnd=125 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=.] 
+root(ROOT-0, thing-6)
+det(episodes-2, The-1)
+nsubj(thing-6, episodes-2)
+cop(thing-6, are-3)
+det(thing-6, the-4)
+amod(thing-6, same-5)
+det(week-8, every-7)
+tmod(thing-6, week-8)
+punct(thing-6, ,-9)
+advmod(with-11, simply-10)
+prep(thing-6, with-11)
+advmod(varied-13, slightly-12)
+amod(settings-14, varied-13)
+pobj(with-11, settings-14)
+punct(thing-6, .-15)
+
+Sentence #3 (22 tokens):
+Some purely evil character does some dastardly deed, Walker goes after him, and it ends in a Karate match.
+[Text=Some CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=DT] [Text=purely CharacterOffsetBegin=136 CharacterOffsetEnd=142 PartOfSpeech=RB] [Text=evil CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=148 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=VBZ] [Text=some CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=DT] [Text=dastardly CharacterOffsetBegin=168 CharacterOffsetEnd=177 PartOfSpeech=JJ] [Text=deed CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=,] [Text=Walker CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=NNP] [Text=goes CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=VBZ] [Text=after CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=,] [Text=and CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=PRP] [Text=ends CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=DT] [Text=Karate CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=JJ] [Text=match CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.] 
+root(ROOT-0, does-5)
+det(character-4, Some-1)
+amod(character-4, purely-2)
+amod(character-4, evil-3)
+nsubj(does-5, character-4)
+det(deed-8, some-6)
+amod(deed-8, dastardly-7)
+dobj(does-5, deed-8)
+punct(does-5, ,-9)
+nsubj(goes-11, Walker-10)
+ccomp(does-5, goes-11)
+prep(goes-11, after-12)
+pobj(after-12, him-13)
+punct(does-5, ,-14)
+cc(does-5, and-15)
+nsubj(ends-17, it-16)
+conj(does-5, ends-17)
+prep(ends-17, in-18)
+det(match-21, a-19)
+amod(match-21, Karate-20)
+pobj(in-18, match-21)
+punct(does-5, .-22)
+
+Sentence #4 (28 tokens):
+The villains are super-clich super-stereotypical evil villains, the good guys are all pure, honest and saintly, and the story lines are simplistic and unrealistic.
+[Text=The CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=villains CharacterOffsetBegin=246 CharacterOffsetEnd=254 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=VBP] [Text=super-clich CharacterOffsetBegin=259 CharacterOffsetEnd=270 PartOfSpeech=JJ] [Text=super-stereotypical CharacterOffsetBegin=271 CharacterOffsetEnd=290 PartOfSpeech=JJ] [Text=evil CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=JJ] [Text=villains CharacterOffsetBegin=296 CharacterOffsetEnd=304 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=,] [Text=the CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=DT] [Text=pure CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=,] [Text=honest CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=CC] [Text=saintly CharacterOffsetBegin=345 CharacterOffsetEnd=352 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=,] [Text=and CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=NN] [Text=lines CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=VBP] [Text=simplistic CharacterOffsetBegin=378 CharacterOffsetEnd=388 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=CC] [Text=unrealistic CharacterOffsetBegin=393 CharacterOffsetEnd=404 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=.] 
+root(ROOT-0, villains-7)
+det(villains-2, The-1)
+nsubj(villains-7, villains-2)
+cop(villains-7, are-3)
+amod(villains-7, super-clich-4)
+amod(villains-7, super-stereotypical-5)
+amod(villains-7, evil-6)
+punct(villains-7, ,-8)
+det(guys-11, the-9)
+amod(guys-11, good-10)
+nsubj(simplistic-25, guys-11)
+aux(simplistic-25, are-12)
+nsubj(simplistic-25, all-13)
+amod(all-13, pure-14)
+punct(pure-14, ,-15)
+conj(pure-14, honest-16)
+cc(pure-14, and-17)
+conj(pure-14, saintly-18)
+punct(all-13, ,-19)
+cc(all-13, and-20)
+det(lines-23, the-21)
+nn(lines-23, story-22)
+conj(all-13, lines-23)
+cop(simplistic-25, are-24)
+rcmod(villains-7, simplistic-25)
+cc(simplistic-25, and-26)
+conj(simplistic-25, unrealistic-27)
+punct(villains-7, .-28)
+
+Sentence #5 (18 tokens):
+After about 2 episodes, the show becomes totally unwatchable by all but the least discerning fans.
+[Text=After CharacterOffsetBegin=410 CharacterOffsetEnd=415 PartOfSpeech=IN] [Text=about CharacterOffsetBegin=416 CharacterOffsetEnd=421 PartOfSpeech=RB] [Text=2 CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=CD] [Text=episodes CharacterOffsetBegin=424 CharacterOffsetEnd=432 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=432 CharacterOffsetEnd=433 PartOfSpeech=,] [Text=the CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=438 CharacterOffsetEnd=442 PartOfSpeech=NN] [Text=becomes CharacterOffsetBegin=443 CharacterOffsetEnd=450 PartOfSpeech=VBZ] [Text=totally CharacterOffsetBegin=451 CharacterOffsetEnd=458 PartOfSpeech=RB] [Text=unwatchable CharacterOffsetBegin=459 CharacterOffsetEnd=470 PartOfSpeech=JJ] [Text=by CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=DT] [Text=but CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=DT] [Text=least CharacterOffsetBegin=486 CharacterOffsetEnd=491 PartOfSpeech=JJS] [Text=discerning CharacterOffsetBegin=492 CharacterOffsetEnd=502 PartOfSpeech=JJ] [Text=fans CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=.] 
+root(ROOT-0, unwatchable-10)
+prep(unwatchable-10, After-1)
+quantmod(2-3, about-2)
+num(episodes-4, 2-3)
+pobj(After-1, episodes-4)
+punct(unwatchable-10, ,-5)
+det(show-7, the-6)
+nsubj(unwatchable-10, show-7)
+cop(unwatchable-10, becomes-8)
+advmod(unwatchable-10, totally-9)
+prep(unwatchable-10, by-11)
+pobj(by-11, all-12)
+prep(all-12, but-13)
+det(fans-17, the-14)
+dep(discerning-16, least-15)
+amod(fans-17, discerning-16)
+dep(but-13, fans-17)
+punct(unwatchable-10, .-18)
+
+Sentence #6 (7 tokens):
+Certainly not Norris's best work.
+[Text=Certainly CharacterOffsetBegin=513 CharacterOffsetEnd=522 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=523 CharacterOffsetEnd=526 PartOfSpeech=RB] [Text=Norris CharacterOffsetBegin=527 CharacterOffsetEnd=533 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=533 CharacterOffsetEnd=535 PartOfSpeech=POS] [Text=best CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=JJS] [Text=work CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=545 CharacterOffsetEnd=546 PartOfSpeech=.] 
+root(ROOT-0, work-6)
+advmod(work-6, Certainly-1)
+neg(work-6, not-2)
+poss(work-6, Norris-3)
+possessive(Norris-3, 's-4)
+amod(work-6, best-5)
+punct(work-6, .-7)
+
+Sentence #7 (16 tokens):
+His other work may be clich but it usually does not drag on for weeks.
+[Text=His CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=PRP$] [Text=other CharacterOffsetBegin=555 CharacterOffsetEnd=560 PartOfSpeech=JJ] [Text=work CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=VB] [Text=clich CharacterOffsetBegin=573 CharacterOffsetEnd=578 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=PRP] [Text=usually CharacterOffsetBegin=586 CharacterOffsetEnd=593 PartOfSpeech=RB] [Text=does CharacterOffsetBegin=594 CharacterOffsetEnd=598 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=RB] [Text=drag CharacterOffsetBegin=603 CharacterOffsetEnd=607 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=608 CharacterOffsetEnd=610 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=IN] [Text=weeks CharacterOffsetBegin=615 CharacterOffsetEnd=620 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=620 CharacterOffsetEnd=621 PartOfSpeech=.] 
+root(ROOT-0, clich-6)
+poss(work-3, His-1)
+amod(work-3, other-2)
+nsubj(clich-6, work-3)
+aux(clich-6, may-4)
+cop(clich-6, be-5)
+cc(clich-6, but-7)
+nsubj(drag-12, it-8)
+advmod(drag-12, usually-9)
+aux(drag-12, does-10)
+neg(drag-12, not-11)
+conj(clich-6, drag-12)
+prt(drag-12, on-13)
+prep(drag-12, for-14)
+pobj(for-14, weeks-15)
+punct(clich-6, .-16)
+
+Sentence #8 (17 tokens):
+If you enjoy formulaic,boring, repetitive clichd snooze-fests, then this is for you.
+[Text=If CharacterOffsetBegin=626 CharacterOffsetEnd=628 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=PRP] [Text=enjoy CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=VBP] [Text=formulaic CharacterOffsetBegin=639 CharacterOffsetEnd=648 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=648 CharacterOffsetEnd=649 PartOfSpeech=,] [Text=boring CharacterOffsetBegin=649 CharacterOffsetEnd=655 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=,] [Text=repetitive CharacterOffsetBegin=657 CharacterOffsetEnd=667 PartOfSpeech=JJ] [Text=clichd CharacterOffsetBegin=668 CharacterOffsetEnd=674 PartOfSpeech=JJ] [Text=snooze-fests CharacterOffsetBegin=675 CharacterOffsetEnd=687 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=,] [Text=then CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=RB] [Text=this CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=.] 
+root(ROOT-0, enjoy-3)
+mark(enjoy-3, If-1)
+nsubj(enjoy-3, you-2)
+dobj(enjoy-3, formulaic-4)
+punct(formulaic-4, ,-5)
+conj(formulaic-4, boring-6)
+punct(formulaic-4, ,-7)
+amod(snooze-fests-10, repetitive-8)
+amod(snooze-fests-10, clichd-9)
+conj(formulaic-4, snooze-fests-10)
+punct(formulaic-4, ,-11)
+advmod(formulaic-4, then-12)
+nsubj(is-14, this-13)
+dep(formulaic-4, is-14)
+prep(is-14, for-15)
+pobj(for-15, you-16)
+punct(enjoy-3, .-17)
+

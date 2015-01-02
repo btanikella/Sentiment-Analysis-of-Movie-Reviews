@@ -1,0 +1,243 @@
+Sentence #1 (8 tokens):
+A lot of promise and nothing more.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=IN] [Text=promise CharacterOffsetBegin=13 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=CC] [Text=nothing CharacterOffsetBegin=25 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, lot-2)
+det(lot-2, A-1)
+prep(lot-2, of-3)
+pobj(of-3, promise-4)
+cc(promise-4, and-5)
+conj(promise-4, nothing-6)
+amod(nothing-6, more-7)
+punct(lot-2, .-8)
+
+Sentence #2 (18 tokens):
+An all-star cast certainly by HK standards, but man oh man is this one a stinker.
+[Text=An CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=all-star CharacterOffsetBegin=46 CharacterOffsetEnd=54 PartOfSpeech=JJ] [Text=cast CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=certainly CharacterOffsetBegin=60 CharacterOffsetEnd=69 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=HK CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=JJ] [Text=standards CharacterOffsetBegin=76 CharacterOffsetEnd=85 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=,] [Text=but CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=CC] [Text=man CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=oh CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=UH] [Text=man CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=CD] [Text=a CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=stinker CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=.] 
+root(ROOT-0, cast-3)
+det(cast-3, An-1)
+amod(cast-3, all-star-2)
+advmod(by-5, certainly-4)
+prep(cast-3, by-5)
+amod(standards-7, HK-6)
+pobj(by-5, standards-7)
+punct(cast-3, ,-8)
+cc(cast-3, but-9)
+nn(man-12, man-10)
+amod(man-12, oh-11)
+conj(cast-3, man-12)
+partmod(cast-3, is-13)
+det(one-15, this-14)
+tmod(is-13, one-15)
+det(stinker-17, a-16)
+dep(one-15, stinker-17)
+punct(cast-3, .-18)
+
+Sentence #3 (3 tokens):
+No story?
+[Text=No CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=.] 
+root(ROOT-0, story-2)
+det(story-2, No-1)
+punct(story-2, ?-3)
+
+Sentence #4 (17 tokens):
+That's okay, the action will make up for it like most HK action flicks.
+[Text=That CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=VBZ] [Text=okay CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=,] [Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=action CharacterOffsetBegin=160 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=IN] [Text=most CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=JJS] [Text=HK CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=JJ] [Text=action CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=flicks CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=.] 
+root(ROOT-0, okay-3)
+nsubj(okay-3, That-1)
+cop(okay-3, 's-2)
+punct(okay-3, ,-4)
+det(action-6, the-5)
+nsubj(make-8, action-6)
+aux(make-8, will-7)
+ccomp(okay-3, make-8)
+prt(make-8, up-9)
+prep(make-8, for-10)
+pobj(for-10, it-11)
+prep(make-8, like-12)
+amod(flicks-16, most-13)
+amod(flicks-16, HK-14)
+nn(flicks-16, action-15)
+pobj(like-12, flicks-16)
+punct(okay-3, .-17)
+
+Sentence #5 (2 tokens):
+What?
+[Text=What CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=WDT] [Text=? CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, What-1)
+punct(What-1, ?-2)
+
+Sentence #6 (10 tokens):
+The action is terrible, corny, and sparse?
+[Text=The CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=DT] [Text=action CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=VBZ] [Text=terrible CharacterOffsetBegin=243 CharacterOffsetEnd=251 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=,] [Text=corny CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=,] [Text=and CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=CC] [Text=sparse CharacterOffsetBegin=264 CharacterOffsetEnd=270 PartOfSpeech=VB] [Text=? CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, terrible-4)
+det(action-2, The-1)
+nsubj(terrible-4, action-2)
+cop(terrible-4, is-3)
+punct(terrible-4, ,-5)
+conj(terrible-4, corny-6)
+punct(terrible-4, ,-7)
+cc(terrible-4, and-8)
+conj(terrible-4, sparse-9)
+punct(terrible-4, ?-10)
+
+Sentence #7 (22 tokens):
+Dragon Dynasty's releases up to this point are by and large superb and generally regarded as classics in Asian cinema.
+[Text=Dragon CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NNP] [Text=Dynasty CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=POS] [Text=releases CharacterOffsetBegin=293 CharacterOffsetEnd=301 PartOfSpeech=NNS] [Text=up CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=TO] [Text=this CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=DT] [Text=point CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=VBP] [Text=by CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=CC] [Text=large CharacterOffsetBegin=330 CharacterOffsetEnd=335 PartOfSpeech=JJ] [Text=superb CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=CC] [Text=generally CharacterOffsetBegin=347 CharacterOffsetEnd=356 PartOfSpeech=RB] [Text=regarded CharacterOffsetBegin=357 CharacterOffsetEnd=365 PartOfSpeech=VBN] [Text=as CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=IN] [Text=classics CharacterOffsetBegin=369 CharacterOffsetEnd=377 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=IN] [Text=Asian CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=JJ] [Text=cinema CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.] 
+root(ROOT-0, are-9)
+nn(Dynasty-2, Dragon-1)
+poss(releases-4, Dynasty-2)
+possessive(Dynasty-2, 's-3)
+nsubj(are-9, releases-4)
+prep(releases-4, up-5)
+pcomp(up-5, to-6)
+det(point-8, this-7)
+pobj(to-6, point-8)
+prep(are-9, by-10)
+cc(by-10, and-11)
+conj(by-10, large-12)
+pobj(by-10, superb-13)
+cc(superb-13, and-14)
+advmod(regarded-16, generally-15)
+conj(superb-13, regarded-16)
+prep(regarded-16, as-17)
+pobj(as-17, classics-18)
+prep(classics-18, in-19)
+amod(cinema-21, Asian-20)
+pobj(in-19, cinema-21)
+punct(are-9, .-22)
+
+Sentence #8 (5 tokens):
+This is a blight.
+[Text=This CharacterOffsetBegin=399 CharacterOffsetEnd=403 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=404 CharacterOffsetEnd=406 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=DT] [Text=blight CharacterOffsetBegin=409 CharacterOffsetEnd=415 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=415 CharacterOffsetEnd=416 PartOfSpeech=.] 
+root(ROOT-0, blight-4)
+nsubj(blight-4, This-1)
+cop(blight-4, is-2)
+det(blight-4, a-3)
+punct(blight-4, .-5)
+
+Sentence #9 (23 tokens):
+They managed to wrangle a couple of actors from Infernal Affairs, but they can't bring life to a disjointed script.
+[Text=They CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=PRP] [Text=managed CharacterOffsetBegin=426 CharacterOffsetEnd=433 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=TO] [Text=wrangle CharacterOffsetBegin=437 CharacterOffsetEnd=444 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=445 CharacterOffsetEnd=446 PartOfSpeech=DT] [Text=couple CharacterOffsetBegin=447 CharacterOffsetEnd=453 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=454 CharacterOffsetEnd=456 PartOfSpeech=IN] [Text=actors CharacterOffsetBegin=457 CharacterOffsetEnd=463 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=464 CharacterOffsetEnd=468 PartOfSpeech=IN] [Text=Infernal CharacterOffsetBegin=469 CharacterOffsetEnd=477 PartOfSpeech=NNP] [Text=Affairs CharacterOffsetBegin=478 CharacterOffsetEnd=485 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=,] [Text=but CharacterOffsetBegin=487 CharacterOffsetEnd=490 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=491 CharacterOffsetEnd=495 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=RB] [Text=bring CharacterOffsetBegin=502 CharacterOffsetEnd=507 PartOfSpeech=VB] [Text=life CharacterOffsetBegin=508 CharacterOffsetEnd=512 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=513 CharacterOffsetEnd=515 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=516 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=disjointed CharacterOffsetBegin=518 CharacterOffsetEnd=528 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=529 CharacterOffsetEnd=535 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=535 CharacterOffsetEnd=536 PartOfSpeech=.] 
+root(ROOT-0, managed-2)
+nsubj(managed-2, They-1)
+aux(wrangle-4, to-3)
+xcomp(managed-2, wrangle-4)
+det(couple-6, a-5)
+dobj(wrangle-4, couple-6)
+prep(couple-6, of-7)
+pobj(of-7, actors-8)
+prep(actors-8, from-9)
+nn(Affairs-11, Infernal-10)
+pobj(from-9, Affairs-11)
+punct(managed-2, ,-12)
+cc(managed-2, but-13)
+nsubj(bring-17, they-14)
+aux(bring-17, ca-15)
+neg(bring-17, n't-16)
+conj(managed-2, bring-17)
+dobj(bring-17, life-18)
+prep(bring-17, to-19)
+det(script-22, a-20)
+amod(script-22, disjointed-21)
+pobj(to-19, script-22)
+punct(managed-2, .-23)
+
+Sentence #10 (28 tokens):
+There are scenes of dialogue where two or three lines are spoken with a cut in between each and no continuity in what the characters are saying.
+[Text=There CharacterOffsetBegin=541 CharacterOffsetEnd=546 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=VBP] [Text=scenes CharacterOffsetBegin=551 CharacterOffsetEnd=557 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=558 CharacterOffsetEnd=560 PartOfSpeech=IN] [Text=dialogue CharacterOffsetBegin=561 CharacterOffsetEnd=569 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=WRB] [Text=two CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=CD] [Text=or CharacterOffsetBegin=580 CharacterOffsetEnd=582 PartOfSpeech=CC] [Text=three CharacterOffsetBegin=583 CharacterOffsetEnd=588 PartOfSpeech=CD] [Text=lines CharacterOffsetBegin=589 CharacterOffsetEnd=594 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=VBP] [Text=spoken CharacterOffsetBegin=599 CharacterOffsetEnd=605 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=611 CharacterOffsetEnd=612 PartOfSpeech=DT] [Text=cut CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=IN] [Text=between CharacterOffsetBegin=620 CharacterOffsetEnd=627 PartOfSpeech=IN] [Text=each CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=DT] [Text=and CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=CC] [Text=no CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=DT] [Text=continuity CharacterOffsetBegin=640 CharacterOffsetEnd=650 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=651 CharacterOffsetEnd=653 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=663 CharacterOffsetEnd=673 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=674 CharacterOffsetEnd=677 PartOfSpeech=VBP] [Text=saying CharacterOffsetBegin=678 CharacterOffsetEnd=684 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=684 CharacterOffsetEnd=685 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+nsubj(are-2, scenes-3)
+prep(scenes-3, of-4)
+pobj(of-4, dialogue-5)
+advmod(spoken-12, where-6)
+num(lines-10, two-7)
+cc(two-7, or-8)
+conj(two-7, three-9)
+nsubjpass(spoken-12, lines-10)
+auxpass(spoken-12, are-11)
+rcmod(dialogue-5, spoken-12)
+prep(spoken-12, with-13)
+det(cut-15, a-14)
+pobj(with-13, cut-15)
+prep(cut-15, in-16)
+pcomp(in-16, between-17)
+pobj(between-17, each-18)
+cc(each-18, and-19)
+det(continuity-21, no-20)
+conj(each-18, continuity-21)
+prep(continuity-21, in-22)
+dobj(saying-27, what-23)
+det(characters-25, the-24)
+nsubj(saying-27, characters-25)
+aux(saying-27, are-26)
+pcomp(in-22, saying-27)
+punct(are-2, .-28)
+
+Sentence #11 (18 tokens):
+You almost feel like they're each giving a running monologue and just ignoring the other characters.
+[Text=You CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=PRP] [Text=almost CharacterOffsetBegin=694 CharacterOffsetEnd=700 PartOfSpeech=RB] [Text=feel CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=VBP] [Text=like CharacterOffsetBegin=706 CharacterOffsetEnd=710 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=711 CharacterOffsetEnd=715 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=VBP] [Text=each CharacterOffsetBegin=719 CharacterOffsetEnd=723 PartOfSpeech=DT] [Text=giving CharacterOffsetBegin=724 CharacterOffsetEnd=730 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=731 CharacterOffsetEnd=732 PartOfSpeech=DT] [Text=running CharacterOffsetBegin=733 CharacterOffsetEnd=740 PartOfSpeech=VBG] [Text=monologue CharacterOffsetBegin=741 CharacterOffsetEnd=750 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=CC] [Text=just CharacterOffsetBegin=755 CharacterOffsetEnd=759 PartOfSpeech=RB] [Text=ignoring CharacterOffsetBegin=760 CharacterOffsetEnd=768 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=769 CharacterOffsetEnd=772 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=773 CharacterOffsetEnd=778 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=779 CharacterOffsetEnd=789 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=789 CharacterOffsetEnd=790 PartOfSpeech=.] 
+root(ROOT-0, feel-3)
+nsubj(feel-3, You-1)
+advmod(feel-3, almost-2)
+mark(giving-8, like-4)
+nsubj(giving-8, they-5)
+aux(giving-8, 're-6)
+dep(giving-8, each-7)
+ccomp(feel-3, giving-8)
+det(monologue-11, a-9)
+amod(monologue-11, running-10)
+dobj(giving-8, monologue-11)
+cc(giving-8, and-12)
+advmod(ignoring-14, just-13)
+conj(giving-8, ignoring-14)
+det(characters-17, the-15)
+amod(characters-17, other-16)
+dobj(ignoring-14, characters-17)
+punct(feel-3, .-18)
+
+Sentence #12 (9 tokens):
+Michael Biehn is made of wood, really?
+[Text=Michael CharacterOffsetBegin=795 CharacterOffsetEnd=802 PartOfSpeech=NNP] [Text=Biehn CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=809 CharacterOffsetEnd=811 PartOfSpeech=VBZ] [Text=made CharacterOffsetBegin=812 CharacterOffsetEnd=816 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=817 CharacterOffsetEnd=819 PartOfSpeech=IN] [Text=wood CharacterOffsetBegin=820 CharacterOffsetEnd=824 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=824 CharacterOffsetEnd=825 PartOfSpeech=,] [Text=really CharacterOffsetBegin=826 CharacterOffsetEnd=832 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=832 CharacterOffsetEnd=833 PartOfSpeech=.] 
+root(ROOT-0, made-4)
+nn(Biehn-2, Michael-1)
+nsubjpass(made-4, Biehn-2)
+auxpass(made-4, is-3)
+prep(made-4, of-5)
+pobj(of-5, wood-6)
+punct(made-4, ,-7)
+advmod(made-4, really-8)
+punct(made-4, ?-9)
+
+Sentence #13 (7 tokens):
+Sammo Hung uses a stunt double?
+[Text=Sammo CharacterOffsetBegin=838 CharacterOffsetEnd=843 PartOfSpeech=NNP] [Text=Hung CharacterOffsetBegin=844 CharacterOffsetEnd=848 PartOfSpeech=NNP] [Text=uses CharacterOffsetBegin=849 CharacterOffsetEnd=853 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=854 CharacterOffsetEnd=855 PartOfSpeech=DT] [Text=stunt CharacterOffsetBegin=856 CharacterOffsetEnd=861 PartOfSpeech=NN] [Text=double CharacterOffsetBegin=862 CharacterOffsetEnd=868 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=868 CharacterOffsetEnd=869 PartOfSpeech=.] 
+root(ROOT-0, uses-3)
+nn(Hung-2, Sammo-1)
+nsubj(uses-3, Hung-2)
+det(stunt-5, a-4)
+dobj(uses-3, stunt-5)
+advmod(stunt-5, double-6)
+punct(uses-3, ?-7)
+
+Sentence #14 (3 tokens):
+No way.
+[Text=No CharacterOffsetBegin=874 CharacterOffsetEnd=876 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=877 CharacterOffsetEnd=880 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=880 CharacterOffsetEnd=881 PartOfSpeech=.] 
+root(ROOT-0, way-2)
+det(way-2, No-1)
+punct(way-2, .-3)
+
+Sentence #15 (3 tokens):
+Yes way.
+[Text=Yes CharacterOffsetBegin=886 CharacterOffsetEnd=889 PartOfSpeech=UH] [Text=way CharacterOffsetBegin=890 CharacterOffsetEnd=893 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=893 CharacterOffsetEnd=894 PartOfSpeech=.] 
+root(ROOT-0, way-2)
+amod(way-2, Yes-1)
+punct(way-2, .-3)
+
+Sentence #16 (3 tokens):
+Stay away.
+[Text=Stay CharacterOffsetBegin=899 CharacterOffsetEnd=903 PartOfSpeech=NNP] [Text=away CharacterOffsetBegin=904 CharacterOffsetEnd=908 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=908 CharacterOffsetEnd=909 PartOfSpeech=.] 
+root(ROOT-0, Stay-1)
+advmod(Stay-1, away-2)
+punct(Stay-1, .-3)
+

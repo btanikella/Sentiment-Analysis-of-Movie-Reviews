@@ -1,0 +1,167 @@
+Sentence #1 (6 tokens):
+Nicolas Mallet is a failure.
+[Text=Nicolas CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=NNP] [Text=Mallet CharacterOffsetBegin=12 CharacterOffsetEnd=18 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=failure CharacterOffsetBegin=24 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, failure-5)
+nn(Mallet-2, Nicolas-1)
+nsubj(failure-5, Mallet-2)
+cop(failure-5, is-3)
+det(failure-5, a-4)
+punct(failure-5, .-6)
+
+Sentence #2 (12 tokens):
+A teller in a bank, everyone walks all over him.
+[Text=A CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=DT] [Text=teller CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=bank CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=,] [Text=everyone CharacterOffsetBegin=57 CharacterOffsetEnd=65 PartOfSpeech=NN] [Text=walks CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=VBZ] [Text=all CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=over CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=.] 
+root(ROOT-0, walks-8)
+det(teller-2, A-1)
+ccomp(walks-8, teller-2)
+prep(teller-2, in-3)
+det(bank-5, a-4)
+pobj(in-3, bank-5)
+punct(walks-8, ,-6)
+nsubj(walks-8, everyone-7)
+dobj(walks-8, all-9)
+prep(walks-8, over-10)
+pobj(over-10, him-11)
+punct(walks-8, .-12)
+
+Sentence #3 (21 tokens):
+Then his friend, a writer who's books no one likes, has a plan to change his life.
+[Text=Then CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=RB] [Text=his CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=,] [Text=a CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=DT] [Text=writer CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=WP] [Text='s CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=VBZ] [Text=books CharacterOffsetBegin=122 CharacterOffsetEnd=127 PartOfSpeech=NNS] [Text=no CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=NN] [Text=likes CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=,] [Text=has CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=DT] [Text=plan CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=TO] [Text=change CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=.] 
+root(ROOT-0, has-14)
+advmod(has-14, Then-1)
+poss(friend-3, his-2)
+nsubj(has-14, friend-3)
+punct(friend-3, ,-4)
+det(writer-6, a-5)
+appos(friend-3, writer-6)
+nsubj(books-9, who-7)
+cop(books-9, 's-8)
+rcmod(writer-6, books-9)
+det(one-11, no-10)
+nsubj(likes-12, one-11)
+rcmod(books-9, likes-12)
+punct(friend-3, ,-13)
+det(plan-16, a-15)
+dobj(has-14, plan-16)
+aux(change-18, to-17)
+infmod(plan-16, change-18)
+poss(life-20, his-19)
+dobj(change-18, life-20)
+punct(has-14, .-21)
+
+Sentence #4 (9 tokens):
+Our hero tells his boss he is quitting.
+[Text=Our CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=PRP$] [Text=hero CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=tells CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=PRP$] [Text=boss CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=VBZ] [Text=quitting CharacterOffsetBegin=207 CharacterOffsetEnd=215 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=.] 
+root(ROOT-0, tells-3)
+poss(hero-2, Our-1)
+nsubj(tells-3, hero-2)
+poss(boss-5, his-4)
+dobj(tells-3, boss-5)
+nsubj(quitting-8, he-6)
+aux(quitting-8, is-7)
+dep(tells-3, quitting-8)
+punct(tells-3, .-9)
+
+Sentence #5 (23 tokens):
+He intends to spend the rest of his life making a great deal of money and sleeping with a great many women.
+[Text=He CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=PRP] [Text=intends CharacterOffsetBegin=224 CharacterOffsetEnd=231 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=TO] [Text=spend CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=NN] [Text=making CharacterOffsetBegin=262 CharacterOffsetEnd=268 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=JJ] [Text=deal CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=IN] [Text=money CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=CC] [Text=sleeping CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=VBG] [Text=with CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=JJ] [Text=many CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=JJ] [Text=women CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=.] 
+root(ROOT-0, intends-2)
+nsubj(intends-2, He-1)
+aux(spend-4, to-3)
+xcomp(intends-2, spend-4)
+det(rest-6, the-5)
+dobj(spend-4, rest-6)
+prep(rest-6, of-7)
+poss(life-9, his-8)
+pobj(of-7, life-9)
+partmod(life-9, making-10)
+det(deal-13, a-11)
+amod(deal-13, great-12)
+dobj(making-10, deal-13)
+prep(deal-13, of-14)
+pobj(of-14, money-15)
+cc(spend-4, and-16)
+conj(spend-4, sleeping-17)
+prep(sleeping-17, with-18)
+det(women-22, a-19)
+amod(women-22, great-20)
+amod(women-22, many-21)
+pobj(with-18, women-22)
+punct(intends-2, .-23)
+
+Sentence #6 (29 tokens):
+And he manages to do just that.If it were not for the amount of death (murder/suicide/natural causes) in the film, this would be a farce.
+[Text=And CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=PRP] [Text=manages CharacterOffsetBegin=340 CharacterOffsetEnd=347 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=VB] [Text=just CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=RB] [Text=that.If CharacterOffsetBegin=359 CharacterOffsetEnd=366 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=DT] [Text=amount CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=IN] [Text=death CharacterOffsetBegin=397 CharacterOffsetEnd=402 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=-LRB-] [Text=murder/suicide/natural CharacterOffsetBegin=404 CharacterOffsetEnd=426 PartOfSpeech=JJ] [Text=causes CharacterOffsetBegin=427 CharacterOffsetEnd=433 PartOfSpeech=NNS] [Text=-RRB- CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=-RRB-] [Text=in CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=442 CharacterOffsetEnd=446 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=,] [Text=this CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=DT] [Text=would CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=DT] [Text=farce CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=.] 
+root(ROOT-0, manages-3)
+cc(manages-3, And-1)
+nsubj(manages-3, he-2)
+aux(do-5, to-4)
+xcomp(manages-3, do-5)
+advmod(that.If-7, just-6)
+mark(were-9, that.If-7)
+nsubj(were-9, it-8)
+ccomp(do-5, were-9)
+neg(were-9, not-10)
+prep(were-9, for-11)
+det(amount-13, the-12)
+pobj(for-11, amount-13)
+prep(amount-13, of-14)
+pobj(of-14, death-15)
+punct(causes-18, -LRB--16)
+amod(causes-18, murder/suicide/natural-17)
+appos(death-15, causes-18)
+punct(causes-18, -RRB--19)
+prep(were-9, in-20)
+det(film-22, the-21)
+pobj(in-20, film-22)
+punct(manages-3, ,-23)
+nsubj(farce-28, this-24)
+aux(farce-28, would-25)
+cop(farce-28, be-26)
+det(farce-28, a-27)
+ccomp(manages-3, farce-28)
+punct(manages-3, .-29)
+
+Sentence #7 (18 tokens):
+There are numerous jabs at marriage, politics, journalism and...life.Jean-Louis Trintignant is a likable amoral rogue.
+[Text=There CharacterOffsetBegin=475 CharacterOffsetEnd=480 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=VBP] [Text=numerous CharacterOffsetBegin=485 CharacterOffsetEnd=493 PartOfSpeech=JJ] [Text=jabs CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=499 CharacterOffsetEnd=501 PartOfSpeech=IN] [Text=marriage CharacterOffsetBegin=502 CharacterOffsetEnd=510 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=,] [Text=politics CharacterOffsetBegin=512 CharacterOffsetEnd=520 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=,] [Text=journalism CharacterOffsetBegin=522 CharacterOffsetEnd=532 PartOfSpeech=NN] [Text=and...life.Jean-Louis CharacterOffsetBegin=533 CharacterOffsetEnd=554 PartOfSpeech=NN] [Text=Trintignant CharacterOffsetBegin=555 CharacterOffsetEnd=566 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=DT] [Text=likable CharacterOffsetBegin=572 CharacterOffsetEnd=579 PartOfSpeech=JJ] [Text=amoral CharacterOffsetBegin=580 CharacterOffsetEnd=586 PartOfSpeech=JJ] [Text=rogue CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+amod(jabs-4, numerous-3)
+nsubj(rogue-17, jabs-4)
+prep(jabs-4, at-5)
+pobj(at-5, marriage-6)
+punct(marriage-6, ,-7)
+conj(marriage-6, politics-8)
+punct(marriage-6, ,-9)
+nn(Trintignant-12, journalism-10)
+nn(Trintignant-12, and...life.Jean-Louis-11)
+conj(marriage-6, Trintignant-12)
+cop(rogue-17, is-13)
+det(rogue-17, a-14)
+amod(rogue-17, likable-15)
+amod(rogue-17, amoral-16)
+ccomp(are-2, rogue-17)
+punct(are-2, .-18)
+
+Sentence #8 (8 tokens):
+Romy Schneider is at her most appealing.
+[Text=Romy CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=NNP] [Text=Schneider CharacterOffsetBegin=603 CharacterOffsetEnd=612 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=VBZ] [Text=at CharacterOffsetBegin=616 CharacterOffsetEnd=618 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=619 CharacterOffsetEnd=622 PartOfSpeech=PRP] [Text=most CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=RBS] [Text=appealing CharacterOffsetBegin=628 CharacterOffsetEnd=637 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=637 CharacterOffsetEnd=638 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+nn(Schneider-2, Romy-1)
+nsubj(is-3, Schneider-2)
+prep(is-3, at-4)
+pobj(at-4, her-5)
+advmod(appealing-7, most-6)
+advmod(is-3, appealing-7)
+punct(is-3, .-8)
+
+Sentence #9 (5 tokens):
+Definitely worth a look.
+[Text=Definitely CharacterOffsetBegin=643 CharacterOffsetEnd=653 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=654 CharacterOffsetEnd=659 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=DT] [Text=look CharacterOffsetBegin=662 CharacterOffsetEnd=666 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=666 CharacterOffsetEnd=667 PartOfSpeech=.] 
+root(ROOT-0, worth-2)
+advmod(worth-2, Definitely-1)
+det(look-4, a-3)
+dep(worth-2, look-4)
+punct(worth-2, .-5)
+

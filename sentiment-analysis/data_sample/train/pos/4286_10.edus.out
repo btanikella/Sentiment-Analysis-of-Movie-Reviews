@@ -1,0 +1,123 @@
+Sentence #1 (19 tokens):
+I saw this film (it's English title is "Who's Singing Over There?")
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=-LRB-] [Text=it CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VBZ] [Text=English CharacterOffsetBegin=26 CharacterOffsetEnd=33 PartOfSpeech=JJ] [Text=title CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=``] [Text=Who CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=WP] [Text='s CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=VBZ] [Text=Singing CharacterOffsetBegin=50 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=Over CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=There CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=EX] [Text=? CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=.] [Text='' CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=''] [Text=-RRB- CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=-RRB-] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+det(film-4, this-3)
+nsubj(Singing-14, film-4)
+punct(title-9, -LRB--5)
+nsubj(title-9, it-6)
+cop(title-9, 's-7)
+amod(title-9, English-8)
+nsubj(Singing-14, title-9)
+cop(Singing-14, is-10)
+punct(Singing-14, ``-11)
+nsubj(Singing-14, Who-12)
+cop(Singing-14, 's-13)
+ccomp(saw-2, Singing-14)
+prep(Singing-14, Over-15)
+pobj(Over-15, There-16)
+punct(saw-2, ?-17)
+punct(saw-2, ''-18)
+punct(saw-2, -RRB--19)
+
+Sentence #2 (8 tokens):
+at the 1980 Montreal International Film Festival.
+[Text=at CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=1980 CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=CD] [Text=Montreal CharacterOffsetBegin=88 CharacterOffsetEnd=96 PartOfSpeech=NNP] [Text=International CharacterOffsetBegin=97 CharacterOffsetEnd=110 PartOfSpeech=NNP] [Text=Film CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NNP] [Text=Festival CharacterOffsetBegin=116 CharacterOffsetEnd=124 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=.] 
+root(ROOT-0, at-1)
+det(Festival-7, the-2)
+num(Festival-7, 1980-3)
+nn(Festival-7, Montreal-4)
+nn(Festival-7, International-5)
+nn(Festival-7, Film-6)
+pobj(at-1, Festival-7)
+punct(at-1, .-8)
+
+Sentence #3 (8 tokens):
+It won raves then... and disappeared.
+[Text=It CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=PRP] [Text=won CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=VBD] [Text=raves CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=VBZ] [Text=then CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=RB] [Text=... CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=:] [Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=disappeared CharacterOffsetBegin=155 CharacterOffsetEnd=166 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=.] 
+root(ROOT-0, won-2)
+nsubj(won-2, It-1)
+dobj(won-2, raves-3)
+advmod(won-2, then-4)
+punct(won-2, ...-5)
+cc(won-2, and-6)
+conj(won-2, disappeared-7)
+punct(won-2, .-8)
+
+Sentence #4 (4 tokens):
+A terrible shame.
+[Text=A CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=174 CharacterOffsetEnd=182 PartOfSpeech=JJ] [Text=shame CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=.] 
+root(ROOT-0, shame-3)
+det(shame-3, A-1)
+amod(shame-3, terrible-2)
+punct(shame-3, .-4)
+
+Sentence #5 (4 tokens):
+It is brilliant.
+[Text=It CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=VBZ] [Text=brilliant CharacterOffsetBegin=200 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, brilliant-3)
+nsubj(brilliant-3, It-1)
+cop(brilliant-3, is-2)
+punct(brilliant-3, .-4)
+
+Sentence #6 (10 tokens):
+Sublime, ridiculous, sad, and extremely funny.
+[Text=Sublime CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=,] [Text=ridiculous CharacterOffsetBegin=224 CharacterOffsetEnd=234 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=,] [Text=sad CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=,] [Text=and CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=CC] [Text=extremely CharacterOffsetBegin=245 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=.] 
+root(ROOT-0, Sublime-1)
+punct(Sublime-1, ,-2)
+conj(Sublime-1, ridiculous-3)
+punct(Sublime-1, ,-4)
+conj(Sublime-1, sad-5)
+punct(Sublime-1, ,-6)
+cc(Sublime-1, and-7)
+advmod(funny-9, extremely-8)
+conj(Sublime-1, funny-9)
+punct(Sublime-1, .-10)
+
+Sentence #7 (8 tokens):
+The script is a work of art.
+[Text=The CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=DT] [Text=work CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=IN] [Text=art CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=.] 
+root(ROOT-0, work-5)
+det(script-2, The-1)
+nsubj(work-5, script-2)
+cop(work-5, is-3)
+det(work-5, a-4)
+prep(work-5, of-6)
+pobj(of-6, art-7)
+punct(work-5, .-8)
+
+Sentence #8 (30 tokens):
+It's been 19 years and I've seen only a handful of comedies (or any other genre, for that matter) that can match its originality.
+[Text=It CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=VBN] [Text=19 CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=327 CharacterOffsetEnd=331 PartOfSpeech=VBN] [Text=only CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=handful CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=IN] [Text=comedies CharacterOffsetBegin=350 CharacterOffsetEnd=358 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=-LRB-] [Text=or CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=CC] [Text=any CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=367 CharacterOffsetEnd=372 PartOfSpeech=JJ] [Text=genre CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=,] [Text=for CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=DT] [Text=matter CharacterOffsetBegin=389 CharacterOffsetEnd=395 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=-RRB-] [Text=that CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=WDT] [Text=can CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=MD] [Text=match CharacterOffsetBegin=406 CharacterOffsetEnd=411 PartOfSpeech=VB] [Text=its CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=PRP$] [Text=originality CharacterOffsetBegin=416 CharacterOffsetEnd=427 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=.] 
+root(ROOT-0, years-5)
+nsubjpass(years-5, It-1)
+auxpass(years-5, 's-2)
+cop(years-5, been-3)
+num(years-5, 19-4)
+cc(years-5, and-6)
+nsubj(seen-9, I-7)
+aux(seen-9, 've-8)
+conj(years-5, seen-9)
+advmod(handful-12, only-10)
+det(handful-12, a-11)
+dobj(seen-9, handful-12)
+prep(handful-12, of-13)
+pobj(of-13, comedies-14)
+punct(genre-19, -LRB--15)
+cc(genre-19, or-16)
+det(genre-19, any-17)
+amod(genre-19, other-18)
+dep(comedies-14, genre-19)
+punct(genre-19, ,-20)
+prep(genre-19, for-21)
+det(matter-23, that-22)
+pobj(for-21, matter-23)
+punct(genre-19, -RRB--24)
+nsubj(match-27, that-25)
+aux(match-27, can-26)
+rcmod(handful-12, match-27)
+poss(originality-29, its-28)
+dobj(match-27, originality-29)
+punct(years-5, .-30)
+

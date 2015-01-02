@@ -45,11 +45,11 @@ def trainmodel():
 
 if __name__ == '__main__':
     # Create data for offline training
-    # print 'Create data ...'
-    # createdata(path="./train_data")
+    print 'Create data ...'
+    createdata(path="./train_data")
     # Train a parsing model
-    # print 'Training a parsing model ...'
-    # trainmodel()
+    print 'Training a parsing model ...'
+    trainmodel()
     # Evaluate on dev/test documents
     print 'Evaluating the parsing performance ...'
     evalparser(path='./dev_data', report=True)

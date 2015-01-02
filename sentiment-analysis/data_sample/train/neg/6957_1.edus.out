@@ -1,0 +1,178 @@
+Sentence #1 (16 tokens):
+Avoid this one, unless you want to watch an expensive but badly made movie.
+[Text=Avoid CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=,] [Text=unless CharacterOffsetBegin=20 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=VB] [Text=an CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=expensive CharacterOffsetBegin=48 CharacterOffsetEnd=57 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=CC] [Text=badly CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=VBN] [Text=movie CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=.] 
+root(ROOT-0, Avoid-1)
+det(one-3, this-2)
+dobj(Avoid-1, one-3)
+punct(Avoid-1, ,-4)
+mark(want-7, unless-5)
+nsubj(want-7, you-6)
+advcl(Avoid-1, want-7)
+aux(watch-9, to-8)
+xcomp(want-7, watch-9)
+det(movie-15, an-10)
+amod(movie-15, expensive-11)
+cc(expensive-11, but-12)
+advmod(made-14, badly-13)
+conj(expensive-11, made-14)
+dobj(watch-9, movie-15)
+punct(Avoid-1, .-16)
+
+Sentence #2 (2 tokens):
+Example?
+[Text=Example CharacterOffsetBegin=84 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=.] 
+root(ROOT-0, Example-1)
+punct(Example-1, ?-2)
+
+Sentence #3 (32 tokens):
+The sound is good but the dialogue is not clear - a cardinal sin in a French film.This film attempts to combine western, drug intrigue and ancien regime costume epic.
+[Text=The CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=DT] [Text=sound CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=DT] [Text=dialogue CharacterOffsetBegin=123 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=RB] [Text=clear CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=- CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=:] [Text=a CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=DT] [Text=cardinal CharacterOffsetBegin=149 CharacterOffsetEnd=157 PartOfSpeech=JJ] [Text=sin CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=DT] [Text=French CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=JJ] [Text=film.This CharacterOffsetBegin=174 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=attempts CharacterOffsetBegin=189 CharacterOffsetEnd=197 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=TO] [Text=combine CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=VB] [Text=western CharacterOffsetBegin=209 CharacterOffsetEnd=216 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=,] [Text=drug CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=NN] [Text=intrigue CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=CC] [Text=ancien CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=JJ] [Text=regime CharacterOffsetBegin=243 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=costume CharacterOffsetBegin=250 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=epic CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=.] 
+root(ROOT-0, good-4)
+det(sound-2, The-1)
+nsubj(good-4, sound-2)
+cop(good-4, is-3)
+cc(good-4, but-5)
+det(dialogue-7, the-6)
+nsubj(clear-10, dialogue-7)
+cop(clear-10, is-8)
+neg(clear-10, not-9)
+conj(good-4, clear-10)
+punct(good-4, --11)
+det(sin-14, a-12)
+amod(sin-14, cardinal-13)
+nsubj(attempts-20, sin-14)
+prep(sin-14, in-15)
+det(film-19, a-16)
+amod(film-19, French-17)
+nn(film-19, film.This-18)
+pobj(in-15, film-19)
+parataxis(good-4, attempts-20)
+aux(combine-22, to-21)
+xcomp(attempts-20, combine-22)
+amod(epic-31, western-23)
+punct(western-23, ,-24)
+nn(intrigue-26, drug-25)
+conj(western-23, intrigue-26)
+cc(western-23, and-27)
+conj(western-23, ancien-28)
+nn(epic-31, regime-29)
+nn(epic-31, costume-30)
+dobj(combine-22, epic-31)
+punct(good-4, .-32)
+
+Sentence #4 (2 tokens):
+What?
+[Text=What CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=WDT] [Text=? CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=.] 
+root(ROOT-0, What-1)
+punct(What-1, ?-2)
+
+Sentence #5 (5 tokens):
+Well, consider this.
+[Text=Well CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=,] [Text=consider CharacterOffsetBegin=284 CharacterOffsetEnd=292 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=.] 
+root(ROOT-0, consider-3)
+advmod(consider-3, Well-1)
+punct(consider-3, ,-2)
+dobj(consider-3, this-4)
+punct(consider-3, .-5)
+
+Sentence #6 (9 tokens):
+The cowboy music is hilarious during sword fights.
+[Text=The CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=DT] [Text=cowboy CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=NN] [Text=music CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=VBZ] [Text=hilarious CharacterOffsetBegin=323 CharacterOffsetEnd=332 PartOfSpeech=JJ] [Text=during CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=IN] [Text=sword CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=NN] [Text=fights CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.] 
+root(ROOT-0, hilarious-5)
+det(music-3, The-1)
+nn(music-3, cowboy-2)
+nsubj(hilarious-5, music-3)
+cop(hilarious-5, is-4)
+prep(hilarious-5, during-6)
+nn(fights-8, sword-7)
+pobj(during-6, fights-8)
+punct(hilarious-5, .-9)
+
+Sentence #7 (34 tokens):
+Or how about the woman in her underwear, holding a knife and jumping up and down on the bed?Someone should do a 'What's Up Tiger Lily' on this bomb.
+[Text=Or CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=CC] [Text=how CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=WRB] [Text=about CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=PRP$] [Text=underwear CharacterOffsetBegin=388 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=,] [Text=holding CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=DT] [Text=knife CharacterOffsetBegin=409 CharacterOffsetEnd=414 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=CC] [Text=jumping CharacterOffsetBegin=419 CharacterOffsetEnd=426 PartOfSpeech=VBG] [Text=up CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=RP] [Text=and CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=CC] [Text=down CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=RP] [Text=on CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=DT] [Text=bed?Someone CharacterOffsetBegin=446 CharacterOffsetEnd=457 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=458 CharacterOffsetEnd=464 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=468 CharacterOffsetEnd=469 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=``] [Text=What CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=WP] [Text='s CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=VBZ] [Text=Up CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=RP] [Text=Tiger CharacterOffsetBegin=481 CharacterOffsetEnd=486 PartOfSpeech=NNP] [Text=Lily CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=POS] [Text=on CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=DT] [Text=bomb CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=.] 
+root(ROOT-0, do-22)
+cc(do-22, Or-1)
+advmod(about-3, how-2)
+prep(do-22, about-3)
+det(woman-5, the-4)
+pobj(about-3, woman-5)
+prep(woman-5, in-6)
+poss(underwear-8, her-7)
+pobj(in-6, underwear-8)
+punct(do-22, ,-9)
+csubj(do-22, holding-10)
+det(knife-12, a-11)
+dobj(holding-10, knife-12)
+cc(holding-10, and-13)
+conj(holding-10, jumping-14)
+prt(jumping-14, up-15)
+cc(holding-10, and-16)
+conj(holding-10, down-17)
+prep(down-17, on-18)
+det(bed?Someone-20, the-19)
+pobj(on-18, bed?Someone-20)
+aux(do-22, should-21)
+dep(do-22, a-23)
+punct(a-23, `-24)
+dep(`-24, What-25)
+dep(What-25, 's-26)
+prep('s-26, Up-27)
+nn(Lily-29, Tiger-28)
+pobj(Up-27, Lily-29)
+possessive(Lily-29, '-30)
+prep(Lily-29, on-31)
+det(bomb-33, this-32)
+pobj(on-31, bomb-33)
+punct(What-25, .-34)
+
+Sentence #8 (11 tokens):
+Rewrite the script and then either dub or subtitle it.
+[Text=Rewrite CharacterOffsetBegin=511 CharacterOffsetEnd=518 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=523 CharacterOffsetEnd=529 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=534 CharacterOffsetEnd=538 PartOfSpeech=RB] [Text=either CharacterOffsetBegin=539 CharacterOffsetEnd=545 PartOfSpeech=CC] [Text=dub CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=RB] [Text=or CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=CC] [Text=subtitle CharacterOffsetBegin=553 CharacterOffsetEnd=561 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=.] 
+root(ROOT-0, Rewrite-1)
+det(script-3, the-2)
+dobj(Rewrite-1, script-3)
+cc(Rewrite-1, and-4)
+conj(Rewrite-1, then-5)
+preconj(dub-7, either-6)
+dep(Rewrite-1, dub-7)
+cc(dub-7, or-8)
+conj(dub-7, subtitle-9)
+dobj(dub-7, it-10)
+punct(Rewrite-1, .-11)
+
+Sentence #9 (8 tokens):
+Heck, it's almost that now.
+[Text=Heck CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=,] [Text=it CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=VBZ] [Text=almost CharacterOffsetBegin=581 CharacterOffsetEnd=587 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=IN] [Text=now CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=596 CharacterOffsetEnd=597 PartOfSpeech=.] 
+root(ROOT-0, 's-4)
+ccomp('s-4, Heck-1)
+punct('s-4, ,-2)
+nsubj('s-4, it-3)
+advmod(that-6, almost-5)
+nsubj('s-4, that-6)
+advmod(that-6, now-7)
+punct('s-4, .-8)
+
+Sentence #10 (19 tokens):
+(BTW, Gerard Depardieu and Carole Bouquet, both known to American audiences, have roles.)
+[Text=-LRB- CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=-LRB-] [Text=BTW CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=606 CharacterOffsetEnd=607 PartOfSpeech=,] [Text=Gerard CharacterOffsetBegin=608 CharacterOffsetEnd=614 PartOfSpeech=NNP] [Text=Depardieu CharacterOffsetBegin=615 CharacterOffsetEnd=624 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=625 CharacterOffsetEnd=628 PartOfSpeech=CC] [Text=Carole CharacterOffsetBegin=629 CharacterOffsetEnd=635 PartOfSpeech=NNP] [Text=Bouquet CharacterOffsetBegin=636 CharacterOffsetEnd=643 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=,] [Text=both CharacterOffsetBegin=645 CharacterOffsetEnd=649 PartOfSpeech=DT] [Text=known CharacterOffsetBegin=650 CharacterOffsetEnd=655 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=656 CharacterOffsetEnd=658 PartOfSpeech=TO] [Text=American CharacterOffsetBegin=659 CharacterOffsetEnd=667 PartOfSpeech=JJ] [Text=audiences CharacterOffsetBegin=668 CharacterOffsetEnd=677 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=677 CharacterOffsetEnd=678 PartOfSpeech=,] [Text=have CharacterOffsetBegin=679 CharacterOffsetEnd=683 PartOfSpeech=VBP] [Text=roles CharacterOffsetBegin=684 CharacterOffsetEnd=689 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=689 CharacterOffsetEnd=690 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=690 CharacterOffsetEnd=691 PartOfSpeech=-RRB-] 
+root(ROOT-0, have-16)
+punct(BTW-2, -LRB--1)
+nsubj(have-16, BTW-2)
+punct(BTW-2, ,-3)
+nn(Depardieu-5, Gerard-4)
+conj(BTW-2, Depardieu-5)
+cc(BTW-2, and-6)
+nn(Bouquet-8, Carole-7)
+conj(BTW-2, Bouquet-8)
+punct(BTW-2, ,-9)
+dep(known-11, both-10)
+partmod(BTW-2, known-11)
+prep(known-11, to-12)
+amod(audiences-14, American-13)
+pobj(to-12, audiences-14)
+punct(BTW-2, ,-15)
+dobj(have-16, roles-17)
+punct(have-16, .-18)
+punct(have-16, -RRB--19)
+

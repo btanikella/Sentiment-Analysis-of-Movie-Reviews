@@ -1,0 +1,171 @@
+Sentence #1 (3 tokens):
+SPOILER ALERT!!!
+[Text=SPOILER CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=NN] [Text=ALERT CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=!!! CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=CD] 
+root(ROOT-0, ALERT-2)
+nn(ALERT-2, SPOILER-1)
+num(ALERT-2, !!!-3)
+
+Sentence #2 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+
+Sentence #3 (12 tokens):
+I had just watched the extended version of Bedknobs and Broomsticks.
+[Text=I CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=RB] [Text=watched CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT] [Text=extended CharacterOffsetBegin=49 CharacterOffsetEnd=57 PartOfSpeech=VBN] [Text=version CharacterOffsetBegin=58 CharacterOffsetEnd=65 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=IN] [Text=Bedknobs CharacterOffsetBegin=69 CharacterOffsetEnd=77 PartOfSpeech=NNPS] [Text=and CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=CC] [Text=Broomsticks CharacterOffsetBegin=82 CharacterOffsetEnd=93 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, watched-4)
+nsubj(watched-4, I-1)
+aux(watched-4, had-2)
+advmod(watched-4, just-3)
+det(version-7, the-5)
+amod(version-7, extended-6)
+dobj(watched-4, version-7)
+prep(version-7, of-8)
+pobj(of-8, Bedknobs-9)
+cc(Bedknobs-9, and-10)
+conj(Bedknobs-9, Broomsticks-11)
+punct(watched-4, .-12)
+
+Sentence #4 (32 tokens):
+Though I did like the extended version, I wish they would have left the original version on the DVD.The Portabello Road could have been cut down to the orginal length.
+[Text=Though CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=extended CharacterOffsetBegin=121 CharacterOffsetEnd=129 PartOfSpeech=VBN] [Text=version CharacterOffsetBegin=130 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=,] [Text=I CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text=wish CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=VB] [Text=left CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=171 CharacterOffsetEnd=179 PartOfSpeech=JJ] [Text=version CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT] [Text=DVD.The CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=NNP] [Text=Portabello CharacterOffsetBegin=203 CharacterOffsetEnd=213 PartOfSpeech=NNP] [Text=Road CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=NNP] [Text=could CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=VBN] [Text=cut CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=VBN] [Text=down CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=DT] [Text=orginal CharacterOffsetBegin=251 CharacterOffsetEnd=258 PartOfSpeech=JJ] [Text=length CharacterOffsetBegin=259 CharacterOffsetEnd=265 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=.] 
+root(ROOT-0, wish-10)
+mark(did-3, Though-1)
+nsubj(did-3, I-2)
+advcl(wish-10, did-3)
+prep(did-3, like-4)
+det(version-7, the-5)
+amod(version-7, extended-6)
+pobj(like-4, version-7)
+punct(wish-10, ,-8)
+nsubj(wish-10, I-9)
+nsubj(left-14, they-11)
+aux(left-14, would-12)
+aux(left-14, have-13)
+ccomp(wish-10, left-14)
+det(version-17, the-15)
+amod(version-17, original-16)
+nsubj(cut-26, version-17)
+prep(version-17, on-18)
+det(Road-22, the-19)
+nn(Road-22, DVD.The-20)
+nn(Road-22, Portabello-21)
+pobj(on-18, Road-22)
+aux(cut-26, could-23)
+aux(cut-26, have-24)
+auxpass(cut-26, been-25)
+ccomp(left-14, cut-26)
+prt(cut-26, down-27)
+prep(cut-26, to-28)
+det(length-31, the-29)
+amod(length-31, orginal-30)
+pobj(to-28, length-31)
+punct(wish-10, .-32)
+
+Sentence #5 (10 tokens):
+It was too long and dragged the movie along.
+[Text=It CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=VBD] [Text=too CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=RB] [Text=long CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=CC] [Text=dragged CharacterOffsetBegin=291 CharacterOffsetEnd=298 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=along CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=.] 
+root(ROOT-0, long-4)
+nsubj(long-4, It-1)
+cop(long-4, was-2)
+advmod(long-4, too-3)
+cc(long-4, and-5)
+conj(long-4, dragged-6)
+det(movie-8, the-7)
+dobj(dragged-6, movie-8)
+advmod(dragged-6, along-9)
+punct(long-4, .-10)
+
+Sentence #6 (27 tokens):
+Though the dancing is great, would have been much better left on the DVD as a Deleted Scene.All in all this is a great movie.
+[Text=Though CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=DT] [Text=dancing CharacterOffsetBegin=331 CharacterOffsetEnd=338 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=342 CharacterOffsetEnd=347 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=,] [Text=would CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=VBN] [Text=much CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=370 CharacterOffsetEnd=376 PartOfSpeech=RBR] [Text=left CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=382 CharacterOffsetEnd=384 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=DT] [Text=Deleted CharacterOffsetBegin=398 CharacterOffsetEnd=405 PartOfSpeech=JJ] [Text=Scene.All CharacterOffsetBegin=406 CharacterOffsetEnd=415 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=PDT] [Text=this CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=433 CharacterOffsetEnd=438 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=439 CharacterOffsetEnd=444 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=.] 
+root(ROOT-0, movie-26)
+mark(great-5, Though-1)
+det(dancing-3, the-2)
+nsubj(great-5, dancing-3)
+cop(great-5, is-4)
+advcl(left-12, great-5)
+punct(left-12, ,-6)
+aux(left-12, would-7)
+aux(left-12, have-8)
+auxpass(left-12, been-9)
+advmod(better-11, much-10)
+advmod(left-12, better-11)
+csubj(movie-26, left-12)
+prep(left-12, on-13)
+det(DVD-15, the-14)
+pobj(on-13, DVD-15)
+prep(left-12, as-16)
+det(Scene.All-19, a-17)
+amod(Scene.All-19, Deleted-18)
+pobj(as-16, Scene.All-19)
+prep(left-12, in-20)
+predet(this-22, all-21)
+pobj(in-20, this-22)
+cop(movie-26, is-23)
+det(movie-26, a-24)
+amod(movie-26, great-25)
+punct(movie-26, .-27)
+
+Sentence #7 (7 tokens):
+My 5 year old liked it.
+[Text=My CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=PRP$] [Text=5 CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=CD] [Text=year CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=NN] [Text=old CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=JJ] [Text=liked CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=470 CharacterOffsetEnd=472 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=.] 
+root(ROOT-0, liked-5)
+poss(year-3, My-1)
+num(year-3, 5-2)
+npadvmod(old-4, year-3)
+dep(liked-5, old-4)
+dobj(liked-5, it-6)
+punct(liked-5, .-7)
+
+Sentence #8 (21 tokens):
+And it is wonderful that movies that I enjoyed as a child are being passed on to a new generation.
+[Text=And CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=VBZ] [Text=wonderful CharacterOffsetBegin=488 CharacterOffsetEnd=497 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=IN] [Text=movies CharacterOffsetBegin=503 CharacterOffsetEnd=509 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=515 CharacterOffsetEnd=516 PartOfSpeech=PRP] [Text=enjoyed CharacterOffsetBegin=517 CharacterOffsetEnd=524 PartOfSpeech=VBD] [Text=as CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=DT] [Text=child CharacterOffsetBegin=530 CharacterOffsetEnd=535 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=VBP] [Text=being CharacterOffsetBegin=540 CharacterOffsetEnd=545 PartOfSpeech=VBG] [Text=passed CharacterOffsetBegin=546 CharacterOffsetEnd=552 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=556 CharacterOffsetEnd=558 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=561 CharacterOffsetEnd=564 PartOfSpeech=JJ] [Text=generation CharacterOffsetBegin=565 CharacterOffsetEnd=575 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=.] 
+root(ROOT-0, wonderful-4)
+cc(wonderful-4, And-1)
+nsubj(wonderful-4, it-2)
+cop(wonderful-4, is-3)
+prep(wonderful-4, that-5)
+dep(that-5, movies-6)
+dobj(enjoyed-9, that-7)
+nsubj(enjoyed-9, I-8)
+rcmod(movies-6, enjoyed-9)
+mark(passed-15, as-10)
+det(child-12, a-11)
+nsubjpass(passed-15, child-12)
+aux(passed-15, are-13)
+auxpass(passed-15, being-14)
+advcl(enjoyed-9, passed-15)
+prep(passed-15, on-16)
+pcomp(on-16, to-17)
+det(generation-20, a-18)
+amod(generation-20, new-19)
+pobj(to-17, generation-20)
+punct(wonderful-4, .-21)
+
+Sentence #9 (14 tokens):
+This and Mary Poppins are added to my collection.Just as I had remembered!
+[Text=This CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=DT] [Text=and CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=CC] [Text=Mary CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=NNP] [Text=Poppins CharacterOffsetBegin=595 CharacterOffsetEnd=602 PartOfSpeech=NNP] [Text=are CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=VBP] [Text=added CharacterOffsetBegin=607 CharacterOffsetEnd=612 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=TO] [Text=my CharacterOffsetBegin=616 CharacterOffsetEnd=618 PartOfSpeech=PRP$] [Text=collection.Just CharacterOffsetBegin=619 CharacterOffsetEnd=634 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=635 CharacterOffsetEnd=637 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=638 CharacterOffsetEnd=639 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=640 CharacterOffsetEnd=643 PartOfSpeech=VBD] [Text=remembered CharacterOffsetBegin=644 CharacterOffsetEnd=654 PartOfSpeech=VBN] [Text=! CharacterOffsetBegin=654 CharacterOffsetEnd=655 PartOfSpeech=.] 
+root(ROOT-0, added-6)
+nsubjpass(added-6, This-1)
+cc(This-1, and-2)
+nn(Poppins-4, Mary-3)
+conj(This-1, Poppins-4)
+auxpass(added-6, are-5)
+prep(added-6, to-7)
+poss(collection.Just-9, my-8)
+pobj(to-7, collection.Just-9)
+mark(remembered-13, as-10)
+nsubj(remembered-13, I-11)
+aux(remembered-13, had-12)
+advcl(added-6, remembered-13)
+punct(added-6, !-14)
+
+Sentence #10 (4 tokens):
+*** out of ****
+[Text=*** CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=663 CharacterOffsetEnd=665 PartOfSpeech=IN] [Text=**** CharacterOffsetBegin=666 CharacterOffsetEnd=670 PartOfSpeech=CD] 
+root(ROOT-0, ***-1)
+prep(***-1, out-2)
+pcomp(out-2, of-3)
+pobj(of-3, ****-4)
+

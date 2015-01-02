@@ -1,0 +1,216 @@
+Sentence #1 (8 tokens):
+I consider myself a huge movie buff.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=consider CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=VBP] [Text=myself CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=DT] [Text=huge CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=buff CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=.] 
+root(ROOT-0, consider-2)
+nsubj(consider-2, I-1)
+iobj(consider-2, myself-3)
+det(buff-7, a-4)
+amod(buff-7, huge-5)
+nn(buff-7, movie-6)
+dobj(consider-2, buff-7)
+punct(consider-2, .-8)
+
+Sentence #2 (12 tokens):
+I was sick on the couch and popped in this film.
+[Text=I CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=VBD] [Text=sick CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=couch CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=CC] [Text=popped CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.] 
+root(ROOT-0, sick-3)
+nsubj(sick-3, I-1)
+cop(sick-3, was-2)
+prep(sick-3, on-4)
+det(couch-6, the-5)
+pobj(on-4, couch-6)
+cc(couch-6, and-7)
+conj(couch-6, popped-8)
+prep(popped-8, in-9)
+det(film-11, this-10)
+pobj(in-9, film-11)
+punct(sick-3, .-12)
+
+Sentence #3 (25 tokens):
+Right from the opening to the end I watched in awe at these great actors, i'd never seen, say great word.
+[Text=Right CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=DT] [Text=opening CharacterOffsetBegin=113 CharacterOffsetEnd=120 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=IN] [Text=awe CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=,] [Text=i CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=FW] [Text='d CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=,] [Text=say CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=VBP] [Text=great CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=word CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, seen-20)
+advmod(from-2, Right-1)
+prep(seen-20, from-2)
+det(opening-4, the-3)
+pcomp(from-2, opening-4)
+prep(opening-4, to-5)
+det(end-7, the-6)
+pobj(to-5, end-7)
+nsubj(watched-9, I-8)
+ccomp(opening-4, watched-9)
+prep(watched-9, in-10)
+pobj(in-10, awe-11)
+prep(awe-11, at-12)
+det(actors-15, these-13)
+amod(actors-15, great-14)
+pobj(at-12, actors-15)
+punct(seen-20, ,-16)
+nsubjpass(seen-20, i-17)
+aux(seen-20, 'd-18)
+neg(seen-20, never-19)
+punct(seen-20, ,-21)
+conj(seen-20, say-22)
+amod(word-24, great-23)
+dobj(say-22, word-24)
+punct(seen-20, .-25)
+
+Sentence #4 (5 tokens):
+The filming was beautiful.
+[Text=The CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=filming CharacterOffsetBegin=212 CharacterOffsetEnd=219 PartOfSpeech=VBG] [Text=was CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=VBD] [Text=beautiful CharacterOffsetBegin=224 CharacterOffsetEnd=233 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, beautiful-4)
+det(filming-2, The-1)
+nsubj(beautiful-4, filming-2)
+cop(beautiful-4, was-3)
+punct(beautiful-4, .-5)
+
+Sentence #5 (7 tokens):
+It was just what I needed.
+[Text=It CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=RB] [Text=what CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=PRP] [Text=needed CharacterOffsetBegin=258 CharacterOffsetEnd=264 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=.] 
+root(ROOT-0, needed-6)
+nsubjpass(needed-6, It-1)
+dep(needed-6, was-2)
+advmod(what-4, just-3)
+dobj(needed-6, what-4)
+nsubj(needed-6, I-5)
+punct(needed-6, .-7)
+
+Sentence #6 (15 tokens):
+I hope that this message is heard over any bad comments written by others.
+[Text=I CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=PRP] [Text=hope CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=DT] [Text=message CharacterOffsetBegin=287 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=VBZ] [Text=heard CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=VBN] [Text=over CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=JJ] [Text=comments CharacterOffsetBegin=317 CharacterOffsetEnd=325 PartOfSpeech=NNS] [Text=written CharacterOffsetBegin=326 CharacterOffsetEnd=333 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=IN] [Text=others CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=.] 
+root(ROOT-0, hope-2)
+nsubj(hope-2, I-1)
+mark(heard-7, that-3)
+det(message-5, this-4)
+nsubjpass(heard-7, message-5)
+auxpass(heard-7, is-6)
+ccomp(hope-2, heard-7)
+prep(heard-7, over-8)
+det(comments-11, any-9)
+amod(comments-11, bad-10)
+pobj(over-8, comments-11)
+partmod(comments-11, written-12)
+prep(written-12, by-13)
+pobj(by-13, others-14)
+punct(hope-2, .-15)
+
+Sentence #7 (13 tokens):
+The Director has a heart and it beats with his actors throughout.
+[Text=The CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=DT] [Text=Director CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=DT] [Text=heart CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=PRP] [Text=beats CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=VBZ] [Text=with CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=PRP$] [Text=actors CharacterOffsetBegin=396 CharacterOffsetEnd=402 PartOfSpeech=NNS] [Text=throughout CharacterOffsetBegin=403 CharacterOffsetEnd=413 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(Director-2, The-1)
+nsubj(has-3, Director-2)
+det(heart-5, a-4)
+dobj(has-3, heart-5)
+cc(has-3, and-6)
+nsubj(beats-8, it-7)
+conj(has-3, beats-8)
+prep(beats-8, with-9)
+poss(actors-11, his-10)
+pobj(with-9, actors-11)
+advmod(beats-8, throughout-12)
+punct(has-3, .-13)
+
+Sentence #8 (9 tokens):
+Thanku for making a film like this one.
+[Text=Thanku CharacterOffsetBegin=419 CharacterOffsetEnd=425 PartOfSpeech=NNP] [Text=for CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=IN] [Text=making CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=.] 
+root(ROOT-0, Thanku-1)
+prep(Thanku-1, for-2)
+pcomp(for-2, making-3)
+det(film-5, a-4)
+dobj(making-3, film-5)
+prep(film-5, like-6)
+det(one-8, this-7)
+pobj(like-6, one-8)
+punct(Thanku-1, .-9)
+
+Sentence #9 (16 tokens):
+Just wonderfully awkward, beautiful kind characters who are flawed and graceful all at once.
+[Text=Just CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=RB] [Text=wonderfully CharacterOffsetBegin=468 CharacterOffsetEnd=479 PartOfSpeech=RB] [Text=awkward CharacterOffsetBegin=480 CharacterOffsetEnd=487 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=,] [Text=beautiful CharacterOffsetBegin=489 CharacterOffsetEnd=498 PartOfSpeech=JJ] [Text=kind CharacterOffsetBegin=499 CharacterOffsetEnd=503 PartOfSpeech=NN] [Text=characters CharacterOffsetBegin=504 CharacterOffsetEnd=514 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=WP] [Text=are CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=VBP] [Text=flawed CharacterOffsetBegin=523 CharacterOffsetEnd=529 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=CC] [Text=graceful CharacterOffsetBegin=534 CharacterOffsetEnd=542 PartOfSpeech=JJ] [Text=all CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=DT] [Text=at CharacterOffsetBegin=547 CharacterOffsetEnd=549 PartOfSpeech=IN] [Text=once CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=554 CharacterOffsetEnd=555 PartOfSpeech=.] 
+root(ROOT-0, characters-7)
+advmod(wonderfully-2, Just-1)
+amod(characters-7, wonderfully-2)
+amod(characters-7, awkward-3)
+punct(characters-7, ,-4)
+amod(characters-7, beautiful-5)
+nn(characters-7, kind-6)
+nsubj(flawed-10, who-8)
+cop(flawed-10, are-9)
+rcmod(characters-7, flawed-10)
+cc(flawed-10, and-11)
+conj(flawed-10, graceful-12)
+dep(graceful-12, all-13)
+prep(all-13, at-14)
+pobj(at-14, once-15)
+punct(characters-7, .-16)
+
+Sentence #10 (3 tokens):
+Just great.
+[Text=Just CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=565 CharacterOffsetEnd=570 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=.] 
+root(ROOT-0, great-2)
+advmod(great-2, Just-1)
+punct(great-2, .-3)
+
+Sentence #11 (41 tokens):
+I can't submit this without 10 lines in total so I will simply go on to say that I wish for more from this director, more from all the actors in this film and more from the writer.
+[Text=I CharacterOffsetBegin=576 CharacterOffsetEnd=577 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=RB] [Text=submit CharacterOffsetBegin=584 CharacterOffsetEnd=590 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=DT] [Text=without CharacterOffsetBegin=596 CharacterOffsetEnd=603 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=CD] [Text=lines CharacterOffsetBegin=607 CharacterOffsetEnd=612 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=IN] [Text=total CharacterOffsetBegin=616 CharacterOffsetEnd=621 PartOfSpeech=JJ] [Text=so CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=MD] [Text=simply CharacterOffsetBegin=632 CharacterOffsetEnd=638 PartOfSpeech=RB] [Text=go CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=642 CharacterOffsetEnd=644 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=645 CharacterOffsetEnd=647 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=648 CharacterOffsetEnd=651 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=652 CharacterOffsetEnd=656 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=PRP] [Text=wish CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=VBP] [Text=for CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=IN] [Text=more CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=RBR] [Text=from CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=683 CharacterOffsetEnd=691 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=,] [Text=more CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=RBR] [Text=from CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=703 CharacterOffsetEnd=706 PartOfSpeech=DT] [Text=the CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=711 CharacterOffsetEnd=717 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=718 CharacterOffsetEnd=720 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=721 CharacterOffsetEnd=725 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=726 CharacterOffsetEnd=730 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=CC] [Text=more CharacterOffsetBegin=735 CharacterOffsetEnd=739 PartOfSpeech=JJR] [Text=from CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=DT] [Text=writer CharacterOffsetBegin=749 CharacterOffsetEnd=755 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=755 CharacterOffsetEnd=756 PartOfSpeech=.] 
+root(ROOT-0, submit-4)
+nsubj(submit-4, I-1)
+aux(submit-4, ca-2)
+neg(submit-4, n't-3)
+dobj(submit-4, this-5)
+prep(submit-4, without-6)
+num(lines-8, 10-7)
+pobj(without-6, lines-8)
+prep(lines-8, in-9)
+pobj(in-9, total-10)
+mark(go-15, so-11)
+nsubj(go-15, I-12)
+aux(go-15, will-13)
+advmod(go-15, simply-14)
+advcl(submit-4, go-15)
+prep(go-15, on-16)
+aux(say-18, to-17)
+xcomp(on-16, say-18)
+mark(wish-21, that-19)
+nsubj(wish-21, I-20)
+ccomp(say-18, wish-21)
+prep(wish-21, for-22)
+pobj(for-22, more-23)
+prep(more-23, from-24)
+det(director-26, this-25)
+pobj(from-24, director-26)
+punct(wish-21, ,-27)
+advmod(wish-21, more-28)
+prep(more-28, from-29)
+predet(actors-32, all-30)
+det(actors-32, the-31)
+pobj(from-29, actors-32)
+prep(more-28, in-33)
+det(film-35, this-34)
+pobj(in-33, film-35)
+cc(more-28, and-36)
+conj(more-28, more-37)
+prep(more-37, from-38)
+det(writer-40, the-39)
+pobj(from-38, writer-40)
+punct(submit-4, .-41)
+
+Sentence #12 (8 tokens):
+I didn't want it to end.
+[Text=I CharacterOffsetBegin=761 CharacterOffsetEnd=762 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=770 CharacterOffsetEnd=774 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=775 CharacterOffsetEnd=777 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=778 CharacterOffsetEnd=780 PartOfSpeech=TO] [Text=end CharacterOffsetBegin=781 CharacterOffsetEnd=784 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=784 CharacterOffsetEnd=785 PartOfSpeech=.] 
+root(ROOT-0, want-4)
+nsubj(want-4, I-1)
+aux(want-4, did-2)
+neg(want-4, n't-3)
+nsubj(end-7, it-5)
+aux(end-7, to-6)
+xcomp(want-4, end-7)
+punct(want-4, .-8)
+
+Sentence #13 (2 tokens):
+The end
+[Text=The CharacterOffsetBegin=790 CharacterOffsetEnd=793 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=794 CharacterOffsetEnd=797 PartOfSpeech=NN] 
+root(ROOT-0, end-2)
+det(end-2, The-1)
+

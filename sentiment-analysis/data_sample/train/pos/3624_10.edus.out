@@ -1,0 +1,109 @@
+Sentence #1 (10 tokens):
+The Rookie kept me smiling from beginning to end.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=Rookie CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=kept CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=PRP] [Text=smiling CharacterOffsetBegin=23 CharacterOffsetEnd=30 PartOfSpeech=VBG] [Text=from CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=beginning CharacterOffsetBegin=36 CharacterOffsetEnd=45 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=TO] [Text=end CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=.] 
+root(ROOT-0, kept-3)
+det(Rookie-2, The-1)
+nsubj(kept-3, Rookie-2)
+nsubj(smiling-5, me-4)
+xcomp(kept-3, smiling-5)
+prep(smiling-5, from-6)
+pcomp(from-6, beginning-7)
+aux(end-9, to-8)
+xcomp(beginning-7, end-9)
+punct(kept-3, .-10)
+
+Sentence #2 (8 tokens):
+Dennis Quaid played the role to perfection.
+[Text=Dennis CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=NNP] [Text=Quaid CharacterOffsetBegin=65 CharacterOffsetEnd=70 PartOfSpeech=NNP] [Text=played CharacterOffsetBegin=71 CharacterOffsetEnd=77 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=DT] [Text=role CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=TO] [Text=perfection CharacterOffsetBegin=90 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=.] 
+root(ROOT-0, played-3)
+nn(Quaid-2, Dennis-1)
+nsubj(played-3, Quaid-2)
+det(role-5, the-4)
+dobj(played-3, role-5)
+prep(played-3, to-6)
+pobj(to-6, perfection-7)
+punct(played-3, .-8)
+
+Sentence #3 (10 tokens):
+The little boy that plays his son was fantastic.
+[Text=The CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=boy CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=WDT] [Text=plays CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=PRP$] [Text=son CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=VBD] [Text=fantastic CharacterOffsetBegin=144 CharacterOffsetEnd=153 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=.] 
+root(ROOT-0, fantastic-9)
+det(boy-3, The-1)
+amod(boy-3, little-2)
+nsubj(fantastic-9, boy-3)
+nsubj(plays-5, that-4)
+rcmod(boy-3, plays-5)
+poss(son-7, his-6)
+dobj(plays-5, son-7)
+cop(fantastic-9, was-8)
+punct(fantastic-9, .-10)
+
+Sentence #4 (9 tokens):
+He made this a father-son movie to remember.
+[Text=He CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=DT] [Text=a CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=DT] [Text=father-son CharacterOffsetBegin=174 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=TO] [Text=remember CharacterOffsetBegin=194 CharacterOffsetEnd=202 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, made-2)
+nsubj(made-2, He-1)
+det(movie-6, this-3)
+det(movie-6, a-4)
+nn(movie-6, father-son-5)
+nsubj(remember-8, movie-6)
+aux(remember-8, to-7)
+xcomp(made-2, remember-8)
+punct(made-2, .-9)
+
+Sentence #5 (6 tokens):
+The messages are good ones.
+[Text=The CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=messages CharacterOffsetBegin=212 CharacterOffsetEnd=220 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=VBP] [Text=good CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=JJ] [Text=ones CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=.] 
+root(ROOT-0, ones-5)
+det(messages-2, The-1)
+nsubj(ones-5, messages-2)
+cop(ones-5, are-3)
+amod(ones-5, good-4)
+punct(ones-5, .-6)
+
+Sentence #6 (4 tokens):
+Follow your dreams.
+[Text=Follow CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=PRP$] [Text=dreams CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=.] 
+root(ROOT-0, Follow-1)
+poss(dreams-3, your-2)
+dobj(Follow-1, dreams-3)
+punct(Follow-1, .-4)
+
+Sentence #7 (12 tokens):
+Failing at the pursuit is alright as long as you try.
+[Text=Failing CharacterOffsetBegin=264 CharacterOffsetEnd=271 PartOfSpeech=VBG] [Text=at CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=pursuit CharacterOffsetBegin=279 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=VBZ] [Text=alright CharacterOffsetBegin=290 CharacterOffsetEnd=297 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=RB] [Text=long CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=PRP] [Text=try CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.] 
+root(ROOT-0, alright-6)
+nsubj(alright-6, Failing-1)
+prep(Failing-1, at-2)
+det(pursuit-4, the-3)
+pobj(at-2, pursuit-4)
+cop(alright-6, is-5)
+advmod(long-8, as-7)
+advmod(alright-6, long-8)
+mark(try-11, as-9)
+nsubj(try-11, you-10)
+ccomp(long-8, try-11)
+punct(alright-6, .-12)
+
+Sentence #8 (5 tokens):
+The excitement is palpable.
+[Text=The CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=DT] [Text=excitement CharacterOffsetBegin=326 CharacterOffsetEnd=336 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=VBZ] [Text=palpable CharacterOffsetBegin=340 CharacterOffsetEnd=348 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=.] 
+root(ROOT-0, palpable-4)
+det(excitement-2, The-1)
+nsubj(palpable-4, excitement-2)
+cop(palpable-4, is-3)
+punct(palpable-4, .-5)
+
+Sentence #9 (9 tokens):
+I believe this movie will be a classic.
+[Text=I CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=PRP] [Text=believe CharacterOffsetBegin=356 CharacterOffsetEnd=363 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=369 CharacterOffsetEnd=374 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=385 CharacterOffsetEnd=392 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=.] 
+root(ROOT-0, believe-2)
+nsubj(believe-2, I-1)
+det(movie-4, this-3)
+nsubj(classic-8, movie-4)
+aux(classic-8, will-5)
+cop(classic-8, be-6)
+det(classic-8, a-7)
+ccomp(believe-2, classic-8)
+punct(believe-2, .-9)
+

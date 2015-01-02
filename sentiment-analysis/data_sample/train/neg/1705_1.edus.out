@@ -1,0 +1,199 @@
+Sentence #1 (22 tokens):
+A terrible amateur movie director (no, not Todd Sheets), his new friend and sister explore a cave.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=JJ] [Text=amateur CharacterOffsetBegin=15 CharacterOffsetEnd=22 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=director CharacterOffsetBegin=29 CharacterOffsetEnd=37 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=-LRB-] [Text=no CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=,] [Text=not CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=RB] [Text=Todd CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=NNP] [Text=Sheets CharacterOffsetBegin=52 CharacterOffsetEnd=58 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=,] [Text=his CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=PRP$] [Text=new CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=friend CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=CC] [Text=sister CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=explore CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=cave CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=.] 
+root(ROOT-0, explore-19)
+det(director-5, A-1)
+amod(director-5, terrible-2)
+amod(director-5, amateur-3)
+nn(director-5, movie-4)
+nsubj(explore-19, director-5)
+punct(Sheets-11, -LRB--6)
+det(Sheets-11, no-7)
+punct(Sheets-11, ,-8)
+neg(Sheets-11, not-9)
+nn(Sheets-11, Todd-10)
+appos(director-5, Sheets-11)
+punct(Sheets-11, -RRB--12)
+punct(director-5, ,-13)
+poss(friend-16, his-14)
+amod(friend-16, new-15)
+appos(director-5, friend-16)
+cc(friend-16, and-17)
+conj(friend-16, sister-18)
+det(cave-21, a-20)
+dobj(explore-19, cave-21)
+punct(explore-19, .-22)
+
+Sentence #2 (10 tokens):
+The friend and sister fall in and get rescued.
+[Text=The CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT] [Text=friend CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=CC] [Text=sister CharacterOffsetBegin=122 CharacterOffsetEnd=128 PartOfSpeech=NN] [Text=fall CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=CC] [Text=get CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=VB] [Text=rescued CharacterOffsetBegin=145 CharacterOffsetEnd=152 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=.] 
+root(ROOT-0, fall-5)
+det(friend-2, The-1)
+nsubj(fall-5, friend-2)
+cc(friend-2, and-3)
+conj(friend-2, sister-4)
+prep(fall-5, in-6)
+cc(fall-5, and-7)
+auxpass(rescued-9, get-8)
+conj(fall-5, rescued-9)
+punct(fall-5, .-10)
+
+Sentence #3 (14 tokens):
+Meanwhile a gang of horribly acted girls are defending their 'turf'.
+[Text=Meanwhile CharacterOffsetBegin=158 CharacterOffsetEnd=167 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=gang CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=horribly CharacterOffsetBegin=178 CharacterOffsetEnd=186 PartOfSpeech=RB] [Text=acted CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=VBD] [Text=girls CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=VBP] [Text=defending CharacterOffsetBegin=203 CharacterOffsetEnd=212 PartOfSpeech=VBG] [Text=their CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=PRP$] [Text=` CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=``] [Text=turf CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=''] [Text=. CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=.] 
+root(ROOT-0, acted-6)
+advmod(acted-6, Meanwhile-1)
+det(gang-3, a-2)
+nsubj(acted-6, gang-3)
+prep(gang-3, of-4)
+pobj(of-4, horribly-5)
+dobj(acted-6, girls-7)
+aux(defending-9, are-8)
+dep(acted-6, defending-9)
+poss(turf-12, their-10)
+punct(turf-12, `-11)
+dobj(defending-9, turf-12)
+punct(turf-12, '-13)
+punct(acted-6, .-14)
+
+Sentence #4 (6 tokens):
+Whatever the heck that means.
+[Text=Whatever CharacterOffsetBegin=231 CharacterOffsetEnd=239 PartOfSpeech=WDT] [Text=the CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=DT] [Text=heck CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=WDT] [Text=means CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=.] 
+root(ROOT-0, Whatever-1)
+det(heck-3, the-2)
+dep(Whatever-1, heck-3)
+nsubj(means-5, that-4)
+rcmod(heck-3, means-5)
+punct(Whatever-1, .-6)
+
+Sentence #5 (16 tokens):
+This film and I use the term VERY loosely is so bad that it's.
+[Text=This CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=PRP] [Text=use CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=DT] [Text=term CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=VERY CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=RB] [Text=loosely CharacterOffsetBegin=299 CharacterOffsetEnd=306 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=.] 
+root(ROOT-0, film-2)
+det(film-2, This-1)
+cc(film-2, and-3)
+nsubj(use-5, I-4)
+conj(film-2, use-5)
+det(term-7, the-6)
+dobj(use-5, term-7)
+advmod(loosely-9, VERY-8)
+nsubj(bad-12, loosely-9)
+cop(bad-12, is-10)
+advmod(bad-12, so-11)
+rcmod(term-7, bad-12)
+mark('s-15, that-13)
+nsubj('s-15, it-14)
+ccomp(bad-12, 's-15)
+punct(film-2, .-16)
+
+Sentence #6 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #7 (3 tokens):
+well bad.
+[Text=well CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=.] 
+root(ROOT-0, bad-2)
+advmod(bad-2, well-1)
+punct(bad-2, .-3)
+
+Sentence #8 (13 tokens):
+The humor is painfully unfunny, the "action" merely sad.
+[Text=The CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=humor CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=VBZ] [Text=painfully CharacterOffsetBegin=356 CharacterOffsetEnd=365 PartOfSpeech=RB] [Text=unfunny CharacterOffsetBegin=366 CharacterOffsetEnd=373 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=,] [Text=the CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=``] [Text=action CharacterOffsetBegin=380 CharacterOffsetEnd=386 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=''] [Text=merely CharacterOffsetBegin=388 CharacterOffsetEnd=394 PartOfSpeech=RB] [Text=sad CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=.] 
+root(ROOT-0, unfunny-5)
+det(humor-2, The-1)
+nsubj(unfunny-5, humor-2)
+cop(unfunny-5, is-3)
+advmod(unfunny-5, painfully-4)
+punct(unfunny-5, ,-6)
+det(action-9, the-7)
+punct(action-9, ``-8)
+nsubj(sad-12, action-9)
+punct(action-9, ''-10)
+advmod(sad-12, merely-11)
+ccomp(unfunny-5, sad-12)
+punct(unfunny-5, .-13)
+
+Sentence #9 (41 tokens):
+Now I've seen some atrociously awful 'horror' films in my time & failed to grow jaded in my approach to watching low-budget films, yet I still weep openly for anyone who choose to sit through this.
+[Text=Now CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=VBN] [Text=some CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=DT] [Text=atrociously CharacterOffsetBegin=423 CharacterOffsetEnd=434 PartOfSpeech=RB] [Text=awful CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=JJ] [Text=` CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=``] [Text=horror CharacterOffsetBegin=442 CharacterOffsetEnd=448 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=''] [Text=films CharacterOffsetBegin=450 CharacterOffsetEnd=455 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=NN] [Text=& CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=CC] [Text=failed CharacterOffsetBegin=469 CharacterOffsetEnd=475 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=TO] [Text=grow CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=VB] [Text=jaded CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=PRP$] [Text=approach CharacterOffsetBegin=496 CharacterOffsetEnd=504 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=505 CharacterOffsetEnd=507 PartOfSpeech=TO] [Text=watching CharacterOffsetBegin=508 CharacterOffsetEnd=516 PartOfSpeech=VBG] [Text=low-budget CharacterOffsetBegin=517 CharacterOffsetEnd=527 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=528 CharacterOffsetEnd=533 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=,] [Text=yet CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=541 CharacterOffsetEnd=546 PartOfSpeech=RB] [Text=weep CharacterOffsetBegin=547 CharacterOffsetEnd=551 PartOfSpeech=NN] [Text=openly CharacterOffsetBegin=552 CharacterOffsetEnd=558 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=IN] [Text=anyone CharacterOffsetBegin=563 CharacterOffsetEnd=569 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=WP] [Text=choose CharacterOffsetBegin=574 CharacterOffsetEnd=580 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=TO] [Text=sit CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=588 CharacterOffsetEnd=595 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=600 CharacterOffsetEnd=601 PartOfSpeech=.] 
+root(ROOT-0, seen-4)
+advmod(seen-4, Now-1)
+nsubj(seen-4, I-2)
+aux(seen-4, 've-3)
+det(horror-9, some-5)
+advmod(horror-9, atrociously-6)
+amod(horror-9, awful-7)
+punct(horror-9, `-8)
+poss(films-11, horror-9)
+punct(horror-9, '-10)
+dobj(seen-4, films-11)
+prep(seen-4, in-12)
+poss(time-14, my-13)
+pobj(in-12, time-14)
+cc(seen-4, &-15)
+conj(seen-4, failed-16)
+aux(grow-18, to-17)
+xcomp(failed-16, grow-18)
+dobj(grow-18, jaded-19)
+prep(jaded-19, in-20)
+poss(approach-22, my-21)
+pobj(in-20, approach-22)
+prep(approach-22, to-23)
+pcomp(to-23, watching-24)
+amod(films-26, low-budget-25)
+dobj(watching-24, films-26)
+punct(seen-4, ,-27)
+advmod(weep-31, yet-28)
+nsubj(weep-31, I-29)
+advmod(weep-31, still-30)
+ccomp(seen-4, weep-31)
+advmod(weep-31, openly-32)
+prep(weep-31, for-33)
+pobj(for-33, anyone-34)
+nsubj(choose-36, who-35)
+rcmod(anyone-34, choose-36)
+aux(sit-38, to-37)
+xcomp(choose-36, sit-38)
+prep(sit-38, through-39)
+pobj(through-39, this-40)
+punct(seen-4, .-41)
+
+Sentence #10 (9 tokens):
+ONLY for the most hardened maschocists amongst you.
+[Text=ONLY CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=RBS] [Text=hardened CharacterOffsetBegin=624 CharacterOffsetEnd=632 PartOfSpeech=JJ] [Text=maschocists CharacterOffsetBegin=633 CharacterOffsetEnd=644 PartOfSpeech=NNS] [Text=amongst CharacterOffsetBegin=645 CharacterOffsetEnd=652 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=.] 
+root(ROOT-0, ONLY-1)
+prep(ONLY-1, for-2)
+det(maschocists-6, the-3)
+advmod(hardened-5, most-4)
+amod(maschocists-6, hardened-5)
+pobj(for-2, maschocists-6)
+prep(maschocists-6, amongst-7)
+pobj(amongst-7, you-8)
+punct(ONLY-1, .-9)
+
+Sentence #11 (7 tokens):
+but the rest run away FAST!
+[Text=but CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=NN] [Text=run CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=VB] [Text=away CharacterOffsetBegin=679 CharacterOffsetEnd=683 PartOfSpeech=RB] [Text=FAST CharacterOffsetBegin=684 CharacterOffsetEnd=688 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=.] 
+root(ROOT-0, run-4)
+cc(run-4, but-1)
+det(rest-3, the-2)
+nsubj(run-4, rest-3)
+advmod(FAST-6, away-5)
+advmod(run-4, FAST-6)
+punct(run-4, !-7)
+
+Sentence #12 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+
+Sentence #13 (4 tokens):
+My Grade: F
+[Text=My CharacterOffsetBegin=695 CharacterOffsetEnd=697 PartOfSpeech=PRP$] [Text=Grade CharacterOffsetBegin=698 CharacterOffsetEnd=703 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=703 CharacterOffsetEnd=704 PartOfSpeech=:] [Text=F CharacterOffsetBegin=705 CharacterOffsetEnd=706 PartOfSpeech=NN] 
+root(ROOT-0, Grade-2)
+poss(Grade-2, My-1)
+punct(Grade-2, :-3)
+dep(Grade-2, F-4)
+

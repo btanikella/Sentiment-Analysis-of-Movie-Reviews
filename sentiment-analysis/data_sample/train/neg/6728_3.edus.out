@@ -1,0 +1,83 @@
+Sentence #1 (11 tokens):
+This film is hardly good, not great at all.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=VBZ] [Text=hardly CharacterOffsetBegin=17 CharacterOffsetEnd=23 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=,] [Text=not CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, good-5)
+det(film-2, This-1)
+nsubj(good-5, film-2)
+cop(good-5, is-3)
+advmod(good-5, hardly-4)
+punct(good-5, ,-6)
+neg(great-8, not-7)
+conj(good-5, great-8)
+prep(great-8, at-9)
+pobj(at-9, all-10)
+punct(good-5, .-11)
+
+Sentence #2 (17 tokens):
+A few memorable scenes and the unlucky choice of pairing Norma Jean with an actual actress.
+[Text=A CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=JJ] [Text=memorable CharacterOffsetBegin=58 CharacterOffsetEnd=67 PartOfSpeech=JJ] [Text=scenes CharacterOffsetBegin=68 CharacterOffsetEnd=74 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=unlucky CharacterOffsetBegin=83 CharacterOffsetEnd=90 PartOfSpeech=JJ] [Text=choice CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=pairing CharacterOffsetBegin=101 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=Norma CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=NNP] [Text=Jean CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=NNP] [Text=with CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=DT] [Text=actual CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=JJ] [Text=actress CharacterOffsetBegin=135 CharacterOffsetEnd=142 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=.] 
+root(ROOT-0, scenes-4)
+det(scenes-4, A-1)
+amod(scenes-4, few-2)
+amod(scenes-4, memorable-3)
+cc(scenes-4, and-5)
+det(choice-8, the-6)
+amod(choice-8, unlucky-7)
+conj(scenes-4, choice-8)
+prep(choice-8, of-9)
+nn(Jean-12, pairing-10)
+nn(Jean-12, Norma-11)
+pobj(of-9, Jean-12)
+prep(scenes-4, with-13)
+det(actress-16, an-14)
+amod(actress-16, actual-15)
+pobj(with-13, actress-16)
+punct(scenes-4, .-17)
+
+Sentence #3 (16 tokens):
+Jane Russell has it all working for her, Marilyn's lesser woman and/or actress.
+[Text=Jane CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=NNP] [Text=Russell CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=DT] [Text=working CharacterOffsetBegin=172 CharacterOffsetEnd=179 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=,] [Text=Marilyn CharacterOffsetBegin=189 CharacterOffsetEnd=196 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=POS] [Text=lesser CharacterOffsetBegin=199 CharacterOffsetEnd=205 PartOfSpeech=JJR] [Text=woman CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NN] [Text=and/or CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=CC] [Text=actress CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+nn(Russell-2, Jane-1)
+nsubj(has-3, Russell-2)
+nsubj(working-6, it-4)
+dep(working-6, all-5)
+xcomp(has-3, working-6)
+prep(working-6, for-7)
+pobj(for-7, her-8)
+punct(working-6, ,-9)
+poss(woman-13, Marilyn-10)
+possessive(Marilyn-10, 's-11)
+amod(woman-13, lesser-12)
+dobj(working-6, woman-13)
+prep(woman-13, and/or-14)
+dep(and/or-14, actress-15)
+punct(has-3, .-16)
+
+Sentence #4 (18 tokens):
+One can only wonder why this is considered being one of the highlights of her lame career.
+[Text=One CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=MD] [Text=only CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=wonder CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=VB] [Text=why CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=WRB] [Text=this CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=VBZ] [Text=considered CharacterOffsetBegin=264 CharacterOffsetEnd=274 PartOfSpeech=VBN] [Text=being CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=VBG] [Text=one CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=DT] [Text=highlights CharacterOffsetBegin=292 CharacterOffsetEnd=302 PartOfSpeech=VBZ] [Text=of CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=PRP$] [Text=lame CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=career CharacterOffsetBegin=315 CharacterOffsetEnd=321 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=.] 
+root(ROOT-0, wonder-4)
+nsubj(wonder-4, One-1)
+aux(wonder-4, can-2)
+advmod(wonder-4, only-3)
+advmod(considered-8, why-5)
+nsubjpass(considered-8, this-6)
+auxpass(considered-8, is-7)
+advcl(wonder-4, considered-8)
+cop(one-10, being-9)
+xcomp(considered-8, one-10)
+prep(one-10, of-11)
+det(highlights-13, the-12)
+pobj(of-11, highlights-13)
+prep(highlights-13, of-14)
+poss(career-17, her-15)
+amod(career-17, lame-16)
+pobj(of-14, career-17)
+punct(wonder-4, .-18)
+
+Sentence #5 (1 tokens):
+3/10
+[Text=3/10 CharacterOffsetBegin=327 CharacterOffsetEnd=331 PartOfSpeech=CD] 
+root(ROOT-0, 3/10-1)
+

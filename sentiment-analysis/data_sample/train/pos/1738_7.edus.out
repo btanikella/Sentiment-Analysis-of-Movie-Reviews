@@ -1,0 +1,136 @@
+Sentence #1 (6 tokens):
+This is a hilarious film.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=hilarious CharacterOffsetBegin=14 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=.] 
+root(ROOT-0, film-5)
+nsubj(film-5, This-1)
+cop(film-5, is-2)
+det(film-5, a-3)
+amod(film-5, hilarious-4)
+punct(film-5, .-6)
+
+Sentence #2 (19 tokens):
+Burt Reynolds is a NASCAR star who signs a sponsorship contract with Ned Beatty's Chicken Pit restaurants.
+[Text=Burt CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NNP] [Text=Reynolds CharacterOffsetBegin=39 CharacterOffsetEnd=47 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=DT] [Text=NASCAR CharacterOffsetBegin=53 CharacterOffsetEnd=59 PartOfSpeech=NNP] [Text=star CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=WP] [Text=signs CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text=sponsorship CharacterOffsetBegin=77 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=contract CharacterOffsetBegin=89 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=IN] [Text=Ned CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=NNP] [Text=Beatty CharacterOffsetBegin=107 CharacterOffsetEnd=113 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=POS] [Text=Chicken CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=NNP] [Text=Pit CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=restaurants CharacterOffsetBegin=128 CharacterOffsetEnd=139 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=.] 
+root(ROOT-0, star-6)
+nn(Reynolds-2, Burt-1)
+nsubj(star-6, Reynolds-2)
+cop(star-6, is-3)
+det(star-6, a-4)
+nn(star-6, NASCAR-5)
+nsubj(signs-8, who-7)
+rcmod(star-6, signs-8)
+det(contract-11, a-9)
+nn(contract-11, sponsorship-10)
+dobj(signs-8, contract-11)
+prep(contract-11, with-12)
+nn(Beatty-14, Ned-13)
+poss(restaurants-18, Beatty-14)
+possessive(Beatty-14, 's-15)
+nn(restaurants-18, Chicken-16)
+nn(restaurants-18, Pit-17)
+pobj(with-12, restaurants-18)
+punct(star-6, .-19)
+
+Sentence #3 (24 tokens):
+The contract has all sorts of humiliating clauses in it, such as forcing Burt to wear a chicken suit during the race!
+[Text=The CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=DT] [Text=contract CharacterOffsetBegin=149 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=VBZ] [Text=all CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=DT] [Text=sorts CharacterOffsetBegin=166 CharacterOffsetEnd=171 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=IN] [Text=humiliating CharacterOffsetBegin=175 CharacterOffsetEnd=186 PartOfSpeech=JJ] [Text=clauses CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=,] [Text=such CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=IN] [Text=forcing CharacterOffsetBegin=210 CharacterOffsetEnd=217 PartOfSpeech=VBG] [Text=Burt CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=TO] [Text=wear CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=DT] [Text=chicken CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=suit CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=NN] [Text=during CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=race CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(contract-2, The-1)
+nsubj(has-3, contract-2)
+det(sorts-5, all-4)
+dobj(has-3, sorts-5)
+prep(sorts-5, of-6)
+amod(clauses-8, humiliating-7)
+pobj(of-6, clauses-8)
+prep(clauses-8, in-9)
+pobj(in-9, it-10)
+punct(clauses-8, ,-11)
+mwe(as-13, such-12)
+prep(clauses-8, as-13)
+pcomp(as-13, forcing-14)
+nsubj(wear-17, Burt-15)
+aux(wear-17, to-16)
+xcomp(forcing-14, wear-17)
+det(suit-20, a-18)
+nn(suit-20, chicken-19)
+dobj(wear-17, suit-20)
+prep(wear-17, during-21)
+det(race-23, the-22)
+pobj(during-21, race-23)
+punct(has-3, !-24)
+
+Sentence #4 (12 tokens):
+Jim Nabors is his (not quite convincing) chief mechanic.
+[Text=Jim CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=NNP] [Text=Nabors CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=PRP$] [Text=-LRB- CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=-LRB-] [Text=not CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=RB] [Text=quite CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=RB] [Text=convincing CharacterOffsetBegin=296 CharacterOffsetEnd=306 PartOfSpeech=JJ] [Text=-RRB- CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=-RRB-] [Text=chief CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=JJ] [Text=mechanic CharacterOffsetBegin=314 CharacterOffsetEnd=322 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=.] 
+root(ROOT-0, Nabors-2)
+nn(Nabors-2, Jim-1)
+dep(Nabors-2, is-3)
+dep(is-3, his-4)
+punct(convincing-8, -LRB--5)
+neg(convincing-8, not-6)
+advmod(convincing-8, quite-7)
+dep(his-4, convincing-8)
+punct(mechanic-11, -RRB--9)
+amod(mechanic-11, chief-10)
+dobj(convincing-8, mechanic-11)
+punct(Nabors-2, .-12)
+
+Sentence #5 (8 tokens):
+Loni Anderson (oh, yeah!)
+[Text=Loni CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=NNP] [Text=Anderson CharacterOffsetBegin=333 CharacterOffsetEnd=341 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=-LRB-] [Text=oh CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=,] [Text=yeah CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=-RRB-] 
+root(ROOT-0, Loni-1)
+dep(Loni-1, Anderson-2)
+punct(oh-4, -LRB--3)
+dep(Anderson-2, oh-4)
+punct(oh-4, ,-5)
+dep(oh-4, yeah-6)
+punct(oh-4, !-7)
+punct(Loni-1, -RRB--8)
+
+Sentence #6 (15 tokens):
+is assigned by Beatty to keep Reynolds honest and strictly adhering to the contract.
+[Text=is CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=VBZ] [Text=assigned CharacterOffsetBegin=361 CharacterOffsetEnd=369 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=IN] [Text=Beatty CharacterOffsetBegin=373 CharacterOffsetEnd=379 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=TO] [Text=keep CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=VB] [Text=Reynolds CharacterOffsetBegin=388 CharacterOffsetEnd=396 PartOfSpeech=NNP] [Text=honest CharacterOffsetBegin=397 CharacterOffsetEnd=403 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=CC] [Text=strictly CharacterOffsetBegin=408 CharacterOffsetEnd=416 PartOfSpeech=RB] [Text=adhering CharacterOffsetBegin=417 CharacterOffsetEnd=425 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=DT] [Text=contract CharacterOffsetBegin=433 CharacterOffsetEnd=441 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=.] 
+root(ROOT-0, assigned-2)
+auxpass(assigned-2, is-1)
+prep(assigned-2, by-3)
+pobj(by-3, Beatty-4)
+aux(keep-6, to-5)
+xcomp(assigned-2, keep-6)
+nsubj(honest-8, Reynolds-7)
+xcomp(keep-6, honest-8)
+cc(honest-8, and-9)
+advmod(adhering-11, strictly-10)
+conj(honest-8, adhering-11)
+prep(adhering-11, to-12)
+det(contract-14, the-13)
+pobj(to-12, contract-14)
+punct(assigned-2, .-15)
+
+Sentence #7 (16 tokens):
+This is a funny film in which Burt proves that he ain't too proud.
+[Text=This CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=DT] [Text=funny CharacterOffsetBegin=457 CharacterOffsetEnd=462 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=IN] [Text=which CharacterOffsetBegin=471 CharacterOffsetEnd=476 PartOfSpeech=WDT] [Text=Burt CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=NNP] [Text=proves CharacterOffsetBegin=482 CharacterOffsetEnd=488 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=PRP] [Text=ai CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=RB] [Text=too CharacterOffsetBegin=503 CharacterOffsetEnd=506 PartOfSpeech=RB] [Text=proud CharacterOffsetBegin=507 CharacterOffsetEnd=512 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=.] 
+root(ROOT-0, film-5)
+nsubj(film-5, This-1)
+cop(film-5, is-2)
+det(film-5, a-3)
+amod(film-5, funny-4)
+prep(proves-9, in-6)
+pobj(in-6, which-7)
+nsubj(proves-9, Burt-8)
+rcmod(film-5, proves-9)
+mark(proud-15, that-10)
+nsubj(proud-15, he-11)
+cop(proud-15, ai-12)
+neg(proud-15, n't-13)
+advmod(proud-15, too-14)
+ccomp(proves-9, proud-15)
+punct(film-5, .-16)
+
+Sentence #8 (4 tokens):
+I like it!
+[Text=I CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=520 CharacterOffsetEnd=524 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=527 CharacterOffsetEnd=528 PartOfSpeech=.] 
+root(ROOT-0, like-2)
+nsubj(like-2, I-1)
+dobj(like-2, it-3)
+punct(like-2, !-4)
+

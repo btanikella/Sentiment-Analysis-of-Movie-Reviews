@@ -1,0 +1,201 @@
+Sentence #1 (9 tokens):
+We loved School of Rock and Jack Black.
+[Text=We CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=School CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=IN] [Text=Rock CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=CC] [Text=Jack CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=NNP] [Text=Black CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=.] 
+root(ROOT-0, loved-2)
+nsubj(loved-2, We-1)
+dobj(loved-2, School-3)
+prep(School-3, of-4)
+pobj(of-4, Rock-5)
+cc(School-3, and-6)
+nn(Black-8, Jack-7)
+conj(School-3, Black-8)
+punct(loved-2, .-9)
+
+Sentence #2 (11 tokens):
+We couldn't wait to go and see this movie.
+[Text=We CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=RB] [Text=wait CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=CC] [Text=see CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.] 
+root(ROOT-0, wait-4)
+nsubj(wait-4, We-1)
+aux(wait-4, could-2)
+neg(wait-4, n't-3)
+aux(go-6, to-5)
+xcomp(wait-4, go-6)
+cc(go-6, and-7)
+conj(go-6, see-8)
+det(movie-10, this-9)
+dobj(see-8, movie-10)
+punct(wait-4, .-11)
+
+Sentence #3 (19 tokens):
+It was the only time in my life the movie was so bad I wanted to walk out.
+[Text=It CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=PRP] [Text=wanted CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=TO] [Text=walk CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=.] 
+root(ROOT-0, time-5)
+nsubj(time-5, It-1)
+cop(time-5, was-2)
+det(time-5, the-3)
+amod(time-5, only-4)
+prep(time-5, in-6)
+poss(life-8, my-7)
+pobj(in-6, life-8)
+det(movie-10, the-9)
+nsubj(bad-13, movie-10)
+cop(bad-13, was-11)
+advmod(bad-13, so-12)
+rcmod(time-5, bad-13)
+nsubj(wanted-15, I-14)
+dep(bad-13, wanted-15)
+aux(walk-17, to-16)
+xcomp(wanted-15, walk-17)
+prt(walk-17, out-18)
+punct(time-5, .-19)
+
+Sentence #4 (6 tokens):
+My husband hated it too.
+[Text=My CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=PRP$] [Text=husband CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=hated CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=PRP] [Text=too CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=.] 
+root(ROOT-0, hated-3)
+poss(husband-2, My-1)
+nsubj(hated-3, husband-2)
+dobj(hated-3, it-4)
+advmod(hated-3, too-5)
+punct(hated-3, .-6)
+
+Sentence #5 (9 tokens):
+The only funny parts were in the trailers.
+[Text=The CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=JJ] [Text=funny CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=JJ] [Text=parts CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=trailers CharacterOffsetBegin=236 CharacterOffsetEnd=244 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=.] 
+root(ROOT-0, were-5)
+det(parts-4, The-1)
+amod(parts-4, only-2)
+amod(parts-4, funny-3)
+nsubj(were-5, parts-4)
+prep(were-5, in-6)
+det(trailers-8, the-7)
+pobj(in-6, trailers-8)
+punct(were-5, .-9)
+
+Sentence #6 (19 tokens):
+My husband and I wanted to stand outside the movie theater and tell people to save their money.
+[Text=My CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=PRP$] [Text=husband CharacterOffsetBegin=253 CharacterOffsetEnd=260 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=PRP] [Text=wanted CharacterOffsetBegin=267 CharacterOffsetEnd=273 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=TO] [Text=stand CharacterOffsetBegin=277 CharacterOffsetEnd=282 PartOfSpeech=VB] [Text=outside CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=NN] [Text=theater CharacterOffsetBegin=301 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=CC] [Text=tell CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=VB] [Text=people CharacterOffsetBegin=318 CharacterOffsetEnd=324 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=TO] [Text=save CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=VB] [Text=their CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=PRP$] [Text=money CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=.] 
+root(ROOT-0, wanted-5)
+poss(husband-2, My-1)
+nsubj(wanted-5, husband-2)
+cc(husband-2, and-3)
+conj(husband-2, I-4)
+aux(stand-7, to-6)
+xcomp(wanted-5, stand-7)
+prep(stand-7, outside-8)
+det(theater-11, the-9)
+nn(theater-11, movie-10)
+pobj(outside-8, theater-11)
+cc(stand-7, and-12)
+conj(stand-7, tell-13)
+dobj(tell-13, people-14)
+aux(save-16, to-15)
+xcomp(tell-13, save-16)
+poss(money-18, their-17)
+dobj(save-16, money-18)
+punct(wanted-5, .-19)
+
+Sentence #7 (5 tokens):
+The writing was awful.
+[Text=The CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=DT] [Text=writing CharacterOffsetBegin=354 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=VBD] [Text=awful CharacterOffsetBegin=366 CharacterOffsetEnd=371 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=.] 
+root(ROOT-0, awful-4)
+det(writing-2, The-1)
+nsubj(awful-4, writing-2)
+cop(awful-4, was-3)
+punct(awful-4, .-5)
+
+Sentence #8 (14 tokens):
+It had every terrible stereotype of Hispanic people who should be utterly offended.
+[Text=It CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=VBD] [Text=every CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=390 CharacterOffsetEnd=398 PartOfSpeech=JJ] [Text=stereotype CharacterOffsetBegin=399 CharacterOffsetEnd=409 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=IN] [Text=Hispanic CharacterOffsetBegin=413 CharacterOffsetEnd=421 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=422 CharacterOffsetEnd=428 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=WP] [Text=should CharacterOffsetBegin=433 CharacterOffsetEnd=439 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=440 CharacterOffsetEnd=442 PartOfSpeech=VB] [Text=utterly CharacterOffsetBegin=443 CharacterOffsetEnd=450 PartOfSpeech=RB] [Text=offended CharacterOffsetBegin=451 CharacterOffsetEnd=459 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, It-1)
+det(stereotype-5, every-3)
+amod(stereotype-5, terrible-4)
+dobj(had-2, stereotype-5)
+prep(stereotype-5, of-6)
+amod(people-8, Hispanic-7)
+pobj(of-6, people-8)
+nsubj(offended-13, who-9)
+aux(offended-13, should-10)
+cop(offended-13, be-11)
+advmod(offended-13, utterly-12)
+rcmod(people-8, offended-13)
+punct(had-2, .-14)
+
+Sentence #9 (15 tokens):
+The movie wasn't that long but to us it seemed like an eternity.
+[Text=The CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=469 CharacterOffsetEnd=474 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=DT] [Text=long CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=CC] [Text=to CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=TO] [Text=us CharacterOffsetBegin=499 CharacterOffsetEnd=501 PartOfSpeech=PRP] [Text=it CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=PRP] [Text=seemed CharacterOffsetBegin=505 CharacterOffsetEnd=511 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=DT] [Text=eternity CharacterOffsetBegin=520 CharacterOffsetEnd=528 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=.] 
+root(ROOT-0, movie-2)
+det(movie-2, The-1)
+amod(movie-2, was-3)
+advmod(was-3, n't-4)
+dep(n't-4, that-5)
+dep(that-5, long-6)
+cc(long-6, but-7)
+prep(seemed-11, to-8)
+pobj(to-8, us-9)
+nsubj(seemed-11, it-10)
+conj(long-6, seemed-11)
+prep(seemed-11, like-12)
+det(eternity-14, an-13)
+pobj(like-12, eternity-14)
+punct(movie-2, .-15)
+
+Sentence #10 (17 tokens):
+The people in the theater were so restless and silent it was like watching paint dry.
+[Text=The CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=DT] [Text=people CharacterOffsetBegin=538 CharacterOffsetEnd=544 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT] [Text=theater CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=565 CharacterOffsetEnd=567 PartOfSpeech=RB] [Text=restless CharacterOffsetBegin=568 CharacterOffsetEnd=576 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=CC] [Text=silent CharacterOffsetBegin=581 CharacterOffsetEnd=587 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=595 CharacterOffsetEnd=599 PartOfSpeech=IN] [Text=watching CharacterOffsetBegin=600 CharacterOffsetEnd=608 PartOfSpeech=VBG] [Text=paint CharacterOffsetBegin=609 CharacterOffsetEnd=614 PartOfSpeech=NN] [Text=dry CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=.] 
+root(ROOT-0, restless-8)
+det(people-2, The-1)
+nsubj(restless-8, people-2)
+prep(people-2, in-3)
+det(theater-5, the-4)
+pobj(in-3, theater-5)
+cop(restless-8, were-6)
+advmod(restless-8, so-7)
+cc(restless-8, and-9)
+conj(restless-8, silent-10)
+nsubj(was-12, it-11)
+ccomp(silent-10, was-12)
+prep(was-12, like-13)
+pcomp(like-13, watching-14)
+dobj(watching-14, paint-15)
+amod(paint-15, dry-16)
+punct(restless-8, .-17)
+
+Sentence #11 (22 tokens):
+I made my husband stay because I was sure there would maybe be some redeeming parts, but there weren't.
+[Text=I CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=PRP$] [Text=husband CharacterOffsetBegin=634 CharacterOffsetEnd=641 PartOfSpeech=NN] [Text=stay CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=647 CharacterOffsetEnd=654 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=VBD] [Text=sure CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=JJ] [Text=there CharacterOffsetBegin=666 CharacterOffsetEnd=671 PartOfSpeech=EX] [Text=would CharacterOffsetBegin=672 CharacterOffsetEnd=677 PartOfSpeech=MD] [Text=maybe CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=684 CharacterOffsetEnd=686 PartOfSpeech=VB] [Text=some CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=DT] [Text=redeeming CharacterOffsetBegin=692 CharacterOffsetEnd=701 PartOfSpeech=JJ] [Text=parts CharacterOffsetBegin=702 CharacterOffsetEnd=707 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=707 CharacterOffsetEnd=708 PartOfSpeech=,] [Text=but CharacterOffsetBegin=709 CharacterOffsetEnd=712 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=713 CharacterOffsetEnd=718 PartOfSpeech=EX] [Text=were CharacterOffsetBegin=719 CharacterOffsetEnd=723 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=723 CharacterOffsetEnd=726 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=726 CharacterOffsetEnd=727 PartOfSpeech=.] 
+root(ROOT-0, made-2)
+nsubj(made-2, I-1)
+poss(husband-4, my-3)
+nsubj(stay-5, husband-4)
+ccomp(made-2, stay-5)
+mark(sure-9, because-6)
+nsubj(sure-9, I-7)
+cop(sure-9, was-8)
+advcl(stay-5, sure-9)
+expl(parts-16, there-10)
+aux(parts-16, would-11)
+advmod(parts-16, maybe-12)
+cop(parts-16, be-13)
+det(parts-16, some-14)
+amod(parts-16, redeeming-15)
+ccomp(sure-9, parts-16)
+punct(made-2, ,-17)
+cc(made-2, but-18)
+expl(were-20, there-19)
+conj(made-2, were-20)
+neg(were-20, n't-21)
+punct(made-2, .-22)
+
+Sentence #12 (7 tokens):
+Save you money and your time.
+[Text=Save CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=PRP] [Text=money CharacterOffsetBegin=741 CharacterOffsetEnd=746 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=747 CharacterOffsetEnd=750 PartOfSpeech=CC] [Text=your CharacterOffsetBegin=751 CharacterOffsetEnd=755 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=756 CharacterOffsetEnd=760 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=760 CharacterOffsetEnd=761 PartOfSpeech=.] 
+root(ROOT-0, Save-1)
+nsubj(money-3, you-2)
+dep(Save-1, money-3)
+cc(money-3, and-4)
+poss(time-6, your-5)
+conj(money-3, time-6)
+punct(Save-1, .-7)
+

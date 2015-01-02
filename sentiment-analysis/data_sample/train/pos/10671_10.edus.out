@@ -1,0 +1,77 @@
+Sentence #1 (5 tokens):
+I love this movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+det(movie-4, this-3)
+dobj(love-2, movie-4)
+punct(love-2, .-5)
+
+Sentence #2 (20 tokens):
+I mean the story may not be the best, but the dancing most certainly makes up for it.
+[Text=I CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=JJS] [Text=, CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=,] [Text=but CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=dancing CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=most CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=RBS] [Text=certainly CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=RB] [Text=makes CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=RP] [Text=for CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+det(story-4, the-3)
+nsubj(best-9, story-4)
+aux(best-9, may-5)
+neg(best-9, not-6)
+cop(best-9, be-7)
+det(best-9, the-8)
+ccomp(mean-2, best-9)
+punct(mean-2, ,-10)
+cc(mean-2, but-11)
+det(dancing-13, the-12)
+nsubj(makes-16, dancing-13)
+advmod(certainly-15, most-14)
+advmod(makes-16, certainly-15)
+conj(mean-2, makes-16)
+prt(makes-16, up-17)
+prep(makes-16, for-18)
+pobj(for-18, it-19)
+punct(mean-2, .-20)
+
+Sentence #3 (20 tokens):
+You get to know a little bit about each character the way THEY want you to learn about them.
+[Text=You CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=TO] [Text=know CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=bit CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=each CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=157 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=THEY CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NN] [Text=want CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=TO] [Text=learn CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=.] 
+root(ROOT-0, get-2)
+nsubj(get-2, You-1)
+aux(know-4, to-3)
+xcomp(get-2, know-4)
+det(bit-7, a-5)
+amod(bit-7, little-6)
+dobj(know-4, bit-7)
+prep(bit-7, about-8)
+det(character-10, each-9)
+pobj(about-8, character-10)
+det(way-12, the-11)
+dep(bit-7, way-12)
+nsubj(want-14, THEY-13)
+rcmod(way-12, want-14)
+nsubj(learn-17, you-15)
+aux(learn-17, to-16)
+xcomp(want-14, learn-17)
+prep(learn-17, about-18)
+pobj(about-18, them-19)
+punct(get-2, .-20)
+
+Sentence #4 (16 tokens):
+I just think that you won't like this movie unless you're into Broadway...
+[Text=I CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=think CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=unless CharacterOffsetBegin=258 CharacterOffsetEnd=264 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=VBP] [Text=into CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=IN] [Text=Broadway CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=NNP] [Text=... CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=:] 
+root(ROOT-0, think-3)
+nsubj(think-3, I-1)
+advmod(think-3, just-2)
+mark(like-8, that-4)
+nsubj(like-8, you-5)
+aux(like-8, wo-6)
+neg(like-8, n't-7)
+ccomp(think-3, like-8)
+det(movie-10, this-9)
+dobj(like-8, movie-10)
+mark('re-13, unless-11)
+nsubj('re-13, you-12)
+advcl(like-8, 're-13)
+prep('re-13, into-14)
+pobj(into-14, Broadway-15)
+punct(think-3, ...-16)
+

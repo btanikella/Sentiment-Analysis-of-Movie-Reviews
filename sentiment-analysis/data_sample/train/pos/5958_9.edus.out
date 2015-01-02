@@ -1,0 +1,239 @@
+Sentence #1 (8 tokens):
+Unlike some comments, mine is positive.
+[Text=Unlike CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=comments CharacterOffsetBegin=16 CharacterOffsetEnd=24 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=,] [Text=mine CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=VBZ] [Text=positive CharacterOffsetBegin=34 CharacterOffsetEnd=42 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=.] 
+root(ROOT-0, positive-7)
+prep(positive-7, Unlike-1)
+det(comments-3, some-2)
+pobj(Unlike-1, comments-3)
+punct(positive-7, ,-4)
+nsubj(positive-7, mine-5)
+cop(positive-7, is-6)
+punct(positive-7, .-8)
+
+Sentence #2 (22 tokens):
+This movie wraps around the dinner table with a group of friends, some you like, some you don't.
+[Text=This CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=53 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=wraps CharacterOffsetBegin=59 CharacterOffsetEnd=64 PartOfSpeech=VBZ] [Text=around CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=dinner CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=table CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=DT] [Text=group CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=IN] [Text=friends CharacterOffsetBegin=105 CharacterOffsetEnd=112 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=,] [Text=some CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=DT] [Text=you CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=,] [Text=some CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=you CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=.] 
+root(ROOT-0, wraps-3)
+det(movie-2, This-1)
+nsubj(wraps-3, movie-2)
+prep(wraps-3, around-4)
+det(table-7, the-5)
+nn(table-7, dinner-6)
+pobj(around-4, table-7)
+prep(table-7, with-8)
+det(group-10, a-9)
+pobj(with-8, group-10)
+prep(group-10, of-11)
+pobj(of-11, friends-12)
+punct(wraps-3, ,-13)
+det(you-15, some-14)
+nsubj(like-16, you-15)
+ccomp(wraps-3, like-16)
+punct(like-16, ,-17)
+discourse(like-16, some-18)
+nsubj(do-20, you-19)
+rcmod(some-18, do-20)
+neg(do-20, n't-21)
+punct(wraps-3, .-22)
+
+Sentence #3 (11 tokens):
+A few are related--mother, daughter, son.
+[Text=A CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=JJ] [Text=are CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=VBP] [Text=related CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=JJ] [Text=-- CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=:] [Text=mother CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=,] [Text=daughter CharacterOffsetBegin=176 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=,] [Text=son CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=.] 
+root(ROOT-0, related-4)
+det(few-2, A-1)
+nsubj(related-4, few-2)
+cop(related-4, are-3)
+punct(related-4, ---5)
+parataxis(related-4, mother-6)
+punct(mother-6, ,-7)
+appos(mother-6, daughter-8)
+punct(mother-6, ,-9)
+appos(mother-6, son-10)
+punct(related-4, .-11)
+
+Sentence #4 (22 tokens):
+Their stories are not one smooth, happy with everyone and everything, type of life--much like real life.
+[Text=Their CharacterOffsetBegin=195 CharacterOffsetEnd=200 PartOfSpeech=PRP$] [Text=stories CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=CD] [Text=smooth CharacterOffsetBegin=221 CharacterOffsetEnd=227 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=,] [Text=happy CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=everyone CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=CC] [Text=everything CharacterOffsetBegin=253 CharacterOffsetEnd=263 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=,] [Text=type CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=IN] [Text=life CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=:] [Text=much CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=IN] [Text=real CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=JJ] [Text=life CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=.] 
+root(ROOT-0, smooth-6)
+poss(stories-2, Their-1)
+nsubj(smooth-6, stories-2)
+cop(smooth-6, are-3)
+neg(smooth-6, not-4)
+num(smooth-6, one-5)
+punct(smooth-6, ,-7)
+amod(smooth-6, happy-8)
+prep(happy-8, with-9)
+pobj(with-9, everyone-10)
+cc(everyone-10, and-11)
+conj(everyone-10, everything-12)
+punct(smooth-6, ,-13)
+appos(smooth-6, type-14)
+prep(type-14, of-15)
+pobj(of-15, life-16)
+punct(smooth-6, ---17)
+advmod(like-19, much-18)
+prep(smooth-6, like-19)
+amod(life-21, real-20)
+pobj(like-19, life-21)
+punct(smooth-6, .-22)
+
+Sentence #5 (11 tokens):
+Some story lines do not evolve, they just happen.
+[Text=Some CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=NN] [Text=lines CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=RB] [Text=evolve CharacterOffsetBegin=328 CharacterOffsetEnd=334 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=,] [Text=they CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=RB] [Text=happen CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.] 
+root(ROOT-0, evolve-6)
+det(lines-3, Some-1)
+nn(lines-3, story-2)
+nsubj(evolve-6, lines-3)
+aux(evolve-6, do-4)
+neg(evolve-6, not-5)
+punct(evolve-6, ,-7)
+nsubj(happen-10, they-8)
+advmod(happen-10, just-9)
+ccomp(evolve-6, happen-10)
+punct(evolve-6, .-11)
+
+Sentence #6 (12 tokens):
+But like true families and good friends, they stick together.
+[Text=But CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=CC] [Text=like CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=IN] [Text=true CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=JJ] [Text=families CharacterOffsetBegin=372 CharacterOffsetEnd=380 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=CC] [Text=good CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=JJ] [Text=friends CharacterOffsetBegin=390 CharacterOffsetEnd=397 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=,] [Text=they CharacterOffsetBegin=399 CharacterOffsetEnd=403 PartOfSpeech=PRP] [Text=stick CharacterOffsetBegin=404 CharacterOffsetEnd=409 PartOfSpeech=VBP] [Text=together CharacterOffsetBegin=410 CharacterOffsetEnd=418 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=.] 
+root(ROOT-0, stick-10)
+cc(stick-10, But-1)
+prep(stick-10, like-2)
+amod(families-4, true-3)
+pobj(like-2, families-4)
+cc(families-4, and-5)
+amod(friends-7, good-6)
+conj(families-4, friends-7)
+punct(stick-10, ,-8)
+nsubj(stick-10, they-9)
+advmod(stick-10, together-11)
+punct(stick-10, .-12)
+
+Sentence #7 (14 tokens):
+The wanna-be parents who are buying a baby are such a--holes!
+[Text=The CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=DT] [Text=wanna-be CharacterOffsetBegin=428 CharacterOffsetEnd=436 PartOfSpeech=JJ] [Text=parents CharacterOffsetBegin=437 CharacterOffsetEnd=444 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=WP] [Text=are CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=VBP] [Text=buying CharacterOffsetBegin=453 CharacterOffsetEnd=459 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=DT] [Text=baby CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=VBP] [Text=such CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=476 CharacterOffsetEnd=477 PartOfSpeech=DT] [Text=-- CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=:] [Text=holes CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=.] 
+root(ROOT-0, holes-13)
+det(parents-3, The-1)
+amod(parents-3, wanna-be-2)
+nsubj(holes-13, parents-3)
+nsubj(buying-6, who-4)
+aux(buying-6, are-5)
+rcmod(parents-3, buying-6)
+det(baby-8, a-7)
+dobj(buying-6, baby-8)
+cop(holes-13, are-9)
+predet(holes-13, such-10)
+det(holes-13, a-11)
+punct(holes-13, ---12)
+punct(holes-13, !-14)
+
+Sentence #8 (7 tokens):
+You are happy for the ending.
+[Text=You CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=VBP] [Text=happy CharacterOffsetBegin=498 CharacterOffsetEnd=503 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=508 CharacterOffsetEnd=511 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=512 CharacterOffsetEnd=518 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=.] 
+root(ROOT-0, happy-3)
+nsubj(happy-3, You-1)
+cop(happy-3, are-2)
+prep(happy-3, for-4)
+det(ending-6, the-5)
+pobj(for-4, ending-6)
+punct(happy-3, .-7)
+
+Sentence #9 (30 tokens):
+Poor Delmar is stuck between a rock and a boulder taking care of herself, her mom, her son, and trying to keep all their lives together.
+[Text=Poor CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=NNP] [Text=Delmar CharacterOffsetBegin=529 CharacterOffsetEnd=535 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=VBZ] [Text=stuck CharacterOffsetBegin=539 CharacterOffsetEnd=544 PartOfSpeech=VBN] [Text=between CharacterOffsetBegin=545 CharacterOffsetEnd=552 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=DT] [Text=rock CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=DT] [Text=boulder CharacterOffsetBegin=566 CharacterOffsetEnd=573 PartOfSpeech=NN] [Text=taking CharacterOffsetBegin=574 CharacterOffsetEnd=580 PartOfSpeech=VBG] [Text=care CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=586 CharacterOffsetEnd=588 PartOfSpeech=IN] [Text=herself CharacterOffsetBegin=589 CharacterOffsetEnd=596 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=596 CharacterOffsetEnd=597 PartOfSpeech=,] [Text=her CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=PRP$] [Text=mom CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=605 CharacterOffsetEnd=606 PartOfSpeech=,] [Text=her CharacterOffsetBegin=607 CharacterOffsetEnd=610 PartOfSpeech=PRP$] [Text=son CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=614 CharacterOffsetEnd=615 PartOfSpeech=,] [Text=and CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=CC] [Text=trying CharacterOffsetBegin=620 CharacterOffsetEnd=626 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=627 CharacterOffsetEnd=629 PartOfSpeech=TO] [Text=keep CharacterOffsetBegin=630 CharacterOffsetEnd=634 PartOfSpeech=VB] [Text=all CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=DT] [Text=their CharacterOffsetBegin=639 CharacterOffsetEnd=644 PartOfSpeech=PRP$] [Text=lives CharacterOffsetBegin=645 CharacterOffsetEnd=650 PartOfSpeech=NNS] [Text=together CharacterOffsetBegin=651 CharacterOffsetEnd=659 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=.] 
+root(ROOT-0, stuck-4)
+nn(Delmar-2, Poor-1)
+nsubjpass(stuck-4, Delmar-2)
+auxpass(stuck-4, is-3)
+prep(stuck-4, between-5)
+det(rock-7, a-6)
+pobj(between-5, rock-7)
+cc(rock-7, and-8)
+det(boulder-10, a-9)
+conj(rock-7, boulder-10)
+partmod(boulder-10, taking-11)
+dobj(taking-11, care-12)
+prep(care-12, of-13)
+pobj(of-13, herself-14)
+punct(stuck-4, ,-15)
+poss(mom-17, her-16)
+dep(stuck-4, mom-17)
+punct(mom-17, ,-18)
+poss(son-20, her-19)
+appos(mom-17, son-20)
+punct(mom-17, ,-21)
+cc(mom-17, and-22)
+conj(mom-17, trying-23)
+aux(keep-25, to-24)
+xcomp(trying-23, keep-25)
+predet(lives-28, all-26)
+poss(lives-28, their-27)
+dobj(keep-25, lives-28)
+advmod(keep-25, together-29)
+punct(stuck-4, .-30)
+
+Sentence #10 (41 tokens):
+This does not end with a sunset walk or house in the 'burbs and all are living in a dream world, but is a very real life portrayal of people living day to day, month to month.
+[Text=This CharacterOffsetBegin=665 CharacterOffsetEnd=669 PartOfSpeech=DT] [Text=does CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=RB] [Text=end CharacterOffsetBegin=679 CharacterOffsetEnd=682 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=683 CharacterOffsetEnd=687 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=DT] [Text=sunset CharacterOffsetBegin=690 CharacterOffsetEnd=696 PartOfSpeech=NN] [Text=walk CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=702 CharacterOffsetEnd=704 PartOfSpeech=CC] [Text=house CharacterOffsetBegin=705 CharacterOffsetEnd=710 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=711 CharacterOffsetEnd=713 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=714 CharacterOffsetEnd=717 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=718 CharacterOffsetEnd=719 PartOfSpeech=``] [Text=burbs CharacterOffsetBegin=719 CharacterOffsetEnd=724 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=725 CharacterOffsetEnd=728 PartOfSpeech=CC] [Text=all CharacterOffsetBegin=729 CharacterOffsetEnd=732 PartOfSpeech=DT] [Text=are CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=VBP] [Text=living CharacterOffsetBegin=737 CharacterOffsetEnd=743 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=744 CharacterOffsetEnd=746 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=747 CharacterOffsetEnd=748 PartOfSpeech=DT] [Text=dream CharacterOffsetBegin=749 CharacterOffsetEnd=754 PartOfSpeech=NN] [Text=world CharacterOffsetBegin=755 CharacterOffsetEnd=760 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=760 CharacterOffsetEnd=761 PartOfSpeech=,] [Text=but CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=766 CharacterOffsetEnd=768 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=771 CharacterOffsetEnd=775 PartOfSpeech=RB] [Text=real CharacterOffsetBegin=776 CharacterOffsetEnd=780 PartOfSpeech=JJ] [Text=life CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=NN] [Text=portrayal CharacterOffsetBegin=786 CharacterOffsetEnd=795 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=796 CharacterOffsetEnd=798 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=799 CharacterOffsetEnd=805 PartOfSpeech=NNS] [Text=living CharacterOffsetBegin=806 CharacterOffsetEnd=812 PartOfSpeech=VBG] [Text=day CharacterOffsetBegin=813 CharacterOffsetEnd=816 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=817 CharacterOffsetEnd=819 PartOfSpeech=TO] [Text=day CharacterOffsetBegin=820 CharacterOffsetEnd=823 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=823 CharacterOffsetEnd=824 PartOfSpeech=,] [Text=month CharacterOffsetBegin=825 CharacterOffsetEnd=830 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=831 CharacterOffsetEnd=833 PartOfSpeech=TO] [Text=month CharacterOffsetBegin=834 CharacterOffsetEnd=839 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=839 CharacterOffsetEnd=840 PartOfSpeech=.] 
+root(ROOT-0, end-4)
+nsubj(end-4, This-1)
+aux(end-4, does-2)
+neg(end-4, not-3)
+prep(end-4, with-5)
+det(walk-8, a-6)
+nn(walk-8, sunset-7)
+pobj(with-5, walk-8)
+cc(walk-8, or-9)
+conj(walk-8, house-10)
+prep(walk-8, in-11)
+det(burbs-14, the-12)
+punct(burbs-14, `-13)
+pobj(in-11, burbs-14)
+cc(walk-8, and-15)
+nsubj(living-18, all-16)
+aux(living-18, are-17)
+conj(walk-8, living-18)
+prep(living-18, in-19)
+det(world-22, a-20)
+nn(world-22, dream-21)
+pobj(in-19, world-22)
+punct(end-4, ,-23)
+cc(end-4, but-24)
+cop(portrayal-30, is-25)
+det(portrayal-30, a-26)
+advmod(real-28, very-27)
+amod(portrayal-30, real-28)
+nn(portrayal-30, life-29)
+conj(end-4, portrayal-30)
+prep(portrayal-30, of-31)
+pobj(of-31, people-32)
+partmod(people-32, living-33)
+dobj(living-33, day-34)
+prep(living-33, to-35)
+pobj(to-35, day-36)
+punct(portrayal-30, ,-37)
+tmod(portrayal-30, month-38)
+prep(month-38, to-39)
+pobj(to-39, month-40)
+punct(end-4, .-41)
+
+Sentence #11 (12 tokens):
+Overall, this is a good story and a great movie!
+[Text=Overall CharacterOffsetBegin=845 CharacterOffsetEnd=852 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=852 CharacterOffsetEnd=853 PartOfSpeech=,] [Text=this CharacterOffsetBegin=854 CharacterOffsetEnd=858 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=859 CharacterOffsetEnd=861 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=862 CharacterOffsetEnd=863 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=864 CharacterOffsetEnd=868 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=869 CharacterOffsetEnd=874 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=875 CharacterOffsetEnd=878 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=879 CharacterOffsetEnd=880 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=881 CharacterOffsetEnd=886 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=887 CharacterOffsetEnd=892 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=892 CharacterOffsetEnd=893 PartOfSpeech=.] 
+root(ROOT-0, story-7)
+advmod(story-7, Overall-1)
+punct(story-7, ,-2)
+nsubj(story-7, this-3)
+cop(story-7, is-4)
+det(story-7, a-5)
+amod(story-7, good-6)
+cc(story-7, and-8)
+det(movie-11, a-9)
+amod(movie-11, great-10)
+conj(story-7, movie-11)
+punct(story-7, !-12)
+
+Sentence #12 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=898 CharacterOffsetEnd=899 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

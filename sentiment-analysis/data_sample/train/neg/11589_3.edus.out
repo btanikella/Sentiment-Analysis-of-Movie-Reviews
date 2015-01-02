@@ -1,0 +1,76 @@
+Sentence #1 (3 tokens):
+Bottom-of-the-Freddy barrel.
+[Text=Bottom-of-the-Freddy CharacterOffsetBegin=4 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=barrel CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, barrel-2)
+amod(barrel-2, Bottom-of-the-Freddy-1)
+punct(barrel-2, .-3)
+
+Sentence #2 (19 tokens):
+This is the worst film in the series, beating "Freddy's Revenge" for that title.
+[Text=This CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=JJS] [Text=film CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=DT] [Text=series CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=,] [Text=beating CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=VBG] [Text=`` CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=``] [Text=Freddy CharacterOffsetBegin=84 CharacterOffsetEnd=90 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=POS] [Text=Revenge CharacterOffsetBegin=93 CharacterOffsetEnd=100 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=''] [Text=for CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=DT] [Text=title CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=.] 
+root(ROOT-0, film-5)
+nsubj(film-5, This-1)
+cop(film-5, is-2)
+det(film-5, the-3)
+amod(film-5, worst-4)
+prep(film-5, in-6)
+det(series-8, the-7)
+pobj(in-6, series-8)
+punct(film-5, ,-9)
+partmod(film-5, beating-10)
+punct(Revenge-14, ``-11)
+poss(Revenge-14, Freddy-12)
+possessive(Freddy-12, 's-13)
+dobj(beating-10, Revenge-14)
+punct(Revenge-14, ''-15)
+prep(Revenge-14, for-16)
+det(title-18, that-17)
+pobj(for-16, title-18)
+punct(film-5, .-19)
+
+Sentence #3 (19 tokens):
+A cheap-looking (with mediocre special effects), incoherent mess, with Freddy turned into a punster.
+[Text=A CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=cheap-looking CharacterOffsetBegin=124 CharacterOffsetEnd=137 PartOfSpeech=JJ] [Text=-LRB- CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=-LRB-] [Text=with CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=IN] [Text=mediocre CharacterOffsetBegin=144 CharacterOffsetEnd=152 PartOfSpeech=JJ] [Text=special CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=JJ] [Text=effects CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=NNS] [Text=-RRB- CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=,] [Text=incoherent CharacterOffsetBegin=171 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=mess CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=,] [Text=with CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=Freddy CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=turned CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=VBD] [Text=into CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=DT] [Text=punster CharacterOffsetBegin=214 CharacterOffsetEnd=221 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=.] 
+root(ROOT-0, turned-15)
+det(mess-11, A-1)
+amod(mess-11, cheap-looking-2)
+punct(with-4, -LRB--3)
+prep(cheap-looking-2, with-4)
+amod(effects-7, mediocre-5)
+amod(effects-7, special-6)
+pobj(with-4, effects-7)
+punct(with-4, -RRB--8)
+punct(mess-11, ,-9)
+amod(mess-11, incoherent-10)
+nsubj(turned-15, mess-11)
+punct(mess-11, ,-12)
+prep(mess-11, with-13)
+pobj(with-13, Freddy-14)
+prep(turned-15, into-16)
+det(punster-18, a-17)
+pobj(into-16, punster-18)
+punct(turned-15, .-19)
+
+Sentence #4 (19 tokens):
+He has one or two cool lines, but that doesn't save this illogical and sloppy sequel.
+[Text=He CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=CD] [Text=or CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=CC] [Text=two CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=CD] [Text=cool CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=JJ] [Text=lines CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=,] [Text=but CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=does CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=RB] [Text=save CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=DT] [Text=illogical CharacterOffsetBegin=284 CharacterOffsetEnd=293 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=CC] [Text=sloppy CharacterOffsetBegin=298 CharacterOffsetEnd=304 PartOfSpeech=JJ] [Text=sequel CharacterOffsetBegin=305 CharacterOffsetEnd=311 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=.] 
+root(ROOT-0, has-2)
+nsubj(has-2, He-1)
+num(lines-7, one-3)
+cc(one-3, or-4)
+conj(one-3, two-5)
+amod(lines-7, cool-6)
+dobj(has-2, lines-7)
+punct(has-2, ,-8)
+cc(has-2, but-9)
+nsubj(save-13, that-10)
+aux(save-13, does-11)
+neg(save-13, n't-12)
+conj(has-2, save-13)
+det(sequel-18, this-14)
+amod(sequel-18, illogical-15)
+cc(illogical-15, and-16)
+conj(illogical-15, sloppy-17)
+dobj(save-13, sequel-18)
+punct(has-2, .-19)
+

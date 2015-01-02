@@ -1,0 +1,96 @@
+Sentence #1 (11 tokens):
+Made me think about it for days after seeing it.
+[Text=Made CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=VBN] [Text=me CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=IN] [Text=days CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=NNS] [Text=after CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=IN] [Text=seeing CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=.] 
+root(ROOT-0, Made-1)
+nsubj(think-3, me-2)
+xcomp(Made-1, think-3)
+prep(think-3, about-4)
+pobj(about-4, it-5)
+prep(think-3, for-6)
+pobj(for-6, days-7)
+prep(think-3, after-8)
+pcomp(after-8, seeing-9)
+dobj(seeing-9, it-10)
+punct(Made-1, .-11)
+
+Sentence #2 (11 tokens):
+That to me is the mark of a great movie.
+[Text=That CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=to CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=mark CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=.] 
+root(ROOT-0, mark-6)
+nsubj(mark-6, That-1)
+prep(That-1, to-2)
+pobj(to-2, me-3)
+cop(mark-6, is-4)
+det(mark-6, the-5)
+prep(mark-6, of-7)
+det(movie-10, a-8)
+amod(movie-10, great-9)
+pobj(of-7, movie-10)
+punct(mark-6, .-11)
+
+Sentence #3 (10 tokens):
+Eyes Wide Shut had the same effect on me.
+[Text=Eyes CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=NNS] [Text=Wide CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=Shut CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=JJ] [Text=effect CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=.] 
+root(ROOT-0, had-4)
+nn(Shut-3, Eyes-1)
+nn(Shut-3, Wide-2)
+nsubj(had-4, Shut-3)
+det(effect-7, the-5)
+amod(effect-7, same-6)
+dobj(had-4, effect-7)
+prep(had-4, on-8)
+pobj(on-8, me-9)
+punct(had-4, .-10)
+
+Sentence #4 (13 tokens):
+I am tired of these people requiring these happy Hollywood cookie-cutter endings.
+[Text=I CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=VBP] [Text=tired CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=DT] [Text=people CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=NNS] [Text=requiring CharacterOffsetBegin=175 CharacterOffsetEnd=184 PartOfSpeech=VBG] [Text=these CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=happy CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=JJ] [Text=Hollywood CharacterOffsetBegin=197 CharacterOffsetEnd=206 PartOfSpeech=NNP] [Text=cookie-cutter CharacterOffsetBegin=207 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=endings CharacterOffsetBegin=221 CharacterOffsetEnd=228 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, tired-3)
+nsubjpass(tired-3, I-1)
+auxpass(tired-3, am-2)
+prep(tired-3, of-4)
+det(people-6, these-5)
+pobj(of-4, people-6)
+partmod(people-6, requiring-7)
+det(endings-12, these-8)
+amod(endings-12, happy-9)
+nn(endings-12, Hollywood-10)
+amod(endings-12, cookie-cutter-11)
+dobj(requiring-7, endings-12)
+punct(tired-3, .-13)
+
+Sentence #5 (31 tokens):
+I am planning on going to see it again tonight to understand the plot a little better - but regardless, the emotional messages of the movie were totally felt.
+[Text=I CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=VBP] [Text=planning CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=going CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=PRP] [Text=again CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=RB] [Text=tonight CharacterOffsetBegin=273 CharacterOffsetEnd=280 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=TO] [Text=understand CharacterOffsetBegin=284 CharacterOffsetEnd=294 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=JJ] [Text=better CharacterOffsetBegin=313 CharacterOffsetEnd=319 PartOfSpeech=JJR] [Text=- CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=:] [Text=but CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=CC] [Text=regardless CharacterOffsetBegin=326 CharacterOffsetEnd=336 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=,] [Text=the CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=DT] [Text=emotional CharacterOffsetBegin=342 CharacterOffsetEnd=351 PartOfSpeech=JJ] [Text=messages CharacterOffsetBegin=352 CharacterOffsetEnd=360 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=VBD] [Text=totally CharacterOffsetBegin=379 CharacterOffsetEnd=386 PartOfSpeech=RB] [Text=felt CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=.] 
+root(ROOT-0, planning-3)
+nsubj(planning-3, I-1)
+aux(planning-3, am-2)
+prep(planning-3, on-4)
+pcomp(on-4, going-5)
+aux(see-7, to-6)
+xcomp(going-5, see-7)
+dobj(see-7, it-8)
+advmod(see-7, again-9)
+dep(see-7, tonight-10)
+aux(understand-12, to-11)
+infmod(tonight-10, understand-12)
+det(plot-14, the-13)
+dobj(understand-12, plot-14)
+det(little-16, a-15)
+npadvmod(better-17, little-16)
+advmod(plot-14, better-17)
+punct(plot-14, --18)
+cc(plot-14, but-19)
+conj(plot-14, regardless-20)
+punct(planning-3, ,-21)
+det(messages-24, the-22)
+amod(messages-24, emotional-23)
+nsubjpass(felt-30, messages-24)
+prep(messages-24, of-25)
+det(movie-27, the-26)
+pobj(of-25, movie-27)
+auxpass(felt-30, were-28)
+advmod(felt-30, totally-29)
+ccomp(planning-3, felt-30)
+punct(planning-3, .-31)
+

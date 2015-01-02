@@ -1,0 +1,186 @@
+Sentence #1 (4 tokens):
+Its spelled S-L-A-S-H-E-R-S.
+[Text=Its CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=PRP$] [Text=spelled CharacterOffsetBegin=8 CharacterOffsetEnd=15 PartOfSpeech=VBN] [Text=S-L-A-S-H-E-R-S CharacterOffsetBegin=16 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, S-L-A-S-H-E-R-S-3)
+poss(S-L-A-S-H-E-R-S-3, Its-1)
+amod(S-L-A-S-H-E-R-S-3, spelled-2)
+punct(S-L-A-S-H-E-R-S-3, .-4)
+
+Sentence #2 (11 tokens):
+I was happy when the main character flashed her boobs.
+[Text=I CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=VBD] [Text=happy CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=JJ] [Text=when CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=main CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=63 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=flashed CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=PRP$] [Text=boobs CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=.] 
+root(ROOT-0, happy-3)
+nsubj(happy-3, I-1)
+cop(happy-3, was-2)
+advmod(flashed-8, when-4)
+det(character-7, the-5)
+amod(character-7, main-6)
+nsubj(flashed-8, character-7)
+advcl(happy-3, flashed-8)
+poss(boobs-10, her-9)
+dobj(flashed-8, boobs-10)
+punct(happy-3, .-11)
+
+Sentence #3 (5 tokens):
+That was pretty tight.
+[Text=That CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=VBD] [Text=pretty CharacterOffsetBegin=105 CharacterOffsetEnd=111 PartOfSpeech=RB] [Text=tight CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=.] 
+root(ROOT-0, tight-4)
+nsubj(tight-4, That-1)
+cop(tight-4, was-2)
+advmod(tight-4, pretty-3)
+punct(tight-4, .-5)
+
+Sentence #4 (10 tokens):
+Before and after that the movie pretty much blows.
+[Text=Before CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=CC] [Text=after CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=pretty CharacterOffsetBegin=155 CharacterOffsetEnd=161 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=RB] [Text=blows CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=.] 
+root(ROOT-0, Before-1)
+cc(Before-1, and-2)
+conj(Before-1, after-3)
+mark(blows-9, that-4)
+det(movie-6, the-5)
+nsubj(blows-9, movie-6)
+advmod(much-8, pretty-7)
+amod(blows-9, much-8)
+dep(Before-1, blows-9)
+punct(Before-1, .-10)
+
+Sentence #5 (14 tokens):
+The acting is like E-list and it's shown well in the movie.
+[Text=The CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=IN] [Text=E-list CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=VBZ] [Text=shown CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=VBN] [Text=well CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.] 
+root(ROOT-0, is-3)
+det(acting-2, The-1)
+nsubj(is-3, acting-2)
+prep(is-3, like-4)
+pobj(like-4, E-list-5)
+cc(is-3, and-6)
+nsubjpass(shown-9, it-7)
+auxpass(shown-9, 's-8)
+conj(is-3, shown-9)
+advmod(shown-9, well-10)
+prep(shown-9, in-11)
+det(movie-13, the-12)
+pobj(in-11, movie-13)
+punct(is-3, .-14)
+
+Sentence #6 (20 tokens):
+Not to mention it is so low budget that Preacherman and Chainsaw Charlie are played by the same person.
+[Text=Not CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=TO] [Text=mention CharacterOffsetBegin=249 CharacterOffsetEnd=256 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=RB] [Text=low CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=JJ] [Text=budget CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=WDT] [Text=Preacherman CharacterOffsetBegin=282 CharacterOffsetEnd=293 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=CC] [Text=Chainsaw CharacterOffsetBegin=298 CharacterOffsetEnd=306 PartOfSpeech=NNP] [Text=Charlie CharacterOffsetBegin=307 CharacterOffsetEnd=314 PartOfSpeech=NNP] [Text=are CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=VBP] [Text=played CharacterOffsetBegin=319 CharacterOffsetEnd=325 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=JJ] [Text=person CharacterOffsetBegin=338 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=.] 
+root(ROOT-0, mention-3)
+neg(mention-3, Not-1)
+aux(mention-3, to-2)
+nsubj(budget-8, it-4)
+cop(budget-8, is-5)
+advmod(low-7, so-6)
+amod(budget-8, low-7)
+ccomp(mention-3, budget-8)
+dobj(played-15, that-9)
+nsubjpass(played-15, Preacherman-10)
+cc(Preacherman-10, and-11)
+nn(Charlie-13, Chainsaw-12)
+conj(Preacherman-10, Charlie-13)
+auxpass(played-15, are-14)
+rcmod(budget-8, played-15)
+prep(played-15, by-16)
+det(person-19, the-17)
+amod(person-19, same-18)
+pobj(by-16, person-19)
+punct(mention-3, .-20)
+
+Sentence #7 (18 tokens):
+The whole movie looks like it was shot with a camcorder instead of half way decent film.
+[Text=The CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=NN] [Text=looks CharacterOffsetBegin=366 CharacterOffsetEnd=371 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=VBD] [Text=shot CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=DT] [Text=camcorder CharacterOffsetBegin=396 CharacterOffsetEnd=405 PartOfSpeech=NN] [Text=instead CharacterOffsetBegin=406 CharacterOffsetEnd=413 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=IN] [Text=half CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=NN] [Text=decent CharacterOffsetBegin=426 CharacterOffsetEnd=432 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=433 CharacterOffsetEnd=437 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=.] 
+root(ROOT-0, looks-4)
+det(movie-3, The-1)
+amod(movie-3, whole-2)
+nsubj(looks-4, movie-3)
+mark(shot-8, like-5)
+nsubjpass(shot-8, it-6)
+auxpass(shot-8, was-7)
+advcl(looks-4, shot-8)
+prep(shot-8, with-9)
+det(camcorder-11, a-10)
+pobj(with-9, camcorder-11)
+advmod(camcorder-11, instead-12)
+prep(instead-12, of-13)
+det(way-15, half-14)
+dep(film-17, way-15)
+amod(film-17, decent-16)
+pobj(of-13, film-17)
+punct(looks-4, .-18)
+
+Sentence #8 (18 tokens):
+The only other reason I liked the movie was because Chainsaw Charlie and Doctor Ripper were funny.
+[Text=The CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=JJ] [Text=other CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=JJ] [Text=reason CharacterOffsetBegin=458 CharacterOffsetEnd=464 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=PRP] [Text=liked CharacterOffsetBegin=467 CharacterOffsetEnd=472 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=477 CharacterOffsetEnd=482 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=VBD] [Text=because CharacterOffsetBegin=487 CharacterOffsetEnd=494 PartOfSpeech=IN] [Text=Chainsaw CharacterOffsetBegin=495 CharacterOffsetEnd=503 PartOfSpeech=NNP] [Text=Charlie CharacterOffsetBegin=504 CharacterOffsetEnd=511 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=CC] [Text=Doctor CharacterOffsetBegin=516 CharacterOffsetEnd=522 PartOfSpeech=NNP] [Text=Ripper CharacterOffsetBegin=523 CharacterOffsetEnd=529 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=VBD] [Text=funny CharacterOffsetBegin=535 CharacterOffsetEnd=540 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=.] 
+root(ROOT-0, was-9)
+det(reason-4, The-1)
+amod(reason-4, only-2)
+amod(reason-4, other-3)
+nsubj(was-9, reason-4)
+nsubj(liked-6, I-5)
+rcmod(reason-4, liked-6)
+det(movie-8, the-7)
+dobj(liked-6, movie-8)
+mark(funny-17, because-10)
+nn(Charlie-12, Chainsaw-11)
+nsubj(funny-17, Charlie-12)
+cc(Charlie-12, and-13)
+nn(Ripper-15, Doctor-14)
+conj(Charlie-12, Ripper-15)
+cop(funny-17, were-16)
+advcl(was-9, funny-17)
+punct(was-9, .-18)
+
+Sentence #9 (10 tokens):
+They said many stupid things that made me laugh.
+[Text=They CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=PRP] [Text=said CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=VBD] [Text=many CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=JJ] [Text=stupid CharacterOffsetBegin=561 CharacterOffsetEnd=567 PartOfSpeech=JJ] [Text=things CharacterOffsetBegin=568 CharacterOffsetEnd=574 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=575 CharacterOffsetEnd=579 PartOfSpeech=WDT] [Text=made CharacterOffsetBegin=580 CharacterOffsetEnd=584 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=PRP] [Text=laugh CharacterOffsetBegin=588 CharacterOffsetEnd=593 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=.] 
+root(ROOT-0, said-2)
+nsubj(said-2, They-1)
+amod(things-5, many-3)
+amod(things-5, stupid-4)
+dobj(said-2, things-5)
+nsubj(made-7, that-6)
+rcmod(things-5, made-7)
+nsubj(laugh-9, me-8)
+xcomp(made-7, laugh-9)
+punct(said-2, .-10)
+
+Sentence #10 (20 tokens):
+Other than that if you see this movie at Blockbuster do everyone a favor hide it behind Lawnmowerman 2.
+[Text=Other CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=DT] [Text=if CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=IN] [Text=Blockbuster CharacterOffsetBegin=640 CharacterOffsetEnd=651 PartOfSpeech=NNP] [Text=do CharacterOffsetBegin=652 CharacterOffsetEnd=654 PartOfSpeech=VBP] [Text=everyone CharacterOffsetBegin=655 CharacterOffsetEnd=663 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=664 CharacterOffsetEnd=665 PartOfSpeech=DT] [Text=favor CharacterOffsetBegin=666 CharacterOffsetEnd=671 PartOfSpeech=NN] [Text=hide CharacterOffsetBegin=672 CharacterOffsetEnd=676 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=677 CharacterOffsetEnd=679 PartOfSpeech=PRP] [Text=behind CharacterOffsetBegin=680 CharacterOffsetEnd=686 PartOfSpeech=IN] [Text=Lawnmowerman CharacterOffsetBegin=687 CharacterOffsetEnd=699 PartOfSpeech=NN] [Text=2 CharacterOffsetBegin=700 CharacterOffsetEnd=701 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=701 CharacterOffsetEnd=702 PartOfSpeech=.] 
+root(ROOT-0, see-6)
+dep(see-6, Other-1)
+prep(Other-1, than-2)
+pobj(than-2, that-3)
+mark(see-6, if-4)
+nsubj(see-6, you-5)
+det(movie-8, this-7)
+dobj(see-6, movie-8)
+prep(see-6, at-9)
+pobj(at-9, Blockbuster-10)
+dep(see-6, do-11)
+dobj(do-11, everyone-12)
+det(favor-14, a-13)
+nsubj(hide-15, favor-14)
+rcmod(everyone-12, hide-15)
+dobj(hide-15, it-16)
+prep(hide-15, behind-17)
+pobj(behind-17, Lawnmowerman-18)
+num(Lawnmowerman-18, 2-19)
+punct(see-6, .-20)
+
+Sentence #11 (12 tokens):
+Anybody that thinks this movie is good should be mentally evaluated.
+[Text=Anybody CharacterOffsetBegin=707 CharacterOffsetEnd=714 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=715 CharacterOffsetEnd=719 PartOfSpeech=WDT] [Text=thinks CharacterOffsetBegin=720 CharacterOffsetEnd=726 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=727 CharacterOffsetEnd=731 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=732 CharacterOffsetEnd=737 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=738 CharacterOffsetEnd=740 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=741 CharacterOffsetEnd=745 PartOfSpeech=JJ] [Text=should CharacterOffsetBegin=746 CharacterOffsetEnd=752 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=753 CharacterOffsetEnd=755 PartOfSpeech=VB] [Text=mentally CharacterOffsetBegin=756 CharacterOffsetEnd=764 PartOfSpeech=RB] [Text=evaluated CharacterOffsetBegin=765 CharacterOffsetEnd=774 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=774 CharacterOffsetEnd=775 PartOfSpeech=.] 
+root(ROOT-0, Anybody-1)
+nsubj(thinks-3, that-2)
+rcmod(Anybody-1, thinks-3)
+det(movie-5, this-4)
+nsubj(good-7, movie-5)
+cop(good-7, is-6)
+nsubjpass(evaluated-11, good-7)
+aux(evaluated-11, should-8)
+auxpass(evaluated-11, be-9)
+advmod(evaluated-11, mentally-10)
+ccomp(thinks-3, evaluated-11)
+punct(Anybody-1, .-12)
+

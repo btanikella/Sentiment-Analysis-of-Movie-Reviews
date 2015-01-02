@@ -1,0 +1,66 @@
+Sentence #1 (17 tokens):
+This is a very enjoyable film with excellent actors and actresses evoking a range of emotions.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=RB] [Text=enjoyable CharacterOffsetBegin=19 CharacterOffsetEnd=28 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=IN] [Text=excellent CharacterOffsetBegin=39 CharacterOffsetEnd=48 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=CC] [Text=actresses CharacterOffsetBegin=60 CharacterOffsetEnd=69 PartOfSpeech=NNS] [Text=evoking CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=range CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=IN] [Text=emotions CharacterOffsetBegin=89 CharacterOffsetEnd=97 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nsubj(film-6, This-1)
+cop(film-6, is-2)
+det(film-6, a-3)
+advmod(enjoyable-5, very-4)
+amod(film-6, enjoyable-5)
+prep(film-6, with-7)
+amod(actors-9, excellent-8)
+pobj(with-7, actors-9)
+cc(actors-9, and-10)
+conj(actors-9, actresses-11)
+partmod(actresses-11, evoking-12)
+det(range-14, a-13)
+dobj(evoking-12, range-14)
+prep(range-14, of-15)
+pobj(of-15, emotions-16)
+punct(film-6, .-17)
+
+Sentence #2 (13 tokens):
+It contains some really excellent humour which the whole family can enjoy.
+[Text=It CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=PRP] [Text=contains CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=VBZ] [Text=some CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=DT] [Text=really CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=RB] [Text=excellent CharacterOffsetBegin=127 CharacterOffsetEnd=136 PartOfSpeech=JJ] [Text=humour CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=WDT] [Text=the CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=160 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=MD] [Text=enjoy CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=.] 
+root(ROOT-0, contains-2)
+nsubj(contains-2, It-1)
+det(humour-6, some-3)
+advmod(excellent-5, really-4)
+amod(humour-6, excellent-5)
+dobj(contains-2, humour-6)
+dobj(enjoy-12, which-7)
+det(family-10, the-8)
+amod(family-10, whole-9)
+nsubj(enjoy-12, family-10)
+aux(enjoy-12, can-11)
+rcmod(humour-6, enjoy-12)
+punct(contains-2, .-13)
+
+Sentence #3 (14 tokens):
+You get to know the characters quickly and experience their ups and downs.
+[Text=You CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=TO] [Text=know CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=202 CharacterOffsetEnd=212 PartOfSpeech=NNS] [Text=quickly CharacterOffsetBegin=213 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=CC] [Text=experience CharacterOffsetBegin=225 CharacterOffsetEnd=235 PartOfSpeech=VB] [Text=their CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=PRP$] [Text=ups CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=CC] [Text=downs CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=.] 
+root(ROOT-0, get-2)
+nsubj(get-2, You-1)
+aux(know-4, to-3)
+xcomp(get-2, know-4)
+det(characters-6, the-5)
+dobj(know-4, characters-6)
+advmod(know-4, quickly-7)
+cc(know-4, and-8)
+conj(know-4, experience-9)
+poss(ups-11, their-10)
+dobj(experience-9, ups-11)
+cc(ups-11, and-12)
+conj(ups-11, downs-13)
+punct(get-2, .-14)
+
+Sentence #4 (6 tokens):
+And, it ends very upbeat
+[Text=And CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=,] [Text=it CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=PRP] [Text=ends CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=RB] [Text=upbeat CharacterOffsetBegin=279 CharacterOffsetEnd=285 PartOfSpeech=JJ] 
+root(ROOT-0, ends-4)
+cc(ends-4, And-1)
+punct(ends-4, ,-2)
+nsubj(ends-4, it-3)
+advmod(upbeat-6, very-5)
+acomp(ends-4, upbeat-6)
+

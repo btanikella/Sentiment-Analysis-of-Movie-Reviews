@@ -1,0 +1,184 @@
+Sentence #1 (6 tokens):
+A great 90's flick!
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=JJ] [Text=90 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=POS] [Text=flick CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=.] 
+root(ROOT-0, flick-5)
+det(flick-5, A-1)
+amod(flick-5, great-2)
+poss(flick-5, 90-3)
+possessive(90-3, 's-4)
+punct(flick-5, !-6)
+
+Sentence #2 (18 tokens):
+Parker Posey is fabulous in this story about the nightlife in Manhattan that requires so much cash.
+[Text=Parker CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=NNP] [Text=Posey CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=VBZ] [Text=fabulous CharacterOffsetBegin=44 CharacterOffsetEnd=52 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text=nightlife CharacterOffsetBegin=77 CharacterOffsetEnd=86 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN] [Text=Manhattan CharacterOffsetBegin=90 CharacterOffsetEnd=99 PartOfSpeech=NNP] [Text=that CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=WDT] [Text=requires CharacterOffsetBegin=105 CharacterOffsetEnd=113 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=JJ] [Text=cash CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=.] 
+root(ROOT-0, fabulous-4)
+nn(Posey-2, Parker-1)
+nsubj(fabulous-4, Posey-2)
+cop(fabulous-4, is-3)
+prep(fabulous-4, in-5)
+det(story-7, this-6)
+pobj(in-5, story-7)
+prep(fabulous-4, about-8)
+det(nightlife-10, the-9)
+pobj(about-8, nightlife-10)
+prep(nightlife-10, in-11)
+pobj(in-11, Manhattan-12)
+nsubj(requires-14, that-13)
+rcmod(nightlife-10, requires-14)
+advmod(much-16, so-15)
+amod(cash-17, much-16)
+dobj(requires-14, cash-17)
+punct(fabulous-4, .-18)
+
+Sentence #3 (13 tokens):
+Posey gives an amazing performance as a librarian and a night crawler.
+[Text=Posey CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NNP] [Text=gives CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=DT] [Text=amazing CharacterOffsetBegin=147 CharacterOffsetEnd=154 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=155 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=DT] [Text=librarian CharacterOffsetBegin=172 CharacterOffsetEnd=181 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=night CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NN] [Text=crawler CharacterOffsetBegin=194 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=.] 
+root(ROOT-0, gives-2)
+nsubj(gives-2, Posey-1)
+det(performance-5, an-3)
+amod(performance-5, amazing-4)
+dobj(gives-2, performance-5)
+prep(gives-2, as-6)
+det(librarian-8, a-7)
+pobj(as-6, librarian-8)
+cc(librarian-8, and-9)
+det(night-11, a-10)
+npadvmod(crawler-12, night-11)
+conj(librarian-8, crawler-12)
+punct(gives-2, .-13)
+
+Sentence #4 (15 tokens):
+This is a good, light movie for Saturday night before you go out.
+[Text=This CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=,] [Text=light CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=IN] [Text=Saturday CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NNP] [Text=night CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=before CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=PRP] [Text=go CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=VBP] [Text=out CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+nsubj(movie-7, This-1)
+cop(movie-7, is-2)
+det(movie-7, a-3)
+amod(movie-7, good-4)
+punct(movie-7, ,-5)
+amod(movie-7, light-6)
+prep(movie-7, for-8)
+nn(night-10, Saturday-9)
+pobj(for-8, night-10)
+mark(go-13, before-11)
+nsubj(go-13, you-12)
+advcl(movie-7, go-13)
+prt(go-13, out-14)
+punct(movie-7, .-15)
+
+Sentence #5 (24 tokens):
+The soundtrack rocks, the outfits are out of this world, the script is funny and the actors do a great job.
+[Text=The CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=DT] [Text=soundtrack CharacterOffsetBegin=281 CharacterOffsetEnd=291 PartOfSpeech=NN] [Text=rocks CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=,] [Text=the CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=DT] [Text=outfits CharacterOffsetBegin=303 CharacterOffsetEnd=310 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=VBP] [Text=out CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=DT] [Text=world CharacterOffsetBegin=327 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=,] [Text=the CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=338 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=VBZ] [Text=funny CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=362 CharacterOffsetEnd=368 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=374 CharacterOffsetEnd=379 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=.] 
+root(ROOT-0, rocks-3)
+det(soundtrack-2, The-1)
+nsubj(rocks-3, soundtrack-2)
+punct(rocks-3, ,-4)
+det(outfits-6, the-5)
+nsubj(are-7, outfits-6)
+dep(rocks-3, are-7)
+prep(are-7, out-8)
+pcomp(out-8, of-9)
+det(world-11, this-10)
+pobj(of-9, world-11)
+punct(rocks-3, ,-12)
+det(script-14, the-13)
+nsubj(funny-16, script-14)
+cop(funny-16, is-15)
+dep(rocks-3, funny-16)
+cc(funny-16, and-17)
+det(actors-19, the-18)
+nsubj(do-20, actors-19)
+conj(funny-16, do-20)
+det(job-23, a-21)
+amod(job-23, great-22)
+dobj(do-20, job-23)
+punct(rocks-3, .-24)
+
+Sentence #6 (20 tokens):
+The redeeming value : you can make it in this world if you try, just find your niche.
+[Text=The CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=DT] [Text=redeeming CharacterOffsetBegin=393 CharacterOffsetEnd=402 PartOfSpeech=JJ] [Text=value CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=:] [Text=you CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=430 CharacterOffsetEnd=434 PartOfSpeech=DT] [Text=world CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=NN] [Text=if CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=PRP] [Text=try CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=,] [Text=just CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=RB] [Text=find CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=PRP$] [Text=niche CharacterOffsetBegin=468 CharacterOffsetEnd=473 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=.] 
+root(ROOT-0, value-3)
+det(value-3, The-1)
+amod(value-3, redeeming-2)
+punct(value-3, :-4)
+nsubj(make-7, you-5)
+aux(make-7, can-6)
+rcmod(value-3, make-7)
+dobj(make-7, it-8)
+prep(make-7, in-9)
+det(world-11, this-10)
+pobj(in-9, world-11)
+mark(try-14, if-12)
+nsubj(try-14, you-13)
+advcl(make-7, try-14)
+punct(make-7, ,-15)
+advmod(find-17, just-16)
+xcomp(make-7, find-17)
+poss(niche-19, your-18)
+dobj(find-17, niche-19)
+punct(value-3, .-20)
+
+Sentence #7 (20 tokens):
+I believe Parker Posey is the PERFECT actress for this kind of character: young, fabulous and broke.
+[Text=I CharacterOffsetBegin=479 CharacterOffsetEnd=480 PartOfSpeech=PRP] [Text=believe CharacterOffsetBegin=481 CharacterOffsetEnd=488 PartOfSpeech=VBP] [Text=Parker CharacterOffsetBegin=489 CharacterOffsetEnd=495 PartOfSpeech=NNP] [Text=Posey CharacterOffsetBegin=496 CharacterOffsetEnd=501 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=DT] [Text=PERFECT CharacterOffsetBegin=509 CharacterOffsetEnd=516 PartOfSpeech=JJ] [Text=actress CharacterOffsetBegin=517 CharacterOffsetEnd=524 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=529 CharacterOffsetEnd=533 PartOfSpeech=DT] [Text=kind CharacterOffsetBegin=534 CharacterOffsetEnd=538 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=539 CharacterOffsetEnd=541 PartOfSpeech=IN] [Text=character CharacterOffsetBegin=542 CharacterOffsetEnd=551 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=551 CharacterOffsetEnd=552 PartOfSpeech=:] [Text=young CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=,] [Text=fabulous CharacterOffsetBegin=560 CharacterOffsetEnd=568 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=569 CharacterOffsetEnd=572 PartOfSpeech=CC] [Text=broke CharacterOffsetBegin=573 CharacterOffsetEnd=578 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=.] 
+root(ROOT-0, believe-2)
+nsubj(believe-2, I-1)
+nn(Posey-4, Parker-3)
+nsubj(actress-8, Posey-4)
+cop(actress-8, is-5)
+det(actress-8, the-6)
+amod(actress-8, PERFECT-7)
+ccomp(believe-2, actress-8)
+prep(actress-8, for-9)
+det(kind-11, this-10)
+pobj(for-9, kind-11)
+prep(kind-11, of-12)
+pobj(of-12, character-13)
+punct(actress-8, :-14)
+dep(actress-8, young-15)
+punct(young-15, ,-16)
+conj(young-15, fabulous-17)
+cc(young-15, and-18)
+conj(young-15, broke-19)
+punct(believe-2, .-20)
+
+Sentence #8 (12 tokens):
+(You must look up the movie "Clockwatchers" ).
+[Text=-LRB- CharacterOffsetBegin=584 CharacterOffsetEnd=585 PartOfSpeech=-LRB-] [Text=You CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=PRP] [Text=must CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=MD] [Text=look CharacterOffsetBegin=594 CharacterOffsetEnd=598 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=599 CharacterOffsetEnd=601 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=606 CharacterOffsetEnd=611 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=``] [Text=Clockwatchers CharacterOffsetBegin=613 CharacterOffsetEnd=626 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=''] [Text=-RRB- CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=.] 
+root(ROOT-0, look-4)
+punct(look-4, -LRB--1)
+nsubj(look-4, You-2)
+aux(look-4, must-3)
+prt(look-4, up-5)
+det(Clockwatchers-9, the-6)
+nn(Clockwatchers-9, movie-7)
+punct(Clockwatchers-9, ``-8)
+dobj(look-4, Clockwatchers-9)
+punct(Clockwatchers-9, ''-10)
+punct(look-4, -RRB--11)
+punct(look-4, .-12)
+
+Sentence #9 (14 tokens):
+If you watch Party Girl you are bound to have a good time.
+[Text=If CharacterOffsetBegin=635 CharacterOffsetEnd=637 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=638 CharacterOffsetEnd=641 PartOfSpeech=PRP] [Text=watch CharacterOffsetBegin=642 CharacterOffsetEnd=647 PartOfSpeech=VBP] [Text=Party CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=NNP] [Text=Girl CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=NNP] [Text=you CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=VBP] [Text=bound CharacterOffsetBegin=667 CharacterOffsetEnd=672 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=681 CharacterOffsetEnd=682 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=683 CharacterOffsetEnd=687 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=692 CharacterOffsetEnd=693 PartOfSpeech=.] 
+root(ROOT-0, bound-8)
+mark(watch-3, If-1)
+nsubj(watch-3, you-2)
+advcl(bound-8, watch-3)
+nn(Girl-5, Party-4)
+dobj(watch-3, Girl-5)
+nsubjpass(bound-8, you-6)
+auxpass(bound-8, are-7)
+aux(have-10, to-9)
+xcomp(bound-8, have-10)
+det(time-13, a-11)
+amod(time-13, good-12)
+dobj(have-10, time-13)
+punct(bound-8, .-14)
+
+Sentence #10 (2 tokens):
+Enjoy!
+[Text=Enjoy CharacterOffsetBegin=698 CharacterOffsetEnd=703 PartOfSpeech=VB] [Text=! CharacterOffsetBegin=703 CharacterOffsetEnd=704 PartOfSpeech=.] 
+root(ROOT-0, Enjoy-1)
+punct(Enjoy-1, !-2)
+

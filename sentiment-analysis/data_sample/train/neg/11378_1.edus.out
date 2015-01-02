@@ -1,0 +1,247 @@
+Sentence #1 (12 tokens):
+The dudes at MST3K should see this dog of a film.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=dudes CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=IN] [Text=MST3K CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=DT] [Text=dog CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=.] 
+root(ROOT-0, see-6)
+det(dudes-2, The-1)
+nsubj(see-6, dudes-2)
+prep(dudes-2, at-3)
+pobj(at-3, MST3K-4)
+aux(see-6, should-5)
+det(dog-8, this-7)
+dobj(see-6, dog-8)
+prep(dog-8, of-9)
+det(film-11, a-10)
+pobj(of-9, film-11)
+punct(see-6, .-12)
+
+Sentence #2 (18 tokens):
+It's basically about a dopey hack actor in Hollywood who can't land any acting gigs.
+[Text=It CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=VBZ] [Text=basically CharacterOffsetBegin=63 CharacterOffsetEnd=72 PartOfSpeech=RB] [Text=about CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=DT] [Text=dopey CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=hack CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=actor CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=Hollywood CharacterOffsetBegin=101 CharacterOffsetEnd=110 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=WP] [Text=ca CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=RB] [Text=land CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=VBG] [Text=gigs CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=.] 
+root(ROOT-0, It-1)
+rcmod(It-1, 's-2)
+advmod('s-2, basically-3)
+prep(basically-3, about-4)
+det(actor-8, a-5)
+amod(actor-8, dopey-6)
+nn(actor-8, hack-7)
+pobj(about-4, actor-8)
+prep(actor-8, in-9)
+pobj(in-9, Hollywood-10)
+nsubj(land-14, who-11)
+aux(land-14, ca-12)
+neg(land-14, n't-13)
+rcmod(actor-8, land-14)
+det(gigs-17, any-15)
+amod(gigs-17, acting-16)
+dobj(land-14, gigs-17)
+punct(It-1, .-18)
+
+Sentence #3 (12 tokens):
+And he has this strange obsession with the movie Taxi Driver.
+[Text=And CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=strange CharacterOffsetBegin=163 CharacterOffsetEnd=170 PartOfSpeech=JJ] [Text=obsession CharacterOffsetBegin=171 CharacterOffsetEnd=180 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=Taxi CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=NN] [Text=Driver CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+cc(has-3, And-1)
+nsubj(has-3, he-2)
+det(obsession-6, this-4)
+amod(obsession-6, strange-5)
+dobj(has-3, obsession-6)
+prep(has-3, with-7)
+det(Driver-11, the-8)
+nn(Driver-11, movie-9)
+nn(Driver-11, Taxi-10)
+pobj(with-7, Driver-11)
+punct(has-3, .-12)
+
+Sentence #4 (8 tokens):
+So what does this dumb actor do?
+[Text=So CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=RB] [Text=what CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=WP] [Text=does CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=dumb CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=JJ] [Text=actor CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=do CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=VB] [Text=? CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=.] 
+root(ROOT-0, do-7)
+advmod(do-7, So-1)
+dobj(do-7, what-2)
+aux(do-7, does-3)
+det(actor-6, this-4)
+amod(actor-6, dumb-5)
+nsubj(do-7, actor-6)
+punct(do-7, ?-8)
+
+Sentence #5 (24 tokens):
+He dyes his hair blonde and starts acting like a L.A. surfer dude in the naive hope this will get him acting roles.
+[Text=He CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=PRP] [Text=dyes CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=NNS] [Text=his CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=PRP$] [Text=hair CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=NN] [Text=blonde CharacterOffsetBegin=267 CharacterOffsetEnd=273 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=CC] [Text=starts CharacterOffsetBegin=278 CharacterOffsetEnd=284 PartOfSpeech=VBZ] [Text=acting CharacterOffsetBegin=285 CharacterOffsetEnd=291 PartOfSpeech=VBG] [Text=like CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=DT] [Text=L.A. CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NNP] [Text=surfer CharacterOffsetBegin=304 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=dude CharacterOffsetBegin=311 CharacterOffsetEnd=315 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=DT] [Text=naive CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=JJ] [Text=hope CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=will CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=PRP] [Text=acting CharacterOffsetBegin=352 CharacterOffsetEnd=358 PartOfSpeech=VBG] [Text=roles CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, dyes-2)
+nsubj(dyes-2, He-1)
+poss(hair-4, his-3)
+nsubj(blonde-5, hair-4)
+rcmod(dyes-2, blonde-5)
+cc(blonde-5, and-6)
+conj(blonde-5, starts-7)
+xcomp(starts-7, acting-8)
+prep(acting-8, like-9)
+det(dude-13, a-10)
+nn(dude-13, L.A.-11)
+nn(dude-13, surfer-12)
+pobj(like-9, dude-13)
+prep(dude-13, in-14)
+det(hope-17, the-15)
+amod(hope-17, naive-16)
+pobj(in-14, hope-17)
+nsubj(get-20, this-18)
+aux(get-20, will-19)
+ccomp(acting-8, get-20)
+nsubj(acting-22, him-21)
+dep(get-20, acting-22)
+dobj(acting-22, roles-23)
+punct(dyes-2, .-24)
+
+Sentence #6 (17 tokens):
+You'll laugh yer head off at so many of this movie's inadvertently funny scenes.
+[Text=You CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=MD] [Text=laugh CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=NN] [Text=yer CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=JJ] [Text=head CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=NN] [Text=off CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=RP] [Text=at CharacterOffsetBegin=396 CharacterOffsetEnd=398 PartOfSpeech=IN] [Text=so CharacterOffsetBegin=399 CharacterOffsetEnd=401 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=402 CharacterOffsetEnd=406 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=POS] [Text=inadvertently CharacterOffsetBegin=423 CharacterOffsetEnd=436 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=JJ] [Text=scenes CharacterOffsetBegin=443 CharacterOffsetEnd=449 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=.] 
+root(ROOT-0, laugh-3)
+nsubj(laugh-3, You-1)
+aux(laugh-3, 'll-2)
+amod(head-5, yer-4)
+dep(laugh-3, head-5)
+advmod(head-5, off-6)
+prep(laugh-3, at-7)
+advmod(many-9, so-8)
+pobj(at-7, many-9)
+prep(many-9, of-10)
+det(movie-12, this-11)
+poss(scenes-16, movie-12)
+possessive(movie-12, 's-13)
+amod(scenes-16, inadvertently-14)
+amod(scenes-16, funny-15)
+pobj(of-10, scenes-16)
+punct(laugh-3, .-17)
+
+Sentence #7 (27 tokens):
+Like when the actor dude's girlfriend is heart broken and sobbing and saying lines like, "How could you do this to me?"
+[Text=Like CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=IN] [Text=when CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=DT] [Text=actor CharacterOffsetBegin=469 CharacterOffsetEnd=474 PartOfSpeech=NN] [Text=dude CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=POS] [Text=girlfriend CharacterOffsetBegin=482 CharacterOffsetEnd=492 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=VBZ] [Text=heart CharacterOffsetBegin=496 CharacterOffsetEnd=501 PartOfSpeech=NN] [Text=broken CharacterOffsetBegin=502 CharacterOffsetEnd=508 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=CC] [Text=sobbing CharacterOffsetBegin=513 CharacterOffsetEnd=520 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=CC] [Text=saying CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=VBG] [Text=lines CharacterOffsetBegin=532 CharacterOffsetEnd=537 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=542 CharacterOffsetEnd=543 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=``] [Text=How CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=WRB] [Text=could CharacterOffsetBegin=549 CharacterOffsetEnd=554 PartOfSpeech=MD] [Text=you CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=DT] [Text=to CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=.] [Text='' CharacterOffsetBegin=573 CharacterOffsetEnd=574 PartOfSpeech=''] 
+root(ROOT-0, heart-9)
+prep(heart-9, Like-1)
+advmod(girlfriend-7, when-2)
+det(actor-4, the-3)
+nsubj(girlfriend-7, actor-4)
+poss(girlfriend-7, dude-5)
+possessive(dude-5, 's-6)
+pcomp(Like-1, girlfriend-7)
+cop(heart-9, is-8)
+amod(heart-9, broken-10)
+cc(broken-10, and-11)
+conj(broken-10, sobbing-12)
+cc(heart-9, and-13)
+conj(heart-9, saying-14)
+dep(saying-14, lines-15)
+dep(lines-15, like-16)
+punct(like-16, ,-17)
+punct(,-17, ``-18)
+advmod(do-22, How-19)
+aux(do-22, could-20)
+nsubj(do-22, you-21)
+dep(``-18, do-22)
+dobj(do-22, this-23)
+prep(do-22, to-24)
+pobj(to-24, me-25)
+punct(do-22, ?-26)
+punct(do-22, ''-27)
+
+Sentence #8 (6 tokens):
+And why is she crying?
+[Text=And CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=CC] [Text=why CharacterOffsetBegin=583 CharacterOffsetEnd=586 PartOfSpeech=WRB] [Text=is CharacterOffsetBegin=587 CharacterOffsetEnd=589 PartOfSpeech=VBZ] [Text=she CharacterOffsetBegin=590 CharacterOffsetEnd=593 PartOfSpeech=PRP] [Text=crying CharacterOffsetBegin=594 CharacterOffsetEnd=600 PartOfSpeech=VBG] [Text=? CharacterOffsetBegin=600 CharacterOffsetEnd=601 PartOfSpeech=.] 
+root(ROOT-0, crying-5)
+cc(crying-5, And-1)
+advmod(crying-5, why-2)
+aux(crying-5, is-3)
+nsubj(crying-5, she-4)
+punct(crying-5, ?-6)
+
+Sentence #9 (16 tokens):
+Cos he dyed his hair blonde and became a surfer dude to get acting gigs.
+[Text=Cos CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=NNP] [Text=he CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=PRP] [Text=dyed CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=PRP$] [Text=hair CharacterOffsetBegin=622 CharacterOffsetEnd=626 PartOfSpeech=NN] [Text=blonde CharacterOffsetBegin=627 CharacterOffsetEnd=633 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=CC] [Text=became CharacterOffsetBegin=638 CharacterOffsetEnd=644 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=DT] [Text=surfer CharacterOffsetBegin=647 CharacterOffsetEnd=653 PartOfSpeech=NN] [Text=dude CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=659 CharacterOffsetEnd=661 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=VB] [Text=acting CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=VBG] [Text=gigs CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=677 CharacterOffsetEnd=678 PartOfSpeech=.] 
+root(ROOT-0, Cos-1)
+nsubj(dyed-3, he-2)
+rcmod(Cos-1, dyed-3)
+poss(hair-5, his-4)
+nsubj(blonde-6, hair-5)
+dep(dyed-3, blonde-6)
+cc(blonde-6, and-7)
+cop(dude-11, became-8)
+det(dude-11, a-9)
+nn(dude-11, surfer-10)
+conj(blonde-6, dude-11)
+aux(get-13, to-12)
+infmod(dude-11, get-13)
+amod(gigs-15, acting-14)
+dobj(get-13, gigs-15)
+punct(Cos-1, .-16)
+
+Sentence #10 (8 tokens):
+This movie makes no sense at ALL!
+[Text=This CharacterOffsetBegin=683 CharacterOffsetEnd=687 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=688 CharacterOffsetEnd=693 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=694 CharacterOffsetEnd=699 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=DT] [Text=sense CharacterOffsetBegin=703 CharacterOffsetEnd=708 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=709 CharacterOffsetEnd=711 PartOfSpeech=IN] [Text=ALL CharacterOffsetBegin=712 CharacterOffsetEnd=715 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=715 CharacterOffsetEnd=716 PartOfSpeech=.] 
+root(ROOT-0, makes-3)
+det(movie-2, This-1)
+nsubj(makes-3, movie-2)
+det(sense-5, no-4)
+dobj(makes-3, sense-5)
+prep(makes-3, at-6)
+pobj(at-6, ALL-7)
+punct(makes-3, !-8)
+
+Sentence #11 (26 tokens):
+The actor who played the governor on Benson is in this too and he plays a stereotypical right wing politician with lotsa dumb funny dialog.
+[Text=The CharacterOffsetBegin=721 CharacterOffsetEnd=724 PartOfSpeech=DT] [Text=actor CharacterOffsetBegin=725 CharacterOffsetEnd=730 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=WP] [Text=played CharacterOffsetBegin=735 CharacterOffsetEnd=741 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=DT] [Text=governor CharacterOffsetBegin=746 CharacterOffsetEnd=754 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=IN] [Text=Benson CharacterOffsetBegin=758 CharacterOffsetEnd=764 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=765 CharacterOffsetEnd=767 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=768 CharacterOffsetEnd=770 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=771 CharacterOffsetEnd=775 PartOfSpeech=DT] [Text=too CharacterOffsetBegin=776 CharacterOffsetEnd=779 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=780 CharacterOffsetEnd=783 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=784 CharacterOffsetEnd=786 PartOfSpeech=PRP] [Text=plays CharacterOffsetBegin=787 CharacterOffsetEnd=792 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=793 CharacterOffsetEnd=794 PartOfSpeech=DT] [Text=stereotypical CharacterOffsetBegin=795 CharacterOffsetEnd=808 PartOfSpeech=JJ] [Text=right CharacterOffsetBegin=809 CharacterOffsetEnd=814 PartOfSpeech=JJ] [Text=wing CharacterOffsetBegin=815 CharacterOffsetEnd=819 PartOfSpeech=NN] [Text=politician CharacterOffsetBegin=820 CharacterOffsetEnd=830 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=831 CharacterOffsetEnd=835 PartOfSpeech=IN] [Text=lotsa CharacterOffsetBegin=836 CharacterOffsetEnd=841 PartOfSpeech=NN] [Text=dumb CharacterOffsetBegin=842 CharacterOffsetEnd=846 PartOfSpeech=JJ] [Text=funny CharacterOffsetBegin=847 CharacterOffsetEnd=852 PartOfSpeech=JJ] [Text=dialog CharacterOffsetBegin=853 CharacterOffsetEnd=859 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=859 CharacterOffsetEnd=860 PartOfSpeech=.] 
+root(ROOT-0, is-9)
+det(actor-2, The-1)
+nsubj(is-9, actor-2)
+nsubj(played-4, who-3)
+rcmod(actor-2, played-4)
+det(governor-6, the-5)
+dobj(played-4, governor-6)
+prep(played-4, on-7)
+pobj(on-7, Benson-8)
+prep(is-9, in-10)
+pobj(in-10, this-11)
+advmod(is-9, too-12)
+cc(is-9, and-13)
+nsubj(plays-15, he-14)
+conj(is-9, plays-15)
+det(politician-20, a-16)
+amod(politician-20, stereotypical-17)
+amod(politician-20, right-18)
+nn(politician-20, wing-19)
+dobj(plays-15, politician-20)
+prep(plays-15, with-21)
+nn(dialog-25, lotsa-22)
+amod(dialog-25, dumb-23)
+amod(dialog-25, funny-24)
+pobj(with-21, dialog-25)
+punct(is-9, .-26)
+
+Sentence #12 (10 tokens):
+This movie will crack you up, trust me.
+[Text=This CharacterOffsetBegin=865 CharacterOffsetEnd=869 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=870 CharacterOffsetEnd=875 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=876 CharacterOffsetEnd=880 PartOfSpeech=MD] [Text=crack CharacterOffsetBegin=881 CharacterOffsetEnd=886 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=887 CharacterOffsetEnd=890 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=891 CharacterOffsetEnd=893 PartOfSpeech=RP] [Text=, CharacterOffsetBegin=893 CharacterOffsetEnd=894 PartOfSpeech=,] [Text=trust CharacterOffsetBegin=895 CharacterOffsetEnd=900 PartOfSpeech=NN] [Text=me CharacterOffsetBegin=901 CharacterOffsetEnd=903 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=903 CharacterOffsetEnd=904 PartOfSpeech=.] 
+root(ROOT-0, crack-4)
+det(movie-2, This-1)
+nsubj(crack-4, movie-2)
+aux(crack-4, will-3)
+dobj(crack-4, you-5)
+prt(crack-4, up-6)
+punct(crack-4, ,-7)
+xcomp(crack-4, trust-8)
+dobj(trust-8, me-9)
+punct(crack-4, .-10)
+
+Sentence #13 (6 tokens):
+You talking' to me?
+[Text=You CharacterOffsetBegin=909 CharacterOffsetEnd=912 PartOfSpeech=PRP] [Text=talking CharacterOffsetBegin=913 CharacterOffsetEnd=920 PartOfSpeech=VBG] [Text=' CharacterOffsetBegin=920 CharacterOffsetEnd=921 PartOfSpeech=''] [Text=to CharacterOffsetBegin=922 CharacterOffsetEnd=924 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=925 CharacterOffsetEnd=927 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=927 CharacterOffsetEnd=928 PartOfSpeech=.] 
+root(ROOT-0, talking-2)
+nsubj(talking-2, You-1)
+punct(talking-2, '-3)
+prep(talking-2, to-4)
+pobj(to-4, me-5)
+punct(talking-2, ?-6)
+
+Sentence #14 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=933 CharacterOffsetEnd=934 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

@@ -1,0 +1,114 @@
+Sentence #1 (11 tokens):
+My friend made me sit down and watch this film.
+[Text=My CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=PRP] [Text=sit CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=VB] [Text=down CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=CC] [Text=watch CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=.] 
+root(ROOT-0, made-3)
+poss(friend-2, My-1)
+nsubj(made-3, friend-2)
+nsubj(sit-5, me-4)
+ccomp(made-3, sit-5)
+advmod(sit-5, down-6)
+cc(sit-5, and-7)
+conj(sit-5, watch-8)
+det(film-10, this-9)
+dobj(watch-8, film-10)
+punct(made-3, .-11)
+
+Sentence #2 (6 tokens):
+This is out there material.
+[Text=This CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=RB] [Text=material CharacterOffsetBegin=74 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, This-1)
+prep(is-2, out-3)
+advmod(material-5, there-4)
+pobj(out-3, material-5)
+punct(is-2, .-6)
+
+Sentence #3 (21 tokens):
+"God the Devil, Heaven Hell... and a restaurant thrown in for good measure.Four guys and a prick.
+[Text=`` CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=``] [Text=God CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=Devil CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=,] [Text=Heaven CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=NNP] [Text=Hell CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NNP] [Text=... CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=:] [Text=and CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=DT] [Text=restaurant CharacterOffsetBegin=125 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=thrown CharacterOffsetBegin=136 CharacterOffsetEnd=142 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=JJ] [Text=measure.Four CharacterOffsetBegin=155 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=guys CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=prick CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=.] 
+root(ROOT-0, God-2)
+punct(God-2, ``-1)
+det(Devil-4, the-3)
+dep(God-2, Devil-4)
+punct(Devil-4, ,-5)
+nn(Hell-7, Heaven-6)
+appos(Devil-4, Hell-7)
+punct(God-2, ...-8)
+cc(God-2, and-9)
+det(restaurant-11, a-10)
+conj(God-2, restaurant-11)
+partmod(restaurant-11, thrown-12)
+prep(thrown-12, in-13)
+pcomp(in-13, for-14)
+amod(guys-17, good-15)
+nn(guys-17, measure.Four-16)
+pobj(for-14, guys-17)
+cc(guys-17, and-18)
+det(prick-20, a-19)
+conj(guys-17, prick-20)
+punct(God-2, .-21)
+
+Sentence #4 (3 tokens):
+Who dies?
+[Text=Who CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=WP] [Text=dies CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=VBZ] [Text=? CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=.] 
+root(ROOT-0, dies-2)
+nsubj(dies-2, Who-1)
+punct(dies-2, ?-3)
+
+Sentence #5 (8 tokens):
+When and how?is That's the story.
+[Text=When CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=WRB] [Text=and CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=CC] [Text=how?is CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=VBZ] [Text=That CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.] 
+root(ROOT-0, story-7)
+advmod(story-7, When-1)
+cc(When-1, and-2)
+conj(When-1, how?is-3)
+nsubj(story-7, That-4)
+cop(story-7, 's-5)
+det(story-7, the-6)
+punct(story-7, .-8)
+
+Sentence #6 (10 tokens):
+You'll never guess the ending for this one.
+[Text=You CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=guess CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=265 CharacterOffsetEnd=271 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=284 CharacterOffsetEnd=285 PartOfSpeech=.] 
+root(ROOT-0, guess-4)
+nsubj(guess-4, You-1)
+aux(guess-4, 'll-2)
+neg(guess-4, never-3)
+det(ending-6, the-5)
+dobj(guess-4, ending-6)
+prep(ending-6, for-7)
+det(one-9, this-8)
+pobj(for-7, one-9)
+punct(guess-4, .-10)
+
+Sentence #7 (9 tokens):
+A skillfully realized little gem of Aussie cinema.
+[Text=A CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=DT] [Text=skillfully CharacterOffsetBegin=292 CharacterOffsetEnd=302 PartOfSpeech=RB] [Text=realized CharacterOffsetBegin=303 CharacterOffsetEnd=311 PartOfSpeech=VBN] [Text=little CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=JJ] [Text=gem CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=IN] [Text=Aussie CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=JJ] [Text=cinema CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=.] 
+root(ROOT-0, A-1)
+advmod(realized-3, skillfully-2)
+partmod(A-1, realized-3)
+amod(gem-5, little-4)
+dep(realized-3, gem-5)
+prep(gem-5, of-6)
+amod(cinema-8, Aussie-7)
+pobj(of-6, cinema-8)
+punct(A-1, .-9)
+
+Sentence #8 (14 tokens):
+Hats of to the team that made this one.10 out of 10.
+[Text=Hats CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=DT] [Text=team CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=WDT] [Text=made CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=CD] [Text=.10 CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=.] 
+root(ROOT-0, Hats-1)
+prep(Hats-1, of-2)
+pcomp(of-2, to-3)
+det(team-5, the-4)
+pobj(to-3, team-5)
+nsubj(made-7, that-6)
+rcmod(team-5, made-7)
+det(one-9, this-8)
+dobj(made-7, one-9)
+dep(one-9, .10-10)
+prep(.10-10, out-11)
+pcomp(out-11, of-12)
+pobj(of-12, 10-13)
+punct(Hats-1, .-14)
+

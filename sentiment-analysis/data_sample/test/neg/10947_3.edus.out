@@ -1,0 +1,134 @@
+Sentence #1 (16 tokens):
+The film was half over before I managed to figure out what was going on.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=VBD] [Text=half CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=RB] [Text=over CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=before CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=PRP] [Text=managed CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=TO] [Text=figure CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=RP] [Text=what CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=VBD] [Text=going CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=.] 
+root(ROOT-0, half-4)
+det(film-2, The-1)
+nsubj(half-4, film-2)
+cop(half-4, was-3)
+prep(half-4, over-5)
+mark(managed-8, before-6)
+nsubj(managed-8, I-7)
+pcomp(over-5, managed-8)
+aux(figure-10, to-9)
+xcomp(managed-8, figure-10)
+prt(figure-10, out-11)
+nsubj(going-14, what-12)
+aux(going-14, was-13)
+ccomp(figure-10, going-14)
+prep(going-14, on-15)
+punct(half-4, .-16)
+
+Sentence #2 (15 tokens):
+It's a dog's breakfast of a movie about four family Thanksgiving dinners.
+[Text=It CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=DT] [Text=dog CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=POS] [Text=breakfast CharacterOffsetBegin=94 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=IN] [Text=four CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=CD] [Text=family CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=NN] [Text=Thanksgiving CharacterOffsetBegin=133 CharacterOffsetEnd=145 PartOfSpeech=NNP] [Text=dinners CharacterOffsetBegin=146 CharacterOffsetEnd=153 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=.] 
+root(ROOT-0, breakfast-6)
+nsubj(breakfast-6, It-1)
+cop(breakfast-6, 's-2)
+det(dog-4, a-3)
+poss(breakfast-6, dog-4)
+possessive(dog-4, 's-5)
+prep(breakfast-6, of-7)
+det(movie-9, a-8)
+pobj(of-7, movie-9)
+quantmod(four-11, about-10)
+num(dinners-14, four-11)
+nn(dinners-14, family-12)
+nn(dinners-14, Thanksgiving-13)
+dep(movie-9, dinners-14)
+punct(breakfast-6, .-15)
+
+Sentence #3 (9 tokens):
+The cliches and stereotypes tumble over each other.
+[Text=The CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=cliches CharacterOffsetBegin=163 CharacterOffsetEnd=170 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=CC] [Text=stereotypes CharacterOffsetBegin=175 CharacterOffsetEnd=186 PartOfSpeech=NNS] [Text=tumble CharacterOffsetBegin=187 CharacterOffsetEnd=193 PartOfSpeech=VBP] [Text=over CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=IN] [Text=each CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, tumble-5)
+det(cliches-2, The-1)
+nsubj(tumble-5, cliches-2)
+cc(cliches-2, and-3)
+conj(cliches-2, stereotypes-4)
+prep(tumble-5, over-6)
+det(other-8, each-7)
+pobj(over-6, other-8)
+punct(tumble-5, .-9)
+
+Sentence #4 (27 tokens):
+When it's all over ten hours later --- well, it seems like ten hours --- you're puzzling over what it was all about.
+[Text=When CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=VBZ] [Text=all CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=over CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=IN] [Text=ten CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=CD] [Text=hours CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=NNS] [Text=later CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=RB] [Text=-- CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=:] [Text=well CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=,] [Text=it CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=PRP] [Text=seems CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=IN] [Text=ten CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=CD] [Text=hours CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NNS] [Text=-- CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=:] [Text=you CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=VBP] [Text=puzzling CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=JJ] [Text=over CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=DT] [Text=about CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=.] 
+root(ROOT-0, seems-13)
+advmod(all-4, When-1)
+nsubj(all-4, it-2)
+cop(all-4, 's-3)
+quantmod(ten-6, all-4)
+quantmod(ten-6, over-5)
+num(hours-7, ten-6)
+npadvmod(later-8, hours-7)
+advmod(seems-13, later-8)
+punct(seems-13, ---9)
+advmod(seems-13, well-10)
+punct(seems-13, ,-11)
+nsubj(seems-13, it-12)
+prep(seems-13, like-14)
+num(hours-16, ten-15)
+pobj(like-14, hours-16)
+punct(seems-13, ---17)
+nsubj(puzzling-20, you-18)
+cop(puzzling-20, 're-19)
+parataxis(seems-13, puzzling-20)
+advmod(puzzling-20, over-21)
+dobj(all-25, what-22)
+nsubj(all-25, it-23)
+cop(all-25, was-24)
+pcomp(over-21, all-25)
+advmod(all-25, about-26)
+punct(seems-13, .-27)
+
+Sentence #5 (13 tokens):
+I don't want to see a movie about dinner table squabbling.
+[Text=I CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=IN] [Text=dinner CharacterOffsetBegin=370 CharacterOffsetEnd=376 PartOfSpeech=NN] [Text=table CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=NN] [Text=squabbling CharacterOffsetBegin=383 CharacterOffsetEnd=393 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.] 
+root(ROOT-0, want-4)
+nsubj(want-4, I-1)
+aux(want-4, do-2)
+neg(want-4, n't-3)
+aux(see-6, to-5)
+xcomp(want-4, see-6)
+det(movie-8, a-7)
+dobj(see-6, movie-8)
+prep(movie-8, about-9)
+nn(squabbling-12, dinner-10)
+nn(squabbling-12, table-11)
+pobj(about-9, squabbling-12)
+punct(want-4, .-13)
+
+Sentence #6 (10 tokens):
+There is enough of it in my own family.
+[Text=There CharacterOffsetBegin=399 CharacterOffsetEnd=404 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=VBZ] [Text=enough CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=431 CharacterOffsetEnd=437 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+advmod(is-2, enough-3)
+prep(enough-3, of-4)
+pobj(of-4, it-5)
+prep(enough-3, in-6)
+poss(family-9, my-7)
+amod(family-9, own-8)
+pobj(in-6, family-9)
+punct(is-2, .-10)
+
+Sentence #7 (6 tokens):
+The turkeys looked pretty good.
+[Text=The CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=DT] [Text=turkeys CharacterOffsetBegin=447 CharacterOffsetEnd=454 PartOfSpeech=NNS] [Text=looked CharacterOffsetBegin=455 CharacterOffsetEnd=461 PartOfSpeech=VBD] [Text=pretty CharacterOffsetBegin=462 CharacterOffsetEnd=468 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=.] 
+root(ROOT-0, looked-3)
+det(turkeys-2, The-1)
+nsubj(looked-3, turkeys-2)
+advmod(good-5, pretty-4)
+acomp(looked-3, good-5)
+punct(looked-3, .-6)
+
+Sentence #8 (6 tokens):
+The rest gave me indigestion.
+[Text=The CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=NN] [Text=gave CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=PRP] [Text=indigestion CharacterOffsetBegin=496 CharacterOffsetEnd=507 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=.] 
+root(ROOT-0, gave-3)
+det(rest-2, The-1)
+nsubj(gave-3, rest-2)
+iobj(gave-3, me-4)
+dobj(gave-3, indigestion-5)
+punct(gave-3, .-6)
+

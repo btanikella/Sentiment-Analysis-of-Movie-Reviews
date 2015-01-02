@@ -1,0 +1,218 @@
+Sentence #1 (2 tokens):
+He-he-hello!!
+[Text=He-he-hello CharacterOffsetBegin=4 CharacterOffsetEnd=15 PartOfSpeech=JJ] [Text=!! CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=NN] 
+root(ROOT-0, !!-2)
+amod(!!-2, He-he-hello-1)
+
+Sentence #2 (7 tokens):
+This is a really fun movie.
+[Text=This CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=really CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=RB] [Text=fun CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, This-1)
+cop(movie-6, is-2)
+det(movie-6, a-3)
+advmod(fun-5, really-4)
+amod(movie-6, fun-5)
+punct(movie-6, .-7)
+
+Sentence #3 (21 tokens):
+Basically, in Party Girl, you have your fun-lovin', independent, early 90's New Yorker chick.
+[Text=Basically CharacterOffsetBegin=54 CharacterOffsetEnd=63 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=,] [Text=in CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN] [Text=Party CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NNP] [Text=Girl CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=,] [Text=you CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=VBP] [Text=your CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=PRP$] [Text=fun-lovin CharacterOffsetBegin=94 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=''] [Text=, CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=,] [Text=independent CharacterOffsetBegin=106 CharacterOffsetEnd=117 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=,] [Text=early CharacterOffsetBegin=119 CharacterOffsetEnd=124 PartOfSpeech=JJ] [Text=90 CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=POS] [Text=New CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=NNP] [Text=Yorker CharacterOffsetBegin=134 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=chick CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=.] 
+root(ROOT-0, have-8)
+advmod(have-8, Basically-1)
+punct(have-8, ,-2)
+prep(have-8, in-3)
+nn(Girl-5, Party-4)
+pobj(in-3, Girl-5)
+punct(have-8, ,-6)
+nsubj(have-8, you-7)
+poss(fun-lovin-10, your-9)
+dobj(have-8, fun-lovin-10)
+punct(fun-lovin-10, '-11)
+punct(fun-lovin-10, ,-12)
+amod(fun-lovin-10, independent-13)
+punct(fun-lovin-10, ,-14)
+amod(chick-20, early-15)
+poss(chick-20, 90-16)
+possessive(90-16, 's-17)
+nn(chick-20, New-18)
+nn(chick-20, Yorker-19)
+appos(fun-lovin-10, chick-20)
+punct(have-8, .-21)
+
+Sentence #4 (13 tokens):
+Along with her party friends, she meets a mature Turkish Vendor.
+[Text=Along CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=PRP$] [Text=party CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text=friends CharacterOffsetBegin=173 CharacterOffsetEnd=180 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=,] [Text=she CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=PRP] [Text=meets CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=DT] [Text=mature CharacterOffsetBegin=194 CharacterOffsetEnd=200 PartOfSpeech=JJ] [Text=Turkish CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=Vendor CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=.] 
+root(ROOT-0, meets-8)
+prep(meets-8, Along-1)
+pcomp(Along-1, with-2)
+poss(friends-5, her-3)
+nn(friends-5, party-4)
+pobj(with-2, friends-5)
+punct(meets-8, ,-6)
+nsubj(meets-8, she-7)
+det(Vendor-12, a-9)
+amod(Vendor-12, mature-10)
+amod(Vendor-12, Turkish-11)
+dobj(meets-8, Vendor-12)
+punct(meets-8, .-13)
+
+Sentence #5 (21 tokens):
+It is a comming of age story for those new adults who are searching for what they want to do.
+[Text=It CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=comming CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=age CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=story CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=JJ] [Text=adults CharacterOffsetBegin=264 CharacterOffsetEnd=270 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=WP] [Text=are CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=VBP] [Text=searching CharacterOffsetBegin=279 CharacterOffsetEnd=288 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=WP] [Text=they CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=.] 
+root(ROOT-0, comming-4)
+nsubj(comming-4, It-1)
+cop(comming-4, is-2)
+det(comming-4, a-3)
+prep(comming-4, of-5)
+nn(story-7, age-6)
+pobj(of-5, story-7)
+prep(comming-4, for-8)
+det(adults-11, those-9)
+amod(adults-11, new-10)
+pobj(for-8, adults-11)
+nsubj(searching-14, who-12)
+aux(searching-14, are-13)
+rcmod(adults-11, searching-14)
+prep(searching-14, for-15)
+dobj(want-18, what-16)
+nsubj(want-18, they-17)
+pcomp(for-15, want-18)
+aux(do-20, to-19)
+xcomp(want-18, do-20)
+punct(comming-4, .-21)
+
+Sentence #6 (14 tokens):
+It is comforting to see a female slacker develop into a mature woman.
+[Text=It CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=VBZ] [Text=comforting CharacterOffsetBegin=325 CharacterOffsetEnd=335 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=DT] [Text=female CharacterOffsetBegin=345 CharacterOffsetEnd=351 PartOfSpeech=JJ] [Text=slacker CharacterOffsetBegin=352 CharacterOffsetEnd=359 PartOfSpeech=NN] [Text=develop CharacterOffsetBegin=360 CharacterOffsetEnd=367 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=DT] [Text=mature CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=JJ] [Text=woman CharacterOffsetBegin=382 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=.] 
+root(ROOT-0, comforting-3)
+nsubj(comforting-3, It-1)
+cop(comforting-3, is-2)
+aux(see-5, to-4)
+xcomp(comforting-3, see-5)
+det(slacker-8, a-6)
+amod(slacker-8, female-7)
+dobj(see-5, slacker-8)
+partmod(slacker-8, develop-9)
+prep(develop-9, into-10)
+det(woman-13, a-11)
+amod(woman-13, mature-12)
+pobj(into-10, woman-13)
+punct(comforting-3, .-14)
+
+Sentence #7 (40 tokens):
+Hope is given to all of us slackers who might feel like their only skills are being able to maintain while hammered and a nack for throwing good parties.On a side note, Parker Posey makes this movie great.
+[Text=Hope CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=VBZ] [Text=given CharacterOffsetBegin=401 CharacterOffsetEnd=406 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=TO] [Text=all CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=IN] [Text=us CharacterOffsetBegin=417 CharacterOffsetEnd=419 PartOfSpeech=PRP] [Text=slackers CharacterOffsetBegin=420 CharacterOffsetEnd=428 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=WP] [Text=might CharacterOffsetBegin=433 CharacterOffsetEnd=438 PartOfSpeech=MD] [Text=feel CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=VB] [Text=like CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=449 CharacterOffsetEnd=454 PartOfSpeech=PRP$] [Text=only CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=JJ] [Text=skills CharacterOffsetBegin=460 CharacterOffsetEnd=466 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=VBP] [Text=being CharacterOffsetBegin=471 CharacterOffsetEnd=476 PartOfSpeech=VBG] [Text=able CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=TO] [Text=maintain CharacterOffsetBegin=485 CharacterOffsetEnd=493 PartOfSpeech=VB] [Text=while CharacterOffsetBegin=494 CharacterOffsetEnd=499 PartOfSpeech=IN] [Text=hammered CharacterOffsetBegin=500 CharacterOffsetEnd=508 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=513 CharacterOffsetEnd=514 PartOfSpeech=DT] [Text=nack CharacterOffsetBegin=515 CharacterOffsetEnd=519 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=IN] [Text=throwing CharacterOffsetBegin=524 CharacterOffsetEnd=532 PartOfSpeech=VBG] [Text=good CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=JJ] [Text=parties.On CharacterOffsetBegin=538 CharacterOffsetEnd=548 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=549 CharacterOffsetEnd=550 PartOfSpeech=DT] [Text=side CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=NN] [Text=note CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=,] [Text=Parker CharacterOffsetBegin=562 CharacterOffsetEnd=568 PartOfSpeech=NNP] [Text=Posey CharacterOffsetBegin=569 CharacterOffsetEnd=574 PartOfSpeech=NNP] [Text=makes CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=586 CharacterOffsetEnd=591 PartOfSpeech=NN] [Text=great CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=597 CharacterOffsetEnd=598 PartOfSpeech=.] 
+root(ROOT-0, given-3)
+nsubjpass(given-3, Hope-1)
+auxpass(given-3, is-2)
+prep(given-3, to-4)
+pobj(to-4, all-5)
+prep(all-5, of-6)
+pobj(of-6, us-7)
+dep(us-7, slackers-8)
+nsubj(feel-11, who-9)
+aux(feel-11, might-10)
+rcmod(slackers-8, feel-11)
+mark(able-18, like-12)
+poss(skills-15, their-13)
+amod(skills-15, only-14)
+nsubj(able-18, skills-15)
+aux(able-18, are-16)
+cop(able-18, being-17)
+advcl(feel-11, able-18)
+aux(maintain-20, to-19)
+xcomp(able-18, maintain-20)
+mark(hammered-22, while-21)
+advcl(maintain-20, hammered-22)
+cc(hammered-22, and-23)
+det(nack-25, a-24)
+conj(hammered-22, nack-25)
+prep(nack-25, for-26)
+pcomp(for-26, throwing-27)
+amod(parties.On-29, good-28)
+dobj(throwing-27, parties.On-29)
+det(note-32, a-30)
+nn(note-32, side-31)
+dobj(throwing-27, note-32)
+punct(note-32, ,-33)
+nn(Posey-35, Parker-34)
+nsubj(makes-36, Posey-35)
+rcmod(note-32, makes-36)
+det(movie-38, this-37)
+nsubj(great-39, movie-38)
+xcomp(makes-36, great-39)
+punct(given-3, .-40)
+
+Sentence #8 (24 tokens):
+I have never been a great fan of her, but this movie makes me just want to watch all of her movies.
+[Text=I CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=VBP] [Text=never CharacterOffsetBegin=610 CharacterOffsetEnd=615 PartOfSpeech=RB] [Text=been CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=621 CharacterOffsetEnd=622 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=623 CharacterOffsetEnd=628 PartOfSpeech=JJ] [Text=fan CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=636 CharacterOffsetEnd=639 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=639 CharacterOffsetEnd=640 PartOfSpeech=,] [Text=but CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=645 CharacterOffsetEnd=649 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=650 CharacterOffsetEnd=655 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=656 CharacterOffsetEnd=661 PartOfSpeech=VBZ] [Text=me CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=665 CharacterOffsetEnd=669 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=675 CharacterOffsetEnd=677 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=VB] [Text=all CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=688 CharacterOffsetEnd=690 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=691 CharacterOffsetEnd=694 PartOfSpeech=PRP$] [Text=movies CharacterOffsetBegin=695 CharacterOffsetEnd=701 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=701 CharacterOffsetEnd=702 PartOfSpeech=.] 
+root(ROOT-0, fan-7)
+nsubj(fan-7, I-1)
+aux(fan-7, have-2)
+neg(fan-7, never-3)
+cop(fan-7, been-4)
+det(fan-7, a-5)
+amod(fan-7, great-6)
+prep(fan-7, of-8)
+pobj(of-8, her-9)
+punct(fan-7, ,-10)
+cc(fan-7, but-11)
+det(movie-13, this-12)
+nsubj(makes-14, movie-13)
+conj(fan-7, makes-14)
+nsubj(want-17, me-15)
+advmod(want-17, just-16)
+ccomp(makes-14, want-17)
+aux(watch-19, to-18)
+xcomp(want-17, watch-19)
+dobj(watch-19, all-20)
+prep(all-20, of-21)
+poss(movies-23, her-22)
+pobj(of-21, movies-23)
+punct(fan-7, .-24)
+
+Sentence #9 (9 tokens):
+There are subtle manerisms that perfected her character.
+[Text=There CharacterOffsetBegin=707 CharacterOffsetEnd=712 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=713 CharacterOffsetEnd=716 PartOfSpeech=VBP] [Text=subtle CharacterOffsetBegin=717 CharacterOffsetEnd=723 PartOfSpeech=JJ] [Text=manerisms CharacterOffsetBegin=724 CharacterOffsetEnd=733 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=WDT] [Text=perfected CharacterOffsetBegin=739 CharacterOffsetEnd=748 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=749 CharacterOffsetEnd=752 PartOfSpeech=PRP] [Text=character CharacterOffsetBegin=753 CharacterOffsetEnd=762 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=762 CharacterOffsetEnd=763 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+amod(manerisms-4, subtle-3)
+nsubj(are-2, manerisms-4)
+nsubj(perfected-6, that-5)
+rcmod(manerisms-4, perfected-6)
+nsubj(character-8, her-7)
+xcomp(perfected-6, character-8)
+punct(are-2, .-9)
+
+Sentence #10 (17 tokens):
+If you want good laughs and a fun time, make sure to watch this movie.
+[Text=If CharacterOffsetBegin=768 CharacterOffsetEnd=770 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=771 CharacterOffsetEnd=774 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=775 CharacterOffsetEnd=779 PartOfSpeech=VBP] [Text=good CharacterOffsetBegin=780 CharacterOffsetEnd=784 PartOfSpeech=JJ] [Text=laughs CharacterOffsetBegin=785 CharacterOffsetEnd=791 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=792 CharacterOffsetEnd=795 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=796 CharacterOffsetEnd=797 PartOfSpeech=DT] [Text=fun CharacterOffsetBegin=798 CharacterOffsetEnd=801 PartOfSpeech=NN] [Text=time CharacterOffsetBegin=802 CharacterOffsetEnd=806 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=806 CharacterOffsetEnd=807 PartOfSpeech=,] [Text=make CharacterOffsetBegin=808 CharacterOffsetEnd=812 PartOfSpeech=VBP] [Text=sure CharacterOffsetBegin=813 CharacterOffsetEnd=817 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=818 CharacterOffsetEnd=820 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=821 CharacterOffsetEnd=826 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=827 CharacterOffsetEnd=831 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=832 CharacterOffsetEnd=837 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=837 CharacterOffsetEnd=838 PartOfSpeech=.] 
+root(ROOT-0, make-11)
+mark(want-3, If-1)
+nsubj(want-3, you-2)
+advcl(make-11, want-3)
+amod(laughs-5, good-4)
+dobj(want-3, laughs-5)
+cc(laughs-5, and-6)
+det(time-9, a-7)
+nn(time-9, fun-8)
+conj(laughs-5, time-9)
+punct(make-11, ,-10)
+acomp(make-11, sure-12)
+aux(watch-14, to-13)
+xcomp(sure-12, watch-14)
+det(movie-16, this-15)
+dobj(watch-14, movie-16)
+punct(make-11, .-17)
+
+Sentence #11 (6 tokens):
+Repeated viewings are a must.
+[Text=Repeated CharacterOffsetBegin=843 CharacterOffsetEnd=851 PartOfSpeech=JJ] [Text=viewings CharacterOffsetBegin=852 CharacterOffsetEnd=860 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=861 CharacterOffsetEnd=864 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=865 CharacterOffsetEnd=866 PartOfSpeech=DT] [Text=must CharacterOffsetBegin=867 CharacterOffsetEnd=871 PartOfSpeech=MD] [Text=. CharacterOffsetBegin=871 CharacterOffsetEnd=872 PartOfSpeech=.] 
+root(ROOT-0, must-5)
+amod(viewings-2, Repeated-1)
+nsubj(must-5, viewings-2)
+cop(must-5, are-3)
+det(must-5, a-4)
+punct(must-5, .-6)
+

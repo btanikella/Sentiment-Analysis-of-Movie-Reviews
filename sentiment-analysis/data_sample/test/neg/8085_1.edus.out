@@ -1,0 +1,69 @@
+Sentence #1 (14 tokens):
+The Guidelines state that a comment must contain a minimum of four lines.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=Guidelines CharacterOffsetBegin=8 CharacterOffsetEnd=18 PartOfSpeech=NNS] [Text=state CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=comment CharacterOffsetBegin=32 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=must CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=MD] [Text=contain CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=minimum CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=four CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=CD] [Text=lines CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=.] 
+root(ROOT-0, state-3)
+det(Guidelines-2, The-1)
+nsubj(state-3, Guidelines-2)
+mark(contain-8, that-4)
+det(comment-6, a-5)
+nsubj(contain-8, comment-6)
+aux(contain-8, must-7)
+ccomp(state-3, contain-8)
+det(minimum-10, a-9)
+dobj(contain-8, minimum-10)
+prep(minimum-10, of-11)
+num(lines-13, four-12)
+pobj(of-11, lines-13)
+punct(state-3, .-14)
+
+Sentence #2 (13 tokens):
+That is the only reason I am saying anything more about Tomcats.
+[Text=That CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=JJ] [Text=reason CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=VBP] [Text=saying CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=VBG] [Text=anything CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=JJR] [Text=about CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=IN] [Text=Tomcats CharacterOffsetBegin=138 CharacterOffsetEnd=145 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=.] 
+root(ROOT-0, reason-5)
+nsubj(reason-5, That-1)
+cop(reason-5, is-2)
+det(reason-5, the-3)
+amod(reason-5, only-4)
+nsubj(saying-8, I-6)
+aux(saying-8, am-7)
+rcmod(reason-5, saying-8)
+dobj(saying-8, anything-9)
+amod(anything-9, more-10)
+prep(more-10, about-11)
+pobj(about-11, Tomcats-12)
+punct(reason-5, .-13)
+
+Sentence #3 (16 tokens):
+Because after all, my one line summary really says everything there is to say.
+[Text=Because CharacterOffsetBegin=151 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=after CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=,] [Text=my CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=PRP$] [Text=one CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=CD] [Text=line CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=NN] [Text=summary CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=really CharacterOffsetBegin=190 CharacterOffsetEnd=196 PartOfSpeech=RB] [Text=says CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VBZ] [Text=everything CharacterOffsetBegin=202 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=there CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, says-10)
+mark(says-10, Because-1)
+prep(says-10, after-2)
+pobj(after-2, all-3)
+punct(says-10, ,-4)
+poss(summary-8, my-5)
+num(summary-8, one-6)
+nn(summary-8, line-7)
+nsubj(says-10, summary-8)
+advmod(says-10, really-9)
+dobj(says-10, everything-11)
+expl(is-13, there-12)
+rcmod(everything-11, is-13)
+aux(say-15, to-14)
+xcomp(is-13, say-15)
+punct(says-10, .-16)
+
+Sentence #4 (10 tokens):
+There is absolutely NOTHING remotely entertaining in this film.
+[Text=There CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=VBZ] [Text=absolutely CharacterOffsetBegin=243 CharacterOffsetEnd=253 PartOfSpeech=RB] [Text=NOTHING CharacterOffsetBegin=254 CharacterOffsetEnd=261 PartOfSpeech=VBG] [Text=remotely CharacterOffsetBegin=262 CharacterOffsetEnd=270 PartOfSpeech=RB] [Text=entertaining CharacterOffsetBegin=271 CharacterOffsetEnd=283 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+advmod(NOTHING-4, absolutely-3)
+xcomp(is-2, NOTHING-4)
+advmod(entertaining-6, remotely-5)
+acomp(NOTHING-4, entertaining-6)
+prep(entertaining-6, in-7)
+det(film-9, this-8)
+pobj(in-7, film-9)
+punct(is-2, .-10)
+

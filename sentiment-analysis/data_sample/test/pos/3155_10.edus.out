@@ -1,0 +1,193 @@
+Sentence #1 (4 tokens):
+Just see it!
+[Text=Just CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=RB] [Text=see CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=.] 
+root(ROOT-0, see-2)
+advmod(see-2, Just-1)
+dobj(see-2, it-3)
+punct(see-2, !-4)
+
+Sentence #2 (14 tokens):
+It's a smart movie but too hard to understand the first time.
+[Text=It CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=DT] [Text=smart CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=CC] [Text=too CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=RB] [Text=hard CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=TO] [Text=understand CharacterOffsetBegin=56 CharacterOffsetEnd=66 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, It-1)
+cop(movie-5, 's-2)
+det(movie-5, a-3)
+amod(movie-5, smart-4)
+cc(movie-5, but-6)
+advmod(hard-8, too-7)
+conj(movie-5, hard-8)
+aux(understand-10, to-9)
+dep(hard-8, understand-10)
+det(time-13, the-11)
+amod(time-13, first-12)
+dobj(understand-10, time-13)
+punct(movie-5, .-14)
+
+Sentence #3 (6 tokens):
+See it more than once.
+[Text=See CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=PRP] [Text=more CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=IN] [Text=once CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=.] 
+root(ROOT-0, See-1)
+dobj(See-1, it-2)
+advmod(than-4, more-3)
+amod(it-2, than-4)
+advmod(than-4, once-5)
+punct(See-1, .-6)
+
+Sentence #4 (21 tokens):
+Everything that is seen or heard on the screen is intentionally crafted to evoke a feeling, sensation or tone.
+[Text=Everything CharacterOffsetBegin=114 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=VBZ] [Text=seen CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=VBN] [Text=or CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=CC] [Text=heard CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=screen CharacterOffsetBegin=154 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=VBZ] [Text=intentionally CharacterOffsetBegin=164 CharacterOffsetEnd=177 PartOfSpeech=RB] [Text=crafted CharacterOffsetBegin=178 CharacterOffsetEnd=185 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=TO] [Text=evoke CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=feeling CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=,] [Text=sensation CharacterOffsetBegin=206 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=CC] [Text=tone CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, crafted-12)
+nsubjpass(crafted-12, Everything-1)
+nsubjpass(seen-4, that-2)
+auxpass(seen-4, is-3)
+rcmod(Everything-1, seen-4)
+cc(seen-4, or-5)
+conj(seen-4, heard-6)
+prep(seen-4, on-7)
+det(screen-9, the-8)
+pobj(on-7, screen-9)
+auxpass(crafted-12, is-10)
+advmod(crafted-12, intentionally-11)
+aux(evoke-14, to-13)
+xcomp(crafted-12, evoke-14)
+det(feeling-16, a-15)
+dobj(evoke-14, feeling-16)
+punct(feeling-16, ,-17)
+conj(feeling-16, sensation-18)
+cc(feeling-16, or-19)
+conj(feeling-16, tone-20)
+punct(crafted-12, .-21)
+
+Sentence #5 (28 tokens):
+The clarity of certain visuals and the crispness of certain sounds are deliberately contrasted with blurred images or pops, crackles, hisses and barely audible sounds.
+[Text=The CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=DT] [Text=clarity CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=IN] [Text=certain CharacterOffsetBegin=244 CharacterOffsetEnd=251 PartOfSpeech=JJ] [Text=visuals CharacterOffsetBegin=252 CharacterOffsetEnd=259 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=DT] [Text=crispness CharacterOffsetBegin=268 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=certain CharacterOffsetBegin=281 CharacterOffsetEnd=288 PartOfSpeech=JJ] [Text=sounds CharacterOffsetBegin=289 CharacterOffsetEnd=295 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=VBP] [Text=deliberately CharacterOffsetBegin=300 CharacterOffsetEnd=312 PartOfSpeech=RB] [Text=contrasted CharacterOffsetBegin=313 CharacterOffsetEnd=323 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=IN] [Text=blurred CharacterOffsetBegin=329 CharacterOffsetEnd=336 PartOfSpeech=VBN] [Text=images CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=NNS] [Text=or CharacterOffsetBegin=344 CharacterOffsetEnd=346 PartOfSpeech=CC] [Text=pops CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=,] [Text=crackles CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=,] [Text=hisses CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=CC] [Text=barely CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=RB] [Text=audible CharacterOffsetBegin=381 CharacterOffsetEnd=388 PartOfSpeech=JJ] [Text=sounds CharacterOffsetBegin=389 CharacterOffsetEnd=395 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=.] 
+root(ROOT-0, contrasted-14)
+det(clarity-2, The-1)
+nsubj(contrasted-14, clarity-2)
+prep(clarity-2, of-3)
+amod(visuals-5, certain-4)
+pobj(of-3, visuals-5)
+cc(visuals-5, and-6)
+det(crispness-8, the-7)
+conj(visuals-5, crispness-8)
+prep(crispness-8, of-9)
+amod(sounds-11, certain-10)
+pobj(of-9, sounds-11)
+cop(contrasted-14, are-12)
+advmod(contrasted-14, deliberately-13)
+prep(contrasted-14, with-15)
+amod(images-17, blurred-16)
+pobj(with-15, images-17)
+cc(contrasted-14, or-18)
+conj(contrasted-14, pops-19)
+punct(contrasted-14, ,-20)
+conj(contrasted-14, crackles-21)
+punct(contrasted-14, ,-22)
+conj(contrasted-14, hisses-23)
+cc(contrasted-14, and-24)
+advmod(audible-26, barely-25)
+amod(sounds-27, audible-26)
+conj(contrasted-14, sounds-27)
+punct(contrasted-14, .-28)
+
+Sentence #6 (7 tokens):
+The structure is non-linear and cyclical.
+[Text=The CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=DT] [Text=structure CharacterOffsetBegin=405 CharacterOffsetEnd=414 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=VBZ] [Text=non-linear CharacterOffsetBegin=418 CharacterOffsetEnd=428 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=CC] [Text=cyclical CharacterOffsetBegin=433 CharacterOffsetEnd=441 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=.] 
+root(ROOT-0, non-linear-4)
+det(structure-2, The-1)
+nsubj(non-linear-4, structure-2)
+cop(non-linear-4, is-3)
+cc(non-linear-4, and-5)
+conj(non-linear-4, cyclical-6)
+punct(non-linear-4, .-7)
+
+Sentence #7 (10 tokens):
+Motifs recur as time runs both clockwise and counterclockwise.
+[Text=Motifs CharacterOffsetBegin=447 CharacterOffsetEnd=453 PartOfSpeech=NNS] [Text=recur CharacterOffsetBegin=454 CharacterOffsetEnd=459 PartOfSpeech=VBP] [Text=as CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=NN] [Text=runs CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=VBZ] [Text=both CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=CC] [Text=clockwise CharacterOffsetBegin=478 CharacterOffsetEnd=487 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=CC] [Text=counterclockwise CharacterOffsetBegin=492 CharacterOffsetEnd=508 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=.] 
+root(ROOT-0, recur-2)
+nsubj(recur-2, Motifs-1)
+mark(runs-5, as-3)
+nn(runs-5, time-4)
+advcl(recur-2, runs-5)
+preconj(clockwise-7, both-6)
+dep(runs-5, clockwise-7)
+cc(clockwise-7, and-8)
+conj(clockwise-7, counterclockwise-9)
+punct(recur-2, .-10)
+
+Sentence #8 (30 tokens):
+Expectations regarding "plot" and character" are broken signaling a non-traditional use of film to tell a story that is both contemporary and as old as humanity.
+[Text=Expectations CharacterOffsetBegin=514 CharacterOffsetEnd=526 PartOfSpeech=NNS] [Text=regarding CharacterOffsetBegin=527 CharacterOffsetEnd=536 PartOfSpeech=VBG] [Text=`` CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=``] [Text=plot CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=542 CharacterOffsetEnd=543 PartOfSpeech=''] [Text=and CharacterOffsetBegin=544 CharacterOffsetEnd=547 PartOfSpeech=CC] [Text=character CharacterOffsetBegin=548 CharacterOffsetEnd=557 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=''] [Text=are CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=VBP] [Text=broken CharacterOffsetBegin=563 CharacterOffsetEnd=569 PartOfSpeech=JJ] [Text=signaling CharacterOffsetBegin=570 CharacterOffsetEnd=579 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=580 CharacterOffsetEnd=581 PartOfSpeech=DT] [Text=non-traditional CharacterOffsetBegin=582 CharacterOffsetEnd=597 PartOfSpeech=JJ] [Text=use CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=IN] [Text=film CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=TO] [Text=tell CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=620 CharacterOffsetEnd=625 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=VBZ] [Text=both CharacterOffsetBegin=634 CharacterOffsetEnd=638 PartOfSpeech=DT] [Text=contemporary CharacterOffsetBegin=639 CharacterOffsetEnd=651 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=CC] [Text=as CharacterOffsetBegin=656 CharacterOffsetEnd=658 PartOfSpeech=IN] [Text=old CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=663 CharacterOffsetEnd=665 PartOfSpeech=IN] [Text=humanity CharacterOffsetBegin=666 CharacterOffsetEnd=674 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=674 CharacterOffsetEnd=675 PartOfSpeech=.] 
+root(ROOT-0, Expectations-1)
+prep(Expectations-1, regarding-2)
+punct(plot-4, ``-3)
+nsubj(broken-10, plot-4)
+punct(plot-4, ''-5)
+cc(plot-4, and-6)
+conj(plot-4, character-7)
+punct(plot-4, ''-8)
+cop(broken-10, are-9)
+pcomp(regarding-2, broken-10)
+partmod(broken-10, signaling-11)
+det(use-14, a-12)
+amod(use-14, non-traditional-13)
+dobj(signaling-11, use-14)
+prep(use-14, of-15)
+pobj(of-15, film-16)
+aux(tell-18, to-17)
+infmod(use-14, tell-18)
+det(story-20, a-19)
+dobj(tell-18, story-20)
+nsubj(contemporary-24, that-21)
+cop(contemporary-24, is-22)
+preconj(contemporary-24, both-23)
+rcmod(story-20, contemporary-24)
+cc(contemporary-24, and-25)
+advmod(old-27, as-26)
+conj(contemporary-24, old-27)
+prep(contemporary-24, as-28)
+pobj(as-28, humanity-29)
+punct(Expectations-1, .-30)
+
+Sentence #9 (29 tokens):
+This is a part of a review: "USA The Movie is emotionally intense, intellectually intriguing and profoundly disturbing, in surprising and unconventional ways."
+[Text=This CharacterOffsetBegin=680 CharacterOffsetEnd=684 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=685 CharacterOffsetEnd=687 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=DT] [Text=part CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=695 CharacterOffsetEnd=697 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=DT] [Text=review CharacterOffsetBegin=700 CharacterOffsetEnd=706 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=706 CharacterOffsetEnd=707 PartOfSpeech=:] [Text=`` CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=``] [Text=USA CharacterOffsetBegin=709 CharacterOffsetEnd=712 PartOfSpeech=NNP] [Text=The CharacterOffsetBegin=713 CharacterOffsetEnd=716 PartOfSpeech=NNP] [Text=Movie CharacterOffsetBegin=717 CharacterOffsetEnd=722 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=723 CharacterOffsetEnd=725 PartOfSpeech=VBZ] [Text=emotionally CharacterOffsetBegin=726 CharacterOffsetEnd=737 PartOfSpeech=RB] [Text=intense CharacterOffsetBegin=738 CharacterOffsetEnd=745 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=745 CharacterOffsetEnd=746 PartOfSpeech=,] [Text=intellectually CharacterOffsetBegin=747 CharacterOffsetEnd=761 PartOfSpeech=RB] [Text=intriguing CharacterOffsetBegin=762 CharacterOffsetEnd=772 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=CC] [Text=profoundly CharacterOffsetBegin=777 CharacterOffsetEnd=787 PartOfSpeech=RB] [Text=disturbing CharacterOffsetBegin=788 CharacterOffsetEnd=798 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=798 CharacterOffsetEnd=799 PartOfSpeech=,] [Text=in CharacterOffsetBegin=800 CharacterOffsetEnd=802 PartOfSpeech=IN] [Text=surprising CharacterOffsetBegin=803 CharacterOffsetEnd=813 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=814 CharacterOffsetEnd=817 PartOfSpeech=CC] [Text=unconventional CharacterOffsetBegin=818 CharacterOffsetEnd=832 PartOfSpeech=JJ] [Text=ways CharacterOffsetBegin=833 CharacterOffsetEnd=837 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=837 CharacterOffsetEnd=838 PartOfSpeech=.] [Text='' CharacterOffsetBegin=838 CharacterOffsetEnd=839 PartOfSpeech=''] 
+root(ROOT-0, part-4)
+nsubj(part-4, This-1)
+cop(part-4, is-2)
+det(part-4, a-3)
+prep(part-4, of-5)
+det(review-7, a-6)
+pobj(of-5, review-7)
+punct(part-4, :-8)
+punct(part-4, ``-9)
+nn(Movie-12, USA-10)
+nn(Movie-12, The-11)
+nsubj(intense-15, Movie-12)
+cop(intense-15, is-13)
+advmod(intense-15, emotionally-14)
+ccomp(part-4, intense-15)
+punct(intense-15, ,-16)
+advmod(intriguing-18, intellectually-17)
+conj(intense-15, intriguing-18)
+cc(intense-15, and-19)
+advmod(disturbing-21, profoundly-20)
+conj(intense-15, disturbing-21)
+punct(intense-15, ,-22)
+prep(intense-15, in-23)
+amod(ways-27, surprising-24)
+cc(surprising-24, and-25)
+conj(surprising-24, unconventional-26)
+pobj(in-23, ways-27)
+punct(part-4, .-28)
+punct(part-4, ''-29)
+
+Sentence #10 (4 tokens):
+Dion Dennis, PhD
+[Text=Dion CharacterOffsetBegin=844 CharacterOffsetEnd=848 PartOfSpeech=NNP] [Text=Dennis CharacterOffsetBegin=849 CharacterOffsetEnd=855 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=855 CharacterOffsetEnd=856 PartOfSpeech=,] [Text=PhD CharacterOffsetBegin=857 CharacterOffsetEnd=860 PartOfSpeech=NN] 
+root(ROOT-0, Dennis-2)
+nn(Dennis-2, Dion-1)
+punct(Dennis-2, ,-3)
+appos(Dennis-2, PhD-4)
+

@@ -1,0 +1,108 @@
+Sentence #1 (4 tokens):
+This movie stunk.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=stunk CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, stunk-3)
+det(stunk-3, This-1)
+nn(stunk-3, movie-2)
+punct(stunk-3, .-4)
+
+Sentence #2 (8 tokens):
+There is not much more to it.
+[Text=There CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=JJR] [Text=to CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=TO] [Text=it CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+neg(is-2, not-3)
+advmod(more-5, much-4)
+nsubj(is-2, more-5)
+prep(more-5, to-6)
+pobj(to-6, it-7)
+punct(is-2, .-8)
+
+Sentence #3 (22 tokens):
+The final fight looked like Walker taking on my grandmother, not some supernatural demon with the strength of ten men.
+[Text=The CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=DT] [Text=final CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=JJ] [Text=fight CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=looked CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=Walker CharacterOffsetBegin=88 CharacterOffsetEnd=94 PartOfSpeech=NNP] [Text=taking CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=RP] [Text=my CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=PRP$] [Text=grandmother CharacterOffsetBegin=108 CharacterOffsetEnd=119 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=,] [Text=not CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=RB] [Text=some CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=supernatural CharacterOffsetBegin=130 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=demon CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=strength CharacterOffsetBegin=158 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=ten CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=CD] [Text=men CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=.] 
+root(ROOT-0, looked-4)
+det(fight-3, The-1)
+amod(fight-3, final-2)
+nsubj(looked-4, fight-3)
+mark(taking-7, like-5)
+nsubj(taking-7, Walker-6)
+advcl(looked-4, taking-7)
+prt(taking-7, on-8)
+poss(grandmother-10, my-9)
+dobj(taking-7, grandmother-10)
+punct(taking-7, ,-11)
+neg(demon-15, not-12)
+det(demon-15, some-13)
+amod(demon-15, supernatural-14)
+xcomp(taking-7, demon-15)
+prep(demon-15, with-16)
+det(strength-18, the-17)
+pobj(with-16, strength-18)
+prep(strength-18, of-19)
+num(men-21, ten-20)
+pobj(of-19, men-21)
+punct(looked-4, .-22)
+
+Sentence #4 (7 tokens):
+I found the commercials more interesting.
+[Text=I CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=PRP] [Text=found CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT] [Text=commercials CharacterOffsetBegin=195 CharacterOffsetEnd=206 PartOfSpeech=NNS] [Text=more CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=RBR] [Text=interesting CharacterOffsetBegin=212 CharacterOffsetEnd=223 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, found-2)
+nsubj(found-2, I-1)
+det(commercials-4, the-3)
+nsubj(interesting-6, commercials-4)
+advmod(interesting-6, more-5)
+xcomp(found-2, interesting-6)
+punct(found-2, .-7)
+
+Sentence #5 (13 tokens):
+The plot twists and jokes could be seen coming a mile away.
+[Text=The CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=NN] [Text=twists CharacterOffsetBegin=238 CharacterOffsetEnd=244 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=CC] [Text=jokes CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=NNS] [Text=could CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=VB] [Text=seen CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBN] [Text=coming CharacterOffsetBegin=269 CharacterOffsetEnd=275 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=mile CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=NN] [Text=away CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=.] 
+root(ROOT-0, seen-8)
+det(plot-2, The-1)
+nsubj(twists-3, plot-2)
+nsubjpass(seen-8, twists-3)
+cc(twists-3, and-4)
+conj(twists-3, jokes-5)
+aux(seen-8, could-6)
+auxpass(seen-8, be-7)
+xcomp(seen-8, coming-9)
+det(mile-11, a-10)
+npadvmod(coming-9, mile-11)
+advmod(mile-11, away-12)
+punct(seen-8, .-13)
+
+Sentence #6 (12 tokens):
+The only redeeming quality of this film was that it ended.
+[Text=The CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=JJ] [Text=redeeming CharacterOffsetBegin=302 CharacterOffsetEnd=311 PartOfSpeech=JJ] [Text=quality CharacterOffsetBegin=312 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=PRP] [Text=ended CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=.] 
+root(ROOT-0, was-8)
+det(quality-4, The-1)
+amod(quality-4, only-2)
+amod(quality-4, redeeming-3)
+nsubj(was-8, quality-4)
+prep(quality-4, of-5)
+det(film-7, this-6)
+pobj(of-5, film-7)
+mark(ended-11, that-9)
+nsubj(ended-11, it-10)
+ccomp(was-8, ended-11)
+punct(was-8, .-12)
+
+Sentence #7 (14 tokens):
+Avoid this at all costs...unless you enjoy bad Chuck Norris movies.
+[Text=Avoid CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=DT] [Text=at CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=DT] [Text=costs CharacterOffsetBegin=374 CharacterOffsetEnd=379 PartOfSpeech=NNS] [Text=... CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=:] [Text=unless CharacterOffsetBegin=382 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=PRP] [Text=enjoy CharacterOffsetBegin=393 CharacterOffsetEnd=398 PartOfSpeech=VBP] [Text=bad CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=JJ] [Text=Chuck CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=NNP] [Text=Norris CharacterOffsetBegin=409 CharacterOffsetEnd=415 PartOfSpeech=NNP] [Text=movies CharacterOffsetBegin=416 CharacterOffsetEnd=422 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=.] 
+root(ROOT-0, Avoid-1)
+dobj(Avoid-1, this-2)
+prep(Avoid-1, at-3)
+det(costs-5, all-4)
+pobj(at-3, costs-5)
+punct(Avoid-1, ...-6)
+mark(enjoy-9, unless-7)
+nsubj(enjoy-9, you-8)
+advcl(Avoid-1, enjoy-9)
+amod(movies-13, bad-10)
+nn(movies-13, Chuck-11)
+nn(movies-13, Norris-12)
+dobj(enjoy-9, movies-13)
+punct(Avoid-1, .-14)
+

@@ -1,0 +1,306 @@
+Sentence #1 (5 tokens):
+I attended Camp Chesapeake.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=attended CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=VBD] [Text=Camp CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NNP] [Text=Chesapeake CharacterOffsetBegin=20 CharacterOffsetEnd=30 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=.] 
+root(ROOT-0, attended-2)
+nsubj(attended-2, I-1)
+nn(Chesapeake-4, Camp-3)
+dobj(attended-2, Chesapeake-4)
+punct(attended-2, .-5)
+
+Sentence #2 (18 tokens):
+It was located at the head of the Chesapeake bay on the North East River in MD.
+[Text=It CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=VBD] [Text=located CharacterOffsetBegin=43 CharacterOffsetEnd=50 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=head CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=Chesapeake CharacterOffsetBegin=70 CharacterOffsetEnd=80 PartOfSpeech=NNP] [Text=bay CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=DT] [Text=North CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=NNP] [Text=East CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=NNP] [Text=River CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=IN] [Text=MD. CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=.] 
+root(ROOT-0, located-3)
+nsubjpass(located-3, It-1)
+auxpass(located-3, was-2)
+prep(located-3, at-4)
+det(head-6, the-5)
+pobj(at-4, head-6)
+prep(head-6, of-7)
+det(bay-10, the-8)
+nn(bay-10, Chesapeake-9)
+pobj(of-7, bay-10)
+prep(head-6, on-11)
+det(River-15, the-12)
+nn(River-15, North-13)
+nn(River-15, East-14)
+pobj(on-11, River-15)
+prep(head-6, in-16)
+pobj(in-16, MD.-17)
+punct(located-3, .-18)
+
+Sentence #3 (10 tokens):
+It was a similar type summer camp with cabins.
+[Text=It CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=similar CharacterOffsetBegin=129 CharacterOffsetEnd=136 PartOfSpeech=JJ] [Text=type CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NN] [Text=summer CharacterOffsetBegin=142 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=camp CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=cabins CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=.] 
+root(ROOT-0, camp-7)
+nsubj(camp-7, It-1)
+cop(camp-7, was-2)
+det(camp-7, a-3)
+amod(camp-7, similar-4)
+nn(camp-7, type-5)
+nn(camp-7, summer-6)
+prep(camp-7, with-8)
+pobj(with-8, cabins-9)
+punct(camp-7, .-10)
+
+Sentence #4 (10 tokens):
+It was established by the Coatesville, PA YMCA.
+[Text=It CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=VBD] [Text=established CharacterOffsetBegin=178 CharacterOffsetEnd=189 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=Coatesville CharacterOffsetBegin=197 CharacterOffsetEnd=208 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=,] [Text=PA CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=YMCA CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=.] 
+root(ROOT-0, established-3)
+nsubjpass(established-3, It-1)
+auxpass(established-3, was-2)
+prep(established-3, by-4)
+det(Coatesville-6, the-5)
+pobj(by-4, Coatesville-6)
+punct(Coatesville-6, ,-7)
+nn(YMCA-9, PA-8)
+appos(Coatesville-6, YMCA-9)
+punct(established-3, .-10)
+
+Sentence #5 (22 tokens):
+I started out as a young camper and later became a Junior, Senior counselor and later, the Waterfront director.
+[Text=I CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=PRP] [Text=started CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=RP] [Text=as CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=young CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=JJ] [Text=camper CharacterOffsetBegin=248 CharacterOffsetEnd=254 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=CC] [Text=later CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=RB] [Text=became CharacterOffsetBegin=265 CharacterOffsetEnd=271 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=Junior CharacterOffsetBegin=274 CharacterOffsetEnd=280 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=,] [Text=Senior CharacterOffsetBegin=282 CharacterOffsetEnd=288 PartOfSpeech=NNP] [Text=counselor CharacterOffsetBegin=289 CharacterOffsetEnd=298 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=CC] [Text=later CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=,] [Text=the CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=DT] [Text=Waterfront CharacterOffsetBegin=314 CharacterOffsetEnd=324 PartOfSpeech=NNP] [Text=director CharacterOffsetBegin=325 CharacterOffsetEnd=333 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=.] 
+root(ROOT-0, started-2)
+nsubj(started-2, I-1)
+prt(started-2, out-3)
+prep(started-2, as-4)
+det(camper-7, a-5)
+amod(camper-7, young-6)
+pobj(as-4, camper-7)
+cc(started-2, and-8)
+advmod(director-21, later-9)
+cop(director-21, became-10)
+det(director-21, a-11)
+nn(director-21, Junior-12)
+punct(Junior-12, ,-13)
+nn(counselor-15, Senior-14)
+conj(Junior-12, counselor-15)
+cc(Junior-12, and-16)
+conj(Junior-12, later-17)
+punct(director-21, ,-18)
+det(director-21, the-19)
+nn(director-21, Waterfront-20)
+conj(started-2, director-21)
+punct(started-2, .-22)
+
+Sentence #6 (20 tokens):
+If the camp had continued, I would have done anything within my power to become the camp director.
+[Text=If CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=DT] [Text=camp CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=VBD] [Text=continued CharacterOffsetBegin=355 CharacterOffsetEnd=364 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=,] [Text=I CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=VB] [Text=done CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=VBN] [Text=anything CharacterOffsetBegin=384 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=within CharacterOffsetBegin=393 CharacterOffsetEnd=399 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=PRP$] [Text=power CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=TO] [Text=become CharacterOffsetBegin=412 CharacterOffsetEnd=418 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=DT] [Text=camp CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=NN] [Text=director CharacterOffsetBegin=428 CharacterOffsetEnd=436 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=436 CharacterOffsetEnd=437 PartOfSpeech=.] 
+root(ROOT-0, done-10)
+mark(continued-5, If-1)
+det(camp-3, the-2)
+nsubj(continued-5, camp-3)
+aux(continued-5, had-4)
+advcl(done-10, continued-5)
+punct(done-10, ,-6)
+nsubj(done-10, I-7)
+aux(done-10, would-8)
+aux(done-10, have-9)
+dobj(done-10, anything-11)
+prep(done-10, within-12)
+poss(power-14, my-13)
+pobj(within-12, power-14)
+aux(director-19, to-15)
+cop(director-19, become-16)
+det(director-19, the-17)
+nn(director-19, camp-18)
+xcomp(done-10, director-19)
+punct(done-10, .-20)
+
+Sentence #7 (21 tokens):
+Alas the powers of the YMCA decided to close down the camp and sell it to the state of MD.
+[Text=Alas CharacterOffsetBegin=442 CharacterOffsetEnd=446 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=DT] [Text=powers CharacterOffsetBegin=451 CharacterOffsetEnd=457 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=458 CharacterOffsetEnd=460 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=DT] [Text=YMCA CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=NNP] [Text=decided CharacterOffsetBegin=470 CharacterOffsetEnd=477 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=TO] [Text=close CharacterOffsetBegin=481 CharacterOffsetEnd=486 PartOfSpeech=VB] [Text=down CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=DT] [Text=camp CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=CC] [Text=sell CharacterOffsetBegin=505 CharacterOffsetEnd=509 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=513 CharacterOffsetEnd=515 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=DT] [Text=state CharacterOffsetBegin=520 CharacterOffsetEnd=525 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=526 CharacterOffsetEnd=528 PartOfSpeech=IN] [Text=MD. CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=.] 
+root(ROOT-0, decided-7)
+advmod(decided-7, Alas-1)
+det(powers-3, the-2)
+nsubj(decided-7, powers-3)
+prep(powers-3, of-4)
+det(YMCA-6, the-5)
+pobj(of-4, YMCA-6)
+aux(close-9, to-8)
+xcomp(decided-7, close-9)
+prt(close-9, down-10)
+det(camp-12, the-11)
+dobj(close-9, camp-12)
+cc(close-9, and-13)
+conj(close-9, sell-14)
+dobj(sell-14, it-15)
+prep(sell-14, to-16)
+det(state-18, the-17)
+pobj(to-16, state-18)
+prep(state-18, of-19)
+pobj(of-19, MD.-20)
+punct(decided-7, .-21)
+
+Sentence #8 (28 tokens):
+I visited the former camp some years later by boat and was dismayed by the neglect of the state of MD and natural destruction by mother nature.
+[Text=I CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=PRP] [Text=visited CharacterOffsetBegin=539 CharacterOffsetEnd=546 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=DT] [Text=former CharacterOffsetBegin=551 CharacterOffsetEnd=557 PartOfSpeech=JJ] [Text=camp CharacterOffsetBegin=558 CharacterOffsetEnd=562 PartOfSpeech=NN] [Text=some CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=DT] [Text=years CharacterOffsetBegin=568 CharacterOffsetEnd=573 PartOfSpeech=NNS] [Text=later CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=580 CharacterOffsetEnd=582 PartOfSpeech=IN] [Text=boat CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=VBD] [Text=dismayed CharacterOffsetBegin=596 CharacterOffsetEnd=604 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=DT] [Text=neglect CharacterOffsetBegin=612 CharacterOffsetEnd=619 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=DT] [Text=state CharacterOffsetBegin=627 CharacterOffsetEnd=632 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=IN] [Text=MD CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=CC] [Text=natural CharacterOffsetBegin=643 CharacterOffsetEnd=650 PartOfSpeech=JJ] [Text=destruction CharacterOffsetBegin=651 CharacterOffsetEnd=662 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=663 CharacterOffsetEnd=665 PartOfSpeech=IN] [Text=mother CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=NN] [Text=nature CharacterOffsetBegin=673 CharacterOffsetEnd=679 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=.] 
+root(ROOT-0, visited-2)
+nsubj(visited-2, I-1)
+det(camp-5, the-3)
+amod(camp-5, former-4)
+dobj(visited-2, camp-5)
+det(years-7, some-6)
+npadvmod(later-8, years-7)
+advmod(visited-2, later-8)
+prep(visited-2, by-9)
+pobj(by-9, boat-10)
+cc(visited-2, and-11)
+auxpass(dismayed-13, was-12)
+conj(visited-2, dismayed-13)
+prep(dismayed-13, by-14)
+det(neglect-16, the-15)
+pobj(by-14, neglect-16)
+prep(neglect-16, of-17)
+det(state-19, the-18)
+pobj(of-17, state-19)
+prep(state-19, of-20)
+pobj(of-20, MD-21)
+cc(MD-21, and-22)
+amod(destruction-24, natural-23)
+conj(MD-21, destruction-24)
+prep(neglect-16, by-25)
+nn(nature-27, mother-26)
+pobj(by-25, nature-27)
+punct(visited-2, .-28)
+
+Sentence #9 (17 tokens):
+The 350 acre site served so many with all the benefits of contact with natures offerings.
+[Text=The CharacterOffsetBegin=685 CharacterOffsetEnd=688 PartOfSpeech=DT] [Text=350 CharacterOffsetBegin=689 CharacterOffsetEnd=692 PartOfSpeech=CD] [Text=acre CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=NN] [Text=site CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=NN] [Text=served CharacterOffsetBegin=703 CharacterOffsetEnd=709 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=710 CharacterOffsetEnd=712 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=713 CharacterOffsetEnd=717 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=718 CharacterOffsetEnd=722 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=723 CharacterOffsetEnd=726 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=727 CharacterOffsetEnd=730 PartOfSpeech=DT] [Text=benefits CharacterOffsetBegin=731 CharacterOffsetEnd=739 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=740 CharacterOffsetEnd=742 PartOfSpeech=IN] [Text=contact CharacterOffsetBegin=743 CharacterOffsetEnd=750 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=751 CharacterOffsetEnd=755 PartOfSpeech=IN] [Text=natures CharacterOffsetBegin=756 CharacterOffsetEnd=763 PartOfSpeech=NNS] [Text=offerings CharacterOffsetBegin=764 CharacterOffsetEnd=773 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=.] 
+root(ROOT-0, served-5)
+det(site-4, The-1)
+num(site-4, 350-2)
+nn(site-4, acre-3)
+nsubj(served-5, site-4)
+advmod(many-7, so-6)
+dobj(served-5, many-7)
+prep(served-5, with-8)
+predet(benefits-11, all-9)
+det(benefits-11, the-10)
+pobj(with-8, benefits-11)
+prep(benefits-11, of-12)
+pobj(of-12, contact-13)
+prep(contact-13, with-14)
+nn(offerings-16, natures-15)
+pobj(with-14, offerings-16)
+punct(served-5, .-17)
+
+Sentence #10 (21 tokens):
+A black man by the name of Curtis Ford, and his family were residents and caretakers of the property.
+[Text=A CharacterOffsetBegin=779 CharacterOffsetEnd=780 PartOfSpeech=DT] [Text=black CharacterOffsetBegin=781 CharacterOffsetEnd=786 PartOfSpeech=JJ] [Text=man CharacterOffsetBegin=787 CharacterOffsetEnd=790 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=791 CharacterOffsetEnd=793 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=794 CharacterOffsetEnd=797 PartOfSpeech=DT] [Text=name CharacterOffsetBegin=798 CharacterOffsetEnd=802 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=803 CharacterOffsetEnd=805 PartOfSpeech=IN] [Text=Curtis CharacterOffsetBegin=806 CharacterOffsetEnd=812 PartOfSpeech=NNP] [Text=Ford CharacterOffsetBegin=813 CharacterOffsetEnd=817 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=817 CharacterOffsetEnd=818 PartOfSpeech=,] [Text=and CharacterOffsetBegin=819 CharacterOffsetEnd=822 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=PRP$] [Text=family CharacterOffsetBegin=827 CharacterOffsetEnd=833 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=834 CharacterOffsetEnd=838 PartOfSpeech=VBD] [Text=residents CharacterOffsetBegin=839 CharacterOffsetEnd=848 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=849 CharacterOffsetEnd=852 PartOfSpeech=CC] [Text=caretakers CharacterOffsetBegin=853 CharacterOffsetEnd=863 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=864 CharacterOffsetEnd=866 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=867 CharacterOffsetEnd=870 PartOfSpeech=DT] [Text=property CharacterOffsetBegin=871 CharacterOffsetEnd=879 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=879 CharacterOffsetEnd=880 PartOfSpeech=.] 
+root(ROOT-0, residents-15)
+det(man-3, A-1)
+amod(man-3, black-2)
+nsubj(residents-15, man-3)
+prep(man-3, by-4)
+det(name-6, the-5)
+pobj(by-4, name-6)
+prep(name-6, of-7)
+nn(Ford-9, Curtis-8)
+pobj(of-7, Ford-9)
+punct(man-3, ,-10)
+cc(man-3, and-11)
+poss(family-13, his-12)
+conj(man-3, family-13)
+cop(residents-15, were-14)
+cc(residents-15, and-16)
+conj(residents-15, caretakers-17)
+prep(caretakers-17, of-18)
+det(property-20, the-19)
+pobj(of-18, property-20)
+punct(residents-15, .-21)
+
+Sentence #11 (8 tokens):
+Mr Curtis was my friend and mentor.
+[Text=Mr CharacterOffsetBegin=885 CharacterOffsetEnd=887 PartOfSpeech=NNP] [Text=Curtis CharacterOffsetBegin=888 CharacterOffsetEnd=894 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=895 CharacterOffsetEnd=898 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=899 CharacterOffsetEnd=901 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=902 CharacterOffsetEnd=908 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=909 CharacterOffsetEnd=912 PartOfSpeech=CC] [Text=mentor CharacterOffsetBegin=913 CharacterOffsetEnd=919 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=919 CharacterOffsetEnd=920 PartOfSpeech=.] 
+root(ROOT-0, friend-5)
+nn(Curtis-2, Mr-1)
+nsubj(friend-5, Curtis-2)
+cop(friend-5, was-3)
+poss(friend-5, my-4)
+cc(friend-5, and-6)
+conj(friend-5, mentor-7)
+punct(friend-5, .-8)
+
+Sentence #12 (6 tokens):
+I idolized his every being.
+[Text=I CharacterOffsetBegin=925 CharacterOffsetEnd=926 PartOfSpeech=PRP] [Text=idolized CharacterOffsetBegin=927 CharacterOffsetEnd=935 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=936 CharacterOffsetEnd=939 PartOfSpeech=PRP$] [Text=every CharacterOffsetBegin=940 CharacterOffsetEnd=945 PartOfSpeech=DT] [Text=being CharacterOffsetBegin=946 CharacterOffsetEnd=951 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=951 CharacterOffsetEnd=952 PartOfSpeech=.] 
+root(ROOT-0, idolized-2)
+nsubj(idolized-2, I-1)
+dobj(idolized-2, his-3)
+dep(his-3, every-4)
+dep(every-4, being-5)
+punct(idolized-2, .-6)
+
+Sentence #13 (11 tokens):
+Even as he could not swim he was a waterman.
+[Text=Even CharacterOffsetBegin=957 CharacterOffsetEnd=961 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=965 CharacterOffsetEnd=967 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=968 CharacterOffsetEnd=973 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=974 CharacterOffsetEnd=977 PartOfSpeech=RB] [Text=swim CharacterOffsetBegin=978 CharacterOffsetEnd=982 PartOfSpeech=VB] [Text=he CharacterOffsetBegin=983 CharacterOffsetEnd=985 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=986 CharacterOffsetEnd=989 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=990 CharacterOffsetEnd=991 PartOfSpeech=DT] [Text=waterman CharacterOffsetBegin=992 CharacterOffsetEnd=1000 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1000 CharacterOffsetEnd=1001 PartOfSpeech=.] 
+root(ROOT-0, swim-6)
+advmod(swim-6, Even-1)
+mark(swim-6, as-2)
+nsubj(swim-6, he-3)
+aux(swim-6, could-4)
+neg(swim-6, not-5)
+nsubj(waterman-10, he-7)
+cop(waterman-10, was-8)
+det(waterman-10, a-9)
+ccomp(swim-6, waterman-10)
+punct(swim-6, .-11)
+
+Sentence #14 (23 tokens):
+If I asked him where the fish were biting, he would designate the spot, and I would have a ball.
+[Text=If CharacterOffsetBegin=1006 CharacterOffsetEnd=1008 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=1009 CharacterOffsetEnd=1010 PartOfSpeech=PRP] [Text=asked CharacterOffsetBegin=1011 CharacterOffsetEnd=1016 PartOfSpeech=VBD] [Text=him CharacterOffsetBegin=1017 CharacterOffsetEnd=1020 PartOfSpeech=PRP] [Text=where CharacterOffsetBegin=1021 CharacterOffsetEnd=1026 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=1027 CharacterOffsetEnd=1030 PartOfSpeech=DT] [Text=fish CharacterOffsetBegin=1031 CharacterOffsetEnd=1035 PartOfSpeech=NN] [Text=were CharacterOffsetBegin=1036 CharacterOffsetEnd=1040 PartOfSpeech=VBD] [Text=biting CharacterOffsetBegin=1041 CharacterOffsetEnd=1047 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=1047 CharacterOffsetEnd=1048 PartOfSpeech=,] [Text=he CharacterOffsetBegin=1049 CharacterOffsetEnd=1051 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=1052 CharacterOffsetEnd=1057 PartOfSpeech=MD] [Text=designate CharacterOffsetBegin=1058 CharacterOffsetEnd=1067 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=1068 CharacterOffsetEnd=1071 PartOfSpeech=DT] [Text=spot CharacterOffsetBegin=1072 CharacterOffsetEnd=1076 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1076 CharacterOffsetEnd=1077 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1078 CharacterOffsetEnd=1081 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=1082 CharacterOffsetEnd=1083 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=1084 CharacterOffsetEnd=1089 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=1090 CharacterOffsetEnd=1094 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1095 CharacterOffsetEnd=1096 PartOfSpeech=DT] [Text=ball CharacterOffsetBegin=1097 CharacterOffsetEnd=1101 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1101 CharacterOffsetEnd=1102 PartOfSpeech=.] 
+root(ROOT-0, designate-13)
+mark(asked-3, If-1)
+nsubj(asked-3, I-2)
+advcl(designate-13, asked-3)
+dobj(asked-3, him-4)
+advmod(biting-9, where-5)
+det(fish-7, the-6)
+nsubj(biting-9, fish-7)
+aux(biting-9, were-8)
+advcl(asked-3, biting-9)
+punct(designate-13, ,-10)
+nsubj(designate-13, he-11)
+aux(designate-13, would-12)
+det(spot-15, the-14)
+dobj(designate-13, spot-15)
+punct(designate-13, ,-16)
+cc(designate-13, and-17)
+nsubj(have-20, I-18)
+aux(have-20, would-19)
+conj(designate-13, have-20)
+det(ball-22, a-21)
+dobj(have-20, ball-22)
+punct(designate-13, .-23)
+
+Sentence #15 (13 tokens):
+Ther was also a Family camp at the end of the summer.
+[Text=Ther CharacterOffsetBegin=1107 CharacterOffsetEnd=1111 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=1112 CharacterOffsetEnd=1115 PartOfSpeech=VBD] [Text=also CharacterOffsetBegin=1116 CharacterOffsetEnd=1120 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=1121 CharacterOffsetEnd=1122 PartOfSpeech=DT] [Text=Family CharacterOffsetBegin=1123 CharacterOffsetEnd=1129 PartOfSpeech=NNP] [Text=camp CharacterOffsetBegin=1130 CharacterOffsetEnd=1134 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=1135 CharacterOffsetEnd=1137 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1138 CharacterOffsetEnd=1141 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=1142 CharacterOffsetEnd=1145 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1146 CharacterOffsetEnd=1148 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1149 CharacterOffsetEnd=1152 PartOfSpeech=DT] [Text=summer CharacterOffsetBegin=1153 CharacterOffsetEnd=1159 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1159 CharacterOffsetEnd=1160 PartOfSpeech=.] 
+root(ROOT-0, camp-6)
+nsubj(camp-6, Ther-1)
+cop(camp-6, was-2)
+advmod(camp-6, also-3)
+det(camp-6, a-4)
+nn(camp-6, Family-5)
+prep(camp-6, at-7)
+det(end-9, the-8)
+pobj(at-7, end-9)
+prep(end-9, of-10)
+det(summer-12, the-11)
+pobj(of-10, summer-12)
+punct(camp-6, .-13)
+
+Sentence #16 (9 tokens):
+These memories will be with me for eternity.
+[Text=These CharacterOffsetBegin=1165 CharacterOffsetEnd=1170 PartOfSpeech=DT] [Text=memories CharacterOffsetBegin=1171 CharacterOffsetEnd=1179 PartOfSpeech=NNS] [Text=will CharacterOffsetBegin=1180 CharacterOffsetEnd=1184 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=1185 CharacterOffsetEnd=1187 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=1188 CharacterOffsetEnd=1192 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=1193 CharacterOffsetEnd=1195 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=1196 CharacterOffsetEnd=1199 PartOfSpeech=IN] [Text=eternity CharacterOffsetBegin=1200 CharacterOffsetEnd=1208 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1208 CharacterOffsetEnd=1209 PartOfSpeech=.] 
+root(ROOT-0, be-4)
+det(memories-2, These-1)
+nsubj(be-4, memories-2)
+aux(be-4, will-3)
+prep(be-4, with-5)
+pobj(with-5, me-6)
+prep(be-4, for-7)
+pobj(for-7, eternity-8)
+punct(be-4, .-9)
+

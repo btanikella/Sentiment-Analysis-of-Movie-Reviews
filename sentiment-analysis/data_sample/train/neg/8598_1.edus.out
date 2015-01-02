@@ -1,0 +1,103 @@
+Sentence #1 (3 tokens):
+Just kidding!
+[Text=Just CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=RB] [Text=kidding CharacterOffsetBegin=9 CharacterOffsetEnd=16 PartOfSpeech=VBG] [Text=! CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=.] 
+root(ROOT-0, kidding-2)
+advmod(kidding-2, Just-1)
+punct(kidding-2, !-3)
+
+Sentence #2 (12 tokens):
+This was one of the worst movies I have ever seen!
+[Text=This CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VBD] [Text=one CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=JJS] [Text=movies CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VBN] [Text=! CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=.] 
+root(ROOT-0, one-3)
+nsubj(one-3, This-1)
+cop(one-3, was-2)
+prep(one-3, of-4)
+det(movies-7, the-5)
+amod(movies-7, worst-6)
+pobj(of-4, movies-7)
+nsubj(seen-11, I-8)
+aux(seen-11, have-9)
+advmod(seen-11, ever-10)
+rcmod(movies-7, seen-11)
+punct(one-3, !-12)
+
+Sentence #3 (11 tokens):
+It was so bad though, that it was hilarious.
+[Text=It CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=JJ] [Text=though CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=,] [Text=that CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=VBD] [Text=hilarious CharacterOffsetBegin=111 CharacterOffsetEnd=120 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=.] 
+root(ROOT-0, bad-4)
+nsubj(bad-4, It-1)
+cop(bad-4, was-2)
+advmod(bad-4, so-3)
+dep(hilarious-10, though-5)
+punct(hilarious-10, ,-6)
+mark(hilarious-10, that-7)
+nsubj(hilarious-10, it-8)
+cop(hilarious-10, was-9)
+dep(bad-4, hilarious-10)
+punct(bad-4, .-11)
+
+Sentence #4 (13 tokens):
+My friend and I purposly rented it because it looked so bad.
+[Text=My CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=PRP] [Text=purposly CharacterOffsetBegin=142 CharacterOffsetEnd=150 PartOfSpeech=RB] [Text=rented CharacterOffsetBegin=151 CharacterOffsetEnd=157 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=PRP] [Text=because CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=PRP] [Text=looked CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=.] 
+root(ROOT-0, friend-2)
+poss(friend-2, My-1)
+cc(friend-2, and-3)
+nsubj(rented-6, I-4)
+advmod(rented-6, purposly-5)
+conj(friend-2, rented-6)
+dobj(rented-6, it-7)
+mark(looked-10, because-8)
+nsubj(looked-10, it-9)
+dep(friend-2, looked-10)
+advmod(bad-12, so-11)
+acomp(looked-10, bad-12)
+punct(friend-2, .-13)
+
+Sentence #5 (11 tokens):
+Cheesy old horror flicks are always good for some laughs.
+[Text=Cheesy CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=old CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=horror CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=flicks CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=VBP] [Text=always CharacterOffsetBegin=220 CharacterOffsetEnd=226 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=laughs CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=.] 
+root(ROOT-0, good-7)
+amod(flicks-4, Cheesy-1)
+amod(flicks-4, old-2)
+nn(flicks-4, horror-3)
+nsubj(good-7, flicks-4)
+cop(good-7, are-5)
+advmod(good-7, always-6)
+prep(good-7, for-8)
+det(laughs-10, some-9)
+pobj(for-8, laughs-10)
+punct(good-7, .-11)
+
+Sentence #6 (16 tokens):
+The plot stunk, some of the voices were dubbed, the quality was horrendous.
+[Text=The CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=NN] [Text=stunk CharacterOffsetBegin=262 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=,] [Text=some CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=DT] [Text=voices CharacterOffsetBegin=281 CharacterOffsetEnd=287 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=VBD] [Text=dubbed CharacterOffsetBegin=293 CharacterOffsetEnd=299 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=,] [Text=the CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=DT] [Text=quality CharacterOffsetBegin=305 CharacterOffsetEnd=312 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=VBD] [Text=horrendous CharacterOffsetBegin=317 CharacterOffsetEnd=327 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=.] 
+root(ROOT-0, stunk-3)
+det(plot-2, The-1)
+nsubj(stunk-3, plot-2)
+punct(stunk-3, ,-4)
+nsubjpass(dubbed-10, some-5)
+prep(some-5, of-6)
+det(voices-8, the-7)
+pobj(of-6, voices-8)
+auxpass(dubbed-10, were-9)
+ccomp(stunk-3, dubbed-10)
+punct(dubbed-10, ,-11)
+det(quality-13, the-12)
+nsubj(horrendous-15, quality-13)
+cop(horrendous-15, was-14)
+ccomp(dubbed-10, horrendous-15)
+punct(stunk-3, .-16)
+
+Sentence #7 (9 tokens):
+But I sure had a blast watching it!
+[Text=But CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=PRP] [Text=sure CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=RB] [Text=had CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=DT] [Text=blast CharacterOffsetBegin=350 CharacterOffsetEnd=355 PartOfSpeech=NN] [Text=watching CharacterOffsetBegin=356 CharacterOffsetEnd=364 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=.] 
+root(ROOT-0, had-4)
+cc(had-4, But-1)
+nsubj(had-4, I-2)
+advmod(had-4, sure-3)
+det(blast-6, a-5)
+dobj(had-4, blast-6)
+partmod(blast-6, watching-7)
+dobj(watching-7, it-8)
+punct(had-4, !-9)
+

@@ -1,0 +1,101 @@
+Sentence #1 (8 tokens):
+I thought this move was very good.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=move CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+det(move-4, this-3)
+nsubj(good-7, move-4)
+cop(good-7, was-5)
+advmod(good-7, very-6)
+ccomp(thought-2, good-7)
+punct(thought-2, .-8)
+
+Sentence #2 (19 tokens):
+There were a few things that were less than perfect, but overall, I was quite surprised.
+[Text=There CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=EX] [Text=were CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=JJ] [Text=things CharacterOffsetBegin=60 CharacterOffsetEnd=66 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=WDT] [Text=were CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=VBD] [Text=less CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=IN] [Text=perfect CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=,] [Text=but CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=CC] [Text=overall CharacterOffsetBegin=100 CharacterOffsetEnd=107 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=,] [Text=I CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=VBD] [Text=quite CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=RB] [Text=surprised CharacterOffsetBegin=121 CharacterOffsetEnd=130 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.] 
+root(ROOT-0, were-2)
+expl(were-2, There-1)
+det(things-5, a-3)
+amod(things-5, few-4)
+nsubj(were-2, things-5)
+nsubj(less-8, that-6)
+cop(less-8, were-7)
+rcmod(things-5, less-8)
+prep(less-8, than-9)
+pobj(than-9, perfect-10)
+punct(were-2, ,-11)
+cc(were-2, but-12)
+advmod(surprised-18, overall-13)
+punct(surprised-18, ,-14)
+nsubj(surprised-18, I-15)
+cop(surprised-18, was-16)
+advmod(surprised-18, quite-17)
+conj(were-2, surprised-18)
+punct(were-2, .-19)
+
+Sentence #3 (19 tokens):
+The courtroom scene in the end seemed a little unrealistic, but was real enough to be entertaining.
+[Text=The CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=courtroom CharacterOffsetBegin=140 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=scene CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=seemed CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=JJ] [Text=unrealistic CharacterOffsetBegin=183 CharacterOffsetEnd=194 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=,] [Text=but CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=VBD] [Text=real CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=enough CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=VB] [Text=entertaining CharacterOffsetBegin=222 CharacterOffsetEnd=234 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=.] 
+root(ROOT-0, unrealistic-10)
+det(scene-3, The-1)
+nn(scene-3, courtroom-2)
+nsubj(unrealistic-10, scene-3)
+prep(scene-3, in-4)
+det(end-6, the-5)
+pobj(in-4, end-6)
+cop(unrealistic-10, seemed-7)
+det(unrealistic-10, a-8)
+amod(unrealistic-10, little-9)
+punct(unrealistic-10, ,-11)
+cc(unrealistic-10, but-12)
+cop(real-14, was-13)
+conj(unrealistic-10, real-14)
+dep(real-14, enough-15)
+aux(entertaining-18, to-16)
+cop(entertaining-18, be-17)
+xcomp(enough-15, entertaining-18)
+punct(unrealistic-10, .-19)
+
+Sentence #4 (22 tokens):
+I found that the movie communicated the hardships of going though military training and the sacrifices that go along with it.
+[Text=I CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=PRP] [Text=found CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=communicated CharacterOffsetBegin=263 CharacterOffsetEnd=275 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=DT] [Text=hardships CharacterOffsetBegin=280 CharacterOffsetEnd=289 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=IN] [Text=going CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=VBG] [Text=though CharacterOffsetBegin=299 CharacterOffsetEnd=305 PartOfSpeech=RB] [Text=military CharacterOffsetBegin=306 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=training CharacterOffsetBegin=315 CharacterOffsetEnd=323 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=DT] [Text=sacrifices CharacterOffsetBegin=332 CharacterOffsetEnd=342 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=WDT] [Text=go CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=VBP] [Text=along CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, found-2)
+nsubj(found-2, I-1)
+mark(communicated-6, that-3)
+det(movie-5, the-4)
+nsubj(communicated-6, movie-5)
+ccomp(found-2, communicated-6)
+det(hardships-8, the-7)
+dobj(communicated-6, hardships-8)
+prep(hardships-8, of-9)
+pcomp(of-9, going-10)
+advmod(training-13, though-11)
+amod(training-13, military-12)
+dobj(going-10, training-13)
+cc(training-13, and-14)
+det(sacrifices-16, the-15)
+conj(training-13, sacrifices-16)
+nsubj(go-18, that-17)
+rcmod(sacrifices-16, go-18)
+prep(go-18, along-19)
+pcomp(along-19, with-20)
+pobj(with-20, it-21)
+punct(found-2, .-22)
+
+Sentence #5 (13 tokens):
+Being a military pilot I could relate to many of these parts.
+[Text=Being CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=376 CharacterOffsetEnd=377 PartOfSpeech=DT] [Text=military CharacterOffsetBegin=378 CharacterOffsetEnd=386 PartOfSpeech=JJ] [Text=pilot CharacterOffsetBegin=387 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=MD] [Text=relate CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=TO] [Text=many CharacterOffsetBegin=411 CharacterOffsetEnd=415 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=DT] [Text=parts CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=.] 
+root(ROOT-0, Being-1)
+det(pilot-4, a-2)
+amod(pilot-4, military-3)
+dobj(Being-1, pilot-4)
+nsubj(relate-7, I-5)
+aux(relate-7, could-6)
+rcmod(pilot-4, relate-7)
+prep(relate-7, to-8)
+pobj(to-8, many-9)
+prep(many-9, of-10)
+det(parts-12, these-11)
+pobj(of-10, parts-12)
+punct(Being-1, .-13)
+

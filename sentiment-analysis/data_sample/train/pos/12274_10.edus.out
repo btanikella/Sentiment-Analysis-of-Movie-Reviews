@@ -1,0 +1,88 @@
+Sentence #1 (12 tokens):
+All this talk about this being a bad movie is nonsense.
+[Text=All CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=PDT] [Text=this CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=DT] [Text=talk CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=DT] [Text=being CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=VBZ] [Text=nonsense CharacterOffsetBegin=50 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, nonsense-11)
+predet(talk-3, All-1)
+det(talk-3, this-2)
+nsubj(nonsense-11, talk-3)
+prep(talk-3, about-4)
+nsubj(movie-9, this-5)
+cop(movie-9, being-6)
+det(movie-9, a-7)
+amod(movie-9, bad-8)
+pcomp(about-4, movie-9)
+cop(nonsense-11, is-10)
+punct(nonsense-11, .-12)
+
+Sentence #2 (15 tokens):
+As a matter of fact this is the best movie I've ever seen.
+[Text=As CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=DT] [Text=matter CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=IN] [Text=fact CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.] 
+root(ROOT-0, movie-10)
+prep(movie-10, As-1)
+det(matter-3, a-2)
+pobj(As-1, matter-3)
+prep(matter-3, of-4)
+pobj(of-4, fact-5)
+nsubj(movie-10, this-6)
+cop(movie-10, is-7)
+det(movie-10, the-8)
+amod(movie-10, best-9)
+nsubj(seen-14, I-11)
+aux(seen-14, 've-12)
+advmod(seen-14, ever-13)
+rcmod(movie-10, seen-14)
+punct(movie-10, .-15)
+
+Sentence #3 (17 tokens):
+It's an excellent story and the actors in the movie are some of the best.
+[Text=It CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=excellent CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=VBP] [Text=some CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.] 
+root(ROOT-0, story-5)
+nsubj(story-5, It-1)
+cop(story-5, 's-2)
+det(story-5, an-3)
+amod(story-5, excellent-4)
+cc(story-5, and-6)
+det(actors-8, the-7)
+conj(story-5, actors-8)
+prep(actors-8, in-9)
+det(movie-11, the-10)
+pobj(in-9, movie-11)
+cop(some-13, are-12)
+dep(story-5, some-13)
+prep(some-13, of-14)
+det(best-16, the-15)
+pobj(of-14, best-16)
+punct(story-5, .-17)
+
+Sentence #4 (11 tokens):
+I would not give criticism to any of the actors.
+[Text=I CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=RB] [Text=give CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=VB] [Text=criticism CharacterOffsetBegin=222 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=TO] [Text=any CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=.] 
+root(ROOT-0, give-4)
+nsubj(give-4, I-1)
+aux(give-4, would-2)
+neg(give-4, not-3)
+dobj(give-4, criticism-5)
+prep(give-4, to-6)
+pobj(to-6, any-7)
+prep(any-7, of-8)
+det(actors-10, the-9)
+pobj(of-8, actors-10)
+punct(give-4, .-11)
+
+Sentence #5 (13 tokens):
+That movie is the best and it will always stay that way.
+[Text=That CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=JJS] [Text=and CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=MD] [Text=always CharacterOffsetBegin=293 CharacterOffsetEnd=299 PartOfSpeech=RB] [Text=stay CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=.] 
+root(ROOT-0, best-5)
+det(movie-2, That-1)
+nsubj(best-5, movie-2)
+cop(best-5, is-3)
+det(best-5, the-4)
+cc(best-5, and-6)
+nsubj(stay-10, it-7)
+aux(stay-10, will-8)
+advmod(stay-10, always-9)
+conj(best-5, stay-10)
+det(way-12, that-11)
+dobj(stay-10, way-12)
+punct(best-5, .-13)
+

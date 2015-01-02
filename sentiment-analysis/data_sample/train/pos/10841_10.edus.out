@@ -1,0 +1,54 @@
+Sentence #1 (18 tokens):
+If you need cheering up on a cold weekday evening, this is the film for you!
+[Text=If CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=PRP] [Text=need CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=VBP] [Text=cheering CharacterOffsetBegin=16 CharacterOffsetEnd=24 PartOfSpeech=VBG] [Text=up CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=RP] [Text=on CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=cold CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=weekday CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=evening CharacterOffsetBegin=46 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=,] [Text=this CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=.] 
+root(ROOT-0, film-15)
+mark(need-3, If-1)
+nsubj(need-3, you-2)
+advcl(film-15, need-3)
+xcomp(need-3, cheering-4)
+prt(cheering-4, up-5)
+prep(cheering-4, on-6)
+det(evening-10, a-7)
+amod(evening-10, cold-8)
+nn(evening-10, weekday-9)
+pobj(on-6, evening-10)
+punct(film-15, ,-11)
+nsubj(film-15, this-12)
+cop(film-15, is-13)
+det(film-15, the-14)
+prep(film-15, for-16)
+pobj(for-16, you-17)
+punct(film-15, !-18)
+
+Sentence #2 (7 tokens):
+Excellent script and perfectly cast actors.
+[Text=Excellent CharacterOffsetBegin=85 CharacterOffsetEnd=94 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=CC] [Text=perfectly CharacterOffsetBegin=106 CharacterOffsetEnd=115 PartOfSpeech=RB] [Text=cast CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=VBD] [Text=actors CharacterOffsetBegin=121 CharacterOffsetEnd=127 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.] 
+root(ROOT-0, script-2)
+amod(script-2, Excellent-1)
+cc(script-2, and-3)
+advmod(cast-5, perfectly-4)
+conj(script-2, cast-5)
+dobj(cast-5, actors-6)
+punct(script-2, .-7)
+
+Sentence #3 (17 tokens):
+I especially loved Ray psyching himself up in front of the mirror before gigs - inspired!
+[Text=I CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=PRP] [Text=especially CharacterOffsetBegin=135 CharacterOffsetEnd=145 PartOfSpeech=RB] [Text=loved CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=VBD] [Text=Ray CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=NNP] [Text=psyching CharacterOffsetBegin=156 CharacterOffsetEnd=164 PartOfSpeech=VBG] [Text=himself CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=PRP] [Text=up CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=IN] [Text=front CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=mirror CharacterOffsetBegin=192 CharacterOffsetEnd=198 PartOfSpeech=NN] [Text=before CharacterOffsetBegin=199 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=gigs CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=NNS] [Text=- CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=:] [Text=inspired CharacterOffsetBegin=213 CharacterOffsetEnd=221 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=.] 
+root(ROOT-0, loved-3)
+nsubj(loved-3, I-1)
+advmod(loved-3, especially-2)
+nsubj(psyching-5, Ray-4)
+ccomp(loved-3, psyching-5)
+dobj(psyching-5, himself-6)
+prt(psyching-5, up-7)
+prep(psyching-5, in-8)
+pobj(in-8, front-9)
+prep(front-9, of-10)
+det(mirror-12, the-11)
+pobj(of-10, mirror-12)
+prep(psyching-5, before-13)
+pobj(before-13, gigs-14)
+punct(gigs-14, --15)
+dep(gigs-14, inspired-16)
+punct(loved-3, !-17)
+

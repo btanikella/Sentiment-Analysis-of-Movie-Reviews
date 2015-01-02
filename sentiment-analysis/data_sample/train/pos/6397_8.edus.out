@@ -1,0 +1,88 @@
+Sentence #1 (8 tokens):
+I gave it an 8 star rating.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=gave CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=PRP] [Text=an CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=8 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=CD] [Text=star CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=rating CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=.] 
+root(ROOT-0, gave-2)
+nsubj(gave-2, I-1)
+iobj(gave-2, it-3)
+det(rating-7, an-4)
+num(rating-7, 8-5)
+nn(rating-7, star-6)
+dobj(gave-2, rating-7)
+punct(gave-2, .-8)
+
+Sentence #2 (21 tokens):
+The story may have fallen short about 3/4 of the way into the picture but the performances remained strong throughout.
+[Text=The CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=may CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=VB] [Text=fallen CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=VBN] [Text=short CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=IN] [Text=3/4 CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=DT] [Text=way CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=into CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=DT] [Text=picture CharacterOffsetBegin=98 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=performances CharacterOffsetBegin=114 CharacterOffsetEnd=126 PartOfSpeech=NNS] [Text=remained CharacterOffsetBegin=127 CharacterOffsetEnd=135 PartOfSpeech=VBD] [Text=strong CharacterOffsetBegin=136 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=throughout CharacterOffsetBegin=143 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=.] 
+root(ROOT-0, fallen-5)
+det(story-2, The-1)
+nsubj(fallen-5, story-2)
+aux(fallen-5, may-3)
+aux(fallen-5, have-4)
+amod(3/4-8, short-6)
+quantmod(3/4-8, about-7)
+dobj(fallen-5, 3/4-8)
+prep(3/4-8, of-9)
+det(way-11, the-10)
+pobj(of-9, way-11)
+prep(way-11, into-12)
+det(picture-14, the-13)
+pobj(into-12, picture-14)
+cc(fallen-5, but-15)
+det(performances-17, the-16)
+nsubj(strong-19, performances-17)
+cop(strong-19, remained-18)
+conj(fallen-5, strong-19)
+advmod(strong-19, throughout-20)
+punct(fallen-5, .-21)
+
+Sentence #3 (15 tokens):
+"Men of Honor" was changed from "Navy Diver" understandably so.
+[Text=`` CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=``] [Text=Men CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=IN] [Text=Honor CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=''] [Text=was CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=VBD] [Text=changed CharacterOffsetBegin=178 CharacterOffsetEnd=185 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=``] [Text=Navy CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=NNP] [Text=Diver CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=''] [Text=understandably CharacterOffsetBegin=204 CharacterOffsetEnd=218 PartOfSpeech=RB] [Text=so CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=.] 
+root(ROOT-0, changed-7)
+punct(Men-2, ``-1)
+nsubjpass(changed-7, Men-2)
+prep(Men-2, of-3)
+pobj(of-3, Honor-4)
+punct(Men-2, ''-5)
+auxpass(changed-7, was-6)
+prep(changed-7, from-8)
+punct(from-8, ``-9)
+nn(Diver-11, Navy-10)
+pobj(from-8, Diver-11)
+punct(from-8, ''-12)
+advmod(so-14, understandably-13)
+advmod(changed-7, so-14)
+punct(changed-7, .-15)
+
+Sentence #4 (28 tokens):
+Anyone who has served in any branch of the armed forces will probably feel that "Honor" is an appropriate word to use in the title.
+[Text=Anyone CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=WP] [Text=has CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=VBZ] [Text=served CharacterOffsetBegin=242 CharacterOffsetEnd=248 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=branch CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=armed CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=JJ] [Text=forces CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NNS] [Text=will CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=MD] [Text=probably CharacterOffsetBegin=288 CharacterOffsetEnd=296 PartOfSpeech=RB] [Text=feel CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=``] [Text=Honor CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=''] [Text=is CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=DT] [Text=appropriate CharacterOffsetBegin=321 CharacterOffsetEnd=332 PartOfSpeech=JJ] [Text=word CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=TO] [Text=use CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=DT] [Text=title CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=.] 
+root(ROOT-0, feel-14)
+nsubj(feel-14, Anyone-1)
+nsubj(served-4, who-2)
+aux(served-4, has-3)
+rcmod(Anyone-1, served-4)
+prep(served-4, in-5)
+det(branch-7, any-6)
+pobj(in-5, branch-7)
+prep(branch-7, of-8)
+det(forces-11, the-9)
+amod(forces-11, armed-10)
+pobj(of-8, forces-11)
+aux(feel-14, will-12)
+advmod(feel-14, probably-13)
+mark(word-22, that-15)
+punct(word-22, ``-16)
+nsubj(word-22, Honor-17)
+punct(word-22, ''-18)
+cop(word-22, is-19)
+det(word-22, an-20)
+amod(word-22, appropriate-21)
+ccomp(feel-14, word-22)
+aux(use-24, to-23)
+infmod(word-22, use-24)
+prep(use-24, in-25)
+det(title-27, the-26)
+pobj(in-25, title-27)
+punct(feel-14, .-28)
+

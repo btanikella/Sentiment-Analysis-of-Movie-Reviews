@@ -1,0 +1,112 @@
+Sentence #1 (2 tokens):
+Awful!
+[Text=Awful CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=.] 
+root(ROOT-0, Awful-1)
+punct(Awful-1, !-2)
+
+Sentence #2 (3 tokens):
+Absolutely awful!
+[Text=Absolutely CharacterOffsetBegin=15 CharacterOffsetEnd=25 PartOfSpeech=RB] [Text=awful CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, awful-2)
+advmod(awful-2, Absolutely-1)
+punct(awful-2, !-3)
+
+Sentence #3 (9 tokens):
+No plot, no point, no end.
+[Text=No CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=,] [Text=no CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=DT] [Text=point CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=,] [Text=no CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=.] 
+root(ROOT-0, plot-2)
+det(plot-2, No-1)
+punct(plot-2, ,-3)
+det(point-5, no-4)
+appos(plot-2, point-5)
+punct(plot-2, ,-6)
+det(end-8, no-7)
+appos(plot-2, end-8)
+punct(plot-2, .-9)
+
+Sentence #4 (18 tokens):
+It looks like the director turned the camera on and then the whole crew went to lunch.
+[Text=It CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=PRP] [Text=looks CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=86 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=turned CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=camera CharacterOffsetBegin=106 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=JJ] [Text=crew CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=went CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=TO] [Text=lunch CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=.] 
+root(ROOT-0, looks-2)
+nsubj(looks-2, It-1)
+mark(turned-6, like-3)
+det(director-5, the-4)
+nsubj(turned-6, director-5)
+advcl(looks-2, turned-6)
+det(camera-8, the-7)
+dobj(turned-6, camera-8)
+prep(turned-6, on-9)
+cc(on-9, and-10)
+conj(on-9, then-11)
+det(crew-14, the-12)
+amod(crew-14, whole-13)
+nsubj(went-15, crew-14)
+dep(on-9, went-15)
+prep(went-15, to-16)
+pobj(to-16, lunch-17)
+punct(looks-2, .-18)
+
+Sentence #5 (3 tokens):
+Every day.
+[Text=Every CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=DT] [Text=day CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=.] 
+root(ROOT-0, day-2)
+det(day-2, Every-1)
+punct(day-2, .-3)
+
+Sentence #6 (15 tokens):
+I'm trying to GIVE this video away but no one will take it.
+[Text=I CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=VBP] [Text=trying CharacterOffsetBegin=178 CharacterOffsetEnd=184 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=TO] [Text=GIVE CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=DT] [Text=video CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NN] [Text=away CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=RB] [Text=but CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=CC] [Text=no CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=MD] [Text=take CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=.] 
+root(ROOT-0, trying-3)
+nsubj(trying-3, I-1)
+aux(trying-3, 'm-2)
+aux(GIVE-5, to-4)
+xcomp(trying-3, GIVE-5)
+det(video-7, this-6)
+dobj(GIVE-5, video-7)
+advmod(GIVE-5, away-8)
+cc(trying-3, but-9)
+det(one-11, no-10)
+nsubj(take-13, one-11)
+aux(take-13, will-12)
+conj(trying-3, take-13)
+dobj(take-13, it-14)
+punct(trying-3, .-15)
+
+Sentence #7 (15 tokens):
+I'm giving it a 2 instead of a 1 because I like Benigni.
+[Text=I CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=VBP] [Text=giving CharacterOffsetBegin=242 CharacterOffsetEnd=248 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=2 CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=CD] [Text=instead CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=1 CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=CD] [Text=because CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=VBP] [Text=Benigni CharacterOffsetBegin=286 CharacterOffsetEnd=293 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=.] 
+root(ROOT-0, giving-3)
+nsubj(giving-3, I-1)
+aux(giving-3, 'm-2)
+iobj(giving-3, it-4)
+det(2-6, a-5)
+dobj(giving-3, 2-6)
+advmod(of-8, instead-7)
+prep(giving-3, of-8)
+det(1-10, a-9)
+pobj(of-8, 1-10)
+mark(like-13, because-11)
+nsubj(like-13, I-12)
+advcl(giving-3, like-13)
+dobj(like-13, Benigni-14)
+punct(giving-3, .-15)
+
+Sentence #8 (15 tokens):
+Roger, I'm going to have to say thumbs down on this one.
+[Text=Roger CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=,] [Text=I CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=VBP] [Text=going CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=VB] [Text=thumbs CharacterOffsetBegin=331 CharacterOffsetEnd=337 PartOfSpeech=NNS] [Text=down CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=RB] [Text=on CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=.] 
+root(ROOT-0, going-5)
+nsubj(going-5, Roger-1)
+punct(going-5, ,-2)
+nsubj(going-5, I-3)
+aux(going-5, 'm-4)
+aux(have-7, to-6)
+xcomp(going-5, have-7)
+aux(say-9, to-8)
+xcomp(have-7, say-9)
+ccomp(say-9, thumbs-10)
+advmod(thumbs-10, down-11)
+prep(thumbs-10, on-12)
+det(one-14, this-13)
+pobj(on-12, one-14)
+punct(going-5, .-15)
+

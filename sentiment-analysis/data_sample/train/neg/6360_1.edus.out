@@ -1,0 +1,192 @@
+Sentence #1 (9 tokens):
+May I please have my $13.00 back?
+[Text=May CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NNP] [Text=I CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=CD] [Text=please CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=VB] [Text=have CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=VB] [Text=my CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=PRP$] [Text=$ CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=$] [Text=13.00 CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=CD] [Text=back CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=.] 
+root(ROOT-0, May-1)
+num(please-3, I-2)
+dep(May-1, please-3)
+dep(please-3, have-4)
+poss($-6, my-5)
+dobj(have-4, $-6)
+num($-6, 13.00-7)
+advmod(have-4, back-8)
+punct(May-1, ?-9)
+
+Sentence #2 (16 tokens):
+I would have rather watched "Hydro- Electric Power Comes to North America".
+[Text=I CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=VB] [Text=rather CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=RB] [Text=watched CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=VBN] [Text=`` CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=``] [Text=Hydro CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNP] [Text=- CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=:] [Text=Electric CharacterOffsetBegin=78 CharacterOffsetEnd=86 PartOfSpeech=NNP] [Text=Power CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NNP] [Text=Comes CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=TO] [Text=North CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NNP] [Text=America CharacterOffsetBegin=108 CharacterOffsetEnd=115 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=''] [Text=. CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=.] 
+root(ROOT-0, watched-5)
+nsubj(watched-5, I-1)
+aux(watched-5, would-2)
+aux(watched-5, have-3)
+advmod(watched-5, rather-4)
+punct(watched-5, ``-6)
+dep(watched-5, Hydro-7)
+punct(Hydro-7, --8)
+nn(Power-10, Electric-9)
+nsubj(Comes-11, Power-10)
+dep(Hydro-7, Comes-11)
+prep(Comes-11, to-12)
+nn(America-14, North-13)
+pobj(to-12, America-14)
+punct(watched-5, ''-15)
+punct(watched-5, .-16)
+
+Sentence #3 (2 tokens):
+Again.
+[Text=Again CharacterOffsetBegin=122 CharacterOffsetEnd=127 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.] 
+root(ROOT-0, Again-1)
+punct(Again-1, .-2)
+
+Sentence #4 (8 tokens):
+This is a movie with one voice.
+[Text=This CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=one CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=CD] [Text=voice CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=.] 
+root(ROOT-0, movie-4)
+nsubj(movie-4, This-1)
+cop(movie-4, is-2)
+det(movie-4, a-3)
+prep(movie-4, with-5)
+num(voice-7, one-6)
+pobj(with-5, voice-7)
+punct(movie-4, .-8)
+
+Sentence #5 (17 tokens):
+The same voice, which comes out of every characters mouth regardless of age or gender.
+[Text=The CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=JJ] [Text=voice CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=,] [Text=which CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=WDT] [Text=comes CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=IN] [Text=every CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=210 CharacterOffsetEnd=220 PartOfSpeech=NNS] [Text=mouth CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=regardless CharacterOffsetBegin=227 CharacterOffsetEnd=237 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=IN] [Text=age CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=CC] [Text=gender CharacterOffsetBegin=248 CharacterOffsetEnd=254 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=.] 
+root(ROOT-0, voice-3)
+det(voice-3, The-1)
+amod(voice-3, same-2)
+punct(voice-3, ,-4)
+nsubj(comes-6, which-5)
+rcmod(voice-3, comes-6)
+prep(comes-6, out-7)
+pcomp(out-7, of-8)
+det(characters-10, every-9)
+pobj(of-8, characters-10)
+partmod(characters-10, mouth-11)
+advmod(mouth-11, regardless-12)
+prep(regardless-12, of-13)
+pobj(of-13, age-14)
+cc(age-14, or-15)
+conj(age-14, gender-16)
+punct(voice-3, .-17)
+
+Sentence #6 (18 tokens):
+To listen to that voice again I would have to charge at least $150 an hour.
+[Text=To CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=TO] [Text=listen CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=TO] [Text=that CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=voice CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=again CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=TO] [Text=charge CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=JJS] [Text=$ CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=$] [Text=150 CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=CD] [Text=an CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=hour CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=.] 
+root(ROOT-0, have-9)
+aux(listen-2, To-1)
+advcl(have-9, listen-2)
+prep(listen-2, to-3)
+det(voice-5, that-4)
+pobj(to-3, voice-5)
+advmod(listen-2, again-6)
+nsubj(have-9, I-7)
+aux(have-9, would-8)
+aux(charge-11, to-10)
+xcomp(have-9, charge-11)
+quantmod($-14, at-12)
+quantmod($-14, least-13)
+dobj(charge-11, $-14)
+number($-14, 150-15)
+det(hour-17, an-16)
+npadvmod($-14, hour-17)
+punct(have-9, .-18)
+
+Sentence #7 (7 tokens):
+And I don't take insurance.
+[Text=And CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=RB] [Text=take CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=VB] [Text=insurance CharacterOffsetBegin=357 CharacterOffsetEnd=366 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=.] 
+root(ROOT-0, take-5)
+cc(take-5, And-1)
+nsubj(take-5, I-2)
+aux(take-5, do-3)
+neg(take-5, n't-4)
+dobj(take-5, insurance-6)
+punct(take-5, .-7)
+
+Sentence #8 (10 tokens):
+It was eerie watching Will Ferrell morph into Woody.
+[Text=It CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=VBD] [Text=eerie CharacterOffsetBegin=379 CharacterOffsetEnd=384 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=385 CharacterOffsetEnd=393 PartOfSpeech=VBG] [Text=Will CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=MD] [Text=Ferrell CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=NNP] [Text=morph CharacterOffsetBegin=407 CharacterOffsetEnd=412 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=IN] [Text=Woody CharacterOffsetBegin=418 CharacterOffsetEnd=423 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=.] 
+root(ROOT-0, eerie-3)
+nsubj(eerie-3, It-1)
+cop(eerie-3, was-2)
+partmod(eerie-3, watching-4)
+aux(morph-7, Will-5)
+nsubj(morph-7, Ferrell-6)
+ccomp(watching-4, morph-7)
+prep(morph-7, into-8)
+pobj(into-8, Woody-9)
+punct(eerie-3, .-10)
+
+Sentence #9 (10 tokens):
+But I don't think imaginative casting is enough.
+[Text=But CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=RB] [Text=think CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=VB] [Text=imaginative CharacterOffsetBegin=447 CharacterOffsetEnd=458 PartOfSpeech=JJ] [Text=casting CharacterOffsetBegin=459 CharacterOffsetEnd=466 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=467 CharacterOffsetEnd=469 PartOfSpeech=VBZ] [Text=enough CharacterOffsetBegin=470 CharacterOffsetEnd=476 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=476 CharacterOffsetEnd=477 PartOfSpeech=.] 
+root(ROOT-0, think-5)
+cc(think-5, But-1)
+nsubj(think-5, I-2)
+aux(think-5, do-3)
+neg(think-5, n't-4)
+amod(casting-7, imaginative-6)
+nsubj(enough-9, casting-7)
+cop(enough-9, is-8)
+ccomp(think-5, enough-9)
+punct(think-5, .-10)
+
+Sentence #10 (15 tokens):
+One should wait until they have a story before they bother making a movie.
+[Text=One CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=CD] [Text=should CharacterOffsetBegin=486 CharacterOffsetEnd=492 PartOfSpeech=MD] [Text=wait CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=VB] [Text=until CharacterOffsetBegin=498 CharacterOffsetEnd=503 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=504 CharacterOffsetEnd=508 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=509 CharacterOffsetEnd=513 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=514 CharacterOffsetEnd=515 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=before CharacterOffsetBegin=522 CharacterOffsetEnd=528 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=529 CharacterOffsetEnd=533 PartOfSpeech=PRP] [Text=bother CharacterOffsetBegin=534 CharacterOffsetEnd=540 PartOfSpeech=VBP] [Text=making CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=550 CharacterOffsetEnd=555 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=555 CharacterOffsetEnd=556 PartOfSpeech=.] 
+root(ROOT-0, wait-3)
+nsubj(wait-3, One-1)
+aux(wait-3, should-2)
+mark(have-6, until-4)
+nsubj(have-6, they-5)
+advcl(wait-3, have-6)
+det(story-8, a-7)
+dobj(have-6, story-8)
+mark(bother-11, before-9)
+nsubj(bother-11, they-10)
+advcl(have-6, bother-11)
+xcomp(bother-11, making-12)
+det(movie-14, a-13)
+dobj(making-12, movie-14)
+punct(wait-3, .-15)
+
+Sentence #11 (10 tokens):
+Unless he's just doing it for the money.
+[Text=Unless CharacterOffsetBegin=561 CharacterOffsetEnd=567 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=573 CharacterOffsetEnd=577 PartOfSpeech=RB] [Text=doing CharacterOffsetBegin=578 CharacterOffsetEnd=583 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=DT] [Text=money CharacterOffsetBegin=595 CharacterOffsetEnd=600 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=600 CharacterOffsetEnd=601 PartOfSpeech=.] 
+root(ROOT-0, doing-5)
+mark(doing-5, Unless-1)
+nsubj(doing-5, he-2)
+aux(doing-5, 's-3)
+advmod(doing-5, just-4)
+dobj(doing-5, it-6)
+prep(doing-5, for-7)
+det(money-9, the-8)
+pobj(for-7, money-9)
+punct(doing-5, .-10)
+
+Sentence #12 (22 tokens):
+And if that's the case why not just reissue an All-Rap version of "What's up Tiger Lily?"
+[Text=And CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=DT] [Text=case CharacterOffsetBegin=624 CharacterOffsetEnd=628 PartOfSpeech=NN] [Text=why CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=WRB] [Text=not CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=RB] [Text=just CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=RB] [Text=reissue CharacterOffsetBegin=642 CharacterOffsetEnd=649 PartOfSpeech=VB] [Text=an CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=DT] [Text=All-Rap CharacterOffsetBegin=653 CharacterOffsetEnd=660 PartOfSpeech=JJ] [Text=version CharacterOffsetBegin=661 CharacterOffsetEnd=668 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=669 CharacterOffsetEnd=671 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=``] [Text=What CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=WP] [Text='s CharacterOffsetBegin=677 CharacterOffsetEnd=679 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=RP] [Text=Tiger CharacterOffsetBegin=683 CharacterOffsetEnd=688 PartOfSpeech=NNP] [Text=Lily CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=693 CharacterOffsetEnd=694 PartOfSpeech=.] [Text='' CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=''] 
+root(ROOT-0, And-1)
+mark(case-6, if-2)
+nsubj(case-6, that-3)
+cop(case-6, 's-4)
+det(case-6, the-5)
+dep(And-1, case-6)
+advmod(reissue-10, why-7)
+neg(reissue-10, not-8)
+advmod(reissue-10, just-9)
+advcl(case-6, reissue-10)
+det(version-13, an-11)
+amod(version-13, All-Rap-12)
+dep(reissue-10, version-13)
+dep(version-13, of-14)
+punct(of-14, ``-15)
+dep(of-14, What-16)
+dep(What-16, 's-17)
+prep('s-17, up-18)
+nn(Lily-20, Tiger-19)
+pobj(up-18, Lily-20)
+punct(of-14, ?-21)
+punct(case-6, ''-22)
+

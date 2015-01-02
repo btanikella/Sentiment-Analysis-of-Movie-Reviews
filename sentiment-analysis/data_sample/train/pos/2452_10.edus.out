@@ -1,0 +1,120 @@
+Sentence #1 (12 tokens):
+It's a good show, and I find it funny.
+[Text=It CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=JJ] [Text=show CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=,] [Text=and CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=PRP] [Text=find CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=PRP] [Text=funny CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.] 
+root(ROOT-0, show-5)
+nsubj(show-5, It-1)
+cop(show-5, 's-2)
+det(show-5, a-3)
+amod(show-5, good-4)
+punct(show-5, ,-6)
+cc(show-5, and-7)
+nsubj(find-9, I-8)
+conj(show-5, find-9)
+nsubj(funny-11, it-10)
+xcomp(find-9, funny-11)
+punct(show-5, .-12)
+
+Sentence #2 (9 tokens):
+Finally the bad Latin stereo types are over!
+[Text=Finally CharacterOffsetBegin=47 CharacterOffsetEnd=54 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=Latin CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=NNP] [Text=stereo CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=types CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=VBP] [Text=over CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=IN] [Text=! CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=.] 
+root(ROOT-0, are-7)
+advmod(are-7, Finally-1)
+det(types-6, the-2)
+amod(types-6, bad-3)
+nn(types-6, Latin-4)
+nn(types-6, stereo-5)
+nsubj(are-7, types-6)
+advmod(are-7, over-8)
+punct(are-7, !-9)
+
+Sentence #3 (5 tokens):
+Gracias, Seor Lopez!
+[Text=Gracias CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=,] [Text=Seor CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NNP] [Text=Lopez CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=.] 
+root(ROOT-0, Gracias-1)
+punct(Gracias-1, ,-2)
+nn(Lopez-4, Seor-3)
+appos(Gracias-1, Lopez-4)
+punct(Gracias-1, !-5)
+
+Sentence #4 (16 tokens):
+I love this show, and I just started watching it about three months ago.
+[Text=I CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=,] [Text=and CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=RB] [Text=started CharacterOffsetBegin=150 CharacterOffsetEnd=157 PartOfSpeech=VBD] [Text=watching CharacterOffsetBegin=158 CharacterOffsetEnd=166 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=PRP] [Text=about CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=IN] [Text=three CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=CD] [Text=months CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=NNS] [Text=ago CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+det(show-4, this-3)
+dobj(love-2, show-4)
+punct(love-2, ,-5)
+cc(love-2, and-6)
+nsubj(started-9, I-7)
+advmod(started-9, just-8)
+conj(love-2, started-9)
+xcomp(started-9, watching-10)
+dobj(watching-10, it-11)
+quantmod(three-13, about-12)
+num(months-14, three-13)
+npadvmod(ago-15, months-14)
+advmod(watching-10, ago-15)
+punct(love-2, .-16)
+
+Sentence #5 (13 tokens):
+The whole concept about a Latin family TV show really amazed me.
+[Text=The CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=JJ] [Text=concept CharacterOffsetBegin=208 CharacterOffsetEnd=215 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=DT] [Text=Latin CharacterOffsetBegin=224 CharacterOffsetEnd=229 PartOfSpeech=JJ] [Text=family CharacterOffsetBegin=230 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=TV CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=show CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=NN] [Text=really CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=amazed CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=.] 
+root(ROOT-0, amazed-11)
+det(concept-3, The-1)
+amod(concept-3, whole-2)
+nsubj(amazed-11, concept-3)
+prep(concept-3, about-4)
+det(show-9, a-5)
+amod(show-9, Latin-6)
+nn(show-9, family-7)
+nn(show-9, TV-8)
+pobj(about-4, show-9)
+advmod(amazed-11, really-10)
+dobj(amazed-11, me-12)
+punct(amazed-11, .-13)
+
+Sentence #6 (15 tokens):
+I am surprised that finally Latinos have a good shot to be on TV.
+[Text=I CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=VBP] [Text=surprised CharacterOffsetBegin=272 CharacterOffsetEnd=281 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=IN] [Text=finally CharacterOffsetBegin=287 CharacterOffsetEnd=294 PartOfSpeech=RB] [Text=Latinos CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=NNPS] [Text=have CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=JJ] [Text=shot CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=.] 
+root(ROOT-0, surprised-3)
+nsubj(surprised-3, I-1)
+cop(surprised-3, am-2)
+mark(have-7, that-4)
+advmod(have-7, finally-5)
+nsubj(have-7, Latinos-6)
+ccomp(surprised-3, have-7)
+det(shot-10, a-8)
+amod(shot-10, good-9)
+dobj(have-7, shot-10)
+aux(be-12, to-11)
+infmod(shot-10, be-12)
+prep(be-12, on-13)
+pobj(on-13, TV-14)
+punct(surprised-3, .-15)
+
+Sentence #7 (22 tokens):
+This show is probably one the best I've seen, it's funny, heartwarming, touchy, and nice.
+[Text=This CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=VBZ] [Text=probably CharacterOffsetBegin=350 CharacterOffsetEnd=358 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=CD] [Text=the CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=JJS] [Text=I CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=,] [Text=it CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=VBZ] [Text=funny CharacterOffsetBegin=388 CharacterOffsetEnd=393 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=,] [Text=heartwarming CharacterOffsetBegin=395 CharacterOffsetEnd=407 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=,] [Text=touchy CharacterOffsetBegin=409 CharacterOffsetEnd=415 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=415 CharacterOffsetEnd=416 PartOfSpeech=,] [Text=and CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=CC] [Text=nice CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=.] 
+root(ROOT-0, show-2)
+det(show-2, This-1)
+partmod(show-2, is-3)
+advmod(is-3, probably-4)
+dep(probably-4, one-5)
+det(best-7, the-6)
+appos(one-5, best-7)
+nsubj(seen-10, I-8)
+aux(seen-10, 've-9)
+rcmod(best-7, seen-10)
+punct(one-5, ,-11)
+nsubj(funny-14, it-12)
+cop(funny-14, 's-13)
+rcmod(one-5, funny-14)
+punct(one-5, ,-15)
+amod(touchy-18, heartwarming-16)
+punct(touchy-18, ,-17)
+conj(one-5, touchy-18)
+punct(one-5, ,-19)
+cc(one-5, and-20)
+conj(one-5, nice-21)
+punct(show-2, .-22)
+

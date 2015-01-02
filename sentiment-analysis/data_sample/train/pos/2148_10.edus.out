@@ -1,0 +1,230 @@
+Sentence #1 (12 tokens):
+I always look forward to this movie when its on TV.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=always CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=RB] [Text=look CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=VBP] [Text=forward CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=TO] [Text=this CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=WRB] [Text=its CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=PRP$] [Text=on CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=.] 
+root(ROOT-0, look-3)
+nsubj(look-3, I-1)
+advmod(look-3, always-2)
+advmod(look-3, forward-4)
+prep(look-3, to-5)
+det(movie-7, this-6)
+pobj(to-5, movie-7)
+prep(look-3, when-8)
+dep(when-8, its-9)
+prep(its-9, on-10)
+pobj(on-10, TV-11)
+punct(look-3, .-12)
+
+Sentence #2 (8 tokens):
+Have to get the DVD I guess.
+[Text=Have CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=.] 
+root(ROOT-0, Have-1)
+aux(get-3, to-2)
+xcomp(Have-1, get-3)
+det(DVD-5, the-4)
+dobj(get-3, DVD-5)
+nsubj(guess-7, I-6)
+rcmod(DVD-5, guess-7)
+punct(Have-1, .-8)
+
+Sentence #3 (10 tokens):
+The range of different types of people is great.
+[Text=The CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=range CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=IN] [Text=different CharacterOffsetBegin=106 CharacterOffsetEnd=115 PartOfSpeech=JJ] [Text=types CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=NNS] [Text=is CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, great-9)
+det(range-2, The-1)
+nsubj(great-9, range-2)
+prep(range-2, of-3)
+amod(types-5, different-4)
+pobj(of-3, types-5)
+prep(types-5, of-6)
+pobj(of-6, people-7)
+cop(great-9, is-8)
+punct(great-9, .-10)
+
+Sentence #4 (16 tokens):
+It says to me that anyone can be a dancer if they try hard enough.
+[Text=It CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text=says CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=PRP] [Text=that CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=anyone CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=DT] [Text=dancer CharacterOffsetBegin=181 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=if CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=PRP] [Text=try CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VBP] [Text=hard CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=205 CharacterOffsetEnd=211 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=.] 
+root(ROOT-0, says-2)
+nsubj(says-2, It-1)
+prep(says-2, to-3)
+pobj(to-3, me-4)
+mark(dancer-10, that-5)
+nsubj(dancer-10, anyone-6)
+aux(dancer-10, can-7)
+cop(dancer-10, be-8)
+det(dancer-10, a-9)
+ccomp(says-2, dancer-10)
+mark(try-13, if-11)
+nsubj(try-13, they-12)
+advcl(dancer-10, try-13)
+advmod(enough-15, hard-14)
+advmod(try-13, enough-15)
+punct(says-2, .-16)
+
+Sentence #5 (7 tokens):
+My favorite character must be Mr.Aoki.
+[Text=My CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=220 CharacterOffsetEnd=228 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=NN] [Text=must CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=VB] [Text=Mr.Aoki CharacterOffsetBegin=247 CharacterOffsetEnd=254 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=.] 
+root(ROOT-0, Mr.Aoki-6)
+poss(character-3, My-1)
+amod(character-3, favorite-2)
+nsubj(Mr.Aoki-6, character-3)
+aux(Mr.Aoki-6, must-4)
+cop(Mr.Aoki-6, be-5)
+punct(Mr.Aoki-6, .-7)
+
+Sentence #6 (10 tokens):
+He is so quirky but so full of emotions.
+[Text=He CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=RB] [Text=quirky CharacterOffsetBegin=269 CharacterOffsetEnd=275 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=CC] [Text=so CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=RB] [Text=full CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=IN] [Text=emotions CharacterOffsetBegin=291 CharacterOffsetEnd=299 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=.] 
+root(ROOT-0, quirky-4)
+nsubj(quirky-4, He-1)
+cop(quirky-4, is-2)
+advmod(quirky-4, so-3)
+cc(quirky-4, but-5)
+advmod(full-7, so-6)
+conj(quirky-4, full-7)
+prep(full-7, of-8)
+pobj(of-8, emotions-9)
+punct(quirky-4, .-10)
+
+Sentence #7 (9 tokens):
+It is a perfect movie with wonderful dancing.
+[Text=It CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=313 CharacterOffsetEnd=320 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=321 CharacterOffsetEnd=326 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=327 CharacterOffsetEnd=331 PartOfSpeech=IN] [Text=wonderful CharacterOffsetBegin=332 CharacterOffsetEnd=341 PartOfSpeech=JJ] [Text=dancing CharacterOffsetBegin=342 CharacterOffsetEnd=349 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, It-1)
+cop(movie-5, is-2)
+det(movie-5, a-3)
+amod(movie-5, perfect-4)
+prep(movie-5, with-6)
+amod(dancing-8, wonderful-7)
+pobj(with-6, dancing-8)
+punct(movie-5, .-9)
+
+Sentence #8 (13 tokens):
+Unfortunately we never get the chance to see them go to Blackpool.
+[Text=Unfortunately CharacterOffsetBegin=355 CharacterOffsetEnd=368 PartOfSpeech=RB] [Text=we CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=PRP] [Text=never CharacterOffsetBegin=372 CharacterOffsetEnd=377 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=chance CharacterOffsetBegin=386 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=PRP] [Text=go CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=TO] [Text=Blackpool CharacterOffsetBegin=411 CharacterOffsetEnd=420 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=.] 
+root(ROOT-0, get-4)
+advmod(get-4, Unfortunately-1)
+nsubj(get-4, we-2)
+neg(get-4, never-3)
+det(chance-6, the-5)
+dobj(get-4, chance-6)
+aux(see-8, to-7)
+infmod(chance-6, see-8)
+nsubj(go-10, them-9)
+ccomp(see-8, go-10)
+prep(go-10, to-11)
+pobj(to-11, Blackpool-12)
+punct(get-4, .-13)
+
+Sentence #9 (10 tokens):
+Would make for the perfect sequel if they had.
+[Text=Would CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=445 CharacterOffsetEnd=452 PartOfSpeech=JJ] [Text=sequel CharacterOffsetBegin=453 CharacterOffsetEnd=459 PartOfSpeech=NN] [Text=if CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=.] 
+root(ROOT-0, make-2)
+aux(make-2, Would-1)
+prep(make-2, for-3)
+det(sequel-6, the-4)
+amod(sequel-6, perfect-5)
+pobj(for-3, sequel-6)
+mark(had-9, if-7)
+nsubj(had-9, they-8)
+advcl(make-2, had-9)
+punct(make-2, .-10)
+
+Sentence #10 (20 tokens):
+But I guess it leaves it to your imagination to what could of happened.A very simple and innocent story.
+[Text=But CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=481 CharacterOffsetEnd=482 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=489 CharacterOffsetEnd=491 PartOfSpeech=PRP] [Text=leaves CharacterOffsetBegin=492 CharacterOffsetEnd=498 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=499 CharacterOffsetEnd=501 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=TO] [Text=your CharacterOffsetBegin=505 CharacterOffsetEnd=509 PartOfSpeech=PRP$] [Text=imagination CharacterOffsetBegin=510 CharacterOffsetEnd=521 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=TO] [Text=what CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=WP] [Text=could CharacterOffsetBegin=530 CharacterOffsetEnd=535 PartOfSpeech=MD] [Text=of CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=IN] [Text=happened.A CharacterOffsetBegin=539 CharacterOffsetEnd=549 PartOfSpeech=NN] [Text=very CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=RB] [Text=simple CharacterOffsetBegin=555 CharacterOffsetEnd=561 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=CC] [Text=innocent CharacterOffsetBegin=566 CharacterOffsetEnd=574 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=580 CharacterOffsetEnd=581 PartOfSpeech=.] 
+root(ROOT-0, guess-3)
+cc(guess-3, But-1)
+nsubj(guess-3, I-2)
+nsubj(leaves-5, it-4)
+ccomp(guess-3, leaves-5)
+dobj(leaves-5, it-6)
+prep(leaves-5, to-7)
+poss(imagination-9, your-8)
+pobj(to-7, imagination-9)
+prep(leaves-5, to-10)
+pobj(to-10, what-11)
+dep(what-11, could-12)
+prep(could-12, of-13)
+pobj(of-13, happened.A-14)
+advmod(simple-16, very-15)
+amod(happened.A-14, simple-16)
+cc(simple-16, and-17)
+amod(story-19, innocent-18)
+conj(simple-16, story-19)
+punct(guess-3, .-20)
+
+Sentence #11 (15 tokens):
+He stays loyal to his wife and daughter.I haven't seen the Hollywood remake.
+[Text=He CharacterOffsetBegin=586 CharacterOffsetEnd=588 PartOfSpeech=PRP] [Text=stays CharacterOffsetBegin=589 CharacterOffsetEnd=594 PartOfSpeech=VBZ] [Text=loyal CharacterOffsetBegin=595 CharacterOffsetEnd=600 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=TO] [Text=his CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=608 CharacterOffsetEnd=612 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=CC] [Text=daughter.I CharacterOffsetBegin=617 CharacterOffsetEnd=627 PartOfSpeech=NN] [Text=have CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=DT] [Text=Hollywood CharacterOffsetBegin=645 CharacterOffsetEnd=654 PartOfSpeech=NNP] [Text=remake CharacterOffsetBegin=655 CharacterOffsetEnd=661 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=.] 
+root(ROOT-0, loyal-3)
+nsubj(loyal-3, He-1)
+cop(loyal-3, stays-2)
+prep(loyal-3, to-4)
+poss(wife-6, his-5)
+pobj(to-4, wife-6)
+cc(wife-6, and-7)
+conj(wife-6, daughter.I-8)
+aux(seen-11, have-9)
+neg(seen-11, n't-10)
+dep(loyal-3, seen-11)
+det(remake-14, the-12)
+nn(remake-14, Hollywood-13)
+dobj(seen-11, remake-14)
+punct(loyal-3, .-15)
+
+Sentence #12 (7 tokens):
+Not sure if I want to.
+[Text=Not CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=RB] [Text=sure CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=JJ] [Text=if CharacterOffsetBegin=676 CharacterOffsetEnd=678 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=686 CharacterOffsetEnd=688 PartOfSpeech=TO] [Text=. CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=.] 
+root(ROOT-0, sure-2)
+neg(sure-2, Not-1)
+mark(want-5, if-3)
+nsubj(want-5, I-4)
+advcl(sure-2, want-5)
+xcomp(want-5, to-6)
+punct(sure-2, .-7)
+
+Sentence #13 (8 tokens):
+I don't really enjoy Jennifer Lopez.
+[Text=I CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=696 CharacterOffsetEnd=698 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=698 CharacterOffsetEnd=701 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=702 CharacterOffsetEnd=708 PartOfSpeech=RB] [Text=enjoy CharacterOffsetBegin=709 CharacterOffsetEnd=714 PartOfSpeech=VB] [Text=Jennifer CharacterOffsetBegin=715 CharacterOffsetEnd=723 PartOfSpeech=NNP] [Text=Lopez CharacterOffsetBegin=724 CharacterOffsetEnd=729 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=.] 
+root(ROOT-0, enjoy-5)
+nsubj(enjoy-5, I-1)
+aux(enjoy-5, do-2)
+neg(enjoy-5, n't-3)
+advmod(enjoy-5, really-4)
+nn(Lopez-7, Jennifer-6)
+dobj(enjoy-5, Lopez-7)
+punct(enjoy-5, .-8)
+
+Sentence #14 (11 tokens):
+I think Richard Gere more matches the original than Lopez.
+[Text=I CharacterOffsetBegin=735 CharacterOffsetEnd=736 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=737 CharacterOffsetEnd=742 PartOfSpeech=VBP] [Text=Richard CharacterOffsetBegin=743 CharacterOffsetEnd=750 PartOfSpeech=NNP] [Text=Gere CharacterOffsetBegin=751 CharacterOffsetEnd=755 PartOfSpeech=NNP] [Text=more CharacterOffsetBegin=756 CharacterOffsetEnd=760 PartOfSpeech=RBR] [Text=matches CharacterOffsetBegin=761 CharacterOffsetEnd=768 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=769 CharacterOffsetEnd=772 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=773 CharacterOffsetEnd=781 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=782 CharacterOffsetEnd=786 PartOfSpeech=IN] [Text=Lopez CharacterOffsetBegin=787 CharacterOffsetEnd=792 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=792 CharacterOffsetEnd=793 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+nn(Gere-4, Richard-3)
+nsubj(matches-6, Gere-4)
+advmod(matches-6, more-5)
+ccomp(think-2, matches-6)
+dobj(matches-6, the-7)
+amod(the-7, original-8)
+prep(original-8, than-9)
+pobj(than-9, Lopez-10)
+punct(think-2, .-11)
+
+Sentence #15 (14 tokens):
+I have a feeling that the remake is not as simple and innocent.
+[Text=I CharacterOffsetBegin=798 CharacterOffsetEnd=799 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=800 CharacterOffsetEnd=804 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=805 CharacterOffsetEnd=806 PartOfSpeech=DT] [Text=feeling CharacterOffsetBegin=807 CharacterOffsetEnd=814 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=815 CharacterOffsetEnd=819 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=820 CharacterOffsetEnd=823 PartOfSpeech=DT] [Text=remake CharacterOffsetBegin=824 CharacterOffsetEnd=830 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=831 CharacterOffsetEnd=833 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=834 CharacterOffsetEnd=837 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=838 CharacterOffsetEnd=840 PartOfSpeech=RB] [Text=simple CharacterOffsetBegin=841 CharacterOffsetEnd=847 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=848 CharacterOffsetEnd=851 PartOfSpeech=CC] [Text=innocent CharacterOffsetBegin=852 CharacterOffsetEnd=860 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=860 CharacterOffsetEnd=861 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+det(feeling-4, a-3)
+dobj(have-2, feeling-4)
+mark(simple-11, that-5)
+det(remake-7, the-6)
+nsubj(simple-11, remake-7)
+cop(simple-11, is-8)
+neg(simple-11, not-9)
+advmod(simple-11, as-10)
+ccomp(feeling-4, simple-11)
+cc(simple-11, and-12)
+conj(simple-11, innocent-13)
+punct(have-2, .-14)
+

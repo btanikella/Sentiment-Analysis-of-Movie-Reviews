@@ -1,0 +1,183 @@
+Sentence #1 (14 tokens):
+Guys and Dolls has to be one of my favorite musical movies ever.
+[Text=Guys CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC] [Text=Dolls CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NNS] [Text=has CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=VB] [Text=one CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=39 CharacterOffsetEnd=47 PartOfSpeech=JJ] [Text=musical CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=NNS] [Text=ever CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=.] 
+root(ROOT-0, has-4)
+nsubj(has-4, Guys-1)
+cc(Guys-1, and-2)
+conj(Guys-1, Dolls-3)
+aux(one-7, to-5)
+cop(one-7, be-6)
+xcomp(has-4, one-7)
+prep(one-7, of-8)
+poss(movies-12, my-9)
+amod(movies-12, favorite-10)
+amod(movies-12, musical-11)
+pobj(of-8, movies-12)
+advmod(movies-12, ever-13)
+punct(has-4, .-14)
+
+Sentence #2 (12 tokens):
+It is a very fun movie to watch and nothing more.
+[Text=It CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=fun CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=CC] [Text=nothing CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, It-1)
+cop(movie-6, is-2)
+det(movie-6, a-3)
+advmod(fun-5, very-4)
+amod(movie-6, fun-5)
+aux(watch-8, to-7)
+xcomp(movie-6, watch-8)
+cc(watch-8, and-9)
+conj(watch-8, nothing-10)
+amod(nothing-10, more-11)
+punct(movie-6, .-12)
+
+Sentence #3 (18 tokens):
+it embodies what people have forgotten about musicals-musicals were made to entertain, not to to preach.
+[Text=it CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text=embodies CharacterOffsetBegin=130 CharacterOffsetEnd=138 PartOfSpeech=VBZ] [Text=what CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=WP] [Text=people CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=VBP] [Text=forgotten CharacterOffsetBegin=156 CharacterOffsetEnd=165 PartOfSpeech=VBN] [Text=about CharacterOffsetBegin=166 CharacterOffsetEnd=171 PartOfSpeech=IN] [Text=musicals-musicals CharacterOffsetBegin=172 CharacterOffsetEnd=189 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=VBD] [Text=made CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=TO] [Text=entertain CharacterOffsetBegin=203 CharacterOffsetEnd=212 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=,] [Text=not CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=TO] [Text=to CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=TO] [Text=preach CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=.] 
+root(ROOT-0, embodies-2)
+nsubj(embodies-2, it-1)
+dobj(forgotten-6, what-3)
+nsubj(forgotten-6, people-4)
+aux(forgotten-6, have-5)
+csubjpass(made-10, forgotten-6)
+prep(forgotten-6, about-7)
+pobj(about-7, musicals-musicals-8)
+auxpass(made-10, were-9)
+dep(embodies-2, made-10)
+aux(entertain-12, to-11)
+xcomp(made-10, entertain-12)
+punct(entertain-12, ,-13)
+neg(to-15, not-14)
+dep(entertain-12, to-15)
+aux(preach-17, to-16)
+xcomp(to-15, preach-17)
+punct(embodies-2, .-18)
+
+Sentence #4 (26 tokens):
+Nowadays we have Rent and Chicago which are great musicals and good movies but they fail to bring us solid entertainment with no strings attached.
+[Text=Nowadays CharacterOffsetBegin=236 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=we CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=VBP] [Text=Rent CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=CC] [Text=Chicago CharacterOffsetBegin=262 CharacterOffsetEnd=269 PartOfSpeech=NNP] [Text=which CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=VBP] [Text=great CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=JJ] [Text=musicals CharacterOffsetBegin=286 CharacterOffsetEnd=294 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=CC] [Text=good CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=304 CharacterOffsetEnd=310 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=PRP] [Text=fail CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=TO] [Text=bring CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=VB] [Text=us CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=PRP] [Text=solid CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=JJ] [Text=entertainment CharacterOffsetBegin=343 CharacterOffsetEnd=356 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=DT] [Text=strings CharacterOffsetBegin=365 CharacterOffsetEnd=372 PartOfSpeech=NNS] [Text=attached CharacterOffsetBegin=373 CharacterOffsetEnd=381 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+advmod(have-3, Nowadays-1)
+nsubj(have-3, we-2)
+dobj(have-3, Rent-4)
+cc(Rent-4, and-5)
+conj(Rent-4, Chicago-6)
+nsubj(musicals-10, which-7)
+cop(musicals-10, are-8)
+amod(musicals-10, great-9)
+rcmod(Rent-4, musicals-10)
+cc(musicals-10, and-11)
+amod(movies-13, good-12)
+conj(musicals-10, movies-13)
+cc(musicals-10, but-14)
+nsubj(fail-16, they-15)
+conj(musicals-10, fail-16)
+aux(bring-18, to-17)
+xcomp(fail-16, bring-18)
+iobj(bring-18, us-19)
+amod(entertainment-21, solid-20)
+dobj(bring-18, entertainment-21)
+prep(bring-18, with-22)
+det(strings-24, no-23)
+pobj(with-22, strings-24)
+partmod(strings-24, attached-25)
+punct(have-3, .-26)
+
+Sentence #5 (19 tokens):
+The only thing that bothered me in the movie was Marlon Brando, the guy can't sing!
+[Text=The CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=402 CharacterOffsetEnd=406 PartOfSpeech=WDT] [Text=bothered CharacterOffsetBegin=407 CharacterOffsetEnd=415 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=VBD] [Text=Marlon CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=NNP] [Text=Brando CharacterOffsetBegin=443 CharacterOffsetEnd=449 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=,] [Text=the CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=ca CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=RB] [Text=sing CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=VB] [Text=! CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=.] 
+root(ROOT-0, Brando-12)
+det(thing-3, The-1)
+amod(thing-3, only-2)
+nsubj(Brando-12, thing-3)
+nsubj(bothered-5, that-4)
+rcmod(thing-3, bothered-5)
+dobj(bothered-5, me-6)
+prep(bothered-5, in-7)
+det(movie-9, the-8)
+pobj(in-7, movie-9)
+cop(Brando-12, was-10)
+nn(Brando-12, Marlon-11)
+punct(Brando-12, ,-13)
+det(guy-15, the-14)
+nsubj(sing-18, guy-15)
+aux(sing-18, ca-16)
+neg(sing-18, n't-17)
+rcmod(Brando-12, sing-18)
+punct(Brando-12, !-19)
+
+Sentence #6 (18 tokens):
+It was very annoying to listen to him sing and talk when I couldn't understand him.
+[Text=It CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=RB] [Text=annoying CharacterOffsetBegin=487 CharacterOffsetEnd=495 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=TO] [Text=listen CharacterOffsetBegin=499 CharacterOffsetEnd=505 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=506 CharacterOffsetEnd=508 PartOfSpeech=TO] [Text=him CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=PRP] [Text=sing CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=CC] [Text=talk CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=VB] [Text=when CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=534 CharacterOffsetEnd=539 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=RB] [Text=understand CharacterOffsetBegin=543 CharacterOffsetEnd=553 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=.] 
+root(ROOT-0, annoying-4)
+nsubj(annoying-4, It-1)
+cop(annoying-4, was-2)
+advmod(annoying-4, very-3)
+aux(listen-6, to-5)
+xcomp(annoying-4, listen-6)
+prep(listen-6, to-7)
+pobj(to-7, him-8)
+dep(listen-6, sing-9)
+cc(sing-9, and-10)
+conj(sing-9, talk-11)
+advmod(understand-16, when-12)
+nsubj(understand-16, I-13)
+aux(understand-16, could-14)
+neg(understand-16, n't-15)
+advcl(listen-6, understand-16)
+dobj(understand-16, him-17)
+punct(annoying-4, .-18)
+
+Sentence #7 (14 tokens):
+If it weren't for Marlon I would have given this 10 stars.
+[Text=If CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=569 CharacterOffsetEnd=573 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=IN] [Text=Marlon CharacterOffsetBegin=581 CharacterOffsetEnd=587 PartOfSpeech=NNP] [Text=I CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=590 CharacterOffsetEnd=595 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=VB] [Text=given CharacterOffsetBegin=601 CharacterOffsetEnd=606 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=DT] [Text=10 CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=CD] [Text=stars CharacterOffsetBegin=615 CharacterOffsetEnd=620 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=620 CharacterOffsetEnd=621 PartOfSpeech=.] 
+root(ROOT-0, were-3)
+mark(were-3, If-1)
+nsubj(were-3, it-2)
+neg(were-3, n't-4)
+prep(were-3, for-5)
+pobj(for-5, Marlon-6)
+nsubj(given-10, I-7)
+aux(given-10, would-8)
+aux(given-10, have-9)
+rcmod(Marlon-6, given-10)
+det(stars-13, this-11)
+num(stars-13, 10-12)
+dobj(given-10, stars-13)
+punct(were-3, .-14)
+
+Sentence #8 (13 tokens):
+Guys and Dolls provides old-fashioned entertainment that we rarely get these days.
+[Text=Guys CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=CC] [Text=Dolls CharacterOffsetBegin=635 CharacterOffsetEnd=640 PartOfSpeech=NNS] [Text=provides CharacterOffsetBegin=641 CharacterOffsetEnd=649 PartOfSpeech=VBZ] [Text=old-fashioned CharacterOffsetBegin=650 CharacterOffsetEnd=663 PartOfSpeech=JJ] [Text=entertainment CharacterOffsetBegin=664 CharacterOffsetEnd=677 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=IN] [Text=we CharacterOffsetBegin=683 CharacterOffsetEnd=685 PartOfSpeech=PRP] [Text=rarely CharacterOffsetBegin=686 CharacterOffsetEnd=692 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=VBP] [Text=these CharacterOffsetBegin=697 CharacterOffsetEnd=702 PartOfSpeech=DT] [Text=days CharacterOffsetBegin=703 CharacterOffsetEnd=707 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=707 CharacterOffsetEnd=708 PartOfSpeech=.] 
+root(ROOT-0, provides-4)
+nsubj(provides-4, Guys-1)
+cc(Guys-1, and-2)
+conj(Guys-1, Dolls-3)
+amod(entertainment-6, old-fashioned-5)
+dobj(provides-4, entertainment-6)
+dobj(get-10, that-7)
+nsubj(get-10, we-8)
+advmod(get-10, rarely-9)
+rcmod(entertainment-6, get-10)
+det(days-12, these-11)
+tmod(get-10, days-12)
+punct(provides-4, .-13)
+
+Sentence #9 (8 tokens):
+Watch it to have a good time!
+[Text=Watch CharacterOffsetBegin=713 CharacterOffsetEnd=718 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=719 CharacterOffsetEnd=721 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=722 CharacterOffsetEnd=724 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=725 CharacterOffsetEnd=729 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=730 CharacterOffsetEnd=731 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=.] 
+root(ROOT-0, Watch-1)
+dobj(Watch-1, it-2)
+aux(have-4, to-3)
+xcomp(Watch-1, have-4)
+det(time-7, a-5)
+amod(time-7, good-6)
+dobj(have-4, time-7)
+punct(Watch-1, !-8)
+
+Sentence #10 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=747 CharacterOffsetEnd=748 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

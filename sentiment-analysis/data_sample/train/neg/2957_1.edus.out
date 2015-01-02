@@ -1,0 +1,95 @@
+Sentence #1 (4 tokens):
+What a mess!!
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=mess CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=NN] [Text=!! CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=NN] 
+root(ROOT-0, What-1)
+det(mess-3, a-2)
+dep(What-1, mess-3)
+dep(mess-3, !!-4)
+
+Sentence #2 (6 tokens):
+Why was this movie made?
+[Text=Why CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=WRB] [Text=was CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=VBN] [Text=? CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=.] 
+root(ROOT-0, made-5)
+advmod(made-5, Why-1)
+auxpass(made-5, was-2)
+det(movie-4, this-3)
+nsubj(made-5, movie-4)
+punct(made-5, ?-6)
+
+Sentence #3 (22 tokens):
+This, and other movies of its "caliber" should be teaching tools on how not to make a movie.
+[Text=This CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=,] [Text=and CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=CC] [Text=other CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=PRP$] [Text=`` CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=``] [Text=caliber CharacterOffsetBegin=82 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=''] [Text=should CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=VB] [Text=teaching CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=VBG] [Text=tools CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=WRB] [Text=not CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=.] 
+root(ROOT-0, teaching-13)
+det(movies-5, This-1)
+punct(movies-5, ,-2)
+cc(movies-5, and-3)
+amod(movies-5, other-4)
+nsubj(teaching-13, movies-5)
+prep(movies-5, of-6)
+poss(caliber-9, its-7)
+punct(caliber-9, ``-8)
+pobj(of-6, caliber-9)
+punct(caliber-9, ''-10)
+aux(teaching-13, should-11)
+aux(teaching-13, be-12)
+dobj(teaching-13, tools-14)
+prep(teaching-13, on-15)
+advmod(make-19, how-16)
+neg(make-19, not-17)
+aux(make-19, to-18)
+pcomp(on-15, make-19)
+det(movie-21, a-20)
+dobj(make-19, movie-21)
+punct(teaching-13, .-22)
+
+Sentence #4 (14 tokens):
+Children may like it, but anyone over 10 may or will disapprove.
+[Text=Children CharacterOffsetBegin=148 CharacterOffsetEnd=156 PartOfSpeech=NNS] [Text=may CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=MD] [Text=like CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=,] [Text=but CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=CC] [Text=anyone CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=CD] [Text=may CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=MD] [Text=or CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=CC] [Text=will CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=MD] [Text=disapprove CharacterOffsetBegin=201 CharacterOffsetEnd=211 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=.] 
+root(ROOT-0, like-3)
+nsubj(like-3, Children-1)
+aux(like-3, may-2)
+dobj(like-3, it-4)
+punct(like-3, ,-5)
+cc(like-3, but-6)
+conj(like-3, anyone-7)
+prep(anyone-7, over-8)
+pobj(over-8, 10-9)
+dep(anyone-7, may-10)
+cc(may-10, or-11)
+aux(disapprove-13, will-12)
+conj(may-10, disapprove-13)
+punct(like-3, .-14)
+
+Sentence #5 (29 tokens):
+To make matters worse was the fact that such great talent like Whoopi Goldberg and Armin Mueller Stahl were entirely wasted in a film unworthy of any notice.
+[Text=To CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VB] [Text=matters CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=NNS] [Text=worse CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=JJR] [Text=was CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=DT] [Text=fact CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=IN] [Text=such CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=JJ] [Text=great CharacterOffsetBegin=262 CharacterOffsetEnd=267 PartOfSpeech=JJ] [Text=talent CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=IN] [Text=Whoopi CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=NNP] [Text=Goldberg CharacterOffsetBegin=287 CharacterOffsetEnd=295 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=CC] [Text=Armin CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=NNP] [Text=Mueller CharacterOffsetBegin=306 CharacterOffsetEnd=313 PartOfSpeech=NNP] [Text=Stahl CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=VBD] [Text=entirely CharacterOffsetBegin=325 CharacterOffsetEnd=333 PartOfSpeech=RB] [Text=wasted CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=NN] [Text=unworthy CharacterOffsetBegin=351 CharacterOffsetEnd=359 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=DT] [Text=notice CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=.] 
+root(ROOT-0, fact-7)
+aux(make-2, To-1)
+csubj(fact-7, make-2)
+nsubj(worse-4, matters-3)
+xcomp(make-2, worse-4)
+cop(fact-7, was-5)
+det(fact-7, the-6)
+mark(wasted-21, that-8)
+amod(talent-11, such-9)
+amod(talent-11, great-10)
+nsubjpass(wasted-21, talent-11)
+prep(talent-11, like-12)
+nn(Goldberg-14, Whoopi-13)
+pobj(like-12, Goldberg-14)
+cc(Goldberg-14, and-15)
+nn(Stahl-18, Armin-16)
+nn(Stahl-18, Mueller-17)
+conj(Goldberg-14, Stahl-18)
+auxpass(wasted-21, were-19)
+advmod(wasted-21, entirely-20)
+ccomp(fact-7, wasted-21)
+prep(wasted-21, in-22)
+det(unworthy-25, a-23)
+nn(unworthy-25, film-24)
+pobj(in-22, unworthy-25)
+prep(unworthy-25, of-26)
+det(notice-28, any-27)
+pobj(of-26, notice-28)
+punct(fact-7, .-29)
+

@@ -1,0 +1,201 @@
+Sentence #1 (11 tokens):
+Eleven "great" filmmakers, eleven pieces of garbage.
+[Text=Eleven CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=CD] [Text=`` CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=``] [Text=great CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=''] [Text=filmmakers CharacterOffsetBegin=19 CharacterOffsetEnd=29 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=,] [Text=eleven CharacterOffsetBegin=31 CharacterOffsetEnd=37 PartOfSpeech=NNS] [Text=pieces CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=IN] [Text=garbage CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, filmmakers-5)
+num(filmmakers-5, Eleven-1)
+punct(filmmakers-5, ``-2)
+amod(filmmakers-5, great-3)
+punct(filmmakers-5, ''-4)
+punct(filmmakers-5, ,-6)
+nn(pieces-8, eleven-7)
+appos(filmmakers-5, pieces-8)
+prep(pieces-8, of-9)
+pobj(of-9, garbage-10)
+punct(filmmakers-5, .-11)
+
+Sentence #2 (13 tokens):
+Eleven minutes each of sheer tedium, sophistry, condescension, self-indulgence.
+[Text=Eleven CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=NNS] [Text=each CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN] [Text=sheer CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=JJ] [Text=tedium CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=,] [Text=sophistry CharacterOffsetBegin=98 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=,] [Text=condescension CharacterOffsetBegin=109 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=,] [Text=self-indulgence CharacterOffsetBegin=124 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=.] 
+root(ROOT-0, minutes-2)
+num(minutes-2, Eleven-1)
+dep(minutes-2, each-3)
+prep(each-3, of-4)
+amod(tedium-6, sheer-5)
+pobj(of-4, tedium-6)
+punct(tedium-6, ,-7)
+conj(tedium-6, sophistry-8)
+punct(tedium-6, ,-9)
+conj(tedium-6, condescension-10)
+punct(tedium-6, ,-11)
+appos(tedium-6, self-indulgence-12)
+punct(minutes-2, .-13)
+
+Sentence #3 (7 tokens):
+Treats for people of all nations.
+[Text=Treats CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=nations CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=.] 
+root(ROOT-0, Treats-1)
+prep(Treats-1, for-2)
+pobj(for-2, people-3)
+prep(people-3, of-4)
+det(nations-6, all-5)
+pobj(of-4, nations-6)
+punct(Treats-1, .-7)
+
+Sentence #4 (12 tokens):
+Yussef Chahine of Egypt giving a "hip hip hooray!"
+[Text=Yussef CharacterOffsetBegin=183 CharacterOffsetEnd=189 PartOfSpeech=NNP] [Text=Chahine CharacterOffsetBegin=190 CharacterOffsetEnd=197 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=IN] [Text=Egypt CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=NNP] [Text=giving CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=``] [Text=hip CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=NN] [Text=hip CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=hooray CharacterOffsetBegin=225 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] [Text='' CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=''] 
+root(ROOT-0, giving-5)
+nn(Chahine-2, Yussef-1)
+nsubj(giving-5, Chahine-2)
+prep(Chahine-2, of-3)
+pobj(of-3, Egypt-4)
+det(hooray-10, a-6)
+punct(hooray-10, ``-7)
+nn(hooray-10, hip-8)
+nn(hooray-10, hip-9)
+dobj(giving-5, hooray-10)
+punct(giving-5, !-11)
+punct(giving-5, ''-12)
+
+Sentence #5 (7 tokens):
+for terorism in his amateurish segment.
+[Text=for CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=IN] [Text=terorism CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=PRP$] [Text=amateurish CharacterOffsetBegin=258 CharacterOffsetEnd=268 PartOfSpeech=JJ] [Text=segment CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=.] 
+root(ROOT-0, for-1)
+pobj(for-1, terorism-2)
+prep(for-1, in-3)
+poss(segment-6, his-4)
+amod(segment-6, amateurish-5)
+pobj(in-3, segment-6)
+punct(for-1, .-7)
+
+Sentence #6 (27 tokens):
+Across the green line we have Amos Gitai of Israel, using his eleven minutes to show a terrorist act and focus on a jerky newscaster.
+[Text=Across CharacterOffsetBegin=282 CharacterOffsetEnd=288 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=green CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=JJ] [Text=line CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=we CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=VBP] [Text=Amos CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=NNP] [Text=Gitai CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=IN] [Text=Israel CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=,] [Text=using CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=VBG] [Text=his CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=PRP$] [Text=eleven CharacterOffsetBegin=344 CharacterOffsetEnd=350 PartOfSpeech=NNS] [Text=minutes CharacterOffsetBegin=351 CharacterOffsetEnd=358 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=TO] [Text=show CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=DT] [Text=terrorist CharacterOffsetBegin=369 CharacterOffsetEnd=378 PartOfSpeech=JJ] [Text=act CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=CC] [Text=focus CharacterOffsetBegin=387 CharacterOffsetEnd=392 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=DT] [Text=jerky CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=NN] [Text=newscaster CharacterOffsetBegin=404 CharacterOffsetEnd=414 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=.] 
+root(ROOT-0, Across-1)
+det(line-4, the-2)
+amod(line-4, green-3)
+pobj(Across-1, line-4)
+nsubj(have-6, we-5)
+rcmod(line-4, have-6)
+nn(Gitai-8, Amos-7)
+dobj(have-6, Gitai-8)
+prep(Gitai-8, of-9)
+pobj(of-9, Israel-10)
+punct(Across-1, ,-11)
+partmod(Across-1, using-12)
+poss(minutes-15, his-13)
+nn(minutes-15, eleven-14)
+dobj(using-12, minutes-15)
+aux(show-17, to-16)
+xcomp(using-12, show-17)
+det(act-20, a-18)
+amod(act-20, terrorist-19)
+dobj(show-17, act-20)
+cc(act-20, and-21)
+conj(act-20, focus-22)
+prep(act-20, on-23)
+det(newscaster-26, a-24)
+nn(newscaster-26, jerky-25)
+pobj(on-23, newscaster-26)
+punct(Across-1, .-27)
+
+Sentence #7 (20 tokens):
+Alejandro Gonzlez Irritu of Mexico concentrated on the Twin Towers but seemed to forget to turn on his camera.
+[Text=Alejandro CharacterOffsetBegin=420 CharacterOffsetEnd=429 PartOfSpeech=NNP] [Text=Gonzlez CharacterOffsetBegin=430 CharacterOffsetEnd=437 PartOfSpeech=NNP] [Text=Irritu CharacterOffsetBegin=438 CharacterOffsetEnd=444 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=IN] [Text=Mexico CharacterOffsetBegin=448 CharacterOffsetEnd=454 PartOfSpeech=NNP] [Text=concentrated CharacterOffsetBegin=455 CharacterOffsetEnd=467 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=DT] [Text=Twin CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=NNP] [Text=Towers CharacterOffsetBegin=480 CharacterOffsetEnd=486 PartOfSpeech=NNP] [Text=but CharacterOffsetBegin=487 CharacterOffsetEnd=490 PartOfSpeech=CC] [Text=seemed CharacterOffsetBegin=491 CharacterOffsetEnd=497 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=498 CharacterOffsetEnd=500 PartOfSpeech=TO] [Text=forget CharacterOffsetBegin=501 CharacterOffsetEnd=507 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=TO] [Text=turn CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=VB] [Text=on CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=RP] [Text=his CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=PRP$] [Text=camera CharacterOffsetBegin=523 CharacterOffsetEnd=529 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=.] 
+root(ROOT-0, concentrated-6)
+nn(Irritu-3, Alejandro-1)
+nn(Irritu-3, Gonzlez-2)
+nsubj(concentrated-6, Irritu-3)
+prep(Irritu-3, of-4)
+pobj(of-4, Mexico-5)
+prep(concentrated-6, on-7)
+det(Towers-10, the-8)
+nn(Towers-10, Twin-9)
+pobj(on-7, Towers-10)
+cc(concentrated-6, but-11)
+conj(concentrated-6, seemed-12)
+aux(forget-14, to-13)
+xcomp(seemed-12, forget-14)
+aux(turn-16, to-15)
+xcomp(forget-14, turn-16)
+prt(turn-16, on-17)
+poss(camera-19, his-18)
+dobj(turn-16, camera-19)
+punct(concentrated-6, .-20)
+
+Sentence #8 (19 tokens):
+Sean Penn not knowing that there were no buildings within the shadow of the Trade Center on 9-11.
+[Text=Sean CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=NNP] [Text=Penn CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=NNP] [Text=not CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=RB] [Text=knowing CharacterOffsetBegin=549 CharacterOffsetEnd=556 PartOfSpeech=VBG] [Text=that CharacterOffsetBegin=557 CharacterOffsetEnd=561 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=562 CharacterOffsetEnd=567 PartOfSpeech=EX] [Text=were CharacterOffsetBegin=568 CharacterOffsetEnd=572 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=DT] [Text=buildings CharacterOffsetBegin=576 CharacterOffsetEnd=585 PartOfSpeech=NNS] [Text=within CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=DT] [Text=shadow CharacterOffsetBegin=597 CharacterOffsetEnd=603 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=607 CharacterOffsetEnd=610 PartOfSpeech=DT] [Text=Trade CharacterOffsetBegin=611 CharacterOffsetEnd=616 PartOfSpeech=NNP] [Text=Center CharacterOffsetBegin=617 CharacterOffsetEnd=623 PartOfSpeech=NNP] [Text=on CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=IN] [Text=9-11 CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=.] 
+root(ROOT-0, knowing-4)
+nn(Penn-2, Sean-1)
+nsubj(knowing-4, Penn-2)
+neg(knowing-4, not-3)
+mark(were-7, that-5)
+expl(were-7, there-6)
+ccomp(knowing-4, were-7)
+det(buildings-9, no-8)
+nsubj(were-7, buildings-9)
+prep(buildings-9, within-10)
+det(shadow-12, the-11)
+pobj(within-10, shadow-12)
+prep(shadow-12, of-13)
+det(Center-16, the-14)
+nn(Center-16, Trade-15)
+pobj(of-13, Center-16)
+prep(were-7, on-17)
+pobj(on-17, 9-11-18)
+punct(knowing-4, .-19)
+
+Sentence #9 (9 tokens):
+Shohei Imamura of Japan ignoring the whole thing.
+[Text=Shohei CharacterOffsetBegin=637 CharacterOffsetEnd=643 PartOfSpeech=NNP] [Text=Imamura CharacterOffsetBegin=644 CharacterOffsetEnd=651 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=652 CharacterOffsetEnd=654 PartOfSpeech=IN] [Text=Japan CharacterOffsetBegin=655 CharacterOffsetEnd=660 PartOfSpeech=NNP] [Text=ignoring CharacterOffsetBegin=661 CharacterOffsetEnd=669 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=670 CharacterOffsetEnd=673 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=674 CharacterOffsetEnd=679 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=680 CharacterOffsetEnd=685 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=685 CharacterOffsetEnd=686 PartOfSpeech=.] 
+root(ROOT-0, ignoring-5)
+nn(Imamura-2, Shohei-1)
+nsubj(ignoring-5, Imamura-2)
+prep(Imamura-2, of-3)
+pobj(of-3, Japan-4)
+det(thing-8, the-6)
+amod(thing-8, whole-7)
+dobj(ignoring-5, thing-8)
+punct(ignoring-5, .-9)
+
+Sentence #10 (11 tokens):
+Claude Lelouch focussing on a trivial and cliched love affair.
+[Text=Claude CharacterOffsetBegin=691 CharacterOffsetEnd=697 PartOfSpeech=NNP] [Text=Lelouch CharacterOffsetBegin=698 CharacterOffsetEnd=705 PartOfSpeech=NNP] [Text=focussing CharacterOffsetBegin=706 CharacterOffsetEnd=715 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=716 CharacterOffsetEnd=718 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=719 CharacterOffsetEnd=720 PartOfSpeech=DT] [Text=trivial CharacterOffsetBegin=721 CharacterOffsetEnd=728 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=729 CharacterOffsetEnd=732 PartOfSpeech=CC] [Text=cliched CharacterOffsetBegin=733 CharacterOffsetEnd=740 PartOfSpeech=JJ] [Text=love CharacterOffsetBegin=741 CharacterOffsetEnd=745 PartOfSpeech=NN] [Text=affair CharacterOffsetBegin=746 CharacterOffsetEnd=752 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=.] 
+root(ROOT-0, focussing-3)
+nn(focussing-3, Claude-1)
+nn(focussing-3, Lelouch-2)
+prep(focussing-3, on-4)
+det(affair-10, a-5)
+amod(affair-10, trivial-6)
+cc(trivial-6, and-7)
+conj(trivial-6, cliched-8)
+nn(affair-10, love-9)
+pobj(on-4, affair-10)
+punct(focussing-3, .-11)
+
+Sentence #11 (9 tokens):
+Ken Loach of the UK focussing on Chile.
+[Text=Ken CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=NNP] [Text=Loach CharacterOffsetBegin=762 CharacterOffsetEnd=767 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=768 CharacterOffsetEnd=770 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=771 CharacterOffsetEnd=774 PartOfSpeech=DT] [Text=UK CharacterOffsetBegin=775 CharacterOffsetEnd=777 PartOfSpeech=NNP] [Text=focussing CharacterOffsetBegin=778 CharacterOffsetEnd=787 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=788 CharacterOffsetEnd=790 PartOfSpeech=IN] [Text=Chile CharacterOffsetBegin=791 CharacterOffsetEnd=796 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=796 CharacterOffsetEnd=797 PartOfSpeech=.] 
+root(ROOT-0, Loach-2)
+nn(Loach-2, Ken-1)
+prep(Loach-2, of-3)
+det(focussing-6, the-4)
+nn(focussing-6, UK-5)
+pobj(of-3, focussing-6)
+prep(focussing-6, on-7)
+pobj(on-7, Chile-8)
+punct(Loach-2, .-9)
+
+Sentence #12 (2 tokens):
+Etc.
+[Text=Etc. CharacterOffsetBegin=802 CharacterOffsetEnd=805 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=805 CharacterOffsetEnd=806 PartOfSpeech=.] 
+root(ROOT-0, Etc.-1)
+punct(Etc.-1, .-2)
+
+Sentence #13 (2 tokens):
+etc.
+[Text=etc. CharacterOffsetBegin=811 CharacterOffsetEnd=814 PartOfSpeech=FW] [Text=. CharacterOffsetBegin=814 CharacterOffsetEnd=815 PartOfSpeech=.] 
+root(ROOT-0, etc.-1)
+punct(etc.-1, .-2)
+

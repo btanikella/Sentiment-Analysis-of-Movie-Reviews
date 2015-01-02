@@ -1,0 +1,120 @@
+Sentence #1 (5 tokens):
+I like the movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, like-2)
+nsubj(like-2, I-1)
+det(movie-4, the-3)
+dobj(like-2, movie-4)
+punct(like-2, .-5)
+
+Sentence #2 (18 tokens):
+Twisted Desire had Jeremy Jordan,one of my favorite and one of the cutest actors ever.
+[Text=Twisted CharacterOffsetBegin=26 CharacterOffsetEnd=33 PartOfSpeech=JJ] [Text=Desire CharacterOffsetBegin=34 CharacterOffsetEnd=40 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=VBD] [Text=Jeremy CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NNP] [Text=Jordan CharacterOffsetBegin=52 CharacterOffsetEnd=58 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=,] [Text=one CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=69 CharacterOffsetEnd=77 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=CC] [Text=one CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=DT] [Text=cutest CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=JJS] [Text=actors CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=NNS] [Text=ever CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.] 
+root(ROOT-0, had-3)
+amod(Desire-2, Twisted-1)
+nsubj(had-3, Desire-2)
+nn(Jordan-5, Jeremy-4)
+dobj(had-3, Jordan-5)
+punct(Jordan-5, ,-6)
+appos(Jordan-5, one-7)
+prep(one-7, of-8)
+poss(favorite-10, my-9)
+pobj(of-8, favorite-10)
+cc(favorite-10, and-11)
+conj(favorite-10, one-12)
+prep(one-12, of-13)
+det(actors-16, the-14)
+amod(actors-16, cutest-15)
+pobj(of-13, actors-16)
+advmod(actors-16, ever-17)
+punct(had-3, .-18)
+
+Sentence #3 (8 tokens):
+Melissa Joan Hart is a good actress.
+[Text=Melissa CharacterOffsetBegin=117 CharacterOffsetEnd=124 PartOfSpeech=NNP] [Text=Joan CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=NNP] [Text=Hart CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=actress CharacterOffsetBegin=145 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=.] 
+root(ROOT-0, actress-7)
+nn(Hart-3, Melissa-1)
+nn(Hart-3, Joan-2)
+nsubj(actress-7, Hart-3)
+cop(actress-7, is-4)
+det(actress-7, a-5)
+amod(actress-7, good-6)
+punct(actress-7, .-8)
+
+Sentence #4 (14 tokens):
+I've seen most of her movies but all of Jeremy Jordan's.
+[Text=I CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=VBN] [Text=most CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=PRP$] [Text=movies CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=CC] [Text=all CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=IN] [Text=Jeremy CharacterOffsetBegin=198 CharacterOffsetEnd=204 PartOfSpeech=NNP] [Text=Jordan CharacterOffsetBegin=205 CharacterOffsetEnd=211 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=POS] [Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=.] 
+root(ROOT-0, seen-3)
+nsubj(seen-3, I-1)
+aux(seen-3, 've-2)
+advmod(seen-3, most-4)
+prep(most-4, of-5)
+poss(movies-7, her-6)
+pobj(of-5, movies-7)
+cc(most-4, but-8)
+conj(most-4, all-9)
+prep(all-9, of-10)
+nn(Jordan-12, Jeremy-11)
+pobj(of-10, Jordan-12)
+possessive(Jordan-12, 's-13)
+punct(seen-3, .-14)
+
+Sentence #5 (22 tokens):
+The thing i dislike about Twisted Desire is when "Nick" gets arrested and "Jennifer" rats him out.
+[Text=The CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=NN] [Text=i CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=FW] [Text=dislike CharacterOffsetBegin=231 CharacterOffsetEnd=238 PartOfSpeech=VBP] [Text=about CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=Twisted CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=JJ] [Text=Desire CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=VBZ] [Text=when CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=WRB] [Text=`` CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=``] [Text=Nick CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=''] [Text=gets CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=VBZ] [Text=arrested CharacterOffsetBegin=280 CharacterOffsetEnd=288 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=``] [Text=Jennifer CharacterOffsetBegin=294 CharacterOffsetEnd=302 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=''] [Text=rats CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=NNS] [Text=him CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=PRP] [Text=out CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.] 
+root(ROOT-0, is-8)
+det(thing-2, The-1)
+nsubj(is-8, thing-2)
+nsubj(dislike-4, i-3)
+rcmod(thing-2, dislike-4)
+prep(dislike-4, about-5)
+amod(Desire-7, Twisted-6)
+pobj(about-5, Desire-7)
+advmod(gets-13, when-9)
+punct(gets-13, ``-10)
+nsubj(gets-13, Nick-11)
+punct(gets-13, ''-12)
+advcl(is-8, gets-13)
+dep(gets-13, arrested-14)
+cc(arrested-14, and-15)
+punct(rats-19, ``-16)
+nn(rats-19, Jennifer-17)
+punct(rats-19, ''-18)
+conj(arrested-14, rats-19)
+dobj(rats-19, him-20)
+prt(rats-19, out-21)
+punct(is-8, .-22)
+
+Sentence #6 (8 tokens):
+Twisted Desire is my second favorite movie.
+[Text=Twisted CharacterOffsetBegin=322 CharacterOffsetEnd=329 PartOfSpeech=JJ] [Text=Desire CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=VBZ] [Text=my CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=PRP$] [Text=second CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=JJ] [Text=favorite CharacterOffsetBegin=350 CharacterOffsetEnd=358 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+amod(Desire-2, Twisted-1)
+nsubj(movie-7, Desire-2)
+cop(movie-7, is-3)
+poss(movie-7, my-4)
+amod(movie-7, second-5)
+amod(movie-7, favorite-6)
+punct(movie-7, .-8)
+
+Sentence #7 (6 tokens):
+My first is The Goonies.
+[Text=My CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=PRP$] [Text=first CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=JJ] [Text=is CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=VBZ] [Text=The CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=Goonies CharacterOffsetBegin=386 CharacterOffsetEnd=393 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.] 
+root(ROOT-0, Goonies-5)
+poss(first-2, My-1)
+nsubj(Goonies-5, first-2)
+cop(Goonies-5, is-3)
+det(Goonies-5, The-4)
+punct(Goonies-5, .-6)
+
+Sentence #8 (7 tokens):
+But i still love Jeremy Jordan.
+[Text=But CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=CC] [Text=i CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=FW] [Text=still CharacterOffsetBegin=405 CharacterOffsetEnd=410 PartOfSpeech=RB] [Text=love CharacterOffsetBegin=411 CharacterOffsetEnd=415 PartOfSpeech=VBP] [Text=Jeremy CharacterOffsetBegin=416 CharacterOffsetEnd=422 PartOfSpeech=NNP] [Text=Jordan CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=.] 
+root(ROOT-0, love-4)
+cc(love-4, But-1)
+nsubj(love-4, i-2)
+advmod(love-4, still-3)
+nn(Jordan-6, Jeremy-5)
+dobj(love-4, Jordan-6)
+punct(love-4, .-7)
+

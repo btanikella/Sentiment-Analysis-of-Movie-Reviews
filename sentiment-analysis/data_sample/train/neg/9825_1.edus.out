@@ -1,0 +1,88 @@
+Sentence #1 (9 tokens):
+This movie seems to send the wrong message.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=seems CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=TO] [Text=send CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=wrong CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=JJ] [Text=message CharacterOffsetBegin=39 CharacterOffsetEnd=46 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, seems-3)
+det(movie-2, This-1)
+nsubj(seems-3, movie-2)
+aux(send-5, to-4)
+xcomp(seems-3, send-5)
+det(message-8, the-6)
+amod(message-8, wrong-7)
+dobj(send-5, message-8)
+punct(seems-3, .-9)
+
+Sentence #2 (8 tokens):
+There can be morality without using Christ.
+[Text=There CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=EX] [Text=can CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=VB] [Text=morality CharacterOffsetBegin=65 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=without CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=using CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=VBG] [Text=Christ CharacterOffsetBegin=88 CharacterOffsetEnd=94 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.] 
+root(ROOT-0, morality-4)
+expl(morality-4, There-1)
+aux(morality-4, can-2)
+cop(morality-4, be-3)
+prep(morality-4, without-5)
+pcomp(without-5, using-6)
+dobj(using-6, Christ-7)
+punct(morality-4, .-8)
+
+Sentence #3 (13 tokens):
+Poeple of other religions, I believe, can get into heaven.
+[Text=Poeple CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=JJ] [Text=religions CharacterOffsetBegin=116 CharacterOffsetEnd=125 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=,] [Text=I CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text=believe CharacterOffsetBegin=129 CharacterOffsetEnd=136 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=,] [Text=can CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=IN] [Text=heaven CharacterOffsetBegin=151 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=.] 
+root(ROOT-0, get-10)
+nsubj(get-10, Poeple-1)
+prep(Poeple-1, of-2)
+amod(religions-4, other-3)
+pobj(of-2, religions-4)
+punct(Poeple-1, ,-5)
+nsubj(believe-7, I-6)
+rcmod(Poeple-1, believe-7)
+punct(Poeple-1, ,-8)
+aux(get-10, can-9)
+prep(get-10, into-11)
+pobj(into-11, heaven-12)
+punct(get-10, .-13)
+
+Sentence #4 (21 tokens):
+I am a Catholic who goes to church every week, but I do not agree with such Christian arrogance.
+[Text=I CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=Catholic CharacterOffsetBegin=170 CharacterOffsetEnd=178 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=WP] [Text=goes CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=TO] [Text=church CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=every CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=week CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=,] [Text=but CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=RB] [Text=agree CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=IN] [Text=such CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=JJ] [Text=Christian CharacterOffsetBegin=239 CharacterOffsetEnd=248 PartOfSpeech=JJ] [Text=arrogance CharacterOffsetBegin=249 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=.] 
+root(ROOT-0, Catholic-4)
+nsubj(Catholic-4, I-1)
+cop(Catholic-4, am-2)
+det(Catholic-4, a-3)
+nsubj(goes-6, who-5)
+rcmod(Catholic-4, goes-6)
+prep(goes-6, to-7)
+pobj(to-7, church-8)
+det(week-10, every-9)
+tmod(goes-6, week-10)
+punct(Catholic-4, ,-11)
+cc(Catholic-4, but-12)
+nsubj(agree-16, I-13)
+aux(agree-16, do-14)
+neg(agree-16, not-15)
+conj(Catholic-4, agree-16)
+prep(agree-16, with-17)
+amod(arrogance-20, such-18)
+amod(arrogance-20, Christian-19)
+pobj(with-17, arrogance-20)
+punct(Catholic-4, .-21)
+
+Sentence #5 (17 tokens):
+This is the worst time travel movie I have ever seen and I've seen Timeline.
+[Text=This CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=JJS] [Text=time CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=travel CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=326 CharacterOffsetEnd=330 PartOfSpeech=VBN] [Text=Timeline CharacterOffsetBegin=331 CharacterOffsetEnd=339 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=.] 
+root(ROOT-0, time-5)
+nsubj(time-5, This-1)
+cop(time-5, is-2)
+det(time-5, the-3)
+amod(time-5, worst-4)
+nn(movie-7, travel-6)
+dep(time-5, movie-7)
+nsubj(seen-11, I-8)
+aux(seen-11, have-9)
+advmod(seen-11, ever-10)
+rcmod(movie-7, seen-11)
+cc(seen-11, and-12)
+nsubj(seen-15, I-13)
+aux(seen-15, 've-14)
+conj(seen-11, seen-15)
+dobj(seen-15, Timeline-16)
+punct(time-5, .-17)
+

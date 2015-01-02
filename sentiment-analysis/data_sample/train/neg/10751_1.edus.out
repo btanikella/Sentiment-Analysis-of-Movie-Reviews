@@ -1,0 +1,201 @@
+Sentence #1 (15 tokens):
+Why did I waste my money on this on the last day of Sundance?
+[Text=Why CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=PRP] [Text=waste CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=VB] [Text=my CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=PRP$] [Text=money CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=DT] [Text=on CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT] [Text=last CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=JJ] [Text=day CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=IN] [Text=Sundance CharacterOffsetBegin=56 CharacterOffsetEnd=64 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=.] 
+root(ROOT-0, waste-4)
+advmod(waste-4, Why-1)
+aux(waste-4, did-2)
+nsubj(waste-4, I-3)
+poss(money-6, my-5)
+dobj(waste-4, money-6)
+prep(waste-4, on-7)
+pobj(on-7, this-8)
+prep(waste-4, on-9)
+det(day-12, the-10)
+amod(day-12, last-11)
+pobj(on-9, day-12)
+prep(day-12, of-13)
+pobj(of-13, Sundance-14)
+punct(waste-4, ?-15)
+
+Sentence #2 (13 tokens):
+I want a refund... Can I have my $16 back?
+[Text=I CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=DT] [Text=refund CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=:] [Text=Can CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=MD] [Text=I CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=VB] [Text=my CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=PRP$] [Text=$ CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=$] [Text=16 CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=CD] [Text=back CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.] 
+root(ROOT-0, want-2)
+nsubj(want-2, I-1)
+det(refund-4, a-3)
+dobj(want-2, refund-4)
+punct(want-2, ...-5)
+aux(have-8, Can-6)
+nsubj(have-8, I-7)
+parataxis(want-2, have-8)
+poss($-10, my-9)
+dobj(have-8, $-10)
+num($-10, 16-11)
+advmod(have-8, back-12)
+punct(want-2, ?-13)
+
+Sentence #3 (18 tokens):
+While I was watching this film I kept waiting for something to happen, nothing did happen.
+[Text=While CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=VBD] [Text=watching CharacterOffsetBegin=129 CharacterOffsetEnd=137 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=PRP] [Text=kept CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=VBD] [Text=waiting CharacterOffsetBegin=155 CharacterOffsetEnd=162 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=IN] [Text=something CharacterOffsetBegin=167 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=TO] [Text=happen CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=,] [Text=nothing CharacterOffsetBegin=188 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VBD] [Text=happen CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=.] 
+root(ROOT-0, happen-17)
+mark(watching-4, While-1)
+nsubj(watching-4, I-2)
+aux(watching-4, was-3)
+advcl(kept-8, watching-4)
+det(film-6, this-5)
+dobj(watching-4, film-6)
+nsubj(kept-8, I-7)
+advcl(happen-17, kept-8)
+xcomp(kept-8, waiting-9)
+prep(waiting-9, for-10)
+pobj(for-10, something-11)
+aux(happen-13, to-12)
+infmod(something-11, happen-13)
+punct(happen-17, ,-14)
+nsubj(happen-17, nothing-15)
+aux(happen-17, did-16)
+punct(happen-17, .-18)
+
+Sentence #4 (27 tokens):
+The only way I even knew what it was supposed to be about was by reading the plot, which was not really like the film.
+[Text=The CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=PRP] [Text=even CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=RB] [Text=knew CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=VBD] [Text=what CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=VBD] [Text=supposed CharacterOffsetBegin=249 CharacterOffsetEnd=257 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=RB] [Text=was CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=VBD] [Text=by CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=IN] [Text=reading CharacterOffsetBegin=277 CharacterOffsetEnd=284 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=,] [Text=which CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=309 CharacterOffsetEnd=315 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=.] 
+root(ROOT-0, way-3)
+det(way-3, The-1)
+amod(way-3, only-2)
+nsubj(knew-6, I-4)
+advmod(knew-6, even-5)
+rcmod(way-3, knew-6)
+dobj(supposed-10, what-7)
+nsubjpass(supposed-10, it-8)
+auxpass(supposed-10, was-9)
+csubj(was-14, supposed-10)
+aux(about-13, to-11)
+cop(about-13, be-12)
+xcomp(supposed-10, about-13)
+ccomp(knew-6, was-14)
+prep(was-14, by-15)
+pcomp(by-15, reading-16)
+det(plot-18, the-17)
+dobj(reading-16, plot-18)
+punct(plot-18, ,-19)
+nsubj(really-23, which-20)
+cop(really-23, was-21)
+neg(really-23, not-22)
+rcmod(plot-18, really-23)
+prep(really-23, like-24)
+det(film-26, the-25)
+pobj(like-24, film-26)
+punct(way-3, .-27)
+
+Sentence #5 (15 tokens):
+why did the director zoom in with their handy cam and then zoom out?
+[Text=why CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=347 CharacterOffsetEnd=355 PartOfSpeech=NN] [Text=zoom CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=369 CharacterOffsetEnd=374 PartOfSpeech=PRP$] [Text=handy CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=JJ] [Text=cam CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=RB] [Text=zoom CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=RP] [Text=? CharacterOffsetBegin=402 CharacterOffsetEnd=403 PartOfSpeech=.] 
+root(ROOT-0, zoom-5)
+advmod(zoom-5, why-1)
+aux(zoom-5, did-2)
+det(director-4, the-3)
+nsubj(zoom-5, director-4)
+prep(zoom-5, in-6)
+pcomp(in-6, with-7)
+poss(cam-10, their-8)
+amod(cam-10, handy-9)
+pobj(with-7, cam-10)
+cc(zoom-5, and-11)
+advmod(zoom-5, then-12)
+dep(zoom-5, zoom-13)
+prt(zoom-13, out-14)
+punct(zoom-5, ?-15)
+
+Sentence #6 (6 tokens):
+It was not very artistic.
+[Text=It CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=RB] [Text=artistic CharacterOffsetBegin=424 CharacterOffsetEnd=432 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=432 CharacterOffsetEnd=433 PartOfSpeech=.] 
+root(ROOT-0, artistic-5)
+nsubj(artistic-5, It-1)
+cop(artistic-5, was-2)
+neg(artistic-5, not-3)
+advmod(artistic-5, very-4)
+punct(artistic-5, .-6)
+
+Sentence #7 (13 tokens):
+Why did the director show Lulu filing her nails for fifteen minutes?
+[Text=Why CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=WRB] [Text=did CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=450 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=show CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=NN] [Text=Lulu CharacterOffsetBegin=464 CharacterOffsetEnd=468 PartOfSpeech=NNP] [Text=filing CharacterOffsetBegin=469 CharacterOffsetEnd=475 PartOfSpeech=VBG] [Text=her CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=PRP$] [Text=nails CharacterOffsetBegin=480 CharacterOffsetEnd=485 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=IN] [Text=fifteen CharacterOffsetBegin=490 CharacterOffsetEnd=497 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=498 CharacterOffsetEnd=505 PartOfSpeech=NNS] [Text=? CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=.] 
+root(ROOT-0, Why-1)
+dep(Why-1, did-2)
+det(show-5, the-3)
+nn(show-5, director-4)
+dobj(did-2, show-5)
+nsubj(filing-7, Lulu-6)
+rcmod(show-5, filing-7)
+poss(nails-9, her-8)
+dobj(filing-7, nails-9)
+prep(filing-7, for-10)
+num(minutes-12, fifteen-11)
+pobj(for-10, minutes-12)
+punct(Why-1, ?-13)
+
+Sentence #8 (16 tokens):
+Why is it when the actors tried to speak they sounded like they were reading?
+[Text=Why CharacterOffsetBegin=511 CharacterOffsetEnd=514 PartOfSpeech=WRB] [Text=is CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=PRP] [Text=when CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=530 CharacterOffsetEnd=536 PartOfSpeech=NNS] [Text=tried CharacterOffsetBegin=537 CharacterOffsetEnd=542 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=TO] [Text=speak CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=VB] [Text=they CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=PRP] [Text=sounded CharacterOffsetBegin=557 CharacterOffsetEnd=564 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=575 CharacterOffsetEnd=579 PartOfSpeech=VBD] [Text=reading CharacterOffsetBegin=580 CharacterOffsetEnd=587 PartOfSpeech=VBG] [Text=? CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=.] 
+root(ROOT-0, it-3)
+advmod(it-3, Why-1)
+cop(it-3, is-2)
+advmod(tried-7, when-4)
+det(actors-6, the-5)
+nsubj(tried-7, actors-6)
+rcmod(it-3, tried-7)
+aux(speak-9, to-8)
+xcomp(tried-7, speak-9)
+nsubj(sounded-11, they-10)
+ccomp(speak-9, sounded-11)
+mark(reading-15, like-12)
+nsubj(reading-15, they-13)
+aux(reading-15, were-14)
+advcl(sounded-11, reading-15)
+punct(it-3, ?-16)
+
+Sentence #9 (6 tokens):
+Or was that the point?
+[Text=Or CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=596 CharacterOffsetEnd=599 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=600 CharacterOffsetEnd=604 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=DT] [Text=point CharacterOffsetBegin=609 CharacterOffsetEnd=614 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=614 CharacterOffsetEnd=615 PartOfSpeech=.] 
+root(ROOT-0, was-2)
+cc(was-2, Or-1)
+dep(point-5, that-3)
+det(point-5, the-4)
+dep(was-2, point-5)
+punct(was-2, ?-6)
+
+Sentence #10 (32 tokens):
+I felt like Phantom Love had no story at all, and to be honest I felt like my friends vacation videos had a much higher entertainment value than this film.
+[Text=I CharacterOffsetBegin=620 CharacterOffsetEnd=621 PartOfSpeech=PRP] [Text=felt CharacterOffsetBegin=622 CharacterOffsetEnd=626 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=IN] [Text=Phantom CharacterOffsetBegin=632 CharacterOffsetEnd=639 PartOfSpeech=NNP] [Text=Love CharacterOffsetBegin=640 CharacterOffsetEnd=644 PartOfSpeech=NNP] [Text=had CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=664 CharacterOffsetEnd=665 PartOfSpeech=,] [Text=and CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=CC] [Text=to CharacterOffsetBegin=670 CharacterOffsetEnd=672 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=VB] [Text=honest CharacterOffsetBegin=676 CharacterOffsetEnd=682 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=683 CharacterOffsetEnd=684 PartOfSpeech=PRP] [Text=felt CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=695 CharacterOffsetEnd=697 PartOfSpeech=PRP$] [Text=friends CharacterOffsetBegin=698 CharacterOffsetEnd=705 PartOfSpeech=NNS] [Text=vacation CharacterOffsetBegin=706 CharacterOffsetEnd=714 PartOfSpeech=NN] [Text=videos CharacterOffsetBegin=715 CharacterOffsetEnd=721 PartOfSpeech=NNS] [Text=had CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=726 CharacterOffsetEnd=727 PartOfSpeech=DT] [Text=much CharacterOffsetBegin=728 CharacterOffsetEnd=732 PartOfSpeech=RB] [Text=higher CharacterOffsetBegin=733 CharacterOffsetEnd=739 PartOfSpeech=JJR] [Text=entertainment CharacterOffsetBegin=740 CharacterOffsetEnd=753 PartOfSpeech=NN] [Text=value CharacterOffsetBegin=754 CharacterOffsetEnd=759 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=760 CharacterOffsetEnd=764 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=765 CharacterOffsetEnd=769 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=770 CharacterOffsetEnd=774 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=774 CharacterOffsetEnd=775 PartOfSpeech=.] 
+root(ROOT-0, felt-2)
+nsubj(felt-2, I-1)
+prep(felt-2, like-3)
+nn(Love-5, Phantom-4)
+pobj(like-3, Love-5)
+ccomp(felt-2, had-6)
+det(story-8, no-7)
+dobj(had-6, story-8)
+advmod(story-8, at-9)
+pobj(at-9, all-10)
+punct(story-8, ,-11)
+cc(story-8, and-12)
+aux(honest-15, to-13)
+cop(honest-15, be-14)
+conj(story-8, honest-15)
+nsubj(felt-17, I-16)
+rcmod(honest-15, felt-17)
+prep(felt-17, like-18)
+poss(friends-20, my-19)
+nsubj(videos-22, friends-20)
+nn(videos-22, vacation-21)
+pobj(like-18, videos-22)
+partmod(videos-22, had-23)
+det(value-28, a-24)
+advmod(higher-26, much-25)
+amod(value-28, higher-26)
+nn(value-28, entertainment-27)
+dobj(had-23, value-28)
+prep(value-28, than-29)
+det(film-31, this-30)
+pobj(than-29, film-31)
+punct(felt-2, .-32)
+

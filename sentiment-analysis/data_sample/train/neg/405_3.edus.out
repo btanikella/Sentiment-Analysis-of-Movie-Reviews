@@ -1,0 +1,202 @@
+Sentence #1 (13 tokens):
+This movie is worth watching if you enjoy marvelling over special effects.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=worth CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=watching CharacterOffsetBegin=24 CharacterOffsetEnd=32 PartOfSpeech=VBG] [Text=if CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=PRP] [Text=enjoy CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=VBP] [Text=marvelling CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=VBG] [Text=over CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=IN] [Text=special CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=JJ] [Text=effects CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=.] 
+root(ROOT-0, worth-4)
+det(movie-2, This-1)
+nsubj(worth-4, movie-2)
+cop(worth-4, is-3)
+dep(worth-4, watching-5)
+mark(enjoy-8, if-6)
+nsubj(enjoy-8, you-7)
+advcl(watching-5, enjoy-8)
+dobj(enjoy-8, marvelling-9)
+prep(marvelling-9, over-10)
+amod(effects-12, special-11)
+pobj(over-10, effects-12)
+punct(worth-4, .-13)
+
+Sentence #2 (19 tokens):
+There are some interesting visuals.Aside from that, it's typical nineties/aughties hollywood fare of dazzle without substance.
+[Text=There CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=VBP] [Text=some CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=DT] [Text=interesting CharacterOffsetBegin=98 CharacterOffsetEnd=109 PartOfSpeech=JJ] [Text=visuals.Aside CharacterOffsetBegin=110 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=,] [Text=it CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=VBZ] [Text=typical CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=nineties/aughties CharacterOffsetBegin=148 CharacterOffsetEnd=165 PartOfSpeech=NNS] [Text=hollywood CharacterOffsetBegin=166 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=fare CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=dazzle CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=NN] [Text=without CharacterOffsetBegin=191 CharacterOffsetEnd=198 PartOfSpeech=IN] [Text=substance CharacterOffsetBegin=199 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+det(visuals.Aside-5, some-3)
+amod(visuals.Aside-5, interesting-4)
+nsubj(are-2, visuals.Aside-5)
+prep(visuals.Aside-5, from-6)
+pobj(from-6, that-7)
+punct(are-2, ,-8)
+nsubj(fare-14, it-9)
+cop(fare-14, 's-10)
+amod(fare-14, typical-11)
+nn(fare-14, nineties/aughties-12)
+nn(fare-14, hollywood-13)
+ccomp(are-2, fare-14)
+prep(fare-14, of-15)
+pobj(of-15, dazzle-16)
+prep(fare-14, without-17)
+pobj(without-17, substance-18)
+punct(are-2, .-19)
+
+Sentence #3 (12 tokens):
+True to the title.It's not worth picking apart the story.
+[Text=True CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=DT] [Text=title.It CharacterOffsetBegin=226 CharacterOffsetEnd=234 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=POS] [Text=not CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=JJ] [Text=picking CharacterOffsetBegin=247 CharacterOffsetEnd=254 PartOfSpeech=VBG] [Text=apart CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, True-1)
+prep(True-1, to-2)
+det(title.It-4, the-3)
+pobj(to-2, title.It-4)
+possessive(title.It-4, 's-5)
+neg(worth-7, not-6)
+dep(title.It-4, worth-7)
+dep(worth-7, picking-8)
+advmod(picking-8, apart-9)
+det(story-11, the-10)
+dobj(picking-8, story-11)
+punct(True-1, .-12)
+
+Sentence #4 (10 tokens):
+That's like performing brain surgery on a dinosaur.
+[Text=That CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=IN] [Text=performing CharacterOffsetBegin=288 CharacterOffsetEnd=298 PartOfSpeech=VBG] [Text=brain CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=NN] [Text=surgery CharacterOffsetBegin=305 CharacterOffsetEnd=312 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=dinosaur CharacterOffsetBegin=318 CharacterOffsetEnd=326 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+nsubj('s-2, That-1)
+prep('s-2, like-3)
+amod(surgery-6, performing-4)
+nn(surgery-6, brain-5)
+pobj(like-3, surgery-6)
+prep(surgery-6, on-7)
+det(dinosaur-9, a-8)
+pobj(on-7, dinosaur-9)
+punct('s-2, .-10)
+
+Sentence #5 (9 tokens):
+There's not much there to begin with.
+[Text=There CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=RB] [Text=there CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=TO] [Text=begin CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=368 CharacterOffsetEnd=369 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+neg('s-2, not-3)
+advmod(there-5, much-4)
+advmod('s-2, there-5)
+aux(begin-7, to-6)
+xcomp('s-2, begin-7)
+prep(begin-7, with-8)
+punct('s-2, .-9)
+
+Sentence #6 (9 tokens):
+It's nothing original and not very special.
+[Text=It CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=379 CharacterOffsetEnd=386 PartOfSpeech=NN] [Text=original CharacterOffsetBegin=387 CharacterOffsetEnd=395 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=RB] [Text=special CharacterOffsetBegin=409 CharacterOffsetEnd=416 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=.] 
+root(ROOT-0, nothing-3)
+nsubj(nothing-3, It-1)
+cop(nothing-3, 's-2)
+amod(nothing-3, original-4)
+cc(original-4, and-5)
+conj(original-4, not-6)
+advmod(special-8, very-7)
+dep(original-4, special-8)
+punct(nothing-3, .-9)
+
+Sentence #7 (11 tokens):
+So don't go in for the story at all.
+[Text=So CharacterOffsetBegin=422 CharacterOffsetEnd=424 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=RB] [Text=go CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=451 CharacterOffsetEnd=453 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=.] 
+root(ROOT-0, go-4)
+advmod(go-4, So-1)
+aux(go-4, do-2)
+neg(go-4, n't-3)
+prep(go-4, in-5)
+pcomp(in-5, for-6)
+det(story-8, the-7)
+pobj(for-6, story-8)
+advmod(story-8, at-9)
+pobj(at-9, all-10)
+punct(go-4, .-11)
+
+Sentence #8 (37 tokens):
+Just look at the effects.As has been mentioned, it got a little flashy at the end, diluting the purity of great FX treatment of an invisible (and at times half invisible) man.
+[Text=Just CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=RB] [Text=look CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=DT] [Text=effects.As CharacterOffsetBegin=480 CharacterOffsetEnd=490 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=VBN] [Text=mentioned CharacterOffsetBegin=500 CharacterOffsetEnd=509 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=,] [Text=it CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=JJ] [Text=flashy CharacterOffsetBegin=527 CharacterOffsetEnd=533 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=,] [Text=diluting CharacterOffsetBegin=546 CharacterOffsetEnd=554 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT] [Text=purity CharacterOffsetBegin=559 CharacterOffsetEnd=565 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=IN] [Text=great CharacterOffsetBegin=569 CharacterOffsetEnd=574 PartOfSpeech=JJ] [Text=FX CharacterOffsetBegin=575 CharacterOffsetEnd=577 PartOfSpeech=NN] [Text=treatment CharacterOffsetBegin=578 CharacterOffsetEnd=587 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=591 CharacterOffsetEnd=593 PartOfSpeech=DT] [Text=invisible CharacterOffsetBegin=594 CharacterOffsetEnd=603 PartOfSpeech=JJ] [Text=-LRB- CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=-LRB-] [Text=and CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=CC] [Text=at CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=IN] [Text=times CharacterOffsetBegin=612 CharacterOffsetEnd=617 PartOfSpeech=NNS] [Text=half CharacterOffsetBegin=618 CharacterOffsetEnd=622 PartOfSpeech=JJ] [Text=invisible CharacterOffsetBegin=623 CharacterOffsetEnd=632 PartOfSpeech=JJ] [Text=-RRB- CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=-RRB-] [Text=man CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=637 CharacterOffsetEnd=638 PartOfSpeech=.] 
+root(ROOT-0, mentioned-8)
+advmod(look-2, Just-1)
+nsubjpass(mentioned-8, look-2)
+prep(look-2, at-3)
+det(effects.As-5, the-4)
+pobj(at-3, effects.As-5)
+aux(mentioned-8, has-6)
+auxpass(mentioned-8, been-7)
+punct(mentioned-8, ,-9)
+nsubj(got-11, it-10)
+ccomp(mentioned-8, got-11)
+det(flashy-14, a-12)
+amod(flashy-14, little-13)
+dobj(got-11, flashy-14)
+prep(flashy-14, at-15)
+det(end-17, the-16)
+pobj(at-15, end-17)
+punct(mentioned-8, ,-18)
+xcomp(mentioned-8, diluting-19)
+det(purity-21, the-20)
+dobj(diluting-19, purity-21)
+prep(purity-21, of-22)
+amod(treatment-25, great-23)
+nn(treatment-25, FX-24)
+pobj(of-22, treatment-25)
+prep(treatment-25, of-26)
+pobj(of-26, an-27)
+dep(an-27, invisible-28)
+dep(invisible-28, -LRB--29)
+cc(-LRB--29, and-30)
+dep(and-30, at-31)
+dep(man-36, times-32)
+amod(invisible-34, half-33)
+amod(man-36, invisible-34)
+punct(man-36, -RRB--35)
+pobj(at-31, man-36)
+punct(and-30, .-37)
+
+Sentence #9 (23 tokens):
+However if you ignore the "standard" pyrotechnics, it's a sight to behold (or not to behold).
+[Text=However CharacterOffsetBegin=643 CharacterOffsetEnd=650 PartOfSpeech=RB] [Text=if CharacterOffsetBegin=651 CharacterOffsetEnd=653 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=PRP] [Text=ignore CharacterOffsetBegin=658 CharacterOffsetEnd=664 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=669 CharacterOffsetEnd=670 PartOfSpeech=``] [Text=standard CharacterOffsetBegin=670 CharacterOffsetEnd=678 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=''] [Text=pyrotechnics CharacterOffsetBegin=680 CharacterOffsetEnd=692 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=692 CharacterOffsetEnd=693 PartOfSpeech=,] [Text=it CharacterOffsetBegin=694 CharacterOffsetEnd=696 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=696 CharacterOffsetEnd=698 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=699 CharacterOffsetEnd=700 PartOfSpeech=DT] [Text=sight CharacterOffsetBegin=701 CharacterOffsetEnd=706 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=707 CharacterOffsetEnd=709 PartOfSpeech=TO] [Text=behold CharacterOffsetBegin=710 CharacterOffsetEnd=716 PartOfSpeech=VB] [Text=-LRB- CharacterOffsetBegin=717 CharacterOffsetEnd=718 PartOfSpeech=-LRB-] [Text=or CharacterOffsetBegin=718 CharacterOffsetEnd=720 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=721 CharacterOffsetEnd=724 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=725 CharacterOffsetEnd=727 PartOfSpeech=TO] [Text=behold CharacterOffsetBegin=728 CharacterOffsetEnd=734 PartOfSpeech=VB] [Text=-RRB- CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=735 CharacterOffsetEnd=736 PartOfSpeech=.] 
+root(ROOT-0, sight-14)
+advmod(ignore-4, However-1)
+mark(ignore-4, if-2)
+nsubj(ignore-4, you-3)
+advcl(sight-14, ignore-4)
+det(pyrotechnics-9, the-5)
+punct(pyrotechnics-9, ``-6)
+amod(pyrotechnics-9, standard-7)
+punct(pyrotechnics-9, ''-8)
+dobj(ignore-4, pyrotechnics-9)
+punct(sight-14, ,-10)
+nsubj(sight-14, it-11)
+cop(sight-14, 's-12)
+det(sight-14, a-13)
+aux(behold-16, to-15)
+infmod(sight-14, behold-16)
+punct(not-19, -LRB--17)
+cc(not-19, or-18)
+dep(behold-16, not-19)
+aux(behold-21, to-20)
+xcomp(not-19, behold-21)
+punct(behold-21, -RRB--22)
+punct(sight-14, .-23)
+
+Sentence #10 (19 tokens):
+All in all, it's a decent FX film worth seeing for that purpose and that alone.
+[Text=All CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=DT] [Text=in CharacterOffsetBegin=740 CharacterOffsetEnd=742 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=746 CharacterOffsetEnd=747 PartOfSpeech=,] [Text=it CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=750 CharacterOffsetEnd=752 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=753 CharacterOffsetEnd=754 PartOfSpeech=DT] [Text=decent CharacterOffsetBegin=755 CharacterOffsetEnd=761 PartOfSpeech=JJ] [Text=FX CharacterOffsetBegin=762 CharacterOffsetEnd=764 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=765 CharacterOffsetEnd=769 PartOfSpeech=NN] [Text=worth CharacterOffsetBegin=770 CharacterOffsetEnd=775 PartOfSpeech=JJ] [Text=seeing CharacterOffsetBegin=776 CharacterOffsetEnd=782 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=783 CharacterOffsetEnd=786 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=787 CharacterOffsetEnd=791 PartOfSpeech=DT] [Text=purpose CharacterOffsetBegin=792 CharacterOffsetEnd=799 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=800 CharacterOffsetEnd=803 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=804 CharacterOffsetEnd=808 PartOfSpeech=IN] [Text=alone CharacterOffsetBegin=809 CharacterOffsetEnd=814 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=814 CharacterOffsetEnd=815 PartOfSpeech=.] 
+root(ROOT-0, worth-11)
+dep(film-10, All-1)
+prep(All-1, in-2)
+pobj(in-2, all-3)
+punct(film-10, ,-4)
+nsubj(film-10, it-5)
+cop(film-10, 's-6)
+det(film-10, a-7)
+amod(film-10, decent-8)
+nn(film-10, FX-9)
+nn(worth-11, film-10)
+dep(worth-11, seeing-12)
+prep(seeing-12, for-13)
+det(purpose-15, that-14)
+pobj(for-13, purpose-15)
+cc(worth-11, and-16)
+conj(worth-11, that-17)
+advmod(that-17, alone-18)
+punct(worth-11, .-19)
+

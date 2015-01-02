@@ -1,0 +1,237 @@
+Sentence #1 (6 tokens):
+Man, this was hilarious.
+[Text=Man CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=,] [Text=this CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=VBD] [Text=hilarious CharacterOffsetBegin=18 CharacterOffsetEnd=27 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=.] 
+root(ROOT-0, hilarious-5)
+ccomp(hilarious-5, Man-1)
+punct(hilarious-5, ,-2)
+nsubj(hilarious-5, this-3)
+cop(hilarious-5, was-4)
+punct(hilarious-5, .-6)
+
+Sentence #2 (6 tokens):
+It should be under COMEDY.
+[Text=It CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=VB] [Text=under CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=IN] [Text=COMEDY CharacterOffsetBegin=52 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, be-3)
+nsubj(be-3, It-1)
+aux(be-3, should-2)
+prep(be-3, under-4)
+pobj(under-4, COMEDY-5)
+punct(be-3, .-6)
+
+Sentence #3 (3 tokens):
+Or STUPID.
+[Text=Or CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=CC] [Text=STUPID CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=.] 
+root(ROOT-0, STUPID-2)
+cc(STUPID-2, Or-1)
+punct(STUPID-2, .-3)
+
+Sentence #4 (15 tokens):
+It would have made realizing what a pile of stank this was much easier.
+[Text=It CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=VB] [Text=made CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=VBN] [Text=realizing CharacterOffsetBegin=98 CharacterOffsetEnd=107 PartOfSpeech=VBG] [Text=what CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=DT] [Text=pile CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN] [Text=stank CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=VBD] [Text=much CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=RB] [Text=easier CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=.] 
+root(ROOT-0, made-4)
+nsubj(made-4, It-1)
+aux(made-4, would-2)
+aux(made-4, have-3)
+xcomp(made-4, realizing-5)
+dep(realizing-5, what-6)
+det(pile-8, a-7)
+dep(what-6, pile-8)
+prep(pile-8, of-9)
+pobj(of-9, stank-10)
+nsubj(easier-14, this-11)
+cop(easier-14, was-12)
+advmod(easier-14, much-13)
+rcmod(pile-8, easier-14)
+punct(made-4, .-15)
+
+Sentence #5 (2 tokens):
+Seriously?
+[Text=Seriously CharacterOffsetBegin=155 CharacterOffsetEnd=164 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=.] 
+root(ROOT-0, Seriously-1)
+punct(Seriously-1, ?-2)
+
+Sentence #6 (12 tokens):
+I want anyone associated with this movie tased, effective immediately.
+[Text=I CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=VBP] [Text=anyone CharacterOffsetBegin=177 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=associated CharacterOffsetBegin=184 CharacterOffsetEnd=194 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=NN] [Text=tased CharacterOffsetBegin=211 CharacterOffsetEnd=216 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=,] [Text=effective CharacterOffsetBegin=218 CharacterOffsetEnd=227 PartOfSpeech=JJ] [Text=immediately CharacterOffsetBegin=228 CharacterOffsetEnd=239 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=.] 
+root(ROOT-0, want-2)
+nsubj(want-2, I-1)
+dobj(want-2, anyone-3)
+partmod(anyone-3, associated-4)
+mark(tased-8, with-5)
+det(movie-7, this-6)
+nsubj(tased-8, movie-7)
+advcl(associated-4, tased-8)
+punct(tased-8, ,-9)
+dep(tased-8, effective-10)
+advmod(effective-10, immediately-11)
+punct(want-2, .-12)
+
+Sentence #7 (22 tokens):
+For everyone who is thinking of watching this "movie", let''s go over a few plot points.
+[Text=For CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=IN] [Text=everyone CharacterOffsetBegin=249 CharacterOffsetEnd=257 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=VBZ] [Text=thinking CharacterOffsetBegin=265 CharacterOffsetEnd=273 PartOfSpeech=VBG] [Text=of CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=IN] [Text=watching CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=``] [Text=movie CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=''] [Text=, CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=,] [Text=let CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=VB] [Text='' CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=''] [Text=s CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=NNS] [Text=go CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=VBP] [Text=over CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=NN] [Text=points CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=.] 
+root(ROOT-0, let-13)
+prep(let-13, For-1)
+pobj(For-1, everyone-2)
+nsubj(thinking-5, who-3)
+aux(thinking-5, is-4)
+rcmod(everyone-2, thinking-5)
+prep(thinking-5, of-6)
+pcomp(of-6, watching-7)
+det(movie-10, this-8)
+punct(movie-10, ``-9)
+dobj(watching-7, movie-10)
+punct(movie-10, ''-11)
+punct(let-13, ,-12)
+punct(let-13, ''-14)
+nsubj(go-16, s-15)
+ccomp(let-13, go-16)
+prep(go-16, over-17)
+det(points-21, a-18)
+amod(points-21, few-19)
+nn(points-21, plot-20)
+pobj(over-17, points-21)
+punct(let-13, .-22)
+
+Sentence #8 (4 tokens):
+Oh, wait.
+[Text=Oh CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=,] [Text=wait CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=.] 
+root(ROOT-0, wait-3)
+discourse(wait-3, Oh-1)
+punct(wait-3, ,-2)
+punct(wait-3, .-4)
+
+Sentence #9 (5 tokens):
+There aren't any.
+[Text=There CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=RB] [Text=any CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=368 CharacterOffsetEnd=369 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+neg(are-2, n't-3)
+nsubj(are-2, any-4)
+punct(are-2, .-5)
+
+Sentence #10 (6 tokens):
+There is literally no plot.
+[Text=There CharacterOffsetBegin=374 CharacterOffsetEnd=379 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=VBZ] [Text=literally CharacterOffsetBegin=383 CharacterOffsetEnd=392 PartOfSpeech=RB] [Text=no CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=400 CharacterOffsetEnd=401 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+advmod(is-2, literally-3)
+det(plot-5, no-4)
+nsubj(is-2, plot-5)
+punct(is-2, .-6)
+
+Sentence #11 (28 tokens):
+I think Casper Van Dien was bored, and he decided to film something with some random someones, and miraculously, it somehow got on videotape.
+[Text=I CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=408 CharacterOffsetEnd=413 PartOfSpeech=VBP] [Text=Casper CharacterOffsetBegin=414 CharacterOffsetEnd=420 PartOfSpeech=NNP] [Text=Van CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=NNP] [Text=Dien CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=VBD] [Text=bored CharacterOffsetBegin=434 CharacterOffsetEnd=439 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=439 CharacterOffsetEnd=440 PartOfSpeech=,] [Text=and CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=PRP] [Text=decided CharacterOffsetBegin=448 CharacterOffsetEnd=455 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=TO] [Text=film CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=NN] [Text=something CharacterOffsetBegin=464 CharacterOffsetEnd=473 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=DT] [Text=random CharacterOffsetBegin=484 CharacterOffsetEnd=490 PartOfSpeech=JJ] [Text=someones CharacterOffsetBegin=491 CharacterOffsetEnd=499 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=499 CharacterOffsetEnd=500 PartOfSpeech=,] [Text=and CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=CC] [Text=miraculously CharacterOffsetBegin=505 CharacterOffsetEnd=517 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=,] [Text=it CharacterOffsetBegin=519 CharacterOffsetEnd=521 PartOfSpeech=PRP] [Text=somehow CharacterOffsetBegin=522 CharacterOffsetEnd=529 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=IN] [Text=videotape CharacterOffsetBegin=537 CharacterOffsetEnd=546 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+nn(Dien-5, Casper-3)
+nn(Dien-5, Van-4)
+nsubj(bored-7, Dien-5)
+cop(bored-7, was-6)
+ccomp(think-2, bored-7)
+punct(think-2, ,-8)
+cc(think-2, and-9)
+nsubj(decided-11, he-10)
+conj(think-2, decided-11)
+aux(film-13, to-12)
+xcomp(decided-11, film-13)
+dobj(film-13, something-14)
+prep(something-14, with-15)
+det(someones-18, some-16)
+amod(someones-18, random-17)
+pobj(with-15, someones-18)
+punct(think-2, ,-19)
+cc(think-2, and-20)
+advmod(got-25, miraculously-21)
+punct(got-25, ,-22)
+nsubj(got-25, it-23)
+advmod(got-25, somehow-24)
+conj(think-2, got-25)
+prep(got-25, on-26)
+pobj(on-26, videotape-27)
+punct(think-2, .-28)
+
+Sentence #12 (11 tokens):
+This movie is literally the worst movie of all time.
+[Text=This CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=557 CharacterOffsetEnd=562 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=VBZ] [Text=literally CharacterOffsetBegin=566 CharacterOffsetEnd=575 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=580 CharacterOffsetEnd=585 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=586 CharacterOffsetEnd=591 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=592 CharacterOffsetEnd=594 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=599 CharacterOffsetEnd=603 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+det(movie-2, This-1)
+nsubj(movie-7, movie-2)
+cop(movie-7, is-3)
+advmod(movie-7, literally-4)
+det(movie-7, the-5)
+amod(movie-7, worst-6)
+prep(movie-7, of-8)
+det(time-10, all-9)
+pobj(of-8, time-10)
+punct(movie-7, .-11)
+
+Sentence #13 (5 tokens):
+Don't believe me?
+[Text=Do CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=RB] [Text=believe CharacterOffsetBegin=615 CharacterOffsetEnd=622 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=.] 
+root(ROOT-0, believe-3)
+aux(believe-3, Do-1)
+neg(believe-3, n't-2)
+dobj(believe-3, me-4)
+punct(believe-3, ?-5)
+
+Sentence #14 (4 tokens):
+Go watch it.
+[Text=Go CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=VB] [Text=watch CharacterOffsetBegin=634 CharacterOffsetEnd=639 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=.] 
+root(ROOT-0, Go-1)
+xcomp(Go-1, watch-2)
+dobj(watch-2, it-3)
+punct(Go-1, .-4)
+
+Sentence #15 (5 tokens):
+Do it, man.
+[Text=Do CharacterOffsetBegin=648 CharacterOffsetEnd=650 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=651 CharacterOffsetEnd=653 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=,] [Text=man CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=658 CharacterOffsetEnd=659 PartOfSpeech=.] 
+root(ROOT-0, Do-1)
+dobj(Do-1, it-2)
+punct(it-2, ,-3)
+appos(it-2, man-4)
+punct(Do-1, .-5)
+
+Sentence #16 (4 tokens):
+I dare you.
+[Text=I CharacterOffsetBegin=664 CharacterOffsetEnd=665 PartOfSpeech=PRP] [Text=dare CharacterOffsetBegin=666 CharacterOffsetEnd=670 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=671 CharacterOffsetEnd=674 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=674 CharacterOffsetEnd=675 PartOfSpeech=.] 
+root(ROOT-0, dare-2)
+nsubj(dare-2, I-1)
+dobj(dare-2, you-3)
+punct(dare-2, .-4)
+
+Sentence #17 (9 tokens):
+But be prepared to gouge your eyes out.
+[Text=But CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=CC] [Text=be CharacterOffsetBegin=684 CharacterOffsetEnd=686 PartOfSpeech=VB] [Text=prepared CharacterOffsetBegin=687 CharacterOffsetEnd=695 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=696 CharacterOffsetEnd=698 PartOfSpeech=TO] [Text=gouge CharacterOffsetBegin=699 CharacterOffsetEnd=704 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=705 CharacterOffsetEnd=709 PartOfSpeech=PRP$] [Text=eyes CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=NNS] [Text=out CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=718 CharacterOffsetEnd=719 PartOfSpeech=.] 
+root(ROOT-0, prepared-3)
+cc(prepared-3, But-1)
+auxpass(prepared-3, be-2)
+aux(gouge-5, to-4)
+xcomp(prepared-3, gouge-5)
+poss(eyes-7, your-6)
+dobj(gouge-5, eyes-7)
+prt(gouge-5, out-8)
+punct(prepared-3, .-9)
+
+Sentence #18 (18 tokens):
+If you can sit through this without blowing a cow, you are very strong and courageous.
+[Text=If CharacterOffsetBegin=724 CharacterOffsetEnd=726 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=727 CharacterOffsetEnd=730 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=MD] [Text=sit CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=739 CharacterOffsetEnd=746 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=DT] [Text=without CharacterOffsetBegin=752 CharacterOffsetEnd=759 PartOfSpeech=IN] [Text=blowing CharacterOffsetBegin=760 CharacterOffsetEnd=767 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=768 CharacterOffsetEnd=769 PartOfSpeech=DT] [Text=cow CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=,] [Text=you CharacterOffsetBegin=775 CharacterOffsetEnd=778 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=VBP] [Text=very CharacterOffsetBegin=783 CharacterOffsetEnd=787 PartOfSpeech=RB] [Text=strong CharacterOffsetBegin=788 CharacterOffsetEnd=794 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=795 CharacterOffsetEnd=798 PartOfSpeech=CC] [Text=courageous CharacterOffsetBegin=799 CharacterOffsetEnd=809 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=809 CharacterOffsetEnd=810 PartOfSpeech=.] 
+root(ROOT-0, strong-15)
+mark(sit-4, If-1)
+nsubj(sit-4, you-2)
+aux(sit-4, can-3)
+advcl(strong-15, sit-4)
+prep(sit-4, through-5)
+pobj(through-5, this-6)
+prep(sit-4, without-7)
+pcomp(without-7, blowing-8)
+det(cow-10, a-9)
+dobj(blowing-8, cow-10)
+punct(strong-15, ,-11)
+nsubj(strong-15, you-12)
+cop(strong-15, are-13)
+advmod(strong-15, very-14)
+cc(strong-15, and-16)
+conj(strong-15, courageous-17)
+punct(strong-15, .-18)
+

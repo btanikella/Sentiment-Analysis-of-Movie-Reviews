@@ -1,0 +1,204 @@
+Sentence #1 (3 tokens):
+Loved Joan.
+[Text=Loved CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=VBD] [Text=Joan CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=.] 
+root(ROOT-0, Joan-2)
+nn(Joan-2, Loved-1)
+punct(Joan-2, .-3)
+
+Sentence #2 (3 tokens):
+Great performance.
+[Text=Great CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=26 CharacterOffsetEnd=37 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, performance-2)
+amod(performance-2, Great-1)
+punct(performance-2, .-3)
+
+Sentence #3 (7 tokens):
+What isn't she good in.
+[Text=What CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=RB] [Text=she CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=PRP] [Text=good CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=.] 
+root(ROOT-0, good-5)
+nsubj(good-5, What-1)
+cop(good-5, is-2)
+neg(good-5, n't-3)
+nsubj(good-5, she-4)
+prep(good-5, in-6)
+punct(good-5, .-7)
+
+Sentence #4 (17 tokens):
+I watched this film and then Jane Eyre right after... she just keeps getting better.
+[Text=I CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=RB] [Text=Jane CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=NNP] [Text=Eyre CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NNP] [Text=right CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=RB] [Text=after CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=IN] [Text=... CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=:] [Text=she CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=RB] [Text=keeps CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=VBZ] [Text=getting CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=VBG] [Text=better CharacterOffsetBegin=148 CharacterOffsetEnd=154 PartOfSpeech=RBR] [Text=. CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+det(film-4, this-3)
+dobj(watched-2, film-4)
+cc(watched-2, and-5)
+advmod(watched-2, then-6)
+nn(Eyre-8, Jane-7)
+dep(watched-2, Eyre-8)
+advmod(after-10, right-9)
+prep(Eyre-8, after-10)
+punct(keeps-14, ...-11)
+nsubj(keeps-14, she-12)
+advmod(keeps-14, just-13)
+pcomp(after-10, keeps-14)
+xcomp(keeps-14, getting-15)
+advmod(getting-15, better-16)
+punct(watched-2, .-17)
+
+Sentence #5 (5 tokens):
+My heart was racing.
+[Text=My CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=PRP$] [Text=heart CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=VBD] [Text=racing CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=.] 
+root(ROOT-0, racing-4)
+poss(heart-2, My-1)
+nsubj(racing-4, heart-2)
+aux(racing-4, was-3)
+punct(racing-4, .-5)
+
+Sentence #6 (5 tokens):
+Great old movie drama.
+[Text=Great CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=JJ] [Text=old CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=195 CharacterOffsetEnd=200 PartOfSpeech=NN] [Text=drama CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=.] 
+root(ROOT-0, drama-4)
+amod(drama-4, Great-1)
+amod(drama-4, old-2)
+nn(drama-4, movie-3)
+punct(drama-4, .-5)
+
+Sentence #7 (9 tokens):
+Just what i want from a classic movie.
+[Text=Just CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=RB] [Text=what CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=WP] [Text=i CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=FW] [Text=want CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=VBP] [Text=from CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=.] 
+root(ROOT-0, want-4)
+advmod(want-4, Just-1)
+dobj(want-4, what-2)
+nsubj(want-4, i-3)
+prep(want-4, from-5)
+det(movie-8, a-6)
+amod(movie-8, classic-7)
+pobj(from-5, movie-8)
+punct(want-4, .-9)
+
+Sentence #8 (8 tokens):
+Facial expressions are worth the whole film.
+[Text=Facial CharacterOffsetBegin=255 CharacterOffsetEnd=261 PartOfSpeech=JJ] [Text=expressions CharacterOffsetBegin=262 CharacterOffsetEnd=273 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=VBP] [Text=worth CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=.] 
+root(ROOT-0, worth-4)
+amod(expressions-2, Facial-1)
+nsubj(worth-4, expressions-2)
+cop(worth-4, are-3)
+det(film-7, the-5)
+amod(film-7, whole-6)
+dep(worth-4, film-7)
+punct(worth-4, .-8)
+
+Sentence #9 (9 tokens):
+I'm glad i have it on video.
+[Text=I CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=VBP] [Text=glad CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=JJ] [Text=i CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=FW] [Text=have CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=IN] [Text=video CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=.] 
+root(ROOT-0, glad-3)
+nsubj(glad-3, I-1)
+cop(glad-3, 'm-2)
+nsubj(have-5, i-4)
+ccomp(glad-3, have-5)
+dobj(have-5, it-6)
+prep(have-5, on-7)
+pobj(on-7, video-8)
+punct(glad-3, .-9)
+
+Sentence #10 (11 tokens):
+Don't know what more you need in a film.
+[Text=Do CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=RB] [Text=know CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=WP] [Text=more CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=RBR] [Text=you CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=PRP] [Text=need CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=VBP] [Text=in CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=376 CharacterOffsetEnd=377 PartOfSpeech=.] 
+root(ROOT-0, know-3)
+aux(know-3, Do-1)
+neg(know-3, n't-2)
+nsubj(need-7, what-4)
+advmod(need-7, more-5)
+nsubj(need-7, you-6)
+ccomp(know-3, need-7)
+prep(need-7, in-8)
+det(film-10, a-9)
+pobj(in-8, film-10)
+punct(know-3, .-11)
+
+Sentence #11 (12 tokens):
+Beautiful woman....wealth..... greed.....murder....detectives......
+[Text=Beautiful CharacterOffsetBegin=382 CharacterOffsetEnd=391 PartOfSpeech=JJ] [Text=woman CharacterOffsetBegin=392 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=:] [Text=wealth CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=407 CharacterOffsetEnd=412 PartOfSpeech=:] [Text=greed CharacterOffsetBegin=413 CharacterOffsetEnd=418 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=418 CharacterOffsetEnd=423 PartOfSpeech=:] [Text=murder CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=:] [Text=detectives CharacterOffsetBegin=433 CharacterOffsetEnd=443 PartOfSpeech=NNS] [Text=... CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=:] [Text=. CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=.] 
+root(ROOT-0, woman-2)
+amod(woman-2, Beautiful-1)
+punct(woman-2, ...-3)
+dep(woman-2, wealth-4)
+punct(woman-2, ...-5)
+dep(woman-2, greed-6)
+punct(woman-2, ...-7)
+dep(woman-2, murder-8)
+punct(woman-2, ...-9)
+dep(woman-2, detectives-10)
+punct(woman-2, ...-11)
+punct(woman-2, .-12)
+
+Sentence #12 (9 tokens):
+a trial.....The costumes are very nice.
+[Text=a CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=DT] [Text=trial CharacterOffsetBegin=451 CharacterOffsetEnd=456 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=:] [Text=The CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=DT] [Text=costumes CharacterOffsetBegin=465 CharacterOffsetEnd=473 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=VBP] [Text=very CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=RB] [Text=nice CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=.] 
+root(ROOT-0, trial-2)
+det(trial-2, a-1)
+punct(trial-2, ...-3)
+det(costumes-5, The-4)
+nsubj(nice-8, costumes-5)
+cop(nice-8, are-6)
+advmod(nice-8, very-7)
+dep(trial-2, nice-8)
+punct(trial-2, .-9)
+
+Sentence #13 (11 tokens):
+Makes me wonder what the budget was for this movie?
+[Text=Makes CharacterOffsetBegin=493 CharacterOffsetEnd=498 PartOfSpeech=VBZ] [Text=me CharacterOffsetBegin=499 CharacterOffsetEnd=501 PartOfSpeech=PRP] [Text=wonder CharacterOffsetBegin=502 CharacterOffsetEnd=508 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=509 CharacterOffsetEnd=513 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=budget CharacterOffsetBegin=518 CharacterOffsetEnd=524 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=VBD] [Text=for CharacterOffsetBegin=529 CharacterOffsetEnd=532 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=538 CharacterOffsetEnd=543 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=543 CharacterOffsetEnd=544 PartOfSpeech=.] 
+root(ROOT-0, Makes-1)
+nsubj(wonder-3, me-2)
+ccomp(Makes-1, wonder-3)
+dobj(was-7, what-4)
+det(budget-6, the-5)
+nsubj(was-7, budget-6)
+ccomp(wonder-3, was-7)
+prep(was-7, for-8)
+det(movie-10, this-9)
+pobj(for-8, movie-10)
+punct(Makes-1, ?-11)
+
+Sentence #14 (8 tokens):
+Wish they still made films like this.
+[Text=Wish CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=NNP] [Text=they CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=VBD] [Text=films CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=.] 
+root(ROOT-0, Wish-1)
+nsubj(made-4, they-2)
+advmod(made-4, still-3)
+rcmod(Wish-1, made-4)
+dobj(made-4, films-5)
+prep(made-4, like-6)
+pobj(like-6, this-7)
+punct(Wish-1, .-8)
+
+Sentence #15 (12 tokens):
+Whenever they try they just seem to make a cheesy movie.
+[Text=Whenever CharacterOffsetBegin=591 CharacterOffsetEnd=599 PartOfSpeech=NNP] [Text=they CharacterOffsetBegin=600 CharacterOffsetEnd=604 PartOfSpeech=PRP] [Text=try CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=609 CharacterOffsetEnd=613 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=614 CharacterOffsetEnd=618 PartOfSpeech=RB] [Text=seem CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=DT] [Text=cheesy CharacterOffsetBegin=634 CharacterOffsetEnd=640 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=641 CharacterOffsetEnd=646 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=.] 
+root(ROOT-0, Whenever-1)
+nsubj(try-3, they-2)
+rcmod(Whenever-1, try-3)
+nsubj(seem-6, they-4)
+advmod(seem-6, just-5)
+ccomp(try-3, seem-6)
+aux(make-8, to-7)
+xcomp(seem-6, make-8)
+det(movie-11, a-9)
+amod(movie-11, cheesy-10)
+dobj(make-8, movie-11)
+punct(Whenever-1, .-12)
+
+Sentence #16 (11 tokens):
+Films in black and white still hold a certain mystery.
+[Text=Films CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=IN] [Text=black CharacterOffsetBegin=661 CharacterOffsetEnd=666 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=CC] [Text=white CharacterOffsetBegin=671 CharacterOffsetEnd=676 PartOfSpeech=JJ] [Text=still CharacterOffsetBegin=677 CharacterOffsetEnd=682 PartOfSpeech=RB] [Text=hold CharacterOffsetBegin=683 CharacterOffsetEnd=687 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=DT] [Text=certain CharacterOffsetBegin=690 CharacterOffsetEnd=697 PartOfSpeech=JJ] [Text=mystery CharacterOffsetBegin=698 CharacterOffsetEnd=705 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=705 CharacterOffsetEnd=706 PartOfSpeech=.] 
+root(ROOT-0, Films-1)
+prep(Films-1, in-2)
+amod(hold-7, black-3)
+cc(black-3, and-4)
+conj(black-3, white-5)
+advmod(hold-7, still-6)
+pobj(in-2, hold-7)
+det(mystery-10, a-8)
+amod(mystery-10, certain-9)
+dobj(Films-1, mystery-10)
+punct(Films-1, .-11)
+

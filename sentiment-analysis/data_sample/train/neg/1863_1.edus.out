@@ -1,0 +1,78 @@
+Sentence #1 (7 tokens):
+and this movie has crossed it.
+[Text=and CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=VBZ] [Text=crossed CharacterOffsetBegin=23 CharacterOffsetEnd=30 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=.] 
+root(ROOT-0, has-4)
+cc(has-4, and-1)
+det(movie-3, this-2)
+nsubj(has-4, movie-3)
+dep(has-4, crossed-5)
+dobj(crossed-5, it-6)
+punct(has-4, .-7)
+
+Sentence #2 (12 tokens):
+I have never seen such a terrible movie in my life!
+[Text=I CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=VBP] [Text=never CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VBN] [Text=such CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=PDT] [Text=a CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=64 CharacterOffsetEnd=72 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.] 
+root(ROOT-0, seen-4)
+nsubj(seen-4, I-1)
+aux(seen-4, have-2)
+neg(seen-4, never-3)
+predet(movie-8, such-5)
+det(movie-8, a-6)
+amod(movie-8, terrible-7)
+dobj(seen-4, movie-8)
+prep(seen-4, in-9)
+poss(life-11, my-10)
+pobj(in-9, life-11)
+punct(seen-4, !-12)
+
+Sentence #3 (18 tokens):
+I mean, a kid's head getting cut off from the force of an empty sled?
+[Text=I CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=,] [Text=a CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=kid CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=POS] [Text=head CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=getting CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=VBG] [Text=cut CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=VBN] [Text=off CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=RP] [Text=from CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=DT] [Text=force CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=DT] [Text=empty CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=JJ] [Text=sled CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+punct(mean-2, ,-3)
+det(kid-5, a-4)
+poss(head-7, kid-5)
+possessive(kid-5, 's-6)
+nsubjpass(cut-9, head-7)
+auxpass(cut-9, getting-8)
+ccomp(mean-2, cut-9)
+prt(cut-9, off-10)
+prep(cut-9, from-11)
+det(force-13, the-12)
+pobj(from-11, force-13)
+prep(force-13, of-14)
+det(sled-17, an-15)
+amod(sled-17, empty-16)
+pobj(of-14, sled-17)
+punct(mean-2, ?-18)
+
+Sentence #4 (12 tokens):
+A snowman with a costume that has the seams clearly visible?
+[Text=A CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=snowman CharacterOffsetBegin=171 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=costume CharacterOffsetBegin=186 CharacterOffsetEnd=193 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=WDT] [Text=has CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=seams CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NNS] [Text=clearly CharacterOffsetBegin=213 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=visible CharacterOffsetBegin=221 CharacterOffsetEnd=228 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, snowman-2)
+det(snowman-2, A-1)
+prep(snowman-2, with-3)
+det(costume-5, a-4)
+pobj(with-3, costume-5)
+nsubj(has-7, that-6)
+rcmod(costume-5, has-7)
+det(seams-9, the-8)
+nsubj(visible-11, seams-9)
+advmod(visible-11, clearly-10)
+ccomp(has-7, visible-11)
+punct(snowman-2, ?-12)
+
+Sentence #5 (9 tokens):
+This was a pitiful excuse for a movie.
+[Text=This CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=DT] [Text=pitiful CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=JJ] [Text=excuse CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, excuse-5)
+nsubj(excuse-5, This-1)
+cop(excuse-5, was-2)
+det(excuse-5, a-3)
+amod(excuse-5, pitiful-4)
+prep(excuse-5, for-6)
+det(movie-8, a-7)
+pobj(for-6, movie-8)
+punct(excuse-5, .-9)
+

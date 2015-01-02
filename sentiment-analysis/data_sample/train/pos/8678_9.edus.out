@@ -1,0 +1,255 @@
+Sentence #1 (4 tokens):
+Butch the peacemaker?
+[Text=Butch CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=peacemaker CharacterOffsetBegin=14 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=.] 
+root(ROOT-0, peacemaker-3)
+nn(peacemaker-3, Butch-1)
+det(peacemaker-3, the-2)
+punct(peacemaker-3, ?-4)
+
+Sentence #2 (2 tokens):
+Evidently.
+[Text=Evidently CharacterOffsetBegin=30 CharacterOffsetEnd=39 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=.] 
+root(ROOT-0, Evidently-1)
+punct(Evidently-1, .-2)
+
+Sentence #3 (27 tokens):
+After the violent beginning with Spike, Tom and Jerry all swinging away at each other, Butch calls a halt and wants to know why.
+[Text=After CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=violent CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=beginning CharacterOffsetBegin=63 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=IN] [Text=Spike CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=,] [Text=Tom CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=CC] [Text=Jerry CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NNP] [Text=all CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=swinging CharacterOffsetBegin=103 CharacterOffsetEnd=111 PartOfSpeech=VBG] [Text=away CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=IN] [Text=each CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=,] [Text=Butch CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NNP] [Text=calls CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=DT] [Text=halt CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC] [Text=wants CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=TO] [Text=know CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=VB] [Text=why CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=WRB] [Text=. CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=.] 
+root(ROOT-0, calls-19)
+prep(calls-19, After-1)
+det(beginning-4, the-2)
+amod(beginning-4, violent-3)
+pobj(After-1, beginning-4)
+prep(beginning-4, with-5)
+pobj(with-5, Spike-6)
+punct(Spike-6, ,-7)
+conj(Spike-6, Tom-8)
+cc(Spike-6, and-9)
+conj(Spike-6, Jerry-10)
+dep(swinging-12, all-11)
+dep(beginning-4, swinging-12)
+advmod(swinging-12, away-13)
+prep(swinging-12, at-14)
+det(other-16, each-15)
+pobj(at-14, other-16)
+punct(calls-19, ,-17)
+nsubj(calls-19, Butch-18)
+det(halt-21, a-20)
+dobj(calls-19, halt-21)
+cc(calls-19, and-22)
+conj(calls-19, wants-23)
+aux(know-25, to-24)
+xcomp(wants-23, know-25)
+dep(know-25, why-26)
+punct(calls-19, .-27)
+
+Sentence #4 (6 tokens):
+It's a good question.
+[Text=It CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=JJ] [Text=question CharacterOffsetBegin=190 CharacterOffsetEnd=198 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=.] 
+root(ROOT-0, question-5)
+nsubj(question-5, It-1)
+cop(question-5, 's-2)
+det(question-5, a-3)
+amod(question-5, good-4)
+punct(question-5, .-6)
+
+Sentence #5 (13 tokens):
+"Cats can get along with dogs, can't they?"
+[Text=`` CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=``] [Text=Cats CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=NNS] [Text=can CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=VB] [Text=along CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=IN] [Text=dogs CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=,] [Text=ca CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=RB] [Text=they CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=.] [Text='' CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=''] 
+root(ROOT-0, get-4)
+punct(get-4, ``-1)
+nsubj(get-4, Cats-2)
+aux(get-4, can-3)
+prep(get-4, along-5)
+pcomp(along-5, with-6)
+pobj(with-6, dogs-7)
+punct(get-4, ,-8)
+dep(get-4, ca-9)
+neg(they-11, n't-10)
+dep(ca-9, they-11)
+punct(get-4, ?-12)
+punct(get-4, ''-13)
+
+Sentence #6 (11 tokens):
+he asks Tom, who nods his head in agreement.
+[Text=he CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=PRP] [Text=asks CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=VBZ] [Text=Tom CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=,] [Text=who CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=WP] [Text=nods CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBZ] [Text=his CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=PRP$] [Text=head CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=agreement CharacterOffsetBegin=281 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=.] 
+root(ROOT-0, asks-2)
+nsubj(asks-2, he-1)
+dobj(asks-2, Tom-3)
+punct(Tom-3, ,-4)
+nsubj(nods-6, who-5)
+rcmod(Tom-3, nods-6)
+poss(head-8, his-7)
+dobj(nods-6, head-8)
+prep(nods-6, in-9)
+pobj(in-9, agreement-10)
+punct(asks-2, .-11)
+
+Sentence #7 (11 tokens):
+"Mice can get along with cats, right?"
+[Text=`` CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=``] [Text=Mice CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=NNS] [Text=can CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=VB] [Text=along CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=IN] [Text=cats CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=,] [Text=right CharacterOffsetBegin=327 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=.] [Text='' CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=''] 
+root(ROOT-0, get-4)
+punct(get-4, ``-1)
+nsubj(get-4, Mice-2)
+aux(get-4, can-3)
+prep(get-4, along-5)
+pcomp(along-5, with-6)
+pobj(with-6, cats-7)
+punct(get-4, ,-8)
+dep(get-4, right-9)
+punct(get-4, ?-10)
+punct(get-4, ''-11)
+
+Sentence #8 (33 tokens):
+Jerry nods "no," and then sees that isn't the right answer.They go inside and Butch draws up a "Peace Treaty" (complete with professional artwork!)
+[Text=Jerry CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=NNP] [Text=nods CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=``] [Text=no CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=,] [Text='' CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=''] [Text=and CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=RB] [Text=sees CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=DT] [Text=right CharacterOffsetBegin=385 CharacterOffsetEnd=390 PartOfSpeech=JJ] [Text=answer.They CharacterOffsetBegin=391 CharacterOffsetEnd=402 PartOfSpeech=NN] [Text=go CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=VB] [Text=inside CharacterOffsetBegin=406 CharacterOffsetEnd=412 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=CC] [Text=Butch CharacterOffsetBegin=417 CharacterOffsetEnd=422 PartOfSpeech=NNP] [Text=draws CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=RP] [Text=a CharacterOffsetBegin=432 CharacterOffsetEnd=433 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=``] [Text=Peace CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=NNP] [Text=Treaty CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=''] [Text=-LRB- CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=-LRB-] [Text=complete CharacterOffsetBegin=450 CharacterOffsetEnd=458 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=IN] [Text=professional CharacterOffsetBegin=464 CharacterOffsetEnd=476 PartOfSpeech=JJ] [Text=artwork CharacterOffsetBegin=477 CharacterOffsetEnd=484 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=-RRB-] 
+root(ROOT-0, sees-9)
+nn(nods-2, Jerry-1)
+nsubj(sees-9, nods-2)
+punct(nods-2, ``-3)
+advmod(then-8, no-4)
+punct(then-8, ,-5)
+punct(then-8, ''-6)
+cc(then-8, and-7)
+advmod(sees-9, then-8)
+nsubj(go-16, that-10)
+aux(go-16, is-11)
+neg(go-16, n't-12)
+det(answer.They-15, the-13)
+amod(answer.They-15, right-14)
+nsubj(go-16, answer.They-15)
+ccomp(sees-9, go-16)
+advmod(go-16, inside-17)
+cc(go-16, and-18)
+nsubj(draws-20, Butch-19)
+conj(go-16, draws-20)
+prt(draws-20, up-21)
+det(Treaty-25, a-22)
+punct(Treaty-25, ``-23)
+nn(Treaty-25, Peace-24)
+dobj(draws-20, Treaty-25)
+punct(Treaty-25, ''-26)
+punct(complete-28, -LRB--27)
+amod(Treaty-25, complete-28)
+prep(complete-28, with-29)
+amod(artwork-31, professional-30)
+pobj(with-29, artwork-31)
+punct(sees-9, !-32)
+punct(sees-9, -RRB--33)
+
+Sentence #9 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #10 (28 tokens):
+Most of the rest, and the bulk of the cartoon, is the three of them being extremely nice to one another What a refreshing change-of-pace.
+[Text=Most CharacterOffsetBegin=492 CharacterOffsetEnd=496 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=504 CharacterOffsetEnd=508 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=,] [Text=and CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=bulk CharacterOffsetBegin=518 CharacterOffsetEnd=522 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=DT] [Text=cartoon CharacterOffsetBegin=530 CharacterOffsetEnd=537 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=,] [Text=is CharacterOffsetBegin=539 CharacterOffsetEnd=541 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=DT] [Text=three CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=552 CharacterOffsetEnd=554 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=PRP] [Text=being CharacterOffsetBegin=560 CharacterOffsetEnd=565 PartOfSpeech=VBG] [Text=extremely CharacterOffsetBegin=566 CharacterOffsetEnd=575 PartOfSpeech=RB] [Text=nice CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=TO] [Text=one CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=CD] [Text=another CharacterOffsetBegin=588 CharacterOffsetEnd=595 PartOfSpeech=DT] [Text=What CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=DT] [Text=refreshing CharacterOffsetBegin=603 CharacterOffsetEnd=613 PartOfSpeech=JJ] [Text=change-of-pace CharacterOffsetBegin=614 CharacterOffsetEnd=628 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=.] 
+root(ROOT-0, nice-20)
+nsubj(three-15, Most-1)
+prep(Most-1, of-2)
+det(rest-4, the-3)
+pobj(of-2, rest-4)
+punct(Most-1, ,-5)
+cc(Most-1, and-6)
+det(bulk-8, the-7)
+conj(Most-1, bulk-8)
+prep(bulk-8, of-9)
+det(cartoon-11, the-10)
+pobj(of-9, cartoon-11)
+punct(three-15, ,-12)
+cop(three-15, is-13)
+det(three-15, the-14)
+nsubj(nice-20, three-15)
+prep(three-15, of-16)
+pobj(of-16, them-17)
+cop(nice-20, being-18)
+advmod(nice-20, extremely-19)
+prep(nice-20, to-21)
+pobj(to-21, one-22)
+dep(change-of-pace-27, another-23)
+dep(change-of-pace-27, What-24)
+det(change-of-pace-27, a-25)
+amod(change-of-pace-27, refreshing-26)
+dep(one-22, change-of-pace-27)
+punct(nice-20, .-28)
+
+Sentence #11 (7 tokens):
+I found it fun to watch.
+[Text=I CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=PRP] [Text=found CharacterOffsetBegin=636 CharacterOffsetEnd=641 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=642 CharacterOffsetEnd=644 PartOfSpeech=PRP] [Text=fun CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=.] 
+root(ROOT-0, found-2)
+nsubj(found-2, I-1)
+nsubj(fun-4, it-3)
+xcomp(found-2, fun-4)
+aux(watch-6, to-5)
+xcomp(fun-4, watch-6)
+punct(found-2, .-7)
+
+Sentence #12 (27 tokens):
+I can a million of these cartoons in which every beats each other over the head.Anyway, you knew the peace wasn't going to last.
+[Text=I CharacterOffsetBegin=663 CharacterOffsetEnd=664 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=MD] [Text=a CharacterOffsetBegin=669 CharacterOffsetEnd=670 PartOfSpeech=DT] [Text=million CharacterOffsetBegin=671 CharacterOffsetEnd=678 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=679 CharacterOffsetEnd=681 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=DT] [Text=cartoons CharacterOffsetBegin=688 CharacterOffsetEnd=696 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=697 CharacterOffsetEnd=699 PartOfSpeech=IN] [Text=which CharacterOffsetBegin=700 CharacterOffsetEnd=705 PartOfSpeech=WDT] [Text=every CharacterOffsetBegin=706 CharacterOffsetEnd=711 PartOfSpeech=DT] [Text=beats CharacterOffsetBegin=712 CharacterOffsetEnd=717 PartOfSpeech=NNS] [Text=each CharacterOffsetBegin=718 CharacterOffsetEnd=722 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=723 CharacterOffsetEnd=728 PartOfSpeech=JJ] [Text=over CharacterOffsetBegin=729 CharacterOffsetEnd=733 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=734 CharacterOffsetEnd=737 PartOfSpeech=DT] [Text=head.Anyway CharacterOffsetBegin=738 CharacterOffsetEnd=749 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=749 CharacterOffsetEnd=750 PartOfSpeech=,] [Text=you CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=PRP] [Text=knew CharacterOffsetBegin=755 CharacterOffsetEnd=759 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=760 CharacterOffsetEnd=763 PartOfSpeech=DT] [Text=peace CharacterOffsetBegin=764 CharacterOffsetEnd=769 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=RB] [Text=going CharacterOffsetBegin=777 CharacterOffsetEnd=782 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=783 CharacterOffsetEnd=785 PartOfSpeech=TO] [Text=last CharacterOffsetBegin=786 CharacterOffsetEnd=790 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=790 CharacterOffsetEnd=791 PartOfSpeech=.] 
+root(ROOT-0, I-1)
+dep(I-1, can-2)
+det(million-4, a-3)
+dep(can-2, million-4)
+prep(million-4, of-5)
+det(cartoons-7, these-6)
+pobj(of-5, cartoons-7)
+prep(going-24, in-8)
+pobj(in-8, which-9)
+det(beats-11, every-10)
+nsubj(going-24, beats-11)
+det(other-13, each-12)
+dep(beats-11, other-13)
+prep(other-13, over-14)
+det(head.Anyway-16, the-15)
+pobj(over-14, head.Anyway-16)
+punct(knew-19, ,-17)
+nsubj(knew-19, you-18)
+parataxis(going-24, knew-19)
+det(peace-21, the-20)
+dobj(knew-19, peace-21)
+aux(going-24, was-22)
+neg(going-24, n't-23)
+rcmod(cartoons-7, going-24)
+aux(last-26, to-25)
+xcomp(going-24, last-26)
+punct(I-1, .-27)
+
+Sentence #13 (33 tokens):
+A big piece of steak spells the death of the "peace treaty" but en route it was nice change and still had some of usual Tom & Jerry clever humor.
+[Text=A CharacterOffsetBegin=796 CharacterOffsetEnd=797 PartOfSpeech=DT] [Text=big CharacterOffsetBegin=798 CharacterOffsetEnd=801 PartOfSpeech=JJ] [Text=piece CharacterOffsetBegin=802 CharacterOffsetEnd=807 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=808 CharacterOffsetEnd=810 PartOfSpeech=IN] [Text=steak CharacterOffsetBegin=811 CharacterOffsetEnd=816 PartOfSpeech=NN] [Text=spells CharacterOffsetBegin=817 CharacterOffsetEnd=823 PartOfSpeech=NNS] [Text=the CharacterOffsetBegin=824 CharacterOffsetEnd=827 PartOfSpeech=DT] [Text=death CharacterOffsetBegin=828 CharacterOffsetEnd=833 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=834 CharacterOffsetEnd=836 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=837 CharacterOffsetEnd=840 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=841 CharacterOffsetEnd=842 PartOfSpeech=``] [Text=peace CharacterOffsetBegin=842 CharacterOffsetEnd=847 PartOfSpeech=NN] [Text=treaty CharacterOffsetBegin=848 CharacterOffsetEnd=854 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=854 CharacterOffsetEnd=855 PartOfSpeech=''] [Text=but CharacterOffsetBegin=856 CharacterOffsetEnd=859 PartOfSpeech=CC] [Text=en CharacterOffsetBegin=860 CharacterOffsetEnd=862 PartOfSpeech=IN] [Text=route CharacterOffsetBegin=863 CharacterOffsetEnd=868 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=869 CharacterOffsetEnd=871 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=872 CharacterOffsetEnd=875 PartOfSpeech=VBD] [Text=nice CharacterOffsetBegin=876 CharacterOffsetEnd=880 PartOfSpeech=JJ] [Text=change CharacterOffsetBegin=881 CharacterOffsetEnd=887 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=CC] [Text=still CharacterOffsetBegin=892 CharacterOffsetEnd=897 PartOfSpeech=RB] [Text=had CharacterOffsetBegin=898 CharacterOffsetEnd=901 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=902 CharacterOffsetEnd=906 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=907 CharacterOffsetEnd=909 PartOfSpeech=IN] [Text=usual CharacterOffsetBegin=910 CharacterOffsetEnd=915 PartOfSpeech=JJ] [Text=Tom CharacterOffsetBegin=916 CharacterOffsetEnd=919 PartOfSpeech=NNP] [Text=& CharacterOffsetBegin=920 CharacterOffsetEnd=921 PartOfSpeech=CC] [Text=Jerry CharacterOffsetBegin=922 CharacterOffsetEnd=927 PartOfSpeech=NNP] [Text=clever CharacterOffsetBegin=928 CharacterOffsetEnd=934 PartOfSpeech=JJ] [Text=humor CharacterOffsetBegin=935 CharacterOffsetEnd=940 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=940 CharacterOffsetEnd=941 PartOfSpeech=.] 
+root(ROOT-0, piece-3)
+det(piece-3, A-1)
+amod(piece-3, big-2)
+prep(piece-3, of-4)
+nn(spells-6, steak-5)
+pobj(of-4, spells-6)
+det(death-8, the-7)
+dep(piece-3, death-8)
+prep(death-8, of-9)
+det(treaty-13, the-10)
+punct(treaty-13, ``-11)
+nn(treaty-13, peace-12)
+pobj(of-9, treaty-13)
+punct(death-8, ''-14)
+cc(death-8, but-15)
+amod(change-21, en-16)
+dep(change-21, route-17)
+nsubj(change-21, it-18)
+cop(change-21, was-19)
+amod(change-21, nice-20)
+conj(death-8, change-21)
+cc(death-8, and-22)
+conj(death-8, still-23)
+dep(death-8, had-24)
+dobj(had-24, some-25)
+prep(some-25, of-26)
+amod(Tom-28, usual-27)
+nn(humor-32, Tom-28)
+cc(Tom-28, &-29)
+conj(Tom-28, Jerry-30)
+amod(humor-32, clever-31)
+pobj(of-26, humor-32)
+punct(piece-3, .-33)
+

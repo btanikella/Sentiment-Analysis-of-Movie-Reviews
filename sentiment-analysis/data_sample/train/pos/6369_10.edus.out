@@ -1,0 +1,123 @@
+Sentence #1 (5 tokens):
+I LOVED this movie!
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=LOVED CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=.] 
+root(ROOT-0, LOVED-2)
+nsubj(LOVED-2, I-1)
+det(movie-4, this-3)
+dobj(LOVED-2, movie-4)
+punct(LOVED-2, !-5)
+
+Sentence #2 (18 tokens):
+I am biased seeing as I am a huge Disney fan, but I really enjoyed myself.
+[Text=I CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=VBP] [Text=biased CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=VBN] [Text=seeing CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=VBG] [Text=as CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=PRP] [Text=am CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=DT] [Text=huge CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=JJ] [Text=Disney CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=NNP] [Text=fan CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=,] [Text=but CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=RB] [Text=enjoyed CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=VBD] [Text=myself CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=.] 
+root(ROOT-0, biased-3)
+nsubj(biased-3, I-1)
+cop(biased-3, am-2)
+xcomp(biased-3, seeing-4)
+mark(fan-11, as-5)
+nsubj(fan-11, I-6)
+cop(fan-11, am-7)
+det(fan-11, a-8)
+amod(fan-11, huge-9)
+nn(fan-11, Disney-10)
+advcl(seeing-4, fan-11)
+punct(fan-11, ,-12)
+cc(fan-11, but-13)
+nsubj(enjoyed-16, I-14)
+advmod(enjoyed-16, really-15)
+conj(fan-11, enjoyed-16)
+dobj(enjoyed-16, myself-17)
+punct(biased-3, .-18)
+
+Sentence #3 (16 tokens):
+The action takes off running in the beginning of the film and just keeps going!
+[Text=The CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT] [Text=action CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=NN] [Text=takes CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=VBZ] [Text=off CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=RP] [Text=running CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=143 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=CC] [Text=just CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=RB] [Text=keeps CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=VBZ] [Text=going CharacterOffsetBegin=180 CharacterOffsetEnd=185 PartOfSpeech=VBG] [Text=! CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=.] 
+root(ROOT-0, takes-3)
+det(action-2, The-1)
+nsubj(takes-3, action-2)
+prt(takes-3, off-4)
+xcomp(takes-3, running-5)
+prep(running-5, in-6)
+det(beginning-8, the-7)
+pobj(in-6, beginning-8)
+prep(beginning-8, of-9)
+det(film-11, the-10)
+pobj(of-9, film-11)
+cc(takes-3, and-12)
+advmod(keeps-14, just-13)
+conj(takes-3, keeps-14)
+xcomp(keeps-14, going-15)
+punct(takes-3, !-16)
+
+Sentence #4 (35 tokens):
+This is a bit of a departure for Disney, they don't spend quite as much time on character development (my husband pointed this out)and there are no musical numbers.
+[Text=This CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=DT] [Text=departure CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=IN] [Text=Disney CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=,] [Text=they CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=RB] [Text=spend CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=VB] [Text=quite CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=IN] [Text=character CharacterOffsetBegin=271 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=development CharacterOffsetBegin=281 CharacterOffsetEnd=292 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=-LRB-] [Text=my CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=PRP$] [Text=husband CharacterOffsetBegin=297 CharacterOffsetEnd=304 PartOfSpeech=NN] [Text=pointed CharacterOffsetBegin=305 CharacterOffsetEnd=312 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=out CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=RP] [Text=-RRB- CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=-RRB-] [Text=and CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=VBP] [Text=no CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=musical CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=JJ] [Text=numbers CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=.] 
+root(ROOT-0, bit-4)
+nsubj(bit-4, This-1)
+cop(bit-4, is-2)
+det(bit-4, a-3)
+prep(bit-4, of-5)
+det(departure-7, a-6)
+pobj(of-5, departure-7)
+prep(departure-7, for-8)
+pobj(for-8, Disney-9)
+punct(bit-4, ,-10)
+nsubj(spend-14, they-11)
+aux(spend-14, do-12)
+neg(spend-14, n't-13)
+rcmod(bit-4, spend-14)
+advmod(time-18, quite-15)
+advmod(time-18, as-16)
+amod(time-18, much-17)
+dobj(spend-14, time-18)
+prep(spend-14, on-19)
+nn(development-21, character-20)
+pobj(on-19, development-21)
+punct(pointed-25, -LRB--22)
+poss(husband-24, my-23)
+nsubj(pointed-25, husband-24)
+dep(spend-14, pointed-25)
+dobj(pointed-25, this-26)
+prt(pointed-25, out-27)
+punct(pointed-25, -RRB--28)
+cc(spend-14, and-29)
+expl(are-31, there-30)
+conj(spend-14, are-31)
+det(numbers-34, no-32)
+amod(numbers-34, musical-33)
+nsubj(are-31, numbers-34)
+punct(bit-4, .-35)
+
+Sentence #5 (6 tokens):
+It is strictly action adventure.
+[Text=It CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=VBZ] [Text=strictly CharacterOffsetBegin=366 CharacterOffsetEnd=374 PartOfSpeech=RB] [Text=action CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NN] [Text=adventure CharacterOffsetBegin=382 CharacterOffsetEnd=391 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=.] 
+root(ROOT-0, adventure-5)
+nsubj(adventure-5, It-1)
+cop(adventure-5, is-2)
+amod(adventure-5, strictly-3)
+nn(adventure-5, action-4)
+punct(adventure-5, .-6)
+
+Sentence #6 (19 tokens):
+I thoroughly enjoyed it and recommend it to anyone who loves Disney, be they young or old.
+[Text=I CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=PRP] [Text=thoroughly CharacterOffsetBegin=399 CharacterOffsetEnd=409 PartOfSpeech=RB] [Text=enjoyed CharacterOffsetBegin=410 CharacterOffsetEnd=417 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=CC] [Text=recommend CharacterOffsetBegin=425 CharacterOffsetEnd=434 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=TO] [Text=anyone CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=WP] [Text=loves CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=VBZ] [Text=Disney CharacterOffsetBegin=458 CharacterOffsetEnd=464 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=,] [Text=be CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=VB] [Text=they CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=PRP] [Text=young CharacterOffsetBegin=474 CharacterOffsetEnd=479 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=CC] [Text=old CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=.] 
+root(ROOT-0, enjoyed-3)
+nsubj(enjoyed-3, I-1)
+advmod(enjoyed-3, thoroughly-2)
+dobj(enjoyed-3, it-4)
+cc(enjoyed-3, and-5)
+conj(enjoyed-3, recommend-6)
+dobj(recommend-6, it-7)
+prep(recommend-6, to-8)
+pobj(to-8, anyone-9)
+nsubj(loves-11, who-10)
+rcmod(anyone-9, loves-11)
+dobj(loves-11, Disney-12)
+punct(enjoyed-3, ,-13)
+conj(enjoyed-3, be-14)
+nsubj(be-14, they-15)
+amod(they-15, young-16)
+cc(young-16, or-17)
+conj(young-16, old-18)
+punct(enjoyed-3, .-19)
+

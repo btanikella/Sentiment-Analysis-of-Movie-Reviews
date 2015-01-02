@@ -1,0 +1,227 @@
+Sentence #1 (10 tokens):
+I rented this movie today... worst movie EVER.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=rented CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=today CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=:] [Text=worst CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=EVER CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=.] 
+root(ROOT-0, rented-2)
+nsubj(rented-2, I-1)
+det(movie-4, this-3)
+dobj(rented-2, movie-4)
+tmod(rented-2, today-5)
+punct(rented-2, ...-6)
+amod(EVER-9, worst-7)
+nn(EVER-9, movie-8)
+dep(rented-2, EVER-9)
+punct(rented-2, .-10)
+
+Sentence #2 (12 tokens):
+It was a total waste of time and a horrible story.
+[Text=It CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=DT] [Text=total CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=JJ] [Text=waste CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=horrible CharacterOffsetBegin=90 CharacterOffsetEnd=98 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, waste-5)
+nsubj(waste-5, It-1)
+cop(waste-5, was-2)
+det(waste-5, a-3)
+amod(waste-5, total-4)
+prep(waste-5, of-6)
+pobj(of-6, time-7)
+cc(waste-5, and-8)
+det(story-11, a-9)
+amod(story-11, horrible-10)
+conj(waste-5, story-11)
+punct(waste-5, .-12)
+
+Sentence #3 (14 tokens):
+The acting was horrible, especially by the actress of "Sai".
+[Text=The CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=VBD] [Text=horrible CharacterOffsetBegin=125 CharacterOffsetEnd=133 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=,] [Text=especially CharacterOffsetBegin=135 CharacterOffsetEnd=145 PartOfSpeech=RB] [Text=by CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=DT] [Text=actress CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=``] [Text=Sai CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=FW] [Text='' CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=''] [Text=. CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=.] 
+root(ROOT-0, horrible-4)
+det(acting-2, The-1)
+nsubj(horrible-4, acting-2)
+cop(horrible-4, was-3)
+punct(horrible-4, ,-5)
+advmod(by-7, especially-6)
+prep(horrible-4, by-7)
+det(actress-9, the-8)
+pobj(by-7, actress-9)
+prep(actress-9, of-10)
+punct(Sai-12, ``-11)
+pobj(of-10, Sai-12)
+punct(Sai-12, ''-13)
+punct(horrible-4, .-14)
+
+Sentence #4 (8 tokens):
+She was so bad it was ridiculous.
+[Text=She CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=VBD] [Text=ridiculous CharacterOffsetBegin=197 CharacterOffsetEnd=207 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=.] 
+root(ROOT-0, bad-4)
+nsubj(bad-4, She-1)
+cop(bad-4, was-2)
+advmod(bad-4, so-3)
+nsubj(ridiculous-7, it-5)
+cop(ridiculous-7, was-6)
+ccomp(bad-4, ridiculous-7)
+punct(bad-4, .-8)
+
+Sentence #5 (23 tokens):
+I can't tell if it was her bad acting or because the character was just that stupid in the first place.
+[Text=I CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=tell CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=VB] [Text=if CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=PRP] [Text=bad CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=244 CharacterOffsetEnd=250 PartOfSpeech=VBG] [Text=or CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=CC] [Text=because CharacterOffsetBegin=254 CharacterOffsetEnd=261 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=266 CharacterOffsetEnd=275 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=stupid CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=304 CharacterOffsetEnd=309 PartOfSpeech=JJ] [Text=place CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=.] 
+root(ROOT-0, tell-4)
+nsubj(tell-4, I-1)
+aux(tell-4, ca-2)
+neg(tell-4, n't-3)
+mark(acting-10, if-5)
+nsubj(acting-10, it-6)
+aux(acting-10, was-7)
+nsubj(acting-10, her-8)
+amod(acting-10, bad-9)
+advcl(tell-4, acting-10)
+cc(acting-10, or-11)
+conj(acting-10, because-12)
+det(character-14, the-13)
+pobj(because-12, character-14)
+amod(character-14, was-15)
+advmod(was-15, just-16)
+dep(just-16, that-17)
+amod(that-17, stupid-18)
+prep(stupid-18, in-19)
+det(place-22, the-20)
+amod(place-22, first-21)
+pobj(in-19, place-22)
+punct(tell-4, .-23)
+
+Sentence #6 (19 tokens):
+I can't even get my mind wrapped around just how awful and pointless this whole movie was.
+[Text=I CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=VB] [Text=my CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=PRP$] [Text=mind CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=NN] [Text=wrapped CharacterOffsetBegin=346 CharacterOffsetEnd=353 PartOfSpeech=VBD] [Text=around CharacterOffsetBegin=354 CharacterOffsetEnd=360 PartOfSpeech=RB] [Text=just CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=RB] [Text=how CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=WRB] [Text=awful CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=CC] [Text=pointless CharacterOffsetBegin=380 CharacterOffsetEnd=389 PartOfSpeech=JJ] [Text=this CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=401 CharacterOffsetEnd=406 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=.] 
+root(ROOT-0, get-5)
+nsubj(get-5, I-1)
+aux(get-5, ca-2)
+neg(get-5, n't-3)
+advmod(get-5, even-4)
+poss(mind-7, my-6)
+nsubj(wrapped-8, mind-7)
+ccomp(get-5, wrapped-8)
+prt(wrapped-8, around-9)
+advmod(awful-12, just-10)
+advmod(awful-12, how-11)
+dep(was-18, awful-12)
+cc(awful-12, and-13)
+conj(awful-12, pointless-14)
+det(movie-17, this-15)
+amod(movie-17, whole-16)
+nsubj(was-18, movie-17)
+dep(wrapped-8, was-18)
+punct(get-5, .-19)
+
+Sentence #7 (29 tokens):
+I'm surprised someone even thought it was a good idea to FILM this movie and bother to release it.If you're looking for a good Vampire/Horror flick.
+[Text=I CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=417 CharacterOffsetEnd=419 PartOfSpeech=VBP] [Text=surprised CharacterOffsetBegin=420 CharacterOffsetEnd=429 PartOfSpeech=JJ] [Text=someone CharacterOffsetBegin=430 CharacterOffsetEnd=437 PartOfSpeech=NN] [Text=even CharacterOffsetBegin=438 CharacterOffsetEnd=442 PartOfSpeech=RB] [Text=thought CharacterOffsetBegin=443 CharacterOffsetEnd=450 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=451 CharacterOffsetEnd=453 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=JJ] [Text=idea CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=470 CharacterOffsetEnd=472 PartOfSpeech=TO] [Text=FILM CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=CC] [Text=bother CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=TO] [Text=release CharacterOffsetBegin=503 CharacterOffsetEnd=510 PartOfSpeech=VB] [Text=it.If CharacterOffsetBegin=511 CharacterOffsetEnd=516 PartOfSpeech=NNP] [Text=you CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=VBP] [Text=looking CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=536 CharacterOffsetEnd=537 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=JJ] [Text=Vampire/Horror CharacterOffsetBegin=543 CharacterOffsetEnd=557 PartOfSpeech=NN] [Text=flick CharacterOffsetBegin=558 CharacterOffsetEnd=563 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=.] 
+root(ROOT-0, surprised-3)
+nsubj(surprised-3, I-1)
+cop(surprised-3, 'm-2)
+nsubj(thought-6, someone-4)
+advmod(thought-6, even-5)
+ccomp(surprised-3, thought-6)
+nsubj(idea-11, it-7)
+cop(idea-11, was-8)
+det(idea-11, a-9)
+amod(idea-11, good-10)
+ccomp(thought-6, idea-11)
+prep(idea-11, to-12)
+nn(movie-15, FILM-13)
+det(movie-15, this-14)
+pobj(to-12, movie-15)
+cc(idea-11, and-16)
+conj(idea-11, bother-17)
+aux(release-19, to-18)
+xcomp(bother-17, release-19)
+dobj(release-19, it.If-20)
+nsubj(looking-23, you-21)
+aux(looking-23, 're-22)
+rcmod(it.If-20, looking-23)
+prep(looking-23, for-24)
+det(flick-28, a-25)
+amod(flick-28, good-26)
+nn(flick-28, Vampire/Horror-27)
+pobj(for-24, flick-28)
+punct(surprised-3, .-29)
+
+Sentence #8 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #9 (8 tokens):
+this is not the movie for you.
+[Text=this CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=571 CharacterOffsetEnd=573 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=578 CharacterOffsetEnd=581 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=595 CharacterOffsetEnd=596 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, this-1)
+cop(movie-5, is-2)
+neg(movie-5, not-3)
+det(movie-5, the-4)
+prep(movie-5, for-6)
+pobj(for-6, you-7)
+punct(movie-5, .-8)
+
+Sentence #10 (4 tokens):
+Move right along!
+[Text=Move CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=VB] [Text=right CharacterOffsetBegin=606 CharacterOffsetEnd=611 PartOfSpeech=RB] [Text=along CharacterOffsetBegin=612 CharacterOffsetEnd=617 PartOfSpeech=IN] [Text=! CharacterOffsetBegin=617 CharacterOffsetEnd=618 PartOfSpeech=.] 
+root(ROOT-0, Move-1)
+advmod(along-3, right-2)
+advmod(Move-1, along-3)
+punct(Move-1, !-4)
+
+Sentence #11 (9 tokens):
+It's a waste of time and money.
+[Text=It CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=DT] [Text=waste CharacterOffsetBegin=630 CharacterOffsetEnd=635 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=639 CharacterOffsetEnd=643 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=CC] [Text=money CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=.] 
+root(ROOT-0, waste-4)
+nsubj(waste-4, It-1)
+cop(waste-4, 's-2)
+det(waste-4, a-3)
+prep(waste-4, of-5)
+pobj(of-5, time-6)
+cc(time-6, and-7)
+conj(time-6, money-8)
+punct(waste-4, .-9)
+
+Sentence #12 (27 tokens):
+Heck, I wouldn't even DOWNLOAD this movie if someone PAID me.This movie is so bad it doesn't even deserve a "1".
+[Text=Heck CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=663 CharacterOffsetEnd=664 PartOfSpeech=,] [Text=I CharacterOffsetBegin=665 CharacterOffsetEnd=666 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=667 CharacterOffsetEnd=672 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=672 CharacterOffsetEnd=675 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=RB] [Text=DOWNLOAD CharacterOffsetBegin=681 CharacterOffsetEnd=689 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=695 CharacterOffsetEnd=700 PartOfSpeech=NN] [Text=if CharacterOffsetBegin=701 CharacterOffsetEnd=703 PartOfSpeech=IN] [Text=someone CharacterOffsetBegin=704 CharacterOffsetEnd=711 PartOfSpeech=NN] [Text=PAID CharacterOffsetBegin=712 CharacterOffsetEnd=716 PartOfSpeech=NN] [Text=me.This CharacterOffsetBegin=717 CharacterOffsetEnd=724 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=725 CharacterOffsetEnd=730 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=731 CharacterOffsetEnd=733 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=734 CharacterOffsetEnd=736 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=741 CharacterOffsetEnd=743 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=744 CharacterOffsetEnd=748 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=748 CharacterOffsetEnd=751 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=RB] [Text=deserve CharacterOffsetBegin=757 CharacterOffsetEnd=764 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=765 CharacterOffsetEnd=766 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=767 CharacterOffsetEnd=768 PartOfSpeech=``] [Text=1 CharacterOffsetBegin=768 CharacterOffsetEnd=769 PartOfSpeech=CD] [Text='' CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=''] [Text=. CharacterOffsetBegin=770 CharacterOffsetEnd=771 PartOfSpeech=.] 
+root(ROOT-0, DOWNLOAD-7)
+dep(DOWNLOAD-7, Heck-1)
+punct(DOWNLOAD-7, ,-2)
+nsubj(DOWNLOAD-7, I-3)
+aux(DOWNLOAD-7, would-4)
+neg(DOWNLOAD-7, n't-5)
+advmod(DOWNLOAD-7, even-6)
+det(movie-9, this-8)
+dobj(DOWNLOAD-7, movie-9)
+mark(bad-17, if-10)
+nn(movie-14, someone-11)
+nn(movie-14, PAID-12)
+nn(movie-14, me.This-13)
+nsubj(bad-17, movie-14)
+cop(bad-17, is-15)
+advmod(bad-17, so-16)
+advcl(DOWNLOAD-7, bad-17)
+nsubj(deserve-22, it-18)
+aux(deserve-22, does-19)
+neg(deserve-22, n't-20)
+advmod(deserve-22, even-21)
+ccomp(bad-17, deserve-22)
+dep(deserve-22, a-23)
+punct(a-23, ``-24)
+dep(``-24, 1-25)
+punct(1-25, ''-26)
+punct(1-25, .-27)
+
+Sentence #13 (11 tokens):
+I wish I could give it a "0"!
+[Text=I CharacterOffsetBegin=776 CharacterOffsetEnd=777 PartOfSpeech=PRP] [Text=wish CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=VBP] [Text=I CharacterOffsetBegin=783 CharacterOffsetEnd=784 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=785 CharacterOffsetEnd=790 PartOfSpeech=MD] [Text=give CharacterOffsetBegin=791 CharacterOffsetEnd=795 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=796 CharacterOffsetEnd=798 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=799 CharacterOffsetEnd=800 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=801 CharacterOffsetEnd=802 PartOfSpeech=``] [Text=0 CharacterOffsetBegin=802 CharacterOffsetEnd=803 PartOfSpeech=CD] [Text='' CharacterOffsetBegin=803 CharacterOffsetEnd=804 PartOfSpeech=''] [Text=! CharacterOffsetBegin=804 CharacterOffsetEnd=805 PartOfSpeech=.] 
+root(ROOT-0, wish-2)
+nsubj(wish-2, I-1)
+nsubj(give-5, I-3)
+aux(give-5, could-4)
+ccomp(wish-2, give-5)
+iobj(give-5, it-6)
+det(0-9, a-7)
+punct(0-9, ``-8)
+dobj(give-5, 0-9)
+punct(0-9, ''-10)
+punct(wish-2, !-11)
+

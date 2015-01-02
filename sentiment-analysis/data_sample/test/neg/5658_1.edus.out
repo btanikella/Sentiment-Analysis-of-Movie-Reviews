@@ -1,0 +1,182 @@
+Sentence #1 (7 tokens):
+Nickelodeon has gone down the toilet.
+[Text=Nickelodeon CharacterOffsetBegin=4 CharacterOffsetEnd=15 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=VBZ] [Text=gone CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=VBN] [Text=down CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=DT] [Text=toilet CharacterOffsetBegin=34 CharacterOffsetEnd=40 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.] 
+root(ROOT-0, gone-3)
+nsubj(gone-3, Nickelodeon-1)
+aux(gone-3, has-2)
+prt(gone-3, down-4)
+det(toilet-6, the-5)
+dobj(gone-3, toilet-6)
+punct(gone-3, .-7)
+
+Sentence #2 (12 tokens):
+They have kids saying things like "Oh my God!"
+[Text=They CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=VBP] [Text=kids CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=NNS] [Text=saying CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=VBG] [Text=things CharacterOffsetBegin=68 CharacterOffsetEnd=74 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=``] [Text=Oh CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=UH] [Text=my CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=PRP$] [Text=God CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=.] [Text='' CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=''] 
+root(ROOT-0, have-2)
+nsubj(have-2, They-1)
+nsubj(saying-4, kids-3)
+ccomp(have-2, saying-4)
+dobj(saying-4, things-5)
+dep(things-5, like-6)
+punct(like-6, ``-7)
+dep(``-7, Oh-8)
+poss(God-10, my-9)
+dep(Oh-8, God-10)
+punct(Oh-8, !-11)
+punct(Oh-8, ''-12)
+
+Sentence #3 (26 tokens):
+and "We're screwed"This show promotes hate for people who aren't good looking, or aren't in the in crowd.
+[Text=and CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=``] [Text=We CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=VBP] [Text=screwed CharacterOffsetBegin=108 CharacterOffsetEnd=115 PartOfSpeech=VBN] [Text=`` CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=``] [Text=This CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=promotes CharacterOffsetBegin=126 CharacterOffsetEnd=134 PartOfSpeech=VBZ] [Text=hate CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=WP] [Text=are CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=JJ] [Text=looking CharacterOffsetBegin=167 CharacterOffsetEnd=174 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=,] [Text=or CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=CC] [Text=are CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=DT] [Text=in CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=IN] [Text=crowd CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=.] 
+root(ROOT-0, screwed-5)
+cc(screwed-5, and-1)
+punct(screwed-5, ``-2)
+nsubj(screwed-5, We-3)
+cop(screwed-5, 're-4)
+punct(screwed-5, ``-6)
+det(show-8, This-7)
+nsubj(promotes-9, show-8)
+ccomp(screwed-5, promotes-9)
+dobj(promotes-9, hate-10)
+prep(promotes-9, for-11)
+pobj(for-11, people-12)
+nsubj(good-16, who-13)
+cop(good-16, are-14)
+neg(good-16, n't-15)
+rcmod(people-12, good-16)
+dep(good-16, looking-17)
+punct(looking-17, ,-18)
+cc(looking-17, or-19)
+conj(looking-17, are-20)
+advmod(are-20, n't-21)
+prep(n't-21, in-22)
+pobj(in-22, the-23)
+prep(the-23, in-24)
+pobj(in-24, crowd-25)
+punct(screwed-5, .-26)
+
+Sentence #4 (16 tokens):
+It say that sexual promiscuity is alright, by having girls slobbering over shirtless boys.
+[Text=It CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=PRP] [Text=say CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=IN] [Text=sexual CharacterOffsetBegin=219 CharacterOffsetEnd=225 PartOfSpeech=JJ] [Text=promiscuity CharacterOffsetBegin=226 CharacterOffsetEnd=237 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=VBZ] [Text=alright CharacterOffsetBegin=241 CharacterOffsetEnd=248 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=,] [Text=by CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=IN] [Text=having CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=VBG] [Text=girls CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=NNS] [Text=slobbering CharacterOffsetBegin=266 CharacterOffsetEnd=276 PartOfSpeech=VBG] [Text=over CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=IN] [Text=shirtless CharacterOffsetBegin=282 CharacterOffsetEnd=291 PartOfSpeech=JJ] [Text=boys CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=.] 
+root(ROOT-0, say-2)
+nsubj(say-2, It-1)
+mark(alright-7, that-3)
+amod(promiscuity-5, sexual-4)
+nsubj(alright-7, promiscuity-5)
+cop(alright-7, is-6)
+ccomp(say-2, alright-7)
+punct(alright-7, ,-8)
+prep(alright-7, by-9)
+pcomp(by-9, having-10)
+nsubj(slobbering-12, girls-11)
+ccomp(having-10, slobbering-12)
+prep(slobbering-12, over-13)
+amod(boys-15, shirtless-14)
+pobj(over-13, boys-15)
+punct(say-2, .-16)
+
+Sentence #5 (12 tokens):
+Not to mention the overweight boy who takes off his shirt.
+[Text=Not CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=TO] [Text=mention CharacterOffsetBegin=309 CharacterOffsetEnd=316 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=DT] [Text=overweight CharacterOffsetBegin=321 CharacterOffsetEnd=331 PartOfSpeech=JJ] [Text=boy CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=WP] [Text=takes CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=VBZ] [Text=off CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=RP] [Text=his CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=PRP$] [Text=shirt CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=.] 
+root(ROOT-0, mention-3)
+neg(mention-3, Not-1)
+aux(mention-3, to-2)
+det(boy-6, the-4)
+amod(boy-6, overweight-5)
+dobj(mention-3, boy-6)
+nsubj(takes-8, who-7)
+rcmod(boy-6, takes-8)
+prt(takes-8, off-9)
+poss(shirt-11, his-10)
+dobj(takes-8, shirt-11)
+punct(mention-3, .-12)
+
+Sentence #6 (11 tokens):
+The main characters basically shun anyone out of the ordinary.
+[Text=The CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=DT] [Text=main CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=374 CharacterOffsetEnd=384 PartOfSpeech=NNS] [Text=basically CharacterOffsetBegin=385 CharacterOffsetEnd=394 PartOfSpeech=RB] [Text=shun CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=VBP] [Text=anyone CharacterOffsetBegin=400 CharacterOffsetEnd=406 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=DT] [Text=ordinary CharacterOffsetBegin=418 CharacterOffsetEnd=426 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=.] 
+root(ROOT-0, shun-5)
+det(characters-3, The-1)
+amod(characters-3, main-2)
+nsubj(shun-5, characters-3)
+advmod(shun-5, basically-4)
+dobj(shun-5, anyone-6)
+prep(shun-5, out-7)
+pcomp(out-7, of-8)
+det(ordinary-10, the-9)
+pobj(of-8, ordinary-10)
+punct(shun-5, .-11)
+
+Sentence #7 (34 tokens):
+Carly's friend Sam, who may be a lesbian, beats the snot out of anybody that crosses her path, which says it's alright to be a b**ch.
+[Text=Carly CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=POS] [Text=friend CharacterOffsetBegin=440 CharacterOffsetEnd=446 PartOfSpeech=NN] [Text=Sam CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=,] [Text=who CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=WP] [Text=may CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=DT] [Text=lesbian CharacterOffsetBegin=465 CharacterOffsetEnd=472 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=,] [Text=beats CharacterOffsetBegin=474 CharacterOffsetEnd=479 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=DT] [Text=snot CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=IN] [Text=anybody CharacterOffsetBegin=496 CharacterOffsetEnd=503 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=504 CharacterOffsetEnd=508 PartOfSpeech=WDT] [Text=crosses CharacterOffsetBegin=509 CharacterOffsetEnd=516 PartOfSpeech=VBZ] [Text=her CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=PRP$] [Text=path CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=525 CharacterOffsetEnd=526 PartOfSpeech=,] [Text=which CharacterOffsetBegin=527 CharacterOffsetEnd=532 PartOfSpeech=WDT] [Text=says CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=VBZ] [Text=alright CharacterOffsetBegin=543 CharacterOffsetEnd=550 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=551 CharacterOffsetEnd=553 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=554 CharacterOffsetEnd=556 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=DT] [Text=b CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=NN] [Text=** CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=SYM] [Text=ch CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=.] 
+root(ROOT-0, beats-12)
+poss(Sam-4, Carly-1)
+possessive(Carly-1, 's-2)
+nn(Sam-4, friend-3)
+nsubj(beats-12, Sam-4)
+punct(Sam-4, ,-5)
+nsubj(lesbian-10, who-6)
+aux(lesbian-10, may-7)
+cop(lesbian-10, be-8)
+det(lesbian-10, a-9)
+rcmod(Sam-4, lesbian-10)
+punct(Sam-4, ,-11)
+det(snot-14, the-13)
+dobj(beats-12, snot-14)
+prep(beats-12, out-15)
+pcomp(out-15, of-16)
+pobj(of-16, anybody-17)
+nsubj(crosses-19, that-18)
+rcmod(anybody-17, crosses-19)
+poss(path-21, her-20)
+dobj(crosses-19, path-21)
+punct(path-21, ,-22)
+nsubj(says-24, which-23)
+rcmod(path-21, says-24)
+nsubj(alright-27, it-25)
+cop(alright-27, 's-26)
+ccomp(says-24, alright-27)
+aux(ch-33, to-28)
+cop(ch-33, be-29)
+det(ch-33, a-30)
+nn(ch-33, b-31)
+dep(ch-33, **-32)
+xcomp(alright-27, ch-33)
+punct(beats-12, .-34)
+
+Sentence #8 (14 tokens):
+This show has so much negativity in it that nobody should watch it!
+[Text=This CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=575 CharacterOffsetEnd=579 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=JJ] [Text=negativity CharacterOffsetBegin=592 CharacterOffsetEnd=602 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=PRP] [Text=that CharacterOffsetBegin=609 CharacterOffsetEnd=613 PartOfSpeech=IN] [Text=nobody CharacterOffsetBegin=614 CharacterOffsetEnd=620 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=621 CharacterOffsetEnd=627 PartOfSpeech=MD] [Text=watch CharacterOffsetBegin=628 CharacterOffsetEnd=633 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=636 CharacterOffsetEnd=637 PartOfSpeech=.] 
+root(ROOT-0, show-2)
+det(show-2, This-1)
+partmod(show-2, has-3)
+advmod(much-5, so-4)
+amod(negativity-6, much-5)
+dobj(has-3, negativity-6)
+prep(has-3, in-7)
+pobj(in-7, it-8)
+mark(watch-12, that-9)
+nsubj(watch-12, nobody-10)
+aux(watch-12, should-11)
+ccomp(has-3, watch-12)
+dobj(watch-12, it-13)
+punct(show-2, !-14)
+
+Sentence #9 (9 tokens):
+I give it a 0 out of 10!!
+[Text=I CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=PRP] [Text=give CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=DT] [Text=0 CharacterOffsetBegin=654 CharacterOffsetEnd=655 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=656 CharacterOffsetEnd=659 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=660 CharacterOffsetEnd=662 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=663 CharacterOffsetEnd=665 PartOfSpeech=CD] [Text=!! CharacterOffsetBegin=665 CharacterOffsetEnd=667 PartOfSpeech=CD] 
+root(ROOT-0, give-2)
+nsubj(give-2, I-1)
+iobj(give-2, it-3)
+det(0-5, a-4)
+dobj(give-2, 0-5)
+prep(0-5, out-6)
+pcomp(out-6, of-7)
+number(!!-9, 10-8)
+pobj(of-7, !!-9)
+
+Sentence #10 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

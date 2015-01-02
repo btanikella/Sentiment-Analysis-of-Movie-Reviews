@@ -1,0 +1,163 @@
+Sentence #1 (6 tokens):
+A wonderful movie about people.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=wonderful CharacterOffsetBegin=6 CharacterOffsetEnd=15 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=.] 
+root(ROOT-0, movie-3)
+det(movie-3, A-1)
+amod(movie-3, wonderful-2)
+prep(movie-3, about-4)
+pobj(about-4, people-5)
+punct(movie-3, .-6)
+
+Sentence #2 (21 tokens):
+I first saw Four Friends when it was originally shown in theatres and I've seen it many times since.
+[Text=I CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=PRP] [Text=first CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=VBD] [Text=Four CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=CD] [Text=Friends CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=NNPS] [Text=when CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=VBD] [Text=originally CharacterOffsetBegin=77 CharacterOffsetEnd=87 PartOfSpeech=RB] [Text=shown CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=theatres CharacterOffsetBegin=97 CharacterOffsetEnd=105 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=PRP] [Text=many CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NNS] [Text=since CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=.] 
+root(ROOT-0, saw-3)
+nsubj(saw-3, I-1)
+advmod(saw-3, first-2)
+num(Friends-5, Four-4)
+dobj(saw-3, Friends-5)
+advmod(shown-10, when-6)
+nsubjpass(shown-10, it-7)
+auxpass(shown-10, was-8)
+advmod(shown-10, originally-9)
+advcl(saw-3, shown-10)
+prep(shown-10, in-11)
+pobj(in-11, theatres-12)
+cc(shown-10, and-13)
+nsubj(seen-16, I-14)
+aux(seen-16, 've-15)
+conj(shown-10, seen-16)
+dobj(seen-16, it-17)
+amod(times-19, many-18)
+tmod(seen-16, times-19)
+advmod(times-19, since-20)
+punct(saw-3, .-21)
+
+Sentence #3 (22 tokens):
+If I'm not watching it when it's on TV, I'll get together with friends and rent it.
+[Text=If CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=RB] [Text=watching CharacterOffsetBegin=156 CharacterOffsetEnd=164 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=PRP] [Text=when CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=VBZ] [Text=on CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=,] [Text=I CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=VB] [Text=together CharacterOffsetBegin=194 CharacterOffsetEnd=202 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=IN] [Text=friends CharacterOffsetBegin=208 CharacterOffsetEnd=215 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=CC] [Text=rent CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=.] 
+root(ROOT-0, get-15)
+mark(watching-5, If-1)
+nsubj(watching-5, I-2)
+aux(watching-5, 'm-3)
+neg(watching-5, not-4)
+advcl(get-15, watching-5)
+dobj(watching-5, it-6)
+advmod('s-9, when-7)
+nsubj('s-9, it-8)
+advcl(watching-5, 's-9)
+prep('s-9, on-10)
+pobj(on-10, TV-11)
+punct(get-15, ,-12)
+nsubj(get-15, I-13)
+aux(get-15, 'll-14)
+advmod(get-15, together-16)
+prep(get-15, with-17)
+pobj(with-17, friends-18)
+cc(get-15, and-19)
+conj(get-15, rent-20)
+dobj(rent-20, it-21)
+punct(get-15, .-22)
+
+Sentence #4 (14 tokens):
+Invariably, the people I've watched this movie with find it enjoyable.
+[Text=Invariably CharacterOffsetBegin=233 CharacterOffsetEnd=243 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=,] [Text=the CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=DT] [Text=people CharacterOffsetBegin=249 CharacterOffsetEnd=255 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=VBP] [Text=watched CharacterOffsetBegin=261 CharacterOffsetEnd=268 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=IN] [Text=find CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=PRP] [Text=enjoyable CharacterOffsetBegin=293 CharacterOffsetEnd=302 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=.] 
+root(ROOT-0, Invariably-1)
+punct(Invariably-1, ,-2)
+det(people-4, the-3)
+nsubj(,-2, people-4)
+nsubj(watched-7, I-5)
+aux(watched-7, 've-6)
+rcmod(people-4, watched-7)
+det(movie-9, this-8)
+dobj(watched-7, movie-9)
+prep(watched-7, with-10)
+pcomp(with-10, find-11)
+nsubj(enjoyable-13, it-12)
+xcomp(find-11, enjoyable-13)
+punct(people-4, .-14)
+
+Sentence #5 (17 tokens):
+It deals with friends from childhood to adulthood, in the 50's and 60's.
+[Text=It CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=PRP] [Text=deals CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=VBZ] [Text=with CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=IN] [Text=friends CharacterOffsetBegin=322 CharacterOffsetEnd=329 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=IN] [Text=childhood CharacterOffsetBegin=335 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=TO] [Text=adulthood CharacterOffsetBegin=348 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=,] [Text=in CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=DT] [Text=50 CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=POS] [Text=and CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=CC] [Text=60 CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=POS] [Text=. CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=.] 
+root(ROOT-0, deals-2)
+nsubj(deals-2, It-1)
+prep(deals-2, with-3)
+pobj(with-3, friends-4)
+prep(deals-2, from-5)
+pobj(from-5, childhood-6)
+prep(deals-2, to-7)
+pobj(to-7, adulthood-8)
+punct(deals-2, ,-9)
+prep(deals-2, in-10)
+det(50-12, the-11)
+pobj(in-10, 50-12)
+possessive(50-12, 's-13)
+cc(50-12, and-14)
+conj(50-12, 60-15)
+possessive(60-15, 's-16)
+punct(deals-2, .-17)
+
+Sentence #6 (29 tokens):
+It's very funny and touching, dealing with first love (and first sex), racism, war, politics- the whole 60's shebang.
+[Text=It CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=CC] [Text=touching CharacterOffsetBegin=405 CharacterOffsetEnd=413 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=,] [Text=dealing CharacterOffsetBegin=415 CharacterOffsetEnd=422 PartOfSpeech=VBG] [Text=with CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=IN] [Text=first CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=JJ] [Text=love CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=439 CharacterOffsetEnd=440 PartOfSpeech=-LRB-] [Text=and CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=CC] [Text=first CharacterOffsetBegin=444 CharacterOffsetEnd=449 PartOfSpeech=JJ] [Text=sex CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=454 CharacterOffsetEnd=455 PartOfSpeech=,] [Text=racism CharacterOffsetBegin=456 CharacterOffsetEnd=462 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=,] [Text=war CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=,] [Text=politics CharacterOffsetBegin=469 CharacterOffsetEnd=477 PartOfSpeech=NNS] [Text=- CharacterOffsetBegin=477 CharacterOffsetEnd=478 PartOfSpeech=:] [Text=the CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=JJ] [Text=60 CharacterOffsetBegin=489 CharacterOffsetEnd=491 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=491 CharacterOffsetEnd=493 PartOfSpeech=POS] [Text=shebang CharacterOffsetBegin=494 CharacterOffsetEnd=501 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=.] 
+root(ROOT-0, funny-4)
+nsubj(funny-4, It-1)
+cop(funny-4, 's-2)
+advmod(funny-4, very-3)
+cc(funny-4, and-5)
+conj(funny-4, touching-6)
+punct(funny-4, ,-7)
+partmod(funny-4, dealing-8)
+prep(dealing-8, with-9)
+pobj(with-9, first-10)
+dep(first-10, love-11)
+punct(sex-15, -LRB--12)
+cc(sex-15, and-13)
+conj(sex-15, first-14)
+dep(love-11, sex-15)
+punct(sex-15, -RRB--16)
+punct(love-11, ,-17)
+conj(love-11, racism-18)
+punct(love-11, ,-19)
+conj(love-11, war-20)
+punct(love-11, ,-21)
+conj(love-11, politics-22)
+punct(love-11, --23)
+det(60-26, the-24)
+amod(60-26, whole-25)
+poss(shebang-28, 60-26)
+possessive(60-26, 's-27)
+dep(love-11, shebang-28)
+punct(funny-4, .-29)
+
+Sentence #7 (7 tokens):
+It can also be quite dramatic.
+[Text=It CharacterOffsetBegin=507 CharacterOffsetEnd=509 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=MD] [Text=also CharacterOffsetBegin=514 CharacterOffsetEnd=518 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=519 CharacterOffsetEnd=521 PartOfSpeech=VB] [Text=quite CharacterOffsetBegin=522 CharacterOffsetEnd=527 PartOfSpeech=RB] [Text=dramatic CharacterOffsetBegin=528 CharacterOffsetEnd=536 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=536 CharacterOffsetEnd=537 PartOfSpeech=.] 
+root(ROOT-0, dramatic-6)
+nsubj(dramatic-6, It-1)
+aux(dramatic-6, can-2)
+advmod(dramatic-6, also-3)
+cop(dramatic-6, be-4)
+advmod(dramatic-6, quite-5)
+punct(dramatic-6, .-7)
+
+Sentence #8 (15 tokens):
+If you enjoy movies about people, this one is definitely worth the time.
+[Text=If CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=PRP] [Text=enjoy CharacterOffsetBegin=549 CharacterOffsetEnd=554 PartOfSpeech=VBP] [Text=movies CharacterOffsetBegin=555 CharacterOffsetEnd=561 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=562 CharacterOffsetEnd=567 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=568 CharacterOffsetEnd=574 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=,] [Text=this CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=CD] [Text=is CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=VBZ] [Text=definitely CharacterOffsetBegin=588 CharacterOffsetEnd=598 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=JJ] [Text=the CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=609 CharacterOffsetEnd=613 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=.] 
+root(ROOT-0, worth-12)
+mark(enjoy-3, If-1)
+nsubj(enjoy-3, you-2)
+advcl(worth-12, enjoy-3)
+dobj(enjoy-3, movies-4)
+prep(movies-4, about-5)
+pobj(about-5, people-6)
+punct(worth-12, ,-7)
+det(one-9, this-8)
+nsubj(worth-12, one-9)
+cop(worth-12, is-10)
+advmod(worth-12, definitely-11)
+det(time-14, the-13)
+dep(worth-12, time-14)
+punct(worth-12, .-15)
+

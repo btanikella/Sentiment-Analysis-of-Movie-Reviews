@@ -1,0 +1,43 @@
+Sentence #1 (15 tokens):
+The only remarkable fact is the participation of Klaus Kinski who plays a priest.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=JJ] [Text=remarkable CharacterOffsetBegin=13 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=fact CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=DT] [Text=participation CharacterOffsetBegin=36 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=IN] [Text=Klaus CharacterOffsetBegin=53 CharacterOffsetEnd=58 PartOfSpeech=NNP] [Text=Kinski CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=WP] [Text=plays CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=DT] [Text=priest CharacterOffsetBegin=78 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=.] 
+root(ROOT-0, participation-7)
+det(fact-4, The-1)
+amod(fact-4, only-2)
+amod(fact-4, remarkable-3)
+nsubj(participation-7, fact-4)
+cop(participation-7, is-5)
+det(participation-7, the-6)
+prep(participation-7, of-8)
+nn(Kinski-10, Klaus-9)
+pobj(of-8, Kinski-10)
+nsubj(plays-12, who-11)
+rcmod(Kinski-10, plays-12)
+det(priest-14, a-13)
+dobj(plays-12, priest-14)
+punct(participation-7, .-15)
+
+Sentence #2 (9 tokens):
+Don't ask me why he does it!
+[Text=Do CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=RB] [Text=ask CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=PRP] [Text=why CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=.] 
+root(ROOT-0, ask-3)
+aux(ask-3, Do-1)
+neg(ask-3, n't-2)
+dobj(ask-3, me-4)
+advmod(does-7, why-5)
+nsubj(does-7, he-6)
+advcl(ask-3, does-7)
+dobj(does-7, it-8)
+punct(ask-3, !-9)
+
+Sentence #3 (7 tokens):
+A bad, bad movie overall.
+[Text=A CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=,] [Text=bad CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=overall CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+det(movie-5, A-1)
+amod(movie-5, bad-2)
+punct(movie-5, ,-3)
+amod(movie-5, bad-4)
+advmod(movie-5, overall-6)
+punct(movie-5, .-7)
+

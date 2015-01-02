@@ -1,0 +1,237 @@
+Sentence #1 (2 tokens):
+Interesting?
+[Text=Interesting CharacterOffsetBegin=4 CharacterOffsetEnd=15 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=.] 
+root(ROOT-0, Interesting-1)
+punct(Interesting-1, ?-2)
+
+Sentence #2 (2 tokens):
+Hardly.
+[Text=Hardly CharacterOffsetBegin=21 CharacterOffsetEnd=27 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=.] 
+root(ROOT-0, Hardly-1)
+punct(Hardly-1, .-2)
+
+Sentence #3 (44 tokens):
+The 'scientific evidence' the movie provides for its point (which is basicly that Jews are a cancer) is so stupid and lame, it's almost laughable (if we didn't know what happened in that era).
+[Text=The CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=DT] [Text=` CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=``] [Text=scientific CharacterOffsetBegin=38 CharacterOffsetEnd=48 PartOfSpeech=JJ] [Text=evidence CharacterOffsetBegin=49 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=''] [Text=the CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=NN] [Text=provides CharacterOffsetBegin=69 CharacterOffsetEnd=77 PartOfSpeech=VBZ] [Text=for CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=PRP$] [Text=point CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=-LRB-] [Text=which CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=VBZ] [Text=basicly CharacterOffsetBegin=102 CharacterOffsetEnd=109 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=IN] [Text=Jews CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=NNPS] [Text=are CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=cancer CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=-RRB-] [Text=is CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=RB] [Text=stupid CharacterOffsetBegin=140 CharacterOffsetEnd=146 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=CC] [Text=lame CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=,] [Text=it CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=VBZ] [Text=almost CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=RB] [Text=laughable CharacterOffsetBegin=169 CharacterOffsetEnd=178 PartOfSpeech=JJ] [Text=-LRB- CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=-LRB-] [Text=if CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=we CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=RB] [Text=know CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=VB] [Text=what CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=WP] [Text=happened CharacterOffsetBegin=203 CharacterOffsetEnd=211 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=DT] [Text=era CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, evidence-4)
+det(evidence-4, The-1)
+punct(evidence-4, `-2)
+amod(evidence-4, scientific-3)
+punct(evidence-4, '-5)
+det(movie-7, the-6)
+nsubj(provides-8, movie-7)
+rcmod(evidence-4, provides-8)
+prep(evidence-4, for-9)
+poss(point-11, its-10)
+pobj(for-9, point-11)
+punct(basicly-15, -LRB--12)
+nsubj(basicly-15, which-13)
+cop(basicly-15, is-14)
+nsubj(stupid-24, basicly-15)
+mark(cancer-20, that-16)
+nsubj(cancer-20, Jews-17)
+cop(cancer-20, are-18)
+det(cancer-20, a-19)
+ccomp(basicly-15, cancer-20)
+punct(cancer-20, -RRB--21)
+cop(stupid-24, is-22)
+advmod(stupid-24, so-23)
+rcmod(point-11, stupid-24)
+cc(stupid-24, and-25)
+conj(stupid-24, lame-26)
+punct(evidence-4, ,-27)
+nsubj(laughable-31, it-28)
+cop(laughable-31, 's-29)
+advmod(laughable-31, almost-30)
+rcmod(evidence-4, laughable-31)
+punct(laughable-31, -LRB--32)
+mark(know-37, if-33)
+nsubj(know-37, we-34)
+aux(know-37, did-35)
+neg(know-37, n't-36)
+advcl(laughable-31, know-37)
+nsubj(happened-39, what-38)
+ccomp(know-37, happened-39)
+prep(happened-39, in-40)
+det(era-42, that-41)
+pobj(in-40, era-42)
+punct(laughable-31, -RRB--43)
+punct(evidence-4, .-44)
+
+Sentence #4 (2 tokens):
+Important?
+[Text=Important CharacterOffsetBegin=225 CharacterOffsetEnd=234 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=.] 
+root(ROOT-0, Important-1)
+punct(Important-1, ?-2)
+
+Sentence #5 (2 tokens):
+Nah.
+[Text=Nah CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=.] 
+root(ROOT-0, Nah-1)
+punct(Nah-1, .-2)
+
+Sentence #6 (19 tokens):
+I can't imagine Germans (even at that horrid time) would like or believe this movie.
+[Text=I CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=RB] [Text=imagine CharacterOffsetBegin=257 CharacterOffsetEnd=264 PartOfSpeech=VB] [Text=Germans CharacterOffsetBegin=265 CharacterOffsetEnd=272 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=-LRB-] [Text=even CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=RB] [Text=at CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=DT] [Text=horrid CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=-RRB-] [Text=would CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=MD] [Text=like CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=VB] [Text=or CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=CC] [Text=believe CharacterOffsetBegin=314 CharacterOffsetEnd=321 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=327 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=.] 
+root(ROOT-0, imagine-4)
+nsubj(imagine-4, I-1)
+aux(imagine-4, ca-2)
+neg(imagine-4, n't-3)
+nsubj(like-14, Germans-5)
+punct(at-8, -LRB--6)
+advmod(at-8, even-7)
+prep(Germans-5, at-8)
+det(time-11, that-9)
+amod(time-11, horrid-10)
+pobj(at-8, time-11)
+punct(at-8, -RRB--12)
+aux(like-14, would-13)
+ccomp(imagine-4, like-14)
+cc(like-14, or-15)
+conj(like-14, believe-16)
+det(movie-18, this-17)
+dobj(believe-16, movie-18)
+punct(imagine-4, .-19)
+
+Sentence #7 (9 tokens):
+Compare it to Riefenstahl's Triumf des Willens.
+[Text=Compare CharacterOffsetBegin=338 CharacterOffsetEnd=345 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=TO] [Text=Riefenstahl CharacterOffsetBegin=352 CharacterOffsetEnd=363 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=POS] [Text=Triumf CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=NNP] [Text=des CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=NNP] [Text=Willens CharacterOffsetBegin=377 CharacterOffsetEnd=384 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=.] 
+root(ROOT-0, Compare-1)
+dobj(Compare-1, it-2)
+prep(Compare-1, to-3)
+poss(Willens-8, Riefenstahl-4)
+possessive(Riefenstahl-4, 's-5)
+nn(Willens-8, Triumf-6)
+nn(Willens-8, des-7)
+pobj(to-3, Willens-8)
+punct(Compare-1, .-9)
+
+Sentence #8 (10 tokens):
+Now that was I movie I was impressed with.
+[Text=Now CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=PRP] [Text=movie CharacterOffsetBegin=405 CharacterOffsetEnd=410 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=VBD] [Text=impressed CharacterOffsetBegin=417 CharacterOffsetEnd=426 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=.] 
+root(ROOT-0, impressed-8)
+advmod(impressed-8, Now-1)
+nsubjpass(impressed-8, that-2)
+auxpass(impressed-8, was-3)
+nsubj(impressed-8, I-4)
+dep(impressed-8, movie-5)
+nsubjpass(impressed-8, I-6)
+auxpass(impressed-8, was-7)
+prep(impressed-8, with-9)
+punct(impressed-8, .-10)
+
+Sentence #9 (6 tokens):
+This is just silly garbage.
+[Text=This CharacterOffsetBegin=437 CharacterOffsetEnd=441 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=RB] [Text=silly CharacterOffsetBegin=450 CharacterOffsetEnd=455 PartOfSpeech=JJ] [Text=garbage CharacterOffsetBegin=456 CharacterOffsetEnd=463 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=.] 
+root(ROOT-0, silly-4)
+nsubj(silly-4, This-1)
+cop(silly-4, is-2)
+advmod(silly-4, just-3)
+dep(silly-4, garbage-5)
+punct(silly-4, .-6)
+
+Sentence #10 (37 tokens):
+'Best' part is a scene from M (one of my all-time favorites) where (the jew, as the announcer so eloquently keeps reminding us) Lorre plays a child-molester and murderer.
+[Text=` CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=``] [Text=Best CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=JJS] [Text=' CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=''] [Text=part CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=479 CharacterOffsetEnd=480 PartOfSpeech=DT] [Text=scene CharacterOffsetBegin=481 CharacterOffsetEnd=486 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=IN] [Text=M CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=-LRB-] [Text=one CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=499 CharacterOffsetEnd=501 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=PRP$] [Text=all-time CharacterOffsetBegin=505 CharacterOffsetEnd=513 PartOfSpeech=JJ] [Text=favorites CharacterOffsetBegin=514 CharacterOffsetEnd=523 PartOfSpeech=NNS] [Text=-RRB- CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=-RRB-] [Text=where CharacterOffsetBegin=525 CharacterOffsetEnd=530 PartOfSpeech=WRB] [Text=-LRB- CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=-LRB-] [Text=the CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=DT] [Text=jew CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=,] [Text=as CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=544 CharacterOffsetEnd=547 PartOfSpeech=DT] [Text=announcer CharacterOffsetBegin=548 CharacterOffsetEnd=557 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=558 CharacterOffsetEnd=560 PartOfSpeech=RB] [Text=eloquently CharacterOffsetBegin=561 CharacterOffsetEnd=571 PartOfSpeech=RB] [Text=keeps CharacterOffsetBegin=572 CharacterOffsetEnd=577 PartOfSpeech=VBZ] [Text=reminding CharacterOffsetBegin=578 CharacterOffsetEnd=587 PartOfSpeech=VBG] [Text=us CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=PRP] [Text=-RRB- CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=-RRB-] [Text=Lorre CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=NNP] [Text=plays CharacterOffsetBegin=598 CharacterOffsetEnd=603 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=DT] [Text=child-molester CharacterOffsetBegin=606 CharacterOffsetEnd=620 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=CC] [Text=murderer CharacterOffsetBegin=625 CharacterOffsetEnd=633 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=.] 
+root(ROOT-0, plays-32)
+punct(part-4, `-1)
+amod(part-4, Best-2)
+punct(part-4, '-3)
+nsubj(scene-7, part-4)
+cop(scene-7, is-5)
+det(scene-7, a-6)
+nsubj(plays-32, scene-7)
+prep(scene-7, from-8)
+nn(Lorre-31, M-9)
+punct(one-11, -LRB--10)
+dep(Lorre-31, one-11)
+prep(one-11, of-12)
+poss(favorites-15, my-13)
+amod(favorites-15, all-time-14)
+pobj(of-12, favorites-15)
+punct(favorites-15, -RRB--16)
+advmod(keeps-27, where-17)
+punct(jew-20, -LRB--18)
+det(jew-20, the-19)
+nsubj(keeps-27, jew-20)
+punct(jew-20, ,-21)
+prep(jew-20, as-22)
+det(announcer-24, the-23)
+pobj(as-22, announcer-24)
+advmod(eloquently-26, so-25)
+advmod(keeps-27, eloquently-26)
+rcmod(one-11, keeps-27)
+xcomp(keeps-27, reminding-28)
+dobj(reminding-28, us-29)
+punct(one-11, -RRB--30)
+pobj(from-8, Lorre-31)
+det(child-molester-34, a-33)
+dobj(plays-32, child-molester-34)
+cc(child-molester-34, and-35)
+conj(child-molester-34, murderer-36)
+punct(plays-32, .-37)
+
+Sentence #11 (15 tokens):
+In the eyes of these film-makers, only a depraved mind can do so.
+[Text=In CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=DT] [Text=eyes CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=651 CharacterOffsetEnd=653 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=654 CharacterOffsetEnd=659 PartOfSpeech=DT] [Text=film-makers CharacterOffsetBegin=660 CharacterOffsetEnd=671 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=,] [Text=only CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=DT] [Text=depraved CharacterOffsetBegin=680 CharacterOffsetEnd=688 PartOfSpeech=JJ] [Text=mind CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=MD] [Text=do CharacterOffsetBegin=698 CharacterOffsetEnd=700 PartOfSpeech=VB] [Text=so CharacterOffsetBegin=701 CharacterOffsetEnd=703 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=703 CharacterOffsetEnd=704 PartOfSpeech=.] 
+root(ROOT-0, do-13)
+prep(do-13, In-1)
+det(eyes-3, the-2)
+pobj(In-1, eyes-3)
+prep(eyes-3, of-4)
+det(film-makers-6, these-5)
+pobj(of-4, film-makers-6)
+punct(do-13, ,-7)
+advmod(mind-11, only-8)
+det(mind-11, a-9)
+amod(mind-11, depraved-10)
+nsubj(do-13, mind-11)
+aux(do-13, can-12)
+advmod(do-13, so-14)
+punct(do-13, .-15)
+
+Sentence #12 (2 tokens):
+Uh-huh.
+[Text=Uh-huh CharacterOffsetBegin=709 CharacterOffsetEnd=715 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=715 CharacterOffsetEnd=716 PartOfSpeech=.] 
+root(ROOT-0, Uh-huh-1)
+punct(Uh-huh-1, .-2)
+
+Sentence #13 (18 tokens):
+Didn't know M was Hitler's favorite movie, right?No, it's just plain STUPID.
+[Text=Did CharacterOffsetBegin=721 CharacterOffsetEnd=724 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=RB] [Text=know CharacterOffsetBegin=728 CharacterOffsetEnd=732 PartOfSpeech=VB] [Text=M CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=VBD] [Text=Hitler CharacterOffsetBegin=739 CharacterOffsetEnd=745 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=745 CharacterOffsetEnd=747 PartOfSpeech=POS] [Text=favorite CharacterOffsetBegin=748 CharacterOffsetEnd=756 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=757 CharacterOffsetEnd=762 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=762 CharacterOffsetEnd=763 PartOfSpeech=,] [Text=right?No CharacterOffsetBegin=764 CharacterOffsetEnd=772 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=772 CharacterOffsetEnd=773 PartOfSpeech=,] [Text=it CharacterOffsetBegin=774 CharacterOffsetEnd=776 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=776 CharacterOffsetEnd=778 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=779 CharacterOffsetEnd=783 PartOfSpeech=RB] [Text=plain CharacterOffsetBegin=784 CharacterOffsetEnd=789 PartOfSpeech=JJ] [Text=STUPID CharacterOffsetBegin=790 CharacterOffsetEnd=796 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=796 CharacterOffsetEnd=797 PartOfSpeech=.] 
+root(ROOT-0, know-3)
+aux(know-3, Did-1)
+neg(know-3, n't-2)
+nsubj(movie-9, M-4)
+cop(movie-9, was-5)
+poss(movie-9, Hitler-6)
+possessive(Hitler-6, 's-7)
+amod(movie-9, favorite-8)
+ccomp(know-3, movie-9)
+punct(movie-9, ,-10)
+appos(movie-9, right?No-11)
+punct(movie-9, ,-12)
+nsubj(STUPID-17, it-13)
+cop(STUPID-17, 's-14)
+advmod(STUPID-17, just-15)
+amod(STUPID-17, plain-16)
+dep(movie-9, STUPID-17)
+punct(know-3, .-18)
+
+Sentence #14 (7 tokens):
+Even for it's nazi-propaganda genre.
+[Text=Even CharacterOffsetBegin=802 CharacterOffsetEnd=806 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=807 CharacterOffsetEnd=810 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=811 CharacterOffsetEnd=813 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=813 CharacterOffsetEnd=815 PartOfSpeech=VBZ] [Text=nazi-propaganda CharacterOffsetBegin=816 CharacterOffsetEnd=831 PartOfSpeech=JJ] [Text=genre CharacterOffsetBegin=832 CharacterOffsetEnd=837 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=837 CharacterOffsetEnd=838 PartOfSpeech=.] 
+root(ROOT-0, genre-6)
+advmod(for-2, Even-1)
+mark(genre-6, for-2)
+nsubj(genre-6, it-3)
+cop(genre-6, 's-4)
+amod(genre-6, nazi-propaganda-5)
+punct(genre-6, .-7)
+
+Sentence #15 (2 tokens):
+2/10.
+[Text=2/10 CharacterOffsetBegin=843 CharacterOffsetEnd=847 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=847 CharacterOffsetEnd=848 PartOfSpeech=.] 
+root(ROOT-0, 2/10-1)
+punct(2/10-1, .-2)
+

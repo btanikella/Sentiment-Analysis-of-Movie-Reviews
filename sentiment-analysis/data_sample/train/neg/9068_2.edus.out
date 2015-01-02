@@ -1,0 +1,100 @@
+Sentence #1 (13 tokens):
+Nominated for the oscar "worst script ever" in my opinion.
+[Text=Nominated CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=DT] [Text=oscar CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=``] [Text=worst CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=JJS] [Text=script CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=RB] [Text='' CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=''] [Text=in CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=PRP$] [Text=opinion CharacterOffsetBegin=54 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=.] 
+root(ROOT-0, Nominated-1)
+prep(Nominated-1, for-2)
+det(script-7, the-3)
+amod(script-7, oscar-4)
+punct(script-7, ``-5)
+amod(script-7, worst-6)
+pobj(for-2, script-7)
+dep(Nominated-1, ever-8)
+punct(ever-8, ''-9)
+dep(''-9, in-10)
+poss(opinion-12, my-11)
+pobj(in-10, opinion-12)
+punct(in-10, .-13)
+
+Sentence #2 (13 tokens):
+There's no decent story, rediculous acting, VERY lousy humor.
+[Text=There CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=DT] [Text=decent CharacterOffsetBegin=78 CharacterOffsetEnd=84 PartOfSpeech=JJ] [Text=story CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=,] [Text=rediculous CharacterOffsetBegin=92 CharacterOffsetEnd=102 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=,] [Text=VERY CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=RB] [Text=lousy CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=JJ] [Text=humor CharacterOffsetBegin=122 CharacterOffsetEnd=127 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+det(story-5, no-3)
+amod(story-5, decent-4)
+nsubj('s-2, story-5)
+punct(story-5, ,-6)
+amod(acting-8, rediculous-7)
+appos(story-5, acting-8)
+punct(story-5, ,-9)
+amod(humor-12, VERY-10)
+amod(humor-12, lousy-11)
+appos(story-5, humor-12)
+punct('s-2, .-13)
+
+Sentence #3 (21 tokens):
+By every means possible, if you have little self respect please don't waste your time seeing this movie.
+[Text=By CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=IN] [Text=every CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=DT] [Text=means CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NNS] [Text=possible CharacterOffsetBegin=148 CharacterOffsetEnd=156 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=,] [Text=if CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=VBP] [Text=little CharacterOffsetBegin=170 CharacterOffsetEnd=176 PartOfSpeech=JJ] [Text=self CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=NN] [Text=respect CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=please CharacterOffsetBegin=190 CharacterOffsetEnd=196 PartOfSpeech=VB] [Text=do CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=RB] [Text=waste CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=seeing CharacterOffsetBegin=219 CharacterOffsetEnd=225 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.] 
+root(ROOT-0, By-1)
+det(means-3, every-2)
+pobj(By-1, means-3)
+amod(means-3, possible-4)
+punct(By-1, ,-5)
+mark(have-8, if-6)
+nsubj(have-8, you-7)
+dep(,-5, have-8)
+amod(respect-11, little-9)
+amod(respect-11, self-10)
+dobj(have-8, respect-11)
+dep(respect-11, please-12)
+aux(waste-15, do-13)
+neg(waste-15, n't-14)
+ccomp(please-12, waste-15)
+poss(time-17, your-16)
+dobj(waste-15, time-17)
+xcomp(waste-15, seeing-18)
+det(movie-20, this-19)
+dobj(seeing-18, movie-20)
+punct(have-8, .-21)
+
+Sentence #4 (17 tokens):
+Although u can see the actors CAN act, it leaves you dumber after watching it.
+[Text=Although CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=u CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=265 CharacterOffsetEnd=271 PartOfSpeech=NNS] [Text=CAN CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=NNP] [Text=act CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=,] [Text=it CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=PRP] [Text=leaves CharacterOffsetBegin=284 CharacterOffsetEnd=290 PartOfSpeech=VBZ] [Text=you CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=PRP] [Text=dumber CharacterOffsetBegin=295 CharacterOffsetEnd=301 PartOfSpeech=JJR] [Text=after CharacterOffsetBegin=302 CharacterOffsetEnd=307 PartOfSpeech=IN] [Text=watching CharacterOffsetBegin=308 CharacterOffsetEnd=316 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=319 CharacterOffsetEnd=320 PartOfSpeech=.] 
+root(ROOT-0, leaves-11)
+mark(see-4, Although-1)
+nsubj(see-4, u-2)
+aux(see-4, can-3)
+advcl(leaves-11, see-4)
+det(act-8, the-5)
+nn(act-8, actors-6)
+nn(act-8, CAN-7)
+dobj(see-4, act-8)
+punct(leaves-11, ,-9)
+nsubj(leaves-11, it-10)
+nsubj(dumber-13, you-12)
+xcomp(leaves-11, dumber-13)
+prep(dumber-13, after-14)
+pcomp(after-14, watching-15)
+dobj(watching-15, it-16)
+punct(leaves-11, .-17)
+
+Sentence #5 (16 tokens):
+Precious braincells are being killed watching this crap...i warned uDON'T SEE THIS MOVIE
+[Text=Precious CharacterOffsetBegin=325 CharacterOffsetEnd=333 PartOfSpeech=JJ] [Text=braincells CharacterOffsetBegin=334 CharacterOffsetEnd=344 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=VBP] [Text=being CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=VBG] [Text=killed CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=VBN] [Text=watching CharacterOffsetBegin=362 CharacterOffsetEnd=370 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=371 CharacterOffsetEnd=375 PartOfSpeech=DT] [Text=crap CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=:] [Text=i CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=FW] [Text=warned CharacterOffsetBegin=385 CharacterOffsetEnd=391 PartOfSpeech=VBD] [Text=uDO CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=NNP] [Text=N'T CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=RB] [Text=SEE CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=VBP] [Text=THIS CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=NNS] [Text=MOVIE CharacterOffsetBegin=408 CharacterOffsetEnd=413 PartOfSpeech=NN] 
+root(ROOT-0, killed-5)
+amod(braincells-2, Precious-1)
+nsubjpass(killed-5, braincells-2)
+aux(killed-5, are-3)
+auxpass(killed-5, being-4)
+xcomp(killed-5, watching-6)
+det(crap-8, this-7)
+dobj(watching-6, crap-8)
+punct(killed-5, ...-9)
+nsubj(warned-11, i-10)
+parataxis(killed-5, warned-11)
+nsubj(SEE-14, uDO-12)
+advmod(SEE-14, N'T-13)
+ccomp(warned-11, SEE-14)
+nn(MOVIE-16, THIS-15)
+dobj(SEE-14, MOVIE-16)
+

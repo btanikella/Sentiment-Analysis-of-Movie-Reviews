@@ -1,0 +1,179 @@
+Sentence #1 (11 tokens):
+A Cinderella story made for adults who live in dreamland.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=Cinderella CharacterOffsetBegin=6 CharacterOffsetEnd=16 PartOfSpeech=NNP] [Text=story CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=adults CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=WP] [Text=live CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=VBP] [Text=in CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=dreamland CharacterOffsetBegin=51 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, story-3)
+det(story-3, A-1)
+nn(story-3, Cinderella-2)
+partmod(story-3, made-4)
+prep(made-4, for-5)
+pobj(for-5, adults-6)
+nsubj(live-8, who-7)
+rcmod(adults-6, live-8)
+prep(live-8, in-9)
+pobj(in-9, dreamland-10)
+punct(story-3, .-11)
+
+Sentence #2 (14 tokens):
+The romance is very unrealistic, fluttery, lovey dovey, perfect etc.
+[Text=The CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT] [Text=romance CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=unrealistic CharacterOffsetBegin=86 CharacterOffsetEnd=97 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=,] [Text=fluttery CharacterOffsetBegin=99 CharacterOffsetEnd=107 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=,] [Text=lovey CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=JJ] [Text=dovey CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=,] [Text=perfect CharacterOffsetBegin=122 CharacterOffsetEnd=129 PartOfSpeech=JJ] [Text=etc. CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=.] 
+root(ROOT-0, unrealistic-5)
+det(romance-2, The-1)
+nsubj(unrealistic-5, romance-2)
+cop(unrealistic-5, is-3)
+advmod(unrealistic-5, very-4)
+punct(unrealistic-5, ,-6)
+conj(unrealistic-5, fluttery-7)
+punct(unrealistic-5, ,-8)
+amod(dovey-10, lovey-9)
+conj(unrealistic-5, dovey-10)
+punct(unrealistic-5, ,-11)
+amod(etc.-13, perfect-12)
+conj(unrealistic-5, etc.-13)
+punct(unrealistic-5, .-14)
+
+Sentence #3 (18 tokens):
+The Cinderella plot till the very end and Shahid Kapoor is the only reason for my stars.
+[Text=The CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=Cinderella CharacterOffsetBegin=143 CharacterOffsetEnd=153 PartOfSpeech=NNP] [Text=plot CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=till CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=JJ] [Text=end CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=CC] [Text=Shahid CharacterOffsetBegin=181 CharacterOffsetEnd=187 PartOfSpeech=NNP] [Text=Kapoor CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=JJ] [Text=reason CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=PRP$] [Text=stars CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=.] 
+root(ROOT-0, reason-14)
+det(plot-3, The-1)
+nn(plot-3, Cinderella-2)
+nsubj(reason-14, plot-3)
+prep(plot-3, till-4)
+det(end-7, the-5)
+amod(end-7, very-6)
+pobj(till-4, end-7)
+cc(end-7, and-8)
+nn(Kapoor-10, Shahid-9)
+conj(end-7, Kapoor-10)
+cop(reason-14, is-11)
+det(reason-14, the-12)
+amod(reason-14, only-13)
+prep(reason-14, for-15)
+poss(stars-17, my-16)
+pobj(for-15, stars-17)
+punct(reason-14, .-18)
+
+Sentence #4 (40 tokens):
+If you're looking for a dreamy romance with a twist, this is definitely you're movie, but for the rest of us real world people, I'd highly recommend saving your three hour watch time.
+[Text=If CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=VBP] [Text=looking CharacterOffsetBegin=242 CharacterOffsetEnd=249 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=dreamy CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=romance CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=twist CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=,] [Text=this CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=VBZ] [Text=definitely CharacterOffsetBegin=293 CharacterOffsetEnd=303 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=VBP] [Text=movie CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=,] [Text=but CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=CC] [Text=for CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=IN] [Text=us CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=PRP] [Text=real CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=JJ] [Text=world CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=NN] [Text=people CharacterOffsetBegin=352 CharacterOffsetEnd=358 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=,] [Text=I CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=PRP] [Text='d CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=MD] [Text=highly CharacterOffsetBegin=364 CharacterOffsetEnd=370 PartOfSpeech=RB] [Text=recommend CharacterOffsetBegin=371 CharacterOffsetEnd=380 PartOfSpeech=VB] [Text=saving CharacterOffsetBegin=381 CharacterOffsetEnd=387 PartOfSpeech=VBG] [Text=your CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=PRP$] [Text=three CharacterOffsetBegin=393 CharacterOffsetEnd=398 PartOfSpeech=CD] [Text=hour CharacterOffsetBegin=399 CharacterOffsetEnd=403 PartOfSpeech=NN] [Text=watch CharacterOffsetBegin=404 CharacterOffsetEnd=409 PartOfSpeech=NN] [Text=time CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=.] 
+root(ROOT-0, movie-18)
+mark(looking-4, If-1)
+nsubj(looking-4, you-2)
+aux(looking-4, 're-3)
+advcl(movie-18, looking-4)
+prep(looking-4, for-5)
+det(romance-8, a-6)
+amod(romance-8, dreamy-7)
+pobj(for-5, romance-8)
+prep(romance-8, with-9)
+det(twist-11, a-10)
+pobj(with-9, twist-11)
+punct(movie-18, ,-12)
+nsubj(movie-18, this-13)
+cop(movie-18, is-14)
+advmod(movie-18, definitely-15)
+nsubj(movie-18, you-16)
+cop(movie-18, 're-17)
+punct(movie-18, ,-19)
+cc(movie-18, but-20)
+conj(movie-18, for-21)
+det(rest-23, the-22)
+pobj(for-21, rest-23)
+prep(rest-23, of-24)
+dep(people-28, us-25)
+amod(people-28, real-26)
+nn(people-28, world-27)
+pobj(of-24, people-28)
+punct(movie-18, ,-29)
+nsubj(recommend-33, I-30)
+aux(recommend-33, 'd-31)
+advmod(recommend-33, highly-32)
+rcmod(movie-18, recommend-33)
+xcomp(recommend-33, saving-34)
+poss(time-39, your-35)
+num(time-39, three-36)
+nn(time-39, hour-37)
+nn(time-39, watch-38)
+dobj(saving-34, time-39)
+punct(movie-18, .-40)
+
+Sentence #5 (20 tokens):
+Wake up people!Four out of the five people that saw the film with me would not recommend the film.
+[Text=Wake CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=RP] [Text=people!Four CharacterOffsetBegin=428 CharacterOffsetEnd=439 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=DT] [Text=five CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=CD] [Text=people CharacterOffsetBegin=456 CharacterOffsetEnd=462 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=WDT] [Text=saw CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=489 CharacterOffsetEnd=494 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=RB] [Text=recommend CharacterOffsetBegin=499 CharacterOffsetEnd=508 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=.] 
+root(ROOT-0, recommend-17)
+csubj(recommend-17, Wake-1)
+prt(Wake-1, up-2)
+dep(Wake-1, people!Four-3)
+advmod(people!Four-3, out-4)
+prep(out-4, of-5)
+det(people-8, the-6)
+num(people-8, five-7)
+pobj(of-5, people-8)
+nsubj(saw-10, that-9)
+rcmod(people-8, saw-10)
+det(film-12, the-11)
+dobj(saw-10, film-12)
+prep(saw-10, with-13)
+pobj(with-13, me-14)
+aux(recommend-17, would-15)
+neg(recommend-17, not-16)
+det(film-19, the-18)
+dobj(recommend-17, film-19)
+punct(recommend-17, .-20)
+
+Sentence #6 (12 tokens):
+We had a great time bashing majority of the unrealistic scenes.
+[Text=We CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=532 CharacterOffsetEnd=537 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=NN] [Text=bashing CharacterOffsetBegin=543 CharacterOffsetEnd=550 PartOfSpeech=VBG] [Text=majority CharacterOffsetBegin=551 CharacterOffsetEnd=559 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=563 CharacterOffsetEnd=566 PartOfSpeech=DT] [Text=unrealistic CharacterOffsetBegin=567 CharacterOffsetEnd=578 PartOfSpeech=JJ] [Text=scenes CharacterOffsetBegin=579 CharacterOffsetEnd=585 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, We-1)
+det(time-5, a-3)
+amod(time-5, great-4)
+dobj(had-2, time-5)
+nn(majority-7, bashing-6)
+dep(time-5, majority-7)
+prep(majority-7, of-8)
+det(scenes-11, the-9)
+amod(scenes-11, unrealistic-10)
+pobj(of-8, scenes-11)
+punct(had-2, .-12)
+
+Sentence #7 (6 tokens):
+Maybe I'm missing something.
+[Text=Maybe CharacterOffsetBegin=591 CharacterOffsetEnd=596 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=597 CharacterOffsetEnd=598 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=598 CharacterOffsetEnd=600 PartOfSpeech=VBP] [Text=missing CharacterOffsetBegin=601 CharacterOffsetEnd=608 PartOfSpeech=VBG] [Text=something CharacterOffsetBegin=609 CharacterOffsetEnd=618 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=.] 
+root(ROOT-0, missing-4)
+advmod(missing-4, Maybe-1)
+nsubj(missing-4, I-2)
+aux(missing-4, 'm-3)
+dobj(missing-4, something-5)
+punct(missing-4, .-6)
+
+Sentence #8 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=619 CharacterOffsetEnd=620 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #9 (16 tokens):
+I just can't believe a movie like this can beat a classic like HDDCS!
+[Text=I CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=627 CharacterOffsetEnd=631 PartOfSpeech=RB] [Text=ca CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=RB] [Text=believe CharacterOffsetBegin=638 CharacterOffsetEnd=645 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=DT] [Text=can CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=MD] [Text=beat CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=673 CharacterOffsetEnd=674 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=675 CharacterOffsetEnd=682 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=683 CharacterOffsetEnd=687 PartOfSpeech=IN] [Text=HDDCS CharacterOffsetBegin=688 CharacterOffsetEnd=693 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=693 CharacterOffsetEnd=694 PartOfSpeech=.] 
+root(ROOT-0, believe-5)
+nsubj(believe-5, I-1)
+advmod(believe-5, just-2)
+aux(believe-5, ca-3)
+neg(believe-5, n't-4)
+det(movie-7, a-6)
+nsubj(beat-11, movie-7)
+prep(movie-7, like-8)
+pobj(like-8, this-9)
+aux(beat-11, can-10)
+ccomp(believe-5, beat-11)
+det(classic-13, a-12)
+dobj(beat-11, classic-13)
+prep(classic-13, like-14)
+pobj(like-14, HDDCS-15)
+punct(believe-5, !-16)
+
+Sentence #10 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=699 CharacterOffsetEnd=700 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

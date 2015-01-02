@@ -1,0 +1,63 @@
+Sentence #1 (14 tokens):
+I checked this movie out based on a favorable review on this page.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=checked CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=IN] [Text=based CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=favorable CharacterOffsetBegin=40 CharacterOffsetEnd=49 PartOfSpeech=JJ] [Text=review CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=page CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=.] 
+root(ROOT-0, checked-2)
+nsubj(checked-2, I-1)
+det(movie-4, this-3)
+dobj(checked-2, movie-4)
+prep(checked-2, out-5)
+pcomp(out-5, based-6)
+prep(based-6, on-7)
+det(review-10, a-8)
+amod(review-10, favorable-9)
+pobj(on-7, review-10)
+prep(review-10, on-11)
+det(page-13, this-12)
+pobj(on-11, page-13)
+punct(checked-2, .-14)
+
+Sentence #2 (13 tokens):
+It is slow moving and the payoff is a four star dud.
+[Text=It CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=VBZ] [Text=slow CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=JJ] [Text=moving CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=DT] [Text=payoff CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=DT] [Text=four CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=CD] [Text=star CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=dud CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=.] 
+root(ROOT-0, slow-3)
+nsubj(slow-3, It-1)
+cop(slow-3, is-2)
+dep(slow-3, moving-4)
+cc(moving-4, and-5)
+det(payoff-7, the-6)
+nsubj(dud-12, payoff-7)
+cop(dud-12, is-8)
+det(dud-12, a-9)
+num(dud-12, four-10)
+nn(dud-12, star-11)
+conj(moving-4, dud-12)
+punct(slow-3, .-13)
+
+Sentence #3 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #4 (19 tokens):
+The only mystery here is how Oscar winner F. Murray Abraham got involved with such a lousy script!
+[Text=The CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=JJ] [Text=mystery CharacterOffsetBegin=137 CharacterOffsetEnd=144 PartOfSpeech=NN] [Text=here CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=VBZ] [Text=how CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=WRB] [Text=Oscar CharacterOffsetBegin=157 CharacterOffsetEnd=162 PartOfSpeech=NNP] [Text=winner CharacterOffsetBegin=163 CharacterOffsetEnd=169 PartOfSpeech=NN] [Text=F. CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=NNP] [Text=Murray CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NNP] [Text=Abraham CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=NNP] [Text=got CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=VBD] [Text=involved CharacterOffsetBegin=192 CharacterOffsetEnd=200 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=IN] [Text=such CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=DT] [Text=lousy CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=219 CharacterOffsetEnd=225 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=.] 
+root(ROOT-0, is-5)
+det(mystery-3, The-1)
+amod(mystery-3, only-2)
+nsubj(is-5, mystery-3)
+advmod(mystery-3, here-4)
+advmod(involved-13, how-6)
+nn(Abraham-11, Oscar-7)
+nn(Abraham-11, winner-8)
+nn(Abraham-11, F.-9)
+nn(Abraham-11, Murray-10)
+nsubjpass(involved-13, Abraham-11)
+auxpass(involved-13, got-12)
+ccomp(is-5, involved-13)
+prep(involved-13, with-14)
+amod(script-18, such-15)
+det(script-18, a-16)
+amod(script-18, lousy-17)
+pobj(with-14, script-18)
+punct(is-5, !-19)
+

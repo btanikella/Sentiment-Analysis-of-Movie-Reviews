@@ -1,0 +1,103 @@
+Sentence #1 (14 tokens):
+This movie is nothing like "Office Space" except in the premise.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=nothing CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=``] [Text=Office CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=NNP] [Text=Space CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=''] [Text=except CharacterOffsetBegin=46 CharacterOffsetEnd=52 PartOfSpeech=IN] [Text=in CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=premise CharacterOffsetBegin=60 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=.] 
+root(ROOT-0, nothing-4)
+det(movie-2, This-1)
+nsubj(nothing-4, movie-2)
+cop(nothing-4, is-3)
+prep(nothing-4, like-5)
+punct(like-5, ``-6)
+nn(Space-8, Office-7)
+pobj(like-5, Space-8)
+punct(like-5, ''-9)
+prep(nothing-4, except-10)
+pcomp(except-10, in-11)
+det(premise-13, the-12)
+pobj(in-11, premise-13)
+punct(nothing-4, .-14)
+
+Sentence #2 (5 tokens):
+Office Space was hilarious.
+[Text=Office CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=NNP] [Text=Space CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=VBD] [Text=hilarious CharacterOffsetBegin=90 CharacterOffsetEnd=99 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=.] 
+root(ROOT-0, hilarious-4)
+nn(Space-2, Office-1)
+nsubj(hilarious-4, Space-2)
+cop(hilarious-4, was-3)
+punct(hilarious-4, .-5)
+
+Sentence #3 (19 tokens):
+I would not recommend this movie to anyone, as I laughed not once during the entire film.
+[Text=I CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=recommend CharacterOffsetBegin=117 CharacterOffsetEnd=126 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=TO] [Text=anyone CharacterOffsetBegin=141 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=,] [Text=as CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=PRP] [Text=laughed CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=RB] [Text=once CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=RB] [Text=during CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=DT] [Text=entire CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=.] 
+root(ROOT-0, recommend-4)
+nsubj(recommend-4, I-1)
+aux(recommend-4, would-2)
+neg(recommend-4, not-3)
+det(movie-6, this-5)
+dobj(recommend-4, movie-6)
+prep(recommend-4, to-7)
+pobj(to-7, anyone-8)
+punct(recommend-4, ,-9)
+mark(laughed-12, as-10)
+nsubj(laughed-12, I-11)
+advcl(recommend-4, laughed-12)
+neg(once-14, not-13)
+advmod(laughed-12, once-14)
+prep(laughed-12, during-15)
+det(film-18, the-16)
+amod(film-18, entire-17)
+pobj(during-15, film-18)
+punct(recommend-4, .-19)
+
+Sentence #4 (18 tokens):
+Mr. Cornbluth's self-indulgent tirades quickly become more annoying than 15 Jason Alexanders in the same room.
+[Text=Mr. CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=NNP] [Text=Cornbluth CharacterOffsetBegin=203 CharacterOffsetEnd=212 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=POS] [Text=self-indulgent CharacterOffsetBegin=215 CharacterOffsetEnd=229 PartOfSpeech=JJ] [Text=tirades CharacterOffsetBegin=230 CharacterOffsetEnd=237 PartOfSpeech=NNS] [Text=quickly CharacterOffsetBegin=238 CharacterOffsetEnd=245 PartOfSpeech=RB] [Text=become CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=VBP] [Text=more CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=RBR] [Text=annoying CharacterOffsetBegin=258 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=IN] [Text=15 CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=CD] [Text=Jason CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=NNP] [Text=Alexanders CharacterOffsetBegin=281 CharacterOffsetEnd=291 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=JJ] [Text=room CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=.] 
+root(ROOT-0, annoying-9)
+nn(Cornbluth-2, Mr.-1)
+poss(tirades-5, Cornbluth-2)
+possessive(Cornbluth-2, 's-3)
+amod(tirades-5, self-indulgent-4)
+nsubj(annoying-9, tirades-5)
+advmod(annoying-9, quickly-6)
+cop(annoying-9, become-7)
+advmod(annoying-9, more-8)
+quantmod(15-11, than-10)
+num(Alexanders-13, 15-11)
+nn(Alexanders-13, Jason-12)
+dep(annoying-9, Alexanders-13)
+prep(Alexanders-13, in-14)
+det(room-17, the-15)
+amod(room-17, same-16)
+pobj(in-14, room-17)
+punct(annoying-9, .-18)
+
+Sentence #5 (27 tokens):
+If you decide to see this movie, use a free rental or watch it at someone else's house so you can leave if necessary.
+[Text=If CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=PRP] [Text=decide CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=,] [Text=use CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=DT] [Text=free CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=JJ] [Text=rental CharacterOffsetBegin=358 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=CC] [Text=watch CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=PRP] [Text=at CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=someone CharacterOffsetBegin=380 CharacterOffsetEnd=387 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=RB] [Text='s CharacterOffsetBegin=392 CharacterOffsetEnd=394 PartOfSpeech=POS] [Text=house CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=MD] [Text=leave CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=VB] [Text=if CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=IN] [Text=necessary CharacterOffsetBegin=421 CharacterOffsetEnd=430 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=.] 
+root(ROOT-0, use-9)
+mark(decide-3, If-1)
+nsubj(decide-3, you-2)
+advcl(use-9, decide-3)
+aux(see-5, to-4)
+xcomp(decide-3, see-5)
+det(movie-7, this-6)
+dobj(see-5, movie-7)
+punct(use-9, ,-8)
+det(rental-12, a-10)
+amod(rental-12, free-11)
+dobj(use-9, rental-12)
+cc(use-9, or-13)
+conj(use-9, watch-14)
+dobj(watch-14, it-15)
+prep(watch-14, at-16)
+pcomp(at-16, someone-17)
+poss(house-20, else-18)
+possessive(else-18, 's-19)
+dobj(someone-17, house-20)
+mark(leave-24, so-21)
+nsubj(leave-24, you-22)
+aux(leave-24, can-23)
+advcl(someone-17, leave-24)
+mark(necessary-26, if-25)
+advcl(leave-24, necessary-26)
+punct(use-9, .-27)
+

@@ -1,0 +1,186 @@
+Sentence #1 (24 tokens):
+A great Bugs Bunny cartoon from the earlier years has Bugs as a performer in an window display at a local department store.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=JJ] [Text=Bugs CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NNS] [Text=Bunny CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=cartoon CharacterOffsetBegin=23 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=earlier CharacterOffsetBegin=40 CharacterOffsetEnd=47 PartOfSpeech=JJR] [Text=years CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=NNS] [Text=has CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=VBZ] [Text=Bugs CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=NNS] [Text=as CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=performer CharacterOffsetBegin=68 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=DT] [Text=window CharacterOffsetBegin=84 CharacterOffsetEnd=90 PartOfSpeech=NN] [Text=display CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=local CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=JJ] [Text=department CharacterOffsetBegin=110 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=store CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=.] 
+root(ROOT-0, has-10)
+det(cartoon-5, A-1)
+amod(cartoon-5, great-2)
+nn(cartoon-5, Bugs-3)
+nn(cartoon-5, Bunny-4)
+nsubj(has-10, cartoon-5)
+prep(cartoon-5, from-6)
+det(years-9, the-7)
+amod(years-9, earlier-8)
+pobj(from-6, years-9)
+dobj(has-10, Bugs-11)
+prep(has-10, as-12)
+det(performer-14, a-13)
+pobj(as-12, performer-14)
+prep(performer-14, in-15)
+det(display-18, an-16)
+nn(display-18, window-17)
+pobj(in-15, display-18)
+prep(display-18, at-19)
+det(store-23, a-20)
+amod(store-23, local-21)
+nn(store-23, department-22)
+pobj(at-19, store-23)
+punct(has-10, .-24)
+
+Sentence #2 (21 tokens):
+After he's done for the day the manager comes in to tell him that he'll be transferring soon.
+[Text=After CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=VBZ] [Text=done CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=DT] [Text=day CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=DT] [Text=manager CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=comes CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=TO] [Text=tell CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=PRP] [Text=that CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=VB] [Text=transferring CharacterOffsetBegin=207 CharacterOffsetEnd=219 PartOfSpeech=VBG] [Text=soon CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, comes-10)
+mark(done-4, After-1)
+nsubjpass(done-4, he-2)
+auxpass(done-4, 's-3)
+advcl(comes-10, done-4)
+prep(done-4, for-5)
+det(day-7, the-6)
+pobj(for-5, day-7)
+det(manager-9, the-8)
+nsubj(comes-10, manager-9)
+prep(comes-10, in-11)
+aux(tell-13, to-12)
+pcomp(in-11, tell-13)
+dobj(tell-13, him-14)
+mark(transferring-19, that-15)
+nsubj(transferring-19, he-16)
+aux(transferring-19, 'll-17)
+aux(transferring-19, be-18)
+ccomp(tell-13, transferring-19)
+advmod(transferring-19, soon-20)
+punct(comes-10, .-21)
+
+Sentence #3 (27 tokens):
+Bugs is happy to oblige into he figures out that the new job is in taxidermy...and that taxidermy has to do with stuffing animals.
+[Text=Bugs CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NNS] [Text=is CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=VBZ] [Text=happy CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=TO] [Text=oblige CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=PRP] [Text=figures CharacterOffsetBegin=262 CharacterOffsetEnd=269 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=RP] [Text=that CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=IN] [Text=taxidermy CharacterOffsetBegin=297 CharacterOffsetEnd=306 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=:] [Text=and CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=IN] [Text=taxidermy CharacterOffsetBegin=318 CharacterOffsetEnd=327 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=IN] [Text=stuffing CharacterOffsetBegin=343 CharacterOffsetEnd=351 PartOfSpeech=VBG] [Text=animals CharacterOffsetBegin=352 CharacterOffsetEnd=359 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=.] 
+root(ROOT-0, happy-3)
+nsubj(happy-3, Bugs-1)
+cop(happy-3, is-2)
+aux(oblige-5, to-4)
+xcomp(happy-3, oblige-5)
+prep(oblige-5, into-6)
+nsubj(figures-8, he-7)
+pcomp(into-6, figures-8)
+prt(figures-8, out-9)
+mark(is-14, that-10)
+det(job-13, the-11)
+amod(job-13, new-12)
+nsubj(is-14, job-13)
+ccomp(figures-8, is-14)
+prep(is-14, in-15)
+pobj(in-15, taxidermy-16)
+punct(happy-3, ...-17)
+cc(happy-3, and-18)
+mark(has-21, that-19)
+nsubj(has-21, taxidermy-20)
+conj(happy-3, has-21)
+aux(do-23, to-22)
+xcomp(has-21, do-23)
+prep(do-23, with-24)
+amod(animals-26, stuffing-25)
+pobj(with-24, animals-26)
+punct(happy-3, .-27)
+
+Sentence #4 (8 tokens):
+Animals like say, a certain rabbit.
+[Text=Animals CharacterOffsetBegin=365 CharacterOffsetEnd=372 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=IN] [Text=say CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=,] [Text=a CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=DT] [Text=certain CharacterOffsetBegin=385 CharacterOffsetEnd=392 PartOfSpeech=JJ] [Text=rabbit CharacterOffsetBegin=393 CharacterOffsetEnd=399 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=.] 
+root(ROOT-0, Animals-1)
+prep(Animals-1, like-2)
+pobj(like-2, say-3)
+punct(say-3, ,-4)
+det(rabbit-7, a-5)
+amod(rabbit-7, certain-6)
+dep(say-3, rabbit-7)
+punct(Animals-1, .-8)
+
+Sentence #5 (16 tokens):
+This causes a battle of wits between the rascally rabbit and his now former employer.
+[Text=This CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=DT] [Text=causes CharacterOffsetBegin=410 CharacterOffsetEnd=416 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=DT] [Text=battle CharacterOffsetBegin=419 CharacterOffsetEnd=425 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=IN] [Text=wits CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=NNS] [Text=between CharacterOffsetBegin=434 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=DT] [Text=rascally CharacterOffsetBegin=446 CharacterOffsetEnd=454 PartOfSpeech=RB] [Text=rabbit CharacterOffsetBegin=455 CharacterOffsetEnd=461 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=PRP$] [Text=now CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=RB] [Text=former CharacterOffsetBegin=474 CharacterOffsetEnd=480 PartOfSpeech=JJ] [Text=employer CharacterOffsetBegin=481 CharacterOffsetEnd=489 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=.] 
+root(ROOT-0, causes-2)
+nsubj(causes-2, This-1)
+det(battle-4, a-3)
+dobj(causes-2, battle-4)
+prep(battle-4, of-5)
+pobj(of-5, wits-6)
+prep(wits-6, between-7)
+det(rabbit-10, the-8)
+amod(rabbit-10, rascally-9)
+pobj(between-7, rabbit-10)
+cc(rabbit-10, and-11)
+poss(employer-15, his-12)
+advmod(employer-15, now-13)
+amod(employer-15, former-14)
+conj(rabbit-10, employer-15)
+punct(causes-2, .-16)
+
+Sentence #6 (20 tokens):
+I found this short to be delightful and definitely one of the better ones of the early 1940's.
+[Text=I CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=PRP] [Text=found CharacterOffsetBegin=497 CharacterOffsetEnd=502 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=DT] [Text=short CharacterOffsetBegin=508 CharacterOffsetEnd=513 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=514 CharacterOffsetEnd=516 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=VB] [Text=delightful CharacterOffsetBegin=520 CharacterOffsetEnd=530 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=CC] [Text=definitely CharacterOffsetBegin=535 CharacterOffsetEnd=545 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=DT] [Text=better CharacterOffsetBegin=557 CharacterOffsetEnd=563 PartOfSpeech=JJR] [Text=ones CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=DT] [Text=early CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=JJ] [Text=1940 CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=586 CharacterOffsetEnd=588 PartOfSpeech=POS] [Text=. CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=.] 
+root(ROOT-0, found-2)
+nsubj(found-2, I-1)
+dobj(found-2, this-3)
+amod(this-3, short-4)
+aux(delightful-7, to-5)
+cop(delightful-7, be-6)
+xcomp(short-4, delightful-7)
+cc(delightful-7, and-8)
+advmod(one-10, definitely-9)
+conj(delightful-7, one-10)
+prep(one-10, of-11)
+det(ones-14, the-12)
+amod(ones-14, better-13)
+pobj(of-11, ones-14)
+prep(ones-14, of-15)
+det(1940-18, the-16)
+amod(1940-18, early-17)
+pobj(of-15, 1940-18)
+possessive(1940-18, 's-19)
+punct(found-2, .-20)
+
+Sentence #7 (11 tokens):
+It still remains as funny nearly 60+ years later.
+[Text=It CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=597 CharacterOffsetEnd=602 PartOfSpeech=RB] [Text=remains CharacterOffsetBegin=603 CharacterOffsetEnd=610 PartOfSpeech=VBZ] [Text=as CharacterOffsetBegin=611 CharacterOffsetEnd=613 PartOfSpeech=IN] [Text=funny CharacterOffsetBegin=614 CharacterOffsetEnd=619 PartOfSpeech=JJ] [Text=nearly CharacterOffsetBegin=620 CharacterOffsetEnd=626 PartOfSpeech=RB] [Text=60 CharacterOffsetBegin=627 CharacterOffsetEnd=629 PartOfSpeech=CD] [Text=+ CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=CC] [Text=years CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=NNS] [Text=later CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=.] 
+root(ROOT-0, remains-3)
+nsubj(remains-3, It-1)
+advmod(remains-3, still-2)
+prep(remains-3, as-4)
+pobj(as-4, funny-5)
+advmod(60-7, nearly-6)
+num(years-9, 60-7)
+amod(years-9, +-8)
+npadvmod(later-10, years-9)
+advmod(funny-5, later-10)
+punct(remains-3, .-11)
+
+Sentence #8 (18 tokens):
+This animated short can be seen on Disc 1 of the Looney Tunes Golden Collection Volume 2.
+[Text=This CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=DT] [Text=animated CharacterOffsetBegin=653 CharacterOffsetEnd=661 PartOfSpeech=JJ] [Text=short CharacterOffsetBegin=662 CharacterOffsetEnd=667 PartOfSpeech=JJ] [Text=can CharacterOffsetBegin=668 CharacterOffsetEnd=671 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=672 CharacterOffsetEnd=674 PartOfSpeech=VB] [Text=seen CharacterOffsetBegin=675 CharacterOffsetEnd=679 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=IN] [Text=Disc CharacterOffsetBegin=683 CharacterOffsetEnd=687 PartOfSpeech=NNP] [Text=1 CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=690 CharacterOffsetEnd=692 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=DT] [Text=Looney CharacterOffsetBegin=697 CharacterOffsetEnd=703 PartOfSpeech=NNP] [Text=Tunes CharacterOffsetBegin=704 CharacterOffsetEnd=709 PartOfSpeech=NNPS] [Text=Golden CharacterOffsetBegin=710 CharacterOffsetEnd=716 PartOfSpeech=NNP] [Text=Collection CharacterOffsetBegin=717 CharacterOffsetEnd=727 PartOfSpeech=NNP] [Text=Volume CharacterOffsetBegin=728 CharacterOffsetEnd=734 PartOfSpeech=NN] [Text=2 CharacterOffsetBegin=735 CharacterOffsetEnd=736 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=736 CharacterOffsetEnd=737 PartOfSpeech=.] 
+root(ROOT-0, seen-6)
+nsubj(seen-6, This-1)
+amod(short-3, animated-2)
+nsubjpass(seen-6, short-3)
+aux(seen-6, can-4)
+auxpass(seen-6, be-5)
+prep(seen-6, on-7)
+pobj(on-7, Disc-8)
+num(Disc-8, 1-9)
+prep(Disc-8, of-10)
+det(Volume-16, the-11)
+nn(Volume-16, Looney-12)
+nn(Volume-16, Tunes-13)
+nn(Volume-16, Golden-14)
+nn(Volume-16, Collection-15)
+pobj(of-10, Volume-16)
+num(Volume-16, 2-17)
+punct(seen-6, .-18)
+
+Sentence #9 (5 tokens):
+My Grade: A-
+[Text=My CharacterOffsetBegin=737 CharacterOffsetEnd=739 PartOfSpeech=PRP$] [Text=Grade CharacterOffsetBegin=740 CharacterOffsetEnd=745 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=745 CharacterOffsetEnd=746 PartOfSpeech=:] [Text=A CharacterOffsetBegin=747 CharacterOffsetEnd=748 PartOfSpeech=NN] [Text=- CharacterOffsetBegin=748 CharacterOffsetEnd=749 PartOfSpeech=:] 
+root(ROOT-0, Grade-2)
+poss(Grade-2, My-1)
+punct(Grade-2, :-3)
+dep(Grade-2, A-4)
+punct(A-4, --5)
+

@@ -1,0 +1,88 @@
+Sentence #1 (8 tokens):
+This is a bad, bad movie.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=,] [Text=bad CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+nsubj(movie-7, This-1)
+cop(movie-7, is-2)
+det(movie-7, a-3)
+amod(movie-7, bad-4)
+punct(movie-7, ,-5)
+amod(movie-7, bad-6)
+punct(movie-7, .-8)
+
+Sentence #2 (22 tokens):
+I'm an actual fencer: trust me when I say that this film's pretension of accuracy is just that.
+[Text=I CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=VBP] [Text=an CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=DT] [Text=actual CharacterOffsetBegin=41 CharacterOffsetEnd=47 PartOfSpeech=JJ] [Text=fencer CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=:] [Text=trust CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=me CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=PRP] [Text=when CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=PRP] [Text=say CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=POS] [Text=pretension CharacterOffsetBegin=93 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN] [Text=accuracy CharacterOffsetBegin=107 CharacterOffsetEnd=115 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=RB] [Text=that CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=.] 
+root(ROOT-0, fencer-5)
+nsubj(fencer-5, I-1)
+cop(fencer-5, 'm-2)
+det(fencer-5, an-3)
+amod(fencer-5, actual-4)
+punct(fencer-5, :-6)
+dep(fencer-5, trust-7)
+dobj(trust-7, me-8)
+advmod(say-11, when-9)
+nsubj(say-11, I-10)
+advcl(trust-7, say-11)
+mark(that-21, that-12)
+det(film-14, this-13)
+poss(pretension-16, film-14)
+possessive(film-14, 's-15)
+nsubj(that-21, pretension-16)
+prep(pretension-16, of-17)
+pobj(of-17, accuracy-18)
+cop(that-21, is-19)
+advmod(that-21, just-20)
+ccomp(say-11, that-21)
+punct(fencer-5, .-22)
+
+Sentence #3 (20 tokens):
+This is especially true during that vile little scene when the fencers are combining footwork with 80's pop.
+[Text=This CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=VBZ] [Text=especially CharacterOffsetBegin=142 CharacterOffsetEnd=152 PartOfSpeech=RB] [Text=true CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=JJ] [Text=during CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=vile CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=JJ] [Text=little CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=fencers CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=VBP] [Text=combining CharacterOffsetBegin=209 CharacterOffsetEnd=218 PartOfSpeech=VBG] [Text=footwork CharacterOffsetBegin=219 CharacterOffsetEnd=227 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=IN] [Text=80 CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=POS] [Text=pop CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=.] 
+root(ROOT-0, true-4)
+nsubj(true-4, This-1)
+cop(true-4, is-2)
+advmod(true-4, especially-3)
+prep(true-4, during-5)
+det(scene-9, that-6)
+amod(scene-9, vile-7)
+amod(scene-9, little-8)
+pobj(during-5, scene-9)
+advmod(combining-14, when-10)
+det(fencers-12, the-11)
+nsubj(combining-14, fencers-12)
+aux(combining-14, are-13)
+advcl(true-4, combining-14)
+dobj(combining-14, footwork-15)
+prep(footwork-15, with-16)
+poss(pop-19, 80-17)
+possessive(80-17, 's-18)
+pobj(with-16, pop-19)
+punct(true-4, .-20)
+
+Sentence #4 (16 tokens):
+The ending is predictable, and the movie is a bore from start to finish.
+[Text=The CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=DT] [Text=ending CharacterOffsetBegin=251 CharacterOffsetEnd=257 PartOfSpeech=VBG] [Text=is CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=VBZ] [Text=predictable CharacterOffsetBegin=261 CharacterOffsetEnd=272 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=,] [Text=and CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=DT] [Text=bore CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=IN] [Text=start CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=TO] [Text=finish CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=.] 
+root(ROOT-0, predictable-4)
+det(ending-2, The-1)
+nsubj(predictable-4, ending-2)
+cop(predictable-4, is-3)
+punct(predictable-4, ,-5)
+cc(predictable-4, and-6)
+det(movie-8, the-7)
+nsubjpass(bore-11, movie-8)
+auxpass(bore-11, is-9)
+det(bore-11, a-10)
+conj(predictable-4, bore-11)
+prep(bore-11, from-12)
+pobj(from-12, start-13)
+aux(finish-15, to-14)
+infmod(start-13, finish-15)
+punct(predictable-4, .-16)
+
+Sentence #5 (2 tokens):
+Horrible.
+[Text=Horrible CharacterOffsetBegin=324 CharacterOffsetEnd=332 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=.] 
+root(ROOT-0, Horrible-1)
+punct(Horrible-1, .-2)
+

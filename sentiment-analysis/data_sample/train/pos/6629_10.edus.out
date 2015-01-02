@@ -1,0 +1,160 @@
+Sentence #1 (7 tokens):
+The best Treasure Island ever made.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=JJS] [Text=Treasure CharacterOffsetBegin=13 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=Island CharacterOffsetBegin=22 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.] 
+root(ROOT-0, made-6)
+det(Island-4, The-1)
+amod(Island-4, best-2)
+nn(Island-4, Treasure-3)
+nsubj(made-6, Island-4)
+advmod(made-6, ever-5)
+punct(made-6, .-7)
+
+Sentence #2 (12 tokens):
+They just don't make filmslike this anymore, or ever.
+[Text=They CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=VB] [Text=filmslike CharacterOffsetBegin=65 CharacterOffsetEnd=74 PartOfSpeech=JJ] [Text=this CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=DT] [Text=anymore CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=,] [Text=or CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=CC] [Text=ever CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=.] 
+root(ROOT-0, make-5)
+nsubj(make-5, They-1)
+advmod(make-5, just-2)
+aux(make-5, do-3)
+neg(make-5, n't-4)
+xcomp(make-5, filmslike-6)
+dobj(filmslike-6, this-7)
+advmod(filmslike-6, anymore-8)
+punct(filmslike-6, ,-9)
+cc(filmslike-6, or-10)
+advmod(filmslike-6, ever-11)
+punct(make-5, .-12)
+
+Sentence #3 (7 tokens):
+No one makes films like this.
+[Text=No CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=VBZ] [Text=films CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.] 
+root(ROOT-0, makes-3)
+det(one-2, No-1)
+nsubj(makes-3, one-2)
+dobj(makes-3, films-4)
+prep(films-4, like-5)
+pobj(like-5, this-6)
+punct(makes-3, .-7)
+
+Sentence #4 (20 tokens):
+Morethan a novelty, this film is funny, frank and fascinating, yet moody,mysterious and morose.
+[Text=Morethan CharacterOffsetBegin=136 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text=a CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=DT] [Text=novelty CharacterOffsetBegin=147 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=,] [Text=this CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=VBZ] [Text=funny CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=,] [Text=frank CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=CC] [Text=fascinating CharacterOffsetBegin=186 CharacterOffsetEnd=197 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=,] [Text=yet CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=RB] [Text=moody CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=,] [Text=mysterious CharacterOffsetBegin=209 CharacterOffsetEnd=219 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC] [Text=morose CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=.] 
+root(ROOT-0, novelty-3)
+nn(novelty-3, Morethan-1)
+det(novelty-3, a-2)
+punct(novelty-3, ,-4)
+det(film-6, this-5)
+nsubj(funny-8, film-6)
+cop(funny-8, is-7)
+rcmod(novelty-3, funny-8)
+punct(novelty-3, ,-9)
+appos(novelty-3, frank-10)
+cc(frank-10, and-11)
+conj(frank-10, fascinating-12)
+punct(novelty-3, ,-13)
+advmod(moody-15, yet-14)
+appos(novelty-3, moody-15)
+punct(moody-15, ,-16)
+conj(moody-15, mysterious-17)
+cc(moody-15, and-18)
+conj(moody-15, morose-19)
+punct(novelty-3, .-20)
+
+Sentence #5 (8 tokens):
+This is one of my favorite pictures.
+[Text=This CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=254 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=pictures CharacterOffsetBegin=263 CharacterOffsetEnd=271 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, one-3)
+nsubj(one-3, This-1)
+cop(one-3, is-2)
+prep(one-3, of-4)
+poss(pictures-7, my-5)
+amod(pictures-7, favorite-6)
+pobj(of-4, pictures-7)
+punct(one-3, .-8)
+
+Sentence #6 (31 tokens):
+Thedirector must have had some idea what it is all about, but hecertainly leaves room for your own impressions and interpretations, while leaving little left to the imagination.
+[Text=Thedirector CharacterOffsetBegin=277 CharacterOffsetEnd=288 PartOfSpeech=NNP] [Text=must CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=VB] [Text=had CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=DT] [Text=idea CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=NN] [Text=what CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=VBZ] [Text=all CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=DT] [Text=about CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=,] [Text=but CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=CC] [Text=hecertainly CharacterOffsetBegin=339 CharacterOffsetEnd=350 PartOfSpeech=RB] [Text=leaves CharacterOffsetBegin=351 CharacterOffsetEnd=357 PartOfSpeech=VBZ] [Text=room CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=JJ] [Text=impressions CharacterOffsetBegin=376 CharacterOffsetEnd=387 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=CC] [Text=interpretations CharacterOffsetBegin=392 CharacterOffsetEnd=407 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=,] [Text=while CharacterOffsetBegin=409 CharacterOffsetEnd=414 PartOfSpeech=IN] [Text=leaving CharacterOffsetBegin=415 CharacterOffsetEnd=422 PartOfSpeech=VBG] [Text=little CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=JJ] [Text=left CharacterOffsetBegin=430 CharacterOffsetEnd=434 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=DT] [Text=imagination CharacterOffsetBegin=442 CharacterOffsetEnd=453 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+nsubj(have-3, Thedirector-1)
+aux(have-3, must-2)
+dep(have-3, had-4)
+det(idea-6, some-5)
+dobj(had-4, idea-6)
+dobj(all-10, what-7)
+nsubj(all-10, it-8)
+cop(all-10, is-9)
+dep(idea-6, all-10)
+advmod(all-10, about-11)
+punct(had-4, ,-12)
+cc(had-4, but-13)
+advmod(leaves-15, hecertainly-14)
+conj(had-4, leaves-15)
+dobj(leaves-15, room-16)
+prep(room-16, for-17)
+poss(impressions-20, your-18)
+amod(impressions-20, own-19)
+pobj(for-17, impressions-20)
+cc(impressions-20, and-21)
+conj(impressions-20, interpretations-22)
+punct(have-3, ,-23)
+mark(leaving-25, while-24)
+advcl(have-3, leaving-25)
+amod(left-27, little-26)
+dep(leaving-25, left-27)
+prep(left-27, to-28)
+det(imagination-30, the-29)
+pobj(to-28, imagination-30)
+punct(have-3, .-31)
+
+Sentence #7 (14 tokens):
+Why hehas not made more films like this, I have no idea.
+[Text=Why CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=WRB] [Text=hehas CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=VBN] [Text=more CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=RBR] [Text=films CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=,] [Text=I CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=VBP] [Text=no CharacterOffsetBegin=507 CharacterOffsetEnd=509 PartOfSpeech=DT] [Text=idea CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=514 CharacterOffsetEnd=515 PartOfSpeech=.] 
+root(ROOT-0, have-11)
+advmod(made-4, Why-1)
+nsubj(made-4, hehas-2)
+neg(made-4, not-3)
+advcl(have-11, made-4)
+amod(films-6, more-5)
+dobj(made-4, films-6)
+prep(films-6, like-7)
+pobj(like-7, this-8)
+punct(have-11, ,-9)
+nsubj(have-11, I-10)
+det(idea-13, no-12)
+dobj(have-11, idea-13)
+punct(have-11, .-14)
+
+Sentence #8 (16 tokens):
+Whilereminding me of some of the best noir, it is one of a kind.
+[Text=Whilereminding CharacterOffsetBegin=520 CharacterOffsetEnd=534 PartOfSpeech=VBG] [Text=me CharacterOffsetBegin=535 CharacterOffsetEnd=537 PartOfSpeech=PRP] [Text=of CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=546 CharacterOffsetEnd=548 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=JJS] [Text=noir CharacterOffsetBegin=558 CharacterOffsetEnd=562 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=,] [Text=it CharacterOffsetBegin=564 CharacterOffsetEnd=566 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=DT] [Text=kind CharacterOffsetBegin=579 CharacterOffsetEnd=583 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=583 CharacterOffsetEnd=584 PartOfSpeech=.] 
+root(ROOT-0, one-12)
+partmod(one-12, Whilereminding-1)
+dobj(Whilereminding-1, me-2)
+prep(me-2, of-3)
+pobj(of-3, some-4)
+prep(some-4, of-5)
+det(noir-8, the-6)
+amod(noir-8, best-7)
+pobj(of-5, noir-8)
+punct(one-12, ,-9)
+nsubj(one-12, it-10)
+cop(one-12, is-11)
+prep(one-12, of-13)
+det(kind-15, a-14)
+pobj(of-13, kind-15)
+punct(one-12, .-16)
+
+Sentence #9 (9 tokens):
+But thisis not for the lazy or simple.
+[Text=But CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=CC] [Text=thisis CharacterOffsetBegin=593 CharacterOffsetEnd=599 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=600 CharacterOffsetEnd=603 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=DT] [Text=lazy CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=CC] [Text=simple CharacterOffsetBegin=620 CharacterOffsetEnd=626 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=.] 
+root(ROOT-0, But-1)
+dep(But-1, thisis-2)
+neg(for-4, not-3)
+prep(thisis-2, for-4)
+pobj(for-4, the-5)
+amod(the-5, lazy-6)
+cc(lazy-6, or-7)
+conj(lazy-6, simple-8)
+punct(But-1, .-9)
+

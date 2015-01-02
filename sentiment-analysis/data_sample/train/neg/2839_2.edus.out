@@ -1,0 +1,139 @@
+Sentence #1 (8 tokens):
+This movie's one of my favorites.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=POS] [Text=one CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=PRP$] [Text=favorites CharacterOffsetBegin=27 CharacterOffsetEnd=36 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=.] 
+root(ROOT-0, one-4)
+det(movie-2, This-1)
+poss(one-4, movie-2)
+possessive(movie-2, 's-3)
+prep(one-4, of-5)
+poss(favorites-7, my-6)
+pobj(of-5, favorites-7)
+punct(one-4, .-8)
+
+Sentence #2 (15 tokens):
+It's not really any good, but it's great to laugh at.
+[Text=It CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=51 CharacterOffsetEnd=57 PartOfSpeech=RB] [Text=any CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=,] [Text=but CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=TO] [Text=laugh CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.] 
+root(ROOT-0, good-6)
+nsubj(good-6, It-1)
+cop(good-6, 's-2)
+neg(good-6, not-3)
+advmod(good-6, really-4)
+det(good-6, any-5)
+punct(good-6, ,-7)
+cc(good-6, but-8)
+nsubj(great-11, it-9)
+cop(great-11, 's-10)
+conj(good-6, great-11)
+aux(laugh-13, to-12)
+xcomp(great-11, laugh-13)
+prep(laugh-13, at-14)
+punct(good-6, .-15)
+
+Sentence #3 (24 tokens):
+The dialogue can become incredibly ludicrous and poorly acted (eg, "Manji, can we ask you a few questions?"
+[Text=The CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=dialogue CharacterOffsetBegin=104 CharacterOffsetEnd=112 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=MD] [Text=become CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=VB] [Text=incredibly CharacterOffsetBegin=124 CharacterOffsetEnd=134 PartOfSpeech=RB] [Text=ludicrous CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=CC] [Text=poorly CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=RB] [Text=acted CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=VBD] [Text=-LRB- CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=-LRB-] [Text=eg CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=FW] [Text=, CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=``] [Text=Manji CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=,] [Text=can CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=MD] [Text=we CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=PRP] [Text=ask CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=JJ] [Text=questions CharacterOffsetBegin=196 CharacterOffsetEnd=205 PartOfSpeech=NNS] [Text=? CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=.] [Text='' CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=''] 
+root(ROOT-0, ludicrous-6)
+det(dialogue-2, The-1)
+nsubj(ludicrous-6, dialogue-2)
+aux(ludicrous-6, can-3)
+cop(ludicrous-6, become-4)
+advmod(ludicrous-6, incredibly-5)
+cc(ludicrous-6, and-7)
+advmod(acted-9, poorly-8)
+conj(ludicrous-6, acted-9)
+punct(eg-11, -LRB--10)
+dep(ask-18, eg-11)
+punct(eg-11, ,-12)
+punct(eg-11, ``-13)
+dep(eg-11, Manji-14)
+punct(eg-11, ,-15)
+aux(ask-18, can-16)
+nsubj(ask-18, we-17)
+ccomp(ludicrous-6, ask-18)
+iobj(ask-18, you-19)
+det(questions-22, a-20)
+amod(questions-22, few-21)
+dobj(ask-18, questions-22)
+punct(ludicrous-6, ?-23)
+punct(ludicrous-6, ''-24)
+
+Sentence #4 (4 tokens):
+"Sure."
+[Text=`` CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=``] [Text=Sure CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=.] [Text='' CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=''] 
+root(ROOT-0, Sure-2)
+punct(Sure-2, ``-1)
+punct(Sure-2, .-3)
+punct(Sure-2, ''-4)
+
+Sentence #5 (13 tokens):
+"We think you can help us with the answers.")
+[Text=`` CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=``] [Text=We CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=MD] [Text=help CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=VB] [Text=us CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=answers CharacterOffsetBegin=259 CharacterOffsetEnd=266 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=.] [Text='' CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=''] [Text=-RRB- CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=-RRB-] 
+root(ROOT-0, think-3)
+punct(think-3, ``-1)
+nsubj(think-3, We-2)
+nsubj(help-6, you-4)
+aux(help-6, can-5)
+ccomp(think-3, help-6)
+dobj(help-6, us-7)
+prep(help-6, with-8)
+det(answers-10, the-9)
+pobj(with-8, answers-10)
+punct(think-3, .-11)
+punct(think-3, ''-12)
+punct(think-3, -RRB--13)
+
+Sentence #6 (8 tokens):
+Any fighting is more or less surrealistic.
+[Text=Any CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=fighting CharacterOffsetBegin=278 CharacterOffsetEnd=286 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=RBR] [Text=or CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=CC] [Text=less CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=RBR] [Text=surrealistic CharacterOffsetBegin=303 CharacterOffsetEnd=315 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=.] 
+root(ROOT-0, surrealistic-7)
+det(fighting-2, Any-1)
+nsubj(surrealistic-7, fighting-2)
+cop(surrealistic-7, is-3)
+advmod(surrealistic-7, more-4)
+cc(more-4, or-5)
+conj(more-4, less-6)
+punct(surrealistic-7, .-8)
+
+Sentence #7 (17 tokens):
+Make sure to watch for Brock, the oafy white guy who attacks the main characters.
+[Text=Make CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=VB] [Text=sure CharacterOffsetBegin=326 CharacterOffsetEnd=330 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=IN] [Text=Brock CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=,] [Text=the CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=DT] [Text=oafy CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=NN] [Text=white CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=WP] [Text=attacks CharacterOffsetBegin=374 CharacterOffsetEnd=381 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=main CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=391 CharacterOffsetEnd=401 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=.] 
+root(ROOT-0, Make-1)
+acomp(Make-1, sure-2)
+aux(watch-4, to-3)
+xcomp(sure-2, watch-4)
+prep(watch-4, for-5)
+pobj(for-5, Brock-6)
+punct(Make-1, ,-7)
+det(guy-11, the-8)
+nn(guy-11, oafy-9)
+amod(guy-11, white-10)
+nsubj(,-7, guy-11)
+nsubj(attacks-13, who-12)
+rcmod(guy-11, attacks-13)
+det(characters-16, the-14)
+amod(characters-16, main-15)
+dobj(attacks-13, characters-16)
+punct(guy-11, .-17)
+
+Sentence #8 (18 tokens):
+He only has two lines, but he's one of the best guys in the movie!
+[Text=He CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=PRP] [Text=only CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=RB] [Text=has CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=VBZ] [Text=two CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=CD] [Text=lines CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=428 CharacterOffsetEnd=429 PartOfSpeech=,] [Text=but CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=JJS] [Text=guys CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=463 CharacterOffsetEnd=466 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=467 CharacterOffsetEnd=472 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+nsubj(has-3, He-1)
+advmod(has-3, only-2)
+num(lines-5, two-4)
+dobj(has-3, lines-5)
+punct(has-3, ,-6)
+cc(has-3, but-7)
+nsubj(one-10, he-8)
+cop(one-10, 's-9)
+conj(has-3, one-10)
+prep(one-10, of-11)
+det(guys-14, the-12)
+amod(guys-14, best-13)
+pobj(of-11, guys-14)
+prep(guys-14, in-15)
+det(movie-17, the-16)
+pobj(in-15, movie-17)
+punct(has-3, !-18)
+

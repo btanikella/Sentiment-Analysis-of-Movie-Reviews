@@ -1,0 +1,183 @@
+Sentence #1 (10 tokens):
+This was the WORST movie I have ever seen!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=WORST CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=movie CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=VBN] [Text=! CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, This-1)
+cop(movie-5, was-2)
+det(movie-5, the-3)
+nn(movie-5, WORST-4)
+nsubj(seen-9, I-6)
+aux(seen-9, have-7)
+advmod(seen-9, ever-8)
+rcmod(movie-5, seen-9)
+punct(movie-5, !-10)
+
+Sentence #2 (11 tokens):
+Molly (molly hall) could not act AT ALL!
+[Text=Molly CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=-LRB-] [Text=molly CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=RB] [Text=hall CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=-RRB-] [Text=could CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=RB] [Text=act CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=VB] [Text=AT CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=IN] [Text=ALL CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=.] 
+root(ROOT-0, act-8)
+nsubj(act-8, Molly-1)
+punct(hall-4, -LRB--2)
+amod(hall-4, molly-3)
+appos(Molly-1, hall-4)
+punct(hall-4, -RRB--5)
+aux(act-8, could-6)
+neg(act-8, not-7)
+prep(act-8, AT-9)
+pobj(AT-9, ALL-10)
+punct(act-8, !-11)
+
+Sentence #3 (21 tokens):
+she had no emotion it was all blah blah blah like she was reading out of a boring text book.
+[Text=she CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=DT] [Text=emotion CharacterOffsetBegin=107 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=blah CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=JJ] [Text=blah CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=JJ] [Text=blah CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=VBD] [Text=reading CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=VBG] [Text=out CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=boring CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=JJ] [Text=text CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=book CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, she-1)
+det(emotion-4, no-3)
+dobj(had-2, emotion-4)
+nsubj(blah-10, it-5)
+cop(blah-10, was-6)
+det(blah-10, all-7)
+amod(blah-10, blah-8)
+amod(blah-10, blah-9)
+rcmod(emotion-4, blah-10)
+mark(reading-14, like-11)
+nsubj(reading-14, she-12)
+aux(reading-14, was-13)
+advcl(blah-10, reading-14)
+prep(reading-14, out-15)
+pcomp(out-15, of-16)
+det(book-20, a-17)
+amod(book-20, boring-18)
+nn(book-20, text-19)
+pobj(of-16, book-20)
+punct(had-2, .-21)
+
+Sentence #4 (36 tokens):
+The smart kid and the kid who loves food (there names weren't worth remembering) were so annoying it drove me crazy.When ever the talked it was about some scientific thing or food.
+[Text=The CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=smart CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=JJ] [Text=kid CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=DT] [Text=kid CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=WP] [Text=loves CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=VBZ] [Text=food CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=-LRB-] [Text=there CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=EX] [Text=names CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=JJ] [Text=remembering CharacterOffsetBegin=261 CharacterOffsetEnd=272 PartOfSpeech=VBG] [Text=-RRB- CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=-RRB-] [Text=were CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=RB] [Text=annoying CharacterOffsetBegin=282 CharacterOffsetEnd=290 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=PRP] [Text=drove CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=PRP] [Text=crazy.When CharacterOffsetBegin=303 CharacterOffsetEnd=313 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=DT] [Text=talked CharacterOffsetBegin=323 CharacterOffsetEnd=329 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=VBD] [Text=about CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=DT] [Text=scientific CharacterOffsetBegin=348 CharacterOffsetEnd=358 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=CC] [Text=food CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=.] 
+root(ROOT-0, annoying-20)
+det(kid-3, The-1)
+amod(kid-3, smart-2)
+nsubj(worth-15, kid-3)
+cc(kid-3, and-4)
+det(kid-6, the-5)
+conj(kid-3, kid-6)
+nsubj(loves-8, who-7)
+rcmod(kid-6, loves-8)
+nn(names-12, food-9)
+punct(names-12, -LRB--10)
+expl(names-12, there-11)
+dobj(loves-8, names-12)
+cop(worth-15, were-13)
+neg(worth-15, n't-14)
+nsubj(annoying-20, worth-15)
+dep(worth-15, remembering-16)
+punct(worth-15, -RRB--17)
+cop(annoying-20, were-18)
+advmod(annoying-20, so-19)
+nsubj(drove-22, it-21)
+ccomp(annoying-20, drove-22)
+nsubj(talked-27, me-23)
+dep(talked-27, crazy.When-24)
+advmod(talked-27, ever-25)
+det(talked-27, the-26)
+ccomp(drove-22, talked-27)
+dobj(talked-27, it-28)
+dep(it-28, was-29)
+prep(was-29, about-30)
+det(thing-33, some-31)
+amod(thing-33, scientific-32)
+pobj(about-30, thing-33)
+cc(thing-33, or-34)
+conj(thing-33, food-35)
+punct(annoying-20, .-36)
+
+Sentence #5 (12 tokens):
+Mollys Dad didn't show enough emotion about his daughter missing.
+[Text=Mollys CharacterOffsetBegin=378 CharacterOffsetEnd=384 PartOfSpeech=NNP] [Text=Dad CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=NNP] [Text=did CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=RB] [Text=show CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=VB] [Text=enough CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=JJ] [Text=emotion CharacterOffsetBegin=408 CharacterOffsetEnd=415 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=416 CharacterOffsetEnd=421 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=PRP$] [Text=daughter CharacterOffsetBegin=426 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=missing CharacterOffsetBegin=435 CharacterOffsetEnd=442 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=442 CharacterOffsetEnd=443 PartOfSpeech=.] 
+root(ROOT-0, show-5)
+nn(Dad-2, Mollys-1)
+nsubj(show-5, Dad-2)
+aux(show-5, did-3)
+neg(show-5, n't-4)
+amod(emotion-7, enough-6)
+dobj(show-5, emotion-7)
+prep(emotion-7, about-8)
+poss(daughter-10, his-9)
+pobj(about-8, daughter-10)
+partmod(daughter-10, missing-11)
+punct(show-5, .-12)
+
+Sentence #6 (14 tokens):
+The police officer and Mollys dad said the same thing like four times.
+[Text=The CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=DT] [Text=police CharacterOffsetBegin=452 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=officer CharacterOffsetBegin=459 CharacterOffsetEnd=466 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=CC] [Text=Mollys CharacterOffsetBegin=471 CharacterOffsetEnd=477 PartOfSpeech=NNP] [Text=dad CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=NNP] [Text=said CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=487 CharacterOffsetEnd=490 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=491 CharacterOffsetEnd=495 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=496 CharacterOffsetEnd=501 PartOfSpeech=NN] [Text=like CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=IN] [Text=four CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=CD] [Text=times CharacterOffsetBegin=512 CharacterOffsetEnd=517 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=.] 
+root(ROOT-0, said-7)
+det(officer-3, The-1)
+nn(officer-3, police-2)
+nsubj(said-7, officer-3)
+cc(officer-3, and-4)
+nn(dad-6, Mollys-5)
+conj(officer-3, dad-6)
+det(thing-10, the-8)
+amod(thing-10, same-9)
+dobj(said-7, thing-10)
+prep(thing-10, like-11)
+num(times-13, four-12)
+pobj(like-11, times-13)
+punct(said-7, .-14)
+
+Sentence #7 (5 tokens):
+it was just horrible.
+[Text=it CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=RB] [Text=horrible CharacterOffsetBegin=535 CharacterOffsetEnd=543 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=543 CharacterOffsetEnd=544 PartOfSpeech=.] 
+root(ROOT-0, horrible-4)
+nsubj(horrible-4, it-1)
+cop(horrible-4, was-2)
+advmod(horrible-4, just-3)
+punct(horrible-4, .-5)
+
+Sentence #8 (7 tokens):
+Everything was repeated way to much.
+[Text=Everything CharacterOffsetBegin=549 CharacterOffsetEnd=559 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=VBD] [Text=repeated CharacterOffsetBegin=564 CharacterOffsetEnd=572 PartOfSpeech=VBN] [Text=way CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=577 CharacterOffsetEnd=579 PartOfSpeech=TO] [Text=much CharacterOffsetBegin=580 CharacterOffsetEnd=584 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=584 CharacterOffsetEnd=585 PartOfSpeech=.] 
+root(ROOT-0, repeated-3)
+nsubjpass(repeated-3, Everything-1)
+auxpass(repeated-3, was-2)
+dobj(repeated-3, way-4)
+prep(way-4, to-5)
+pobj(to-5, much-6)
+punct(repeated-3, .-7)
+
+Sentence #9 (14 tokens):
+Beatrice should have had something bad happen to her for being so mean.
+[Text=Beatrice CharacterOffsetBegin=590 CharacterOffsetEnd=598 PartOfSpeech=NNP] [Text=should CharacterOffsetBegin=599 CharacterOffsetEnd=605 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=VB] [Text=had CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=VBD] [Text=something CharacterOffsetBegin=615 CharacterOffsetEnd=624 PartOfSpeech=NN] [Text=bad CharacterOffsetBegin=625 CharacterOffsetEnd=628 PartOfSpeech=JJ] [Text=happen CharacterOffsetBegin=629 CharacterOffsetEnd=635 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=TO] [Text=her CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=PRP$] [Text=for CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=IN] [Text=being CharacterOffsetBegin=647 CharacterOffsetEnd=652 PartOfSpeech=VBG] [Text=so CharacterOffsetBegin=653 CharacterOffsetEnd=655 PartOfSpeech=RB] [Text=mean CharacterOffsetBegin=656 CharacterOffsetEnd=660 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=.] 
+root(ROOT-0, have-3)
+nsubj(have-3, Beatrice-1)
+aux(have-3, should-2)
+ccomp(have-3, had-4)
+dobj(had-4, something-5)
+amod(happen-7, bad-6)
+dep(something-5, happen-7)
+prep(happen-7, to-8)
+pobj(to-8, her-9)
+prep(happen-7, for-10)
+cop(mean-13, being-11)
+advmod(mean-13, so-12)
+pcomp(for-10, mean-13)
+punct(have-3, .-14)
+
+Sentence #10 (13 tokens):
+I just wasted a moment in my life by watching this movie!
+[Text=I CharacterOffsetBegin=666 CharacterOffsetEnd=667 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=RB] [Text=wasted CharacterOffsetBegin=673 CharacterOffsetEnd=679 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=680 CharacterOffsetEnd=681 PartOfSpeech=DT] [Text=moment CharacterOffsetBegin=682 CharacterOffsetEnd=688 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=692 CharacterOffsetEnd=694 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=695 CharacterOffsetEnd=699 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=IN] [Text=watching CharacterOffsetBegin=703 CharacterOffsetEnd=711 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=712 CharacterOffsetEnd=716 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=717 CharacterOffsetEnd=722 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=722 CharacterOffsetEnd=723 PartOfSpeech=.] 
+root(ROOT-0, wasted-3)
+nsubj(wasted-3, I-1)
+advmod(wasted-3, just-2)
+det(moment-5, a-4)
+dobj(wasted-3, moment-5)
+prep(wasted-3, in-6)
+poss(life-8, my-7)
+pobj(in-6, life-8)
+prep(wasted-3, by-9)
+pcomp(by-9, watching-10)
+det(movie-12, this-11)
+dobj(watching-10, movie-12)
+punct(wasted-3, !-13)
+

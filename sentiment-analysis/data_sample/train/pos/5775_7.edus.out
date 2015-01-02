@@ -1,0 +1,167 @@
+Sentence #1 (8 tokens):
+C'mon people, look at the title!
+[Text=C'mon CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=VB] [Text=people CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=,] [Text=look CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=title CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.] 
+root(ROOT-0, people-2)
+amod(people-2, C'mon-1)
+punct(people-2, ,-3)
+partmod(people-2, look-4)
+prep(look-4, at-5)
+det(title-7, the-6)
+pobj(at-5, title-7)
+punct(people-2, !-8)
+
+Sentence #2 (2 tokens):
+LOL!
+[Text=LOL CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.] 
+root(ROOT-0, LOL-1)
+punct(LOL-1, !-2)
+
+Sentence #3 (14 tokens):
+I remember seeing this movie on Saturday Late Night Creature Features years ago.
+[Text=I CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=PRP] [Text=remember CharacterOffsetBegin=52 CharacterOffsetEnd=60 PartOfSpeech=VBP] [Text=seeing CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=Saturday CharacterOffsetBegin=82 CharacterOffsetEnd=90 PartOfSpeech=NNP] [Text=Late CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=NNP] [Text=Night CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=NNP] [Text=Creature CharacterOffsetBegin=102 CharacterOffsetEnd=110 PartOfSpeech=NNP] [Text=Features CharacterOffsetBegin=111 CharacterOffsetEnd=119 PartOfSpeech=VBZ] [Text=years CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=NNS] [Text=ago CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=.] 
+root(ROOT-0, remember-2)
+nsubj(remember-2, I-1)
+dep(remember-2, seeing-3)
+det(movie-5, this-4)
+dobj(seeing-3, movie-5)
+prep(seeing-3, on-6)
+nn(Creature-10, Saturday-7)
+nn(Creature-10, Late-8)
+nn(Creature-10, Night-9)
+pobj(on-6, Creature-10)
+dep(seeing-3, Features-11)
+npadvmod(ago-13, years-12)
+advmod(Features-11, ago-13)
+punct(remember-2, .-14)
+
+Sentence #4 (24 tokens):
+It's a great, cheesy monster flick with hilariously bad acting and two wonderfully moronic hillbillies that add to the schlock factor.
+[Text=It CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=,] [Text=cheesy CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=JJ] [Text=monster CharacterOffsetBegin=156 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=flick CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=IN] [Text=hilariously CharacterOffsetBegin=175 CharacterOffsetEnd=186 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=CC] [Text=two CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=CD] [Text=wonderfully CharacterOffsetBegin=206 CharacterOffsetEnd=217 PartOfSpeech=RB] [Text=moronic CharacterOffsetBegin=218 CharacterOffsetEnd=225 PartOfSpeech=JJ] [Text=hillbillies CharacterOffsetBegin=226 CharacterOffsetEnd=237 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=WDT] [Text=add CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=schlock CharacterOffsetBegin=254 CharacterOffsetEnd=261 PartOfSpeech=NN] [Text=factor CharacterOffsetBegin=262 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=.] 
+root(ROOT-0, flick-8)
+nsubj(flick-8, It-1)
+cop(flick-8, 's-2)
+det(flick-8, a-3)
+amod(flick-8, great-4)
+punct(flick-8, ,-5)
+amod(flick-8, cheesy-6)
+nn(flick-8, monster-7)
+prep(flick-8, with-9)
+advmod(acting-12, hilariously-10)
+amod(acting-12, bad-11)
+pcomp(with-9, acting-12)
+cc(acting-12, and-13)
+num(hillbillies-17, two-14)
+amod(hillbillies-17, wonderfully-15)
+amod(hillbillies-17, moronic-16)
+conj(acting-12, hillbillies-17)
+nsubj(add-19, that-18)
+rcmod(hillbillies-17, add-19)
+prep(add-19, to-20)
+det(factor-23, the-21)
+nn(factor-23, schlock-22)
+pobj(to-20, factor-23)
+punct(flick-8, .-24)
+
+Sentence #5 (10 tokens):
+The 2 redneck boat rental guys are the movie!
+[Text=The CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=2 CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=CD] [Text=redneck CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=NN] [Text=boat CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=NN] [Text=rental CharacterOffsetBegin=293 CharacterOffsetEnd=299 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=.] 
+root(ROOT-0, movie-9)
+det(guys-6, The-1)
+num(guys-6, 2-2)
+nn(guys-6, redneck-3)
+nn(guys-6, boat-4)
+amod(guys-6, rental-5)
+nsubj(movie-9, guys-6)
+cop(movie-9, are-7)
+det(movie-9, the-8)
+punct(movie-9, !-10)
+
+Sentence #6 (29 tokens):
+LOL, and you'll love the boat scene where the English guy and his wife are talking about all the stars and it's midday and sunny.
+[Text=LOL CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=,] [Text=and CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=MD] [Text=love CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=DT] [Text=boat CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=NN] [Text=scene CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=NN] [Text=where CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=DT] [Text=English CharacterOffsetBegin=370 CharacterOffsetEnd=377 PartOfSpeech=NNP] [Text=guy CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=VBP] [Text=talking CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=407 CharacterOffsetEnd=412 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=DT] [Text=stars CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=VBZ] [Text=midday CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=CC] [Text=sunny CharacterOffsetBegin=447 CharacterOffsetEnd=452 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=.] 
+root(ROOT-0, LOL-1)
+punct(LOL-1, ,-2)
+cc(LOL-1, and-3)
+nsubj(love-6, you-4)
+aux(love-6, 'll-5)
+conj(LOL-1, love-6)
+det(scene-9, the-7)
+nn(scene-9, boat-8)
+dobj(love-6, scene-9)
+advmod(talking-18, where-10)
+det(guy-13, the-11)
+nn(guy-13, English-12)
+nsubj(talking-18, guy-13)
+cc(guy-13, and-14)
+poss(wife-16, his-15)
+conj(guy-13, wife-16)
+aux(talking-18, are-17)
+rcmod(scene-9, talking-18)
+prep(talking-18, about-19)
+predet(stars-22, all-20)
+det(stars-22, the-21)
+pobj(about-19, stars-22)
+cc(talking-18, and-23)
+nsubj(midday-26, it-24)
+cop(midday-26, 's-25)
+conj(talking-18, midday-26)
+cc(midday-26, and-27)
+conj(midday-26, sunny-28)
+punct(LOL-1, .-29)
+
+Sentence #7 (3 tokens):
+Bloody hilarious!!!
+[Text=Bloody CharacterOffsetBegin=458 CharacterOffsetEnd=464 PartOfSpeech=JJ] [Text=hilarious CharacterOffsetBegin=465 CharacterOffsetEnd=474 PartOfSpeech=JJ] [Text=!!! CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=NN] 
+root(ROOT-0, !!!-3)
+amod(!!!-3, Bloody-1)
+amod(!!!-3, hilarious-2)
+
+Sentence #8 (27 tokens):
+You can tell they just didn't care about plot, they just wanted to blow through the filming of the movie as fast as possible.
+[Text=You CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=MD] [Text=tell CharacterOffsetBegin=490 CharacterOffsetEnd=494 PartOfSpeech=VB] [Text=they CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=508 CharacterOffsetEnd=511 PartOfSpeech=RB] [Text=care CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=517 CharacterOffsetEnd=522 PartOfSpeech=IN] [Text=plot CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=527 CharacterOffsetEnd=528 PartOfSpeech=,] [Text=they CharacterOffsetBegin=529 CharacterOffsetEnd=533 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=534 CharacterOffsetEnd=538 PartOfSpeech=RB] [Text=wanted CharacterOffsetBegin=539 CharacterOffsetEnd=545 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=546 CharacterOffsetEnd=548 PartOfSpeech=TO] [Text=blow CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=VB] [Text=through CharacterOffsetBegin=554 CharacterOffsetEnd=561 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=DT] [Text=filming CharacterOffsetBegin=566 CharacterOffsetEnd=573 PartOfSpeech=VBG] [Text=of CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=581 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=587 CharacterOffsetEnd=589 PartOfSpeech=IN] [Text=fast CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=595 CharacterOffsetEnd=597 PartOfSpeech=IN] [Text=possible CharacterOffsetBegin=598 CharacterOffsetEnd=606 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=606 CharacterOffsetEnd=607 PartOfSpeech=.] 
+root(ROOT-0, tell-3)
+nsubj(tell-3, You-1)
+aux(tell-3, can-2)
+dobj(tell-3, they-4)
+advmod(care-8, just-5)
+aux(care-8, did-6)
+neg(care-8, n't-7)
+dep(tell-3, care-8)
+prep(care-8, about-9)
+pobj(about-9, plot-10)
+punct(care-8, ,-11)
+nsubj(wanted-14, they-12)
+advmod(wanted-14, just-13)
+ccomp(care-8, wanted-14)
+aux(blow-16, to-15)
+xcomp(wanted-14, blow-16)
+prep(blow-16, through-17)
+det(filming-19, the-18)
+pobj(through-17, filming-19)
+prep(filming-19, of-20)
+det(movie-22, the-21)
+pobj(of-20, movie-22)
+prep(filming-19, as-23)
+pobj(as-23, fast-24)
+prep(fast-24, as-25)
+pobj(as-25, possible-26)
+punct(tell-3, .-27)
+
+Sentence #9 (14 tokens):
+Bottom line, you'll love it if you love 70's schlock.
+[Text=Bottom CharacterOffsetBegin=612 CharacterOffsetEnd=618 PartOfSpeech=NN] [Text=line CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=,] [Text=you CharacterOffsetBegin=625 CharacterOffsetEnd=628 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=MD] [Text=love CharacterOffsetBegin=632 CharacterOffsetEnd=636 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=PRP] [Text=if CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=647 CharacterOffsetEnd=651 PartOfSpeech=VBP] [Text=70 CharacterOffsetBegin=652 CharacterOffsetEnd=654 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=POS] [Text=schlock CharacterOffsetBegin=657 CharacterOffsetEnd=664 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=664 CharacterOffsetEnd=665 PartOfSpeech=.] 
+root(ROOT-0, love-6)
+nn(line-2, Bottom-1)
+nsubj(love-6, line-2)
+punct(love-6, ,-3)
+nsubj(love-6, you-4)
+aux(love-6, 'll-5)
+dobj(love-6, it-7)
+mark(love-10, if-8)
+nsubj(love-10, you-9)
+advcl(love-6, love-10)
+poss(schlock-13, 70-11)
+possessive(70-11, 's-12)
+dobj(love-10, schlock-13)
+punct(love-6, .-14)
+

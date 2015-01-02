@@ -1,0 +1,64 @@
+Sentence #1 (6 tokens):
+Great acting, great movie.
+[Text=Great CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=acting CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=,] [Text=great CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.] 
+root(ROOT-0, acting-2)
+amod(acting-2, Great-1)
+punct(acting-2, ,-3)
+amod(movie-5, great-4)
+conj(acting-2, movie-5)
+punct(acting-2, .-6)
+
+Sentence #2 (11 tokens):
+If you are thinking of building see this movie first.
+[Text=If CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=VBP] [Text=thinking CharacterOffsetBegin=46 CharacterOffsetEnd=54 PartOfSpeech=VBG] [Text=of CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=IN] [Text=building CharacterOffsetBegin=58 CharacterOffsetEnd=66 PartOfSpeech=VBG] [Text=see CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=first CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=.] 
+root(ROOT-0, thinking-4)
+mark(thinking-4, If-1)
+nsubj(thinking-4, you-2)
+aux(thinking-4, are-3)
+prep(thinking-4, of-5)
+pcomp(of-5, building-6)
+partmod(building-6, see-7)
+det(movie-9, this-8)
+dobj(see-7, movie-9)
+advmod(movie-9, first-10)
+punct(thinking-4, .-11)
+
+Sentence #3 (13 tokens):
+The dollar amounts may have changed but everything else is the same.
+[Text=The CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=dollar CharacterOffsetBegin=97 CharacterOffsetEnd=103 PartOfSpeech=NN] [Text=amounts CharacterOffsetBegin=104 CharacterOffsetEnd=111 PartOfSpeech=NNS] [Text=may CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=VB] [Text=changed CharacterOffsetBegin=121 CharacterOffsetEnd=128 PartOfSpeech=VBN] [Text=but CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=CC] [Text=everything CharacterOffsetBegin=133 CharacterOffsetEnd=143 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=.] 
+root(ROOT-0, changed-6)
+det(dollar-2, The-1)
+nsubj(changed-6, dollar-2)
+amod(dollar-2, amounts-3)
+aux(changed-6, may-4)
+aux(changed-6, have-5)
+cc(changed-6, but-7)
+nsubj(same-12, everything-8)
+advmod(everything-8, else-9)
+cop(same-12, is-10)
+det(same-12, the-11)
+conj(changed-6, same-12)
+punct(changed-6, .-13)
+
+Sentence #4 (18 tokens):
+The humor is true to life and emotions are those that anyone who has built has felt.
+[Text=The CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=humor CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=VBZ] [Text=true CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=TO] [Text=life CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=CC] [Text=emotions CharacterOffsetBegin=196 CharacterOffsetEnd=204 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=VBP] [Text=those CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=DT] [Text=that CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=WDT] [Text=anyone CharacterOffsetBegin=220 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=WP] [Text=has CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=VBZ] [Text=built CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=VBN] [Text=has CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=VBZ] [Text=felt CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=.] 
+root(ROOT-0, true-4)
+det(humor-2, The-1)
+nsubj(true-4, humor-2)
+cop(true-4, is-3)
+prep(true-4, to-5)
+pobj(to-5, life-6)
+cc(life-6, and-7)
+conj(life-6, emotions-8)
+cop(those-10, are-9)
+dep(true-4, those-10)
+dobj(felt-17, that-11)
+nsubj(felt-17, anyone-12)
+nsubj(built-15, who-13)
+aux(built-15, has-14)
+rcmod(anyone-12, built-15)
+aux(felt-17, has-16)
+rcmod(those-10, felt-17)
+punct(true-4, .-18)
+

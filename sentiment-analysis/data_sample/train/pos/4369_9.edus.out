@@ -1,0 +1,281 @@
+Sentence #1 (5 tokens):
+I loved this movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=.] 
+root(ROOT-0, loved-2)
+nsubj(loved-2, I-1)
+det(movie-4, this-3)
+dobj(loved-2, movie-4)
+punct(loved-2, .-5)
+
+Sentence #2 (21 tokens):
+The scenery was breathtaking, the plot had some nice twists and turns, and the characters were well rounded.
+[Text=The CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=scenery CharacterOffsetBegin=32 CharacterOffsetEnd=39 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=VBD] [Text=breathtaking CharacterOffsetBegin=44 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=,] [Text=the CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=nice CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=JJ] [Text=twists CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=CC] [Text=turns CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=,] [Text=and CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=107 CharacterOffsetEnd=117 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=VBD] [Text=well CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=RB] [Text=rounded CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=.] 
+root(ROOT-0, breathtaking-4)
+det(scenery-2, The-1)
+nsubj(breathtaking-4, scenery-2)
+cop(breathtaking-4, was-3)
+punct(breathtaking-4, ,-5)
+det(plot-7, the-6)
+nsubj(had-8, plot-7)
+conj(breathtaking-4, had-8)
+det(twists-11, some-9)
+amod(twists-11, nice-10)
+dobj(had-8, twists-11)
+cc(had-8, and-12)
+conj(had-8, turns-13)
+punct(breathtaking-4, ,-14)
+cc(breathtaking-4, and-15)
+det(characters-17, the-16)
+nsubjpass(rounded-20, characters-17)
+auxpass(rounded-20, were-18)
+advmod(rounded-20, well-19)
+conj(breathtaking-4, rounded-20)
+punct(breathtaking-4, .-21)
+
+Sentence #3 (15 tokens):
+On two fronts, however, "Rob Roy" scored far above average.
+[Text=On CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=IN] [Text=two CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=CD] [Text=fronts CharacterOffsetBegin=148 CharacterOffsetEnd=154 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=,] [Text=however CharacterOffsetBegin=156 CharacterOffsetEnd=163 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=,] [Text=`` CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=``] [Text=Rob CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=NNP] [Text=Roy CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=''] [Text=scored CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=VBD] [Text=far CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=RB] [Text=above CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=JJ] [Text=average CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.] 
+root(ROOT-0, scored-11)
+prep(scored-11, On-1)
+num(fronts-3, two-2)
+pobj(On-1, fronts-3)
+punct(scored-11, ,-4)
+advmod(scored-11, however-5)
+punct(scored-11, ,-6)
+punct(scored-11, ``-7)
+nn(Roy-9, Rob-8)
+nsubj(scored-11, Roy-9)
+punct(scored-11, ''-10)
+advmod(above-13, far-12)
+amod(average-14, above-13)
+dobj(scored-11, average-14)
+punct(scored-11, .-15)
+
+Sentence #4 (21 tokens):
+First, I have rarely seen a "popular" film in which the quality of dialogue was so high.
+[Text=First CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=,] [Text=I CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=VBP] [Text=rarely CharacterOffsetBegin=219 CharacterOffsetEnd=225 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=``] [Text=popular CharacterOffsetBegin=234 CharacterOffsetEnd=241 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=''] [Text=film CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN] [Text=which CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=WDT] [Text=the CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=DT] [Text=quality CharacterOffsetBegin=261 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=IN] [Text=dialogue CharacterOffsetBegin=272 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=RB] [Text=high CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=.] 
+root(ROOT-0, seen-6)
+advmod(seen-6, First-1)
+punct(seen-6, ,-2)
+nsubj(seen-6, I-3)
+aux(seen-6, have-4)
+advmod(seen-6, rarely-5)
+det(film-11, a-7)
+punct(film-11, ``-8)
+amod(film-11, popular-9)
+punct(film-11, ''-10)
+dobj(seen-6, film-11)
+prep(high-20, in-12)
+pobj(in-12, which-13)
+det(quality-15, the-14)
+nsubj(high-20, quality-15)
+prep(quality-15, of-16)
+pobj(of-16, dialogue-17)
+cop(high-20, was-18)
+advmod(high-20, so-19)
+rcmod(film-11, high-20)
+punct(seen-6, .-21)
+
+Sentence #5 (14 tokens):
+There were many verbal slashes and thrusts to accompany the brilliantly choreographed swordplay.
+[Text=There CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=EX] [Text=were CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=VBD] [Text=many CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=JJ] [Text=verbal CharacterOffsetBegin=314 CharacterOffsetEnd=320 PartOfSpeech=JJ] [Text=slashes CharacterOffsetBegin=321 CharacterOffsetEnd=328 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=CC] [Text=thrusts CharacterOffsetBegin=333 CharacterOffsetEnd=340 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=TO] [Text=accompany CharacterOffsetBegin=344 CharacterOffsetEnd=353 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=brilliantly CharacterOffsetBegin=358 CharacterOffsetEnd=369 PartOfSpeech=RB] [Text=choreographed CharacterOffsetBegin=370 CharacterOffsetEnd=383 PartOfSpeech=VBN] [Text=swordplay CharacterOffsetBegin=384 CharacterOffsetEnd=393 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.] 
+root(ROOT-0, were-2)
+expl(were-2, There-1)
+amod(slashes-5, many-3)
+amod(slashes-5, verbal-4)
+nsubj(were-2, slashes-5)
+cc(slashes-5, and-6)
+conj(slashes-5, thrusts-7)
+aux(accompany-9, to-8)
+infmod(slashes-5, accompany-9)
+det(swordplay-13, the-10)
+advmod(choreographed-12, brilliantly-11)
+amod(swordplay-13, choreographed-12)
+dobj(accompany-9, swordplay-13)
+punct(were-2, .-14)
+
+Sentence #6 (11 tokens):
+I could give numerous examples, but why should I?
+[Text=I CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=401 CharacterOffsetEnd=406 PartOfSpeech=MD] [Text=give CharacterOffsetBegin=407 CharacterOffsetEnd=411 PartOfSpeech=VB] [Text=numerous CharacterOffsetBegin=412 CharacterOffsetEnd=420 PartOfSpeech=JJ] [Text=examples CharacterOffsetBegin=421 CharacterOffsetEnd=429 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=,] [Text=but CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=CC] [Text=why CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=WRB] [Text=should CharacterOffsetBegin=439 CharacterOffsetEnd=445 PartOfSpeech=MD] [Text=I CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=.] 
+root(ROOT-0, give-3)
+nsubj(give-3, I-1)
+aux(give-3, could-2)
+amod(examples-5, numerous-4)
+dobj(give-3, examples-5)
+punct(give-3, ,-6)
+cc(give-3, but-7)
+conj(give-3, why-8)
+dep(why-8, should-9)
+dep(should-9, I-10)
+punct(give-3, ?-11)
+
+Sentence #7 (5 tokens):
+Just watch the film.
+[Text=Just CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=RB] [Text=watch CharacterOffsetBegin=458 CharacterOffsetEnd=463 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=.] 
+root(ROOT-0, watch-2)
+advmod(watch-2, Just-1)
+det(film-4, the-3)
+dobj(watch-2, film-4)
+punct(watch-2, .-5)
+
+Sentence #8 (12 tokens):
+Second, this movie understood a principle rarely acknowledged any more.
+[Text=Second CharacterOffsetBegin=478 CharacterOffsetEnd=484 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=,] [Text=this CharacterOffsetBegin=486 CharacterOffsetEnd=490 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=491 CharacterOffsetEnd=496 PartOfSpeech=NN] [Text=understood CharacterOffsetBegin=497 CharacterOffsetEnd=507 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=DT] [Text=principle CharacterOffsetBegin=510 CharacterOffsetEnd=519 PartOfSpeech=NN] [Text=rarely CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=RB] [Text=acknowledged CharacterOffsetBegin=527 CharacterOffsetEnd=539 PartOfSpeech=VBD] [Text=any CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=RBR] [Text=. CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=.] 
+root(ROOT-0, understood-5)
+advmod(understood-5, Second-1)
+punct(understood-5, ,-2)
+det(movie-4, this-3)
+nsubj(understood-5, movie-4)
+det(principle-7, a-6)
+nsubj(acknowledged-9, principle-7)
+advmod(acknowledged-9, rarely-8)
+ccomp(understood-5, acknowledged-9)
+det(more-11, any-10)
+dobj(acknowledged-9, more-11)
+punct(understood-5, .-12)
+
+Sentence #9 (19 tokens):
+For a drama to succeed, it needs not only a hero, but a really believable villain.
+[Text=For CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=DT] [Text=drama CharacterOffsetBegin=560 CharacterOffsetEnd=565 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=TO] [Text=succeed CharacterOffsetBegin=569 CharacterOffsetEnd=576 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=576 CharacterOffsetEnd=577 PartOfSpeech=,] [Text=it CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=PRP] [Text=needs CharacterOffsetBegin=581 CharacterOffsetEnd=586 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=596 CharacterOffsetEnd=597 PartOfSpeech=DT] [Text=hero CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=,] [Text=but CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=DT] [Text=really CharacterOffsetBegin=610 CharacterOffsetEnd=616 PartOfSpeech=RB] [Text=believable CharacterOffsetBegin=617 CharacterOffsetEnd=627 PartOfSpeech=JJ] [Text=villain CharacterOffsetBegin=628 CharacterOffsetEnd=635 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=635 CharacterOffsetEnd=636 PartOfSpeech=.] 
+root(ROOT-0, needs-8)
+prep(needs-8, For-1)
+det(drama-3, a-2)
+pobj(For-1, drama-3)
+aux(succeed-5, to-4)
+infmod(drama-3, succeed-5)
+punct(needs-8, ,-6)
+nsubj(needs-8, it-7)
+neg(only-10, not-9)
+preconj(hero-12, only-10)
+det(hero-12, a-11)
+dobj(needs-8, hero-12)
+punct(hero-12, ,-13)
+cc(hero-12, but-14)
+det(villain-18, a-15)
+advmod(believable-17, really-16)
+amod(villain-18, believable-17)
+conj(hero-12, villain-18)
+punct(needs-8, .-19)
+
+Sentence #10 (19 tokens):
+If you don't have one, there's not much joy in rooting for the good guys.
+[Text=If CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=648 CharacterOffsetEnd=650 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=650 CharacterOffsetEnd=653 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=VB] [Text=one CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=662 CharacterOffsetEnd=663 PartOfSpeech=,] [Text=there CharacterOffsetBegin=664 CharacterOffsetEnd=669 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=669 CharacterOffsetEnd=671 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=672 CharacterOffsetEnd=675 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=JJ] [Text=joy CharacterOffsetBegin=681 CharacterOffsetEnd=684 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=685 CharacterOffsetEnd=687 PartOfSpeech=IN] [Text=rooting CharacterOffsetBegin=688 CharacterOffsetEnd=695 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=JJ] [Text=guys CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=713 CharacterOffsetEnd=714 PartOfSpeech=.] 
+root(ROOT-0, 's-9)
+mark(have-5, If-1)
+nsubj(have-5, you-2)
+aux(have-5, do-3)
+neg(have-5, n't-4)
+advcl('s-9, have-5)
+dobj(have-5, one-6)
+punct('s-9, ,-7)
+expl('s-9, there-8)
+neg(joy-12, not-10)
+amod(joy-12, much-11)
+nsubj('s-9, joy-12)
+prep(joy-12, in-13)
+pcomp(in-13, rooting-14)
+prep(rooting-14, for-15)
+det(guys-18, the-16)
+amod(guys-18, good-17)
+pobj(for-15, guys-18)
+punct('s-9, .-19)
+
+Sentence #11 (24 tokens):
+And "Rob Roy" has not one, but three--the Earl of Montrose, his henchman Kilairn, and Archie.
+[Text=And CharacterOffsetBegin=719 CharacterOffsetEnd=722 PartOfSpeech=CC] [Text=`` CharacterOffsetBegin=723 CharacterOffsetEnd=724 PartOfSpeech=``] [Text=Rob CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=NNP] [Text=Roy CharacterOffsetBegin=728 CharacterOffsetEnd=731 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=731 CharacterOffsetEnd=732 PartOfSpeech=''] [Text=has CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=744 CharacterOffsetEnd=745 PartOfSpeech=,] [Text=but CharacterOffsetBegin=746 CharacterOffsetEnd=749 PartOfSpeech=CC] [Text=three CharacterOffsetBegin=750 CharacterOffsetEnd=755 PartOfSpeech=CD] [Text=-- CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=:] [Text=the CharacterOffsetBegin=757 CharacterOffsetEnd=760 PartOfSpeech=DT] [Text=Earl CharacterOffsetBegin=761 CharacterOffsetEnd=765 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=766 CharacterOffsetEnd=768 PartOfSpeech=IN] [Text=Montrose CharacterOffsetBegin=769 CharacterOffsetEnd=777 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=777 CharacterOffsetEnd=778 PartOfSpeech=,] [Text=his CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=PRP$] [Text=henchman CharacterOffsetBegin=783 CharacterOffsetEnd=791 PartOfSpeech=NN] [Text=Kilairn CharacterOffsetBegin=792 CharacterOffsetEnd=799 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=799 CharacterOffsetEnd=800 PartOfSpeech=,] [Text=and CharacterOffsetBegin=801 CharacterOffsetEnd=804 PartOfSpeech=CC] [Text=Archie CharacterOffsetBegin=805 CharacterOffsetEnd=811 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=811 CharacterOffsetEnd=812 PartOfSpeech=.] 
+root(ROOT-0, has-6)
+cc(has-6, And-1)
+punct(has-6, ``-2)
+nn(Roy-4, Rob-3)
+nsubj(has-6, Roy-4)
+punct(has-6, ''-5)
+neg(has-6, not-7)
+dobj(has-6, one-8)
+punct(has-6, ,-9)
+cc(has-6, but-10)
+conj(has-6, three-11)
+punct(three-11, ---12)
+det(Earl-14, the-13)
+dep(three-11, Earl-14)
+prep(Earl-14, of-15)
+pobj(of-15, Montrose-16)
+punct(Earl-14, ,-17)
+poss(Kilairn-20, his-18)
+nn(Kilairn-20, henchman-19)
+appos(Earl-14, Kilairn-20)
+punct(Earl-14, ,-21)
+cc(Earl-14, and-22)
+conj(Earl-14, Archie-23)
+punct(has-6, .-24)
+
+Sentence #12 (13 tokens):
+Not one-dimensional villains, either, but fully fleshed and very nasty.
+[Text=Not CharacterOffsetBegin=817 CharacterOffsetEnd=820 PartOfSpeech=RB] [Text=one-dimensional CharacterOffsetBegin=821 CharacterOffsetEnd=836 PartOfSpeech=JJ] [Text=villains CharacterOffsetBegin=837 CharacterOffsetEnd=845 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=845 CharacterOffsetEnd=846 PartOfSpeech=,] [Text=either CharacterOffsetBegin=847 CharacterOffsetEnd=853 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=853 CharacterOffsetEnd=854 PartOfSpeech=,] [Text=but CharacterOffsetBegin=855 CharacterOffsetEnd=858 PartOfSpeech=CC] [Text=fully CharacterOffsetBegin=859 CharacterOffsetEnd=864 PartOfSpeech=RB] [Text=fleshed CharacterOffsetBegin=865 CharacterOffsetEnd=872 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=873 CharacterOffsetEnd=876 PartOfSpeech=CC] [Text=very CharacterOffsetBegin=877 CharacterOffsetEnd=881 PartOfSpeech=RB] [Text=nasty CharacterOffsetBegin=882 CharacterOffsetEnd=887 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=887 CharacterOffsetEnd=888 PartOfSpeech=.] 
+root(ROOT-0, villains-3)
+neg(one-dimensional-2, Not-1)
+amod(villains-3, one-dimensional-2)
+punct(villains-3, ,-4)
+advmod(villains-3, either-5)
+punct(villains-3, ,-6)
+cc(villains-3, but-7)
+advmod(fleshed-9, fully-8)
+conj(villains-3, fleshed-9)
+cc(fleshed-9, and-10)
+advmod(nasty-12, very-11)
+conj(fleshed-9, nasty-12)
+punct(villains-3, .-13)
+
+Sentence #13 (35 tokens):
+It takes a bit more patience than "Braveheart"--there's more dialogue, and the accents are a bit tough, but it's a much more clever and subtle piece.
+[Text=It CharacterOffsetBegin=893 CharacterOffsetEnd=895 PartOfSpeech=PRP] [Text=takes CharacterOffsetBegin=896 CharacterOffsetEnd=901 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=902 CharacterOffsetEnd=903 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=904 CharacterOffsetEnd=907 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=908 CharacterOffsetEnd=912 PartOfSpeech=RBR] [Text=patience CharacterOffsetBegin=913 CharacterOffsetEnd=921 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=922 CharacterOffsetEnd=926 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=927 CharacterOffsetEnd=928 PartOfSpeech=``] [Text=Braveheart CharacterOffsetBegin=928 CharacterOffsetEnd=938 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=938 CharacterOffsetEnd=939 PartOfSpeech=''] [Text=-- CharacterOffsetBegin=939 CharacterOffsetEnd=941 PartOfSpeech=:] [Text=there CharacterOffsetBegin=941 CharacterOffsetEnd=946 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=946 CharacterOffsetEnd=948 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=949 CharacterOffsetEnd=953 PartOfSpeech=JJR] [Text=dialogue CharacterOffsetBegin=954 CharacterOffsetEnd=962 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=962 CharacterOffsetEnd=963 PartOfSpeech=,] [Text=and CharacterOffsetBegin=964 CharacterOffsetEnd=967 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=968 CharacterOffsetEnd=971 PartOfSpeech=DT] [Text=accents CharacterOffsetBegin=972 CharacterOffsetEnd=979 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=980 CharacterOffsetEnd=983 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=984 CharacterOffsetEnd=985 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=986 CharacterOffsetEnd=989 PartOfSpeech=NN] [Text=tough CharacterOffsetBegin=990 CharacterOffsetEnd=995 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=995 CharacterOffsetEnd=996 PartOfSpeech=,] [Text=but CharacterOffsetBegin=997 CharacterOffsetEnd=1000 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=1001 CharacterOffsetEnd=1003 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=1003 CharacterOffsetEnd=1005 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1006 CharacterOffsetEnd=1007 PartOfSpeech=DT] [Text=much CharacterOffsetBegin=1008 CharacterOffsetEnd=1012 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=1013 CharacterOffsetEnd=1017 PartOfSpeech=RBR] [Text=clever CharacterOffsetBegin=1018 CharacterOffsetEnd=1024 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=1025 CharacterOffsetEnd=1028 PartOfSpeech=CC] [Text=subtle CharacterOffsetBegin=1029 CharacterOffsetEnd=1035 PartOfSpeech=JJ] [Text=piece CharacterOffsetBegin=1036 CharacterOffsetEnd=1041 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1041 CharacterOffsetEnd=1042 PartOfSpeech=.] 
+root(ROOT-0, takes-2)
+nsubj(takes-2, It-1)
+det(bit-4, a-3)
+dobj(takes-2, bit-4)
+advmod(patience-6, more-5)
+amod(bit-4, patience-6)
+prep(patience-6, than-7)
+punct(Braveheart-9, ``-8)
+pobj(than-7, Braveheart-9)
+punct(Braveheart-9, ''-10)
+punct(takes-2, ---11)
+expl('s-13, there-12)
+parataxis(takes-2, 's-13)
+amod(dialogue-15, more-14)
+nsubj('s-13, dialogue-15)
+punct(takes-2, ,-16)
+cc(takes-2, and-17)
+det(accents-19, the-18)
+nsubj(tough-23, accents-19)
+cop(tough-23, are-20)
+det(bit-22, a-21)
+npadvmod(tough-23, bit-22)
+conj(takes-2, tough-23)
+punct(takes-2, ,-24)
+cc(takes-2, but-25)
+nsubj(piece-34, it-26)
+cop(piece-34, 's-27)
+det(piece-34, a-28)
+advmod(more-30, much-29)
+advmod(clever-31, more-30)
+amod(piece-34, clever-31)
+cc(clever-31, and-32)
+conj(clever-31, subtle-33)
+conj(takes-2, piece-34)
+punct(takes-2, .-35)
+
+Sentence #14 (11 tokens):
+(As I said, I loved this movie!)
+[Text=-LRB- CharacterOffsetBegin=1047 CharacterOffsetEnd=1048 PartOfSpeech=-LRB-] [Text=As CharacterOffsetBegin=1048 CharacterOffsetEnd=1050 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=1051 CharacterOffsetEnd=1052 PartOfSpeech=PRP] [Text=said CharacterOffsetBegin=1053 CharacterOffsetEnd=1057 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=1057 CharacterOffsetEnd=1058 PartOfSpeech=,] [Text=I CharacterOffsetBegin=1059 CharacterOffsetEnd=1060 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=1061 CharacterOffsetEnd=1066 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=1067 CharacterOffsetEnd=1071 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=1072 CharacterOffsetEnd=1077 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=1077 CharacterOffsetEnd=1078 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=1078 CharacterOffsetEnd=1079 PartOfSpeech=-RRB-] 
+root(ROOT-0, loved-7)
+punct(said-4, -LRB--1)
+mark(said-4, As-2)
+nsubj(said-4, I-3)
+parataxis(loved-7, said-4)
+punct(said-4, ,-5)
+nsubj(loved-7, I-6)
+det(movie-9, this-8)
+dobj(loved-7, movie-9)
+punct(loved-7, !-10)
+punct(loved-7, -RRB--11)
+

@@ -1,0 +1,141 @@
+Sentence #1 (9 tokens):
+This movie is about a fictional soap opera.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=DT] [Text=fictional CharacterOffsetBegin=26 CharacterOffsetEnd=35 PartOfSpeech=JJ] [Text=soap CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=NN] [Text=opera CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, movie-2)
+det(movie-2, This-1)
+dep(movie-2, is-3)
+prep(is-3, about-4)
+det(opera-8, a-5)
+amod(opera-8, fictional-6)
+nn(opera-8, soap-7)
+pobj(about-4, opera-8)
+punct(movie-2, .-9)
+
+Sentence #2 (7 tokens):
+It is very fast and funny.
+[Text=It CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=RB] [Text=fast CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=CC] [Text=funny CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=.] 
+root(ROOT-0, fast-4)
+nsubj(fast-4, It-1)
+cop(fast-4, is-2)
+advmod(fast-4, very-3)
+cc(fast-4, and-5)
+conj(fast-4, funny-6)
+punct(fast-4, .-7)
+
+Sentence #3 (9 tokens):
+To say anything else would ruin the movie.
+[Text=To CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=VB] [Text=anything CharacterOffsetBegin=90 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=RB] [Text=would CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=MD] [Text=ruin CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=119 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=.] 
+root(ROOT-0, say-2)
+aux(say-2, To-1)
+nsubj(ruin-6, anything-3)
+advmod(anything-3, else-4)
+aux(ruin-6, would-5)
+ccomp(say-2, ruin-6)
+det(movie-8, the-7)
+dobj(ruin-6, movie-8)
+punct(say-2, .-9)
+
+Sentence #4 (11 tokens):
+There are several plots and sub plots in the movie.
+[Text=There CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=VBP] [Text=several CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=plots CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=CC] [Text=sub CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=NN] [Text=plots CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+amod(plots-4, several-3)
+nsubj(are-2, plots-4)
+cc(plots-4, and-5)
+nn(plots-7, sub-6)
+conj(plots-4, plots-7)
+prep(are-2, in-8)
+det(movie-10, the-9)
+pobj(in-8, movie-10)
+punct(are-2, .-11)
+
+Sentence #5 (11 tokens):
+This movie has ensemble cast with today's hottest stars.
+[Text=This CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=VBZ] [Text=ensemble CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=cast CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=IN] [Text=today CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=POS] [Text=hottest CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=JJS] [Text=stars CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(movie-2, This-1)
+nsubj(has-3, movie-2)
+nn(cast-5, ensemble-4)
+dobj(has-3, cast-5)
+prep(has-3, with-6)
+poss(stars-10, today-7)
+possessive(today-7, 's-8)
+amod(stars-10, hottest-9)
+pobj(with-6, stars-10)
+punct(has-3, .-11)
+
+Sentence #6 (8 tokens):
+They all gives over the top performances.
+[Text=They CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=gives CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=VBZ] [Text=over CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=DT] [Text=top CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=performances CharacterOffsetBegin=275 CharacterOffsetEnd=287 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=.] 
+root(ROOT-0, gives-3)
+nsubj(gives-3, They-1)
+det(They-1, all-2)
+prep(gives-3, over-4)
+det(performances-7, the-5)
+amod(performances-7, top-6)
+pobj(over-4, performances-7)
+punct(gives-3, .-8)
+
+Sentence #7 (11 tokens):
+This movie is favorite of mine from the year 1991.
+[Text=This CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=VBZ] [Text=favorite CharacterOffsetBegin=307 CharacterOffsetEnd=315 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=IN] [Text=mine CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=DT] [Text=year CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NN] [Text=1991 CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=.] 
+root(ROOT-0, favorite-4)
+det(movie-2, This-1)
+nsubj(favorite-4, movie-2)
+cop(favorite-4, is-3)
+prep(favorite-4, of-5)
+pobj(of-5, mine-6)
+prep(favorite-4, from-7)
+det(year-9, the-8)
+pobj(from-7, year-9)
+num(year-9, 1991-10)
+punct(favorite-4, .-11)
+
+Sentence #8 (17 tokens):
+Soapdish is perfect for fans of either daytime soap opera /or prime time soap opera!!
+[Text=Soapdish CharacterOffsetBegin=348 CharacterOffsetEnd=356 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=VBZ] [Text=perfect CharacterOffsetBegin=360 CharacterOffsetEnd=367 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=IN] [Text=fans CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=either CharacterOffsetBegin=380 CharacterOffsetEnd=386 PartOfSpeech=CC] [Text=daytime CharacterOffsetBegin=387 CharacterOffsetEnd=394 PartOfSpeech=JJ] [Text=soap CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=NN] [Text=opera CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=NN] [Text=/ CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=:] [Text=or CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=CC] [Text=prime CharacterOffsetBegin=410 CharacterOffsetEnd=415 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=NN] [Text=soap CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=NN] [Text=opera CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NN] [Text=!! CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=IN] 
+root(ROOT-0, perfect-3)
+nsubj(perfect-3, Soapdish-1)
+cop(perfect-3, is-2)
+prep(perfect-3, for-4)
+pobj(for-4, fans-5)
+prep(fans-5, of-6)
+preconj(opera-10, either-7)
+amod(opera-10, daytime-8)
+nn(opera-10, soap-9)
+pobj(of-6, opera-10)
+punct(fans-5, /-11)
+cc(fans-5, or-12)
+amod(time-14, prime-13)
+conj(fans-5, time-14)
+nn(opera-16, soap-15)
+dep(time-14, opera-16)
+dep(perfect-3, !!-17)
+
+Sentence #9 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+
+Sentence #10 (12 tokens):
+If you watch soap go check this movie it's hilarious!!
+[Text=If CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=PRP] [Text=watch CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=VBP] [Text=soap CharacterOffsetBegin=452 CharacterOffsetEnd=456 PartOfSpeech=NN] [Text=go CharacterOffsetBegin=457 CharacterOffsetEnd=459 PartOfSpeech=VB] [Text=check CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=471 CharacterOffsetEnd=476 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=VBZ] [Text=hilarious CharacterOffsetBegin=482 CharacterOffsetEnd=491 PartOfSpeech=JJ] [Text=!! CharacterOffsetBegin=491 CharacterOffsetEnd=493 PartOfSpeech=IN] 
+root(ROOT-0, watch-3)
+mark(watch-3, If-1)
+nsubj(watch-3, you-2)
+dobj(watch-3, soap-4)
+partmod(soap-4, go-5)
+dep(go-5, check-6)
+det(movie-8, this-7)
+dobj(check-6, movie-8)
+nsubj(hilarious-11, it-9)
+cop(hilarious-11, 's-10)
+rcmod(movie-8, hilarious-11)
+dep(hilarious-11, !!-12)
+
+Sentence #11 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

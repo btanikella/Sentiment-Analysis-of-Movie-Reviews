@@ -1,0 +1,404 @@
+Sentence #1 (6 tokens):
+warning:It contains spoilers.
+[Text=warning CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=:] [Text=It CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=PRP] [Text=contains CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=VBZ] [Text=spoilers CharacterOffsetBegin=24 CharacterOffsetEnd=32 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=.] 
+root(ROOT-0, warning-1)
+punct(warning-1, :-2)
+nsubj(contains-4, It-3)
+parataxis(warning-1, contains-4)
+dobj(contains-4, spoilers-5)
+punct(warning-1, .-6)
+
+Sentence #2 (15 tokens):
+If a movie starts with a sex scene then it's a bad movie.
+[Text=If CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=NN] [Text=starts CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=VBZ] [Text=with CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=sex CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=scene CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=then CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.] 
+root(ROOT-0, movie-14)
+mark(starts-4, If-1)
+det(movie-3, a-2)
+nsubj(starts-4, movie-3)
+advcl(movie-14, starts-4)
+prep(starts-4, with-5)
+det(scene-8, a-6)
+nn(scene-8, sex-7)
+pobj(with-5, scene-8)
+advmod(movie-14, then-9)
+nsubj(movie-14, it-10)
+cop(movie-14, 's-11)
+det(movie-14, a-12)
+amod(movie-14, bad-13)
+punct(movie-14, .-15)
+
+Sentence #3 (7 tokens):
+(see for example 300).
+[Text=-LRB- CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=-LRB-] [Text=see CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=example CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=300 CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.] 
+root(ROOT-0, see-2)
+punct(see-2, -LRB--1)
+prep(see-2, for-3)
+pobj(for-3, example-4)
+num(example-4, 300-5)
+punct(see-2, -RRB--6)
+punct(see-2, .-7)
+
+Sentence #4 (7 tokens):
+This one confirms the above lemma.
+[Text=This CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=CD] [Text=confirms CharacterOffsetBegin=136 CharacterOffsetEnd=144 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=DT] [Text=above CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=JJ] [Text=lemma CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=.] 
+root(ROOT-0, confirms-3)
+det(one-2, This-1)
+nsubj(confirms-3, one-2)
+det(lemma-6, the-4)
+amod(lemma-6, above-5)
+dobj(confirms-3, lemma-6)
+punct(confirms-3, .-7)
+
+Sentence #5 (12 tokens):
+The second scene constitutes the spinning center of all the action.
+[Text=The CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=second CharacterOffsetBegin=170 CharacterOffsetEnd=176 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=177 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=constitutes CharacterOffsetBegin=183 CharacterOffsetEnd=194 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=DT] [Text=spinning CharacterOffsetBegin=199 CharacterOffsetEnd=207 PartOfSpeech=VBG] [Text=center CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=DT] [Text=action CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=.] 
+root(ROOT-0, constitutes-4)
+det(scene-3, The-1)
+amod(scene-3, second-2)
+nsubj(constitutes-4, scene-3)
+det(center-7, the-5)
+nn(center-7, spinning-6)
+dobj(constitutes-4, center-7)
+prep(center-7, of-8)
+predet(action-11, all-9)
+det(action-11, the-10)
+pobj(of-8, action-11)
+punct(constitutes-4, .-12)
+
+Sentence #6 (12 tokens):
+The fact that we know the end makes the movie boring.
+[Text=The CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=fact CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=IN] [Text=we CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=makes CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=boring CharacterOffsetBegin=284 CharacterOffsetEnd=290 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=.] 
+root(ROOT-0, fact-2)
+det(fact-2, The-1)
+mark(know-5, that-3)
+nsubj(know-5, we-4)
+ccomp(fact-2, know-5)
+det(end-7, the-6)
+nsubj(makes-8, end-7)
+ccomp(know-5, makes-8)
+det(movie-10, the-9)
+nsubj(boring-11, movie-10)
+xcomp(makes-8, boring-11)
+punct(fact-2, .-12)
+
+Sentence #7 (17 tokens):
+Even more, other plots are revealed as the story goes back and forth several times.
+[Text=Even CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=RBR] [Text=, CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=,] [Text=other CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=JJ] [Text=plots CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=VBP] [Text=revealed CharacterOffsetBegin=323 CharacterOffsetEnd=331 PartOfSpeech=VBN] [Text=as CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=NN] [Text=goes CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=VBZ] [Text=back CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=CC] [Text=forth CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=RB] [Text=several CharacterOffsetBegin=365 CharacterOffsetEnd=372 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=.] 
+root(ROOT-0, revealed-7)
+advmod(more-2, Even-1)
+advmod(revealed-7, more-2)
+punct(revealed-7, ,-3)
+amod(plots-5, other-4)
+nsubjpass(revealed-7, plots-5)
+auxpass(revealed-7, are-6)
+mark(goes-11, as-8)
+det(story-10, the-9)
+nsubj(goes-11, story-10)
+advcl(revealed-7, goes-11)
+advmod(goes-11, back-12)
+cc(goes-11, and-13)
+conj(goes-11, forth-14)
+amod(times-16, several-15)
+pobj(forth-14, times-16)
+punct(revealed-7, .-17)
+
+Sentence #8 (6 tokens):
+And this made more frustrated.
+[Text=And CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=DT] [Text=made CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=VBN] [Text=more CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=RBR] [Text=frustrated CharacterOffsetBegin=403 CharacterOffsetEnd=413 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=.] 
+root(ROOT-0, made-3)
+cc(made-3, And-1)
+nsubj(made-3, this-2)
+advmod(frustrated-5, more-4)
+acomp(made-3, frustrated-5)
+punct(made-3, .-6)
+
+Sentence #9 (20 tokens):
+To compensate the consequent lack of suspense, we learn more and more about how unbalanced are the characters.
+[Text=To CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=TO] [Text=compensate CharacterOffsetBegin=422 CharacterOffsetEnd=432 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=DT] [Text=consequent CharacterOffsetBegin=437 CharacterOffsetEnd=447 PartOfSpeech=JJ] [Text=lack CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=IN] [Text=suspense CharacterOffsetBegin=456 CharacterOffsetEnd=464 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=,] [Text=we CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=PRP] [Text=learn CharacterOffsetBegin=469 CharacterOffsetEnd=474 PartOfSpeech=VBP] [Text=more CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=RBR] [Text=and CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=CC] [Text=more CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=RBR] [Text=about CharacterOffsetBegin=489 CharacterOffsetEnd=494 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=WRB] [Text=unbalanced CharacterOffsetBegin=499 CharacterOffsetEnd=509 PartOfSpeech=JJ] [Text=are CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=DT] [Text=characters CharacterOffsetBegin=518 CharacterOffsetEnd=528 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=.] 
+root(ROOT-0, learn-10)
+aux(compensate-2, To-1)
+advcl(learn-10, compensate-2)
+det(lack-5, the-3)
+amod(lack-5, consequent-4)
+dobj(compensate-2, lack-5)
+prep(lack-5, of-6)
+pobj(of-6, suspense-7)
+punct(learn-10, ,-8)
+nsubj(learn-10, we-9)
+advmod(learn-10, more-11)
+cc(more-11, and-12)
+conj(more-11, more-13)
+prep(more-11, about-14)
+advmod(unbalanced-16, how-15)
+pcomp(about-14, unbalanced-16)
+cop(characters-19, are-17)
+det(characters-19, the-18)
+dobj(learn-10, characters-19)
+punct(learn-10, .-20)
+
+Sentence #10 (10 tokens):
+And oh yes, they have lots to show.
+[Text=And CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=CC] [Text=oh CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=UH] [Text=yes CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=,] [Text=they CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=VBP] [Text=lots CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=561 CharacterOffsetEnd=563 PartOfSpeech=TO] [Text=show CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=.] 
+root(ROOT-0, yes-3)
+cc(yes-3, And-1)
+conj(yes-3, oh-2)
+punct(yes-3, ,-4)
+nsubj(have-6, they-5)
+dep(yes-3, have-6)
+dobj(have-6, lots-7)
+aux(show-9, to-8)
+infmod(lots-7, show-9)
+punct(yes-3, .-10)
+
+Sentence #11 (15 tokens):
+Andy (P.Hoffman), for example, is a drug addict, more?
+[Text=Andy CharacterOffsetBegin=574 CharacterOffsetEnd=578 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=-LRB-] [Text=P.Hoffman CharacterOffsetBegin=580 CharacterOffsetEnd=589 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=,] [Text=for CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=IN] [Text=example CharacterOffsetBegin=596 CharacterOffsetEnd=603 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=,] [Text=is CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=DT] [Text=drug CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=NN] [Text=addict CharacterOffsetBegin=615 CharacterOffsetEnd=621 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=621 CharacterOffsetEnd=622 PartOfSpeech=,] [Text=more CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=JJR] [Text=? CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=.] 
+root(ROOT-0, addict-12)
+nsubj(addict-12, Andy-1)
+punct(P.Hoffman-3, -LRB--2)
+appos(Andy-1, P.Hoffman-3)
+punct(P.Hoffman-3, -RRB--4)
+punct(addict-12, ,-5)
+prep(addict-12, for-6)
+pobj(for-6, example-7)
+punct(addict-12, ,-8)
+cop(addict-12, is-9)
+det(addict-12, a-10)
+nn(addict-12, drug-11)
+punct(addict-12, ,-13)
+advmod(addict-12, more-14)
+punct(addict-12, ?-15)
+
+Sentence #12 (9 tokens):
+, he is cheating his wife, more?
+[Text=, CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=,] [Text=he CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=VBZ] [Text=cheating CharacterOffsetBegin=636 CharacterOffsetEnd=644 PartOfSpeech=VBG] [Text=his CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=,] [Text=more CharacterOffsetBegin=655 CharacterOffsetEnd=659 PartOfSpeech=JJR] [Text=? CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=.] 
+root(ROOT-0, cheating-4)
+punct(cheating-4, ,-1)
+nsubj(cheating-4, he-2)
+aux(cheating-4, is-3)
+poss(wife-6, his-5)
+dobj(cheating-4, wife-6)
+punct(cheating-4, ,-7)
+advmod(cheating-4, more-8)
+punct(cheating-4, ?-9)
+
+Sentence #13 (10 tokens):
+, he plans to rob his father, more?
+[Text=, CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=,] [Text=he CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=PRP] [Text=plans CharacterOffsetBegin=665 CharacterOffsetEnd=670 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=671 CharacterOffsetEnd=673 PartOfSpeech=TO] [Text=rob CharacterOffsetBegin=674 CharacterOffsetEnd=677 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=PRP$] [Text=father CharacterOffsetBegin=682 CharacterOffsetEnd=688 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=,] [Text=more CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=JJR] [Text=? CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=.] 
+root(ROOT-0, plans-3)
+punct(plans-3, ,-1)
+nsubj(plans-3, he-2)
+aux(rob-5, to-4)
+xcomp(plans-3, rob-5)
+poss(father-7, his-6)
+dobj(rob-5, father-7)
+punct(father-7, ,-8)
+amod(father-7, more-9)
+punct(plans-3, ?-10)
+
+Sentence #14 (11 tokens):
+, his wife is cheating with his brother, more?
+[Text=, CharacterOffsetBegin=695 CharacterOffsetEnd=696 PartOfSpeech=,] [Text=his CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=706 CharacterOffsetEnd=708 PartOfSpeech=VBZ] [Text=cheating CharacterOffsetBegin=709 CharacterOffsetEnd=717 PartOfSpeech=VBG] [Text=with CharacterOffsetBegin=718 CharacterOffsetEnd=722 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=723 CharacterOffsetEnd=726 PartOfSpeech=PRP$] [Text=brother CharacterOffsetBegin=727 CharacterOffsetEnd=734 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=,] [Text=more CharacterOffsetBegin=736 CharacterOffsetEnd=740 PartOfSpeech=JJR] [Text=? CharacterOffsetBegin=740 CharacterOffsetEnd=741 PartOfSpeech=.] 
+root(ROOT-0, cheating-5)
+punct(cheating-5, ,-1)
+poss(wife-3, his-2)
+nsubj(cheating-5, wife-3)
+aux(cheating-5, is-4)
+prep(cheating-5, with-6)
+poss(brother-8, his-7)
+pobj(with-6, brother-8)
+punct(cheating-5, ,-9)
+advmod(cheating-5, more-10)
+punct(cheating-5, ?-11)
+
+Sentence #15 (15 tokens):
+, he doesn't regret his complicity to his mother's death, more?
+[Text=, CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=,] [Text=he CharacterOffsetBegin=743 CharacterOffsetEnd=745 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=746 CharacterOffsetEnd=750 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=RB] [Text=regret CharacterOffsetBegin=754 CharacterOffsetEnd=760 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=761 CharacterOffsetEnd=764 PartOfSpeech=PRP$] [Text=complicity CharacterOffsetBegin=765 CharacterOffsetEnd=775 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=776 CharacterOffsetEnd=778 PartOfSpeech=TO] [Text=his CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=PRP$] [Text=mother CharacterOffsetBegin=783 CharacterOffsetEnd=789 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=789 CharacterOffsetEnd=791 PartOfSpeech=POS] [Text=death CharacterOffsetBegin=792 CharacterOffsetEnd=797 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=,] [Text=more CharacterOffsetBegin=799 CharacterOffsetEnd=803 PartOfSpeech=JJR] [Text=? CharacterOffsetBegin=803 CharacterOffsetEnd=804 PartOfSpeech=.] 
+root(ROOT-0, regret-5)
+punct(regret-5, ,-1)
+nsubj(regret-5, he-2)
+aux(regret-5, does-3)
+neg(regret-5, n't-4)
+poss(complicity-7, his-6)
+dobj(regret-5, complicity-7)
+prep(regret-5, to-8)
+poss(mother-10, his-9)
+poss(death-12, mother-10)
+possessive(mother-10, 's-11)
+pobj(to-8, death-12)
+punct(regret-5, ,-13)
+dep(regret-5, more-14)
+punct(regret-5, ?-15)
+
+Sentence #16 (9 tokens):
+, he is a serial killer, more?
+[Text=, CharacterOffsetBegin=804 CharacterOffsetEnd=805 PartOfSpeech=,] [Text=he CharacterOffsetBegin=806 CharacterOffsetEnd=808 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=809 CharacterOffsetEnd=811 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=812 CharacterOffsetEnd=813 PartOfSpeech=DT] [Text=serial CharacterOffsetBegin=814 CharacterOffsetEnd=820 PartOfSpeech=JJ] [Text=killer CharacterOffsetBegin=821 CharacterOffsetEnd=827 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=,] [Text=more CharacterOffsetBegin=829 CharacterOffsetEnd=833 PartOfSpeech=JJR] [Text=? CharacterOffsetBegin=833 CharacterOffsetEnd=834 PartOfSpeech=.] 
+root(ROOT-0, killer-6)
+punct(killer-6, ,-1)
+nsubj(killer-6, he-2)
+cop(killer-6, is-3)
+det(killer-6, a-4)
+amod(killer-6, serial-5)
+punct(killer-6, ,-7)
+amod(killer-6, more-8)
+punct(killer-6, ?-9)
+
+Sentence #17 (21 tokens):
+etc etc it's not enough space to write here...
+    I wonder how could he have a top job.
+[Text=etc CharacterOffsetBegin=839 CharacterOffsetEnd=842 PartOfSpeech=FW] [Text=etc CharacterOffsetBegin=843 CharacterOffsetEnd=846 PartOfSpeech=FW] [Text=it CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=849 CharacterOffsetEnd=851 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=852 CharacterOffsetEnd=855 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=856 CharacterOffsetEnd=862 PartOfSpeech=JJ] [Text=space CharacterOffsetBegin=863 CharacterOffsetEnd=868 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=869 CharacterOffsetEnd=871 PartOfSpeech=TO] [Text=write CharacterOffsetBegin=872 CharacterOffsetEnd=877 PartOfSpeech=VB] [Text=here CharacterOffsetBegin=878 CharacterOffsetEnd=882 PartOfSpeech=RB] [Text=... CharacterOffsetBegin=882 CharacterOffsetEnd=885 PartOfSpeech=:] [Text=I CharacterOffsetBegin=890 CharacterOffsetEnd=891 PartOfSpeech=PRP] [Text=wonder CharacterOffsetBegin=892 CharacterOffsetEnd=898 PartOfSpeech=VBP] [Text=how CharacterOffsetBegin=899 CharacterOffsetEnd=902 PartOfSpeech=WRB] [Text=could CharacterOffsetBegin=903 CharacterOffsetEnd=908 PartOfSpeech=MD] [Text=he CharacterOffsetBegin=909 CharacterOffsetEnd=911 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=912 CharacterOffsetEnd=916 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=917 CharacterOffsetEnd=918 PartOfSpeech=DT] [Text=top CharacterOffsetBegin=919 CharacterOffsetEnd=922 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=923 CharacterOffsetEnd=926 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=926 CharacterOffsetEnd=927 PartOfSpeech=.] 
+root(ROOT-0, etc-2)
+nn(etc-2, etc-1)
+nsubj(enough-6, it-3)
+cop(enough-6, 's-4)
+neg(enough-6, not-5)
+rcmod(etc-2, enough-6)
+nsubj(write-9, space-7)
+aux(write-9, to-8)
+ccomp(enough-6, write-9)
+advmod(write-9, here-10)
+punct(etc-2, ...-11)
+nsubj(wonder-13, I-12)
+dep(etc-2, wonder-13)
+advmod(have-17, how-14)
+aux(have-17, could-15)
+nsubj(have-17, he-16)
+ccomp(wonder-13, have-17)
+det(job-20, a-18)
+amod(job-20, top-19)
+dobj(have-17, job-20)
+punct(etc-2, .-21)
+
+Sentence #18 (10 tokens):
+And why his wife didn't leave him before.
+[Text=And CharacterOffsetBegin=932 CharacterOffsetEnd=935 PartOfSpeech=CC] [Text=why CharacterOffsetBegin=936 CharacterOffsetEnd=939 PartOfSpeech=WRB] [Text=his CharacterOffsetBegin=940 CharacterOffsetEnd=943 PartOfSpeech=PRP$] [Text=wife CharacterOffsetBegin=944 CharacterOffsetEnd=948 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=949 CharacterOffsetEnd=952 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=952 CharacterOffsetEnd=955 PartOfSpeech=RB] [Text=leave CharacterOffsetBegin=956 CharacterOffsetEnd=961 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=962 CharacterOffsetEnd=965 PartOfSpeech=PRP] [Text=before CharacterOffsetBegin=966 CharacterOffsetEnd=972 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=972 CharacterOffsetEnd=973 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+advmod(leave-7, why-2)
+poss(wife-4, his-3)
+nsubj(leave-7, wife-4)
+aux(leave-7, did-5)
+neg(leave-7, n't-6)
+dep(And-1, leave-7)
+dobj(leave-7, him-8)
+advmod(leave-7, before-9)
+punct(And-1, .-10)
+
+Sentence #19 (28 tokens):
+On the other hand I enjoy much the performances of the actor Hoffman.Even here PSH saves what is left from my 7$ spent for this absurdity.
+[Text=On CharacterOffsetBegin=978 CharacterOffsetEnd=980 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=981 CharacterOffsetEnd=984 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=985 CharacterOffsetEnd=990 PartOfSpeech=JJ] [Text=hand CharacterOffsetBegin=991 CharacterOffsetEnd=995 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=996 CharacterOffsetEnd=997 PartOfSpeech=PRP] [Text=enjoy CharacterOffsetBegin=998 CharacterOffsetEnd=1003 PartOfSpeech=VBP] [Text=much CharacterOffsetBegin=1004 CharacterOffsetEnd=1008 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=1009 CharacterOffsetEnd=1012 PartOfSpeech=DT] [Text=performances CharacterOffsetBegin=1013 CharacterOffsetEnd=1025 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=1026 CharacterOffsetEnd=1028 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1029 CharacterOffsetEnd=1032 PartOfSpeech=DT] [Text=actor CharacterOffsetBegin=1033 CharacterOffsetEnd=1038 PartOfSpeech=NN] [Text=Hoffman.Even CharacterOffsetBegin=1039 CharacterOffsetEnd=1051 PartOfSpeech=NNP] [Text=here CharacterOffsetBegin=1052 CharacterOffsetEnd=1056 PartOfSpeech=RB] [Text=PSH CharacterOffsetBegin=1057 CharacterOffsetEnd=1060 PartOfSpeech=NNP] [Text=saves CharacterOffsetBegin=1061 CharacterOffsetEnd=1066 PartOfSpeech=VBZ] [Text=what CharacterOffsetBegin=1067 CharacterOffsetEnd=1071 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=1072 CharacterOffsetEnd=1074 PartOfSpeech=VBZ] [Text=left CharacterOffsetBegin=1075 CharacterOffsetEnd=1079 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=1080 CharacterOffsetEnd=1084 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=1085 CharacterOffsetEnd=1087 PartOfSpeech=PRP$] [Text=7 CharacterOffsetBegin=1088 CharacterOffsetEnd=1089 PartOfSpeech=CD] [Text=$ CharacterOffsetBegin=1089 CharacterOffsetEnd=1090 PartOfSpeech=$] [Text=spent CharacterOffsetBegin=1091 CharacterOffsetEnd=1096 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=1097 CharacterOffsetEnd=1100 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=1101 CharacterOffsetEnd=1105 PartOfSpeech=DT] [Text=absurdity CharacterOffsetBegin=1106 CharacterOffsetEnd=1115 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1115 CharacterOffsetEnd=1116 PartOfSpeech=.] 
+root(ROOT-0, enjoy-6)
+prep(enjoy-6, On-1)
+det(hand-4, the-2)
+amod(hand-4, other-3)
+pobj(On-1, hand-4)
+nsubj(enjoy-6, I-5)
+advmod(performances-9, much-7)
+det(performances-9, the-8)
+dobj(enjoy-6, performances-9)
+prep(performances-9, of-10)
+det(actor-12, the-11)
+pobj(of-10, actor-12)
+dep(saves-16, Hoffman.Even-13)
+advmod(Hoffman.Even-13, here-14)
+nsubj(saves-16, PSH-15)
+rcmod(actor-12, saves-16)
+nsubjpass(left-19, what-17)
+auxpass(left-19, is-18)
+ccomp(saves-16, left-19)
+prep(left-19, from-20)
+poss($-23, my-21)
+num($-23, 7-22)
+pobj(from-20, $-23)
+partmod($-23, spent-24)
+prep(spent-24, for-25)
+det(absurdity-27, this-26)
+pobj(for-25, absurdity-27)
+punct(enjoy-6, .-28)
+
+Sentence #20 (3 tokens):
+Why absurdity?
+[Text=Why CharacterOffsetBegin=1121 CharacterOffsetEnd=1124 PartOfSpeech=WRB] [Text=absurdity CharacterOffsetBegin=1125 CharacterOffsetEnd=1134 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=1134 CharacterOffsetEnd=1135 PartOfSpeech=.] 
+root(ROOT-0, absurdity-2)
+advmod(absurdity-2, Why-1)
+punct(absurdity-2, ?-3)
+
+Sentence #21 (16 tokens):
+Because it doesn't have sense, why should I care for the despicable characters?
+[Text=Because CharacterOffsetBegin=1140 CharacterOffsetEnd=1147 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=1148 CharacterOffsetEnd=1150 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=1151 CharacterOffsetEnd=1155 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=1155 CharacterOffsetEnd=1158 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=1159 CharacterOffsetEnd=1163 PartOfSpeech=VB] [Text=sense CharacterOffsetBegin=1164 CharacterOffsetEnd=1169 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1169 CharacterOffsetEnd=1170 PartOfSpeech=,] [Text=why CharacterOffsetBegin=1171 CharacterOffsetEnd=1174 PartOfSpeech=WRB] [Text=should CharacterOffsetBegin=1175 CharacterOffsetEnd=1181 PartOfSpeech=MD] [Text=I CharacterOffsetBegin=1182 CharacterOffsetEnd=1183 PartOfSpeech=PRP] [Text=care CharacterOffsetBegin=1184 CharacterOffsetEnd=1188 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=1189 CharacterOffsetEnd=1192 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1193 CharacterOffsetEnd=1196 PartOfSpeech=DT] [Text=despicable CharacterOffsetBegin=1197 CharacterOffsetEnd=1207 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=1208 CharacterOffsetEnd=1218 PartOfSpeech=NNS] [Text=? CharacterOffsetBegin=1218 CharacterOffsetEnd=1219 PartOfSpeech=.] 
+root(ROOT-0, have-5)
+mark(have-5, Because-1)
+nsubj(have-5, it-2)
+aux(have-5, does-3)
+neg(have-5, n't-4)
+dobj(have-5, sense-6)
+punct(have-5, ,-7)
+advmod(care-11, why-8)
+aux(care-11, should-9)
+nsubj(care-11, I-10)
+advcl(have-5, care-11)
+prep(care-11, for-12)
+det(characters-15, the-13)
+amod(characters-15, despicable-14)
+pobj(for-12, characters-15)
+punct(have-5, ?-16)
+
+Sentence #22 (18 tokens):
+Another broken lemma is that a movie should have a sympathetic( at least pleasant) character.
+[Text=Another CharacterOffsetBegin=1224 CharacterOffsetEnd=1231 PartOfSpeech=DT] [Text=broken CharacterOffsetBegin=1232 CharacterOffsetEnd=1238 PartOfSpeech=JJ] [Text=lemma CharacterOffsetBegin=1239 CharacterOffsetEnd=1244 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=1245 CharacterOffsetEnd=1247 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=1248 CharacterOffsetEnd=1252 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1253 CharacterOffsetEnd=1254 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=1255 CharacterOffsetEnd=1260 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=1261 CharacterOffsetEnd=1267 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=1268 CharacterOffsetEnd=1272 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1273 CharacterOffsetEnd=1274 PartOfSpeech=DT] [Text=sympathetic CharacterOffsetBegin=1275 CharacterOffsetEnd=1286 PartOfSpeech=JJ] [Text=-LRB- CharacterOffsetBegin=1286 CharacterOffsetEnd=1287 PartOfSpeech=-LRB-] [Text=at CharacterOffsetBegin=1288 CharacterOffsetEnd=1290 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=1291 CharacterOffsetEnd=1296 PartOfSpeech=JJS] [Text=pleasant CharacterOffsetBegin=1297 CharacterOffsetEnd=1305 PartOfSpeech=JJ] [Text=-RRB- CharacterOffsetBegin=1305 CharacterOffsetEnd=1306 PartOfSpeech=-RRB-] [Text=character CharacterOffsetBegin=1307 CharacterOffsetEnd=1316 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1316 CharacterOffsetEnd=1317 PartOfSpeech=.] 
+root(ROOT-0, is-4)
+det(lemma-3, Another-1)
+amod(lemma-3, broken-2)
+nsubj(is-4, lemma-3)
+mark(have-9, that-5)
+det(movie-7, a-6)
+nsubj(have-9, movie-7)
+aux(have-9, should-8)
+ccomp(is-4, have-9)
+det(character-17, a-10)
+amod(character-17, sympathetic-11)
+punct(pleasant-15, -LRB--12)
+advmod(pleasant-15, at-13)
+pobj(at-13, least-14)
+dep(character-17, pleasant-15)
+punct(pleasant-15, -RRB--16)
+dobj(have-9, character-17)
+punct(is-4, .-18)
+
+Sentence #23 (34 tokens):
+Also it's a lot of sentimentality, for example we are supposed to care for the sufferance of the widowed father without knowing anything about the parents'lives before the crime.
+[Text=Also CharacterOffsetBegin=1322 CharacterOffsetEnd=1326 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=1327 CharacterOffsetEnd=1329 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=1329 CharacterOffsetEnd=1331 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1332 CharacterOffsetEnd=1333 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=1334 CharacterOffsetEnd=1337 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1338 CharacterOffsetEnd=1340 PartOfSpeech=IN] [Text=sentimentality CharacterOffsetBegin=1341 CharacterOffsetEnd=1355 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1355 CharacterOffsetEnd=1356 PartOfSpeech=,] [Text=for CharacterOffsetBegin=1357 CharacterOffsetEnd=1360 PartOfSpeech=IN] [Text=example CharacterOffsetBegin=1361 CharacterOffsetEnd=1368 PartOfSpeech=NN] [Text=we CharacterOffsetBegin=1369 CharacterOffsetEnd=1371 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=1372 CharacterOffsetEnd=1375 PartOfSpeech=VBP] [Text=supposed CharacterOffsetBegin=1376 CharacterOffsetEnd=1384 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=1385 CharacterOffsetEnd=1387 PartOfSpeech=TO] [Text=care CharacterOffsetBegin=1388 CharacterOffsetEnd=1392 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=1393 CharacterOffsetEnd=1396 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1397 CharacterOffsetEnd=1400 PartOfSpeech=DT] [Text=sufferance CharacterOffsetBegin=1401 CharacterOffsetEnd=1411 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=1412 CharacterOffsetEnd=1414 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1415 CharacterOffsetEnd=1418 PartOfSpeech=DT] [Text=widowed CharacterOffsetBegin=1419 CharacterOffsetEnd=1426 PartOfSpeech=VBN] [Text=father CharacterOffsetBegin=1427 CharacterOffsetEnd=1433 PartOfSpeech=NN] [Text=without CharacterOffsetBegin=1434 CharacterOffsetEnd=1441 PartOfSpeech=IN] [Text=knowing CharacterOffsetBegin=1442 CharacterOffsetEnd=1449 PartOfSpeech=VBG] [Text=anything CharacterOffsetBegin=1450 CharacterOffsetEnd=1458 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=1459 CharacterOffsetEnd=1464 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1465 CharacterOffsetEnd=1468 PartOfSpeech=DT] [Text=parents CharacterOffsetBegin=1469 CharacterOffsetEnd=1476 PartOfSpeech=NNS] [Text=` CharacterOffsetBegin=1476 CharacterOffsetEnd=1477 PartOfSpeech=``] [Text=lives CharacterOffsetBegin=1477 CharacterOffsetEnd=1482 PartOfSpeech=NNS] [Text=before CharacterOffsetBegin=1483 CharacterOffsetEnd=1489 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1490 CharacterOffsetEnd=1493 PartOfSpeech=DT] [Text=crime CharacterOffsetBegin=1494 CharacterOffsetEnd=1499 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1499 CharacterOffsetEnd=1500 PartOfSpeech=.] 
+root(ROOT-0, supposed-13)
+advmod(lot-5, Also-1)
+nsubj(lot-5, it-2)
+cop(lot-5, 's-3)
+det(lot-5, a-4)
+advcl(supposed-13, lot-5)
+prep(lot-5, of-6)
+pobj(of-6, sentimentality-7)
+punct(lot-5, ,-8)
+prep(lot-5, for-9)
+pobj(for-9, example-10)
+nsubjpass(supposed-13, we-11)
+auxpass(supposed-13, are-12)
+aux(care-15, to-14)
+xcomp(supposed-13, care-15)
+prep(care-15, for-16)
+det(sufferance-18, the-17)
+pobj(for-16, sufferance-18)
+prep(sufferance-18, of-19)
+det(father-22, the-20)
+amod(father-22, widowed-21)
+pobj(of-19, father-22)
+prep(supposed-13, without-23)
+pcomp(without-23, knowing-24)
+nsubj(lives-30, anything-25)
+prep(anything-25, about-26)
+det(parents-28, the-27)
+pobj(about-26, parents-28)
+punct(lives-30, `-29)
+ccomp(knowing-24, lives-30)
+prep(lives-30, before-31)
+det(crime-33, the-32)
+pobj(before-31, crime-33)
+punct(supposed-13, .-34)
+

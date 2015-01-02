@@ -1,0 +1,85 @@
+Sentence #1 (2 tokens):
+Excellent.
+[Text=Excellent CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=.] 
+root(ROOT-0, Excellent-1)
+punct(Excellent-1, .-2)
+
+Sentence #2 (23 tokens):
+Gritty and true portrayal of pioneer ranch life on the Western plains with an emphasis on the woman's role and place.
+[Text=Gritty CharacterOffsetBegin=19 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=CC] [Text=true CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=JJ] [Text=portrayal CharacterOffsetBegin=35 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=IN] [Text=pioneer CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=NN] [Text=ranch CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NN] [Text=life CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=DT] [Text=Western CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=JJ] [Text=plains CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=emphasis CharacterOffsetBegin=97 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=POS] [Text=role CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=CC] [Text=place CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=.] 
+root(ROOT-0, portrayal-4)
+amod(portrayal-4, Gritty-1)
+cc(Gritty-1, and-2)
+conj(Gritty-1, true-3)
+prep(portrayal-4, of-5)
+nn(life-8, pioneer-6)
+nn(life-8, ranch-7)
+pobj(of-5, life-8)
+prep(portrayal-4, on-9)
+det(plains-12, the-10)
+amod(plains-12, Western-11)
+pobj(on-9, plains-12)
+prep(portrayal-4, with-13)
+det(emphasis-15, an-14)
+pobj(with-13, emphasis-15)
+prep(emphasis-15, on-16)
+det(woman-18, the-17)
+poss(role-20, woman-18)
+possessive(woman-18, 's-19)
+pobj(on-16, role-20)
+cc(role-20, and-21)
+conj(role-20, place-22)
+punct(portrayal-4, .-23)
+
+Sentence #3 (17 tokens):
+A moving film, lovingly made, and based on real people and their actual experiences.
+[Text=A CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=moving CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=VBG] [Text=film CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=,] [Text=lovingly CharacterOffsetBegin=156 CharacterOffsetEnd=164 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=,] [Text=and CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=CC] [Text=based CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=real CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=189 CharacterOffsetEnd=195 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=CC] [Text=their CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=PRP$] [Text=actual CharacterOffsetBegin=206 CharacterOffsetEnd=212 PartOfSpeech=JJ] [Text=experiences CharacterOffsetBegin=213 CharacterOffsetEnd=224 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.] 
+root(ROOT-0, film-3)
+det(film-3, A-1)
+amod(film-3, moving-2)
+punct(film-3, ,-4)
+advmod(made-6, lovingly-5)
+partmod(film-3, made-6)
+punct(film-3, ,-7)
+cc(film-3, and-8)
+conj(film-3, based-9)
+prep(based-9, on-10)
+amod(people-12, real-11)
+pobj(on-10, people-12)
+cc(people-12, and-13)
+poss(experiences-16, their-14)
+amod(experiences-16, actual-15)
+conj(people-12, experiences-16)
+punct(film-3, .-17)
+
+Sentence #4 (11 tokens):
+Low budget, independent film; never made any money.
+[Text=Low CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=JJ] [Text=budget CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=,] [Text=independent CharacterOffsetBegin=242 CharacterOffsetEnd=253 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=; CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=:] [Text=never CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=VBN] [Text=any CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=DT] [Text=money CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=.] 
+root(ROOT-0, budget-2)
+amod(budget-2, Low-1)
+punct(budget-2, ,-3)
+amod(film-5, independent-4)
+appos(budget-2, film-5)
+punct(budget-2, ;-6)
+neg(made-8, never-7)
+dep(budget-2, made-8)
+det(money-10, any-9)
+dobj(made-8, money-10)
+punct(budget-2, .-11)
+
+Sentence #5 (12 tokens):
+Definitely not the romanticized, unrealistic Hollywood version of pioneer life.
+[Text=Definitely CharacterOffsetBegin=286 CharacterOffsetEnd=296 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=DT] [Text=romanticized CharacterOffsetBegin=305 CharacterOffsetEnd=317 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=,] [Text=unrealistic CharacterOffsetBegin=319 CharacterOffsetEnd=330 PartOfSpeech=JJ] [Text=Hollywood CharacterOffsetBegin=331 CharacterOffsetEnd=340 PartOfSpeech=NNP] [Text=version CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=IN] [Text=pioneer CharacterOffsetBegin=352 CharacterOffsetEnd=359 PartOfSpeech=NN] [Text=life CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, romanticized-4)
+advmod(romanticized-4, Definitely-1)
+neg(romanticized-4, not-2)
+det(romanticized-4, the-3)
+punct(romanticized-4, ,-5)
+amod(version-8, unrealistic-6)
+nn(version-8, Hollywood-7)
+appos(romanticized-4, version-8)
+prep(version-8, of-9)
+nn(life-11, pioneer-10)
+pobj(of-9, life-11)
+punct(romanticized-4, .-12)
+

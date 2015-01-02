@@ -1,0 +1,48 @@
+Sentence #1 (13 tokens):
+This unpretentious Horror film is probably destined to become a cult classic.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=unpretentious CharacterOffsetBegin=9 CharacterOffsetEnd=22 PartOfSpeech=JJ] [Text=Horror CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NNP] [Text=film CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=VBZ] [Text=probably CharacterOffsetBegin=38 CharacterOffsetEnd=46 PartOfSpeech=RB] [Text=destined CharacterOffsetBegin=47 CharacterOffsetEnd=55 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=TO] [Text=become CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=cult CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=classic CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=.] 
+root(ROOT-0, destined-7)
+det(film-4, This-1)
+amod(film-4, unpretentious-2)
+nn(film-4, Horror-3)
+nsubjpass(destined-7, film-4)
+auxpass(destined-7, is-5)
+advmod(destined-7, probably-6)
+aux(classic-12, to-8)
+cop(classic-12, become-9)
+det(classic-12, a-10)
+nn(classic-12, cult-11)
+xcomp(destined-7, classic-12)
+punct(destined-7, .-13)
+
+Sentence #2 (13 tokens):
+Much much better than 90% of the Scream rip-offs out there!
+[Text=Much CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=IN] [Text=90 CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=DT] [Text=Scream CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=NNP] [Text=rip-offs CharacterOffsetBegin=126 CharacterOffsetEnd=134 PartOfSpeech=NNS] [Text=out CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=.] 
+root(ROOT-0, %-6)
+advmod(better-3, Much-1)
+advmod(better-3, much-2)
+quantmod(90-5, better-3)
+quantmod(90-5, than-4)
+num(%-6, 90-5)
+prep(%-6, of-7)
+det(rip-offs-10, the-8)
+nn(rip-offs-10, Scream-9)
+pobj(of-7, rip-offs-10)
+prep(rip-offs-10, out-11)
+pobj(out-11, there-12)
+punct(%-6, !-13)
+
+Sentence #3 (10 tokens):
+I even hope they come up with a sequel!
+[Text=I CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=PRP] [Text=even CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=RB] [Text=hope CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=PRP] [Text=come CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=DT] [Text=sequel CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=.] 
+root(ROOT-0, hope-3)
+nsubj(hope-3, I-1)
+advmod(hope-3, even-2)
+nsubj(come-5, they-4)
+ccomp(hope-3, come-5)
+prt(come-5, up-6)
+prep(come-5, with-7)
+det(sequel-9, a-8)
+pobj(with-7, sequel-9)
+punct(hope-3, !-10)
+

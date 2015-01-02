@@ -1,0 +1,203 @@
+Sentence #1 (8 tokens):
+Annie's wig does not look good.
+[Text=Annie CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=POS] [Text=wig CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=RB] [Text=look CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=VB] [Text=good CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=.] 
+root(ROOT-0, look-6)
+poss(wig-3, Annie-1)
+possessive(Annie-1, 's-2)
+nsubj(look-6, wig-3)
+aux(look-6, does-4)
+neg(look-6, not-5)
+acomp(look-6, good-7)
+punct(look-6, .-8)
+
+Sentence #2 (11 tokens):
+she is not cute and pretty enough to play Annie.
+[Text=she CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=RB] [Text=cute CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=CC] [Text=pretty CharacterOffsetBegin=60 CharacterOffsetEnd=66 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=TO] [Text=play CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=VB] [Text=Annie CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=.] 
+root(ROOT-0, cute-4)
+nsubj(cute-4, she-1)
+cop(cute-4, is-2)
+neg(cute-4, not-3)
+cc(cute-4, and-5)
+advmod(enough-7, pretty-6)
+conj(cute-4, enough-7)
+aux(play-9, to-8)
+dep(enough-7, play-9)
+dobj(play-9, Annie-10)
+punct(cute-4, .-11)
+
+Sentence #3 (15 tokens):
+Annie sticks out in the movie, as her outfits look like Halloween costumes.
+[Text=Annie CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NNP] [Text=sticks CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=VBZ] [Text=out CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=,] [Text=as CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=PRP$] [Text=outfits CharacterOffsetBegin=131 CharacterOffsetEnd=138 PartOfSpeech=NN] [Text=look CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=VB] [Text=like CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=IN] [Text=Halloween CharacterOffsetBegin=149 CharacterOffsetEnd=158 PartOfSpeech=NNP] [Text=costumes CharacterOffsetBegin=159 CharacterOffsetEnd=167 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=.] 
+root(ROOT-0, sticks-2)
+nsubj(sticks-2, Annie-1)
+prt(sticks-2, out-3)
+prep(sticks-2, in-4)
+det(movie-6, the-5)
+pobj(in-4, movie-6)
+punct(sticks-2, ,-7)
+mark(look-11, as-8)
+poss(outfits-10, her-9)
+nsubj(look-11, outfits-10)
+advcl(sticks-2, look-11)
+prep(look-11, like-12)
+nn(costumes-14, Halloween-13)
+pobj(like-12, costumes-14)
+punct(sticks-2, .-15)
+
+Sentence #4 (6 tokens):
+terrible acting and terrible plots.
+[Text=terrible CharacterOffsetBegin=173 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=acting CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=CC] [Text=terrible CharacterOffsetBegin=193 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=plots CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=.] 
+root(ROOT-0, acting-2)
+amod(acting-2, terrible-1)
+cc(acting-2, and-3)
+amod(plots-5, terrible-4)
+conj(acting-2, plots-5)
+punct(acting-2, .-6)
+
+Sentence #5 (11 tokens):
+This movie is such a change from the 1982 version.
+[Text=This CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=VBZ] [Text=such CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=DT] [Text=change CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=DT] [Text=1982 CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=CD] [Text=version CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=.] 
+root(ROOT-0, change-6)
+det(movie-2, This-1)
+nsubj(change-6, movie-2)
+cop(change-6, is-3)
+amod(change-6, such-4)
+det(change-6, a-5)
+prep(change-6, from-7)
+det(version-10, the-8)
+num(version-10, 1982-9)
+pobj(from-7, version-10)
+punct(change-6, .-11)
+
+Sentence #6 (15 tokens):
+I think that a younger and smaller girl should have had the lead role.
+[Text=I CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=DT] [Text=younger CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=JJR] [Text=and CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=CC] [Text=smaller CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=JJR] [Text=girl CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=VB] [Text=had CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=DT] [Text=lead CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=JJ] [Text=role CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+mark(have-10, that-3)
+det(girl-8, a-4)
+amod(girl-8, younger-5)
+cc(younger-5, and-6)
+conj(younger-5, smaller-7)
+nsubj(have-10, girl-8)
+aux(have-10, should-9)
+ccomp(think-2, have-10)
+ccomp(have-10, had-11)
+det(role-14, the-12)
+amod(role-14, lead-13)
+dobj(had-11, role-14)
+punct(think-2, .-15)
+
+Sentence #7 (8 tokens):
+Ashley Johnson portrays a very boyish Annie.
+[Text=Ashley CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=NNP] [Text=Johnson CharacterOffsetBegin=350 CharacterOffsetEnd=357 PartOfSpeech=NNP] [Text=portrays CharacterOffsetBegin=358 CharacterOffsetEnd=366 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=RB] [Text=boyish CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=JJ] [Text=Annie CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=.] 
+root(ROOT-0, portrays-3)
+nn(Johnson-2, Ashley-1)
+nsubj(portrays-3, Johnson-2)
+det(Annie-7, a-4)
+advmod(boyish-6, very-5)
+amod(Annie-7, boyish-6)
+dobj(portrays-3, Annie-7)
+punct(portrays-3, .-8)
+
+Sentence #8 (5 tokens):
+Not appealing at all.
+[Text=Not CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=RB] [Text=appealing CharacterOffsetBegin=396 CharacterOffsetEnd=405 PartOfSpeech=VBG] [Text=at CharacterOffsetBegin=406 CharacterOffsetEnd=408 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=412 CharacterOffsetEnd=413 PartOfSpeech=.] 
+root(ROOT-0, appealing-2)
+neg(appealing-2, Not-1)
+advmod(appealing-2, at-3)
+pobj(at-3, all-4)
+punct(appealing-2, .-5)
+
+Sentence #9 (12 tokens):
+At least the casting director got it right with Daddy Warbucks.
+[Text=At CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=JJS] [Text=the CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=DT] [Text=casting CharacterOffsetBegin=431 CharacterOffsetEnd=438 PartOfSpeech=NN] [Text=director CharacterOffsetBegin=439 CharacterOffsetEnd=447 PartOfSpeech=NN] [Text=got CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=PRP] [Text=right CharacterOffsetBegin=455 CharacterOffsetEnd=460 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=IN] [Text=Daddy CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=NNP] [Text=Warbucks CharacterOffsetBegin=472 CharacterOffsetEnd=480 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=.] 
+root(ROOT-0, got-6)
+prep(got-6, At-1)
+pobj(At-1, least-2)
+det(director-5, the-3)
+nn(director-5, casting-4)
+nsubj(got-6, director-5)
+dobj(got-6, it-7)
+advmod(got-6, right-8)
+prep(right-8, with-9)
+nn(Warbucks-11, Daddy-10)
+pobj(with-9, Warbucks-11)
+punct(got-6, .-12)
+
+Sentence #10 (6 tokens):
+Ms. Hannigan was also miscast.
+[Text=Ms. CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=NNP] [Text=Hannigan CharacterOffsetBegin=490 CharacterOffsetEnd=498 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=VBD] [Text=also CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=RB] [Text=miscast CharacterOffsetBegin=508 CharacterOffsetEnd=515 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=515 CharacterOffsetEnd=516 PartOfSpeech=.] 
+root(ROOT-0, miscast-5)
+nn(Hannigan-2, Ms.-1)
+nsubj(miscast-5, Hannigan-2)
+cop(miscast-5, was-3)
+advmod(miscast-5, also-4)
+punct(miscast-5, .-6)
+
+Sentence #11 (6 tokens):
+Camilla Belle played Molly alright.
+[Text=Camilla CharacterOffsetBegin=521 CharacterOffsetEnd=528 PartOfSpeech=NNP] [Text=Belle CharacterOffsetBegin=529 CharacterOffsetEnd=534 PartOfSpeech=NNP] [Text=played CharacterOffsetBegin=535 CharacterOffsetEnd=541 PartOfSpeech=VBD] [Text=Molly CharacterOffsetBegin=542 CharacterOffsetEnd=547 PartOfSpeech=NNP] [Text=alright CharacterOffsetBegin=548 CharacterOffsetEnd=555 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=555 CharacterOffsetEnd=556 PartOfSpeech=.] 
+root(ROOT-0, played-3)
+nn(Belle-2, Camilla-1)
+nsubj(played-3, Belle-2)
+nn(alright-5, Molly-4)
+dobj(played-3, alright-5)
+punct(played-3, .-6)
+
+Sentence #12 (23 tokens):
+"Warning" this movie might insult your IQ so you might just want to only show it to very young children.
+[Text=`` CharacterOffsetBegin=561 CharacterOffsetEnd=562 PartOfSpeech=``] [Text=Warning CharacterOffsetBegin=562 CharacterOffsetEnd=569 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=569 CharacterOffsetEnd=570 PartOfSpeech=''] [Text=this CharacterOffsetBegin=571 CharacterOffsetEnd=575 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=NN] [Text=might CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=MD] [Text=insult CharacterOffsetBegin=588 CharacterOffsetEnd=594 PartOfSpeech=NN] [Text=your CharacterOffsetBegin=595 CharacterOffsetEnd=599 PartOfSpeech=PRP$] [Text=IQ CharacterOffsetBegin=600 CharacterOffsetEnd=602 PartOfSpeech=NNP] [Text=so CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=PRP] [Text=might CharacterOffsetBegin=610 CharacterOffsetEnd=615 PartOfSpeech=MD] [Text=just CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=RB] [Text=want CharacterOffsetBegin=621 CharacterOffsetEnd=625 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=626 CharacterOffsetEnd=628 PartOfSpeech=TO] [Text=only CharacterOffsetBegin=629 CharacterOffsetEnd=633 PartOfSpeech=RB] [Text=show CharacterOffsetBegin=634 CharacterOffsetEnd=638 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=642 CharacterOffsetEnd=644 PartOfSpeech=TO] [Text=very CharacterOffsetBegin=645 CharacterOffsetEnd=649 PartOfSpeech=RB] [Text=young CharacterOffsetBegin=650 CharacterOffsetEnd=655 PartOfSpeech=JJ] [Text=children CharacterOffsetBegin=656 CharacterOffsetEnd=664 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=664 CharacterOffsetEnd=665 PartOfSpeech=.] 
+root(ROOT-0, Warning-2)
+punct(Warning-2, ``-1)
+punct(Warning-2, ''-3)
+det(movie-5, this-4)
+nsubj(insult-7, movie-5)
+aux(insult-7, might-6)
+rcmod(Warning-2, insult-7)
+poss(IQ-9, your-8)
+dobj(insult-7, IQ-9)
+mark(want-14, so-10)
+nsubj(want-14, you-11)
+aux(want-14, might-12)
+advmod(want-14, just-13)
+advcl(insult-7, want-14)
+aux(show-17, to-15)
+advmod(show-17, only-16)
+xcomp(want-14, show-17)
+dobj(show-17, it-18)
+prep(show-17, to-19)
+advmod(young-21, very-20)
+amod(children-22, young-21)
+pobj(to-19, children-22)
+punct(Warning-2, .-23)
+
+Sentence #13 (4 tokens):
+8 and younger.
+[Text=8 CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=CD] [Text=and CharacterOffsetBegin=672 CharacterOffsetEnd=675 PartOfSpeech=CC] [Text=younger CharacterOffsetBegin=676 CharacterOffsetEnd=683 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=683 CharacterOffsetEnd=684 PartOfSpeech=.] 
+root(ROOT-0, 8-1)
+cc(8-1, and-2)
+conj(8-1, younger-3)
+punct(8-1, .-4)
+
+Sentence #14 (17 tokens):
+Some of the plots are too fictional and could hardly take place in the real world.
+[Text=Some CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=694 CharacterOffsetEnd=696 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=DT] [Text=plots CharacterOffsetBegin=701 CharacterOffsetEnd=706 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=VBP] [Text=too CharacterOffsetBegin=711 CharacterOffsetEnd=714 PartOfSpeech=RB] [Text=fictional CharacterOffsetBegin=715 CharacterOffsetEnd=724 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=725 CharacterOffsetEnd=728 PartOfSpeech=CC] [Text=could CharacterOffsetBegin=729 CharacterOffsetEnd=734 PartOfSpeech=MD] [Text=hardly CharacterOffsetBegin=735 CharacterOffsetEnd=741 PartOfSpeech=RB] [Text=take CharacterOffsetBegin=742 CharacterOffsetEnd=746 PartOfSpeech=VB] [Text=place CharacterOffsetBegin=747 CharacterOffsetEnd=752 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=753 CharacterOffsetEnd=755 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=756 CharacterOffsetEnd=759 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=760 CharacterOffsetEnd=764 PartOfSpeech=JJ] [Text=world CharacterOffsetBegin=765 CharacterOffsetEnd=770 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=770 CharacterOffsetEnd=771 PartOfSpeech=.] 
+root(ROOT-0, fictional-7)
+nsubj(fictional-7, Some-1)
+prep(Some-1, of-2)
+det(plots-4, the-3)
+pobj(of-2, plots-4)
+cop(fictional-7, are-5)
+advmod(fictional-7, too-6)
+cc(fictional-7, and-8)
+aux(take-11, could-9)
+advmod(take-11, hardly-10)
+conj(fictional-7, take-11)
+dobj(take-11, place-12)
+prep(take-11, in-13)
+det(world-16, the-14)
+amod(world-16, real-15)
+pobj(in-13, world-16)
+punct(fictional-7, .-17)
+

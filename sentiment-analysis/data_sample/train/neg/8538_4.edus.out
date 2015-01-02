@@ -1,0 +1,78 @@
+Sentence #1 (9 tokens):
+This movie got off to an interesting start.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=got CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=off CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=TO] [Text=an CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=DT] [Text=interesting CharacterOffsetBegin=29 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=start CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, got-3)
+det(movie-2, This-1)
+nsubj(got-3, movie-2)
+prt(got-3, off-4)
+prep(got-3, to-5)
+det(start-8, an-6)
+amod(start-8, interesting-7)
+pobj(to-5, start-8)
+punct(got-3, .-9)
+
+Sentence #2 (19 tokens):
+Down the road however, the story gets convoluted with a poor illustration of ancient black magic rituals.
+[Text=Down CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=DT] [Text=road CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NN] [Text=however CharacterOffsetBegin=66 CharacterOffsetEnd=73 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=,] [Text=the CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=gets CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=VBZ] [Text=convoluted CharacterOffsetBegin=90 CharacterOffsetEnd=100 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=DT] [Text=poor CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=JJ] [Text=illustration CharacterOffsetBegin=113 CharacterOffsetEnd=125 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=IN] [Text=ancient CharacterOffsetBegin=129 CharacterOffsetEnd=136 PartOfSpeech=JJ] [Text=black CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=magic CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=JJ] [Text=rituals CharacterOffsetBegin=149 CharacterOffsetEnd=156 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=.] 
+root(ROOT-0, Down-1)
+det(road-3, the-2)
+pobj(Down-1, road-3)
+advmod(road-3, however-4)
+punct(road-3, ,-5)
+det(story-7, the-6)
+appos(road-3, story-7)
+partmod(story-7, gets-8)
+acomp(gets-8, convoluted-9)
+prep(convoluted-9, with-10)
+det(illustration-13, a-11)
+amod(illustration-13, poor-12)
+pobj(with-10, illustration-13)
+prep(illustration-13, of-14)
+amod(rituals-18, ancient-15)
+amod(rituals-18, black-16)
+amod(rituals-18, magic-17)
+pobj(of-14, rituals-18)
+punct(Down-1, .-19)
+
+Sentence #3 (21 tokens):
+The male lead was very good , even though he gets the worst end of the stick in the climax.
+[Text=The CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=DT] [Text=male CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=JJ] [Text=lead CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=,] [Text=even CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=RB] [Text=though CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=PRP] [Text=gets CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=JJS] [Text=end CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=DT] [Text=stick CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=climax CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=.] 
+root(ROOT-0, good-6)
+det(lead-3, The-1)
+amod(lead-3, male-2)
+nsubj(good-6, lead-3)
+cop(good-6, was-4)
+advmod(good-6, very-5)
+punct(good-6, ,-7)
+advmod(gets-11, even-8)
+mark(gets-11, though-9)
+nsubj(gets-11, he-10)
+advcl(good-6, gets-11)
+det(end-14, the-12)
+amod(end-14, worst-13)
+dobj(gets-11, end-14)
+prep(end-14, of-15)
+det(stick-17, the-16)
+pobj(of-15, stick-17)
+prep(stick-17, in-18)
+det(climax-20, the-19)
+pobj(in-18, climax-20)
+punct(good-6, .-21)
+
+Sentence #4 (13 tokens):
+In comparison, this is "Boomerang" meets "Extremities".
+[Text=In CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=IN] [Text=comparison CharacterOffsetBegin=261 CharacterOffsetEnd=271 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=,] [Text=this CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=``] [Text=Boomerang CharacterOffsetBegin=282 CharacterOffsetEnd=291 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=''] [Text=meets CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=VBZ] [Text=`` CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=``] [Text=Extremities CharacterOffsetBegin=300 CharacterOffsetEnd=311 PartOfSpeech=NNS] [Text='' CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=''] [Text=. CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=.] 
+root(ROOT-0, Boomerang-7)
+prep(Boomerang-7, In-1)
+pobj(In-1, comparison-2)
+punct(Boomerang-7, ,-3)
+nsubj(Boomerang-7, this-4)
+cop(Boomerang-7, is-5)
+punct(Boomerang-7, ``-6)
+punct(Boomerang-7, ''-8)
+partmod(Boomerang-7, meets-9)
+punct(Extremities-11, ``-10)
+dep(meets-9, Extremities-11)
+punct(Extremities-11, ''-12)
+punct(Boomerang-7, .-13)
+

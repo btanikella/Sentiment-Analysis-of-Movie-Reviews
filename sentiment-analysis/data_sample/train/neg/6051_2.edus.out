@@ -1,0 +1,214 @@
+Sentence #1 (2 tokens):
+urgh!
+[Text=urgh CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=.] 
+root(ROOT-0, urgh-1)
+punct(urgh-1, !-2)
+
+Sentence #2 (17 tokens):
+3 things a movie needs: a good script, a good plot and good casting.
+[Text=3 CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=CD] [Text=things CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NNS] [Text=a CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=needs CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=VBZ] [Text=: CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=:] [Text=a CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=,] [Text=a CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=CC] [Text=good CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=casting CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, things-2)
+num(things-2, 3-1)
+det(movie-4, a-3)
+nsubj(needs-5, movie-4)
+rcmod(things-2, needs-5)
+punct(things-2, :-6)
+det(script-9, a-7)
+amod(script-9, good-8)
+dep(things-2, script-9)
+punct(script-9, ,-10)
+det(plot-13, a-11)
+amod(plot-13, good-12)
+conj(script-9, plot-13)
+cc(script-9, and-14)
+amod(casting-16, good-15)
+conj(script-9, casting-16)
+punct(things-2, .-17)
+
+Sentence #3 (21 tokens):
+i watched this movie expecting it to be hilariously terrible and was unfortunately disappointed when it was just plain terrible.
+[Text=i CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=LS] [Text=watched CharacterOffsetBegin=89 CharacterOffsetEnd=96 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=expecting CharacterOffsetBegin=108 CharacterOffsetEnd=117 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=VB] [Text=hilariously CharacterOffsetBegin=127 CharacterOffsetEnd=138 PartOfSpeech=RB] [Text=terrible CharacterOffsetBegin=139 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=VBD] [Text=unfortunately CharacterOffsetBegin=156 CharacterOffsetEnd=169 PartOfSpeech=RB] [Text=disappointed CharacterOffsetBegin=170 CharacterOffsetEnd=182 PartOfSpeech=VBN] [Text=when CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=RB] [Text=plain CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=JJ] [Text=terrible CharacterOffsetBegin=206 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, i-1)
+det(movie-4, this-3)
+nsubj(expecting-5, movie-4)
+ccomp(watched-2, expecting-5)
+nsubj(terrible-10, it-6)
+aux(terrible-10, to-7)
+cop(terrible-10, be-8)
+advmod(terrible-10, hilariously-9)
+xcomp(expecting-5, terrible-10)
+cc(terrible-10, and-11)
+auxpass(disappointed-14, was-12)
+advmod(disappointed-14, unfortunately-13)
+conj(terrible-10, disappointed-14)
+advmod(terrible-20, when-15)
+nsubj(terrible-20, it-16)
+cop(terrible-20, was-17)
+advmod(terrible-20, just-18)
+dep(terrible-20, plain-19)
+advcl(expecting-5, terrible-20)
+punct(watched-2, .-21)
+
+Sentence #4 (9 tokens):
+I lost the will to live halfway through.
+[Text=I CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=PRP] [Text=lost CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=will CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=TO] [Text=live CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=VB] [Text=halfway CharacterOffsetBegin=244 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=through CharacterOffsetBegin=252 CharacterOffsetEnd=259 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=.] 
+root(ROOT-0, lost-2)
+nsubj(lost-2, I-1)
+det(will-4, the-3)
+dobj(lost-2, will-4)
+aux(live-6, to-5)
+xcomp(lost-2, live-6)
+advmod(live-6, halfway-7)
+advmod(live-6, through-8)
+punct(lost-2, .-9)
+
+Sentence #5 (32 tokens):
+The only thing which stopped me from stabbing my eyes out with a fork was Rose Byrne (who was the reason for me watching it in the first place).
+[Text=The CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=WDT] [Text=stopped CharacterOffsetBegin=286 CharacterOffsetEnd=293 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=PRP] [Text=from CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=IN] [Text=stabbing CharacterOffsetBegin=302 CharacterOffsetEnd=310 PartOfSpeech=VBG] [Text=my CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=PRP$] [Text=eyes CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=NNS] [Text=out CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=fork CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=VBD] [Text=Rose CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=NNP] [Text=Byrne CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=-LRB-] [Text=who CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=PRP] [Text=watching CharacterOffsetBegin=377 CharacterOffsetEnd=385 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=JJ] [Text=place CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=.] 
+root(ROOT-0, Byrne-17)
+det(thing-3, The-1)
+amod(thing-3, only-2)
+nsubj(Byrne-17, thing-3)
+nsubj(stopped-5, which-4)
+rcmod(thing-3, stopped-5)
+dobj(stopped-5, me-6)
+prep(stopped-5, from-7)
+pcomp(from-7, stabbing-8)
+poss(eyes-10, my-9)
+dobj(stabbing-8, eyes-10)
+prt(stabbing-8, out-11)
+prep(stabbing-8, with-12)
+det(fork-14, a-13)
+pobj(with-12, fork-14)
+cop(Byrne-17, was-15)
+nn(Byrne-17, Rose-16)
+punct(reason-22, -LRB--18)
+nsubj(reason-22, who-19)
+cop(reason-22, was-20)
+det(reason-22, the-21)
+appos(Byrne-17, reason-22)
+prep(reason-22, for-23)
+pobj(for-23, me-24)
+dep(reason-22, watching-25)
+dobj(watching-25, it-26)
+prep(watching-25, in-27)
+det(place-30, the-28)
+amod(place-30, first-29)
+pobj(in-27, place-30)
+punct(reason-22, -RRB--31)
+punct(Byrne-17, .-32)
+
+Sentence #6 (19 tokens):
+She did a good job as Rastus and her appearance hasn't changed much since she was 13.
+[Text=She CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=424 CharacterOffsetEnd=428 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=IN] [Text=Rastus CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=CC] [Text=her CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=PRP$] [Text=appearance CharacterOffsetBegin=451 CharacterOffsetEnd=461 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=RB] [Text=changed CharacterOffsetBegin=469 CharacterOffsetEnd=476 PartOfSpeech=VBN] [Text=much CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=RB] [Text=since CharacterOffsetBegin=482 CharacterOffsetEnd=487 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=VBD] [Text=13 CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=.] 
+root(ROOT-0, changed-13)
+nsubj(did-2, She-1)
+ccomp(changed-13, did-2)
+det(job-5, a-3)
+amod(job-5, good-4)
+dobj(did-2, job-5)
+prep(job-5, as-6)
+pobj(as-6, Rastus-7)
+cc(Rastus-7, and-8)
+poss(appearance-10, her-9)
+conj(Rastus-7, appearance-10)
+aux(changed-13, has-11)
+neg(changed-13, n't-12)
+advmod(changed-13, much-14)
+mark(13-18, since-15)
+nsubj(13-18, she-16)
+cop(13-18, was-17)
+advcl(changed-13, 13-18)
+punct(changed-13, .-19)
+
+Sentence #7 (10 tokens):
+it was a fantastic first effort in a movie.
+[Text=it CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=503 CharacterOffsetEnd=506 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=DT] [Text=fantastic CharacterOffsetBegin=509 CharacterOffsetEnd=518 PartOfSpeech=JJ] [Text=first CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=JJ] [Text=effort CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=535 CharacterOffsetEnd=536 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=537 CharacterOffsetEnd=542 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=542 CharacterOffsetEnd=543 PartOfSpeech=.] 
+root(ROOT-0, effort-6)
+nsubj(effort-6, it-1)
+cop(effort-6, was-2)
+det(effort-6, a-3)
+amod(effort-6, fantastic-4)
+amod(effort-6, first-5)
+prep(effort-6, in-7)
+det(movie-9, a-8)
+pobj(in-7, movie-9)
+punct(effort-6, .-10)
+
+Sentence #8 (7 tokens):
+the dog was also very good.
+[Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT] [Text=dog CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=VBD] [Text=also CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=.] 
+root(ROOT-0, good-6)
+det(dog-2, the-1)
+nsubj(good-6, dog-2)
+cop(good-6, was-3)
+advmod(good-6, also-4)
+advmod(good-6, very-5)
+punct(good-6, .-7)
+
+Sentence #9 (10 tokens):
+both did a great job with such awful material.
+[Text=both CharacterOffsetBegin=580 CharacterOffsetEnd=584 PartOfSpeech=DT] [Text=did CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=591 CharacterOffsetEnd=596 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=IN] [Text=such CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=JJ] [Text=awful CharacterOffsetBegin=611 CharacterOffsetEnd=616 PartOfSpeech=JJ] [Text=material CharacterOffsetBegin=617 CharacterOffsetEnd=625 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=.] 
+root(ROOT-0, did-2)
+dep(did-2, both-1)
+det(job-5, a-3)
+amod(job-5, great-4)
+dobj(did-2, job-5)
+prep(job-5, with-6)
+amod(material-9, such-7)
+amod(material-9, awful-8)
+pobj(with-6, material-9)
+punct(did-2, .-10)
+
+Sentence #10 (12 tokens):
+Sandra Bernhard i think was the biggest mistake of the movie.
+[Text=Sandra CharacterOffsetBegin=631 CharacterOffsetEnd=637 PartOfSpeech=NNP] [Text=Bernhard CharacterOffsetBegin=638 CharacterOffsetEnd=646 PartOfSpeech=NNP] [Text=i CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=FW] [Text=think CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=VBP] [Text=was CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=DT] [Text=biggest CharacterOffsetBegin=663 CharacterOffsetEnd=670 PartOfSpeech=JJS] [Text=mistake CharacterOffsetBegin=671 CharacterOffsetEnd=678 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=679 CharacterOffsetEnd=681 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=682 CharacterOffsetEnd=685 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=686 CharacterOffsetEnd=691 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=.] 
+root(ROOT-0, think-4)
+nn(i-3, Sandra-1)
+nn(i-3, Bernhard-2)
+nsubj(think-4, i-3)
+cop(mistake-8, was-5)
+det(mistake-8, the-6)
+amod(mistake-8, biggest-7)
+ccomp(think-4, mistake-8)
+prep(mistake-8, of-9)
+det(movie-11, the-10)
+pobj(of-9, movie-11)
+punct(think-4, .-12)
+
+Sentence #11 (31 tokens):
+she was completely miscast, and i don't think she ever quite got the character.I give the movie 2 out of 10 - and thats only because of Rose.
+[Text=she CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=701 CharacterOffsetEnd=704 PartOfSpeech=VBD] [Text=completely CharacterOffsetBegin=705 CharacterOffsetEnd=715 PartOfSpeech=RB] [Text=miscast CharacterOffsetBegin=716 CharacterOffsetEnd=723 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=723 CharacterOffsetEnd=724 PartOfSpeech=,] [Text=and CharacterOffsetBegin=725 CharacterOffsetEnd=728 PartOfSpeech=CC] [Text=i CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=FW] [Text=do CharacterOffsetBegin=731 CharacterOffsetEnd=733 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=RB] [Text=think CharacterOffsetBegin=737 CharacterOffsetEnd=742 PartOfSpeech=VB] [Text=she CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=PRP] [Text=ever CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=RB] [Text=quite CharacterOffsetBegin=752 CharacterOffsetEnd=757 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=DT] [Text=character.I CharacterOffsetBegin=766 CharacterOffsetEnd=777 PartOfSpeech=NN] [Text=give CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=783 CharacterOffsetEnd=786 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=787 CharacterOffsetEnd=792 PartOfSpeech=NN] [Text=2 CharacterOffsetBegin=793 CharacterOffsetEnd=794 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=795 CharacterOffsetEnd=798 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=799 CharacterOffsetEnd=801 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=802 CharacterOffsetEnd=804 PartOfSpeech=CD] [Text=- CharacterOffsetBegin=805 CharacterOffsetEnd=806 PartOfSpeech=:] [Text=and CharacterOffsetBegin=807 CharacterOffsetEnd=810 PartOfSpeech=CC] [Text=thats CharacterOffsetBegin=811 CharacterOffsetEnd=816 PartOfSpeech=VBZ] [Text=only CharacterOffsetBegin=817 CharacterOffsetEnd=821 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=822 CharacterOffsetEnd=829 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=830 CharacterOffsetEnd=832 PartOfSpeech=IN] [Text=Rose CharacterOffsetBegin=833 CharacterOffsetEnd=837 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=837 CharacterOffsetEnd=838 PartOfSpeech=.] 
+root(ROOT-0, miscast-4)
+nsubj(miscast-4, she-1)
+cop(miscast-4, was-2)
+advmod(miscast-4, completely-3)
+punct(miscast-4, ,-5)
+cc(miscast-4, and-6)
+nsubj(think-10, i-7)
+aux(think-10, do-8)
+neg(think-10, n't-9)
+conj(miscast-4, think-10)
+nsubj(got-14, she-11)
+advmod(got-14, ever-12)
+advmod(got-14, quite-13)
+ccomp(think-10, got-14)
+det(character.I-16, the-15)
+nsubj(give-17, character.I-16)
+dep(got-14, give-17)
+det(movie-19, the-18)
+dobj(give-17, movie-19)
+num(movie-19, 2-20)
+prep(give-17, out-21)
+pcomp(out-21, of-22)
+pobj(of-22, 10-23)
+punct(give-17, --24)
+cc(give-17, and-25)
+conj(give-17, thats-26)
+advmod(of-29, only-27)
+mwe(of-29, because-28)
+prep(thats-26, of-29)
+pobj(of-29, Rose-30)
+punct(miscast-4, .-31)
+

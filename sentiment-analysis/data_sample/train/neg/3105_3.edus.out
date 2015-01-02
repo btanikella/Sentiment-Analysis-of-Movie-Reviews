@@ -1,0 +1,120 @@
+Sentence #1 (17 tokens):
+I can't believe how anyone can make a comedy about an issue such as homelessness.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=RB] [Text=believe CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=VB] [Text=how CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=WRB] [Text=anyone CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=DT] [Text=comedy CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=DT] [Text=issue CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text=such CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=homelessness CharacterOffsetBegin=72 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=.] 
+root(ROOT-0, believe-4)
+nsubj(believe-4, I-1)
+aux(believe-4, ca-2)
+neg(believe-4, n't-3)
+advmod(make-8, how-5)
+nsubj(make-8, anyone-6)
+aux(make-8, can-7)
+ccomp(believe-4, make-8)
+det(comedy-10, a-9)
+dobj(make-8, comedy-10)
+prep(comedy-10, about-11)
+det(issue-13, an-12)
+pobj(about-11, issue-13)
+mwe(as-15, such-14)
+prep(issue-13, as-15)
+pobj(as-15, homelessness-16)
+punct(believe-4, .-17)
+
+Sentence #2 (16 tokens):
+Of course, Brooks has not made a comedy about _real_ homeless people.
+[Text=Of CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=,] [Text=Brooks CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=DT] [Text=comedy CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=IN] [Text=_ CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=CD] [Text=real CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=JJ] [Text=_ CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=NN] [Text=homeless CharacterOffsetBegin=143 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=152 CharacterOffsetEnd=158 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=.] 
+root(ROOT-0, made-7)
+prep(made-7, Of-1)
+pobj(Of-1, course-2)
+punct(made-7, ,-3)
+nsubj(made-7, Brooks-4)
+aux(made-7, has-5)
+neg(made-7, not-6)
+det(comedy-9, a-8)
+dobj(made-7, comedy-9)
+quantmod(_-11, about-10)
+num(people-15, _-11)
+amod(people-15, real-12)
+nn(people-15, _-13)
+amod(people-15, homeless-14)
+dep(comedy-9, people-15)
+punct(made-7, .-16)
+
+Sentence #3 (12 tokens):
+No mention of drugs, prostitution or violence on these streets.
+[Text=No CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=DT] [Text=mention CharacterOffsetBegin=167 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=drugs CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=,] [Text=prostitution CharacterOffsetBegin=185 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=CC] [Text=violence CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=DT] [Text=streets CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=.] 
+root(ROOT-0, mention-2)
+det(mention-2, No-1)
+prep(mention-2, of-3)
+pobj(of-3, drugs-4)
+punct(drugs-4, ,-5)
+conj(drugs-4, prostitution-6)
+cc(drugs-4, or-7)
+conj(drugs-4, violence-8)
+prep(mention-2, on-9)
+det(streets-11, these-10)
+pobj(on-9, streets-11)
+punct(mention-2, .-12)
+
+Sentence #4 (30 tokens):
+The people we meet in this movie are homeless in Fantasy land so the only difference between them and us is that they don't eat quite as often.
+[Text=The CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=DT] [Text=people CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NNS] [Text=we CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text=meet CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=VBP] [Text=in CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=are CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=VBP] [Text=homeless CharacterOffsetBegin=269 CharacterOffsetEnd=277 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=Fantasy CharacterOffsetBegin=281 CharacterOffsetEnd=288 PartOfSpeech=NNP] [Text=land CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=JJ] [Text=difference CharacterOffsetBegin=306 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=between CharacterOffsetBegin=317 CharacterOffsetEnd=324 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=CC] [Text=us CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=RB] [Text=eat CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=VB] [Text=quite CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=RB] [Text=often CharacterOffsetBegin=369 CharacterOffsetEnd=374 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=.] 
+root(ROOT-0, homeless-9)
+det(people-2, The-1)
+nsubj(homeless-9, people-2)
+nsubj(meet-4, we-3)
+rcmod(people-2, meet-4)
+prep(meet-4, in-5)
+det(movie-7, this-6)
+pobj(in-5, movie-7)
+cop(homeless-9, are-8)
+prep(homeless-9, in-10)
+nn(land-12, Fantasy-11)
+pobj(in-10, land-12)
+advmod(difference-16, so-13)
+det(difference-16, the-14)
+amod(difference-16, only-15)
+nsubj(is-21, difference-16)
+prep(difference-16, between-17)
+pobj(between-17, them-18)
+cc(them-18, and-19)
+conj(them-18, us-20)
+ccomp(homeless-9, is-21)
+mark(eat-26, that-22)
+nsubj(eat-26, they-23)
+aux(eat-26, do-24)
+neg(eat-26, n't-25)
+ccomp(is-21, eat-26)
+advmod(often-29, quite-27)
+advmod(often-29, as-28)
+advmod(eat-26, often-29)
+punct(homeless-9, .-30)
+
+Sentence #5 (12 tokens):
+Brooks' movies have become worse and worse over the years.
+[Text=Brooks CharacterOffsetBegin=380 CharacterOffsetEnd=386 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=POS] [Text=movies CharacterOffsetBegin=388 CharacterOffsetEnd=394 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=VBP] [Text=become CharacterOffsetBegin=400 CharacterOffsetEnd=406 PartOfSpeech=VBN] [Text=worse CharacterOffsetBegin=407 CharacterOffsetEnd=412 PartOfSpeech=JJR] [Text=and CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=CC] [Text=worse CharacterOffsetBegin=417 CharacterOffsetEnd=422 PartOfSpeech=JJR] [Text=over CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=DT] [Text=years CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=.] 
+root(ROOT-0, worse-6)
+poss(movies-3, Brooks-1)
+possessive(Brooks-1, '-2)
+nsubj(worse-6, movies-3)
+aux(worse-6, have-4)
+cop(worse-6, become-5)
+cc(worse-6, and-7)
+conj(worse-6, worse-8)
+prep(worse-6, over-9)
+det(years-11, the-10)
+pobj(over-9, years-11)
+punct(worse-6, .-12)
+
+Sentence #6 (9 tokens):
+This is just another nail in the coffin .
+[Text=This CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=448 CharacterOffsetEnd=450 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=RB] [Text=another CharacterOffsetBegin=456 CharacterOffsetEnd=463 PartOfSpeech=DT] [Text=nail CharacterOffsetBegin=464 CharacterOffsetEnd=468 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=DT] [Text=coffin CharacterOffsetBegin=476 CharacterOffsetEnd=482 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=.] 
+root(ROOT-0, nail-5)
+nsubj(nail-5, This-1)
+cop(nail-5, is-2)
+advmod(nail-5, just-3)
+det(nail-5, another-4)
+prep(nail-5, in-6)
+det(coffin-8, the-7)
+pobj(in-6, coffin-8)
+punct(nail-5, .-9)
+

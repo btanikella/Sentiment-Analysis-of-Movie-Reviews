@@ -1,0 +1,106 @@
+Sentence #1 (5 tokens):
+Avoid the USA version.
+[Text=Avoid CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=USA CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=version CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.] 
+root(ROOT-0, Avoid-1)
+det(version-4, the-2)
+nn(version-4, USA-3)
+dobj(Avoid-1, version-4)
+punct(Avoid-1, .-5)
+
+Sentence #2 (21 tokens):
+It is with added US footage and the worst dubbing you've ever heard probably done by New York amateurs.
+[Text=It CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=VBZ] [Text=with CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=IN] [Text=added CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=VBN] [Text=US CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=NNP] [Text=footage CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=JJS] [Text=dubbing CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=RB] [Text=heard CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=VBN] [Text=probably CharacterOffsetBegin=99 CharacterOffsetEnd=107 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN] [Text=New CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=NNP] [Text=York CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NNP] [Text=amateurs CharacterOffsetBegin=125 CharacterOffsetEnd=133 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+nsubj(is-2, It-1)
+prep(is-2, with-3)
+amod(footage-6, added-4)
+nn(footage-6, US-5)
+pobj(with-3, footage-6)
+cc(footage-6, and-7)
+det(dubbing-10, the-8)
+amod(dubbing-10, worst-9)
+conj(footage-6, dubbing-10)
+nsubj(heard-14, you-11)
+aux(heard-14, 've-12)
+advmod(heard-14, ever-13)
+rcmod(dubbing-10, heard-14)
+advmod(done-16, probably-15)
+ccomp(heard-14, done-16)
+prep(done-16, by-17)
+nn(amateurs-20, New-18)
+nn(amateurs-20, York-19)
+pobj(by-17, amateurs-20)
+punct(is-2, .-21)
+
+Sentence #3 (14 tokens):
+The dubbing is so bad that it sounds like Mystery Science Theater 3000.
+[Text=The CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT] [Text=dubbing CharacterOffsetBegin=143 CharacterOffsetEnd=150 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=PRP] [Text=sounds CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=VBZ] [Text=like CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=IN] [Text=Mystery CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=NNP] [Text=Science CharacterOffsetBegin=189 CharacterOffsetEnd=196 PartOfSpeech=NNP] [Text=Theater CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=NNP] [Text=3000 CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.] 
+root(ROOT-0, bad-5)
+det(dubbing-2, The-1)
+nsubj(bad-5, dubbing-2)
+cop(bad-5, is-3)
+advmod(bad-5, so-4)
+mark(sounds-8, that-6)
+nsubj(sounds-8, it-7)
+ccomp(bad-5, sounds-8)
+prep(sounds-8, like-9)
+nn(Theater-12, Mystery-10)
+nn(Theater-12, Science-11)
+pobj(like-9, Theater-12)
+num(Theater-12, 3000-13)
+punct(bad-5, .-14)
+
+Sentence #4 (13 tokens):
+I think a black guy from the Bronx does Chiba's voice.
+[Text=I CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=217 CharacterOffsetEnd=222 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=DT] [Text=black CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=DT] [Text=Bronx CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NNP] [Text=does CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=VBZ] [Text=Chiba CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=POS] [Text=voice CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+det(guy-5, a-3)
+amod(guy-5, black-4)
+dobj(think-2, guy-5)
+prep(guy-5, from-6)
+det(Bronx-8, the-7)
+pobj(from-6, Bronx-8)
+dep(guy-5, does-9)
+poss(voice-12, Chiba-10)
+possessive(Chiba-10, 's-11)
+nsubj(does-9, voice-12)
+punct(think-2, .-13)
+
+Sentence #5 (12 tokens):
+I couldn't watch the entire film it was that bad.
+[Text=I CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=RB] [Text=watch CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=entire CharacterOffsetBegin=295 CharacterOffsetEnd=301 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=IN] [Text=bad CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=.] 
+root(ROOT-0, watch-4)
+nsubj(watch-4, I-1)
+aux(watch-4, could-2)
+neg(watch-4, n't-3)
+det(film-7, the-5)
+amod(film-7, entire-6)
+dobj(watch-4, film-7)
+nsubj(was-9, it-8)
+dep(watch-4, was-9)
+advmod(bad-11, that-10)
+dep(was-9, bad-11)
+punct(watch-4, .-12)
+
+Sentence #6 (17 tokens):
+Instead of this Americanized version watch Chiba's other greats like The Streetfighter or Karate Warriors.
+[Text=Instead CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=DT] [Text=Americanized CharacterOffsetBegin=344 CharacterOffsetEnd=356 PartOfSpeech=JJ] [Text=version CharacterOffsetBegin=357 CharacterOffsetEnd=364 PartOfSpeech=NN] [Text=watch CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=NN] [Text=Chiba CharacterOffsetBegin=371 CharacterOffsetEnd=376 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=POS] [Text=other CharacterOffsetBegin=379 CharacterOffsetEnd=384 PartOfSpeech=JJ] [Text=greats CharacterOffsetBegin=385 CharacterOffsetEnd=391 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=IN] [Text=The CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=DT] [Text=Streetfighter CharacterOffsetBegin=401 CharacterOffsetEnd=414 PartOfSpeech=NNP] [Text=or CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=CC] [Text=Karate CharacterOffsetBegin=418 CharacterOffsetEnd=424 PartOfSpeech=NNP] [Text=Warriors CharacterOffsetBegin=425 CharacterOffsetEnd=433 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=.] 
+root(ROOT-0, of-2)
+advmod(of-2, Instead-1)
+pobj(of-2, this-3)
+amod(this-3, Americanized-4)
+dep(Americanized-4, version-5)
+dep(version-5, watch-6)
+poss(greats-10, Chiba-7)
+possessive(Chiba-7, 's-8)
+amod(greats-10, other-9)
+dobj(watch-6, greats-10)
+prep(greats-10, like-11)
+det(Streetfighter-13, The-12)
+pobj(like-11, Streetfighter-13)
+cc(Streetfighter-13, or-14)
+nn(Warriors-16, Karate-15)
+conj(Streetfighter-13, Warriors-16)
+punct(of-2, .-17)
+

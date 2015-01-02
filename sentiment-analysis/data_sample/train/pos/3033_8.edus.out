@@ -1,0 +1,82 @@
+Sentence #1 (18 tokens):
+Good old black and white Graham Greene based people in dangerous times doing heroic and mysterious things.
+[Text=Good CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=JJ] [Text=old CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=JJ] [Text=black CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=CC] [Text=white CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=JJ] [Text=Graham CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=NNP] [Text=Greene CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NNP] [Text=based CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=VBN] [Text=people CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN] [Text=dangerous CharacterOffsetBegin=59 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=times CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=NNS] [Text=doing CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=VBG] [Text=heroic CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=CC] [Text=mysterious CharacterOffsetBegin=92 CharacterOffsetEnd=102 PartOfSpeech=JJ] [Text=things CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.] 
+root(ROOT-0, people-9)
+dep(black-3, Good-1)
+amod(black-3, old-2)
+amod(people-9, black-3)
+cc(black-3, and-4)
+amod(Greene-7, white-5)
+nn(Greene-7, Graham-6)
+conj(black-3, Greene-7)
+amod(people-9, based-8)
+prep(people-9, in-10)
+amod(times-12, dangerous-11)
+pobj(in-10, times-12)
+partmod(times-12, doing-13)
+amod(things-17, heroic-14)
+cc(heroic-14, and-15)
+conj(heroic-14, mysterious-16)
+dobj(doing-13, things-17)
+punct(people-9, .-18)
+
+Sentence #2 (25 tokens):
+Hardly a shot fired or a punch thrown and a hundred time more interesting than the glop that's being minted by Hollywood today.
+[Text=Hardly CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=shot CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=NN] [Text=fired CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=VBD] [Text=or CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=DT] [Text=punch CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=thrown CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=hundred CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=CD] [Text=time CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=NN] [Text=more CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=RBR] [Text=interesting CharacterOffsetBegin=177 CharacterOffsetEnd=188 PartOfSpeech=JJ] [Text=than CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=DT] [Text=glop CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=WDT] [Text='s CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=VBZ] [Text=being CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=VBG] [Text=minted CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=IN] [Text=Hollywood CharacterOffsetBegin=226 CharacterOffsetEnd=235 PartOfSpeech=NNP] [Text=today CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=.] 
+root(ROOT-0, Hardly-1)
+det(shot-3, a-2)
+dep(Hardly-1, shot-3)
+partmod(shot-3, fired-4)
+cc(fired-4, or-5)
+det(punch-7, a-6)
+conj(fired-4, punch-7)
+partmod(punch-7, thrown-8)
+cc(thrown-8, and-9)
+det(time-12, a-10)
+num(time-12, hundred-11)
+conj(thrown-8, time-12)
+advmod(interesting-14, more-13)
+amod(time-12, interesting-14)
+prep(interesting-14, than-15)
+det(glop-17, the-16)
+pobj(than-15, glop-17)
+nsubjpass(minted-21, that-18)
+aux(minted-21, 's-19)
+auxpass(minted-21, being-20)
+rcmod(glop-17, minted-21)
+prep(minted-21, by-22)
+pobj(by-22, Hollywood-23)
+tmod(minted-21, today-24)
+punct(Hardly-1, .-25)
+
+Sentence #3 (13 tokens):
+Bacall lights up the screen of course and Boyer is entirely engaging.
+[Text=Bacall CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=NNP] [Text=lights CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=NNS] [Text=up CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=DT] [Text=screen CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=IN] [Text=course CharacterOffsetBegin=278 CharacterOffsetEnd=284 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=CC] [Text=Boyer CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=VBZ] [Text=entirely CharacterOffsetBegin=298 CharacterOffsetEnd=306 PartOfSpeech=RB] [Text=engaging CharacterOffsetBegin=307 CharacterOffsetEnd=315 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=.] 
+root(ROOT-0, engaging-12)
+nn(lights-2, Bacall-1)
+nsubj(engaging-12, lights-2)
+prep(lights-2, up-3)
+det(screen-5, the-4)
+pobj(up-3, screen-5)
+prep(screen-5, of-6)
+pobj(of-6, course-7)
+cc(lights-2, and-8)
+conj(lights-2, Boyer-9)
+cop(engaging-12, is-10)
+advmod(engaging-12, entirely-11)
+punct(engaging-12, .-13)
+
+Sentence #4 (10 tokens):
+They don't make movies like this any more.
+[Text=They CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=VB] [Text=movies CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=DT] [Text=any CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=RBR] [Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=.] 
+root(ROOT-0, make-4)
+nsubj(make-4, They-1)
+aux(make-4, do-2)
+neg(make-4, n't-3)
+dobj(make-4, movies-5)
+prep(movies-5, like-6)
+dep(more-9, this-7)
+det(more-9, any-8)
+pobj(like-6, more-9)
+punct(make-4, .-10)
+

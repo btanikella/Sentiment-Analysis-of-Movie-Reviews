@@ -1,0 +1,186 @@
+Sentence #1 (10 tokens):
+Jerome Crabbe has the lead role in this movie.
+[Text=Jerome CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=Crabbe CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=DT] [Text=lead CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=role CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+nn(Crabbe-2, Jerome-1)
+nsubj(has-3, Crabbe-2)
+det(role-6, the-4)
+amod(role-6, lead-5)
+dobj(has-3, role-6)
+prep(role-6, in-7)
+det(movie-9, this-8)
+pobj(in-7, movie-9)
+punct(has-3, .-10)
+
+Sentence #2 (15 tokens):
+I saw this movie 6 times and I still am not tired of it.
+[Text=I CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=6 CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=CD] [Text=times CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=RB] [Text=am CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=RB] [Text=tired CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+det(movie-4, this-3)
+dep(times-6, movie-4)
+number(times-6, 6-5)
+dobj(saw-2, times-6)
+cc(times-6, and-7)
+nsubj(tired-12, I-8)
+advmod(tired-12, still-9)
+cop(tired-12, am-10)
+neg(tired-12, not-11)
+conj(times-6, tired-12)
+prep(tired-12, of-13)
+pobj(of-13, it-14)
+punct(saw-2, .-15)
+
+Sentence #3 (12 tokens):
+This movie is similar to Flesh + Blood in some ways.
+[Text=This CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=VBZ] [Text=similar CharacterOffsetBegin=130 CharacterOffsetEnd=137 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=TO] [Text=Flesh CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=+ CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=CC] [Text=Blood CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=ways CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=.] 
+root(ROOT-0, similar-4)
+det(movie-2, This-1)
+nsubj(similar-4, movie-2)
+cop(similar-4, is-3)
+prep(similar-4, to-5)
+pobj(to-5, Flesh-6)
+prep(Flesh-6, +-7)
+dep(+-7, Blood-8)
+prep(Flesh-6, in-9)
+det(ways-11, some-10)
+pobj(in-9, ways-11)
+punct(similar-4, .-12)
+
+Sentence #4 (7 tokens):
+Gerald Soetman is a great writer.
+[Text=Gerald CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NNP] [Text=Soetman CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=JJ] [Text=writer CharacterOffsetBegin=199 CharacterOffsetEnd=205 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=.] 
+root(ROOT-0, writer-6)
+nn(Soetman-2, Gerald-1)
+nsubj(writer-6, Soetman-2)
+cop(writer-6, is-3)
+det(writer-6, a-4)
+amod(writer-6, great-5)
+punct(writer-6, .-7)
+
+Sentence #5 (10 tokens):
+He wrote all of Paul Verhoeven's Dutch films.
+[Text=He CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=PRP] [Text=wrote CharacterOffsetBegin=214 CharacterOffsetEnd=219 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=IN] [Text=Paul CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=NNP] [Text=Verhoeven CharacterOffsetBegin=232 CharacterOffsetEnd=241 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=POS] [Text=Dutch CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=.] 
+root(ROOT-0, wrote-2)
+nsubj(wrote-2, He-1)
+dobj(wrote-2, all-3)
+prep(all-3, of-4)
+nn(Verhoeven-6, Paul-5)
+poss(films-9, Verhoeven-6)
+possessive(Verhoeven-6, 's-7)
+amod(films-9, Dutch-8)
+pobj(of-4, films-9)
+punct(wrote-2, .-10)
+
+Sentence #6 (9 tokens):
+Paul Verhoeven is one of the greatest directors.
+[Text=Paul CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=NNP] [Text=Verhoeven CharacterOffsetBegin=266 CharacterOffsetEnd=275 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=greatest CharacterOffsetBegin=290 CharacterOffsetEnd=298 PartOfSpeech=JJS] [Text=directors CharacterOffsetBegin=299 CharacterOffsetEnd=308 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=.] 
+root(ROOT-0, one-4)
+nn(Verhoeven-2, Paul-1)
+nsubj(one-4, Verhoeven-2)
+cop(one-4, is-3)
+prep(one-4, of-5)
+det(directors-8, the-6)
+amod(directors-8, greatest-7)
+pobj(of-5, directors-8)
+punct(one-4, .-9)
+
+Sentence #7 (12 tokens):
+I have seen all of his movies all except for Showgirls.
+[Text=I CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=VBN] [Text=all CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=PRP$] [Text=movies CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=NNS] [Text=all CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT] [Text=except CharacterOffsetBegin=348 CharacterOffsetEnd=354 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=IN] [Text=Showgirls CharacterOffsetBegin=359 CharacterOffsetEnd=368 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=368 CharacterOffsetEnd=369 PartOfSpeech=.] 
+root(ROOT-0, seen-3)
+nsubj(seen-3, I-1)
+aux(seen-3, have-2)
+dep(except-9, all-4)
+prep(all-4, of-5)
+poss(movies-7, his-6)
+pobj(of-5, movies-7)
+dep(except-9, all-8)
+advmod(seen-3, except-9)
+prep(except-9, for-10)
+pobj(for-10, Showgirls-11)
+punct(seen-3, .-12)
+
+Sentence #8 (12 tokens):
+My Mom does not like him so much but I disagree.
+[Text=My CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=PRP$] [Text=Mom CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=NN] [Text=does CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=PRP] [Text=so CharacterOffsetBegin=399 CharacterOffsetEnd=401 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=402 CharacterOffsetEnd=406 PartOfSpeech=RB] [Text=but CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=PRP] [Text=disagree CharacterOffsetBegin=413 CharacterOffsetEnd=421 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.] 
+root(ROOT-0, like-5)
+poss(Mom-2, My-1)
+nsubj(like-5, Mom-2)
+aux(like-5, does-3)
+neg(like-5, not-4)
+dobj(like-5, him-6)
+advmod(much-8, so-7)
+advmod(disagree-11, much-8)
+cc(much-8, but-9)
+conj(much-8, I-10)
+dep(like-5, disagree-11)
+punct(like-5, .-12)
+
+Sentence #9 (18 tokens):
+I think all of his films are a ride to watch especially Total Recall and Basic Instinct.
+[Text=I CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=429 CharacterOffsetEnd=434 PartOfSpeech=VBP] [Text=all CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=PRP$] [Text=films CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=DT] [Text=ride CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=463 CharacterOffsetEnd=465 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=VB] [Text=especially CharacterOffsetBegin=472 CharacterOffsetEnd=482 PartOfSpeech=RB] [Text=Total CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=JJ] [Text=Recall CharacterOffsetBegin=489 CharacterOffsetEnd=495 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=496 CharacterOffsetEnd=499 PartOfSpeech=CC] [Text=Basic CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=JJ] [Text=Instinct CharacterOffsetBegin=506 CharacterOffsetEnd=514 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=514 CharacterOffsetEnd=515 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+nsubj(ride-9, all-3)
+prep(all-3, of-4)
+poss(films-6, his-5)
+pobj(of-4, films-6)
+cop(ride-9, are-7)
+det(ride-9, a-8)
+ccomp(think-2, ride-9)
+aux(watch-11, to-10)
+infmod(ride-9, watch-11)
+advmod(Total-13, especially-12)
+amod(Instinct-17, Total-13)
+amod(Instinct-17, Recall-14)
+cc(Recall-14, and-15)
+conj(Recall-14, Basic-16)
+dobj(watch-11, Instinct-17)
+punct(think-2, .-18)
+
+Sentence #10 (18 tokens):
+Jerry Goldsmith did some of his movies which include Total Recall, Basic Instinct and Hollow Man.
+[Text=Jerry CharacterOffsetBegin=520 CharacterOffsetEnd=525 PartOfSpeech=NNP] [Text=Goldsmith CharacterOffsetBegin=526 CharacterOffsetEnd=535 PartOfSpeech=NNP] [Text=did CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=PRP$] [Text=movies CharacterOffsetBegin=552 CharacterOffsetEnd=558 PartOfSpeech=NNS] [Text=which CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=WDT] [Text=include CharacterOffsetBegin=565 CharacterOffsetEnd=572 PartOfSpeech=VBP] [Text=Total CharacterOffsetBegin=573 CharacterOffsetEnd=578 PartOfSpeech=JJ] [Text=Recall CharacterOffsetBegin=579 CharacterOffsetEnd=585 PartOfSpeech=VB] [Text=, CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=,] [Text=Basic CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=JJ] [Text=Instinct CharacterOffsetBegin=593 CharacterOffsetEnd=601 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=CC] [Text=Hollow CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=JJ] [Text=Man CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=616 CharacterOffsetEnd=617 PartOfSpeech=.] 
+root(ROOT-0, did-3)
+nn(Goldsmith-2, Jerry-1)
+nsubj(did-3, Goldsmith-2)
+dobj(did-3, some-4)
+prep(some-4, of-5)
+poss(movies-7, his-6)
+pobj(of-5, movies-7)
+nsubj(include-9, which-8)
+rcmod(movies-7, include-9)
+amod(Recall-11, Total-10)
+dobj(include-9, Recall-11)
+punct(Recall-11, ,-12)
+amod(Instinct-14, Basic-13)
+conj(Recall-11, Instinct-14)
+cc(Recall-11, and-15)
+amod(Man-17, Hollow-16)
+conj(Recall-11, Man-17)
+punct(did-3, .-18)
+
+Sentence #11 (7 tokens):
+I wish Jerry Goldsmith never died.
+[Text=I CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=PRP] [Text=wish CharacterOffsetBegin=624 CharacterOffsetEnd=628 PartOfSpeech=VBP] [Text=Jerry CharacterOffsetBegin=629 CharacterOffsetEnd=634 PartOfSpeech=NNP] [Text=Goldsmith CharacterOffsetBegin=635 CharacterOffsetEnd=644 PartOfSpeech=NNP] [Text=never CharacterOffsetBegin=645 CharacterOffsetEnd=650 PartOfSpeech=RB] [Text=died CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=.] 
+root(ROOT-0, wish-2)
+nsubj(wish-2, I-1)
+nn(Goldsmith-4, Jerry-3)
+nsubj(died-6, Goldsmith-4)
+neg(died-6, never-5)
+ccomp(wish-2, died-6)
+punct(wish-2, .-7)
+
+Sentence #12 (8 tokens):
+Dutch films are different but still enjoyable.
+[Text=Dutch CharacterOffsetBegin=661 CharacterOffsetEnd=666 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=667 CharacterOffsetEnd=672 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=VBP] [Text=different CharacterOffsetBegin=677 CharacterOffsetEnd=686 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=CC] [Text=still CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=RB] [Text=enjoyable CharacterOffsetBegin=697 CharacterOffsetEnd=706 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=706 CharacterOffsetEnd=707 PartOfSpeech=.] 
+root(ROOT-0, different-4)
+amod(films-2, Dutch-1)
+nsubj(different-4, films-2)
+cop(different-4, are-3)
+cc(different-4, but-5)
+advmod(enjoyable-7, still-6)
+conj(different-4, enjoyable-7)
+punct(different-4, .-8)
+

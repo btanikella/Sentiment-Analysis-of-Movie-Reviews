@@ -1,0 +1,76 @@
+Sentence #1 (12 tokens):
+The poet Carne disappears (didnt he disappeared with Prvert?)
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=poet CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=NN] [Text=Carne CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NN] [Text=disappears CharacterOffsetBegin=19 CharacterOffsetEnd=29 PartOfSpeech=VBZ] [Text=-LRB- CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=-LRB-] [Text=didnt CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=PRP] [Text=disappeared CharacterOffsetBegin=40 CharacterOffsetEnd=51 PartOfSpeech=VBD] [Text=with CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=IN] [Text=Prvert CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=-RRB-] 
+root(ROOT-0, poet-2)
+det(poet-2, The-1)
+nsubj(disappears-4, Carne-3)
+rcmod(poet-2, disappears-4)
+punct(didnt-6, -LRB--5)
+dep(disappears-4, didnt-6)
+nsubj(disappeared-8, he-7)
+rcmod(didnt-6, disappeared-8)
+prep(disappeared-8, with-9)
+pobj(with-9, Prvert-10)
+punct(didnt-6, ?-11)
+punct(poet-2, -RRB--12)
+
+Sentence #2 (8 tokens):
+and is followed by the judge Carne.
+[Text=and CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=CC] [Text=is CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=VBZ] [Text=followed CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=DT] [Text=judge CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=Carne CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.] 
+root(ROOT-0, followed-3)
+cc(followed-3, and-1)
+auxpass(followed-3, is-2)
+prep(followed-3, by-4)
+det(judge-6, the-5)
+pobj(by-4, judge-6)
+dep(judge-6, Carne-7)
+punct(followed-3, .-8)
+
+Sentence #3 (21 tokens):
+The director wants to give his own vision of a youth that he doesnt understand and he doesnt want to.
+[Text=The CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=114 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=wants CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=TO] [Text=give CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=VB] [Text=his CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=vision CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=152 CharacterOffsetEnd=154 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=DT] [Text=youth CharacterOffsetBegin=157 CharacterOffsetEnd=162 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=PRP] [Text=doesnt CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=VBD] [Text=understand CharacterOffsetBegin=178 CharacterOffsetEnd=188 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=PRP] [Text=doesnt CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=VBZ] [Text=want CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=TO] [Text=. CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=.] 
+root(ROOT-0, wants-3)
+det(director-2, The-1)
+nsubj(wants-3, director-2)
+aux(give-5, to-4)
+xcomp(wants-3, give-5)
+poss(vision-8, his-6)
+amod(vision-8, own-7)
+dobj(give-5, vision-8)
+prep(vision-8, of-9)
+det(youth-11, a-10)
+pobj(of-9, youth-11)
+mark(doesnt-14, that-12)
+nsubj(doesnt-14, he-13)
+ccomp(youth-11, doesnt-14)
+dobj(doesnt-14, understand-15)
+cc(doesnt-14, and-16)
+nsubj(doesnt-18, he-17)
+conj(doesnt-14, doesnt-18)
+dep(doesnt-18, want-19)
+xcomp(want-19, to-20)
+punct(wants-3, .-21)
+
+Sentence #4 (14 tokens):
+Its a long way from the wonderful "Les enfants du paradis"!!!!!!!!!!!!!!!!!
+[Text=Its CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=PRP$] [Text=a CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=DT] [Text=long CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=DT] [Text=wonderful CharacterOffsetBegin=240 CharacterOffsetEnd=249 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=``] [Text=Les CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=NNP] [Text=enfants CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=VBZ] [Text=du CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=NNP] [Text=paradis CharacterOffsetBegin=266 CharacterOffsetEnd=273 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=''] [Text=!!!!!!!!!!!!!!!!! CharacterOffsetBegin=274 CharacterOffsetEnd=291 PartOfSpeech=CD] 
+root(ROOT-0, way-4)
+poss(way-4, Its-1)
+det(way-4, a-2)
+amod(way-4, long-3)
+prep(way-4, from-5)
+det(paradis-12, the-6)
+dep(paradis-12, wonderful-7)
+punct(paradis-12, ``-8)
+nn(paradis-12, Les-9)
+nn(paradis-12, enfants-10)
+nn(paradis-12, du-11)
+pobj(from-5, paradis-12)
+punct(way-4, ''-13)
+num(way-4, !!!!!!!!!!!!!!!!!-14)
+
+Sentence #5 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

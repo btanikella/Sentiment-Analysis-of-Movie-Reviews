@@ -1,0 +1,201 @@
+Sentence #1 (10 tokens):
+What a shame that some good talent was wasted.
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WP] [Text=a CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT] [Text=shame CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=JJ] [Text=talent CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=VBD] [Text=wasted CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=.] 
+root(ROOT-0, shame-3)
+det(shame-3, What-1)
+det(shame-3, a-2)
+mark(wasted-9, that-4)
+det(talent-7, some-5)
+amod(talent-7, good-6)
+nsubjpass(wasted-9, talent-7)
+auxpass(wasted-9, was-8)
+ccomp(shame-3, wasted-9)
+punct(shame-3, .-10)
+
+Sentence #2 (19 tokens):
+This is a tedious and overly self-conscious movie, that could tell its story in half the time.
+[Text=This CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=DT] [Text=tedious CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=CC] [Text=overly CharacterOffsetBegin=77 CharacterOffsetEnd=83 PartOfSpeech=RB] [Text=self-conscious CharacterOffsetBegin=84 CharacterOffsetEnd=98 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=,] [Text=that CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=WDT] [Text=could CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=MD] [Text=tell CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=VB] [Text=its CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=PRP$] [Text=story CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN] [Text=half CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=.] 
+root(ROOT-0, movie-8)
+nsubj(movie-8, This-1)
+cop(movie-8, is-2)
+det(movie-8, a-3)
+amod(movie-8, tedious-4)
+cc(tedious-4, and-5)
+conj(tedious-4, overly-6)
+amod(movie-8, self-conscious-7)
+punct(movie-8, ,-9)
+nsubj(tell-12, that-10)
+aux(tell-12, could-11)
+rcmod(movie-8, tell-12)
+poss(story-14, its-13)
+dobj(tell-12, story-14)
+prep(tell-12, in-15)
+predet(time-18, half-16)
+det(time-18, the-17)
+pobj(in-15, time-18)
+punct(movie-8, .-19)
+
+Sentence #3 (11 tokens):
+Is that Derek Jacobi under that beard doing two roles?
+[Text=Is CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=IN] [Text=Derek CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NNP] [Text=Jacobi CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=NNP] [Text=under CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=DT] [Text=beard CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text=doing CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=VBG] [Text=two CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=CD] [Text=roles CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=NNS] [Text=? CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=.] 
+root(ROOT-0, Is-1)
+prep(Is-1, that-2)
+nn(Jacobi-4, Derek-3)
+dep(that-2, Jacobi-4)
+prep(Jacobi-4, under-5)
+mark(doing-8, that-6)
+nsubj(doing-8, beard-7)
+pcomp(under-5, doing-8)
+num(roles-10, two-9)
+dobj(doing-8, roles-10)
+punct(Is-1, ?-11)
+
+Sentence #4 (16 tokens):
+Gosh, who would have guessed.The emotional payoff a the end was weak and unsatisfying.
+[Text=Gosh CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=,] [Text=who CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=WP] [Text=would CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=VB] [Text=guessed.The CharacterOffsetBegin=234 CharacterOffsetEnd=245 PartOfSpeech=NN] [Text=emotional CharacterOffsetBegin=246 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=payoff CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=DT] [Text=the CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=VBD] [Text=weak CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=CC] [Text=unsatisfying CharacterOffsetBegin=286 CharacterOffsetEnd=298 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=.] 
+root(ROOT-0, Gosh-1)
+punct(Gosh-1, ,-2)
+nsubj(have-5, who-3)
+aux(have-5, would-4)
+rcmod(Gosh-1, have-5)
+amod(payoff-8, guessed.The-6)
+amod(payoff-8, emotional-7)
+dobj(have-5, payoff-8)
+det(end-11, a-9)
+det(end-11, the-10)
+nsubj(weak-13, end-11)
+cop(weak-13, was-12)
+rcmod(payoff-8, weak-13)
+cc(weak-13, and-14)
+conj(weak-13, unsatisfying-15)
+punct(Gosh-1, .-16)
+
+Sentence #5 (12 tokens):
+Certainly not worth enduring the padded length of the movie for.
+[Text=Certainly CharacterOffsetBegin=304 CharacterOffsetEnd=313 PartOfSpeech=RB] [Text=not CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=JJ] [Text=enduring CharacterOffsetBegin=324 CharacterOffsetEnd=332 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=DT] [Text=padded CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=JJ] [Text=length CharacterOffsetBegin=344 CharacterOffsetEnd=350 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=.] 
+root(ROOT-0, worth-3)
+advmod(worth-3, Certainly-1)
+neg(worth-3, not-2)
+dep(worth-3, enduring-4)
+det(length-7, the-5)
+amod(length-7, padded-6)
+dobj(enduring-4, length-7)
+prep(length-7, of-8)
+det(movie-10, the-9)
+pobj(of-8, movie-10)
+prep(enduring-4, for-11)
+punct(worth-3, .-12)
+
+Sentence #6 (9 tokens):
+I felt quite let down.The sound was dreadful.
+[Text=I CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=PRP] [Text=felt CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=VBD] [Text=quite CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=RB] [Text=let CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=VB] [Text=down.The CharacterOffsetBegin=390 CharacterOffsetEnd=398 PartOfSpeech=NN] [Text=sound CharacterOffsetBegin=399 CharacterOffsetEnd=404 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=VBD] [Text=dreadful CharacterOffsetBegin=409 CharacterOffsetEnd=417 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=.] 
+root(ROOT-0, felt-2)
+nsubj(felt-2, I-1)
+advmod(let-4, quite-3)
+ccomp(felt-2, let-4)
+nn(sound-6, down.The-5)
+nsubj(dreadful-8, sound-6)
+cop(dreadful-8, was-7)
+ccomp(let-4, dreadful-8)
+punct(felt-2, .-9)
+
+Sentence #7 (7 tokens):
+First, they used stock music.
+[Text=First CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=428 CharacterOffsetEnd=429 PartOfSpeech=,] [Text=they CharacterOffsetBegin=430 CharacterOffsetEnd=434 PartOfSpeech=PRP] [Text=used CharacterOffsetBegin=435 CharacterOffsetEnd=439 PartOfSpeech=VBD] [Text=stock CharacterOffsetBegin=440 CharacterOffsetEnd=445 PartOfSpeech=NN] [Text=music CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=.] 
+root(ROOT-0, used-4)
+advmod(used-4, First-1)
+punct(used-4, ,-2)
+nsubj(used-4, they-3)
+nn(music-6, stock-5)
+dobj(used-4, music-6)
+punct(used-4, .-7)
+
+Sentence #8 (21 tokens):
+Second, it was so loud during some of the dialog, that the words were hard to make out.
+[Text=Second CharacterOffsetBegin=457 CharacterOffsetEnd=463 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=,] [Text=it CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=RB] [Text=loud CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=JJ] [Text=during CharacterOffsetBegin=480 CharacterOffsetEnd=486 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=492 CharacterOffsetEnd=494 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=DT] [Text=dialog CharacterOffsetBegin=499 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=,] [Text=that CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=DT] [Text=words CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=VBD] [Text=hard CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=543 CharacterOffsetEnd=544 PartOfSpeech=.] 
+root(ROOT-0, loud-6)
+advmod(loud-6, Second-1)
+punct(loud-6, ,-2)
+nsubj(loud-6, it-3)
+cop(loud-6, was-4)
+advmod(loud-6, so-5)
+prep(loud-6, during-7)
+pobj(during-7, some-8)
+prep(some-8, of-9)
+det(dialog-11, the-10)
+pobj(of-9, dialog-11)
+punct(loud-6, ,-12)
+mark(hard-17, that-13)
+det(words-15, the-14)
+nsubj(hard-17, words-15)
+cop(hard-17, were-16)
+ccomp(loud-6, hard-17)
+aux(make-19, to-18)
+xcomp(hard-17, make-19)
+prt(make-19, out-20)
+punct(loud-6, .-21)
+
+Sentence #9 (9 tokens):
+Only three sound crew, and a trainee?
+[Text=Only CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=RB] [Text=three CharacterOffsetBegin=554 CharacterOffsetEnd=559 PartOfSpeech=CD] [Text=sound CharacterOffsetBegin=560 CharacterOffsetEnd=565 PartOfSpeech=JJ] [Text=crew CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=,] [Text=and CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=576 CharacterOffsetEnd=577 PartOfSpeech=DT] [Text=trainee CharacterOffsetBegin=578 CharacterOffsetEnd=585 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=.] 
+root(ROOT-0, crew-4)
+quantmod(three-2, Only-1)
+num(crew-4, three-2)
+amod(crew-4, sound-3)
+punct(crew-4, ,-5)
+cc(crew-4, and-6)
+det(trainee-8, a-7)
+conj(crew-4, trainee-8)
+punct(crew-4, ?-9)
+
+Sentence #10 (47 tokens):
+There were more people listed in the credits for either the accounting or the legal.Some of the camera work was quite good though, and the actors did a good job with a mediocre script.Not a good use of viewing time, at least for me.
+[Text=There CharacterOffsetBegin=591 CharacterOffsetEnd=596 PartOfSpeech=EX] [Text=were CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=VBD] [Text=more CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=JJR] [Text=people CharacterOffsetBegin=607 CharacterOffsetEnd=613 PartOfSpeech=NNS] [Text=listed CharacterOffsetBegin=614 CharacterOffsetEnd=620 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=621 CharacterOffsetEnd=623 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=DT] [Text=credits CharacterOffsetBegin=628 CharacterOffsetEnd=635 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=636 CharacterOffsetEnd=639 PartOfSpeech=IN] [Text=either CharacterOffsetBegin=640 CharacterOffsetEnd=646 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=647 CharacterOffsetEnd=650 PartOfSpeech=DT] [Text=accounting CharacterOffsetBegin=651 CharacterOffsetEnd=661 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=DT] [Text=legal.Some CharacterOffsetBegin=669 CharacterOffsetEnd=679 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=683 CharacterOffsetEnd=686 PartOfSpeech=DT] [Text=camera CharacterOffsetBegin=687 CharacterOffsetEnd=693 PartOfSpeech=NN] [Text=work CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=699 CharacterOffsetEnd=702 PartOfSpeech=VBD] [Text=quite CharacterOffsetBegin=703 CharacterOffsetEnd=708 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=JJ] [Text=though CharacterOffsetBegin=714 CharacterOffsetEnd=720 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=720 CharacterOffsetEnd=721 PartOfSpeech=,] [Text=and CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=726 CharacterOffsetEnd=729 PartOfSpeech=DT] [Text=actors CharacterOffsetBegin=730 CharacterOffsetEnd=736 PartOfSpeech=NNS] [Text=did CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=743 CharacterOffsetEnd=747 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=748 CharacterOffsetEnd=751 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=757 CharacterOffsetEnd=758 PartOfSpeech=DT] [Text=mediocre CharacterOffsetBegin=759 CharacterOffsetEnd=767 PartOfSpeech=JJ] [Text=script.Not CharacterOffsetBegin=768 CharacterOffsetEnd=778 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=779 CharacterOffsetEnd=780 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=JJ] [Text=use CharacterOffsetBegin=786 CharacterOffsetEnd=789 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=IN] [Text=viewing CharacterOffsetBegin=793 CharacterOffsetEnd=800 PartOfSpeech=VBG] [Text=time CharacterOffsetBegin=801 CharacterOffsetEnd=805 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=805 CharacterOffsetEnd=806 PartOfSpeech=,] [Text=at CharacterOffsetBegin=807 CharacterOffsetEnd=809 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=810 CharacterOffsetEnd=815 PartOfSpeech=JJS] [Text=for CharacterOffsetBegin=816 CharacterOffsetEnd=819 PartOfSpeech=IN] [Text=me CharacterOffsetBegin=820 CharacterOffsetEnd=822 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=822 CharacterOffsetEnd=823 PartOfSpeech=.] 
+root(ROOT-0, were-2)
+expl(were-2, There-1)
+amod(people-4, more-3)
+nsubj(good-22, people-4)
+partmod(people-4, listed-5)
+prep(listed-5, in-6)
+det(credits-8, the-7)
+pobj(in-6, credits-8)
+prep(listed-5, for-9)
+preconj(accounting-12, either-10)
+det(accounting-12, the-11)
+pobj(for-9, accounting-12)
+cc(accounting-12, or-13)
+det(legal.Some-15, the-14)
+conj(accounting-12, legal.Some-15)
+prep(legal.Some-15, of-16)
+det(work-19, the-17)
+nn(work-19, camera-18)
+pobj(of-16, work-19)
+cop(good-22, was-20)
+advmod(good-22, quite-21)
+ccomp(were-2, good-22)
+dep(good-22, though-23)
+punct(did-28, ,-24)
+cc(did-28, and-25)
+det(actors-27, the-26)
+nsubj(did-28, actors-27)
+dep(though-23, did-28)
+det(job-31, a-29)
+amod(job-31, good-30)
+dobj(did-28, job-31)
+prep(did-28, with-32)
+det(script.Not-35, a-33)
+amod(script.Not-35, mediocre-34)
+pobj(with-32, script.Not-35)
+det(use-38, a-36)
+amod(use-38, good-37)
+dep(script.Not-35, use-38)
+prep(use-38, of-39)
+nn(time-41, viewing-40)
+pobj(of-39, time-41)
+punct(use-38, ,-42)
+advmod(for-45, at-43)
+pobj(at-43, least-44)
+prep(use-38, for-45)
+pobj(for-45, me-46)
+punct(were-2, .-47)
+

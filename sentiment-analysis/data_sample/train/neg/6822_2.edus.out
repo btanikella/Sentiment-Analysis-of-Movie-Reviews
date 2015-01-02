@@ -1,0 +1,252 @@
+Sentence #1 (12 tokens):
+Drones, ethnic drumming, bad synthesizer piping, children singing.
+[Text=Drones CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=,] [Text=ethnic CharacterOffsetBegin=12 CharacterOffsetEnd=18 PartOfSpeech=JJ] [Text=drumming CharacterOffsetBegin=19 CharacterOffsetEnd=27 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=,] [Text=bad CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=JJ] [Text=synthesizer CharacterOffsetBegin=33 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=piping CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=,] [Text=children CharacterOffsetBegin=53 CharacterOffsetEnd=61 PartOfSpeech=NNS] [Text=singing CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=.] 
+root(ROOT-0, Drones-1)
+punct(Drones-1, ,-2)
+amod(drumming-4, ethnic-3)
+conj(Drones-1, drumming-4)
+punct(Drones-1, ,-5)
+amod(piping-8, bad-6)
+nn(piping-8, synthesizer-7)
+conj(Drones-1, piping-8)
+punct(Drones-1, ,-9)
+nn(singing-11, children-10)
+appos(Drones-1, singing-11)
+punct(Drones-1, .-12)
+
+Sentence #2 (9 tokens):
+The most patronizing "world music" imaginable.
+[Text=The CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=RBS] [Text=patronizing CharacterOffsetBegin=84 CharacterOffsetEnd=95 PartOfSpeech=VBG] [Text=`` CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=``] [Text=world CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=NN] [Text=music CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=''] [Text=imaginable CharacterOffsetBegin=110 CharacterOffsetEnd=120 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=.] 
+root(ROOT-0, imaginable-8)
+det(music-6, The-1)
+advmod(patronizing-3, most-2)
+dep(music-6, patronizing-3)
+punct(music-6, ``-4)
+nn(music-6, world-5)
+nsubj(imaginable-8, music-6)
+punct(music-6, ''-7)
+punct(imaginable-8, .-9)
+
+Sentence #3 (11 tokens):
+This is a tourist film, and a lousy one.
+[Text=This CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=DT] [Text=tourist CharacterOffsetBegin=136 CharacterOffsetEnd=143 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=,] [Text=and CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=DT] [Text=lousy CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=.] 
+root(ROOT-0, film-5)
+nsubj(film-5, This-1)
+cop(film-5, is-2)
+det(film-5, a-3)
+nn(film-5, tourist-4)
+punct(film-5, ,-6)
+cc(film-5, and-7)
+det(one-10, a-8)
+amod(one-10, lousy-9)
+conj(film-5, one-10)
+punct(film-5, .-11)
+
+Sentence #4 (9 tokens):
+What really kills it is the incoherent sequences.
+[Text=What CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=WDT] [Text=really CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=RB] [Text=kills CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=DT] [Text=incoherent CharacterOffsetBegin=199 CharacterOffsetEnd=209 PartOfSpeech=JJ] [Text=sequences CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=.] 
+root(ROOT-0, sequences-8)
+nsubj(kills-3, What-1)
+advmod(kills-3, really-2)
+csubj(sequences-8, kills-3)
+dobj(kills-3, it-4)
+cop(sequences-8, is-5)
+det(sequences-8, the-6)
+amod(sequences-8, incoherent-7)
+punct(sequences-8, .-9)
+
+Sentence #5 (13 tokens):
+India, Egypt, South America, Africa, etc, etc.
+[Text=India CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=,] [Text=Egypt CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=,] [Text=South CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=NNP] [Text=America CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=,] [Text=Africa CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=,] [Text=etc CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=,] [Text=etc. CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=FW] [Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, India-1)
+punct(India-1, ,-2)
+conj(India-1, Egypt-3)
+punct(India-1, ,-4)
+nn(America-6, South-5)
+conj(India-1, America-6)
+punct(India-1, ,-7)
+conj(India-1, Africa-8)
+punct(India-1, ,-9)
+conj(India-1, etc-10)
+punct(India-1, ,-11)
+appos(India-1, etc.-12)
+punct(India-1, .-13)
+
+Sentence #6 (22 tokens):
+No transitions, no visual explanation of why we're suddenly ten thousand miles away, no ideas expressed in images.
+[Text=No CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=DT] [Text=transitions CharacterOffsetBegin=279 CharacterOffsetEnd=290 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=,] [Text=no CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=visual CharacterOffsetBegin=295 CharacterOffsetEnd=301 PartOfSpeech=JJ] [Text=explanation CharacterOffsetBegin=302 CharacterOffsetEnd=313 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=IN] [Text=why CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=WRB] [Text=we CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=VBP] [Text=suddenly CharacterOffsetBegin=327 CharacterOffsetEnd=335 PartOfSpeech=RB] [Text=ten CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=CD] [Text=thousand CharacterOffsetBegin=340 CharacterOffsetEnd=348 PartOfSpeech=CD] [Text=miles CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=NNS] [Text=away CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=,] [Text=no CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=DT] [Text=ideas CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=NNS] [Text=expressed CharacterOffsetBegin=370 CharacterOffsetEnd=379 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=IN] [Text=images CharacterOffsetBegin=383 CharacterOffsetEnd=389 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=.] 
+root(ROOT-0, transitions-2)
+det(transitions-2, No-1)
+punct(transitions-2, ,-3)
+det(explanation-6, no-4)
+amod(explanation-6, visual-5)
+appos(transitions-2, explanation-6)
+prep(explanation-6, of-7)
+advmod(away-15, why-8)
+nsubj(away-15, we-9)
+cop(away-15, 're-10)
+advmod(away-15, suddenly-11)
+number(thousand-13, ten-12)
+num(miles-14, thousand-13)
+npadvmod(away-15, miles-14)
+pcomp(of-7, away-15)
+punct(away-15, ,-16)
+det(ideas-18, no-17)
+conj(away-15, ideas-18)
+partmod(ideas-18, expressed-19)
+prep(expressed-19, in-20)
+pobj(in-20, images-21)
+punct(transitions-2, .-22)
+
+Sentence #7 (19 tokens):
+Just a bunch of footage of third-worlders with "baskets on their heads" as another reviewer said.
+[Text=Just CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=400 CharacterOffsetEnd=401 PartOfSpeech=DT] [Text=bunch CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=IN] [Text=footage CharacterOffsetBegin=411 CharacterOffsetEnd=418 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=IN] [Text=third-worlders CharacterOffsetBegin=422 CharacterOffsetEnd=436 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=437 CharacterOffsetEnd=441 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=442 CharacterOffsetEnd=443 PartOfSpeech=``] [Text=baskets CharacterOffsetBegin=443 CharacterOffsetEnd=450 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=451 CharacterOffsetEnd=453 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=454 CharacterOffsetEnd=459 PartOfSpeech=PRP$] [Text=heads CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=NNS] [Text='' CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=''] [Text=as CharacterOffsetBegin=467 CharacterOffsetEnd=469 PartOfSpeech=IN] [Text=another CharacterOffsetBegin=470 CharacterOffsetEnd=477 PartOfSpeech=DT] [Text=reviewer CharacterOffsetBegin=478 CharacterOffsetEnd=486 PartOfSpeech=NN] [Text=said CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=.] 
+root(ROOT-0, bunch-3)
+advmod(bunch-3, Just-1)
+det(bunch-3, a-2)
+prep(bunch-3, of-4)
+pobj(of-4, footage-5)
+prep(footage-5, of-6)
+pobj(of-6, third-worlders-7)
+prep(third-worlders-7, with-8)
+punct(baskets-10, ``-9)
+pobj(with-8, baskets-10)
+prep(baskets-10, on-11)
+poss(heads-13, their-12)
+pobj(on-11, heads-13)
+punct(baskets-10, ''-14)
+mark(said-18, as-15)
+det(reviewer-17, another-16)
+nsubj(said-18, reviewer-17)
+dep(baskets-10, said-18)
+punct(bunch-3, .-19)
+
+Sentence #8 (11 tokens):
+Walking along endlessly as if that had some deep meaning.
+[Text=Walking CharacterOffsetBegin=497 CharacterOffsetEnd=504 PartOfSpeech=VBG] [Text=along CharacterOffsetBegin=505 CharacterOffsetEnd=510 PartOfSpeech=IN] [Text=endlessly CharacterOffsetBegin=511 CharacterOffsetEnd=520 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=IN] [Text=if CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=DT] [Text=had CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=DT] [Text=deep CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=JJ] [Text=meaning CharacterOffsetBegin=546 CharacterOffsetEnd=553 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=.] 
+root(ROOT-0, Walking-1)
+prep(Walking-1, along-2)
+pobj(along-2, endlessly-3)
+mark(had-7, as-4)
+mark(had-7, if-5)
+nsubj(had-7, that-6)
+advcl(Walking-1, had-7)
+det(meaning-10, some-8)
+amod(meaning-10, deep-9)
+dobj(had-7, meaning-10)
+punct(Walking-1, .-11)
+
+Sentence #9 (39 tokens):
+If these guys wanted to make a 3rd World music video, all they had to do was head a few hundred miles south of where the best parts of Koya were shot, and film in Mexico.
+[Text=If CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=562 CharacterOffsetEnd=567 PartOfSpeech=DT] [Text=guys CharacterOffsetBegin=568 CharacterOffsetEnd=572 PartOfSpeech=NNS] [Text=wanted CharacterOffsetBegin=573 CharacterOffsetEnd=579 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=580 CharacterOffsetEnd=582 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=DT] [Text=3rd CharacterOffsetBegin=590 CharacterOffsetEnd=593 PartOfSpeech=JJ] [Text=World CharacterOffsetBegin=594 CharacterOffsetEnd=599 PartOfSpeech=NN] [Text=music CharacterOffsetBegin=600 CharacterOffsetEnd=605 PartOfSpeech=NN] [Text=video CharacterOffsetBegin=606 CharacterOffsetEnd=611 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=611 CharacterOffsetEnd=612 PartOfSpeech=,] [Text=all CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=DT] [Text=they CharacterOffsetBegin=617 CharacterOffsetEnd=621 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=626 CharacterOffsetEnd=628 PartOfSpeech=TO] [Text=do CharacterOffsetBegin=629 CharacterOffsetEnd=631 PartOfSpeech=VB] [Text=was CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=VBD] [Text=head CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=641 CharacterOffsetEnd=642 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=JJ] [Text=hundred CharacterOffsetBegin=647 CharacterOffsetEnd=654 PartOfSpeech=CD] [Text=miles CharacterOffsetBegin=655 CharacterOffsetEnd=660 PartOfSpeech=NNS] [Text=south CharacterOffsetBegin=661 CharacterOffsetEnd=666 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=IN] [Text=where CharacterOffsetBegin=670 CharacterOffsetEnd=675 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=680 CharacterOffsetEnd=684 PartOfSpeech=JJS] [Text=parts CharacterOffsetBegin=685 CharacterOffsetEnd=690 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=691 CharacterOffsetEnd=693 PartOfSpeech=IN] [Text=Koya CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=VBD] [Text=shot CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=,] [Text=and CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=CC] [Text=film CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=719 CharacterOffsetEnd=721 PartOfSpeech=IN] [Text=Mexico CharacterOffsetBegin=722 CharacterOffsetEnd=728 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=728 CharacterOffsetEnd=729 PartOfSpeech=.] 
+root(ROOT-0, head-19)
+mark(wanted-4, If-1)
+det(guys-3, these-2)
+nsubj(wanted-4, guys-3)
+advcl(had-15, wanted-4)
+aux(make-6, to-5)
+xcomp(wanted-4, make-6)
+det(video-11, a-7)
+amod(video-11, 3rd-8)
+nn(video-11, World-9)
+nn(video-11, music-10)
+dobj(make-6, video-11)
+punct(had-15, ,-12)
+dep(had-15, all-13)
+nsubj(had-15, they-14)
+csubj(head-19, had-15)
+aux(do-17, to-16)
+xcomp(had-15, do-17)
+cop(head-19, was-18)
+quantmod(hundred-22, a-20)
+quantmod(hundred-22, few-21)
+num(miles-23, hundred-22)
+npadvmod(south-24, miles-23)
+advmod(head-19, south-24)
+prep(south-24, of-25)
+advmod(shot-33, where-26)
+det(parts-29, the-27)
+amod(parts-29, best-28)
+nsubjpass(shot-33, parts-29)
+prep(parts-29, of-30)
+pobj(of-30, Koya-31)
+auxpass(shot-33, were-32)
+pcomp(of-25, shot-33)
+punct(head-19, ,-34)
+cc(head-19, and-35)
+conj(head-19, film-36)
+prep(film-36, in-37)
+pobj(in-37, Mexico-38)
+punct(head-19, .-39)
+
+Sentence #10 (14 tokens):
+That would have been a much better setting for "life in transformation.
+[Text=That CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=DT] [Text=would CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=745 CharacterOffsetEnd=749 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=750 CharacterOffsetEnd=754 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=755 CharacterOffsetEnd=756 PartOfSpeech=DT] [Text=much CharacterOffsetBegin=757 CharacterOffsetEnd=761 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=762 CharacterOffsetEnd=768 PartOfSpeech=JJR] [Text=setting CharacterOffsetBegin=769 CharacterOffsetEnd=776 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=777 CharacterOffsetEnd=780 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=781 CharacterOffsetEnd=782 PartOfSpeech=``] [Text=life CharacterOffsetBegin=782 CharacterOffsetEnd=786 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=787 CharacterOffsetEnd=789 PartOfSpeech=IN] [Text=transformation CharacterOffsetBegin=790 CharacterOffsetEnd=804 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=804 CharacterOffsetEnd=805 PartOfSpeech=.] 
+root(ROOT-0, setting-8)
+nsubj(setting-8, That-1)
+aux(setting-8, would-2)
+aux(setting-8, have-3)
+cop(setting-8, been-4)
+det(setting-8, a-5)
+advmod(better-7, much-6)
+amod(setting-8, better-7)
+prep(setting-8, for-9)
+punct(life-11, ``-10)
+pobj(for-9, life-11)
+prep(life-11, in-12)
+pobj(in-12, transformation-13)
+punct(setting-8, .-14)
+
+Sentence #11 (4 tokens):
+"But no.
+[Text=`` CharacterOffsetBegin=810 CharacterOffsetEnd=811 PartOfSpeech=``] [Text=But CharacterOffsetBegin=811 CharacterOffsetEnd=814 PartOfSpeech=CC] [Text=no CharacterOffsetBegin=815 CharacterOffsetEnd=817 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=817 CharacterOffsetEnd=818 PartOfSpeech=.] 
+root(ROOT-0, no-3)
+punct(no-3, ``-1)
+cc(no-3, But-2)
+punct(no-3, .-4)
+
+Sentence #12 (19 tokens):
+What they decided on was a scrambled tourist itinerary covering half the globe and mind-deadeningly overcranked filter shots.
+[Text=What CharacterOffsetBegin=823 CharacterOffsetEnd=827 PartOfSpeech=WP] [Text=they CharacterOffsetBegin=828 CharacterOffsetEnd=832 PartOfSpeech=PRP] [Text=decided CharacterOffsetBegin=833 CharacterOffsetEnd=840 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=841 CharacterOffsetEnd=843 PartOfSpeech=IN] [Text=was CharacterOffsetBegin=844 CharacterOffsetEnd=847 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=848 CharacterOffsetEnd=849 PartOfSpeech=DT] [Text=scrambled CharacterOffsetBegin=850 CharacterOffsetEnd=859 PartOfSpeech=VBN] [Text=tourist CharacterOffsetBegin=860 CharacterOffsetEnd=867 PartOfSpeech=NN] [Text=itinerary CharacterOffsetBegin=868 CharacterOffsetEnd=877 PartOfSpeech=NN] [Text=covering CharacterOffsetBegin=878 CharacterOffsetEnd=886 PartOfSpeech=VBG] [Text=half CharacterOffsetBegin=887 CharacterOffsetEnd=891 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=892 CharacterOffsetEnd=895 PartOfSpeech=DT] [Text=globe CharacterOffsetBegin=896 CharacterOffsetEnd=901 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=902 CharacterOffsetEnd=905 PartOfSpeech=CC] [Text=mind-deadeningly CharacterOffsetBegin=906 CharacterOffsetEnd=922 PartOfSpeech=JJ] [Text=overcranked CharacterOffsetBegin=923 CharacterOffsetEnd=934 PartOfSpeech=JJ] [Text=filter CharacterOffsetBegin=935 CharacterOffsetEnd=941 PartOfSpeech=NN] [Text=shots CharacterOffsetBegin=942 CharacterOffsetEnd=947 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=947 CharacterOffsetEnd=948 PartOfSpeech=.] 
+root(ROOT-0, decided-3)
+dobj(decided-3, What-1)
+nsubj(decided-3, they-2)
+prep(decided-3, on-4)
+cop(itinerary-9, was-5)
+det(itinerary-9, a-6)
+amod(itinerary-9, scrambled-7)
+nn(itinerary-9, tourist-8)
+pcomp(on-4, itinerary-9)
+partmod(itinerary-9, covering-10)
+predet(globe-13, half-11)
+det(globe-13, the-12)
+dobj(covering-10, globe-13)
+cc(globe-13, and-14)
+amod(shots-18, mind-deadeningly-15)
+amod(shots-18, overcranked-16)
+nn(shots-18, filter-17)
+conj(globe-13, shots-18)
+punct(decided-3, .-19)
+
+Sentence #13 (18 tokens):
+The only thing to recommend this film is that it doesn't suck quite as much as Naqoyqatsi.RstJ
+[Text=The CharacterOffsetBegin=953 CharacterOffsetEnd=956 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=957 CharacterOffsetEnd=961 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=962 CharacterOffsetEnd=967 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=968 CharacterOffsetEnd=970 PartOfSpeech=TO] [Text=recommend CharacterOffsetBegin=971 CharacterOffsetEnd=980 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=981 CharacterOffsetEnd=985 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=986 CharacterOffsetEnd=990 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=991 CharacterOffsetEnd=993 PartOfSpeech=VBZ] [Text=that CharacterOffsetBegin=994 CharacterOffsetEnd=998 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=999 CharacterOffsetEnd=1001 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=1002 CharacterOffsetEnd=1006 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=1006 CharacterOffsetEnd=1009 PartOfSpeech=RB] [Text=suck CharacterOffsetBegin=1010 CharacterOffsetEnd=1014 PartOfSpeech=VB] [Text=quite CharacterOffsetBegin=1015 CharacterOffsetEnd=1020 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=1021 CharacterOffsetEnd=1023 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=1024 CharacterOffsetEnd=1028 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=1029 CharacterOffsetEnd=1031 PartOfSpeech=IN] [Text=Naqoyqatsi.RstJ CharacterOffsetBegin=1032 CharacterOffsetEnd=1047 PartOfSpeech=NN] 
+root(ROOT-0, is-8)
+det(thing-3, The-1)
+amod(thing-3, only-2)
+nsubj(is-8, thing-3)
+aux(recommend-5, to-4)
+infmod(thing-3, recommend-5)
+det(film-7, this-6)
+dobj(recommend-5, film-7)
+mark(suck-13, that-9)
+nsubj(suck-13, it-10)
+aux(suck-13, does-11)
+neg(suck-13, n't-12)
+ccomp(is-8, suck-13)
+advmod(much-16, quite-14)
+advmod(much-16, as-15)
+dobj(suck-13, much-16)
+prep(much-16, as-17)
+pobj(as-17, Naqoyqatsi.RstJ-18)
+

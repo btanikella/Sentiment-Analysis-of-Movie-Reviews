@@ -1,0 +1,111 @@
+Sentence #1 (3 tokens):
+Wonderful actors.
+[Text=Wonderful CharacterOffsetBegin=4 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, actors-2)
+amod(actors-2, Wonderful-1)
+punct(actors-2, .-3)
+
+Sentence #2 (9 tokens):
+Lousy script and not too great direction either.
+[Text=Lousy CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=JJ] [Text=script CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=RB] [Text=too CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=JJ] [Text=direction CharacterOffsetBegin=57 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=either CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=CC] [Text=. CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=.] 
+root(ROOT-0, script-2)
+amod(script-2, Lousy-1)
+cc(script-2, and-3)
+neg(great-6, not-4)
+advmod(great-6, too-5)
+amod(direction-7, great-6)
+conj(script-2, direction-7)
+dep(script-2, either-8)
+punct(script-2, .-9)
+
+Sentence #3 (15 tokens):
+My main problem was I simply didn't CARE about any of these people.
+[Text=My CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=PRP$] [Text=main CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=JJ] [Text=problem CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=PRP] [Text=simply CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=RB] [Text=CARE CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=NNP] [Text=about CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=DT] [Text=people CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=.] 
+root(ROOT-0, CARE-9)
+poss(problem-3, My-1)
+amod(problem-3, main-2)
+nsubj(CARE-9, problem-3)
+cop(CARE-9, was-4)
+nsubj(CARE-9, I-5)
+advmod(CARE-9, simply-6)
+aux(CARE-9, did-7)
+neg(CARE-9, n't-8)
+prep(CARE-9, about-10)
+pobj(about-10, any-11)
+prep(any-11, of-12)
+det(people-14, these-13)
+pobj(of-12, people-14)
+punct(CARE-9, .-15)
+
+Sentence #4 (7 tokens):
+Not the killer not the victims.
+[Text=Not CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=killer CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=NN] [Text=not CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DT] [Text=victims CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=.] 
+root(ROOT-0, victims-6)
+neg(killer-3, Not-1)
+det(killer-3, the-2)
+nsubj(victims-6, killer-3)
+neg(victims-6, not-4)
+det(victims-6, the-5)
+punct(victims-6, .-7)
+
+Sentence #5 (6 tokens):
+The settings were pretty drab.
+[Text=The CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=settings CharacterOffsetBegin=191 CharacterOffsetEnd=199 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=VBD] [Text=pretty CharacterOffsetBegin=205 CharacterOffsetEnd=211 PartOfSpeech=RB] [Text=drab CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=.] 
+root(ROOT-0, drab-5)
+det(settings-2, The-1)
+nsubj(drab-5, settings-2)
+cop(drab-5, were-3)
+advmod(drab-5, pretty-4)
+punct(drab-5, .-6)
+
+Sentence #6 (20 tokens):
+Dennis Quaid's character was so poorly written in, I didn't even care when the end came.
+[Text=Dennis CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=NNP] [Text=Quaid CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=POS] [Text=character CharacterOffsetBegin=237 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=RB] [Text=poorly CharacterOffsetBegin=254 CharacterOffsetEnd=260 PartOfSpeech=RB] [Text=written CharacterOffsetBegin=261 CharacterOffsetEnd=268 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=,] [Text=I CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=RB] [Text=care CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=VB] [Text=when CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=NN] [Text=came CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=.] 
+root(ROOT-0, written-8)
+nn(Quaid-2, Dennis-1)
+poss(character-4, Quaid-2)
+possessive(Quaid-2, 's-3)
+nsubjpass(written-8, character-4)
+auxpass(written-8, was-5)
+advmod(poorly-7, so-6)
+advmod(written-8, poorly-7)
+prep(written-8, in-9)
+punct(written-8, ,-10)
+nsubj(care-15, I-11)
+aux(care-15, did-12)
+neg(care-15, n't-13)
+advmod(care-15, even-14)
+ccomp(written-8, care-15)
+advmod(came-19, when-16)
+det(end-18, the-17)
+nsubj(came-19, end-18)
+advcl(care-15, came-19)
+punct(written-8, .-20)
+
+Sentence #7 (6 tokens):
+He got his kid back.
+[Text=He CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=PRP$] [Text=kid CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=NN] [Text=back CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=.] 
+root(ROOT-0, got-2)
+nsubj(got-2, He-1)
+poss(kid-4, his-3)
+dobj(got-2, kid-4)
+advmod(got-2, back-5)
+punct(got-2, .-6)
+
+Sentence #8 (3 tokens):
+Big deal!
+[Text=Big CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=JJ] [Text=deal CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=.] 
+root(ROOT-0, deal-2)
+amod(deal-2, Big-1)
+punct(deal-2, !-3)
+
+Sentence #9 (6 tokens):
+I wanted my money back.
+[Text=I CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=PRP] [Text=wanted CharacterOffsetBegin=356 CharacterOffsetEnd=362 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=PRP$] [Text=money CharacterOffsetBegin=366 CharacterOffsetEnd=371 PartOfSpeech=NN] [Text=back CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=376 CharacterOffsetEnd=377 PartOfSpeech=.] 
+root(ROOT-0, wanted-2)
+nsubj(wanted-2, I-1)
+poss(money-4, my-3)
+dobj(wanted-2, money-4)
+advmod(wanted-2, back-5)
+punct(wanted-2, .-6)
+

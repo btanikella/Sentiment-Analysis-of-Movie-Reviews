@@ -1,0 +1,187 @@
+Sentence #1 (8 tokens):
+What can you say about this movie?
+[Text=What CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=WDT] [Text=can CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=MD] [Text=you CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=PRP] [Text=say CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=VB] [Text=about CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, say-4)
+nsubj(say-4, What-1)
+aux(say-4, can-2)
+nsubj(say-4, you-3)
+prep(say-4, about-5)
+det(movie-7, this-6)
+pobj(about-5, movie-7)
+punct(say-4, ?-8)
+
+Sentence #2 (11 tokens):
+It was not terrible, but it was not good!
+[Text=It CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=RB] [Text=terrible CharacterOffsetBegin=54 CharacterOffsetEnd=62 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=,] [Text=but CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=.] 
+root(ROOT-0, terrible-4)
+nsubj(terrible-4, It-1)
+cop(terrible-4, was-2)
+neg(terrible-4, not-3)
+punct(terrible-4, ,-5)
+cc(terrible-4, but-6)
+nsubj(good-10, it-7)
+cop(good-10, was-8)
+neg(good-10, not-9)
+conj(terrible-4, good-10)
+punct(terrible-4, !-11)
+
+Sentence #3 (21 tokens):
+Two days earlier I had watched Lillies and that was one of the best Gay films I have ever seen.
+[Text=Two CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=CD] [Text=days CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NNS] [Text=earlier CharacterOffsetBegin=98 CharacterOffsetEnd=105 PartOfSpeech=RBR] [Text=I CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBD] [Text=watched CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=VBN] [Text=Lillies CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=NNPS] [Text=and CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=VBD] [Text=one CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=JJS] [Text=Gay CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=NNS] [Text=films CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=.] 
+root(ROOT-0, watched-6)
+num(days-2, Two-1)
+npadvmod(earlier-3, days-2)
+advmod(watched-6, earlier-3)
+nsubj(watched-6, I-4)
+aux(watched-6, had-5)
+dobj(watched-6, Lillies-7)
+cc(watched-6, and-8)
+nsubj(one-11, that-9)
+cop(one-11, was-10)
+conj(watched-6, one-11)
+prep(one-11, of-12)
+det(films-16, the-13)
+amod(films-16, best-14)
+nn(films-16, Gay-15)
+pobj(of-12, films-16)
+nsubj(seen-20, I-17)
+aux(seen-20, have-18)
+advmod(seen-20, ever-19)
+rcmod(films-16, seen-20)
+punct(watched-6, .-21)
+
+Sentence #4 (22 tokens):
+So this was not the best time to watch a mediocre Gay flick.The story was silly and the acting was OK.
+[Text=So CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=RB] [Text=this CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=JJS] [Text=time CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=DT] [Text=mediocre CharacterOffsetBegin=230 CharacterOffsetEnd=238 PartOfSpeech=JJ] [Text=Gay CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=NNS] [Text=flick.The CharacterOffsetBegin=243 CharacterOffsetEnd=252 PartOfSpeech=NN] [Text=story CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=VBD] [Text=silly CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=VBD] [Text=OK CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=.] 
+root(ROOT-0, silly-16)
+advmod(time-7, So-1)
+nsubj(time-7, this-2)
+cop(time-7, was-3)
+neg(time-7, not-4)
+det(time-7, the-5)
+amod(time-7, best-6)
+nsubj(silly-16, time-7)
+aux(watch-9, to-8)
+infmod(time-7, watch-9)
+det(story-14, a-10)
+amod(story-14, mediocre-11)
+nn(story-14, Gay-12)
+nn(story-14, flick.The-13)
+dobj(watch-9, story-14)
+cop(silly-16, was-15)
+cc(silly-16, and-17)
+det(acting-19, the-18)
+nsubj(OK-21, acting-19)
+cop(OK-21, was-20)
+conj(silly-16, OK-21)
+punct(silly-16, .-22)
+
+Sentence #5 (20 tokens):
+It was not bad enough to turn off, but it had some bad moments and some terrible stereotyping.
+[Text=It CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=JJ] [Text=enough CharacterOffsetBegin=311 CharacterOffsetEnd=317 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=TO] [Text=turn CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=VB] [Text=off CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=RP] [Text=, CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=,] [Text=but CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=VBD] [Text=some CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=JJ] [Text=moments CharacterOffsetBegin=351 CharacterOffsetEnd=358 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=CC] [Text=some CharacterOffsetBegin=363 CharacterOffsetEnd=367 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=368 CharacterOffsetEnd=376 PartOfSpeech=JJ] [Text=stereotyping CharacterOffsetBegin=377 CharacterOffsetEnd=389 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=.] 
+root(ROOT-0, bad-4)
+nsubj(bad-4, It-1)
+cop(bad-4, was-2)
+neg(bad-4, not-3)
+advmod(bad-4, enough-5)
+aux(turn-7, to-6)
+xcomp(bad-4, turn-7)
+prt(turn-7, off-8)
+punct(bad-4, ,-9)
+cc(bad-4, but-10)
+nsubj(had-12, it-11)
+conj(bad-4, had-12)
+det(moments-15, some-13)
+amod(moments-15, bad-14)
+dobj(had-12, moments-15)
+cc(moments-15, and-16)
+det(stereotyping-19, some-17)
+amod(stereotyping-19, terrible-18)
+conj(moments-15, stereotyping-19)
+punct(bad-4, .-20)
+
+Sentence #6 (12 tokens):
+It was not very well cast either.Would I recommend this movie?
+[Text=It CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=398 CharacterOffsetEnd=401 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=RB] [Text=very CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=411 CharacterOffsetEnd=415 PartOfSpeech=RB] [Text=cast CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=VBN] [Text=either.Would CharacterOffsetBegin=421 CharacterOffsetEnd=433 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=PRP] [Text=recommend CharacterOffsetBegin=436 CharacterOffsetEnd=445 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=446 CharacterOffsetEnd=450 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=451 CharacterOffsetEnd=456 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=.] 
+root(ROOT-0, cast-6)
+nsubjpass(cast-6, It-1)
+auxpass(cast-6, was-2)
+neg(cast-6, not-3)
+advmod(well-5, very-4)
+advmod(cast-6, well-5)
+dobj(cast-6, either.Would-7)
+nsubj(recommend-9, I-8)
+rcmod(either.Would-7, recommend-9)
+det(movie-11, this-10)
+dobj(recommend-9, movie-11)
+punct(cast-6, ?-12)
+
+Sentence #7 (10 tokens):
+No you would be wasting your time and money.
+[Text=No CharacterOffsetBegin=462 CharacterOffsetEnd=464 PartOfSpeech=DT] [Text=you CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=469 CharacterOffsetEnd=474 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=VB] [Text=wasting CharacterOffsetBegin=478 CharacterOffsetEnd=485 PartOfSpeech=VBG] [Text=your CharacterOffsetBegin=486 CharacterOffsetEnd=490 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=491 CharacterOffsetEnd=495 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=496 CharacterOffsetEnd=499 PartOfSpeech=CC] [Text=money CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=.] 
+root(ROOT-0, No-1)
+nsubj(wasting-5, you-2)
+aux(wasting-5, would-3)
+aux(wasting-5, be-4)
+rcmod(No-1, wasting-5)
+poss(time-7, your-6)
+dobj(wasting-5, time-7)
+cc(time-7, and-8)
+conj(time-7, money-9)
+punct(No-1, .-10)
+
+Sentence #8 (16 tokens):
+I don't understand why movies like these are made and who is funding them.
+[Text=I CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=513 CharacterOffsetEnd=515 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=RB] [Text=understand CharacterOffsetBegin=519 CharacterOffsetEnd=529 PartOfSpeech=VB] [Text=why CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=WRB] [Text=movies CharacterOffsetBegin=534 CharacterOffsetEnd=540 PartOfSpeech=NNS] [Text=like CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=DT] [Text=are CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=VBP] [Text=made CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=VBN] [Text=and CharacterOffsetBegin=561 CharacterOffsetEnd=564 PartOfSpeech=CC] [Text=who CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=VBZ] [Text=funding CharacterOffsetBegin=572 CharacterOffsetEnd=579 PartOfSpeech=VBG] [Text=them CharacterOffsetBegin=580 CharacterOffsetEnd=584 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=584 CharacterOffsetEnd=585 PartOfSpeech=.] 
+root(ROOT-0, understand-4)
+nsubj(understand-4, I-1)
+aux(understand-4, do-2)
+neg(understand-4, n't-3)
+advmod(made-10, why-5)
+nsubjpass(made-10, movies-6)
+prep(movies-6, like-7)
+pobj(like-7, these-8)
+auxpass(made-10, are-9)
+advcl(understand-4, made-10)
+cc(made-10, and-11)
+nsubj(funding-14, who-12)
+aux(funding-14, is-13)
+conj(made-10, funding-14)
+dobj(funding-14, them-15)
+punct(understand-4, .-16)
+
+Sentence #9 (11 tokens):
+Spend your time Watching Noah's Arc on Logo instead.
+[Text=Spend CharacterOffsetBegin=590 CharacterOffsetEnd=595 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=PRP$] [Text=time CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=NN] [Text=Watching CharacterOffsetBegin=606 CharacterOffsetEnd=614 PartOfSpeech=VBG] [Text=Noah CharacterOffsetBegin=615 CharacterOffsetEnd=619 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=POS] [Text=Arc CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=NNP] [Text=on CharacterOffsetBegin=626 CharacterOffsetEnd=628 PartOfSpeech=IN] [Text=Logo CharacterOffsetBegin=629 CharacterOffsetEnd=633 PartOfSpeech=NNP] [Text=instead CharacterOffsetBegin=634 CharacterOffsetEnd=641 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=641 CharacterOffsetEnd=642 PartOfSpeech=.] 
+root(ROOT-0, Spend-1)
+poss(time-3, your-2)
+dobj(Spend-1, time-3)
+partmod(time-3, Watching-4)
+poss(Arc-7, Noah-5)
+possessive(Noah-5, 's-6)
+dobj(Watching-4, Arc-7)
+prep(Watching-4, on-8)
+pobj(on-8, Logo-9)
+advmod(Spend-1, instead-10)
+punct(Spend-1, .-11)
+
+Sentence #10 (16 tokens):
+I think this is where this movie was trying to go but never got there.
+[Text=I CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=655 CharacterOffsetEnd=659 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=660 CharacterOffsetEnd=662 PartOfSpeech=VBZ] [Text=where CharacterOffsetBegin=663 CharacterOffsetEnd=668 PartOfSpeech=WRB] [Text=this CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=674 CharacterOffsetEnd=679 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=VBD] [Text=trying CharacterOffsetBegin=684 CharacterOffsetEnd=690 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=691 CharacterOffsetEnd=693 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=694 CharacterOffsetEnd=696 PartOfSpeech=VB] [Text=but CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=CC] [Text=never CharacterOffsetBegin=701 CharacterOffsetEnd=706 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=VBD] [Text=there CharacterOffsetBegin=711 CharacterOffsetEnd=716 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=716 CharacterOffsetEnd=717 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+nsubj(is-4, this-3)
+ccomp(think-2, is-4)
+advmod(trying-9, where-5)
+det(movie-7, this-6)
+nsubj(trying-9, movie-7)
+aux(trying-9, was-8)
+advcl(is-4, trying-9)
+aux(go-11, to-10)
+xcomp(trying-9, go-11)
+cc(trying-9, but-12)
+neg(got-14, never-13)
+conj(trying-9, got-14)
+advmod(got-14, there-15)
+punct(think-2, .-16)
+

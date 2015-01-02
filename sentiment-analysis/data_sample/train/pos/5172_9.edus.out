@@ -1,0 +1,68 @@
+Sentence #1 (7 tokens):
+Indian Summer is a good film.
+[Text=Indian CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=JJ] [Text=Summer CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+amod(Summer-2, Indian-1)
+nsubj(film-6, Summer-2)
+cop(film-6, is-3)
+det(film-6, a-4)
+amod(film-6, good-5)
+punct(film-6, .-7)
+
+Sentence #2 (13 tokens):
+It made me feel good and I thought the cast was exceptional.
+[Text=It CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=PRP] [Text=feel CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=VB] [Text=good CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=VBD] [Text=exceptional CharacterOffsetBegin=86 CharacterOffsetEnd=97 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=.] 
+root(ROOT-0, made-2)
+nsubj(made-2, It-1)
+nsubj(feel-4, me-3)
+xcomp(made-2, feel-4)
+acomp(feel-4, good-5)
+cc(made-2, and-6)
+nsubj(thought-8, I-7)
+conj(made-2, thought-8)
+det(cast-10, the-9)
+nsubj(exceptional-12, cast-10)
+cop(exceptional-12, was-11)
+ccomp(thought-8, exceptional-12)
+punct(made-2, .-13)
+
+Sentence #3 (9 tokens):
+How about Sam Raimi playing the camp buffoon.
+[Text=How CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=WRB] [Text=about CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=RB] [Text=Sam CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=NNP] [Text=Raimi CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NNP] [Text=playing CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=camp CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NN] [Text=buffoon CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=.] 
+root(ROOT-0, How-1)
+prep(How-1, about-2)
+nn(Raimi-4, Sam-3)
+pobj(about-2, Raimi-4)
+partmod(Raimi-4, playing-5)
+det(buffoon-8, the-6)
+nn(buffoon-8, camp-7)
+dobj(playing-5, buffoon-8)
+punct(How-1, .-9)
+
+Sentence #4 (13 tokens):
+I thought his scenes were very funny in a Buster Keaton-like performance.
+[Text=I CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=155 CharacterOffsetEnd=162 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=PRP$] [Text=scenes CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=DT] [Text=Buster CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=NNP] [Text=Keaton-like CharacterOffsetBegin=202 CharacterOffsetEnd=213 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=214 CharacterOffsetEnd=225 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+poss(scenes-4, his-3)
+nsubj(funny-7, scenes-4)
+cop(funny-7, were-5)
+advmod(funny-7, very-6)
+ccomp(thought-2, funny-7)
+prep(funny-7, in-8)
+det(performance-12, a-9)
+nn(performance-12, Buster-10)
+amod(performance-12, Keaton-like-11)
+pobj(in-8, performance-12)
+punct(thought-2, .-13)
+
+Sentence #5 (6 tokens):
+Solid directing and nice cinematography.
+[Text=Solid CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=JJ] [Text=directing CharacterOffsetBegin=237 CharacterOffsetEnd=246 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=CC] [Text=nice CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=cinematography CharacterOffsetBegin=256 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, directing-2)
+amod(directing-2, Solid-1)
+cc(directing-2, and-3)
+amod(cinematography-5, nice-4)
+conj(directing-2, cinematography-5)
+punct(directing-2, .-6)
+

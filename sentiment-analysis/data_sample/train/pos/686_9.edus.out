@@ -1,0 +1,136 @@
+Sentence #1 (17 tokens):
+Ghost Story (the TV Movie--1972) was the pilot for the NBC series.
+[Text=Ghost CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NN] [Text=Story CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=-LRB-] [Text=the CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=DT] [Text=TV CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=NN] [Text=Movie CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=:] [Text=1972 CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=CD] [Text=-RRB- CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=-RRB-] [Text=was CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT] [Text=pilot CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=DT] [Text=NBC CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=NNP] [Text=series CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=.] 
+root(ROOT-0, pilot-12)
+nn(Story-2, Ghost-1)
+nsubj(pilot-12, Story-2)
+punct(Movie-6, -LRB--3)
+det(Movie-6, the-4)
+nn(Movie-6, TV-5)
+appos(Story-2, Movie-6)
+punct(Movie-6, ---7)
+dep(Movie-6, 1972-8)
+punct(Movie-6, -RRB--9)
+cop(pilot-12, was-10)
+det(pilot-12, the-11)
+prep(pilot-12, for-13)
+det(series-16, the-14)
+nn(series-16, NBC-15)
+pobj(for-13, series-16)
+punct(pilot-12, .-17)
+
+Sentence #2 (36 tokens):
+The movie was well-written and well-acted and, I thought, when the 1972-73 tv season started, if the tv series is half as good as the movie, then NBC has a winner.
+[Text=The CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=VBD] [Text=well-written CharacterOffsetBegin=89 CharacterOffsetEnd=101 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=CC] [Text=well-acted CharacterOffsetBegin=106 CharacterOffsetEnd=116 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=CC] [Text=, CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=,] [Text=I CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=,] [Text=when CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=DT] [Text=1972-73 CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=CD] [Text=tv CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=season CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=NN] [Text=started CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=,] [Text=if CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text=tv CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=series CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=VBZ] [Text=half CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=,] [Text=then CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=NBC CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=winner CharacterOffsetBegin=231 CharacterOffsetEnd=237 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=.] 
+root(ROOT-0, well-written-4)
+det(movie-2, The-1)
+nsubj(well-written-4, movie-2)
+cop(well-written-4, was-3)
+cc(well-written-4, and-5)
+conj(well-written-4, well-acted-6)
+cc(well-written-4, and-7)
+punct(thought-10, ,-8)
+nsubj(thought-10, I-9)
+conj(well-written-4, thought-10)
+punct(thought-10, ,-11)
+advmod(started-17, when-12)
+det(season-16, the-13)
+num(season-16, 1972-73-14)
+nn(season-16, tv-15)
+nsubj(started-17, season-16)
+advcl(thought-10, started-17)
+punct(well-written-4, ,-18)
+mark(good-26, if-19)
+det(series-22, the-20)
+nn(series-22, tv-21)
+nsubj(good-26, series-22)
+cop(good-26, is-23)
+advmod(good-26, half-24)
+advmod(good-26, as-25)
+advcl(has-33, good-26)
+prep(good-26, as-27)
+det(movie-29, the-28)
+pobj(as-27, movie-29)
+punct(has-33, ,-30)
+advmod(has-33, then-31)
+nsubj(has-33, NBC-32)
+conj(well-written-4, has-33)
+det(winner-35, a-34)
+dobj(has-33, winner-35)
+punct(well-written-4, .-36)
+
+Sentence #3 (11 tokens):
+(I wish this film was available on video!!)
+[Text=-LRB- CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=-LRB-] [Text=I CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text=wish CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=VBD] [Text=available CharacterOffsetBegin=265 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=IN] [Text=video CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=!! CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=-RRB-] 
+root(ROOT-0, wish-3)
+punct(wish-3, -LRB--1)
+nsubj(wish-3, I-2)
+det(film-5, this-4)
+nsubj(available-7, film-5)
+cop(available-7, was-6)
+ccomp(wish-3, available-7)
+prep(available-7, on-8)
+nn(!!-10, video-9)
+pobj(on-8, !!-10)
+punct(wish-3, -RRB--11)
+
+Sentence #4 (14 tokens):
+The series was a colossal disappointment--even with William Castle as exec.
+[Text=The CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=DT] [Text=series CharacterOffsetBegin=295 CharacterOffsetEnd=301 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=DT] [Text=colossal CharacterOffsetBegin=308 CharacterOffsetEnd=316 PartOfSpeech=JJ] [Text=disappointment CharacterOffsetBegin=317 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=:] [Text=even CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=RB] [Text=with CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=IN] [Text=William CharacterOffsetBegin=343 CharacterOffsetEnd=350 PartOfSpeech=NNP] [Text=Castle CharacterOffsetBegin=351 CharacterOffsetEnd=357 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=IN] [Text=exec CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=.] 
+root(ROOT-0, disappointment-6)
+det(series-2, The-1)
+nsubj(disappointment-6, series-2)
+cop(disappointment-6, was-3)
+det(disappointment-6, a-4)
+amod(disappointment-6, colossal-5)
+punct(disappointment-6, ---7)
+advmod(with-9, even-8)
+prep(disappointment-6, with-9)
+nn(Castle-11, William-10)
+pobj(with-9, Castle-11)
+prep(Castle-11, as-12)
+pobj(as-12, exec-13)
+punct(disappointment-6, .-14)
+
+Sentence #5 (2 tokens):
+producer.
+[Text=producer CharacterOffsetBegin=371 CharacterOffsetEnd=379 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=.] 
+root(ROOT-0, producer-1)
+punct(producer-1, .-2)
+
+Sentence #6 (22 tokens):
+If, however,you have a chance to see the original TV movie, Ghost Story, check it out.
+[Text=If CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=,] [Text=however CharacterOffsetBegin=389 CharacterOffsetEnd=396 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=,] [Text=you CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=DT] [Text=chance CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=426 CharacterOffsetEnd=434 PartOfSpeech=JJ] [Text=TV CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=438 CharacterOffsetEnd=443 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=,] [Text=Ghost CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=NN] [Text=Story CharacterOffsetBegin=451 CharacterOffsetEnd=456 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=,] [Text=check CharacterOffsetBegin=458 CharacterOffsetEnd=463 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=464 CharacterOffsetEnd=466 PartOfSpeech=PRP] [Text=out CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=.] 
+root(ROOT-0, have-6)
+mark(have-6, If-1)
+punct(have-6, ,-2)
+advmod(have-6, however-3)
+punct(have-6, ,-4)
+nsubj(have-6, you-5)
+det(chance-8, a-7)
+dobj(have-6, chance-8)
+aux(see-10, to-9)
+infmod(chance-8, see-10)
+det(movie-14, the-11)
+amod(movie-14, original-12)
+nn(movie-14, TV-13)
+nsubj(check-19, movie-14)
+punct(movie-14, ,-15)
+nn(Story-17, Ghost-16)
+appos(movie-14, Story-17)
+punct(movie-14, ,-18)
+ccomp(see-10, check-19)
+dobj(check-19, it-20)
+prt(check-19, out-21)
+punct(have-6, .-22)
+
+Sentence #7 (6 tokens):
+You won't be disappointed.
+[Text=You CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=VB] [Text=disappointed CharacterOffsetBegin=489 CharacterOffsetEnd=501 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=.] 
+root(ROOT-0, disappointed-5)
+nsubjpass(disappointed-5, You-1)
+aux(disappointed-5, wo-2)
+neg(disappointed-5, n't-3)
+auxpass(disappointed-5, be-4)
+punct(disappointed-5, .-6)
+

@@ -1,0 +1,54 @@
+Sentence #1 (9 tokens):
+Love it, love it, love it!
+[Text=Love CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=,] [Text=love CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=,] [Text=love CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP] [Text=! CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.] 
+root(ROOT-0, love-7)
+nsubj(love-7, Love-1)
+dobj(Love-1, it-2)
+punct(Love-1, ,-3)
+dep(Love-1, love-4)
+dobj(love-4, it-5)
+punct(Love-1, ,-6)
+dobj(love-7, it-8)
+punct(love-7, !-9)
+
+Sentence #2 (24 tokens):
+This is another absolutely superb performance from the Divine Miss M. From the beginning to the end, this is one big treat!
+[Text=This CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=VBZ] [Text=another CharacterOffsetBegin=43 CharacterOffsetEnd=50 PartOfSpeech=DT] [Text=absolutely CharacterOffsetBegin=51 CharacterOffsetEnd=61 PartOfSpeech=RB] [Text=superb CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=69 CharacterOffsetEnd=80 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=Divine CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=NNP] [Text=Miss CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NNP] [Text=M. CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=NNP] [Text=From CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=114 CharacterOffsetEnd=123 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=,] [Text=this CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=CD] [Text=big CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=treat CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=.] 
+root(ROOT-0, performance-6)
+nsubj(performance-6, This-1)
+cop(performance-6, is-2)
+det(performance-6, another-3)
+advmod(superb-5, absolutely-4)
+amod(performance-6, superb-5)
+prep(performance-6, from-7)
+det(M.-11, the-8)
+nn(M.-11, Divine-9)
+nn(M.-11, Miss-10)
+pobj(from-7, M.-11)
+prep(performance-6, From-12)
+det(beginning-14, the-13)
+pcomp(From-12, beginning-14)
+prep(beginning-14, to-15)
+det(end-17, the-16)
+pobj(to-15, end-17)
+punct(performance-6, ,-18)
+nsubj(treat-23, this-19)
+cop(treat-23, is-20)
+num(treat-23, one-21)
+amod(treat-23, big-22)
+rcmod(performance-6, treat-23)
+punct(performance-6, !-24)
+
+Sentence #3 (9 tokens):
+Don't rent it- buy it now!
+[Text=Do CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=RB] [Text=rent CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=PRP] [Text=- CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=:] [Text=buy CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=PRP] [Text=now CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=.] 
+root(ROOT-0, rent-3)
+aux(rent-3, Do-1)
+neg(rent-3, n't-2)
+dobj(rent-3, it-4)
+punct(rent-3, --5)
+dep(rent-3, buy-6)
+dobj(buy-6, it-7)
+advmod(buy-6, now-8)
+punct(rent-3, !-9)
+

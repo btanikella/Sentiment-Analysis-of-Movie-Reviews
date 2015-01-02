@@ -1,0 +1,193 @@
+Sentence #1 (2 tokens):
+......
+[Text=... CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=:] [Text=. CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=.] 
+root(ROOT-0, ...-1)
+punct(...-1, .-2)
+
+Sentence #2 (7 tokens):
+in a horror movie that is.
+[Text=in CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=horror CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.] 
+root(ROOT-0, in-1)
+det(movie-4, a-2)
+nn(movie-4, horror-3)
+pobj(in-1, movie-4)
+nsubj(is-6, that-5)
+rcmod(movie-4, is-6)
+punct(in-1, .-7)
+
+Sentence #3 (9 tokens):
+Alright first off , lets start with Kate.
+[Text=Alright CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=NNP] [Text=first CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=RB] [Text=off CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=,] [Text=lets CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=VBZ] [Text=start CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=IN] [Text=Kate CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, lets-5)
+nsubj(lets-5, Alright-1)
+advmod(off-3, first-2)
+advmod(Alright-1, off-3)
+punct(Alright-1, ,-4)
+dobj(lets-5, start-6)
+prep(lets-5, with-7)
+pobj(with-7, Kate-8)
+punct(lets-5, .-9)
+
+Sentence #4 (21 tokens):
+Her main goals include getting laid by George Clooney, looking good and last but not least screwing everyone over.
+[Text=Her CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=PRP$] [Text=main CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=JJ] [Text=goals CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=NNS] [Text=include CharacterOffsetBegin=102 CharacterOffsetEnd=109 PartOfSpeech=VBP] [Text=getting CharacterOffsetBegin=110 CharacterOffsetEnd=117 PartOfSpeech=VBG] [Text=laid CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN] [Text=George CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=NNP] [Text=Clooney CharacterOffsetBegin=133 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=,] [Text=looking CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=VBG] [Text=good CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=CC] [Text=last CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=RB] [Text=least CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=JJS] [Text=screwing CharacterOffsetBegin=178 CharacterOffsetEnd=186 PartOfSpeech=VBG] [Text=everyone CharacterOffsetBegin=187 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=.] 
+root(ROOT-0, include-4)
+poss(goals-3, Her-1)
+amod(goals-3, main-2)
+nsubj(include-4, goals-3)
+auxpass(laid-6, getting-5)
+ccomp(include-4, laid-6)
+prep(laid-6, by-7)
+nn(Clooney-9, George-8)
+pobj(by-7, Clooney-9)
+punct(laid-6, ,-10)
+advmod(screwing-18, looking-11)
+acomp(looking-11, good-12)
+cc(good-12, and-13)
+conj(good-12, last-14)
+cc(looking-11, but-15)
+neg(least-17, not-16)
+conj(looking-11, least-17)
+xcomp(laid-6, screwing-18)
+dobj(screwing-18, everyone-19)
+prep(screwing-18, over-20)
+punct(include-4, .-21)
+
+Sentence #5 (5 tokens):
+Gotta love her.
+[Text=Got CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=NNP] [Text=ta CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=NN] [Text=love CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=.] 
+root(ROOT-0, love-3)
+advmod(love-3, Got-1)
+nsubj(love-3, ta-2)
+dobj(love-3, her-4)
+punct(love-3, .-5)
+
+Sentence #6 (18 tokens):
+She had about 3 amazingly good chances to finish off this sicko but ..... instead she ran.
+[Text=She CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=VBD] [Text=about CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=3 CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=CD] [Text=amazingly CharacterOffsetBegin=242 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=JJ] [Text=chances CharacterOffsetBegin=257 CharacterOffsetEnd=264 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=TO] [Text=finish CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=VB] [Text=off CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=RP] [Text=this CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=DT] [Text=sicko CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=CC] [Text=... CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=:] [Text=instead CharacterOffsetBegin=300 CharacterOffsetEnd=307 PartOfSpeech=RB] [Text=she CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=PRP] [Text=ran CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, She-1)
+quantmod(3-4, about-3)
+num(chances-7, 3-4)
+amod(chances-7, amazingly-5)
+amod(chances-7, good-6)
+dobj(had-2, chances-7)
+aux(finish-9, to-8)
+infmod(chances-7, finish-9)
+prt(finish-9, off-10)
+det(sicko-12, this-11)
+dobj(finish-9, sicko-12)
+cc(had-2, but-13)
+punct(had-2, ...-14)
+advmod(ran-17, instead-15)
+nsubj(ran-17, she-16)
+dep(had-2, ran-17)
+punct(had-2, .-18)
+
+Sentence #7 (22 tokens):
+I mean she didn't wanna bring Guy out for 10 minutes and when she did it was too late.
+[Text=I CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=VBP] [Text=she CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=RB] [Text=wan CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=VB] [Text=na CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=TO] [Text=bring CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=VB] [Text=Guy CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=NNP] [Text=out CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=366 CharacterOffsetEnd=373 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=CC] [Text=when CharacterOffsetBegin=378 CharacterOffsetEnd=382 PartOfSpeech=WRB] [Text=she CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=VBD] [Text=too CharacterOffsetBegin=398 CharacterOffsetEnd=401 PartOfSpeech=RB] [Text=late CharacterOffsetBegin=402 CharacterOffsetEnd=406 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+nsubj(wan-6, she-3)
+aux(wan-6, did-4)
+neg(wan-6, n't-5)
+ccomp(mean-2, wan-6)
+dobj(wan-6, na-7)
+dep(na-7, bring-8)
+dobj(bring-8, Guy-9)
+prep(bring-8, out-10)
+pcomp(out-10, for-11)
+num(minutes-13, 10-12)
+pobj(for-11, minutes-13)
+cc(bring-8, and-14)
+advmod(did-17, when-15)
+nsubj(did-17, she-16)
+conj(bring-8, did-17)
+nsubj(late-21, it-18)
+cop(late-21, was-19)
+advmod(late-21, too-20)
+ccomp(did-17, late-21)
+punct(mean-2, .-22)
+
+Sentence #8 (9 tokens):
+I mean the guy tried to rape her.
+[Text=I CharacterOffsetBegin=412 CharacterOffsetEnd=413 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=NN] [Text=tried CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=TO] [Text=rape CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=NN] [Text=her CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=PRP$] [Text=. CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+det(guy-4, the-3)
+nsubj(tried-5, guy-4)
+ccomp(mean-2, tried-5)
+aux(rape-7, to-6)
+xcomp(tried-5, rape-7)
+dobj(rape-7, her-8)
+punct(mean-2, .-9)
+
+Sentence #9 (15 tokens):
+I cant get into these movies where the main character is a sad idiot.
+[Text=I CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=PRP] [Text=cant CharacterOffsetBegin=452 CharacterOffsetEnd=456 PartOfSpeech=VBP] [Text=get CharacterOffsetBegin=457 CharacterOffsetEnd=460 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=IN] [Text=these CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=DT] [Text=movies CharacterOffsetBegin=472 CharacterOffsetEnd=478 PartOfSpeech=NNS] [Text=where CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=DT] [Text=main CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=494 CharacterOffsetEnd=503 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=504 CharacterOffsetEnd=506 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=DT] [Text=sad CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=JJ] [Text=idiot CharacterOffsetBegin=513 CharacterOffsetEnd=518 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=.] 
+root(ROOT-0, get-3)
+nsubj(get-3, I-1)
+aux(get-3, cant-2)
+prep(get-3, into-4)
+det(movies-6, these-5)
+pobj(into-4, movies-6)
+advmod(idiot-14, where-7)
+det(character-10, the-8)
+amod(character-10, main-9)
+nsubj(idiot-14, character-10)
+cop(idiot-14, is-11)
+det(idiot-14, a-12)
+amod(idiot-14, sad-13)
+rcmod(movies-6, idiot-14)
+punct(get-3, .-15)
+
+Sentence #10 (22 tokens):
+I mean who honestly would have any sympathy for a guy who finishes off everyone she has meet in a night.
+[Text=I CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=526 CharacterOffsetEnd=530 PartOfSpeech=VBP] [Text=who CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=WP] [Text=honestly CharacterOffsetBegin=535 CharacterOffsetEnd=543 PartOfSpeech=RB] [Text=would CharacterOffsetBegin=544 CharacterOffsetEnd=549 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT] [Text=sympathy CharacterOffsetBegin=559 CharacterOffsetEnd=567 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=568 CharacterOffsetEnd=571 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=578 CharacterOffsetEnd=581 PartOfSpeech=WP] [Text=finishes CharacterOffsetBegin=582 CharacterOffsetEnd=590 PartOfSpeech=VBZ] [Text=off CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=RP] [Text=everyone CharacterOffsetBegin=595 CharacterOffsetEnd=603 PartOfSpeech=NN] [Text=she CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=VBZ] [Text=meet CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=620 CharacterOffsetEnd=621 PartOfSpeech=DT] [Text=night CharacterOffsetBegin=622 CharacterOffsetEnd=627 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+nsubj(have-6, who-3)
+advmod(have-6, honestly-4)
+aux(have-6, would-5)
+ccomp(mean-2, have-6)
+det(sympathy-8, any-7)
+dobj(have-6, sympathy-8)
+prep(sympathy-8, for-9)
+det(guy-11, a-10)
+pobj(for-9, guy-11)
+nsubj(finishes-13, who-12)
+rcmod(guy-11, finishes-13)
+prt(finishes-13, off-14)
+dobj(finishes-13, everyone-15)
+nsubj(meet-18, she-16)
+aux(meet-18, has-17)
+rcmod(everyone-15, meet-18)
+prep(meet-18, in-19)
+det(night-21, a-20)
+pobj(in-19, night-21)
+punct(mean-2, .-22)
+
+Sentence #11 (6 tokens):
+The movie kept going on.
+[Text=The CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=NN] [Text=kept CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=VBD] [Text=going CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=.] 
+root(ROOT-0, kept-3)
+det(movie-2, The-1)
+nsubj(kept-3, movie-2)
+xcomp(kept-3, going-4)
+prt(going-4, on-5)
+punct(kept-3, .-6)
+
+Sentence #12 (9 tokens):
+And as a result lost all its credibility.
+[Text=And CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=CC] [Text=as CharacterOffsetBegin=666 CharacterOffsetEnd=668 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=669 CharacterOffsetEnd=670 PartOfSpeech=DT] [Text=result CharacterOffsetBegin=671 CharacterOffsetEnd=677 PartOfSpeech=NN] [Text=lost CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=683 CharacterOffsetEnd=686 PartOfSpeech=DT] [Text=its CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=PRP$] [Text=credibility CharacterOffsetBegin=691 CharacterOffsetEnd=702 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=702 CharacterOffsetEnd=703 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+mark(lost-5, as-2)
+det(result-4, a-3)
+nsubj(lost-5, result-4)
+ccomp(And-1, lost-5)
+predet(credibility-8, all-6)
+poss(credibility-8, its-7)
+dobj(lost-5, credibility-8)
+punct(And-1, .-9)
+

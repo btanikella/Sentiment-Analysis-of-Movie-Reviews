@@ -1,0 +1,175 @@
+Sentence #1 (6 tokens):
+This is an important film.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=important CharacterOffsetBegin=15 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.] 
+root(ROOT-0, film-5)
+nsubj(film-5, This-1)
+cop(film-5, is-2)
+det(film-5, an-3)
+amod(film-5, important-4)
+punct(film-5, .-6)
+
+Sentence #2 (11 tokens):
+It challenges the viewer and encourages you to pay attention.
+[Text=It CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=PRP] [Text=challenges CharacterOffsetBegin=38 CharacterOffsetEnd=48 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=DT] [Text=viewer CharacterOffsetBegin=53 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=CC] [Text=encourages CharacterOffsetBegin=64 CharacterOffsetEnd=74 PartOfSpeech=VBZ] [Text=you CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=TO] [Text=pay CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=VB] [Text=attention CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=.] 
+root(ROOT-0, challenges-2)
+nsubj(challenges-2, It-1)
+det(viewer-4, the-3)
+dobj(challenges-2, viewer-4)
+cc(challenges-2, and-5)
+conj(challenges-2, encourages-6)
+dobj(encourages-6, you-7)
+aux(pay-9, to-8)
+xcomp(encourages-6, pay-9)
+dobj(pay-9, attention-10)
+punct(challenges-2, .-11)
+
+Sentence #3 (8 tokens):
+There's a lot to like here.
+[Text=There CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=TO] [Text=like CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=VB] [Text=here CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.] 
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+det(lot-4, a-3)
+nsubj('s-2, lot-4)
+aux(like-6, to-5)
+infmod(lot-4, like-6)
+advmod(like-6, here-7)
+punct('s-2, .-8)
+
+Sentence #4 (15 tokens):
+The director seems interested in taking apart some of the more tired cinematic conventions.
+[Text=The CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=DT] [Text=director CharacterOffsetBegin=137 CharacterOffsetEnd=145 PartOfSpeech=NN] [Text=seems CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=VBZ] [Text=interested CharacterOffsetBegin=152 CharacterOffsetEnd=162 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=taking CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=VBG] [Text=apart CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=RP] [Text=some CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=more CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=RBR] [Text=tired CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=cinematic CharacterOffsetBegin=202 CharacterOffsetEnd=211 PartOfSpeech=JJ] [Text=conventions CharacterOffsetBegin=212 CharacterOffsetEnd=223 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=.] 
+root(ROOT-0, interested-4)
+det(director-2, The-1)
+nsubj(interested-4, director-2)
+cop(interested-4, seems-3)
+prep(interested-4, in-5)
+pcomp(in-5, taking-6)
+prt(taking-6, apart-7)
+dobj(taking-6, some-8)
+prep(some-8, of-9)
+det(conventions-14, the-10)
+advmod(tired-12, more-11)
+amod(conventions-14, tired-12)
+amod(conventions-14, cinematic-13)
+pobj(of-9, conventions-14)
+punct(interested-4, .-15)
+
+Sentence #5 (26 tokens):
+Unlike a lot of recent American cinema, this film takes an interest in what it means to make a movie in the first place.
+[Text=Unlike CharacterOffsetBegin=229 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=IN] [Text=recent CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=JJ] [Text=American CharacterOffsetBegin=252 CharacterOffsetEnd=260 PartOfSpeech=JJ] [Text=cinema CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=,] [Text=this CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=NN] [Text=takes CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=DT] [Text=interest CharacterOffsetBegin=288 CharacterOffsetEnd=296 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=PRP] [Text=means CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=JJ] [Text=place CharacterOffsetBegin=343 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=.] 
+root(ROOT-0, takes-11)
+prep(takes-11, Unlike-1)
+det(lot-3, a-2)
+pobj(Unlike-1, lot-3)
+prep(lot-3, of-4)
+amod(cinema-7, recent-5)
+amod(cinema-7, American-6)
+pobj(of-4, cinema-7)
+punct(takes-11, ,-8)
+det(film-10, this-9)
+nsubj(takes-11, film-10)
+det(interest-13, an-12)
+dobj(takes-11, interest-13)
+prep(takes-11, in-14)
+dobj(means-17, what-15)
+nsubj(means-17, it-16)
+pcomp(in-14, means-17)
+aux(make-19, to-18)
+xcomp(means-17, make-19)
+det(movie-21, a-20)
+dobj(make-19, movie-21)
+prep(make-19, in-22)
+det(place-25, the-23)
+amod(place-25, first-24)
+pobj(in-22, place-25)
+punct(takes-11, .-26)
+
+Sentence #6 (28 tokens):
+The DVD includes a lot of bonus features, and there are two commentaries that explain the movie for the viewers still befuddled after an initial viewing.
+[Text=The CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=NN] [Text=includes CharacterOffsetBegin=362 CharacterOffsetEnd=370 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=bonus CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=NN] [Text=features CharacterOffsetBegin=386 CharacterOffsetEnd=394 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=,] [Text=and CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=VBP] [Text=two CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=CD] [Text=commentaries CharacterOffsetBegin=414 CharacterOffsetEnd=426 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=WDT] [Text=explain CharacterOffsetBegin=432 CharacterOffsetEnd=439 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=444 CharacterOffsetEnd=449 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=DT] [Text=viewers CharacterOffsetBegin=458 CharacterOffsetEnd=465 PartOfSpeech=NNS] [Text=still CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=RB] [Text=befuddled CharacterOffsetBegin=472 CharacterOffsetEnd=481 PartOfSpeech=VBN] [Text=after CharacterOffsetBegin=482 CharacterOffsetEnd=487 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=488 CharacterOffsetEnd=490 PartOfSpeech=DT] [Text=initial CharacterOffsetBegin=491 CharacterOffsetEnd=498 PartOfSpeech=JJ] [Text=viewing CharacterOffsetBegin=499 CharacterOffsetEnd=506 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=506 CharacterOffsetEnd=507 PartOfSpeech=.] 
+root(ROOT-0, includes-3)
+det(DVD-2, The-1)
+nsubj(includes-3, DVD-2)
+det(lot-5, a-4)
+dobj(includes-3, lot-5)
+prep(lot-5, of-6)
+nn(features-8, bonus-7)
+pobj(of-6, features-8)
+punct(includes-3, ,-9)
+cc(includes-3, and-10)
+expl(are-12, there-11)
+conj(includes-3, are-12)
+num(commentaries-14, two-13)
+nsubj(are-12, commentaries-14)
+nsubj(explain-16, that-15)
+rcmod(commentaries-14, explain-16)
+det(movie-18, the-17)
+dobj(explain-16, movie-18)
+prep(movie-18, for-19)
+det(viewers-21, the-20)
+pobj(for-19, viewers-21)
+advmod(befuddled-23, still-22)
+partmod(viewers-21, befuddled-23)
+prep(befuddled-23, after-24)
+det(viewing-27, an-25)
+amod(viewing-27, initial-26)
+pobj(after-24, viewing-27)
+punct(includes-3, .-28)
+
+Sentence #7 (19 tokens):
+When the film screened at Sundance, it made more than a few audience members uncomfortable and angry.
+[Text=When CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=NN] [Text=screened CharacterOffsetBegin=526 CharacterOffsetEnd=534 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=535 CharacterOffsetEnd=537 PartOfSpeech=IN] [Text=Sundance CharacterOffsetBegin=538 CharacterOffsetEnd=546 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=,] [Text=it CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=VBD] [Text=more CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=568 CharacterOffsetEnd=571 PartOfSpeech=JJ] [Text=audience CharacterOffsetBegin=572 CharacterOffsetEnd=580 PartOfSpeech=NN] [Text=members CharacterOffsetBegin=581 CharacterOffsetEnd=588 PartOfSpeech=NNS] [Text=uncomfortable CharacterOffsetBegin=589 CharacterOffsetEnd=602 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=CC] [Text=angry CharacterOffsetBegin=607 CharacterOffsetEnd=612 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=.] 
+root(ROOT-0, made-9)
+advmod(screened-4, When-1)
+det(film-3, the-2)
+nsubj(screened-4, film-3)
+advcl(made-9, screened-4)
+prep(screened-4, at-5)
+pobj(at-5, Sundance-6)
+punct(made-9, ,-7)
+nsubj(made-9, it-8)
+dobj(made-9, more-10)
+prep(more-10, than-11)
+det(members-15, a-12)
+amod(members-15, few-13)
+nn(members-15, audience-14)
+pobj(than-11, members-15)
+amod(members-15, uncomfortable-16)
+cc(uncomfortable-16, and-17)
+conj(uncomfortable-16, angry-18)
+punct(made-9, .-19)
+
+Sentence #8 (15 tokens):
+This is a Sunday morning coffee movie, not a Friday night party movie.
+[Text=This CharacterOffsetBegin=618 CharacterOffsetEnd=622 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=DT] [Text=Sunday CharacterOffsetBegin=628 CharacterOffsetEnd=634 PartOfSpeech=NNP] [Text=morning CharacterOffsetBegin=635 CharacterOffsetEnd=642 PartOfSpeech=NN] [Text=coffee CharacterOffsetBegin=643 CharacterOffsetEnd=649 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=650 CharacterOffsetEnd=655 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=,] [Text=not CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=DT] [Text=Friday CharacterOffsetBegin=663 CharacterOffsetEnd=669 PartOfSpeech=NNP] [Text=night CharacterOffsetBegin=670 CharacterOffsetEnd=675 PartOfSpeech=NN] [Text=party CharacterOffsetBegin=676 CharacterOffsetEnd=681 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+nsubj(movie-7, This-1)
+cop(movie-7, is-2)
+det(movie-7, a-3)
+nn(movie-7, Sunday-4)
+nn(movie-7, morning-5)
+nn(movie-7, coffee-6)
+punct(movie-7, ,-8)
+neg(movie-7, not-9)
+det(movie-14, a-10)
+nn(movie-14, Friday-11)
+nn(movie-14, night-12)
+nn(movie-14, party-13)
+dep(movie-7, movie-14)
+punct(movie-7, .-15)
+
+Sentence #9 (11 tokens):
+For the dedicated viewer, it's a treasure trove.
+[Text=For CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=DT] [Text=dedicated CharacterOffsetBegin=701 CharacterOffsetEnd=710 PartOfSpeech=JJ] [Text=viewer CharacterOffsetBegin=711 CharacterOffsetEnd=717 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=717 CharacterOffsetEnd=718 PartOfSpeech=,] [Text=it CharacterOffsetBegin=719 CharacterOffsetEnd=721 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=721 CharacterOffsetEnd=723 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=724 CharacterOffsetEnd=725 PartOfSpeech=DT] [Text=treasure CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=NN] [Text=trove CharacterOffsetBegin=735 CharacterOffsetEnd=740 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=740 CharacterOffsetEnd=741 PartOfSpeech=.] 
+root(ROOT-0, trove-10)
+prep(trove-10, For-1)
+det(viewer-4, the-2)
+amod(viewer-4, dedicated-3)
+pobj(For-1, viewer-4)
+punct(trove-10, ,-5)
+nsubj(trove-10, it-6)
+cop(trove-10, 's-7)
+det(trove-10, a-8)
+nn(trove-10, treasure-9)
+punct(trove-10, .-11)
+

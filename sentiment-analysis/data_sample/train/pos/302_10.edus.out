@@ -1,0 +1,121 @@
+Sentence #1 (12 tokens):
+This movie is perfect for all the romantics in the world.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=perfect CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=for CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=PDT] [Text=the CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=DT] [Text=romantics CharacterOffsetBegin=38 CharacterOffsetEnd=47 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=DT] [Text=world CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=.] 
+root(ROOT-0, perfect-4)
+det(movie-2, This-1)
+nsubj(perfect-4, movie-2)
+cop(perfect-4, is-3)
+prep(perfect-4, for-5)
+predet(romantics-8, all-6)
+det(romantics-8, the-7)
+pobj(for-5, romantics-8)
+prep(romantics-8, in-9)
+det(world-11, the-10)
+pobj(in-9, world-11)
+punct(perfect-4, .-12)
+
+Sentence #2 (15 tokens):
+John Ritter has never been better and has the best line in the movie!
+[Text=John CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=NNP] [Text=Ritter CharacterOffsetBegin=71 CharacterOffsetEnd=77 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=VBZ] [Text=never CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=RB] [Text=been CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=VBN] [Text=better CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=JJR] [Text=and CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=CC] [Text=has CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=JJS] [Text=line CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=.] 
+root(ROOT-0, better-6)
+nn(Ritter-2, John-1)
+nsubj(better-6, Ritter-2)
+aux(better-6, has-3)
+neg(better-6, never-4)
+cop(better-6, been-5)
+cc(better-6, and-7)
+conj(better-6, has-8)
+det(line-11, the-9)
+amod(line-11, best-10)
+dobj(has-8, line-11)
+prep(line-11, in-12)
+det(movie-14, the-13)
+pobj(in-12, movie-14)
+punct(better-6, !-15)
+
+Sentence #3 (22 tokens):
+"Sam" hits close to home, is lovely to look at and so much fun to play along with.
+[Text=`` CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=``] [Text=Sam CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=''] [Text=hits CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=VBZ] [Text=close CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=TO] [Text=home CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=,] [Text=is CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=VBZ] [Text=lovely CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=TO] [Text=look CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=VB] [Text=at CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=CC] [Text=so CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=JJ] [Text=fun CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=TO] [Text=play CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=VB] [Text=along CharacterOffsetBegin=211 CharacterOffsetEnd=216 PartOfSpeech=RP] [Text=with CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=.] 
+root(ROOT-0, hits-4)
+punct(hits-4, ``-1)
+nsubj(hits-4, Sam-2)
+punct(hits-4, ''-3)
+advmod(hits-4, close-5)
+prep(close-5, to-6)
+pobj(to-6, home-7)
+punct(hits-4, ,-8)
+cop(lovely-10, is-9)
+dep(hits-4, lovely-10)
+aux(look-12, to-11)
+xcomp(lovely-10, look-12)
+prep(look-12, at-13)
+cc(at-13, and-14)
+conj(at-13, so-15)
+amod(fun-17, much-16)
+pobj(at-13, fun-17)
+aux(play-19, to-18)
+infmod(fun-17, play-19)
+prt(play-19, along-20)
+prep(play-19, with-21)
+punct(hits-4, .-22)
+
+Sentence #4 (14 tokens):
+Ben Gazzara was an excellent cast and easy to fall in love with.
+[Text=Ben CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=NNP] [Text=Gazzara CharacterOffsetBegin=231 CharacterOffsetEnd=238 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=DT] [Text=excellent CharacterOffsetBegin=246 CharacterOffsetEnd=255 PartOfSpeech=JJ] [Text=cast CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=CC] [Text=easy CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=TO] [Text=fall CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=love CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=.] 
+root(ROOT-0, cast-6)
+nn(Gazzara-2, Ben-1)
+nsubj(cast-6, Gazzara-2)
+cop(cast-6, was-3)
+det(cast-6, an-4)
+amod(cast-6, excellent-5)
+cc(cast-6, and-7)
+conj(cast-6, easy-8)
+aux(fall-10, to-9)
+xcomp(cast-6, fall-10)
+prep(fall-10, in-11)
+pobj(in-11, love-12)
+prep(love-12, with-13)
+punct(cast-6, .-14)
+
+Sentence #5 (12 tokens):
+I'm sure I've met Arthur in my travels somewhere.
+[Text=I CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=VBP] [Text=sure CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=JJ] [Text=I CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=VBP] [Text=met CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=VBN] [Text=Arthur CharacterOffsetBegin=314 CharacterOffsetEnd=320 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=PRP$] [Text=travels CharacterOffsetBegin=327 CharacterOffsetEnd=334 PartOfSpeech=NNS] [Text=somewhere CharacterOffsetBegin=335 CharacterOffsetEnd=344 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=.] 
+root(ROOT-0, sure-3)
+nsubj(sure-3, I-1)
+cop(sure-3, 'm-2)
+nsubj(met-6, I-4)
+aux(met-6, 've-5)
+ccomp(sure-3, met-6)
+dobj(met-6, Arthur-7)
+prep(met-6, in-8)
+poss(travels-10, my-9)
+pobj(in-8, travels-10)
+advmod(travels-10, somewhere-11)
+punct(sure-3, .-12)
+
+Sentence #6 (12 tokens):
+All around, an excellent choice to pick up any evening.
+[Text=All CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=DT] [Text=around CharacterOffsetBegin=354 CharacterOffsetEnd=360 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=,] [Text=an CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=DT] [Text=excellent CharacterOffsetBegin=365 CharacterOffsetEnd=374 PartOfSpeech=JJ] [Text=choice CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=382 CharacterOffsetEnd=384 PartOfSpeech=TO] [Text=pick CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=RP] [Text=any CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=DT] [Text=evening CharacterOffsetBegin=397 CharacterOffsetEnd=404 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=.] 
+root(ROOT-0, pick-8)
+predet(choice-6, All-1)
+advmod(All-1, around-2)
+punct(All-1, ,-3)
+det(choice-6, an-4)
+amod(choice-6, excellent-5)
+nsubj(pick-8, choice-6)
+aux(pick-8, to-7)
+prt(pick-8, up-9)
+det(evening-11, any-10)
+dobj(pick-8, evening-11)
+punct(pick-8, .-12)
+
+Sentence #7 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+
+Sentence #8 (1 tokens):
+:-)
+[Text=:--RRB- CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=NN] 
+root(ROOT-0, :--RRB--1)
+

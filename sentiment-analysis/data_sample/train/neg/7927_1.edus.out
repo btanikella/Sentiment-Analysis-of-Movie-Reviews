@@ -1,0 +1,255 @@
+Sentence #1 (5 tokens):
+This movie is AWESOME.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=AWESOME CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.] 
+root(ROOT-0, AWESOME-4)
+det(movie-2, This-1)
+nsubj(AWESOME-4, movie-2)
+cop(AWESOME-4, is-3)
+punct(AWESOME-4, .-5)
+
+Sentence #2 (11 tokens):
+I watched it the other day with my cousin Jay-Jay.
+[Text=I CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=33 CharacterOffsetEnd=40 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=PRP] [Text=the CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=JJ] [Text=day CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=PRP$] [Text=cousin CharacterOffsetBegin=66 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=Jay-Jay CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+dobj(watched-2, it-3)
+det(day-6, the-4)
+amod(day-6, other-5)
+tmod(watched-2, day-6)
+prep(watched-2, with-7)
+poss(cousin-9, my-8)
+pobj(with-7, cousin-9)
+dep(cousin-9, Jay-Jay-10)
+punct(watched-2, .-11)
+
+Sentence #3 (12 tokens):
+He said it was alright, but i think it RULEZZZ!
+[Text=He CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=PRP] [Text=said CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=VBD] [Text=alright CharacterOffsetBegin=101 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=,] [Text=but CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=CC] [Text=i CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=FW] [Text=think CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=PRP] [Text=RULEZZZ CharacterOffsetBegin=125 CharacterOffsetEnd=132 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=.] 
+root(ROOT-0, said-2)
+nsubj(said-2, He-1)
+nsubj(alright-5, it-3)
+cop(alright-5, was-4)
+ccomp(said-2, alright-5)
+punct(alright-5, ,-6)
+cc(alright-5, but-7)
+nsubj(think-9, i-8)
+conj(alright-5, think-9)
+nsubj(RULEZZZ-11, it-10)
+ccomp(think-9, RULEZZZ-11)
+punct(said-2, !-12)
+
+Sentence #4 (8 tokens):
+I mean, it's so cool.
+[Text=I CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=VBP] [Text=, CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=,] [Text=it CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=RB] [Text=cool CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=.] 
+root(ROOT-0, mean-2)
+nsubj(mean-2, I-1)
+punct(mean-2, ,-3)
+nsubj(cool-7, it-4)
+cop(cool-7, 's-5)
+advmod(cool-7, so-6)
+ccomp(mean-2, cool-7)
+punct(mean-2, .-8)
+
+Sentence #5 (9 tokens):
+Ted V. Mikels is so brave and smart.
+[Text=Ted CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=NNP] [Text=V. CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=NNP] [Text=Mikels CharacterOffsetBegin=171 CharacterOffsetEnd=177 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=VBZ] [Text=so CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=RB] [Text=brave CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=CC] [Text=smart CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.] 
+root(ROOT-0, brave-6)
+nn(Mikels-3, Ted-1)
+nn(Mikels-3, V.-2)
+nsubj(brave-6, Mikels-3)
+cop(brave-6, is-4)
+advmod(brave-6, so-5)
+cc(brave-6, and-7)
+conj(brave-6, smart-8)
+punct(brave-6, .-9)
+
+Sentence #6 (22 tokens):
+He made a movie totally unlike those terrible Hollywood films, like the Matrix and STop or my Mom will Shoot.
+[Text=He CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=NN] [Text=totally CharacterOffsetBegin=221 CharacterOffsetEnd=228 PartOfSpeech=RB] [Text=unlike CharacterOffsetBegin=229 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=JJ] [Text=Hollywood CharacterOffsetBegin=251 CharacterOffsetEnd=260 PartOfSpeech=NNP] [Text=films CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=,] [Text=like CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT] [Text=Matrix CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=CC] [Text=STop CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=VB] [Text=or CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=CC] [Text=my CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=PRP$] [Text=Mom CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=MD] [Text=Shoot CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=.] 
+root(ROOT-0, made-2)
+nsubj(made-2, He-1)
+det(movie-4, a-3)
+dobj(made-2, movie-4)
+advmod(unlike-6, totally-5)
+mark(Shoot-21, unlike-6)
+det(films-10, those-7)
+amod(films-10, terrible-8)
+nn(films-10, Hollywood-9)
+nsubj(Shoot-21, films-10)
+punct(films-10, ,-11)
+prep(films-10, like-12)
+det(Matrix-14, the-13)
+pobj(like-12, Matrix-14)
+cc(Matrix-14, and-15)
+conj(Matrix-14, STop-16)
+cc(Matrix-14, or-17)
+poss(Mom-19, my-18)
+conj(Matrix-14, Mom-19)
+aux(Shoot-21, will-20)
+advcl(made-2, Shoot-21)
+punct(made-2, .-22)
+
+Sentence #7 (8 tokens):
+It could have been better, though.
+[Text=It CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=VBN] [Text=better CharacterOffsetBegin=338 CharacterOffsetEnd=344 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=,] [Text=though CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.] 
+root(ROOT-0, better-5)
+nsubj(better-5, It-1)
+aux(better-5, could-2)
+aux(better-5, have-3)
+cop(better-5, been-4)
+punct(better-5, ,-6)
+dep(better-5, though-7)
+punct(better-5, .-8)
+
+Sentence #8 (6 tokens):
+I like ninjas and pirates.
+[Text=I CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=VBP] [Text=ninjas CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=CC] [Text=pirates CharacterOffsetBegin=376 CharacterOffsetEnd=383 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=.] 
+root(ROOT-0, like-2)
+nsubj(like-2, I-1)
+dobj(like-2, ninjas-3)
+cc(ninjas-3, and-4)
+conj(ninjas-3, pirates-5)
+punct(like-2, .-6)
+
+Sentence #9 (12 tokens):
+I also like that big talon that the funny man wears.
+[Text=I CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=PRP] [Text=also CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=IN] [Text=big CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=JJ] [Text=talon CharacterOffsetBegin=410 CharacterOffsetEnd=415 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=DT] [Text=funny CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=JJ] [Text=man CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=NN] [Text=wears CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=440 CharacterOffsetEnd=441 PartOfSpeech=.] 
+root(ROOT-0, like-3)
+nsubj(like-3, I-1)
+advmod(like-3, also-2)
+dobj(like-3, that-4)
+amod(talon-6, big-5)
+dep(that-4, talon-6)
+dobj(wears-11, that-7)
+det(man-10, the-8)
+amod(man-10, funny-9)
+nsubj(wears-11, man-10)
+rcmod(talon-6, wears-11)
+punct(like-3, .-12)
+
+Sentence #10 (14 tokens):
+I think he's the coolest guy since that Domino Pizza claymation guy.
+[Text=I CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=PRP] [Text=think CharacterOffsetBegin=448 CharacterOffsetEnd=453 PartOfSpeech=VBP] [Text=he CharacterOffsetBegin=454 CharacterOffsetEnd=456 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=DT] [Text=coolest CharacterOffsetBegin=463 CharacterOffsetEnd=470 PartOfSpeech=JJS] [Text=guy CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=NN] [Text=since CharacterOffsetBegin=475 CharacterOffsetEnd=480 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=DT] [Text=Domino CharacterOffsetBegin=486 CharacterOffsetEnd=492 PartOfSpeech=NNP] [Text=Pizza CharacterOffsetBegin=493 CharacterOffsetEnd=498 PartOfSpeech=NNP] [Text=claymation CharacterOffsetBegin=499 CharacterOffsetEnd=509 PartOfSpeech=NN] [Text=guy CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=513 CharacterOffsetEnd=514 PartOfSpeech=.] 
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+nsubj(guy-7, he-3)
+cop(guy-7, 's-4)
+det(guy-7, the-5)
+amod(guy-7, coolest-6)
+ccomp(think-2, guy-7)
+prep(guy-7, since-8)
+det(guy-13, that-9)
+nn(guy-13, Domino-10)
+nn(guy-13, Pizza-11)
+nn(guy-13, claymation-12)
+pobj(since-8, guy-13)
+punct(think-2, .-14)
+
+Sentence #11 (24 tokens):
+Not only does this movie look really cool, like those out-of-focus movies my dad made of my birthday when I turned 6.
+[Text=Not CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=RB] [Text=does CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=VBZ] [Text=this CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=538 CharacterOffsetEnd=543 PartOfSpeech=NN] [Text=look CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=NN] [Text=really CharacterOffsetBegin=549 CharacterOffsetEnd=555 PartOfSpeech=RB] [Text=cool CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=,] [Text=like CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=567 CharacterOffsetEnd=572 PartOfSpeech=DT] [Text=out-of-focus CharacterOffsetBegin=573 CharacterOffsetEnd=585 PartOfSpeech=JJ] [Text=movies CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=NNS] [Text=my CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=PRP$] [Text=dad CharacterOffsetBegin=596 CharacterOffsetEnd=599 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=600 CharacterOffsetEnd=604 PartOfSpeech=VBN] [Text=of CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=608 CharacterOffsetEnd=610 PartOfSpeech=PRP$] [Text=birthday CharacterOffsetBegin=611 CharacterOffsetEnd=619 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=620 CharacterOffsetEnd=624 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=PRP] [Text=turned CharacterOffsetBegin=627 CharacterOffsetEnd=633 PartOfSpeech=VBD] [Text=6 CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=635 CharacterOffsetEnd=636 PartOfSpeech=.] 
+root(ROOT-0, cool-8)
+neg(only-2, Not-1)
+advmod(cool-8, only-2)
+aux(cool-8, does-3)
+det(look-6, this-4)
+nn(look-6, movie-5)
+nsubj(cool-8, look-6)
+advmod(cool-8, really-7)
+punct(cool-8, ,-9)
+prep(cool-8, like-10)
+det(movies-13, those-11)
+amod(movies-13, out-of-focus-12)
+pobj(like-10, movies-13)
+poss(dad-15, my-14)
+nsubj(made-16, dad-15)
+rcmod(movies-13, made-16)
+prep(made-16, of-17)
+poss(birthday-19, my-18)
+pobj(of-17, birthday-19)
+advmod(turned-22, when-20)
+nsubj(turned-22, I-21)
+dep(cool-8, turned-22)
+dobj(turned-22, 6-23)
+punct(cool-8, .-24)
+
+Sentence #12 (26 tokens):
+BUt it tells a complex tale with dozens of characters that seem to be totally unrelated, but they all meet up in the end.
+[Text=BUt CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=645 CharacterOffsetEnd=647 PartOfSpeech=PRP] [Text=tells CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=654 CharacterOffsetEnd=655 PartOfSpeech=DT] [Text=complex CharacterOffsetBegin=656 CharacterOffsetEnd=663 PartOfSpeech=JJ] [Text=tale CharacterOffsetBegin=664 CharacterOffsetEnd=668 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=IN] [Text=dozens CharacterOffsetBegin=674 CharacterOffsetEnd=680 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=681 CharacterOffsetEnd=683 PartOfSpeech=IN] [Text=characters CharacterOffsetBegin=684 CharacterOffsetEnd=694 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=695 CharacterOffsetEnd=699 PartOfSpeech=WDT] [Text=seem CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=705 CharacterOffsetEnd=707 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=708 CharacterOffsetEnd=710 PartOfSpeech=VB] [Text=totally CharacterOffsetBegin=711 CharacterOffsetEnd=718 PartOfSpeech=RB] [Text=unrelated CharacterOffsetBegin=719 CharacterOffsetEnd=728 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=728 CharacterOffsetEnd=729 PartOfSpeech=,] [Text=but CharacterOffsetBegin=730 CharacterOffsetEnd=733 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=739 CharacterOffsetEnd=742 PartOfSpeech=DT] [Text=meet CharacterOffsetBegin=743 CharacterOffsetEnd=747 PartOfSpeech=VBP] [Text=up CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=751 CharacterOffsetEnd=753 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=754 CharacterOffsetEnd=757 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=761 CharacterOffsetEnd=762 PartOfSpeech=.] 
+root(ROOT-0, BUt-1)
+nsubj(tells-3, it-2)
+ccomp(BUt-1, tells-3)
+det(tale-6, a-4)
+amod(tale-6, complex-5)
+dobj(tells-3, tale-6)
+prep(tells-3, with-7)
+pobj(with-7, dozens-8)
+prep(dozens-8, of-9)
+pobj(of-9, characters-10)
+nsubj(seem-12, that-11)
+rcmod(characters-10, seem-12)
+aux(unrelated-16, to-13)
+cop(unrelated-16, be-14)
+advmod(unrelated-16, totally-15)
+xcomp(seem-12, unrelated-16)
+punct(BUt-1, ,-17)
+cc(BUt-1, but-18)
+nsubj(meet-21, they-19)
+det(they-19, all-20)
+conj(BUt-1, meet-21)
+prt(meet-21, up-22)
+prep(meet-21, in-23)
+det(end-25, the-24)
+pobj(in-23, end-25)
+punct(BUt-1, .-26)
+
+Sentence #13 (14 tokens):
+It's genius how this web is woven to make everything meet up.
+[Text=It CharacterOffsetBegin=767 CharacterOffsetEnd=769 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=769 CharacterOffsetEnd=771 PartOfSpeech=VBZ] [Text=genius CharacterOffsetBegin=772 CharacterOffsetEnd=778 PartOfSpeech=NN] [Text=how CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=WRB] [Text=this CharacterOffsetBegin=783 CharacterOffsetEnd=787 PartOfSpeech=DT] [Text=web CharacterOffsetBegin=788 CharacterOffsetEnd=791 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=792 CharacterOffsetEnd=794 PartOfSpeech=VBZ] [Text=woven CharacterOffsetBegin=795 CharacterOffsetEnd=800 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=801 CharacterOffsetEnd=803 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=804 CharacterOffsetEnd=808 PartOfSpeech=VB] [Text=everything CharacterOffsetBegin=809 CharacterOffsetEnd=819 PartOfSpeech=NN] [Text=meet CharacterOffsetBegin=820 CharacterOffsetEnd=824 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=825 CharacterOffsetEnd=827 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=.] 
+root(ROOT-0, genius-3)
+nsubj(genius-3, It-1)
+cop(genius-3, 's-2)
+advmod(woven-8, how-4)
+det(web-6, this-5)
+nsubjpass(woven-8, web-6)
+auxpass(woven-8, is-7)
+ccomp(genius-3, woven-8)
+aux(make-10, to-9)
+xcomp(woven-8, make-10)
+nsubj(meet-12, everything-11)
+xcomp(make-10, meet-12)
+prt(meet-12, up-13)
+punct(genius-3, .-14)
+
+Sentence #14 (10 tokens):
+I wish Ted V. Mikels would make a sequel.
+[Text=I CharacterOffsetBegin=833 CharacterOffsetEnd=834 PartOfSpeech=PRP] [Text=wish CharacterOffsetBegin=835 CharacterOffsetEnd=839 PartOfSpeech=VBP] [Text=Ted CharacterOffsetBegin=840 CharacterOffsetEnd=843 PartOfSpeech=NNP] [Text=V. CharacterOffsetBegin=844 CharacterOffsetEnd=846 PartOfSpeech=NNP] [Text=Mikels CharacterOffsetBegin=847 CharacterOffsetEnd=853 PartOfSpeech=NNP] [Text=would CharacterOffsetBegin=854 CharacterOffsetEnd=859 PartOfSpeech=MD] [Text=make CharacterOffsetBegin=860 CharacterOffsetEnd=864 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=865 CharacterOffsetEnd=866 PartOfSpeech=DT] [Text=sequel CharacterOffsetBegin=867 CharacterOffsetEnd=873 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=873 CharacterOffsetEnd=874 PartOfSpeech=.] 
+root(ROOT-0, wish-2)
+nsubj(wish-2, I-1)
+nn(Mikels-5, Ted-3)
+nn(Mikels-5, V.-4)
+nsubj(make-7, Mikels-5)
+aux(make-7, would-6)
+ccomp(wish-2, make-7)
+det(sequel-9, a-8)
+dobj(make-7, sequel-9)
+punct(wish-2, .-10)
+
+Sentence #15 (6 tokens):
+But it needs more aliens.
+[Text=But CharacterOffsetBegin=879 CharacterOffsetEnd=882 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=883 CharacterOffsetEnd=885 PartOfSpeech=PRP] [Text=needs CharacterOffsetBegin=886 CharacterOffsetEnd=891 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=RBR] [Text=aliens CharacterOffsetBegin=897 CharacterOffsetEnd=903 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=903 CharacterOffsetEnd=904 PartOfSpeech=.] 
+root(ROOT-0, needs-3)
+cc(needs-3, But-1)
+nsubj(needs-3, it-2)
+advmod(aliens-5, more-4)
+dobj(needs-3, aliens-5)
+punct(needs-3, .-6)
+
+Sentence #16 (4 tokens):
+And a pirate.
+[Text=And CharacterOffsetBegin=909 CharacterOffsetEnd=912 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=913 CharacterOffsetEnd=914 PartOfSpeech=DT] [Text=pirate CharacterOffsetBegin=915 CharacterOffsetEnd=921 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=921 CharacterOffsetEnd=922 PartOfSpeech=.] 
+root(ROOT-0, pirate-3)
+cc(pirate-3, And-1)
+det(pirate-3, a-2)
+punct(pirate-3, .-4)
+

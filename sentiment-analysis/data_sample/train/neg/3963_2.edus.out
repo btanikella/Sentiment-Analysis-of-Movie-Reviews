@@ -1,0 +1,386 @@
+Sentence #1 (25 tokens):
+How many fricken' times do we have to see a spook walking by in the background & peaking through a mirror's reflection?
+[Text=How CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=WRB] [Text=many CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=JJ] [Text=fricken CharacterOffsetBegin=13 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=' CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=''] [Text=times CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=VBP] [Text=we CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=DT] [Text=spook CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=VB] [Text=walking CharacterOffsetBegin=54 CharacterOffsetEnd=61 PartOfSpeech=VBG] [Text=by CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=IN] [Text=in CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=DT] [Text=background CharacterOffsetBegin=72 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=& CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=CC] [Text=peaking CharacterOffsetBegin=85 CharacterOffsetEnd=92 PartOfSpeech=VBG] [Text=through CharacterOffsetBegin=93 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=mirror CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=POS] [Text=reflection CharacterOffsetBegin=112 CharacterOffsetEnd=122 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=.] 
+root(ROOT-0, do-6)
+advmod(many-2, How-1)
+amod(times-5, many-2)
+nn(times-5, fricken-3)
+punct(times-5, '-4)
+nsubj(do-6, times-5)
+nsubj(have-8, we-7)
+ccomp(do-6, have-8)
+aux(see-10, to-9)
+xcomp(have-8, see-10)
+det(spook-12, a-11)
+dobj(see-10, spook-12)
+partmod(spook-12, walking-13)
+prep(walking-13, by-14)
+pcomp(by-14, in-15)
+det(background-17, the-16)
+pobj(in-15, background-17)
+cc(background-17, &-18)
+conj(background-17, peaking-19)
+prep(walking-13, through-20)
+det(mirror-22, a-21)
+poss(reflection-24, mirror-22)
+possessive(mirror-22, 's-23)
+pobj(through-20, reflection-24)
+punct(do-6, ?-25)
+
+Sentence #2 (23 tokens):
+It's been done in two dozen movies in recent memory & four dozen times in this choppy, poorly done film.
+[Text=It CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=VBZ] [Text=been CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=VBN] [Text=done CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN] [Text=two CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=CD] [Text=dozen CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=movies CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN] [Text=recent CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=JJ] [Text=memory CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NN] [Text=& CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=CC] [Text=four CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=CD] [Text=dozen CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=NN] [Text=times CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=DT] [Text=choppy CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=,] [Text=poorly CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=VBN] [Text=film CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.] 
+root(ROOT-0, done-4)
+nsubjpass(done-4, It-1)
+auxpass(done-4, 's-2)
+auxpass(done-4, been-3)
+prep(done-4, in-5)
+num(movies-8, two-6)
+nn(movies-8, dozen-7)
+pobj(in-5, movies-8)
+prep(movies-8, in-9)
+amod(memory-11, recent-10)
+pobj(in-9, memory-11)
+cc(memory-11, &-12)
+num(times-15, four-13)
+nn(times-15, dozen-14)
+conj(memory-11, times-15)
+prep(movies-8, in-16)
+det(film-22, this-17)
+dep(done-21, choppy-18)
+punct(done-21, ,-19)
+advmod(done-21, poorly-20)
+amod(film-22, done-21)
+pobj(in-16, film-22)
+punct(done-4, .-23)
+
+Sentence #3 (20 tokens):
+There were only two freaky moments to appreciate....when the ghosts invaded the personal spaces of two characters.
+[Text=There CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=EX] [Text=were CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=VBD] [Text=only CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=RB] [Text=two CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=CD] [Text=freaky CharacterOffsetBegin=257 CharacterOffsetEnd=263 PartOfSpeech=JJ] [Text=moments CharacterOffsetBegin=264 CharacterOffsetEnd=271 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=TO] [Text=appreciate CharacterOffsetBegin=275 CharacterOffsetEnd=285 PartOfSpeech=VB] [Text=... CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=:] [Text=when CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=DT] [Text=ghosts CharacterOffsetBegin=298 CharacterOffsetEnd=304 PartOfSpeech=NNS] [Text=invaded CharacterOffsetBegin=305 CharacterOffsetEnd=312 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=personal CharacterOffsetBegin=317 CharacterOffsetEnd=325 PartOfSpeech=JJ] [Text=spaces CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=IN] [Text=two CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=CD] [Text=characters CharacterOffsetBegin=340 CharacterOffsetEnd=350 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=.] 
+root(ROOT-0, were-2)
+expl(were-2, There-1)
+quantmod(two-4, only-3)
+num(moments-6, two-4)
+amod(moments-6, freaky-5)
+nsubj(were-2, moments-6)
+aux(appreciate-8, to-7)
+infmod(moments-6, appreciate-8)
+punct(were-2, ...-9)
+advmod(invaded-13, when-10)
+det(ghosts-12, the-11)
+nsubj(invaded-13, ghosts-12)
+advcl(were-2, invaded-13)
+det(spaces-16, the-14)
+amod(spaces-16, personal-15)
+dobj(invaded-13, spaces-16)
+prep(spaces-16, of-17)
+num(characters-19, two-18)
+pobj(of-17, characters-19)
+punct(were-2, .-20)
+
+Sentence #4 (18 tokens):
+Speaking of characters, the acting was as flat as the Diet Coke in the 64 oz.
+[Text=Speaking CharacterOffsetBegin=356 CharacterOffsetEnd=364 PartOfSpeech=VBG] [Text=of CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=IN] [Text=characters CharacterOffsetBegin=368 CharacterOffsetEnd=378 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=,] [Text=the CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=384 CharacterOffsetEnd=390 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=VBD] [Text=as CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=IN] [Text=flat CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=DT] [Text=Diet CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=NNP] [Text=Coke CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=420 CharacterOffsetEnd=422 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=DT] [Text=64 CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=CD] [Text=oz CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=432 CharacterOffsetEnd=433 PartOfSpeech=.] 
+root(ROOT-0, flat-9)
+partmod(flat-9, Speaking-1)
+prep(Speaking-1, of-2)
+pobj(of-2, characters-3)
+punct(flat-9, ,-4)
+det(acting-6, the-5)
+nsubj(flat-9, acting-6)
+cop(flat-9, was-7)
+advmod(flat-9, as-8)
+prep(flat-9, as-10)
+det(Coke-13, the-11)
+nn(Coke-13, Diet-12)
+pobj(as-10, Coke-13)
+prep(flat-9, in-14)
+det(oz-17, the-15)
+num(oz-17, 64-16)
+pobj(in-14, oz-17)
+punct(flat-9, .-18)
+
+Sentence #5 (7 tokens):
+cup I was drawing it from.
+[Text=cup CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=442 CharacterOffsetEnd=443 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=VBD] [Text=drawing CharacterOffsetBegin=448 CharacterOffsetEnd=455 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=PRP] [Text=from CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=.] 
+root(ROOT-0, drawing-4)
+advmod(drawing-4, cup-1)
+nsubj(drawing-4, I-2)
+aux(drawing-4, was-3)
+dobj(drawing-4, it-5)
+prep(drawing-4, from-6)
+punct(drawing-4, .-7)
+
+Sentence #6 (13 tokens):
+The side characters could have been pulled from various Scooby Doo cartoons.
+[Text=The CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=DT] [Text=side CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=NN] [Text=characters CharacterOffsetBegin=478 CharacterOffsetEnd=488 PartOfSpeech=NNS] [Text=could CharacterOffsetBegin=489 CharacterOffsetEnd=494 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=VBN] [Text=pulled CharacterOffsetBegin=505 CharacterOffsetEnd=511 PartOfSpeech=VBN] [Text=from CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=IN] [Text=various CharacterOffsetBegin=517 CharacterOffsetEnd=524 PartOfSpeech=JJ] [Text=Scooby CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=NNP] [Text=Doo CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=NNP] [Text=cartoons CharacterOffsetBegin=536 CharacterOffsetEnd=544 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=.] 
+root(ROOT-0, pulled-7)
+det(characters-3, The-1)
+nn(characters-3, side-2)
+nsubj(pulled-7, characters-3)
+aux(pulled-7, could-4)
+aux(pulled-7, have-5)
+auxpass(pulled-7, been-6)
+prep(pulled-7, from-8)
+amod(cartoons-12, various-9)
+nn(cartoons-12, Scooby-10)
+nn(cartoons-12, Doo-11)
+pobj(from-8, cartoons-12)
+punct(pulled-7, .-13)
+
+Sentence #7 (8 tokens):
+There was the friendly, aged sheriff.
+[Text=There CharacterOffsetBegin=550 CharacterOffsetEnd=555 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=DT] [Text=friendly CharacterOffsetBegin=564 CharacterOffsetEnd=572 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=,] [Text=aged CharacterOffsetBegin=574 CharacterOffsetEnd=578 PartOfSpeech=JJ] [Text=sheriff CharacterOffsetBegin=579 CharacterOffsetEnd=586 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=586 CharacterOffsetEnd=587 PartOfSpeech=.] 
+root(ROOT-0, was-2)
+expl(was-2, There-1)
+det(sheriff-7, the-3)
+amod(sheriff-7, friendly-4)
+punct(sheriff-7, ,-5)
+amod(sheriff-7, aged-6)
+nsubj(was-2, sheriff-7)
+punct(was-2, .-8)
+
+Sentence #8 (14 tokens):
+There was the kooky weirdo living in the backwoods with the Alabama drawl.
+[Text=There CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=DT] [Text=kooky CharacterOffsetBegin=606 CharacterOffsetEnd=611 PartOfSpeech=JJ] [Text=weirdo CharacterOffsetBegin=612 CharacterOffsetEnd=618 PartOfSpeech=NN] [Text=living CharacterOffsetBegin=619 CharacterOffsetEnd=625 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=626 CharacterOffsetEnd=628 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=DT] [Text=backwoods CharacterOffsetBegin=633 CharacterOffsetEnd=642 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=648 CharacterOffsetEnd=651 PartOfSpeech=DT] [Text=Alabama CharacterOffsetBegin=652 CharacterOffsetEnd=659 PartOfSpeech=NNP] [Text=drawl CharacterOffsetBegin=660 CharacterOffsetEnd=665 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=665 CharacterOffsetEnd=666 PartOfSpeech=.] 
+root(ROOT-0, was-2)
+expl(was-2, There-1)
+det(living-6, the-3)
+amod(living-6, kooky-4)
+nn(living-6, weirdo-5)
+nsubj(was-2, living-6)
+prep(living-6, in-7)
+det(backwoods-9, the-8)
+pobj(in-7, backwoods-9)
+prep(backwoods-9, with-10)
+det(drawl-13, the-11)
+nn(drawl-13, Alabama-12)
+pobj(with-10, drawl-13)
+punct(was-2, .-14)
+
+Sentence #9 (7 tokens):
+Lots'o'characters with no development.
+[Text=Lots CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=NNS] [Text=` CharacterOffsetBegin=675 CharacterOffsetEnd=676 PartOfSpeech=``] [Text=o'characters CharacterOffsetBegin=676 CharacterOffsetEnd=688 PartOfSpeech=NNS] [Text=with CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=694 CharacterOffsetEnd=696 PartOfSpeech=DT] [Text=development CharacterOffsetBegin=697 CharacterOffsetEnd=708 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=.] 
+root(ROOT-0, o'characters-3)
+nn(o'characters-3, Lots-1)
+punct(o'characters-3, `-2)
+prep(o'characters-3, with-4)
+det(development-6, no-5)
+pobj(with-4, development-6)
+punct(o'characters-3, .-7)
+
+Sentence #10 (14 tokens):
+The most disturbing image was that of a murdered child in the beginning.
+[Text=The CharacterOffsetBegin=714 CharacterOffsetEnd=717 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=718 CharacterOffsetEnd=722 PartOfSpeech=RBS] [Text=disturbing CharacterOffsetBegin=723 CharacterOffsetEnd=733 PartOfSpeech=JJ] [Text=image CharacterOffsetBegin=734 CharacterOffsetEnd=739 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=740 CharacterOffsetEnd=743 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=744 CharacterOffsetEnd=748 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=749 CharacterOffsetEnd=751 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=DT] [Text=murdered CharacterOffsetBegin=754 CharacterOffsetEnd=762 PartOfSpeech=VBN] [Text=child CharacterOffsetBegin=763 CharacterOffsetEnd=768 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=769 CharacterOffsetEnd=771 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=772 CharacterOffsetEnd=775 PartOfSpeech=DT] [Text=beginning CharacterOffsetBegin=776 CharacterOffsetEnd=785 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=785 CharacterOffsetEnd=786 PartOfSpeech=.] 
+root(ROOT-0, that-6)
+det(image-4, The-1)
+advmod(disturbing-3, most-2)
+amod(image-4, disturbing-3)
+nsubj(that-6, image-4)
+cop(that-6, was-5)
+prep(that-6, of-7)
+det(child-10, a-8)
+amod(child-10, murdered-9)
+pobj(of-7, child-10)
+prep(child-10, in-11)
+det(beginning-13, the-12)
+pobj(in-11, beginning-13)
+punct(that-6, .-14)
+
+Sentence #11 (41 tokens):
+But rather than explore the child's murder, which would have been interesting, they just let us know that she was dead & her parents had a hard time reconciling her death with the community & each other.
+[Text=But CharacterOffsetBegin=791 CharacterOffsetEnd=794 PartOfSpeech=CC] [Text=rather CharacterOffsetBegin=795 CharacterOffsetEnd=801 PartOfSpeech=RB] [Text=than CharacterOffsetBegin=802 CharacterOffsetEnd=806 PartOfSpeech=IN] [Text=explore CharacterOffsetBegin=807 CharacterOffsetEnd=814 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=815 CharacterOffsetEnd=818 PartOfSpeech=DT] [Text=child CharacterOffsetBegin=819 CharacterOffsetEnd=824 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=824 CharacterOffsetEnd=826 PartOfSpeech=POS] [Text=murder CharacterOffsetBegin=827 CharacterOffsetEnd=833 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=833 CharacterOffsetEnd=834 PartOfSpeech=,] [Text=which CharacterOffsetBegin=835 CharacterOffsetEnd=840 PartOfSpeech=WDT] [Text=would CharacterOffsetBegin=841 CharacterOffsetEnd=846 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=847 CharacterOffsetEnd=851 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=852 CharacterOffsetEnd=856 PartOfSpeech=VBN] [Text=interesting CharacterOffsetBegin=857 CharacterOffsetEnd=868 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=868 CharacterOffsetEnd=869 PartOfSpeech=,] [Text=they CharacterOffsetBegin=870 CharacterOffsetEnd=874 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=875 CharacterOffsetEnd=879 PartOfSpeech=RB] [Text=let CharacterOffsetBegin=880 CharacterOffsetEnd=883 PartOfSpeech=VB] [Text=us CharacterOffsetBegin=884 CharacterOffsetEnd=886 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=887 CharacterOffsetEnd=891 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=897 CharacterOffsetEnd=900 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=901 CharacterOffsetEnd=904 PartOfSpeech=VBD] [Text=dead CharacterOffsetBegin=905 CharacterOffsetEnd=909 PartOfSpeech=JJ] [Text=& CharacterOffsetBegin=910 CharacterOffsetEnd=911 PartOfSpeech=CC] [Text=her CharacterOffsetBegin=912 CharacterOffsetEnd=915 PartOfSpeech=PRP$] [Text=parents CharacterOffsetBegin=916 CharacterOffsetEnd=923 PartOfSpeech=NNS] [Text=had CharacterOffsetBegin=924 CharacterOffsetEnd=927 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=928 CharacterOffsetEnd=929 PartOfSpeech=DT] [Text=hard CharacterOffsetBegin=930 CharacterOffsetEnd=934 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=935 CharacterOffsetEnd=939 PartOfSpeech=NN] [Text=reconciling CharacterOffsetBegin=940 CharacterOffsetEnd=951 PartOfSpeech=VBG] [Text=her CharacterOffsetBegin=952 CharacterOffsetEnd=955 PartOfSpeech=PRP$] [Text=death CharacterOffsetBegin=956 CharacterOffsetEnd=961 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=962 CharacterOffsetEnd=966 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=967 CharacterOffsetEnd=970 PartOfSpeech=DT] [Text=community CharacterOffsetBegin=971 CharacterOffsetEnd=980 PartOfSpeech=NN] [Text=& CharacterOffsetBegin=981 CharacterOffsetEnd=982 PartOfSpeech=CC] [Text=each CharacterOffsetBegin=983 CharacterOffsetEnd=987 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=988 CharacterOffsetEnd=993 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=993 CharacterOffsetEnd=994 PartOfSpeech=.] 
+root(ROOT-0, let-18)
+cc(let-18, But-1)
+cc(But-1, rather-2)
+mwe(rather-2, than-3)
+conj(But-1, explore-4)
+det(child-6, the-5)
+poss(murder-8, child-6)
+possessive(child-6, 's-7)
+dobj(explore-4, murder-8)
+punct(murder-8, ,-9)
+nsubj(interesting-14, which-10)
+aux(interesting-14, would-11)
+aux(interesting-14, have-12)
+cop(interesting-14, been-13)
+rcmod(murder-8, interesting-14)
+punct(let-18, ,-15)
+nsubj(let-18, they-16)
+advmod(let-18, just-17)
+nsubj(know-20, us-19)
+ccomp(let-18, know-20)
+mark(dead-24, that-21)
+nsubj(dead-24, she-22)
+cop(dead-24, was-23)
+ccomp(know-20, dead-24)
+cc(dead-24, &-25)
+poss(parents-27, her-26)
+conj(dead-24, parents-27)
+dep(dead-24, had-28)
+det(time-31, a-29)
+amod(time-31, hard-30)
+dobj(had-28, time-31)
+dep(time-31, reconciling-32)
+poss(death-34, her-33)
+dobj(reconciling-32, death-34)
+prep(death-34, with-35)
+det(community-37, the-36)
+pobj(with-35, community-37)
+cc(community-37, &-38)
+det(other-40, each-39)
+conj(community-37, other-40)
+punct(let-18, .-41)
+
+Sentence #12 (24 tokens):
+When they reach the cabin, the scenes rarely flowed together....with flashing images of the dead daughter interjected here & there.
+[Text=When CharacterOffsetBegin=999 CharacterOffsetEnd=1003 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=1004 CharacterOffsetEnd=1008 PartOfSpeech=PRP] [Text=reach CharacterOffsetBegin=1009 CharacterOffsetEnd=1014 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=1015 CharacterOffsetEnd=1018 PartOfSpeech=DT] [Text=cabin CharacterOffsetBegin=1019 CharacterOffsetEnd=1024 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1024 CharacterOffsetEnd=1025 PartOfSpeech=,] [Text=the CharacterOffsetBegin=1026 CharacterOffsetEnd=1029 PartOfSpeech=DT] [Text=scenes CharacterOffsetBegin=1030 CharacterOffsetEnd=1036 PartOfSpeech=NNS] [Text=rarely CharacterOffsetBegin=1037 CharacterOffsetEnd=1043 PartOfSpeech=RB] [Text=flowed CharacterOffsetBegin=1044 CharacterOffsetEnd=1050 PartOfSpeech=VBD] [Text=together CharacterOffsetBegin=1051 CharacterOffsetEnd=1059 PartOfSpeech=RB] [Text=... CharacterOffsetBegin=1059 CharacterOffsetEnd=1063 PartOfSpeech=:] [Text=with CharacterOffsetBegin=1063 CharacterOffsetEnd=1067 PartOfSpeech=IN] [Text=flashing CharacterOffsetBegin=1068 CharacterOffsetEnd=1076 PartOfSpeech=VBG] [Text=images CharacterOffsetBegin=1077 CharacterOffsetEnd=1083 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=1084 CharacterOffsetEnd=1086 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1087 CharacterOffsetEnd=1090 PartOfSpeech=DT] [Text=dead CharacterOffsetBegin=1091 CharacterOffsetEnd=1095 PartOfSpeech=JJ] [Text=daughter CharacterOffsetBegin=1096 CharacterOffsetEnd=1104 PartOfSpeech=NN] [Text=interjected CharacterOffsetBegin=1105 CharacterOffsetEnd=1116 PartOfSpeech=VBN] [Text=here CharacterOffsetBegin=1117 CharacterOffsetEnd=1121 PartOfSpeech=RB] [Text=& CharacterOffsetBegin=1122 CharacterOffsetEnd=1123 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=1124 CharacterOffsetEnd=1129 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1129 CharacterOffsetEnd=1130 PartOfSpeech=.] 
+root(ROOT-0, flowed-10)
+advmod(reach-3, When-1)
+nsubj(reach-3, they-2)
+advcl(flowed-10, reach-3)
+det(cabin-5, the-4)
+dobj(reach-3, cabin-5)
+punct(flowed-10, ,-6)
+det(scenes-8, the-7)
+nsubj(flowed-10, scenes-8)
+advmod(flowed-10, rarely-9)
+prt(flowed-10, together-11)
+punct(flowed-10, ...-12)
+prep(flowed-10, with-13)
+nn(images-15, flashing-14)
+pobj(with-13, images-15)
+prep(images-15, of-16)
+det(daughter-19, the-17)
+amod(daughter-19, dead-18)
+pobj(of-16, daughter-19)
+dep(daughter-19, interjected-20)
+advmod(interjected-20, here-21)
+cc(interjected-20, &-22)
+conj(interjected-20, there-23)
+punct(flowed-10, .-24)
+
+Sentence #13 (10 tokens):
+Oh...and the eerie sounds were also overdone.
+[Text=Oh CharacterOffsetBegin=1135 CharacterOffsetEnd=1137 PartOfSpeech=UH] [Text=... CharacterOffsetBegin=1137 CharacterOffsetEnd=1140 PartOfSpeech=:] [Text=and CharacterOffsetBegin=1140 CharacterOffsetEnd=1143 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=1144 CharacterOffsetEnd=1147 PartOfSpeech=DT] [Text=eerie CharacterOffsetBegin=1148 CharacterOffsetEnd=1153 PartOfSpeech=JJ] [Text=sounds CharacterOffsetBegin=1154 CharacterOffsetEnd=1160 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=1161 CharacterOffsetEnd=1165 PartOfSpeech=VBD] [Text=also CharacterOffsetBegin=1166 CharacterOffsetEnd=1170 PartOfSpeech=RB] [Text=overdone CharacterOffsetBegin=1171 CharacterOffsetEnd=1179 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=1179 CharacterOffsetEnd=1180 PartOfSpeech=.] 
+root(ROOT-0, overdone-9)
+nsubjpass(overdone-9, Oh-1)
+punct(Oh-1, ...-2)
+cc(Oh-1, and-3)
+det(sounds-6, the-4)
+amod(sounds-6, eerie-5)
+conj(Oh-1, sounds-6)
+auxpass(overdone-9, were-7)
+advmod(overdone-9, also-8)
+punct(overdone-9, .-10)
+
+Sentence #14 (22 tokens):
+You know what I mean....creaking doors that open by themselves, crickets in the forest, yada yada yada.
+[Text=You CharacterOffsetBegin=1185 CharacterOffsetEnd=1188 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=1189 CharacterOffsetEnd=1193 PartOfSpeech=VBP] [Text=what CharacterOffsetBegin=1194 CharacterOffsetEnd=1198 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=1199 CharacterOffsetEnd=1200 PartOfSpeech=PRP] [Text=mean CharacterOffsetBegin=1201 CharacterOffsetEnd=1205 PartOfSpeech=VBP] [Text=... CharacterOffsetBegin=1205 CharacterOffsetEnd=1209 PartOfSpeech=:] [Text=creaking CharacterOffsetBegin=1209 CharacterOffsetEnd=1217 PartOfSpeech=VBG] [Text=doors CharacterOffsetBegin=1218 CharacterOffsetEnd=1223 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=1224 CharacterOffsetEnd=1228 PartOfSpeech=WDT] [Text=open CharacterOffsetBegin=1229 CharacterOffsetEnd=1233 PartOfSpeech=VBP] [Text=by CharacterOffsetBegin=1234 CharacterOffsetEnd=1236 PartOfSpeech=IN] [Text=themselves CharacterOffsetBegin=1237 CharacterOffsetEnd=1247 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=1247 CharacterOffsetEnd=1248 PartOfSpeech=,] [Text=crickets CharacterOffsetBegin=1249 CharacterOffsetEnd=1257 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=1258 CharacterOffsetEnd=1260 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1261 CharacterOffsetEnd=1264 PartOfSpeech=DT] [Text=forest CharacterOffsetBegin=1265 CharacterOffsetEnd=1271 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1271 CharacterOffsetEnd=1272 PartOfSpeech=,] [Text=yada CharacterOffsetBegin=1273 CharacterOffsetEnd=1277 PartOfSpeech=NN] [Text=yada CharacterOffsetBegin=1278 CharacterOffsetEnd=1282 PartOfSpeech=NN] [Text=yada CharacterOffsetBegin=1283 CharacterOffsetEnd=1287 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1287 CharacterOffsetEnd=1288 PartOfSpeech=.] 
+root(ROOT-0, know-2)
+nsubj(know-2, You-1)
+dobj(mean-5, what-3)
+nsubj(mean-5, I-4)
+ccomp(know-2, mean-5)
+punct(know-2, ...-6)
+amod(doors-8, creaking-7)
+dobj(know-2, doors-8)
+nsubj(open-10, that-9)
+rcmod(doors-8, open-10)
+prep(open-10, by-11)
+pobj(by-11, themselves-12)
+punct(open-10, ,-13)
+conj(open-10, crickets-14)
+prep(crickets-14, in-15)
+det(forest-17, the-16)
+pobj(in-15, forest-17)
+punct(open-10, ,-18)
+nn(yada-21, yada-19)
+nn(yada-21, yada-20)
+conj(open-10, yada-21)
+punct(know-2, .-22)
+
+Sentence #15 (2 tokens):
+Ooooohhhh.
+[Text=Ooooohhhh CharacterOffsetBegin=1293 CharacterOffsetEnd=1302 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1302 CharacterOffsetEnd=1303 PartOfSpeech=.] 
+root(ROOT-0, Ooooohhhh-1)
+punct(Ooooohhhh-1, .-2)
+
+Sentence #16 (6 tokens):
+Haven't seen that before.
+[Text=Have CharacterOffsetBegin=1308 CharacterOffsetEnd=1312 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=1312 CharacterOffsetEnd=1315 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=1316 CharacterOffsetEnd=1320 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=1321 CharacterOffsetEnd=1325 PartOfSpeech=IN] [Text=before CharacterOffsetBegin=1326 CharacterOffsetEnd=1332 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1332 CharacterOffsetEnd=1333 PartOfSpeech=.] 
+root(ROOT-0, seen-3)
+aux(seen-3, Have-1)
+neg(seen-3, n't-2)
+dep(seen-3, that-4)
+advmod(that-4, before-5)
+punct(seen-3, .-6)
+
+Sentence #17 (19 tokens):
+Again, you'll see the amazing self-opening door in the movie over and over an over again.
+[Text=Again CharacterOffsetBegin=1338 CharacterOffsetEnd=1343 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=1343 CharacterOffsetEnd=1344 PartOfSpeech=,] [Text=you CharacterOffsetBegin=1345 CharacterOffsetEnd=1348 PartOfSpeech=PRP] [Text='ll CharacterOffsetBegin=1348 CharacterOffsetEnd=1351 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=1352 CharacterOffsetEnd=1355 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=1356 CharacterOffsetEnd=1359 PartOfSpeech=DT] [Text=amazing CharacterOffsetBegin=1360 CharacterOffsetEnd=1367 PartOfSpeech=JJ] [Text=self-opening CharacterOffsetBegin=1368 CharacterOffsetEnd=1380 PartOfSpeech=JJ] [Text=door CharacterOffsetBegin=1381 CharacterOffsetEnd=1385 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=1386 CharacterOffsetEnd=1388 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1389 CharacterOffsetEnd=1392 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=1393 CharacterOffsetEnd=1398 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=1399 CharacterOffsetEnd=1403 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=1404 CharacterOffsetEnd=1407 PartOfSpeech=CC] [Text=over CharacterOffsetBegin=1408 CharacterOffsetEnd=1412 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=1413 CharacterOffsetEnd=1415 PartOfSpeech=DT] [Text=over CharacterOffsetBegin=1416 CharacterOffsetEnd=1420 PartOfSpeech=RB] [Text=again CharacterOffsetBegin=1421 CharacterOffsetEnd=1426 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1426 CharacterOffsetEnd=1427 PartOfSpeech=.] 
+root(ROOT-0, see-5)
+advmod(see-5, Again-1)
+punct(see-5, ,-2)
+nsubj(see-5, you-3)
+aux(see-5, 'll-4)
+det(door-9, the-6)
+amod(door-9, amazing-7)
+amod(door-9, self-opening-8)
+dobj(see-5, door-9)
+prep(door-9, in-10)
+det(movie-12, the-11)
+pobj(in-10, movie-12)
+prep(see-5, over-13)
+cc(over-13, and-14)
+conj(over-13, over-15)
+pobj(over-15, an-16)
+advmod(again-18, over-17)
+advmod(an-16, again-18)
+punct(see-5, .-19)
+
+Sentence #18 (23 tokens):
+NOTE TO DIRECTOR: a scary scene is only scary if it's not repeated every 5 minutes in the same film.
+[Text=NOTE CharacterOffsetBegin=1432 CharacterOffsetEnd=1436 PartOfSpeech=VB] [Text=TO CharacterOffsetBegin=1437 CharacterOffsetEnd=1439 PartOfSpeech=TO] [Text=DIRECTOR CharacterOffsetBegin=1440 CharacterOffsetEnd=1448 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=1448 CharacterOffsetEnd=1449 PartOfSpeech=:] [Text=a CharacterOffsetBegin=1450 CharacterOffsetEnd=1451 PartOfSpeech=DT] [Text=scary CharacterOffsetBegin=1452 CharacterOffsetEnd=1457 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=1458 CharacterOffsetEnd=1463 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=1464 CharacterOffsetEnd=1466 PartOfSpeech=VBZ] [Text=only CharacterOffsetBegin=1467 CharacterOffsetEnd=1471 PartOfSpeech=RB] [Text=scary CharacterOffsetBegin=1472 CharacterOffsetEnd=1477 PartOfSpeech=JJ] [Text=if CharacterOffsetBegin=1478 CharacterOffsetEnd=1480 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=1481 CharacterOffsetEnd=1483 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=1483 CharacterOffsetEnd=1485 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=1486 CharacterOffsetEnd=1489 PartOfSpeech=RB] [Text=repeated CharacterOffsetBegin=1490 CharacterOffsetEnd=1498 PartOfSpeech=VBN] [Text=every CharacterOffsetBegin=1499 CharacterOffsetEnd=1504 PartOfSpeech=DT] [Text=5 CharacterOffsetBegin=1505 CharacterOffsetEnd=1506 PartOfSpeech=CD] [Text=minutes CharacterOffsetBegin=1507 CharacterOffsetEnd=1514 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=1515 CharacterOffsetEnd=1517 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1518 CharacterOffsetEnd=1521 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=1522 CharacterOffsetEnd=1526 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=1527 CharacterOffsetEnd=1531 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1531 CharacterOffsetEnd=1532 PartOfSpeech=.] 
+root(ROOT-0, NOTE-1)
+nn(DIRECTOR-3, TO-2)
+dobj(NOTE-1, DIRECTOR-3)
+punct(DIRECTOR-3, :-4)
+det(scene-7, a-5)
+amod(scene-7, scary-6)
+nsubj(scary-10, scene-7)
+cop(scary-10, is-8)
+advmod(scary-10, only-9)
+dep(DIRECTOR-3, scary-10)
+mark(repeated-15, if-11)
+nsubjpass(repeated-15, it-12)
+auxpass(repeated-15, 's-13)
+neg(repeated-15, not-14)
+advcl(scary-10, repeated-15)
+det(minutes-18, every-16)
+num(minutes-18, 5-17)
+dobj(repeated-15, minutes-18)
+prep(minutes-18, in-19)
+det(film-22, the-20)
+amod(film-22, same-21)
+pobj(in-19, film-22)
+punct(NOTE-1, .-23)
+
+Sentence #19 (14 tokens):
+Think these things out before calling out "it's a wrap!"
+[Text=Think CharacterOffsetBegin=1537 CharacterOffsetEnd=1542 PartOfSpeech=VB] [Text=these CharacterOffsetBegin=1543 CharacterOffsetEnd=1548 PartOfSpeech=DT] [Text=things CharacterOffsetBegin=1549 CharacterOffsetEnd=1555 PartOfSpeech=NNS] [Text=out CharacterOffsetBegin=1556 CharacterOffsetEnd=1559 PartOfSpeech=RP] [Text=before CharacterOffsetBegin=1560 CharacterOffsetEnd=1566 PartOfSpeech=IN] [Text=calling CharacterOffsetBegin=1567 CharacterOffsetEnd=1574 PartOfSpeech=VBG] [Text=out CharacterOffsetBegin=1575 CharacterOffsetEnd=1578 PartOfSpeech=RP] [Text=`` CharacterOffsetBegin=1579 CharacterOffsetEnd=1580 PartOfSpeech=``] [Text=it CharacterOffsetBegin=1580 CharacterOffsetEnd=1582 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=1582 CharacterOffsetEnd=1584 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=1585 CharacterOffsetEnd=1586 PartOfSpeech=DT] [Text=wrap CharacterOffsetBegin=1587 CharacterOffsetEnd=1591 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=1591 CharacterOffsetEnd=1592 PartOfSpeech=.] [Text='' CharacterOffsetBegin=1592 CharacterOffsetEnd=1593 PartOfSpeech=''] 
+root(ROOT-0, Think-1)
+det(things-3, these-2)
+dobj(Think-1, things-3)
+prt(Think-1, out-4)
+prep(Think-1, before-5)
+pcomp(before-5, calling-6)
+prt(calling-6, out-7)
+punct(calling-6, ``-8)
+nsubj(wrap-12, it-9)
+cop(wrap-12, 's-10)
+det(wrap-12, a-11)
+ccomp(calling-6, wrap-12)
+punct(Think-1, !-13)
+punct(Think-1, ''-14)
+

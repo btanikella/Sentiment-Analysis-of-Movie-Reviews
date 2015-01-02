@@ -1,0 +1,853 @@
+Sentence #1 (5 tokens):
+[CONTAINS SPOILERS!!!
+    ]
+[Text=-LSB- CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=-LRB-] [Text=CONTAINS CharacterOffsetBegin=5 CharacterOffsetEnd=13 PartOfSpeech=VBZ] [Text=SPOILERS CharacterOffsetBegin=14 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=!!! CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=CD] [Text=-RSB- CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=-RRB-] 
+root(ROOT-0, CONTAINS-2)
+punct(CONTAINS-2, -LSB--1)
+dep(CONTAINS-2, SPOILERS-3)
+num(SPOILERS-3, !!!-4)
+punct(CONTAINS-2, -RSB--5)
+
+Sentence #2 (11 tokens):
+Garfield and his owner Jon Arbuckle were in a rut.
+[Text=Garfield CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=PRP$] [Text=owner CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NN] [Text=Jon CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=NNP] [Text=Arbuckle CharacterOffsetBegin=59 CharacterOffsetEnd=67 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=DT] [Text=rut CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.] 
+root(ROOT-0, were-7)
+nsubj(were-7, Garfield-1)
+cc(Garfield-1, and-2)
+poss(owner-4, his-3)
+conj(Garfield-1, owner-4)
+nn(Arbuckle-6, Jon-5)
+dep(owner-4, Arbuckle-6)
+prep(were-7, in-8)
+det(rut-10, a-9)
+pobj(in-8, rut-10)
+punct(were-7, .-11)
+
+Sentence #3 (8 tokens):
+They basically had no life at all.
+[Text=They CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=PRP] [Text=basically CharacterOffsetBegin=92 CharacterOffsetEnd=101 PartOfSpeech=RB] [Text=had CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=DT] [Text=life CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=.] 
+root(ROOT-0, had-3)
+nsubj(had-3, They-1)
+advmod(had-3, basically-2)
+det(life-5, no-4)
+dobj(had-3, life-5)
+advmod(had-3, at-6)
+pobj(at-6, all-7)
+punct(had-3, .-8)
+
+Sentence #4 (12 tokens):
+All they did was lay around and count the ceiling tiles.
+[Text=All CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT] [Text=they CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=VBD] [Text=was CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=VBD] [Text=lay CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=VBN] [Text=around CharacterOffsetBegin=147 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=CC] [Text=count CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=DT] [Text=ceiling CharacterOffsetBegin=168 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=tiles CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=.] 
+root(ROOT-0, lay-5)
+nsubjpass(lay-5, All-1)
+nsubj(did-3, they-2)
+rcmod(All-1, did-3)
+auxpass(lay-5, was-4)
+advmod(lay-5, around-6)
+cc(lay-5, and-7)
+conj(lay-5, count-8)
+det(tiles-11, the-9)
+nn(tiles-11, ceiling-10)
+dobj(count-8, tiles-11)
+punct(lay-5, .-12)
+
+Sentence #5 (12 tokens):
+Jon even organized his sock drawer according to color and fabric.
+[Text=Jon CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=NNP] [Text=even CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=RB] [Text=organized CharacterOffsetBegin=196 CharacterOffsetEnd=205 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=PRP$] [Text=sock CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=NN] [Text=drawer CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=NN] [Text=according CharacterOffsetBegin=222 CharacterOffsetEnd=231 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=TO] [Text=color CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=CC] [Text=fabric CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.] 
+root(ROOT-0, organized-3)
+nsubj(organized-3, Jon-1)
+advmod(organized-3, even-2)
+poss(drawer-6, his-4)
+nn(drawer-6, sock-5)
+dobj(organized-3, drawer-6)
+prep(organized-3, according-7)
+pcomp(according-7, to-8)
+pobj(to-8, color-9)
+cc(color-9, and-10)
+conj(color-9, fabric-11)
+punct(organized-3, .-12)
+
+Sentence #6 (5 tokens):
+He needed a life.
+[Text=He CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=PRP] [Text=needed CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=life CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=.] 
+root(ROOT-0, needed-2)
+nsubj(needed-2, He-1)
+det(life-4, a-3)
+dobj(needed-2, life-4)
+punct(needed-2, .-5)
+
+Sentence #7 (16 tokens):
+So he consults a book on the subject that tells him to meet a woman.
+[Text=So CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=PRP] [Text=consults CharacterOffsetBegin=285 CharacterOffsetEnd=293 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=DT] [Text=book CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT] [Text=subject CharacterOffsetBegin=308 CharacterOffsetEnd=315 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=WDT] [Text=tells CharacterOffsetBegin=321 CharacterOffsetEnd=326 PartOfSpeech=VBZ] [Text=him CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=TO] [Text=meet CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=341 CharacterOffsetEnd=346 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=.] 
+root(ROOT-0, consults-3)
+dep(consults-3, So-1)
+nsubj(consults-3, he-2)
+det(book-5, a-4)
+dobj(consults-3, book-5)
+prep(book-5, on-6)
+det(subject-8, the-7)
+pobj(on-6, subject-8)
+nsubj(tells-10, that-9)
+rcmod(subject-8, tells-10)
+nsubj(meet-13, him-11)
+aux(meet-13, to-12)
+xcomp(tells-10, meet-13)
+det(woman-15, a-14)
+dobj(meet-13, woman-15)
+punct(consults-3, .-16)
+
+Sentence #8 (11 tokens):
+A singles' bar was a great place to start.
+[Text=A CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=DT] [Text=singles CharacterOffsetBegin=354 CharacterOffsetEnd=361 PartOfSpeech=NNS] [Text=' CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=POS] [Text=bar CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=JJ] [Text=place CharacterOffsetBegin=379 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=TO] [Text=start CharacterOffsetBegin=388 CharacterOffsetEnd=393 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.] 
+root(ROOT-0, place-8)
+det(singles-2, A-1)
+poss(bar-4, singles-2)
+possessive(singles-2, '-3)
+nsubj(place-8, bar-4)
+cop(place-8, was-5)
+det(place-8, a-6)
+amod(place-8, great-7)
+aux(start-10, to-9)
+infmod(place-8, start-10)
+punct(place-8, .-11)
+
+Sentence #9 (24 tokens):
+Unfortunately, when the music started and Jon hit the dance floor, we see what made disco die: Jon killed it.
+[Text=Unfortunately CharacterOffsetBegin=399 CharacterOffsetEnd=412 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=412 CharacterOffsetEnd=413 PartOfSpeech=,] [Text=when CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=DT] [Text=music CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=NN] [Text=started CharacterOffsetBegin=429 CharacterOffsetEnd=436 PartOfSpeech=VBD] [Text=and CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=CC] [Text=Jon CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=NNP] [Text=hit CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=DT] [Text=dance CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=NN] [Text=floor CharacterOffsetBegin=459 CharacterOffsetEnd=464 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=,] [Text=we CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=VBP] [Text=what CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=WP] [Text=made CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=VBD] [Text=disco CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=NN] [Text=die CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=:] [Text=Jon CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=NNP] [Text=killed CharacterOffsetBegin=498 CharacterOffsetEnd=504 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=505 CharacterOffsetEnd=507 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=.] 
+root(ROOT-0, see-15)
+advmod(see-15, Unfortunately-1)
+punct(see-15, ,-2)
+advmod(started-6, when-3)
+det(music-5, the-4)
+nsubj(started-6, music-5)
+advcl(see-15, started-6)
+cc(started-6, and-7)
+nsubj(hit-9, Jon-8)
+conj(started-6, hit-9)
+det(floor-12, the-10)
+nn(floor-12, dance-11)
+dobj(hit-9, floor-12)
+punct(see-15, ,-13)
+nsubj(see-15, we-14)
+nsubj(made-17, what-16)
+ccomp(see-15, made-17)
+nn(die-19, disco-18)
+dobj(made-17, die-19)
+punct(see-15, :-20)
+nsubj(killed-22, Jon-21)
+parataxis(see-15, killed-22)
+dobj(killed-22, it-23)
+punct(see-15, .-24)
+
+Sentence #10 (12 tokens):
+Jon next tried to pick up girls at the video store.
+[Text=Jon CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=NNP] [Text=next CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=JJ] [Text=tried CharacterOffsetBegin=522 CharacterOffsetEnd=527 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=528 CharacterOffsetEnd=530 PartOfSpeech=TO] [Text=pick CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=RP] [Text=girls CharacterOffsetBegin=539 CharacterOffsetEnd=544 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT] [Text=video CharacterOffsetBegin=552 CharacterOffsetEnd=557 PartOfSpeech=NN] [Text=store CharacterOffsetBegin=558 CharacterOffsetEnd=563 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=.] 
+root(ROOT-0, tried-3)
+nsubj(tried-3, Jon-1)
+advmod(tried-3, next-2)
+aux(pick-5, to-4)
+xcomp(tried-3, pick-5)
+prt(pick-5, up-6)
+dobj(pick-5, girls-7)
+prep(pick-5, at-8)
+det(store-11, the-9)
+nn(store-11, video-10)
+pobj(at-8, store-11)
+punct(tried-3, .-12)
+
+Sentence #11 (9 tokens):
+He ended up feeling down in the mouth.
+[Text=He CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=PRP] [Text=ended CharacterOffsetBegin=572 CharacterOffsetEnd=577 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=RP] [Text=feeling CharacterOffsetBegin=581 CharacterOffsetEnd=588 PartOfSpeech=VBG] [Text=down CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=DT] [Text=mouth CharacterOffsetBegin=601 CharacterOffsetEnd=606 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=606 CharacterOffsetEnd=607 PartOfSpeech=.] 
+root(ROOT-0, ended-2)
+nsubj(ended-2, He-1)
+prt(ended-2, up-3)
+xcomp(ended-2, feeling-4)
+prt(feeling-4, down-5)
+prep(feeling-4, in-6)
+det(mouth-8, the-7)
+pobj(in-6, mouth-8)
+punct(ended-2, .-9)
+
+Sentence #12 (2 tokens):
+Literally.
+[Text=Literally CharacterOffsetBegin=612 CharacterOffsetEnd=621 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=621 CharacterOffsetEnd=622 PartOfSpeech=.] 
+root(ROOT-0, Literally-1)
+punct(Literally-1, .-2)
+
+Sentence #13 (21 tokens):
+The laundromat was no prize either when Jon and his would-be date get a glimpse of each other's underwear.
+[Text=The CharacterOffsetBegin=627 CharacterOffsetEnd=630 PartOfSpeech=DT] [Text=laundromat CharacterOffsetBegin=631 CharacterOffsetEnd=641 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=VBD] [Text=no CharacterOffsetBegin=646 CharacterOffsetEnd=648 PartOfSpeech=DT] [Text=prize CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=NN] [Text=either CharacterOffsetBegin=655 CharacterOffsetEnd=661 PartOfSpeech=CC] [Text=when CharacterOffsetBegin=662 CharacterOffsetEnd=666 PartOfSpeech=WRB] [Text=Jon CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=671 CharacterOffsetEnd=674 PartOfSpeech=CC] [Text=his CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=PRP$] [Text=would-be CharacterOffsetBegin=679 CharacterOffsetEnd=687 PartOfSpeech=JJ] [Text=date CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=NN] [Text=get CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=697 CharacterOffsetEnd=698 PartOfSpeech=DT] [Text=glimpse CharacterOffsetBegin=699 CharacterOffsetEnd=706 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=707 CharacterOffsetEnd=709 PartOfSpeech=IN] [Text=each CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=715 CharacterOffsetEnd=720 PartOfSpeech=JJ] [Text='s CharacterOffsetBegin=720 CharacterOffsetEnd=722 PartOfSpeech=POS] [Text=underwear CharacterOffsetBegin=723 CharacterOffsetEnd=732 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=732 CharacterOffsetEnd=733 PartOfSpeech=.] 
+root(ROOT-0, prize-5)
+det(laundromat-2, The-1)
+nsubj(prize-5, laundromat-2)
+cop(prize-5, was-3)
+det(prize-5, no-4)
+prep(prize-5, either-6)
+advmod(get-13, when-7)
+nsubj(get-13, Jon-8)
+cc(Jon-8, and-9)
+poss(date-12, his-10)
+amod(date-12, would-be-11)
+conj(Jon-8, date-12)
+dep(either-6, get-13)
+det(glimpse-15, a-14)
+dobj(get-13, glimpse-15)
+prep(glimpse-15, of-16)
+det(other-18, each-17)
+poss(underwear-20, other-18)
+possessive(other-18, 's-19)
+pobj(of-16, underwear-20)
+punct(prize-5, .-21)
+
+Sentence #14 (32 tokens):
+Jon tried to act all buff at the beach, but soon he angered a real buff guy, which left Jon feeling, once again, down in the mouth.
+[Text=Jon CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=NNP] [Text=tried CharacterOffsetBegin=742 CharacterOffsetEnd=747 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=TO] [Text=act CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=VB] [Text=all CharacterOffsetBegin=755 CharacterOffsetEnd=758 PartOfSpeech=DT] [Text=buff CharacterOffsetBegin=759 CharacterOffsetEnd=763 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=764 CharacterOffsetEnd=766 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=767 CharacterOffsetEnd=770 PartOfSpeech=DT] [Text=beach CharacterOffsetBegin=771 CharacterOffsetEnd=776 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=776 CharacterOffsetEnd=777 PartOfSpeech=,] [Text=but CharacterOffsetBegin=778 CharacterOffsetEnd=781 PartOfSpeech=CC] [Text=soon CharacterOffsetBegin=782 CharacterOffsetEnd=786 PartOfSpeech=RB] [Text=he CharacterOffsetBegin=787 CharacterOffsetEnd=789 PartOfSpeech=PRP] [Text=angered CharacterOffsetBegin=790 CharacterOffsetEnd=797 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=798 CharacterOffsetEnd=799 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=800 CharacterOffsetEnd=804 PartOfSpeech=JJ] [Text=buff CharacterOffsetBegin=805 CharacterOffsetEnd=809 PartOfSpeech=NN] [Text=guy CharacterOffsetBegin=810 CharacterOffsetEnd=813 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=813 CharacterOffsetEnd=814 PartOfSpeech=,] [Text=which CharacterOffsetBegin=815 CharacterOffsetEnd=820 PartOfSpeech=WDT] [Text=left CharacterOffsetBegin=821 CharacterOffsetEnd=825 PartOfSpeech=VBD] [Text=Jon CharacterOffsetBegin=826 CharacterOffsetEnd=829 PartOfSpeech=NNP] [Text=feeling CharacterOffsetBegin=830 CharacterOffsetEnd=837 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=837 CharacterOffsetEnd=838 PartOfSpeech=,] [Text=once CharacterOffsetBegin=839 CharacterOffsetEnd=843 PartOfSpeech=RB] [Text=again CharacterOffsetBegin=844 CharacterOffsetEnd=849 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=849 CharacterOffsetEnd=850 PartOfSpeech=,] [Text=down CharacterOffsetBegin=851 CharacterOffsetEnd=855 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=856 CharacterOffsetEnd=858 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=859 CharacterOffsetEnd=862 PartOfSpeech=DT] [Text=mouth CharacterOffsetBegin=863 CharacterOffsetEnd=868 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=868 CharacterOffsetEnd=869 PartOfSpeech=.] 
+root(ROOT-0, tried-2)
+nsubj(tried-2, Jon-1)
+aux(act-4, to-3)
+xcomp(tried-2, act-4)
+det(buff-6, all-5)
+dobj(act-4, buff-6)
+prep(act-4, at-7)
+det(beach-9, the-8)
+pobj(at-7, beach-9)
+punct(tried-2, ,-10)
+cc(tried-2, but-11)
+advmod(angered-14, soon-12)
+nsubj(angered-14, he-13)
+conj(tried-2, angered-14)
+det(guy-18, a-15)
+amod(guy-18, real-16)
+nn(guy-18, buff-17)
+dobj(angered-14, guy-18)
+punct(guy-18, ,-19)
+nsubj(left-21, which-20)
+rcmod(guy-18, left-21)
+nn(feeling-23, Jon-22)
+dobj(left-21, feeling-23)
+punct(guy-18, ,-24)
+advmod(again-26, once-25)
+advmod(guy-18, again-26)
+punct(guy-18, ,-27)
+advmod(guy-18, down-28)
+prep(down-28, in-29)
+det(mouth-31, the-30)
+pobj(in-29, mouth-31)
+punct(tried-2, .-32)
+
+Sentence #15 (2 tokens):
+Literally.
+[Text=Literally CharacterOffsetBegin=874 CharacterOffsetEnd=883 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=883 CharacterOffsetEnd=884 PartOfSpeech=.] 
+root(ROOT-0, Literally-1)
+punct(Literally-1, .-2)
+
+Sentence #16 (12 tokens):
+Jon then tried to pick up girls walking and jogging by.
+[Text=Jon CharacterOffsetBegin=889 CharacterOffsetEnd=892 PartOfSpeech=NNP] [Text=then CharacterOffsetBegin=893 CharacterOffsetEnd=897 PartOfSpeech=RB] [Text=tried CharacterOffsetBegin=898 CharacterOffsetEnd=903 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=904 CharacterOffsetEnd=906 PartOfSpeech=TO] [Text=pick CharacterOffsetBegin=907 CharacterOffsetEnd=911 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=912 CharacterOffsetEnd=914 PartOfSpeech=RP] [Text=girls CharacterOffsetBegin=915 CharacterOffsetEnd=920 PartOfSpeech=NNS] [Text=walking CharacterOffsetBegin=921 CharacterOffsetEnd=928 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=929 CharacterOffsetEnd=932 PartOfSpeech=CC] [Text=jogging CharacterOffsetBegin=933 CharacterOffsetEnd=940 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=941 CharacterOffsetEnd=943 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=943 CharacterOffsetEnd=944 PartOfSpeech=.] 
+root(ROOT-0, tried-3)
+nsubj(tried-3, Jon-1)
+advmod(tried-3, then-2)
+aux(pick-5, to-4)
+xcomp(tried-3, pick-5)
+prt(pick-5, up-6)
+dobj(pick-5, girls-7)
+partmod(girls-7, walking-8)
+cc(walking-8, and-9)
+conj(walking-8, jogging-10)
+prep(walking-8, by-11)
+punct(tried-3, .-12)
+
+Sentence #17 (3 tokens):
+No avail.
+[Text=No CharacterOffsetBegin=949 CharacterOffsetEnd=951 PartOfSpeech=DT] [Text=avail CharacterOffsetBegin=952 CharacterOffsetEnd=957 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=957 CharacterOffsetEnd=958 PartOfSpeech=.] 
+root(ROOT-0, avail-2)
+det(avail-2, No-1)
+punct(avail-2, .-3)
+
+Sentence #18 (10 tokens):
+Jon pulled out a guitar and sings the blues.
+[Text=Jon CharacterOffsetBegin=963 CharacterOffsetEnd=966 PartOfSpeech=NNP] [Text=pulled CharacterOffsetBegin=967 CharacterOffsetEnd=973 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=974 CharacterOffsetEnd=977 PartOfSpeech=RP] [Text=a CharacterOffsetBegin=978 CharacterOffsetEnd=979 PartOfSpeech=DT] [Text=guitar CharacterOffsetBegin=980 CharacterOffsetEnd=986 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=987 CharacterOffsetEnd=990 PartOfSpeech=CC] [Text=sings CharacterOffsetBegin=991 CharacterOffsetEnd=996 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=997 CharacterOffsetEnd=1000 PartOfSpeech=DT] [Text=blues CharacterOffsetBegin=1001 CharacterOffsetEnd=1006 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1006 CharacterOffsetEnd=1007 PartOfSpeech=.] 
+root(ROOT-0, pulled-2)
+nsubj(pulled-2, Jon-1)
+prt(pulled-2, out-3)
+det(guitar-5, a-4)
+dobj(pulled-2, guitar-5)
+cc(pulled-2, and-6)
+conj(pulled-2, sings-7)
+det(blues-9, the-8)
+dobj(sings-7, blues-9)
+punct(pulled-2, .-10)
+
+Sentence #19 (20 tokens):
+Unfortunately when he mentioned his cat being fat, a fat man walked up and stomped Jon's guitar.
+[Text=Unfortunately CharacterOffsetBegin=1012 CharacterOffsetEnd=1025 PartOfSpeech=RB] [Text=when CharacterOffsetBegin=1026 CharacterOffsetEnd=1030 PartOfSpeech=WRB] [Text=he CharacterOffsetBegin=1031 CharacterOffsetEnd=1033 PartOfSpeech=PRP] [Text=mentioned CharacterOffsetBegin=1034 CharacterOffsetEnd=1043 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=1044 CharacterOffsetEnd=1047 PartOfSpeech=PRP$] [Text=cat CharacterOffsetBegin=1048 CharacterOffsetEnd=1051 PartOfSpeech=NN] [Text=being CharacterOffsetBegin=1052 CharacterOffsetEnd=1057 PartOfSpeech=VBG] [Text=fat CharacterOffsetBegin=1058 CharacterOffsetEnd=1061 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=1061 CharacterOffsetEnd=1062 PartOfSpeech=,] [Text=a CharacterOffsetBegin=1063 CharacterOffsetEnd=1064 PartOfSpeech=DT] [Text=fat CharacterOffsetBegin=1065 CharacterOffsetEnd=1068 PartOfSpeech=JJ] [Text=man CharacterOffsetBegin=1069 CharacterOffsetEnd=1072 PartOfSpeech=NN] [Text=walked CharacterOffsetBegin=1073 CharacterOffsetEnd=1079 PartOfSpeech=VBD] [Text=up CharacterOffsetBegin=1080 CharacterOffsetEnd=1082 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=1083 CharacterOffsetEnd=1086 PartOfSpeech=CC] [Text=stomped CharacterOffsetBegin=1087 CharacterOffsetEnd=1094 PartOfSpeech=VBD] [Text=Jon CharacterOffsetBegin=1095 CharacterOffsetEnd=1098 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=1098 CharacterOffsetEnd=1100 PartOfSpeech=POS] [Text=guitar CharacterOffsetBegin=1101 CharacterOffsetEnd=1107 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1107 CharacterOffsetEnd=1108 PartOfSpeech=.] 
+root(ROOT-0, Unfortunately-1)
+advmod(mentioned-4, when-2)
+nsubj(mentioned-4, he-3)
+dep(Unfortunately-1, mentioned-4)
+poss(cat-6, his-5)
+nsubj(fat-8, cat-6)
+cop(fat-8, being-7)
+ccomp(mentioned-4, fat-8)
+punct(fat-8, ,-9)
+det(man-12, a-10)
+amod(man-12, fat-11)
+nsubj(walked-13, man-12)
+conj(fat-8, walked-13)
+advmod(walked-13, up-14)
+cc(fat-8, and-15)
+conj(fat-8, stomped-16)
+poss(guitar-19, Jon-17)
+possessive(Jon-17, 's-18)
+dobj(stomped-16, guitar-19)
+punct(Unfortunately-1, .-20)
+
+Sentence #20 (4 tokens):
+It was hopeless.
+[Text=It CharacterOffsetBegin=1113 CharacterOffsetEnd=1115 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=1116 CharacterOffsetEnd=1119 PartOfSpeech=VBD] [Text=hopeless CharacterOffsetBegin=1120 CharacterOffsetEnd=1128 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1128 CharacterOffsetEnd=1129 PartOfSpeech=.] 
+root(ROOT-0, hopeless-3)
+nsubj(hopeless-3, It-1)
+cop(hopeless-3, was-2)
+punct(hopeless-3, .-4)
+
+Sentence #21 (22 tokens):
+Fortunately for Jon, an ad flashed on the TV: an ad for Lorenzo's School for the Personality Impaired.
+[Text=Fortunately CharacterOffsetBegin=1130 CharacterOffsetEnd=1141 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=1142 CharacterOffsetEnd=1145 PartOfSpeech=IN] [Text=Jon CharacterOffsetBegin=1146 CharacterOffsetEnd=1149 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=1149 CharacterOffsetEnd=1150 PartOfSpeech=,] [Text=an CharacterOffsetBegin=1151 CharacterOffsetEnd=1153 PartOfSpeech=DT] [Text=ad CharacterOffsetBegin=1154 CharacterOffsetEnd=1156 PartOfSpeech=NN] [Text=flashed CharacterOffsetBegin=1157 CharacterOffsetEnd=1164 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=1165 CharacterOffsetEnd=1167 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1168 CharacterOffsetEnd=1171 PartOfSpeech=DT] [Text=TV CharacterOffsetBegin=1172 CharacterOffsetEnd=1174 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=1174 CharacterOffsetEnd=1175 PartOfSpeech=:] [Text=an CharacterOffsetBegin=1176 CharacterOffsetEnd=1178 PartOfSpeech=DT] [Text=ad CharacterOffsetBegin=1179 CharacterOffsetEnd=1181 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=1182 CharacterOffsetEnd=1185 PartOfSpeech=IN] [Text=Lorenzo CharacterOffsetBegin=1186 CharacterOffsetEnd=1193 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=1193 CharacterOffsetEnd=1195 PartOfSpeech=POS] [Text=School CharacterOffsetBegin=1196 CharacterOffsetEnd=1202 PartOfSpeech=NNP] [Text=for CharacterOffsetBegin=1203 CharacterOffsetEnd=1206 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1207 CharacterOffsetEnd=1210 PartOfSpeech=DT] [Text=Personality CharacterOffsetBegin=1211 CharacterOffsetEnd=1222 PartOfSpeech=NNP] [Text=Impaired CharacterOffsetBegin=1223 CharacterOffsetEnd=1231 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1231 CharacterOffsetEnd=1232 PartOfSpeech=.] 
+root(ROOT-0, Fortunately-1)
+prep(Fortunately-1, for-2)
+pobj(for-2, Jon-3)
+punct(Jon-3, ,-4)
+det(ad-6, an-5)
+appos(Jon-3, ad-6)
+partmod(ad-6, flashed-7)
+prep(flashed-7, on-8)
+det(TV-10, the-9)
+pobj(on-8, TV-10)
+punct(Jon-3, :-11)
+det(ad-13, an-12)
+dep(Jon-3, ad-13)
+prep(ad-13, for-14)
+poss(School-17, Lorenzo-15)
+possessive(Lorenzo-15, 's-16)
+pobj(for-14, School-17)
+prep(ad-13, for-18)
+det(Impaired-21, the-19)
+nn(Impaired-21, Personality-20)
+pobj(for-18, Impaired-21)
+punct(Fortunately-1, .-22)
+
+Sentence #22 (15 tokens):
+It guaranteed a lifeless person to get a life in a few easy steps.
+[Text=It CharacterOffsetBegin=1237 CharacterOffsetEnd=1239 PartOfSpeech=PRP] [Text=guaranteed CharacterOffsetBegin=1240 CharacterOffsetEnd=1250 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=1251 CharacterOffsetEnd=1252 PartOfSpeech=DT] [Text=lifeless CharacterOffsetBegin=1253 CharacterOffsetEnd=1261 PartOfSpeech=JJ] [Text=person CharacterOffsetBegin=1262 CharacterOffsetEnd=1268 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=1269 CharacterOffsetEnd=1271 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=1272 CharacterOffsetEnd=1275 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1276 CharacterOffsetEnd=1277 PartOfSpeech=DT] [Text=life CharacterOffsetBegin=1278 CharacterOffsetEnd=1282 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=1283 CharacterOffsetEnd=1285 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=1286 CharacterOffsetEnd=1287 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=1288 CharacterOffsetEnd=1291 PartOfSpeech=JJ] [Text=easy CharacterOffsetBegin=1292 CharacterOffsetEnd=1296 PartOfSpeech=JJ] [Text=steps CharacterOffsetBegin=1297 CharacterOffsetEnd=1302 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=1302 CharacterOffsetEnd=1303 PartOfSpeech=.] 
+root(ROOT-0, guaranteed-2)
+nsubj(guaranteed-2, It-1)
+det(person-5, a-3)
+amod(person-5, lifeless-4)
+dobj(guaranteed-2, person-5)
+aux(get-7, to-6)
+infmod(person-5, get-7)
+det(life-9, a-8)
+dobj(get-7, life-9)
+prep(get-7, in-10)
+det(steps-14, a-11)
+amod(steps-14, few-12)
+amod(steps-14, easy-13)
+pobj(in-10, steps-14)
+punct(guaranteed-2, .-15)
+
+Sentence #23 (7 tokens):
+Jon and Garfield attend the class.
+[Text=Jon CharacterOffsetBegin=1308 CharacterOffsetEnd=1311 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=1312 CharacterOffsetEnd=1315 PartOfSpeech=CC] [Text=Garfield CharacterOffsetBegin=1316 CharacterOffsetEnd=1324 PartOfSpeech=NNP] [Text=attend CharacterOffsetBegin=1325 CharacterOffsetEnd=1331 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=1332 CharacterOffsetEnd=1335 PartOfSpeech=DT] [Text=class CharacterOffsetBegin=1336 CharacterOffsetEnd=1341 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1341 CharacterOffsetEnd=1342 PartOfSpeech=.] 
+root(ROOT-0, attend-4)
+nsubj(attend-4, Jon-1)
+cc(Jon-1, and-2)
+conj(Jon-1, Garfield-3)
+det(class-6, the-5)
+dobj(attend-4, class-6)
+punct(attend-4, .-7)
+
+Sentence #24 (26 tokens):
+The building didn't exactly look the same way it did on TV, nor did Lorenzo act as peppy as he did on TV.
+[Text=The CharacterOffsetBegin=1347 CharacterOffsetEnd=1350 PartOfSpeech=DT] [Text=building CharacterOffsetBegin=1351 CharacterOffsetEnd=1359 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=1360 CharacterOffsetEnd=1363 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=1363 CharacterOffsetEnd=1366 PartOfSpeech=RB] [Text=exactly CharacterOffsetBegin=1367 CharacterOffsetEnd=1374 PartOfSpeech=RB] [Text=look CharacterOffsetBegin=1375 CharacterOffsetEnd=1379 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=1380 CharacterOffsetEnd=1383 PartOfSpeech=DT] [Text=same CharacterOffsetBegin=1384 CharacterOffsetEnd=1388 PartOfSpeech=JJ] [Text=way CharacterOffsetBegin=1389 CharacterOffsetEnd=1392 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=1393 CharacterOffsetEnd=1395 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=1396 CharacterOffsetEnd=1399 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=1400 CharacterOffsetEnd=1402 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=1403 CharacterOffsetEnd=1405 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1405 CharacterOffsetEnd=1406 PartOfSpeech=,] [Text=nor CharacterOffsetBegin=1407 CharacterOffsetEnd=1410 PartOfSpeech=CC] [Text=did CharacterOffsetBegin=1411 CharacterOffsetEnd=1414 PartOfSpeech=VBD] [Text=Lorenzo CharacterOffsetBegin=1415 CharacterOffsetEnd=1422 PartOfSpeech=NNP] [Text=act CharacterOffsetBegin=1423 CharacterOffsetEnd=1426 PartOfSpeech=VB] [Text=as CharacterOffsetBegin=1427 CharacterOffsetEnd=1429 PartOfSpeech=IN] [Text=peppy CharacterOffsetBegin=1430 CharacterOffsetEnd=1435 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=1436 CharacterOffsetEnd=1438 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=1439 CharacterOffsetEnd=1441 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=1442 CharacterOffsetEnd=1445 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=1446 CharacterOffsetEnd=1448 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=1449 CharacterOffsetEnd=1451 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1451 CharacterOffsetEnd=1452 PartOfSpeech=.] 
+root(ROOT-0, look-6)
+det(building-2, The-1)
+nsubj(look-6, building-2)
+aux(look-6, did-3)
+neg(look-6, n't-4)
+advmod(look-6, exactly-5)
+det(way-9, the-7)
+amod(way-9, same-8)
+dobj(look-6, way-9)
+nsubj(did-11, it-10)
+rcmod(way-9, did-11)
+prep(did-11, on-12)
+pobj(on-12, TV-13)
+punct(look-6, ,-14)
+cc(look-6, nor-15)
+aux(act-18, did-16)
+nsubj(act-18, Lorenzo-17)
+conj(look-6, act-18)
+prep(act-18, as-19)
+pobj(as-19, peppy-20)
+mark(did-23, as-21)
+nsubj(did-23, he-22)
+advcl(act-18, did-23)
+prep(did-23, on-24)
+pobj(on-24, TV-25)
+punct(look-6, .-26)
+
+Sentence #25 (10 tokens):
+Jon sat next to a pretty girl named Mona.
+[Text=Jon CharacterOffsetBegin=1457 CharacterOffsetEnd=1460 PartOfSpeech=NNP] [Text=sat CharacterOffsetBegin=1461 CharacterOffsetEnd=1464 PartOfSpeech=VBD] [Text=next CharacterOffsetBegin=1465 CharacterOffsetEnd=1469 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=1470 CharacterOffsetEnd=1472 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=1473 CharacterOffsetEnd=1474 PartOfSpeech=DT] [Text=pretty CharacterOffsetBegin=1475 CharacterOffsetEnd=1481 PartOfSpeech=RB] [Text=girl CharacterOffsetBegin=1482 CharacterOffsetEnd=1486 PartOfSpeech=NN] [Text=named CharacterOffsetBegin=1487 CharacterOffsetEnd=1492 PartOfSpeech=VBN] [Text=Mona CharacterOffsetBegin=1493 CharacterOffsetEnd=1497 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1497 CharacterOffsetEnd=1498 PartOfSpeech=.] 
+root(ROOT-0, sat-2)
+nsubj(sat-2, Jon-1)
+advmod(sat-2, next-3)
+prep(next-3, to-4)
+det(girl-7, a-5)
+amod(girl-7, pretty-6)
+pobj(to-4, girl-7)
+partmod(girl-7, named-8)
+dep(named-8, Mona-9)
+punct(sat-2, .-10)
+
+Sentence #26 (31 tokens):
+So while Lorenzo taught his lessons of introducing yourself, checking your pulse, and pretending to speak a foreign language, Jon and Mona get to know one another.
+[Text=So CharacterOffsetBegin=1503 CharacterOffsetEnd=1505 PartOfSpeech=RB] [Text=while CharacterOffsetBegin=1506 CharacterOffsetEnd=1511 PartOfSpeech=IN] [Text=Lorenzo CharacterOffsetBegin=1512 CharacterOffsetEnd=1519 PartOfSpeech=NNP] [Text=taught CharacterOffsetBegin=1520 CharacterOffsetEnd=1526 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=1527 CharacterOffsetEnd=1530 PartOfSpeech=PRP$] [Text=lessons CharacterOffsetBegin=1531 CharacterOffsetEnd=1538 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=1539 CharacterOffsetEnd=1541 PartOfSpeech=IN] [Text=introducing CharacterOffsetBegin=1542 CharacterOffsetEnd=1553 PartOfSpeech=VBG] [Text=yourself CharacterOffsetBegin=1554 CharacterOffsetEnd=1562 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=1562 CharacterOffsetEnd=1563 PartOfSpeech=,] [Text=checking CharacterOffsetBegin=1564 CharacterOffsetEnd=1572 PartOfSpeech=VBG] [Text=your CharacterOffsetBegin=1573 CharacterOffsetEnd=1577 PartOfSpeech=PRP$] [Text=pulse CharacterOffsetBegin=1578 CharacterOffsetEnd=1583 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1583 CharacterOffsetEnd=1584 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1585 CharacterOffsetEnd=1588 PartOfSpeech=CC] [Text=pretending CharacterOffsetBegin=1589 CharacterOffsetEnd=1599 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=1600 CharacterOffsetEnd=1602 PartOfSpeech=TO] [Text=speak CharacterOffsetBegin=1603 CharacterOffsetEnd=1608 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1609 CharacterOffsetEnd=1610 PartOfSpeech=DT] [Text=foreign CharacterOffsetBegin=1611 CharacterOffsetEnd=1618 PartOfSpeech=JJ] [Text=language CharacterOffsetBegin=1619 CharacterOffsetEnd=1627 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1627 CharacterOffsetEnd=1628 PartOfSpeech=,] [Text=Jon CharacterOffsetBegin=1629 CharacterOffsetEnd=1632 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=1633 CharacterOffsetEnd=1636 PartOfSpeech=CC] [Text=Mona CharacterOffsetBegin=1637 CharacterOffsetEnd=1641 PartOfSpeech=NNP] [Text=get CharacterOffsetBegin=1642 CharacterOffsetEnd=1645 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=1646 CharacterOffsetEnd=1648 PartOfSpeech=TO] [Text=know CharacterOffsetBegin=1649 CharacterOffsetEnd=1653 PartOfSpeech=VB] [Text=one CharacterOffsetBegin=1654 CharacterOffsetEnd=1657 PartOfSpeech=CD] [Text=another CharacterOffsetBegin=1658 CharacterOffsetEnd=1665 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=1665 CharacterOffsetEnd=1666 PartOfSpeech=.] 
+root(ROOT-0, taught-4)
+advmod(taught-4, So-1)
+mark(taught-4, while-2)
+nsubj(taught-4, Lorenzo-3)
+poss(lessons-6, his-5)
+dobj(taught-4, lessons-6)
+prep(lessons-6, of-7)
+pcomp(of-7, introducing-8)
+dobj(introducing-8, yourself-9)
+punct(taught-4, ,-10)
+conj(taught-4, checking-11)
+poss(pulse-13, your-12)
+dobj(checking-11, pulse-13)
+punct(taught-4, ,-14)
+cc(taught-4, and-15)
+conj(taught-4, pretending-16)
+aux(speak-18, to-17)
+xcomp(pretending-16, speak-18)
+det(language-21, a-19)
+amod(language-21, foreign-20)
+dobj(speak-18, language-21)
+punct(taught-4, ,-22)
+conj(taught-4, Jon-23)
+cc(taught-4, and-24)
+nsubj(get-26, Mona-25)
+conj(taught-4, get-26)
+aux(know-28, to-27)
+xcomp(get-26, know-28)
+dobj(know-28, one-29)
+dep(one-29, another-30)
+punct(taught-4, .-31)
+
+Sentence #27 (9 tokens):
+They leave together, forgetting all about Garfield.
+[Text=They CharacterOffsetBegin=1671 CharacterOffsetEnd=1675 PartOfSpeech=PRP] [Text=leave CharacterOffsetBegin=1676 CharacterOffsetEnd=1681 PartOfSpeech=VBP] [Text=together CharacterOffsetBegin=1682 CharacterOffsetEnd=1690 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=1690 CharacterOffsetEnd=1691 PartOfSpeech=,] [Text=forgetting CharacterOffsetBegin=1692 CharacterOffsetEnd=1702 PartOfSpeech=VBG] [Text=all CharacterOffsetBegin=1703 CharacterOffsetEnd=1706 PartOfSpeech=DT] [Text=about CharacterOffsetBegin=1707 CharacterOffsetEnd=1712 PartOfSpeech=IN] [Text=Garfield CharacterOffsetBegin=1713 CharacterOffsetEnd=1721 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=1721 CharacterOffsetEnd=1722 PartOfSpeech=.] 
+root(ROOT-0, leave-2)
+nsubj(leave-2, They-1)
+advmod(leave-2, together-3)
+punct(leave-2, ,-4)
+xcomp(leave-2, forgetting-5)
+dobj(forgetting-5, all-6)
+prep(all-6, about-7)
+pobj(about-7, Garfield-8)
+punct(leave-2, .-9)
+
+Sentence #28 (14 tokens):
+At home, Jon and Mona just sat on the porch and talked.
+[Text=At CharacterOffsetBegin=1727 CharacterOffsetEnd=1729 PartOfSpeech=IN] [Text=home CharacterOffsetBegin=1730 CharacterOffsetEnd=1734 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1734 CharacterOffsetEnd=1735 PartOfSpeech=,] [Text=Jon CharacterOffsetBegin=1736 CharacterOffsetEnd=1739 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=1740 CharacterOffsetEnd=1743 PartOfSpeech=CC] [Text=Mona CharacterOffsetBegin=1744 CharacterOffsetEnd=1748 PartOfSpeech=NNP] [Text=just CharacterOffsetBegin=1749 CharacterOffsetEnd=1753 PartOfSpeech=RB] [Text=sat CharacterOffsetBegin=1754 CharacterOffsetEnd=1757 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=1758 CharacterOffsetEnd=1760 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1761 CharacterOffsetEnd=1764 PartOfSpeech=DT] [Text=porch CharacterOffsetBegin=1765 CharacterOffsetEnd=1770 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1771 CharacterOffsetEnd=1774 PartOfSpeech=CC] [Text=talked CharacterOffsetBegin=1775 CharacterOffsetEnd=1781 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=1781 CharacterOffsetEnd=1782 PartOfSpeech=.] 
+root(ROOT-0, sat-8)
+prep(sat-8, At-1)
+pobj(At-1, home-2)
+punct(sat-8, ,-3)
+nsubj(sat-8, Jon-4)
+cc(Jon-4, and-5)
+conj(Jon-4, Mona-6)
+advmod(sat-8, just-7)
+prep(sat-8, on-9)
+det(porch-11, the-10)
+pobj(on-9, porch-11)
+cc(sat-8, and-12)
+conj(sat-8, talked-13)
+punct(sat-8, .-14)
+
+Sentence #29 (16 tokens):
+Garfield was jealous of Mona for fear that she would take Jon away from him.
+[Text=Garfield CharacterOffsetBegin=1787 CharacterOffsetEnd=1795 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=1796 CharacterOffsetEnd=1799 PartOfSpeech=VBD] [Text=jealous CharacterOffsetBegin=1800 CharacterOffsetEnd=1807 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=1808 CharacterOffsetEnd=1810 PartOfSpeech=IN] [Text=Mona CharacterOffsetBegin=1811 CharacterOffsetEnd=1815 PartOfSpeech=NNP] [Text=for CharacterOffsetBegin=1816 CharacterOffsetEnd=1819 PartOfSpeech=IN] [Text=fear CharacterOffsetBegin=1820 CharacterOffsetEnd=1824 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=1825 CharacterOffsetEnd=1829 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=1830 CharacterOffsetEnd=1833 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=1834 CharacterOffsetEnd=1839 PartOfSpeech=MD] [Text=take CharacterOffsetBegin=1840 CharacterOffsetEnd=1844 PartOfSpeech=VB] [Text=Jon CharacterOffsetBegin=1845 CharacterOffsetEnd=1848 PartOfSpeech=NNP] [Text=away CharacterOffsetBegin=1849 CharacterOffsetEnd=1853 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=1854 CharacterOffsetEnd=1858 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=1859 CharacterOffsetEnd=1862 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=1862 CharacterOffsetEnd=1863 PartOfSpeech=.] 
+root(ROOT-0, jealous-3)
+nsubj(jealous-3, Garfield-1)
+cop(jealous-3, was-2)
+prep(jealous-3, of-4)
+pobj(of-4, Mona-5)
+prep(jealous-3, for-6)
+pobj(for-6, fear-7)
+mark(take-11, that-8)
+nsubj(take-11, she-9)
+aux(take-11, would-10)
+ccomp(fear-7, take-11)
+dobj(take-11, Jon-12)
+advmod(take-11, away-13)
+prep(away-13, from-14)
+pobj(from-14, him-15)
+punct(jealous-3, .-16)
+
+Sentence #30 (33 tokens):
+Garfield envisioned the future: Jon and Mona get married, she moves in, and soon she gives birth to a little Arbuckle who is overjoyed at pulling Garfield's tale.
+[Text=Garfield CharacterOffsetBegin=1868 CharacterOffsetEnd=1876 PartOfSpeech=NNP] [Text=envisioned CharacterOffsetBegin=1877 CharacterOffsetEnd=1887 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=1888 CharacterOffsetEnd=1891 PartOfSpeech=DT] [Text=future CharacterOffsetBegin=1892 CharacterOffsetEnd=1898 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=1898 CharacterOffsetEnd=1899 PartOfSpeech=:] [Text=Jon CharacterOffsetBegin=1900 CharacterOffsetEnd=1903 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=1904 CharacterOffsetEnd=1907 PartOfSpeech=CC] [Text=Mona CharacterOffsetBegin=1908 CharacterOffsetEnd=1912 PartOfSpeech=NNP] [Text=get CharacterOffsetBegin=1913 CharacterOffsetEnd=1916 PartOfSpeech=VB] [Text=married CharacterOffsetBegin=1917 CharacterOffsetEnd=1924 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=1924 CharacterOffsetEnd=1925 PartOfSpeech=,] [Text=she CharacterOffsetBegin=1926 CharacterOffsetEnd=1929 PartOfSpeech=PRP] [Text=moves CharacterOffsetBegin=1930 CharacterOffsetEnd=1935 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=1936 CharacterOffsetEnd=1938 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=1938 CharacterOffsetEnd=1939 PartOfSpeech=,] [Text=and CharacterOffsetBegin=1940 CharacterOffsetEnd=1943 PartOfSpeech=CC] [Text=soon CharacterOffsetBegin=1944 CharacterOffsetEnd=1948 PartOfSpeech=RB] [Text=she CharacterOffsetBegin=1949 CharacterOffsetEnd=1952 PartOfSpeech=PRP] [Text=gives CharacterOffsetBegin=1953 CharacterOffsetEnd=1958 PartOfSpeech=VBZ] [Text=birth CharacterOffsetBegin=1959 CharacterOffsetEnd=1964 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=1965 CharacterOffsetEnd=1967 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=1968 CharacterOffsetEnd=1969 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=1970 CharacterOffsetEnd=1976 PartOfSpeech=JJ] [Text=Arbuckle CharacterOffsetBegin=1977 CharacterOffsetEnd=1985 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=1986 CharacterOffsetEnd=1989 PartOfSpeech=WP] [Text=is CharacterOffsetBegin=1990 CharacterOffsetEnd=1992 PartOfSpeech=VBZ] [Text=overjoyed CharacterOffsetBegin=1993 CharacterOffsetEnd=2002 PartOfSpeech=VBN] [Text=at CharacterOffsetBegin=2003 CharacterOffsetEnd=2005 PartOfSpeech=IN] [Text=pulling CharacterOffsetBegin=2006 CharacterOffsetEnd=2013 PartOfSpeech=VBG] [Text=Garfield CharacterOffsetBegin=2014 CharacterOffsetEnd=2022 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=2022 CharacterOffsetEnd=2024 PartOfSpeech=POS] [Text=tale CharacterOffsetBegin=2025 CharacterOffsetEnd=2029 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2029 CharacterOffsetEnd=2030 PartOfSpeech=.] 
+root(ROOT-0, envisioned-2)
+nsubj(envisioned-2, Garfield-1)
+det(future-4, the-3)
+dobj(envisioned-2, future-4)
+punct(envisioned-2, :-5)
+nsubjpass(married-10, Jon-6)
+cc(Jon-6, and-7)
+conj(Jon-6, Mona-8)
+auxpass(married-10, get-9)
+parataxis(envisioned-2, married-10)
+punct(married-10, ,-11)
+nsubj(moves-13, she-12)
+conj(married-10, moves-13)
+prt(moves-13, in-14)
+punct(married-10, ,-15)
+cc(married-10, and-16)
+advmod(gives-19, soon-17)
+nsubj(gives-19, she-18)
+conj(married-10, gives-19)
+dobj(gives-19, birth-20)
+prep(gives-19, to-21)
+det(Arbuckle-24, a-22)
+amod(Arbuckle-24, little-23)
+pobj(to-21, Arbuckle-24)
+nsubj(overjoyed-27, who-25)
+cop(overjoyed-27, is-26)
+rcmod(Arbuckle-24, overjoyed-27)
+prep(overjoyed-27, at-28)
+pcomp(at-28, pulling-29)
+poss(tale-32, Garfield-30)
+possessive(Garfield-30, 's-31)
+dobj(pulling-29, tale-32)
+punct(envisioned-2, .-33)
+
+Sentence #31 (12 tokens):
+Back to the present, Garfield would not stand for it.
+[Text=Back CharacterOffsetBegin=2035 CharacterOffsetEnd=2039 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=2040 CharacterOffsetEnd=2042 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=2043 CharacterOffsetEnd=2046 PartOfSpeech=DT] [Text=present CharacterOffsetBegin=2047 CharacterOffsetEnd=2054 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=2054 CharacterOffsetEnd=2055 PartOfSpeech=,] [Text=Garfield CharacterOffsetBegin=2056 CharacterOffsetEnd=2064 PartOfSpeech=NNP] [Text=would CharacterOffsetBegin=2065 CharacterOffsetEnd=2070 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=2071 CharacterOffsetEnd=2074 PartOfSpeech=RB] [Text=stand CharacterOffsetBegin=2075 CharacterOffsetEnd=2080 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=2081 CharacterOffsetEnd=2084 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=2085 CharacterOffsetEnd=2087 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=2087 CharacterOffsetEnd=2088 PartOfSpeech=.] 
+root(ROOT-0, stand-9)
+advmod(stand-9, Back-1)
+prep(Back-1, to-2)
+det(present-4, the-3)
+pobj(to-2, present-4)
+punct(stand-9, ,-5)
+nsubj(stand-9, Garfield-6)
+aux(stand-9, would-7)
+neg(stand-9, not-8)
+prep(stand-9, for-10)
+pobj(for-10, it-11)
+punct(stand-9, .-12)
+
+Sentence #32 (19 tokens):
+He tried to get Jon to get rid of Mona, until she started scratching behind his ears.
+[Text=He CharacterOffsetBegin=2093 CharacterOffsetEnd=2095 PartOfSpeech=PRP] [Text=tried CharacterOffsetBegin=2096 CharacterOffsetEnd=2101 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=2102 CharacterOffsetEnd=2104 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=2105 CharacterOffsetEnd=2108 PartOfSpeech=VB] [Text=Jon CharacterOffsetBegin=2109 CharacterOffsetEnd=2112 PartOfSpeech=NNP] [Text=to CharacterOffsetBegin=2113 CharacterOffsetEnd=2115 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=2116 CharacterOffsetEnd=2119 PartOfSpeech=VB] [Text=rid CharacterOffsetBegin=2120 CharacterOffsetEnd=2123 PartOfSpeech=JJ] [Text=of CharacterOffsetBegin=2124 CharacterOffsetEnd=2126 PartOfSpeech=IN] [Text=Mona CharacterOffsetBegin=2127 CharacterOffsetEnd=2131 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=2131 CharacterOffsetEnd=2132 PartOfSpeech=,] [Text=until CharacterOffsetBegin=2133 CharacterOffsetEnd=2138 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=2139 CharacterOffsetEnd=2142 PartOfSpeech=PRP] [Text=started CharacterOffsetBegin=2143 CharacterOffsetEnd=2150 PartOfSpeech=VBD] [Text=scratching CharacterOffsetBegin=2151 CharacterOffsetEnd=2161 PartOfSpeech=VBG] [Text=behind CharacterOffsetBegin=2162 CharacterOffsetEnd=2168 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=2169 CharacterOffsetEnd=2172 PartOfSpeech=PRP$] [Text=ears CharacterOffsetBegin=2173 CharacterOffsetEnd=2177 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2177 CharacterOffsetEnd=2178 PartOfSpeech=.] 
+root(ROOT-0, tried-2)
+nsubj(tried-2, He-1)
+aux(get-4, to-3)
+xcomp(tried-2, get-4)
+dobj(get-4, Jon-5)
+aux(rid-8, to-6)
+dep(rid-8, get-7)
+xcomp(get-4, rid-8)
+prep(rid-8, of-9)
+pobj(of-9, Mona-10)
+punct(tried-2, ,-11)
+mark(started-14, until-12)
+nsubj(started-14, she-13)
+advcl(tried-2, started-14)
+xcomp(started-14, scratching-15)
+prep(scratching-15, behind-16)
+poss(ears-18, his-17)
+pobj(behind-16, ears-18)
+punct(tried-2, .-19)
+
+Sentence #33 (11 tokens):
+But then Jon learned that Mona was allergic to cats.
+[Text=But CharacterOffsetBegin=2183 CharacterOffsetEnd=2186 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=2187 CharacterOffsetEnd=2191 PartOfSpeech=RB] [Text=Jon CharacterOffsetBegin=2192 CharacterOffsetEnd=2195 PartOfSpeech=NNP] [Text=learned CharacterOffsetBegin=2196 CharacterOffsetEnd=2203 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=2204 CharacterOffsetEnd=2208 PartOfSpeech=IN] [Text=Mona CharacterOffsetBegin=2209 CharacterOffsetEnd=2213 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=2214 CharacterOffsetEnd=2217 PartOfSpeech=VBD] [Text=allergic CharacterOffsetBegin=2218 CharacterOffsetEnd=2226 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=2227 CharacterOffsetEnd=2229 PartOfSpeech=TO] [Text=cats CharacterOffsetBegin=2230 CharacterOffsetEnd=2234 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2234 CharacterOffsetEnd=2235 PartOfSpeech=.] 
+root(ROOT-0, learned-4)
+cc(learned-4, But-1)
+advmod(learned-4, then-2)
+nsubj(learned-4, Jon-3)
+mark(allergic-8, that-5)
+nsubj(allergic-8, Mona-6)
+cop(allergic-8, was-7)
+ccomp(learned-4, allergic-8)
+prep(allergic-8, to-9)
+pobj(to-9, cats-10)
+punct(learned-4, .-11)
+
+Sentence #34 (10 tokens):
+So that was basically the end of their relationship.
+[Text=So CharacterOffsetBegin=2240 CharacterOffsetEnd=2242 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=2243 CharacterOffsetEnd=2247 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=2248 CharacterOffsetEnd=2251 PartOfSpeech=VBD] [Text=basically CharacterOffsetBegin=2252 CharacterOffsetEnd=2261 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=2262 CharacterOffsetEnd=2265 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=2266 CharacterOffsetEnd=2269 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=2270 CharacterOffsetEnd=2272 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=2273 CharacterOffsetEnd=2278 PartOfSpeech=PRP$] [Text=relationship CharacterOffsetBegin=2279 CharacterOffsetEnd=2291 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2291 CharacterOffsetEnd=2292 PartOfSpeech=.] 
+root(ROOT-0, end-6)
+dep(end-6, So-1)
+nsubj(end-6, that-2)
+cop(end-6, was-3)
+advmod(end-6, basically-4)
+det(end-6, the-5)
+prep(end-6, of-7)
+poss(relationship-9, their-8)
+pobj(of-7, relationship-9)
+punct(end-6, .-10)
+
+Sentence #35 (20 tokens):
+But they still saw each other every now and then, and Garfield was sure to be with them.
+[Text=But CharacterOffsetBegin=2297 CharacterOffsetEnd=2300 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=2301 CharacterOffsetEnd=2305 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=2306 CharacterOffsetEnd=2311 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=2312 CharacterOffsetEnd=2315 PartOfSpeech=VBD] [Text=each CharacterOffsetBegin=2316 CharacterOffsetEnd=2320 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=2321 CharacterOffsetEnd=2326 PartOfSpeech=JJ] [Text=every CharacterOffsetBegin=2327 CharacterOffsetEnd=2332 PartOfSpeech=DT] [Text=now CharacterOffsetBegin=2333 CharacterOffsetEnd=2336 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=2337 CharacterOffsetEnd=2340 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=2341 CharacterOffsetEnd=2345 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=2345 CharacterOffsetEnd=2346 PartOfSpeech=,] [Text=and CharacterOffsetBegin=2347 CharacterOffsetEnd=2350 PartOfSpeech=CC] [Text=Garfield CharacterOffsetBegin=2351 CharacterOffsetEnd=2359 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=2360 CharacterOffsetEnd=2363 PartOfSpeech=VBD] [Text=sure CharacterOffsetBegin=2364 CharacterOffsetEnd=2368 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=2369 CharacterOffsetEnd=2371 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=2372 CharacterOffsetEnd=2374 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=2375 CharacterOffsetEnd=2379 PartOfSpeech=IN] [Text=them CharacterOffsetBegin=2380 CharacterOffsetEnd=2384 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=2384 CharacterOffsetEnd=2385 PartOfSpeech=.] 
+root(ROOT-0, saw-4)
+cc(saw-4, But-1)
+nsubj(saw-4, they-2)
+advmod(saw-4, still-3)
+det(other-6, each-5)
+dobj(saw-4, other-6)
+dep(saw-4, every-7)
+advmod(every-7, now-8)
+cc(now-8, and-9)
+conj(now-8, then-10)
+punct(saw-4, ,-11)
+cc(saw-4, and-12)
+nsubj(sure-15, Garfield-13)
+cop(sure-15, was-14)
+conj(saw-4, sure-15)
+aux(be-17, to-16)
+xcomp(sure-15, be-17)
+prep(be-17, with-18)
+pobj(with-18, them-19)
+punct(saw-4, .-20)
+
+Sentence #36 (6 tokens):
+Another hilarious Garfield TV special!
+[Text=Another CharacterOffsetBegin=2386 CharacterOffsetEnd=2393 PartOfSpeech=DT] [Text=hilarious CharacterOffsetBegin=2394 CharacterOffsetEnd=2403 PartOfSpeech=JJ] [Text=Garfield CharacterOffsetBegin=2404 CharacterOffsetEnd=2412 PartOfSpeech=NNP] [Text=TV CharacterOffsetBegin=2413 CharacterOffsetEnd=2415 PartOfSpeech=NN] [Text=special CharacterOffsetBegin=2416 CharacterOffsetEnd=2423 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=2423 CharacterOffsetEnd=2424 PartOfSpeech=.] 
+root(ROOT-0, special-5)
+det(special-5, Another-1)
+amod(special-5, hilarious-2)
+nn(special-5, Garfield-3)
+nn(special-5, TV-4)
+punct(special-5, !-6)
+
+Sentence #37 (14 tokens):
+This one was made during the run of TV's Garfield and Friends.
+[Text=This CharacterOffsetBegin=2429 CharacterOffsetEnd=2433 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=2434 CharacterOffsetEnd=2437 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=2438 CharacterOffsetEnd=2441 PartOfSpeech=VBD] [Text=made CharacterOffsetBegin=2442 CharacterOffsetEnd=2446 PartOfSpeech=VBN] [Text=during CharacterOffsetBegin=2447 CharacterOffsetEnd=2453 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=2454 CharacterOffsetEnd=2457 PartOfSpeech=DT] [Text=run CharacterOffsetBegin=2458 CharacterOffsetEnd=2461 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=2462 CharacterOffsetEnd=2464 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=2465 CharacterOffsetEnd=2467 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=2467 CharacterOffsetEnd=2469 PartOfSpeech=POS] [Text=Garfield CharacterOffsetBegin=2470 CharacterOffsetEnd=2478 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=2479 CharacterOffsetEnd=2482 PartOfSpeech=CC] [Text=Friends CharacterOffsetBegin=2483 CharacterOffsetEnd=2490 PartOfSpeech=NNPS] [Text=. CharacterOffsetBegin=2490 CharacterOffsetEnd=2491 PartOfSpeech=.] 
+root(ROOT-0, made-4)
+det(one-2, This-1)
+nsubjpass(made-4, one-2)
+auxpass(made-4, was-3)
+prep(made-4, during-5)
+det(run-7, the-6)
+pobj(during-5, run-7)
+prep(run-7, of-8)
+poss(Garfield-11, TV-9)
+possessive(TV-9, 's-10)
+pobj(of-8, Garfield-11)
+cc(Garfield-11, and-12)
+conj(Garfield-11, Friends-13)
+punct(made-4, .-14)
+
+Sentence #38 (6 tokens):
+Garfield was slimmed down somewhat.
+[Text=Garfield CharacterOffsetBegin=2496 CharacterOffsetEnd=2504 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=2505 CharacterOffsetEnd=2508 PartOfSpeech=VBD] [Text=slimmed CharacterOffsetBegin=2509 CharacterOffsetEnd=2516 PartOfSpeech=VBN] [Text=down CharacterOffsetBegin=2517 CharacterOffsetEnd=2521 PartOfSpeech=RP] [Text=somewhat CharacterOffsetBegin=2522 CharacterOffsetEnd=2530 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=2530 CharacterOffsetEnd=2531 PartOfSpeech=.] 
+root(ROOT-0, slimmed-3)
+nsubjpass(slimmed-3, Garfield-1)
+auxpass(slimmed-3, was-2)
+prt(slimmed-3, down-4)
+advmod(slimmed-3, somewhat-5)
+punct(slimmed-3, .-6)
+
+Sentence #39 (2 tokens):
+SOMEwhat.
+[Text=SOMEwhat CharacterOffsetBegin=2536 CharacterOffsetEnd=2544 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=2544 CharacterOffsetEnd=2545 PartOfSpeech=.] 
+root(ROOT-0, SOMEwhat-1)
+punct(SOMEwhat-1, .-2)
+
+Sentence #40 (7 tokens):
+Since hie early 1980's cartoons.
+[Text=Since CharacterOffsetBegin=2550 CharacterOffsetEnd=2555 PartOfSpeech=IN] [Text=hie CharacterOffsetBegin=2556 CharacterOffsetEnd=2559 PartOfSpeech=NN] [Text=early CharacterOffsetBegin=2560 CharacterOffsetEnd=2565 PartOfSpeech=JJ] [Text=1980 CharacterOffsetBegin=2566 CharacterOffsetEnd=2570 PartOfSpeech=CD] [Text='s CharacterOffsetBegin=2570 CharacterOffsetEnd=2572 PartOfSpeech=POS] [Text=cartoons CharacterOffsetBegin=2573 CharacterOffsetEnd=2581 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=2581 CharacterOffsetEnd=2582 PartOfSpeech=.] 
+root(ROOT-0, Since-1)
+nn(cartoons-6, hie-2)
+amod(cartoons-6, early-3)
+poss(cartoons-6, 1980-4)
+possessive(1980-4, 's-5)
+pobj(Since-1, cartoons-6)
+punct(Since-1, .-7)
+
+Sentence #41 (26 tokens):
+The scenes of Jon trying to pick up chicks is funny, so is the one where the fat guy stomps on Jon's guitar.
+[Text=The CharacterOffsetBegin=2587 CharacterOffsetEnd=2590 PartOfSpeech=DT] [Text=scenes CharacterOffsetBegin=2591 CharacterOffsetEnd=2597 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=2598 CharacterOffsetEnd=2600 PartOfSpeech=IN] [Text=Jon CharacterOffsetBegin=2601 CharacterOffsetEnd=2604 PartOfSpeech=NNP] [Text=trying CharacterOffsetBegin=2605 CharacterOffsetEnd=2611 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=2612 CharacterOffsetEnd=2614 PartOfSpeech=TO] [Text=pick CharacterOffsetBegin=2615 CharacterOffsetEnd=2619 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=2620 CharacterOffsetEnd=2622 PartOfSpeech=RP] [Text=chicks CharacterOffsetBegin=2623 CharacterOffsetEnd=2629 PartOfSpeech=NNS] [Text=is CharacterOffsetBegin=2630 CharacterOffsetEnd=2632 PartOfSpeech=VBZ] [Text=funny CharacterOffsetBegin=2633 CharacterOffsetEnd=2638 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=2638 CharacterOffsetEnd=2639 PartOfSpeech=,] [Text=so CharacterOffsetBegin=2640 CharacterOffsetEnd=2642 PartOfSpeech=RB] [Text=is CharacterOffsetBegin=2643 CharacterOffsetEnd=2645 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=2646 CharacterOffsetEnd=2649 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=2650 CharacterOffsetEnd=2653 PartOfSpeech=CD] [Text=where CharacterOffsetBegin=2654 CharacterOffsetEnd=2659 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=2660 CharacterOffsetEnd=2663 PartOfSpeech=DT] [Text=fat CharacterOffsetBegin=2664 CharacterOffsetEnd=2667 PartOfSpeech=JJ] [Text=guy CharacterOffsetBegin=2668 CharacterOffsetEnd=2671 PartOfSpeech=NN] [Text=stomps CharacterOffsetBegin=2672 CharacterOffsetEnd=2678 PartOfSpeech=VBZ] [Text=on CharacterOffsetBegin=2679 CharacterOffsetEnd=2681 PartOfSpeech=IN] [Text=Jon CharacterOffsetBegin=2682 CharacterOffsetEnd=2685 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=2685 CharacterOffsetEnd=2687 PartOfSpeech=POS] [Text=guitar CharacterOffsetBegin=2688 CharacterOffsetEnd=2694 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=2694 CharacterOffsetEnd=2695 PartOfSpeech=.] 
+root(ROOT-0, funny-11)
+det(scenes-2, The-1)
+nsubj(funny-11, scenes-2)
+prep(scenes-2, of-3)
+pobj(of-3, Jon-4)
+partmod(Jon-4, trying-5)
+aux(pick-7, to-6)
+xcomp(trying-5, pick-7)
+prt(pick-7, up-8)
+dobj(pick-7, chicks-9)
+cop(funny-11, is-10)
+punct(funny-11, ,-12)
+advmod(funny-11, so-13)
+cop(one-16, is-14)
+det(one-16, the-15)
+parataxis(funny-11, one-16)
+advmod(stomps-21, where-17)
+det(guy-20, the-18)
+amod(guy-20, fat-19)
+nsubj(stomps-21, guy-20)
+rcmod(one-16, stomps-21)
+prep(stomps-21, on-22)
+poss(guitar-25, Jon-23)
+possessive(Jon-23, 's-24)
+pobj(on-22, guitar-25)
+punct(funny-11, .-26)
+
+Sentence #42 (9 tokens):
+Good ol' Lorenzo Music is back as Garfield.
+[Text=Good CharacterOffsetBegin=2700 CharacterOffsetEnd=2704 PartOfSpeech=JJ] [Text=ol' CharacterOffsetBegin=2705 CharacterOffsetEnd=2708 PartOfSpeech=JJ] [Text=Lorenzo CharacterOffsetBegin=2709 CharacterOffsetEnd=2716 PartOfSpeech=NNP] [Text=Music CharacterOffsetBegin=2717 CharacterOffsetEnd=2722 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=2723 CharacterOffsetEnd=2725 PartOfSpeech=VBZ] [Text=back CharacterOffsetBegin=2726 CharacterOffsetEnd=2730 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=2731 CharacterOffsetEnd=2733 PartOfSpeech=IN] [Text=Garfield CharacterOffsetBegin=2734 CharacterOffsetEnd=2742 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=2742 CharacterOffsetEnd=2743 PartOfSpeech=.] 
+root(ROOT-0, is-5)
+amod(Music-4, Good-1)
+amod(Music-4, ol'-2)
+nn(Music-4, Lorenzo-3)
+nsubj(is-5, Music-4)
+advmod(is-5, back-6)
+prep(is-5, as-7)
+pobj(as-7, Garfield-8)
+punct(is-5, .-9)
+
+Sentence #43 (5 tokens):
+Thom Huge is Jon.
+[Text=Thom CharacterOffsetBegin=2748 CharacterOffsetEnd=2752 PartOfSpeech=NNP] [Text=Huge CharacterOffsetBegin=2753 CharacterOffsetEnd=2757 PartOfSpeech=JJ] [Text=is CharacterOffsetBegin=2758 CharacterOffsetEnd=2760 PartOfSpeech=VBZ] [Text=Jon CharacterOffsetBegin=2761 CharacterOffsetEnd=2764 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=2764 CharacterOffsetEnd=2765 PartOfSpeech=.] 
+root(ROOT-0, Jon-4)
+nn(Huge-2, Thom-1)
+nsubj(Jon-4, Huge-2)
+cop(Jon-4, is-3)
+punct(Jon-4, .-5)
+
+Sentence #44 (13 tokens):
+Frank Welker (The third man of 1,000 voices) is Lorenzo.
+[Text=Frank CharacterOffsetBegin=2770 CharacterOffsetEnd=2775 PartOfSpeech=NNP] [Text=Welker CharacterOffsetBegin=2776 CharacterOffsetEnd=2782 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=2783 CharacterOffsetEnd=2784 PartOfSpeech=-LRB-] [Text=The CharacterOffsetBegin=2784 CharacterOffsetEnd=2787 PartOfSpeech=DT] [Text=third CharacterOffsetBegin=2788 CharacterOffsetEnd=2793 PartOfSpeech=JJ] [Text=man CharacterOffsetBegin=2794 CharacterOffsetEnd=2797 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=2798 CharacterOffsetEnd=2800 PartOfSpeech=IN] [Text=1,000 CharacterOffsetBegin=2801 CharacterOffsetEnd=2806 PartOfSpeech=CD] [Text=voices CharacterOffsetBegin=2807 CharacterOffsetEnd=2813 PartOfSpeech=NNS] [Text=-RRB- CharacterOffsetBegin=2813 CharacterOffsetEnd=2814 PartOfSpeech=-RRB-] [Text=is CharacterOffsetBegin=2815 CharacterOffsetEnd=2817 PartOfSpeech=VBZ] [Text=Lorenzo CharacterOffsetBegin=2818 CharacterOffsetEnd=2825 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=2825 CharacterOffsetEnd=2826 PartOfSpeech=.] 
+root(ROOT-0, Lorenzo-12)
+nn(Welker-2, Frank-1)
+nsubj(Lorenzo-12, Welker-2)
+punct(man-6, -LRB--3)
+det(man-6, The-4)
+amod(man-6, third-5)
+appos(Welker-2, man-6)
+prep(man-6, of-7)
+num(voices-9, 1,000-8)
+pobj(of-7, voices-9)
+punct(man-6, -RRB--10)
+cop(Lorenzo-12, is-11)
+punct(Lorenzo-12, .-13)
+
+Sentence #45 (13 tokens):
+And June Foray (The woman of 1,000 voices) is Mona.
+[Text=And CharacterOffsetBegin=2831 CharacterOffsetEnd=2834 PartOfSpeech=CC] [Text=June CharacterOffsetBegin=2835 CharacterOffsetEnd=2839 PartOfSpeech=NNP] [Text=Foray CharacterOffsetBegin=2840 CharacterOffsetEnd=2845 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=2846 CharacterOffsetEnd=2847 PartOfSpeech=-LRB-] [Text=The CharacterOffsetBegin=2847 CharacterOffsetEnd=2850 PartOfSpeech=DT] [Text=woman CharacterOffsetBegin=2851 CharacterOffsetEnd=2856 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=2857 CharacterOffsetEnd=2859 PartOfSpeech=IN] [Text=1,000 CharacterOffsetBegin=2860 CharacterOffsetEnd=2865 PartOfSpeech=CD] [Text=voices CharacterOffsetBegin=2866 CharacterOffsetEnd=2872 PartOfSpeech=NNS] [Text=-RRB- CharacterOffsetBegin=2872 CharacterOffsetEnd=2873 PartOfSpeech=-RRB-] [Text=is CharacterOffsetBegin=2874 CharacterOffsetEnd=2876 PartOfSpeech=VBZ] [Text=Mona CharacterOffsetBegin=2877 CharacterOffsetEnd=2881 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=2881 CharacterOffsetEnd=2882 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+dep(And-1, June-2)
+nsubj(Mona-12, Foray-3)
+punct(woman-6, -LRB--4)
+det(woman-6, The-5)
+appos(Foray-3, woman-6)
+prep(woman-6, of-7)
+num(voices-9, 1,000-8)
+pobj(of-7, voices-9)
+punct(woman-6, -RRB--10)
+cop(Mona-12, is-11)
+rcmod(June-2, Mona-12)
+punct(And-1, .-13)
+
+Sentence #46 (16 tokens):
+If you like Garfield, then I recommend you see Garfield Gets A Life today!
+[Text=If CharacterOffsetBegin=2887 CharacterOffsetEnd=2889 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=2890 CharacterOffsetEnd=2893 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=2894 CharacterOffsetEnd=2898 PartOfSpeech=IN] [Text=Garfield CharacterOffsetBegin=2899 CharacterOffsetEnd=2907 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=2907 CharacterOffsetEnd=2908 PartOfSpeech=,] [Text=then CharacterOffsetBegin=2909 CharacterOffsetEnd=2913 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=2914 CharacterOffsetEnd=2915 PartOfSpeech=PRP] [Text=recommend CharacterOffsetBegin=2916 CharacterOffsetEnd=2925 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=2926 CharacterOffsetEnd=2929 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=2930 CharacterOffsetEnd=2933 PartOfSpeech=VB] [Text=Garfield CharacterOffsetBegin=2934 CharacterOffsetEnd=2942 PartOfSpeech=NNP] [Text=Gets CharacterOffsetBegin=2943 CharacterOffsetEnd=2947 PartOfSpeech=VBZ] [Text=A CharacterOffsetBegin=2948 CharacterOffsetEnd=2949 PartOfSpeech=NNP] [Text=Life CharacterOffsetBegin=2950 CharacterOffsetEnd=2954 PartOfSpeech=NNP] [Text=today CharacterOffsetBegin=2955 CharacterOffsetEnd=2960 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=2960 CharacterOffsetEnd=2961 PartOfSpeech=.] 
+root(ROOT-0, recommend-8)
+mark(recommend-8, If-1)
+nsubj(recommend-8, you-2)
+prep(recommend-8, like-3)
+pobj(like-3, Garfield-4)
+punct(recommend-8, ,-5)
+advmod(recommend-8, then-6)
+nsubj(recommend-8, I-7)
+nsubj(see-10, you-9)
+ccomp(recommend-8, see-10)
+nsubj(Gets-12, Garfield-11)
+ccomp(see-10, Gets-12)
+nn(Life-14, A-13)
+dobj(Gets-12, Life-14)
+tmod(Gets-12, today-15)
+punct(recommend-8, !-16)
+
+Sentence #47 (20 tokens):
+It, along with Here Comes Garfield, and Garfield on the Town, were just released on DVD!
+[Text=It CharacterOffsetBegin=2966 CharacterOffsetEnd=2968 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=2968 CharacterOffsetEnd=2969 PartOfSpeech=,] [Text=along CharacterOffsetBegin=2970 CharacterOffsetEnd=2975 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=2976 CharacterOffsetEnd=2980 PartOfSpeech=IN] [Text=Here CharacterOffsetBegin=2981 CharacterOffsetEnd=2985 PartOfSpeech=RB] [Text=Comes CharacterOffsetBegin=2986 CharacterOffsetEnd=2991 PartOfSpeech=VBZ] [Text=Garfield CharacterOffsetBegin=2992 CharacterOffsetEnd=3000 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=3000 CharacterOffsetEnd=3001 PartOfSpeech=,] [Text=and CharacterOffsetBegin=3002 CharacterOffsetEnd=3005 PartOfSpeech=CC] [Text=Garfield CharacterOffsetBegin=3006 CharacterOffsetEnd=3014 PartOfSpeech=NNP] [Text=on CharacterOffsetBegin=3015 CharacterOffsetEnd=3017 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=3018 CharacterOffsetEnd=3021 PartOfSpeech=DT] [Text=Town CharacterOffsetBegin=3022 CharacterOffsetEnd=3026 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=3026 CharacterOffsetEnd=3027 PartOfSpeech=,] [Text=were CharacterOffsetBegin=3028 CharacterOffsetEnd=3032 PartOfSpeech=VBD] [Text=just CharacterOffsetBegin=3033 CharacterOffsetEnd=3037 PartOfSpeech=RB] [Text=released CharacterOffsetBegin=3038 CharacterOffsetEnd=3046 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=3047 CharacterOffsetEnd=3049 PartOfSpeech=IN] [Text=DVD CharacterOffsetBegin=3050 CharacterOffsetEnd=3053 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=3053 CharacterOffsetEnd=3054 PartOfSpeech=.] 
+root(ROOT-0, released-17)
+nsubjpass(released-17, It-1)
+punct(released-17, ,-2)
+prep(released-17, along-3)
+pcomp(along-3, with-4)
+advmod(Comes-6, Here-5)
+pobj(with-4, Comes-6)
+dobj(Comes-6, Garfield-7)
+punct(Comes-6, ,-8)
+cc(Comes-6, and-9)
+conj(Comes-6, Garfield-10)
+prep(Garfield-10, on-11)
+det(Town-13, the-12)
+pobj(on-11, Town-13)
+punct(released-17, ,-14)
+auxpass(released-17, were-15)
+advmod(released-17, just-16)
+prep(released-17, on-18)
+pobj(on-18, DVD-19)
+punct(released-17, !-20)
+
+Sentence #48 (7 tokens):
+So check them all out today!
+[Text=So CharacterOffsetBegin=3059 CharacterOffsetEnd=3061 PartOfSpeech=RB] [Text=check CharacterOffsetBegin=3062 CharacterOffsetEnd=3067 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=3068 CharacterOffsetEnd=3072 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=3073 CharacterOffsetEnd=3076 PartOfSpeech=DT] [Text=out CharacterOffsetBegin=3077 CharacterOffsetEnd=3080 PartOfSpeech=RP] [Text=today CharacterOffsetBegin=3081 CharacterOffsetEnd=3086 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=3086 CharacterOffsetEnd=3087 PartOfSpeech=.] 
+root(ROOT-0, check-2)
+advmod(check-2, So-1)
+dobj(check-2, them-3)
+dep(check-2, all-4)
+prt(all-4, out-5)
+tmod(all-4, today-6)
+punct(check-2, !-7)
+
+Sentence #49 (7 tokens):
+You are guaranteed a good time.
+[Text=You CharacterOffsetBegin=3092 CharacterOffsetEnd=3095 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=3096 CharacterOffsetEnd=3099 PartOfSpeech=VBP] [Text=guaranteed CharacterOffsetBegin=3100 CharacterOffsetEnd=3110 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=3111 CharacterOffsetEnd=3112 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=3113 CharacterOffsetEnd=3117 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=3118 CharacterOffsetEnd=3122 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=3122 CharacterOffsetEnd=3123 PartOfSpeech=.] 
+root(ROOT-0, guaranteed-3)
+nsubjpass(guaranteed-3, You-1)
+auxpass(guaranteed-3, are-2)
+det(time-6, a-4)
+amod(time-6, good-5)
+dobj(guaranteed-3, time-6)
+punct(guaranteed-3, .-7)
+
+Sentence #50 (10 tokens):
+Hey, has Garfield ever let you down before?
+[Text=Hey CharacterOffsetBegin=3128 CharacterOffsetEnd=3131 PartOfSpeech=UH] [Text=, CharacterOffsetBegin=3131 CharacterOffsetEnd=3132 PartOfSpeech=,] [Text=has CharacterOffsetBegin=3133 CharacterOffsetEnd=3136 PartOfSpeech=VBZ] [Text=Garfield CharacterOffsetBegin=3137 CharacterOffsetEnd=3145 PartOfSpeech=NNP] [Text=ever CharacterOffsetBegin=3146 CharacterOffsetEnd=3150 PartOfSpeech=RB] [Text=let CharacterOffsetBegin=3151 CharacterOffsetEnd=3154 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=3155 CharacterOffsetEnd=3158 PartOfSpeech=PRP] [Text=down CharacterOffsetBegin=3159 CharacterOffsetEnd=3163 PartOfSpeech=RP] [Text=before CharacterOffsetBegin=3164 CharacterOffsetEnd=3170 PartOfSpeech=RB] [Text=? CharacterOffsetBegin=3170 CharacterOffsetEnd=3171 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+discourse(has-3, Hey-1)
+punct(has-3, ,-2)
+nsubj(let-6, Garfield-4)
+advmod(let-6, ever-5)
+ccomp(has-3, let-6)
+dobj(let-6, you-7)
+prt(let-6, down-8)
+advmod(has-3, before-9)
+punct(has-3, ?-10)
+
+Sentence #51 (1 tokens):
+-
+[Text=- CharacterOffsetBegin=3171 CharacterOffsetEnd=3172 PartOfSpeech=:] 
+root(ROOT-0, --1)
+

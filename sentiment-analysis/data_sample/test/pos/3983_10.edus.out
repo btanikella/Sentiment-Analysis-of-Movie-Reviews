@@ -1,0 +1,77 @@
+Sentence #1 (7 tokens):
+I just wanted to say that.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=wanted CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.] 
+root(ROOT-0, wanted-3)
+nsubj(wanted-3, I-1)
+advmod(wanted-3, just-2)
+aux(say-5, to-4)
+xcomp(wanted-3, say-5)
+dobj(say-5, that-6)
+punct(wanted-3, .-7)
+
+Sentence #2 (12 tokens):
+I love Gheorghe Muresan, so I automatically loved this movie.
+[Text=I CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=VBP] [Text=Gheorghe CharacterOffsetBegin=42 CharacterOffsetEnd=50 PartOfSpeech=NNP] [Text=Muresan CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=,] [Text=so CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=PRP] [Text=automatically CharacterOffsetBegin=65 CharacterOffsetEnd=78 PartOfSpeech=RB] [Text=loved CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+nn(Muresan-4, Gheorghe-3)
+dobj(love-2, Muresan-4)
+punct(love-2, ,-5)
+dep(love-2, so-6)
+nsubj(loved-9, I-7)
+advmod(loved-9, automatically-8)
+parataxis(love-2, loved-9)
+det(movie-11, this-10)
+dobj(loved-9, movie-11)
+punct(love-2, .-12)
+
+Sentence #3 (20 tokens):
+Everything else about it was so-so... Billy Crystal is a good actor, even if he is annoying.
+[Text=Everything CharacterOffsetBegin=101 CharacterOffsetEnd=111 PartOfSpeech=NN] [Text=else CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=about CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=VBD] [Text=so-so CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=JJ] [Text=... CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=:] [Text=Billy CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=NNP] [Text=Crystal CharacterOffsetBegin=145 CharacterOffsetEnd=152 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=JJ] [Text=actor CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=,] [Text=even CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=RB] [Text=if CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=VBZ] [Text=annoying CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=.] 
+root(ROOT-0, so-so-6)
+nsubj(so-so-6, Everything-1)
+advmod(Everything-1, else-2)
+prep(Everything-1, about-3)
+pobj(about-3, it-4)
+cop(so-so-6, was-5)
+punct(so-so-6, ...-7)
+nn(Crystal-9, Billy-8)
+nsubj(actor-13, Crystal-9)
+cop(actor-13, is-10)
+det(actor-13, a-11)
+amod(actor-13, good-12)
+parataxis(so-so-6, actor-13)
+punct(actor-13, ,-14)
+advmod(annoying-19, even-15)
+mark(annoying-19, if-16)
+nsubj(annoying-19, he-17)
+cop(annoying-19, is-18)
+advcl(actor-13, annoying-19)
+punct(so-so-6, .-20)
+
+Sentence #4 (22 tokens):
+But the thing that made this movie was- at least, for a basketball fan- seeing Gheorghe Muresan act.
+[Text=But CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=WDT] [Text=made CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=VBD] [Text=- CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=:] [Text=at CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=JJS] [Text=, CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=,] [Text=for CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=DT] [Text=basketball CharacterOffsetBegin=254 CharacterOffsetEnd=264 PartOfSpeech=NN] [Text=fan CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=- CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=:] [Text=seeing CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=VBG] [Text=Gheorghe CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=NNP] [Text=Muresan CharacterOffsetBegin=286 CharacterOffsetEnd=293 PartOfSpeech=NNP] [Text=act CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=.] 
+root(ROOT-0, But-1)
+det(thing-3, the-2)
+dep(But-1, thing-3)
+nsubj(made-5, that-4)
+rcmod(thing-3, made-5)
+det(movie-7, this-6)
+dobj(made-5, movie-7)
+dep(thing-3, was-8)
+punct(was-8, --9)
+dep(--9, at-10)
+pobj(at-10, least-11)
+punct(at-10, ,-12)
+dep(,-12, for-13)
+det(fan-16, a-14)
+nn(fan-16, basketball-15)
+pobj(for-13, fan-16)
+punct(fan-16, --17)
+partmod(fan-16, seeing-18)
+nn(act-21, Gheorghe-19)
+nn(act-21, Muresan-20)
+dobj(seeing-18, act-21)
+punct(for-13, .-22)
+

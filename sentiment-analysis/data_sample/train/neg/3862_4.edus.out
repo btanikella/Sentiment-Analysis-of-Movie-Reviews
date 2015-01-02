@@ -1,0 +1,209 @@
+Sentence #1 (5 tokens):
+I just watched it.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=watched CharacterOffsetBegin=11 CharacterOffsetEnd=18 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=.] 
+root(ROOT-0, watched-3)
+nsubj(watched-3, I-1)
+advmod(watched-3, just-2)
+dobj(watched-3, it-4)
+punct(watched-3, .-5)
+
+Sentence #2 (12 tokens):
+A couple of laughs, but nothing to write home about.
+[Text=A CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=DT] [Text=couple CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=IN] [Text=laughs CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=,] [Text=but CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=CC] [Text=nothing CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=TO] [Text=write CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=VB] [Text=home CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=.] 
+root(ROOT-0, couple-2)
+det(couple-2, A-1)
+prep(couple-2, of-3)
+pobj(of-3, laughs-4)
+punct(couple-2, ,-5)
+cc(couple-2, but-6)
+conj(couple-2, nothing-7)
+aux(write-9, to-8)
+infmod(nothing-7, write-9)
+dobj(write-9, home-10)
+prep(write-9, about-11)
+punct(couple-2, .-12)
+
+Sentence #3 (9 tokens):
+Jason Lee looked like he was having fun.
+[Text=Jason CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NNP] [Text=Lee CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=NNP] [Text=looked CharacterOffsetBegin=94 CharacterOffsetEnd=100 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=IN] [Text=he CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=VBD] [Text=having CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=VBG] [Text=fun CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=.] 
+root(ROOT-0, looked-3)
+nn(Lee-2, Jason-1)
+nsubj(looked-3, Lee-2)
+mark(having-7, like-4)
+nsubj(having-7, he-5)
+aux(having-7, was-6)
+advcl(looked-3, having-7)
+dobj(having-7, fun-8)
+punct(looked-3, .-9)
+
+Sentence #4 (18 tokens):
+The (long) DVD gag reel consists almost solely of him having fits of uncontrollable laughter.
+[Text=The CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=DT] [Text=-LRB- CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=-LRB-] [Text=long CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=JJ] [Text=-RRB- CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=-RRB-] [Text=DVD CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=NN] [Text=gag CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=NN] [Text=reel CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=consists CharacterOffsetBegin=153 CharacterOffsetEnd=161 PartOfSpeech=VBZ] [Text=almost CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=RB] [Text=solely CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=PRP] [Text=having CharacterOffsetBegin=183 CharacterOffsetEnd=189 PartOfSpeech=VBG] [Text=fits CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=IN] [Text=uncontrollable CharacterOffsetBegin=198 CharacterOffsetEnd=212 PartOfSpeech=JJ] [Text=laughter CharacterOffsetBegin=213 CharacterOffsetEnd=221 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=.] 
+root(ROOT-0, consists-8)
+det(reel-7, The-1)
+punct(long-3, -LRB--2)
+amod(reel-7, long-3)
+punct(reel-7, -RRB--4)
+nn(reel-7, DVD-5)
+nn(reel-7, gag-6)
+nsubj(consists-8, reel-7)
+advmod(solely-10, almost-9)
+advmod(of-11, solely-10)
+prep(consists-8, of-11)
+pobj(of-11, him-12)
+xcomp(consists-8, having-13)
+dobj(having-13, fits-14)
+prep(fits-14, of-15)
+amod(laughter-17, uncontrollable-16)
+pobj(of-15, laughter-17)
+punct(consists-8, .-18)
+
+Sentence #5 (34 tokens):
+Selma Blair seemed to be punching a time clock, but then again, her character was supposed to be a stick in the mud, so "well done" I guess?
+[Text=Selma CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NNP] [Text=Blair CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=NNP] [Text=seemed CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=VB] [Text=punching CharacterOffsetBegin=252 CharacterOffsetEnd=260 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=NN] [Text=clock CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=,] [Text=but CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=RB] [Text=again CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=,] [Text=her CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=PRP$] [Text=character CharacterOffsetBegin=295 CharacterOffsetEnd=304 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=VBD] [Text=supposed CharacterOffsetBegin=309 CharacterOffsetEnd=317 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=DT] [Text=stick CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=DT] [Text=mud CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=,] [Text=so CharacterOffsetBegin=344 CharacterOffsetEnd=346 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=``] [Text=well CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=VBN] [Text='' CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=''] [Text=I CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=PRP] [Text=guess CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=VB] [Text=? CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=.] 
+root(ROOT-0, guess-33)
+nn(Blair-2, Selma-1)
+nsubj(seemed-3, Blair-2)
+parataxis(guess-33, seemed-3)
+aux(punching-6, to-4)
+aux(punching-6, be-5)
+xcomp(seemed-3, punching-6)
+det(time-8, a-7)
+dobj(punching-6, time-8)
+dep(time-8, clock-9)
+punct(seemed-3, ,-10)
+cc(seemed-3, but-11)
+advmod(seemed-3, then-12)
+advmod(seemed-3, again-13)
+punct(seemed-3, ,-14)
+poss(character-16, her-15)
+nsubjpass(supposed-18, character-16)
+auxpass(supposed-18, was-17)
+ccomp(seemed-3, supposed-18)
+aux(stick-22, to-19)
+cop(stick-22, be-20)
+det(stick-22, a-21)
+xcomp(supposed-18, stick-22)
+prep(stick-22, in-23)
+det(mud-25, the-24)
+pobj(in-23, mud-25)
+punct(seemed-3, ,-26)
+advmod(done-30, so-27)
+punct(done-30, ``-28)
+advmod(done-30, well-29)
+dep(guess-33, done-30)
+punct(done-30, ''-31)
+nsubj(guess-33, I-32)
+punct(guess-33, ?-34)
+
+Sentence #6 (6 tokens):
+Jim Brolin was surprisingly funny.
+[Text=Jim CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=NNP] [Text=Brolin CharacterOffsetBegin=376 CharacterOffsetEnd=382 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=VBD] [Text=surprisingly CharacterOffsetBegin=387 CharacterOffsetEnd=399 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=.] 
+root(ROOT-0, funny-5)
+nn(Brolin-2, Jim-1)
+nsubj(funny-5, Brolin-2)
+cop(funny-5, was-3)
+advmod(funny-5, surprisingly-4)
+punct(funny-5, .-6)
+
+Sentence #7 (12 tokens):
+(Being married to Babs can't be a picnic.)
+[Text=-LRB- CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=-LRB-] [Text=Being CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=VBG] [Text=married CharacterOffsetBegin=418 CharacterOffsetEnd=425 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=TO] [Text=Babs CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=NNP] [Text=ca CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=440 CharacterOffsetEnd=442 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=DT] [Text=picnic CharacterOffsetBegin=445 CharacterOffsetEnd=451 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=-RRB-] 
+root(ROOT-0, picnic-10)
+punct(picnic-10, -LRB--1)
+dep(picnic-10, Being-2)
+dep(picnic-10, married-3)
+prep(married-3, to-4)
+pobj(to-4, Babs-5)
+aux(picnic-10, ca-6)
+neg(picnic-10, n't-7)
+cop(picnic-10, be-8)
+det(picnic-10, a-9)
+punct(picnic-10, .-11)
+punct(picnic-10, -RRB--12)
+
+Sentence #8 (8 tokens):
+The soundtrack was hip, and eclectic.
+[Text=The CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=DT] [Text=soundtrack CharacterOffsetBegin=462 CharacterOffsetEnd=472 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=VBD] [Text=hip CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=,] [Text=and CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=CC] [Text=eclectic CharacterOffsetBegin=486 CharacterOffsetEnd=494 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=.] 
+root(ROOT-0, hip-4)
+det(soundtrack-2, The-1)
+nsubj(hip-4, soundtrack-2)
+cop(hip-4, was-3)
+punct(hip-4, ,-5)
+cc(hip-4, and-6)
+conj(hip-4, eclectic-7)
+punct(hip-4, .-8)
+
+Sentence #9 (25 tokens):
+Larry Miller, who played Julia Stiles father (hilariously), in 10 Things I Hate About You is funny here as well.
+[Text=Larry CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=NNP] [Text=Miller CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=,] [Text=who CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=WP] [Text=played CharacterOffsetBegin=518 CharacterOffsetEnd=524 PartOfSpeech=VBD] [Text=Julia CharacterOffsetBegin=525 CharacterOffsetEnd=530 PartOfSpeech=NNP] [Text=Stiles CharacterOffsetBegin=531 CharacterOffsetEnd=537 PartOfSpeech=NNP] [Text=father CharacterOffsetBegin=538 CharacterOffsetEnd=544 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=545 CharacterOffsetEnd=546 PartOfSpeech=-LRB-] [Text=hilariously CharacterOffsetBegin=546 CharacterOffsetEnd=557 PartOfSpeech=RB] [Text=-RRB- CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=,] [Text=in CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=IN] [Text=10 CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=CD] [Text=Things CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=573 CharacterOffsetEnd=574 PartOfSpeech=PRP] [Text=Hate CharacterOffsetBegin=575 CharacterOffsetEnd=579 PartOfSpeech=VBP] [Text=About CharacterOffsetBegin=580 CharacterOffsetEnd=585 PartOfSpeech=IN] [Text=You CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=590 CharacterOffsetEnd=592 PartOfSpeech=VBZ] [Text=funny CharacterOffsetBegin=593 CharacterOffsetEnd=598 PartOfSpeech=JJ] [Text=here CharacterOffsetBegin=599 CharacterOffsetEnd=603 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=611 CharacterOffsetEnd=612 PartOfSpeech=.] 
+root(ROOT-0, Miller-2)
+nn(Miller-2, Larry-1)
+punct(Miller-2, ,-3)
+nsubj(played-5, who-4)
+rcmod(Miller-2, played-5)
+dobj(played-5, Julia-6)
+nn(father-8, Stiles-7)
+dep(Julia-6, father-8)
+punct(hilariously-10, -LRB--9)
+appos(father-8, hilariously-10)
+punct(hilariously-10, -RRB--11)
+punct(father-8, ,-12)
+prep(played-5, in-13)
+num(Things-15, 10-14)
+pobj(in-13, Things-15)
+nsubj(Hate-17, I-16)
+rcmod(Things-15, Hate-17)
+advmod(funny-21, About-18)
+nsubj(funny-21, You-19)
+cop(funny-21, is-20)
+ccomp(Hate-17, funny-21)
+advmod(funny-21, here-22)
+advmod(well-24, as-23)
+advmod(funny-21, well-24)
+punct(Miller-2, .-25)
+
+Sentence #10 (18 tokens):
+He's great, but the best aspect of this movie was the casting of Julia Stiles.
+[Text=He CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=622 CharacterOffsetEnd=627 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=,] [Text=but CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=JJS] [Text=aspect CharacterOffsetBegin=642 CharacterOffsetEnd=648 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=652 CharacterOffsetEnd=656 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=657 CharacterOffsetEnd=662 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=DT] [Text=casting CharacterOffsetBegin=671 CharacterOffsetEnd=678 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=679 CharacterOffsetEnd=681 PartOfSpeech=IN] [Text=Julia CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=NNP] [Text=Stiles CharacterOffsetBegin=688 CharacterOffsetEnd=694 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=694 CharacterOffsetEnd=695 PartOfSpeech=.] 
+root(ROOT-0, great-3)
+nsubj(great-3, He-1)
+cop(great-3, 's-2)
+punct(great-3, ,-4)
+cc(great-3, but-5)
+det(aspect-8, the-6)
+amod(aspect-8, best-7)
+nsubj(casting-14, aspect-8)
+prep(aspect-8, of-9)
+det(movie-11, this-10)
+pobj(of-9, movie-11)
+cop(casting-14, was-12)
+det(casting-14, the-13)
+conj(great-3, casting-14)
+prep(casting-14, of-15)
+nn(Stiles-17, Julia-16)
+pobj(of-15, Stiles-17)
+punct(great-3, .-18)
+
+Sentence #11 (18 tokens):
+I could spend two hours watching her fold laundry, and I feel like I just did.
+[Text=I CharacterOffsetBegin=700 CharacterOffsetEnd=701 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=702 CharacterOffsetEnd=707 PartOfSpeech=MD] [Text=spend CharacterOffsetBegin=708 CharacterOffsetEnd=713 PartOfSpeech=VB] [Text=two CharacterOffsetBegin=714 CharacterOffsetEnd=717 PartOfSpeech=CD] [Text=hours CharacterOffsetBegin=718 CharacterOffsetEnd=723 PartOfSpeech=NNS] [Text=watching CharacterOffsetBegin=724 CharacterOffsetEnd=732 PartOfSpeech=VBG] [Text=her CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=PRP$] [Text=fold CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=JJ] [Text=laundry CharacterOffsetBegin=742 CharacterOffsetEnd=749 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=749 CharacterOffsetEnd=750 PartOfSpeech=,] [Text=and CharacterOffsetBegin=751 CharacterOffsetEnd=754 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=755 CharacterOffsetEnd=756 PartOfSpeech=PRP] [Text=feel CharacterOffsetBegin=757 CharacterOffsetEnd=761 PartOfSpeech=VBP] [Text=like CharacterOffsetBegin=762 CharacterOffsetEnd=766 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=767 CharacterOffsetEnd=768 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=769 CharacterOffsetEnd=773 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=777 CharacterOffsetEnd=778 PartOfSpeech=.] 
+root(ROOT-0, spend-3)
+nsubj(spend-3, I-1)
+aux(spend-3, could-2)
+num(hours-5, two-4)
+dobj(spend-3, hours-5)
+xcomp(spend-3, watching-6)
+poss(laundry-9, her-7)
+amod(laundry-9, fold-8)
+dobj(watching-6, laundry-9)
+punct(spend-3, ,-10)
+cc(spend-3, and-11)
+nsubj(feel-13, I-12)
+conj(spend-3, feel-13)
+mark(did-17, like-14)
+nsubj(did-17, I-15)
+advmod(did-17, just-16)
+advcl(feel-13, did-17)
+punct(spend-3, .-18)
+

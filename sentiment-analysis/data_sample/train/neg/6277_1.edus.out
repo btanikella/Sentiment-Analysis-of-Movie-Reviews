@@ -1,0 +1,366 @@
+Sentence #1 (7 tokens):
+this film really tries to hard.
+[Text=this CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=really CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=RB] [Text=tries CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=TO] [Text=hard CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=.] 
+root(ROOT-0, tries-4)
+det(film-2, this-1)
+nsubj(tries-4, film-2)
+advmod(tries-4, really-3)
+prep(tries-4, to-5)
+pobj(to-5, hard-6)
+punct(tries-4, .-7)
+
+Sentence #2 (23 tokens):
+if your going to make a horror film, at least give it a reason to believe in to hook the viewer.
+[Text=if CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=PRP$] [Text=going CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=DT] [Text=horror CharacterOffsetBegin=64 CharacterOffsetEnd=70 PartOfSpeech=NN] [Text=film CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=,] [Text=at CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=JJS] [Text=give CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=TO] [Text=believe CharacterOffsetBegin=106 CharacterOffsetEnd=113 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=to CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=TO] [Text=hook CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=viewer CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=.] 
+root(ROOT-0, give-12)
+mark(going-3, if-1)
+nsubj(going-3, your-2)
+advcl(give-12, going-3)
+aux(make-5, to-4)
+xcomp(going-3, make-5)
+det(film-8, a-6)
+nn(film-8, horror-7)
+dobj(make-5, film-8)
+punct(give-12, ,-9)
+prep(give-12, at-10)
+pobj(at-10, least-11)
+iobj(give-12, it-13)
+det(reason-15, a-14)
+dobj(give-12, reason-15)
+aux(believe-17, to-16)
+infmod(reason-15, believe-17)
+prep(believe-17, in-18)
+aux(hook-20, to-19)
+pcomp(in-18, hook-20)
+det(viewer-22, the-21)
+dobj(hook-20, viewer-22)
+punct(give-12, .-23)
+
+Sentence #3 (17 tokens):
+you wait and wait through the film expecting for some grand explanation but it doesn't.
+[Text=you CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=PRP] [Text=wait CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=VBP] [Text=and CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC] [Text=wait CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=VBP] [Text=through CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=NN] [Text=expecting CharacterOffsetBegin=176 CharacterOffsetEnd=185 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=DT] [Text=grand CharacterOffsetBegin=195 CharacterOffsetEnd=200 PartOfSpeech=JJ] [Text=explanation CharacterOffsetBegin=201 CharacterOffsetEnd=212 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=.] 
+root(ROOT-0, wait-2)
+nsubj(wait-2, you-1)
+cc(wait-2, and-3)
+conj(wait-2, wait-4)
+prep(wait-4, through-5)
+det(film-7, the-6)
+pobj(through-5, film-7)
+dep(wait-2, expecting-8)
+prep(expecting-8, for-9)
+det(explanation-12, some-10)
+amod(explanation-12, grand-11)
+pobj(for-9, explanation-12)
+cc(expecting-8, but-13)
+nsubj(does-15, it-14)
+conj(expecting-8, does-15)
+neg(does-15, n't-16)
+punct(wait-2, .-17)
+
+Sentence #4 (13 tokens):
+instead it tries to be too clever ending and not revealing anything.
+[Text=instead CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=PRP] [Text=tries CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=VB] [Text=too CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=RB] [Text=clever CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=ending CharacterOffsetBegin=267 CharacterOffsetEnd=273 PartOfSpeech=VBG] [Text=and CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=RB] [Text=revealing CharacterOffsetBegin=282 CharacterOffsetEnd=291 PartOfSpeech=VBG] [Text=anything CharacterOffsetBegin=292 CharacterOffsetEnd=300 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=.] 
+root(ROOT-0, tries-3)
+advmod(tries-3, instead-1)
+nsubj(tries-3, it-2)
+aux(clever-7, to-4)
+cop(clever-7, be-5)
+advmod(clever-7, too-6)
+xcomp(tries-3, clever-7)
+dep(clever-7, ending-8)
+cc(ending-8, and-9)
+neg(revealing-11, not-10)
+conj(ending-8, revealing-11)
+dobj(revealing-11, anything-12)
+punct(tries-3, .-13)
+
+Sentence #5 (8 tokens):
+what was the point of the movie ?
+[Text=what CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=DT] [Text=point CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=.] 
+root(ROOT-0, point-4)
+nsubj(point-4, what-1)
+cop(point-4, was-2)
+det(point-4, the-3)
+prep(point-4, of-5)
+det(movie-7, the-6)
+pobj(of-5, movie-7)
+punct(point-4, ?-8)
+
+Sentence #6 (6 tokens):
+where it's actually going ?
+[Text=where CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=VBZ] [Text=actually CharacterOffsetBegin=355 CharacterOffsetEnd=363 PartOfSpeech=RB] [Text=going CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=VBG] [Text=? CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=.] 
+root(ROOT-0, going-5)
+advmod(going-5, where-1)
+nsubj(going-5, it-2)
+aux(going-5, 's-3)
+advmod(going-5, actually-4)
+punct(going-5, ?-6)
+
+Sentence #7 (10 tokens):
+and more importantly what the hell was going on .
+[Text=and CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=CC] [Text=more CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=RBR] [Text=importantly CharacterOffsetBegin=385 CharacterOffsetEnd=396 PartOfSpeech=RB] [Text=what CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=WP] [Text=the CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=DT] [Text=hell CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=VBD] [Text=going CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=.] 
+root(ROOT-0, importantly-3)
+cc(importantly-3, and-1)
+conj(importantly-3, more-2)
+dobj(going-8, what-4)
+det(hell-6, the-5)
+nsubj(going-8, hell-6)
+aux(going-8, was-7)
+dep(importantly-3, going-8)
+prep(going-8, on-9)
+punct(importantly-3, .-10)
+
+Sentence #8 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #9 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=436 CharacterOffsetEnd=437 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #10 (12 tokens):
+why were they there and how does it tie into anything?
+[Text=why CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=WRB] [Text=were CharacterOffsetBegin=446 CharacterOffsetEnd=450 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=PRP] [Text=there CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=CC] [Text=how CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=WRB] [Text=does CharacterOffsetBegin=470 CharacterOffsetEnd=474 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=PRP] [Text=tie CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=IN] [Text=anything CharacterOffsetBegin=487 CharacterOffsetEnd=495 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=.] 
+root(ROOT-0, were-2)
+advmod(were-2, why-1)
+nsubj(were-2, they-3)
+advmod(were-2, there-4)
+cc(were-2, and-5)
+advmod(tie-9, how-6)
+aux(tie-9, does-7)
+nsubj(tie-9, it-8)
+conj(were-2, tie-9)
+prep(tie-9, into-10)
+pobj(into-10, anything-11)
+punct(were-2, ?-12)
+
+Sentence #11 (6 tokens):
+just another weak sci-fi horror.
+[Text=just CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=RB] [Text=another CharacterOffsetBegin=506 CharacterOffsetEnd=513 PartOfSpeech=DT] [Text=weak CharacterOffsetBegin=514 CharacterOffsetEnd=518 PartOfSpeech=JJ] [Text=sci-fi CharacterOffsetBegin=519 CharacterOffsetEnd=525 PartOfSpeech=JJ] [Text=horror CharacterOffsetBegin=526 CharacterOffsetEnd=532 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=.] 
+root(ROOT-0, horror-5)
+advmod(horror-5, just-1)
+det(horror-5, another-2)
+amod(horror-5, weak-3)
+amod(horror-5, sci-fi-4)
+punct(horror-5, .-6)
+
+Sentence #12 (30 tokens):
+i love the fake reviews on IMDb saying how great it is by related press releases to bump the movie (either that or people have low horizons).
+[Text=i CharacterOffsetBegin=538 CharacterOffsetEnd=539 PartOfSpeech=LS] [Text=love CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=DT] [Text=fake CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=JJ] [Text=reviews CharacterOffsetBegin=554 CharacterOffsetEnd=561 PartOfSpeech=NNS] [Text=on CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=IN] [Text=IMDb CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=NN] [Text=saying CharacterOffsetBegin=570 CharacterOffsetEnd=576 PartOfSpeech=VBG] [Text=how CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=WRB] [Text=great CharacterOffsetBegin=581 CharacterOffsetEnd=586 PartOfSpeech=JJ] [Text=it CharacterOffsetBegin=587 CharacterOffsetEnd=589 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=590 CharacterOffsetEnd=592 PartOfSpeech=VBZ] [Text=by CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=IN] [Text=related CharacterOffsetBegin=596 CharacterOffsetEnd=603 PartOfSpeech=JJ] [Text=press CharacterOffsetBegin=604 CharacterOffsetEnd=609 PartOfSpeech=NN] [Text=releases CharacterOffsetBegin=610 CharacterOffsetEnd=618 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=TO] [Text=bump CharacterOffsetBegin=622 CharacterOffsetEnd=626 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=627 CharacterOffsetEnd=630 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=637 CharacterOffsetEnd=638 PartOfSpeech=-LRB-] [Text=either CharacterOffsetBegin=638 CharacterOffsetEnd=644 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=645 CharacterOffsetEnd=649 PartOfSpeech=IN] [Text=or CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=CC] [Text=people CharacterOffsetBegin=653 CharacterOffsetEnd=659 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=660 CharacterOffsetEnd=664 PartOfSpeech=VBP] [Text=low CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=JJ] [Text=horizons CharacterOffsetBegin=669 CharacterOffsetEnd=677 PartOfSpeech=NNS] [Text=-RRB- CharacterOffsetBegin=677 CharacterOffsetEnd=678 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, i-1)
+det(reviews-5, the-3)
+amod(reviews-5, fake-4)
+dobj(love-2, reviews-5)
+prep(love-2, on-6)
+pobj(on-6, IMDb-7)
+partmod(IMDb-7, saying-8)
+advmod(great-10, how-9)
+dep(is-12, great-10)
+nsubj(is-12, it-11)
+ccomp(saying-8, is-12)
+prep(is-12, by-13)
+amod(releases-16, related-14)
+nn(releases-16, press-15)
+pobj(by-13, releases-16)
+aux(bump-18, to-17)
+xcomp(is-12, bump-18)
+det(movie-20, the-19)
+dobj(bump-18, movie-20)
+punct(either-22, -LRB--21)
+preconj(that-23, either-22)
+dep(movie-20, that-23)
+cc(that-23, or-24)
+nsubj(have-26, people-25)
+conj(that-23, have-26)
+amod(horizons-28, low-27)
+dobj(have-26, horizons-28)
+punct(have-26, -RRB--29)
+punct(love-2, .-30)
+
+Sentence #13 (36 tokens):
+it's not worth your 2hrs at all.i'm not saying the film is better than the fragile, but at least that gave you reasoning and why things happened and has an end result.
+[Text=it CharacterOffsetBegin=684 CharacterOffsetEnd=686 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=686 CharacterOffsetEnd=688 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=689 CharacterOffsetEnd=692 PartOfSpeech=RB] [Text=worth CharacterOffsetBegin=693 CharacterOffsetEnd=698 PartOfSpeech=JJ] [Text=your CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=PRP$] [Text=2hrs CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=NNS] [Text=at CharacterOffsetBegin=709 CharacterOffsetEnd=711 PartOfSpeech=IN] [Text=all.i CharacterOffsetBegin=712 CharacterOffsetEnd=717 PartOfSpeech=JJ] [Text='m CharacterOffsetBegin=717 CharacterOffsetEnd=719 PartOfSpeech=VBP] [Text=not CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=RB] [Text=saying CharacterOffsetBegin=724 CharacterOffsetEnd=730 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=735 CharacterOffsetEnd=739 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=740 CharacterOffsetEnd=742 PartOfSpeech=VBZ] [Text=better CharacterOffsetBegin=743 CharacterOffsetEnd=749 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=750 CharacterOffsetEnd=754 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=755 CharacterOffsetEnd=758 PartOfSpeech=DT] [Text=fragile CharacterOffsetBegin=759 CharacterOffsetEnd=766 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=766 CharacterOffsetEnd=767 PartOfSpeech=,] [Text=but CharacterOffsetBegin=768 CharacterOffsetEnd=771 PartOfSpeech=CC] [Text=at CharacterOffsetBegin=772 CharacterOffsetEnd=774 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=775 CharacterOffsetEnd=780 PartOfSpeech=JJS] [Text=that CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=WDT] [Text=gave CharacterOffsetBegin=786 CharacterOffsetEnd=790 PartOfSpeech=VBD] [Text=you CharacterOffsetBegin=791 CharacterOffsetEnd=794 PartOfSpeech=PRP] [Text=reasoning CharacterOffsetBegin=795 CharacterOffsetEnd=804 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=805 CharacterOffsetEnd=808 PartOfSpeech=CC] [Text=why CharacterOffsetBegin=809 CharacterOffsetEnd=812 PartOfSpeech=WRB] [Text=things CharacterOffsetBegin=813 CharacterOffsetEnd=819 PartOfSpeech=NNS] [Text=happened CharacterOffsetBegin=820 CharacterOffsetEnd=828 PartOfSpeech=VBD] [Text=and CharacterOffsetBegin=829 CharacterOffsetEnd=832 PartOfSpeech=CC] [Text=has CharacterOffsetBegin=833 CharacterOffsetEnd=836 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=837 CharacterOffsetEnd=839 PartOfSpeech=DT] [Text=end CharacterOffsetBegin=840 CharacterOffsetEnd=843 PartOfSpeech=NN] [Text=result CharacterOffsetBegin=844 CharacterOffsetEnd=850 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=850 CharacterOffsetEnd=851 PartOfSpeech=.] 
+root(ROOT-0, worth-4)
+nsubj(worth-4, it-1)
+cop(worth-4, 's-2)
+neg(worth-4, not-3)
+poss(2hrs-6, your-5)
+nsubj(saying-11, 2hrs-6)
+prep(2hrs-6, at-7)
+pobj(at-7, all.i-8)
+aux(saying-11, 'm-9)
+neg(saying-11, not-10)
+ccomp(worth-4, saying-11)
+det(film-13, the-12)
+nsubj(better-15, film-13)
+cop(better-15, is-14)
+ccomp(saying-11, better-15)
+prep(better-15, than-16)
+det(fragile-18, the-17)
+pobj(than-16, fragile-18)
+punct(worth-4, ,-19)
+cc(worth-4, but-20)
+advmod(gave-24, at-21)
+pobj(at-21, least-22)
+nsubj(gave-24, that-23)
+conj(worth-4, gave-24)
+iobj(gave-24, you-25)
+dobj(gave-24, reasoning-26)
+cc(reasoning-26, and-27)
+advmod(happened-30, why-28)
+nsubj(happened-30, things-29)
+conj(reasoning-26, happened-30)
+cc(worth-4, and-31)
+conj(worth-4, has-32)
+det(result-35, an-33)
+nn(result-35, end-34)
+dep(worth-4, result-35)
+punct(worth-4, .-36)
+
+Sentence #14 (19 tokens):
+this doesn't and it just waffle's on with tons of padding to make everything feel scary.
+[Text=this CharacterOffsetBegin=856 CharacterOffsetEnd=860 PartOfSpeech=DT] [Text=does CharacterOffsetBegin=861 CharacterOffsetEnd=865 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=865 CharacterOffsetEnd=868 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=869 CharacterOffsetEnd=872 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=873 CharacterOffsetEnd=875 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=876 CharacterOffsetEnd=880 PartOfSpeech=RB] [Text=waffle CharacterOffsetBegin=881 CharacterOffsetEnd=887 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=887 CharacterOffsetEnd=889 PartOfSpeech=POS] [Text=on CharacterOffsetBegin=890 CharacterOffsetEnd=892 PartOfSpeech=IN] [Text=with CharacterOffsetBegin=893 CharacterOffsetEnd=897 PartOfSpeech=IN] [Text=tons CharacterOffsetBegin=898 CharacterOffsetEnd=902 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=903 CharacterOffsetEnd=905 PartOfSpeech=IN] [Text=padding CharacterOffsetBegin=906 CharacterOffsetEnd=913 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=914 CharacterOffsetEnd=916 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=917 CharacterOffsetEnd=921 PartOfSpeech=VB] [Text=everything CharacterOffsetBegin=922 CharacterOffsetEnd=932 PartOfSpeech=NN] [Text=feel CharacterOffsetBegin=933 CharacterOffsetEnd=937 PartOfSpeech=VBP] [Text=scary CharacterOffsetBegin=938 CharacterOffsetEnd=943 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=943 CharacterOffsetEnd=944 PartOfSpeech=.] 
+root(ROOT-0, this-1)
+partmod(this-1, does-2)
+dep(does-2, n't-3)
+cc(n't-3, and-4)
+nsubj(waffle-7, it-5)
+advmod(waffle-7, just-6)
+conj(n't-3, waffle-7)
+dep(waffle-7, 's-8)
+prep(waffle-7, on-9)
+prep(on-9, with-10)
+pobj(with-10, tons-11)
+prep(tons-11, of-12)
+pobj(of-12, padding-13)
+aux(make-15, to-14)
+pcomp(on-9, make-15)
+nsubj(feel-17, everything-16)
+ccomp(make-15, feel-17)
+acomp(feel-17, scary-18)
+punct(this-1, .-19)
+
+Sentence #15 (12 tokens):
+this film is about as low as when a stranger calls.
+[Text=this CharacterOffsetBegin=949 CharacterOffsetEnd=953 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=954 CharacterOffsetEnd=958 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=959 CharacterOffsetEnd=961 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=962 CharacterOffsetEnd=967 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=968 CharacterOffsetEnd=970 PartOfSpeech=RB] [Text=low CharacterOffsetBegin=971 CharacterOffsetEnd=974 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=975 CharacterOffsetEnd=977 PartOfSpeech=IN] [Text=when CharacterOffsetBegin=978 CharacterOffsetEnd=982 PartOfSpeech=WRB] [Text=a CharacterOffsetBegin=983 CharacterOffsetEnd=984 PartOfSpeech=DT] [Text=stranger CharacterOffsetBegin=985 CharacterOffsetEnd=993 PartOfSpeech=NN] [Text=calls CharacterOffsetBegin=994 CharacterOffsetEnd=999 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=999 CharacterOffsetEnd=1000 PartOfSpeech=.] 
+root(ROOT-0, low-6)
+det(film-2, this-1)
+nsubj(low-6, film-2)
+cop(low-6, is-3)
+advmod(low-6, about-4)
+advmod(low-6, as-5)
+prep(low-6, as-7)
+advmod(calls-11, when-8)
+det(stranger-10, a-9)
+nsubj(calls-11, stranger-10)
+pcomp(as-7, calls-11)
+punct(low-6, .-12)
+
+Sentence #16 (6 tokens):
+god that was lame too.
+[Text=god CharacterOffsetBegin=1005 CharacterOffsetEnd=1008 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=1009 CharacterOffsetEnd=1013 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=1014 CharacterOffsetEnd=1017 PartOfSpeech=VBD] [Text=lame CharacterOffsetBegin=1018 CharacterOffsetEnd=1022 PartOfSpeech=JJ] [Text=too CharacterOffsetBegin=1023 CharacterOffsetEnd=1026 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=1026 CharacterOffsetEnd=1027 PartOfSpeech=.] 
+root(ROOT-0, god-1)
+nsubj(lame-4, that-2)
+cop(lame-4, was-3)
+rcmod(god-1, lame-4)
+advmod(lame-4, too-5)
+punct(god-1, .-6)
+
+Sentence #17 (35 tokens):
+big tip, if your gonna make a horror, make it believable with reasoning and explain to the viewer what's going on, so they have a hook into your story.
+[Text=big CharacterOffsetBegin=1032 CharacterOffsetEnd=1035 PartOfSpeech=JJ] [Text=tip CharacterOffsetBegin=1036 CharacterOffsetEnd=1039 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1039 CharacterOffsetEnd=1040 PartOfSpeech=,] [Text=if CharacterOffsetBegin=1041 CharacterOffsetEnd=1043 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=1044 CharacterOffsetEnd=1048 PartOfSpeech=PRP$] [Text=gon CharacterOffsetBegin=1049 CharacterOffsetEnd=1052 PartOfSpeech=VBG] [Text=na CharacterOffsetBegin=1052 CharacterOffsetEnd=1054 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=1055 CharacterOffsetEnd=1059 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=1060 CharacterOffsetEnd=1061 PartOfSpeech=DT] [Text=horror CharacterOffsetBegin=1062 CharacterOffsetEnd=1068 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=1068 CharacterOffsetEnd=1069 PartOfSpeech=,] [Text=make CharacterOffsetBegin=1070 CharacterOffsetEnd=1074 PartOfSpeech=VBP] [Text=it CharacterOffsetBegin=1075 CharacterOffsetEnd=1077 PartOfSpeech=PRP] [Text=believable CharacterOffsetBegin=1078 CharacterOffsetEnd=1088 PartOfSpeech=JJ] [Text=with CharacterOffsetBegin=1089 CharacterOffsetEnd=1093 PartOfSpeech=IN] [Text=reasoning CharacterOffsetBegin=1094 CharacterOffsetEnd=1103 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1104 CharacterOffsetEnd=1107 PartOfSpeech=CC] [Text=explain CharacterOffsetBegin=1108 CharacterOffsetEnd=1115 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=1116 CharacterOffsetEnd=1118 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=1119 CharacterOffsetEnd=1122 PartOfSpeech=DT] [Text=viewer CharacterOffsetBegin=1123 CharacterOffsetEnd=1129 PartOfSpeech=NN] [Text=what CharacterOffsetBegin=1130 CharacterOffsetEnd=1134 PartOfSpeech=WP] [Text='s CharacterOffsetBegin=1134 CharacterOffsetEnd=1136 PartOfSpeech=VBZ] [Text=going CharacterOffsetBegin=1137 CharacterOffsetEnd=1142 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=1143 CharacterOffsetEnd=1145 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=1145 CharacterOffsetEnd=1146 PartOfSpeech=,] [Text=so CharacterOffsetBegin=1147 CharacterOffsetEnd=1149 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=1150 CharacterOffsetEnd=1154 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=1155 CharacterOffsetEnd=1159 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=1160 CharacterOffsetEnd=1161 PartOfSpeech=DT] [Text=hook CharacterOffsetBegin=1162 CharacterOffsetEnd=1166 PartOfSpeech=NN] [Text=into CharacterOffsetBegin=1167 CharacterOffsetEnd=1171 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=1172 CharacterOffsetEnd=1176 PartOfSpeech=PRP$] [Text=story CharacterOffsetBegin=1177 CharacterOffsetEnd=1182 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1182 CharacterOffsetEnd=1183 PartOfSpeech=.] 
+root(ROOT-0, tip-2)
+amod(tip-2, big-1)
+punct(tip-2, ,-3)
+mark(make-12, if-4)
+nsubj(make-12, your-5)
+dep(make-12, gon-6)
+nsubj(make-8, na-7)
+xcomp(gon-6, make-8)
+det(horror-10, a-9)
+dobj(make-8, horror-10)
+punct(gon-6, ,-11)
+advcl(tip-2, make-12)
+nsubj(believable-14, it-13)
+xcomp(make-12, believable-14)
+prep(believable-14, with-15)
+pobj(with-15, reasoning-16)
+cc(make-12, and-17)
+conj(make-12, explain-18)
+prep(explain-18, to-19)
+det(viewer-21, the-20)
+pobj(to-19, viewer-21)
+nsubj(going-24, what-22)
+aux(going-24, 's-23)
+ccomp(make-12, going-24)
+advmod(going-24, on-25)
+punct(make-12, ,-26)
+mark(have-29, so-27)
+nsubj(have-29, they-28)
+advcl(make-12, have-29)
+det(hook-31, a-30)
+dobj(have-29, hook-31)
+prep(have-29, into-32)
+poss(story-34, your-33)
+pobj(into-32, story-34)
+punct(tip-2, .-35)
+
+Sentence #18 (23 tokens):
+because if there's no reasoning or believability then there's no firm hold on anything and it can't be scary.
+[Text=because CharacterOffsetBegin=1188 CharacterOffsetEnd=1195 PartOfSpeech=IN] [Text=if CharacterOffsetBegin=1196 CharacterOffsetEnd=1198 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=1199 CharacterOffsetEnd=1204 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=1204 CharacterOffsetEnd=1206 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=1207 CharacterOffsetEnd=1209 PartOfSpeech=DT] [Text=reasoning CharacterOffsetBegin=1210 CharacterOffsetEnd=1219 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=1220 CharacterOffsetEnd=1222 PartOfSpeech=CC] [Text=believability CharacterOffsetBegin=1223 CharacterOffsetEnd=1236 PartOfSpeech=NN] [Text=then CharacterOffsetBegin=1237 CharacterOffsetEnd=1241 PartOfSpeech=RB] [Text=there CharacterOffsetBegin=1242 CharacterOffsetEnd=1247 PartOfSpeech=EX] [Text='s CharacterOffsetBegin=1247 CharacterOffsetEnd=1249 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=1250 CharacterOffsetEnd=1252 PartOfSpeech=DT] [Text=firm CharacterOffsetBegin=1253 CharacterOffsetEnd=1257 PartOfSpeech=JJ] [Text=hold CharacterOffsetBegin=1258 CharacterOffsetEnd=1262 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=1263 CharacterOffsetEnd=1265 PartOfSpeech=IN] [Text=anything CharacterOffsetBegin=1266 CharacterOffsetEnd=1274 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=1275 CharacterOffsetEnd=1278 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=1279 CharacterOffsetEnd=1281 PartOfSpeech=PRP] [Text=ca CharacterOffsetBegin=1282 CharacterOffsetEnd=1284 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=1284 CharacterOffsetEnd=1287 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=1288 CharacterOffsetEnd=1290 PartOfSpeech=VB] [Text=scary CharacterOffsetBegin=1291 CharacterOffsetEnd=1296 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1296 CharacterOffsetEnd=1297 PartOfSpeech=.] 
+root(ROOT-0, 's-4)
+mark('s-4, because-1)
+mark('s-4, if-2)
+expl('s-4, there-3)
+det(reasoning-6, no-5)
+nsubj('s-4, reasoning-6)
+cc(reasoning-6, or-7)
+conj(reasoning-6, believability-8)
+advmod(reasoning-6, then-9)
+expl('s-11, there-10)
+dep(reasoning-6, 's-11)
+det(hold-14, no-12)
+amod(hold-14, firm-13)
+nsubj('s-11, hold-14)
+prep('s-11, on-15)
+pobj(on-15, anything-16)
+cc('s-11, and-17)
+nsubj(scary-22, it-18)
+aux(scary-22, ca-19)
+neg(scary-22, n't-20)
+cop(scary-22, be-21)
+conj('s-11, scary-22)
+punct('s-4, .-23)
+
+Sentence #19 (14 tokens):
+no disrespect to the cast or crew cause they did a good job.
+[Text=no CharacterOffsetBegin=1302 CharacterOffsetEnd=1304 PartOfSpeech=DT] [Text=disrespect CharacterOffsetBegin=1305 CharacterOffsetEnd=1315 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=1316 CharacterOffsetEnd=1318 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=1319 CharacterOffsetEnd=1322 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=1323 CharacterOffsetEnd=1327 PartOfSpeech=NN] [Text=or CharacterOffsetBegin=1328 CharacterOffsetEnd=1330 PartOfSpeech=CC] [Text=crew CharacterOffsetBegin=1331 CharacterOffsetEnd=1335 PartOfSpeech=NN] [Text=cause CharacterOffsetBegin=1336 CharacterOffsetEnd=1341 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=1342 CharacterOffsetEnd=1346 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=1347 CharacterOffsetEnd=1350 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=1351 CharacterOffsetEnd=1352 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=1353 CharacterOffsetEnd=1357 PartOfSpeech=JJ] [Text=job CharacterOffsetBegin=1358 CharacterOffsetEnd=1361 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1361 CharacterOffsetEnd=1362 PartOfSpeech=.] 
+root(ROOT-0, cause-8)
+det(disrespect-2, no-1)
+nsubj(cause-8, disrespect-2)
+prep(disrespect-2, to-3)
+det(cast-5, the-4)
+pobj(to-3, cast-5)
+cc(cast-5, or-6)
+conj(cast-5, crew-7)
+nsubj(did-10, they-9)
+ccomp(cause-8, did-10)
+det(job-13, a-11)
+amod(job-13, good-12)
+dobj(did-10, job-13)
+punct(cause-8, .-14)
+
+Sentence #20 (7 tokens):
+it's just the poor writing.
+[Text=it CharacterOffsetBegin=1367 CharacterOffsetEnd=1369 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=1369 CharacterOffsetEnd=1371 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=1372 CharacterOffsetEnd=1376 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=1377 CharacterOffsetEnd=1380 PartOfSpeech=DT] [Text=poor CharacterOffsetBegin=1381 CharacterOffsetEnd=1385 PartOfSpeech=JJ] [Text=writing CharacterOffsetBegin=1386 CharacterOffsetEnd=1393 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1393 CharacterOffsetEnd=1394 PartOfSpeech=.] 
+root(ROOT-0, writing-6)
+nsubj(writing-6, it-1)
+cop(writing-6, 's-2)
+advmod(writing-6, just-3)
+det(writing-6, the-4)
+amod(writing-6, poor-5)
+punct(writing-6, .-7)
+

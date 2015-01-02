@@ -1,0 +1,58 @@
+Sentence #1 (17 tokens):
+The hero John Keem is going after some drug dealers who kidnaps girls for some reason.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=hero CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=NN] [Text=John CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NNP] [Text=Keem CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VBZ] [Text=going CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=VBG] [Text=after CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=DT] [Text=drug CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=NN] [Text=dealers CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=WP] [Text=kidnaps CharacterOffsetBegin=60 CharacterOffsetEnd=67 PartOfSpeech=VBZ] [Text=girls CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NNS] [Text=for CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=reason CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.] 
+root(ROOT-0, going-6)
+det(Keem-4, The-1)
+nn(Keem-4, hero-2)
+nn(Keem-4, John-3)
+nsubj(going-6, Keem-4)
+aux(going-6, is-5)
+prep(going-6, after-7)
+det(dealers-10, some-8)
+nn(dealers-10, drug-9)
+pobj(after-7, dealers-10)
+nsubj(kidnaps-12, who-11)
+rcmod(dealers-10, kidnaps-12)
+dobj(kidnaps-12, girls-13)
+prep(kidnaps-12, for-14)
+det(reason-16, some-15)
+pobj(for-14, reason-16)
+punct(going-6, .-17)
+
+Sentence #2 (25 tokens):
+On his journey he uses karate and kung fu moves and I don't believe he got hit a single time during the movie.
+[Text=On CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=PRP$] [Text=journey CharacterOffsetBegin=102 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=he CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=PRP] [Text=uses CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=VBZ] [Text=karate CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=CC] [Text=kung CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=JJ] [Text=fu CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=moves CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=RB] [Text=believe CharacterOffsetBegin=155 CharacterOffsetEnd=162 PartOfSpeech=VB] [Text=he CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=PRP] [Text=got CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=VBD] [Text=hit CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=VBN] [Text=a CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text=single CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=during CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=.] 
+root(ROOT-0, On-1)
+poss(journey-3, his-2)
+pobj(On-1, journey-3)
+nsubj(uses-5, he-4)
+rcmod(journey-3, uses-5)
+amod(moves-10, karate-6)
+cc(karate-6, and-7)
+conj(karate-6, kung-8)
+nn(moves-10, fu-9)
+dobj(uses-5, moves-10)
+cc(uses-5, and-11)
+nsubj(believe-15, I-12)
+aux(believe-15, do-13)
+neg(believe-15, n't-14)
+conj(uses-5, believe-15)
+nsubjpass(hit-18, he-16)
+auxpass(hit-18, got-17)
+ccomp(believe-15, hit-18)
+det(time-21, a-19)
+amod(time-21, single-20)
+dobj(hit-18, time-21)
+prep(hit-18, during-22)
+det(movie-24, the-23)
+pobj(during-22, movie-24)
+punct(On-1, .-25)
+
+Sentence #3 (4 tokens):
+This is Crap.
+[Text=This CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=VBZ] [Text=Crap CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=.] 
+root(ROOT-0, Crap-3)
+nsubj(Crap-3, This-1)
+cop(Crap-3, is-2)
+punct(Crap-3, .-4)
+

@@ -1,0 +1,150 @@
+Sentence #1 (10 tokens):
+First: I bought it at the video store.
+[Text=First CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=:] [Text=I CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=PRP] [Text=bought CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=PRP] [Text=at CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=video CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=NN] [Text=store CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.] 
+root(ROOT-0, First-1)
+punct(First-1, :-2)
+nsubj(bought-4, I-3)
+dep(First-1, bought-4)
+dobj(bought-4, it-5)
+prep(bought-4, at-6)
+det(store-9, the-7)
+nn(store-9, video-8)
+pobj(at-6, store-9)
+punct(First-1, .-10)
+
+Sentence #2 (6 tokens):
+Second: I watched it.
+[Text=Second CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=JJ] [Text=: CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=:] [Text=I CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=.] 
+root(ROOT-0, Second-1)
+punct(Second-1, :-2)
+nsubj(watched-4, I-3)
+parataxis(Second-1, watched-4)
+dobj(watched-4, it-5)
+punct(Second-1, .-6)
+
+Sentence #3 (6 tokens):
+Third: It was boring.
+[Text=Third CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=:] [Text=It CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=VBD] [Text=boring CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=VBG] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, Third-1)
+punct(Third-1, :-2)
+nsubj(boring-5, It-3)
+cop(boring-5, was-4)
+dep(Third-1, boring-5)
+punct(Third-1, .-6)
+
+Sentence #4 (7 tokens):
+Fourth: It was not funny.
+[Text=Fourth CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=JJ] [Text=: CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=:] [Text=It CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=.] 
+root(ROOT-0, Fourth-1)
+punct(Fourth-1, :-2)
+nsubj(funny-6, It-3)
+cop(funny-6, was-4)
+neg(funny-6, not-5)
+parataxis(Fourth-1, funny-6)
+punct(Fourth-1, .-7)
+
+Sentence #5 (9 tokens):
+Fifth: Most of the antics were lame.
+[Text=Fifth CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NNP] [Text=: CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=:] [Text=Most CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=DT] [Text=antics CharacterOffsetBegin=148 CharacterOffsetEnd=154 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=VBD] [Text=lame CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=.] 
+root(ROOT-0, Fifth-1)
+punct(Fifth-1, :-2)
+nsubj(lame-8, Most-3)
+prep(Most-3, of-4)
+det(antics-6, the-5)
+pobj(of-4, antics-6)
+cop(lame-8, were-7)
+dep(Fifth-1, lame-8)
+punct(Fifth-1, .-9)
+
+Sentence #6 (33 tokens):
+And last, but not least: It's not only a bad movie, it's a total fiasco.I am a huge Adam Sandler fan despite this disappointing and forgotten film.
+[Text=And CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=CC] [Text=last CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=,] [Text=but CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=RB] [Text=least CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=JJS] [Text=: CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=:] [Text=It CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=,] [Text=it CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=total CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=JJ] [Text=fiasco.I CharacterOffsetBegin=235 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=am CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=DT] [Text=huge CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=JJ] [Text=Adam CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=NNP] [Text=Sandler CharacterOffsetBegin=259 CharacterOffsetEnd=266 PartOfSpeech=NNP] [Text=fan CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=despite CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=DT] [Text=disappointing CharacterOffsetBegin=284 CharacterOffsetEnd=297 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=CC] [Text=forgotten CharacterOffsetBegin=302 CharacterOffsetEnd=311 PartOfSpeech=VBN] [Text=film CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+dep(And-1, last-2)
+punct(last-2, ,-3)
+cc(last-2, but-4)
+neg(least-6, not-5)
+conj(last-2, least-6)
+punct(last-2, :-7)
+nsubj(movie-14, It-8)
+cop(movie-14, 's-9)
+neg(only-11, not-10)
+preconj(movie-14, only-11)
+det(movie-14, a-12)
+amod(movie-14, bad-13)
+parataxis(last-2, movie-14)
+punct(movie-14, ,-15)
+nsubj(fiasco.I-20, it-16)
+cop(fiasco.I-20, 's-17)
+det(fiasco.I-20, a-18)
+amod(fiasco.I-20, total-19)
+nsubj(fan-26, fiasco.I-20)
+cop(fan-26, am-21)
+det(fan-26, a-22)
+amod(fan-26, huge-23)
+nn(fan-26, Adam-24)
+nn(fan-26, Sandler-25)
+rcmod(movie-14, fan-26)
+prep(fan-26, despite-27)
+det(film-32, this-28)
+amod(film-32, disappointing-29)
+cc(disappointing-29, and-30)
+conj(disappointing-29, forgotten-31)
+pobj(despite-27, film-32)
+punct(And-1, .-33)
+
+Sentence #7 (10 tokens):
+I pity it because it was his first movie.
+[Text=I CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=PRP] [Text=pity CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=PRP] [Text=because CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=VBD] [Text=his CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=PRP$] [Text=first CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=.] 
+root(ROOT-0, pity-2)
+nsubj(pity-2, I-1)
+dobj(pity-2, it-3)
+mark(movie-9, because-4)
+nsubj(movie-9, it-5)
+cop(movie-9, was-6)
+poss(movie-9, his-7)
+amod(movie-9, first-8)
+advcl(pity-2, movie-9)
+punct(pity-2, .-10)
+
+Sentence #8 (17 tokens):
+Even if you are a huge Adam Sandler fan, don't bother watching this movie.
+[Text=Even CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=RB] [Text=if CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=huge CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=JJ] [Text=Adam CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=NNP] [Text=Sandler CharacterOffsetBegin=396 CharacterOffsetEnd=403 PartOfSpeech=NNP] [Text=fan CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=,] [Text=do CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=RB] [Text=bother CharacterOffsetBegin=415 CharacterOffsetEnd=421 PartOfSpeech=VB] [Text=watching CharacterOffsetBegin=422 CharacterOffsetEnd=430 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=436 CharacterOffsetEnd=441 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=.] 
+root(ROOT-0, fan-9)
+advmod(fan-9, Even-1)
+mark(fan-9, if-2)
+nsubj(fan-9, you-3)
+cop(fan-9, are-4)
+det(fan-9, a-5)
+amod(fan-9, huge-6)
+nn(fan-9, Adam-7)
+nn(fan-9, Sandler-8)
+punct(fan-9, ,-10)
+aux(bother-13, do-11)
+neg(bother-13, n't-12)
+conj(fan-9, bother-13)
+xcomp(bother-13, watching-14)
+det(movie-16, this-15)
+dobj(watching-14, movie-16)
+punct(fan-9, .-17)
+
+Sentence #9 (16 tokens):
+Instead, just take the video, board a yacht, and throw it overboard.
+[Text=Instead CharacterOffsetBegin=447 CharacterOffsetEnd=454 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=454 CharacterOffsetEnd=455 PartOfSpeech=,] [Text=just CharacterOffsetBegin=456 CharacterOffsetEnd=460 PartOfSpeech=RB] [Text=take CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=DT] [Text=video CharacterOffsetBegin=470 CharacterOffsetEnd=475 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=475 CharacterOffsetEnd=476 PartOfSpeech=,] [Text=board CharacterOffsetBegin=477 CharacterOffsetEnd=482 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=DT] [Text=yacht CharacterOffsetBegin=485 CharacterOffsetEnd=490 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=,] [Text=and CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=CC] [Text=throw CharacterOffsetBegin=496 CharacterOffsetEnd=501 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=PRP] [Text=overboard CharacterOffsetBegin=505 CharacterOffsetEnd=514 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=514 CharacterOffsetEnd=515 PartOfSpeech=.] 
+root(ROOT-0, take-4)
+advmod(take-4, Instead-1)
+punct(take-4, ,-2)
+advmod(take-4, just-3)
+det(video-6, the-5)
+dobj(take-4, video-6)
+punct(take-4, ,-7)
+nn(yacht-10, board-8)
+det(yacht-10, a-9)
+conj(take-4, yacht-10)
+punct(take-4, ,-11)
+cc(take-4, and-12)
+conj(take-4, throw-13)
+dobj(throw-13, it-14)
+advmod(throw-13, overboard-15)
+punct(take-4, .-16)
+

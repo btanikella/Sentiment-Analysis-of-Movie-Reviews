@@ -1,0 +1,55 @@
+Sentence #1 (14 tokens):
+The distribution was good, the subject could have been interessant and comic.
+[Text=The CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=DT] [Text=distribution CharacterOffsetBegin=8 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=VBD] [Text=good CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=,] [Text=the CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=DT] [Text=subject CharacterOffsetBegin=35 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=could CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=VBN] [Text=interessant CharacterOffsetBegin=59 CharacterOffsetEnd=70 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=CC] [Text=comic CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=.] 
+root(ROOT-0, good-4)
+det(distribution-2, The-1)
+nsubj(good-4, distribution-2)
+cop(good-4, was-3)
+punct(good-4, ,-5)
+det(subject-7, the-6)
+nsubj(interessant-11, subject-7)
+aux(interessant-11, could-8)
+aux(interessant-11, have-9)
+cop(interessant-11, been-10)
+conj(good-4, interessant-11)
+cc(good-4, and-12)
+conj(good-4, comic-13)
+punct(good-4, .-14)
+
+Sentence #2 (17 tokens):
+whereas, he described the wandering of an old non credible communist looking for loving sensations.
+[Text=whereas CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=,] [Text=he CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=PRP] [Text=described CharacterOffsetBegin=98 CharacterOffsetEnd=107 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT] [Text=wandering CharacterOffsetBegin=112 CharacterOffsetEnd=121 PartOfSpeech=VBG] [Text=of CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=DT] [Text=old CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=JJ] [Text=non CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=JJ] [Text=credible CharacterOffsetBegin=136 CharacterOffsetEnd=144 PartOfSpeech=JJ] [Text=communist CharacterOffsetBegin=145 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=looking CharacterOffsetBegin=155 CharacterOffsetEnd=162 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=IN] [Text=loving CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=JJ] [Text=sensations CharacterOffsetBegin=174 CharacterOffsetEnd=184 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=.] 
+root(ROOT-0, described-4)
+dep(described-4, whereas-1)
+punct(described-4, ,-2)
+nsubj(described-4, he-3)
+det(wandering-6, the-5)
+dobj(described-4, wandering-6)
+prep(wandering-6, of-7)
+det(communist-12, an-8)
+amod(communist-12, old-9)
+amod(communist-12, non-10)
+amod(communist-12, credible-11)
+pobj(of-7, communist-12)
+partmod(communist-12, looking-13)
+prep(looking-13, for-14)
+amod(sensations-16, loving-15)
+pobj(for-14, sensations-16)
+punct(described-4, .-17)
+
+Sentence #3 (12 tokens):
+Instead of this, the atmosphere is nor lively nor heavy.
+[Text=Instead CharacterOffsetBegin=190 CharacterOffsetEnd=197 PartOfSpeech=RB] [Text=of CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=,] [Text=the CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=DT] [Text=atmosphere CharacterOffsetBegin=211 CharacterOffsetEnd=221 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=VBZ] [Text=nor CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=CC] [Text=lively CharacterOffsetBegin=229 CharacterOffsetEnd=235 PartOfSpeech=JJ] [Text=nor CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=CC] [Text=heavy CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=.] 
+root(ROOT-0, is-7)
+advmod(of-2, Instead-1)
+prep(is-7, of-2)
+pobj(of-2, this-3)
+punct(is-7, ,-4)
+det(atmosphere-6, the-5)
+nsubj(is-7, atmosphere-6)
+cc(is-7, nor-8)
+conj(is-7, lively-9)
+cc(is-7, nor-10)
+conj(is-7, heavy-11)
+punct(is-7, .-12)
+

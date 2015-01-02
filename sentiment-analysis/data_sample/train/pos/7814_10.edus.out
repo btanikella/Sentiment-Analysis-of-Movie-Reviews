@@ -1,0 +1,54 @@
+Sentence #1 (7 tokens):
+This is an absolutely incredible film.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=absolutely CharacterOffsetBegin=15 CharacterOffsetEnd=25 PartOfSpeech=RB] [Text=incredible CharacterOffsetBegin=26 CharacterOffsetEnd=36 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nsubj(film-6, This-1)
+cop(film-6, is-2)
+det(film-6, an-3)
+advmod(incredible-5, absolutely-4)
+amod(film-6, incredible-5)
+punct(film-6, .-7)
+
+Sentence #2 (24 tokens):
+It shows South African racism from the perspective of the victims, and provokes a feeling of anti-racism in everyone who sees it.
+[Text=It CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=PRP] [Text=shows CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=VBZ] [Text=South CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=JJ] [Text=African CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=JJ] [Text=racism CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=perspective CharacterOffsetBegin=86 CharacterOffsetEnd=97 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=DT] [Text=victims CharacterOffsetBegin=105 CharacterOffsetEnd=112 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=,] [Text=and CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=CC] [Text=provokes CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=feeling CharacterOffsetBegin=129 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=IN] [Text=anti-racism CharacterOffsetBegin=140 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=152 CharacterOffsetEnd=154 PartOfSpeech=IN] [Text=everyone CharacterOffsetBegin=155 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=WP] [Text=sees CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=VBZ] [Text=it CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=.] 
+root(ROOT-0, shows-2)
+nsubj(shows-2, It-1)
+amod(African-4, South-3)
+amod(racism-5, African-4)
+dobj(shows-2, racism-5)
+prep(racism-5, from-6)
+det(perspective-8, the-7)
+pobj(from-6, perspective-8)
+prep(perspective-8, of-9)
+det(victims-11, the-10)
+pobj(of-9, victims-11)
+punct(shows-2, ,-12)
+cc(shows-2, and-13)
+conj(shows-2, provokes-14)
+det(feeling-16, a-15)
+dobj(provokes-14, feeling-16)
+prep(feeling-16, of-17)
+pobj(of-17, anti-racism-18)
+prep(feeling-16, in-19)
+pobj(in-19, everyone-20)
+nsubj(sees-22, who-21)
+rcmod(everyone-20, sees-22)
+dobj(sees-22, it-23)
+punct(shows-2, .-24)
+
+Sentence #3 (11 tokens):
+It is the best historic film I have ever seen.
+[Text=It CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=JJS] [Text=historic CharacterOffsetBegin=196 CharacterOffsetEnd=204 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=.] 
+root(ROOT-0, film-6)
+nsubj(film-6, It-1)
+cop(film-6, is-2)
+det(film-6, the-3)
+amod(film-6, best-4)
+amod(film-6, historic-5)
+nsubj(seen-10, I-7)
+aux(seen-10, have-8)
+advmod(seen-10, ever-9)
+rcmod(film-6, seen-10)
+punct(film-6, .-11)
+

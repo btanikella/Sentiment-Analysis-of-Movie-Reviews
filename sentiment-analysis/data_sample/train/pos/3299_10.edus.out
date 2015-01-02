@@ -1,0 +1,105 @@
+Sentence #1 (8 tokens):
+A great film requiring an acquired taste.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NN] [Text=requiring CharacterOffsetBegin=17 CharacterOffsetEnd=26 PartOfSpeech=VBG] [Text=an CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=DT] [Text=acquired CharacterOffsetBegin=30 CharacterOffsetEnd=38 PartOfSpeech=VBN] [Text=taste CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.] 
+root(ROOT-0, film-3)
+det(film-3, A-1)
+amod(film-3, great-2)
+partmod(film-3, requiring-4)
+det(taste-7, an-5)
+amod(taste-7, acquired-6)
+dobj(requiring-4, taste-7)
+punct(film-3, .-8)
+
+Sentence #2 (20 tokens):
+If you're into action, wham bam films and hate serious love stories then its not for you.
+[Text=If CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=VBP] [Text=into CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=IN] [Text=action CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=,] [Text=wham CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=bam CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=films CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=CC] [Text=hate CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=VB] [Text=serious CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=JJ] [Text=love CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NN] [Text=stories CharacterOffsetBegin=110 CharacterOffsetEnd=117 PartOfSpeech=NNS] [Text=then CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=RB] [Text=its CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=PRP$] [Text=not CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=.] 
+root(ROOT-0, films-9)
+mark('re-3, If-1)
+nsubj('re-3, you-2)
+dep(films-9, 're-3)
+prep('re-3, into-4)
+pobj(into-4, action-5)
+punct(films-9, ,-6)
+nn(films-9, wham-7)
+nn(films-9, bam-8)
+cc(films-9, and-10)
+conj(films-9, hate-11)
+amod(stories-14, serious-12)
+nn(stories-14, love-13)
+dobj(hate-11, stories-14)
+advmod(stories-14, then-15)
+poss(not-17, its-16)
+dep(then-15, not-17)
+prep(not-17, for-18)
+pobj(for-18, you-19)
+punct(films-9, .-20)
+
+Sentence #3 (23 tokens):
+Otherwise, if you like to sit in front of a good intelligent movie now and again I recommend this very highly.
+[Text=Otherwise CharacterOffsetBegin=144 CharacterOffsetEnd=153 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=,] [Text=if CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=PRP] [Text=like CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=TO] [Text=sit CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=VB] [Text=in CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=IN] [Text=front CharacterOffsetBegin=177 CharacterOffsetEnd=182 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=JJ] [Text=intelligent CharacterOffsetBegin=193 CharacterOffsetEnd=204 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=NN] [Text=now CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=CC] [Text=again CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=PRP] [Text=recommend CharacterOffsetBegin=227 CharacterOffsetEnd=236 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=RB] [Text=highly CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=.] 
+root(ROOT-0, Otherwise-1)
+punct(Otherwise-1, ,-2)
+mark(like-5, if-3)
+nsubj(like-5, you-4)
+dep(,-2, like-5)
+aux(sit-7, to-6)
+xcomp(like-5, sit-7)
+prep(sit-7, in-8)
+pobj(in-8, front-9)
+prep(front-9, of-10)
+det(movie-14, a-11)
+amod(movie-14, good-12)
+amod(movie-14, intelligent-13)
+pobj(of-10, movie-14)
+advmod(sit-7, now-15)
+cc(like-5, and-16)
+advmod(like-5, again-17)
+nsubj(recommend-19, I-18)
+conj(like-5, recommend-19)
+dobj(recommend-19, this-20)
+advmod(highly-22, very-21)
+advmod(this-20, highly-22)
+punct(like-5, .-23)
+
+Sentence #4 (25 tokens):
+Easily the best film produced in Bollywood this century.The only other Indian film I would give 10/10 for is Dil Wale Dulhaniya Le Jayenge.
+[Text=Easily CharacterOffsetBegin=259 CharacterOffsetEnd=265 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=JJS] [Text=film CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=NN] [Text=produced CharacterOffsetBegin=280 CharacterOffsetEnd=288 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=IN] [Text=Bollywood CharacterOffsetBegin=292 CharacterOffsetEnd=301 PartOfSpeech=NNP] [Text=this CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=DT] [Text=century.The CharacterOffsetBegin=307 CharacterOffsetEnd=318 PartOfSpeech=NN] [Text=only CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=RB] [Text=other CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=JJ] [Text=Indian CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=MD] [Text=give CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=VB] [Text=10/10 CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=CD] [Text=for CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=IN] [Text=is CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=VBZ] [Text=Dil CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=NNP] [Text=Wale CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NNP] [Text=Dulhaniya CharacterOffsetBegin=377 CharacterOffsetEnd=386 PartOfSpeech=NNP] [Text=Le CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=NNP] [Text=Jayenge CharacterOffsetBegin=390 CharacterOffsetEnd=397 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=.] 
+root(ROOT-0, produced-5)
+advmod(produced-5, Easily-1)
+det(film-4, the-2)
+amod(film-4, best-3)
+nsubj(produced-5, film-4)
+prep(produced-5, in-6)
+pobj(in-6, Bollywood-7)
+det(century.The-9, this-8)
+dobj(produced-5, century.The-9)
+advmod(film-13, only-10)
+amod(film-13, other-11)
+amod(film-13, Indian-12)
+nsubj(Jayenge-24, film-13)
+nsubj(give-16, I-14)
+aux(give-16, would-15)
+rcmod(film-13, give-16)
+dobj(give-16, 10/10-17)
+prep(give-16, for-18)
+cop(Jayenge-24, is-19)
+nn(Jayenge-24, Dil-20)
+nn(Jayenge-24, Wale-21)
+nn(Jayenge-24, Dulhaniya-22)
+nn(Jayenge-24, Le-23)
+rcmod(century.The-9, Jayenge-24)
+punct(produced-5, .-25)
+
+Sentence #5 (9 tokens):
+Even then it comes second to this masterpiece.
+[Text=Even CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=RB] [Text=then CharacterOffsetBegin=408 CharacterOffsetEnd=412 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=PRP] [Text=comes CharacterOffsetBegin=416 CharacterOffsetEnd=421 PartOfSpeech=VBZ] [Text=second CharacterOffsetBegin=422 CharacterOffsetEnd=428 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=TO] [Text=this CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=DT] [Text=masterpiece CharacterOffsetBegin=437 CharacterOffsetEnd=448 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=.] 
+root(ROOT-0, comes-4)
+advmod(then-2, Even-1)
+advmod(comes-4, then-2)
+nsubj(comes-4, it-3)
+acomp(comes-4, second-5)
+prep(second-5, to-6)
+det(masterpiece-8, this-7)
+pobj(to-6, masterpiece-8)
+punct(comes-4, .-9)
+

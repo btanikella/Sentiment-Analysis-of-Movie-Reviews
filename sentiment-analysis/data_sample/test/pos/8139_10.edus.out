@@ -1,0 +1,70 @@
+Sentence #1 (8 tokens):
+Found this movie in a rental store.
+[Text=Found CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=VBN] [Text=this CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=DT] [Text=rental CharacterOffsetBegin=26 CharacterOffsetEnd=32 PartOfSpeech=JJ] [Text=store CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.] 
+root(ROOT-0, Found-1)
+det(movie-3, this-2)
+dobj(Found-1, movie-3)
+prep(Found-1, in-4)
+det(store-7, a-5)
+amod(store-7, rental-6)
+pobj(in-4, store-7)
+punct(Found-1, .-8)
+
+Sentence #2 (13 tokens):
+Never heard about it before, but it was a good movie.
+[Text=Never CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=RB] [Text=heard CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=VBN] [Text=about CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=PRP] [Text=before CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=,] [Text=but CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=.] 
+root(ROOT-0, heard-2)
+neg(heard-2, Never-1)
+prep(heard-2, about-3)
+pobj(about-3, it-4)
+advmod(heard-2, before-5)
+punct(heard-2, ,-6)
+cc(heard-2, but-7)
+nsubj(movie-12, it-8)
+cop(movie-12, was-9)
+det(movie-12, a-10)
+amod(movie-12, good-11)
+conj(heard-2, movie-12)
+punct(heard-2, .-13)
+
+Sentence #3 (8 tokens):
+Great acting, and thrilling story line.
+[Text=Great CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NNP] [Text=acting CharacterOffsetBegin=108 CharacterOffsetEnd=114 PartOfSpeech=VBG] [Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=,] [Text=and CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=CC] [Text=thrilling CharacterOffsetBegin=120 CharacterOffsetEnd=129 PartOfSpeech=NN] [Text=story CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=NN] [Text=line CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, acting-2)
+amod(acting-2, Great-1)
+punct(acting-2, ,-3)
+cc(acting-2, and-4)
+nn(line-7, thrilling-5)
+nn(line-7, story-6)
+conj(acting-2, line-7)
+punct(acting-2, .-8)
+
+Sentence #4 (6 tokens):
+Great kudos to Vincent Ventresca.
+[Text=Great CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=JJ] [Text=kudos CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=TO] [Text=Vincent CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=NNP] [Text=Ventresca CharacterOffsetBegin=169 CharacterOffsetEnd=178 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=.] 
+root(ROOT-0, kudos-2)
+amod(kudos-2, Great-1)
+prep(kudos-2, to-3)
+nn(Ventresca-5, Vincent-4)
+pobj(to-3, Ventresca-5)
+punct(kudos-2, .-6)
+
+Sentence #5 (15 tokens):
+He made Thomas character very attractive, and brought a special atmosphere to this movie.NJ
+[Text=He CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=VBD] [Text=Thomas CharacterOffsetBegin=192 CharacterOffsetEnd=198 PartOfSpeech=NNP] [Text=character CharacterOffsetBegin=199 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=very CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=RB] [Text=attractive CharacterOffsetBegin=214 CharacterOffsetEnd=224 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=,] [Text=and CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=CC] [Text=brought CharacterOffsetBegin=230 CharacterOffsetEnd=237 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=DT] [Text=special CharacterOffsetBegin=240 CharacterOffsetEnd=247 PartOfSpeech=JJ] [Text=atmosphere CharacterOffsetBegin=248 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=TO] [Text=this CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=DT] [Text=movie.NJ CharacterOffsetBegin=267 CharacterOffsetEnd=275 PartOfSpeech=NN] 
+root(ROOT-0, made-2)
+nsubj(made-2, He-1)
+nn(character-4, Thomas-3)
+nsubj(attractive-6, character-4)
+advmod(attractive-6, very-5)
+xcomp(made-2, attractive-6)
+punct(made-2, ,-7)
+cc(made-2, and-8)
+conj(made-2, brought-9)
+det(atmosphere-12, a-10)
+amod(atmosphere-12, special-11)
+dobj(brought-9, atmosphere-12)
+prep(brought-9, to-13)
+det(movie.NJ-15, this-14)
+pobj(to-13, movie.NJ-15)
+

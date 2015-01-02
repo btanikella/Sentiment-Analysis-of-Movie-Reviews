@@ -1,0 +1,196 @@
+Sentence #1 (5 tokens):
+This show is awesome.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=show CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=VBZ] [Text=awesome CharacterOffsetBegin=17 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=.] 
+root(ROOT-0, awesome-4)
+det(show-2, This-1)
+nsubj(awesome-4, show-2)
+cop(awesome-4, is-3)
+punct(awesome-4, .-5)
+
+Sentence #2 (17 tokens):
+I thought that the two episodes where Paul died were so sad; I actually cried.
+[Text=I CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=32 CharacterOffsetEnd=39 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT] [Text=two CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=CD] [Text=episodes CharacterOffsetBegin=53 CharacterOffsetEnd=61 PartOfSpeech=NNS] [Text=where CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=WRB] [Text=Paul CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=NNP] [Text=died CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=VBD] [Text=were CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=VBD] [Text=so CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=sad CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=JJ] [Text=; CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=:] [Text=I CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=PRP] [Text=actually CharacterOffsetBegin=93 CharacterOffsetEnd=101 PartOfSpeech=RB] [Text=cried CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=.] 
+root(ROOT-0, thought-2)
+nsubj(thought-2, I-1)
+mark(sad-12, that-3)
+det(episodes-6, the-4)
+num(episodes-6, two-5)
+nsubj(sad-12, episodes-6)
+advmod(died-9, where-7)
+nsubj(died-9, Paul-8)
+rcmod(episodes-6, died-9)
+cop(sad-12, were-10)
+advmod(sad-12, so-11)
+ccomp(thought-2, sad-12)
+punct(thought-2, ;-13)
+nsubj(cried-16, I-14)
+advmod(cried-16, actually-15)
+parataxis(thought-2, cried-16)
+punct(thought-2, .-17)
+
+Sentence #3 (23 tokens):
+But the other shows were awesome; Kerry was my favorite character, because she was in "the dark side."
+[Text=But CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=JJ] [Text=shows CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=VBD] [Text=awesome CharacterOffsetBegin=138 CharacterOffsetEnd=145 PartOfSpeech=JJ] [Text=; CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=:] [Text=Kerry CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=VBD] [Text=my CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=160 CharacterOffsetEnd=168 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=169 CharacterOffsetEnd=178 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=,] [Text=because CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=``] [Text=the CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=DT] [Text=dark CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=JJ] [Text=side CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=.] [Text='' CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=''] 
+root(ROOT-0, awesome-6)
+cc(awesome-6, But-1)
+det(shows-4, the-2)
+amod(shows-4, other-3)
+nsubj(awesome-6, shows-4)
+cop(awesome-6, were-5)
+punct(awesome-6, ;-7)
+nsubj(character-12, Kerry-8)
+cop(character-12, was-9)
+poss(character-12, my-10)
+amod(character-12, favorite-11)
+parataxis(awesome-6, character-12)
+punct(character-12, ,-13)
+mark(was-16, because-14)
+nsubj(was-16, she-15)
+advcl(character-12, was-16)
+prep(was-16, in-17)
+punct(in-17, ``-18)
+det(side-21, the-19)
+amod(side-21, dark-20)
+pobj(in-17, side-21)
+punct(awesome-6, .-22)
+punct(awesome-6, ''-23)
+
+Sentence #4 (13 tokens):
+I also thought that Bridget was funny because she was all perky.
+[Text=I CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=PRP] [Text=also CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=RB] [Text=thought CharacterOffsetBegin=227 CharacterOffsetEnd=234 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=IN] [Text=Bridget CharacterOffsetBegin=240 CharacterOffsetEnd=247 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=VBD] [Text=funny CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=JJ] [Text=because CharacterOffsetBegin=258 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT] [Text=perky CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=.] 
+root(ROOT-0, thought-3)
+nsubj(thought-3, I-1)
+advmod(thought-3, also-2)
+mark(funny-7, that-4)
+nsubj(funny-7, Bridget-5)
+cop(funny-7, was-6)
+ccomp(thought-3, funny-7)
+mark(perky-12, because-8)
+nsubj(perky-12, she-9)
+cop(perky-12, was-10)
+dep(perky-12, all-11)
+advcl(funny-7, perky-12)
+punct(thought-3, .-13)
+
+Sentence #5 (14 tokens):
+I also thought that guy who played Kyle was really, really cute.
+[Text=I CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=PRP] [Text=also CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=RB] [Text=thought CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=guy CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=WP] [Text=played CharacterOffsetBegin=317 CharacterOffsetEnd=323 PartOfSpeech=VBD] [Text=Kyle CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=VBD] [Text=really CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=,] [Text=really CharacterOffsetBegin=341 CharacterOffsetEnd=347 PartOfSpeech=RB] [Text=cute CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.] 
+root(ROOT-0, thought-3)
+nsubj(thought-3, I-1)
+advmod(thought-3, also-2)
+mark(cute-13, that-4)
+nsubj(cute-13, guy-5)
+nsubj(played-7, who-6)
+rcmod(guy-5, played-7)
+dobj(played-7, Kyle-8)
+cop(cute-13, was-9)
+advmod(cute-13, really-10)
+punct(cute-13, ,-11)
+advmod(cute-13, really-12)
+ccomp(thought-3, cute-13)
+punct(thought-3, .-14)
+
+Sentence #6 (11 tokens):
+I loved it when Kerry made sarcastic remarks about everything.
+[Text=I CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=PRP] [Text=loved CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=PRP] [Text=when CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=WRB] [Text=Kerry CharacterOffsetBegin=374 CharacterOffsetEnd=379 PartOfSpeech=NNP] [Text=made CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=VBD] [Text=sarcastic CharacterOffsetBegin=385 CharacterOffsetEnd=394 PartOfSpeech=JJ] [Text=remarks CharacterOffsetBegin=395 CharacterOffsetEnd=402 PartOfSpeech=NNS] [Text=about CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=IN] [Text=everything CharacterOffsetBegin=409 CharacterOffsetEnd=419 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=.] 
+root(ROOT-0, loved-2)
+nsubj(loved-2, I-1)
+dobj(loved-2, it-3)
+advmod(made-6, when-4)
+nsubj(made-6, Kerry-5)
+advcl(loved-2, made-6)
+amod(remarks-8, sarcastic-7)
+dobj(made-6, remarks-8)
+prep(remarks-8, about-9)
+pobj(about-9, everything-10)
+punct(loved-2, .-11)
+
+Sentence #7 (20 tokens):
+The guy who played Rory was cute, and Paul, played by John Ritter, was really funny.
+[Text=The CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=DT] [Text=guy CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=NN] [Text=who CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=WP] [Text=played CharacterOffsetBegin=437 CharacterOffsetEnd=443 PartOfSpeech=VBD] [Text=Rory CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=VBD] [Text=cute CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=,] [Text=and CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=CC] [Text=Paul CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=,] [Text=played CharacterOffsetBegin=469 CharacterOffsetEnd=475 PartOfSpeech=VBN] [Text=by CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=IN] [Text=John CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=NNP] [Text=Ritter CharacterOffsetBegin=484 CharacterOffsetEnd=490 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=,] [Text=was CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=VBD] [Text=really CharacterOffsetBegin=496 CharacterOffsetEnd=502 PartOfSpeech=RB] [Text=funny CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=.] 
+root(ROOT-0, cute-7)
+det(guy-2, The-1)
+nsubj(cute-7, guy-2)
+nsubj(played-4, who-3)
+rcmod(guy-2, played-4)
+dobj(played-4, Rory-5)
+cop(cute-7, was-6)
+punct(cute-7, ,-8)
+cc(cute-7, and-9)
+nsubj(funny-19, Paul-10)
+punct(Paul-10, ,-11)
+partmod(Paul-10, played-12)
+prep(played-12, by-13)
+nn(Ritter-15, John-14)
+pobj(by-13, Ritter-15)
+punct(Paul-10, ,-16)
+cop(funny-19, was-17)
+advmod(funny-19, really-18)
+conj(cute-7, funny-19)
+punct(cute-7, .-20)
+
+Sentence #8 (18 tokens):
+This whole entire TV show is funny, and I wish they still showed it on TV.
+[Text=This CharacterOffsetBegin=514 CharacterOffsetEnd=518 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=JJ] [Text=entire CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=JJ] [Text=TV CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=NN] [Text=show CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=VBZ] [Text=funny CharacterOffsetBegin=543 CharacterOffsetEnd=548 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=,] [Text=and CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=554 CharacterOffsetEnd=555 PartOfSpeech=PRP] [Text=wish CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=VBP] [Text=they CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=566 CharacterOffsetEnd=571 PartOfSpeech=RB] [Text=showed CharacterOffsetBegin=572 CharacterOffsetEnd=578 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=579 CharacterOffsetEnd=581 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=582 CharacterOffsetEnd=584 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=.] 
+root(ROOT-0, funny-7)
+det(show-5, This-1)
+amod(show-5, whole-2)
+amod(show-5, entire-3)
+nn(show-5, TV-4)
+nsubj(funny-7, show-5)
+cop(funny-7, is-6)
+punct(funny-7, ,-8)
+cc(funny-7, and-9)
+nsubj(wish-11, I-10)
+conj(funny-7, wish-11)
+nsubj(showed-14, they-12)
+advmod(showed-14, still-13)
+ccomp(wish-11, showed-14)
+dobj(showed-14, it-15)
+prep(showed-14, on-16)
+pobj(on-16, TV-17)
+punct(funny-7, .-18)
+
+Sentence #9 (20 tokens):
+when they did show it on TV, though, I watched it every single time it was on.
+[Text=when CharacterOffsetBegin=593 CharacterOffsetEnd=597 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=603 CharacterOffsetEnd=606 PartOfSpeech=VBD] [Text=show CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=618 CharacterOffsetEnd=620 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=620 CharacterOffsetEnd=621 PartOfSpeech=,] [Text=though CharacterOffsetBegin=622 CharacterOffsetEnd=628 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=,] [Text=I CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=632 CharacterOffsetEnd=639 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=PRP] [Text=every CharacterOffsetBegin=643 CharacterOffsetEnd=648 PartOfSpeech=DT] [Text=single CharacterOffsetBegin=649 CharacterOffsetEnd=655 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=656 CharacterOffsetEnd=660 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=661 CharacterOffsetEnd=663 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=668 CharacterOffsetEnd=670 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=.] 
+root(ROOT-0, watched-12)
+advmod(show-4, when-1)
+nsubj(show-4, they-2)
+aux(show-4, did-3)
+advcl(watched-12, show-4)
+dobj(show-4, it-5)
+prep(show-4, on-6)
+pobj(on-6, TV-7)
+punct(watched-12, ,-8)
+advmod(watched-12, though-9)
+punct(watched-12, ,-10)
+nsubj(watched-12, I-11)
+dobj(watched-12, it-13)
+det(time-16, every-14)
+amod(time-16, single-15)
+tmod(watched-12, time-16)
+nsubj(was-18, it-17)
+rcmod(time-16, was-18)
+prep(was-18, on-19)
+punct(watched-12, .-20)
+
+Sentence #10 (15 tokens):
+The next time it shows, I will watch it over and over again.
+[Text=The CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=DT] [Text=next CharacterOffsetBegin=680 CharacterOffsetEnd=684 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=690 CharacterOffsetEnd=692 PartOfSpeech=PRP] [Text=shows CharacterOffsetBegin=693 CharacterOffsetEnd=698 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=,] [Text=I CharacterOffsetBegin=700 CharacterOffsetEnd=701 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=MD] [Text=watch CharacterOffsetBegin=707 CharacterOffsetEnd=712 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=713 CharacterOffsetEnd=715 PartOfSpeech=PRP] [Text=over CharacterOffsetBegin=716 CharacterOffsetEnd=720 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=721 CharacterOffsetEnd=724 PartOfSpeech=CC] [Text=over CharacterOffsetBegin=725 CharacterOffsetEnd=729 PartOfSpeech=IN] [Text=again CharacterOffsetBegin=730 CharacterOffsetEnd=735 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=735 CharacterOffsetEnd=736 PartOfSpeech=.] 
+root(ROOT-0, watch-9)
+det(time-3, The-1)
+amod(time-3, next-2)
+tmod(watch-9, time-3)
+nsubj(shows-5, it-4)
+rcmod(time-3, shows-5)
+punct(watch-9, ,-6)
+nsubj(watch-9, I-7)
+aux(watch-9, will-8)
+dobj(watch-9, it-10)
+prep(watch-9, over-11)
+cc(over-11, and-12)
+conj(over-11, over-13)
+advmod(over-11, again-14)
+punct(watch-9, .-15)
+

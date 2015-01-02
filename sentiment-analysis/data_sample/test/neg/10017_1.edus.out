@@ -1,0 +1,127 @@
+Sentence #1 (26 tokens):
+New York family is the last in their neighborhood to get a television set, which nearly ruins David Niven's marriage to Mitzi Gaynor.
+[Text=New CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=NNP] [Text=York CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=NNP] [Text=family CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=DT] [Text=last CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=PRP$] [Text=neighborhood CharacterOffsetBegin=41 CharacterOffsetEnd=53 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=television CharacterOffsetBegin=63 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=set CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=,] [Text=which CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=WDT] [Text=nearly CharacterOffsetBegin=85 CharacterOffsetEnd=91 PartOfSpeech=RB] [Text=ruins CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=NNS] [Text=David CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=NNP] [Text=Niven CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=POS] [Text=marriage CharacterOffsetBegin=112 CharacterOffsetEnd=120 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=TO] [Text=Mitzi CharacterOffsetBegin=124 CharacterOffsetEnd=129 PartOfSpeech=NNP] [Text=Gaynor CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=.] 
+root(ROOT-0, last-6)
+nn(family-3, New-1)
+nn(family-3, York-2)
+nsubj(last-6, family-3)
+cop(last-6, is-4)
+det(last-6, the-5)
+prep(last-6, in-7)
+poss(neighborhood-9, their-8)
+pobj(in-7, neighborhood-9)
+aux(get-11, to-10)
+xcomp(last-6, get-11)
+det(set-14, a-12)
+nn(set-14, television-13)
+dobj(get-11, set-14)
+punct(set-14, ,-15)
+dep(set-14, which-16)
+advmod(ruins-18, nearly-17)
+dep(which-16, ruins-18)
+nn(Niven-20, David-19)
+poss(marriage-22, Niven-20)
+possessive(Niven-20, 's-21)
+dobj(ruins-18, marriage-22)
+prep(marriage-22, to-23)
+nn(Gaynor-25, Mitzi-24)
+pobj(to-23, Gaynor-25)
+punct(last-6, .-26)
+
+Sentence #2 (17 tokens):
+Bedroom comedy that rarely ventures into the bedroom(and nothing sexy happens there anyway).
+[Text=Bedroom CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=comedy CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=WDT] [Text=rarely CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=RB] [Text=ventures CharacterOffsetBegin=169 CharacterOffsetEnd=177 PartOfSpeech=NNS] [Text=into CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=bedroom CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=NN] [Text=-LRB- CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=-LRB-] [Text=and CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=CC] [Text=nothing CharacterOffsetBegin=199 CharacterOffsetEnd=206 PartOfSpeech=NN] [Text=sexy CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=JJ] [Text=happens CharacterOffsetBegin=212 CharacterOffsetEnd=219 PartOfSpeech=VBZ] [Text=there CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=EX] [Text=anyway CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=RB] [Text=-RRB- CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.] 
+root(ROOT-0, comedy-2)
+nn(comedy-2, Bedroom-1)
+nsubj(ventures-5, that-3)
+advmod(ventures-5, rarely-4)
+rcmod(comedy-2, ventures-5)
+prep(ventures-5, into-6)
+det(bedroom-8, the-7)
+pobj(into-6, bedroom-8)
+punct(sexy-12, -LRB--9)
+cc(sexy-12, and-10)
+conj(sexy-12, nothing-11)
+nsubj(happens-13, sexy-12)
+rcmod(bedroom-8, happens-13)
+dobj(happens-13, there-14)
+advmod(happens-13, anyway-15)
+punct(comedy-2, -RRB--16)
+punct(comedy-2, .-17)
+
+Sentence #3 (21 tokens):
+Gaynor as an actress has about as much range as an oven--she turns on, she turns off.
+[Text=Gaynor CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=NNP] [Text=as CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=DT] [Text=actress CharacterOffsetBegin=252 CharacterOffsetEnd=259 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=VBZ] [Text=about CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=JJ] [Text=range CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=IN] [Text=an CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=DT] [Text=oven CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=NN] [Text=-- CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=:] [Text=she CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=PRP] [Text=turns CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=VBZ] [Text=on CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=,] [Text=she CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=PRP] [Text=turns CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=VBZ] [Text=off CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=.] 
+root(ROOT-0, turns-19)
+nsubj(turns-19, Gaynor-1)
+mark(has-5, as-2)
+det(actress-4, an-3)
+nsubj(has-5, actress-4)
+dep(Gaynor-1, has-5)
+advmod(range-9, about-6)
+advmod(range-9, as-7)
+amod(range-9, much-8)
+dobj(has-5, range-9)
+prep(range-9, as-10)
+det(oven-12, an-11)
+pobj(as-10, oven-12)
+punct(turns-15, ---13)
+nsubj(turns-15, she-14)
+parataxis(turns-19, turns-15)
+prt(turns-15, on-16)
+punct(turns-15, ,-17)
+nsubj(turns-19, she-18)
+prt(turns-19, off-20)
+punct(turns-19, .-21)
+
+Sentence #4 (25 tokens):
+Film's sole compensation is a supporting performance by perky Patty Duke, pre-"Miracle Worker", as Niven's daughter.
+[Text=Film CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=POS] [Text=sole CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=JJ] [Text=compensation CharacterOffsetBegin=341 CharacterOffsetEnd=353 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=DT] [Text=supporting CharacterOffsetBegin=359 CharacterOffsetEnd=369 PartOfSpeech=VBG] [Text=performance CharacterOffsetBegin=370 CharacterOffsetEnd=381 PartOfSpeech=NN] [Text=by CharacterOffsetBegin=382 CharacterOffsetEnd=384 PartOfSpeech=IN] [Text=perky CharacterOffsetBegin=385 CharacterOffsetEnd=390 PartOfSpeech=JJ] [Text=Patty CharacterOffsetBegin=391 CharacterOffsetEnd=396 PartOfSpeech=NNP] [Text=Duke CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=,] [Text=pre CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=JJ] [Text=- CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=:] [Text=`` CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=``] [Text=Miracle CharacterOffsetBegin=408 CharacterOffsetEnd=415 PartOfSpeech=NNP] [Text=Worker CharacterOffsetBegin=416 CharacterOffsetEnd=422 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=''] [Text=, CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=,] [Text=as CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=IN] [Text=Niven CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=POS] [Text=daughter CharacterOffsetBegin=436 CharacterOffsetEnd=444 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=.] 
+root(ROOT-0, compensation-4)
+poss(compensation-4, Film-1)
+possessive(Film-1, 's-2)
+amod(compensation-4, sole-3)
+dep(compensation-4, is-5)
+nsubj(is-5, a-6)
+amod(a-6, supporting-7)
+dobj(supporting-7, performance-8)
+prep(performance-8, by-9)
+nn(Duke-12, perky-10)
+nn(Duke-12, Patty-11)
+pobj(by-9, Duke-12)
+punct(Duke-12, ,-13)
+appos(Duke-12, pre-14)
+punct(Duke-12, --15)
+punct(Duke-12, ``-16)
+nn(Worker-18, Miracle-17)
+dep(Duke-12, Worker-18)
+punct(Duke-12, ''-19)
+punct(supporting-7, ,-20)
+prep(supporting-7, as-21)
+poss(daughter-24, Niven-22)
+possessive(Niven-22, 's-23)
+pobj(as-21, daughter-24)
+punct(compensation-4, .-25)
+
+Sentence #5 (11 tokens):
+She's delightful; "Happy Anniversary" is not.
+[Text=She CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=VBZ] [Text=delightful CharacterOffsetBegin=456 CharacterOffsetEnd=466 PartOfSpeech=JJ] [Text=; CharacterOffsetBegin=466 CharacterOffsetEnd=467 PartOfSpeech=:] [Text=`` CharacterOffsetBegin=468 CharacterOffsetEnd=469 PartOfSpeech=``] [Text=Happy CharacterOffsetBegin=469 CharacterOffsetEnd=474 PartOfSpeech=JJ] [Text=Anniversary CharacterOffsetBegin=475 CharacterOffsetEnd=486 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=''] [Text=is CharacterOffsetBegin=488 CharacterOffsetEnd=490 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=.] 
+root(ROOT-0, delightful-3)
+nsubj(delightful-3, She-1)
+cop(delightful-3, 's-2)
+punct(delightful-3, ;-4)
+punct(Anniversary-7, ``-5)
+amod(Anniversary-7, Happy-6)
+nsubj(not-10, Anniversary-7)
+punct(Anniversary-7, ''-8)
+cop(not-10, is-9)
+parataxis(delightful-3, not-10)
+punct(delightful-3, .-11)
+
+Sentence #6 (3 tokens):
+* from ****
+[Text=* CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=SYM] [Text=from CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=IN] [Text=**** CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=CD] 
+root(ROOT-0, *-1)
+prep(*-1, from-2)
+pobj(from-2, ****-3)
+

@@ -1,0 +1,213 @@
+Sentence #1 (5 tokens):
+This movie is hilarious!
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=hilarious CharacterOffsetBegin=18 CharacterOffsetEnd=27 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=.] 
+root(ROOT-0, hilarious-4)
+det(movie-2, This-1)
+nsubj(hilarious-4, movie-2)
+cop(hilarious-4, is-3)
+punct(hilarious-4, !-5)
+
+Sentence #2 (15 tokens):
+I watched it with my friend and we just had to see it again.
+[Text=I CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=35 CharacterOffsetEnd=42 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=CC] [Text=we CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=RB] [Text=had CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=PRP] [Text=again CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+dobj(watched-2, it-3)
+prep(watched-2, with-4)
+poss(friend-6, my-5)
+pobj(with-4, friend-6)
+cc(watched-2, and-7)
+nsubj(had-10, we-8)
+advmod(had-10, just-9)
+conj(watched-2, had-10)
+aux(see-12, to-11)
+xcomp(had-10, see-12)
+dobj(see-12, it-13)
+advmod(see-12, again-14)
+punct(watched-2, .-15)
+
+Sentence #3 (27 tokens):
+This movie is not for you movie-goers who will only watch the films that are nominated for Academy Awards (you know who you are.
+    )
+[Text=This CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=RB] [Text=for CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=PRP] [Text=movie-goers CharacterOffsetBegin=124 CharacterOffsetEnd=135 PartOfSpeech=NNS] [Text=who CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=WP] [Text=will CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=MD] [Text=only CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=RB] [Text=watch CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT] [Text=films CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=WDT] [Text=are CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=VBP] [Text=nominated CharacterOffsetBegin=175 CharacterOffsetEnd=184 PartOfSpeech=VBN] [Text=for CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=IN] [Text=Academy CharacterOffsetBegin=189 CharacterOffsetEnd=196 PartOfSpeech=NNP] [Text=Awards CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=NNS] [Text=-LRB- CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=-LRB-] [Text=you CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=PRP] [Text=know CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=VBP] [Text=who CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=WP] [Text=you CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=-RRB-] 
+root(ROOT-0, is-3)
+det(movie-2, This-1)
+nsubj(is-3, movie-2)
+neg(is-3, not-4)
+mark(movie-goers-7, for-5)
+nsubj(movie-goers-7, you-6)
+advcl(is-3, movie-goers-7)
+nsubj(watch-11, who-8)
+aux(watch-11, will-9)
+advmod(watch-11, only-10)
+rcmod(movie-goers-7, watch-11)
+det(films-13, the-12)
+dobj(watch-11, films-13)
+nsubjpass(nominated-16, that-14)
+auxpass(nominated-16, are-15)
+rcmod(films-13, nominated-16)
+prep(nominated-16, for-17)
+nn(Awards-19, Academy-18)
+pobj(for-17, Awards-19)
+punct(know-22, -LRB--20)
+nsubj(know-22, you-21)
+rcmod(Awards-19, know-22)
+dobj(are-25, who-23)
+nsubj(are-25, you-24)
+ccomp(know-22, are-25)
+punct(is-3, .-26)
+punct(is-3, -RRB--27)
+
+Sentence #4 (16 tokens):
+I won't recap it because you have seen that from all the other reviews.
+[Text=I CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=RB] [Text=recap CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=PRP] [Text=because CharacterOffsetBegin=249 CharacterOffsetEnd=256 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=IN] [Text=from CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=DT] [Text=the CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=JJ] [Text=reviews CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=.] 
+root(ROOT-0, recap-4)
+nsubj(recap-4, I-1)
+aux(recap-4, wo-2)
+neg(recap-4, n't-3)
+dobj(recap-4, it-5)
+mark(seen-9, because-6)
+nsubj(seen-9, you-7)
+aux(seen-9, have-8)
+advcl(recap-4, seen-9)
+dobj(seen-9, that-10)
+prep(that-10, from-11)
+predet(reviews-15, all-12)
+det(reviews-15, the-13)
+amod(reviews-15, other-14)
+pobj(from-11, reviews-15)
+punct(recap-4, .-16)
+
+Sentence #5 (13 tokens):
+"Whipped" is a light-hearted comedy that had me laughing throughout.
+[Text=`` CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=``] [Text=Whipped CharacterOffsetBegin=304 CharacterOffsetEnd=311 PartOfSpeech=VBN] [Text='' CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=''] [Text=is CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=light-hearted CharacterOffsetBegin=318 CharacterOffsetEnd=331 PartOfSpeech=JJ] [Text=comedy CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=WDT] [Text=had CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=PRP] [Text=laughing CharacterOffsetBegin=351 CharacterOffsetEnd=359 PartOfSpeech=VBG] [Text=throughout CharacterOffsetBegin=360 CharacterOffsetEnd=370 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=.] 
+root(ROOT-0, comedy-7)
+punct(Whipped-2, ``-1)
+dep(comedy-7, Whipped-2)
+punct(Whipped-2, ''-3)
+cop(comedy-7, is-4)
+det(comedy-7, a-5)
+amod(comedy-7, light-hearted-6)
+nsubj(had-9, that-8)
+rcmod(comedy-7, had-9)
+nsubj(laughing-11, me-10)
+ccomp(had-9, laughing-11)
+advmod(laughing-11, throughout-12)
+punct(comedy-7, .-13)
+
+Sentence #6 (19 tokens):
+It doesn't take itself too seriously and should be watched with your friends, not your girlfriend.
+[Text=It CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=PRP] [Text=does CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=RB] [Text=take CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=VB] [Text=itself CharacterOffsetBegin=392 CharacterOffsetEnd=398 PartOfSpeech=PRP] [Text=too CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=RB] [Text=seriously CharacterOffsetBegin=403 CharacterOffsetEnd=412 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=CC] [Text=should CharacterOffsetBegin=417 CharacterOffsetEnd=423 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=VB] [Text=watched CharacterOffsetBegin=427 CharacterOffsetEnd=434 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=435 CharacterOffsetEnd=439 PartOfSpeech=IN] [Text=your CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=PRP$] [Text=friends CharacterOffsetBegin=445 CharacterOffsetEnd=452 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=,] [Text=not CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=RB] [Text=your CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=PRP$] [Text=girlfriend CharacterOffsetBegin=463 CharacterOffsetEnd=473 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=.] 
+root(ROOT-0, take-4)
+nsubj(take-4, It-1)
+aux(take-4, does-2)
+neg(take-4, n't-3)
+dobj(take-4, itself-5)
+advmod(seriously-7, too-6)
+advmod(take-4, seriously-7)
+cc(take-4, and-8)
+aux(watched-11, should-9)
+auxpass(watched-11, be-10)
+conj(take-4, watched-11)
+prep(watched-11, with-12)
+poss(friends-14, your-13)
+pobj(with-12, friends-14)
+punct(take-4, ,-15)
+neg(girlfriend-18, not-16)
+poss(girlfriend-18, your-17)
+dobj(take-4, girlfriend-18)
+punct(take-4, .-19)
+
+Sentence #7 (18 tokens):
+It won't win any awards, but it just has to be watched to be appreciated.
+[Text=It CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=PRP] [Text=wo CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=RB] [Text=win CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=DT] [Text=awards CharacterOffsetBegin=496 CharacterOffsetEnd=502 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=502 CharacterOffsetEnd=503 PartOfSpeech=,] [Text=but CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=RB] [Text=has CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=VB] [Text=watched CharacterOffsetBegin=526 CharacterOffsetEnd=533 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=VB] [Text=appreciated CharacterOffsetBegin=540 CharacterOffsetEnd=551 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=551 CharacterOffsetEnd=552 PartOfSpeech=.] 
+root(ROOT-0, win-4)
+nsubj(win-4, It-1)
+aux(win-4, wo-2)
+neg(win-4, n't-3)
+det(awards-6, any-5)
+dobj(win-4, awards-6)
+punct(win-4, ,-7)
+cc(win-4, but-8)
+nsubj(has-11, it-9)
+advmod(has-11, just-10)
+conj(win-4, has-11)
+aux(watched-14, to-12)
+auxpass(watched-14, be-13)
+xcomp(has-11, watched-14)
+aux(appreciated-17, to-15)
+auxpass(appreciated-17, be-16)
+xcomp(watched-14, appreciated-17)
+punct(win-4, .-18)
+
+Sentence #8 (19 tokens):
+True, some of the jokes are toilet humor, but that is not necessarily a bad thing.
+[Text=True CharacterOffsetBegin=557 CharacterOffsetEnd=561 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=561 CharacterOffsetEnd=562 PartOfSpeech=,] [Text=some CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=DT] [Text=jokes CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=VBP] [Text=toilet CharacterOffsetBegin=585 CharacterOffsetEnd=591 PartOfSpeech=NN] [Text=humor CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=597 CharacterOffsetEnd=598 PartOfSpeech=,] [Text=but CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=CC] [Text=that CharacterOffsetBegin=603 CharacterOffsetEnd=607 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=608 CharacterOffsetEnd=610 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=RB] [Text=necessarily CharacterOffsetBegin=615 CharacterOffsetEnd=626 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=DT] [Text=bad CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=638 CharacterOffsetEnd=639 PartOfSpeech=.] 
+root(ROOT-0, humor-9)
+amod(humor-9, True-1)
+punct(humor-9, ,-2)
+nsubj(humor-9, some-3)
+prep(some-3, of-4)
+det(jokes-6, the-5)
+pobj(of-4, jokes-6)
+cop(humor-9, are-7)
+amod(humor-9, toilet-8)
+punct(humor-9, ,-10)
+cc(humor-9, but-11)
+nsubj(thing-18, that-12)
+cop(thing-18, is-13)
+neg(thing-18, not-14)
+advmod(thing-18, necessarily-15)
+det(thing-18, a-16)
+amod(thing-18, bad-17)
+conj(humor-9, thing-18)
+punct(humor-9, .-19)
+
+Sentence #9 (8 tokens):
+Everyone can use some of it sometimes.
+[Text=Everyone CharacterOffsetBegin=644 CharacterOffsetEnd=652 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=MD] [Text=use CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=VB] [Text=some CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=666 CharacterOffsetEnd=668 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=669 CharacterOffsetEnd=671 PartOfSpeech=PRP] [Text=sometimes CharacterOffsetBegin=672 CharacterOffsetEnd=681 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=681 CharacterOffsetEnd=682 PartOfSpeech=.] 
+root(ROOT-0, use-3)
+nsubj(use-3, Everyone-1)
+aux(use-3, can-2)
+dobj(use-3, some-4)
+prep(some-4, of-5)
+pobj(of-5, it-6)
+advmod(use-3, sometimes-7)
+punct(use-3, .-8)
+
+Sentence #10 (22 tokens):
+Some people need to lighten up and see "Whipped" for what it is, not what it isn't.
+[Text=Some CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=DT] [Text=people CharacterOffsetBegin=692 CharacterOffsetEnd=698 PartOfSpeech=NNS] [Text=need CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=704 CharacterOffsetEnd=706 PartOfSpeech=TO] [Text=lighten CharacterOffsetBegin=707 CharacterOffsetEnd=714 PartOfSpeech=VB] [Text=up CharacterOffsetBegin=715 CharacterOffsetEnd=717 PartOfSpeech=RP] [Text=and CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=CC] [Text=see CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=VB] [Text=`` CharacterOffsetBegin=726 CharacterOffsetEnd=727 PartOfSpeech=``] [Text=Whipped CharacterOffsetBegin=727 CharacterOffsetEnd=734 PartOfSpeech=VBN] [Text='' CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=''] [Text=for CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=IN] [Text=what CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=745 CharacterOffsetEnd=747 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=VBZ] [Text=, CharacterOffsetBegin=750 CharacterOffsetEnd=751 PartOfSpeech=,] [Text=not CharacterOffsetBegin=752 CharacterOffsetEnd=755 PartOfSpeech=RB] [Text=what CharacterOffsetBegin=756 CharacterOffsetEnd=760 PartOfSpeech=WP] [Text=it CharacterOffsetBegin=761 CharacterOffsetEnd=763 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=764 CharacterOffsetEnd=766 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=.] 
+root(ROOT-0, need-3)
+det(people-2, Some-1)
+nsubj(need-3, people-2)
+aux(lighten-5, to-4)
+xcomp(need-3, lighten-5)
+prt(lighten-5, up-6)
+cc(lighten-5, and-7)
+conj(lighten-5, see-8)
+punct(Whipped-10, ``-9)
+dep(see-8, Whipped-10)
+punct(Whipped-10, ''-11)
+dep(Whipped-10, for-12)
+dobj(is-15, what-13)
+nsubj(is-15, it-14)
+dep(for-12, is-15)
+punct(is-15, ,-16)
+dep(,-16, not-17)
+dobj(is-20, what-18)
+nsubj(is-20, it-19)
+ccomp(not-17, is-20)
+neg(is-20, n't-21)
+punct(not-17, .-22)
+
+Sentence #11 (6 tokens):
+****1/4 out of *****.
+[Text=**** CharacterOffsetBegin=770 CharacterOffsetEnd=774 PartOfSpeech=CD] [Text=1/4 CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=778 CharacterOffsetEnd=781 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=782 CharacterOffsetEnd=784 PartOfSpeech=IN] [Text=***** CharacterOffsetBegin=785 CharacterOffsetEnd=790 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=790 CharacterOffsetEnd=791 PartOfSpeech=.] 
+root(ROOT-0, out-3)
+number(1/4-2, ****-1)
+num(out-3, 1/4-2)
+prep(out-3, of-4)
+pobj(of-4, *****-5)
+punct(out-3, .-6)
+

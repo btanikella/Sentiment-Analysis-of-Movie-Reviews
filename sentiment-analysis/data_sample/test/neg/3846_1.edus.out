@@ -1,0 +1,42 @@
+Sentence #1 (14 tokens):
+This is a terrible movie, don't waste your money on it.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=DT] [Text=terrible CharacterOffsetBegin=14 CharacterOffsetEnd=22 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=,] [Text=do CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=RB] [Text=waste CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=PRP$] [Text=money CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, This-1)
+cop(movie-5, is-2)
+det(movie-5, a-3)
+amod(movie-5, terrible-4)
+punct(movie-5, ,-6)
+aux(waste-9, do-7)
+neg(waste-9, n't-8)
+conj(movie-5, waste-9)
+poss(money-11, your-10)
+dobj(waste-9, money-11)
+prep(waste-9, on-12)
+pobj(on-12, it-13)
+punct(movie-5, .-14)
+
+Sentence #2 (8 tokens):
+Don't even watch it for free.
+[Text=Do CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=RB] [Text=watch CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=PRP] [Text=for CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=IN] [Text=free CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.] 
+root(ROOT-0, watch-4)
+aux(watch-4, Do-1)
+neg(watch-4, n't-2)
+advmod(watch-4, even-3)
+dobj(watch-4, it-5)
+prep(watch-4, for-6)
+pobj(for-6, free-7)
+punct(watch-4, .-8)
+
+Sentence #3 (8 tokens):
+That's all I have to say.
+[Text=That CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text='s CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=VBZ] [Text=all CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=DT] [Text=I CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=.] 
+root(ROOT-0, all-3)
+nsubj(all-3, That-1)
+cop(all-3, 's-2)
+nsubj(have-5, I-4)
+rcmod(all-3, have-5)
+aux(say-7, to-6)
+xcomp(have-5, say-7)
+punct(all-3, .-8)
+

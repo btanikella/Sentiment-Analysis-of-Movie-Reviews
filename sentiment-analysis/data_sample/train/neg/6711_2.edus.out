@@ -1,0 +1,200 @@
+Sentence #1 (5 tokens):
+1993 was the year.
+[Text=1993 CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=CD] [Text=was CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=DT] [Text=year CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=.] 
+root(ROOT-0, year-4)
+nsubj(year-4, 1993-1)
+cop(year-4, was-2)
+det(year-4, the-3)
+punct(year-4, .-5)
+
+Sentence #2 (12 tokens):
+This was long before Phillip Seymour Thomas had won an Oscar.
+[Text=This CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=VBD] [Text=long CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=RB] [Text=before CharacterOffsetBegin=41 CharacterOffsetEnd=47 PartOfSpeech=RB] [Text=Phillip CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=NNP] [Text=Seymour CharacterOffsetBegin=56 CharacterOffsetEnd=63 PartOfSpeech=NNP] [Text=Thomas CharacterOffsetBegin=64 CharacterOffsetEnd=70 PartOfSpeech=NNP] [Text=had CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=VBD] [Text=won CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=VBN] [Text=an CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=DT] [Text=Oscar CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=.] 
+root(ROOT-0, long-3)
+nsubj(long-3, This-1)
+cop(long-3, was-2)
+advmod(won-9, before-4)
+nn(Thomas-7, Phillip-5)
+nn(Thomas-7, Seymour-6)
+nsubj(won-9, Thomas-7)
+aux(won-9, had-8)
+dep(long-3, won-9)
+det(Oscar-11, an-10)
+dobj(won-9, Oscar-11)
+punct(long-3, .-12)
+
+Sentence #3 (13 tokens):
+Who knew I would be an extra in a movie with him?
+[Text=Who CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=WP] [Text=knew CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=VBD] [Text=I CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=VB] [Text=an CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=extra CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=PRP] [Text=? CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=.] 
+root(ROOT-0, knew-2)
+nsubj(knew-2, Who-1)
+nsubj(extra-7, I-3)
+aux(extra-7, would-4)
+cop(extra-7, be-5)
+det(extra-7, an-6)
+ccomp(knew-2, extra-7)
+prep(extra-7, in-8)
+det(movie-10, a-9)
+pobj(in-8, movie-10)
+prep(movie-10, with-11)
+pobj(with-11, him-12)
+punct(knew-2, ?-13)
+
+Sentence #4 (27 tokens):
+I was actually a paid extra in "My Boyfriend's Back," which was shot in a suburb of Austin called Georgetown, TX.
+[Text=I CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=VBD] [Text=actually CharacterOffsetBegin=153 CharacterOffsetEnd=161 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=DT] [Text=paid CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=VBN] [Text=extra CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=JJ] [Text=in CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=``] [Text=My CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=PRP$] [Text=Boyfriend CharacterOffsetBegin=182 CharacterOffsetEnd=191 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=POS] [Text=Back CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=,] [Text='' CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=''] [Text=which CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=VBD] [Text=shot CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=DT] [Text=suburb CharacterOffsetBegin=221 CharacterOffsetEnd=227 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=228 CharacterOffsetEnd=230 PartOfSpeech=IN] [Text=Austin CharacterOffsetBegin=231 CharacterOffsetEnd=237 PartOfSpeech=NNP] [Text=called CharacterOffsetBegin=238 CharacterOffsetEnd=244 PartOfSpeech=VBD] [Text=Georgetown CharacterOffsetBegin=245 CharacterOffsetEnd=255 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=,] [Text=TX CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=.] 
+root(ROOT-0, extra-6)
+nsubj(extra-6, I-1)
+cop(extra-6, was-2)
+advmod(extra-6, actually-3)
+det(extra-6, a-4)
+amod(extra-6, paid-5)
+prep(extra-6, in-7)
+punct(Back-12, ``-8)
+poss(Boyfriend-10, My-9)
+poss(Back-12, Boyfriend-10)
+possessive(Boyfriend-10, 's-11)
+pobj(in-7, Back-12)
+punct(Back-12, ,-13)
+punct(Back-12, ''-14)
+nsubjpass(shot-17, which-15)
+auxpass(shot-17, was-16)
+rcmod(Back-12, shot-17)
+prep(shot-17, in-18)
+det(suburb-20, a-19)
+pobj(in-18, suburb-20)
+prep(suburb-20, of-21)
+pobj(of-21, Austin-22)
+partmod(suburb-20, called-23)
+dep(called-23, Georgetown-24)
+punct(Georgetown-24, ,-25)
+appos(Georgetown-24, TX-26)
+punct(extra-6, .-27)
+
+Sentence #5 (20 tokens):
+The original title was "Johnny Zombie" (thank God the producers had a change of heart!)
+[Text=The CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=269 CharacterOffsetEnd=277 PartOfSpeech=JJ] [Text=title CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=VBD] [Text=`` CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=``] [Text=Johnny CharacterOffsetBegin=289 CharacterOffsetEnd=295 PartOfSpeech=NNP] [Text=Zombie CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=''] [Text=-LRB- CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=-LRB-] [Text=thank CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=VB] [Text=God CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=DT] [Text=producers CharacterOffsetBegin=319 CharacterOffsetEnd=328 PartOfSpeech=NNS] [Text=had CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=DT] [Text=change CharacterOffsetBegin=335 CharacterOffsetEnd=341 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=IN] [Text=heart CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=-RRB-] 
+root(ROOT-0, Zombie-7)
+det(title-3, The-1)
+amod(title-3, original-2)
+nsubj(Zombie-7, title-3)
+cop(Zombie-7, was-4)
+punct(Zombie-7, ``-5)
+nn(Zombie-7, Johnny-6)
+punct(Zombie-7, ''-8)
+punct(thank-10, -LRB--9)
+dep(Zombie-7, thank-10)
+dobj(thank-10, God-11)
+det(producers-13, the-12)
+nsubj(had-14, producers-13)
+rcmod(God-11, had-14)
+det(change-16, a-15)
+dobj(had-14, change-16)
+prep(change-16, of-17)
+pobj(of-17, heart-18)
+punct(thank-10, !-19)
+punct(Zombie-7, -RRB--20)
+
+Sentence #6 (7 tokens):
+I was in the theater scene.
+[Text=I CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=DT] [Text=theater CharacterOffsetBegin=370 CharacterOffsetEnd=377 PartOfSpeech=NN] [Text=scene CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=.] 
+root(ROOT-0, was-2)
+nsubj(was-2, I-1)
+prep(was-2, in-3)
+det(scene-6, the-4)
+nn(scene-6, theater-5)
+pobj(in-3, scene-6)
+punct(was-2, .-7)
+
+Sentence #7 (15 tokens):
+I rushed out to watch the movie the day it was released in theaters.
+[Text=I CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=PRP] [Text=rushed CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=398 CharacterOffsetEnd=401 PartOfSpeech=RP] [Text=to CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=405 CharacterOffsetEnd=410 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=DT] [Text=day CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=VBD] [Text=released CharacterOffsetBegin=436 CharacterOffsetEnd=444 PartOfSpeech=VBN] [Text=in CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=IN] [Text=theaters CharacterOffsetBegin=448 CharacterOffsetEnd=456 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=.] 
+root(ROOT-0, rushed-2)
+nsubj(rushed-2, I-1)
+prt(rushed-2, out-3)
+aux(watch-5, to-4)
+xcomp(rushed-2, watch-5)
+det(movie-7, the-6)
+dobj(watch-5, movie-7)
+det(day-9, the-8)
+dep(movie-7, day-9)
+nsubjpass(released-12, it-10)
+auxpass(released-12, was-11)
+rcmod(day-9, released-12)
+prep(released-12, in-13)
+pobj(in-13, theaters-14)
+punct(rushed-2, .-15)
+
+Sentence #8 (11 tokens):
+It is more of a comedy than a horror movie.
+[Text=It CharacterOffsetBegin=462 CharacterOffsetEnd=464 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=VBZ] [Text=more CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=JJR] [Text=of CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=476 CharacterOffsetEnd=477 PartOfSpeech=DT] [Text=comedy CharacterOffsetBegin=478 CharacterOffsetEnd=484 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=485 CharacterOffsetEnd=489 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=DT] [Text=horror CharacterOffsetBegin=492 CharacterOffsetEnd=498 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=.] 
+root(ROOT-0, more-3)
+nsubj(more-3, It-1)
+cop(more-3, is-2)
+prep(more-3, of-4)
+det(comedy-6, a-5)
+pobj(of-4, comedy-6)
+prep(more-3, than-7)
+det(movie-10, a-8)
+nn(movie-10, horror-9)
+pobj(than-7, movie-10)
+punct(more-3, .-11)
+
+Sentence #9 (15 tokens):
+But... for a good laugh, you might want to check it out.
+[Text=But CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=CC] [Text=... CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=:] [Text=for CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=JJ] [Text=laugh CharacterOffsetBegin=528 CharacterOffsetEnd=533 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=,] [Text=you CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=PRP] [Text=might CharacterOffsetBegin=539 CharacterOffsetEnd=544 PartOfSpeech=MD] [Text=want CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=TO] [Text=check CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=PRP] [Text=out CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=.] 
+root(ROOT-0, want-10)
+cc(want-10, But-1)
+punct(for-3, ...-2)
+prep(want-10, for-3)
+det(laugh-6, a-4)
+amod(laugh-6, good-5)
+pobj(for-3, laugh-6)
+punct(want-10, ,-7)
+nsubj(want-10, you-8)
+aux(want-10, might-9)
+aux(check-12, to-11)
+xcomp(want-10, check-12)
+dobj(check-12, it-13)
+prt(check-12, out-14)
+punct(want-10, .-15)
+
+Sentence #10 (30 tokens):
+Nothing that is even close to "Dawn of the Dead" or even "Shaun of the Dead" quality, but the cheese factor is good enough.
+[Text=Nothing CharacterOffsetBegin=571 CharacterOffsetEnd=578 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=579 CharacterOffsetEnd=583 PartOfSpeech=WDT] [Text=is CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=VBZ] [Text=even CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=RB] [Text=close CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=598 CharacterOffsetEnd=600 PartOfSpeech=TO] [Text=`` CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=``] [Text=Dawn CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=610 CharacterOffsetEnd=613 PartOfSpeech=DT] [Text=Dead CharacterOffsetBegin=614 CharacterOffsetEnd=618 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=''] [Text=or CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=CC] [Text=even CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=RB] [Text=`` CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=``] [Text=Shaun CharacterOffsetBegin=629 CharacterOffsetEnd=634 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=635 CharacterOffsetEnd=637 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=638 CharacterOffsetEnd=641 PartOfSpeech=DT] [Text=Dead CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=''] [Text=quality CharacterOffsetBegin=648 CharacterOffsetEnd=655 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=,] [Text=but CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=DT] [Text=cheese CharacterOffsetBegin=665 CharacterOffsetEnd=671 PartOfSpeech=NN] [Text=factor CharacterOffsetBegin=672 CharacterOffsetEnd=678 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=679 CharacterOffsetEnd=681 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=682 CharacterOffsetEnd=686 PartOfSpeech=JJ] [Text=enough CharacterOffsetBegin=687 CharacterOffsetEnd=693 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=693 CharacterOffsetEnd=694 PartOfSpeech=.] 
+root(ROOT-0, Nothing-1)
+nsubj(close-5, that-2)
+cop(close-5, is-3)
+advmod(close-5, even-4)
+rcmod(Nothing-1, close-5)
+prep(close-5, to-6)
+punct(Dawn-8, ``-7)
+pobj(to-6, Dawn-8)
+prep(Dawn-8, of-9)
+det(Dead-11, the-10)
+pobj(of-9, Dead-11)
+punct(Dead-11, ''-12)
+cc(Dawn-8, or-13)
+advmod(Shaun-16, even-14)
+punct(Shaun-16, ``-15)
+conj(Dawn-8, Shaun-16)
+prep(Shaun-16, of-17)
+det(quality-21, the-18)
+nn(quality-21, Dead-19)
+punct(quality-21, ''-20)
+pobj(of-17, quality-21)
+punct(Nothing-1, ,-22)
+cc(Nothing-1, but-23)
+det(factor-26, the-24)
+nn(factor-26, cheese-25)
+nsubj(good-28, factor-26)
+cop(good-28, is-27)
+conj(Nothing-1, good-28)
+advmod(good-28, enough-29)
+punct(Nothing-1, .-30)
+
+Sentence #11 (1 tokens):
+ciao
+[Text=ciao CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=FW] 
+root(ROOT-0, ciao-1)
+

@@ -1,0 +1,197 @@
+Sentence #1 (4 tokens):
+There is good.
+[Text=There CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ] [Text=good CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+acomp(is-2, good-3)
+punct(is-2, .-4)
+
+Sentence #2 (4 tokens):
+There is bad.
+[Text=There CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VBZ] [Text=bad CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+acomp(is-2, bad-3)
+punct(is-2, .-4)
+
+Sentence #3 (24 tokens):
+And then their is The Sentinel, a bottom-barrel political "thriller" that ranks among the worst movies I have ever seen.
+[Text=And CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=RB] [Text=their CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=PRP$] [Text=is CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=VBZ] [Text=The CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=Sentinel CharacterOffsetBegin=63 CharacterOffsetEnd=71 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=,] [Text=a CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=bottom-barrel CharacterOffsetBegin=75 CharacterOffsetEnd=88 PartOfSpeech=JJ] [Text=political CharacterOffsetBegin=89 CharacterOffsetEnd=98 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=``] [Text=thriller CharacterOffsetBegin=100 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=''] [Text=that CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=WDT] [Text=ranks CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=VBZ] [Text=among CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=JJS] [Text=movies CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=NNS] [Text=I CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=.] 
+root(ROOT-0, And-1)
+advmod(Sentinel-6, then-2)
+nsubj(Sentinel-6, their-3)
+cop(Sentinel-6, is-4)
+det(Sentinel-6, The-5)
+dep(And-1, Sentinel-6)
+punct(Sentinel-6, ,-7)
+det(thriller-12, a-8)
+amod(thriller-12, bottom-barrel-9)
+amod(thriller-12, political-10)
+punct(thriller-12, ``-11)
+appos(Sentinel-6, thriller-12)
+punct(thriller-12, ''-13)
+nsubj(ranks-15, that-14)
+rcmod(thriller-12, ranks-15)
+prep(ranks-15, among-16)
+det(movies-19, the-17)
+amod(movies-19, worst-18)
+pobj(among-16, movies-19)
+nsubj(seen-23, I-20)
+aux(seen-23, have-21)
+advmod(seen-23, ever-22)
+rcmod(movies-19, seen-23)
+punct(And-1, .-24)
+
+Sentence #4 (28 tokens):
+The plot of a mole in the Secret Service is a good one, but never has a movie with so much potential been so utterly butchered.
+[Text=The CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=DT] [Text=mole CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=DT] [Text=Secret CharacterOffsetBegin=192 CharacterOffsetEnd=198 PartOfSpeech=NNP] [Text=Service CharacterOffsetBegin=199 CharacterOffsetEnd=206 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=,] [Text=but CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=CC] [Text=never CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=RB] [Text=has CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=IN] [Text=so CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=JJ] [Text=potential CharacterOffsetBegin=257 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=been CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=VBN] [Text=so CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=RB] [Text=utterly CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=RB] [Text=butchered CharacterOffsetBegin=283 CharacterOffsetEnd=292 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=.] 
+root(ROOT-0, one-13)
+det(plot-2, The-1)
+nsubj(one-13, plot-2)
+prep(plot-2, of-3)
+det(mole-5, a-4)
+pobj(of-3, mole-5)
+prep(mole-5, in-6)
+det(Service-9, the-7)
+nn(Service-9, Secret-8)
+pobj(in-6, Service-9)
+cop(one-13, is-10)
+det(one-13, a-11)
+amod(one-13, good-12)
+punct(one-13, ,-14)
+cc(one-13, but-15)
+neg(has-17, never-16)
+conj(one-13, has-17)
+det(movie-19, a-18)
+dobj(has-17, movie-19)
+prep(movie-19, with-20)
+advmod(much-22, so-21)
+amod(butchered-27, much-22)
+amod(butchered-27, potential-23)
+auxpass(butchered-27, been-24)
+advmod(utterly-26, so-25)
+advmod(butchered-27, utterly-26)
+pobj(with-20, butchered-27)
+punct(one-13, .-28)
+
+Sentence #5 (22 tokens):
+Directed with ham-handed "edginess" by Clark Johnson, every actor in this film seems to be working on autopilot.
+[Text=Directed CharacterOffsetBegin=298 CharacterOffsetEnd=306 PartOfSpeech=NNP] [Text=with CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=IN] [Text=ham-handed CharacterOffsetBegin=312 CharacterOffsetEnd=322 PartOfSpeech=JJ] [Text=`` CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=``] [Text=edginess CharacterOffsetBegin=324 CharacterOffsetEnd=332 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=''] [Text=by CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=IN] [Text=Clark CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=NNP] [Text=Johnson CharacterOffsetBegin=343 CharacterOffsetEnd=350 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=,] [Text=every CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=DT] [Text=actor CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NN] [Text=seems CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=VB] [Text=working CharacterOffsetBegin=389 CharacterOffsetEnd=396 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=IN] [Text=autopilot CharacterOffsetBegin=400 CharacterOffsetEnd=409 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=.] 
+root(ROOT-0, seems-16)
+nsubj(seems-16, Directed-1)
+prep(Directed-1, with-2)
+amod(edginess-5, ham-handed-3)
+punct(edginess-5, ``-4)
+pobj(with-2, edginess-5)
+punct(edginess-5, ''-6)
+prep(edginess-5, by-7)
+nn(Johnson-9, Clark-8)
+pobj(by-7, Johnson-9)
+punct(Directed-1, ,-10)
+det(actor-12, every-11)
+appos(Directed-1, actor-12)
+prep(actor-12, in-13)
+det(film-15, this-14)
+pobj(in-13, film-15)
+aux(working-19, to-17)
+aux(working-19, be-18)
+xcomp(seems-16, working-19)
+prep(working-19, on-20)
+pobj(on-20, autopilot-21)
+punct(seems-16, .-22)
+
+Sentence #6 (9 tokens):
+Even the great Michael Douglas looks bored here.
+[Text=Even CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=JJ] [Text=Michael CharacterOffsetBegin=430 CharacterOffsetEnd=437 PartOfSpeech=NNP] [Text=Douglas CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=NNP] [Text=looks CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=VBZ] [Text=bored CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=VBN] [Text=here CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=.] 
+root(ROOT-0, looks-6)
+advmod(looks-6, Even-1)
+det(Douglas-5, the-2)
+amod(Douglas-5, great-3)
+nn(Douglas-5, Michael-4)
+nsubj(looks-6, Douglas-5)
+acomp(looks-6, bored-7)
+advmod(bored-7, here-8)
+punct(looks-6, .-9)
+
+Sentence #7 (23 tokens):
+I can honestly say I have NEVER, in all my life, viewed another film with so many glaring plot holes.
+[Text=I CharacterOffsetBegin=468 CharacterOffsetEnd=469 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=MD] [Text=honestly CharacterOffsetBegin=474 CharacterOffsetEnd=482 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=VB] [Text=I CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=VBP] [Text=NEVER CharacterOffsetBegin=494 CharacterOffsetEnd=499 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=499 CharacterOffsetEnd=500 PartOfSpeech=,] [Text=in CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=DT] [Text=my CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=PRP$] [Text=life CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=515 CharacterOffsetEnd=516 PartOfSpeech=,] [Text=viewed CharacterOffsetBegin=517 CharacterOffsetEnd=523 PartOfSpeech=VBD] [Text=another CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=IN] [Text=so CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=RB] [Text=many CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=JJ] [Text=glaring CharacterOffsetBegin=550 CharacterOffsetEnd=557 PartOfSpeech=VBG] [Text=plot CharacterOffsetBegin=558 CharacterOffsetEnd=562 PartOfSpeech=NN] [Text=holes CharacterOffsetBegin=563 CharacterOffsetEnd=568 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=.] 
+root(ROOT-0, say-4)
+nsubj(say-4, I-1)
+aux(say-4, can-2)
+advmod(say-4, honestly-3)
+nsubj(have-6, I-5)
+ccomp(say-4, have-6)
+advmod(viewed-14, NEVER-7)
+punct(viewed-14, ,-8)
+prep(viewed-14, in-9)
+predet(life-12, all-10)
+poss(life-12, my-11)
+pobj(in-9, life-12)
+punct(viewed-14, ,-13)
+ccomp(have-6, viewed-14)
+det(film-16, another-15)
+dobj(viewed-14, film-16)
+prep(viewed-14, with-17)
+advmod(many-19, so-18)
+amod(holes-22, many-19)
+nn(holes-22, glaring-20)
+nn(holes-22, plot-21)
+pobj(with-17, holes-22)
+punct(say-4, .-23)
+
+Sentence #8 (25 tokens):
+The twist is predictable from square one, and the character's motives are so utterly ridiculous that they inspired laughter from the audience.
+[Text=The CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=DT] [Text=twist CharacterOffsetBegin=578 CharacterOffsetEnd=583 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=VBZ] [Text=predictable CharacterOffsetBegin=587 CharacterOffsetEnd=598 PartOfSpeech=JJ] [Text=from CharacterOffsetBegin=599 CharacterOffsetEnd=603 PartOfSpeech=IN] [Text=square CharacterOffsetBegin=604 CharacterOffsetEnd=610 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=614 CharacterOffsetEnd=615 PartOfSpeech=,] [Text=and CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=DT] [Text=character CharacterOffsetBegin=624 CharacterOffsetEnd=633 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=POS] [Text=motives CharacterOffsetBegin=636 CharacterOffsetEnd=643 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=VBP] [Text=so CharacterOffsetBegin=648 CharacterOffsetEnd=650 PartOfSpeech=RB] [Text=utterly CharacterOffsetBegin=651 CharacterOffsetEnd=658 PartOfSpeech=RB] [Text=ridiculous CharacterOffsetBegin=659 CharacterOffsetEnd=669 PartOfSpeech=JJ] [Text=that CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=IN] [Text=they CharacterOffsetBegin=675 CharacterOffsetEnd=679 PartOfSpeech=PRP] [Text=inspired CharacterOffsetBegin=680 CharacterOffsetEnd=688 PartOfSpeech=VBD] [Text=laughter CharacterOffsetBegin=689 CharacterOffsetEnd=697 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=703 CharacterOffsetEnd=706 PartOfSpeech=DT] [Text=audience CharacterOffsetBegin=707 CharacterOffsetEnd=715 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=715 CharacterOffsetEnd=716 PartOfSpeech=.] 
+root(ROOT-0, predictable-4)
+det(twist-2, The-1)
+nsubj(predictable-4, twist-2)
+cop(predictable-4, is-3)
+prep(predictable-4, from-5)
+amod(one-7, square-6)
+pobj(from-5, one-7)
+punct(predictable-4, ,-8)
+cc(predictable-4, and-9)
+det(character-11, the-10)
+poss(motives-13, character-11)
+possessive(character-11, 's-12)
+nsubj(ridiculous-17, motives-13)
+cop(ridiculous-17, are-14)
+advmod(utterly-16, so-15)
+advmod(ridiculous-17, utterly-16)
+conj(predictable-4, ridiculous-17)
+mark(inspired-20, that-18)
+nsubj(inspired-20, they-19)
+ccomp(ridiculous-17, inspired-20)
+dobj(inspired-20, laughter-21)
+prep(laughter-21, from-22)
+det(audience-24, the-23)
+pobj(from-22, audience-24)
+punct(predictable-4, .-25)
+
+Sentence #9 (6 tokens):
+Avoid this at all costs.
+[Text=Avoid CharacterOffsetBegin=721 CharacterOffsetEnd=726 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=727 CharacterOffsetEnd=731 PartOfSpeech=DT] [Text=at CharacterOffsetBegin=732 CharacterOffsetEnd=734 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=DT] [Text=costs CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=744 CharacterOffsetEnd=745 PartOfSpeech=.] 
+root(ROOT-0, Avoid-1)
+dobj(Avoid-1, this-2)
+prep(Avoid-1, at-3)
+det(costs-5, all-4)
+pobj(at-3, costs-5)
+punct(Avoid-1, .-6)
+
+Sentence #10 (12 tokens):
+This is a catastrophe of a movie with no redeeming value.
+[Text=This CharacterOffsetBegin=750 CharacterOffsetEnd=754 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=758 CharacterOffsetEnd=759 PartOfSpeech=DT] [Text=catastrophe CharacterOffsetBegin=760 CharacterOffsetEnd=771 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=772 CharacterOffsetEnd=774 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=775 CharacterOffsetEnd=776 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=777 CharacterOffsetEnd=782 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=783 CharacterOffsetEnd=787 PartOfSpeech=IN] [Text=no CharacterOffsetBegin=788 CharacterOffsetEnd=790 PartOfSpeech=DT] [Text=redeeming CharacterOffsetBegin=791 CharacterOffsetEnd=800 PartOfSpeech=JJ] [Text=value CharacterOffsetBegin=801 CharacterOffsetEnd=806 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=806 CharacterOffsetEnd=807 PartOfSpeech=.] 
+root(ROOT-0, catastrophe-4)
+nsubj(catastrophe-4, This-1)
+cop(catastrophe-4, is-2)
+det(catastrophe-4, a-3)
+prep(catastrophe-4, of-5)
+det(movie-7, a-6)
+pobj(of-5, movie-7)
+prep(movie-7, with-8)
+det(value-11, no-9)
+amod(value-11, redeeming-10)
+pobj(with-8, value-11)
+punct(catastrophe-4, .-12)
+

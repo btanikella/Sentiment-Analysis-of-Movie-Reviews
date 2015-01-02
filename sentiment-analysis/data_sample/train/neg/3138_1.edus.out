@@ -1,0 +1,313 @@
+Sentence #1 (11 tokens):
+I see people writing about how great this movie was.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBP] [Text=people CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=NNS] [Text=writing CharacterOffsetBegin=17 CharacterOffsetEnd=24 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=WRB] [Text=great CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=JJ] [Text=this CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.] 
+root(ROOT-0, see-2)
+nsubj(see-2, I-1)
+dobj(see-2, people-3)
+partmod(people-3, writing-4)
+prep(writing-4, about-5)
+advmod(great-7, how-6)
+dep(was-10, great-7)
+det(movie-9, this-8)
+nsubj(was-10, movie-9)
+pcomp(about-5, was-10)
+punct(see-2, .-11)
+
+Sentence #2 (4 tokens):
+It was horrible!
+[Text=It CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=VBD] [Text=horrible CharacterOffsetBegin=68 CharacterOffsetEnd=76 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=.] 
+root(ROOT-0, horrible-3)
+nsubj(horrible-3, It-1)
+cop(horrible-3, was-2)
+punct(horrible-3, !-4)
+
+Sentence #3 (7 tokens):
+The acting was sub-par at best.
+[Text=The CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=VBD] [Text=sub-par CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN] [Text=best CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=JJS] [Text=. CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=.] 
+root(ROOT-0, sub-par-4)
+det(acting-2, The-1)
+nsubj(sub-par-4, acting-2)
+cop(sub-par-4, was-3)
+prep(sub-par-4, at-5)
+pobj(at-5, best-6)
+punct(sub-par-4, .-7)
+
+Sentence #4 (23 tokens):
+It made a lot of money because teenage girls went to see the movie 7 times in the theaters because of Leonardo.
+[Text=It CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=PRP] [Text=made CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN] [Text=money CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=141 CharacterOffsetEnd=148 PartOfSpeech=IN] [Text=teenage CharacterOffsetBegin=149 CharacterOffsetEnd=156 PartOfSpeech=JJ] [Text=girls CharacterOffsetBegin=157 CharacterOffsetEnd=162 PartOfSpeech=NNS] [Text=went CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=NN] [Text=7 CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=CD] [Text=times CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=DT] [Text=theaters CharacterOffsetBegin=200 CharacterOffsetEnd=208 PartOfSpeech=NNS] [Text=because CharacterOffsetBegin=209 CharacterOffsetEnd=216 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=IN] [Text=Leonardo CharacterOffsetBegin=220 CharacterOffsetEnd=228 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, made-2)
+nsubj(made-2, It-1)
+det(lot-4, a-3)
+dobj(made-2, lot-4)
+prep(lot-4, of-5)
+pobj(of-5, money-6)
+mark(went-10, because-7)
+amod(girls-9, teenage-8)
+nsubj(went-10, girls-9)
+advcl(made-2, went-10)
+aux(see-12, to-11)
+xcomp(went-10, see-12)
+det(movie-14, the-13)
+nsubj(times-16, movie-14)
+number(times-16, 7-15)
+dep(see-12, times-16)
+prep(times-16, in-17)
+det(theaters-19, the-18)
+pobj(in-17, theaters-19)
+mwe(of-21, because-20)
+prep(times-16, of-21)
+pobj(of-21, Leonardo-22)
+punct(made-2, .-23)
+
+Sentence #5 (9 tokens):
+Where the hell did they get the money?
+[Text=Where CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=WRB] [Text=the CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=DT] [Text=hell CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=NN] [Text=did CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=VBD] [Text=they CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=VBP] [Text=the CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=DT] [Text=money CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, did-4)
+advmod(did-4, Where-1)
+det(hell-3, the-2)
+nsubj(did-4, hell-3)
+nsubj(get-6, they-5)
+ccomp(did-4, get-6)
+det(money-8, the-7)
+dobj(get-6, money-8)
+punct(did-4, ?-9)
+
+Sentence #6 (33 tokens):
+Anyway, I wanted to learn more about the Titanic; why it sank, what was running through a lot of people's minds; maybe even a little conspiracy stuff.
+[Text=Anyway CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=,] [Text=I CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=PRP] [Text=wanted CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=TO] [Text=learn CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=VB] [Text=more CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=JJR] [Text=about CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=Titanic CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=NNP] [Text=; CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=:] [Text=why CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=PRP] [Text=sank CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=,] [Text=what CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=WP] [Text=was CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=VBD] [Text=running CharacterOffsetBegin=349 CharacterOffsetEnd=356 PartOfSpeech=VBG] [Text=through CharacterOffsetBegin=357 CharacterOffsetEnd=364 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=NNS] [Text='s CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=POS] [Text=minds CharacterOffsetBegin=383 CharacterOffsetEnd=388 PartOfSpeech=NNS] [Text=; CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=:] [Text=maybe CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=403 CharacterOffsetEnd=409 PartOfSpeech=JJ] [Text=conspiracy CharacterOffsetBegin=410 CharacterOffsetEnd=420 PartOfSpeech=NN] [Text=stuff CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=.] 
+root(ROOT-0, wanted-4)
+advmod(wanted-4, Anyway-1)
+punct(wanted-4, ,-2)
+nsubj(wanted-4, I-3)
+aux(learn-6, to-5)
+xcomp(wanted-4, learn-6)
+dobj(learn-6, more-7)
+prep(more-7, about-8)
+det(Titanic-10, the-9)
+pobj(about-8, Titanic-10)
+punct(wanted-4, ;-11)
+advmod(sank-14, why-12)
+nsubj(sank-14, it-13)
+conj(wanted-4, sank-14)
+punct(sank-14, ,-15)
+nsubj(running-18, what-16)
+aux(running-18, was-17)
+ccomp(sank-14, running-18)
+prep(running-18, through-19)
+det(lot-21, a-20)
+pobj(through-19, lot-21)
+prep(lot-21, of-22)
+poss(minds-25, people-23)
+possessive(people-23, 's-24)
+pobj(of-22, minds-25)
+punct(wanted-4, ;-26)
+advmod(stuff-32, maybe-27)
+advmod(stuff-32, even-28)
+det(stuff-32, a-29)
+amod(stuff-32, little-30)
+nn(stuff-32, conspiracy-31)
+parataxis(wanted-4, stuff-32)
+punct(wanted-4, .-33)
+
+Sentence #7 (25 tokens):
+Does anyone realize that certain people didn't even board the ship because there was a fire on board before it even took off?
+[Text=Does CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=VBZ] [Text=anyone CharacterOffsetBegin=437 CharacterOffsetEnd=443 PartOfSpeech=NN] [Text=realize CharacterOffsetBegin=444 CharacterOffsetEnd=451 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=452 CharacterOffsetEnd=456 PartOfSpeech=IN] [Text=certain CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=JJ] [Text=people CharacterOffsetBegin=465 CharacterOffsetEnd=471 PartOfSpeech=NNS] [Text=did CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=RB] [Text=board CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=NN] [Text=the CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=DT] [Text=ship CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=NN] [Text=because CharacterOffsetBegin=499 CharacterOffsetEnd=506 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=507 CharacterOffsetEnd=512 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=DT] [Text=fire CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=IN] [Text=board CharacterOffsetBegin=527 CharacterOffsetEnd=532 PartOfSpeech=NN] [Text=before CharacterOffsetBegin=533 CharacterOffsetEnd=539 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=PRP] [Text=even CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=RB] [Text=took CharacterOffsetBegin=548 CharacterOffsetEnd=552 PartOfSpeech=VBD] [Text=off CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=RP] [Text=? CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=.] 
+root(ROOT-0, realize-3)
+aux(realize-3, Does-1)
+nsubj(realize-3, anyone-2)
+mark(board-10, that-4)
+amod(people-6, certain-5)
+nsubj(board-10, people-6)
+aux(board-10, did-7)
+neg(board-10, n't-8)
+advmod(board-10, even-9)
+ccomp(realize-3, board-10)
+det(ship-12, the-11)
+dobj(board-10, ship-12)
+mark(was-15, because-13)
+expl(was-15, there-14)
+advcl(board-10, was-15)
+det(fire-17, a-16)
+nsubj(was-15, fire-17)
+prep(fire-17, on-18)
+pobj(on-18, board-19)
+mark(took-23, before-20)
+nsubj(took-23, it-21)
+advmod(took-23, even-22)
+dep(fire-17, took-23)
+prt(took-23, off-24)
+punct(realize-3, ?-25)
+
+Sentence #8 (40 tokens):
+No, you don't because all you see is a rich girl falling for a poor boy and he paints her naked (did that corny junk at least tip you off that the movie was stupid?
+    )
+[Text=No CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=DT] [Text=, CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=,] [Text=you CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=576 CharacterOffsetEnd=583 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=DT] [Text=you CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=PRP] [Text=see CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=VBP] [Text=is CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=599 CharacterOffsetEnd=600 PartOfSpeech=DT] [Text=rich CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=JJ] [Text=girl CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=NN] [Text=falling CharacterOffsetBegin=611 CharacterOffsetEnd=618 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=619 CharacterOffsetEnd=622 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=DT] [Text=poor CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=JJ] [Text=boy CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=638 CharacterOffsetEnd=640 PartOfSpeech=PRP] [Text=paints CharacterOffsetBegin=641 CharacterOffsetEnd=647 PartOfSpeech=NNS] [Text=her CharacterOffsetBegin=648 CharacterOffsetEnd=651 PartOfSpeech=PRP$] [Text=naked CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=JJ] [Text=-LRB- CharacterOffsetBegin=658 CharacterOffsetEnd=659 PartOfSpeech=-LRB-] [Text=did CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=663 CharacterOffsetEnd=667 PartOfSpeech=DT] [Text=corny CharacterOffsetBegin=668 CharacterOffsetEnd=673 PartOfSpeech=JJ] [Text=junk CharacterOffsetBegin=674 CharacterOffsetEnd=678 PartOfSpeech=NN] [Text=at CharacterOffsetBegin=679 CharacterOffsetEnd=681 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=JJS] [Text=tip CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=PRP] [Text=off CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=RP] [Text=that CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=709 CharacterOffsetEnd=714 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=VBD] [Text=stupid CharacterOffsetBegin=719 CharacterOffsetEnd=725 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=731 CharacterOffsetEnd=732 PartOfSpeech=-RRB-] 
+root(ROOT-0, do-4)
+discourse(do-4, No-1)
+punct(do-4, ,-2)
+nsubj(do-4, you-3)
+neg(do-4, n't-5)
+mark(girl-13, because-6)
+nsubj(girl-13, all-7)
+nsubj(see-9, you-8)
+rcmod(all-7, see-9)
+cop(girl-13, is-10)
+det(girl-13, a-11)
+amod(girl-13, rich-12)
+advcl(do-4, girl-13)
+dep(girl-13, falling-14)
+prep(falling-14, for-15)
+det(boy-18, a-16)
+amod(boy-18, poor-17)
+pobj(for-15, boy-18)
+cc(falling-14, and-19)
+nsubj(paints-21, he-20)
+conj(falling-14, paints-21)
+dep(paints-21, her-22)
+dep(her-22, naked-23)
+punct(did-25, -LRB--24)
+dep(naked-23, did-25)
+mark(tip-31, that-26)
+amod(junk-28, corny-27)
+nsubj(tip-31, junk-28)
+advmod(tip-31, at-29)
+pobj(at-29, least-30)
+ccomp(did-25, tip-31)
+dobj(tip-31, you-32)
+prt(tip-31, off-33)
+mark(stupid-38, that-34)
+det(movie-36, the-35)
+nsubj(stupid-38, movie-36)
+cop(stupid-38, was-37)
+dep(tip-31, stupid-38)
+punct(stupid-38, ?-39)
+punct(do-4, -RRB--40)
+
+Sentence #9 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=732 CharacterOffsetEnd=733 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #10 (10 tokens):
+I did cry in during one scene, though.
+[Text=I CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=VBD] [Text=cry CharacterOffsetBegin=739 CharacterOffsetEnd=742 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=743 CharacterOffsetEnd=745 PartOfSpeech=IN] [Text=during CharacterOffsetBegin=746 CharacterOffsetEnd=752 PartOfSpeech=IN] [Text=one CharacterOffsetBegin=753 CharacterOffsetEnd=756 PartOfSpeech=CD] [Text=scene CharacterOffsetBegin=757 CharacterOffsetEnd=762 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=762 CharacterOffsetEnd=763 PartOfSpeech=,] [Text=though CharacterOffsetBegin=764 CharacterOffsetEnd=770 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=770 CharacterOffsetEnd=771 PartOfSpeech=.] 
+root(ROOT-0, did-2)
+nsubj(did-2, I-1)
+dobj(did-2, cry-3)
+prep(did-2, in-4)
+pcomp(in-4, during-5)
+num(scene-7, one-6)
+pobj(during-5, scene-7)
+punct(did-2, ,-8)
+advmod(did-2, though-9)
+punct(did-2, .-10)
+
+Sentence #11 (15 tokens):
+The scene when they showed the water that was filling up in the ship.
+[Text=The CharacterOffsetBegin=776 CharacterOffsetEnd=779 PartOfSpeech=DT] [Text=scene CharacterOffsetBegin=780 CharacterOffsetEnd=785 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=786 CharacterOffsetEnd=790 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=791 CharacterOffsetEnd=795 PartOfSpeech=PRP] [Text=showed CharacterOffsetBegin=796 CharacterOffsetEnd=802 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=803 CharacterOffsetEnd=806 PartOfSpeech=DT] [Text=water CharacterOffsetBegin=807 CharacterOffsetEnd=812 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=813 CharacterOffsetEnd=817 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=818 CharacterOffsetEnd=821 PartOfSpeech=VBD] [Text=filling CharacterOffsetBegin=822 CharacterOffsetEnd=829 PartOfSpeech=VBG] [Text=up CharacterOffsetBegin=830 CharacterOffsetEnd=832 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=833 CharacterOffsetEnd=835 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=836 CharacterOffsetEnd=839 PartOfSpeech=DT] [Text=ship CharacterOffsetBegin=840 CharacterOffsetEnd=844 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=844 CharacterOffsetEnd=845 PartOfSpeech=.] 
+root(ROOT-0, scene-2)
+det(scene-2, The-1)
+advmod(showed-5, when-3)
+nsubj(showed-5, they-4)
+rcmod(scene-2, showed-5)
+det(water-7, the-6)
+dobj(showed-5, water-7)
+nsubj(filling-10, that-8)
+aux(filling-10, was-9)
+rcmod(water-7, filling-10)
+prt(filling-10, up-11)
+prep(filling-10, in-12)
+det(ship-14, the-13)
+pobj(in-12, ship-14)
+punct(scene-2, .-15)
+
+Sentence #12 (6 tokens):
+It looked like pool water!
+[Text=It CharacterOffsetBegin=850 CharacterOffsetEnd=852 PartOfSpeech=PRP] [Text=looked CharacterOffsetBegin=853 CharacterOffsetEnd=859 PartOfSpeech=VBD] [Text=like CharacterOffsetBegin=860 CharacterOffsetEnd=864 PartOfSpeech=IN] [Text=pool CharacterOffsetBegin=865 CharacterOffsetEnd=869 PartOfSpeech=NN] [Text=water CharacterOffsetBegin=870 CharacterOffsetEnd=875 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=875 CharacterOffsetEnd=876 PartOfSpeech=.] 
+root(ROOT-0, looked-2)
+nsubj(looked-2, It-1)
+prep(looked-2, like-3)
+nn(water-5, pool-4)
+pobj(like-3, water-5)
+punct(looked-2, !-6)
+
+Sentence #13 (23 tokens):
+I'm thinking this movie made all this money and they couldn't even make the water from the ocean look real?
+[Text=I CharacterOffsetBegin=881 CharacterOffsetEnd=882 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=882 CharacterOffsetEnd=884 PartOfSpeech=VBP] [Text=thinking CharacterOffsetBegin=885 CharacterOffsetEnd=893 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=894 CharacterOffsetEnd=898 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=899 CharacterOffsetEnd=904 PartOfSpeech=NN] [Text=made CharacterOffsetBegin=905 CharacterOffsetEnd=909 PartOfSpeech=VBD] [Text=all CharacterOffsetBegin=910 CharacterOffsetEnd=913 PartOfSpeech=PDT] [Text=this CharacterOffsetBegin=914 CharacterOffsetEnd=918 PartOfSpeech=DT] [Text=money CharacterOffsetBegin=919 CharacterOffsetEnd=924 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=925 CharacterOffsetEnd=928 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=929 CharacterOffsetEnd=933 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=934 CharacterOffsetEnd=939 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=939 CharacterOffsetEnd=942 PartOfSpeech=RB] [Text=even CharacterOffsetBegin=943 CharacterOffsetEnd=947 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=948 CharacterOffsetEnd=952 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=953 CharacterOffsetEnd=956 PartOfSpeech=DT] [Text=water CharacterOffsetBegin=957 CharacterOffsetEnd=962 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=963 CharacterOffsetEnd=967 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=968 CharacterOffsetEnd=971 PartOfSpeech=DT] [Text=ocean CharacterOffsetBegin=972 CharacterOffsetEnd=977 PartOfSpeech=NN] [Text=look CharacterOffsetBegin=978 CharacterOffsetEnd=982 PartOfSpeech=NN] [Text=real CharacterOffsetBegin=983 CharacterOffsetEnd=987 PartOfSpeech=JJ] [Text=? CharacterOffsetBegin=987 CharacterOffsetEnd=988 PartOfSpeech=.] 
+root(ROOT-0, thinking-3)
+nsubj(thinking-3, I-1)
+aux(thinking-3, 'm-2)
+det(movie-5, this-4)
+nsubj(made-6, movie-5)
+ccomp(thinking-3, made-6)
+predet(money-9, all-7)
+det(money-9, this-8)
+dobj(made-6, money-9)
+cc(made-6, and-10)
+nsubj(make-15, they-11)
+aux(make-15, could-12)
+neg(make-15, n't-13)
+advmod(make-15, even-14)
+conj(made-6, make-15)
+det(water-17, the-16)
+dobj(make-15, water-17)
+prep(make-15, from-18)
+det(look-21, the-19)
+amod(look-21, ocean-20)
+pobj(from-18, look-21)
+amod(look-21, real-22)
+punct(thinking-3, ?-23)
+
+Sentence #14 (12 tokens):
+unbelievable...Ohhh the band played on while the ship sank.
+[Text=unbelievable CharacterOffsetBegin=993 CharacterOffsetEnd=1005 PartOfSpeech=JJ] [Text=... CharacterOffsetBegin=1005 CharacterOffsetEnd=1008 PartOfSpeech=:] [Text=Ohhh CharacterOffsetBegin=1008 CharacterOffsetEnd=1012 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=1013 CharacterOffsetEnd=1016 PartOfSpeech=DT] [Text=band CharacterOffsetBegin=1017 CharacterOffsetEnd=1021 PartOfSpeech=NN] [Text=played CharacterOffsetBegin=1022 CharacterOffsetEnd=1028 PartOfSpeech=VBN] [Text=on CharacterOffsetBegin=1029 CharacterOffsetEnd=1031 PartOfSpeech=IN] [Text=while CharacterOffsetBegin=1032 CharacterOffsetEnd=1037 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1038 CharacterOffsetEnd=1041 PartOfSpeech=DT] [Text=ship CharacterOffsetBegin=1042 CharacterOffsetEnd=1046 PartOfSpeech=NN] [Text=sank CharacterOffsetBegin=1047 CharacterOffsetEnd=1051 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=1051 CharacterOffsetEnd=1052 PartOfSpeech=.] 
+root(ROOT-0, unbelievable-1)
+punct(unbelievable-1, ...-2)
+nn(band-5, Ohhh-3)
+det(band-5, the-4)
+dep(unbelievable-1, band-5)
+partmod(band-5, played-6)
+prep(played-6, on-7)
+mark(sank-11, while-8)
+det(ship-10, the-9)
+nsubj(sank-11, ship-10)
+pcomp(on-7, sank-11)
+punct(unbelievable-1, .-12)
+
+Sentence #15 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=1052 CharacterOffsetEnd=1053 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #16 (3 tokens):
+Just ridiculous.
+[Text=Just CharacterOffsetBegin=1054 CharacterOffsetEnd=1058 PartOfSpeech=RB] [Text=ridiculous CharacterOffsetBegin=1059 CharacterOffsetEnd=1069 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=1069 CharacterOffsetEnd=1070 PartOfSpeech=.] 
+root(ROOT-0, ridiculous-2)
+advmod(ridiculous-2, Just-1)
+punct(ridiculous-2, .-3)
+
+Sentence #17 (21 tokens):
+This was the worst movie until Pearl Harbor outdid it in the "Nothing to Do With Reality" department.
+[Text=This CharacterOffsetBegin=1075 CharacterOffsetEnd=1079 PartOfSpeech=DT] [Text=was CharacterOffsetBegin=1080 CharacterOffsetEnd=1083 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=1084 CharacterOffsetEnd=1087 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=1088 CharacterOffsetEnd=1093 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=1094 CharacterOffsetEnd=1099 PartOfSpeech=NN] [Text=until CharacterOffsetBegin=1100 CharacterOffsetEnd=1105 PartOfSpeech=IN] [Text=Pearl CharacterOffsetBegin=1106 CharacterOffsetEnd=1111 PartOfSpeech=NNP] [Text=Harbor CharacterOffsetBegin=1112 CharacterOffsetEnd=1118 PartOfSpeech=NNP] [Text=outdid CharacterOffsetBegin=1119 CharacterOffsetEnd=1125 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=1126 CharacterOffsetEnd=1128 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=1129 CharacterOffsetEnd=1131 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=1132 CharacterOffsetEnd=1135 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=1136 CharacterOffsetEnd=1137 PartOfSpeech=``] [Text=Nothing CharacterOffsetBegin=1137 CharacterOffsetEnd=1144 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=1145 CharacterOffsetEnd=1147 PartOfSpeech=TO] [Text=Do CharacterOffsetBegin=1148 CharacterOffsetEnd=1150 PartOfSpeech=VB] [Text=With CharacterOffsetBegin=1151 CharacterOffsetEnd=1155 PartOfSpeech=IN] [Text=Reality CharacterOffsetBegin=1156 CharacterOffsetEnd=1163 PartOfSpeech=NN] [Text='' CharacterOffsetBegin=1163 CharacterOffsetEnd=1164 PartOfSpeech=''] [Text=department CharacterOffsetBegin=1165 CharacterOffsetEnd=1175 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=1175 CharacterOffsetEnd=1176 PartOfSpeech=.] 
+root(ROOT-0, movie-5)
+nsubj(movie-5, This-1)
+cop(movie-5, was-2)
+det(movie-5, the-3)
+amod(movie-5, worst-4)
+mark(outdid-9, until-6)
+nn(Harbor-8, Pearl-7)
+nsubj(outdid-9, Harbor-8)
+advcl(movie-5, outdid-9)
+dobj(outdid-9, it-10)
+prep(outdid-9, in-11)
+det(Nothing-14, the-12)
+punct(Nothing-14, ``-13)
+pobj(in-11, Nothing-14)
+aux(Do-16, to-15)
+infmod(Nothing-14, Do-16)
+prep(Do-16, With-17)
+nn(department-20, Reality-18)
+punct(department-20, ''-19)
+pobj(With-17, department-20)
+punct(movie-5, .-21)
+

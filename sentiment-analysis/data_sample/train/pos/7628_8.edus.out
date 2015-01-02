@@ -1,0 +1,183 @@
+Sentence #1 (10 tokens):
+This movie is one of those "WOW!"
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=IN] [Text=those CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=``] [Text=WOW CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.] [Text='' CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=''] 
+root(ROOT-0, one-4)
+det(movie-2, This-1)
+nsubj(one-4, movie-2)
+cop(one-4, is-3)
+prep(one-4, of-5)
+det(WOW-8, those-6)
+punct(WOW-8, ``-7)
+pobj(of-5, WOW-8)
+punct(one-4, !-9)
+punct(one-4, ''-10)
+
+Sentence #2 (2 tokens):
+movies.
+[Text=movies CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=.] 
+root(ROOT-0, movies-1)
+punct(movies-1, .-2)
+
+Sentence #3 (17 tokens):
+Not because it's the greatest movie of all time, but because it surprised me.
+[Text=Not CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=58 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=greatest CharacterOffsetBegin=75 CharacterOffsetEnd=83 PartOfSpeech=JJS] [Text=movie CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=,] [Text=but CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=CC] [Text=because CharacterOffsetBegin=107 CharacterOffsetEnd=114 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=PRP] [Text=surprised CharacterOffsetBegin=118 CharacterOffsetEnd=127 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+advmod(movie-7, Not-1)
+mark(movie-7, because-2)
+nsubj(movie-7, it-3)
+cop(movie-7, 's-4)
+det(movie-7, the-5)
+amod(movie-7, greatest-6)
+prep(movie-7, of-8)
+det(time-10, all-9)
+pobj(of-8, time-10)
+punct(movie-7, ,-11)
+cc(movie-7, but-12)
+mark(surprised-15, because-13)
+nsubj(surprised-15, it-14)
+conj(movie-7, surprised-15)
+dobj(surprised-15, me-16)
+punct(movie-7, .-17)
+
+Sentence #4 (14 tokens):
+Not only was it a T.V.
+    movie, but it was on Elvis.
+[Text=Not CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=RB] [Text=only CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=RB] [Text=was CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=T.V. CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=NN] [Text=movie CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=,] [Text=but CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=VBD] [Text=on CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN] [Text=Elvis CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=.] 
+root(ROOT-0, movie-7)
+neg(only-2, Not-1)
+advmod(movie-7, only-2)
+cop(movie-7, was-3)
+nsubj(movie-7, it-4)
+det(movie-7, a-5)
+nn(movie-7, T.V.-6)
+punct(movie-7, ,-8)
+cc(movie-7, but-9)
+nsubj(was-11, it-10)
+conj(movie-7, was-11)
+prep(was-11, on-12)
+pobj(on-12, Elvis-13)
+punct(movie-7, .-14)
+
+Sentence #5 (34 tokens):
+I can safely say as many impersonators as there are there was only one Elvis, but I can also safely say that Kurt Russel came extremely close to being the real thing.
+[Text=I CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=MD] [Text=safely CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=VB] [Text=as CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=IN] [Text=many CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=JJ] [Text=impersonators CharacterOffsetBegin=220 CharacterOffsetEnd=233 PartOfSpeech=NNS] [Text=as CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=VBP] [Text=there CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=EX] [Text=was CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=VBD] [Text=only CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=CD] [Text=Elvis CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=,] [Text=but CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=MD] [Text=also CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=RB] [Text=safely CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=RB] [Text=say CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=IN] [Text=Kurt CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=NNP] [Text=Russel CharacterOffsetBegin=309 CharacterOffsetEnd=315 PartOfSpeech=NNP] [Text=came CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=VBD] [Text=extremely CharacterOffsetBegin=321 CharacterOffsetEnd=330 PartOfSpeech=RB] [Text=close CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=TO] [Text=being CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=DT] [Text=real CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=.] 
+root(ROOT-0, say-4)
+nsubj(say-4, I-1)
+aux(say-4, can-2)
+advmod(say-4, safely-3)
+prep(say-4, as-5)
+amod(impersonators-7, many-6)
+pobj(as-5, impersonators-7)
+mark(are-10, as-8)
+expl(are-10, there-9)
+dep(impersonators-7, are-10)
+expl(was-12, there-11)
+ccomp(are-10, was-12)
+quantmod(one-14, only-13)
+num(Elvis-15, one-14)
+nsubj(was-12, Elvis-15)
+punct(say-4, ,-16)
+cc(say-4, but-17)
+nsubj(say-22, I-18)
+aux(say-22, can-19)
+advmod(say-22, also-20)
+advmod(say-22, safely-21)
+conj(say-4, say-22)
+mark(came-26, that-23)
+nn(Russel-25, Kurt-24)
+nsubj(came-26, Russel-25)
+ccomp(say-22, came-26)
+advmod(close-28, extremely-27)
+acomp(came-26, close-28)
+aux(thing-33, to-29)
+cop(thing-33, being-30)
+det(thing-33, the-31)
+amod(thing-33, real-32)
+xcomp(close-28, thing-33)
+punct(say-4, .-34)
+
+Sentence #6 (13 tokens):
+It was one of the greatest impersonations that I have ever seen.
+[Text=It CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=369 CharacterOffsetEnd=372 PartOfSpeech=VBD] [Text=one CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=DT] [Text=greatest CharacterOffsetBegin=384 CharacterOffsetEnd=392 PartOfSpeech=JJS] [Text=impersonations CharacterOffsetBegin=393 CharacterOffsetEnd=407 PartOfSpeech=NNS] [Text=that CharacterOffsetBegin=408 CharacterOffsetEnd=412 PartOfSpeech=IN] [Text=I CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=VBP] [Text=ever CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=RB] [Text=seen CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=.] 
+root(ROOT-0, one-3)
+nsubj(one-3, It-1)
+cop(one-3, was-2)
+prep(one-3, of-4)
+det(impersonations-7, the-5)
+amod(impersonations-7, greatest-6)
+pobj(of-4, impersonations-7)
+dobj(seen-12, that-8)
+nsubj(seen-12, I-9)
+aux(seen-12, have-10)
+advmod(seen-12, ever-11)
+rcmod(impersonations-7, seen-12)
+punct(one-3, .-13)
+
+Sentence #7 (10 tokens):
+He had me believing that it was really him.
+[Text=He CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=PRP] [Text=believing CharacterOffsetBegin=445 CharacterOffsetEnd=454 PartOfSpeech=VBG] [Text=that CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=463 CharacterOffsetEnd=466 PartOfSpeech=VBD] [Text=really CharacterOffsetBegin=467 CharacterOffsetEnd=473 PartOfSpeech=RB] [Text=him CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=477 CharacterOffsetEnd=478 PartOfSpeech=.] 
+root(ROOT-0, had-2)
+nsubj(had-2, He-1)
+dobj(had-2, me-3)
+xcomp(had-2, believing-4)
+mark(him-9, that-5)
+nsubj(him-9, it-6)
+cop(him-9, was-7)
+advmod(him-9, really-8)
+ccomp(believing-4, him-9)
+punct(had-2, .-10)
+
+Sentence #8 (13 tokens):
+I learned a lot about Elvis' life from watching this movie.
+[Text=I CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=PRP] [Text=learned CharacterOffsetBegin=485 CharacterOffsetEnd=492 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=IN] [Text=Elvis CharacterOffsetBegin=505 CharacterOffsetEnd=510 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=POS] [Text=life CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=IN] [Text=watching CharacterOffsetBegin=522 CharacterOffsetEnd=530 PartOfSpeech=VBG] [Text=this CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=536 CharacterOffsetEnd=541 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=541 CharacterOffsetEnd=542 PartOfSpeech=.] 
+root(ROOT-0, learned-2)
+nsubj(learned-2, I-1)
+det(lot-4, a-3)
+dobj(learned-2, lot-4)
+prep(lot-4, about-5)
+poss(life-8, Elvis-6)
+possessive(Elvis-6, '-7)
+pobj(about-5, life-8)
+prep(learned-2, from-9)
+pcomp(from-9, watching-10)
+det(movie-12, this-11)
+dobj(watching-10, movie-12)
+punct(learned-2, .-13)
+
+Sentence #9 (19 tokens):
+And don't led the television part of it let you stray-it's actually a really fantastic film!
+[Text=And CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=CC] [Text=do CharacterOffsetBegin=551 CharacterOffsetEnd=553 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=RB] [Text=led CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=561 CharacterOffsetEnd=564 PartOfSpeech=DT] [Text=television CharacterOffsetBegin=565 CharacterOffsetEnd=575 PartOfSpeech=NN] [Text=part CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=PRP] [Text=let CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=PRP] [Text=stray-it CharacterOffsetBegin=595 CharacterOffsetEnd=603 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=POS] [Text=actually CharacterOffsetBegin=606 CharacterOffsetEnd=614 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=615 CharacterOffsetEnd=616 PartOfSpeech=DT] [Text=really CharacterOffsetBegin=617 CharacterOffsetEnd=623 PartOfSpeech=RB] [Text=fantastic CharacterOffsetBegin=624 CharacterOffsetEnd=633 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=634 CharacterOffsetEnd=638 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=638 CharacterOffsetEnd=639 PartOfSpeech=.] 
+root(ROOT-0, led-4)
+cc(led-4, And-1)
+aux(led-4, do-2)
+neg(led-4, n't-3)
+det(part-7, the-5)
+nn(part-7, television-6)
+nsubj(let-10, part-7)
+prep(part-7, of-8)
+pobj(of-8, it-9)
+xcomp(led-4, let-10)
+nsubj(stray-it-12, you-11)
+poss(film-18, stray-it-12)
+possessive(stray-it-12, 's-13)
+advmod(film-18, actually-14)
+det(film-18, a-15)
+advmod(fantastic-17, really-16)
+amod(film-18, fantastic-17)
+dobj(let-10, film-18)
+punct(led-4, !-19)
+
+Sentence #10 (10 tokens):
+And Kurt Russel could've been Elvis' twin :)
+[Text=And CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=CC] [Text=Kurt CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=NNP] [Text=Russel CharacterOffsetBegin=653 CharacterOffsetEnd=659 PartOfSpeech=NNP] [Text=could CharacterOffsetBegin=660 CharacterOffsetEnd=665 PartOfSpeech=MD] [Text='ve CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=VBN] [Text=Elvis CharacterOffsetBegin=674 CharacterOffsetEnd=679 PartOfSpeech=NNP] [Text=' CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=POS] [Text=twin CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=JJ] [Text=:-RRB- CharacterOffsetBegin=686 CharacterOffsetEnd=688 PartOfSpeech=NN] 
+root(ROOT-0, :-RRB--10)
+cc(:-RRB--10, And-1)
+nn(Russel-3, Kurt-2)
+nsubj(:-RRB--10, Russel-3)
+aux(:-RRB--10, could-4)
+aux(:-RRB--10, 've-5)
+cop(:-RRB--10, been-6)
+poss(:-RRB--10, Elvis-7)
+possessive(Elvis-7, '-8)
+amod(:-RRB--10, twin-9)
+

@@ -1,0 +1,207 @@
+Sentence #1 (7 tokens):
+I just finished watching Going Overboard.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=finished CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=VBD] [Text=watching CharacterOffsetBegin=20 CharacterOffsetEnd=28 PartOfSpeech=VBG] [Text=Going CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=VBG] [Text=Overboard CharacterOffsetBegin=35 CharacterOffsetEnd=44 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.] 
+root(ROOT-0, finished-3)
+nsubj(finished-3, I-1)
+advmod(finished-3, just-2)
+ccomp(finished-3, watching-4)
+partmod(watching-4, Going-5)
+advmod(Going-5, Overboard-6)
+punct(finished-3, .-7)
+
+Sentence #2 (20 tokens):
+I have to say that we should send every copy of this film to Iraq and make them watch.
+[Text=I CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=PRP] [Text=have CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=IN] [Text=we CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=MD] [Text=send CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=VB] [Text=every CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=DT] [Text=copy CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=TO] [Text=Iraq CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=CC] [Text=make CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=VB] [Text=them CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=PRP] [Text=watch CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=.] 
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+aux(say-4, to-3)
+xcomp(have-2, say-4)
+mark(send-8, that-5)
+nsubj(send-8, we-6)
+aux(send-8, should-7)
+ccomp(say-4, send-8)
+det(copy-10, every-9)
+dobj(send-8, copy-10)
+prep(copy-10, of-11)
+det(film-13, this-12)
+pobj(of-11, film-13)
+prep(send-8, to-14)
+pobj(to-14, Iraq-15)
+cc(send-8, and-16)
+conj(send-8, make-17)
+nsubj(watch-19, them-18)
+xcomp(make-17, watch-19)
+punct(have-2, .-20)
+
+Sentence #3 (21 tokens):
+I even tried to get a blind women to watch this and she turned it off in like 20 min.
+[Text=I CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=PRP] [Text=even CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=RB] [Text=tried CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=DT] [Text=blind CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=JJ] [Text=women CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=DT] [Text=and CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=CC] [Text=she CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=PRP] [Text=turned CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=PRP] [Text=off CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=IN] [Text=like CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=IN] [Text=20 CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=CD] [Text=min CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=.] 
+root(ROOT-0, tried-3)
+nsubj(tried-3, I-1)
+advmod(tried-3, even-2)
+aux(get-5, to-4)
+xcomp(tried-3, get-5)
+det(women-8, a-6)
+amod(women-8, blind-7)
+nsubj(watch-10, women-8)
+aux(watch-10, to-9)
+xcomp(get-5, watch-10)
+dobj(watch-10, this-11)
+cc(tried-3, and-12)
+nsubj(turned-14, she-13)
+conj(tried-3, turned-14)
+dobj(turned-14, it-15)
+prt(turned-14, off-16)
+prep(turned-14, in-17)
+pcomp(in-17, like-18)
+num(min-20, 20-19)
+pobj(like-18, min-20)
+punct(tried-3, .-21)
+
+Sentence #4 (11 tokens):
+Adam Sandler could not find a better project than this?
+[Text=Adam CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=NNP] [Text=Sandler CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=NNP] [Text=could CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=RB] [Text=find CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=DT] [Text=better CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=JJR] [Text=project CharacterOffsetBegin=268 CharacterOffsetEnd=275 PartOfSpeech=NN] [Text=than CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=DT] [Text=? CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.] 
+root(ROOT-0, find-5)
+nn(Sandler-2, Adam-1)
+nsubj(find-5, Sandler-2)
+aux(find-5, could-3)
+neg(find-5, not-4)
+det(project-8, a-6)
+amod(project-8, better-7)
+dobj(find-5, project-8)
+prep(project-8, than-9)
+pobj(than-9, this-10)
+punct(find-5, ?-11)
+
+Sentence #5 (27 tokens):
+As for the writing, if thats what you want to call it, those responsible should be forced to watch this movie forever in Hell!!
+[Text=As CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=DT] [Text=writing CharacterOffsetBegin=302 CharacterOffsetEnd=309 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=,] [Text=if CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=IN] [Text=thats CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=NNS] [Text=what CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=WDT] [Text=you CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=PRP] [Text=want CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=VBP] [Text=to CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=TO] [Text=call CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=,] [Text=those CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=DT] [Text=responsible CharacterOffsetBegin=352 CharacterOffsetEnd=363 PartOfSpeech=JJ] [Text=should CharacterOffsetBegin=364 CharacterOffsetEnd=370 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=VB] [Text=forced CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=TO] [Text=watch CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=NN] [Text=forever CharacterOffsetBegin=401 CharacterOffsetEnd=408 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=IN] [Text=Hell CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=NNP] [Text=!! CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=IN] 
+root(ROOT-0, forced-19)
+prep(forced-19, As-1)
+pcomp(As-1, for-2)
+det(writing-4, the-3)
+pobj(for-2, writing-4)
+punct(forced-19, ,-5)
+mark(thats-7, if-6)
+advcl(forced-19, thats-7)
+dobj(want-10, what-8)
+nsubj(want-10, you-9)
+rcmod(thats-7, want-10)
+aux(call-12, to-11)
+xcomp(want-10, call-12)
+dobj(call-12, it-13)
+punct(forced-19, ,-14)
+nsubjpass(forced-19, those-15)
+amod(those-15, responsible-16)
+aux(forced-19, should-17)
+auxpass(forced-19, be-18)
+aux(watch-21, to-20)
+xcomp(forced-19, watch-21)
+det(movie-23, this-22)
+dobj(watch-21, movie-23)
+advmod(watch-21, forever-24)
+prep(watch-21, in-25)
+pobj(in-25, Hell-26)
+dep(forced-19, !!-27)
+
+Sentence #6 (21 tokens):
+I believe that somewhere I read that the budget for this film was $10,000 and they were way under.
+[Text=I CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=PRP] [Text=believe CharacterOffsetBegin=425 CharacterOffsetEnd=432 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=433 CharacterOffsetEnd=437 PartOfSpeech=IN] [Text=somewhere CharacterOffsetBegin=438 CharacterOffsetEnd=447 PartOfSpeech=RB] [Text=I CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=PRP] [Text=read CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=DT] [Text=budget CharacterOffsetBegin=464 CharacterOffsetEnd=470 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=VBD] [Text=$ CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=$] [Text=10,000 CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=CD] [Text=and CharacterOffsetBegin=497 CharacterOffsetEnd=500 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=506 CharacterOffsetEnd=510 PartOfSpeech=VBD] [Text=way CharacterOffsetBegin=511 CharacterOffsetEnd=514 PartOfSpeech=NN] [Text=under CharacterOffsetBegin=515 CharacterOffsetEnd=520 PartOfSpeech=IN] [Text=. CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=.] 
+root(ROOT-0, believe-2)
+nsubj(believe-2, I-1)
+mark(read-6, that-3)
+advmod(read-6, somewhere-4)
+nsubj(read-6, I-5)
+ccomp(believe-2, read-6)
+mark($-14, that-7)
+det(budget-9, the-8)
+nsubj($-14, budget-9)
+prep(budget-9, for-10)
+det(film-12, this-11)
+pobj(for-10, film-12)
+cop($-14, was-13)
+ccomp(read-6, $-14)
+num($-14, 10,000-15)
+cc($-14, and-16)
+nsubj(way-19, they-17)
+cop(way-19, were-18)
+conj($-14, way-19)
+prep(way-19, under-20)
+punct(believe-2, .-21)
+
+Sentence #7 (9 tokens):
+Did Wallmart get a good deal on this?
+[Text=Did CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=VBD] [Text=Wallmart CharacterOffsetBegin=530 CharacterOffsetEnd=538 PartOfSpeech=NNP] [Text=get CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=543 CharacterOffsetEnd=544 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=JJ] [Text=deal CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=555 CharacterOffsetEnd=557 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=558 CharacterOffsetEnd=562 PartOfSpeech=DT] [Text=? CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=.] 
+root(ROOT-0, get-3)
+aux(get-3, Did-1)
+nsubj(get-3, Wallmart-2)
+det(deal-6, a-4)
+amod(deal-6, good-5)
+dobj(get-3, deal-6)
+prep(get-3, on-7)
+pobj(on-7, this-8)
+punct(get-3, ?-9)
+
+Sentence #8 (16 tokens):
+Every store has a big huge bin of this crap sitting on the sales floor.
+[Text=Every CharacterOffsetBegin=568 CharacterOffsetEnd=573 PartOfSpeech=DT] [Text=store CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=584 CharacterOffsetEnd=585 PartOfSpeech=DT] [Text=big CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=JJ] [Text=huge CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=JJ] [Text=bin CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=599 CharacterOffsetEnd=601 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=DT] [Text=crap CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=NN] [Text=sitting CharacterOffsetBegin=612 CharacterOffsetEnd=619 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=DT] [Text=sales CharacterOffsetBegin=627 CharacterOffsetEnd=632 PartOfSpeech=NNS] [Text=floor CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=638 CharacterOffsetEnd=639 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(store-2, Every-1)
+nsubj(has-3, store-2)
+det(bin-7, a-4)
+amod(bin-7, big-5)
+amod(bin-7, huge-6)
+dobj(has-3, bin-7)
+prep(bin-7, of-8)
+det(crap-10, this-9)
+pobj(of-8, crap-10)
+partmod(bin-7, sitting-11)
+prep(sitting-11, on-12)
+det(floor-15, the-13)
+nn(floor-15, sales-14)
+pobj(on-12, floor-15)
+punct(has-3, .-16)
+
+Sentence #9 (34 tokens):
+The only good thing about this movie is you can use the DVD as a coaster, or trade it to a friend, but then they might not be your friend anymore!
+[Text=The CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=DT] [Text=only CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=653 CharacterOffsetEnd=657 PartOfSpeech=JJ] [Text=thing CharacterOffsetBegin=658 CharacterOffsetEnd=663 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=664 CharacterOffsetEnd=669 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=675 CharacterOffsetEnd=680 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=681 CharacterOffsetEnd=683 PartOfSpeech=VBZ] [Text=you CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=MD] [Text=use CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=DT] [Text=DVD CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=704 CharacterOffsetEnd=706 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=707 CharacterOffsetEnd=708 PartOfSpeech=DT] [Text=coaster CharacterOffsetBegin=709 CharacterOffsetEnd=716 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=716 CharacterOffsetEnd=717 PartOfSpeech=,] [Text=or CharacterOffsetBegin=718 CharacterOffsetEnd=720 PartOfSpeech=CC] [Text=trade CharacterOffsetBegin=721 CharacterOffsetEnd=726 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=727 CharacterOffsetEnd=729 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=730 CharacterOffsetEnd=732 PartOfSpeech=TO] [Text=a CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=DT] [Text=friend CharacterOffsetBegin=735 CharacterOffsetEnd=741 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=,] [Text=but CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=RB] [Text=they CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=PRP] [Text=might CharacterOffsetBegin=757 CharacterOffsetEnd=762 PartOfSpeech=MD] [Text=not CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=767 CharacterOffsetEnd=769 PartOfSpeech=VB] [Text=your CharacterOffsetBegin=770 CharacterOffsetEnd=774 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=775 CharacterOffsetEnd=781 PartOfSpeech=NN] [Text=anymore CharacterOffsetBegin=782 CharacterOffsetEnd=789 PartOfSpeech=RB] [Text=! CharacterOffsetBegin=789 CharacterOffsetEnd=790 PartOfSpeech=.] 
+root(ROOT-0, use-11)
+det(thing-4, The-1)
+advmod(good-3, only-2)
+amod(thing-4, good-3)
+nsubj(use-11, thing-4)
+prep(thing-4, about-5)
+det(movie-7, this-6)
+pobj(about-5, movie-7)
+aux(use-11, is-8)
+nsubj(use-11, you-9)
+aux(use-11, can-10)
+det(DVD-13, the-12)
+dobj(use-11, DVD-13)
+prep(use-11, as-14)
+det(coaster-16, a-15)
+pobj(as-14, coaster-16)
+punct(coaster-16, ,-17)
+cc(coaster-16, or-18)
+conj(coaster-16, trade-19)
+dobj(trade-19, it-20)
+prep(trade-19, to-21)
+det(friend-23, a-22)
+pobj(to-21, friend-23)
+punct(use-11, ,-24)
+cc(use-11, but-25)
+advmod(friend-32, then-26)
+nsubj(friend-32, they-27)
+aux(friend-32, might-28)
+neg(friend-32, not-29)
+cop(friend-32, be-30)
+poss(friend-32, your-31)
+conj(use-11, friend-32)
+advmod(friend-32, anymore-33)
+punct(use-11, !-34)
+
+Sentence #10 (1 tokens):
+!
+[Text=! CharacterOffsetBegin=795 CharacterOffsetEnd=796 PartOfSpeech=.] 
+root(ROOT-0, !-1)
+

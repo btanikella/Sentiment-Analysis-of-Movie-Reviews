@@ -1,0 +1,119 @@
+Sentence #1 (6 tokens):
+This movie has beautiful scenery.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBZ] [Text=beautiful CharacterOffsetBegin=19 CharacterOffsetEnd=28 PartOfSpeech=JJ] [Text=scenery CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+det(movie-2, This-1)
+nsubj(has-3, movie-2)
+amod(scenery-5, beautiful-4)
+dobj(has-3, scenery-5)
+punct(has-3, .-6)
+
+Sentence #2 (6 tokens):
+Unfortunately it has no plot.
+[Text=Unfortunately CharacterOffsetBegin=42 CharacterOffsetEnd=55 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=has CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=VBZ] [Text=no CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=.] 
+root(ROOT-0, has-3)
+advmod(has-3, Unfortunately-1)
+nsubj(has-3, it-2)
+det(plot-5, no-4)
+dobj(has-3, plot-5)
+punct(has-3, .-6)
+
+Sentence #3 (12 tokens):
+In order to have a plot there must be a conflict.
+[Text=In CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=IN] [Text=order CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=TO] [Text=have CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=NN] [Text=there CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=RB] [Text=must CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=DT] [Text=conflict CharacterOffsetBegin=116 CharacterOffsetEnd=124 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=.] 
+root(ROOT-0, have-4)
+mark(have-4, In-1)
+dep(have-4, order-2)
+aux(have-4, to-3)
+det(plot-6, a-5)
+nsubj(conflict-11, plot-6)
+advmod(plot-6, there-7)
+aux(conflict-11, must-8)
+cop(conflict-11, be-9)
+det(conflict-11, a-10)
+ccomp(have-4, conflict-11)
+punct(have-4, .-12)
+
+Sentence #4 (5 tokens):
+This movie had none.
+[Text=This CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=had CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=VBD] [Text=none CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=.] 
+root(ROOT-0, had-3)
+det(movie-2, This-1)
+nsubj(had-3, movie-2)
+dobj(had-3, none-4)
+punct(had-3, .-5)
+
+Sentence #5 (18 tokens):
+It spent two hours painting a beautifule scene and failed to ever place any activity in it.
+[Text=It CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=PRP] [Text=spent CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=VBD] [Text=two CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=CD] [Text=hours CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=NNS] [Text=painting CharacterOffsetBegin=174 CharacterOffsetEnd=182 PartOfSpeech=VBG] [Text=a CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=DT] [Text=beautifule CharacterOffsetBegin=185 CharacterOffsetEnd=195 PartOfSpeech=JJ] [Text=scene CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=CC] [Text=failed CharacterOffsetBegin=206 CharacterOffsetEnd=212 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=TO] [Text=ever CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=RB] [Text=place CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=VB] [Text=any CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=DT] [Text=activity CharacterOffsetBegin=231 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=.] 
+root(ROOT-0, spent-2)
+nsubj(spent-2, It-1)
+num(hours-4, two-3)
+dobj(spent-2, hours-4)
+partmod(hours-4, painting-5)
+det(scene-8, a-6)
+amod(scene-8, beautifule-7)
+dobj(painting-5, scene-8)
+cc(spent-2, and-9)
+conj(spent-2, failed-10)
+aux(place-13, to-11)
+advmod(place-13, ever-12)
+xcomp(failed-10, place-13)
+det(activity-15, any-14)
+dobj(place-13, activity-15)
+prep(place-13, in-16)
+pobj(in-16, it-17)
+punct(spent-2, .-18)
+
+Sentence #6 (39 tokens):
+The picture trys to be artistic but fails to pay attentions to the fundamentals of story telling.If you love Montana scenery and fly fishing you will find some value in this film just don't expect a story.
+[Text=The CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT] [Text=picture CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=NN] [Text=trys CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=VB] [Text=artistic CharacterOffsetBegin=274 CharacterOffsetEnd=282 PartOfSpeech=JJ] [Text=but CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=CC] [Text=fails CharacterOffsetBegin=287 CharacterOffsetEnd=292 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=TO] [Text=pay CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=VB] [Text=attentions CharacterOffsetBegin=300 CharacterOffsetEnd=310 PartOfSpeech=NNS] [Text=to CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=DT] [Text=fundamentals CharacterOffsetBegin=318 CharacterOffsetEnd=330 PartOfSpeech=NNS] [Text=of CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=IN] [Text=story CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=NN] [Text=telling.If CharacterOffsetBegin=340 CharacterOffsetEnd=350 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=VBP] [Text=Montana CharacterOffsetBegin=360 CharacterOffsetEnd=367 PartOfSpeech=NNP] [Text=scenery CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=CC] [Text=fly CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=VB] [Text=fishing CharacterOffsetBegin=384 CharacterOffsetEnd=391 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=PRP] [Text=will CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=MD] [Text=find CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=VB] [Text=some CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=DT] [Text=value CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=417 CharacterOffsetEnd=419 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=430 CharacterOffsetEnd=434 PartOfSpeech=RB] [Text=do CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=RB] [Text=expect CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=DT] [Text=story CharacterOffsetBegin=450 CharacterOffsetEnd=455 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=.] 
+root(ROOT-0, trys-3)
+det(picture-2, The-1)
+nsubj(trys-3, picture-2)
+aux(artistic-6, to-4)
+cop(artistic-6, be-5)
+xcomp(trys-3, artistic-6)
+cc(trys-3, but-7)
+conj(trys-3, fails-8)
+aux(pay-10, to-9)
+xcomp(fails-8, pay-10)
+dobj(pay-10, attentions-11)
+prep(pay-10, to-12)
+det(fundamentals-14, the-13)
+pobj(to-12, fundamentals-14)
+prep(fundamentals-14, of-15)
+nn(telling.If-17, story-16)
+pobj(of-15, telling.If-17)
+nsubj(love-19, you-18)
+rcmod(telling.If-17, love-19)
+nn(scenery-21, Montana-20)
+dobj(love-19, scenery-21)
+cc(love-19, and-22)
+csubj(expect-36, fly-23)
+dobj(fly-23, fishing-24)
+nsubj(find-27, you-25)
+aux(find-27, will-26)
+rcmod(fishing-24, find-27)
+det(value-29, some-28)
+dobj(find-27, value-29)
+prep(find-27, in-30)
+det(film-32, this-31)
+pobj(in-30, film-32)
+advmod(expect-36, just-33)
+aux(expect-36, do-34)
+neg(expect-36, n't-35)
+conj(love-19, expect-36)
+det(story-38, a-37)
+dobj(expect-36, story-38)
+punct(trys-3, .-39)
+
+Sentence #7 (5 tokens):
+There isn't one.
+[Text=There CharacterOffsetBegin=461 CharacterOffsetEnd=466 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=467 CharacterOffsetEnd=469 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=476 CharacterOffsetEnd=477 PartOfSpeech=.] 
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+neg(is-2, n't-3)
+nsubj(is-2, one-4)
+punct(is-2, .-5)
+

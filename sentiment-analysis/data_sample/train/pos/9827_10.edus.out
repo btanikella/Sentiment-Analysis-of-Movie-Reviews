@@ -1,0 +1,58 @@
+Sentence #1 (11 tokens):
+A nicely done thriller with plenty of sex in it.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=nicely CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=RB] [Text=done CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=VBN] [Text=thriller CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=plenty CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=IN] [Text=sex CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=.] 
+root(ROOT-0, thriller-4)
+det(thriller-4, A-1)
+advmod(done-3, nicely-2)
+amod(thriller-4, done-3)
+prep(thriller-4, with-5)
+pobj(with-5, plenty-6)
+prep(plenty-6, of-7)
+pobj(of-7, sex-8)
+prep(thriller-4, in-9)
+pobj(in-9, it-10)
+punct(thriller-4, .-11)
+
+Sentence #2 (8 tokens):
+I saw it on late night TV.
+[Text=I CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=PRP] [Text=on CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=IN] [Text=late CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=night CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN] [Text=TV CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=.] 
+root(ROOT-0, saw-2)
+nsubj(saw-2, I-1)
+dobj(saw-2, it-3)
+prep(saw-2, on-4)
+amod(TV-7, late-5)
+nn(TV-7, night-6)
+pobj(on-4, TV-7)
+punct(saw-2, .-8)
+
+Sentence #3 (13 tokens):
+There are two hardcore stars in it, Lauen Montgomery and Venus.
+[Text=There CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=VBP] [Text=two CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=CD] [Text=hardcore CharacterOffsetBegin=102 CharacterOffsetEnd=110 PartOfSpeech=NN] [Text=stars CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=,] [Text=Lauen CharacterOffsetBegin=124 CharacterOffsetEnd=129 PartOfSpeech=NNP] [Text=Montgomery CharacterOffsetBegin=130 CharacterOffsetEnd=140 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=CC] [Text=Venus CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+num(stars-5, two-3)
+nn(stars-5, hardcore-4)
+nsubj(are-2, stars-5)
+prep(stars-5, in-6)
+pobj(in-6, it-7)
+punct(are-2, ,-8)
+nn(Montgomery-10, Lauen-9)
+nsubj(are-2, Montgomery-10)
+cc(Montgomery-10, and-11)
+conj(Montgomery-10, Venus-12)
+punct(are-2, .-13)
+
+Sentence #4 (10 tokens):
+Thankfully, Gabriella Hall has just a small part.
+[Text=Thankfully CharacterOffsetBegin=156 CharacterOffsetEnd=166 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=,] [Text=Gabriella CharacterOffsetBegin=168 CharacterOffsetEnd=177 PartOfSpeech=NNP] [Text=Hall CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=NNP] [Text=has CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=DT] [Text=small CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=JJ] [Text=part CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=.] 
+root(ROOT-0, has-5)
+advmod(has-5, Thankfully-1)
+punct(has-5, ,-2)
+nn(Hall-4, Gabriella-3)
+nsubj(has-5, Hall-4)
+advmod(part-9, just-6)
+det(part-9, a-7)
+amod(part-9, small-8)
+dobj(has-5, part-9)
+punct(has-5, .-10)
+

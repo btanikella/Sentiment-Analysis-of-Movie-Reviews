@@ -1,0 +1,189 @@
+Sentence #1 (8 tokens):
+Dude, I thought this movie rocked.
+[Text=Dude CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=,] [Text=I CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=PRP] [Text=thought CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=NN] [Text=rocked CharacterOffsetBegin=31 CharacterOffsetEnd=37 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.] 
+root(ROOT-0, thought-4)
+dep(thought-4, Dude-1)
+punct(thought-4, ,-2)
+nsubj(thought-4, I-3)
+det(movie-6, this-5)
+nsubj(rocked-7, movie-6)
+ccomp(thought-4, rocked-7)
+punct(thought-4, .-8)
+
+Sentence #2 (18 tokens):
+Perfect for just sitting around alone and watching at like 3AM with just you and a bottle.
+[Text=Perfect CharacterOffsetBegin=43 CharacterOffsetEnd=50 PartOfSpeech=NNP] [Text=for CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=IN] [Text=just CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=RB] [Text=sitting CharacterOffsetBegin=60 CharacterOffsetEnd=67 PartOfSpeech=VBG] [Text=around CharacterOffsetBegin=68 CharacterOffsetEnd=74 PartOfSpeech=IN] [Text=alone CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=CC] [Text=watching CharacterOffsetBegin=85 CharacterOffsetEnd=93 PartOfSpeech=VBG] [Text=at CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN] [Text=like CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=3AM CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=IN] [Text=just CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=RB] [Text=you CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=DT] [Text=bottle CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=.] 
+root(ROOT-0, Perfect-1)
+prep(Perfect-1, for-2)
+advmod(sitting-4, just-3)
+pcomp(for-2, sitting-4)
+advmod(sitting-4, around-5)
+advmod(around-5, alone-6)
+cc(sitting-4, and-7)
+conj(sitting-4, watching-8)
+prep(watching-8, at-9)
+pcomp(at-9, like-10)
+pobj(like-10, 3AM-11)
+prep(3AM-11, with-12)
+advmod(you-14, just-13)
+pobj(with-12, you-14)
+cc(you-14, and-15)
+det(bottle-17, a-16)
+conj(you-14, bottle-17)
+punct(Perfect-1, .-18)
+
+Sentence #3 (12 tokens):
+The whole time you are watching it you are thinking WTF?
+[Text=The CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=VBP] [Text=watching CharacterOffsetBegin=161 CharacterOffsetEnd=169 PartOfSpeech=VBG] [Text=it CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=PRP] [Text=you CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=VBP] [Text=thinking CharacterOffsetBegin=181 CharacterOffsetEnd=189 PartOfSpeech=VBG] [Text=WTF CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=NNP] [Text=? CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=.] 
+root(ROOT-0, time-3)
+det(time-3, The-1)
+amod(time-3, whole-2)
+nsubj(watching-6, you-4)
+aux(watching-6, are-5)
+rcmod(time-3, watching-6)
+dep(time-3, it-7)
+nsubj(thinking-10, you-8)
+aux(thinking-10, are-9)
+rcmod(it-7, thinking-10)
+dobj(thinking-10, WTF-11)
+punct(time-3, ?-12)
+
+Sentence #4 (15 tokens):
+What's gonna happen next.... dude just get with the chick already.
+[Text=What CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=WP] [Text='s CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=VBZ] [Text=gon CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=VBG] [Text=na CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=TO] [Text=happen CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=VB] [Text=next CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=IN] [Text=... CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=:] [Text=dude CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=VB] [Text=just CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=DT] [Text=chick CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=NN] [Text=already CharacterOffsetBegin=257 CharacterOffsetEnd=264 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=.] 
+root(ROOT-0, gon-3)
+nsubj(gon-3, What-1)
+aux(gon-3, 's-2)
+nsubj(happen-5, na-4)
+xcomp(gon-3, happen-5)
+advmod(happen-5, next-6)
+punct(gon-3, ...-7)
+dep(gon-3, dude-8)
+advmod(get-10, just-9)
+ccomp(dude-8, get-10)
+prep(get-10, with-11)
+det(chick-13, the-12)
+pobj(with-11, chick-13)
+advmod(chick-13, already-14)
+punct(gon-3, .-15)
+
+Sentence #5 (16 tokens):
+Alright..... they are pickin mushrooms... this is odd... but kinda creepy cool.
+[Text=Alright CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=NNP] [Text=... CharacterOffsetBegin=277 CharacterOffsetEnd=282 PartOfSpeech=:] [Text=they CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=VBP] [Text=pickin CharacterOffsetBegin=292 CharacterOffsetEnd=298 PartOfSpeech=VBG] [Text=mushrooms CharacterOffsetBegin=299 CharacterOffsetEnd=308 PartOfSpeech=NNS] [Text=... CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=:] [Text=this CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=VBZ] [Text=odd CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=JJ] [Text=... CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=:] [Text=but CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=CC] [Text=kinda CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=NN] [Text=creepy CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=JJ] [Text=cool CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=.] 
+root(ROOT-0, mushrooms-6)
+nn(mushrooms-6, Alright-1)
+punct(pickin-5, ...-2)
+nsubj(pickin-5, they-3)
+aux(pickin-5, are-4)
+amod(mushrooms-6, pickin-5)
+punct(mushrooms-6, ...-7)
+nsubj(odd-10, this-8)
+cop(odd-10, is-9)
+dep(mushrooms-6, odd-10)
+punct(mushrooms-6, ...-11)
+cc(mushrooms-6, but-12)
+nn(cool-15, kinda-13)
+amod(cool-15, creepy-14)
+conj(mushrooms-6, cool-15)
+punct(mushrooms-6, .-16)
+
+Sentence #6 (36 tokens):
+Damn this whole movie has an erotic dirty naughty cold evil undertone to it... it's subtle dance just keeps you drawn to it... you're just waiting for someone to get whacked.
+[Text=Damn CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=JJ] [Text=this CharacterOffsetBegin=359 CharacterOffsetEnd=363 PartOfSpeech=DT] [Text=whole CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=NN] [Text=has CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=DT] [Text=erotic CharacterOffsetBegin=383 CharacterOffsetEnd=389 PartOfSpeech=JJ] [Text=dirty CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=JJ] [Text=naughty CharacterOffsetBegin=396 CharacterOffsetEnd=403 PartOfSpeech=JJ] [Text=cold CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=JJ] [Text=evil CharacterOffsetBegin=409 CharacterOffsetEnd=413 PartOfSpeech=JJ] [Text=undertone CharacterOffsetBegin=414 CharacterOffsetEnd=423 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=TO] [Text=it CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=PRP] [Text=... CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=:] [Text=it CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=VBZ] [Text=subtle CharacterOffsetBegin=438 CharacterOffsetEnd=444 PartOfSpeech=JJ] [Text=dance CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=RB] [Text=keeps CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=VBZ] [Text=you CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=PRP] [Text=drawn CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=TO] [Text=it CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=PRP] [Text=... CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=:] [Text=you CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=VBP] [Text=just CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=RB] [Text=waiting CharacterOffsetBegin=493 CharacterOffsetEnd=500 PartOfSpeech=VBG] [Text=for CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=IN] [Text=someone CharacterOffsetBegin=505 CharacterOffsetEnd=512 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=513 CharacterOffsetEnd=515 PartOfSpeech=TO] [Text=get CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=VB] [Text=whacked CharacterOffsetBegin=520 CharacterOffsetEnd=527 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=527 CharacterOffsetEnd=528 PartOfSpeech=.] 
+root(ROOT-0, has-5)
+advmod(has-5, Damn-1)
+det(movie-4, this-2)
+amod(movie-4, whole-3)
+nsubj(has-5, movie-4)
+det(undertone-12, an-6)
+amod(undertone-12, erotic-7)
+amod(undertone-12, dirty-8)
+amod(undertone-12, naughty-9)
+amod(undertone-12, cold-10)
+amod(undertone-12, evil-11)
+dobj(has-5, undertone-12)
+prep(undertone-12, to-13)
+pobj(to-13, it-14)
+punct(has-5, ...-15)
+nsubj(dance-19, it-16)
+cop(dance-19, 's-17)
+amod(dance-19, subtle-18)
+parataxis(has-5, dance-19)
+advmod(keeps-21, just-20)
+dep(dance-19, keeps-21)
+nsubj(drawn-23, you-22)
+dep(keeps-21, drawn-23)
+prep(drawn-23, to-24)
+pobj(to-24, it-25)
+punct(has-5, ...-26)
+nsubj(waiting-30, you-27)
+aux(waiting-30, 're-28)
+advmod(waiting-30, just-29)
+parataxis(has-5, waiting-30)
+prep(waiting-30, for-31)
+pobj(for-31, someone-32)
+aux(get-34, to-33)
+infmod(someone-32, get-34)
+dep(get-34, whacked-35)
+punct(has-5, .-36)
+
+Sentence #7 (5 tokens):
+But damn...
+    WTF!?
+[Text=But CharacterOffsetBegin=533 CharacterOffsetEnd=536 PartOfSpeech=CC] [Text=damn CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=:] [Text=WTF CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=NNP] [Text=!? CharacterOffsetBegin=552 CharacterOffsetEnd=554 PartOfSpeech=IN] 
+root(ROOT-0, But-1)
+dep(But-1, damn-2)
+punct(damn-2, ...-3)
+nn(!?-5, WTF-4)
+dep(damn-2, !?-5)
+
+Sentence #8 (7 tokens):
+You get that and then some.
+[Text=You CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=PRP] [Text=get CharacterOffsetBegin=563 CharacterOffsetEnd=566 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=567 CharacterOffsetEnd=571 PartOfSpeech=IN] [Text=and CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=RB] [Text=some CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=.] 
+root(ROOT-0, get-2)
+nsubj(get-2, You-1)
+dep(then-5, that-3)
+cc(then-5, and-4)
+advmod(get-2, then-5)
+dep(then-5, some-6)
+punct(get-2, .-7)
+
+Sentence #9 (16 tokens):
+For the morally enraged stomach it is great running to the toilet to barf material.
+[Text=For CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=DT] [Text=morally CharacterOffsetBegin=599 CharacterOffsetEnd=606 PartOfSpeech=RB] [Text=enraged CharacterOffsetBegin=607 CharacterOffsetEnd=614 PartOfSpeech=JJ] [Text=stomach CharacterOffsetBegin=615 CharacterOffsetEnd=622 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=626 CharacterOffsetEnd=628 PartOfSpeech=VBZ] [Text=great CharacterOffsetBegin=629 CharacterOffsetEnd=634 PartOfSpeech=JJ] [Text=running CharacterOffsetBegin=635 CharacterOffsetEnd=642 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=646 CharacterOffsetEnd=649 PartOfSpeech=DT] [Text=toilet CharacterOffsetBegin=650 CharacterOffsetEnd=656 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=657 CharacterOffsetEnd=659 PartOfSpeech=TO] [Text=barf CharacterOffsetBegin=660 CharacterOffsetEnd=664 PartOfSpeech=JJ] [Text=material CharacterOffsetBegin=665 CharacterOffsetEnd=673 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=673 CharacterOffsetEnd=674 PartOfSpeech=.] 
+root(ROOT-0, great-8)
+prep(great-8, For-1)
+det(stomach-5, the-2)
+amod(stomach-5, morally-3)
+amod(stomach-5, enraged-4)
+pobj(For-1, stomach-5)
+nsubj(great-8, it-6)
+cop(great-8, is-7)
+xcomp(great-8, running-9)
+prep(running-9, to-10)
+det(toilet-12, the-11)
+pobj(to-10, toilet-12)
+prep(running-9, to-13)
+amod(material-15, barf-14)
+pobj(to-13, material-15)
+punct(great-8, .-16)
+
+Sentence #10 (15 tokens):
+Any movie that can get that kinda reaction out of you deserves an award.
+[Text=Any CharacterOffsetBegin=679 CharacterOffsetEnd=682 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=683 CharacterOffsetEnd=688 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=WDT] [Text=can CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=698 CharacterOffsetEnd=701 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=DT] [Text=kinda CharacterOffsetBegin=707 CharacterOffsetEnd=712 PartOfSpeech=NN] [Text=reaction CharacterOffsetBegin=713 CharacterOffsetEnd=721 PartOfSpeech=NN] [Text=out CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=726 CharacterOffsetEnd=728 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=729 CharacterOffsetEnd=732 PartOfSpeech=PRP] [Text=deserves CharacterOffsetBegin=733 CharacterOffsetEnd=741 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=742 CharacterOffsetEnd=744 PartOfSpeech=DT] [Text=award CharacterOffsetBegin=745 CharacterOffsetEnd=750 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=750 CharacterOffsetEnd=751 PartOfSpeech=.] 
+root(ROOT-0, deserves-12)
+det(movie-2, Any-1)
+nsubj(deserves-12, movie-2)
+nsubj(get-5, that-3)
+aux(get-5, can-4)
+rcmod(movie-2, get-5)
+det(reaction-8, that-6)
+amod(reaction-8, kinda-7)
+dobj(get-5, reaction-8)
+prep(get-5, out-9)
+pcomp(out-9, of-10)
+pobj(of-10, you-11)
+det(award-14, an-13)
+dobj(deserves-12, award-14)
+punct(deserves-12, .-15)
+

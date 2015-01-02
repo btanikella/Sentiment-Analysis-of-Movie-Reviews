@@ -1,0 +1,92 @@
+Sentence #1 (9 tokens):
+This version of Anna Christie is in German.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=version CharacterOffsetBegin=9 CharacterOffsetEnd=16 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=IN] [Text=Anna CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=NNP] [Text=Christie CharacterOffsetBegin=25 CharacterOffsetEnd=33 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=IN] [Text=German CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=.] 
+root(ROOT-0, is-6)
+det(version-2, This-1)
+nsubj(is-6, version-2)
+prep(version-2, of-3)
+nn(Christie-5, Anna-4)
+pobj(of-3, Christie-5)
+prep(is-6, in-7)
+pobj(in-7, German-8)
+punct(is-6, .-9)
+
+Sentence #2 (21 tokens):
+Greta Garbo again plays Anna Christie, but all of the other characters have different actors from the English version.
+[Text=Greta CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=NNP] [Text=Garbo CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NNP] [Text=again CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=RB] [Text=plays CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=VBZ] [Text=Anna CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=NNP] [Text=Christie CharacterOffsetBegin=81 CharacterOffsetEnd=89 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=,] [Text=but CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CC] [Text=all CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT] [Text=other CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=JJ] [Text=characters CharacterOffsetBegin=112 CharacterOffsetEnd=122 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=VBP] [Text=different CharacterOffsetBegin=128 CharacterOffsetEnd=137 PartOfSpeech=JJ] [Text=actors CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=NNS] [Text=from CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=English CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=NNP] [Text=version CharacterOffsetBegin=162 CharacterOffsetEnd=169 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=.] 
+root(ROOT-0, plays-4)
+nn(Garbo-2, Greta-1)
+nsubj(plays-4, Garbo-2)
+advmod(plays-4, again-3)
+nn(Christie-6, Anna-5)
+dobj(plays-4, Christie-6)
+punct(plays-4, ,-7)
+cc(plays-4, but-8)
+nsubj(have-14, all-9)
+prep(all-9, of-10)
+det(characters-13, the-11)
+amod(characters-13, other-12)
+pobj(of-10, characters-13)
+conj(plays-4, have-14)
+amod(actors-16, different-15)
+dobj(have-14, actors-16)
+prep(have-14, from-17)
+det(version-20, the-18)
+nn(version-20, English-19)
+pobj(from-17, version-20)
+punct(plays-4, .-21)
+
+Sentence #3 (15 tokens):
+Both were filmed back to back because Garbo had such a following in Germany.
+[Text=Both CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=DT] [Text=were CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=VBD] [Text=filmed CharacterOffsetBegin=185 CharacterOffsetEnd=191 PartOfSpeech=VBN] [Text=back CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=TO] [Text=back CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=RB] [Text=because CharacterOffsetBegin=205 CharacterOffsetEnd=212 PartOfSpeech=IN] [Text=Garbo CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NNP] [Text=had CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=VBD] [Text=such CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=DT] [Text=following CharacterOffsetBegin=230 CharacterOffsetEnd=239 PartOfSpeech=VBG] [Text=in CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=IN] [Text=Germany CharacterOffsetBegin=243 CharacterOffsetEnd=250 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=.] 
+root(ROOT-0, filmed-3)
+nsubjpass(filmed-3, Both-1)
+auxpass(filmed-3, were-2)
+advmod(filmed-3, back-4)
+prep(back-4, to-5)
+pobj(to-5, back-6)
+mark(had-9, because-7)
+nsubj(had-9, Garbo-8)
+advcl(filmed-3, had-9)
+amod(following-12, such-10)
+det(following-12, a-11)
+xcomp(had-9, following-12)
+prep(following-12, in-13)
+pobj(in-13, Germany-14)
+punct(filmed-3, .-15)
+
+Sentence #4 (15 tokens):
+Garbo herself supposedly favored her Anna Christie in this version over the English version.
+[Text=Garbo CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=NNP] [Text=herself CharacterOffsetBegin=262 CharacterOffsetEnd=269 PartOfSpeech=PRP] [Text=supposedly CharacterOffsetBegin=270 CharacterOffsetEnd=280 PartOfSpeech=RB] [Text=favored CharacterOffsetBegin=281 CharacterOffsetEnd=288 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=PRP$] [Text=Anna CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=NNP] [Text=Christie CharacterOffsetBegin=298 CharacterOffsetEnd=306 PartOfSpeech=NNP] [Text=in CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=DT] [Text=version CharacterOffsetBegin=315 CharacterOffsetEnd=322 PartOfSpeech=NN] [Text=over CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=DT] [Text=English CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=NNP] [Text=version CharacterOffsetBegin=340 CharacterOffsetEnd=347 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=.] 
+root(ROOT-0, favored-4)
+dep(favored-4, Garbo-1)
+nsubj(favored-4, herself-2)
+advmod(favored-4, supposedly-3)
+poss(Christie-7, her-5)
+nn(Christie-7, Anna-6)
+dobj(favored-4, Christie-7)
+prep(favored-4, in-8)
+det(version-10, this-9)
+pobj(in-8, version-10)
+prep(version-10, over-11)
+det(version-14, the-12)
+nn(version-14, English-13)
+pobj(over-11, version-14)
+punct(favored-4, .-15)
+
+Sentence #5 (12 tokens):
+It's a good tale and a must-see for Garbo fans.
+[Text=It CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=JJ] [Text=tale CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=DT] [Text=must-see CharacterOffsetBegin=376 CharacterOffsetEnd=384 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=Garbo CharacterOffsetBegin=389 CharacterOffsetEnd=394 PartOfSpeech=NNP] [Text=fans CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=.] 
+root(ROOT-0, tale-5)
+nsubj(tale-5, It-1)
+cop(tale-5, 's-2)
+det(tale-5, a-3)
+amod(tale-5, good-4)
+cc(tale-5, and-6)
+det(must-see-8, a-7)
+conj(tale-5, must-see-8)
+prep(must-see-8, for-9)
+nn(fans-11, Garbo-10)
+pobj(for-9, fans-11)
+punct(tale-5, .-12)
+

@@ -1,0 +1,74 @@
+Sentence #1 (5 tokens):
+I own this movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=own CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, own-2)
+nsubj(own-2, I-1)
+det(movie-4, this-3)
+dobj(own-2, movie-4)
+punct(own-2, .-5)
+
+Sentence #2 (15 tokens):
+I've seen it over 20 times and every time I still get weepy.
+[Text=I CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=PRP] [Text='ve CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VBP] [Text=seen CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=VBN] [Text=it CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=PRP] [Text=over CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=IN] [Text=20 CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=CD] [Text=times CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=CC] [Text=every CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=PRP] [Text=still CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=VB] [Text=weepy CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=.] 
+root(ROOT-0, seen-3)
+nsubj(seen-3, I-1)
+aux(seen-3, 've-2)
+dobj(seen-3, it-4)
+prep(seen-3, over-5)
+num(times-7, 20-6)
+pobj(over-5, times-7)
+cc(seen-3, and-8)
+det(time-10, every-9)
+conj(seen-3, time-10)
+nsubj(get-13, I-11)
+advmod(get-13, still-12)
+rcmod(time-10, get-13)
+dobj(get-13, weepy-14)
+punct(seen-3, .-15)
+
+Sentence #3 (19 tokens):
+Its a Great love story, surprises, and you can definately feel chemistry between Klein and Sobiesky.
+[Text=Its CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=PRP$] [Text=a CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=Great CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=JJ] [Text=love CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=story CharacterOffsetBegin=108 CharacterOffsetEnd=113 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=,] [Text=surprises CharacterOffsetBegin=115 CharacterOffsetEnd=124 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=,] [Text=and CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=CC] [Text=you CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=PRP] [Text=can CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=MD] [Text=definately CharacterOffsetBegin=138 CharacterOffsetEnd=148 PartOfSpeech=RB] [Text=feel CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=VB] [Text=chemistry CharacterOffsetBegin=154 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=between CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=IN] [Text=Klein CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=CC] [Text=Sobiesky CharacterOffsetBegin=182 CharacterOffsetEnd=190 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=.] 
+root(ROOT-0, story-5)
+poss(story-5, Its-1)
+det(story-5, a-2)
+amod(story-5, Great-3)
+nn(story-5, love-4)
+punct(story-5, ,-6)
+conj(story-5, surprises-7)
+punct(story-5, ,-8)
+cc(story-5, and-9)
+nsubj(feel-13, you-10)
+aux(feel-13, can-11)
+advmod(feel-13, definately-12)
+conj(story-5, feel-13)
+dobj(feel-13, chemistry-14)
+prep(chemistry-14, between-15)
+pobj(between-15, Klein-16)
+cc(Klein-16, and-17)
+conj(Klein-16, Sobiesky-18)
+punct(story-5, .-19)
+
+Sentence #4 (9 tokens):
+I definately give this movie a perfect 10.
+[Text=I CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=PRP] [Text=definately CharacterOffsetBegin=198 CharacterOffsetEnd=208 PartOfSpeech=RB] [Text=give CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=NN] [Text=a CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=perfect CharacterOffsetBegin=227 CharacterOffsetEnd=234 PartOfSpeech=JJ] [Text=10 CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=.] 
+root(ROOT-0, give-3)
+nsubj(give-3, I-1)
+advmod(give-3, definately-2)
+det(movie-5, this-4)
+iobj(give-3, movie-5)
+det(10-8, a-6)
+amod(10-8, perfect-7)
+dobj(give-3, 10-8)
+punct(give-3, .-9)
+
+Sentence #5 (6 tokens):
+I recommend this to anyone.
+[Text=I CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=PRP] [Text=recommend CharacterOffsetBegin=245 CharacterOffsetEnd=254 PartOfSpeech=VBP] [Text=this CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=DT] [Text=to CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=TO] [Text=anyone CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=.] 
+root(ROOT-0, recommend-2)
+nsubj(recommend-2, I-1)
+dobj(recommend-2, this-3)
+prep(recommend-2, to-4)
+pobj(to-4, anyone-5)
+punct(recommend-2, .-6)
+

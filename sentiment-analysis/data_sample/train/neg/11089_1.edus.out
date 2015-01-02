@@ -1,0 +1,131 @@
+Sentence #1 (27 tokens):
+Fairly good movie, but not a true story.Rubin "Hurricane" Carter was a notorius liar, a murder and was never found not guilty.
+[Text=Fairly CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=,] [Text=but CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=CC] [Text=not CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=true CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=story.Rubin CharacterOffsetBegin=38 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=`` CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=``] [Text=Hurricane CharacterOffsetBegin=51 CharacterOffsetEnd=60 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=''] [Text=Carter CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=DT] [Text=notorius CharacterOffsetBegin=75 CharacterOffsetEnd=83 PartOfSpeech=NN] [Text=liar CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=,] [Text=a CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=DT] [Text=murder CharacterOffsetBegin=92 CharacterOffsetEnd=98 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=VBD] [Text=never CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=RB] [Text=found CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=VBN] [Text=not CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=RB] [Text=guilty CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=.] 
+root(ROOT-0, movie-3)
+advmod(movie-3, Fairly-1)
+amod(movie-3, good-2)
+punct(movie-3, ,-4)
+cc(movie-3, but-5)
+neg(story.Rubin-9, not-6)
+det(story.Rubin-9, a-7)
+amod(story.Rubin-9, true-8)
+dep(Carter-13, story.Rubin-9)
+punct(Carter-13, ``-10)
+nn(Carter-13, Hurricane-11)
+punct(Carter-13, ''-12)
+nsubj(liar-17, Carter-13)
+cop(liar-17, was-14)
+det(liar-17, a-15)
+nn(liar-17, notorius-16)
+conj(movie-3, liar-17)
+punct(liar-17, ,-18)
+det(murder-20, a-19)
+appos(liar-17, murder-20)
+cc(liar-17, and-21)
+auxpass(found-24, was-22)
+neg(found-24, never-23)
+conj(liar-17, found-24)
+neg(guilty-26, not-25)
+acomp(found-24, guilty-26)
+punct(movie-3, .-27)
+
+Sentence #2 (18 tokens):
+New Jersey State just didn't go for it a third time as 20 years had gone.
+[Text=New CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=NNP] [Text=Jersey CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NNP] [Text=State CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=NNP] [Text=just CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=RB] [Text=go CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=VB] [Text=for CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=DT] [Text=third CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=JJ] [Text=time CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=IN] [Text=20 CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=CD] [Text=years CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=NNS] [Text=had CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=VBD] [Text=gone CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=.] 
+root(ROOT-0, go-7)
+nn(State-3, New-1)
+nn(State-3, Jersey-2)
+nsubj(go-7, State-3)
+advmod(go-7, just-4)
+aux(go-7, did-5)
+neg(go-7, n't-6)
+prep(go-7, for-8)
+pobj(for-8, it-9)
+det(time-12, a-10)
+amod(time-12, third-11)
+tmod(go-7, time-12)
+mark(gone-17, as-13)
+num(years-15, 20-14)
+nsubj(gone-17, years-15)
+aux(gone-17, had-16)
+dep(time-12, gone-17)
+punct(go-7, .-18)
+
+Sentence #3 (17 tokens):
+Carter got an offer in 1976: "Pass a lie test and go free".
+[Text=Carter CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NNP] [Text=got CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=VBD] [Text=an CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=DT] [Text=offer CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=IN] [Text=1976 CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=CD] [Text=: CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=:] [Text=`` CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=``] [Text=Pass CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=DT] [Text=lie CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=NN] [Text=test CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=CC] [Text=go CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=VB] [Text=free CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=JJ] [Text='' CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=''] [Text=. CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, got-2)
+nsubj(got-2, Carter-1)
+det(offer-4, an-3)
+dobj(got-2, offer-4)
+prep(offer-4, in-5)
+pobj(in-5, 1976-6)
+punct(got-2, :-7)
+punct(got-2, ``-8)
+dep(got-2, Pass-9)
+det(test-12, a-10)
+nn(test-12, lie-11)
+dobj(Pass-9, test-12)
+cc(Pass-9, and-13)
+conj(Pass-9, go-14)
+dep(go-14, free-15)
+punct(free-15, ''-16)
+punct(got-2, .-17)
+
+Sentence #4 (6 tokens):
+He didn't take it.
+[Text=He CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=RB] [Text=take CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=.] 
+root(ROOT-0, take-4)
+nsubj(take-4, He-1)
+aux(take-4, did-2)
+neg(take-4, n't-3)
+dobj(take-4, it-5)
+punct(take-4, .-6)
+
+Sentence #5 (12 tokens):
+This film should never have been made, but money talks.
+[Text=This CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=310 CharacterOffsetEnd=316 PartOfSpeech=MD] [Text=never CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=VBN] [Text=made CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=,] [Text=but CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=CC] [Text=money CharacterOffsetBegin=343 CharacterOffsetEnd=348 PartOfSpeech=NN] [Text=talks CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=.] 
+root(ROOT-0, made-7)
+det(film-2, This-1)
+nsubjpass(made-7, film-2)
+aux(made-7, should-3)
+neg(made-7, never-4)
+aux(made-7, have-5)
+auxpass(made-7, been-6)
+punct(made-7, ,-8)
+cc(made-7, but-9)
+nn(talks-11, money-10)
+conj(made-7, talks-11)
+punct(made-7, .-12)
+
+Sentence #6 (18 tokens):
+A lot of people have unjustly spend their lives in prison and undoubtedly more blacks than white.
+[Text=A CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=DT] [Text=lot CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=IN] [Text=people CharacterOffsetBegin=369 CharacterOffsetEnd=375 PartOfSpeech=NNS] [Text=have CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=VBP] [Text=unjustly CharacterOffsetBegin=381 CharacterOffsetEnd=389 PartOfSpeech=RB] [Text=spend CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=VB] [Text=their CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=PRP$] [Text=lives CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=IN] [Text=prison CharacterOffsetBegin=411 CharacterOffsetEnd=417 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=CC] [Text=undoubtedly CharacterOffsetBegin=422 CharacterOffsetEnd=433 PartOfSpeech=RB] [Text=more CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=RBR] [Text=blacks CharacterOffsetBegin=439 CharacterOffsetEnd=445 PartOfSpeech=NNS] [Text=than CharacterOffsetBegin=446 CharacterOffsetEnd=450 PartOfSpeech=IN] [Text=white CharacterOffsetBegin=451 CharacterOffsetEnd=456 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=.] 
+root(ROOT-0, have-5)
+det(lot-2, A-1)
+nsubj(have-5, lot-2)
+prep(lot-2, of-3)
+pobj(of-3, people-4)
+advmod(spend-7, unjustly-6)
+ccomp(have-5, spend-7)
+poss(lives-9, their-8)
+dobj(spend-7, lives-9)
+prep(lives-9, in-10)
+pobj(in-10, prison-11)
+cc(spend-7, and-12)
+amod(blacks-15, undoubtedly-13)
+amod(blacks-15, more-14)
+conj(spend-7, blacks-15)
+prep(blacks-15, than-16)
+pobj(than-16, white-17)
+punct(have-5, .-18)
+
+Sentence #7 (5 tokens):
+Why choose a fake story?Jens
+[Text=Why CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=WRB] [Text=choose CharacterOffsetBegin=466 CharacterOffsetEnd=472 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=DT] [Text=fake CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=JJ] [Text=story?Jens CharacterOffsetBegin=480 CharacterOffsetEnd=490 PartOfSpeech=NNS] 
+root(ROOT-0, choose-2)
+advmod(choose-2, Why-1)
+det(story?Jens-5, a-3)
+amod(story?Jens-5, fake-4)
+dobj(choose-2, story?Jens-5)
+

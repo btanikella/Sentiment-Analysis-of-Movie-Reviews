@@ -1,0 +1,66 @@
+Sentence #1 (10 tokens):
+A very charming film with wonderful sentiment and heart.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=charming CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=IN] [Text=wonderful CharacterOffsetBegin=30 CharacterOffsetEnd=39 PartOfSpeech=JJ] [Text=sentiment CharacterOffsetBegin=40 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=CC] [Text=heart CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=.] 
+root(ROOT-0, film-4)
+det(film-4, A-1)
+advmod(charming-3, very-2)
+amod(film-4, charming-3)
+prep(film-4, with-5)
+amod(sentiment-7, wonderful-6)
+pobj(with-5, sentiment-7)
+cc(sentiment-7, and-8)
+conj(sentiment-7, heart-9)
+punct(film-4, .-10)
+
+Sentence #2 (34 tokens):
+It is rare when a film-maker takes the time to tell a worthy moral tale with care and love that doesn't fall into the trap of being overly syrupy or over indulgent.
+[Text=It CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=VBZ] [Text=rare CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=JJ] [Text=when CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=WRB] [Text=a CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=DT] [Text=film-maker CharacterOffsetBegin=83 CharacterOffsetEnd=93 PartOfSpeech=NN] [Text=takes CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=DT] [Text=time CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=TO] [Text=tell CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=DT] [Text=worthy CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=JJ] [Text=moral CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=JJ] [Text=tale CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=with CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=IN] [Text=care CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=CC] [Text=love CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=WDT] [Text=does CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=RB] [Text=fall CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=VB] [Text=into CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=DT] [Text=trap CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN] [Text=being CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=VBG] [Text=overly CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=RB] [Text=syrupy CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=JJ] [Text=or CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=CC] [Text=over CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=IN] [Text=indulgent CharacterOffsetBegin=219 CharacterOffsetEnd=228 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=.] 
+root(ROOT-0, rare-3)
+nsubj(rare-3, It-1)
+cop(rare-3, is-2)
+advmod(takes-7, when-4)
+det(film-maker-6, a-5)
+nsubj(takes-7, film-maker-6)
+advcl(rare-3, takes-7)
+det(time-9, the-8)
+dobj(takes-7, time-9)
+aux(tell-11, to-10)
+xcomp(takes-7, tell-11)
+det(tale-15, a-12)
+amod(tale-15, worthy-13)
+amod(tale-15, moral-14)
+dobj(tell-11, tale-15)
+prep(tell-11, with-16)
+pobj(with-16, care-17)
+cc(care-17, and-18)
+conj(care-17, love-19)
+nsubj(fall-23, that-20)
+aux(fall-23, does-21)
+neg(fall-23, n't-22)
+rcmod(care-17, fall-23)
+prep(fall-23, into-24)
+det(trap-26, the-25)
+pobj(into-24, trap-26)
+prep(trap-26, of-27)
+cop(syrupy-30, being-28)
+advmod(syrupy-30, overly-29)
+pcomp(of-27, syrupy-30)
+cc(syrupy-30, or-31)
+conj(syrupy-30, over-32)
+pobj(over-32, indulgent-33)
+punct(rare-3, .-34)
+
+Sentence #3 (10 tokens):
+Nine out of ten for a truly lovely film.
+[Text=Nine CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=CD] [Text=out CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=IN] [Text=ten CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=CD] [Text=for CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=DT] [Text=truly CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=RB] [Text=lovely CharacterOffsetBegin=262 CharacterOffsetEnd=268 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=.] 
+root(ROOT-0, out-2)
+num(out-2, Nine-1)
+pcomp(out-2, of-3)
+pobj(of-3, ten-4)
+prep(out-2, for-5)
+det(film-9, a-6)
+advmod(lovely-8, truly-7)
+amod(film-9, lovely-8)
+pobj(for-5, film-9)
+punct(out-2, .-10)
+

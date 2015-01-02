@@ -1,0 +1,102 @@
+Sentence #1 (16 tokens):
+Radio was a very good movie, and honestly, i never cry in movies.
+[Text=Radio CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=,] [Text=and CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=CC] [Text=honestly CharacterOffsetBegin=37 CharacterOffsetEnd=45 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=,] [Text=i CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=FW] [Text=never CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=RB] [Text=cry CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=IN] [Text=movies CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=.] 
+root(ROOT-0, movie-6)
+nsubj(movie-6, Radio-1)
+cop(movie-6, was-2)
+det(movie-6, a-3)
+advmod(good-5, very-4)
+amod(movie-6, good-5)
+punct(movie-6, ,-7)
+cc(movie-6, and-8)
+conj(movie-6, honestly-9)
+punct(movie-6, ,-10)
+nsubj(cry-13, i-11)
+neg(cry-13, never-12)
+rcmod(movie-6, cry-13)
+prep(cry-13, in-14)
+pobj(in-14, movies-15)
+punct(movie-6, .-16)
+
+Sentence #2 (9 tokens):
+But it had me pretty close to tears.
+[Text=But CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=CC] [Text=it CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=PRP] [Text=had CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=VBD] [Text=me CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=PRP] [Text=pretty CharacterOffsetBegin=88 CharacterOffsetEnd=94 PartOfSpeech=RB] [Text=close CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=TO] [Text=tears CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.] 
+root(ROOT-0, had-3)
+cc(had-3, But-1)
+nsubj(had-3, it-2)
+dobj(had-3, me-4)
+advmod(close-6, pretty-5)
+amod(me-4, close-6)
+prep(close-6, to-7)
+pobj(to-7, tears-8)
+punct(had-3, .-9)
+
+Sentence #3 (21 tokens):
+It really got to me when Radio's mom died and he just wouldn't get out of his room.
+[Text=It CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=RB] [Text=got CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=PRP] [Text=when CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=WRB] [Text=Radio CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=POS] [Text=mom CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=NN] [Text=died CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=VBD] [Text=and CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=CC] [Text=he CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=RB] [Text=would CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=RB] [Text=get CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=IN] [Text=his CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=PRP$] [Text=room CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=.] 
+root(ROOT-0, got-3)
+nsubj(got-3, It-1)
+advmod(got-3, really-2)
+prep(got-3, to-4)
+pobj(to-4, me-5)
+advmod(died-10, when-6)
+poss(mom-9, Radio-7)
+possessive(Radio-7, 's-8)
+nsubj(died-10, mom-9)
+advcl(got-3, died-10)
+cc(died-10, and-11)
+nsubj(get-16, he-12)
+advmod(get-16, just-13)
+aux(get-16, would-14)
+neg(get-16, n't-15)
+conj(died-10, get-16)
+prep(get-16, out-17)
+pcomp(out-17, of-18)
+poss(room-20, his-19)
+pobj(of-18, room-20)
+punct(got-3, .-21)
+
+Sentence #4 (23 tokens):
+I felt really sad about how, if you were mentally retarded, you wouldn't really be able to understand death.
+[Text=I CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=PRP] [Text=felt CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=VBD] [Text=really CharacterOffsetBegin=210 CharacterOffsetEnd=216 PartOfSpeech=RB] [Text=sad CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=JJ] [Text=about CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=IN] [Text=how CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=WRB] [Text=, CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=,] [Text=if CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=VBD] [Text=mentally CharacterOffsetBegin=244 CharacterOffsetEnd=252 PartOfSpeech=RB] [Text=retarded CharacterOffsetBegin=253 CharacterOffsetEnd=261 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=,] [Text=you CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=MD] [Text=n't CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=VB] [Text=able CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=JJ] [Text=to CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=TO] [Text=understand CharacterOffsetBegin=294 CharacterOffsetEnd=304 PartOfSpeech=VB] [Text=death CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=310 CharacterOffsetEnd=311 PartOfSpeech=.] 
+root(ROOT-0, felt-2)
+nsubj(felt-2, I-1)
+advmod(sad-4, really-3)
+acomp(felt-2, sad-4)
+prep(sad-4, about-5)
+advmod(able-19, how-6)
+punct(able-19, ,-7)
+mark(retarded-12, if-8)
+nsubj(retarded-12, you-9)
+cop(retarded-12, were-10)
+advmod(retarded-12, mentally-11)
+advcl(able-19, retarded-12)
+punct(able-19, ,-13)
+nsubj(able-19, you-14)
+aux(able-19, would-15)
+neg(able-19, n't-16)
+advmod(able-19, really-17)
+cop(able-19, be-18)
+pcomp(about-5, able-19)
+aux(understand-21, to-20)
+xcomp(able-19, understand-21)
+dobj(understand-21, death-22)
+punct(felt-2, .-23)
+
+Sentence #5 (13 tokens):
+I really liked the movie, and It's a must see.
+[Text=I CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=PRP] [Text=really CharacterOffsetBegin=318 CharacterOffsetEnd=324 PartOfSpeech=RB] [Text=liked CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=,] [Text=and CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=CC] [Text=It CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=DT] [Text=must CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=MD] [Text=see CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=.] 
+root(ROOT-0, liked-3)
+nsubj(liked-3, I-1)
+advmod(liked-3, really-2)
+det(movie-5, the-4)
+dobj(liked-3, movie-5)
+punct(liked-3, ,-6)
+cc(liked-3, and-7)
+nsubj(see-12, It-8)
+cop(see-12, 's-9)
+nsubj(see-12, a-10)
+aux(see-12, must-11)
+conj(liked-3, see-12)
+punct(liked-3, .-13)
+

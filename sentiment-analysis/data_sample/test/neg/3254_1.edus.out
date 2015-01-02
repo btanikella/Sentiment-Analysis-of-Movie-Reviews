@@ -1,0 +1,38 @@
+Sentence #1 (10 tokens):
+This is quite possibly the worst sequel ever made.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ] [Text=quite CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=RB] [Text=possibly CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=DT] [Text=worst CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=JJS] [Text=sequel CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=ever CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=.] 
+root(ROOT-0, This-1)
+partmod(This-1, is-2)
+advmod(is-2, quite-3)
+dep(quite-3, possibly-4)
+det(sequel-7, the-5)
+amod(sequel-7, worst-6)
+dep(possibly-4, sequel-7)
+advmod(made-9, ever-8)
+partmod(sequel-7, made-9)
+punct(This-1, .-10)
+
+Sentence #2 (9 tokens):
+The script is unfunny and the acting stinks.
+[Text=The CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT] [Text=script CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=VBZ] [Text=unfunny CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=VBG] [Text=stinks CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=.] 
+root(ROOT-0, unfunny-4)
+det(script-2, The-1)
+nsubj(unfunny-4, script-2)
+cop(unfunny-4, is-3)
+cc(unfunny-4, and-5)
+det(stinks-8, the-6)
+amod(stinks-8, acting-7)
+conj(unfunny-4, stinks-8)
+punct(unfunny-4, .-9)
+
+Sentence #3 (7 tokens):
+The exact opposite of the original.
+[Text=The CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT] [Text=exact CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=JJ] [Text=opposite CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=134 CharacterOffsetEnd=142 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=.] 
+root(ROOT-0, opposite-3)
+det(opposite-3, The-1)
+amod(opposite-3, exact-2)
+prep(opposite-3, of-4)
+det(original-6, the-5)
+pobj(of-4, original-6)
+punct(opposite-3, .-7)
+

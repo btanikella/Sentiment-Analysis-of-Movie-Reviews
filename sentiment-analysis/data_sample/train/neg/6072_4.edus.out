@@ -1,0 +1,208 @@
+Sentence #1 (10 tokens):
+DeNiro is a master...one of my favourites.
+[Text=DeNiro CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DT] [Text=master CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NN] [Text=... CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=:] [Text=one CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=PRP$] [Text=favourites CharacterOffsetBegin=35 CharacterOffsetEnd=45 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=.] 
+root(ROOT-0, master-4)
+nsubj(master-4, DeNiro-1)
+cop(master-4, is-2)
+det(master-4, a-3)
+punct(master-4, ...-5)
+dep(master-4, one-6)
+prep(one-6, of-7)
+poss(favourites-9, my-8)
+pobj(of-7, favourites-9)
+punct(master-4, .-10)
+
+Sentence #2 (22 tokens):
+And I love GOOD sports movies {not into baseball so much, but hey, its sports movies, right?
+[Text=And CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=VBP] [Text=GOOD CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=JJ] [Text=sports CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=NNS] [Text=movies CharacterOffsetBegin=74 CharacterOffsetEnd=80 PartOfSpeech=NNS] [Text=-LCB- CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=-LRB-] [Text=not CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=RB] [Text=into CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=IN] [Text=baseball CharacterOffsetBegin=91 CharacterOffsetEnd=99 PartOfSpeech=NN] [Text=so CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=,] [Text=but CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=CC] [Text=hey CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=,] [Text=its CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=PRP$] [Text=sports CharacterOffsetBegin=122 CharacterOffsetEnd=128 PartOfSpeech=NNS] [Text=movies CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=,] [Text=right CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=NN] [Text=? CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=.] 
+root(ROOT-0, love-3)
+cc(love-3, And-1)
+nsubj(love-3, I-2)
+amod(movies-6, GOOD-4)
+nn(movies-6, sports-5)
+dobj(love-3, movies-6)
+punct(into-9, -LCB--7)
+neg(into-9, not-8)
+prep(movies-6, into-9)
+pobj(into-9, baseball-10)
+advmod(much-12, so-11)
+dep(into-9, much-12)
+punct(into-9, ,-13)
+cc(into-9, but-14)
+conj(into-9, hey-15)
+punct(into-9, ,-16)
+poss(movies-19, its-17)
+nn(movies-19, sports-18)
+pobj(into-9, movies-19)
+punct(movies-19, ,-20)
+appos(movies-19, right-21)
+punct(love-3, ?-22)
+
+Sentence #3 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #4 (9 tokens):
+I was expecting MUCH more for this movie.
+[Text=I CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=VBD] [Text=expecting CharacterOffsetBegin=155 CharacterOffsetEnd=164 PartOfSpeech=VBG] [Text=MUCH CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=NNP] [Text=more CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=RBR] [Text=for CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=.] 
+root(ROOT-0, expecting-3)
+nsubj(expecting-3, I-1)
+aux(expecting-3, was-2)
+dobj(expecting-3, MUCH-4)
+advmod(for-6, more-5)
+prep(MUCH-4, for-6)
+det(movie-8, this-7)
+pobj(for-6, movie-8)
+punct(expecting-3, .-9)
+
+Sentence #5 (30 tokens):
+It seems to start out well: DeNiro is what I expected, Snipes {whom I don't really like} is very good as the spoiled star.
+[Text=It CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=PRP] [Text=seems CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=VBZ] [Text=to CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=TO] [Text=start CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=RP] [Text=well CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=RB] [Text=: CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=:] [Text=DeNiro CharacterOffsetBegin=223 CharacterOffsetEnd=229 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=VBZ] [Text=what CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=PRP] [Text=expected CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=VBD] [Text=, CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=,] [Text=Snipes CharacterOffsetBegin=250 CharacterOffsetEnd=256 PartOfSpeech=NNP] [Text=-LCB- CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=-LRB-] [Text=whom CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=WP] [Text=I CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=RB] [Text=really CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=RB] [Text=like CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=IN] [Text=-RCB- CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=-RRB-] [Text=is CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=VBZ] [Text=very CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=DT] [Text=spoiled CharacterOffsetBegin=304 CharacterOffsetEnd=311 PartOfSpeech=VBN] [Text=star CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.] 
+root(ROOT-0, seems-2)
+nsubj(seems-2, It-1)
+aux(start-4, to-3)
+xcomp(seems-2, start-4)
+prt(start-4, out-5)
+advmod(start-4, well-6)
+punct(start-4, :-7)
+nsubj(is-9, DeNiro-8)
+parataxis(start-4, is-9)
+dobj(expected-12, what-10)
+nsubj(expected-12, I-11)
+ccomp(is-9, expected-12)
+punct(is-9, ,-13)
+dep(is-9, Snipes-14)
+punct(good-25, -LCB--15)
+dobj(like-21, whom-16)
+nsubj(like-21, I-17)
+aux(like-21, do-18)
+neg(like-21, n't-19)
+advmod(like-21, really-20)
+dep(good-25, like-21)
+punct(good-25, -RCB--22)
+cop(good-25, is-23)
+advmod(good-25, very-24)
+amod(Snipes-14, good-25)
+prep(good-25, as-26)
+det(star-29, the-27)
+amod(star-29, spoiled-28)
+pobj(as-26, star-29)
+punct(seems-2, .-30)
+
+Sentence #6 (10 tokens):
+Barkin's role, to me, was OK.
+[Text=Barkin CharacterOffsetBegin=322 CharacterOffsetEnd=328 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=POS] [Text=role CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=335 CharacterOffsetEnd=336 PartOfSpeech=,] [Text=to CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=,] [Text=was CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=VBD] [Text=OK CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=.] 
+root(ROOT-0, OK-9)
+poss(role-3, Barkin-1)
+possessive(Barkin-1, 's-2)
+nsubj(OK-9, role-3)
+punct(role-3, ,-4)
+prep(role-3, to-5)
+pobj(to-5, me-6)
+punct(role-3, ,-7)
+cop(OK-9, was-8)
+punct(OK-9, .-10)
+
+Sentence #7 (15 tokens):
+She's a good actress, but seemed out of place in this role.
+[Text=She CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=JJ] [Text=actress CharacterOffsetBegin=365 CharacterOffsetEnd=372 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=,] [Text=but CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=CC] [Text=seemed CharacterOffsetBegin=378 CharacterOffsetEnd=384 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=IN] [Text=place CharacterOffsetBegin=392 CharacterOffsetEnd=397 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=DT] [Text=role CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=.] 
+root(ROOT-0, actress-5)
+nsubj(actress-5, She-1)
+cop(actress-5, 's-2)
+det(actress-5, a-3)
+amod(actress-5, good-4)
+punct(actress-5, ,-6)
+cc(actress-5, but-7)
+conj(actress-5, seemed-8)
+prep(seemed-8, out-9)
+pcomp(out-9, of-10)
+pobj(of-10, place-11)
+prep(seemed-8, in-12)
+det(role-14, this-13)
+pobj(in-12, role-14)
+punct(actress-5, .-15)
+
+Sentence #8 (20 tokens):
+To me, they always seemed to rush the scenes, and then it drags a bit in places.
+[Text=To CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=TO] [Text=me CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=PRP] [Text=, CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=,] [Text=they CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=PRP] [Text=always CharacterOffsetBegin=428 CharacterOffsetEnd=434 PartOfSpeech=RB] [Text=seemed CharacterOffsetBegin=435 CharacterOffsetEnd=441 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=TO] [Text=rush CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=DT] [Text=scenes CharacterOffsetBegin=454 CharacterOffsetEnd=460 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=,] [Text=and CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=CC] [Text=then CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=PRP] [Text=drags CharacterOffsetBegin=474 CharacterOffsetEnd=479 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=DT] [Text=bit CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=IN] [Text=places CharacterOffsetBegin=489 CharacterOffsetEnd=495 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=.] 
+root(ROOT-0, seemed-6)
+prep(seemed-6, To-1)
+pobj(To-1, me-2)
+punct(seemed-6, ,-3)
+nsubj(seemed-6, they-4)
+advmod(seemed-6, always-5)
+aux(rush-8, to-7)
+xcomp(seemed-6, rush-8)
+det(scenes-10, the-9)
+dobj(rush-8, scenes-10)
+punct(seemed-6, ,-11)
+cc(seemed-6, and-12)
+advmod(seemed-6, then-13)
+nsubj(drags-15, it-14)
+ccomp(seemed-6, drags-15)
+det(bit-17, a-16)
+dobj(drags-15, bit-17)
+prep(bit-17, in-18)
+pobj(in-18, places-19)
+punct(seemed-6, .-20)
+
+Sentence #9 (10 tokens):
+It just seemed tio me to be so uneven!
+[Text=It CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=504 CharacterOffsetEnd=508 PartOfSpeech=RB] [Text=seemed CharacterOffsetBegin=509 CharacterOffsetEnd=515 PartOfSpeech=VBD] [Text=tio CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=NN] [Text=me CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=PRP] [Text=to CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=526 CharacterOffsetEnd=528 PartOfSpeech=VB] [Text=so CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=RB] [Text=uneven CharacterOffsetBegin=532 CharacterOffsetEnd=538 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=538 CharacterOffsetEnd=539 PartOfSpeech=.] 
+root(ROOT-0, tio-4)
+nsubj(tio-4, It-1)
+advmod(tio-4, just-2)
+cop(tio-4, seemed-3)
+nsubj(uneven-9, me-5)
+aux(uneven-9, to-6)
+cop(uneven-9, be-7)
+advmod(uneven-9, so-8)
+xcomp(tio-4, uneven-9)
+punct(tio-4, !-10)
+
+Sentence #10 (15 tokens):
+Considering the cast and the plot, it could have been so much better.
+[Text=Considering CharacterOffsetBegin=544 CharacterOffsetEnd=555 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=569 CharacterOffsetEnd=572 PartOfSpeech=DT] [Text=plot CharacterOffsetBegin=573 CharacterOffsetEnd=577 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=,] [Text=it CharacterOffsetBegin=579 CharacterOffsetEnd=581 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=MD] [Text=have CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=VB] [Text=been CharacterOffsetBegin=593 CharacterOffsetEnd=597 PartOfSpeech=VBN] [Text=so CharacterOffsetBegin=598 CharacterOffsetEnd=600 PartOfSpeech=RB] [Text=much CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=RB] [Text=better CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=JJR] [Text=. CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=.] 
+root(ROOT-0, better-14)
+dep(better-14, Considering-1)
+det(cast-3, the-2)
+dobj(Considering-1, cast-3)
+cc(cast-3, and-4)
+det(plot-6, the-5)
+conj(cast-3, plot-6)
+punct(better-14, ,-7)
+nsubj(better-14, it-8)
+aux(better-14, could-9)
+aux(better-14, have-10)
+cop(better-14, been-11)
+advmod(much-13, so-12)
+advmod(better-14, much-13)
+punct(better-14, .-15)
+
+Sentence #11 (22 tokens):
+I rated it a '4', and I was being generous ~ I'm a tough one with numbers!
+[Text=I CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=PRP] [Text=rated CharacterOffsetBegin=620 CharacterOffsetEnd=625 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=626 CharacterOffsetEnd=628 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=DT] [Text=' CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=''] [Text=4 CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=CD] [Text=' CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=''] [Text=, CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=,] [Text=and CharacterOffsetBegin=636 CharacterOffsetEnd=639 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=VBD] [Text=being CharacterOffsetBegin=646 CharacterOffsetEnd=651 PartOfSpeech=VBG] [Text=generous CharacterOffsetBegin=652 CharacterOffsetEnd=660 PartOfSpeech=JJ] [Text=~ CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=NN] [Text=I CharacterOffsetBegin=663 CharacterOffsetEnd=664 PartOfSpeech=PRP] [Text='m CharacterOffsetBegin=664 CharacterOffsetEnd=666 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=667 CharacterOffsetEnd=668 PartOfSpeech=DT] [Text=tough CharacterOffsetBegin=669 CharacterOffsetEnd=674 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=CD] [Text=with CharacterOffsetBegin=679 CharacterOffsetEnd=683 PartOfSpeech=IN] [Text=numbers CharacterOffsetBegin=684 CharacterOffsetEnd=691 PartOfSpeech=NNS] [Text=! CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=.] 
+root(ROOT-0, rated-2)
+nsubj(rated-2, I-1)
+dobj(rated-2, it-3)
+det(4-6, a-4)
+punct(4-6, '-5)
+npadvmod(rated-2, 4-6)
+punct(rated-2, '-7)
+punct(rated-2, ,-8)
+cc(rated-2, and-9)
+nsubj(~-14, I-10)
+aux(~-14, was-11)
+cop(~-14, being-12)
+amod(~-14, generous-13)
+conj(rated-2, ~-14)
+nsubj(one-19, I-15)
+cop(one-19, 'm-16)
+det(one-19, a-17)
+amod(one-19, tough-18)
+rcmod(~-14, one-19)
+prep(one-19, with-20)
+pobj(with-20, numbers-21)
+punct(rated-2, !-22)
+

@@ -1,0 +1,174 @@
+Sentence #1 (2 tokens):
+79/100.
+[Text=79/100 CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=.] 
+root(ROOT-0, 79/100-1)
+punct(79/100-1, .-2)
+
+Sentence #2 (13 tokens):
+Fred Astaire and Ginger Rogers never made anything but great films together.
+[Text=Fred CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=NNP] [Text=Astaire CharacterOffsetBegin=21 CharacterOffsetEnd=28 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=CC] [Text=Ginger CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=NNP] [Text=Rogers CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=NNP] [Text=never CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=VBD] [Text=anything CharacterOffsetBegin=58 CharacterOffsetEnd=66 PartOfSpeech=NN] [Text=but CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=CC] [Text=great CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=JJ] [Text=films CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=NNS] [Text=together CharacterOffsetBegin=83 CharacterOffsetEnd=91 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=.] 
+root(ROOT-0, made-7)
+nn(Astaire-2, Fred-1)
+nsubj(made-7, Astaire-2)
+cc(Astaire-2, and-3)
+nn(Rogers-5, Ginger-4)
+conj(Astaire-2, Rogers-5)
+neg(made-7, never-6)
+dobj(made-7, anything-8)
+cc(anything-8, but-9)
+amod(films-11, great-10)
+conj(anything-8, films-11)
+advmod(made-7, together-12)
+punct(made-7, .-13)
+
+Sentence #3 (15 tokens):
+Although this is not one of their best, it is an excellent musical.
+[Text=Although CharacterOffsetBegin=97 CharacterOffsetEnd=105 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=RB] [Text=one CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN] [Text=their CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=PRP$] [Text=best CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=JJS] [Text=, CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=,] [Text=it CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=VBZ] [Text=an CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=DT] [Text=excellent CharacterOffsetBegin=146 CharacterOffsetEnd=155 PartOfSpeech=JJ] [Text=musical CharacterOffsetBegin=156 CharacterOffsetEnd=163 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=.] 
+root(ROOT-0, musical-14)
+mark(one-5, Although-1)
+nsubj(one-5, this-2)
+cop(one-5, is-3)
+neg(one-5, not-4)
+advcl(musical-14, one-5)
+prep(one-5, of-6)
+poss(best-8, their-7)
+pobj(of-6, best-8)
+punct(musical-14, ,-9)
+nsubj(musical-14, it-10)
+cop(musical-14, is-11)
+det(musical-14, an-12)
+amod(musical-14, excellent-13)
+punct(musical-14, .-15)
+
+Sentence #4 (14 tokens):
+There are a few outstanding musical numbers, good support from Randolph Scott.
+[Text=There CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=EX] [Text=are CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=DT] [Text=few CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=JJ] [Text=outstanding CharacterOffsetBegin=185 CharacterOffsetEnd=196 PartOfSpeech=JJ] [Text=musical CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=JJ] [Text=numbers CharacterOffsetBegin=205 CharacterOffsetEnd=212 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=,] [Text=good CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=JJ] [Text=support CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=IN] [Text=Randolph CharacterOffsetBegin=232 CharacterOffsetEnd=240 PartOfSpeech=NNP] [Text=Scott CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=.] 
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+det(numbers-7, a-3)
+amod(numbers-7, few-4)
+amod(numbers-7, outstanding-5)
+amod(numbers-7, musical-6)
+nsubj(are-2, numbers-7)
+punct(are-2, ,-8)
+amod(support-10, good-9)
+nsubj(are-2, support-10)
+prep(support-10, from-11)
+nn(Scott-13, Randolph-12)
+pobj(from-11, Scott-13)
+punct(are-2, .-14)
+
+Sentence #5 (15 tokens):
+Two notable appearances, Betty Grable and Lucille Ball make memorable early screen performances.
+[Text=Two CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=CD] [Text=notable CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=JJ] [Text=appearances CharacterOffsetBegin=264 CharacterOffsetEnd=275 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=275 CharacterOffsetEnd=276 PartOfSpeech=,] [Text=Betty CharacterOffsetBegin=277 CharacterOffsetEnd=282 PartOfSpeech=NNP] [Text=Grable CharacterOffsetBegin=283 CharacterOffsetEnd=289 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=CC] [Text=Lucille CharacterOffsetBegin=294 CharacterOffsetEnd=301 PartOfSpeech=NNP] [Text=Ball CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=NNP] [Text=make CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=VB] [Text=memorable CharacterOffsetBegin=312 CharacterOffsetEnd=321 PartOfSpeech=JJ] [Text=early CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=JJ] [Text=screen CharacterOffsetBegin=328 CharacterOffsetEnd=334 PartOfSpeech=NN] [Text=performances CharacterOffsetBegin=335 CharacterOffsetEnd=347 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=.] 
+root(ROOT-0, appearances-3)
+num(appearances-3, Two-1)
+amod(appearances-3, notable-2)
+punct(appearances-3, ,-4)
+nn(Grable-6, Betty-5)
+nsubj(make-10, Grable-6)
+cc(Grable-6, and-7)
+nn(Ball-9, Lucille-8)
+conj(Grable-6, Ball-9)
+rcmod(appearances-3, make-10)
+amod(performances-14, memorable-11)
+amod(performances-14, early-12)
+nn(performances-14, screen-13)
+dobj(make-10, performances-14)
+punct(appearances-3, .-15)
+
+Sentence #6 (11 tokens):
+Ball is particularly good, and a blonde as well.
+[Text=Ball CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=VBZ] [Text=particularly CharacterOffsetBegin=361 CharacterOffsetEnd=373 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=,] [Text=and CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=CC] [Text=a CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=DT] [Text=blonde CharacterOffsetBegin=386 CharacterOffsetEnd=392 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=RB] [Text=well CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=400 CharacterOffsetEnd=401 PartOfSpeech=.] 
+root(ROOT-0, good-4)
+nsubj(good-4, Ball-1)
+cop(good-4, is-2)
+advmod(good-4, particularly-3)
+punct(good-4, ,-5)
+cc(good-4, and-6)
+det(blonde-8, a-7)
+conj(good-4, blonde-8)
+advmod(well-10, as-9)
+advmod(blonde-8, well-10)
+punct(good-4, .-11)
+
+Sentence #7 (21 tokens):
+The "Let's Face the Music and Dance" is one of the musical duo's best numbers ever.
+[Text=The CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=DT] [Text=`` CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=``] [Text=Let CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=POS] [Text=Face CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=NNP] [Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT] [Text=Music CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=CC] [Text=Dance CharacterOffsetBegin=436 CharacterOffsetEnd=441 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=''] [Text=is CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=VBZ] [Text=one CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=DT] [Text=musical CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=JJ] [Text=duo CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=NN] [Text='s CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=POS] [Text=best CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=JJS] [Text=numbers CharacterOffsetBegin=476 CharacterOffsetEnd=483 PartOfSpeech=NNS] [Text=ever CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=488 CharacterOffsetEnd=489 PartOfSpeech=.] 
+root(ROOT-0, one-12)
+det(Let-3, The-1)
+punct(Let-3, ``-2)
+nsubj(Music-7, Let-3)
+cop(Music-7, 's-4)
+nn(Music-7, Face-5)
+det(Music-7, the-6)
+nsubj(one-12, Music-7)
+cc(Music-7, and-8)
+conj(Music-7, Dance-9)
+punct(Music-7, ''-10)
+cop(one-12, is-11)
+prep(one-12, of-13)
+det(duo-16, the-14)
+amod(duo-16, musical-15)
+poss(numbers-19, duo-16)
+possessive(duo-16, 's-17)
+amod(numbers-19, best-18)
+pobj(of-13, numbers-19)
+advmod(numbers-19, ever-20)
+punct(one-12, .-21)
+
+Sentence #8 (20 tokens):
+Harriet Hilliard, better know as Harriet Nelson of "Ozzie and Harriet" plays Ginger Roger's sister.
+[Text=Harriet CharacterOffsetBegin=494 CharacterOffsetEnd=501 PartOfSpeech=NNP] [Text=Hilliard CharacterOffsetBegin=502 CharacterOffsetEnd=510 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=,] [Text=better CharacterOffsetBegin=512 CharacterOffsetEnd=518 PartOfSpeech=JJR] [Text=know CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=VB] [Text=as CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=IN] [Text=Harriet CharacterOffsetBegin=527 CharacterOffsetEnd=534 PartOfSpeech=NNP] [Text=Nelson CharacterOffsetBegin=535 CharacterOffsetEnd=541 PartOfSpeech=NNP] [Text=of CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=IN] [Text=`` CharacterOffsetBegin=545 CharacterOffsetEnd=546 PartOfSpeech=``] [Text=Ozzie CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=CC] [Text=Harriet CharacterOffsetBegin=556 CharacterOffsetEnd=563 PartOfSpeech=NNP] [Text='' CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=''] [Text=plays CharacterOffsetBegin=565 CharacterOffsetEnd=570 PartOfSpeech=VBZ] [Text=Ginger CharacterOffsetBegin=571 CharacterOffsetEnd=577 PartOfSpeech=NNP] [Text=Roger CharacterOffsetBegin=578 CharacterOffsetEnd=583 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=POS] [Text=sister CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=.] 
+root(ROOT-0, plays-15)
+nn(Hilliard-2, Harriet-1)
+nsubj(plays-15, Hilliard-2)
+punct(Hilliard-2, ,-3)
+amod(know-5, better-4)
+dep(plays-15, know-5)
+prep(know-5, as-6)
+nn(Nelson-8, Harriet-7)
+pobj(as-6, Nelson-8)
+prep(Nelson-8, of-9)
+punct(of-9, ``-10)
+pobj(of-9, Ozzie-11)
+cc(Ozzie-11, and-12)
+conj(Ozzie-11, Harriet-13)
+punct(know-5, ''-14)
+nn(Roger-17, Ginger-16)
+poss(sister-19, Roger-17)
+possessive(Roger-17, 's-18)
+dobj(plays-15, sister-19)
+punct(plays-15, .-20)
+
+Sentence #9 (17 tokens):
+The basic plot is pretty familiar, but with a cast this exceptional, it works.
+[Text=The CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=DT] [Text=basic CharacterOffsetBegin=602 CharacterOffsetEnd=607 PartOfSpeech=JJ] [Text=plot CharacterOffsetBegin=608 CharacterOffsetEnd=612 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=VBZ] [Text=pretty CharacterOffsetBegin=616 CharacterOffsetEnd=622 PartOfSpeech=RB] [Text=familiar CharacterOffsetBegin=623 CharacterOffsetEnd=631 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=,] [Text=but CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=CC] [Text=with CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=DT] [Text=cast CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=NN] [Text=this CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=DT] [Text=exceptional CharacterOffsetBegin=654 CharacterOffsetEnd=665 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=665 CharacterOffsetEnd=666 PartOfSpeech=,] [Text=it CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=PRP] [Text=works CharacterOffsetBegin=670 CharacterOffsetEnd=675 PartOfSpeech=VBZ] [Text=. CharacterOffsetBegin=675 CharacterOffsetEnd=676 PartOfSpeech=.] 
+root(ROOT-0, familiar-6)
+det(plot-3, The-1)
+amod(plot-3, basic-2)
+nsubj(familiar-6, plot-3)
+cop(familiar-6, is-4)
+advmod(familiar-6, pretty-5)
+punct(familiar-6, ,-7)
+cc(familiar-6, but-8)
+prep(works-16, with-9)
+det(cast-11, a-10)
+pobj(with-9, cast-11)
+det(exceptional-13, this-12)
+tmod(cast-11, exceptional-13)
+punct(works-16, ,-14)
+nsubj(works-16, it-15)
+conj(familiar-6, works-16)
+punct(familiar-6, .-17)
+
+Sentence #10 (6 tokens):
+Excellent art direction and score.
+[Text=Excellent CharacterOffsetBegin=681 CharacterOffsetEnd=690 PartOfSpeech=JJ] [Text=art CharacterOffsetBegin=691 CharacterOffsetEnd=694 PartOfSpeech=NN] [Text=direction CharacterOffsetBegin=695 CharacterOffsetEnd=704 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=CC] [Text=score CharacterOffsetBegin=709 CharacterOffsetEnd=714 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=714 CharacterOffsetEnd=715 PartOfSpeech=.] 
+root(ROOT-0, direction-3)
+amod(direction-3, Excellent-1)
+nn(direction-3, art-2)
+cc(direction-3, and-4)
+conj(direction-3, score-5)
+punct(direction-3, .-6)
+

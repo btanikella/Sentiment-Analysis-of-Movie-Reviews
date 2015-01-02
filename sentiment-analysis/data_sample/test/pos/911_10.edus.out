@@ -1,0 +1,81 @@
+Sentence #1 (3 tokens):
+A wonder.
+[Text=A CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT] [Text=wonder CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=.] 
+root(ROOT-0, wonder-2)
+det(wonder-2, A-1)
+punct(wonder-2, .-3)
+
+Sentence #2 (4 tokens):
+My favorite film.
+[Text=My CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=PRP$] [Text=favorite CharacterOffsetBegin=21 CharacterOffsetEnd=29 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=.] 
+root(ROOT-0, film-3)
+poss(film-3, My-1)
+amod(film-3, favorite-2)
+punct(film-3, .-4)
+
+Sentence #3 (9 tokens):
+The most important film about relationships ever made.
+[Text=The CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT] [Text=most CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=RBS] [Text=important CharacterOffsetBegin=49 CharacterOffsetEnd=58 PartOfSpeech=JJ] [Text=film CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=NN] [Text=about CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=IN] [Text=relationships CharacterOffsetBegin=70 CharacterOffsetEnd=83 PartOfSpeech=NNS] [Text=ever CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=RB] [Text=made CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=.] 
+root(ROOT-0, film-4)
+det(film-4, The-1)
+advmod(important-3, most-2)
+amod(film-4, important-3)
+prep(film-4, about-5)
+pobj(about-5, relationships-6)
+advmod(made-8, ever-7)
+partmod(relationships-6, made-8)
+punct(film-4, .-9)
+
+Sentence #4 (3 tokens):
+Brilliant writing.
+[Text=Brilliant CharacterOffsetBegin=99 CharacterOffsetEnd=108 PartOfSpeech=JJ] [Text=writing CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=.] 
+root(ROOT-0, writing-2)
+amod(writing-2, Brilliant-1)
+punct(writing-2, .-3)
+
+Sentence #5 (3 tokens):
+Magnificent directing.
+[Text=Magnificent CharacterOffsetBegin=122 CharacterOffsetEnd=133 PartOfSpeech=JJ] [Text=directing CharacterOffsetBegin=134 CharacterOffsetEnd=143 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=.] 
+root(ROOT-0, directing-2)
+amod(directing-2, Magnificent-1)
+punct(directing-2, .-3)
+
+Sentence #6 (18 tokens):
+Image systems and symbolism that leave you thinking about it all days, weeks, years later.
+[Text=Image CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=NN] [Text=systems CharacterOffsetBegin=155 CharacterOffsetEnd=162 PartOfSpeech=NNS] [Text=and CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=CC] [Text=symbolism CharacterOffsetBegin=167 CharacterOffsetEnd=176 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=WDT] [Text=leave CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=VBP] [Text=you CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=PRP] [Text=thinking CharacterOffsetBegin=192 CharacterOffsetEnd=200 PartOfSpeech=VBG] [Text=about CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=PRP] [Text=all CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=DT] [Text=days CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=,] [Text=weeks CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=,] [Text=years CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NNS] [Text=later CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=.] 
+root(ROOT-0, systems-2)
+nn(systems-2, Image-1)
+cc(systems-2, and-3)
+conj(systems-2, symbolism-4)
+nsubj(leave-6, that-5)
+rcmod(systems-2, leave-6)
+nsubj(thinking-8, you-7)
+xcomp(leave-6, thinking-8)
+prep(thinking-8, about-9)
+pobj(about-9, it-10)
+det(days-12, all-11)
+tmod(thinking-8, days-12)
+punct(systems-2, ,-13)
+appos(systems-2, weeks-14)
+punct(systems-2, ,-15)
+npadvmod(later-17, years-16)
+advmod(systems-2, later-17)
+punct(systems-2, .-18)
+
+Sentence #7 (2 tokens):
+Wow.
+[Text=Wow CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=UH] [Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=.] 
+root(ROOT-0, Wow-1)
+punct(Wow-1, .-2)
+
+Sentence #8 (7 tokens):
+A truly great work of art.
+[Text=A CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=DT] [Text=truly CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=RB] [Text=great CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=work CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=IN] [Text=art CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=.] 
+root(ROOT-0, work-4)
+det(work-4, A-1)
+advmod(great-3, truly-2)
+amod(work-4, great-3)
+prep(work-4, of-5)
+pobj(of-5, art-6)
+punct(work-4, .-7)
+

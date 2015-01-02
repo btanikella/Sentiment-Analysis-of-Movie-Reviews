@@ -1,0 +1,168 @@
+Sentence #1 (11 tokens):
+I agree with Andy, this is a good movie.
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=agree CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBP] [Text=with CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=IN] [Text=Andy CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=,] [Text=this CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=VBZ] [Text=a CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=.] 
+root(ROOT-0, agree-2)
+nsubj(agree-2, I-1)
+prep(agree-2, with-3)
+pobj(with-3, Andy-4)
+punct(agree-2, ,-5)
+nsubj(movie-10, this-6)
+cop(movie-10, is-7)
+det(movie-10, a-8)
+amod(movie-10, good-9)
+ccomp(agree-2, movie-10)
+punct(agree-2, .-11)
+
+Sentence #2 (10 tokens):
+Kevin McKidd's character is believable throughout the film.
+[Text=Kevin CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NNP] [Text=McKidd CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=NNP] [Text='s CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=POS] [Text=character CharacterOffsetBegin=64 CharacterOffsetEnd=73 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=VBZ] [Text=believable CharacterOffsetBegin=77 CharacterOffsetEnd=87 PartOfSpeech=JJ] [Text=throughout CharacterOffsetBegin=88 CharacterOffsetEnd=98 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=.] 
+root(ROOT-0, believable-6)
+nn(McKidd-2, Kevin-1)
+poss(character-4, McKidd-2)
+possessive(McKidd-2, 's-3)
+nsubj(believable-6, character-4)
+cop(believable-6, is-5)
+prep(believable-6, throughout-7)
+det(film-9, the-8)
+pobj(throughout-7, film-9)
+punct(believable-6, .-10)
+
+Sentence #3 (12 tokens):
+We're forced to hate him and latterly sympathise with him.
+[Text=We CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=PRP] [Text='re CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=VBP] [Text=forced CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=TO] [Text=hate CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=VB] [Text=him CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=CC] [Text=latterly CharacterOffsetBegin=142 CharacterOffsetEnd=150 PartOfSpeech=RB] [Text=sympathise CharacterOffsetBegin=151 CharacterOffsetEnd=161 PartOfSpeech=VBP] [Text=with CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=IN] [Text=him CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=.] 
+root(ROOT-0, forced-3)
+nsubjpass(forced-3, We-1)
+auxpass(forced-3, 're-2)
+aux(hate-5, to-4)
+xcomp(forced-3, hate-5)
+dobj(hate-5, him-6)
+cc(hate-5, and-7)
+advmod(sympathise-9, latterly-8)
+conj(hate-5, sympathise-9)
+prep(sympathise-9, with-10)
+pobj(with-10, him-11)
+punct(forced-3, .-12)
+
+Sentence #4 (12 tokens):
+Paula Sage who plays Roberta puts in a good performance too.
+[Text=Paula CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=NNP] [Text=Sage CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=NNP] [Text=who CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=WP] [Text=plays CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=VBZ] [Text=Roberta CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=NNP] [Text=puts CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=VBZ] [Text=in CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=JJ] [Text=performance CharacterOffsetBegin=220 CharacterOffsetEnd=231 PartOfSpeech=NN] [Text=too CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=.] 
+root(ROOT-0, puts-6)
+nn(Sage-2, Paula-1)
+nsubj(puts-6, Sage-2)
+nsubj(plays-4, who-3)
+rcmod(Sage-2, plays-4)
+dobj(plays-4, Roberta-5)
+prt(puts-6, in-7)
+det(performance-10, a-8)
+amod(performance-10, good-9)
+dobj(puts-6, performance-10)
+advmod(performance-10, too-11)
+punct(puts-6, .-12)
+
+Sentence #5 (10 tokens):
+It's thought-provoking and emotive without any slush over-production.
+[Text=It CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=VBZ] [Text=thought-provoking CharacterOffsetBegin=246 CharacterOffsetEnd=263 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=CC] [Text=emotive CharacterOffsetBegin=268 CharacterOffsetEnd=275 PartOfSpeech=JJ] [Text=without CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=IN] [Text=any CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=DT] [Text=slush CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=NN] [Text=over-production CharacterOffsetBegin=294 CharacterOffsetEnd=309 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=.] 
+root(ROOT-0, thought-provoking-3)
+nsubj(thought-provoking-3, It-1)
+cop(thought-provoking-3, 's-2)
+cc(thought-provoking-3, and-4)
+conj(thought-provoking-3, emotive-5)
+prep(thought-provoking-3, without-6)
+det(over-production-9, any-7)
+nn(over-production-9, slush-8)
+pobj(without-6, over-production-9)
+punct(thought-provoking-3, .-10)
+
+Sentence #6 (12 tokens):
+Credit to director Alison Peebles and writer Andrea Gibb for that.
+[Text=Credit CharacterOffsetBegin=315 CharacterOffsetEnd=321 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=TO] [Text=director CharacterOffsetBegin=325 CharacterOffsetEnd=333 PartOfSpeech=NN] [Text=Alison CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=NNP] [Text=Peebles CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=CC] [Text=writer CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=NN] [Text=Andrea CharacterOffsetBegin=360 CharacterOffsetEnd=366 PartOfSpeech=NNP] [Text=Gibb CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=NNP] [Text=for CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=DT] [Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=.] 
+root(ROOT-0, Credit-1)
+prep(Credit-1, to-2)
+nn(Peebles-5, director-3)
+nn(Peebles-5, Alison-4)
+pobj(to-2, Peebles-5)
+cc(Peebles-5, and-6)
+nn(Gibb-9, writer-7)
+nn(Gibb-9, Andrea-8)
+conj(Peebles-5, Gibb-9)
+prep(Credit-1, for-10)
+pobj(for-10, that-11)
+punct(Credit-1, .-12)
+
+Sentence #7 (5 tokens):
+A very worthwhile viewing.
+[Text=A CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=DT] [Text=very CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=RB] [Text=worthwhile CharacterOffsetBegin=393 CharacterOffsetEnd=403 PartOfSpeech=JJ] [Text=viewing CharacterOffsetBegin=404 CharacterOffsetEnd=411 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=.] 
+root(ROOT-0, viewing-4)
+det(viewing-4, A-1)
+advmod(worthwhile-3, very-2)
+amod(viewing-4, worthwhile-3)
+punct(viewing-4, .-5)
+
+Sentence #8 (33 tokens):
+The pace of the film is just right, raising just enough interest in the subject matter to reel you in, rather than bombard you with facts in a documentary style.
+[Text=The CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=DT] [Text=pace CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=433 CharacterOffsetEnd=437 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=441 CharacterOffsetEnd=445 PartOfSpeech=RB] [Text=right CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=,] [Text=raising CharacterOffsetBegin=453 CharacterOffsetEnd=460 PartOfSpeech=VBG] [Text=just CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=RB] [Text=enough CharacterOffsetBegin=466 CharacterOffsetEnd=472 PartOfSpeech=JJ] [Text=interest CharacterOffsetBegin=473 CharacterOffsetEnd=481 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=DT] [Text=subject CharacterOffsetBegin=489 CharacterOffsetEnd=496 PartOfSpeech=JJ] [Text=matter CharacterOffsetBegin=497 CharacterOffsetEnd=503 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=504 CharacterOffsetEnd=506 PartOfSpeech=TO] [Text=reel CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=PRP] [Text=in CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=IN] [Text=, CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=,] [Text=rather CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=RB] [Text=than CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=IN] [Text=bombard CharacterOffsetBegin=532 CharacterOffsetEnd=539 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=PRP] [Text=with CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=IN] [Text=facts CharacterOffsetBegin=549 CharacterOffsetEnd=554 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=555 CharacterOffsetEnd=557 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=DT] [Text=documentary CharacterOffsetBegin=560 CharacterOffsetEnd=571 PartOfSpeech=NN] [Text=style CharacterOffsetBegin=572 CharacterOffsetEnd=577 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=.] 
+root(ROOT-0, right-8)
+det(pace-2, The-1)
+nsubj(right-8, pace-2)
+prep(pace-2, of-3)
+det(film-5, the-4)
+pobj(of-3, film-5)
+cop(right-8, is-6)
+advmod(right-8, just-7)
+punct(right-8, ,-9)
+xcomp(right-8, raising-10)
+advmod(enough-12, just-11)
+amod(interest-13, enough-12)
+dobj(raising-10, interest-13)
+prep(interest-13, in-14)
+det(matter-17, the-15)
+amod(matter-17, subject-16)
+pobj(in-14, matter-17)
+prep(raising-10, to-18)
+pcomp(to-18, reel-19)
+dobj(reel-19, you-20)
+prep(reel-19, in-21)
+punct(in-21, ,-22)
+cc(in-21, rather-23)
+mwe(rather-23, than-24)
+conj(in-21, bombard-25)
+dobj(bombard-25, you-26)
+prep(bombard-25, with-27)
+pobj(with-27, facts-28)
+prep(facts-28, in-29)
+det(style-32, a-30)
+nn(style-32, documentary-31)
+pobj(in-29, style-32)
+punct(right-8, .-33)
+
+Sentence #9 (21 tokens):
+Nice little soundtrack to go with the film too, again used sparingly, not to distract you from storyline.
+[Text=Nice CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=JJ] [Text=little CharacterOffsetBegin=588 CharacterOffsetEnd=594 PartOfSpeech=JJ] [Text=soundtrack CharacterOffsetBegin=595 CharacterOffsetEnd=605 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=TO] [Text=go CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=VB] [Text=with CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=DT] [Text=film CharacterOffsetBegin=621 CharacterOffsetEnd=625 PartOfSpeech=NN] [Text=too CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=,] [Text=again CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=RB] [Text=used CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=VBN] [Text=sparingly CharacterOffsetBegin=642 CharacterOffsetEnd=651 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=651 CharacterOffsetEnd=652 PartOfSpeech=,] [Text=not CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=657 CharacterOffsetEnd=659 PartOfSpeech=TO] [Text=distract CharacterOffsetBegin=660 CharacterOffsetEnd=668 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=669 CharacterOffsetEnd=672 PartOfSpeech=PRP] [Text=from CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=IN] [Text=storyline CharacterOffsetBegin=678 CharacterOffsetEnd=687 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=.] 
+root(ROOT-0, soundtrack-3)
+amod(soundtrack-3, Nice-1)
+amod(soundtrack-3, little-2)
+aux(go-5, to-4)
+infmod(soundtrack-3, go-5)
+prep(go-5, with-6)
+det(film-8, the-7)
+pobj(with-6, film-8)
+advmod(used-12, too-9)
+punct(used-12, ,-10)
+advmod(used-12, again-11)
+advcl(go-5, used-12)
+advmod(used-12, sparingly-13)
+punct(used-12, ,-14)
+neg(distract-17, not-15)
+aux(distract-17, to-16)
+xcomp(used-12, distract-17)
+dobj(distract-17, you-18)
+prep(distract-17, from-19)
+pobj(from-19, storyline-20)
+punct(soundtrack-3, .-21)
+
+Sentence #10 (2 tokens):
+Recommended.
+[Text=Recommended CharacterOffsetBegin=693 CharacterOffsetEnd=704 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=704 CharacterOffsetEnd=705 PartOfSpeech=.] 
+root(ROOT-0, Recommended-1)
+punct(Recommended-1, .-2)
+

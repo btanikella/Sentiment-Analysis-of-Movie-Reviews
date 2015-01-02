@@ -1,0 +1,47 @@
+Sentence #1 (18 tokens):
+I watched this movie just a little while ago and I found that this movie was terrible!
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=watched CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NN] [Text=just CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=JJ] [Text=while CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=IN] [Text=ago CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=PRP] [Text=found CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=VBD] [Text=that CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=VBD] [Text=terrible CharacterOffsetBegin=81 CharacterOffsetEnd=89 PartOfSpeech=JJ] [Text=! CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.] 
+root(ROOT-0, watched-2)
+nsubj(watched-2, I-1)
+det(movie-4, this-3)
+dobj(watched-2, movie-4)
+advmod(little-7, just-5)
+det(little-7, a-6)
+dep(watched-2, little-7)
+advmod(ago-9, while-8)
+dep(little-7, ago-9)
+cc(little-7, and-10)
+nsubj(found-12, I-11)
+conj(little-7, found-12)
+mark(terrible-17, that-13)
+det(movie-15, this-14)
+nsubj(terrible-17, movie-15)
+cop(terrible-17, was-16)
+ccomp(found-12, terrible-17)
+punct(watched-2, !-18)
+
+Sentence #2 (21 tokens):
+It moved very slowly and was hardly entertaining!Sorry for all those that liked it.... this is only my opinion!
+[Text=It CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=PRP] [Text=moved CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=VBD] [Text=very CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=RB] [Text=slowly CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=RB] [Text=and CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=VBD] [Text=hardly CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=RB] [Text=entertaining!Sorry CharacterOffsetBegin=131 CharacterOffsetEnd=149 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=IN] [Text=all CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=PDT] [Text=those CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=DT] [Text=that CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=WDT] [Text=liked CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=PRP] [Text=... CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=:] [Text=this CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=DT] [Text=is CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=VBZ] [Text=only CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=RB] [Text=my CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=PRP$] [Text=opinion CharacterOffsetBegin=198 CharacterOffsetEnd=205 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=.] 
+root(ROOT-0, moved-2)
+nsubj(moved-2, It-1)
+advmod(slowly-4, very-3)
+advmod(moved-2, slowly-4)
+cc(moved-2, and-5)
+cop(entertaining!Sorry-8, was-6)
+advmod(entertaining!Sorry-8, hardly-7)
+conj(moved-2, entertaining!Sorry-8)
+prep(entertaining!Sorry-8, for-9)
+predet(those-11, all-10)
+pobj(for-9, those-11)
+nsubj(liked-13, that-12)
+rcmod(those-11, liked-13)
+dobj(liked-13, it-14)
+punct(moved-2, ...-15)
+nsubj(opinion-20, this-16)
+cop(opinion-20, is-17)
+advmod(opinion-20, only-18)
+poss(opinion-20, my-19)
+parataxis(moved-2, opinion-20)
+punct(moved-2, !-21)
+

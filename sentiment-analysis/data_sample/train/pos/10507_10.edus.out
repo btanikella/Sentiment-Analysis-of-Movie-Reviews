@@ -1,0 +1,191 @@
+Sentence #1 (5 tokens):
+This game is amazing.
+[Text=This CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=DT] [Text=game CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=VBZ] [Text=amazing CharacterOffsetBegin=17 CharacterOffsetEnd=24 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=.] 
+root(ROOT-0, amazing-4)
+det(game-2, This-1)
+nsubj(amazing-4, game-2)
+cop(amazing-4, is-3)
+punct(amazing-4, .-5)
+
+Sentence #2 (13 tokens):
+Really, you should get it if you don't have it.
+[Text=Really CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=RB] [Text=, CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=,] [Text=you CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=PRP] [Text=should CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=MD] [Text=get CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=PRP] [Text=if CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=VBP] [Text=n't CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=RB] [Text=have CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=.] 
+root(ROOT-0, get-5)
+advmod(get-5, Really-1)
+punct(get-5, ,-2)
+nsubj(get-5, you-3)
+aux(get-5, should-4)
+dobj(get-5, it-6)
+mark(have-11, if-7)
+nsubj(have-11, you-8)
+aux(have-11, do-9)
+neg(have-11, n't-10)
+advcl(get-5, have-11)
+dobj(have-11, it-12)
+punct(get-5, .-13)
+
+Sentence #3 (13 tokens):
+Although it is ancient now it was amazing when it came out.
+[Text=Although CharacterOffsetBegin=82 CharacterOffsetEnd=90 PartOfSpeech=IN] [Text=it CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=VBZ] [Text=ancient CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=JJ] [Text=now CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=VBD] [Text=amazing CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=JJ] [Text=when CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=WRB] [Text=it CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=PRP] [Text=came CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=VBD] [Text=out CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=RP] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=.] 
+root(ROOT-0, amazing-8)
+mark(ancient-4, Although-1)
+nsubj(ancient-4, it-2)
+cop(ancient-4, is-3)
+advcl(amazing-8, ancient-4)
+advmod(amazing-8, now-5)
+nsubj(amazing-8, it-6)
+cop(amazing-8, was-7)
+advmod(came-11, when-9)
+nsubj(came-11, it-10)
+advcl(amazing-8, came-11)
+prt(came-11, out-12)
+punct(amazing-8, .-13)
+
+Sentence #4 (11 tokens):
+I believe that this game will always be a classic.
+[Text=I CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=PRP] [Text=believe CharacterOffsetBegin=148 CharacterOffsetEnd=155 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=IN] [Text=this CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=DT] [Text=game CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=NN] [Text=will CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=MD] [Text=always CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=RB] [Text=be CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=VB] [Text=a CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=DT] [Text=classic CharacterOffsetBegin=188 CharacterOffsetEnd=195 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=.] 
+root(ROOT-0, believe-2)
+nsubj(believe-2, I-1)
+mark(classic-10, that-3)
+det(game-5, this-4)
+nsubj(classic-10, game-5)
+aux(classic-10, will-6)
+advmod(classic-10, always-7)
+cop(classic-10, be-8)
+det(classic-10, a-9)
+ccomp(believe-2, classic-10)
+punct(believe-2, .-11)
+
+Sentence #5 (12 tokens):
+It's just as good a Super Mario World or so.
+[Text=It CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=VBZ] [Text=just CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=JJ] [Text=a CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=DT] [Text=Super CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=NNP] [Text=Mario CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NNP] [Text=World CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=NNP] [Text=or CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=CC] [Text=so CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=.] 
+root(ROOT-0, good-5)
+nsubj(good-5, It-1)
+cop(good-5, 's-2)
+advmod(good-5, just-3)
+advmod(good-5, as-4)
+det(World-9, a-6)
+nn(World-9, Super-7)
+nn(World-9, Mario-8)
+dep(good-5, World-9)
+cc(World-9, or-10)
+conj(World-9, so-11)
+punct(good-5, .-12)
+
+Sentence #6 (26 tokens):
+When I was young, my friend and I would sit and play this game for hours trying to beat it which we eventually did.
+[Text=When CharacterOffsetBegin=250 CharacterOffsetEnd=254 PartOfSpeech=WRB] [Text=I CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=VBD] [Text=young CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=,] [Text=my CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=PRP] [Text=would CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=MD] [Text=sit CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=VB] [Text=and CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=CC] [Text=play CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=VB] [Text=this CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=DT] [Text=game CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=IN] [Text=hours CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=NNS] [Text=trying CharacterOffsetBegin=323 CharacterOffsetEnd=329 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=TO] [Text=beat CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=VB] [Text=it CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=PRP] [Text=which CharacterOffsetBegin=341 CharacterOffsetEnd=346 PartOfSpeech=WDT] [Text=we CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=PRP] [Text=eventually CharacterOffsetBegin=350 CharacterOffsetEnd=360 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=.] 
+root(ROOT-0, young-4)
+advmod(young-4, When-1)
+nsubj(young-4, I-2)
+cop(young-4, was-3)
+punct(young-4, ,-5)
+poss(friend-7, my-6)
+dep(,-5, friend-7)
+cc(friend-7, and-8)
+nsubj(sit-11, I-9)
+aux(sit-11, would-10)
+conj(friend-7, sit-11)
+cc(sit-11, and-12)
+conj(sit-11, play-13)
+det(game-15, this-14)
+dobj(play-13, game-15)
+prep(friend-7, for-16)
+pobj(for-16, hours-17)
+partmod(hours-17, trying-18)
+aux(beat-20, to-19)
+xcomp(trying-18, beat-20)
+dobj(beat-20, it-21)
+dobj(did-25, which-22)
+nsubj(did-25, we-23)
+advmod(did-25, eventually-24)
+rcmod(it-21, did-25)
+punct(friend-7, .-26)
+
+Sentence #7 (23 tokens):
+It's not nearly as advanced as Super Mario Galaxy, but if you are a fellow Mario fan it is essential.
+[Text=It CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=VBZ] [Text=not CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=RB] [Text=nearly CharacterOffsetBegin=379 CharacterOffsetEnd=385 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=IN] [Text=advanced CharacterOffsetBegin=389 CharacterOffsetEnd=397 PartOfSpeech=VBN] [Text=as CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=IN] [Text=Super CharacterOffsetBegin=401 CharacterOffsetEnd=406 PartOfSpeech=NNP] [Text=Mario CharacterOffsetBegin=407 CharacterOffsetEnd=412 PartOfSpeech=NNP] [Text=Galaxy CharacterOffsetBegin=413 CharacterOffsetEnd=419 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=,] [Text=but CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=CC] [Text=if CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=IN] [Text=you CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=PRP] [Text=are CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=VBP] [Text=a CharacterOffsetBegin=436 CharacterOffsetEnd=437 PartOfSpeech=DT] [Text=fellow CharacterOffsetBegin=438 CharacterOffsetEnd=444 PartOfSpeech=JJ] [Text=Mario CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=NNP] [Text=fan CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=NN] [Text=it CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=458 CharacterOffsetEnd=460 PartOfSpeech=VBZ] [Text=essential CharacterOffsetBegin=461 CharacterOffsetEnd=470 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=.] 
+root(ROOT-0, advanced-6)
+nsubjpass(advanced-6, It-1)
+auxpass(advanced-6, 's-2)
+neg(advanced-6, not-3)
+advmod(advanced-6, nearly-4)
+advmod(advanced-6, as-5)
+prep(advanced-6, as-7)
+nn(Galaxy-10, Super-8)
+nn(Galaxy-10, Mario-9)
+pobj(as-7, Galaxy-10)
+punct(advanced-6, ,-11)
+cc(advanced-6, but-12)
+mark(fan-19, if-13)
+nsubj(fan-19, you-14)
+cop(fan-19, are-15)
+det(fan-19, a-16)
+amod(fan-19, fellow-17)
+nn(fan-19, Mario-18)
+conj(advanced-6, fan-19)
+nsubj(essential-22, it-20)
+cop(essential-22, is-21)
+ccomp(fan-19, essential-22)
+punct(advanced-6, .-23)
+
+Sentence #8 (7 tokens):
+It's fun entertaining and challenging.
+[Text=It CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=PRP] [Text='s CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=VBZ] [Text=fun CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=NN] [Text=entertaining CharacterOffsetBegin=485 CharacterOffsetEnd=497 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=CC] [Text=challenging CharacterOffsetBegin=502 CharacterOffsetEnd=513 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=513 CharacterOffsetEnd=514 PartOfSpeech=.] 
+root(ROOT-0, fun-3)
+nsubj(fun-3, It-1)
+cop(fun-3, 's-2)
+dep(fun-3, entertaining-4)
+cc(entertaining-4, and-5)
+conj(entertaining-4, challenging-6)
+punct(fun-3, .-7)
+
+Sentence #9 (24 tokens):
+Everything you could want out of a fantasy game except for good graphics, (well it did come out in 1996.)
+[Text=Everything CharacterOffsetBegin=519 CharacterOffsetEnd=529 PartOfSpeech=NN] [Text=you CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=PRP] [Text=could CharacterOffsetBegin=534 CharacterOffsetEnd=539 PartOfSpeech=MD] [Text=want CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=IN] [Text=of CharacterOffsetBegin=549 CharacterOffsetEnd=551 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=552 CharacterOffsetEnd=553 PartOfSpeech=DT] [Text=fantasy CharacterOffsetBegin=554 CharacterOffsetEnd=561 PartOfSpeech=NN] [Text=game CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=NN] [Text=except CharacterOffsetBegin=567 CharacterOffsetEnd=573 PartOfSpeech=IN] [Text=for CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=IN] [Text=good CharacterOffsetBegin=578 CharacterOffsetEnd=582 PartOfSpeech=JJ] [Text=graphics CharacterOffsetBegin=583 CharacterOffsetEnd=591 PartOfSpeech=NNS] [Text=, CharacterOffsetBegin=591 CharacterOffsetEnd=592 PartOfSpeech=,] [Text=-LRB- CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=-LRB-] [Text=well CharacterOffsetBegin=594 CharacterOffsetEnd=598 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=599 CharacterOffsetEnd=601 PartOfSpeech=PRP] [Text=did CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=VBD] [Text=come CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=VB] [Text=out CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=RP] [Text=in CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=IN] [Text=1996 CharacterOffsetBegin=618 CharacterOffsetEnd=622 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=.] [Text=-RRB- CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=-RRB-] 
+root(ROOT-0, come-19)
+nsubj(come-19, Everything-1)
+nsubj(want-4, you-2)
+aux(want-4, could-3)
+rcmod(Everything-1, want-4)
+prep(want-4, out-5)
+pcomp(out-5, of-6)
+det(game-9, a-7)
+nn(game-9, fantasy-8)
+pobj(of-6, game-9)
+prep(want-4, except-10)
+pcomp(except-10, for-11)
+amod(graphics-13, good-12)
+pobj(for-11, graphics-13)
+punct(Everything-1, ,-14)
+punct(well-16, -LRB--15)
+advmod(did-18, well-16)
+dep(well-16, it-17)
+aux(come-19, did-18)
+prt(come-19, out-20)
+prep(come-19, in-21)
+pobj(in-21, 1996-22)
+punct(come-19, .-23)
+punct(come-19, -RRB--24)
+
+Sentence #10 (8 tokens):
+ROCK ON 4EVA MARIO LUIGI AND YOSHI!!!
+[Text=ROCK CharacterOffsetBegin=629 CharacterOffsetEnd=633 PartOfSpeech=NN] [Text=ON CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=IN] [Text=4EVA CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=NNP] [Text=MARIO CharacterOffsetBegin=642 CharacterOffsetEnd=647 PartOfSpeech=NNP] [Text=LUIGI CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=NNP] [Text=AND CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=CC] [Text=YOSHI CharacterOffsetBegin=658 CharacterOffsetEnd=663 PartOfSpeech=NNP] [Text=!!! CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=CD] 
+root(ROOT-0, ROCK-1)
+prep(ROCK-1, ON-2)
+nn(LUIGI-5, 4EVA-3)
+nn(LUIGI-5, MARIO-4)
+pobj(ON-2, LUIGI-5)
+cc(LUIGI-5, AND-6)
+conj(LUIGI-5, YOSHI-7)
+num(YOSHI-7, !!!-8)
+
+Sentence #11 (5 tokens):
+Nintendo is the best!
+[Text=Nintendo CharacterOffsetBegin=671 CharacterOffsetEnd=679 PartOfSpeech=NNP] [Text=is CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=VBZ] [Text=the CharacterOffsetBegin=683 CharacterOffsetEnd=686 PartOfSpeech=DT] [Text=best CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=JJS] [Text=! CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=.] 
+root(ROOT-0, best-4)
+nsubj(best-4, Nintendo-1)
+cop(best-4, is-2)
+det(best-4, the-3)
+punct(best-4, !-5)
+

@@ -1,0 +1,75 @@
+Sentence #1 (13 tokens):
+First it was Jack The Ripper, now it is Alan Feinstone.
+[Text=First CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=VBD] [Text=Jack CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=NNP] [Text=The CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=NNP] [Text=Ripper CharacterOffsetBegin=26 CharacterOffsetEnd=32 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=,] [Text=now CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=RB] [Text=it CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=PRP] [Text=is CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=VBZ] [Text=Alan CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=NNP] [Text=Feinstone CharacterOffsetBegin=49 CharacterOffsetEnd=58 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=.] 
+root(ROOT-0, Ripper-6)
+advmod(Ripper-6, First-1)
+nsubj(Ripper-6, it-2)
+cop(Ripper-6, was-3)
+nn(Ripper-6, Jack-4)
+nn(Ripper-6, The-5)
+punct(Ripper-6, ,-7)
+advmod(Ripper-6, now-8)
+nsubj(Feinstone-12, it-9)
+cop(Feinstone-12, is-10)
+nn(Feinstone-12, Alan-11)
+dep(Ripper-6, Feinstone-12)
+punct(Ripper-6, .-13)
+
+Sentence #2 (9 tokens):
+The crazy dentist tortures people in horrific ways.
+[Text=The CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=DT] [Text=crazy CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=JJ] [Text=dentist CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=tortures CharacterOffsetBegin=82 CharacterOffsetEnd=90 PartOfSpeech=VBZ] [Text=people CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=NNS] [Text=in CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=IN] [Text=horrific CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=JJ] [Text=ways CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=.] 
+root(ROOT-0, tortures-4)
+det(dentist-3, The-1)
+amod(dentist-3, crazy-2)
+nsubj(tortures-4, dentist-3)
+dobj(tortures-4, people-5)
+prep(tortures-4, in-6)
+amod(ways-8, horrific-7)
+pobj(in-6, ways-8)
+punct(tortures-4, .-9)
+
+Sentence #3 (14 tokens):
+Quite realistic at times but some of the acting is abysmal and comical.
+[Text=Quite CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=RB] [Text=realistic CharacterOffsetBegin=126 CharacterOffsetEnd=135 PartOfSpeech=JJ] [Text=at CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN] [Text=times CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=CC] [Text=some CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=DT] [Text=of CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=DT] [Text=acting CharacterOffsetBegin=161 CharacterOffsetEnd=167 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=VBZ] [Text=abysmal CharacterOffsetBegin=171 CharacterOffsetEnd=178 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=CC] [Text=comical CharacterOffsetBegin=183 CharacterOffsetEnd=190 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=.] 
+root(ROOT-0, realistic-2)
+advmod(realistic-2, Quite-1)
+prep(realistic-2, at-3)
+pobj(at-3, times-4)
+cc(realistic-2, but-5)
+nsubj(abysmal-11, some-6)
+prep(some-6, of-7)
+det(acting-9, the-8)
+pobj(of-7, acting-9)
+cop(abysmal-11, is-10)
+conj(realistic-2, abysmal-11)
+cc(abysmal-11, and-12)
+conj(abysmal-11, comical-13)
+punct(realistic-2, .-14)
+
+Sentence #4 (5 tokens):
+Especially from Corbin Bernson.
+[Text=Especially CharacterOffsetBegin=196 CharacterOffsetEnd=206 PartOfSpeech=RB] [Text=from CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=IN] [Text=Corbin CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=NNP] [Text=Bernson CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=NNP] [Text=. CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=.] 
+root(ROOT-0, Especially-1)
+prep(Especially-1, from-2)
+nn(Bernson-4, Corbin-3)
+pobj(from-2, Bernson-4)
+punct(Especially-1, .-5)
+
+Sentence #5 (14 tokens):
+In some scenes there is dental torture that will really make you cringe.
+[Text=In CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=DT] [Text=scenes CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=NNS] [Text=there CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=VBZ] [Text=dental CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=torture CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=VBP] [Text=that CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=DT] [Text=will CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=MD] [Text=really CharacterOffsetBegin=281 CharacterOffsetEnd=287 PartOfSpeech=RB] [Text=make CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=VB] [Text=you CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=PRP] [Text=cringe CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=VBP] [Text=. CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=.] 
+root(ROOT-0, is-5)
+prep(is-5, In-1)
+det(scenes-3, some-2)
+pobj(In-1, scenes-3)
+expl(is-5, there-4)
+amod(torture-7, dental-6)
+nsubj(is-5, torture-7)
+nsubj(make-11, that-8)
+aux(make-11, will-9)
+advmod(make-11, really-10)
+ccomp(torture-7, make-11)
+nsubj(cringe-13, you-12)
+xcomp(make-11, cringe-13)
+punct(is-5, .-14)
+

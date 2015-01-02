@@ -28,6 +28,6 @@ def parse(pm, textedus, pos_tags, headwords):
 
 def getParseTree(document, pos_tags, headwords):
 	pred_rst = parse(pm, document, pos_tags, headwords)
-	nodelist = buildtree.postorder_DFT(pred_rst.gettree(),[])
+	nodelist = buildtree.BFTbin(pred_rst.gettree())
 	return pred_rst, nodelist
 

@@ -1,0 +1,134 @@
+Sentence #1 (4 tokens):
+No hidden agenda.
+[Text=No CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=DT] [Text=hidden CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=JJ] [Text=agenda CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=.] 
+root(ROOT-0, agenda-3)
+det(agenda-3, No-1)
+amod(agenda-3, hidden-2)
+punct(agenda-3, .-4)
+
+Sentence #2 (3 tokens):
+Pure scifi.
+[Text=Pure CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=JJ] [Text=scifi CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=.] 
+root(ROOT-0, scifi-2)
+amod(scifi-2, Pure-1)
+punct(scifi-2, .-3)
+
+Sentence #3 (13 tokens):
+All fun.I saw the original on TV and was scared pretty bad.
+[Text=All CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DT] [Text=fun.I CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NN] [Text=saw CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=VBD] [Text=the CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=60 CharacterOffsetEnd=68 PartOfSpeech=JJ] [Text=on CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=CC] [Text=was CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=VBD] [Text=scared CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=JJ] [Text=pretty CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=RB] [Text=bad CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=.] 
+root(ROOT-0, saw-3)
+det(fun.I-2, All-1)
+nsubj(saw-3, fun.I-2)
+det(original-5, the-4)
+dobj(saw-3, original-5)
+prep(original-5, on-6)
+pobj(on-6, TV-7)
+cc(saw-3, and-8)
+cop(scared-10, was-9)
+conj(saw-3, scared-10)
+advmod(bad-12, pretty-11)
+acomp(scared-10, bad-12)
+punct(saw-3, .-13)
+
+Sentence #4 (26 tokens):
+I was a kid :)The original one can be appreciated more when compared to the new one which I saw and have forgotten.
+[Text=I CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=DT] [Text=kid CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=:] [Text=-RRB- CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=-RRB-] [Text=The CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=124 CharacterOffsetEnd=132 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=NN] [Text=can CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=MD] [Text=be CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=VB] [Text=appreciated CharacterOffsetBegin=144 CharacterOffsetEnd=155 PartOfSpeech=VBN] [Text=more CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=RBR] [Text=when CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=WRB] [Text=compared CharacterOffsetBegin=166 CharacterOffsetEnd=174 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=TO] [Text=the CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=DT] [Text=new CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=CD] [Text=which CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=WDT] [Text=I CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=PRP] [Text=saw CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=VBD] [Text=and CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=CC] [Text=have CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=VBP] [Text=forgotten CharacterOffsetBegin=211 CharacterOffsetEnd=220 PartOfSpeech=VBN] [Text=. CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=.] 
+root(ROOT-0, appreciated-12)
+nsubj(kid-4, I-1)
+cop(kid-4, was-2)
+det(kid-4, a-3)
+dep(appreciated-12, kid-4)
+punct(kid-4, :-5)
+punct(kid-4, -RRB--6)
+det(one-9, The-7)
+amod(one-9, original-8)
+nsubjpass(appreciated-12, one-9)
+aux(appreciated-12, can-10)
+auxpass(appreciated-12, be-11)
+advmod(when-14, more-13)
+advmod(compared-15, when-14)
+advcl(appreciated-12, compared-15)
+prep(compared-15, to-16)
+det(one-19, the-17)
+amod(one-19, new-18)
+pobj(to-16, one-19)
+dobj(saw-22, which-20)
+nsubj(saw-22, I-21)
+rcmod(one-19, saw-22)
+cc(saw-22, and-23)
+aux(forgotten-25, have-24)
+conj(saw-22, forgotten-25)
+punct(appreciated-12, .-26)
+
+Sentence #5 (46 tokens):
+The original one, starring the great movie star Steve McQueen (BULLET), is by far the better and only version anyone should see.The movie production is dated, but the fx used to make the Blob stands up the test of time.
+[Text=The CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=DT] [Text=original CharacterOffsetBegin=230 CharacterOffsetEnd=238 PartOfSpeech=JJ] [Text=one CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=CD] [Text=, CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=,] [Text=starring CharacterOffsetBegin=244 CharacterOffsetEnd=252 PartOfSpeech=VBG] [Text=the CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=DT] [Text=great CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=movie CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NN] [Text=star CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=NN] [Text=Steve CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=NNP] [Text=McQueen CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=NNP] [Text=-LRB- CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=-LRB-] [Text=BULLET CharacterOffsetBegin=289 CharacterOffsetEnd=295 PartOfSpeech=NNP] [Text=-RRB- CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=-RRB-] [Text=, CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=,] [Text=is CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=VBZ] [Text=by CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=IN] [Text=far CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=RB] [Text=the CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=DT] [Text=better CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=JJR] [Text=and CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=CC] [Text=only CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=RB] [Text=version CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=NN] [Text=anyone CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=NN] [Text=should CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=MD] [Text=see.The CharacterOffsetBegin=350 CharacterOffsetEnd=357 PartOfSpeech=VB] [Text=movie CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=NN] [Text=production CharacterOffsetBegin=364 CharacterOffsetEnd=374 PartOfSpeech=NN] [Text=is CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=VBZ] [Text=dated CharacterOffsetBegin=378 CharacterOffsetEnd=383 PartOfSpeech=VBN] [Text=, CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=,] [Text=but CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=CC] [Text=the CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=DT] [Text=fx CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=NN] [Text=used CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=VBN] [Text=to CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=TO] [Text=make CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=DT] [Text=Blob CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=NN] [Text=stands CharacterOffsetBegin=418 CharacterOffsetEnd=424 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=RP] [Text=the CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=DT] [Text=test CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=IN] [Text=time CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=.] 
+root(ROOT-0, one-3)
+det(one-3, The-1)
+amod(one-3, original-2)
+punct(one-3, ,-4)
+partmod(one-3, starring-5)
+dobj(starring-5, the-6)
+amod(the-6, great-7)
+dep(great-7, movie-8)
+dep(movie-8, star-9)
+nsubj(is-16, Steve-10)
+dep(Steve-10, McQueen-11)
+punct(BULLET-13, -LRB--12)
+appos(McQueen-11, BULLET-13)
+punct(BULLET-13, -RRB--14)
+punct(Steve-10, ,-15)
+rcmod(star-9, is-16)
+prep(is-16, by-17)
+advmod(version-23, far-18)
+det(version-23, the-19)
+amod(version-23, better-20)
+cc(better-20, and-21)
+conj(better-20, only-22)
+pobj(by-17, version-23)
+nsubj(see.The-26, anyone-24)
+aux(see.The-26, should-25)
+rcmod(version-23, see.The-26)
+nn(production-28, movie-27)
+nsubjpass(dated-30, production-28)
+auxpass(dated-30, is-29)
+ccomp(see.The-26, dated-30)
+punct(movie-8, ,-31)
+cc(movie-8, but-32)
+det(fx-34, the-33)
+conj(movie-8, fx-34)
+partmod(fx-34, used-35)
+aux(make-37, to-36)
+xcomp(used-35, make-37)
+det(Blob-39, the-38)
+nsubj(stands-40, Blob-39)
+ccomp(make-37, stands-40)
+prt(stands-40, up-41)
+det(test-43, the-42)
+dobj(stands-40, test-43)
+prep(test-43, of-44)
+pobj(of-44, time-45)
+punct(one-3, .-46)
+
+Sentence #6 (13 tokens):
+I was convinced that that thing was moving on its own accord.
+[Text=I CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=VBD] [Text=convinced CharacterOffsetBegin=456 CharacterOffsetEnd=465 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=IN] [Text=that CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=DT] [Text=thing CharacterOffsetBegin=476 CharacterOffsetEnd=481 PartOfSpeech=NN] [Text=was CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=VBD] [Text=moving CharacterOffsetBegin=486 CharacterOffsetEnd=492 PartOfSpeech=VBG] [Text=on CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=IN] [Text=its CharacterOffsetBegin=496 CharacterOffsetEnd=499 PartOfSpeech=PRP$] [Text=own CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=JJ] [Text=accord CharacterOffsetBegin=504 CharacterOffsetEnd=510 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=.] 
+root(ROOT-0, convinced-3)
+nsubjpass(convinced-3, I-1)
+auxpass(convinced-3, was-2)
+mark(moving-8, that-4)
+det(thing-6, that-5)
+nsubj(moving-8, thing-6)
+aux(moving-8, was-7)
+ccomp(convinced-3, moving-8)
+prep(moving-8, on-9)
+poss(accord-12, its-10)
+amod(accord-12, own-11)
+pobj(on-9, accord-12)
+punct(convinced-3, .-13)
+
+Sentence #7 (1 tokens):
+10/10-Zafoid
+[Text=10/10-Zafoid CharacterOffsetBegin=516 CharacterOffsetEnd=528 PartOfSpeech=JJ] 
+root(ROOT-0, 10/10-Zafoid-1)
+

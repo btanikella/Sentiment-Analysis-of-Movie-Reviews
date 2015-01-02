@@ -1,0 +1,85 @@
+Sentence #1 (11 tokens):
+Me and my friend rented this movie for $2.50.
+[Text=Me CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=CC] [Text=my CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=NN] [Text=rented CharacterOffsetBegin=21 CharacterOffsetEnd=27 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=IN] [Text=$ CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=$] [Text=2.50 CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=CD] [Text=. CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=.] 
+root(ROOT-0, rented-5)
+nsubj(rented-5, Me-1)
+cc(Me-1, and-2)
+poss(friend-4, my-3)
+conj(Me-1, friend-4)
+det(movie-7, this-6)
+dobj(rented-5, movie-7)
+prep(rented-5, for-8)
+pobj(for-8, $-9)
+num($-9, 2.50-10)
+punct(rented-5, .-11)
+
+Sentence #2 (24 tokens):
+And we both agree on one thing:THIS IS THE WORST MOVIE EVER MADE!Also me and my friend counted 475 face shots.
+[Text=And CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=CC] [Text=we CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=PRP] [Text=both CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=DT] [Text=agree CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=VBP] [Text=on CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN] [Text=one CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=CD] [Text=thing CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=NN] [Text=: CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=:] [Text=THIS CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=NNP] [Text=IS CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=VBZ] [Text=THE CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT] [Text=WORST CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=JJS] [Text=MOVIE CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NN] [Text=EVER CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NN] [Text=MADE!Also CharacterOffsetBegin=114 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=me CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=CC] [Text=my CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=PRP$] [Text=friend CharacterOffsetBegin=134 CharacterOffsetEnd=140 PartOfSpeech=NN] [Text=counted CharacterOffsetBegin=141 CharacterOffsetEnd=148 PartOfSpeech=VBN] [Text=475 CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=CD] [Text=face CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=shots CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=.] 
+root(ROOT-0, agree-4)
+cc(agree-4, And-1)
+nsubj(agree-4, we-2)
+nsubj(agree-4, both-3)
+prep(agree-4, on-5)
+num(thing-7, one-6)
+pobj(on-5, thing-7)
+punct(agree-4, :-8)
+nsubj(IS-10, THIS-9)
+parataxis(agree-4, IS-10)
+dobj(IS-10, THE-11)
+dep(THE-11, WORST-12)
+dep(WORST-12, MOVIE-13)
+dep(MOVIE-13, EVER-14)
+nsubj(counted-20, MADE!Also-15)
+dobj(MADE!Also-15, me-16)
+cc(MADE!Also-15, and-17)
+poss(friend-19, my-18)
+conj(MADE!Also-15, friend-19)
+rcmod(EVER-14, counted-20)
+num(shots-23, 475-21)
+nn(shots-23, face-22)
+dobj(counted-20, shots-23)
+punct(agree-4, .-24)
+
+Sentence #3 (11 tokens):
+(Which makes up 95% of the movie).
+[Text=-LRB- CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=-LRB-] [Text=Which CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=WP] [Text=makes CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=VBZ] [Text=up CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=RP] [Text=95 CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=CD] [Text=% CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NN] [Text=-RRB- CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=-RRB-] [Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, makes-3)
+punct(makes-3, -LRB--1)
+nsubj(makes-3, Which-2)
+prt(makes-3, up-4)
+num(%-6, 95-5)
+dobj(makes-3, %-6)
+prep(%-6, of-7)
+det(movie-9, the-8)
+pobj(of-7, movie-9)
+punct(makes-3, -RRB--10)
+punct(makes-3, .-11)
+
+Sentence #4 (15 tokens):
+So in other words: DO SEE THIS MOVIE UNLESS YOU LIKE WASTING MONEY!
+[Text=So CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=RB] [Text=in CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=IN] [Text=other CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=JJ] [Text=words CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=NNS] [Text=: CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=:] [Text=DO CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=NNP] [Text=SEE CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=VB] [Text=THIS CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=NNS] [Text=MOVIE CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=NN] [Text=UNLESS CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=IN] [Text=YOU CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=PRP] [Text=LIKE CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=IN] [Text=WASTING CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=VBG] [Text=MONEY CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=NN] [Text=! CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=.] 
+root(ROOT-0, in-2)
+advmod(in-2, So-1)
+amod(words-4, other-3)
+pobj(in-2, words-4)
+punct(in-2, :-5)
+nn(MONEY-14, DO-6)
+amod(MONEY-14, SEE-7)
+nn(MONEY-14, THIS-8)
+nn(MONEY-14, MOVIE-9)
+nn(MONEY-14, UNLESS-10)
+dep(MONEY-14, YOU-11)
+amod(MONEY-14, LIKE-12)
+amod(MONEY-14, WASTING-13)
+dep(in-2, MONEY-14)
+punct(in-2, !-15)
+
+Sentence #5 (4 tokens):
+And I do!
+[Text=And CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=CC] [Text=I CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=VBP] [Text=! CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=.] 
+root(ROOT-0, do-3)
+cc(do-3, And-1)
+nsubj(do-3, I-2)
+punct(do-3, !-4)
+

@@ -1,0 +1,167 @@
+Sentence #1 (4 tokens):
+I love Sabrina!
+[Text=I CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PRP] [Text=love CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=VBP] [Text=Sabrina CharacterOffsetBegin=11 CharacterOffsetEnd=18 PartOfSpeech=NNP] [Text=! CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=.] 
+root(ROOT-0, love-2)
+nsubj(love-2, I-1)
+dobj(love-2, Sabrina-3)
+punct(love-2, !-4)
+
+Sentence #2 (7 tokens):
+Its one of my fave shows!!
+[Text=Its CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=PRP$] [Text=one CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=CD] [Text=of CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN] [Text=my CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=PRP$] [Text=fave CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=NN] [Text=shows CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=VBZ] [Text=!! CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=IN] 
+root(ROOT-0, shows-6)
+poss(one-2, Its-1)
+nsubj(shows-6, one-2)
+prep(one-2, of-3)
+poss(fave-5, my-4)
+pobj(of-3, fave-5)
+dep(shows-6, !!-7)
+
+Sentence #3 (33 tokens):
+My favourite episodes are; the one where she turns Libby into a geek, the first episode, the true love episode and most of the rest from the first series.
+[Text=My CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=PRP$] [Text=favourite CharacterOffsetBegin=58 CharacterOffsetEnd=67 PartOfSpeech=JJ] [Text=episodes CharacterOffsetBegin=68 CharacterOffsetEnd=76 PartOfSpeech=NNS] [Text=are CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=VBP] [Text=; CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=:] [Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT] [Text=one CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=CD] [Text=where CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=WRB] [Text=she CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=PRP] [Text=turns CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=VBZ] [Text=Libby CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=NNP] [Text=into CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=IN] [Text=a CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=DT] [Text=geek CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=,] [Text=the CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=JJ] [Text=episode CharacterOffsetBegin=135 CharacterOffsetEnd=142 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=,] [Text=the CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=DT] [Text=true CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=JJ] [Text=love CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=NN] [Text=episode CharacterOffsetBegin=158 CharacterOffsetEnd=165 PartOfSpeech=NN] [Text=and CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=CC] [Text=most CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=JJS] [Text=of CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=DT] [Text=rest CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=NN] [Text=from CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=DT] [Text=first CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=JJ] [Text=series CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=.] 
+root(ROOT-0, are-4)
+poss(episodes-3, My-1)
+amod(episodes-3, favourite-2)
+nsubj(are-4, episodes-3)
+punct(are-4, ;-5)
+det(one-7, the-6)
+parataxis(are-4, one-7)
+advmod(turns-10, where-8)
+nsubj(turns-10, she-9)
+rcmod(one-7, turns-10)
+dobj(turns-10, Libby-11)
+prep(turns-10, into-12)
+det(geek-14, a-13)
+pobj(into-12, geek-14)
+punct(one-7, ,-15)
+det(episode-18, the-16)
+amod(episode-18, first-17)
+appos(one-7, episode-18)
+punct(one-7, ,-19)
+det(episode-23, the-20)
+amod(episode-23, true-21)
+nn(episode-23, love-22)
+appos(one-7, episode-23)
+cc(episode-23, and-24)
+conj(episode-23, most-25)
+prep(most-25, of-26)
+det(rest-28, the-27)
+pobj(of-26, rest-28)
+prep(episode-23, from-29)
+det(series-32, the-30)
+amod(series-32, first-31)
+pobj(from-29, series-32)
+punct(are-4, .-33)
+
+Sentence #4 (27 tokens):
+I do think the college episodes were not as good as the high school ones but they were better than the last series which was awful.
+[Text=I CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=PRP] [Text=do CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=VBP] [Text=think CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=DT] [Text=college CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=NN] [Text=episodes CharacterOffsetBegin=237 CharacterOffsetEnd=245 PartOfSpeech=NNS] [Text=were CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=VBD] [Text=not CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=DT] [Text=high CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=JJ] [Text=school CharacterOffsetBegin=275 CharacterOffsetEnd=281 PartOfSpeech=NN] [Text=ones CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=NNS] [Text=but CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=CC] [Text=they CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=PRP] [Text=were CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=VBD] [Text=better CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=JJR] [Text=than CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=DT] [Text=last CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=JJ] [Text=series CharacterOffsetBegin=322 CharacterOffsetEnd=328 PartOfSpeech=NN] [Text=which CharacterOffsetBegin=329 CharacterOffsetEnd=334 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=VBD] [Text=awful CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=JJ] [Text=. CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=.] 
+root(ROOT-0, think-3)
+nsubj(think-3, I-1)
+aux(think-3, do-2)
+det(episodes-6, the-4)
+nn(episodes-6, college-5)
+nsubj(good-10, episodes-6)
+cop(good-10, were-7)
+neg(good-10, not-8)
+advmod(good-10, as-9)
+ccomp(think-3, good-10)
+prep(good-10, as-11)
+det(ones-15, the-12)
+amod(ones-15, high-13)
+nn(ones-15, school-14)
+pobj(as-11, ones-15)
+cc(good-10, but-16)
+nsubj(better-19, they-17)
+cop(better-19, were-18)
+conj(good-10, better-19)
+prep(better-19, than-20)
+det(series-23, the-21)
+amod(series-23, last-22)
+pobj(than-20, series-23)
+nsubj(awful-26, which-24)
+cop(awful-26, was-25)
+rcmod(series-23, awful-26)
+punct(think-3, .-27)
+
+Sentence #5 (21 tokens):
+Valerie was a good character as she was more rounded than Jenny, but Jenny was in some brilliant episodes.
+[Text=Valerie CharacterOffsetBegin=350 CharacterOffsetEnd=357 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=369 CharacterOffsetEnd=378 PartOfSpeech=NN] [Text=as CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=IN] [Text=she CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=PRP] [Text=was CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=VBD] [Text=more CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=RBR] [Text=rounded CharacterOffsetBegin=395 CharacterOffsetEnd=402 PartOfSpeech=VBN] [Text=than CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=IN] [Text=Jenny CharacterOffsetBegin=408 CharacterOffsetEnd=413 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=,] [Text=but CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=CC] [Text=Jenny CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=VBD] [Text=in CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=IN] [Text=some CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=DT] [Text=brilliant CharacterOffsetBegin=437 CharacterOffsetEnd=446 PartOfSpeech=JJ] [Text=episodes CharacterOffsetBegin=447 CharacterOffsetEnd=455 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=.] 
+root(ROOT-0, character-5)
+nsubj(character-5, Valerie-1)
+cop(character-5, was-2)
+det(character-5, a-3)
+amod(character-5, good-4)
+mark(rounded-10, as-6)
+nsubj(rounded-10, she-7)
+cop(rounded-10, was-8)
+advmod(rounded-10, more-9)
+advcl(character-5, rounded-10)
+prep(rounded-10, than-11)
+pobj(than-11, Jenny-12)
+punct(rounded-10, ,-13)
+cc(rounded-10, but-14)
+nsubj(was-16, Jenny-15)
+conj(rounded-10, was-16)
+prep(was-16, in-17)
+det(episodes-20, some-18)
+amod(episodes-20, brilliant-19)
+pobj(in-17, episodes-20)
+punct(character-5, .-21)
+
+Sentence #6 (18 tokens):
+Hilda and Zelda were amazing, and there seemed to be no explanation for where they went!
+[Text=Hilda CharacterOffsetBegin=461 CharacterOffsetEnd=466 PartOfSpeech=NNP] [Text=and CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=CC] [Text=Zelda CharacterOffsetBegin=471 CharacterOffsetEnd=476 PartOfSpeech=NNP] [Text=were CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=VBD] [Text=amazing CharacterOffsetBegin=482 CharacterOffsetEnd=489 PartOfSpeech=JJ] [Text=, CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=,] [Text=and CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=CC] [Text=there CharacterOffsetBegin=495 CharacterOffsetEnd=500 PartOfSpeech=EX] [Text=seemed CharacterOffsetBegin=501 CharacterOffsetEnd=507 PartOfSpeech=VBD] [Text=to CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=TO] [Text=be CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=VB] [Text=no CharacterOffsetBegin=514 CharacterOffsetEnd=516 PartOfSpeech=DT] [Text=explanation CharacterOffsetBegin=517 CharacterOffsetEnd=528 PartOfSpeech=NN] [Text=for CharacterOffsetBegin=529 CharacterOffsetEnd=532 PartOfSpeech=IN] [Text=where CharacterOffsetBegin=533 CharacterOffsetEnd=538 PartOfSpeech=WRB] [Text=they CharacterOffsetBegin=539 CharacterOffsetEnd=543 PartOfSpeech=PRP] [Text=went CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=VBD] [Text=! CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=.] 
+root(ROOT-0, amazing-5)
+nsubj(amazing-5, Hilda-1)
+cc(Hilda-1, and-2)
+conj(Hilda-1, Zelda-3)
+cop(amazing-5, were-4)
+punct(amazing-5, ,-6)
+cc(amazing-5, and-7)
+expl(seemed-9, there-8)
+conj(amazing-5, seemed-9)
+aux(explanation-13, to-10)
+cop(explanation-13, be-11)
+det(explanation-13, no-12)
+xcomp(seemed-9, explanation-13)
+prep(explanation-13, for-14)
+advmod(went-17, where-15)
+nsubj(went-17, they-16)
+pcomp(for-14, went-17)
+punct(amazing-5, !-18)
+
+Sentence #7 (7 tokens):
+Libby was a good character too.
+[Text=Libby CharacterOffsetBegin=554 CharacterOffsetEnd=559 PartOfSpeech=NNP] [Text=was CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=VBD] [Text=a CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=DT] [Text=good CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=JJ] [Text=character CharacterOffsetBegin=571 CharacterOffsetEnd=580 PartOfSpeech=NN] [Text=too CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=584 CharacterOffsetEnd=585 PartOfSpeech=.] 
+root(ROOT-0, character-5)
+nsubj(character-5, Libby-1)
+cop(character-5, was-2)
+det(character-5, a-3)
+amod(character-5, good-4)
+advmod(character-5, too-6)
+punct(character-5, .-7)
+
+Sentence #8 (18 tokens):
+I never liked Morgan or Roxy, they just weren't as good as her other friends.
+[Text=I CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=PRP] [Text=never CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=RB] [Text=liked CharacterOffsetBegin=598 CharacterOffsetEnd=603 PartOfSpeech=VBD] [Text=Morgan CharacterOffsetBegin=604 CharacterOffsetEnd=610 PartOfSpeech=NNP] [Text=or CharacterOffsetBegin=611 CharacterOffsetEnd=613 PartOfSpeech=CC] [Text=Roxy CharacterOffsetBegin=614 CharacterOffsetEnd=618 PartOfSpeech=NNP] [Text=, CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=,] [Text=they CharacterOffsetBegin=620 CharacterOffsetEnd=624 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=RB] [Text=were CharacterOffsetBegin=630 CharacterOffsetEnd=634 PartOfSpeech=VBD] [Text=n't CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=RB] [Text=as CharacterOffsetBegin=638 CharacterOffsetEnd=640 PartOfSpeech=RB] [Text=good CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=JJ] [Text=as CharacterOffsetBegin=646 CharacterOffsetEnd=648 PartOfSpeech=IN] [Text=her CharacterOffsetBegin=649 CharacterOffsetEnd=652 PartOfSpeech=PRP$] [Text=other CharacterOffsetBegin=653 CharacterOffsetEnd=658 PartOfSpeech=JJ] [Text=friends CharacterOffsetBegin=659 CharacterOffsetEnd=666 PartOfSpeech=NNS] [Text=. CharacterOffsetBegin=666 CharacterOffsetEnd=667 PartOfSpeech=.] 
+root(ROOT-0, liked-3)
+nsubj(liked-3, I-1)
+neg(liked-3, never-2)
+dobj(liked-3, Morgan-4)
+cc(Morgan-4, or-5)
+conj(Morgan-4, Roxy-6)
+punct(Morgan-4, ,-7)
+nsubj(good-13, they-8)
+advmod(good-13, just-9)
+cop(good-13, were-10)
+neg(good-13, n't-11)
+advmod(good-13, as-12)
+rcmod(Morgan-4, good-13)
+prep(good-13, as-14)
+poss(friends-17, her-15)
+amod(friends-17, other-16)
+pobj(as-14, friends-17)
+punct(liked-3, .-18)
+

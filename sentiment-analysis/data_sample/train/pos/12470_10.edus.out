@@ -1,0 +1,200 @@
+Sentence #1 (8 tokens):
+i just saw this movie on TV.
+[Text=i CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=LS] [Text=just CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=RB] [Text=saw CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=VBD] [Text=this CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=NN] [Text=on CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN] [Text=TV CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.] 
+root(ROOT-0, saw-3)
+nsubj(saw-3, i-1)
+advmod(saw-3, just-2)
+det(movie-5, this-4)
+dobj(saw-3, movie-5)
+prep(saw-3, on-6)
+pobj(on-6, TV-7)
+punct(saw-3, .-8)
+
+Sentence #2 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #3 (17 tokens):
+i've lost my dad when i was young and this movie surely did touch me.
+[Text=i CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=LS] [Text='ve CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=VBP] [Text=lost CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=VBN] [Text=my CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=PRP$] [Text=dad CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=NN] [Text=when CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=WRB] [Text=i CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=FW] [Text=was CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=VBD] [Text=young CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=JJ] [Text=and CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=CC] [Text=this CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=DT] [Text=movie CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NN] [Text=surely CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=RB] [Text=did CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=VBD] [Text=touch CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=VB] [Text=me CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=.] 
+root(ROOT-0, lost-3)
+nsubj(lost-3, i-1)
+aux(lost-3, 've-2)
+poss(dad-5, my-4)
+dobj(lost-3, dad-5)
+advmod(young-9, when-6)
+nsubj(young-9, i-7)
+cop(young-9, was-8)
+advcl(lost-3, young-9)
+cc(young-9, and-10)
+det(movie-12, this-11)
+nsubj(touch-15, movie-12)
+advmod(touch-15, surely-13)
+aux(touch-15, did-14)
+conj(young-9, touch-15)
+dobj(touch-15, me-16)
+punct(lost-3, .-17)
+
+Sentence #4 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #5 (12 tokens):
+i can feel the lost that the little girl Desi felt.
+[Text=i CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=LS] [Text=can CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=MD] [Text=feel CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=VB] [Text=the CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=DT] [Text=lost CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=VBN] [Text=that CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=DT] [Text=little CharacterOffsetBegin=132 CharacterOffsetEnd=138 PartOfSpeech=JJ] [Text=girl CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=NN] [Text=Desi CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=NNS] [Text=felt CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=VBD] [Text=. CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=.] 
+root(ROOT-0, feel-3)
+nsubj(feel-3, i-1)
+aux(feel-3, can-2)
+dobj(feel-3, the-4)
+partmod(the-4, lost-5)
+mark(felt-11, that-6)
+det(Desi-10, the-7)
+amod(Desi-10, little-8)
+nn(Desi-10, girl-9)
+nsubj(felt-11, Desi-10)
+ccomp(lost-5, felt-11)
+punct(feel-3, .-12)
+
+Sentence #6 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #7 (10 tokens):
+the feeling of wanting to see her father again.
+[Text=the CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=DT] [Text=feeling CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=NN] [Text=of CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN] [Text=wanting CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=TO] [Text=see CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=PRP$] [Text=father CharacterOffsetBegin=189 CharacterOffsetEnd=195 PartOfSpeech=NN] [Text=again CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=RB] [Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=.] 
+root(ROOT-0, feeling-2)
+det(feeling-2, the-1)
+prep(feeling-2, of-3)
+pcomp(of-3, wanting-4)
+aux(see-6, to-5)
+xcomp(wanting-4, see-6)
+poss(father-8, her-7)
+dobj(see-6, father-8)
+advmod(see-6, again-9)
+punct(feeling-2, .-10)
+
+Sentence #8 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #9 (6 tokens):
+wanting to talk to him.
+[Text=wanting CharacterOffsetBegin=203 CharacterOffsetEnd=210 PartOfSpeech=VBG] [Text=to CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=TO] [Text=talk CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=VB] [Text=to CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=TO] [Text=him CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=.] 
+root(ROOT-0, wanting-1)
+aux(talk-3, to-2)
+xcomp(wanting-1, talk-3)
+prep(talk-3, to-4)
+pobj(to-4, him-5)
+punct(wanting-1, .-6)
+
+Sentence #10 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #11 (10 tokens):
+or at least given the chance to say goodbye.
+[Text=or CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=CC] [Text=at CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=IN] [Text=least CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=JJS] [Text=given CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=VBN] [Text=the CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=DT] [Text=chance CharacterOffsetBegin=249 CharacterOffsetEnd=255 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=TO] [Text=say CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=VB] [Text=goodbye CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.] 
+root(ROOT-0, given-4)
+cc(given-4, or-1)
+advmod(given-4, at-2)
+pobj(at-2, least-3)
+det(chance-6, the-5)
+dobj(given-4, chance-6)
+aux(say-8, to-7)
+infmod(chance-6, say-8)
+dobj(say-8, goodbye-9)
+punct(given-4, .-10)
+
+Sentence #12 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #13 (15 tokens):
+and i'm so touched with the letter that was wrote back to her.
+[Text=and CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=CC] [Text=i CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=FW] [Text='m CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=VBP] [Text=so CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=RB] [Text=touched CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=VBN] [Text=with CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=IN] [Text=the CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=DT] [Text=letter CharacterOffsetBegin=300 CharacterOffsetEnd=306 PartOfSpeech=NN] [Text=that CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=WDT] [Text=was CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=VBD] [Text=wrote CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=VBD] [Text=back CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=TO] [Text=her CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=PRP] [Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=.] 
+root(ROOT-0, touched-5)
+cc(touched-5, and-1)
+nsubjpass(touched-5, i-2)
+auxpass(touched-5, 'm-3)
+advmod(touched-5, so-4)
+prep(touched-5, with-6)
+det(letter-8, the-7)
+pobj(with-6, letter-8)
+nsubjpass(wrote-11, that-9)
+auxpass(wrote-11, was-10)
+rcmod(letter-8, wrote-11)
+advmod(wrote-11, back-12)
+prep(back-12, to-13)
+pobj(to-13, her-14)
+punct(touched-5, .-15)
+
+Sentence #14 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #15 (31 tokens):
+saying that her father read her letter, and sent it back to someone to reply her and buy her a present because there isn't a shop in heaven.
+[Text=saying CharacterOffsetBegin=335 CharacterOffsetEnd=341 PartOfSpeech=VBG] [Text=that CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=DT] [Text=her CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=PRP$] [Text=father CharacterOffsetBegin=351 CharacterOffsetEnd=357 PartOfSpeech=NN] [Text=read CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=VBD] [Text=her CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=PRP$] [Text=letter CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NN] [Text=, CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=,] [Text=and CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=CC] [Text=sent CharacterOffsetBegin=379 CharacterOffsetEnd=383 PartOfSpeech=VBD] [Text=it CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=PRP] [Text=back CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=RB] [Text=to CharacterOffsetBegin=392 CharacterOffsetEnd=394 PartOfSpeech=TO] [Text=someone CharacterOffsetBegin=395 CharacterOffsetEnd=402 PartOfSpeech=NN] [Text=to CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=TO] [Text=reply CharacterOffsetBegin=406 CharacterOffsetEnd=411 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=412 CharacterOffsetEnd=415 PartOfSpeech=PRP] [Text=and CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=CC] [Text=buy CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=VB] [Text=her CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=PRP] [Text=a CharacterOffsetBegin=428 CharacterOffsetEnd=429 PartOfSpeech=DT] [Text=present CharacterOffsetBegin=430 CharacterOffsetEnd=437 PartOfSpeech=JJ] [Text=because CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=IN] [Text=there CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=EX] [Text=is CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=VBZ] [Text=n't CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=RB] [Text=a CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=DT] [Text=shop CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=NN] [Text=in CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=IN] [Text=heaven CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=NN] [Text=. CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=.] 
+root(ROOT-0, saying-1)
+mark(read-5, that-2)
+poss(father-4, her-3)
+nsubj(read-5, father-4)
+ccomp(saying-1, read-5)
+poss(letter-7, her-6)
+dobj(read-5, letter-7)
+punct(saying-1, ,-8)
+cc(saying-1, and-9)
+conj(saying-1, sent-10)
+dobj(sent-10, it-11)
+advmod(sent-10, back-12)
+prep(back-12, to-13)
+pobj(to-13, someone-14)
+aux(reply-16, to-15)
+infmod(someone-14, reply-16)
+dobj(reply-16, her-17)
+cc(reply-16, and-18)
+conj(reply-16, buy-19)
+iobj(buy-19, her-20)
+det(present-22, a-21)
+dobj(buy-19, present-22)
+mark(is-25, because-23)
+expl(is-25, there-24)
+advcl(saying-1, is-25)
+neg(is-25, n't-26)
+det(shop-28, a-27)
+nsubj(is-25, shop-28)
+prep(shop-28, in-29)
+pobj(in-29, heaven-30)
+punct(saying-1, .-31)
+
+Sentence #16 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=475 CharacterOffsetEnd=476 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
+Sentence #17 (10 tokens):
+it just lets me feel that miracles do exist.
+[Text=it CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=PRP] [Text=just CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=RB] [Text=lets CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=VBZ] [Text=me CharacterOffsetBegin=489 CharacterOffsetEnd=491 PartOfSpeech=PRP] [Text=feel CharacterOffsetBegin=492 CharacterOffsetEnd=496 PartOfSpeech=VB] [Text=that CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=IN] [Text=miracles CharacterOffsetBegin=502 CharacterOffsetEnd=510 PartOfSpeech=NNS] [Text=do CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=VBP] [Text=exist CharacterOffsetBegin=514 CharacterOffsetEnd=519 PartOfSpeech=VB] [Text=. CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=.] 
+root(ROOT-0, lets-3)
+nsubj(lets-3, it-1)
+advmod(lets-3, just-2)
+nsubj(feel-5, me-4)
+ccomp(lets-3, feel-5)
+mark(exist-9, that-6)
+nsubj(exist-9, miracles-7)
+aux(exist-9, do-8)
+ccomp(feel-5, exist-9)
+punct(lets-3, .-10)
+
+Sentence #18 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=.] 
+root(ROOT-0, .-1)
+
